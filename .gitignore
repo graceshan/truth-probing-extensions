@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# Project-specific
+activations/
+*.pt
+*.npy
+*.pkl
+data/raw/
+wandb/
+
+# OS / editor
+.DS_Store
+.vscode/
