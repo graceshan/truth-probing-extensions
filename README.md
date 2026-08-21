@@ -25,7 +25,7 @@ question for compound statements.
 - [ ] Nested three-fact statements mixing "and" with "or"
 - [ ] Scale sweep across model sizes
 - [ ] TTPD and mass-mean probes alongside logistic regression
-- [ ] Cross-domain compounds beyond citie- [ ] Cross-domain compounds beyond citie- [ ] Cross-domain compounds beyo requirements.txt
+- [ ] Cross-domain compounds beyond cities
 
 ## References
 
