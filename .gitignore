@@ -15,6 +15,10 @@ acts/*.npy
 *.pt
 *.pkl
 
+# Upstream data repo — cloned as a sibling, not vendored. Safeguard in case it
+# ever gets cloned inside this repo: never track the whole third-party repo.
+/Truth_is_Universal/
+
 # OS / editor
 .DS_Store
 .vscode/

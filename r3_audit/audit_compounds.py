@@ -18,9 +18,9 @@ import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))          # .../truth-probing-extensions/r3_audit
 REPO = os.path.dirname(HERE)                               # repo root
-# Bürger's released CSVs — cloned as a sibling of this repo; override with $TIU_DATASETS
-DATA = os.environ.get("TIU_DATASETS",
-                      os.path.normpath(os.path.join(REPO, "..", "Truth_is_Universal", "datasets")))
+# Bürger's released CSVs. Default: the vendored 18-CSV slice in data/tiu_datasets/
+# (see its PROVENANCE.md). Override with $TIU_DATASETS to run against a full clone.
+DATA = os.environ.get("TIU_DATASETS", os.path.join(REPO, "data", "tiu_datasets"))
 OUT = HERE                                                 # per-dataset dumps land next to this script
 SUMMARY_CSV = os.path.join(REPO, "r3_cell_counts.csv")     # summary at repo root (README's r3_cell_counts.*)
 os.makedirs(OUT, exist_ok=True)
