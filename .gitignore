@@ -8,13 +8,12 @@ env/
 *.egg-info/
 .pytest_cache/
 
-# Project-specific
-activations/
-*.pt
+# Activation dumps: never commit the arrays; DO keep the parallel label CSVs
+# (acts/{dataset}.csv) so a checkpoint stays interpretable without the .npy.
+acts/*.npy
 *.npy
+*.pt
 *.pkl
-data/raw/
-wandb/
 
 # OS / editor
 .DS_Store

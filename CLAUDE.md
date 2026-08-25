@@ -1,54 +1,57 @@
 # Project: Truth-Probing Extensions
 
-Follow-on to the `truth-probing` project (sibling repo). Extends the compound-statement
-analysis toward nested three-fact statements like `(A and B) or C`, which break the
-conjunct-counting degeneracy that within-connective evaluation can't detect.
+Does a linear truth probe read a compound's truth value, or a weighted average of
+its conjuncts' scores plus a connective offset? See `README.md` for the four arms
+(R3 audit, Figure 1, R1 decomposition, R2 XOR) and the research plan. This file
+documents the working conventions; the README is the plan of record.
 
-## Workflow / environment
-- GPU activation extraction runs on Colab via `notebooks/extract_colab.ipynb`.
-  Everything else runs locally on CPU from saved `.npy` files in `data/activations/`
-  (gitignored). NEVER load the model locally.
-- Extraction produces, per dataset: `<name>_acts.npy` and `<name>_labels.npy` in
-  `data/activations/`.
+- **Model:** Qwen2.5-7B-Instruct (primary), Llama-3.1-8B-Instruct (reserve).
+- **Status:** no model is loaded and no GPU torch build is installed yet.
+  Extraction runs later on Runpod; local work is CPU-only (analysis from saved
+  `acts/*.npy`). Do not install a CUDA torch wheel or download model weights
+  without being asked.
 
-## Core conventions (the copied `src/` relies on these)
-- **Activations**: shape `[n_statements, n_layers, d_model]`, `resid_post`, LAST token.
-- **SIGN CONVENTION**: all directions oriented so positive = true/honest side. With
-  labels `{0, 1}` (1 = true), both the diff-in-means direction and sklearn's logistic
-  decision function come out correctly oriented; `src/probes.py` asserts
-  `classes_ == [0, 1]` to keep this guarantee.
-- **Probes**: `LogisticRegression(max_iter=2000, C=0.1)`. Split indices once and reuse
-  across every layer so accuracy is comparable layer-to-layer.
-- **Directions** stored as unit vectors (`d / np.linalg.norm(d)`).
-- **Datasets**: Geometry of Truth CSVs under `geometry-of-truth/datasets/`, columns
-  `statement`, `label` (1 = true). Only the CSVs needed here are vendored (cities,
-  neg_cities, sp_en_trans) plus `make_conj_disj.py`; the full GoT repo is not.
-- **Model** (extraction only): Qwen2.5-1.5B base, HF handoff +
-  `from_pretrained_no_processing`, fp16.
+## Compute workflow — tmux + ipython persistent kernel
 
-## Probe-fitting conventions, by use (carried from the source project)
-Two conventions coexist deliberately — do not describe them as uniform:
-- **Within-dataset accuracy/AUROC/control**: group-level train/test split (by city /
-  Spanish word, via `src.data.group_key` + `src.probes.split_indices(..., groups=...)`),
-  aggregated across seeds (mean + t-distribution 95% CI, `src.stats.seed_mean_ci`).
-  Group-level splitting prevents the same entity's true/false pair landing on both
-  sides of a split.
-- **Cross-dataset transfer / compound analysis**: the source probe fits on ALL of the
-  source dataset (`src.probes.fit_probe`, no held-out split), since the evaluation set
-  is a different dataset. Uncertainty comes from evaluation-side bootstrap instead
-  (resample the eval set, 1000 resamples, percentile interval), source probe held fixed.
-- **Conjunct regression** (`scripts/06_conjunct_regression.py`) is the odd one out: it
-  fits the cities probe via `train_layer_probe` on the standard 80/20 (row-level) split.
-  Kept as-is from the source rather than "fixed" to match the transfer convention.
+The 7B model is expensive to load, so it lives in one long-running IPython kernel
+inside a tmux session; every command is sent to that same kernel.
 
-## Uncertainty helpers (`src/stats.py`)
-- `seed_mean_ci`: t-distribution CI across a small number of seed-level point estimates.
-- `percentile_bootstrap`: resample-and-recompute for ratios / differences / regression
-  coefficients whose sampling distribution isn't analytic. The reported point estimate
-  always comes from the original unresampled computation; the bootstrap only supplies
-  (lo, hi).
-- `assert_unchanged`: point-estimate regression check — adding a bootstrap must never
-  move the original computation (atol 1e-6, above threading-induced last-bit noise).
+- **One tmux session, one IPython kernel.** Start the GPU box's session
+  (e.g. `tmux new -s tiu`), launch `ipython` in it, and run everything there.
+  Reattach with `tmux attach -t tiu`; never open a second kernel that reloads the
+  model in parallel.
+- **Load the model exactly once**, at the top of the session, into a module-level
+  variable that persists across cells. Reuse it for the whole run.
+- **Never restart the kernel or kill the tmux session without asking first.**
+  A restart evicts the 7B weights from GPU memory and costs a full reload; if a
+  restart seems necessary (OOM, wedged state), surface it and wait for the go-ahead.
+- **Long extractions run detached** in the tmux session so a dropped SSH
+  connection doesn't kill them.
 
-## Figures
-Saved at `dpi=150`. Never commit `.npy` activation files.
+## Plots
+
+- **Save every plot to a PNG under `figures/`** with `plt.savefig(path, dpi=150,
+  bbox_inches="tight")` — the session is headless, so nothing renders interactively.
+  Never rely on `plt.show()`. Name figures for the arm/quantity they support.
+
+## Activation checkpoints
+
+- **Checkpoint activations to `acts/{dataset}.npy`**, all layers, **fp16**
+  (`np.float16`) — shape `[n_statements, n_layers, d_model]`, hidden state at the
+  **last token**, one row per statement.
+- **Write a parallel CSV `acts/{dataset}.csv`** alongside each `.npy` with columns
+  `statement,label` (label 1 = true), in the **same row order** as the array's
+  first axis, so a checkpoint is self-describing without re-running extraction.
+- `acts/*.npy` are git-ignored (large, regenerable); the parallel CSVs are
+  committed so labels/order survive in git.
+- Re-extraction is a GPU job — treat existing checkpoints as the source of truth
+  for CPU analysis rather than regenerating them.
+
+## Probe / analysis conventions
+
+- **Labels** are `{0, 1}` with 1 = true. Orient every direction so positive = true;
+  sklearn's logistic decision function is already oriented this way when
+  `classes_ == [0, 1]`.
+- **Atom scores and compound scores in any single formula come from the same probe
+  on the same scale** (see README §"Which probe does what"). Name the probe behind
+  every reported number.
