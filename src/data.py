@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 DEFAULT_DATASETS_DIR = "geometry-of-truth/datasets"
-DEFAULT_ACTIVATIONS_DIR = "data/activations"
+DEFAULT_ACTS_DIR = "acts"
 
 
 def load_statements(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> pd.DataFrame:
@@ -32,13 +32,20 @@ def group_key(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> np.ndarray
 
 
 def load_activations(
-    name: str, activations_dir: str = DEFAULT_ACTIVATIONS_DIR
+    name: str, acts_dir: str = DEFAULT_ACTS_DIR
 ) -> tuple[np.ndarray, np.ndarray]:
-    """Load saved activations + labels for a dataset.
+    """Load a saved checkpoint's activations + labels for a dataset.
+
+    Reads the CLAUDE.md checkpoint pair written by src/extract.py: the fp16
+    array acts/{name}.npy and the parallel acts/{name}.csv whose `label` column
+    is in the same row order as the array's first axis.
 
     Returns (acts, labels) where acts has shape [n_statements, n_layers, d_model]
-    (resid_post, last token) and labels is [n_statements] (1 = true).
+    (last-token hidden state, every layer) and labels is [n_statements] (1 = true).
     """
-    acts = np.load(f"{activations_dir}/{name}_acts.npy")
-    labels = np.load(f"{activations_dir}/{name}_labels.npy")
+    acts = np.load(f"{acts_dir}/{name}.npy")
+    labels = pd.read_csv(f"{acts_dir}/{name}.csv")["label"].to_numpy()
+    assert len(labels) == acts.shape[0], (
+        f"{name}: {len(labels)} CSV labels but {acts.shape[0]} activation rows"
+    )
     return acts, labels
