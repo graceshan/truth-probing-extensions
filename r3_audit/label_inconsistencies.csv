@@ -1,0 +1,160 @@
+dataset,idx,statement,operandA,operandB,labelA,labelB,cell,compound_label
+cities_disj,41,It is the case either that the city of Foshan is in Mozambique or that it is in China.,Mozambique,China,0,1,FT,0
+cities_disj,90,It is the case either that the city of Luohe is in China or that it is in Brazil.,China,Brazil,1,0,TF,0
+cities_disj,92,It is the case either that the city of Abobo is in Côte Korea or that it is in d'Ivoire.,Côte Korea,d'Ivoire,0,0,FF,1
+cities_disj,124,It is the case either that the city of Shijiazhuang is in China or that it is in Uzbekistan.,China,Uzbekistan,1,0,TF,0
+cities_disj,125,It is the case either that the city of Deyang is in Japan or that it is in China.,Japan,China,0,1,FT,0
+cities_disj,128,It is the case either that the city of Lanzhou is in Mexico or that it is in China.,Mexico,China,0,1,FT,0
+cities_disj,138,It is the case either that the city of Yangjiang is in China or that it is in Indonesia.,China,Indonesia,1,0,TF,0
+cities_disj,149,It is the case either that the city of Tembisa is in South Japan or that it is in Africa.,South Japan,Africa,0,0,FF,1
+cities_disj,183,It is the case either that the city of Hegang is in Russia or that it is in China.,Russia,China,0,1,FT,0
+cities_disj,184,It is the case either that the city of Daejeon is in South India or that it is in Korea.,South India,Korea,0,0,FF,1
+cities_disj,185,It is the case either that the city of Sapporo is in Japan or that it is in Mexico.,Japan,Mexico,1,0,TF,0
+cities_disj,247,It is the case either that the city of Fukuoka is in Senegal or that it is in Japan.,Senegal,Japan,0,1,FT,0
+cities_disj,273,It is the case either that the city of Zhangye is in Venezuela or that it is in China.,Venezuela,China,0,1,FT,0
+cities_disj,274,It is the case either that the city of Da Nang is in Vietnam or that it is in China.,Vietnam,China,1,0,TF,0
+cities_disj,299,It is the case either that the city of Cape Town is in South Bangladesh or that it is in Africa.,South Bangladesh,Africa,0,0,FF,1
+cities_disj,310,It is the case either that the city of Luancheng is in China or that it is in Brazil.,China,Brazil,1,0,TF,0
+cities_disj,322,It is the case either that the city of Rui'an is in Indonesia or that it is in China.,Indonesia,China,0,1,FT,0
+cities_disj,324,It is the case either that the city of Jinan is in China or that it is in Rwanda.,China,Rwanda,1,0,TF,0
+cities_disj,354,It is the case either that the city of Mbuji-Mayi is in the Democratic Republic of the Iraq or that it is in Congo.,the Democratic Republic of the Iraq,Congo,0,0,FF,1
+cities_disj,366,It is the case either that the city of Ningbo is in South Korea or that it is in China.,South Korea,China,0,1,FT,0
+cities_disj,369,It is the case either that the city of Seattle is in the United Arabia or that it is in States.,the United Arabia,States,0,0,FF,1
+cities_disj,370,It is the case either that the city of Longyan is in Benin or that it is in China.,Benin,China,0,1,FT,0
+cities_disj,371,It is the case either that the city of Suwon is in South China or that it is in Korea.,South China,Korea,0,0,FF,1
+cities_disj,393,It is the case either that the city of Jinan is in China or that it is in Rwanda.,China,Rwanda,1,0,TF,0
+cities_disj,436,It is the case either that the city of Zhanjiang is in China or that it is in India.,China,India,1,0,TF,0
+cities_disj,444,It is the case either that the city of Dhanbad is in India or that it is in Kenya.,India,Kenya,1,0,TF,0
+cities_disj,456,It is the case either that the city of Jiaozuo is in Bangladesh or that it is in China.,Bangladesh,China,0,1,FT,0
+cities_disj,480,It is the case either that the city of Sanming is in Bulgaria or that it is in China.,Bulgaria,China,0,1,FT,0
+element_symb_disj,56,It is the case either that Lead has the symbol Pb or that it has the symbol Na.,Pb,Na,1,0,TF,0
+element_symb_disj,132,It is the case either that Barium has the symbol Sb or that it has the symbol Ba.,Sb,Ba,0,1,FT,0
+element_symb_disj,349,It is the case either that Scandium has the symbol Rn or that it has the symbol Sc.,Rn,Sc,0,1,FT,0
+inventors_disj,22,It is the case either that Edwin H. Land lived in the U.S or that he/she lived in Sweden.,the U.S,Sweden,1,0,TF,0
+inventors_disj,30,It is the case either that Joseph Aspdin lived in the U.K or that he/she lived in Switzerland.,the U.K,Switzerland,1,0,TF,0
+inventors_disj,78,It is the case either that James Murray Spangler lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,0
+inventors_disj,101,It is the case either that Joseph Henry lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,0
+inventors_disj,108,It is the case either that Christopher Cockerell lived in France or that he/she lived in the U.K.,France,the U.K,0,1,FT,0
+inventors_disj,122,It is the case either that Charles Francis Jenkins lived in the U.S or that he/she lived in Germany.,the U.S,Germany,1,0,TF,0
+inventors_disj,163,It is the case either that Josephine Cochrane lived in the U.S or that he/she lived in Germany.,the U.S,Germany,1,0,TF,0
+inventors_disj,181,It is the case either that Ferdinand Carré lived in France or that he/she lived in the U.S.,France,the U.S,1,0,TF,0
+inventors_disj,201,It is the case either that Charles Francis Richter lived in France or that he/she lived in the U.S.,France,the U.S,0,1,FT,0
+inventors_disj,252,It is the case either that Alec Jeffreys lived in France or that he/she lived in the U.K.,France,the U.K,0,1,FT,0
+inventors_disj,270,It is the case either that John Wesley Hyatt lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,0
+inventors_disj,273,It is the case either that Chester Carlson lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0
+inventors_disj,275,It is the case either that Frederick Walton lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,1,0,TF,0
+inventors_disj,292,It is the case either that Albert Ghiorso lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0
+inventors_disj,298,It is the case either that Sir Isaac Newton lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,0,1,FT,0
+inventors_disj,305,It is the case either that Leon Theremin lived in Russia or that he/she lived in Germany.,Russia,Germany,1,0,TF,0
+inventors_disj,307,It is the case either that Ada Lovelace lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,0,1,FT,0
+inventors_disj,352,It is the case either that Josephine Cochrane lived in Germany or that he/she lived in the U.S.,Germany,the U.S,0,1,FT,0
+inventors_disj,377,It is the case either that Florence Parpart lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0
+inventors_disj,397,It is the case either that Rudolf Diesel lived in the U.S or that he/she lived in Germany.,the U.S,Germany,0,1,FT,0
+inventors_disj,404,It is the case either that Edwin Link lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0
+inventors_disj,405,It is the case either that Nicolas Appert lived in France or that he/she lived in Russia.,France,Russia,1,0,TF,0
+inventors_disj,419,It is the case either that Sergey Brin and Larry Page lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,0
+inventors_disj,422,It is the case either that Josephine Cochrane lived in the U.S or that he/she lived in Germany.,the U.S,Germany,1,0,TF,0
+inventors_disj,430,It is the case either that Willis Carrier lived in the U.S or that he/she lived in Italy.,the U.S,Italy,1,0,TF,0
+inventors_disj,433,It is the case either that Samuel Morse lived in Germany or that he/she lived in the U.S.,Germany,the U.S,0,1,FT,0
+inventors_disj,450,It is the case either that Samuel Morse lived in Germany or that he/she lived in the U.S.,Germany,the U.S,0,1,FT,0
+inventors_disj,452,It is the case either that Charles Townes lived in Russia or that he/she lived in the U.S.,Russia,the U.S,0,1,FT,0
+inventors_disj,463,It is the case either that Samuel Morse lived in Germany or that he/she lived in the U.S.,Germany,the U.S,0,1,FT,0
+inventors_disj,474,It is the case either that James Starley lived in Sweden/the U.S or that he/she lived in the U.K.,Sweden/the U.S,the U.K,0,1,FT,0
+inventors_disj,484,It is the case either that Richard Gatling lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0
+inventors_disj,496,It is the case either that John Kay lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,0,1,FT,0
+animal_class_disj,1,It is the case either that the gazelle is a mammal or that it is a mollusk.,mammal,mollusk,1,0,TF,0
+animal_class_disj,3,It is the case either that the platypus is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,8,It is the case either that the porcupine is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,18,It is the case either that the kangaroo is a crustacean or that it is a mammal.,crustacean,mammal,0,1,FT,0
+animal_class_disj,19,It is the case either that the cheetah is a insect or that it is a mammal.,insect,mammal,0,1,FT,0
+animal_class_disj,23,It is the case either that the bee is a insect or that it is a bird.,insect,bird,1,0,TF,0
+animal_class_disj,35,It is the case either that the crocodile is a reptile or that it is a mammal.,reptile,mammal,1,0,TF,0
+animal_class_disj,45,It is the case either that the parrot is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,53,It is the case either that the hyena is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,65,It is the case either that the zebra is a fish or that it is a mammal.,fish,mammal,0,1,FT,0
+animal_class_disj,66,It is the case either that the raccoon is a mammal or that it is a mollusk.,mammal,mollusk,1,0,TF,0
+animal_class_disj,70,It is the case either that the squirrel is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,71,It is the case either that the peacock is a bird or that it is a mammal.,bird,mammal,1,0,TF,0
+animal_class_disj,78,It is the case either that the koala is a mammal or that it is a fish.,mammal,fish,1,0,TF,0
+animal_class_disj,83,It is the case either that the flamingo is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,84,It is the case either that the peacock is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,87,It is the case either that the dolphin is a mammal or that it is a crustacean.,mammal,crustacean,1,0,TF,0
+animal_class_disj,94,It is the case either that the rat is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,95,It is the case either that the giraffe is a mammal or that it is a crustacean.,mammal,crustacean,1,0,TF,0
+animal_class_disj,96,It is the case either that the rat is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,97,It is the case either that the hamster is a mammal or that it is a fish.,mammal,fish,1,0,TF,0
+animal_class_disj,98,It is the case either that the kangaroo is a mammal or that it is a crustacean.,mammal,crustacean,1,0,TF,0
+animal_class_disj,99,It is the case either that the iguana is a bird or that it is a reptile.,bird,reptile,0,1,FT,0
+animal_class_disj,107,It is the case either that the pigeon is a bird or that it is a mammal.,bird,mammal,1,0,TF,0
+animal_class_disj,109,It is the case either that the pigeon is a bird or that it is a mammal.,bird,mammal,1,0,TF,0
+animal_class_disj,113,It is the case either that the lion is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,115,It is the case either that the dog is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,122,It is the case either that the skunk is a reptile or that it is a mammal.,reptile,mammal,0,1,FT,0
+animal_class_disj,125,It is the case either that the cheetah is a mammal or that it is a insect.,mammal,insect,1,0,TF,0
+animal_class_disj,129,It is the case either that the narwhal is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,133,It is the case either that the cheetah is a insect or that it is a mammal.,insect,mammal,0,1,FT,0
+animal_class_disj,134,It is the case either that the horse is a mollusk or that it is a mammal.,mollusk,mammal,0,1,FT,0
+animal_class_disj,137,It is the case either that the camel is a mammal or that it is a amphibian.,mammal,amphibian,1,0,TF,0
+animal_class_disj,140,It is the case either that the kangaroo is a crustacean or that it is a mammal.,crustacean,mammal,0,1,FT,0
+animal_class_disj,147,It is the case either that the armadillo is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,0
+animal_class_disj,148,It is the case either that the flamingo is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,172,It is the case either that the leopard is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,175,It is the case either that the swan is a reptile or that it is a bird.,reptile,bird,0,1,FT,0
+animal_class_disj,178,It is the case either that the gazelle is a mammal or that it is a mollusk.,mammal,mollusk,1,0,TF,0
+animal_class_disj,180,It is the case either that the tapir is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,187,It is the case either that the rabbit is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,188,It is the case either that the rhinoceros is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,0
+animal_class_disj,192,It is the case either that the dolphin is a crustacean or that it is a mammal.,crustacean,mammal,0,1,FT,0
+animal_class_disj,200,It is the case either that the platypus is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,205,It is the case either that the tuna is a fish or that it is a mammal.,fish,mammal,1,0,TF,0
+animal_class_disj,208,It is the case either that the whale is a fish or that it is a mammal.,fish,mammal,0,1,FT,0
+animal_class_disj,211,It is the case either that the pigeon is a bird or that it is a mammal.,bird,mammal,1,0,TF,0
+animal_class_disj,215,It is the case either that the camel is a mammal or that it is a amphibian.,mammal,amphibian,1,0,TF,0
+animal_class_disj,226,It is the case either that the zebra is a fish or that it is a mammal.,fish,mammal,0,1,FT,0
+animal_class_disj,233,It is the case either that the raccoon is a mollusk or that it is a mammal.,mollusk,mammal,0,1,FT,0
+animal_class_disj,242,It is the case either that the goat is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,245,It is the case either that the armadillo is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,0
+animal_class_disj,255,It is the case either that the hippopotamus is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,0
+animal_class_disj,265,It is the case either that the lion is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,267,It is the case either that the eagle is a bird or that it is a mammal.,bird,mammal,1,0,TF,0
+animal_class_disj,269,It is the case either that the dog is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,271,It is the case either that the alpaca is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,272,It is the case either that the leopard is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,276,It is the case either that the mongoose is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,280,It is the case either that the lion is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,282,It is the case either that the porcupine is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,284,It is the case either that the aardvark is a fish or that it is a mammal.,fish,mammal,0,1,FT,0
+animal_class_disj,287,It is the case either that the goat is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,289,It is the case either that the swan is a bird or that it is a reptile.,bird,reptile,1,0,TF,0
+animal_class_disj,301,It is the case either that the gorilla is a amphibian or that it is a mammal.,amphibian,mammal,0,1,FT,0
+animal_class_disj,304,It is the case either that the penguin is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,307,It is the case either that the moose is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,319,It is the case either that the camel is a mammal or that it is a amphibian.,mammal,amphibian,1,0,TF,0
+animal_class_disj,320,It is the case either that the cow is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,329,It is the case either that the cow is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,331,It is the case either that the gazelle is a mammal or that it is a mollusk.,mammal,mollusk,1,0,TF,0
+animal_class_disj,355,It is the case either that the cow is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,365,It is the case either that the mongoose is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,367,It is the case either that the bat is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,370,It is the case either that the skunk is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,0
+animal_class_disj,380,It is the case either that the platypus is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,403,It is the case either that the aardvark is a fish or that it is a mammal.,fish,mammal,0,1,FT,0
+animal_class_disj,405,It is the case either that the walrus is a mammal or that it is a mollusk.,mammal,mollusk,1,0,TF,0
+animal_class_disj,406,It is the case either that the mongoose is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,408,It is the case either that the flamingo is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,409,It is the case either that the alpaca is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,419,It is the case either that the hamster is a mammal or that it is a fish.,mammal,fish,1,0,TF,0
+animal_class_disj,420,It is the case either that the wolverine is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,423,It is the case either that the deer is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,432,It is the case either that the narwhal is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,441,It is the case either that the chicken is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,443,It is the case either that the hedgehog is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,451,It is the case either that the beaver is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,456,It is the case either that the lion is a bird or that it is a mammal.,bird,mammal,0,1,FT,0
+animal_class_disj,464,It is the case either that the hummingbird is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,471,It is the case either that the alpaca is a mammal or that it is a bird.,mammal,bird,1,0,TF,0
+animal_class_disj,473,It is the case either that the tiger is a amphibian or that it is a mammal.,amphibian,mammal,0,1,FT,0
+animal_class_disj,480,It is the case either that the parrot is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,484,It is the case either that the sparrow is a mammal or that it is a bird.,mammal,bird,0,1,FT,0
+animal_class_disj,494,It is the case either that the tiger is a amphibian or that it is a mammal.,amphibian,mammal,0,1,FT,0
+facts_conj,182,It is the case both that Fossils provide evidence of past life on Earth and that the Nile River is the longest river in the world.,Fossils provide evidence of past life on Earth,the Nile River is the longest river in the world,1,0,TF,1

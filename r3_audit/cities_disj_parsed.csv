@@ -1,0 +1,501 @@
+idx,statement,subject,disjunctA_obj,disjunctB_obj,labelA,labelB,compound_label,n_parts
+0,It is the case either that the city of Diyarbakir is in Japan or that it is in Colombia.,Diyarbakir,Japan,Colombia,0,0,0,2
+1,It is the case either that the city of Warri is in China or that it is in Africa.,Warri,China,Africa,0,0,0,2
+2,It is the case either that the city of Klang is in India or that it is in Malaysia.,Klang,India,Malaysia,0,1,1,2
+3,It is the case either that the city of Turin is in Moldova or that it is in Italy.,Turin,Moldova,Italy,0,1,1,2
+4,It is the case either that the city of Ebute Ikorodu is in China or that it is in Mexico.,Ebute Ikorodu,China,Mexico,0,0,0,2
+5,It is the case either that the city of Multan is in States or that it is in Pakistan.,Multan,States,Pakistan,0,1,1,2
+6,It is the case either that the city of Hiroshima is in Japan or that it is in Pakistan.,Hiroshima,Japan,Pakistan,1,0,1,2
+7,It is the case either that the city of Pimpri is in Japan or that it is in China.,Pimpri,Japan,China,0,0,0,2
+8,It is the case either that the city of Vijayawada is in India or that it is in Indonesia.,Vijayawada,India,Indonesia,1,0,1,2
+9,It is the case either that the city of Onitsha is in China or that it is in Vietnam.,Onitsha,China,Vietnam,0,0,0,2
+10,It is the case either that the city of Oklahoma City is in Brazil or that it is in China.,Oklahoma City,Brazil,China,0,0,0,2
+11,It is the case either that the city of Korla is in Azerbaijan or that it is in Russia.,Korla,Azerbaijan,Russia,0,0,0,2
+12,It is the case either that the city of Ningbo is in South China or that it is in Korea.,Ningbo,South China,Korea,0,0,0,2
+13,It is the case either that the city of Libreville is in Gabon or that it is in Eritrea.,Libreville,Gabon,Eritrea,1,0,1,2
+14,It is the case either that the city of Rourkela is in India or that it is in States.,Rourkela,India,States,1,0,1,2
+15,It is the case either that the city of Shiraz is in Cuba or that it is in Iran.,Shiraz,Cuba,Iran,0,1,1,2
+16,It is the case either that the city of Jiaozhou is in Latvia or that it is in Venezuela.,Jiaozhou,Latvia,Venezuela,0,0,0,2
+17,It is the case either that the city of Malacca is in Malaysia or that it is in Vietnam.,Malacca,Malaysia,Vietnam,1,0,1,2
+18,It is the case either that the city of Duque de Caxias is in China or that it is in Brazil.,Duque de Caxias,China,Brazil,0,1,1,2
+19,It is the case either that the city of Guiyang is in South Korea or that it is in Turkey.,Guiyang,South Korea,Turkey,0,0,0,2
+20,It is the case either that the city of Mukalla is in India or that it is in Yemen.,Mukalla,India,Yemen,0,1,1,2
+21,It is the case either that the city of Bouake is in Côte d'Ivoire or that it is in Turkey.,Bouake,Côte d'Ivoire,Turkey,1,0,1,2
+22,It is the case either that the city of Sanmenxia is in Indonesia or that it is in Brazil.,Sanmenxia,Indonesia,Brazil,0,0,0,2
+23,It is the case either that the city of Ajmer is in Russia or that it is in China.,Ajmer,Russia,China,0,0,0,2
+24,It is the case either that the city of Yibin is in Korea or that it is in China.,Yibin,Korea,China,0,1,1,2
+25,It is the case either that the city of Jinan is in Rwanda or that it is in Turkey.,Jinan,Rwanda,Turkey,0,0,0,2
+26,It is the case either that the city of Comilla is in India or that it is in China.,Comilla,India,China,0,0,0,2
+27,It is the case either that the city of Laibin is in Arabia or that it is in China.,Laibin,Arabia,China,0,1,1,2
+28,It is the case either that the city of Najafgarh is in India or that it is in Russia.,Najafgarh,India,Russia,1,0,1,2
+29,It is the case either that the city of Erbil is in Cuba or that it is in China.,Erbil,Cuba,China,0,0,0,2
+30,It is the case either that the city of Balikpapan is in Turkey or that it is in Indonesia.,Balikpapan,Turkey,Indonesia,0,1,1,2
+31,It is the case either that the city of Wuzhou is in Turkey or that it is in Syria.,Wuzhou,Turkey,Syria,0,0,0,2
+32,It is the case either that the city of Cuttack is in Korea or that it is in India.,Cuttack,Korea,India,0,1,1,2
+33,It is the case either that the city of Bilimora is in Uzbekistan or that it is in China.,Bilimora,Uzbekistan,China,0,0,0,2
+34,It is the case either that the city of Yichang is in Herzegovina or that it is in China.,Yichang,Herzegovina,China,0,1,1,2
+35,It is the case either that the city of Ajmer is in Bangladesh or that it is in Russia.,Ajmer,Bangladesh,Russia,0,0,0,2
+36,It is the case either that the city of Rohini is in India or that it is in Myanmar.,Rohini,India,Myanmar,1,0,1,2
+37,It is the case either that the city of Khabarovsk Vtoroy is in China or that it is in Afghanistan.,Khabarovsk Vtoroy,China,Afghanistan,0,0,0,2
+38,It is the case either that the city of Chattogram is in Korea or that it is in Bangladesh.,Chattogram,Korea,Bangladesh,0,1,1,2
+39,It is the case either that the city of Rawalpindi is in India or that it is in Brazil.,Rawalpindi,India,Brazil,0,0,0,2
+40,It is the case either that the city of New York City is in the United States or that it is in Denmark.,New York City,the United States,Denmark,1,0,1,2
+41,It is the case either that the city of Foshan is in Mozambique or that it is in China.,Foshan,Mozambique,China,0,1,0,2
+42,It is the case either that the city of Adana is in Turkey or that it is in China.,Adana,Turkey,China,1,0,1,2
+43,It is the case either that the city of Almaty is in Iraq or that it is in Brazil.,Almaty,Iraq,Brazil,0,0,0,2
+44,It is the case either that the city of Baoji is in Guatemala or that it is in Honduras.,Baoji,Guatemala,Honduras,0,0,0,2
+45,It is the case either that the city of Deyang is in China or that it is in Madagascar.,Deyang,China,Madagascar,1,0,1,2
+46,It is the case either that the city of Chisinau is in Germany or that it is in China.,Chisinau,Germany,China,0,0,0,2
+47,It is the case either that the city of Qom is in Philippines or that it is in Vietnam.,Qom,Philippines,Vietnam,0,0,0,2
+48,It is the case either that the city of Bhilai is in India or that it is in Venezuela.,Bhilai,India,Venezuela,1,0,1,2
+49,It is the case either that the city of Baise is in India or that it is in Japan.,Baise,India,Japan,0,0,0,2
+50,It is the case either that the city of Bishkek is in Pakistan or that it is in Germany.,Bishkek,Pakistan,Germany,0,0,0,2
+51,It is the case either that the city of Helsinki is in Finland or that it is in China.,Helsinki,Finland,China,1,0,1,2
+52,It is the case either that the city of Oyo is in China or that it is in Jordan.,Oyo,China,Jordan,0,0,0,2
+53,It is the case either that the city of Saint Petersburg is in Indonesia or that it is in Canada.,Saint Petersburg,Indonesia,Canada,0,0,0,2
+54,It is the case either that the city of Dushanbe is in Nigeria or that it is in Senegal.,Dushanbe,Nigeria,Senegal,0,0,0,2
+55,It is the case either that the city of Nagpur is in India or that it is in Ukraine.,Nagpur,India,Ukraine,1,0,1,2
+56,It is the case either that the city of Queens is in the United States or that it is in India.,Queens,the United States,India,1,0,1,2
+57,It is the case either that the city of Al Ahmadi is in Ghana or that it is in Japan.,Al Ahmadi,Ghana,Japan,0,0,0,2
+58,It is the case either that the city of Abobo is in Côte d'Ivoire or that it is in Korea.,Abobo,Côte d'Ivoire,Korea,1,0,1,2
+59,It is the case either that the city of Zagreb is in Japan or that it is in China.,Zagreb,Japan,China,0,0,0,2
+60,It is the case either that the city of Bloemfontein is in Malaysia or that it is in China.,Bloemfontein,Malaysia,China,0,0,0,2
+61,It is the case either that the city of Xiangtan is in China or that it is in Ukraine.,Xiangtan,China,Ukraine,1,0,1,2
+62,It is the case either that the city of Ya'an is in Morocco or that it is in Malawi.,Ya'an,Morocco,Malawi,0,0,0,2
+63,It is the case either that the city of Al Mahallah al Kubra is in China or that it is in Afghanistan.,Al Mahallah al Kubra,China,Afghanistan,0,0,0,2
+64,It is the case either that the city of Aparecida de Goiania is in States or that it is in Brazil.,Aparecida de Goiania,States,Brazil,0,1,1,2
+65,It is the case either that the city of Algiers is in Russia or that it is in Algeria.,Algiers,Russia,Algeria,0,1,1,2
+66,It is the case either that the city of Sevastopol is in Pakistan or that it is in China.,Sevastopol,Pakistan,China,0,0,0,2
+67,It is the case either that the city of Huizhou is in China or that it is in Indonesia.,Huizhou,China,Indonesia,1,0,1,2
+68,It is the case either that the city of Linfen is in States or that it is in India.,Linfen,States,India,0,0,0,2
+69,It is the case either that the city of Ya'an is in China or that it is in Sudan.,Ya'an,China,Sudan,1,0,1,2
+70,It is the case either that the city of Nouakchott is in China or that it is in Mauritania.,Nouakchott,China,Mauritania,0,1,1,2
+71,It is the case either that the city of Feira de Santana is in India or that it is in Brazil.,Feira de Santana,India,Brazil,0,1,1,2
+72,It is the case either that the city of E'zhou is in Russia or that it is in Malaysia.,E'zhou,Russia,Malaysia,0,0,0,2
+73,It is the case either that the city of Tomsk is in Ghana or that it is in Japan.,Tomsk,Ghana,Japan,0,0,0,2
+74,It is the case either that the city of Faisalabad is in China or that it is in India.,Faisalabad,China,India,0,0,0,2
+75,It is the case either that the city of Gold Coast is in India or that it is in Australia.,Gold Coast,India,Australia,0,1,1,2
+76,It is the case either that the city of Vadodara is in China or that it is in India.,Vadodara,China,India,0,1,1,2
+77,It is the case either that the city of Anyang-si is in South Korea or that it is in Germany.,Anyang-si,South Korea,Germany,1,0,1,2
+78,It is the case either that the city of Almaty is in Pakistan or that it is in Iraq.,Almaty,Pakistan,Iraq,0,0,0,2
+79,It is the case either that the city of Torreon is in Brazil or that it is in Mexico.,Torreon,Brazil,Mexico,0,1,1,2
+80,It is the case either that the city of Frankfurt am Main is in Germany or that it is in China.,Frankfurt am Main,Germany,China,1,0,1,2
+81,It is the case either that the city of Kalyan is in Colombia or that it is in India.,Kalyan,Colombia,India,0,1,1,2
+82,It is the case either that the city of San Pedro Sula is in Brazil or that it is in India.,San Pedro Sula,Brazil,India,0,0,0,2
+83,It is the case either that the city of Baoji is in India or that it is in China.,Baoji,India,China,0,1,1,2
+84,It is the case either that the city of Santiago de Cuba is in Ukraine or that it is in India.,Santiago de Cuba,Ukraine,India,0,0,0,2
+85,It is the case either that the city of Bhayandar is in China or that it is in Nigeria.,Bhayandar,China,Nigeria,0,0,0,2
+86,It is the case either that the city of Hangzhou is in Pakistan or that it is in Russia.,Hangzhou,Pakistan,Russia,0,0,0,2
+87,It is the case either that the city of Puente Alto is in Chile or that it is in Myanmar.,Puente Alto,Chile,Myanmar,1,0,1,2
+88,It is the case either that the city of Harare is in Korea or that it is in Turkey.,Harare,Korea,Turkey,0,0,0,2
+89,It is the case either that the city of Da Nang is in China or that it is in India.,Da Nang,China,India,0,0,0,2
+90,It is the case either that the city of Luohe is in China or that it is in Brazil.,Luohe,China,Brazil,1,0,0,2
+91,It is the case either that the city of Jaboatao is in Syria or that it is in China.,Jaboatao,Syria,China,0,0,0,2
+92,It is the case either that the city of Abobo is in Côte Korea or that it is in d'Ivoire.,Abobo,Côte Korea,d'Ivoire,0,0,1,2
+93,It is the case either that the city of Namangan is in Uzbekistan or that it is in Faso.,Namangan,Uzbekistan,Faso,1,0,1,2
+94,It is the case either that the city of Zunyi is in Republic or that it is in China.,Zunyi,Republic,China,0,1,1,2
+95,It is the case either that the city of Sofia is in Kenya or that it is in Bulgaria.,Sofia,Kenya,Bulgaria,0,1,1,2
+96,It is the case either that the city of Deyang is in China or that it is in Turkey.,Deyang,China,Turkey,1,0,1,2
+97,It is the case either that the city of Esenler is in d'Ivoire or that it is in India.,Esenler,d'Ivoire,India,0,0,0,2
+98,It is the case either that the city of Vadodara is in India or that it is in Poland.,Vadodara,India,Poland,1,0,1,2
+99,It is the case either that the city of Qinhuangdao is in Eritrea or that it is in Lebanon.,Qinhuangdao,Eritrea,Lebanon,0,0,0,2
+100,It is the case either that the city of Amman is in Malaysia or that it is in Russia.,Amman,Malaysia,Russia,0,0,0,2
+101,It is the case either that the city of Bandar Lampung is in South Russia or that it is in Africa.,Bandar Lampung,South Russia,Africa,0,0,0,2
+102,It is the case either that the city of Wenzhou is in Ghana or that it is in China.,Wenzhou,Ghana,China,0,1,1,2
+103,It is the case either that the city of Tebessa is in Venezuela or that it is in India.,Tebessa,Venezuela,India,0,0,0,2
+104,It is the case either that the city of Marrakesh is in China or that it is in Morocco.,Marrakesh,China,Morocco,0,1,1,2
+105,It is the case either that the city of Karachi is in Cameroon or that it is in India.,Karachi,Cameroon,India,0,0,0,2
+106,It is the case either that the city of Tangerang is in China or that it is in India.,Tangerang,China,India,0,0,0,2
+107,It is the case either that the city of Nouakchott is in Mauritania or that it is in India.,Nouakchott,Mauritania,India,1,0,1,2
+108,It is the case either that the city of Kahriz is in Uzbekistan or that it is in China.,Kahriz,Uzbekistan,China,0,0,0,2
+109,It is the case either that the city of Makassar is in India or that it is in China.,Makassar,India,China,0,0,0,2
+110,It is the case either that the city of Budapest is in Indonesia or that it is in Hungary.,Budapest,Indonesia,Hungary,0,1,1,2
+111,It is the case either that the city of Maracaibo is in Russia or that it is in Indonesia.,Maracaibo,Russia,Indonesia,0,0,0,2
+112,It is the case either that the city of Sao Bernardo do Campo is in Korea or that it is in Zambia.,Sao Bernardo do Campo,Korea,Zambia,0,0,0,2
+113,It is the case either that the city of Suwon is in Russia or that it is in China.,Suwon,Russia,China,0,0,0,2
+114,It is the case either that the city of Vadodara is in Japan or that it is in India.,Vadodara,Japan,India,0,1,1,2
+115,It is the case either that the city of Sangli is in China or that it is in Japan.,Sangli,China,Japan,0,0,0,2
+116,It is the case either that the city of Amritsar is in Brazil or that it is in Moldova.,Amritsar,Brazil,Moldova,0,0,0,2
+117,It is the case either that the city of Mazar-e Sharif is in Germany or that it is in India.,Mazar-e Sharif,Germany,India,0,0,0,2
+118,It is the case either that the city of Cangzhou is in Germany or that it is in Japan.,Cangzhou,Germany,Japan,0,0,0,2
+119,It is the case either that the city of Banjarmasin is in South Korea or that it is in Iraq.,Banjarmasin,South Korea,Iraq,0,0,0,2
+120,It is the case either that the city of Ranchi is in Myanmar or that it is in India.,Ranchi,Myanmar,India,0,1,1,2
+121,It is the case either that the city of Thuan An is in Vietnam or that it is in Russia.,Thuan An,Vietnam,Russia,1,0,1,2
+122,It is the case either that the city of Bilimora is in Uzbekistan or that it is in China.,Bilimora,Uzbekistan,China,0,0,0,2
+123,It is the case either that the city of Nairobi is in Mexico or that it is in Mozambique.,Nairobi,Mexico,Mozambique,0,0,0,2
+124,It is the case either that the city of Shijiazhuang is in China or that it is in Uzbekistan.,Shijiazhuang,China,Uzbekistan,1,0,0,2
+125,It is the case either that the city of Deyang is in Japan or that it is in China.,Deyang,Japan,China,0,1,0,2
+126,It is the case either that the city of Namangan is in Uzbekistan or that it is in India.,Namangan,Uzbekistan,India,1,0,1,2
+127,It is the case either that the city of Zhangye is in Venezuela or that it is in Malaysia.,Zhangye,Venezuela,Malaysia,0,0,0,2
+128,It is the case either that the city of Lanzhou is in Mexico or that it is in China.,Lanzhou,Mexico,China,0,1,0,2
+129,It is the case either that the city of Jiujiang is in Latvia or that it is in China.,Jiujiang,Latvia,China,0,1,1,2
+130,It is the case either that the city of Bengbu is in India or that it is in Emirates.,Bengbu,India,Emirates,0,0,0,2
+131,It is the case either that the city of Reynosa is in China or that it is in Africa.,Reynosa,China,Africa,0,0,0,2
+132,It is the case either that the city of Novosibirsk is in China or that it is in Russia.,Novosibirsk,China,Russia,0,1,1,2
+133,It is the case either that the city of Varanasi is in India or that it is in Lithuania.,Varanasi,India,Lithuania,1,0,1,2
+134,It is the case either that the city of Dortmund is in India or that it is in Philippines.,Dortmund,India,Philippines,0,0,0,2
+135,It is the case either that the city of Jamshedpur is in India or that it is in Yemen.,Jamshedpur,India,Yemen,1,0,1,2
+136,It is the case either that the city of E'zhou is in India or that it is in China.,E'zhou,India,China,0,1,1,2
+137,It is the case either that the city of Leon de los Aldama is in Mexico or that it is in Chile.,Leon de los Aldama,Mexico,Chile,1,0,1,2
+138,It is the case either that the city of Yangjiang is in China or that it is in Indonesia.,Yangjiang,China,Indonesia,1,0,0,2
+139,It is the case either that the city of Chenzhou is in Brazil or that it is in India.,Chenzhou,Brazil,India,0,0,0,2
+140,It is the case either that the city of San Luis Potosi is in the Democratic Republic of the Syria or that it is in Congo.,San Luis Potosi,the Democratic Republic of the Syria,Congo,0,0,0,2
+141,It is the case either that the city of Surakarta is in Mexico or that it is in India.,Surakarta,Mexico,India,0,0,0,2
+142,It is the case either that the city of Karaj is in China or that it is in India.,Karaj,China,India,0,0,0,2
+143,It is the case either that the city of Zhanjiang is in China or that it is in Yemen.,Zhanjiang,China,Yemen,1,0,1,2
+144,It is the case either that the city of Bandar Lampung is in Indonesia or that it is in China.,Bandar Lampung,Indonesia,China,1,0,1,2
+145,It is the case either that the city of Panzhihua is in Pakistan or that it is in Iran.,Panzhihua,Pakistan,Iran,0,0,0,2
+146,It is the case either that the city of Zhangye is in Venezuela or that it is in Malaysia.,Zhangye,Venezuela,Malaysia,0,0,0,2
+147,It is the case either that the city of Pasig City is in Turkey or that it is in Morocco.,Pasig City,Turkey,Morocco,0,0,0,2
+148,It is the case either that the city of Kyiv is in Russia or that it is in Iran.,Kyiv,Russia,Iran,0,0,0,2
+149,It is the case either that the city of Tembisa is in South Japan or that it is in Africa.,Tembisa,South Japan,Africa,0,0,1,2
+150,It is the case either that the city of Yerevan is in Iraq or that it is in Armenia.,Yerevan,Iraq,Armenia,0,1,1,2
+151,It is the case either that the city of Arak is in Algeria or that it is in Iran.,Arak,Algeria,Iran,0,1,1,2
+152,It is the case either that the city of Culiacan is in China or that it is in Mexico.,Culiacan,China,Mexico,0,1,1,2
+153,It is the case either that the city of Antwerpen is in Belgium or that it is in Iran.,Antwerpen,Belgium,Iran,1,0,1,2
+154,It is the case either that the city of Ciudad Guayana is in Turkey or that it is in Venezuela.,Ciudad Guayana,Turkey,Venezuela,0,1,1,2
+155,It is the case either that the city of Urumqi is in Brazil or that it is in China.,Urumqi,Brazil,China,0,1,1,2
+156,It is the case either that the city of Mogadishu is in Iran or that it is in Kenya.,Mogadishu,Iran,Kenya,0,0,0,2
+157,It is the case either that the city of Bulawayo is in India or that it is in China.,Bulawayo,India,China,0,0,0,2
+158,It is the case either that the city of Novosibirsk is in Tanzania or that it is in Russia.,Novosibirsk,Tanzania,Russia,0,1,1,2
+159,It is the case either that the city of Nasiriyah is in Iraq or that it is in Bangladesh.,Nasiriyah,Iraq,Bangladesh,1,0,1,2
+160,It is the case either that the city of Mosul is in China or that it is in Korea.,Mosul,China,Korea,0,0,0,2
+161,It is the case either that the city of Xianning is in Lebanon or that it is in India.,Xianning,Lebanon,India,0,0,0,2
+162,It is the case either that the city of Tashkent is in Egypt or that it is in Uzbekistan.,Tashkent,Egypt,Uzbekistan,0,1,1,2
+163,It is the case either that the city of Almaty is in Vietnam or that it is in Kazakhstan.,Almaty,Vietnam,Kazakhstan,0,1,1,2
+164,It is the case either that the city of Isfahan is in Iran or that it is in Ghana.,Isfahan,Iran,Ghana,1,0,1,2
+165,It is the case either that the city of Balikpapan is in Japan or that it is in China.,Balikpapan,Japan,China,0,0,0,2
+166,It is the case either that the city of Bikaner is in South Russia or that it is in Korea.,Bikaner,South Russia,Korea,0,0,0,2
+167,It is the case either that the city of Thane is in India or that it is in Korea.,Thane,India,Korea,1,0,1,2
+168,It is the case either that the city of Mar del Plata is in Algeria or that it is in Nigeria.,Mar del Plata,Algeria,Nigeria,0,0,0,2
+169,It is the case either that the city of Siliguri is in Finland or that it is in India.,Siliguri,Finland,India,0,1,1,2
+170,It is the case either that the city of Rahim Yar Khan is in Lithuania or that it is in Venezuela.,Rahim Yar Khan,Lithuania,Venezuela,0,0,0,2
+171,It is the case either that the city of Gaziantep is in Korea or that it is in Turkey.,Gaziantep,Korea,Turkey,0,1,1,2
+172,It is the case either that the city of Nanded is in China or that it is in Congo.,Nanded,China,Congo,0,0,0,2
+173,It is the case either that the city of Kleinzschocher is in Germany or that it is in Iran.,Kleinzschocher,Germany,Iran,1,0,1,2
+174,It is the case either that the city of Hangzhou is in Japan or that it is in China.,Hangzhou,Japan,China,0,1,1,2
+175,It is the case either that the city of Kobe is in Japan or that it is in China.,Kobe,Japan,China,1,0,1,2
+176,It is the case either that the city of Guang'an is in Germany or that it is in Egypt.,Guang'an,Germany,Egypt,0,0,0,2
+177,It is the case either that the city of Comilla is in Russia or that it is in Bangladesh.,Comilla,Russia,Bangladesh,0,1,1,2
+178,It is the case either that the city of Siliguri is in China or that it is in India.,Siliguri,China,India,0,1,1,2
+179,It is the case either that the city of Yibin is in Brazil or that it is in Russia.,Yibin,Brazil,Russia,0,0,0,2
+180,It is the case either that the city of Pretoria is in Malaysia or that it is in India.,Pretoria,Malaysia,India,0,0,0,2
+181,It is the case either that the city of Hannover is in Brazil or that it is in China.,Hannover,Brazil,China,0,0,0,2
+182,It is the case either that the city of Karachi is in India or that it is in China.,Karachi,India,China,0,0,0,2
+183,It is the case either that the city of Hegang is in Russia or that it is in China.,Hegang,Russia,China,0,1,0,2
+184,It is the case either that the city of Daejeon is in South India or that it is in Korea.,Daejeon,South India,Korea,0,0,1,2
+185,It is the case either that the city of Sapporo is in Japan or that it is in Mexico.,Sapporo,Japan,Mexico,1,0,0,2
+186,It is the case either that the city of Putian is in Philippines or that it is in Vietnam.,Putian,Philippines,Vietnam,0,0,0,2
+187,It is the case either that the city of Hebi is in Egypt or that it is in China.,Hebi,Egypt,China,0,1,1,2
+188,It is the case either that the city of Kahriz is in China or that it is in Uzbekistan.,Kahriz,China,Uzbekistan,0,0,0,2
+189,It is the case either that the city of Kota Bharu is in Norway or that it is in China.,Kota Bharu,Norway,China,0,0,0,2
+190,It is the case either that the city of Recife is in North Korea or that it is in Venezuela.,Recife,North Korea,Venezuela,0,0,0,2
+191,It is the case either that the city of Boumerdes is in Algeria or that it is in India.,Boumerdes,Algeria,India,1,0,1,2
+192,It is the case either that the city of Peshawar is in Pakistan or that it is in India.,Peshawar,Pakistan,India,1,0,1,2
+193,It is the case either that the city of Matola is in Thailand or that it is in India.,Matola,Thailand,India,0,0,0,2
+194,It is the case either that the city of Johor Bahru is in China or that it is in Cuba.,Johor Bahru,China,Cuba,0,0,0,2
+195,It is the case either that the city of Wuwei is in China or that it is in India.,Wuwei,China,India,1,0,1,2
+196,It is the case either that the city of Shangqiu is in South Germany or that it is in Korea.,Shangqiu,South Germany,Korea,0,0,0,2
+197,It is the case either that the city of Shenyang is in India or that it is in China.,Shenyang,India,China,0,1,1,2
+198,It is the case either that the city of Jiujiang is in China or that it is in Pakistan.,Jiujiang,China,Pakistan,1,0,1,2
+199,It is the case either that the city of Beijing is in Ghana or that it is in Africa.,Beijing,Ghana,Africa,0,0,0,2
+200,It is the case either that the city of Weihai is in Brazil or that it is in Russia.,Weihai,Brazil,Russia,0,0,0,2
+201,It is the case either that the city of Brasilia is in South Korea or that it is in Japan.,Brasilia,South Korea,Japan,0,0,0,2
+202,It is the case either that the city of Queens is in Vietnam or that it is in India.,Queens,Vietnam,India,0,0,0,2
+203,It is the case either that the city of Xining is in China or that it is in Germany.,Xining,China,Germany,1,0,1,2
+204,It is the case either that the city of Kleinzschocher is in Germany or that it is in China.,Kleinzschocher,Germany,China,1,0,1,2
+205,It is the case either that the city of Cotonou is in Benin or that it is in India.,Cotonou,Benin,India,1,0,1,2
+206,It is the case either that the city of Lyon is in France or that it is in Nigeria.,Lyon,France,Nigeria,1,0,1,2
+207,It is the case either that the city of Tianjin is in Turkey or that it is in China.,Tianjin,Turkey,China,0,1,1,2
+208,It is the case either that the city of Xinyang is in Japan or that it is in Russia.,Xinyang,Japan,Russia,0,0,0,2
+209,It is the case either that the city of Tianjin is in Nigeria or that it is in Bangladesh.,Tianjin,Nigeria,Bangladesh,0,0,0,2
+210,It is the case either that the city of Zapopan is in China or that it is in Ghana.,Zapopan,China,Ghana,0,0,0,2
+211,It is the case either that the city of Makassar is in China or that it is in Mexico.,Makassar,China,Mexico,0,0,0,2
+212,It is the case either that the city of Orumiyeh is in Saudi Malaysia or that it is in Arabia.,Orumiyeh,Saudi Malaysia,Arabia,0,0,0,2
+213,It is the case either that the city of Vadodara is in China or that it is in Russia.,Vadodara,China,Russia,0,0,0,2
+214,It is the case either that the city of Bhubaneswar is in India or that it is in Indonesia.,Bhubaneswar,India,Indonesia,1,0,1,2
+215,It is the case either that the city of Pingliang is in Turkey or that it is in Tanzania.,Pingliang,Turkey,Tanzania,0,0,0,2
+216,It is the case either that the city of Bhayandar is in Nigeria or that it is in India.,Bhayandar,Nigeria,India,0,1,1,2
+217,It is the case either that the city of Meerut is in India or that it is in Brazil.,Meerut,India,Brazil,1,0,1,2
+218,It is the case either that the city of Ranchi is in Russia or that it is in Venezuela.,Ranchi,Russia,Venezuela,0,0,0,2
+219,It is the case either that the city of Ciudad Juarez is in Pakistan or that it is in India.,Ciudad Juarez,Pakistan,India,0,0,0,2
+220,It is the case either that the city of Zunyi is in Senegal or that it is in Brazil.,Zunyi,Senegal,Brazil,0,0,0,2
+221,It is the case either that the city of Abeokuta is in Nigeria or that it is in India.,Abeokuta,Nigeria,India,1,0,1,2
+222,It is the case either that the city of Jambi City is in Indonesia or that it is in Arabia.,Jambi City,Indonesia,Arabia,1,0,1,2
+223,It is the case either that the city of Peshawar is in Pakistan or that it is in China.,Peshawar,Pakistan,China,1,0,1,2
+224,It is the case either that the city of Ulsan is in South China or that it is in Africa.,Ulsan,South China,Africa,0,0,0,2
+225,It is the case either that the city of Cotonou is in Bulgaria or that it is in Benin.,Cotonou,Bulgaria,Benin,0,1,1,2
+226,It is the case either that the city of Jeonju is in the United States or that it is in China.,Jeonju,the United States,China,0,0,0,2
+227,It is the case either that the city of Tangerang is in Japan or that it is in China.,Tangerang,Japan,China,0,0,0,2
+228,It is the case either that the city of Amritsar is in Moldova or that it is in Niger.,Amritsar,Moldova,Niger,0,0,0,2
+229,It is the case either that the city of Khulna is in Bangladesh or that it is in Senegal.,Khulna,Bangladesh,Senegal,1,0,1,2
+230,It is the case either that the city of Zunyi is in Pakistan or that it is in China.,Zunyi,Pakistan,China,0,1,1,2
+231,It is the case either that the city of Chennai is in Japan or that it is in China.,Chennai,Japan,China,0,0,0,2
+232,It is the case either that the city of Busan is in South Korea or that it is in India.,Busan,South Korea,India,1,0,1,2
+233,It is the case either that the city of Matsuyama is in Mexico or that it is in Japan.,Matsuyama,Mexico,Japan,0,1,1,2
+234,It is the case either that the city of Tembisa is in the Philippines or that it is in India.,Tembisa,the Philippines,India,0,0,0,2
+235,It is the case either that the city of Vladivostok is in China or that it is in Russia.,Vladivostok,China,Russia,0,1,1,2
+236,It is the case either that the city of Ryazan' is in Russia or that it is in China.,Ryazan',Russia,China,1,0,1,2
+237,It is the case either that the city of Orumiyeh is in Saudi Arabia or that it is in China.,Orumiyeh,Saudi Arabia,China,0,0,0,2
+238,It is the case either that the city of Santo Domingo Este is in India or that it is in Russia.,Santo Domingo Este,India,Russia,0,0,0,2
+239,It is the case either that the city of Goiania is in China or that it is in Ukraine.,Goiania,China,Ukraine,0,0,0,2
+240,It is the case either that the city of Linyi is in Iraq or that it is in States.,Linyi,Iraq,States,0,0,0,2
+241,It is the case either that the city of Bogor is in Indonesia or that it is in Brazil.,Bogor,Indonesia,Brazil,1,0,1,2
+242,It is the case either that the city of Poznan is in Mexico or that it is in States.,Poznan,Mexico,States,0,0,0,2
+243,It is the case either that the city of Rawalpindi is in Pakistan or that it is in China.,Rawalpindi,Pakistan,China,1,0,1,2
+244,It is the case either that the city of Huizhou is in China or that it is in Congo.,Huizhou,China,Congo,1,0,1,2
+245,It is the case either that the city of Caracas is in China or that it is in Sudan.,Caracas,China,Sudan,0,0,0,2
+246,It is the case either that the city of Quetta is in Russia or that it is in Pakistan.,Quetta,Russia,Pakistan,0,1,1,2
+247,It is the case either that the city of Fukuoka is in Senegal or that it is in Japan.,Fukuoka,Senegal,Japan,0,1,0,2
+248,It is the case either that the city of New South Memphis is in China or that it is in Japan.,New South Memphis,China,Japan,0,0,0,2
+249,It is the case either that the city of Lahore is in China or that it is in Pakistan.,Lahore,China,Pakistan,0,1,1,2
+250,It is the case either that the city of Cheongju-si is in India or that it is in China.,Cheongju-si,India,China,0,0,0,2
+251,It is the case either that the city of Zaozhuang is in China or that it is in Finland.,Zaozhuang,China,Finland,1,0,1,2
+252,It is the case either that the city of Qingdao is in Congo or that it is in India.,Qingdao,Congo,India,0,0,0,2
+253,It is the case either that the city of Arak is in India or that it is in Myanmar.,Arak,India,Myanmar,0,0,0,2
+254,It is the case either that the city of Cebu City is in Mexico or that it is in China.,Cebu City,Mexico,China,0,0,0,2
+255,It is the case either that the city of Weihai is in China or that it is in Brazil.,Weihai,China,Brazil,1,0,1,2
+256,It is the case either that the city of Zhabei is in China or that it is in Somalia.,Zhabei,China,Somalia,1,0,1,2
+257,It is the case either that the city of Leipzig is in Germany or that it is in India.,Leipzig,Germany,India,1,0,1,2
+258,It is the case either that the city of Konya is in China or that it is in Turkey.,Konya,China,Turkey,0,1,1,2
+259,It is the case either that the city of Can Tho is in Turkey or that it is in Vietnam.,Can Tho,Turkey,Vietnam,0,1,1,2
+260,It is the case either that the city of Sulaymaniyah is in Iraq or that it is in China.,Sulaymaniyah,Iraq,China,1,0,1,2
+261,It is the case either that the city of Jiangyin is in China or that it is in States.,Jiangyin,China,States,1,0,1,2
+262,It is the case either that the city of Iztapalapa is in Iraq or that it is in Yemen.,Iztapalapa,Iraq,Yemen,0,0,0,2
+263,It is the case either that the city of Palembang is in Indonesia or that it is in Lithuania.,Palembang,Indonesia,Lithuania,1,0,1,2
+264,It is the case either that the city of Ranchi is in Venezuela or that it is in China.,Ranchi,Venezuela,China,0,0,0,2
+265,It is the case either that the city of Ufa is in South States or that it is in Korea.,Ufa,South States,Korea,0,0,0,2
+266,It is the case either that the city of Ulan Bator is in Brazil or that it is in Mongolia.,Ulan Bator,Brazil,Mongolia,0,1,1,2
+267,It is the case either that the city of Subang Jaya is in China or that it is in Germany.,Subang Jaya,China,Germany,0,0,0,2
+268,It is the case either that the city of Rostov-na-Donu is in the United Arab Emirates or that it is in Togo.,Rostov-na-Donu,the United Arab Emirates,Togo,0,0,0,2
+269,It is the case either that the city of Antananarivo is in Madagascar or that it is in Malawi.,Antananarivo,Madagascar,Malawi,1,0,1,2
+270,It is the case either that the city of Zarqa is in Mexico or that it is in Jordan.,Zarqa,Mexico,Jordan,0,1,1,2
+271,It is the case either that the city of Milwaukee is in the United States or that it is in China.,Milwaukee,the United States,China,1,0,1,2
+272,It is the case either that the city of Curitiba is in China or that it is in India.,Curitiba,China,India,0,0,0,2
+273,It is the case either that the city of Zhangye is in Venezuela or that it is in China.,Zhangye,Venezuela,China,0,1,0,2
+274,It is the case either that the city of Da Nang is in Vietnam or that it is in China.,Da Nang,Vietnam,China,1,0,0,2
+275,It is the case either that the city of Yaroslavl is in Sweden or that it is in Russia.,Yaroslavl,Sweden,Russia,0,1,1,2
+276,It is the case either that the city of Indore is in China or that it is in Turkey.,Indore,China,Turkey,0,0,0,2
+277,It is the case either that the city of Tlalpan is in Mexico or that it is in Nicaragua.,Tlalpan,Mexico,Nicaragua,1,0,1,2
+278,It is the case either that the city of Rourkela is in Brazil or that it is in Korea.,Rourkela,Brazil,Korea,0,0,0,2
+279,It is the case either that the city of Bangkok is in Myanmar or that it is in Thailand.,Bangkok,Myanmar,Thailand,0,1,1,2
+280,It is the case either that the city of Enugu is in Nigeria or that it is in China.,Enugu,Nigeria,China,1,0,1,2
+281,It is the case either that the city of Can Tho is in Venezuela or that it is in Gabon.,Can Tho,Venezuela,Gabon,0,0,0,2
+282,It is the case either that the city of Callao is in Peru or that it is in Japan.,Callao,Peru,Japan,1,0,1,2
+283,It is the case either that the city of Taiz is in Algeria or that it is in Yemen.,Taiz,Algeria,Yemen,0,1,1,2
+284,It is the case either that the city of Naberezhnyye Chelny is in Morocco or that it is in Brazil.,Naberezhnyye Chelny,Morocco,Brazil,0,0,0,2
+285,It is the case either that the city of Suwon is in South Korea or that it is in China.,Suwon,South Korea,China,1,0,1,2
+286,It is the case either that the city of Yaounde is in Indonesia or that it is in China.,Yaounde,Indonesia,China,0,0,0,2
+287,It is the case either that the city of Sapporo is in Brazil or that it is in Mexico.,Sapporo,Brazil,Mexico,0,0,0,2
+288,It is the case either that the city of Nouakchott is in Mauritania or that it is in Vietnam.,Nouakchott,Mauritania,Vietnam,1,0,1,2
+289,It is the case either that the city of Diyarbakir is in Colombia or that it is in Kenya.,Diyarbakir,Colombia,Kenya,0,0,0,2
+290,It is the case either that the city of Malatya is in Turkey or that it is in Mozambique.,Malatya,Turkey,Mozambique,1,0,1,2
+291,It is the case either that the city of Ulyanovsk is in Ukraine or that it is in China.,Ulyanovsk,Ukraine,China,0,0,0,2
+292,It is the case either that the city of Madurai is in Lebanon or that it is in Burundi.,Madurai,Lebanon,Burundi,0,0,0,2
+293,It is the case either that the city of Ahvaz is in Iran or that it is in India.,Ahvaz,Iran,India,1,0,1,2
+294,It is the case either that the city of Bahawalpur is in China or that it is in Vietnam.,Bahawalpur,China,Vietnam,0,0,0,2
+295,It is the case either that the city of Dammam is in Saudi Arabia or that it is in Republic.,Dammam,Saudi Arabia,Republic,1,0,1,2
+296,It is the case either that the city of Milwaukee is in Iran or that it is in China.,Milwaukee,Iran,China,0,0,0,2
+297,It is the case either that the city of Novosibirsk is in Russia or that it is in China.,Novosibirsk,Russia,China,1,0,1,2
+298,It is the case either that the city of Madinat an Nasr is in India or that it is in Nicaragua.,Madinat an Nasr,India,Nicaragua,0,0,0,2
+299,It is the case either that the city of Cape Town is in South Bangladesh or that it is in Africa.,Cape Town,South Bangladesh,Africa,0,0,1,2
+300,It is the case either that the city of Al Ahmadi is in Iraq or that it is in Kuwait.,Al Ahmadi,Iraq,Kuwait,0,1,1,2
+301,It is the case either that the city of Lyon is in China or that it is in France.,Lyon,China,France,0,1,1,2
+302,It is the case either that the city of Helsinki is in Finland or that it is in Pakistan.,Helsinki,Finland,Pakistan,1,0,1,2
+303,It is the case either that the city of Nashik is in India or that it is in China.,Nashik,India,China,1,0,1,2
+304,It is the case either that the city of Incheon is in Russia or that it is in India.,Incheon,Russia,India,0,0,0,2
+305,It is the case either that the city of Panzhihua is in China or that it is in Japan.,Panzhihua,China,Japan,1,0,1,2
+306,It is the case either that the city of Yaroslavl is in Brazil or that it is in Russia.,Yaroslavl,Brazil,Russia,0,1,1,2
+307,It is the case either that the city of Jiaxing is in India or that it is in Ukraine.,Jiaxing,India,Ukraine,0,0,0,2
+308,It is the case either that the city of Ahvaz is in Iran or that it is in China.,Ahvaz,Iran,China,1,0,1,2
+309,It is the case either that the city of Barquisimeto is in Poland or that it is in Mexico.,Barquisimeto,Poland,Mexico,0,0,0,2
+310,It is the case either that the city of Luancheng is in China or that it is in Brazil.,Luancheng,China,Brazil,1,0,0,2
+311,It is the case either that the city of Dehra Dun is in Iraq or that it is in China.,Dehra Dun,Iraq,China,0,0,0,2
+312,It is the case either that the city of Ciudad Guayana is in Venezuela or that it is in Kenya.,Ciudad Guayana,Venezuela,Kenya,1,0,1,2
+313,It is the case either that the city of Lusaka is in China or that it is in Poland.,Lusaka,China,Poland,0,0,0,2
+314,It is the case either that the city of Haiphong is in Vietnam or that it is in India.,Haiphong,Vietnam,India,1,0,1,2
+315,It is the case either that the city of Mersin is in Ukraine or that it is in Turkey.,Mersin,Ukraine,Turkey,0,1,1,2
+316,It is the case either that the city of Tangshan is in India or that it is in Malaysia.,Tangshan,India,Malaysia,0,0,0,2
+317,It is the case either that the city of Guilin is in the Dominican Republic or that it is in Korea.,Guilin,the Dominican Republic,Korea,0,0,0,2
+318,It is the case either that the city of Suez is in Egypt or that it is in Philippines.,Suez,Egypt,Philippines,1,0,1,2
+319,It is the case either that the city of Ufa is in South Korea or that it is in Turkey.,Ufa,South Korea,Turkey,0,0,0,2
+320,It is the case either that the city of Guigang is in China or that it is in Brazil.,Guigang,China,Brazil,1,0,1,2
+321,It is the case either that the city of Leon de los Aldama is in India or that it is in China.,Leon de los Aldama,India,China,0,0,0,2
+322,It is the case either that the city of Rui'an is in Indonesia or that it is in China.,Rui'an,Indonesia,China,0,1,0,2
+323,It is the case either that the city of Zahedan is in Iran or that it is in Russia.,Zahedan,Iran,Russia,1,0,1,2
+324,It is the case either that the city of Jinan is in China or that it is in Rwanda.,Jinan,China,Rwanda,1,0,0,2
+325,It is the case either that the city of Quzhou is in China or that it is in Mexico.,Quzhou,China,Mexico,1,0,1,2
+326,It is the case either that the city of Kanayannur is in Saudi Arabia or that it is in China.,Kanayannur,Saudi Arabia,China,0,0,0,2
+327,It is the case either that the city of Nasiriyah is in Iraq or that it is in Zimbabwe.,Nasiriyah,Iraq,Zimbabwe,1,0,1,2
+328,It is the case either that the city of Baku is in Ukraine or that it is in China.,Baku,Ukraine,China,0,0,0,2
+329,It is the case either that the city of Nanchang is in Philippines or that it is in China.,Nanchang,Philippines,China,0,1,1,2
+330,It is the case either that the city of Herat is in States or that it is in China.,Herat,States,China,0,0,0,2
+331,It is the case either that the city of Perm is in Brazil or that it is in Russia.,Perm,Brazil,Russia,0,1,1,2
+332,It is the case either that the city of Sanya is in China or that it is in States.,Sanya,China,States,1,0,1,2
+333,It is the case either that the city of Santo Domingo Este is in India or that it is in China.,Santo Domingo Este,India,China,0,0,0,2
+334,It is the case either that the city of Bikaner is in India or that it is in States.,Bikaner,India,States,1,0,1,2
+335,It is the case either that the city of Suizhou is in Ukraine or that it is in China.,Suizhou,Ukraine,China,0,1,1,2
+336,It is the case either that the city of Benin City is in China or that it is in Mozambique.,Benin City,China,Mozambique,0,0,0,2
+337,It is the case either that the city of Goyang-si is in China or that it is in Russia.,Goyang-si,China,Russia,0,0,0,2
+338,It is the case either that the city of Rahim Yar Khan is in Pakistan or that it is in Emirates.,Rahim Yar Khan,Pakistan,Emirates,1,0,1,2
+339,It is the case either that the city of Volgograd is in Japan or that it is in Nigeria.,Volgograd,Japan,Nigeria,0,0,0,2
+340,It is the case either that the city of Quebec is in Canada or that it is in Bangladesh.,Quebec,Canada,Bangladesh,1,0,1,2
+341,It is the case either that the city of Rui'an is in Mozambique or that it is in Indonesia.,Rui'an,Mozambique,Indonesia,0,0,0,2
+342,It is the case either that the city of Quetta is in Senegal or that it is in Kenya.,Quetta,Senegal,Kenya,0,0,0,2
+343,It is the case either that the city of Zaporizhzhya is in South Korea or that it is in China.,Zaporizhzhya,South Korea,China,0,0,0,2
+344,It is the case either that the city of Luohe is in India or that it is in China.,Luohe,India,China,0,1,1,2
+345,It is the case either that the city of N'Djamena is in India or that it is in China.,N'Djamena,India,China,0,0,0,2
+346,It is the case either that the city of Kozhikode is in India or that it is in Iraq.,Kozhikode,India,Iraq,1,0,1,2
+347,It is the case either that the city of Linyi is in China or that it is in Iran.,Linyi,China,Iran,1,0,1,2
+348,It is the case either that the city of Arak is in India or that it is in China.,Arak,India,China,0,0,0,2
+349,It is the case either that the city of Barnaul is in Russia or that it is in India.,Barnaul,Russia,India,1,0,1,2
+350,It is the case either that the city of Dandong is in Kenya or that it is in China.,Dandong,Kenya,China,0,1,1,2
+351,It is the case either that the city of Culiacan is in China or that it is in Mexico.,Culiacan,China,Mexico,0,1,1,2
+352,It is the case either that the city of Kanpur is in India or that it is in China.,Kanpur,India,China,1,0,1,2
+353,It is the case either that the city of San Miguel de Tucuman is in China or that it is in Brazil.,San Miguel de Tucuman,China,Brazil,0,0,0,2
+354,It is the case either that the city of Mbuji-Mayi is in the Democratic Republic of the Iraq or that it is in Congo.,Mbuji-Mayi,the Democratic Republic of the Iraq,Congo,0,0,1,2
+355,It is the case either that the city of Kermanshah is in Republic or that it is in China.,Kermanshah,Republic,China,0,0,0,2
+356,It is the case either that the city of Ta'if is in Russia or that it is in Venezuela.,Ta'if,Russia,Venezuela,0,0,0,2
+357,It is the case either that the city of Bouake is in China or that it is in Congo.,Bouake,China,Congo,0,0,0,2
+358,It is the case either that the city of Pasig City is in Venezuela or that it is in Morocco.,Pasig City,Venezuela,Morocco,0,0,0,2
+359,It is the case either that the city of Comilla is in China or that it is in Bangladesh.,Comilla,China,Bangladesh,0,1,1,2
+360,It is the case either that the city of Batam is in China or that it is in Indonesia.,Batam,China,Indonesia,0,1,1,2
+361,It is the case either that the city of Busan is in Malaysia or that it is in Brazil.,Busan,Malaysia,Brazil,0,0,0,2
+362,It is the case either that the city of Ryazan' is in India or that it is in Russia.,Ryazan',India,Russia,0,1,1,2
+363,It is the case either that the city of Sargodha is in India or that it is in China.,Sargodha,India,China,0,0,0,2
+364,It is the case either that the city of Anshun is in Russia or that it is in China.,Anshun,Russia,China,0,1,1,2
+365,It is the case either that the city of Santiago de los Caballeros is in India or that it is in Burundi.,Santiago de los Caballeros,India,Burundi,0,0,0,2
+366,It is the case either that the city of Ningbo is in South Korea or that it is in China.,Ningbo,South Korea,China,0,1,0,2
+367,It is the case either that the city of Liaocheng is in China or that it is in Algeria.,Liaocheng,China,Algeria,1,0,1,2
+368,It is the case either that the city of N'Djamena is in Iraq or that it is in Chad.,N'Djamena,Iraq,Chad,0,1,1,2
+369,It is the case either that the city of Seattle is in the United Arabia or that it is in States.,Seattle,the United Arabia,States,0,0,1,2
+370,It is the case either that the city of Longyan is in Benin or that it is in China.,Longyan,Benin,China,0,1,0,2
+371,It is the case either that the city of Suwon is in South China or that it is in Korea.,Suwon,South China,Korea,0,0,1,2
+372,It is the case either that the city of Nizhniy Novgorod is in Italy or that it is in China.,Nizhniy Novgorod,Italy,China,0,0,0,2
+373,It is the case either that the city of Malacca is in Malaysia or that it is in Russia.,Malacca,Malaysia,Russia,1,0,1,2
+374,It is the case either that the city of Rajshahi is in Argentina or that it is in Bangladesh.,Rajshahi,Argentina,Bangladesh,0,1,1,2
+375,It is the case either that the city of Barranquilla is in Philippines or that it is in Pakistan.,Barranquilla,Philippines,Pakistan,0,0,0,2
+376,It is the case either that the city of Bucheon-si is in Brazil or that it is in Romania.,Bucheon-si,Brazil,Romania,0,0,0,2
+377,It is the case either that the city of Tianshui is in Canada or that it is in d'Ivoire.,Tianshui,Canada,d'Ivoire,0,0,0,2
+378,It is the case either that the city of Bujumbura is in China or that it is in Burundi.,Bujumbura,China,Burundi,0,1,1,2
+379,It is the case either that the city of Xining is in the United Arab Emirates or that it is in Korea.,Xining,the United Arab Emirates,Korea,0,0,0,2
+380,It is the case either that the city of Ahmedabad is in Morocco or that it is in India.,Ahmedabad,Morocco,India,0,1,1,2
+381,It is the case either that the city of Guwahati is in India or that it is in Mexico.,Guwahati,India,Mexico,1,0,1,2
+382,It is the case either that the city of Madurai is in China or that it is in India.,Madurai,China,India,0,1,1,2
+383,It is the case either that the city of Yangon is in Kenya or that it is in China.,Yangon,Kenya,China,0,0,0,2
+384,It is the case either that the city of Qiqihar is in India or that it is in Congo.,Qiqihar,India,Congo,0,0,0,2
+385,It is the case either that the city of Chizhou is in China or that it is in India.,Chizhou,China,India,1,0,1,2
+386,It is the case either that the city of Zhangzhou is in China or that it is in India.,Zhangzhou,China,India,1,0,1,2
+387,It is the case either that the city of Bucharest is in India or that it is in Italy.,Bucharest,India,Italy,0,0,0,2
+388,It is the case either that the city of Duesseldorf is in Germany or that it is in China.,Duesseldorf,Germany,China,1,0,1,2
+389,It is the case either that the city of Anqing is in Brazil or that it is in Tajikistan.,Anqing,Brazil,Tajikistan,0,0,0,2
+390,It is the case either that the city of Maturin is in Venezuela or that it is in Philippines.,Maturin,Venezuela,Philippines,1,0,1,2
+391,It is the case either that the city of Tembisa is in the China or that it is in Philippines.,Tembisa,the China,Philippines,0,0,0,2
+392,It is the case either that the city of Sorocaba is in Mexico or that it is in Indonesia.,Sorocaba,Mexico,Indonesia,0,0,0,2
+393,It is the case either that the city of Jinan is in China or that it is in Rwanda.,Jinan,China,Rwanda,1,0,0,2
+394,It is the case either that the city of Huaihua is in Africa or that it is in China.,Huaihua,Africa,China,0,1,1,2
+395,It is the case either that the city of Lahore is in Mexico or that it is in China.,Lahore,Mexico,China,0,0,0,2
+396,It is the case either that the city of Voronezh is in Iran or that it is in Russia.,Voronezh,Iran,Russia,0,1,1,2
+397,It is the case either that the city of Madurai is in China or that it is in Burundi.,Madurai,China,Burundi,0,0,0,2
+398,It is the case either that the city of Libreville is in the United Russia or that it is in States.,Libreville,the United Russia,States,0,0,0,2
+399,It is the case either that the city of Lianyungang is in the Philippines or that it is in Iraq.,Lianyungang,the Philippines,Iraq,0,0,0,2
+400,It is the case either that the city of Ludhiana is in India or that it is in Indonesia.,Ludhiana,India,Indonesia,1,0,1,2
+401,It is the case either that the city of Goeteborg is in South Belarus or that it is in Korea.,Goeteborg,South Belarus,Korea,0,0,0,2
+402,It is the case either that the city of Bogor is in South Korea or that it is in Russia.,Bogor,South Korea,Russia,0,0,0,2
+403,It is the case either that the city of Guiyang is in South Germany or that it is in Korea.,Guiyang,South Germany,Korea,0,0,0,2
+404,It is the case either that the city of Hamamatsu is in Indonesia or that it is in Japan.,Hamamatsu,Indonesia,Japan,0,1,1,2
+405,It is the case either that the city of Wroclaw is in China or that it is in Poland.,Wroclaw,China,Poland,0,1,1,2
+406,It is the case either that the city of Shijiazhuang is in Brazil or that it is in China.,Shijiazhuang,Brazil,China,0,1,1,2
+407,It is the case either that the city of Zhanjiang is in India or that it is in Japan.,Zhanjiang,India,Japan,0,0,0,2
+408,It is the case either that the city of Maoming is in Brazil or that it is in Iraq.,Maoming,Brazil,Iraq,0,0,0,2
+409,It is the case either that the city of Rajshahi is in Bangladesh or that it is in Pakistan.,Rajshahi,Bangladesh,Pakistan,1,0,1,2
+410,It is the case either that the city of Cancun is in Myanmar or that it is in China.,Cancun,Myanmar,China,0,0,0,2
+411,It is the case either that the city of Dalian is in Canada or that it is in China.,Dalian,Canada,China,0,1,1,2
+412,It is the case either that the city of Bauchi is in Iran or that it is in Turkey.,Bauchi,Iran,Turkey,0,0,0,2
+413,It is the case either that the city of Detroit is in the United States or that it is in Brazil.,Detroit,the United States,Brazil,1,0,1,2
+414,It is the case either that the city of Mississauga is in Canada or that it is in India.,Mississauga,Canada,India,1,0,1,2
+415,It is the case either that the city of Thiruvananthapuram is in India or that it is in Egypt.,Thiruvananthapuram,India,Egypt,1,0,1,2
+416,It is the case either that the city of Asuncion is in India or that it is in Nigeria.,Asuncion,India,Nigeria,0,0,0,2
+417,It is the case either that the city of Omdurman is in Sudan or that it is in China.,Omdurman,Sudan,China,1,0,1,2
+418,It is the case either that the city of Kawaguchi is in Japan or that it is in Vietnam.,Kawaguchi,Japan,Vietnam,1,0,1,2
+419,It is the case either that the city of Nova Iguacu is in Brazil or that it is in Sudan.,Nova Iguacu,Brazil,Sudan,1,0,1,2
+420,It is the case either that the city of Okayama is in China or that it is in Russia.,Okayama,China,Russia,0,0,0,2
+421,It is the case either that the city of Khabarovsk Vtoroy is in India or that it is in Russia.,Khabarovsk Vtoroy,India,Russia,0,1,1,2
+422,It is the case either that the city of Ganzhou is in South India or that it is in Korea.,Ganzhou,South India,Korea,0,0,0,2
+423,It is the case either that the city of Kota Kinabalu is in Malaysia or that it is in India.,Kota Kinabalu,Malaysia,India,1,0,1,2
+424,It is the case either that the city of Kuala Lumpur is in Canada or that it is in Malaysia.,Kuala Lumpur,Canada,Malaysia,0,1,1,2
+425,It is the case either that the city of Munich is in China or that it is in Iraq.,Munich,China,Iraq,0,0,0,2
+426,It is the case either that the city of Wroclaw is in Iran or that it is in Poland.,Wroclaw,Iran,Poland,0,1,1,2
+427,It is the case either that the city of Karaj is in Iran or that it is in Philippines.,Karaj,Iran,Philippines,1,0,1,2
+428,It is the case either that the city of Bhilai is in Venezuela or that it is in China.,Bhilai,Venezuela,China,0,0,0,2
+429,It is the case either that the city of Kashgar is in China or that it is in Philippines.,Kashgar,China,Philippines,1,0,1,2
+430,It is the case either that the city of New Kingston is in South Africa or that it is in Mexico.,New Kingston,South Africa,Mexico,0,0,0,2
+431,It is the case either that the city of Huzhou is in Germany or that it is in Turkey.,Huzhou,Germany,Turkey,0,0,0,2
+432,It is the case either that the city of Ulsan is in South Africa or that it is in Korea.,Ulsan,South Africa,Korea,0,0,0,2
+433,It is the case either that the city of Linfen is in India or that it is in Iran.,Linfen,India,Iran,0,0,0,2
+434,It is the case either that the city of Konya is in States or that it is in Russia.,Konya,States,Russia,0,0,0,2
+435,It is the case either that the city of Pingliang is in Tanzania or that it is in Kyrgyzstan.,Pingliang,Tanzania,Kyrgyzstan,0,0,0,2
+436,It is the case either that the city of Zhanjiang is in China or that it is in India.,Zhanjiang,China,India,1,0,0,2
+437,It is the case either that the city of Barquisimeto is in Venezuela or that it is in China.,Barquisimeto,Venezuela,China,1,0,1,2
+438,It is the case either that the city of Maracaibo is in Venezuela or that it is in States.,Maracaibo,Venezuela,States,1,0,1,2
+439,It is the case either that the city of Makati City is in the Philippines or that it is in China.,Makati City,the Philippines,China,1,0,1,2
+440,It is the case either that the city of Brasilia is in China or that it is in Brazil.,Brasilia,China,Brazil,0,1,1,2
+441,It is the case either that the city of Ta'if is in Korea or that it is in Venezuela.,Ta'if,Korea,Venezuela,0,0,0,2
+442,It is the case either that the city of Qom is in China or that it is in Iran.,Qom,China,Iran,0,1,1,2
+443,It is the case either that the city of Panzhihua is in Sudan or that it is in Iran.,Panzhihua,Sudan,Iran,0,0,0,2
+444,It is the case either that the city of Dhanbad is in India or that it is in Kenya.,Dhanbad,India,Kenya,1,0,0,2
+445,It is the case either that the city of Porto Velho is in Emirates or that it is in Algeria.,Porto Velho,Emirates,Algeria,0,0,0,2
+446,It is the case either that the city of Tianjin is in China or that it is in India.,Tianjin,China,India,1,0,1,2
+447,It is the case either that the city of Accra is in India or that it is in China.,Accra,India,China,0,0,0,2
+448,It is the case either that the city of Mar del Plata is in China or that it is in Nigeria.,Mar del Plata,China,Nigeria,0,0,0,2
+449,It is the case either that the city of Linyi is in Iraq or that it is in Ukraine.,Linyi,Iraq,Ukraine,0,0,0,2
+450,It is the case either that the city of Latakia is in Syria or that it is in Brazil.,Latakia,Syria,Brazil,1,0,1,2
+451,It is the case either that the city of Ouagadougou is in China or that it is in Iran.,Ouagadougou,China,Iran,0,0,0,2
+452,It is the case either that the city of Niamey is in Niger or that it is in Korea.,Niamey,Niger,Korea,1,0,1,2
+453,It is the case either that the city of Maceio is in China or that it is in India.,Maceio,China,India,0,0,0,2
+454,It is the case either that the city of Bulawayo is in China or that it is in Vietnam.,Bulawayo,China,Vietnam,0,0,0,2
+455,It is the case either that the city of Lahore is in China or that it is in States.,Lahore,China,States,0,0,0,2
+456,It is the case either that the city of Jiaozuo is in Bangladesh or that it is in China.,Jiaozuo,Bangladesh,China,0,1,0,2
+457,It is the case either that the city of Johor Bahru is in Malaysia or that it is in China.,Johor Bahru,Malaysia,China,1,0,1,2
+458,It is the case either that the city of Kampung Baru Subang is in the Philippines or that it is in China.,Kampung Baru Subang,the Philippines,China,0,0,0,2
+459,It is the case either that the city of Salta is in Cameroon or that it is in Argentina.,Salta,Cameroon,Argentina,0,1,1,2
+460,It is the case either that the city of Krasnodar is in South Africa or that it is in Brazil.,Krasnodar,South Africa,Brazil,0,0,0,2
+461,It is the case either that the city of Jiaozhou is in Germany or that it is in China.,Jiaozhou,Germany,China,0,1,1,2
+462,It is the case either that the city of Bogor is in South China or that it is in Korea.,Bogor,South China,Korea,0,0,0,2
+463,It is the case either that the city of Qinzhou is in Algeria or that it is in China.,Qinzhou,Algeria,China,0,1,1,2
+464,It is the case either that the city of Leipzig is in Germany or that it is in China.,Leipzig,Germany,China,1,0,1,2
+465,It is the case either that the city of Juiz de Fora is in India or that it is in Brazil.,Juiz de Fora,India,Brazil,0,1,1,2
+466,It is the case either that the city of Abobo is in India or that it is in Iran.,Abobo,India,Iran,0,0,0,2
+467,It is the case either that the city of Tembisa is in South Africa or that it is in India.,Tembisa,South Africa,India,1,0,1,2
+468,It is the case either that the city of Sanming is in Afghanistan or that it is in Bulgaria.,Sanming,Afghanistan,Bulgaria,0,0,0,2
+469,It is the case either that the city of Karachi is in Japan or that it is in India.,Karachi,Japan,India,0,0,0,2
+470,It is the case either that the city of Kunshan is in Korea or that it is in Russia.,Kunshan,Korea,Russia,0,0,0,2
+471,It is the case either that the city of Goeteborg is in Colombia or that it is in Sweden.,Goeteborg,Colombia,Sweden,0,1,1,2
+472,It is the case either that the city of Diyarbakir is in Africa or that it is in Turkey.,Diyarbakir,Africa,Turkey,0,1,1,2
+473,It is the case either that the city of Jiamusi is in China or that it is in Nigeria.,Jiamusi,China,Nigeria,1,0,1,2
+474,It is the case either that the city of Balikpapan is in Japan or that it is in China.,Balikpapan,Japan,China,0,0,0,2
+475,It is the case either that the city of Petaling Jaya is in Bosnia and Herzegovina or that it is in Niger.,Petaling Jaya,Bosnia and Herzegovina,Niger,0,0,0,2
+476,It is the case either that the city of Laiwu is in China or that it is in India.,Laiwu,China,India,1,0,1,2
+477,It is the case either that the city of Juiz de Fora is in Latvia or that it is in India.,Juiz de Fora,Latvia,India,0,0,0,2
+478,It is the case either that the city of Dubai is in the United States or that it is in China.,Dubai,the United States,China,0,0,0,2
+479,It is the case either that the city of Mogadishu is in Iran or that it is in Haiti.,Mogadishu,Iran,Haiti,0,0,0,2
+480,It is the case either that the city of Sanming is in Bulgaria or that it is in China.,Sanming,Bulgaria,China,0,1,0,2
+481,It is the case either that the city of Jiaozhou is in China or that it is in Korea.,Jiaozhou,China,Korea,1,0,1,2
+482,It is the case either that the city of Pontianak is in India or that it is in States.,Pontianak,India,States,0,0,0,2
+483,It is the case either that the city of Kawaguchi is in Indonesia or that it is in Ecuador.,Kawaguchi,Indonesia,Ecuador,0,0,0,2
+484,It is the case either that the city of Yerevan is in Philippines or that it is in Armenia.,Yerevan,Philippines,Armenia,0,1,1,2
+485,It is the case either that the city of Liuzhou is in China or that it is in Kenya.,Liuzhou,China,Kenya,1,0,1,2
+486,It is the case either that the city of Jambi City is in China or that it is in Indonesia.,Jambi City,China,Indonesia,0,1,1,2
+487,It is the case either that the city of Jiangyin is in Brazil or that it is in China.,Jiangyin,Brazil,China,0,1,1,2
+488,It is the case either that the city of Shah Alam is in Malaysia or that it is in China.,Shah Alam,Malaysia,China,1,0,1,2
+489,It is the case either that the city of Dalian is in Philippines or that it is in China.,Dalian,Philippines,China,0,1,1,2
+490,It is the case either that the city of Ar Raqqah is in Mexico or that it is in Iraq.,Ar Raqqah,Mexico,Iraq,0,0,0,2
+491,It is the case either that the city of Shymkent is in China or that it is in Ukraine.,Shymkent,China,Ukraine,0,0,0,2
+492,It is the case either that the city of Al Basrah al Qadimah is in China or that it is in India.,Al Basrah al Qadimah,China,India,0,0,0,2
+493,It is the case either that the city of Mazar-e Sharif is in Afghanistan or that it is in China.,Mazar-e Sharif,Afghanistan,China,1,0,1,2
+494,It is the case either that the city of Anshan is in Kenya or that it is in China.,Anshan,Kenya,China,0,1,1,2
+495,It is the case either that the city of Stockholm is in Sweden or that it is in Bulgaria.,Stockholm,Sweden,Bulgaria,1,0,1,2
+496,It is the case either that the city of Fes is in India or that it is in Morocco.,Fes,India,Morocco,0,1,1,2
+497,It is the case either that the city of Albuquerque is in the United States or that it is in Ukraine.,Albuquerque,the United States,Ukraine,1,0,1,2
+498,It is the case either that the city of Kyoto is in Arabia or that it is in China.,Kyoto,Arabia,China,0,0,0,2
+499,It is the case either that the city of Sorocaba is in Brazil or that it is in India.,Sorocaba,Brazil,India,1,0,1,2

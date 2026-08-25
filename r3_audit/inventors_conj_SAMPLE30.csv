@@ -1,0 +1,31 @@
+idx,statement,conjunctA,conjunctB,labelA,labelB,cell,compound_label,consistent
+6,It is the case both that Frederick G. Creed lived in Sweden and that Orville and Wilbur Wright lived in the U.S.,Frederick G. Creed / Sweden,Orville and Wilbur Wright / the U.S,0,1,FT,0,True
+8,It is the case both that Wallace Carothers lived in the U.S and that Joseph Bramah lived in the U.K.,Wallace Carothers / the U.S,Joseph Bramah / the U.K,1,1,TT,1,True
+9,It is the case both that Rudolf Kálmán lived in Hungary and that James Clerk Maxwell lived in the U.K.,Rudolf Kálmán / Hungary,James Clerk Maxwell / the U.K,1,1,TT,1,True
+19,It is the case both that Nils Bohlin lived in Sweden and that Blaise Pascal lived in Poland/France.,Nils Bohlin / Sweden,Blaise Pascal / Poland/France,1,0,TF,0,True
+39,It is the case both that George Washington Carver lived in the U.S and that Samuel Morse lived in the U.S.,George Washington Carver / the U.S,Samuel Morse / the U.S,1,1,TT,1,True
+49,It is the case both that John Ericsson lived in Sweden and that Jack Kilby lived in the U.S.,John Ericsson / Sweden,Jack Kilby / the U.S,1,1,TT,1,True
+51,It is the case both that Tim Berners-Lee lived in the U.K and that Alfred Nobel lived in the U.S.,Tim Berners-Lee / the U.K,Alfred Nobel / the U.S,1,0,TF,0,True
+62,It is the case both that Reginald Fessenden lived in Canada/the U.S and that Jacob Perkins lived in the U.S.,Reginald Fessenden / Canada/the U.S,Jacob Perkins / the U.S,1,1,TT,1,True
+76,It is the case both that Edwin Link lived in the U.S and that Auguste and Louis Lumière lived in France.,Edwin Link / the U.S,Auguste and Louis Lumière / France,1,1,TT,1,True
+81,It is the case both that Leonardo da Vinci lived in Poland/France and that John T. Parsons lived in the U.S.,Leonardo da Vinci / Poland/France,John T. Parsons / the U.S,0,1,FT,0,True
+83,It is the case both that Lloyd Groff Copeman lived in the U.S and that Samuel Fox lived in the U.K.,Lloyd Groff Copeman / the U.S,Samuel Fox / the U.K,1,1,TT,1,True
+99,It is the case both that Leonardo da Vinci lived in Poland/France and that Charles Wheatstone lived in the U.K.,Leonardo da Vinci / Poland/France,Charles Wheatstone / the U.K,0,1,FT,0,True
+101,It is the case both that Philipp Reis lived in Germany and that Ernesto Blanco lived in the U.S.,Philipp Reis / Germany,Ernesto Blanco / the U.S,1,1,TT,1,True
+114,It is the case both that Philipp Reis lived in Finland and that Reginald Fessenden lived in the U.K.,Philipp Reis / Finland,Reginald Fessenden / the U.K,0,0,FF,0,True
+126,It is the case both that Emile Berliner lived in Germany/the U.S and that Biruté Galdikas lived in Canada.,Emile Berliner / Germany/the U.S,Biruté Galdikas / Canada,1,1,TT,1,True
+154,It is the case both that James Murray Spangler lived in the U.S and that Charles Babbage lived in the U.K.,James Murray Spangler / the U.S,Charles Babbage / the U.K,1,1,TT,1,True
+228,It is the case both that Henri Giffard lived in France and that Frank Bunker Gilbreth lived in the U.S.,Henri Giffard / France,Frank Bunker Gilbreth / the U.S,1,1,TT,1,True
+254,It is the case both that Gottlieb Daimler lived in Germany and that Charles Wheatstone lived in France.,Gottlieb Daimler / Germany,Charles Wheatstone / France,1,0,TF,0,True
+265,It is the case both that Charles Macintosh lived in the U.K and that Benjamin Holt lived in the U.S.,Charles Macintosh / the U.K,Benjamin Holt / the U.S,1,1,TT,1,True
+268,It is the case both that James Clerk Maxwell lived in the U.K and that Lloyd Groff Copeman lived in the U.S.,James Clerk Maxwell / the U.K,Lloyd Groff Copeman / the U.S,1,1,TT,1,True
+309,It is the case both that Louis Pasteur lived in France and that Willis Carrier lived in Italy.,Louis Pasteur / France,Willis Carrier / Italy,1,0,TF,0,True
+310,It is the case both that Vint Cerf lived in the U.S and that Charles Strite lived in the U.S.,Vint Cerf / the U.S,Charles Strite / the U.S,1,1,TT,1,True
+356,It is the case both that Guglielmo Marconi lived in the U.K and that Edmund Cartwright lived in the U.K.,Guglielmo Marconi / the U.K,Edmund Cartwright / the U.K,0,1,FT,0,True
+372,It is the case both that Albert Ghiorso lived in the U.S and that Elisha Otis lived in the U.K.,Albert Ghiorso / the U.S,Elisha Otis / the U.K,1,0,TF,0,True
+392,It is the case both that Carl Elsener lived in the U.S and that William Congreve lived in the U.K.,Carl Elsener / the U.S,William Congreve / the U.K,0,1,FT,0,True
+399,It is the case both that Robert Adler lived in Austria/the U.S and that Frank Bunker Gilbreth lived in the U.S.,Robert Adler / Austria/the U.S,Frank Bunker Gilbreth / the U.S,1,1,TT,1,True
+413,It is the case both that Sir Frank Whittle lived in the U.K and that Heinrich Göbel lived in Germany.,Sir Frank Whittle / the U.K,Heinrich Göbel / Germany,1,1,TT,1,True
+475,It is the case both that Carl Elsener lived in Switzerland and that Samuel Fox lived in the U.K.,Carl Elsener / Switzerland,Samuel Fox / the U.K,1,1,TT,1,True
+484,It is the case both that Arthur Pitney lived in the U.K and that Philo Farnsworth lived in the U.S.,Arthur Pitney / the U.K,Philo Farnsworth / the U.S,0,1,FT,0,True
+492,It is the case both that John Wesley Hyatt lived in the U.S and that Michael Faraday lived in the U.K.,John Wesley Hyatt / the U.S,Michael Faraday / the U.K,1,1,TT,1,True

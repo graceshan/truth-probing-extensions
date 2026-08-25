@@ -1,0 +1,501 @@
+idx,statement,subject,disjunctA_obj,disjunctB_obj,labelA,labelB,compound_label,n_parts
+0,It is the case either that the Spanish word 'aceite' means 'oil' or that it means 'class'.,aceite,oil,class,1,0,1,2
+1,It is the case either that the Spanish word 'sistema' means 'nature' or that it means 'night'.,sistema,nature,night,0,0,0,2
+2,It is the case either that the Spanish word 'caballo' means 'horse' or that it means 'shoulder'.,caballo,horse,shoulder,1,0,1,2
+3,It is the case either that the Spanish word 'estudiante' means 'student' or that it means 'summer'.,estudiante,student,summer,1,0,1,2
+4,It is the case either that the Spanish word 'derecho' means 'summer' or that it means swim'.,derecho,summer,swim,0,0,0,2
+5,It is the case either that the Spanish word 'belleza' means 'beauty' or that it means throw'.,belleza,beauty,throw,1,0,1,2
+6,It is the case either that the Spanish word 'piedra' means 'stone' or that it means 'before'.,piedra,stone,before,1,0,1,2
+7,It is the case either that the Spanish word 'barco' means 'hello' or that it means 'seed'.,barco,hello,seed,0,0,0,2
+8,It is the case either that the Spanish word 'edad' means 'clock' or that it means read'.,edad,clock,read,0,0,0,2
+9,It is the case either that the Spanish word 'lobo' means 'story' or that it means 'leg'.,lobo,story,leg,0,0,0,2
+10,It is the case either that the Spanish word 'tigre' means imagine' or that it means 'cow'.,tigre,imagine,cow,0,0,0,2
+11,It is the case either that the Spanish word 'derecho' means 'donkey' or that it means 'summer'.,derecho,donkey,summer,0,0,0,2
+12,It is the case either that the Spanish word 'tierra' means 'land' or that it means 'skin'.,tierra,land,skin,1,0,1,2
+13,It is the case either that the Spanish word 'sol' means 'land' or that it means 'sun'.,sol,land,sun,0,1,1,2
+14,It is the case either that the Spanish word 'pan' means 'horse' or that it means 'eye'.,pan,horse,eye,0,0,0,2
+15,It is the case either that the Spanish word 'frase' means 'paper' or that it means 'hot'.,frase,paper,hot,0,0,0,2
+16,It is the case either that the Spanish word 'nariz' means eat' or that it means 'giraffe'.,nariz,eat,giraffe,0,0,0,2
+17,It is the case either that the Spanish word 'leche' means 'clock' or that it means 'glass'.,leche,clock,glass,0,0,0,2
+18,It is the case either that the Spanish word 'toro' means 'giraffe' or that it means 'bull'.,toro,giraffe,bull,0,1,1,2
+19,It is the case either that the Spanish word 'continuar' means 'end' or that it means 'coat'.,continuar,end,coat,0,0,0,2
+20,It is the case either that the Spanish word 'historia' means 'office' or that it means 'corner'.,historia,office,corner,0,0,0,2
+21,It is the case either that the Spanish word 'igual' means 'to 'nothing' or that it means imagine'.,igual,to 'nothing,imagine,0,0,0,2
+22,It is the case either that the Spanish word 'parecer' means 'to walk' or that it means seem'.,parecer,to walk,seem,0,1,1,2
+23,It is the case either that the Spanish word 'esperanza' means 'hope' or that it means 'name'.,esperanza,hope,name,1,0,1,2
+24,It is the case either that the Spanish word 'caer' means 'to fall' or that it means 'thing'.,caer,to fall,thing,1,0,1,2
+25,It is the case either that the Spanish word 'decir' means 'order' or that it means 'tool'.,decir,order,tool,0,0,0,2
+26,It is the case either that the Spanish word 'morir' means 'to die' or that it means 'three'.,morir,to die,three,1,0,1,2
+27,It is the case either that the Spanish word 'piso' means 'pig' or that it means 'set'.,piso,pig,set,0,0,0,2
+28,It is the case either that the Spanish word 'gato' means 'large' or that it means 'bear'.,gato,large,bear,0,0,0,2
+29,It is the case either that the Spanish word 'dientes' means 'whale' or that it means 'hope'.,dientes,whale,hope,0,0,0,2
+30,It is the case either that the Spanish word 'reloj' means 'fire' or that it means 'clock'.,reloj,fire,clock,0,1,1,2
+31,It is the case either that the Spanish word 'tener' means 'to 'smile' or that it means have'.,tener,to 'smile,have,0,1,1,2
+32,It is the case either that the Spanish word 'lado' means 'enemy' or that it means 'equal'.,lado,enemy,equal,0,0,0,2
+33,It is the case either that the Spanish word 'igual' means 'to 'modern' or that it means imagine'.,igual,to 'modern,imagine,0,0,0,2
+34,It is the case either that the Spanish word 'abierto' means 'open' or that it means swim'.,abierto,open,swim,1,0,1,2
+35,It is the case either that the Spanish word 'gato' means 'large' or that it means 'history'.,gato,large,history,0,0,0,2
+36,It is the case either that the Spanish word 'maravilla' means 'dry' or that it means 'bell'.,maravilla,dry,bell,0,0,0,2
+37,It is the case either that the Spanish word 'ley' means 'dictionary' or that it means 'dog'.,ley,dictionary,dog,0,0,0,2
+38,It is the case either that the Spanish word 'hijo' means 'horse' or that it means 'son'.,hijo,horse,son,0,1,1,2
+39,It is the case either that the Spanish word 'elegir' means 'to 'paper' or that it means choose'.,elegir,to 'paper,choose,0,1,1,2
+40,It is the case either that the Spanish word 'bueno' means 'good' or that it means 'dark'.,bueno,good,dark,1,0,1,2
+41,It is the case either that the Spanish word 'jugar' means 'to 'south' or that it means play'.,jugar,to 'south,play,0,1,1,2
+42,It is the case either that the Spanish word 'oscuro' means 'face' or that it means 'dark'.,oscuro,face,dark,0,1,1,2
+43,It is the case either that the Spanish word 'oscuro' means 'dark' or that it means 'before'.,oscuro,dark,before,1,0,1,2
+44,It is the case either that the Spanish word 'continuar' means 'meat' or that it means 'coat'.,continuar,meat,coat,0,0,0,2
+45,It is the case either that the Spanish word 'persona' means 'person' or that it means 'cow'.,persona,person,cow,1,0,1,2
+46,It is the case either that the Spanish word 'pato' means grow' or that it means 'shoulder'.,pato,grow,shoulder,0,0,0,2
+47,It is the case either that the Spanish word 'cara' means 'dry' or that it means 'name'.,cara,dry,name,0,0,0,2
+48,It is the case either that the Spanish word 'dibujar' means 'to fight' or that it means draw'.,dibujar,to fight,draw,0,1,1,2
+49,It is the case either that the Spanish word 'mapa' means 'bread' or that it means 'map'.,mapa,bread,map,0,1,1,2
+50,It is the case either that the Spanish word 'guerra' means 'example' or that it means 'summer'.,guerra,example,summer,0,0,0,2
+51,It is the case either that the Spanish word 'roca' means 'school' or that it means 'rock'.,roca,school,rock,0,1,1,2
+52,It is the case either that the Spanish word 'campana' means 'to 'moment' or that it means connect'.,campana,to 'moment,connect,0,0,0,2
+53,It is the case either that the Spanish word 'ahora' means 'now' or that it means 'danger'.,ahora,now,danger,1,0,1,2
+54,It is the case either that the Spanish word 'de' means 'now' or that it means 'always'.,de,now,always,0,0,0,2
+55,It is the case either that the Spanish word 'ciudad' means 'eye' or that it means 'city'.,ciudad,eye,city,0,1,1,2
+56,It is the case either that the Spanish word 'caliente' means 'iron' or that it means 'history'.,caliente,iron,history,0,0,0,2
+57,It is the case either that the Spanish word 'vivir' means 'sheep' or that it means 'hope'.,vivir,sheep,hope,0,0,0,2
+58,It is the case either that the Spanish word 'tarjeta' means 'sister' or that it means 'bear'.,tarjeta,sister,bear,0,0,0,2
+59,It is the case either that the Spanish word 'cruzar' means 'spring' or that it means 'pig'.,cruzar,spring,pig,0,0,0,2
+60,It is the case either that the Spanish word 'llegar' means 'insect' or that it means 'dog'.,llegar,insect,dog,0,0,0,2
+61,It is the case either that the Spanish word 'momento' means 'moment' or that it means hear'.,momento,moment,hear,1,0,1,2
+62,It is the case either that the Spanish word 'barco' means 'hello' or that it means 'octopus'.,barco,hello,octopus,0,0,0,2
+63,It is the case either that the Spanish word 'escribir' means 'to write' or that it means 'map'.,escribir,to write,map,1,0,1,2
+64,It is the case either that the Spanish word 'mes' means 'history' or that it means 'month'.,mes,history,month,0,1,1,2
+65,It is the case either that the Spanish word 'uno' means sell' or that it means 'one'.,uno,sell,one,0,1,1,2
+66,It is the case either that the Spanish word 'querer' means 'of' or that it means 'giraffe'.,querer,of,giraffe,0,0,0,2
+67,It is the case either that the Spanish word 'tarde' means 'hand' or that it means write'.,tarde,hand,write,0,0,0,2
+68,It is the case either that the Spanish word 'piso' means 'set' or that it means 'market'.,piso,set,market,0,0,0,2
+69,It is the case either that the Spanish word 'tener' means 'to have' or that it means 'shoulder'.,tener,to have,shoulder,1,0,1,2
+70,It is the case either that the Spanish word 'maravilla' means 'bell' or that it means 'part'.,maravilla,bell,part,0,0,0,2
+71,It is the case either that the Spanish word 'norte' means 'meat' or that it means 'north'.,norte,meat,north,0,1,1,2
+72,It is the case either that the Spanish word 'carne' means 'meat' or that it means 'seven'.,carne,meat,seven,1,0,1,2
+73,It is the case either that the Spanish word 'problema' means 'giraffe' or that it means 'problem'.,problema,giraffe,problem,0,1,1,2
+74,It is the case either that the Spanish word 'sal' means 'shell' or that it means 'horse'.,sal,shell,horse,0,0,0,2
+75,It is the case either that the Spanish word 'conjunto' means 'neck' or that it means 'son'.,conjunto,neck,son,0,0,0,2
+76,It is the case either that the Spanish word 'carta' means 'second' or that it means 'nothing'.,carta,second,nothing,0,0,0,2
+77,It is the case either that the Spanish word 'oeste' means 'moment' or that it means 'skin'.,oeste,moment,skin,0,0,0,2
+78,It is the case either that the Spanish word 'temprano' means 'fig' or that it means 'early'.,temprano,fig,early,0,1,1,2
+79,It is the case either that the Spanish word 'siempre' means 'month' or that it means 'seed'.,siempre,month,seed,0,0,0,2
+80,It is the case either that the Spanish word 'perro' means 'dog' or that it means 'bear'.,perro,dog,bear,1,0,1,2
+81,It is the case either that the Spanish word 'cuatro' means 'to imagine' or that it means 'bell'.,cuatro,to imagine,bell,0,0,0,2
+82,It is the case either that the Spanish word 'ala' means 'slow' or that it means 'wing'.,ala,slow,wing,0,1,1,2
+83,It is the case either that the Spanish word 'ver' means 'to see' or that it means 'train'.,ver,to see,train,1,0,1,2
+84,It is the case either that the Spanish word 'luchar' means 'bell' or that it means 'heat'.,luchar,bell,heat,0,0,0,2
+85,It is the case either that the Spanish word 'pato' means 'shoulder' or that it means 'sun'.,pato,shoulder,sun,0,0,0,2
+86,It is the case either that the Spanish word 'piso' means measure' or that it means 'set'.,piso,measure,set,0,0,0,2
+87,It is the case either that the Spanish word 'opuesta' means 'half' or that it means 'dress'.,opuesta,half,dress,0,0,0,2
+88,It is the case either that the Spanish word 'leche' means 'glass' or that it means 'enemy'.,leche,glass,enemy,0,0,0,2
+89,It is the case either that the Spanish word 'reloj' means 'clock' or that it means 'horse'.,reloj,clock,horse,1,0,1,2
+90,It is the case either that the Spanish word 'rama' means 'back' or that it means imagine'.,rama,back,imagine,0,0,0,2
+91,It is the case either that the Spanish word 'siete' means 'money' or that it means 'seven'.,siete,money,seven,0,1,1,2
+92,It is the case either that the Spanish word 'viento' means 'whale' or that it means 'wind'.,viento,whale,wind,0,1,1,2
+93,It is the case either that the Spanish word 'dinero' means 'dark' or that it means 'mouth'.,dinero,dark,mouth,0,0,0,2
+94,It is the case either that the Spanish word 'ruido' means 'noise' or that it means 'bread'.,ruido,noise,bread,1,0,1,2
+95,It is the case either that the Spanish word 'mar' means 'sea' or that it means 'market'.,mar,sea,market,1,0,1,2
+96,It is the case either that the Spanish word 'roca' means 'rock' or that it means 'month'.,roca,rock,month,1,0,1,2
+97,It is the case either that the Spanish word 'valle' means 'face' or that it means grow'.,valle,face,grow,0,0,0,2
+98,It is the case either that the Spanish word 'desarrollar' means 'to 'but' or that it means develop'.,desarrollar,to 'but,develop,0,1,1,2
+99,It is the case either that the Spanish word 'agua' means 'giraffe' or that it means 'water'.,agua,giraffe,water,0,1,1,2
+100,It is the case either that the Spanish word 'ola' means 'wave' or that it means 'dry'.,ola,wave,dry,1,0,1,2
+101,It is the case either that the Spanish word 'ciencia' means 'to buy' or that it means 'cow'.,ciencia,to buy,cow,0,0,0,2
+102,It is the case either that the Spanish word 'historia' means 'first' or that it means 'office'.,historia,first,office,0,0,0,2
+103,It is the case either that the Spanish word 'izquierda' means 'never' or that it means push'.,izquierda,never,push,0,0,0,2
+104,It is the case either that the Spanish word 'uno' means 'then' or that it means 'one'.,uno,then,one,0,1,1,2
+105,It is the case either that the Spanish word 'barco' means 'hello' or that it means 'water'.,barco,hello,water,0,0,0,2
+106,It is the case either that the Spanish word 'preguntar' means 'to 'person' or that it means describe'.,preguntar,to 'person,describe,0,0,0,2
+107,It is the case either that the Spanish word 'voz' means 'voice' or that it means 'bread'.,voz,voice,bread,1,0,1,2
+108,It is the case either that the Spanish word 'estrella' means 'sand' or that it means 'star'.,estrella,sand,star,0,1,1,2
+109,It is the case either that the Spanish word 'madera' means 'to choose' or that it means have'.,madera,to choose,have,0,0,0,2
+110,It is the case either that the Spanish word 'mezclar' means 'to mix' or that it means 'force'.,mezclar,to mix,force,1,0,1,2
+111,It is the case either that the Spanish word 'feliz' means die' or that it means 'second'.,feliz,die,second,0,0,0,2
+112,It is the case either that the Spanish word 'edad' means 'clock' or that it means 'body'.,edad,clock,body,0,0,0,2
+113,It is the case either that the Spanish word 'largo' means 'history' or that it means connect'.,largo,history,connect,0,0,0,2
+114,It is the case either that the Spanish word 'granja' means 'woman' or that it means 'sea'.,granja,woman,sea,0,0,0,2
+115,It is the case either that the Spanish word 'dedo' means 'third' or that it means 'finger'.,dedo,third,finger,0,1,1,2
+116,It is the case either that the Spanish word 'veinte' means 'twenty' or that it means 'too'.,veinte,twenty,too,1,0,1,2
+117,It is the case either that the Spanish word 'querer' means 'of' or that it means walk'.,querer,of,walk,0,0,0,2
+118,It is the case either that the Spanish word 'viejo' means 'temperature' or that it means 'old'.,viejo,temperature,old,0,1,1,2
+119,It is the case either that the Spanish word 'gris' means 'goat' or that it means 'history'.,gris,goat,history,0,0,0,2
+120,It is the case either that the Spanish word 'saber' means 'happy' or that it means 'while'.,saber,happy,while,0,0,0,2
+121,It is the case either that the Spanish word 'silla' means 'market' or that it means 'neighbor'.,silla,market,neighbor,0,0,0,2
+122,It is the case either that the Spanish word 'aire' means 'now' or that it means 'silver'.,aire,now,silver,0,0,0,2
+123,It is the case either that the Spanish word 'grande' means 'to ask' or that it means 'sun'.,grande,to ask,sun,0,0,0,2
+124,It is the case either that the Spanish word 'ganar' means 'to use' or that it means 'finger'.,ganar,to use,finger,0,0,0,2
+125,It is the case either that the Spanish word 'momento' means 'moment' or that it means 'nothing'.,momento,moment,nothing,1,0,1,2
+126,It is the case either that the Spanish word 'comprar' means 'dry' or that it means 'water'.,comprar,dry,water,0,0,0,2
+127,It is the case either that the Spanish word 'problema' means 'nothing' or that it means 'problem'.,problema,nothing,problem,0,1,1,2
+128,It is the case either that the Spanish word 'lista' means 'letter' or that it means 'list'.,lista,letter,list,0,1,1,2
+129,It is the case either that the Spanish word 'gato' means 'insect' or that it means 'large'.,gato,insect,large,0,0,0,2
+130,It is the case either that the Spanish word 'temperatura' means 'hand' or that it means 'happy'.,temperatura,hand,happy,0,0,0,2
+131,It is the case either that the Spanish word 'medio' means 'large' or that it means 'winter'.,medio,large,winter,0,0,0,2
+132,It is the case either that the Spanish word 'huevo' means 'order' or that it means 'egg'.,huevo,order,egg,0,1,1,2
+133,It is the case either that the Spanish word 'llano' means 'hand' or that it means 'chair'.,llano,hand,chair,0,0,0,2
+134,It is the case either that the Spanish word 'verano' means 'to 'order' or that it means push'.,verano,to 'order,push,0,0,0,2
+135,It is the case either that the Spanish word 'poema' means 'to 'ground' or that it means win'.,poema,to 'ground,win,0,0,0,2
+136,It is the case either that the Spanish word 'caminar' means 'to walk' or that it means 'cow'.,caminar,to walk,cow,1,0,1,2
+137,It is the case either that the Spanish word 'agudo' means 'dog' or that it means 'sharp'.,agudo,dog,sharp,0,1,1,2
+138,It is the case either that the Spanish word 'piel' means 'offer' or that it means 'skin'.,piel,offer,skin,0,1,1,2
+139,It is the case either that the Spanish word 'palabra' means 'paper' or that it means 'word'.,palabra,paper,word,0,1,1,2
+140,It is the case either that the Spanish word 'nombre' means 'name' or that it means 'back'.,nombre,name,back,1,0,1,2
+141,It is the case either that the Spanish word 'luna' means 'letter' or that it means 'smile'.,luna,letter,smile,0,0,0,2
+142,It is the case either that the Spanish word 'agua' means 'water' or that it means 'glass'.,agua,water,glass,1,0,1,2
+143,It is the case either that the Spanish word 'bebida' means 'clock' or that it means 'train'.,bebida,clock,train,0,0,0,2
+144,It is the case either that the Spanish word 'seis' means 'to 'ten' or that it means find'.,seis,to 'ten,find,0,0,0,2
+145,It is the case either that the Spanish word 'padre' means 'special' or that it means write'.,padre,special,write,0,0,0,2
+146,It is the case either that the Spanish word 'hermano' means 'silver' or that it means 'and'.,hermano,silver,and,0,0,0,2
+147,It is the case either that the Spanish word 'pato' means 'forest' or that it means 'wolf'.,pato,forest,wolf,0,0,0,2
+148,It is the case either that the Spanish word 'resultado' means 'nothing' or that it means 'result'.,resultado,nothing,result,0,1,1,2
+149,It is the case either that the Spanish word 'elefante' means 'island' or that it means 'spring'.,elefante,island,spring,0,0,0,2
+150,It is the case either that the Spanish word 'cuerpo' means 'body' or that it means measure'.,cuerpo,body,measure,1,0,1,2
+151,It is the case either that the Spanish word 'coche' means 'pig' or that it means 'car'.,coche,pig,car,0,1,1,2
+152,It is the case either that the Spanish word 'escuela' means 'hope' or that it means 'school'.,escuela,hope,school,0,1,1,2
+153,It is the case either that the Spanish word 'lanzar' means 'to throw' or that it means 'equal'.,lanzar,to throw,equal,1,0,1,2
+154,It is the case either that the Spanish word 'azul' means 'eye' or that it means push'.,azul,eye,push,0,0,0,2
+155,It is the case either that the Spanish word 'comer' means 'to eat' or that it means 'slow'.,comer,to eat,slow,1,0,1,2
+156,It is the case either that the Spanish word 'cerdo' means 'wave' or that it means write'.,cerdo,wave,write,0,0,0,2
+157,It is the case either that the Spanish word 'ganar' means 'to 'king' or that it means use'.,ganar,to 'king,use,0,0,0,2
+158,It is the case either that the Spanish word 'conjunto' means hear' or that it means 'son'.,conjunto,hear,son,0,0,0,2
+159,It is the case either that the Spanish word 'tienda' means 'coat' or that it means 'insect'.,tienda,coat,insect,0,0,0,2
+160,It is the case either that the Spanish word 'dos' means 'enemy' or that it means 'month'.,dos,enemy,month,0,0,0,2
+161,It is the case either that the Spanish word 'y' means 'bull' or that it means 'and'.,y,bull,and,0,1,1,2
+162,It is the case either that the Spanish word 'huevo' means 'egg' or that it means 'large'.,huevo,egg,large,1,0,1,2
+163,It is the case either that the Spanish word 'pato' means 'sheep' or that it means 'wolf'.,pato,sheep,wolf,0,0,0,2
+164,It is the case either that the Spanish word 'hijo' means 'son' or that it means 'squid'.,hijo,son,squid,1,0,1,2
+165,It is the case either that the Spanish word 'respuesta' means 'bread' or that it means 'car'.,respuesta,bread,car,0,0,0,2
+166,It is the case either that the Spanish word 'mariposa' means 'stone' or that it means 'rose'.,mariposa,stone,rose,0,0,0,2
+167,It is the case either that the Spanish word 'describir' means 'to die' or that it means 'month'.,describir,to die,month,0,0,0,2
+168,It is the case either that the Spanish word 'mapa' means 'third' or that it means 'map'.,mapa,third,map,0,1,1,2
+169,It is the case either that the Spanish word 'invierno' means 'winter' or that it means 'fat'.,invierno,winter,fat,1,0,1,2
+170,It is the case either that the Spanish word 'grasa' means build' or that it means 'new'.,grasa,build,new,0,0,0,2
+171,It is the case either that the Spanish word 'y' means 'and' or that it means 'rose'.,y,and,rose,1,0,1,2
+172,It is the case either that the Spanish word 'pie' means 'lake' or that it means 'south'.,pie,lake,south,0,0,0,2
+173,It is the case either that the Spanish word 'carne' means 'enough' or that it means 'meat'.,carne,enough,meat,0,1,1,2
+174,It is the case either that the Spanish word 'luz' means 'enough' or that it means 'week'.,luz,enough,week,0,0,0,2
+175,It is the case either that the Spanish word 'oscuro' means 'dark' or that it means 'son'.,oscuro,dark,son,1,0,1,2
+176,It is the case either that the Spanish word 'pintar' means 'woman' or that it means 'mouth'.,pintar,woman,mouth,0,0,0,2
+177,It is the case either that the Spanish word 'conjunto' means 'enemy' or that it means 'son'.,conjunto,enemy,son,0,0,0,2
+178,It is the case either that the Spanish word 'tercero' means 'third' or that it means 'dog'.,tercero,third,dog,1,0,1,2
+179,It is the case either that the Spanish word 'piel' means 'water' or that it means 'skin'.,piel,water,skin,0,1,1,2
+180,It is the case either that the Spanish word 'ojo' means 'slave' or that it means 'order'.,ojo,slave,order,0,0,0,2
+181,It is the case either that the Spanish word 'suave' means write' or that it means 'skin'.,suave,write,skin,0,0,0,2
+182,It is the case either that the Spanish word 'sistema' means 'family' or that it means 'nature'.,sistema,family,nature,0,0,0,2
+183,It is the case either that the Spanish word 'tren' means 'train' or that it means 'iron'.,tren,train,iron,1,0,1,2
+184,It is the case either that the Spanish word 'sangre' means 'son' or that it means 'sun'.,sangre,son,sun,0,0,0,2
+185,It is the case either that the Spanish word 'idioma' means 'moment' or that it means imagine'.,idioma,moment,imagine,0,0,0,2
+186,It is the case either that the Spanish word 'nuevo' means 'always' or that it means 'direct'.,nuevo,always,direct,0,0,0,2
+187,It is the case either that the Spanish word 'continuar' means 'name' or that it means 'coat'.,continuar,name,coat,0,0,0,2
+188,It is the case either that the Spanish word 'nadar' means 'to swim' or that it means connect'.,nadar,to swim,connect,1,0,1,2
+189,It is the case either that the Spanish word 'hermano' means 'one' or that it means 'silver'.,hermano,one,silver,0,0,0,2
+190,It is the case either that the Spanish word 'matar' means 'hand' or that it means 'bread'.,matar,hand,bread,0,0,0,2
+191,It is the case either that the Spanish word 'cola' means 'egg' or that it means 'name'.,cola,egg,name,0,0,0,2
+192,It is the case either that the Spanish word 'aire' means 'silver' or that it means 'train'.,aire,silver,train,0,0,0,2
+193,It is the case either that the Spanish word 'caballo' means 'horse' or that it means 'cow'.,caballo,horse,cow,1,0,1,2
+194,It is the case either that the Spanish word 'viejo' means 'old' or that it means 'but'.,viejo,old,but,1,0,1,2
+195,It is the case either that the Spanish word 'luchar' means 'heat' or that it means 'water'.,luchar,heat,water,0,0,0,2
+196,It is the case either that the Spanish word 'abrigo' means win' or that it means 'coat'.,abrigo,win,coat,0,1,1,2
+197,It is the case either that the Spanish word 'insecto' means 'then' or that it means 'market'.,insecto,then,market,0,0,0,2
+198,It is the case either that the Spanish word 'maravilla' means 'list' or that it means 'bell'.,maravilla,list,bell,0,0,0,2
+199,It is the case either that the Spanish word 'fuego' means 'fire' or that it means 'large'.,fuego,fire,large,1,0,1,2
+200,It is the case either that the Spanish word 'oveja' means 'sheep' or that it means carry'.,oveja,sheep,carry,1,0,1,2
+201,It is the case either that the Spanish word 'soldado' means 'soldier' or that it means 'stone'.,soldado,soldier,stone,1,0,1,2
+202,It is the case either that the Spanish word 'o' means 'octopus' or that it means hear'.,o,octopus,hear,0,0,0,2
+203,It is the case either that the Spanish word 'querer' means 'of' or that it means imagine'.,querer,of,imagine,0,0,0,2
+204,It is the case either that the Spanish word 'sal' means 'tool' or that it means 'horse'.,sal,tool,horse,0,0,0,2
+205,It is the case either that the Spanish word 'ayudar' means 'to help' or that it means 'group'.,ayudar,to help,group,1,0,1,2
+206,It is the case either that the Spanish word 'primavera' means 'lake' or that it means 'wave'.,primavera,lake,wave,0,0,0,2
+207,It is the case either that the Spanish word 'pato' means 'wolf' or that it means 'water'.,pato,wolf,water,0,0,0,2
+208,It is the case either that the Spanish word 'silla' means 'neighbor' or that it means 'offer'.,silla,neighbor,offer,0,0,0,2
+209,It is the case either that the Spanish word 'amar' means 'teeth' or that it means buy'.,amar,teeth,buy,0,0,0,2
+210,It is the case either that the Spanish word 'clave' means 'car' or that it means 'rose'.,clave,car,rose,0,0,0,2
+211,It is the case either that the Spanish word 'grupo' means imagine' or that it means 'group'.,grupo,imagine,group,0,1,1,2
+212,It is the case either that the Spanish word 'roca' means 'rock' or that it means 'industry'.,roca,rock,industry,1,0,1,2
+213,It is the case either that the Spanish word 'hacer' means 'king' or that it means 'lost'.,hacer,king,lost,0,0,0,2
+214,It is the case either that the Spanish word 'cabeza' means 'head' or that it means think'.,cabeza,head,think,1,0,1,2
+215,It is the case either that the Spanish word 'perro' means 'thin' or that it means 'dog'.,perro,thin,dog,0,1,1,2
+216,It is the case either that the Spanish word 'tarde' means develop' or that it means 'hand'.,tarde,develop,hand,0,0,0,2
+217,It is the case either that the Spanish word 'silla' means 'neighbor' or that it means 'dry'.,silla,neighbor,dry,0,0,0,2
+218,It is the case either that the Spanish word 'clase' means 'train' or that it means 'class'.,clase,train,class,0,1,1,2
+219,It is the case either that the Spanish word 'querer' means 'cow' or that it means 'of'.,querer,cow,of,0,0,0,2
+220,It is the case either that the Spanish word 'pintar' means 'mouth' or that it means 'body'.,pintar,mouth,body,0,0,0,2
+221,It is the case either that the Spanish word 'esquina' means 'slow' or that it means 'corner'.,esquina,slow,corner,0,1,1,2
+222,It is the case either that the Spanish word 'piso' means 'stone' or that it means 'set'.,piso,stone,set,0,0,0,2
+223,It is the case either that the Spanish word 'especial' means 'strong' or that it means swim'.,especial,strong,swim,0,0,0,2
+224,It is the case either that the Spanish word 'ola' means 'wave' or that it means 'problem'.,ola,wave,problem,1,0,1,2
+225,It is the case either that the Spanish word 'roca' means 'rock' or that it means 'never'.,roca,rock,never,1,0,1,2
+226,It is the case either that the Spanish word 'carne' means 'meat' or that it means 'wave'.,carne,meat,wave,1,0,1,2
+227,It is the case either that the Spanish word 'igual' means 'to 'city' or that it means imagine'.,igual,to 'city,imagine,0,0,0,2
+228,It is the case either that the Spanish word 'conejo' means 'large' or that it means 'rabbit'.,conejo,large,rabbit,0,1,1,2
+229,It is the case either that the Spanish word 'caliente' means 'hot' or that it means 'dog'.,caliente,hot,dog,1,0,1,2
+230,It is the case either that the Spanish word 'comprar' means 'dry' or that it means 'system'.,comprar,dry,system,0,0,0,2
+231,It is the case either that the Spanish word 'izquierda' means 'never' or that it means 'island'.,izquierda,never,island,0,0,0,2
+232,It is the case either that the Spanish word 'o' means 'octopus' or that it means 'paper'.,o,octopus,paper,0,0,0,2
+233,It is the case either that the Spanish word 'luna' means 'letter' or that it means 'head'.,luna,letter,head,0,0,0,2
+234,It is the case either that the Spanish word 'bosque' means 'third' or that it means 'forest'.,bosque,third,forest,0,1,1,2
+235,It is the case either that the Spanish word 'continuar' means 'coat' or that it means 'old'.,continuar,coat,old,0,0,0,2
+236,It is the case either that the Spanish word 'gris' means 'history' or that it means hear'.,gris,history,hear,0,0,0,2
+237,It is the case either that the Spanish word 'sal' means 'sister' or that it means 'horse'.,sal,sister,horse,0,0,0,2
+238,It is the case either that the Spanish word 'comprar' means 'now' or that it means 'dry'.,comprar,now,dry,0,0,0,2
+239,It is the case either that the Spanish word 'industria' means 'industry' or that it means 'neck'.,industria,industry,neck,1,0,1,2
+240,It is the case either that the Spanish word 'vender' means 'to 'dress' or that it means sell'.,vender,to 'dress,sell,0,1,1,2
+241,It is the case either that the Spanish word 'cabra' means 'money' or that it means 'iron'.,cabra,money,iron,0,0,0,2
+242,It is the case either that the Spanish word 'fuerte' means 'dress' or that it means 'dry'.,fuerte,dress,dry,0,0,0,2
+243,It is the case either that the Spanish word 'chica' means 'to 'clock' or that it means eat'.,chica,to 'clock,eat,0,0,0,2
+244,It is the case either that the Spanish word 'hombre' means 'simple' or that it means 'whale'.,hombre,simple,whale,0,0,0,2
+245,It is the case either that the Spanish word 'miedo' means 'fear' or that it means 'clock'.,miedo,fear,clock,1,0,1,2
+246,It is the case either that the Spanish word 'calamar' means 'squid' or that it means eat'.,calamar,squid,eat,1,0,1,2
+247,It is the case either that the Spanish word 'suficiente' means 'enough' or that it means 'hand'.,suficiente,enough,hand,1,0,1,2
+248,It is the case either that the Spanish word 'piel' means 'skin' or that it means 'dress'.,piel,skin,dress,1,0,1,2
+249,It is the case either that the Spanish word 'mes' means 'month' or that it means 'moment'.,mes,month,moment,1,0,1,2
+250,It is the case either that the Spanish word 'enemigo' means 'enemy' or that it means 'book'.,enemigo,enemy,book,1,0,1,2
+251,It is the case either that the Spanish word 'oro' means 'story' or that it means 'rose'.,oro,story,rose,0,0,0,2
+252,It is the case either that the Spanish word 'perdido' means 'test' or that it means 'enough'.,perdido,test,enough,0,0,0,2
+253,It is the case either that the Spanish word 'gris' means 'fat' or that it means 'history'.,gris,fat,history,0,0,0,2
+254,It is the case either that the Spanish word 'guardar' means 'to 'set' or that it means save'.,guardar,to 'set,save,0,1,1,2
+255,It is the case either that the Spanish word 'clave' means 'rose' or that it means 'sand'.,clave,rose,sand,0,0,0,2
+256,It is the case either that the Spanish word 'ballena' means 'whale' or that it means 'equal'.,ballena,whale,equal,1,0,1,2
+257,It is the case either that the Spanish word 'joven' means 'octopus' or that it means 'hot'.,joven,octopus,hot,0,0,0,2
+258,It is the case either that the Spanish word 'gris' means 'history' or that it means 'head'.,gris,history,head,0,0,0,2
+259,It is the case either that the Spanish word 'coche' means 'car' or that it means ask'.,coche,car,ask,1,0,1,2
+260,It is the case either that the Spanish word 'maravilla' means walk' or that it means 'bell'.,maravilla,walk,bell,0,0,0,2
+261,It is the case either that the Spanish word 'cabra' means 'frog' or that it means 'money'.,cabra,frog,money,0,0,0,2
+262,It is the case either that the Spanish word 'tarde' means 'hand' or that it means 'book'.,tarde,hand,book,0,0,0,2
+263,It is the case either that the Spanish word 'sonrisa' means 'smile' or that it means 'hand'.,sonrisa,smile,hand,1,0,1,2
+264,It is the case either that the Spanish word 'encontrar' means 'enough' or that it means 'person'.,encontrar,enough,person,0,0,0,2
+265,It is the case either that the Spanish word 'hombro' means buy' or that it means 'shoulder'.,hombro,buy,shoulder,0,1,1,2
+266,It is the case either that the Spanish word 'hablar' means 'to think' or that it means speak'.,hablar,to think,speak,0,1,1,2
+267,It is the case either that the Spanish word 'bosque' means 'forest' or that it means ask'.,bosque,forest,ask,1,0,1,2
+268,It is the case either that the Spanish word 'uno' means 'one' or that it means 'train'.,uno,one,train,1,0,1,2
+269,It is the case either that the Spanish word 'papel' means 'paper' or that it means 'example'.,papel,paper,example,1,0,1,2
+270,It is the case either that the Spanish word 'crecer' means 'to 'name' or that it means grow'.,crecer,to 'name,grow,0,1,1,2
+271,It is the case either that the Spanish word 'oveja' means push' or that it means 'sheep'.,oveja,push,sheep,0,1,1,2
+272,It is the case either that the Spanish word 'primavera' means 'class' or that it means 'wave'.,primavera,class,wave,0,0,0,2
+273,It is the case either that the Spanish word 'caer' means 'to read' or that it means fall'.,caer,to read,fall,0,1,1,2
+274,It is the case either that the Spanish word 'mar' means 'sea' or that it means 'lake'.,mar,sea,lake,1,0,1,2
+275,It is the case either that the Spanish word 'brazo' means 'wolf' or that it means 'arm'.,brazo,wolf,arm,0,1,1,2
+276,It is the case either that the Spanish word 'saber' means 'modern' or that it means 'happy'.,saber,modern,happy,0,0,0,2
+277,It is the case either that the Spanish word 'imaginar' means 'to 'enough' or that it means imagine'.,imaginar,to 'enough,imagine,0,1,1,2
+278,It is the case either that the Spanish word 'semilla' means 'seed' or that it means 'back'.,semilla,seed,back,1,0,1,2
+279,It is the case either that the Spanish word 'oscuro' means 'dark' or that it means 'insect'.,oscuro,dark,insect,1,0,1,2
+280,It is the case either that the Spanish word 'lobo' means 'frog' or that it means 'leg'.,lobo,frog,leg,0,0,0,2
+281,It is the case either that the Spanish word 'vaca' means 'cow' or that it means 'student'.,vaca,cow,student,1,0,1,2
+282,It is the case either that the Spanish word 'blanco' means 'to 'mother' or that it means think'.,blanco,to 'mother,think,0,0,0,2
+283,It is the case either that the Spanish word 'demasiado' means 'too' or that it means eat'.,demasiado,too,eat,1,0,1,2
+284,It is the case either that the Spanish word 'dar' means 'before' or that it means 'large'.,dar,before,large,0,0,0,2
+285,It is the case either that the Spanish word 'describir' means 'to 'always' or that it means die'.,describir,to 'always,die,0,0,0,2
+286,It is the case either that the Spanish word 'gris' means 'sister' or that it means 'history'.,gris,sister,history,0,0,0,2
+287,It is the case either that the Spanish word 'grande' means 'large' or that it means 'old'.,grande,large,old,1,0,1,2
+288,It is the case either that the Spanish word 'pronto' means 'to die' or that it means 'finger'.,pronto,to die,finger,0,0,0,2
+289,It is the case either that the Spanish word 'granja' means 'back' or that it means 'woman'.,granja,back,woman,0,0,0,2
+290,It is the case either that the Spanish word 'dientes' means 'hope' or that it means 'class'.,dientes,hope,class,0,0,0,2
+291,It is the case either that the Spanish word 'conectar' means 'to 'cat' or that it means connect'.,conectar,to 'cat,connect,0,1,1,2
+292,It is the case either that the Spanish word 'tren' means 'meat' or that it means 'train'.,tren,meat,train,0,1,1,2
+293,It is the case either that the Spanish word 'cantar' means 'simple' or that it means 'giraffe'.,cantar,simple,giraffe,0,0,0,2
+294,It is the case either that the Spanish word 'ocho' means 'sister' or that it means 'too'.,ocho,sister,too,0,0,0,2
+295,It is the case either that the Spanish word 'dos' means 'enemy' or that it means hear'.,dos,enemy,hear,0,0,0,2
+296,It is the case either that the Spanish word 'segundo' means 'egg' or that it means 'hello'.,segundo,egg,hello,0,0,0,2
+297,It is the case either that the Spanish word 'poema' means 'to send' or that it means win'.,poema,to send,win,0,0,0,2
+298,It is the case either that the Spanish word 'dinero' means 'good' or that it means 'mouth'.,dinero,good,mouth,0,0,0,2
+299,It is the case either that the Spanish word 'ayudar' means 'to 'nothing' or that it means help'.,ayudar,to 'nothing,help,0,1,1,2
+300,It is the case either that the Spanish word 'plata' means 'silver' or that it means 'thin'.,plata,silver,thin,1,0,1,2
+301,It is the case either that the Spanish word 'rojo' means 'corner' or that it means 'red'.,rojo,corner,red,0,1,1,2
+302,It is the case either that the Spanish word 'hola' means 'donkey' or that it means 'hello'.,hola,donkey,hello,0,1,1,2
+303,It is the case either that the Spanish word 'piedra' means 'stone' or that it means 'cook'.,piedra,stone,cook,1,0,1,2
+304,It is the case either that the Spanish word 'nuevo' means 'new' or that it means 'dog'.,nuevo,new,dog,1,0,1,2
+305,It is the case either that the Spanish word 'vender' means 'to sell' or that it means have'.,vender,to sell,have,1,0,1,2
+306,It is the case either that the Spanish word 'cuello' means 'neck' or that it means multiply'.,cuello,neck,multiply,1,0,1,2
+307,It is the case either that the Spanish word 'creer' means 'to fly' or that it means 'friend'.,creer,to fly,friend,0,0,0,2
+308,It is the case either that the Spanish word 'hacer' means 'sun' or that it means 'neck'.,hacer,sun,neck,0,0,0,2
+309,It is the case either that the Spanish word 'lanzar' means 'to 'giraffe' or that it means throw'.,lanzar,to 'giraffe,throw,0,1,1,2
+310,It is the case either that the Spanish word 'miedo' means ask' or that it means 'fear'.,miedo,ask,fear,0,1,1,2
+311,It is the case either that the Spanish word 'conjunto' means 'zebra' or that it means 'son'.,conjunto,zebra,son,0,0,0,2
+312,It is the case either that the Spanish word 'vecino' means 'neighbor' or that it means 'danger'.,vecino,neighbor,danger,1,0,1,2
+313,It is the case either that the Spanish word 'mar' means 'sea' or that it means 'temperature'.,mar,sea,temperature,1,0,1,2
+314,It is the case either that the Spanish word 'calamar' means 'history' or that it means 'squid'.,calamar,history,squid,0,1,1,2
+315,It is the case either that the Spanish word 'planta' means 'cloud' or that it means 'now'.,planta,cloud,now,0,0,0,2
+316,It is the case either that the Spanish word 'dar' means 'list' or that it means 'before'.,dar,list,before,0,0,0,2
+317,It is the case either that the Spanish word 'medir' means 'to carry' or that it means 'south'.,medir,to carry,south,0,0,0,2
+318,It is the case either that the Spanish word 'corto' means 'coat' or that it means 'letter'.,corto,coat,letter,0,0,0,2
+319,It is the case either that the Spanish word 'hombro' means have' or that it means 'shoulder'.,hombro,have,shoulder,0,1,1,2
+320,It is the case either that the Spanish word 'cuello' means 'neck' or that it means 'history'.,cuello,neck,history,1,0,1,2
+321,It is the case either that the Spanish word 'coche' means 'car' or that it means 'and'.,coche,car,and,1,0,1,2
+322,It is the case either that the Spanish word 'caliente' means 'hot' or that it means build'.,caliente,hot,build,1,0,1,2
+323,It is the case either that the Spanish word 'hombre' means 'before' or that it means 'simple'.,hombre,before,simple,0,0,0,2
+324,It is the case either that the Spanish word 'manzana' means 'third' or that it means 'hand'.,manzana,third,hand,0,0,0,2
+325,It is the case either that the Spanish word 'opuesta' means 'dress' or that it means think'.,opuesta,dress,think,0,0,0,2
+326,It is the case either that the Spanish word 'problema' means 'moment' or that it means 'problem'.,problema,moment,problem,0,1,1,2
+327,It is the case either that the Spanish word 'pronto' means 'to 'soldier' or that it means die'.,pronto,to 'soldier,die,0,0,0,2
+328,It is the case either that the Spanish word 'pato' means 'shoulder' or that it means 'large'.,pato,shoulder,large,0,0,0,2
+329,It is the case either that the Spanish word 'espacio' means 'to measure' or that it means 'insect'.,espacio,to measure,insect,0,0,0,2
+330,It is the case either that the Spanish word 'joven' means 'hot' or that it means 'beauty'.,joven,hot,beauty,0,0,0,2
+331,It is the case either that the Spanish word 'tarjeta' means 'eye' or that it means 'bear'.,tarjeta,eye,bear,0,0,0,2
+332,It is the case either that the Spanish word 'vender' means 'to sell' or that it means 'week'.,vender,to sell,week,1,0,1,2
+333,It is the case either that the Spanish word 'fuego' means 'fire' or that it means 'sister'.,fuego,fire,sister,1,0,1,2
+334,It is the case either that the Spanish word 'sonrisa' means 'horse' or that it means 'smile'.,sonrisa,horse,smile,0,1,1,2
+335,It is the case either that the Spanish word 'insecto' means 'old' or that it means 'then'.,insecto,old,then,0,0,0,2
+336,It is the case either that the Spanish word 'guerra' means 'book' or that it means 'example'.,guerra,book,example,0,0,0,2
+337,It is the case either that the Spanish word 'ayudar' means 'to help' or that it means 'enemy'.,ayudar,to help,enemy,1,0,1,2
+338,It is the case either that the Spanish word 'continuar' means 'body' or that it means 'coat'.,continuar,body,coat,0,0,0,2
+339,It is the case either that the Spanish word 'abierto' means 'open' or that it means 'bread'.,abierto,open,bread,1,0,1,2
+340,It is the case either that the Spanish word 'frase' means 'paper' or that it means 'chair'.,frase,paper,chair,0,0,0,2
+341,It is the case either that the Spanish word 'lado' means find' or that it means 'equal'.,lado,find,equal,0,0,0,2
+342,It is the case either that the Spanish word 'nube' means 'to 'sister' or that it means write'.,nube,to 'sister,write,0,0,0,2
+343,It is the case either that the Spanish word 'mundo' means 'nature' or that it means 'zebra'.,mundo,nature,zebra,0,0,0,2
+344,It is the case either that the Spanish word 'todo' means 'all' or that it means 'clock'.,todo,all,clock,1,0,1,2
+345,It is the case either that the Spanish word 'agua' means read' or that it means 'water'.,agua,read,water,0,1,1,2
+346,It is the case either that the Spanish word 'ocupado' means have' or that it means 'busy'.,ocupado,have,busy,0,1,1,2
+347,It is the case either that the Spanish word 'hielo' means 'place' or that it means 'ice'.,hielo,place,ice,0,1,1,2
+348,It is the case either that the Spanish word 'caminar' means 'to eat' or that it means walk'.,caminar,to eat,walk,0,1,1,2
+349,It is the case either that the Spanish word 'nada' means die' or that it means 'nothing'.,nada,die,nothing,0,1,1,2
+350,It is the case either that the Spanish word 'ola' means 'order' or that it means 'wave'.,ola,order,wave,0,1,1,2
+351,It is the case either that the Spanish word 'tarde' means 'wave' or that it means 'hand'.,tarde,wave,hand,0,0,0,2
+352,It is the case either that the Spanish word 'seguro' means 'danger' or that it means 'test'.,seguro,danger,test,0,0,0,2
+353,It is the case either that the Spanish word 'famoso' means 'to believe' or that it means 'sister'.,famoso,to believe,sister,0,0,0,2
+354,It is the case either that the Spanish word 'comer' means 'to see' or that it means eat'.,comer,to see,eat,0,1,1,2
+355,It is the case either that the Spanish word 'quemar' means 'hot' or that it means 'history'.,quemar,hot,history,0,0,0,2
+356,It is the case either that the Spanish word 'caminar' means 'to 'fear' or that it means walk'.,caminar,to 'fear,walk,0,1,1,2
+357,It is the case either that the Spanish word 'ley' means 'cow' or that it means 'dog'.,ley,cow,dog,0,0,0,2
+358,It is the case either that the Spanish word 'siete' means 'smile' or that it means 'seven'.,siete,smile,seven,0,1,1,2
+359,It is the case either that the Spanish word 'perdido' means 'teeth' or that it means 'test'.,perdido,teeth,test,0,0,0,2
+360,It is the case either that the Spanish word 'y' means 'and' or that it means 'history'.,y,and,history,1,0,1,2
+361,It is the case either that the Spanish word 'conejo' means 'rabbit' or that it means 'iron'.,conejo,rabbit,iron,1,0,1,2
+362,It is the case either that the Spanish word 'delgado' means 'eye' or that it means 'thin'.,delgado,eye,thin,0,1,1,2
+363,It is the case either that the Spanish word 'tener' means 'to believe' or that it means have'.,tener,to believe,have,0,1,1,2
+364,It is the case either that the Spanish word 'decir' means 'order' or that it means 'always'.,decir,order,always,0,0,0,2
+365,It is the case either that the Spanish word 'dinero' means 'life' or that it means 'mouth'.,dinero,life,mouth,0,0,0,2
+366,It is the case either that the Spanish word 'grande' means 'to ask' or that it means 'black'.,grande,to ask,black,0,0,0,2
+367,It is the case either that the Spanish word 'enemigo' means send' or that it means 'enemy'.,enemigo,send,enemy,0,1,1,2
+368,It is the case either that the Spanish word 'esclavo' means 'old' or that it means 'slave'.,esclavo,old,slave,0,1,1,2
+369,It is the case either that the Spanish word 'comer' means 'to eat' or that it means 'too'.,comer,to eat,too,1,0,1,2
+370,It is the case either that the Spanish word 'muy' means write' or that it means 'temperature'.,muy,write,temperature,0,0,0,2
+371,It is the case either that the Spanish word 'cerdo' means 'silver' or that it means 'wave'.,cerdo,silver,wave,0,0,0,2
+372,It is the case either that the Spanish word 'papel' means 'too' or that it means 'paper'.,papel,too,paper,0,1,1,2
+373,It is the case either that the Spanish word 'sur' means 'teeth' or that it means 'south'.,sur,teeth,south,0,1,1,2
+374,It is the case either that the Spanish word 'manzana' means 'hand' or that it means 'south'.,manzana,hand,south,0,0,0,2
+375,It is the case either that the Spanish word 'esclavo' means hear' or that it means 'slave'.,esclavo,hear,slave,0,1,1,2
+376,It is the case either that the Spanish word 'sal' means 'horse' or that it means 'iron'.,sal,horse,iron,0,0,0,2
+377,It is the case either that the Spanish word 'parte' means 'part' or that it means 'bear'.,parte,part,bear,1,0,1,2
+378,It is the case either that the Spanish word 'espalda' means 'light' or that it means 'back'.,espalda,light,back,0,1,1,2
+379,It is the case either that the Spanish word 'joven' means 'hot' or that it means swim'.,joven,hot,swim,0,0,0,2
+380,It is the case either that the Spanish word 'bueno' means 'time' or that it means 'good'.,bueno,time,good,0,1,1,2
+381,It is the case either that the Spanish word 'venir' means 'to know' or that it means 'dry'.,venir,to know,dry,0,0,0,2
+382,It is the case either that the Spanish word 'lobo' means 'leg' or that it means write'.,lobo,leg,write,0,0,0,2
+383,It is the case either that the Spanish word 'diccionario' means 'life' or that it means 'dictionary'.,diccionario,life,dictionary,0,1,1,2
+384,It is the case either that the Spanish word 'cinco' means 'letter' or that it means 'five'.,cinco,letter,five,0,1,1,2
+385,It is the case either that the Spanish word 'viejo' means 'skin' or that it means 'old'.,viejo,skin,old,0,1,1,2
+386,It is the case either that the Spanish word 'caliente' means 'hot' or that it means 'land'.,caliente,hot,land,1,0,1,2
+387,It is the case either that the Spanish word 'agua' means 'problem' or that it means 'water'.,agua,problem,water,0,1,1,2
+388,It is the case either that the Spanish word 'feliz' means 'second' or that it means 'then'.,feliz,second,then,0,0,0,2
+389,It is the case either that the Spanish word 'venir' means 'to know' or that it means 'neck'.,venir,to know,neck,0,0,0,2
+390,It is the case either that the Spanish word 'naturaleza' means 'to buy' or that it means 'eye'.,naturaleza,to buy,eye,0,0,0,2
+391,It is the case either that the Spanish word 'hielo' means 'ice' or that it means 'before'.,hielo,ice,before,1,0,1,2
+392,It is the case either that the Spanish word 'pagar' means 'to 'dark' or that it means pay'.,pagar,to 'dark,pay,0,1,1,2
+393,It is the case either that the Spanish word 'querer' means 'of' or that it means 'silver'.,querer,of,silver,0,0,0,2
+394,It is the case either that the Spanish word 'hacer' means 'thing' or that it means 'lost'.,hacer,thing,lost,0,0,0,2
+395,It is the case either that the Spanish word 'ojo' means 'whale' or that it means 'order'.,ojo,whale,order,0,0,0,2
+396,It is the case either that the Spanish word 'matar' means 'simple' or that it means 'bread'.,matar,simple,bread,0,0,0,2
+397,It is the case either that the Spanish word 'diez' means 'ten' or that it means 'seven'.,diez,ten,seven,1,0,1,2
+398,It is the case either that the Spanish word 'rey' means 'but' or that it means 'king'.,rey,but,king,0,1,1,2
+399,It is the case either that the Spanish word 'tener' means 'to have' or that it means 'sun'.,tener,to have,sun,1,0,1,2
+400,It is the case either that the Spanish word 'estudiante' means 'student' or that it means give'.,estudiante,student,give,1,0,1,2
+401,It is the case either that the Spanish word 'grande' means 'to 'dry' or that it means ask'.,grande,to 'dry,ask,0,0,0,2
+402,It is the case either that the Spanish word 'presente' means 'present' or that it means 'light'.,presente,present,light,1,0,1,2
+403,It is the case either that the Spanish word 'presente' means 'present' or that it means 'enemy'.,presente,present,enemy,1,0,1,2
+404,It is the case either that the Spanish word 'demasiado' means 'wing' or that it means 'too'.,demasiado,wing,too,0,1,1,2
+405,It is the case either that the Spanish word 'ley' means 'dog' or that it means walk'.,ley,dog,walk,0,0,0,2
+406,It is the case either that the Spanish word 'seco' means 'hope' or that it means 'book'.,seco,hope,book,0,0,0,2
+407,It is the case either that the Spanish word 'nariz' means ask' or that it means 'giraffe'.,nariz,ask,giraffe,0,0,0,2
+408,It is the case either that the Spanish word 'conectar' means 'to save' or that it means connect'.,conectar,to save,connect,0,1,1,2
+409,It is the case either that the Spanish word 'soldado' means pay' or that it means 'soldier'.,soldado,pay,soldier,0,1,1,2
+410,It is the case either that the Spanish word 'azul' means imagine' or that it means 'eye'.,azul,imagine,eye,0,0,0,2
+411,It is the case either that the Spanish word 'ocho' means 'too' or that it means 'fire'.,ocho,too,fire,0,0,0,2
+412,It is the case either that the Spanish word 'cabra' means 'money' or that it means 'first'.,cabra,money,first,0,0,0,2
+413,It is the case either that the Spanish word 'decidir' means 'to 'mouth' or that it means give'.,decidir,to 'mouth,give,0,0,0,2
+414,It is the case either that the Spanish word 'comer' means 'to eat' or that it means 'water'.,comer,to eat,water,1,0,1,2
+415,It is the case either that the Spanish word 'alto' means 'early' or that it means 'space'.,alto,early,space,0,0,0,2
+416,It is the case either that the Spanish word 'dedo' means 'egg' or that it means 'finger'.,dedo,egg,finger,0,1,1,2
+417,It is the case either that the Spanish word 'medir' means 'to 'skin' or that it means carry'.,medir,to 'skin,carry,0,0,0,2
+418,It is the case either that the Spanish word 'oferta' means 'offer' or that it means 'wind'.,oferta,offer,wind,1,0,1,2
+419,It is the case either that the Spanish word 'alto' means 'iron' or that it means 'space'.,alto,iron,space,0,0,0,2
+420,It is the case either that the Spanish word 'problema' means 'problem' or that it means 'story'.,problema,problem,story,1,0,1,2
+421,It is the case either that the Spanish word 'historia' means 'red' or that it means 'history'.,historia,red,history,0,1,1,2
+422,It is the case either that the Spanish word 'ejemplo' means 'example' or that it means 'then'.,ejemplo,example,then,1,0,1,2
+423,It is the case either that the Spanish word 'querer' means 'leg' or that it means 'of'.,querer,leg,of,0,0,0,2
+424,It is the case either that the Spanish word 'norte' means 'north' or that it means 'city'.,norte,north,city,1,0,1,2
+425,It is the case either that the Spanish word 'nariz' means 'giraffe' or that it means know'.,nariz,giraffe,know,0,0,0,2
+426,It is the case either that the Spanish word 'ayudar' means 'to 'dry' or that it means help'.,ayudar,to 'dry,help,0,1,1,2
+427,It is the case either that the Spanish word 'sol' means pay' or that it means 'sun'.,sol,pay,sun,0,1,1,2
+428,It is the case either that the Spanish word 'luna' means 'letter' or that it means eat'.,luna,letter,eat,0,0,0,2
+429,It is the case either that the Spanish word 'familia' means eat' or that it means 'family'.,familia,eat,family,0,1,1,2
+430,It is the case either that the Spanish word 'nueve' means 'now' or that it means 'stone'.,nueve,now,stone,0,0,0,2
+431,It is the case either that the Spanish word 'pato' means 'wolf' or that it means 'whale'.,pato,wolf,whale,0,0,0,2
+432,It is the case either that the Spanish word 'dientes' means 'leg' or that it means 'hope'.,dientes,leg,hope,0,0,0,2
+433,It is the case either that the Spanish word 'dos' means 'wing' or that it means 'enemy'.,dos,wing,enemy,0,0,0,2
+434,It is the case either that the Spanish word 'pronto' means 'to 'beauty' or that it means die'.,pronto,to 'beauty,die,0,0,0,2
+435,It is the case either that the Spanish word 'crecer' means 'to win' or that it means grow'.,crecer,to win,grow,0,1,1,2
+436,It is the case either that the Spanish word 'mientras' means 'while' or that it means 'dress'.,mientras,while,dress,1,0,1,2
+437,It is the case either that the Spanish word 'decir' means 'order' or that it means find'.,decir,order,find,0,0,0,2
+438,It is the case either that the Spanish word 'concha' means 'fear' or that it means 'shell'.,concha,fear,shell,0,1,1,2
+439,It is the case either that the Spanish word 'cordero' means 'fat' or that it means 'simple'.,cordero,fat,simple,0,0,0,2
+440,It is the case either that the Spanish word 'oscuro' means 'simple' or that it means 'dark'.,oscuro,simple,dark,0,1,1,2
+441,It is the case either that the Spanish word 'barco' means 'hello' or that it means choose'.,barco,hello,choose,0,0,0,2
+442,It is the case either that the Spanish word 'pato' means 'sun' or that it means 'wolf'.,pato,sun,wolf,0,0,0,2
+443,It is the case either that the Spanish word 'usar' means 'to fight' or that it means 'son'.,usar,to fight,son,0,0,0,2
+444,It is the case either that the Spanish word 'oferta' means eat' or that it means 'offer'.,oferta,eat,offer,0,1,1,2
+445,It is the case either that the Spanish word 'derecho' means connect' or that it means 'summer'.,derecho,connect,summer,0,0,0,2
+446,It is the case either that the Spanish word 'decidir' means 'to believe' or that it means give'.,decidir,to believe,give,0,0,0,2
+447,It is the case either that the Spanish word 'tortuga' means 'dry' or that it means 'fat'.,tortuga,dry,fat,0,0,0,2
+448,It is the case either that the Spanish word 'mezclar' means 'to 'son' or that it means mix'.,mezclar,to 'son,mix,0,1,1,2
+449,It is the case either that the Spanish word 'madre' means 'mother' or that it means 'first'.,madre,mother,first,1,0,1,2
+450,It is the case either that the Spanish word 'volar' means 'to hear' or that it means 'large'.,volar,to hear,large,0,0,0,2
+451,It is the case either that the Spanish word 'soldado' means 'soldier' or that it means 'name'.,soldado,soldier,name,1,0,1,2
+452,It is the case either that the Spanish word 'oso' means 'market' or that it means 'bear'.,oso,market,bear,0,1,1,2
+453,It is the case either that the Spanish word 'hola' means 'hello' or that it means 'third'.,hola,hello,third,1,0,1,2
+454,It is the case either that the Spanish word 'ruido' means 'noise' or that it means 'name'.,ruido,noise,name,1,0,1,2
+455,It is the case either that the Spanish word 'jugar' means 'to play' or that it means die'.,jugar,to play,die,1,0,1,2
+456,It is the case either that the Spanish word 'anguila' means 'south' or that it means 'lost'.,anguila,south,lost,0,0,0,2
+457,It is the case either that the Spanish word 'crecer' means 'to buy' or that it means grow'.,crecer,to buy,grow,0,1,1,2
+458,It is the case either that the Spanish word 'agudo' means 'sharp' or that it means govern'.,agudo,sharp,govern,1,0,1,2
+459,It is the case either that the Spanish word 'tigre' means 'cow' or that it means make'.,tigre,cow,make,0,0,0,2
+460,It is the case either that the Spanish word 'verano' means 'to push' or that it means 'result'.,verano,to push,result,0,0,0,2
+461,It is the case either that the Spanish word 'cabra' means connect' or that it means 'money'.,cabra,connect,money,0,0,0,2
+462,It is the case either that the Spanish word 'ejemplo' means 'city' or that it means 'example'.,ejemplo,city,example,0,1,1,2
+463,It is the case either that the Spanish word 'cuello' means 'neck' or that it means 'hope'.,cuello,neck,hope,1,0,1,2
+464,It is the case either that the Spanish word 'mil' means 'to make' or that it means eat'.,mil,to make,eat,0,0,0,2
+465,It is the case either that the Spanish word 'luz' means 'old' or that it means 'week'.,luz,old,week,0,0,0,2
+466,It is the case either that the Spanish word 'directo' means 'to 'one' or that it means eat'.,directo,to 'one,eat,0,0,0,2
+467,It is the case either that the Spanish word 'oso' means 'bear' or that it means 'glass'.,oso,bear,glass,1,0,1,2
+468,It is the case either that the Spanish word 'naturaleza' means 'to buy' or that it means 'history'.,naturaleza,to buy,history,0,0,0,2
+469,It is the case either that the Spanish word 'libro' means 'industry' or that it means 'seven'.,libro,industry,seven,0,0,0,2
+470,It is the case either that the Spanish word 'suelo' means 'silver' or that it means 'ground'.,suelo,silver,ground,0,1,1,2
+471,It is the case either that the Spanish word 'pensar' means 'to 'word' or that it means think'.,pensar,to 'word,think,0,1,1,2
+472,It is the case either that the Spanish word 'rosa' means 'rose' or that it means 'dictionary'.,rosa,rose,dictionary,1,0,1,2
+473,It is the case either that the Spanish word 'calamar' means 'squid' or that it means 'chair'.,calamar,squid,chair,1,0,1,2
+474,It is the case either that the Spanish word 'verano' means 'to 'good' or that it means push'.,verano,to 'good,push,0,0,0,2
+475,It is the case either that the Spanish word 'gris' means 'history' or that it means 'example'.,gris,history,example,0,0,0,2
+476,It is the case either that the Spanish word 'cabeza' means 'head' or that it means 'nature'.,cabeza,head,nature,1,0,1,2
+477,It is the case either that the Spanish word 'maravilla' means 'enemy' or that it means 'bell'.,maravilla,enemy,bell,0,0,0,2
+478,It is the case either that the Spanish word 'casa' means 'to 'dry' or that it means make'.,casa,to 'dry,make,0,0,0,2
+479,It is the case either that the Spanish word 'experimento' means 'dark' or that it means 'simple'.,experimento,dark,simple,0,0,0,2
+480,It is the case either that the Spanish word 'conectar' means 'to 'market' or that it means connect'.,conectar,to 'market,connect,0,1,1,2
+481,It is the case either that the Spanish word 'jirafa' means think' or that it means 'giraffe'.,jirafa,think,giraffe,0,1,1,2
+482,It is the case either that the Spanish word 'naturaleza' means 'to buy' or that it means 'oil'.,naturaleza,to buy,oil,0,0,0,2
+483,It is the case either that the Spanish word 'ejemplo' means 'half' or that it means 'example'.,ejemplo,half,example,0,1,1,2
+484,It is the case either that the Spanish word 'sal' means 'second' or that it means 'horse'.,sal,second,horse,0,0,0,2
+485,It is the case either that the Spanish word 'cola' means 'order' or that it means 'name'.,cola,order,name,0,0,0,2
+486,It is the case either that the Spanish word 'fuerte' means 'dress' or that it means 'test'.,fuerte,dress,test,0,0,0,2
+487,It is the case either that the Spanish word 'joven' means 'hot' or that it means 'slave'.,joven,hot,slave,0,0,0,2
+488,It is the case either that the Spanish word 'sol' means 'sun' or that it means 'free'.,sol,sun,free,1,0,1,2
+489,It is the case either that the Spanish word 'cordero' means 'hello' or that it means 'fat'.,cordero,hello,fat,0,0,0,2
+490,It is the case either that the Spanish word 'experimento' means 'dark' or that it means write'.,experimento,dark,write,0,0,0,2
+491,It is the case either that the Spanish word 'conejo' means 'sister' or that it means 'rabbit'.,conejo,sister,rabbit,0,1,1,2
+492,It is the case either that the Spanish word 'vecino' means 'neighbor' or that it means 'finger'.,vecino,neighbor,finger,1,0,1,2
+493,It is the case either that the Spanish word 'dientes' means 'egg' or that it means 'hope'.,dientes,egg,hope,0,0,0,2
+494,It is the case either that the Spanish word 'brazo' means 'arm' or that it means 'body'.,brazo,arm,body,1,0,1,2
+495,It is the case either that the Spanish word 'maravilla' means 'place' or that it means 'bell'.,maravilla,place,bell,0,0,0,2
+496,It is the case either that the Spanish word 'pierna' means 'nothing' or that it means 'leg'.,pierna,nothing,leg,0,1,1,2
+497,It is the case either that the Spanish word 'huevo' means choose' or that it means 'egg'.,huevo,choose,egg,0,1,1,2
+498,It is the case either that the Spanish word 'decir' means 'wave' or that it means 'order'.,decir,wave,order,0,0,0,2
+499,It is the case either that the Spanish word 'boca' means 'mouth' or that it means 'light'.,boca,mouth,light,1,0,1,2

@@ -1,0 +1,31 @@
+idx,statement,conjunctA,conjunctB,labelA,labelB,cell,compound_label,consistent
+25,It is the case both that the city of Fortaleza is in Brazil and that the city of Bogor is in Indonesia.,Fortaleza / Brazil,Bogor / Indonesia,1,1,TT,1,True
+52,It is the case both that the city of Mosul is in Iraq and that the city of Luohe is in China.,Mosul / Iraq,Luohe / China,1,1,TT,1,True
+96,It is the case both that the city of Jabalpur is in India and that the city of Chenzhou is in China.,Jabalpur / India,Chenzhou / China,1,1,TT,1,True
+200,It is the case both that the city of Dushanbe is in Tajikistan and that the city of Ipoh is in Malaysia.,Dushanbe / Tajikistan,Ipoh / Malaysia,1,1,TT,1,True
+217,It is the case both that the city of Guangzhou is in China and that the city of Seongnam-si is in South Korea.,Guangzhou / China,Seongnam-si / South Korea,1,1,TT,1,True
+234,It is the case both that the city of Rizhao is in China and that the city of Niamey is in Niger.,Rizhao / China,Niamey / Niger,1,1,TT,1,True
+250,It is the case both that the city of Nasiriyah is in Iraq and that the city of Tlalpan is in Mexico.,Nasiriyah / Iraq,Tlalpan / Mexico,1,1,TT,1,True
+283,It is the case both that the city of Amman is in Jordan and that the city of Nyala is in Sudan.,Amman / Jordan,Nyala / Sudan,1,1,TT,1,True
+301,It is the case both that the city of Porto Velho is in Brazil and that the city of Asansol is in India.,Porto Velho / Brazil,Asansol / India,1,1,TT,1,True
+384,It is the case both that the city of Seongnam-si is in South Korea and that the city of Yiwu is in China.,Seongnam-si / South Korea,Yiwu / China,1,1,TT,1,True
+447,It is the case both that the city of Suizhou is in China and that the city of Bucharest is in Romania.,Suizhou / China,Bucharest / Romania,1,1,TT,1,True
+487,It is the case both that the city of Yongzhou is in China and that the city of Rahim Yar Khan is in Pakistan.,Yongzhou / China,Rahim Yar Khan / Pakistan,1,1,TT,1,True
+503,It is the case both that the city of Hamhung is in North Korea and that the city of Jalandhar is in India.,Hamhung / North Korea,Jalandhar / India,1,1,TT,1,True
+746,It is the case both that the city of Petaling Jaya is in Malaysia and that the city of Jaboatao is in Brazil.,Petaling Jaya / Malaysia,Jaboatao / Brazil,1,1,TT,1,True
+812,It is the case both that the city of Beira is in Mozambique and that the city of Dnipro is in China.,Beira / Mozambique,Dnipro / China,1,0,TF,0,True
+904,It is the case both that the city of Mumbai is in India and that the city of Guankou is in Saudi Arabia.,Mumbai / India,Guankou / Saudi Arabia,1,0,TF,0,True
+995,It is the case both that the city of Kleinzschocher is in Germany and that the city of Bien Hoa is in Haiti.,Kleinzschocher / Germany,Bien Hoa / Haiti,1,0,TF,0,True
+1017,It is the case both that the city of Zhoushan is in China and that the city of Muscat is in Nigeria.,Zhoushan / China,Muscat / Nigeria,1,0,TF,0,True
+1029,It is the case both that the city of Amritsar is in India and that the city of Faisalabad is in China.,Amritsar / India,Faisalabad / China,1,0,TF,0,True
+1059,It is the case both that the city of Porto Velho is in Brazil and that the city of Homs is in Turkey.,Porto Velho / Brazil,Homs / Turkey,1,0,TF,0,True
+1144,It is the case both that the city of Niamey is in Russia and that the city of Pingdingshan is in China.,Niamey / Russia,Pingdingshan / China,0,1,FT,0,True
+1192,It is the case both that the city of Coimbatore is in Uzbekistan and that the city of Daqing is in China.,Coimbatore / Uzbekistan,Daqing / China,0,1,FT,0,True
+1220,It is the case both that the city of Solapur is in China and that the city of Hezhou is in China.,Solapur / China,Hezhou / China,0,1,FT,0,True
+1255,It is the case both that the city of Ho Chi Minh City is in Mexico and that the city of Sao Bernardo do Campo is in Brazil.,Ho Chi Minh City / Mexico,Sao Bernardo do Campo / Brazil,0,1,FT,0,True
+1325,It is the case both that the city of Queens is in Jordan and that the city of Karbala is in Iraq.,Queens / Jordan,Karbala / Iraq,0,1,FT,0,True
+1357,It is the case both that the city of Beirut is in Japan and that the city of Pimpri is in India.,Beirut / Japan,Pimpri / India,0,1,FT,0,True
+1446,It is the case both that the city of Manaus is in India and that the city of Quezon City is in Russia.,Manaus / India,Quezon City / Russia,0,0,FF,0,True
+1450,It is the case both that the city of Shangrao is in Indonesia and that the city of Surat is in Poland.,Shangrao / Indonesia,Surat / Poland,0,0,FF,0,True
+1461,It is the case both that the city of Qionghai is in Mexico and that the city of Pingdingshan is in Nigeria.,Qionghai / Mexico,Pingdingshan / Nigeria,0,0,FF,0,True
+1491,It is the case both that the city of Acapulco de Juarez is in Vietnam and that the city of Beirut is in Japan.,Acapulco de Juarez / Vietnam,Beirut / Japan,0,0,FF,0,True

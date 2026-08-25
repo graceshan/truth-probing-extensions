@@ -1,0 +1,31 @@
+idx,statement,disjunctA_obj,disjunctB_obj,labelA,labelB,cell,compound_label,consistent
+6,It is the case either that the city of Hiroshima is in Japan or that it is in Pakistan.,Japan,Pakistan,1,0,TF,1,True
+8,It is the case either that the city of Vijayawada is in India or that it is in Indonesia.,India,Indonesia,1,0,TF,1,True
+9,It is the case either that the city of Onitsha is in China or that it is in Vietnam.,China,Vietnam,0,0,FF,0,True
+19,It is the case either that the city of Guiyang is in South Korea or that it is in Turkey.,South Korea,Turkey,0,0,FF,0,True
+39,It is the case either that the city of Rawalpindi is in India or that it is in Brazil.,India,Brazil,0,0,FF,0,True
+49,It is the case either that the city of Baise is in India or that it is in Japan.,India,Japan,0,0,FF,0,True
+51,It is the case either that the city of Helsinki is in Finland or that it is in China.,Finland,China,1,0,TF,1,True
+62,It is the case either that the city of Ya'an is in Morocco or that it is in Malawi.,Morocco,Malawi,0,0,FF,0,True
+76,It is the case either that the city of Vadodara is in China or that it is in India.,China,India,0,1,FT,1,True
+81,It is the case either that the city of Kalyan is in Colombia or that it is in India.,Colombia,India,0,1,FT,1,True
+83,It is the case either that the city of Baoji is in India or that it is in China.,India,China,0,1,FT,1,True
+99,It is the case either that the city of Qinhuangdao is in Eritrea or that it is in Lebanon.,Eritrea,Lebanon,0,0,FF,0,True
+101,It is the case either that the city of Bandar Lampung is in South Russia or that it is in Africa.,South Russia,Africa,0,0,FF,0,True
+114,It is the case either that the city of Vadodara is in Japan or that it is in India.,Japan,India,0,1,FT,1,True
+126,It is the case either that the city of Namangan is in Uzbekistan or that it is in India.,Uzbekistan,India,1,0,TF,1,True
+154,It is the case either that the city of Ciudad Guayana is in Turkey or that it is in Venezuela.,Turkey,Venezuela,0,1,FT,1,True
+228,It is the case either that the city of Amritsar is in Moldova or that it is in Niger.,Moldova,Niger,0,0,FF,0,True
+254,It is the case either that the city of Cebu City is in Mexico or that it is in China.,Mexico,China,0,0,FF,0,True
+265,It is the case either that the city of Ufa is in South States or that it is in Korea.,South States,Korea,0,0,FF,0,True
+268,It is the case either that the city of Rostov-na-Donu is in the United Arab Emirates or that it is in Togo.,the United Arab Emirates,Togo,0,0,FF,0,True
+309,It is the case either that the city of Barquisimeto is in Poland or that it is in Mexico.,Poland,Mexico,0,0,FF,0,True
+310,It is the case either that the city of Luancheng is in China or that it is in Brazil.,China,Brazil,1,0,TF,0,False
+356,It is the case either that the city of Ta'if is in Russia or that it is in Venezuela.,Russia,Venezuela,0,0,FF,0,True
+372,It is the case either that the city of Nizhniy Novgorod is in Italy or that it is in China.,Italy,China,0,0,FF,0,True
+392,It is the case either that the city of Sorocaba is in Mexico or that it is in Indonesia.,Mexico,Indonesia,0,0,FF,0,True
+399,It is the case either that the city of Lianyungang is in the Philippines or that it is in Iraq.,the Philippines,Iraq,0,0,FF,0,True
+413,It is the case either that the city of Detroit is in the United States or that it is in Brazil.,the United States,Brazil,1,0,TF,1,True
+475,It is the case either that the city of Petaling Jaya is in Bosnia and Herzegovina or that it is in Niger.,Bosnia and Herzegovina,Niger,0,0,FF,0,True
+484,It is the case either that the city of Yerevan is in Philippines or that it is in Armenia.,Philippines,Armenia,0,1,FT,1,True
+492,It is the case either that the city of Al Basrah al Qadimah is in China or that it is in India.,China,India,0,0,FF,0,True

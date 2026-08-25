@@ -1,0 +1,31 @@
+idx,statement,disjunctA_obj,disjunctB_obj,labelA,labelB,cell,compound_label,consistent
+6,It is the case either that the Spanish word 'piedra' means 'stone' or that it means 'before'.,stone,before,1,0,TF,1,True
+8,It is the case either that the Spanish word 'edad' means 'clock' or that it means read'.,clock,read,0,0,FF,0,True
+9,It is the case either that the Spanish word 'lobo' means 'story' or that it means 'leg'.,story,leg,0,0,FF,0,True
+19,It is the case either that the Spanish word 'continuar' means 'end' or that it means 'coat'.,end,coat,0,0,FF,0,True
+39,It is the case either that the Spanish word 'elegir' means 'to 'paper' or that it means choose'.,to 'paper,choose,0,1,FT,1,True
+49,It is the case either that the Spanish word 'mapa' means 'bread' or that it means 'map'.,bread,map,0,1,FT,1,True
+51,It is the case either that the Spanish word 'roca' means 'school' or that it means 'rock'.,school,rock,0,1,FT,1,True
+62,It is the case either that the Spanish word 'barco' means 'hello' or that it means 'octopus'.,hello,octopus,0,0,FF,0,True
+76,It is the case either that the Spanish word 'carta' means 'second' or that it means 'nothing'.,second,nothing,0,0,FF,0,True
+81,It is the case either that the Spanish word 'cuatro' means 'to imagine' or that it means 'bell'.,to imagine,bell,0,0,FF,0,True
+83,It is the case either that the Spanish word 'ver' means 'to see' or that it means 'train'.,to see,train,1,0,TF,1,True
+99,It is the case either that the Spanish word 'agua' means 'giraffe' or that it means 'water'.,giraffe,water,0,1,FT,1,True
+101,It is the case either that the Spanish word 'ciencia' means 'to buy' or that it means 'cow'.,to buy,cow,0,0,FF,0,True
+114,It is the case either that the Spanish word 'granja' means 'woman' or that it means 'sea'.,woman,sea,0,0,FF,0,True
+126,It is the case either that the Spanish word 'comprar' means 'dry' or that it means 'water'.,dry,water,0,0,FF,0,True
+154,It is the case either that the Spanish word 'azul' means 'eye' or that it means push'.,eye,push,0,0,FF,0,True
+228,It is the case either that the Spanish word 'conejo' means 'large' or that it means 'rabbit'.,large,rabbit,0,1,FT,1,True
+254,It is the case either that the Spanish word 'guardar' means 'to 'set' or that it means save'.,to 'set,save,0,1,FT,1,True
+265,It is the case either that the Spanish word 'hombro' means buy' or that it means 'shoulder'.,buy,shoulder,0,1,FT,1,True
+268,It is the case either that the Spanish word 'uno' means 'one' or that it means 'train'.,one,train,1,0,TF,1,True
+309,It is the case either that the Spanish word 'lanzar' means 'to 'giraffe' or that it means throw'.,to 'giraffe,throw,0,1,FT,1,True
+310,It is the case either that the Spanish word 'miedo' means ask' or that it means 'fear'.,ask,fear,0,1,FT,1,True
+356,It is the case either that the Spanish word 'caminar' means 'to 'fear' or that it means walk'.,to 'fear,walk,0,1,FT,1,True
+372,It is the case either that the Spanish word 'papel' means 'too' or that it means 'paper'.,too,paper,0,1,FT,1,True
+392,It is the case either that the Spanish word 'pagar' means 'to 'dark' or that it means pay'.,to 'dark,pay,0,1,FT,1,True
+399,It is the case either that the Spanish word 'tener' means 'to have' or that it means 'sun'.,to have,sun,1,0,TF,1,True
+413,It is the case either that the Spanish word 'decidir' means 'to 'mouth' or that it means give'.,to 'mouth,give,0,0,FF,0,True
+475,It is the case either that the Spanish word 'gris' means 'history' or that it means 'example'.,history,example,0,0,FF,0,True
+484,It is the case either that the Spanish word 'sal' means 'second' or that it means 'horse'.,second,horse,0,0,FF,0,True
+492,It is the case either that the Spanish word 'vecino' means 'neighbor' or that it means 'finger'.,neighbor,finger,1,0,TF,1,True

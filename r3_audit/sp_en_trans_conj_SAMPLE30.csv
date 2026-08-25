@@ -1,0 +1,31 @@
+idx,statement,conjunctA,conjunctB,labelA,labelB,cell,compound_label,consistent
+6,It is the case both that the Spanish word 'jirafa' means 'giraffe' and that the Spanish word 'esperanza' means 'hope'.,jirafa / giraffe,esperanza / hope,1,1,TT,1,True
+8,It is the case both that the Spanish word 'pensar' means 'to think' and that the Spanish word 'esperanza' means 'hope'.,pensar / to think,esperanza / hope,1,1,TT,1,True
+9,It is the case both that the Spanish word 'decir' means 'order' and that the Spanish word 'pierna' means 'leg'.,decir / order,pierna / leg,0,1,FT,0,True
+19,It is the case both that the Spanish word 'momento' means 'moment' and that the Spanish word 'noche' means 'night'.,momento / moment,noche / night,1,1,TT,1,True
+39,It is the case both that the Spanish word 'orden' means 'old' and that the Spanish word 'valle' means 'face'.,orden / old,valle / face,0,0,FF,0,True
+49,It is the case both that the Spanish word 'naturaleza' means 'to buy' and that the Spanish word 'abrigo' means 'coat'.,naturaleza / to buy,abrigo / coat,0,1,FT,0,True
+51,It is the case both that the Spanish word 'madre' means 'mother' and that the Spanish word 'usar' means 'to fight'.,madre / mother,usar / to fight,1,0,TF,0,True
+62,It is the case both that the Spanish word 'grupo' means 'group' and that the Spanish word 'dinero' means 'mouth'.,grupo / group,dinero / mouth,1,0,TF,0,True
+76,It is the case both that the Spanish word 'desarrollar' means 'to develop' and that the Spanish word 'venir' means 'to know'.,desarrollar / to develop,venir / to know,1,0,TF,0,True
+81,It is the case both that the Spanish word 'nombre' means 'name' and that the Spanish word 'tierra' means 'land'.,nombre / name,tierra / land,1,1,TT,1,True
+83,It is the case both that the Spanish word 'hermana' means 'sister' and that the Spanish word 'ocho' means 'too'.,hermana / sister,ocho / too,1,0,TF,0,True
+99,It is the case both that the Spanish word 'pero' means 'but' and that the Spanish word 'pieza' means 'duck'.,pero / but,pieza / duck,1,0,TF,0,True
+101,It is the case both that the Spanish word 'jugar' means 'to play' and that the Spanish word 'granja' means 'woman'.,jugar / to play,granja / woman,1,0,TF,0,True
+114,It is the case both that the Spanish word 'demasiado' means 'too' and that the Spanish word 'desarrollar' means 'to develop'.,demasiado / too,desarrollar / to develop,1,1,TT,1,True
+126,It is the case both that the Spanish word 'caminar' means 'to walk' and that the Spanish word 'listo' means 'ready'.,caminar / to walk,listo / ready,1,1,TT,1,True
+154,It is the case both that the Spanish word 'caliente' means 'iron' and that the Spanish word 'ayudar' means 'to help'.,caliente / iron,ayudar / to help,0,1,FT,0,True
+228,It is the case both that the Spanish word 'vaca' means 'cow' and that the Spanish word 'nunca' means 'to hear'.,vaca / cow,nunca / to hear,1,0,TF,0,True
+254,It is the case both that the Spanish word 'plata' means 'silver' and that the Spanish word 'nada' means 'nothing'.,plata / silver,nada / nothing,1,1,TT,1,True
+265,It is the case both that the Spanish word 'siete' means 'seven' and that the Spanish word 'vecino' means 'neighbor'.,siete / seven,vecino / neighbor,1,1,TT,1,True
+268,It is the case both that the Spanish word 'tren' means 'train' and that the Spanish word 'lago' means 'month'.,tren / train,lago / month,1,0,TF,0,True
+309,It is the case both that the Spanish word 'padre' means 'special' and that the Spanish word 'conectar' means 'to connect'.,padre / special,conectar / to connect,0,1,FT,0,True
+310,It is the case both that the Spanish word 'suelo' means 'ground' and that the Spanish word 'palabra' means 'word'.,suelo / ground,palabra / word,1,1,TT,1,True
+356,It is the case both that the Spanish word 'olor' means 'smell' and that the Spanish word 'mes' means 'month'.,olor / smell,mes / month,1,1,TT,1,True
+372,It is the case both that the Spanish word 'ejemplo' means 'example' and that the Spanish word 'espalda' means 'back'.,ejemplo / example,espalda / back,1,1,TT,1,True
+392,It is the case both that the Spanish word 'soldado' means 'soldier' and that the Spanish word 'jirafa' means 'giraffe'.,soldado / soldier,jirafa / giraffe,1,1,TT,1,True
+399,It is the case both that the Spanish word 'joven' means 'hot' and that the Spanish word 'lanzar' means 'to throw'.,joven / hot,lanzar / to throw,0,1,FT,0,True
+413,It is the case both that the Spanish word 'brazo' means 'arm' and that the Spanish word 'suficiente' means 'enough'.,brazo / arm,suficiente / enough,1,1,TT,1,True
+475,It is the case both that the Spanish word 'dibujar' means 'to draw' and that the Spanish word 'vender' means 'to sell'.,dibujar / to draw,vender / to sell,1,1,TT,1,True
+484,It is the case both that the Spanish word 'cuerpo' means 'body' and that the Spanish word 'herramienta' means 'tool'.,cuerpo / body,herramienta / tool,1,1,TT,1,True
+492,It is the case both that the Spanish word 'uno' means 'one' and that the Spanish word 'sentir' means 'to build'.,uno / one,sentir / to build,1,0,TF,0,True

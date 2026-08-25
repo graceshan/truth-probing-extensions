@@ -1,0 +1,31 @@
+idx,statement,conjunctA,conjunctB,labelA,labelB,cell,compound_label,consistent
+6,It is the case both that the skunk is a reptile and that the frog is a bird.,skunk / reptile,frog / bird,0,0,FF,0,True
+8,It is the case both that the wolverine is a mammal and that the porcupine is a mammal.,wolverine / mammal,porcupine / mammal,1,1,TT,1,True
+9,It is the case both that the deer is a mammal and that the leopard is a mammal.,deer / mammal,leopard / mammal,1,1,TT,1,True
+19,It is the case both that the mongoose is a mammal and that the bee is a insect.,mongoose / mammal,bee / insect,1,1,TT,1,True
+39,It is the case both that the salmon is a reptile and that the slug is a mollusk.,salmon / reptile,slug / mollusk,0,1,FT,0,True
+49,It is the case both that the wolverine is a mammal and that the ostrich is a fish.,wolverine / mammal,ostrich / fish,1,0,TF,0,True
+51,It is the case both that the beaver is a mammal and that the rabbit is a mammal.,beaver / mammal,rabbit / mammal,1,1,TT,1,True
+62,It is the case both that the tiger is a mammal and that the iguana is a bird.,tiger / mammal,iguana / bird,1,0,TF,0,True
+76,It is the case both that the zebra is a fish and that the koala is a mammal.,zebra / fish,koala / mammal,0,1,FT,0,True
+81,It is the case both that the bat is a mammal and that the hyena is a mammal.,bat / mammal,hyena / mammal,1,1,TT,1,True
+83,It is the case both that the lion is a mammal and that the alpaca is a mammal.,lion / mammal,alpaca / mammal,1,1,TT,1,True
+99,It is the case both that the cow is a bird and that the leopard is a mammal.,cow / bird,leopard / mammal,0,1,FT,0,True
+101,It is the case both that the seahorse is a fish and that the crocodile is a reptile.,seahorse / fish,crocodile / reptile,1,1,TT,1,True
+114,It is the case both that the cheetah is a mammal and that the flamingo is a bird.,cheetah / mammal,flamingo / bird,1,1,TT,1,True
+126,It is the case both that the llama is a mammal and that the snake is a fish.,llama / mammal,snake / fish,1,0,TF,0,True
+154,It is the case both that the frog is a bird and that the walrus is a mollusk.,frog / bird,walrus / mollusk,0,0,FF,0,True
+228,It is the case both that the pigeon is a bird and that the ostrich is a fish.,pigeon / bird,ostrich / fish,1,0,TF,0,True
+254,It is the case both that the mongoose is a mammal and that the hummingbird is a mammal.,mongoose / mammal,hummingbird / mammal,1,0,TF,0,True
+265,It is the case both that the mongoose is a bird and that the swan is a reptile.,mongoose / bird,swan / reptile,0,0,FF,0,True
+268,It is the case both that the gazelle is a mammal and that the skunk is a mammal.,gazelle / mammal,skunk / mammal,1,1,TT,1,True
+309,It is the case both that the hummingbird is a mammal and that the aardvark is a mammal.,hummingbird / mammal,aardvark / mammal,0,1,FT,0,True
+310,It is the case both that the gorilla is a amphibian and that the pigeon is a bird.,gorilla / amphibian,pigeon / bird,0,1,FT,0,True
+356,It is the case both that the wolverine is a mammal and that the skunk is a mammal.,wolverine / mammal,skunk / mammal,1,1,TT,1,True
+372,It is the case both that the wolverine is a mammal and that the dog is a mammal.,wolverine / mammal,dog / mammal,1,1,TT,1,True
+392,It is the case both that the tortoise is a cnidarian and that the vulture is a bird.,tortoise / cnidarian,vulture / bird,0,1,FT,0,True
+399,It is the case both that the sea turtle is a fish and that the aardvark is a fish.,sea turtle / fish,aardvark / fish,0,0,FF,0,True
+413,It is the case both that the moose is a mammal and that the leopard is a mammal.,moose / mammal,leopard / mammal,1,1,TT,1,True
+475,It is the case both that the horse is a mammal and that the platypus is a mammal.,horse / mammal,platypus / mammal,1,1,TT,1,True
+484,It is the case both that the octopus is a mollusk and that the gorilla is a amphibian.,octopus / mollusk,gorilla / amphibian,1,0,TF,0,True
+492,It is the case both that the squirrel is a mammal and that the chimpanzee is a mammal.,squirrel / mammal,chimpanzee / mammal,1,1,TT,1,True

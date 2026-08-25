@@ -1,0 +1,31 @@
+idx,statement,disjunctA_obj,disjunctB_obj,labelA,labelB,cell,compound_label,consistent
+6,It is the case either that Eli Whitney lived in the U.S or that he/she lived in Canada.,the U.S,Canada,1,0,TF,1,True
+8,It is the case either that Chester Carlson lived in the U.K or that he/she lived in Switzerland.,the U.K,Switzerland,0,0,FF,0,True
+9,It is the case either that John Kay lived in the U.S or that he/she lived in Russia.,the U.S,Russia,0,0,FF,0,True
+19,It is the case either that David Schwarz lived in Croatia or that he/she lived in the U.S.,Croatia,the U.S,1,0,TF,1,True
+39,It is the case either that Thomas Wedgwood lived in the U.K or that he/she lived in Italy.,the U.K,Italy,1,0,TF,1,True
+49,It is the case either that Gustaf Dalén lived in the U.S or that he/she lived in Sweden.,the U.S,Sweden,0,1,FT,1,True
+51,It is the case either that Willis Carrier lived in Italy or that he/she lived in the U.S.,Italy,the U.S,0,1,FT,1,True
+62,It is the case either that Biruté Galdikas lived in France or that he/she lived in the U.S.,France,the U.S,0,0,FF,0,True
+76,It is the case either that Mary Anderson lived in Germany or that he/she lived in the U.S.,Germany,the U.S,0,1,FT,1,True
+81,It is the case either that Ada Lovelace lived in Canada or that he/she lived in the U.S.,Canada,the U.S,0,0,FF,0,True
+83,It is the case either that Charles Babbage lived in Hungary/the U.S or that he/she lived in France.,Hungary/the U.S,France,0,0,FF,0,True
+99,It is the case either that Archimedes lived in Ancient Greece or that he/she lived in Japan.,Ancient Greece,Japan,1,0,TF,1,True
+101,It is the case either that Joseph Henry lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,0,False
+114,It is the case either that Hans Goldschmidt lived in Germany or that he/she lived in Turkey/the U.S.,Germany,Turkey/the U.S,1,0,TF,1,True
+126,It is the case either that Igor Tamm lived in the U.S or that he/she lived in Canada.,the U.S,Canada,0,0,FF,0,True
+154,It is the case either that James West lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,1,True
+228,It is the case either that Frank Bunker Gilbreth lived in the U.K or that he/she lived in Russia.,the U.K,Russia,0,0,FF,0,True
+254,It is the case either that Yoshiro Nakamatsu lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,0,FF,0,True
+265,It is the case either that Yoshua Bengio lived in Austria or that he/she lived in Canada.,Austria,Canada,0,1,FT,1,True
+268,It is the case either that Earle Dickson lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,1,True
+309,It is the case either that Benjamin Holt lived in the U.K or that he/she lived in the U.S.,the U.K,the U.S,0,1,FT,1,True
+310,It is the case either that Édouard-Léon Scott de Martinville lived in France or that he/she lived in the U.S.,France,the U.S,1,0,TF,1,True
+356,It is the case either that William Sturgeon lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,0,1,FT,1,True
+372,It is the case either that Herbert Akroyd Stuart lived in Canada or that he/she lived in Russia.,Canada,Russia,0,0,FF,0,True
+392,It is the case either that Willem Einthoven lived in France or that he/she lived in Germany.,France,Germany,0,0,FF,0,True
+399,It is the case either that Antoine Lavoisier lived in Italy or that he/she lived in France.,Italy,France,0,1,FT,1,True
+413,It is the case either that Benjamin Holt lived in India or that he/she lived in the U.S.,India,the U.S,0,1,FT,1,True
+475,It is the case either that Bartolomeo Cristofori lived in Italy or that he/she lived in Japan.,Italy,Japan,1,0,TF,1,True
+484,It is the case either that Richard Gatling lived in the U.S or that he/she lived in the U.K.,the U.S,the U.K,1,0,TF,0,False
+492,It is the case either that Rudolf Kálmán lived in Scotland or that he/she lived in the U.K.,Scotland,the U.K,0,0,FF,0,True

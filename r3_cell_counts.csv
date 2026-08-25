@@ -1,0 +1,13 @@
+dataset,n,matched,unmatched,TT,TF,FT,FF,logic_mismatch
+cities_disj,500,500,0,0,141,114,245,28
+sp_en_trans_disj,500,500,0,0,121,115,264,0
+element_symb_disj,500,500,0,0,128,134,238,3
+inventors_disj,500,500,0,0,153,157,190,32
+animal_class_disj,500,500,0,0,185,159,156,95
+facts_disj,500,500,0,39,87,105,269,0
+cities_conj,1498,1498,0,750,310,310,128,0
+sp_en_trans_conj,500,500,0,266,102,89,43,0
+element_symb_conj,500,500,0,260,93,103,44,0
+inventors_conj,500,500,0,287,76,102,35,0
+animal_class_conj,500,500,0,242,109,91,58,0
+facts_conj,500,500,0,235,119,111,35,1

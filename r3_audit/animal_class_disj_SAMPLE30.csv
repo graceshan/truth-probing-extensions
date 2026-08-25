@@ -1,0 +1,31 @@
+idx,statement,disjunctA_obj,disjunctB_obj,labelA,labelB,cell,compound_label,consistent
+6,It is the case either that the rabbit is a insect or that it is a mammal.,insect,mammal,0,1,FT,1,True
+8,It is the case either that the porcupine is a mammal or that it is a bird.,mammal,bird,1,0,TF,0,False
+9,It is the case either that the horse is a bird or that it is a mollusk.,bird,mollusk,0,0,FF,0,True
+19,It is the case either that the cheetah is a insect or that it is a mammal.,insect,mammal,0,1,FT,0,False
+39,It is the case either that the jellyfish is a mammal or that it is a cnidarian.,mammal,cnidarian,0,1,FT,1,True
+49,It is the case either that the giraffe is a mammal or that it is a bird.,mammal,bird,1,0,TF,1,True
+51,It is the case either that the swan is a cnidarian or that it is a reptile.,cnidarian,reptile,0,0,FF,0,True
+62,It is the case either that the hummingbird is a fish or that it is a bird.,fish,bird,0,1,FT,1,True
+76,It is the case either that the frog is a bird or that it is a fish.,bird,fish,0,0,FF,0,True
+81,It is the case either that the flamingo is a bird or that it is a mammal.,bird,mammal,1,0,TF,1,True
+83,It is the case either that the flamingo is a mammal or that it is a bird.,mammal,bird,0,1,FT,0,False
+99,It is the case either that the iguana is a bird or that it is a reptile.,bird,reptile,0,1,FT,0,False
+101,It is the case either that the zebra is a mammal or that it is a fish.,mammal,fish,1,0,TF,1,True
+114,It is the case either that the camel is a mammal or that it is a fish.,mammal,fish,1,0,TF,1,True
+126,It is the case either that the whale is a bird or that it is a mammal.,bird,mammal,0,1,FT,1,True
+154,It is the case either that the gazelle is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,1,True
+228,It is the case either that the sparrow is a fish or that it is a mammal.,fish,mammal,0,0,FF,0,True
+254,It is the case either that the leopard is a fish or that it is a bird.,fish,bird,0,0,FF,0,True
+265,It is the case either that the lion is a mammal or that it is a bird.,mammal,bird,1,0,TF,0,False
+268,It is the case either that the horse is a mollusk or that it is a amphibian.,mollusk,amphibian,0,0,FF,0,True
+309,It is the case either that the tapir is a bird or that it is a mammal.,bird,mammal,0,1,FT,1,True
+310,It is the case either that the giant anteater is a fish or that it is a mammal.,fish,mammal,0,0,FF,0,True
+356,It is the case either that the cat is a mammal or that it is a reptile.,mammal,reptile,1,0,TF,1,True
+372,It is the case either that the tuna is a mammal or that it is a fish.,mammal,fish,0,1,FT,1,True
+392,It is the case either that the flamingo is a crustacean or that it is a bird.,crustacean,bird,0,1,FT,1,True
+399,It is the case either that the aardvark is a mammal or that it is a crustacean.,mammal,crustacean,1,0,TF,1,True
+413,It is the case either that the octopus is a mollusk or that it is a bird.,mollusk,bird,1,0,TF,1,True
+475,It is the case either that the hyena is a mammal or that it is a fish.,mammal,fish,1,0,TF,1,True
+484,It is the case either that the sparrow is a mammal or that it is a bird.,mammal,bird,0,1,FT,0,False
+492,It is the case either that the elephant is a mammal or that it is a bird.,mammal,bird,1,0,TF,1,True
