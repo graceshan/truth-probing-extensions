@@ -1,0 +1,31 @@
+statement,topic,conjunctA,conjunctB,labelA,labelB,cell,connective,ordering
+"Either the hummingbird is a crustacean or the moose is a reptile, but not both.",animal_class,The moose is a reptile.,The hummingbird is a crustacean.,0,0,FF,xor,BA
+"Either the tuna is a fish or the leopard is a mammal, but not both.",animal_class,The tuna is a fish.,The leopard is a mammal.,1,1,TT,xor,AB
+"Either the slug is a mollusk or the llama is a mollusk, but not both.",animal_class,The slug is a mollusk.,The llama is a mollusk.,1,0,TF,xor,AB
+"Either the flamingo is a bird or the seagull is a reptile, but not both.",animal_class,The flamingo is a bird.,The seagull is a reptile.,1,0,TF,xor,AB
+"Either the panda is a bird or the salmon is a crustacean, but not both.",animal_class,The panda is a bird.,The salmon is a crustacean.,0,0,FF,xor,AB
+"Either the dolphin is a mammal or the cheetah is a mammal, but not both.",animal_class,The dolphin is a mammal.,The cheetah is a mammal.,1,1,TT,xor,AB
+"Either the city of Kolhapur is in the Republic of the Congo or the city of Winnipeg is in Morocco, but not both.",cities,The city of Kolhapur is in the Republic of the Congo.,The city of Winnipeg is in Morocco.,0,0,FF,xor,AB
+"Either the city of Onitsha is in Nigeria or the city of Asmara is in Eritrea, but not both.",cities,The city of Asmara is in Eritrea.,The city of Onitsha is in Nigeria.,1,1,TT,xor,BA
+"Either the city of Santo Domingo Oeste is in the Dominican Republic or the city of Uberlandia is in Turkey, but not both.",cities,The city of Uberlandia is in Turkey.,The city of Santo Domingo Oeste is in the Dominican Republic.,0,1,FT,xor,BA
+"Either the city of Ganzhou is in China or the city of Yaounde is in Cameroon, but not both.",cities,The city of Ganzhou is in China.,The city of Yaounde is in Cameroon.,1,1,TT,xor,AB
+"Either the city of Kyiv is in Ukraine or the city of Agadir is in Somalia, but not both.",cities,The city of Kyiv is in Ukraine.,The city of Agadir is in Somalia.,1,0,TF,xor,AB
+"Either the city of Kisangani is in Senegal or the city of Bhopal is in India, but not both.",cities,The city of Bhopal is in India.,The city of Kisangani is in Senegal.,1,0,TF,xor,BA
+"Either Iron has the symbol Os or Thulium has the symbol Tm, but not both.",element_symb,Thulium has the symbol Tm.,Iron has the symbol Os.,1,0,TF,xor,BA
+"Either Neon has the symbol B or Xenon has the symbol Xe, but not both.",element_symb,Xenon has the symbol Xe.,Neon has the symbol B.,1,0,TF,xor,BA
+"Either Chlorine has the symbol Cl or Platinum has the symbol Pt, but not both.",element_symb,Chlorine has the symbol Cl.,Platinum has the symbol Pt.,1,1,TT,xor,AB
+"Either Argon has the symbol Ar or Neodymium has the symbol Nd, but not both.",element_symb,Argon has the symbol Ar.,Neodymium has the symbol Nd.,1,1,TT,xor,AB
+"Either Gallium has the symbol Ga or Scandium has the symbol Sc, but not both.",element_symb,Gallium has the symbol Ga.,Scandium has the symbol Sc.,1,1,TT,xor,AB
+"Either Manganese has the symbol Mn or Zinc has the symbol Zn, but not both.",element_symb,Manganese has the symbol Mn.,Zinc has the symbol Zn.,1,1,TT,xor,AB
+"Either Charles Macintosh lived in the U.K or James Watt lived in Finland, but not both.",inventors,Charles Macintosh lived in the U.K.,James Watt lived in Finland.,1,0,TF,xor,AB
+"Either Willis Carrier lived in the U.S or Sergey Brin and Larry Page lived in the U.S, but not both.",inventors,Willis Carrier lived in the U.S.,Sergey Brin and Larry Page lived in the U.S.,1,1,TT,xor,AB
+"Either Richard Trevithick lived in the U.K or Luther George Simjian lived in Turkey/the U.S, but not both.",inventors,Richard Trevithick lived in the U.K.,Luther George Simjian lived in Turkey/the U.S.,1,1,TT,xor,AB
+"Either Karl Benz lived in Croatia or Joseph Henry lived in the U.S, but not both.",inventors,Karl Benz lived in Croatia.,Joseph Henry lived in the U.S.,0,1,FT,xor,AB
+"Either Archimedes lived in Turkey/the U.S or Ignazio Porro lived in Italy, but not both.",inventors,Ignazio Porro lived in Italy.,Archimedes lived in Turkey/the U.S.,1,0,TF,xor,BA
+"Either Willis Carrier lived in the U.S or Igor Tamm lived in Denmark, but not both.",inventors,Willis Carrier lived in the U.S.,Igor Tamm lived in Denmark.,1,0,TF,xor,AB
+"Either the Spanish word 'veinte' means 'twenty' or the Spanish word 'problema' means 'problem', but not both.",sp_en_trans,The Spanish word 'problema' means 'problem'.,The Spanish word 'veinte' means 'twenty'.,1,1,TT,xor,BA
+"Either the Spanish word 'caliente' means 'hot' or the Spanish word 'pierna' means 'leg', but not both.",sp_en_trans,The Spanish word 'caliente' means 'hot'.,The Spanish word 'pierna' means 'leg'.,1,1,TT,xor,AB
+"Either the Spanish word 'y' means 'city' or the Spanish word 'ciudad' means 'city', but not both.",sp_en_trans,The Spanish word 'y' means 'city'.,The Spanish word 'ciudad' means 'city'.,0,1,FT,xor,AB
+"Either the Spanish word 'invierno' means 'winter' or the Spanish word 'miedo' means 'fear', but not both.",sp_en_trans,The Spanish word 'miedo' means 'fear'.,The Spanish word 'invierno' means 'winter'.,1,1,TT,xor,BA
+"Either the Spanish word 'semilla' means 'seed' or the Spanish word 'oferta' means 'open', but not both.",sp_en_trans,The Spanish word 'semilla' means 'seed'.,The Spanish word 'oferta' means 'open'.,1,0,TF,xor,AB
+"Either the Spanish word 'ola' means 'wave' or the Spanish word 'higo' means 'fig', but not both.",sp_en_trans,The Spanish word 'ola' means 'wave'.,The Spanish word 'higo' means 'fig'.,1,1,TT,xor,AB
