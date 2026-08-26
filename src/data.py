@@ -17,17 +17,26 @@ def group_key(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> np.ndarray
     rows land on both sides of a split (e.g. no city's true/false statement
     pair split across train and test).
 
-    cities/neg_cities: the city column (native to the source CSV).
-    sp_en_trans: the Spanish word, extracted from the statement text (no
-    native column for it).
+    The affirmative and negated variants of each supported topic deliberately
+    map to the same natural entity (city, Spanish word, inventor, element, or
+    animal), so they can share one entity-disjoint split.
     """
     df = load_statements(name, datasets_dir=datasets_dir)
-    if name in ("cities", "neg_cities"):
+    topic = name.removeprefix("neg_")
+    if topic == "cities":
         return df["city"].to_numpy()
-    if name == "sp_en_trans":
-        words = df["statement"].str.extract(r"Spanish word '(.+?)'")[0]
-        assert words.notna().all(), f"{name}: some statements didn't match the word pattern"
-        return words.to_numpy()
+    patterns = {
+        "sp_en_trans": r"Spanish word '(.+?)'",
+        "inventors": r"^(.+?) (?:lived|did not live) in ",
+        "element_symb": r"^(.+?) (?:has|does not have) the symbol ",
+        "animal_class": r"^The (.+?) is (?:not )?an? ",
+    }
+    if topic in patterns:
+        entities = df["statement"].str.extract(patterns[topic])[0]
+        assert entities.notna().all(), (
+            f"{name}: some statements did not match the {topic} entity pattern"
+        )
+        return entities.to_numpy()
     raise ValueError(f"no group key defined for dataset {name!r}")
 
 
