@@ -1,0 +1,31 @@
+statement,topic,conjunctA,conjunctB,labelA,labelB,cell,connective,ordering
+The chimpanzee is a mammal or the hyena is a cnidarian.,animal_class,The hyena is a cnidarian.,The chimpanzee is a mammal.,0,1,FT,or,BA
+The raccoon is a mammal or the bat is a crustacean.,animal_class,The raccoon is a mammal.,The bat is a crustacean.,1,0,TF,or,AB
+The otter is a mammal and the penguin is a reptile.,animal_class,The otter is a mammal.,The penguin is a reptile.,1,0,TF,and,AB
+The rat is a mammal or the goat is a reptile.,animal_class,The rat is a mammal.,The goat is a reptile.,1,0,TF,or,AB
+The aardvark is a mammal and the llama is a mollusk.,animal_class,The llama is a mollusk.,The aardvark is a mammal.,0,1,FT,and,BA
+The jellyfish is a mammal and the gorilla is a reptile.,animal_class,The jellyfish is a mammal.,The gorilla is a reptile.,0,0,FF,and,AB
+The city of Qujing is in China or the city of Ufa is in Russia.,cities,The city of Ufa is in Russia.,The city of Qujing is in China.,1,1,TT,or,BA
+The city of Asmara is in Eritrea or the city of Onitsha is in Nigeria.,cities,The city of Asmara is in Eritrea.,The city of Onitsha is in Nigeria.,1,1,TT,or,AB
+The city of Port Harcourt is in Malaysia and the city of Santiago de los Caballeros is in the Dominican Republic.,cities,The city of Santiago de los Caballeros is in the Dominican Republic.,The city of Port Harcourt is in Malaysia.,1,0,TF,and,BA
+The city of Reynosa is in Niger and the city of Irbid is in Jordan.,cities,The city of Reynosa is in Niger.,The city of Irbid is in Jordan.,0,1,FT,and,AB
+The city of Algiers is in Algeria or the city of Budapest is in Armenia.,cities,The city of Algiers is in Algeria.,The city of Budapest is in Armenia.,1,0,TF,or,AB
+The city of General Santos is in the Philippines or the city of Arak is in Niger.,cities,The city of General Santos is in the Philippines.,The city of Arak is in Niger.,1,0,TF,or,AB
+Cesium has the symbol Cs and Dysprosium has the symbol Dy.,element_symb,Dysprosium has the symbol Dy.,Cesium has the symbol Cs.,1,1,TT,and,BA
+Phosphorus has the symbol Se or Cobalt has the symbol Co.,element_symb,Phosphorus has the symbol Se.,Cobalt has the symbol Co.,0,1,FT,or,AB
+Copper has the symbol La and Astatine has the symbol At.,element_symb,Copper has the symbol La.,Astatine has the symbol At.,0,1,FT,and,AB
+Chromium has the symbol Rb or Radon has the symbol Rn.,element_symb,Chromium has the symbol Rb.,Radon has the symbol Rn.,0,1,FT,or,AB
+Palladium has the symbol Ir or Uranium has the symbol U.,element_symb,Uranium has the symbol U.,Palladium has the symbol Ir.,1,0,TF,or,BA
+Lead has the symbol Er and Lutetium has the symbol Lu.,element_symb,Lutetium has the symbol Lu.,Lead has the symbol Er.,1,0,TF,and,BA
+Henri Giffard lived in France or Dr. Robert Gallo lived in Norway.,inventors,Dr. Robert Gallo lived in Norway.,Henri Giffard lived in France.,0,1,FT,or,BA
+John Boyd Dunlop lived in Scotland or Jacob Perkins lived in the U.S.,inventors,John Boyd Dunlop lived in Scotland.,Jacob Perkins lived in the U.S.,1,1,TT,or,AB
+Hans Geiger lived in Germany or James Starley lived in Austria/the U.S.,inventors,James Starley lived in Austria/the U.S.,Hans Geiger lived in Germany.,0,1,FT,or,BA
+Sir Sandford Fleming lived in Canada and Narinder Singh Kapany lived in India.,inventors,Sir Sandford Fleming lived in Canada.,Narinder Singh Kapany lived in India.,1,1,TT,and,AB
+Jean-Bernard-Léon Foucault lived in Germany and Daniel Fahrenheit lived in Poland/Germany.,inventors,Daniel Fahrenheit lived in Poland/Germany.,Jean-Bernard-Léon Foucault lived in Germany.,1,0,TF,and,BA
+Ralph H. Baer lived in Finland and Igor Tamm lived in Denmark.,inventors,Igor Tamm lived in Denmark.,Ralph H. Baer lived in Finland.,0,0,FF,and,BA
+The Spanish word 'leer' means 'to read' and the Spanish word 'prueba' means 'whale'.,sp_en_trans,The Spanish word 'prueba' means 'whale'.,The Spanish word 'leer' means 'to read'.,0,1,FT,and,BA
+The Spanish word 'problema' means 'problem' and the Spanish word 'veinte' means 'shell'.,sp_en_trans,The Spanish word 'problema' means 'problem'.,The Spanish word 'veinte' means 'shell'.,1,0,TF,and,AB
+The Spanish word 'caer' means 'to fall' or the Spanish word 'rey' means 'king'.,sp_en_trans,The Spanish word 'caer' means 'to fall'.,The Spanish word 'rey' means 'king'.,1,1,TT,or,AB
+The Spanish word 'leer' means 'skin' and the Spanish word 'prueba' means 'whale'.,sp_en_trans,The Spanish word 'prueba' means 'whale'.,The Spanish word 'leer' means 'skin'.,0,0,FF,and,BA
+The Spanish word 'hueso' means 'to eat' or the Spanish word 'coche' means 'car'.,sp_en_trans,The Spanish word 'coche' means 'car'.,The Spanish word 'hueso' means 'to eat'.,1,0,TF,or,BA
+The Spanish word 'construir' means 'to swim' and the Spanish word 'jugar' means 'leg'.,sp_en_trans,The Spanish word 'jugar' means 'leg'.,The Spanish word 'construir' means 'to swim'.,0,0,FF,and,BA

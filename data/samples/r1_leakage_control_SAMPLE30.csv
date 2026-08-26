@@ -1,0 +1,31 @@
+statement,topic,conjunctA,conjunctB,labelA,labelB,cell,connective,ordering
+The lobster is a crustacean blah the shark is a cnidarian.,animal_class,The shark is a cnidarian.,The lobster is a crustacean.,0,1,FT,blah,BA
+The vulture is a mollusk blah the chicken is a bird.,animal_class,The vulture is a mollusk.,The chicken is a bird.,0,1,FT,blah,AB
+The panda is a bird blah the salmon is a fish.,animal_class,The panda is a bird.,The salmon is a fish.,0,1,FT,blah,AB
+The narwhal is a mammal blah the penguin is a bird.,animal_class,The penguin is a bird.,The narwhal is a mammal.,1,1,TT,blah,BA
+The hippopotamus is a mammal blah the lobster is a crustacean.,animal_class,The lobster is a crustacean.,The hippopotamus is a mammal.,1,1,TT,blah,BA
+The crocodile is a bird blah the hummingbird is a crustacean.,animal_class,The crocodile is a bird.,The hummingbird is a crustacean.,0,0,FF,blah,AB
+The city of Indore is in Argentina blah the city of Lodz is in Poland.,cities,The city of Lodz is in Poland.,The city of Indore is in Argentina.,1,0,TF,blah,BA
+The city of Shah Alam is in Malaysia blah the city of Jakarta is in Indonesia.,cities,The city of Shah Alam is in Malaysia.,The city of Jakarta is in Indonesia.,1,1,TT,blah,AB
+The city of Najran is in the United Arab Emirates blah the city of Santiago de Queretaro is in Mexico.,cities,The city of Najran is in the United Arab Emirates.,The city of Santiago de Queretaro is in Mexico.,0,1,FT,blah,AB
+The city of Stockholm is in Sweden blah the city of Saratov is in Poland.,cities,The city of Stockholm is in Sweden.,The city of Saratov is in Poland.,1,0,TF,blah,AB
+The city of Kuala Lumpur is in Malaysia blah the city of Pretoria is in South Africa.,cities,The city of Kuala Lumpur is in Malaysia.,The city of Pretoria is in South Africa.,1,1,TT,blah,AB
+The city of Diyarbakir is in Kazakhstan blah the city of Seoul is in South Korea.,cities,The city of Seoul is in South Korea.,The city of Diyarbakir is in Kazakhstan.,1,0,TF,blah,BA
+Bromine has the symbol Br blah Holmium has the symbol Pd.,element_symb,Bromine has the symbol Br.,Holmium has the symbol Pd.,1,0,TF,blah,AB
+Nickel has the symbol Os blah Terbium has the symbol Br.,element_symb,Terbium has the symbol Br.,Nickel has the symbol Os.,0,0,FF,blah,BA
+Boron has the symbol B blah Osmium has the symbol Os.,element_symb,Osmium has the symbol Os.,Boron has the symbol B.,1,1,TT,blah,BA
+Thorium has the symbol Ac blah Scandium has the symbol Sc.,element_symb,Scandium has the symbol Sc.,Thorium has the symbol Ac.,1,0,TF,blah,BA
+Ytterbium has the symbol Yb blah Nickel has the symbol Ni.,element_symb,Ytterbium has the symbol Yb.,Nickel has the symbol Ni.,1,1,TT,blah,AB
+Cadmium has the symbol Cd blah Neon has the symbol B.,element_symb,Cadmium has the symbol Cd.,Neon has the symbol B.,1,0,TF,blah,AB
+Philipp Reis lived in Sweden/the U.S blah Edwin Herbert Hall lived in Austria.,inventors,Philipp Reis lived in Sweden/the U.S.,Edwin Herbert Hall lived in Austria.,0,0,FF,blah,AB
+John Callcott Horsley lived in India blah William Kelly lived in the Soviet Union.,inventors,William Kelly lived in the Soviet Union.,John Callcott Horsley lived in India.,0,0,FF,blah,BA
+Hans Goldschmidt lived in Russia blah Samuel Morse lived in China.,inventors,Samuel Morse lived in China.,Hans Goldschmidt lived in Russia.,0,0,FF,blah,BA
+Rudolf Kálmán lived in Hungary blah Joseph Marie Jacquard lived in France.,inventors,Joseph Marie Jacquard lived in France.,Rudolf Kálmán lived in Hungary.,1,1,TT,blah,BA
+Narinder Singh Kapany lived in Canada/the U.S blah Fridtjof Nansen lived in Norway.,inventors,Narinder Singh Kapany lived in Canada/the U.S.,Fridtjof Nansen lived in Norway.,0,1,FT,blah,AB
+Herbert Akroyd Stuart lived in England blah Ralph H. Baer lived in the U.S.,inventors,Ralph H. Baer lived in the U.S.,Herbert Akroyd Stuart lived in England.,1,1,TT,blah,BA
+The Spanish word 'oferta' means 'offer' blah the Spanish word 'semilla' means 'bear'.,sp_en_trans,The Spanish word 'semilla' means 'bear'.,The Spanish word 'oferta' means 'offer'.,0,1,FT,blah,BA
+The Spanish word 'hombro' means 'map' blah the Spanish word 'enviar' means 'city'.,sp_en_trans,The Spanish word 'hombro' means 'map'.,The Spanish word 'enviar' means 'city'.,0,0,FF,blah,AB
+The Spanish word 'leer' means 'skin' blah the Spanish word 'temprano' means 'nothing'.,sp_en_trans,The Spanish word 'temprano' means 'nothing'.,The Spanish word 'leer' means 'skin'.,0,0,FF,blah,BA
+The Spanish word 'hombro' means 'map' blah the Spanish word 'ocupado' means 'busy'.,sp_en_trans,The Spanish word 'hombro' means 'map'.,The Spanish word 'ocupado' means 'busy'.,0,1,FT,blah,AB
+The Spanish word 'desarrollar' means 'to develop' blah the Spanish word 'viejo' means 'to save'.,sp_en_trans,The Spanish word 'viejo' means 'to save'.,The Spanish word 'desarrollar' means 'to develop'.,0,1,FT,blah,BA
+The Spanish word 'viejo' means 'old' blah the Spanish word 'vender' means 'son'.,sp_en_trans,The Spanish word 'viejo' means 'old'.,The Spanish word 'vender' means 'son'.,1,0,TF,blah,AB
