@@ -112,6 +112,28 @@ def save_checkpoint(
     df[["statement", "label"]].to_csv(csv_path, index=False)
     return npy_path, csv_path
 
+def save_checkpoint_full(
+    acts: np.ndarray, df: pd.DataFrame, dataset: str, acts_dir: str = DEFAULT_ACTS_DIR
+) -> tuple[str, str]:
+    """Like save_checkpoint but preserves ALL metadata columns, row-aligned.
+
+    Used for compound datasets (R1 quadruples, XOR) whose CSVs carry per-row
+    metadata (topic, conjunctA/B, labelA/B, cell, connective, ordering) that the
+    downstream regression needs. Extraction convention is unchanged: the same
+    extract_acts feeds df['statement'] in order, so array row i == metadata row i.
+    """
+    assert len(df) == acts.shape[0], (
+        f"{len(df)} rows in df but {acts.shape[0]} rows in acts -- order/count "
+        "would not line up"
+    )
+    assert acts.dtype == np.float16, f"acts must be float16, got {acts.dtype}"
+    assert "statement" in df.columns, "df must have a 'statement' column"
+    os.makedirs(acts_dir, exist_ok=True)
+    npy_path = os.path.join(acts_dir, f"{dataset}.npy")
+    csv_path = os.path.join(acts_dir, f"{dataset}.csv")
+    np.save(npy_path, acts)
+    df.to_csv(csv_path, index=False)  # full metadata, not a two-column projection
+    return npy_path, csv_path
 
 def extract_and_save(
     model,
@@ -128,3 +150,13 @@ def extract_and_save(
     """
     acts = extract_acts(model, tokenizer, df["statement"].tolist(), batch_size=batch_size)
     return save_checkpoint(acts, df, dataset, acts_dir=acts_dir)
+
+
+def extract_and_save_full(
+    model, tokenizer, df, dataset, acts_dir=DEFAULT_ACTS_DIR, batch_size=1
+):
+    """Like extract_and_save but preserves ALL metadata columns (for compound
+    datasets). Extraction convention is identical to extract_and_save — same
+    extract_acts — so activations match the atomic run; only the sidecar differs."""
+    acts = extract_acts(model, tokenizer, df["statement"].tolist(), batch_size=batch_size)
+    return save_checkpoint_full(acts, df, dataset, acts_dir=acts_dir)
