@@ -1,0 +1,120 @@
+{
+  "verification": {
+    "r1_rows": 8000,
+    "score_A_count": 8000,
+    "score_B_count": 8000,
+    "score_compound_count": 8000,
+    "missing_mappings": 0,
+    "ambiguous_unresolved_mappings": 0,
+    "all_scores_finite": true,
+    "global_truth_semantics_valid": true,
+    "repair_records_available": 571,
+    "repair_records_used": 571,
+    "compound_sidecar_exactly_aligned": true,
+    "repair_sidecar_exactly_aligned": true,
+    "canonical_entity_pairs": 500,
+    "duplicate_original_resolution": [
+      {
+        "topic": "sp_en_trans",
+        "statement": "The Spanish word 'caballo' means 'horse'.",
+        "candidate_rows": [
+          95,
+          329
+        ],
+        "chosen_row": 95,
+        "rule": "lowest row after label and layer-22 vector equality"
+      },
+      {
+        "topic": "sp_en_trans",
+        "statement": "The Spanish word 'perro' means 'dog'.",
+        "candidate_rows": [
+          119,
+          337
+        ],
+        "chosen_row": 119,
+        "rule": "lowest row after label and layer-22 vector equality"
+      },
+      {
+        "topic": "sp_en_trans",
+        "statement": "The Spanish word 'vaca' means 'cow'.",
+        "candidate_rows": [
+          202,
+          334
+        ],
+        "chosen_row": 202,
+        "rule": "lowest row after label and layer-22 vector equality"
+      }
+    ],
+    "probe_layer": 22,
+    "score_scale": "raw frozen-probe decision function",
+    "normalization": "none"
+  },
+  "atomic_constituent_means": {
+    "true_A": 9.67271976305695,
+    "false_A": -11.222255419286563,
+    "true_B": 9.743017442685986,
+    "false_B": -11.446702245567852
+  },
+  "compound_global_truth_means": {
+    "globally_true": 3.6678880609261713,
+    "globally_false": 0.27137207801582236
+  },
+  "compound_cell_statistics": [
+    {
+      "connective": "and",
+      "cell": "TT",
+      "N": 1000,
+      "mean": 10.108286403409886,
+      "std": 3.1712768187670655
+    },
+    {
+      "connective": "and",
+      "cell": "TF",
+      "N": 1000,
+      "mean": 1.7318398779097306,
+      "std": 4.444269899152081
+    },
+    {
+      "connective": "and",
+      "cell": "FT",
+      "N": 1000,
+      "mean": 1.751251312245795,
+      "std": 4.4984064286994005
+    },
+    {
+      "connective": "and",
+      "cell": "FF",
+      "N": 1000,
+      "mean": -1.1404675338029016,
+      "std": 4.029317851219012
+    },
+    {
+      "connective": "or",
+      "cell": "TT",
+      "N": 1000,
+      "mean": 4.57768542342056,
+      "std": 2.349782266109877
+    },
+    {
+      "connective": "or",
+      "cell": "TF",
+      "N": 1000,
+      "mean": -0.02364261285392302,
+      "std": 4.145979634145702
+    },
+    {
+      "connective": "or",
+      "cell": "FT",
+      "N": 1000,
+      "mean": 0.009223029728163459,
+      "std": 4.227487392617956
+    },
+    {
+      "connective": "or",
+      "cell": "FF",
+      "N": 1000,
+      "mean": -1.2571353442893347,
+      "std": 4.906033227684601
+    }
+  ]
+}
