@@ -6,10 +6,30 @@ import pandas as pd
 DEFAULT_DATASETS_DIR = "geometry-of-truth/datasets"
 DEFAULT_ACTS_DIR = "acts"
 
+ENTITY_PATTERNS = {
+    "cities": r"^The city of (.+?) is (?:not )?in ",
+    "sp_en_trans": r"Spanish word '(.+?)'",
+    "inventors": r"^(.+?) (?:lived|did not live) in ",
+    "element_symb": r"^(.+?) (?:has|does not have) the symbol ",
+    "animal_class": r"^The (.+?) is (?:not )?an? ",
+}
+
 
 def load_statements(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> pd.DataFrame:
     """Load a Geometry of Truth CSV. Columns are `statement` and `label` (1 = true)."""
     return pd.read_csv(f"{datasets_dir}/{name}.csv")
+
+
+def entity_key_from_statements(topic: str, statements) -> np.ndarray:
+    """Extract a topic's natural entity from exact atomic statement text."""
+    if topic not in ENTITY_PATTERNS:
+        raise ValueError(f"no entity pattern defined for topic {topic!r}")
+    statements = pd.Series(statements, dtype="string")
+    entities = statements.str.extract(ENTITY_PATTERNS[topic])[0]
+    assert entities.notna().all(), (
+        f"{topic}: some statements did not match the entity pattern"
+    )
+    return entities.to_numpy()
 
 
 def group_key(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> np.ndarray:
@@ -23,21 +43,9 @@ def group_key(name: str, datasets_dir: str = DEFAULT_DATASETS_DIR) -> np.ndarray
     """
     df = load_statements(name, datasets_dir=datasets_dir)
     topic = name.removeprefix("neg_")
-    if topic == "cities":
+    if topic == "cities" and "city" in df.columns:
         return df["city"].to_numpy()
-    patterns = {
-        "sp_en_trans": r"Spanish word '(.+?)'",
-        "inventors": r"^(.+?) (?:lived|did not live) in ",
-        "element_symb": r"^(.+?) (?:has|does not have) the symbol ",
-        "animal_class": r"^The (.+?) is (?:not )?an? ",
-    }
-    if topic in patterns:
-        entities = df["statement"].str.extract(patterns[topic])[0]
-        assert entities.notna().all(), (
-            f"{name}: some statements did not match the {topic} entity pattern"
-        )
-        return entities.to_numpy()
-    raise ValueError(f"no group key defined for dataset {name!r}")
+    return entity_key_from_statements(topic, df["statement"])
 
 
 def load_activations(

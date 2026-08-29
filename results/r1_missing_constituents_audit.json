@@ -1,0 +1,65 @@
+{
+  "deduplication_identity": [
+    "topic",
+    "exact statement"
+  ],
+  "missing_unique_statements": 571,
+  "missing_counts_by_topic": {
+    "animal_class": 58,
+    "cities": 170,
+    "element_symb": 80,
+    "inventors": 141,
+    "sp_en_trans": 122
+  },
+  "missing_counts_by_truth_label": {
+    "0": 571
+  },
+  "missing_conjunct_occurrences": 7752,
+  "affected_r1_rows": 5876,
+  "r1_rows_total": 8000,
+  "r1_rows_with_two_deterministic_mappings_after_hypothetical_addition": 8000,
+  "absence_reason": "generated_wrong_object_text_absent_from_source_atomic_metadata",
+  "duplicate_existing_text_collapses": [
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'caballo' means 'horse'.",
+      "atomic_row_indices": [
+        95,
+        329
+      ],
+      "truth_label": 1,
+      "layer_22_activations_identical": true,
+      "collapse_rule": "choose lowest atomic row index",
+      "chosen_atomic_row_index": 95
+    },
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'perro' means 'dog'.",
+      "atomic_row_indices": [
+        119,
+        337
+      ],
+      "truth_label": 1,
+      "layer_22_activations_identical": true,
+      "collapse_rule": "choose lowest atomic row index",
+      "chosen_atomic_row_index": 119
+    },
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'vaca' means 'cow'.",
+      "atomic_row_indices": [
+        202,
+        334
+      ],
+      "truth_label": 1,
+      "layer_22_activations_identical": true,
+      "collapse_rule": "choose lowest atomic row index",
+      "chosen_atomic_row_index": 202
+    }
+  ],
+  "verification": {
+    "every_conjunct_resolves_by_exactly_one_route": true,
+    "every_r1_row_has_score_A_and_score_B_mapping": true,
+    "missing_rows_unique_by_topic_and_exact_statement": true
+  }
+}
