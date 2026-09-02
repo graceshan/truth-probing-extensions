@@ -1,0 +1,3 @@
+probe,probe_label,N,auroc,accuracy,balanced_accuracy,average_precision,mean_score_true,mean_score_false
+atomic_union_to_compounds,Atomic union → compounds,1600,0.68765625,0.605,0.605,0.7033500308362267,3.868950338045557,0.42285155487614373
+compound_trained_to_compounds,Compound-trained → compounds,1600,0.996840625,0.9725,0.9724999999999999,0.9965939660581177,11.464663189898276,-13.497464369359735

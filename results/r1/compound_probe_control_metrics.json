@@ -1,0 +1,200 @@
+{
+  "verification": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "layer": 22,
+    "probe": {
+      "type": "LogisticRegression",
+      "penalty": "l2",
+      "C": 0.1,
+      "fit_intercept": true,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "random_state": 0,
+      "n_iter": 420
+    },
+    "canonical_pairs": 500,
+    "train_pairs": 400,
+    "test_pairs": 100,
+    "train_rows": 6400,
+    "test_rows": 1600,
+    "pair_overlap": [],
+    "identical_heldout_rows_to_g_c_cg": true,
+    "source_sidecar_score_table_activation_alignment": true,
+    "raw_affine_score_matches_decision_function": true,
+    "normalization": "none",
+    "all_scores_finite": true
+  },
+  "heldout_classification": [
+    {
+      "group_type": "overall",
+      "group": "overall",
+      "N": 1600,
+      "auroc": 0.996840625,
+      "accuracy": 0.9725,
+      "balanced_accuracy": 0.9724999999999999,
+      "mean_score_true": 11.464663189898276,
+      "mean_score_false": -13.497464369359735
+    },
+    {
+      "group_type": "connective",
+      "group": "and",
+      "N": 800,
+      "auroc": 0.99875,
+      "accuracy": 0.9825,
+      "balanced_accuracy": 0.975,
+      "mean_score_true": 7.6760737717984675,
+      "mean_score_false": -15.828694905000788
+    },
+    {
+      "group_type": "connective",
+      "group": "or",
+      "N": 800,
+      "auroc": 0.9913583333333333,
+      "accuracy": 0.9625,
+      "balanced_accuracy": 0.9433333333333334,
+      "mean_score_true": 12.72752632926488,
+      "mean_score_false": -6.503772762436573
+    },
+    {
+      "group_type": "topic",
+      "group": "animal_class",
+      "N": 272,
+      "auroc": 0.9992971453287198,
+      "accuracy": 0.9889705882352942,
+      "balanced_accuracy": 0.9889705882352942,
+      "mean_score_true": 11.129940238091903,
+      "mean_score_false": -13.826486261963847
+    },
+    {
+      "group_type": "topic",
+      "group": "cities",
+      "N": 304,
+      "auroc": 0.9998701523545706,
+      "accuracy": 0.9901315789473685,
+      "balanced_accuracy": 0.9901315789473684,
+      "mean_score_true": 14.880421250124213,
+      "mean_score_false": -18.09657189870242
+    },
+    {
+      "group_type": "topic",
+      "group": "element_symb",
+      "N": 336,
+      "auroc": 0.9957482993197279,
+      "accuracy": 0.9642857142857143,
+      "balanced_accuracy": 0.9642857142857142,
+      "mean_score_true": 11.829421968841537,
+      "mean_score_false": -12.832174654309851
+    },
+    {
+      "group_type": "topic",
+      "group": "inventors",
+      "N": 400,
+      "auroc": 0.9853750000000001,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "mean_score_true": 8.252384156379662,
+      "mean_score_false": -9.420333635528058
+    },
+    {
+      "group_type": "topic",
+      "group": "sp_en_trans",
+      "N": 288,
+      "auroc": 1.0,
+      "accuracy": 0.9965277777777778,
+      "balanced_accuracy": 0.9965277777777778,
+      "mean_score_true": 12.211214774152303,
+      "mean_score_false": -14.7709608765852
+    }
+  ],
+  "matched_shift_summaries": {
+    "overall": {
+      "N": 4000,
+      "mean": 17.913103453745997,
+      "median": 17.806113781270426,
+      "std": 6.52125362628477,
+      "fraction_positive": 0.9965
+    },
+    "by_cell": {
+      "TT": {
+        "N": 1000,
+        "mean": 13.200872247520028,
+        "median": 13.204086993713345,
+        "std": 5.73961221017587,
+        "fraction_positive": 0.989
+      },
+      "TF": {
+        "N": 1000,
+        "mean": 20.732347335544038,
+        "median": 20.19668519875693,
+        "std": 5.997069677816979,
+        "fraction_positive": 1.0
+      },
+      "FT": {
+        "N": 1000,
+        "mean": 20.602746730673722,
+        "median": 20.411291712131586,
+        "std": 6.085264148516373,
+        "fraction_positive": 1.0
+      },
+      "FF": {
+        "N": 1000,
+        "mean": 17.1164475012462,
+        "median": 17.37275784829244,
+        "std": 5.12211965462113,
+        "fraction_positive": 0.997
+      }
+    },
+    "by_ordering": {
+      "AB": {
+        "N": 2000,
+        "mean": 17.904560319709518,
+        "median": 17.75636121287247,
+        "std": 6.600120678099502,
+        "fraction_positive": 0.9945
+      },
+      "BA": {
+        "N": 2000,
+        "mean": 17.921646587782472,
+        "median": 17.821343566356266,
+        "std": 6.443060819154416,
+        "fraction_positive": 0.9985
+      }
+    }
+  },
+  "shift_comparison_by_cell": [
+    {
+      "cell": "TT",
+      "atomic_union_mean_delta_OR_AND": -5.530600979989325,
+      "compound_trained_mean_delta_OR_AND": 13.200872247520028
+    },
+    {
+      "cell": "TF",
+      "atomic_union_mean_delta_OR_AND": -1.7554824907636535,
+      "compound_trained_mean_delta_OR_AND": 20.732347335544038
+    },
+    {
+      "cell": "FT",
+      "atomic_union_mean_delta_OR_AND": -1.7420282825176316,
+      "compound_trained_mean_delta_OR_AND": 20.602746730673722
+    },
+    {
+      "cell": "FF",
+      "atomic_union_mean_delta_OR_AND": -0.11666781048643318,
+      "compound_trained_mean_delta_OR_AND": 17.1164475012462
+    }
+  ],
+  "interpretation_checks": {
+    "1_heldout_truth_classification_well": "yes",
+    "1_basis": {
+      "heldout_auroc": 0.996840625,
+      "heldout_accuracy": 0.9725
+    },
+    "2_or_shifts_upward": "yes; mean OR-minus-AND is positive overall and in all four cells",
+    "3_shift_constancy": "strongly cell-dependent rather than roughly constant",
+    "3_cell_mean_shift_range": 7.53147508802401,
+    "4_qualitative_1_5B_comparison": "partial resemblance: high accuracy and an upward OR shift agree, but the 7B shift is substantially cell-dependent rather than approximately constant",
+    "4_comparison_basis": "The earlier result is documented qualitatively as high accuracy plus an approximately constant connective offset; no numeric benchmark is available here.",
+    "5_shift_sign_reverses_relative_to_atomic_union_probe": "yes",
+    "framing": "These are properties of two learned scalar probe directions, not claims that the model represents OR positively or negatively."
+  }
+}

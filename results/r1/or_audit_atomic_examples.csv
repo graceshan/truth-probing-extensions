@@ -1,0 +1,11 @@
+topic,statement,label,atomic_row_index,recomputed_score,stored_r1_score,absolute_difference
+animal_class,The lobster is a crustacean.,1,2,9.55124130273447,9.55124130273447,0.0
+cities,The city of Ashgabat is in Turkmenistan.,1,844,7.5368141942344895,7.5368141942344895,0.0
+inventors,Karl Benz lived in Germany.,1,274,17.156525512697314,17.156525512697314,0.0
+sp_en_trans,The Spanish word 'boca' means 'mouth'.,1,211,10.517797423193965,10.517797423193963,1.7763568394002505e-15
+sp_en_trans,The Spanish word 'bueno' means 'good'.,1,39,10.843374793702623,10.843374793702624,1.7763568394002505e-15
+animal_class,The beaver is a bird.,0,85,-7.816750110266687,-7.816750110266687,0.0
+animal_class,The dolphin is a crustacean.,0,66,-14.89390480998068,-14.89390480998068,0.0
+animal_class,The porcupine is a bird.,0,143,-12.456597806492288,-12.456597806492288,0.0
+animal_class,The rabbit is a bird.,0,39,-10.65449085113051,-10.65449085113051,0.0
+cities,The city of Ilorin is in Ukraine.,0,1343,-9.724626173118766,-9.724626173118766,0.0

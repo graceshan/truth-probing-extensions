@@ -1,0 +1,222 @@
+{
+  "conclusion": "B. No bug found; negative OR shift appears to be a genuine matched-sentence property of the frozen probe",
+  "probe_sign": {
+    "layer": 22,
+    "classes": [
+      0,
+      1
+    ],
+    "atomic_occurrence_means": {
+      "A_true": 9.67271976305695,
+      "A_false": -11.222255419286563,
+      "B_true": 9.743017442685986,
+      "B_false": -11.446702245567852,
+      "pooled_true": 9.707868602871468,
+      "pooled_false": -11.334478832427209,
+      "fraction_true_gt_0": 1.0,
+      "fraction_false_lt_0": 0.988
+    },
+    "max_abs_recomputed_vs_stored_atomic_score": 1.7763568394002505e-15
+  },
+  "compound_alignment": {
+    "metadata_rows": 8000,
+    "activation_rows": 8000,
+    "source_sidecar_exact_equality": true,
+    "score_table_metadata_exact_row_order": true,
+    "max_abs_stored_vs_recomputed_score": 1.7763568394002505e-15,
+    "fixed_seed_alignment_examples": 20
+  },
+  "template_check": {
+    "matched_comparisons": 4000,
+    "rows_matched_one_to_one": 8000,
+    "unmatched_groups": 0,
+    "duplicated_match_keys": 0,
+    "ambiguous_groups": 0,
+    "template_failures": 0,
+    "rule": "whitespace-token sequences equal except one token: 'and' versus 'or'"
+  },
+  "matched_delta_summaries": {
+    "overall": {
+      "N": 4000,
+      "mean": -2.2861948909392606,
+      "median": -2.4626751172238484,
+      "std": 4.154353138588093,
+      "p05": -8.963719520468374,
+      "p25": -5.171896145888493,
+      "p75": 0.4736712412498618,
+      "p95": 4.868969461219347,
+      "fraction_lt_0": 0.71025,
+      "fraction_gt_0": 0.28975
+    },
+    "by_cell": {
+      "TT": {
+        "N": 1000,
+        "mean": -5.530600979989325,
+        "median": -5.504019196521429,
+        "std": 3.3422144810600707,
+        "p05": -11.044668982365451,
+        "p25": -7.812274430220919,
+        "p75": -3.3418282877916696,
+        "p95": 0.14393199656006522,
+        "fraction_lt_0": 0.942,
+        "fraction_gt_0": 0.058
+      },
+      "TF": {
+        "N": 1000,
+        "mean": -1.7554824907636535,
+        "median": -2.0415374553534753,
+        "std": 3.480359055710804,
+        "p05": -7.114398095294439,
+        "p25": -4.212416537689846,
+        "p75": 0.3827113239867426,
+        "p95": 4.7266328257894115,
+        "fraction_lt_0": 0.712,
+        "fraction_gt_0": 0.288
+      },
+      "FT": {
+        "N": 1000,
+        "mean": -1.7420282825176316,
+        "median": -1.9606717505587192,
+        "std": 3.571854649514799,
+        "p05": -7.206616429487242,
+        "p25": -4.26299135525743,
+        "p75": 0.7084482098282816,
+        "p95": 4.6229205718773105,
+        "fraction_lt_0": 0.697,
+        "fraction_gt_0": 0.303
+      },
+      "FF": {
+        "N": 1000,
+        "mean": -0.11666781048643318,
+        "median": 0.08291763564463972,
+        "std": 4.1495020370802385,
+        "p05": -7.068486714778267,
+        "p25": -3.182198225036927,
+        "p75": 2.921957669479324,
+        "p95": 6.620130164165244,
+        "fraction_lt_0": 0.49,
+        "fraction_gt_0": 0.51
+      }
+    },
+    "by_ordering": {
+      "AB": {
+        "N": 2000,
+        "mean": -2.303458808492478,
+        "median": -2.532267011561988,
+        "std": 4.183006448915046,
+        "p05": -8.98008377622248,
+        "p25": -5.219721279021466,
+        "p75": 0.4607518230954288,
+        "p95": 4.937515885440157,
+        "fraction_lt_0": 0.708,
+        "fraction_gt_0": 0.292
+      },
+      "BA": {
+        "N": 2000,
+        "mean": -2.2689309733860448,
+        "median": -2.3887665460752716,
+        "std": 4.126474803807612,
+        "p05": -8.933531071706529,
+        "p25": -5.087053914398828,
+        "p75": 0.4938981782651426,
+        "p95": 4.809140743040107,
+        "fraction_lt_0": 0.7125,
+        "fraction_gt_0": 0.2875
+      }
+    },
+    "by_topic": {
+      "cities": {
+        "N": 800,
+        "mean": -1.6302825509259387,
+        "median": -0.951704350290627,
+        "std": 5.147731628626898,
+        "p05": -10.751935249211463,
+        "p25": -5.5487128198416,
+        "p75": 2.1762510960421917,
+        "p95": 6.314671281836056,
+        "fraction_lt_0": 0.57875,
+        "fraction_gt_0": 0.42125
+      },
+      "sp_en_trans": {
+        "N": 800,
+        "mean": -4.292283064536267,
+        "median": -4.395174422203189,
+        "std": 2.3267447761550035,
+        "p05": -7.805929244960509,
+        "p25": -5.845412625935822,
+        "p75": -2.808002830348582,
+        "p95": -0.3410866480089572,
+        "fraction_lt_0": 0.95875,
+        "fraction_gt_0": 0.04125
+      },
+      "inventors": {
+        "N": 800,
+        "mean": -2.4826665356969175,
+        "median": -2.7495566463955408,
+        "std": 3.8663319084934002,
+        "p05": -8.526030977791835,
+        "p25": -5.046759934819026,
+        "p75": 0.00578035382056119,
+        "p95": 4.575722731946744,
+        "fraction_lt_0": 0.74875,
+        "fraction_gt_0": 0.25125
+      },
+      "element_symb": {
+        "N": 800,
+        "mean": -1.1062240207959078,
+        "median": -1.1196742466391374,
+        "std": 3.0174177534016864,
+        "p05": -5.839303104291876,
+        "p25": -3.122320682540445,
+        "p75": 0.7394641124389274,
+        "p95": 3.7177259452558973,
+        "fraction_lt_0": 0.65875,
+        "fraction_gt_0": 0.34125
+      },
+      "animal_class": {
+        "N": 800,
+        "mean": -1.9195182827412736,
+        "median": -1.6429932884486464,
+        "std": 4.9382089351251555,
+        "p05": -9.89453972339183,
+        "p25": -6.1602315807253945,
+        "p75": 2.2210132066671076,
+        "p95": 5.404343108292094,
+        "fraction_lt_0": 0.60625,
+        "fraction_gt_0": 0.39375
+      }
+    }
+  },
+  "duplicate_atomic_resolution": [
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'caballo' means 'horse'.",
+      "candidate_rows": [
+        95,
+        329
+      ],
+      "chosen_row": 95,
+      "rule": "lowest row after identical labels and bit-identical layer-22 vectors"
+    },
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'perro' means 'dog'.",
+      "candidate_rows": [
+        119,
+        337
+      ],
+      "chosen_row": 119,
+      "rule": "lowest row after identical labels and bit-identical layer-22 vectors"
+    },
+    {
+      "topic": "sp_en_trans",
+      "statement": "The Spanish word 'vaca' means 'cow'.",
+      "candidate_rows": [
+        202,
+        334
+      ],
+      "chosen_row": 202,
+      "rule": "lowest row after identical labels and bit-identical layer-22 vectors"
+    }
+  ]
+}

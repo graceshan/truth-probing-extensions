@@ -1,0 +1,501 @@
+entity_pair_id,topic,partition,n_rows
+"animal_class::[""aardvark"",""dog""]",animal_class,train,16
+"animal_class::[""aardvark"",""hyena""]",animal_class,test,16
+"animal_class::[""aardvark"",""llama""]",animal_class,train,16
+"animal_class::[""alpaca"",""eagle""]",animal_class,train,16
+"animal_class::[""axolotl"",""chimpanzee""]",animal_class,train,16
+"animal_class::[""axolotl"",""horse""]",animal_class,train,16
+"animal_class::[""axolotl"",""whale""]",animal_class,train,16
+"animal_class::[""bat"",""bison""]",animal_class,train,16
+"animal_class::[""bat"",""raccoon""]",animal_class,train,16
+"animal_class::[""beaver"",""moose""]",animal_class,train,16
+"animal_class::[""bee"",""frog""]",animal_class,test,16
+"animal_class::[""bee"",""porcupine""]",animal_class,train,16
+"animal_class::[""bison"",""camel""]",animal_class,test,16
+"animal_class::[""bison"",""gazelle""]",animal_class,train,16
+"animal_class::[""bison"",""pigeon""]",animal_class,train,16
+"animal_class::[""camel"",""elephant""]",animal_class,test,16
+"animal_class::[""camel"",""moose""]",animal_class,train,16
+"animal_class::[""camel"",""parrot""]",animal_class,train,16
+"animal_class::[""camel"",""seagull""]",animal_class,train,16
+"animal_class::[""camel"",""skunk""]",animal_class,train,16
+"animal_class::[""cassowary"",""skunk""]",animal_class,train,16
+"animal_class::[""cat"",""vulture""]",animal_class,test,16
+"animal_class::[""cheetah"",""dolphin""]",animal_class,train,16
+"animal_class::[""cheetah"",""frog""]",animal_class,train,16
+"animal_class::[""chicken"",""sparrow""]",animal_class,train,16
+"animal_class::[""chicken"",""squirrel""]",animal_class,train,16
+"animal_class::[""chicken"",""vulture""]",animal_class,train,16
+"animal_class::[""chimpanzee"",""goat""]",animal_class,train,16
+"animal_class::[""chimpanzee"",""hyena""]",animal_class,train,16
+"animal_class::[""chimpanzee"",""lion""]",animal_class,train,16
+"animal_class::[""chimpanzee"",""moose""]",animal_class,train,16
+"animal_class::[""chimpanzee"",""parrot""]",animal_class,train,16
+"animal_class::[""cow"",""goldfish""]",animal_class,train,16
+"animal_class::[""cow"",""whale""]",animal_class,train,16
+"animal_class::[""crocodile"",""hamster""]",animal_class,train,16
+"animal_class::[""crocodile"",""hummingbird""]",animal_class,train,16
+"animal_class::[""deer"",""iguana""]",animal_class,train,16
+"animal_class::[""deer"",""kangaroo""]",animal_class,test,16
+"animal_class::[""deer"",""raccoon""]",animal_class,train,16
+"animal_class::[""dog"",""iguana""]",animal_class,train,16
+"animal_class::[""dolphin"",""hedgehog""]",animal_class,train,16
+"animal_class::[""dolphin"",""kangaroo""]",animal_class,train,16
+"animal_class::[""elephant"",""panda""]",animal_class,train,16
+"animal_class::[""flamingo"",""seagull""]",animal_class,train,16
+"animal_class::[""gazelle"",""platypus""]",animal_class,train,16
+"animal_class::[""gazelle"",""sparrow""]",animal_class,test,16
+"animal_class::[""goat"",""llama""]",animal_class,test,16
+"animal_class::[""goat"",""narwhal""]",animal_class,train,16
+"animal_class::[""goat"",""parrot""]",animal_class,train,16
+"animal_class::[""goat"",""rat""]",animal_class,train,16
+"animal_class::[""goat"",""salmon""]",animal_class,train,16
+"animal_class::[""goat"",""whale""]",animal_class,train,16
+"animal_class::[""goldfish"",""hamster""]",animal_class,train,16
+"animal_class::[""goldfish"",""kangaroo""]",animal_class,train,16
+"animal_class::[""gorilla"",""hamster""]",animal_class,test,16
+"animal_class::[""gorilla"",""jellyfish""]",animal_class,train,16
+"animal_class::[""gorilla"",""llama""]",animal_class,test,16
+"animal_class::[""gorilla"",""panda""]",animal_class,train,16
+"animal_class::[""hamster"",""peacock""]",animal_class,train,16
+"animal_class::[""hedgehog"",""lion""]",animal_class,train,16
+"animal_class::[""hedgehog"",""mongoose""]",animal_class,test,16
+"animal_class::[""hedgehog"",""tiger""]",animal_class,train,16
+"animal_class::[""hippopotamus"",""hummingbird""]",animal_class,train,16
+"animal_class::[""hippopotamus"",""lobster""]",animal_class,train,16
+"animal_class::[""hippopotamus"",""shark""]",animal_class,train,16
+"animal_class::[""horse"",""hummingbird""]",animal_class,test,16
+"animal_class::[""horse"",""walrus""]",animal_class,train,16
+"animal_class::[""hummingbird"",""moose""]",animal_class,train,16
+"animal_class::[""hummingbird"",""peacock""]",animal_class,train,16
+"animal_class::[""iguana"",""jellyfish""]",animal_class,train,16
+"animal_class::[""jellyfish"",""platypus""]",animal_class,train,16
+"animal_class::[""leopard"",""tuna""]",animal_class,train,16
+"animal_class::[""lion"",""tortoise""]",animal_class,train,16
+"animal_class::[""lion"",""tuna""]",animal_class,train,16
+"animal_class::[""lion"",""walrus""]",animal_class,train,16
+"animal_class::[""llama"",""mongoose""]",animal_class,test,16
+"animal_class::[""llama"",""otter""]",animal_class,test,16
+"animal_class::[""llama"",""slug""]",animal_class,train,16
+"animal_class::[""lobster"",""shark""]",animal_class,test,16
+"animal_class::[""lobster"",""tapir""]",animal_class,train,16
+"animal_class::[""mongoose"",""seagull""]",animal_class,train,16
+"animal_class::[""moose"",""otter""]",animal_class,train,16
+"animal_class::[""moose"",""raccoon""]",animal_class,train,16
+"animal_class::[""narwhal"",""penguin""]",animal_class,train,16
+"animal_class::[""ostrich"",""tiger""]",animal_class,train,16
+"animal_class::[""otter"",""penguin""]",animal_class,train,16
+"animal_class::[""otter"",""rabbit""]",animal_class,train,16
+"animal_class::[""panda"",""rat""]",animal_class,train,16
+"animal_class::[""panda"",""salmon""]",animal_class,train,16
+"animal_class::[""panda"",""seagull""]",animal_class,train,16
+"animal_class::[""parrot"",""tiger""]",animal_class,test,16
+"animal_class::[""peacock"",""salmon""]",animal_class,train,16
+"animal_class::[""peacock"",""skunk""]",animal_class,train,16
+"animal_class::[""pigeon"",""walrus""]",animal_class,train,16
+"animal_class::[""porcupine"",""raccoon""]",animal_class,train,16
+"animal_class::[""rabbit"",""whale""]",animal_class,train,16
+"animal_class::[""raccoon"",""seagull""]",animal_class,test,16
+"animal_class::[""raccoon"",""tuna""]",animal_class,train,16
+"animal_class::[""sparrow"",""tarantula""]",animal_class,train,16
+"animal_class::[""walrus"",""zebra""]",animal_class,train,16
+"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,test,16
+"cities::[""Acapulco de Juarez"",""Xiaogan""]",cities,train,16
+"cities::[""Agadir"",""Comilla""]",cities,test,16
+"cities::[""Agadir"",""Kyiv""]",cities,train,16
+"cities::[""Aguascalientes"",""Durban""]",cities,train,16
+"cities::[""Ahmedabad"",""Warangal""]",cities,train,16
+"cities::[""Al Mawsil al Jadidah"",""Makassar""]",cities,train,16
+"cities::[""Algiers"",""Budapest""]",cities,train,16
+"cities::[""Algiers"",""Cochin""]",cities,test,16
+"cities::[""Algiers"",""Siping""]",cities,train,16
+"cities::[""Arak"",""General Santos""]",cities,train,16
+"cities::[""Ashgabat"",""Dammam""]",cities,train,16
+"cities::[""Asmara"",""Malang""]",cities,train,16
+"cities::[""Asmara"",""Onitsha""]",cities,train,16
+"cities::[""Bandar Lampung"",""Johannesburg""]",cities,train,16
+"cities::[""Baoji"",""Zhoushan""]",cities,train,16
+"cities::[""Beijing"",""Kemerovo""]",cities,train,16
+"cities::[""Bhayandar"",""Yangquan""]",cities,train,16
+"cities::[""Bhopal"",""Kisangani""]",cities,test,16
+"cities::[""Brazzaville"",""Pietermaritzburg""]",cities,train,16
+"cities::[""Bucharest"",""Hegang""]",cities,train,16
+"cities::[""Bursa"",""Wuzhou""]",cities,train,16
+"cities::[""Changchun"",""Okayama""]",cities,train,16
+"cities::[""Changshu"",""Culiacan""]",cities,train,16
+"cities::[""Changshu"",""Nagoya""]",cities,test,16
+"cities::[""Changshu"",""Suining""]",cities,train,16
+"cities::[""Chisinau"",""Krakow""]",cities,train,16
+"cities::[""Ciudad Nezahualcoyotl"",""Kisangani""]",cities,train,16
+"cities::[""Curitiba"",""Huainan""]",cities,train,16
+"cities::[""Da Nang"",""Wanzhou""]",cities,train,16
+"cities::[""Denpasar"",""Salta""]",cities,train,16
+"cities::[""Diyarbakir"",""Seoul""]",cities,train,16
+"cities::[""Dortmund"",""Ryazan'""]",cities,test,16
+"cities::[""Ganzhou"",""Yaounde""]",cities,train,16
+"cities::[""Gaziantep"",""Madurai""]",cities,train,16
+"cities::[""Gaziantep"",""Quito""]",cities,train,16
+"cities::[""Gaziantep"",""Wanning""]",cities,train,16
+"cities::[""Goyang-si"",""Kano""]",cities,train,16
+"cities::[""Guigang"",""Linfen""]",cities,train,16
+"cities::[""Hachioji"",""Wanzhou""]",cities,train,16
+"cities::[""Handan"",""Kota Kinabalu""]",cities,train,16
+"cities::[""Hannover"",""Ho Chi Minh City""]",cities,train,16
+"cities::[""Hanoi"",""Lubumbashi""]",cities,test,16
+"cities::[""Harbin"",""Sapporo""]",cities,train,16
+"cities::[""Hebi"",""Tomsk""]",cities,test,16
+"cities::[""Homyel'"",""Pontianak""]",cities,train,16
+"cities::[""Hwaseong-si"",""Rostov-na-Donu""]",cities,train,16
+"cities::[""Ilorin"",""Yiwu""]",cities,train,16
+"cities::[""Indianapolis"",""San Miguel de Tucuman""]",cities,train,16
+"cities::[""Indore"",""Lodz""]",cities,train,16
+"cities::[""Irbid"",""Reynosa""]",cities,train,16
+"cities::[""Irbid"",""Sanaa""]",cities,train,16
+"cities::[""Irkutsk"",""Vijayawada""]",cities,train,16
+"cities::[""Jakarta"",""Shah Alam""]",cities,test,16
+"cities::[""Jamshedpur"",""Pimpri""]",cities,test,16
+"cities::[""Jamshedpur"",""Zapopan""]",cities,train,16
+"cities::[""Jiaxing"",""Marseille""]",cities,train,16
+"cities::[""Jingmen"",""Tolyatti""]",cities,test,16
+"cities::[""Kalininskiy"",""Matsuyama""]",cities,train,16
+"cities::[""Kampala"",""Wenzhou""]",cities,test,16
+"cities::[""Kanpur"",""Nouakchott""]",cities,train,16
+"cities::[""Karbala"",""Riga""]",cities,train,16
+"cities::[""Khulna"",""Osaka""]",cities,train,16
+"cities::[""Khulna"",""Peshawar""]",cities,train,16
+"cities::[""Klang"",""Paranaque City""]",cities,train,16
+"cities::[""Kleinzschocher"",""Santo Domingo Este""]",cities,train,16
+"cities::[""Kleinzschocher"",""Xiangtan""]",cities,train,16
+"cities::[""Kolhapur"",""Winnipeg""]",cities,train,16
+"cities::[""Krasnoyarsk"",""Rohini""]",cities,train,16
+"cities::[""Kuala Lumpur"",""Pretoria""]",cities,train,16
+"cities::[""Kunming"",""N'Djamena""]",cities,test,16
+"cities::[""Laibin"",""Seoul""]",cities,test,16
+"cities::[""Leon de los Aldama"",""Nanning""]",cities,train,16
+"cities::[""Lianyungang"",""Puducherry""]",cities,test,16
+"cities::[""Luzhou"",""Saint Petersburg""]",cities,train,16
+"cities::[""Maceio"",""Yerevan""]",cities,test,16
+"cities::[""Madurai"",""Nova Iguacu""]",cities,train,16
+"cities::[""Madurai"",""Tangier""]",cities,train,16
+"cities::[""Meizhou"",""San Pedro Sula""]",cities,train,16
+"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,test,16
+"cities::[""N'Djamena"",""Ufa""]",cities,train,16
+"cities::[""Nagoya"",""Siping""]",cities,train,16
+"cities::[""Najran"",""Santiago de Queretaro""]",cities,train,16
+"cities::[""Nanchang"",""Santiago de los Caballeros""]",cities,train,16
+"cities::[""Nanded"",""San Pedro Sula""]",cities,train,16
+"cities::[""Nashik"",""Santa Maria Chimalhuacan""]",cities,train,16
+"cities::[""Ningbo"",""Zhangjiagang""]",cities,train,16
+"cities::[""Oklahoma City"",""Shizuoka""]",cities,train,16
+"cities::[""Orenburg"",""Quetta""]",cities,train,16
+"cities::[""Osaka"",""Rizhao""]",cities,train,16
+"cities::[""Port Harcourt"",""Santiago de los Caballeros""]",cities,train,16
+"cities::[""Qujing"",""Ufa""]",cities,test,16
+"cities::[""Quzhou"",""Shah Alam""]",cities,train,16
+"cities::[""Rio de Janeiro"",""Zhabei""]",cities,train,16
+"cities::[""Santo Domingo Oeste"",""Uberlandia""]",cities,train,16
+"cities::[""Saratov"",""Stockholm""]",cities,train,16
+"cities::[""Tlaquepaque"",""Vladivostok""]",cities,test,16
+"cities::[""Tolyatti"",""Weinan""]",cities,train,16
+"cities::[""Tucson"",""Xiamen""]",cities,train,16
+"cities::[""Weifang"",""Yaounde""]",cities,train,16
+"element_symb::[""Actinium"",""Platinum""]",element_symb,test,16
+"element_symb::[""Aluminum"",""Niobium""]",element_symb,train,16
+"element_symb::[""Aluminum"",""Potassium""]",element_symb,train,16
+"element_symb::[""Aluminum"",""Titanium""]",element_symb,train,16
+"element_symb::[""Aluminum"",""Zirconium""]",element_symb,train,16
+"element_symb::[""Antimony"",""Praseodymium""]",element_symb,test,16
+"element_symb::[""Antimony"",""Zinc""]",element_symb,train,16
+"element_symb::[""Argon"",""Beryllium""]",element_symb,train,16
+"element_symb::[""Argon"",""Neodymium""]",element_symb,test,16
+"element_symb::[""Argon"",""Rhenium""]",element_symb,train,16
+"element_symb::[""Argon"",""Rubidium""]",element_symb,train,16
+"element_symb::[""Argon"",""Thulium""]",element_symb,train,16
+"element_symb::[""Astatine"",""Copper""]",element_symb,train,16
+"element_symb::[""Astatine"",""Palladium""]",element_symb,test,16
+"element_symb::[""Astatine"",""Platinum""]",element_symb,train,16
+"element_symb::[""Barium"",""Tantalum""]",element_symb,train,16
+"element_symb::[""Beryllium"",""Iodine""]",element_symb,train,16
+"element_symb::[""Bismuth"",""Oxygen""]",element_symb,train,16
+"element_symb::[""Boron"",""Manganese""]",element_symb,train,16
+"element_symb::[""Boron"",""Osmium""]",element_symb,test,16
+"element_symb::[""Boron"",""Phosphorus""]",element_symb,test,16
+"element_symb::[""Boron"",""Selenium""]",element_symb,test,16
+"element_symb::[""Bromine"",""Holmium""]",element_symb,train,16
+"element_symb::[""Bromine"",""Potassium""]",element_symb,train,16
+"element_symb::[""Cadmium"",""Cerium""]",element_symb,test,16
+"element_symb::[""Cadmium"",""Neon""]",element_symb,train,16
+"element_symb::[""Carbon"",""Erbium""]",element_symb,train,16
+"element_symb::[""Carbon"",""Europium""]",element_symb,train,16
+"element_symb::[""Cerium"",""Lanthanum""]",element_symb,train,16
+"element_symb::[""Cerium"",""Terbium""]",element_symb,train,16
+"element_symb::[""Cerium"",""Thallium""]",element_symb,train,16
+"element_symb::[""Cesium"",""Dysprosium""]",element_symb,train,16
+"element_symb::[""Cesium"",""Neodymium""]",element_symb,train,16
+"element_symb::[""Cesium"",""Thulium""]",element_symb,test,16
+"element_symb::[""Chlorine"",""Platinum""]",element_symb,train,16
+"element_symb::[""Chromium"",""Radon""]",element_symb,test,16
+"element_symb::[""Chromium"",""Selenium""]",element_symb,train,16
+"element_symb::[""Cobalt"",""Fluorine""]",element_symb,train,16
+"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,test,16
+"element_symb::[""Cobalt"",""Phosphorus""]",element_symb,train,16
+"element_symb::[""Copper"",""Dysprosium""]",element_symb,test,16
+"element_symb::[""Copper"",""Nitrogen""]",element_symb,test,16
+"element_symb::[""Copper"",""Promethium""]",element_symb,train,16
+"element_symb::[""Dysprosium"",""Uranium""]",element_symb,train,16
+"element_symb::[""Europium"",""Platinum""]",element_symb,train,16
+"element_symb::[""Fluorine"",""Gallium""]",element_symb,train,16
+"element_symb::[""Fluorine"",""Lithium""]",element_symb,train,16
+"element_symb::[""Francium"",""Rubidium""]",element_symb,train,16
+"element_symb::[""Francium"",""Vanadium""]",element_symb,train,16
+"element_symb::[""Gadolinium"",""Rhenium""]",element_symb,train,16
+"element_symb::[""Gallium"",""Molybdenum""]",element_symb,test,16
+"element_symb::[""Gallium"",""Scandium""]",element_symb,train,16
+"element_symb::[""Germanium"",""Magnesium""]",element_symb,train,16
+"element_symb::[""Germanium"",""Potassium""]",element_symb,train,16
+"element_symb::[""Gold"",""Ruthenium""]",element_symb,test,16
+"element_symb::[""Hafnium"",""Rhenium""]",element_symb,train,16
+"element_symb::[""Holmium"",""Praseodymium""]",element_symb,train,16
+"element_symb::[""Indium"",""Radium""]",element_symb,train,16
+"element_symb::[""Iron"",""Phosphorus""]",element_symb,train,16
+"element_symb::[""Iron"",""Tantalum""]",element_symb,train,16
+"element_symb::[""Iron"",""Thulium""]",element_symb,train,16
+"element_symb::[""Krypton"",""Nickel""]",element_symb,train,16
+"element_symb::[""Krypton"",""Scandium""]",element_symb,train,16
+"element_symb::[""Lanthanum"",""Sulfur""]",element_symb,train,16
+"element_symb::[""Lanthanum"",""Technetium""]",element_symb,test,16
+"element_symb::[""Lead"",""Lithium""]",element_symb,train,16
+"element_symb::[""Lead"",""Lutetium""]",element_symb,train,16
+"element_symb::[""Lead"",""Strontium""]",element_symb,train,16
+"element_symb::[""Lead"",""Tellurium""]",element_symb,train,16
+"element_symb::[""Lutetium"",""Samarium""]",element_symb,train,16
+"element_symb::[""Magnesium"",""Rubidium""]",element_symb,train,16
+"element_symb::[""Manganese"",""Neon""]",element_symb,test,16
+"element_symb::[""Manganese"",""Terbium""]",element_symb,train,16
+"element_symb::[""Manganese"",""Zinc""]",element_symb,train,16
+"element_symb::[""Mercury"",""Tantalum""]",element_symb,train,16
+"element_symb::[""Molybdenum"",""Nickel""]",element_symb,train,16
+"element_symb::[""Molybdenum"",""Radon""]",element_symb,test,16
+"element_symb::[""Neon"",""Xenon""]",element_symb,train,16
+"element_symb::[""Nickel"",""Terbium""]",element_symb,train,16
+"element_symb::[""Nickel"",""Ytterbium""]",element_symb,train,16
+"element_symb::[""Nitrogen"",""Sulfur""]",element_symb,train,16
+"element_symb::[""Osmium"",""Thallium""]",element_symb,train,16
+"element_symb::[""Palladium"",""Uranium""]",element_symb,train,16
+"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,test,16
+"element_symb::[""Phosphorus"",""Strontium""]",element_symb,train,16
+"element_symb::[""Phosphorus"",""Vanadium""]",element_symb,train,16
+"element_symb::[""Platinum"",""Rhenium""]",element_symb,train,16
+"element_symb::[""Potassium"",""Sulfur""]",element_symb,train,16
+"element_symb::[""Promethium"",""Tantalum""]",element_symb,train,16
+"element_symb::[""Radium"",""Tellurium""]",element_symb,test,16
+"element_symb::[""Radon"",""Rhenium""]",element_symb,train,16
+"element_symb::[""Radon"",""Scandium""]",element_symb,train,16
+"element_symb::[""Radon"",""Titanium""]",element_symb,train,16
+"element_symb::[""Scandium"",""Thorium""]",element_symb,train,16
+"element_symb::[""Sodium"",""Thulium""]",element_symb,train,16
+"element_symb::[""Tellurium"",""Zirconium""]",element_symb,test,16
+"element_symb::[""Thallium"",""Zirconium""]",element_symb,train,16
+"element_symb::[""Thulium"",""Zinc""]",element_symb,train,16
+"element_symb::[""Thulium"",""Zirconium""]",element_symb,train,16
+"element_symb::[""Ytterbium"",""Zinc""]",element_symb,train,16
+"inventors::[""Alan Turing"",""James Watt""]",inventors,test,16
+"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,test,16
+"inventors::[""Alec Jeffreys"",""Yvonne Brill""]",inventors,train,16
+"inventors::[""Alexander Graham Bell"",""Maria Telkes""]",inventors,train,16
+"inventors::[""Alfred Nobel"",""Charles Fritts""]",inventors,train,16
+"inventors::[""Alva J. Fisher"",""Igor Tamm""]",inventors,train,16
+"inventors::[""Ami Argand"",""Leonardo da Vinci""]",inventors,train,16
+"inventors::[""Archimedes"",""Ignazio Porro""]",inventors,train,16
+"inventors::[""Arthur Fry"",""Leon Theremin""]",inventors,train,16
+"inventors::[""Arthur Fry"",""Édouard-Léon Scott de Martinville""]",inventors,train,16
+"inventors::[""Arthur Pitney"",""James Starley""]",inventors,train,16
+"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,test,16
+"inventors::[""Benjamin Holt"",""Willis Carrier""]",inventors,train,16
+"inventors::[""Candace Pert"",""Clarence Birdseye""]",inventors,train,16
+"inventors::[""Candace Pert"",""John Atanasoff""]",inventors,train,16
+"inventors::[""Carl Elsener"",""Philipp Reis""]",inventors,train,16
+"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,test,16
+"inventors::[""Charles Babbage"",""James Watt""]",inventors,train,16
+"inventors::[""Charles Cros"",""James Clerk Maxwell""]",inventors,train,16
+"inventors::[""Charles Francis Richter"",""Igor Tamm""]",inventors,train,16
+"inventors::[""Charles Francis Richter"",""James Murray Spangler""]",inventors,train,16
+"inventors::[""Charles Francis Richter"",""John Walker""]",inventors,train,16
+"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,test,16
+"inventors::[""Charles Goodyear"",""Richard Leach Maddox""]",inventors,train,16
+"inventors::[""Charles Macintosh"",""James Watt""]",inventors,train,16
+"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,test,16
+"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,test,16
+"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,test,16
+"inventors::[""Clarence Birdseye"",""William Congreve""]",inventors,train,16
+"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,test,16
+"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,test,16
+"inventors::[""Daniel Fahrenheit"",""Otis Boykin""]",inventors,train,16
+"inventors::[""David Edward Hughes"",""Wallace Carothers""]",inventors,train,16
+"inventors::[""David Schwarz"",""Frank Julian Sprague""]",inventors,train,16
+"inventors::[""David Schwarz"",""James West""]",inventors,train,16
+"inventors::[""Dr. Robert Gallo"",""Henri Giffard""]",inventors,train,16
+"inventors::[""Edmund Cartwright"",""Hans Geiger""]",inventors,train,16
+"inventors::[""Edouard Benedictus"",""Evangelista Torricelli""]",inventors,train,16
+"inventors::[""Edwin Herbert Hall"",""Philipp Reis""]",inventors,train,16
+"inventors::[""Edwin Link"",""Konrad Zuse""]",inventors,train,16
+"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,test,16
+"inventors::[""Emile Berliner"",""Michael Faraday""]",inventors,train,16
+"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,test,16
+"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,test,16
+"inventors::[""Ernesto Blanco"",""Sir Humphry Davy""]",inventors,train,16
+"inventors::[""Evangelista Torricelli"",""R. Buckminster Fuller""]",inventors,train,16
+"inventors::[""Ferdinand Carré"",""R. Buckminster Fuller""]",inventors,train,16
+"inventors::[""Frederick G. Creed"",""Ralph Benjamin""]",inventors,train,16
+"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,test,16
+"inventors::[""Fridtjof Nansen"",""Narinder Singh Kapany""]",inventors,train,16
+"inventors::[""Fridtjof Nansen"",""Ruth Benerito""]",inventors,train,16
+"inventors::[""Galileo Galilei"",""Shinya Yamanaka""]",inventors,train,16
+"inventors::[""Garrett Morgan"",""James Hargreaves""]",inventors,train,16
+"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,test,16
+"inventors::[""George Cayley"",""Joseph Swan""]",inventors,train,16
+"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,test,16
+"inventors::[""George Devol"",""Robert Moog""]",inventors,train,16
+"inventors::[""George Washington Carver"",""Shinya Yamanaka""]",inventors,train,16
+"inventors::[""Georges Claude"",""Henry Bessemer""]",inventors,train,16
+"inventors::[""Gideon Sundback"",""Grace Hopper""]",inventors,train,16
+"inventors::[""Godfrey Hounsfield"",""James Hargreaves""]",inventors,train,16
+"inventors::[""Godfrey Hounsfield"",""Joseph-Armand Bombardier""]",inventors,train,16
+"inventors::[""Hans Geiger"",""James Starley""]",inventors,test,16
+"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,test,16
+"inventors::[""Hans Goldschmidt"",""Samuel Morse""]",inventors,train,16
+"inventors::[""Hans Oersted"",""Ralph H. Baer""]",inventors,train,16
+"inventors::[""Hans von Ohain"",""John Kay""]",inventors,test,16
+"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,test,16
+"inventors::[""Henry Ford"",""John Ericsson""]",inventors,train,16
+"inventors::[""Herbert Akroyd Stuart"",""Ralph H. Baer""]",inventors,train,16
+"inventors::[""Igor Tamm"",""Ralph H. Baer""]",inventors,train,16
+"inventors::[""Igor Tamm"",""Whitcomb Judson""]",inventors,train,16
+"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,test,16
+"inventors::[""Jack Kilby"",""Percy Spencer""]",inventors,train,16
+"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,test,16
+"inventors::[""James Clerk Maxwell"",""Sir Humphry Davy""]",inventors,train,16
+"inventors::[""James Murray Spangler"",""Percy Spencer""]",inventors,train,16
+"inventors::[""John Ambrose Fleming"",""Marvin Camras""]",inventors,train,16
+"inventors::[""John Atanasoff"",""Nils Bohlin""]",inventors,train,16
+"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,test,16
+"inventors::[""John Gorrie"",""John Logie Baird""]",inventors,train,16
+"inventors::[""John Kay"",""Nikolai Basov""]",inventors,train,16
+"inventors::[""John Walker"",""Thomas Tompion""]",inventors,train,16
+"inventors::[""John Wesley Hyatt"",""Narinder Singh Kapany""]",inventors,train,16
+"inventors::[""John von Neumann"",""Nikolay Slavyanov""]",inventors,train,16
+"inventors::[""John von Neumann"",""Percy Spencer""]",inventors,train,16
+"inventors::[""Joseph Bramah"",""Joseph Henry""]",inventors,train,16
+"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,test,16
+"inventors::[""Joseph Henry"",""Karl Benz""]",inventors,train,16
+"inventors::[""Joseph Marie Jacquard"",""Rudolf Kálmán""]",inventors,train,16
+"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,test,16
+"inventors::[""Louis Pasteur"",""Paul Gottlieb Nipkow""]",inventors,train,16
+"inventors::[""Luther George Simjian"",""Richard Trevithick""]",inventors,train,16
+"inventors::[""Marie Curie"",""Nicolas Appert""]",inventors,train,16
+"inventors::[""Michael Faraday"",""Sir Frank Whittle""]",inventors,train,16
+"inventors::[""Narinder Singh Kapany"",""Sir Sandford Fleming""]",inventors,train,16
+"inventors::[""Robert Chesebrough"",""Vint Cerf""]",inventors,train,16
+"inventors::[""Robert Noyce"",""Sir Humphry Davy""]",inventors,train,16
+"inventors::[""Rudolf Diesel"",""Willis Carrier""]",inventors,train,16
+"inventors::[""Sergey Brin and Larry Page"",""Willis Carrier""]",inventors,train,16
+"sp_en_trans::[""abierto"",""desarrollar""]",sp_en_trans,train,16
+"sp_en_trans::[""abierto"",""guardar""]",sp_en_trans,train,16
+"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,test,16
+"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,test,16
+"sp_en_trans::[""abrigo"",""rana""]",sp_en_trans,train,16
+"sp_en_trans::[""abrigo"",""roca""]",sp_en_trans,train,16
+"sp_en_trans::[""aceite"",""libre""]",sp_en_trans,train,16
+"sp_en_trans::[""aceite"",""olor""]",sp_en_trans,train,16
+"sp_en_trans::[""agua"",""negro""]",sp_en_trans,train,16
+"sp_en_trans::[""amigo"",""escribir""]",sp_en_trans,train,16
+"sp_en_trans::[""arena"",""hola""]",sp_en_trans,train,16
+"sp_en_trans::[""ballena"",""vender""]",sp_en_trans,train,16
+"sp_en_trans::[""belleza"",""piel""]",sp_en_trans,train,16
+"sp_en_trans::[""boca"",""uno""]",sp_en_trans,train,16
+"sp_en_trans::[""bosque"",""clase""]",sp_en_trans,train,16
+"sp_en_trans::[""bosque"",""huevo""]",sp_en_trans,train,16
+"sp_en_trans::[""brazo"",""jirafa""]",sp_en_trans,train,16
+"sp_en_trans::[""bueno"",""historia""]",sp_en_trans,train,16
+"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,test,16
+"sp_en_trans::[""cabeza"",""lista""]",sp_en_trans,train,16
+"sp_en_trans::[""caer"",""enviar""]",sp_en_trans,train,16
+"sp_en_trans::[""caer"",""rey""]",sp_en_trans,test,16
+"sp_en_trans::[""caliente"",""conectar""]",sp_en_trans,train,16
+"sp_en_trans::[""caliente"",""fuego""]",sp_en_trans,train,16
+"sp_en_trans::[""caliente"",""pierna""]",sp_en_trans,train,16
+"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,test,16
+"sp_en_trans::[""caminar"",""nuevo""]",sp_en_trans,train,16
+"sp_en_trans::[""ciudad"",""y""]",sp_en_trans,train,16
+"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,test,16
+"sp_en_trans::[""coche"",""hueso""]",sp_en_trans,train,16
+"sp_en_trans::[""comer"",""imaginar""]",sp_en_trans,train,16
+"sp_en_trans::[""concha"",""papel""]",sp_en_trans,train,16
+"sp_en_trans::[""conejo"",""sur""]",sp_en_trans,train,16
+"sp_en_trans::[""construir"",""jugar""]",sp_en_trans,train,16
+"sp_en_trans::[""delgado"",""hijo""]",sp_en_trans,train,16
+"sp_en_trans::[""desarrollar"",""escuela""]",sp_en_trans,train,16
+"sp_en_trans::[""desarrollar"",""vender""]",sp_en_trans,train,16
+"sp_en_trans::[""desarrollar"",""viejo""]",sp_en_trans,train,16
+"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,test,16
+"sp_en_trans::[""elegir"",""suficiente""]",sp_en_trans,train,16
+"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,test,16
+"sp_en_trans::[""enviar"",""hombro""]",sp_en_trans,train,16
+"sp_en_trans::[""esquina"",""pero""]",sp_en_trans,train,16
+"sp_en_trans::[""familia"",""guardar""]",sp_en_trans,train,16
+"sp_en_trans::[""familia"",""lento""]",sp_en_trans,train,16
+"sp_en_trans::[""familia"",""vender""]",sp_en_trans,test,16
+"sp_en_trans::[""fuego"",""plata""]",sp_en_trans,train,16
+"sp_en_trans::[""fuerza"",""madre""]",sp_en_trans,train,16
+"sp_en_trans::[""gato"",""vender""]",sp_en_trans,train,16
+"sp_en_trans::[""grupo"",""oveja""]",sp_en_trans,train,16
+"sp_en_trans::[""grupo"",""semilla""]",sp_en_trans,train,16
+"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,test,16
+"sp_en_trans::[""hablar"",""perro""]",sp_en_trans,train,16
+"sp_en_trans::[""hermana"",""huevo""]",sp_en_trans,train,16
+"sp_en_trans::[""hermana"",""veinte""]",sp_en_trans,train,16
+"sp_en_trans::[""hielo"",""palabra""]",sp_en_trans,train,16
+"sp_en_trans::[""higo"",""ola""]",sp_en_trans,train,16
+"sp_en_trans::[""higo"",""oscuro""]",sp_en_trans,train,16
+"sp_en_trans::[""higo"",""roca""]",sp_en_trans,train,16
+"sp_en_trans::[""hijo"",""invierno""]",sp_en_trans,train,16
+"sp_en_trans::[""historia"",""siete""]",sp_en_trans,train,16
+"sp_en_trans::[""hola"",""mes""]",sp_en_trans,test,16
+"sp_en_trans::[""hombro"",""ocupado""]",sp_en_trans,train,16
+"sp_en_trans::[""hueso"",""morir""]",sp_en_trans,train,16
+"sp_en_trans::[""hueso"",""mujer""]",sp_en_trans,train,16
+"sp_en_trans::[""imaginar"",""oveja""]",sp_en_trans,train,16
+"sp_en_trans::[""imaginar"",""pero""]",sp_en_trans,train,16
+"sp_en_trans::[""imaginar"",""presente""]",sp_en_trans,train,16
+"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,test,16
+"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,test,16
+"sp_en_trans::[""invierno"",""miedo""]",sp_en_trans,train,16
+"sp_en_trans::[""invierno"",""potencia""]",sp_en_trans,train,16
+"sp_en_trans::[""isla"",""tres""]",sp_en_trans,train,16
+"sp_en_trans::[""lanzar"",""rosa""]",sp_en_trans,train,16
+"sp_en_trans::[""leer"",""prueba""]",sp_en_trans,train,16
+"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,test,16
+"sp_en_trans::[""lento"",""perro""]",sp_en_trans,train,16
+"sp_en_trans::[""lugar"",""uno""]",sp_en_trans,train,16
+"sp_en_trans::[""madre"",""mapa""]",sp_en_trans,train,16
+"sp_en_trans::[""mapa"",""potencia""]",sp_en_trans,train,16
+"sp_en_trans::[""mar"",""pasar""]",sp_en_trans,train,16
+"sp_en_trans::[""mezclar"",""viento""]",sp_en_trans,train,16
+"sp_en_trans::[""miedo"",""resultado""]",sp_en_trans,train,16
+"sp_en_trans::[""moderno"",""problema""]",sp_en_trans,train,16
+"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,test,16
+"sp_en_trans::[""nada"",""sol""]",sp_en_trans,train,16
+"sp_en_trans::[""negro"",""nombre""]",sp_en_trans,train,16
+"sp_en_trans::[""noche"",""temprano""]",sp_en_trans,train,16
+"sp_en_trans::[""oferta"",""semilla""]",sp_en_trans,train,16
+"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,test,16
+"sp_en_trans::[""oferta"",""veinte""]",sp_en_trans,train,16
+"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,test,16
+"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,test,16
+"sp_en_trans::[""parecer"",""uno""]",sp_en_trans,train,16
+"sp_en_trans::[""parte"",""piedra""]",sp_en_trans,train,16
+"sp_en_trans::[""presente"",""veinte""]",sp_en_trans,train,16
+"sp_en_trans::[""problema"",""veinte""]",sp_en_trans,train,16
+"sp_en_trans::[""reloj"",""suficiente""]",sp_en_trans,train,16
+"sp_en_trans::[""sencilla"",""tener""]",sp_en_trans,train,16
+"sp_en_trans::[""vender"",""viejo""]",sp_en_trans,train,16

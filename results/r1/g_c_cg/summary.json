@@ -1,0 +1,48 @@
+{
+  "input": "results/r1/r1_score_table.csv",
+  "split_method": "GroupShuffleSplit on sorted canonical pair IDs",
+  "seed": 0,
+  "test_size": 0.2,
+  "canonical_pairs": 500,
+  "train_pairs": 400,
+  "test_pairs": 100,
+  "train_rows": 6400,
+  "test_rows": 1600,
+  "train_test_pair_intersection": [],
+  "rows_per_pair": 16,
+  "identical_heldout_rows_all_models": true,
+  "heldout_metrics_use_test_pairs_only": true,
+  "or_indicator_rule": "1 iff connective == 'or'; otherwise 0",
+  "or_indicator_values": [
+    0,
+    1
+  ],
+  "all_inputs_outputs_finite": true,
+  "models": {
+    "G": [
+      "global_truth"
+    ],
+    "C": [
+      "score_A",
+      "score_B",
+      "is_or"
+    ],
+    "C+G": [
+      "score_A",
+      "score_B",
+      "is_or",
+      "global_truth"
+    ]
+  },
+  "fit": "ordinary sklearn LinearRegression with intercept",
+  "improvement_convention": {
+    "r2": "new minus old",
+    "rmse": "old minus new (positive is improvement)"
+  },
+  "improvements": {
+    "r2_G_to_C": 0.309624263583236,
+    "r2_C_to_C_plus_G": 0.00032333173554954797,
+    "rmse_reduction_G_to_C": 0.9702668846777485,
+    "rmse_reduction_C_to_C_plus_G": 0.0011324496099209824
+  }
+}
