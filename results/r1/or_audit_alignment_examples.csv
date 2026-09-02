@@ -1,0 +1,21 @@
+row_index,entity_pair_id,statement,connective,ordering,cell,labelA,labelB,global_truth,stored_score_compound,recomputed_score_compound,absolute_difference
+132,"element_symb::[""Sodium"",""Thulium""]",Thulium has the symbol Tm or Sodium has the symbol Na.,or,BA,TT,1,1,1,5.17483230522398,5.17483230522398,0.0
+327,"inventors::[""Charles Francis Richter"",""James Murray Spangler""]",Charles Francis Richter lived in the U.S or James Murray Spangler lived in the U.S.,or,BA,TT,1,1,1,2.8111774396519333,2.8111774396519333,0.0
+600,"sp_en_trans::[""esquina"",""pero""]",The Spanish word 'esquina' means 'person' or the Spanish word 'pero' means 'but'.,or,BA,TF,1,0,1,-3.1721175236758956,-3.1721175236758956,0.0
+1400,"sp_en_trans::[""hijo"",""invierno""]",The Spanish word 'hijo' means 'cook' and the Spanish word 'invierno' means 'family'.,and,AB,FF,0,0,0,-0.6722486146657882,-0.6722486146657882,0.0
+2153,"element_symb::[""Manganese"",""Neon""]",Manganese has the symbol S and Neon has the symbol B.,and,AB,FF,0,0,0,1.9690823857173037,1.9690823857173037,0.0
+2458,"sp_en_trans::[""imaginar"",""tercero""]",The Spanish word 'imaginar' means 'star' or the Spanish word 'tercero' means 'sea'.,or,AB,FF,0,0,0,-6.5127057792513305,-6.5127057792513305,0.0
+4025,"cities::[""Homyel'"",""Pontianak""]",The city of Homyel' is in Belarus and the city of Pontianak is in Mongolia.,and,BA,FT,0,1,0,4.18185810038237,4.18185810038237,0.0
+4080,"inventors::[""Charles Townes"",""Galileo Galilei""]",Galileo Galilei lived in Italy and Charles Townes lived in Croatia.,and,AB,TF,1,0,0,2.6891690720079753,2.6891690720079753,0.0
+4347,"element_symb::[""Tellurium"",""Zirconium""]",Tellurium has the symbol Zn and Zirconium has the symbol Ru.,and,AB,FF,0,0,0,-3.35368644361742,-3.35368644361742,0.0
+4478,"inventors::[""Candace Pert"",""Clarence Birdseye""]",Candace Pert lived in the U.S and Clarence Birdseye lived in the U.S.,and,BA,TT,1,1,1,11.244995963450922,11.244995963450922,0.0
+4849,"sp_en_trans::[""hermana"",""huevo""]",The Spanish word 'hermana' means 'ten' or the Spanish word 'huevo' means 'sister'.,or,BA,FF,0,0,0,-7.768347087038842,-7.768347087038842,0.0
+5056,"inventors::[""Henry Ford"",""John Ericsson""]",Henry Ford lived in the U.S or John Ericsson lived in Sweden.,or,AB,TT,1,1,1,2.8472835493412587,2.8472835493412587,0.0
+5084,"inventors::[""Joseph Marie Jacquard"",""Rudolf Kálmán""]",Joseph Marie Jacquard lived in France or Rudolf Kálmán lived in Hungary.,or,AB,TT,1,1,1,7.259327811468373,7.259327811468373,0.0
+5189,"animal_class::[""camel"",""seagull""]",The camel is a crustacean and the seagull is a bird.,and,BA,TF,1,0,0,0.6645170150733444,0.6645170150733444,0.0
+5833,"element_symb::[""Nitrogen"",""Sulfur""]",Sulfur has the symbol O or Nitrogen has the symbol Np.,or,AB,FF,0,0,0,-11.003012904088497,-11.003012904088495,1.7763568394002505e-15
+6498,"animal_class::[""otter"",""rabbit""]",The otter is a mammal or the rabbit is a mammal.,or,BA,TT,1,1,1,3.780020226440689,3.780020226440689,0.0
+6788,"element_symb::[""Tellurium"",""Zirconium""]",Zirconium has the symbol Zr or Tellurium has the symbol Zn.,or,BA,FT,0,1,1,-5.480589985604704,-5.480589985604704,0.0
+7294,"inventors::[""Charles Francis Richter"",""John Walker""]",John Walker lived in the U.K and Charles Francis Richter lived in the U.S.,and,AB,TT,1,1,1,7.8011950430310915,7.8011950430310915,0.0
+7480,"element_symb::[""Argon"",""Beryllium""]",Beryllium has the symbol Be and Argon has the symbol Pr.,and,BA,FT,0,1,0,-1.938231918213658,-1.938231918213658,0.0
+7761,"cities::[""Gaziantep"",""Wanning""]",The city of Gaziantep is in Ghana and the city of Wanning is in Madagascar.,and,BA,FF,0,0,0,0.5046386631214812,0.5046386631214812,0.0
