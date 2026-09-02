@@ -1,0 +1,3 @@
+probe,overall_auroc,accuracy,balanced_accuracy,pr_auc_average_precision,and_auroc,or_auroc
+Atomic union → compounds,0.68765625,0.605,0.605,0.7033500308362267,0.9458666666666667,0.6790833333333334
+Compound-trained → compounds,0.996840625,0.9725,0.9724999999999999,0.9965939660581177,0.99875,0.9913583333333333

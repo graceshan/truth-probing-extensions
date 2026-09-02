@@ -1,0 +1,115 @@
+{
+  "verification": {
+    "layer": 22,
+    "canonical_pairs_total": 500,
+    "train_pairs": 400,
+    "test_pairs": 100,
+    "test_rows": 1600,
+    "rows_per_test_pair": 16,
+    "train_test_pair_overlap": [],
+    "identical_ordered_test_rows_for_both_probes": true,
+    "identical_test_rows_to_g_c_cg": true,
+    "normalization": "none",
+    "threshold": 0.0,
+    "score_signs_flipped": false,
+    "recalibrated": false,
+    "max_abs_recomputed_vs_stored_score": {
+      "atomic_union_to_compounds": 1.7763568394002505e-15,
+      "compound_trained_to_compounds": 3.552713678800501e-15
+    },
+    "all_scores_and_outputs_finite": true
+  },
+  "overall": [
+    {
+      "probe": "atomic_union_to_compounds",
+      "probe_label": "Atomic union \u2192 compounds",
+      "N": 1600,
+      "auroc": 0.68765625,
+      "accuracy": 0.605,
+      "balanced_accuracy": 0.605,
+      "average_precision": 0.7033500308362267,
+      "mean_score_true": 3.868950338045557,
+      "mean_score_false": 0.42285155487614373
+    },
+    {
+      "probe": "compound_trained_to_compounds",
+      "probe_label": "Compound-trained \u2192 compounds",
+      "N": 1600,
+      "auroc": 0.996840625,
+      "accuracy": 0.9725,
+      "balanced_accuracy": 0.9724999999999999,
+      "average_precision": 0.9965939660581177,
+      "mean_score_true": 11.464663189898276,
+      "mean_score_false": -13.497464369359735
+    }
+  ],
+  "by_connective": [
+    {
+      "probe": "atomic_union_to_compounds",
+      "probe_label": "Atomic union \u2192 compounds",
+      "connective": "and",
+      "N": 800,
+      "auroc": 0.9458666666666667,
+      "accuracy": 0.54875,
+      "balanced_accuracy": 0.6991666666666667,
+      "average_precision": 0.8340258234188656,
+      "mean_score_true": 9.905469324266564,
+      "mean_score_false": 0.9577215119224877
+    },
+    {
+      "probe": "atomic_union_to_compounds",
+      "probe_label": "Atomic union \u2192 compounds",
+      "connective": "or",
+      "N": 800,
+      "auroc": 0.6790833333333334,
+      "accuracy": 0.66125,
+      "balanced_accuracy": 0.6058333333333333,
+      "average_precision": 0.8525963695744289,
+      "mean_score_true": 1.8567773426385554,
+      "mean_score_false": -1.181758316262888
+    },
+    {
+      "probe": "compound_trained_to_compounds",
+      "probe_label": "Compound-trained \u2192 compounds",
+      "connective": "and",
+      "N": 800,
+      "auroc": 0.99875,
+      "accuracy": 0.9825,
+      "balanced_accuracy": 0.975,
+      "average_precision": 0.9963798697128645,
+      "mean_score_true": 7.6760737717984675,
+      "mean_score_false": -15.828694905000788
+    },
+    {
+      "probe": "compound_trained_to_compounds",
+      "probe_label": "Compound-trained \u2192 compounds",
+      "connective": "or",
+      "N": 800,
+      "auroc": 0.9913583333333333,
+      "accuracy": 0.9625,
+      "balanced_accuracy": 0.9433333333333334,
+      "average_precision": 0.9968824042615098,
+      "mean_score_true": 12.72752632926488,
+      "mean_score_false": -6.503772762436573
+    }
+  ],
+  "differences": {
+    "overall": {
+      "auroc_compound_minus_atomic": 0.30918437500000007,
+      "accuracy_compound_minus_atomic": 0.36750000000000005
+    },
+    "and": {
+      "auroc_compound_minus_atomic": 0.05288333333333328,
+      "accuracy_compound_minus_atomic": 0.4337500000000001
+    },
+    "or": {
+      "auroc_compound_minus_atomic": 0.31227499999999997,
+      "accuracy_compound_minus_atomic": 0.30125
+    }
+  },
+  "interpretation": {
+    "atomic_union_overall": "Atomic-union transfer has AUROC 0.6877 and threshold-0 accuracy 0.6050.",
+    "threshold_vs_ranking": "Threshold-0 accuracy and AUROC are reported separately; no calibration, threshold tuning, rescaling, or sign flipping was applied.",
+    "connective_difference": "Atomic-union AND AUROC is 0.9459, versus OR AUROC 0.6791; AND/OR behavior is therefore reported separately."
+  }
+}

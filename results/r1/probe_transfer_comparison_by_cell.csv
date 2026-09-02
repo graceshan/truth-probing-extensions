@@ -1,0 +1,17 @@
+probe,probe_label,connective,cell,N,mean_score,std_score,fraction_classified_positive
+atomic_union_to_compounds,Atomic union → compounds,and,TT,200,9.905469324266564,3.216357901325532,1.0
+atomic_union_to_compounds,Atomic union → compounds,and,TF,200,1.919950972635113,4.352627204117933,0.7
+atomic_union_to_compounds,Atomic union → compounds,and,FT,200,1.8867354475270168,4.745203091728926,0.68
+atomic_union_to_compounds,Atomic union → compounds,and,FF,200,-0.9335218843946665,4.176285815875838,0.425
+atomic_union_to_compounds,Atomic union → compounds,or,TT,200,4.988353412596341,2.2777619643751805,0.985
+atomic_union_to_compounds,Atomic union → compounds,or,TF,200,0.34555930888684117,4.136494186442823,0.6
+atomic_union_to_compounds,Atomic union → compounds,or,FT,200,0.23641930643248352,4.537595908394525,0.565
+atomic_union_to_compounds,Atomic union → compounds,or,FF,200,-1.181758316262888,4.898633087268511,0.505
+compound_trained_to_compounds,Compound-trained → compounds,and,TT,200,7.6760737717984675,3.7986096120016444,0.96
+compound_trained_to_compounds,Compound-trained → compounds,and,TF,200,-11.992828161109747,4.670959272043601,0.005
+compound_trained_to_compounds,Compound-trained → compounds,and,FT,200,-11.462415555822526,5.716693726469479,0.025
+compound_trained_to_compounds,Compound-trained → compounds,and,FF,200,-24.03084099807009,6.307696537209417,0.0
+compound_trained_to_compounds,Compound-trained → compounds,or,TT,200,20.76056249099447,6.298740978188631,1.0
+compound_trained_to_compounds,Compound-trained → compounds,or,TF,200,8.590981580565286,4.51157536439665,0.97
+compound_trained_to_compounds,Compound-trained → compounds,or,FT,200,8.831034916234882,4.692057570785596,0.975
+compound_trained_to_compounds,Compound-trained → compounds,or,FF,200,-6.503772762436573,4.528340284614544,0.095
