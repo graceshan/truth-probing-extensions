@@ -1,0 +1,184 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "replication_arm": "Qwen3-8B atomic-only layer selection",
+  "probe": {
+    "type": "sklearn.linear_model.LogisticRegression",
+    "penalty": "l2",
+    "C": 0.1,
+    "solver": "lbfgs",
+    "fit_intercept": true,
+    "max_iter": 2000,
+    "class_weight": null,
+    "preprocessing": "none",
+    "score": "decision_function = X @ coef + intercept",
+    "accuracy_convention": "decision score >= 0 predicts label 1"
+  },
+  "split": {
+    "method": "GroupShuffleSplit independently within topic",
+    "test_size": 0.2,
+    "random_state": 0,
+    "membership_exactly_matches_saved_qwen2_5_split": true
+  },
+  "topics": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "element_symb",
+    "animal_class"
+  ],
+  "forms": [
+    "affirmative",
+    "negated"
+  ],
+  "n_layers": 36,
+  "hidden_size": 4096,
+  "n_atomic_rows": 5212,
+  "n_train_rows": 4170,
+  "n_test_rows": 1042,
+  "n_train_unique_topic_entities": 1198,
+  "n_test_unique_topic_entities": 302,
+  "zero_entity_leakage": true,
+  "selected_layer": 21,
+  "selection_rule": "maximum overall held-out atomic AUROC; first layer on exact tie",
+  "selection_data": "primary atomic held-out partition only",
+  "selected_layer_metrics": {
+    "layer": 21,
+    "overall_auroc": 0.9995358107286666,
+    "overall_accuracy_at_0": 0.9904030710172744,
+    "affirmative_auroc": 0.9995127569099929,
+    "negated_auroc": 0.9996456413890857,
+    "topic_cities_auroc": 0.9999333333333333,
+    "topic_sp_en_trans_auroc": 1.0,
+    "topic_inventors_auroc": 0.9873614958448753,
+    "topic_element_symb_auroc": 1.0,
+    "topic_animal_class_auroc": 1.0,
+    "n_iter": 213
+  },
+  "cross_topic_secondary_evaluation": {
+    "combined_auroc": 0.9415927122753168,
+    "facts_auroc": 0.9699598362947711,
+    "neg_facts_auroc": 0.9240384859808333
+  },
+  "entity_split_verification": [
+    {
+      "topic": "cities",
+      "n_train_entities": 598,
+      "n_test_entities": 150,
+      "entity_intersection": []
+    },
+    {
+      "topic": "sp_en_trans",
+      "n_train_entities": 275,
+      "n_test_entities": 69,
+      "entity_intersection": []
+    },
+    {
+      "topic": "inventors",
+      "n_train_entities": 184,
+      "n_test_entities": 47,
+      "entity_intersection": []
+    },
+    {
+      "topic": "element_symb",
+      "n_train_entities": 74,
+      "n_test_entities": 19,
+      "entity_intersection": []
+    },
+    {
+      "topic": "animal_class",
+      "n_train_entities": 67,
+      "n_test_entities": 17,
+      "entity_intersection": []
+    }
+  ],
+  "primary_sources": [
+    {
+      "name": "cities",
+      "source_csv": "data/tiu_datasets/cities.csv",
+      "activation_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_metadata.csv",
+      "rows": 1496
+    },
+    {
+      "name": "neg_cities",
+      "source_csv": "data/tiu_datasets/neg_cities.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_metadata.csv",
+      "rows": 1496
+    },
+    {
+      "name": "sp_en_trans",
+      "source_csv": "data/tiu_datasets/sp_en_trans.csv",
+      "activation_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_metadata.csv",
+      "rows": 354
+    },
+    {
+      "name": "neg_sp_en_trans",
+      "source_csv": "data/tiu_datasets/neg_sp_en_trans.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_metadata.csv",
+      "rows": 354
+    },
+    {
+      "name": "inventors",
+      "source_csv": "data/tiu_datasets/inventors.csv",
+      "activation_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_metadata.csv",
+      "rows": 406
+    },
+    {
+      "name": "neg_inventors",
+      "source_csv": "data/tiu_datasets/neg_inventors.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_metadata.csv",
+      "rows": 406
+    },
+    {
+      "name": "element_symb",
+      "source_csv": "data/tiu_datasets/element_symb.csv",
+      "activation_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_metadata.csv",
+      "rows": 186
+    },
+    {
+      "name": "neg_element_symb",
+      "source_csv": "data/tiu_datasets/neg_element_symb.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_metadata.csv",
+      "rows": 186
+    },
+    {
+      "name": "animal_class",
+      "source_csv": "data/tiu_datasets/animal_class.csv",
+      "activation_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_metadata.csv",
+      "rows": 164
+    },
+    {
+      "name": "neg_animal_class",
+      "source_csv": "data/tiu_datasets/neg_animal_class.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_metadata.csv",
+      "rows": 164
+    }
+  ],
+  "secondary_heldout_sources": [
+    {
+      "name": "facts",
+      "source_csv": "data/tiu_datasets/facts.csv",
+      "activation_file": "acts/qwen3_8b/heldout_atomic/facts_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/heldout_atomic/facts_qwen3_8b_metadata.csv",
+      "rows": 561
+    },
+    {
+      "name": "neg_facts",
+      "source_csv": "data/tiu_datasets/neg_facts.csv",
+      "activation_file": "acts/qwen3_8b/heldout_atomic/neg_facts_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/heldout_atomic/neg_facts_qwen3_8b_metadata.csv",
+      "rows": 561
+    }
+  ],
+  "compound_data_loaded": false,
+  "probe_frozen_before_compound_evaluation": true
+}
