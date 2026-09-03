@@ -1,0 +1,88 @@
+{
+  "primary_atomic": [
+    {
+      "path": "data/tiu_datasets/cities.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "cities"
+    },
+    {
+      "path": "data/tiu_datasets/neg_cities.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_cities"
+    },
+    {
+      "path": "data/tiu_datasets/sp_en_trans.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "sp_en_trans"
+    },
+    {
+      "path": "data/tiu_datasets/neg_sp_en_trans.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_sp_en_trans"
+    },
+    {
+      "path": "data/tiu_datasets/inventors.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "inventors"
+    },
+    {
+      "path": "data/tiu_datasets/neg_inventors.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_inventors"
+    },
+    {
+      "path": "data/tiu_datasets/element_symb.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "element_symb"
+    },
+    {
+      "path": "data/tiu_datasets/neg_element_symb.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_element_symb"
+    },
+    {
+      "path": "data/tiu_datasets/animal_class.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "animal_class"
+    },
+    {
+      "path": "data/tiu_datasets/neg_animal_class.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_animal_class"
+    }
+  ],
+  "heldout_atomic": [
+    {
+      "path": "data/tiu_datasets/facts.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "facts"
+    },
+    {
+      "path": "data/tiu_datasets/neg_facts.csv",
+      "text_col": "statement",
+      "label_col": "label",
+      "name": "neg_facts"
+    }
+  ],
+  "r1": {
+    "path": "data/r1_quadruples.csv",
+    "text_col": "statement",
+    "name": "r1_quadruples"
+  },
+  "repair_optional": {
+    "path": "data/r1_missing_constituents.csv",
+    "text_col": "statement",
+    "name": "r1_repairs"
+  }
+}
