@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "layer": 22,
+  "dimension": 3584,
+  "alpha": 0.20125362771243485,
+  "atomic_norm": 1.5545101981494374,
+  "compound_norm": 2.9987442121846866,
+  "parallel_norm": 0.20125362771243466,
+  "perp_norm": 2.9919832598869505,
+  "fraction_squared_norm_parallel": 0.004504105863555626,
+  "fraction_squared_norm_perp": 0.9954958941364446,
+  "task1_cosine_similarity": 0.06711263564751146,
+  "cosine_similarity_squared": 0.004504105863555627,
+  "cosine_squared_crosscheck_error": -8.673617379884035e-19,
+  "reconstruction_max_abs_error": 2.7755575615628914e-17,
+  "dot_perp_atomic": 1.97758476261356e-16,
+  "dot_perp_atomic_unit": 7.632783294297951e-17,
+  "norm_decomposition_error": -1.7763568394002505e-15,
+  "absolute_tolerance": 1e-12,
+  "checks": {
+    "reconstruction": true,
+    "perp_orthogonal_to_atomic": true,
+    "perp_orthogonal_to_atomic_unit": true,
+    "pythagorean_norm_decomposition": true,
+    "parallel_fraction_matches_cosine_squared": true,
+    "squared_norm_fractions_sum_to_one": true
+  },
+  "interpretation_scope": "weight-vector geometry only",
+  "sources": {
+    "atomic_probe": "results/qwen_union_probe_gate/selected_probe.npz",
+    "compound_probe": "results/r1/compound_probe_control_probe.npz",
+    "task1_similarity": "results/r1/mechanism/probe_direction_similarity.json"
+  }
+}

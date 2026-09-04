@@ -1,0 +1,17 @@
+probe,connective,cell_high,cell_low,n_high,n_low,auroc
+compound_trained,AND,TT,TF,200,200,0.99915
+compound_trained,AND,TT,FT,200,200,0.9971000000000001
+compound_trained,AND,TT,FF,200,200,1.0
+compound_trained,AND,TF,FF,200,200,0.9254500000000001
+compound_trained,AND,FT,FF,200,200,0.9217500000000001
+compound_trained,AND,TF,FT,200,200,0.474125
+compound_trained,AND,TT,mixed,200,400,0.9981249999999999
+compound_trained,AND,mixed,FF,400,200,0.9236
+compound_trained,OR,TT,TF,200,200,0.9426000000000001
+compound_trained,OR,TT,FT,200,200,0.9334250000000001
+compound_trained,OR,TT,FF,200,200,0.99985
+compound_trained,OR,TF,FF,200,200,0.9861500000000001
+compound_trained,OR,FT,FF,200,200,0.988075
+compound_trained,OR,TF,FT,200,200,0.499375
+compound_trained,OR,TT,mixed,200,400,0.9380125
+compound_trained,OR,mixed,FF,400,200,0.9871125000000001

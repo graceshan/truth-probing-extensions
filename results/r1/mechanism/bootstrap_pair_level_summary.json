@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "n_bootstrap": 2000,
+  "seed": 0,
+  "bootstrap_unit": "canonical_pair",
+  "sampled_pair_instances_per_replicate": 100,
+  "rows_per_pair": 16,
+  "rows_per_replicate": 1600,
+  "undefined_metrics": 0,
+  "multiplicity_preserved": true,
+  "only_heldout_pairs_sampled": true,
+  "all_replicates_balanced_by_connective_cell": true,
+  "observed_reproduction_checks": {
+    "and_truth_auroc": {
+      "observed": 0.9458666666666667,
+      "expected": 0.9458666666666667,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_truth_auroc": {
+      "observed": 0.6790833333333334,
+      "expected": 0.6790833333333334,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_TT_vs_mixed_auroc": {
+      "observed": 0.9275375,
+      "expected": 0.9275375,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_mixed_vs_FF_auroc": {
+      "observed": 0.6816,
+      "expected": 0.6816,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_TT_vs_mixed_auroc": {
+      "observed": 0.8336,
+      "expected": 0.8336,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_mixed_vs_FF_auroc": {
+      "observed": 0.580275,
+      "expected": 0.580275,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_range_over_sd": {
+      "observed": 2.606658466780245,
+      "expected": 2.606658466780245,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_range_over_sd": {
+      "observed": 1.5097718116123047,
+      "expected": 1.509771811612305,
+      "absolute_difference": 2.220446049250313e-16,
+      "pass": true
+    },
+    "OR_range_compression": {
+      "observed": 0.4307485253859408,
+      "expected": 0.4307485253859408,
+      "absolute_difference": 0.0,
+      "pass": true
+    }
+  },
+  "sources": {
+    "heldout_scores": "results/r1/probe_transfer_comparison_predictions.csv",
+    "pair_split": "results/r1/g_c_cg/pair_split.csv",
+    "pairwise_implementation": "scripts/mechanism/02_atomic_pairwise_auc.py",
+    "dprime_implementation": "scripts/mechanism/05_boundary_dprime.py"
+  }
+}

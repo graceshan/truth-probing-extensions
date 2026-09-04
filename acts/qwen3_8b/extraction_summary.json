@@ -1,0 +1,183 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "convention": {
+    "chat_template": false,
+    "token_position": "last non-padding token via attention_mask",
+    "add_special_tokens": true,
+    "embedding_output_dropped": true,
+    "saved_dtype": "float16",
+    "batch_size": 1,
+    "all_transformer_layers": true
+  },
+  "files": [
+    {
+      "name": "cities",
+      "source": "data/tiu_datasets/cities.csv",
+      "activation_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_metadata.csv",
+      "rows": 1496,
+      "shape": [
+        1496,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_cities",
+      "source": "data/tiu_datasets/neg_cities.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_metadata.csv",
+      "rows": 1496,
+      "shape": [
+        1496,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "sp_en_trans",
+      "source": "data/tiu_datasets/sp_en_trans.csv",
+      "activation_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_metadata.csv",
+      "rows": 354,
+      "shape": [
+        354,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_sp_en_trans",
+      "source": "data/tiu_datasets/neg_sp_en_trans.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_metadata.csv",
+      "rows": 354,
+      "shape": [
+        354,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "inventors",
+      "source": "data/tiu_datasets/inventors.csv",
+      "activation_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_metadata.csv",
+      "rows": 406,
+      "shape": [
+        406,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_inventors",
+      "source": "data/tiu_datasets/neg_inventors.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_metadata.csv",
+      "rows": 406,
+      "shape": [
+        406,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "element_symb",
+      "source": "data/tiu_datasets/element_symb.csv",
+      "activation_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_metadata.csv",
+      "rows": 186,
+      "shape": [
+        186,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_element_symb",
+      "source": "data/tiu_datasets/neg_element_symb.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_metadata.csv",
+      "rows": 186,
+      "shape": [
+        186,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "animal_class",
+      "source": "data/tiu_datasets/animal_class.csv",
+      "activation_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_metadata.csv",
+      "rows": 164,
+      "shape": [
+        164,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_animal_class",
+      "source": "data/tiu_datasets/neg_animal_class.csv",
+      "activation_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_metadata.csv",
+      "rows": 164,
+      "shape": [
+        164,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "r1_quadruples",
+      "source": "data/r1_quadruples.csv",
+      "activation_file": "acts/qwen3_8b/r1/r1_quadruples_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/r1/r1_quadruples_qwen3_8b_metadata.csv",
+      "rows": 8000,
+      "shape": [
+        8000,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "facts",
+      "source": "data/tiu_datasets/facts.csv",
+      "activation_file": "acts/qwen3_8b/heldout_atomic/facts_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/heldout_atomic/facts_qwen3_8b_metadata.csv",
+      "rows": 561,
+      "shape": [
+        561,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    },
+    {
+      "name": "neg_facts",
+      "source": "data/tiu_datasets/neg_facts.csv",
+      "activation_file": "acts/qwen3_8b/heldout_atomic/neg_facts_qwen3_8b_acts.npy",
+      "metadata_file": "acts/qwen3_8b/heldout_atomic/neg_facts_qwen3_8b_metadata.csv",
+      "rows": 561,
+      "shape": [
+        561,
+        36,
+        4096
+      ],
+      "dtype": "float16"
+    }
+  ]
+}

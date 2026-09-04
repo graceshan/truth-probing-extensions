@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "score_source": "results/r1/mechanism/perp_test_scores.csv",
+  "pairwise_auc_source": "results/r1/mechanism/pairwise_auc_perp.csv",
+  "pass1_geometry_source": "results/r1/mechanism/boundary_geometry.csv",
+  "dprime_implementation_source": "scripts/mechanism/05_boundary_dprime.py",
+  "pooling_convention": "TT, pooled TF-union-FT mixed rows, and FF; sample SD ddof=1",
+  "cell_statistics": {
+    "AND": {
+      "TT": {
+        "n": 200,
+        "mean": 7.499674208803017,
+        "sd": 3.710655871381028
+      },
+      "TF": {
+        "n": 200,
+        "mean": -11.13538790797325,
+        "sd": 4.534715361535488
+      },
+      "FT": {
+        "n": 200,
+        "mean": -10.600675076844901,
+        "sd": 5.508335249964609
+      },
+      "FF": {
+        "n": 200,
+        "mean": -22.803977781520516,
+        "sd": 6.192565536413336
+      },
+      "mixed": {
+        "n": 400,
+        "mean": -10.868031492409076,
+        "sd": 5.045846577993516
+      }
+    },
+    "OR": {
+      "TT": {
+        "n": 200,
+        "mean": 21.22075406537736,
+        "sd": 6.281243521763455
+      },
+      "TF": {
+        "n": 200,
+        "mean": 9.652249402119638,
+        "sd": 4.51709695782464
+      },
+      "FT": {
+        "n": 200,
+        "mean": 9.906432475534686,
+        "sd": 4.568979406395783
+      },
+      "FF": {
+        "n": 200,
+        "mean": -5.244771781526663,
+        "sd": 4.596476919265909
+      },
+      "mixed": {
+        "n": 400,
+        "mean": 9.779340938827161,
+        "sd": 4.539199556873218
+      }
+    }
+  },
+  "raw_scale_ratios_perpendicular_over_compound": {
+    "AND_total_range": 0.955742689261001,
+    "OR_total_range": 0.9707013063365816,
+    "AND_pooled_sd": 0.9735120700215407,
+    "OR_pooled_sd": 0.9966562260512688
+  },
+  "full_comparison": [
+    {
+      "direction": "Atomic",
+      "connective": "AND",
+      "pairwise_auc_TT_mixed": 0.9275375,
+      "pairwise_auc_mixed_FF": 0.6816,
+      "dprime_TT_mixed": 2.031741492684274,
+      "dprime_mixed_FF": 0.6497891435873585,
+      "upper_gap_fraction": 0.7382722211077313,
+      "lower_gap_fraction": 0.2617277788922687,
+      "Delta_norm": 0.4765444422154624,
+      "range_over_sd": 2.606658466780245
+    },
+    {
+      "direction": "Atomic",
+      "connective": "OR",
+      "pairwise_auc_TT_mixed": 0.8336,
+      "pairwise_auc_mixed_FF": 0.580275,
+      "dprime_TT_mixed": 1.356178307914295,
+      "dprime_mixed_FF": 0.3183527582537724,
+      "upper_gap_fraction": 0.7613094075697003,
+      "lower_gap_fraction": 0.2386905924302997,
+      "Delta_norm": 0.5226188151394006,
+      "range_over_sd": 1.509771811612305
+    },
+    {
+      "direction": "Compound",
+      "connective": "AND",
+      "pairwise_auc_TT_mixed": 0.998125,
+      "pairwise_auc_mixed_FF": 0.9236,
+      "dprime_TT_mixed": 4.250412049511164,
+      "dprime_mixed_FF": 2.1250624137920853,
+      "upper_gap_fraction": 0.6119704730371356,
+      "lower_gap_fraction": 0.3880295269628643,
+      "Delta_norm": 0.2239409460742712,
+      "range_over_sd": 6.081767808538727
+    },
+    {
+      "direction": "Compound",
+      "connective": "OR",
+      "pairwise_auc_TT_mixed": 0.9380125,
+      "pairwise_auc_mixed_FF": 0.9871125,
+      "dprime_TT_mixed": 2.185050826397362,
+      "dprime_mixed_FF": 3.3339754724976833,
+      "upper_gap_fraction": 0.4419529810864553,
+      "lower_gap_fraction": 0.5580470189135447,
+      "Delta_norm": -0.1160940378270894,
+      "range_over_sd": 5.387273044313802
+    },
+    {
+      "direction": "Perpendicular",
+      "connective": "AND",
+      "pairwise_auc_TT_mixed": 0.9978625,
+      "pairwise_auc_mixed_FF": 0.923225,
+      "dprime_TT_mixed": 4.147279754415247,
+      "dprime_mixed_FF": 2.1131620618574627,
+      "upper_gap_fraction": 0.6061218531376089,
+      "lower_gap_fraction": 0.393878146862391,
+      "Delta_norm": 0.21224370627521794,
+      "range_over_sd": 5.970758144442086
+    },
+    {
+      "direction": "Perpendicular",
+      "connective": "OR",
+      "pairwise_auc_TT_mixed": 0.9285875,
+      "pairwise_auc_mixed_FF": 0.9857625,
+      "dprime_TT_mixed": 2.0878916471402373,
+      "dprime_mixed_FF": 3.289043232190817,
+      "upper_gap_fraction": 0.4323138407578111,
+      "lower_gap_fraction": 0.5676861592421889,
+      "Delta_norm": -0.13537231848437783,
+      "range_over_sd": 5.246977689013356
+    }
+  ],
+  "sanity_checks": {
+    "n_rows_is_1600": true,
+    "n_pairs_is_100": true,
+    "each_connective_cell_is_200": true,
+    "scores_finite": true,
+    "gap_fraction_identities_pass": true
+  }
+}

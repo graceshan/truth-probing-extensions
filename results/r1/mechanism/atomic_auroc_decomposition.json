@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-12,
+  "difference_orientation": "reconstructed_minus_direct",
+  "heldout_predictions_source": "results/r1/probe_transfer_comparison_predictions.csv",
+  "pairwise_auc_source": "results/r1/mechanism/pairwise_auc_atomic.csv",
+  "balance_summary_source": "results/r1/mechanism/cell_balance_summary.json",
+  "score_column": "atomic_union_to_compounds_score",
+  "results": {
+    "AND": {
+      "direct_auroc": 0.9458666666666667,
+      "reconstructed_auroc": 0.9458666666666667,
+      "signed_difference_reconstructed_minus_direct": 0.0,
+      "absolute_difference": 0.0,
+      "pairwise_terms": {
+        "A(TT,TF)": 0.93345,
+        "A(TT,FT)": 0.921625,
+        "A(TT,FF)": 0.982525
+      },
+      "pass": true
+    },
+    "OR": {
+      "direct_auroc": 0.6790833333333334,
+      "reconstructed_auroc": 0.6790833333333334,
+      "signed_difference_reconstructed_minus_direct": 0.0,
+      "absolute_difference": 0.0,
+      "pairwise_terms": {
+        "A(TT,FF)": 0.8767,
+        "A(TF,FF)": 0.581925,
+        "A(FT,FF)": 0.5786250000000001
+      },
+      "pass": true
+    }
+  },
+  "bug_found": false
+}

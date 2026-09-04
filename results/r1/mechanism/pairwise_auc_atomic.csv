@@ -1,0 +1,17 @@
+probe,connective,cell_high,cell_low,n_high,n_low,auroc
+atomic_union,AND,TT,TF,200,200,0.93345
+atomic_union,AND,TT,FT,200,200,0.9216249999999999
+atomic_union,AND,TT,FF,200,200,0.9825250000000001
+atomic_union,AND,TF,FF,200,200,0.6863250000000001
+atomic_union,AND,FT,FF,200,200,0.676875
+atomic_union,AND,TF,FT,200,200,0.500525
+atomic_union,AND,TT,mixed,200,400,0.9275375
+atomic_union,AND,mixed,FF,400,200,0.6816
+atomic_union,OR,TT,TF,200,200,0.8399249999999999
+atomic_union,OR,TT,FT,200,200,0.8272750000000001
+atomic_union,OR,TT,FF,200,200,0.8767
+atomic_union,OR,TF,FF,200,200,0.581925
+atomic_union,OR,FT,FF,200,200,0.5786250000000001
+atomic_union,OR,TF,FT,200,200,0.50465
+atomic_union,OR,TT,mixed,200,400,0.8336
+atomic_union,OR,mixed,FF,400,200,0.580275

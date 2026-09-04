@@ -1,0 +1,115 @@
+{
+  "n_bootstrap": 2000,
+  "seed": 0,
+  "bootstrap_unit": "canonical_pair",
+  "sampled_pair_instances": 100,
+  "rows_per_pair": 16,
+  "rows_per_replicate": 1600,
+  "multiplicity_preserved": true,
+  "undefined_metrics": 0,
+  "implementation_source": "scripts/mechanism/13_pair_level_bootstrap.py",
+  "qwen3_score_source": "results/qwen3_8b_r1_core/heldout_scores.csv",
+  "qwen25_ci_source": "results/r1/mechanism/bootstrap_pair_level_summary.csv",
+  "results": [
+    {
+      "metric": "and_truth_auroc",
+      "qwen3_observed": 0.9750000000000001,
+      "qwen3_ci_2_5": 0.9656,
+      "qwen3_ci_97_5": 0.9839418750000001,
+      "qwen3_bootstrap_mean": 0.9750124416666667,
+      "qwen3_bootstrap_sd": 0.004685782946229314,
+      "qwen25_observed": 0.9458666666666669,
+      "qwen25_ci_2_5": 0.927333125,
+      "qwen25_ci_97_5": 0.9619260416666668
+    },
+    {
+      "metric": "or_truth_auroc",
+      "qwen3_observed": 0.7045833333333333,
+      "qwen3_ci_2_5": 0.6870570833333334,
+      "qwen3_ci_97_5": 0.7256622916666665,
+      "qwen3_bootstrap_mean": 0.7060618666666667,
+      "qwen3_bootstrap_sd": 0.009759442146452298,
+      "qwen25_observed": 0.6790833333333334,
+      "qwen25_ci_2_5": 0.6499872916666667,
+      "qwen25_ci_97_5": 0.7065227083333332
+    },
+    {
+      "metric": "and_minus_or_auroc",
+      "qwen3_observed": 0.27041666666666675,
+      "qwen3_ci_2_5": 0.2475743750000001,
+      "qwen3_ci_97_5": 0.28814249999999997,
+      "qwen3_bootstrap_mean": 0.26895057499999997,
+      "qwen3_bootstrap_sd": 0.010361500210389524,
+      "qwen25_observed": 0.2667833333333334,
+      "qwen25_ci_2_5": 0.233158125,
+      "qwen25_ci_97_5": 0.3004087500000001
+    },
+    {
+      "metric": "or_mixed_vs_FF_auroc",
+      "qwen3_observed": 0.6106,
+      "qwen3_ci_2_5": 0.5929603125,
+      "qwen3_ci_97_5": 0.635,
+      "qwen3_bootstrap_mean": 0.6125057312500001,
+      "qwen3_bootstrap_sd": 0.01066635728182214,
+      "qwen25_observed": 0.580275,
+      "qwen25_ci_2_5": 0.551023125,
+      "qwen25_ci_97_5": 0.6086753125000001
+    },
+    {
+      "metric": "OR_to_AND_range_ratio",
+      "qwen3_observed": 0.45551859701965963,
+      "qwen3_ci_2_5": 0.3978403007589251,
+      "qwen3_ci_97_5": 0.511875892248967,
+      "qwen3_bootstrap_mean": 0.4543436700294558,
+      "qwen3_bootstrap_sd": 0.028608244773041407,
+      "qwen25_observed": 0.5692514746140592,
+      "qwen25_ci_2_5": 0.4909845160250874,
+      "qwen25_ci_97_5": 0.6475264537369476
+    },
+    {
+      "metric": "OR_to_AND_pooled_sd_ratio",
+      "qwen3_observed": 1.0247484833796585,
+      "qwen3_ci_2_5": 0.922020959418401,
+      "qwen3_ci_97_5": 1.1212228875644326,
+      "qwen3_bootstrap_mean": 1.0219846735792832,
+      "qwen3_bootstrap_sd": 0.05069277364835584,
+      "qwen25_observed": 0.982826785224756,
+      "qwen25_ci_2_5": 0.9131519576091562,
+      "qwen25_ci_97_5": 1.054233752349676
+    },
+    {
+      "metric": "or_TT_vs_mixed_auroc",
+      "qwen3_observed": 0.8078625,
+      "qwen3_ci_2_5": 0.7738593749999999,
+      "qwen3_ci_97_5": 0.842150625,
+      "qwen3_bootstrap_mean": 0.808517425,
+      "qwen3_bootstrap_sd": 0.017238294061962988,
+      "qwen25_observed": 0.8336,
+      "qwen25_ci_2_5": 0.8013868749999999,
+      "qwen25_ci_97_5": 0.865414375
+    },
+    {
+      "metric": "and_TT_vs_mixed_auroc",
+      "qwen3_observed": 0.962825,
+      "qwen3_ci_2_5": 0.9490868750000001,
+      "qwen3_ci_97_5": 0.9760775,
+      "qwen3_bootstrap_mean": 0.9628356874999999,
+      "qwen3_bootstrap_sd": 0.006954008526176454,
+      "qwen25_observed": 0.9275375,
+      "qwen25_ci_2_5": 0.9056065625,
+      "qwen25_ci_97_5": 0.947725
+    },
+    {
+      "metric": "and_mixed_vs_FF_auroc",
+      "qwen3_observed": 0.7447374999999999,
+      "qwen3_ci_2_5": 0.7259025,
+      "qwen3_ci_97_5": 0.7677284375000001,
+      "qwen3_bootstrap_mean": 0.74619445625,
+      "qwen3_bootstrap_sd": 0.01097205887592203,
+      "qwen25_observed": 0.6816,
+      "qwen25_ci_2_5": 0.654996875,
+      "qwen25_ci_97_5": 0.7113303125000001
+    }
+  ],
+  "status": "PASS"
+}

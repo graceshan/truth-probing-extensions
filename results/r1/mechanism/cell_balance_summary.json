@@ -1,0 +1,17 @@
+{
+  "source_files": {
+    "saved_pair_split": "results/r1/g_c_cg/pair_split.csv",
+    "exact_heldout_transfer_rows": "results/r1/probe_transfer_comparison_predictions.csv",
+    "row_order_cross_check": "results/r1/r1_score_table.csv"
+  },
+  "n_total_pairs": 500,
+  "n_train_pairs": 400,
+  "n_test_pairs": 100,
+  "n_test_rows": 1600,
+  "rows_per_test_pair": 16,
+  "zero_pair_overlap": true,
+  "exactly_balanced_within_connective": true,
+  "expected_rows_per_connective_cell": 200,
+  "expected_rows_per_connective_ordering_cell": 100,
+  "heldout_row_order_matches_transfer_predictions": true
+}

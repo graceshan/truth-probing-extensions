@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "layer": 22,
+  "dimension": 3584,
+  "direct_overall_auroc": 0.9961515625,
+  "direct_AND_auroc": 0.998575,
+  "direct_OR_auroc": 0.9904166666666667,
+  "reconstructed_AND_auroc": 0.9985750000000001,
+  "reconstructed_OR_auroc": 0.9904166666666666,
+  "reconstruction_difference_reconstructed_minus_direct": {
+    "AND": 1.1102230246251565e-16,
+    "OR": -1.1102230246251565e-16
+  },
+  "TT_vs_mixed_auroc": {
+    "AND": 0.9978625000000001,
+    "OR": 0.9285874999999999
+  },
+  "mixed_vs_FF_auroc": {
+    "AND": 0.923225,
+    "OR": 0.9857625000000001
+  },
+  "compound_score_reconstruction_max_abs_error": 3.552713678800501e-14,
+  "compound_score_reconstruction_mean_abs_error": 6.791858742083434e-15,
+  "tolerance": 1e-12,
+  "sanity_checks": {
+    "activation_dimension_is_3584": true,
+    "w_perp_dimension_is_3584": true,
+    "activations_finite": true,
+    "scores_finite": true,
+    "n_heldout_rows_is_1600": true,
+    "n_heldout_pairs_is_100": true,
+    "each_connective_cell_has_200_rows": true,
+    "zero_train_test_pair_overlap": true,
+    "heldout_order_matches_saved_evaluation": true,
+    "compound_score_reconstruction_within_tolerance": true,
+    "and_auc_decomposition_within_tolerance": true,
+    "or_auc_decomposition_within_tolerance": true
+  },
+  "sources": {
+    "decomposition": "results/r1/mechanism/probe_direction_decomposition.npz",
+    "compound_activations": "acts/r1_quadruples.npy",
+    "activation_sidecar": "acts/r1_quadruples.csv",
+    "pair_split": "results/r1/g_c_cg/pair_split.csv",
+    "heldout_reference": "results/r1/probe_transfer_comparison_predictions.csv",
+    "pairwise_implementation": "scripts/mechanism/02_atomic_pairwise_auc.py"
+  }
+}
