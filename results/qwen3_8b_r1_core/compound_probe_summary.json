@@ -1,0 +1,183 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "role": "same-layer compound-truth positive control",
+  "layer": 21,
+  "split_source": "results/r1/g_c_cg/pair_split.csv",
+  "train_pairs": 400,
+  "train_rows": 6400,
+  "test_pairs": 100,
+  "test_rows": 1600,
+  "probe": {
+    "type": "LogisticRegression",
+    "penalty": "l2",
+    "C": 0.1,
+    "fit_intercept": true,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "random_state": 0,
+    "preprocessing": "none",
+    "n_iter": 457,
+    "intercept": 0.0002000990115950819,
+    "coefficient_norm": 3.47626680347198
+  },
+  "overall": {
+    "auroc": 0.9973859374999999,
+    "accuracy_at_0": 0.979375
+  },
+  "by_connective": {
+    "AND": {
+      "auroc": 0.997675,
+      "accuracy_at_0": 0.98
+    },
+    "OR": {
+      "auroc": 0.9949666666666668,
+      "accuracy_at_0": 0.97875
+    }
+  },
+  "pairwise_aurocs": [
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TT",
+      "cell_low": "TF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.99795
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TT",
+      "cell_low": "FT",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.9950749999999999
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TT",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 1.0
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TF",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.95015
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "FT",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.949525
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TF",
+      "cell_low": "FT",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.46495
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "TT",
+      "cell_low": "mixed",
+      "n_high": 200,
+      "n_low": 400,
+      "auroc": 0.9965125
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "AND",
+      "cell_high": "mixed",
+      "cell_low": "FF",
+      "n_high": 400,
+      "n_low": 200,
+      "auroc": 0.9498375
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TT",
+      "cell_low": "TF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.96725
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TT",
+      "cell_low": "FT",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.968425
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TT",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.999825
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TF",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.99165
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "FT",
+      "cell_low": "FF",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.993425
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TF",
+      "cell_low": "FT",
+      "n_high": 200,
+      "n_low": 200,
+      "auroc": 0.461075
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "TT",
+      "cell_low": "mixed",
+      "n_high": 200,
+      "n_low": 400,
+      "auroc": 0.9678374999999999
+    },
+    {
+      "probe": "compound_trained",
+      "connective": "OR",
+      "cell_high": "mixed",
+      "cell_low": "FF",
+      "n_high": 400,
+      "n_low": 200,
+      "auroc": 0.9925375000000001
+    }
+  ]
+}

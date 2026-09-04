@@ -1,0 +1,120 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "probe_source": "results/qwen3_8b_union_probe_gate/selected_probe.npz",
+  "verification": {
+    "activation_shape": [
+      8000,
+      36,
+      4096
+    ],
+    "activation_dtype": "float16",
+    "canonical_pairs_total": 500,
+    "train_pairs": 400,
+    "test_pairs": 100,
+    "train_rows": 6400,
+    "test_rows": 1600,
+    "rows_per_test_pair": 16,
+    "train_test_pair_overlap": [],
+    "heldout_pair_membership_source": "results/r1/g_c_cg/pair_split.csv",
+    "heldout_membership_exactly_same_as_qwen2_5": true,
+    "heldout_connective_cell_counts": {
+      "AND_TT": 200,
+      "AND_TF": 200,
+      "AND_FT": 200,
+      "AND_FF": 200,
+      "OR_TT": 200,
+      "OR_TF": 200,
+      "OR_FT": 200,
+      "OR_FF": 200
+    },
+    "frozen_atomic_probe_unchanged": true,
+    "frozen_atomic_layer": 21,
+    "normalization": "none",
+    "threshold": 0.0,
+    "all_scores_finite": true
+  },
+  "overall": {
+    "auroc": 0.7476625,
+    "accuracy_at_0": 0.673125
+  },
+  "by_connective": {
+    "AND": {
+      "auroc": 0.9750000000000001,
+      "accuracy_at_0": 0.69125
+    },
+    "OR": {
+      "auroc": 0.7045833333333333,
+      "accuracy_at_0": 0.655
+    }
+  },
+  "cell_statistics": [
+    {
+      "connective": "AND",
+      "cell": "TT",
+      "N": 200,
+      "mean": 9.252594823087106,
+      "sd": 2.1395535931832392
+    },
+    {
+      "connective": "AND",
+      "cell": "TF",
+      "N": 200,
+      "mean": -0.2124561202635704,
+      "sd": 5.4093085894416255
+    },
+    {
+      "connective": "AND",
+      "cell": "FT",
+      "N": 200,
+      "mean": -0.3305884616117893,
+      "sd": 5.7897118593101915
+    },
+    {
+      "connective": "AND",
+      "cell": "FF",
+      "N": 200,
+      "mean": -5.202032465618522,
+      "sd": 4.923592004419805
+    },
+    {
+      "connective": "OR",
+      "cell": "TT",
+      "N": 200,
+      "mean": 4.282905595528183,
+      "sd": 2.192626438451525
+    },
+    {
+      "connective": "OR",
+      "cell": "TF",
+      "N": 200,
+      "mean": -0.6287532675127286,
+      "sd": 5.3842878652754464
+    },
+    {
+      "connective": "OR",
+      "cell": "FT",
+      "N": 200,
+      "mean": -0.5489405347366536,
+      "sd": 5.282582264489183
+    },
+    {
+      "connective": "OR",
+      "cell": "FF",
+      "N": 200,
+      "mean": -2.3014459474650915,
+      "sd": 5.872922561493872
+    }
+  ],
+  "operator_decomposition": {
+    "AND": {
+      "direct_auroc": 0.9750000000000001,
+      "reconstructed_auroc": 0.975,
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    "OR": {
+      "direct_auroc": 0.7045833333333333,
+      "reconstructed_auroc": 0.7045833333333333,
+      "absolute_difference": 0.0
+    }
+  }
+}

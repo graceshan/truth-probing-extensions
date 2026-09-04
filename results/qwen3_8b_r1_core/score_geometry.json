@@ -1,0 +1,46 @@
+{
+  "probe": "frozen_qwen3_atomic_to_compounds",
+  "layer": 21,
+  "by_connective": [
+    {
+      "connective": "AND",
+      "mu_TT": 9.252594823087106,
+      "mu_mixed": -0.27152229093767977,
+      "mu_FF": -5.202032465618522,
+      "total_range": 14.454627288705629,
+      "upper_gap": 9.524117114024786,
+      "lower_gap": 4.930510174680842,
+      "upper_gap_fraction": 0.6588974536525489,
+      "lower_gap_fraction": 0.341102546347451,
+      "pooled_sd": 4.782596117432947,
+      "range_over_sd": 3.0223391090912637,
+      "dprime_TT_mixed": 2.2481930681160276,
+      "dprime_mixed_FF": 0.9354840644417736
+    },
+    {
+      "connective": "OR",
+      "mu_TT": 4.282905595528183,
+      "mu_mixed": -0.5888469011246912,
+      "mu_FF": -2.3014459474650915,
+      "total_range": 6.584351542993274,
+      "upper_gap": 4.871752496652874,
+      "lower_gap": 1.7125990463404004,
+      "upper_gap_fraction": 0.7398986012278067,
+      "lower_gap_fraction": 0.2601013987721934,
+      "pooled_sd": 4.900958117956855,
+      "range_over_sd": 1.3434825159734691,
+      "dprime_TT_mixed": 1.1959763755066275,
+      "dprime_mixed_FF": 0.30545710624590994
+    }
+  ],
+  "ratios": {
+    "OR_to_AND_range_ratio": 0.45551859701965963,
+    "OR_to_AND_pooled_sd_ratio": 1.0247484833796585,
+    "OR_to_AND_range_over_sd_ratio": 0.44451746395109787
+  },
+  "definitions": {
+    "mixed": "pooled TF and FT rows",
+    "sample_sd_ddof": 1,
+    "pooled_sd": "weighted sample-variance pool across TT, mixed, FF as in Pass 1"
+  }
+}
