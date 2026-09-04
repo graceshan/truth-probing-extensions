@@ -1,0 +1,37 @@
+{
+  "layer": 22,
+  "dimension": 3584,
+  "atomic_norm": 1.5545101981494374,
+  "compound_norm": 2.9987442121846866,
+  "dot_product": 0.31285081669354997,
+  "cosine_similarity": 0.06711263564751146,
+  "angle_degrees": 86.15183677455705,
+  "atomic_intercept": 8.55476505639084,
+  "compound_intercept": 0.0015315343390536096,
+  "sign_flip_required": false,
+  "sanity_checks_passed": true,
+  "sanity_checks": {
+    "same_dimension": true,
+    "dimension_is_3584": true,
+    "atomic_entries_finite": true,
+    "compound_entries_finite": true,
+    "intercepts_finite": true,
+    "layers_match_expected_22": true,
+    "atomic_classes_are_false_true": true,
+    "compound_classes_are_false_true": true,
+    "atomic_norm_nonzero": true,
+    "compound_norm_nonzero": true,
+    "atomic_larger_score_is_more_true": true,
+    "compound_larger_score_is_more_true": true
+  },
+  "orientation_evidence": {
+    "atomic_heldout_compound_truth_auroc": 0.68765625,
+    "compound_heldout_compound_truth_auroc": 0.996840625,
+    "classes_convention": "classes=[0,1], so positive decision scores favor truth label 1"
+  },
+  "sources": {
+    "atomic_probe": "results/qwen_union_probe_gate/selected_probe.npz",
+    "compound_probe": "results/r1/compound_probe_control_probe.npz",
+    "heldout_orientation_check": "results/r1/probe_transfer_comparison_predictions.csv"
+  }
+}

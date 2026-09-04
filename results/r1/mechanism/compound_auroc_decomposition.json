@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-12,
+  "difference_orientation": "reconstructed_minus_direct",
+  "heldout_predictions_source": "results/r1/probe_transfer_comparison_predictions.csv",
+  "balance_summary_source": "results/r1/mechanism/cell_balance_summary.json",
+  "task2_implementation_source": "scripts/mechanism/02_atomic_pairwise_auc.py",
+  "atomic_pairwise_source": "results/r1/mechanism/pairwise_auc_atomic.csv",
+  "score_column": "compound_trained_to_compounds_score",
+  "n_test_pairs": 100,
+  "n_test_rows": 1600,
+  "pooled_aurocs": {
+    "AND": {
+      "TT_vs_mixed": 0.9981249999999999,
+      "mixed_vs_FF": 0.9236
+    },
+    "OR": {
+      "TT_vs_mixed": 0.9380125,
+      "mixed_vs_FF": 0.9871125000000001
+    }
+  },
+  "decomposition": {
+    "AND": {
+      "direct_auroc": 0.99875,
+      "reconstructed_auroc": 0.9987499999999999,
+      "signed_difference_reconstructed_minus_direct": -1.1102230246251565e-16,
+      "absolute_difference": 1.1102230246251565e-16,
+      "pairwise_terms": {
+        "A(TT,TF)": 0.99915,
+        "A(TT,FT)": 0.9971000000000001,
+        "A(TT,FF)": 1.0
+      },
+      "pass": true
+    },
+    "OR": {
+      "direct_auroc": 0.9913583333333333,
+      "reconstructed_auroc": 0.9913583333333333,
+      "signed_difference_reconstructed_minus_direct": 0.0,
+      "absolute_difference": 0.0,
+      "pairwise_terms": {
+        "A(TT,FF)": 0.99985,
+        "A(TF,FF)": 0.9861500000000001,
+        "A(FT,FF)": 0.988075
+      },
+      "pass": true
+    }
+  },
+  "atomic_compound_pooled_comparison": {
+    "AND": {
+      "atomic_TT_vs_mixed": 0.9275375,
+      "compound_TT_vs_mixed": 0.9981249999999999,
+      "atomic_mixed_vs_FF": 0.6816,
+      "compound_mixed_vs_FF": 0.9236
+    },
+    "OR": {
+      "atomic_TT_vs_mixed": 0.8336,
+      "compound_TT_vs_mixed": 0.9380125,
+      "atomic_mixed_vs_FF": 0.580275,
+      "compound_mixed_vs_FF": 0.9871125000000001
+    }
+  },
+  "bug_found": false
+}

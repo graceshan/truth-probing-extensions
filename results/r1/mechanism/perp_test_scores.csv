@@ -1,0 +1,1601 @@
+r1_row_index,entity_pair_id,topic,connective,cell,ordering,global_truth,score_perp
+2,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,TT,BA,1,6.41526546485702
+14,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,FF,BA,0,-5.977869680194691
+17,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,TT,AB,1,15.346732927346252
+19,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,FT,BA,1,8.79151138648875
+33,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,FF,AB,0,-8.701619414992303
+47,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,FF,AB,0,-5.7776032951284115
+54,"cities::[""Qujing"",""Ufa""]",cities,OR,FF,AB,0,-2.6258088631965357
+62,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,FF,AB,0,-3.013180494881775
+63,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,TT,BA,1,19.73128280109551
+65,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,TT,AB,1,5.245173913514274
+68,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,TF,BA,0,-15.49036485696401
+71,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,TT,AB,1,2.9467231086222583
+72,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,FF,BA,0,-8.791148287409978
+95,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,TF,AB,0,-8.63252027319993
+100,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,FT,BA,1,12.537145422344956
+106,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,FT,AB,0,-2.788124607891697
+107,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,FT,AB,0,-14.76632209367381
+110,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,TF,AB,1,4.0275256099979275
+112,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,TF,AB,0,-22.781113796399097
+126,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,FT,AB,1,5.833819155980072
+131,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,FF,AB,0,-23.298989658315612
+139,"animal_class::[""camel"",""elephant""]",animal_class,OR,FF,BA,0,-2.9614452622347374
+145,"cities::[""Qujing"",""Ufa""]",cities,AND,FF,AB,0,-28.792529379630018
+147,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,FT,BA,1,12.111324845097936
+159,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,TT,AB,1,5.124390161698173
+163,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,FF,AB,0,-23.215574733121763
+166,"animal_class::[""camel"",""elephant""]",animal_class,OR,TT,BA,1,12.434753001989169
+168,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,TT,BA,1,6.788178632443958
+173,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,FT,AB,0,-3.8646505166204217
+185,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,TT,AB,1,14.162417121971504
+190,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,FF,BA,0,-26.39117145101726
+192,"animal_class::[""gorilla"",""llama""]",animal_class,OR,FT,AB,1,4.580265787949925
+202,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,TT,BA,1,18.801036341277758
+203,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,TF,AB,0,-3.0187406302279873
+204,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,TF,BA,0,-6.96103544709479
+211,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,TT,AB,1,15.999788316295405
+215,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,TF,AB,0,-12.500117471903486
+218,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,FT,AB,1,9.19071459627855
+220,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,TF,BA,0,-11.018787052298698
+221,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,FF,BA,0,-21.665167822675556
+236,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,FF,BA,0,-35.91971357764753
+237,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,FF,BA,0,-24.108865865411445
+238,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,FF,AB,0,-36.070777511251194
+242,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,TT,BA,1,6.814278992712622
+243,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,TT,AB,1,7.407247705315729
+247,"animal_class::[""llama"",""mongoose""]",animal_class,AND,FT,AB,0,-6.86604839842567
+257,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,FT,AB,1,3.4186092749317396
+259,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,TT,AB,1,15.050889558671624
+273,"animal_class::[""camel"",""elephant""]",animal_class,AND,FT,AB,0,-9.00935075284702
+275,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,TF,AB,1,3.091519503488443
+278,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,TT,AB,1,22.146298879377337
+283,"cities::[""Algiers"",""Cochin""]",cities,OR,FF,BA,0,-11.185565416557171
+296,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,FF,AB,0,-4.991029818109597
+299,"animal_class::[""lobster"",""shark""]",animal_class,AND,FF,AB,0,-18.70366195276907
+308,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,FF,AB,0,-23.502985486023434
+311,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,TF,AB,1,12.424308321702638
+320,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,TF,BA,1,17.150739090204816
+322,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,TF,AB,1,6.239721110876966
+334,"animal_class::[""cat"",""vulture""]",animal_class,OR,FF,AB,0,-3.2869364511904737
+335,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,FF,AB,0,-5.469822805024112
+349,"cities::[""Bhopal"",""Kisangani""]",cities,AND,FT,AB,0,-22.089213511620933
+350,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,FF,BA,0,-8.526633471992096
+351,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,FT,AB,1,10.321680824008432
+369,"animal_class::[""bee"",""frog""]",animal_class,AND,TT,AB,1,8.911534820758414
+371,"animal_class::[""llama"",""mongoose""]",animal_class,OR,FT,BA,1,12.013500196410426
+373,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,TF,AB,0,-2.2223394523226365
+374,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,TF,AB,0,-14.14952314700434
+375,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,FF,AB,0,-4.834705314086468
+381,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,TT,AB,1,12.282330873116688
+388,"animal_class::[""goat"",""llama""]",animal_class,AND,FT,BA,0,-11.652338214031376
+398,"animal_class::[""parrot"",""tiger""]",animal_class,OR,FT,BA,1,7.833852827786842
+399,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,FT,BA,0,-13.276042027958068
+400,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,FF,BA,0,-13.48273486774842
+402,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,FT,AB,0,-4.894489578240309
+404,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,TF,BA,1,10.249109490509792
+416,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,TT,BA,1,32.36703941717954
+421,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,FF,AB,0,-3.6956044896632463
+430,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,FF,AB,0,-1.9144499317329362
+438,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,TF,AB,1,7.060749049430385
+443,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,FF,AB,0,-11.31435819104722
+445,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,TF,AB,0,-14.57857088108062
+446,"animal_class::[""gorilla"",""llama""]",animal_class,AND,FT,BA,0,-13.395917357028772
+449,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,TF,BA,0,-12.654024310333801
+450,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,TT,AB,1,22.794268425682105
+452,"cities::[""Agadir"",""Comilla""]",cities,OR,FF,AB,0,-6.6731242876641215
+454,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,FF,BA,0,-27.09243015669619
+462,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,FT,BA,1,8.53884835643295
+471,"cities::[""Algiers"",""Cochin""]",cities,OR,TF,BA,1,11.397262558973882
+473,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,TF,BA,1,9.911349432080655
+475,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,TF,BA,0,-5.795643924363528
+477,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,TF,BA,0,-7.458206772611277
+480,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,TT,BA,1,9.397512701212191
+488,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,TF,AB,1,11.032669468880847
+497,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,FF,BA,0,-28.11849679957927
+501,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,TT,AB,1,10.140089581920272
+503,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,TF,AB,0,-14.490451598450672
+504,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,TF,AB,0,-13.618406882844138
+505,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,FF,AB,0,-27.352672711294368
+506,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,TT,AB,1,12.331174622558667
+519,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,TT,AB,1,8.081859796125595
+528,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,TT,AB,1,2.0455452724833734
+529,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,TT,BA,1,24.99889248482016
+535,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,FF,BA,0,-19.697765331999985
+538,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,TF,AB,0,-10.31830053597094
+542,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,FF,AB,0,-1.630525194034207
+544,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,FT,AB,0,-5.066440843439603
+547,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,FF,BA,0,-19.44372064408183
+549,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,TF,BA,1,1.041767581997644
+559,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,FT,AB,1,12.920071334270249
+568,"cities::[""Agadir"",""Comilla""]",cities,OR,TF,AB,1,6.977140110144209
+578,"animal_class::[""gorilla"",""llama""]",animal_class,AND,TT,BA,1,8.659267830212993
+584,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,TF,AB,1,11.38549560276524
+586,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,FF,BA,0,-32.508156268694904
+587,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,FT,BA,0,-9.303487635022073
+588,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,FF,AB,0,-23.870206877022277
+589,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,FF,BA,0,-8.163492242968367
+593,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,TT,BA,1,20.11072571596467
+601,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,FT,AB,1,11.24988223715828
+602,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,TT,AB,1,9.151534308672746
+603,"animal_class::[""llama"",""mongoose""]",animal_class,OR,TT,AB,1,12.453503273776768
+609,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,TT,AB,1,-2.3526050161414225
+611,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,FT,BA,0,-2.335450690275663
+612,"animal_class::[""bee"",""frog""]",animal_class,OR,TF,AB,1,15.564381848906665
+625,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,FF,BA,0,-12.692417977867509
+636,"cities::[""Changshu"",""Nagoya""]",cities,AND,FF,BA,0,-24.755887533379028
+640,"animal_class::[""bee"",""frog""]",animal_class,AND,TF,BA,0,-8.499084071704122
+641,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,TT,AB,1,4.231368003616412
+643,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,FF,AB,0,-10.69162131216374
+644,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,TF,AB,1,13.52721871340199
+647,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,TT,AB,1,6.130708948232385
+656,"cities::[""Bhopal"",""Kisangani""]",cities,OR,FT,AB,1,5.8543962863059225
+658,"cities::[""Kunming"",""N'Djamena""]",cities,OR,TT,AB,1,26.893426477461368
+660,"cities::[""Kunming"",""N'Djamena""]",cities,AND,TF,AB,0,-18.11128582569443
+669,"animal_class::[""bee"",""frog""]",animal_class,OR,TT,BA,1,24.993966934684302
+671,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,FT,AB,1,14.791711649893648
+672,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,FF,AB,0,-24.554943083079493
+673,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,FT,AB,0,-3.4848698944968977
+674,"animal_class::[""cat"",""vulture""]",animal_class,OR,TF,BA,1,11.884459408048276
+678,"animal_class::[""goat"",""llama""]",animal_class,OR,TT,BA,1,13.613893236910542
+679,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,FT,AB,0,-9.912703752961683
+683,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,FF,BA,0,-28.093860240452642
+688,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,TT,AB,1,18.708545757775568
+695,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,TT,BA,1,7.247521650288908
+703,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,TT,BA,1,3.299266906984685
+717,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,FT,BA,0,-13.459933831937
+720,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,FF,BA,0,-22.338937806632565
+721,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,FF,AB,0,-2.328524237171878
+722,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,FF,AB,0,-19.998037303416453
+729,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,FF,AB,0,-21.550184667804302
+730,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,FT,AB,0,-5.074741814520039
+735,"cities::[""Laibin"",""Seoul""]",cities,OR,FT,AB,1,14.627205420275548
+744,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,TT,AB,1,20.018754662233746
+746,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,TT,AB,1,21.992415549415483
+751,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,TT,BA,1,18.964143786520644
+759,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,FT,BA,0,-5.67500961796482
+761,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,TF,BA,0,-19.436040942622828
+780,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,TT,BA,1,3.9243138594108906
+787,"animal_class::[""parrot"",""tiger""]",animal_class,OR,FF,AB,0,-15.950112962047358
+792,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,FF,BA,0,-0.8463188344264596
+799,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,TT,AB,1,5.038507434005603
+803,"animal_class::[""cat"",""vulture""]",animal_class,AND,TF,BA,0,-12.949599048118916
+808,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,TF,AB,1,6.2471964748466124
+818,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,FF,BA,0,-16.84230112746078
+830,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,FF,BA,0,-26.028964865700075
+834,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,TT,BA,1,9.935156781959694
+840,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,TT,BA,1,5.637938740064072
+850,"animal_class::[""parrot"",""tiger""]",animal_class,AND,TT,AB,1,11.205894757994892
+853,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,FF,BA,0,-17.72174152361218
+862,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,TT,BA,1,8.050512260936234
+869,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,TF,AB,0,-11.284304049731677
+870,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,TT,AB,1,9.884077818170798
+885,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,FF,BA,0,-19.233099316724587
+890,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,TT,AB,1,14.865943336411576
+894,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,FT,AB,1,10.279470198371286
+896,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,TF,BA,1,2.450707383113056
+899,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,TF,BA,0,-8.010719609770057
+905,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,TT,BA,1,6.044723873020528
+907,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,FT,AB,1,1.4776688474448159
+908,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,FF,BA,0,-27.61709908487286
+916,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,FT,AB,1,8.41713060242446
+920,"animal_class::[""bison"",""camel""]",animal_class,OR,FT,BA,1,11.44671278040671
+921,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,FT,AB,0,-11.464987599491439
+936,"cities::[""Kampala"",""Wenzhou""]",cities,AND,TF,AB,0,-17.474489754497746
+940,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,FF,BA,0,-27.67949996857535
+947,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,TT,BA,1,9.866825778612085
+949,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,TF,BA,1,5.286215949269453
+951,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,TF,BA,1,7.66052369916658
+953,"cities::[""Maceio"",""Yerevan""]",cities,AND,TF,AB,0,1.3437881232524918
+956,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,TT,BA,1,5.88146953703426
+962,"animal_class::[""parrot"",""tiger""]",animal_class,AND,FT,AB,0,-14.591200381882174
+968,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,FT,BA,0,-14.079542393527833
+971,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,TF,AB,0,-13.980078553906727
+984,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,FF,BA,0,-11.315904621544997
+988,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,FF,AB,0,-18.672102741850935
+994,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,FF,BA,0,-3.8620019997564126
+1002,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,TF,BA,1,6.8168904328689415
+1006,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,TF,AB,1,10.235246369578933
+1008,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,FT,BA,1,11.65602186999944
+1025,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,FF,AB,0,-21.851012714236692
+1034,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,TT,AB,1,9.79438943648419
+1040,"cities::[""Changshu"",""Nagoya""]",cities,OR,FF,BA,0,-9.465450200510958
+1042,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,FT,BA,0,-5.1097627379504935
+1048,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,FT,BA,0,-11.175968953468763
+1052,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,FF,AB,0,-32.44061200927467
+1057,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,FF,BA,0,-10.958320201677974
+1061,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,TF,AB,1,6.693576119915366
+1063,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,FF,AB,0,-25.111130053276472
+1064,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,TF,BA,0,-8.177945549420754
+1073,"cities::[""Kunming"",""N'Djamena""]",cities,AND,TT,AB,1,10.027063870752222
+1076,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,FF,AB,0,-5.386348524980651
+1077,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,FF,AB,0,-9.900012230946036
+1078,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,FF,BA,0,-31.76406408866083
+1084,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,TF,AB,0,-10.903093797121048
+1086,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,TT,AB,1,1.1553241402881178
+1090,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,TT,BA,1,2.836913312479229
+1097,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,TT,BA,1,25.105389456898273
+1101,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,TT,BA,1,17.269640641676084
+1102,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,TF,AB,0,-11.530588028121231
+1103,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,TF,AB,1,5.9987235099051315
+1111,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,FF,BA,0,-13.219562442315357
+1114,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,TT,BA,1,2.9412552190379375
+1118,"cities::[""Bhopal"",""Kisangani""]",cities,OR,TT,AB,1,30.627986261027353
+1121,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,TF,BA,0,-14.789806912771347
+1125,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,FT,BA,0,-9.118613982700593
+1136,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,TF,BA,1,12.64906684546941
+1145,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,TF,AB,1,12.955226269174972
+1147,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,FT,AB,1,5.376813972515075
+1155,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,FT,BA,1,11.668874921000173
+1157,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,FF,BA,0,-9.83112155379273
+1162,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,TF,AB,0,-9.884162903651394
+1189,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,TT,BA,1,5.151613144491331
+1190,"animal_class::[""bison"",""camel""]",animal_class,AND,FF,AB,0,-16.33231963345741
+1199,"cities::[""Kampala"",""Wenzhou""]",cities,OR,FT,BA,1,9.922411985809376
+1206,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,FT,BA,0,-8.361240688716787
+1208,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,FF,AB,0,-19.893131944994785
+1209,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,TF,AB,1,5.864935749261247
+1212,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,FT,AB,0,-12.677944619171054
+1213,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,FT,BA,1,7.4850747886792135
+1215,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,FT,BA,1,4.6328149800029585
+1225,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,FT,AB,1,-0.4502382360163734
+1226,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,TF,AB,0,-10.943917587177324
+1227,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,TF,AB,0,-10.768843336878442
+1228,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,TT,BA,1,9.235986582535007
+1245,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,TT,AB,1,11.626980049732524
+1246,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,FT,AB,1,8.444543219691674
+1249,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,FT,BA,0,-9.350349502344223
+1263,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,FT,BA,0,-5.693604619263283
+1265,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,FF,BA,0,-2.445664229735215
+1268,"animal_class::[""parrot"",""tiger""]",animal_class,AND,FF,BA,0,-25.52624335269827
+1271,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,FT,BA,1,10.437284948552001
+1274,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,FT,AB,1,6.547209809454486
+1276,"animal_class::[""goat"",""llama""]",animal_class,OR,TF,BA,1,6.058799900591473
+1300,"animal_class::[""lobster"",""shark""]",animal_class,OR,FT,BA,1,17.852767865794558
+1307,"animal_class::[""llama"",""otter""]",animal_class,OR,FT,AB,1,3.121315869007093
+1309,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,TT,BA,1,0.6798276900852456
+1310,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,FF,BA,0,-5.226970925544668
+1312,"cities::[""Agadir"",""Comilla""]",cities,AND,TT,AB,1,4.619029601459656
+1321,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,TF,BA,0,-15.067310605948993
+1323,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,TF,AB,0,-9.642733027933296
+1336,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,TF,AB,1,6.655161845008682
+1344,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,TT,AB,1,12.06393347960627
+1345,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,FF,BA,0,-31.08705964634763
+1346,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,FF,BA,0,-23.74569371017322
+1347,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,FF,AB,0,-5.090720551607166
+1348,"animal_class::[""camel"",""elephant""]",animal_class,OR,FF,AB,0,-1.556388690487057
+1353,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,TF,BA,1,3.3253682640503928
+1357,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,TT,AB,1,21.79675579770985
+1359,"cities::[""Bhopal"",""Kisangani""]",cities,OR,FF,AB,0,-2.188097603838921
+1366,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,FF,AB,0,-10.072497332009494
+1371,"animal_class::[""llama"",""otter""]",animal_class,AND,FT,AB,0,-21.6238244173201
+1374,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,TT,BA,1,4.0545425859218245
+1376,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,FT,AB,0,-13.821923423726787
+1401,"animal_class::[""llama"",""mongoose""]",animal_class,AND,FF,AB,0,-19.197320146358166
+1412,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,TT,BA,1,5.052651193057875
+1413,"animal_class::[""cat"",""vulture""]",animal_class,OR,TT,AB,1,25.790072977553514
+1414,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,FF,BA,0,-0.00535019285491356
+1417,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,TF,BA,0,-5.032660133895841
+1423,"animal_class::[""cat"",""vulture""]",animal_class,OR,TF,AB,1,14.002405735683219
+1426,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,FF,BA,0,-8.930949565688074
+1430,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,TT,BA,1,2.9979923966582573
+1431,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,TF,BA,1,12.047106704522657
+1433,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,TF,AB,1,16.697231322211792
+1441,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,FF,BA,0,-11.023937505059887
+1447,"animal_class::[""parrot"",""tiger""]",animal_class,OR,TF,BA,1,5.931292078696651
+1448,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,TF,BA,1,5.624617407034826
+1451,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,TF,AB,1,5.625382748231769
+1453,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,TT,BA,1,9.850891187887772
+1454,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,FF,AB,0,-5.358662633832501
+1456,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,FF,BA,0,-5.013897231048268
+1464,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,FF,BA,0,-23.13693931196829
+1475,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,FF,BA,0,-7.719868119080526
+1476,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,TT,AB,1,6.78177338665296
+1481,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,FF,BA,0,-5.499277712233843
+1491,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,FF,AB,0,-10.73537829747168
+1493,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,FF,AB,0,-30.288884393967884
+1495,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,TT,AB,1,7.051605872732665
+1496,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,TF,AB,0,-9.189742494849485
+1498,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,TT,AB,1,6.0257817956140896
+1500,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,TT,AB,1,2.3467902886559164
+1503,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,FF,BA,0,-0.41512089209107716
+1505,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,FT,AB,1,10.923313952386412
+1508,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,FT,BA,1,8.038458880711849
+1518,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,FT,BA,1,13.279833303912337
+1522,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,TF,AB,1,7.943075004042651
+1534,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,TT,BA,1,9.514999558723396
+1535,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,FT,AB,1,12.239148606628786
+1536,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,TT,AB,1,7.925247635414427
+1538,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,FT,AB,0,-9.012054569356458
+1542,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,TT,AB,1,10.686111119294788
+1553,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,TF,AB,1,3.521707250658899
+1562,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,FT,AB,0,-9.924314025576145
+1563,"animal_class::[""gorilla"",""llama""]",animal_class,OR,FF,AB,0,-9.537224342625388
+1571,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,TF,BA,0,-15.163847798667735
+1579,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,FF,AB,0,-5.686050206532514
+1581,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,TF,BA,1,9.683385511397509
+1585,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,TF,BA,0,-5.845284299414086
+1592,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,TF,BA,1,7.648345485870179
+1598,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,FT,BA,1,8.694923743842482
+1606,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,FF,BA,0,-1.530338084862949
+1610,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,FT,AB,1,23.08046199577723
+1618,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,TF,BA,0,-2.8946922451620267
+1625,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,FT,AB,0,-14.66618593702103
+1629,"cities::[""Hebi"",""Tomsk""]",cities,AND,FF,AB,0,-33.99562389459239
+1638,"animal_class::[""parrot"",""tiger""]",animal_class,OR,FF,BA,0,-10.834493652486369
+1640,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,TT,AB,1,14.159281479280171
+1649,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,TT,BA,1,21.624821863841323
+1651,"cities::[""Hebi"",""Tomsk""]",cities,AND,TT,BA,1,8.630647583458561
+1654,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,TT,AB,1,25.85253873643508
+1660,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,TT,BA,1,4.714546229433386
+1661,"animal_class::[""llama"",""otter""]",animal_class,OR,TF,BA,1,7.125768738949367
+1668,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,FF,AB,0,-29.24501862153246
+1672,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,FF,BA,0,-3.49601444876756
+1705,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,FF,BA,0,-4.267097797056955
+1706,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,FT,AB,0,-3.8359815726150113
+1707,"animal_class::[""llama"",""mongoose""]",animal_class,OR,FT,AB,1,11.15143845017202
+1710,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,FT,AB,1,10.040216029288867
+1715,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,TT,BA,1,25.837746101844022
+1720,"animal_class::[""parrot"",""tiger""]",animal_class,OR,TT,BA,1,22.63531958421558
+1739,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,FF,BA,0,-2.4465096301902243
+1745,"animal_class::[""bison"",""camel""]",animal_class,OR,TF,BA,1,4.429240801513359
+1752,"cities::[""Maceio"",""Yerevan""]",cities,OR,FT,BA,1,11.149418516874007
+1753,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,FF,BA,0,-9.282683410920761
+1764,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,FT,BA,0,-17.053992525831553
+1772,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,TT,BA,1,18.29431726620844
+1776,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,TT,BA,1,29.623682131665237
+1778,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,FT,AB,0,-4.271854744092533
+1779,"cities::[""Maceio"",""Yerevan""]",cities,OR,FF,BA,0,-5.318415049082757
+1780,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,TT,AB,1,10.512765794862327
+1781,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,TT,BA,1,22.96015627365039
+1788,"cities::[""Kampala"",""Wenzhou""]",cities,AND,TF,BA,0,-17.021290245302573
+1790,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,TF,AB,0,-3.760705941527953
+1816,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,FT,BA,1,9.512032909296634
+1819,"cities::[""Bhopal"",""Kisangani""]",cities,AND,TF,AB,0,-10.598952151740177
+1833,"cities::[""Algiers"",""Cochin""]",cities,AND,FT,BA,0,-14.301830115745929
+1834,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,TF,AB,1,8.486081477543703
+1840,"cities::[""Kunming"",""N'Djamena""]",cities,AND,TF,BA,0,-18.11720123846829
+1844,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,FT,AB,1,11.446936835917317
+1848,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,TF,BA,0,-5.534172074308786
+1849,"animal_class::[""lobster"",""shark""]",animal_class,AND,TF,BA,0,-10.380329629112792
+1852,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,TF,AB,0,-11.680056253137394
+1862,"animal_class::[""bee"",""frog""]",animal_class,OR,FT,BA,1,14.215991945504413
+1863,"animal_class::[""bison"",""camel""]",animal_class,AND,FF,BA,0,-24.591616223661163
+1864,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,TT,BA,1,5.770588206597845
+1865,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,FT,AB,0,-12.484221028842365
+1867,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,TF,BA,0,-13.272179011727669
+1871,"cities::[""Hebi"",""Tomsk""]",cities,AND,TF,BA,0,-12.870975895934691
+1872,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,FT,BA,0,-2.5674883559136417
+1873,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,TF,BA,0,-7.781248677620418
+1884,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,TT,AB,1,7.121476439192429
+1904,"cities::[""Maceio"",""Yerevan""]",cities,AND,TT,AB,1,13.792118135542927
+1909,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,FF,BA,0,-22.691053007632668
+1915,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,FT,AB,0,-7.429950122634487
+1919,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,TF,AB,0,-11.600885681157369
+1922,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,FT,AB,1,5.329006168943279
+1926,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,TT,BA,1,10.808093078288955
+1941,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,FT,BA,0,-5.5427847354695645
+1945,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,TF,BA,1,5.572921902178901
+1958,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,TT,AB,1,10.350603231908973
+1964,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,TT,AB,1,7.973880650873392
+1982,"cities::[""Changshu"",""Nagoya""]",cities,AND,TF,AB,0,-16.218524257590083
+1983,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,TF,BA,0,-9.09641650120669
+1985,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,TF,AB,1,9.33110657456361
+1986,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,TT,AB,1,10.416033647518848
+1989,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,TT,AB,1,19.701143907157167
+1993,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,FT,AB,0,3.1840544055691216
+2007,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,FF,BA,0,1.8689501749648367
+2010,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,FF,BA,0,-26.166646412381454
+2013,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,FT,BA,0,-15.39674346223681
+2014,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,FT,BA,0,-21.065163504606932
+2036,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,TT,BA,1,27.058622845311262
+2037,"animal_class::[""gorilla"",""llama""]",animal_class,OR,TF,BA,1,12.961008308617895
+2041,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,FT,BA,0,-9.11656668033107
+2053,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,TT,BA,1,16.648310974834438
+2058,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,FT,BA,0,0.7488474897121025
+2061,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,FF,BA,0,-0.5689345469735778
+2064,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,TT,BA,1,5.221047818309441
+2065,"cities::[""Agadir"",""Comilla""]",cities,AND,TF,BA,0,-11.363312410711202
+2067,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,FF,AB,0,-25.778482892265203
+2071,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,FT,AB,1,21.33738385603452
+2073,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,FF,AB,0,-7.3438470757503325
+2076,"animal_class::[""lobster"",""shark""]",animal_class,OR,FF,AB,0,1.9669864255608338
+2078,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,TT,BA,1,20.246512703453433
+2089,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,TF,BA,0,-3.31310684153891
+2093,"cities::[""Maceio"",""Yerevan""]",cities,AND,FT,BA,0,-12.055770099575888
+2102,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,FT,BA,1,12.303837254167632
+2108,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,TF,AB,1,5.776756628939886
+2111,"cities::[""Bhopal"",""Kisangani""]",cities,OR,TT,BA,1,19.701295335819157
+2120,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,FF,BA,0,1.3388302755055514
+2123,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,TF,AB,1,7.1485408500389624
+2126,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,FF,BA,0,5.993324533738631
+2131,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,TT,AB,1,3.8193844351880233
+2133,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,FF,BA,0,-8.396540314265712
+2136,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,FT,AB,1,19.26571784554316
+2145,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,TF,BA,1,5.528179413489241
+2153,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,FF,AB,0,-24.860249056589808
+2174,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,FF,BA,0,-5.401254593684387
+2175,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,FF,AB,0,-2.3353425438901185
+2177,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,TF,BA,1,12.979610689751706
+2178,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,TF,BA,1,14.41983937839625
+2183,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,TT,AB,1,24.148003848521086
+2190,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,FF,AB,0,-3.9447498061303303
+2193,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,TT,AB,1,-3.1767563798537344
+2194,"animal_class::[""goat"",""llama""]",animal_class,AND,TT,AB,1,7.822012003013912
+2195,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,TT,BA,1,18.15149762296874
+2197,"animal_class::[""bison"",""camel""]",animal_class,AND,TT,BA,1,13.230335910623456
+2201,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,FF,AB,0,2.53064019746724
+2204,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,FF,AB,0,-23.35338773671797
+2213,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,TF,AB,0,-6.48597515511679
+2217,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,FF,BA,0,-29.934810236693707
+2227,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,TT,AB,1,20.153595311583693
+2240,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,TF,BA,1,1.9245840805881564
+2244,"animal_class::[""camel"",""elephant""]",animal_class,AND,FF,AB,0,-17.22375331649929
+2246,"animal_class::[""bison"",""camel""]",animal_class,OR,FF,AB,0,-2.5131114268941483
+2251,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,TF,BA,1,0.9372163350835985
+2256,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,TF,AB,1,12.746554030056625
+2258,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,FT,BA,0,-18.37227707947538
+2268,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,TF,BA,1,3.054914110103664
+2269,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,FT,BA,1,13.339095112281765
+2275,"cities::[""Kunming"",""N'Djamena""]",cities,AND,FF,BA,0,-23.879864814395724
+2278,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,FF,AB,0,-1.100466676692648
+2293,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,FT,BA,0,-13.950886120673987
+2295,"cities::[""Changshu"",""Nagoya""]",cities,OR,FF,AB,0,-8.216807437546974
+2308,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,TT,BA,1,20.73274206441547
+2310,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,TT,AB,1,26.118227010938785
+2311,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,TT,AB,1,8.88027932148135
+2312,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,FF,AB,0,-26.560776551595474
+2315,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,FT,BA,1,8.297997164523908
+2316,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,TT,BA,1,27.42931371030101
+2320,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,FF,AB,0,-21.240494644066693
+2322,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,TF,BA,0,-6.001371491942803
+2323,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,FF,AB,0,-8.385741352434982
+2325,"cities::[""Qujing"",""Ufa""]",cities,OR,FT,AB,1,19.703456320936365
+2327,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,FT,AB,0,-16.77394202300231
+2332,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,TF,BA,0,-8.681779596056984
+2334,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,TF,AB,0,-12.720059033752545
+2336,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,FT,BA,0,-15.55431950389972
+2339,"cities::[""Kampala"",""Wenzhou""]",cities,OR,FT,AB,1,15.341260124073932
+2354,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,TF,BA,0,-10.45027557917166
+2356,"animal_class::[""gorilla"",""llama""]",animal_class,OR,TT,AB,1,18.22593836969307
+2357,"cities::[""Changshu"",""Nagoya""]",cities,AND,TT,BA,1,13.530410868122724
+2358,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,FF,BA,0,-7.018926444753609
+2359,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,FT,BA,0,-14.168625832606335
+2365,"cities::[""Algiers"",""Cochin""]",cities,OR,TT,BA,1,35.472510402292386
+2370,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,FT,AB,0,-7.33030527766344
+2374,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,TT,BA,1,32.80507878460105
+2375,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,FF,AB,0,-22.52779537672295
+2383,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,TF,AB,0,-6.434874380856545
+2386,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,TT,AB,1,20.225974035425686
+2388,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,TF,BA,1,12.196097860462887
+2390,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,FT,AB,0,-4.323218477487867
+2403,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,TF,AB,0,-8.144376756498392
+2410,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,FT,AB,0,-4.987097338839944
+2411,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,FT,BA,0,-14.282022880045844
+2421,"cities::[""Kunming"",""N'Djamena""]",cities,OR,TF,AB,1,3.2796882606610622
+2428,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,TF,AB,0,-11.728552257236158
+2431,"animal_class::[""goat"",""llama""]",animal_class,OR,TF,AB,1,10.521624623751398
+2432,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,FF,AB,0,-3.640846408033016
+2436,"animal_class::[""lobster"",""shark""]",animal_class,AND,FF,BA,0,-18.150822717448182
+2438,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,FT,BA,0,-4.168382866207982
+2446,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,TF,BA,1,5.747009378092587
+2450,"animal_class::[""gorilla"",""llama""]",animal_class,AND,TT,AB,1,7.93519365081073
+2458,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,FF,AB,0,-8.634716984805348
+2461,"animal_class::[""bison"",""camel""]",animal_class,AND,FT,BA,0,-12.505225649238135
+2463,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,FT,AB,1,6.565659577725885
+2469,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,TF,BA,1,6.740880237580926
+2471,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,FF,AB,0,-5.71334767393032
+2475,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,FT,AB,0,-15.980921432460672
+2478,"cities::[""Bhopal"",""Kisangani""]",cities,AND,TT,AB,1,7.080683524980177
+2484,"animal_class::[""bison"",""camel""]",animal_class,OR,TT,AB,1,10.449830523060728
+2487,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,FT,BA,0,-13.36742491154826
+2489,"animal_class::[""lobster"",""shark""]",animal_class,AND,TF,AB,0,-11.141770086877521
+2495,"cities::[""Kunming"",""N'Djamena""]",cities,OR,FT,BA,1,23.819758610441543
+2501,"cities::[""Agadir"",""Comilla""]",cities,OR,FT,BA,1,12.4755124874246
+2506,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,FF,AB,0,-15.780558894433614
+2508,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,TT,AB,1,7.135060951004609
+2514,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,TF,BA,0,-9.895737746943482
+2516,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,FF,BA,0,-31.747156915359824
+2520,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,TT,AB,1,4.3888876025567205
+2525,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,FF,AB,0,-23.76940860988748
+2527,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,TT,AB,1,4.855972095050205
+2530,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,TT,AB,1,13.83866706742213
+2531,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,TF,AB,1,11.136990688328932
+2533,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,TF,BA,1,14.43517823285529
+2537,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,FT,AB,0,-10.439748559661957
+2538,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,TF,AB,1,11.878919038877626
+2554,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,TF,AB,1,14.825585980544718
+2576,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,FT,AB,0,-10.218293374134323
+2581,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,TF,AB,0,-6.785015152431673
+2584,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,FF,BA,0,-23.78588385504029
+2588,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,FT,BA,1,16.278083040224352
+2591,"animal_class::[""llama"",""otter""]",animal_class,AND,TT,AB,1,6.768598470882402
+2599,"cities::[""Qujing"",""Ufa""]",cities,OR,FF,BA,0,-6.550713423611054
+2601,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,TF,AB,0,-16.707094224747657
+2607,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,FT,AB,1,9.007134600914325
+2610,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,TF,AB,0,-17.656099739315376
+2622,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,TF,BA,1,15.200451526294312
+2629,"cities::[""Hebi"",""Tomsk""]",cities,AND,FT,AB,0,-25.111977356869954
+2633,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,TT,BA,1,6.556278933631765
+2639,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,FT,BA,1,9.355092689376844
+2640,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,TT,BA,1,8.726171302093938
+2641,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,TF,BA,0,-9.680818455566202
+2642,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,TF,AB,1,11.06673948571261
+2650,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,TF,BA,0,-13.190068366365448
+2655,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,TT,BA,1,8.613523211045656
+2661,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,TF,AB,0,-10.87881123729007
+2666,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,FF,BA,0,-5.159245855964384
+2687,"cities::[""Algiers"",""Cochin""]",cities,AND,TT,AB,1,10.836364056235746
+2688,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,TT,BA,1,9.895577843133747
+2695,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,FT,BA,0,-9.073973268947377
+2696,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,FT,AB,1,3.163086855419928
+2699,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,FT,AB,1,10.315040674607136
+2700,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,FT,BA,0,-16.304228780357043
+2701,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,FT,BA,1,11.105480274219875
+2703,"animal_class::[""lobster"",""shark""]",animal_class,OR,FT,AB,1,15.778604207124138
+2707,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,TT,BA,1,17.326059088377356
+2710,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,FF,BA,0,-28.90444514171097
+2718,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,TF,AB,0,-6.49300676501506
+2724,"cities::[""Laibin"",""Seoul""]",cities,AND,TF,BA,0,-12.9004732479136
+2725,"cities::[""Qujing"",""Ufa""]",cities,AND,TT,BA,1,11.982477831273723
+2740,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,TF,AB,1,11.770307408998086
+2746,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,FF,AB,0,-24.87152500776455
+2751,"cities::[""Hebi"",""Tomsk""]",cities,AND,FF,BA,0,-29.547882111605926
+2754,"cities::[""Changshu"",""Nagoya""]",cities,OR,TT,AB,1,26.88321360988973
+2764,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,TT,BA,1,5.458744370556056
+2768,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,TF,BA,0,-4.525192075000218
+2769,"cities::[""Qujing"",""Ufa""]",cities,OR,TF,BA,1,24.84040593318823
+2772,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,TF,BA,1,10.693751644876688
+2774,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,TT,BA,1,20.830772177507924
+2778,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,FF,AB,0,-10.031657785159025
+2784,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,FF,AB,0,-33.30015010221882
+2786,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,FT,AB,0,-11.55648860278789
+2796,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,TT,BA,1,24.102645635898913
+2799,"cities::[""Kampala"",""Wenzhou""]",cities,AND,FF,BA,0,-32.81821049922676
+2804,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,FF,AB,0,-24.92349239165037
+2805,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,FF,BA,0,-23.846134230318185
+2811,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,FT,AB,0,-10.245241223524522
+2818,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,FT,BA,1,14.174156377223756
+2824,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,FT,BA,1,5.0814840445334015
+2832,"animal_class::[""bee"",""frog""]",animal_class,OR,TT,AB,1,24.63047978246346
+2839,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,FT,AB,1,1.407889619824921
+2844,"cities::[""Hebi"",""Tomsk""]",cities,OR,FT,AB,1,11.070678839840138
+2852,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,FF,AB,0,9.57538711590091
+2863,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,FT,AB,0,-14.230459385024012
+2865,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,FT,AB,1,5.769655090900596
+2868,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,FT,AB,0,-14.656610166970912
+2871,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,TT,BA,1,30.150621801209525
+2872,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,FF,BA,0,-19.23472767870682
+2874,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,TF,BA,0,-7.464311040939957
+2876,"animal_class::[""bee"",""frog""]",animal_class,AND,FF,BA,0,-19.622837329423064
+2877,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,TT,BA,1,27.175568884292097
+2882,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,TF,AB,0,-11.61565412453651
+2885,"cities::[""Algiers"",""Cochin""]",cities,OR,FT,BA,1,13.493999760945982
+2888,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,TF,BA,0,-5.69471135394664
+2893,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,TF,AB,1,10.029289997930285
+2897,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,FT,AB,1,10.744736219234404
+2902,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,TF,BA,1,8.595860045866772
+2905,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,FT,BA,0,-4.984911716987729
+2907,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,TF,AB,1,9.614377100371243
+2914,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,FF,AB,0,10.362530870686523
+2915,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,FF,BA,0,-2.6427074768729133
+2927,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,TT,BA,1,15.512166095835221
+2929,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,TT,AB,1,27.28477615295909
+2930,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,TT,AB,1,6.609145677088971
+2932,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,FT,BA,1,11.079972778926606
+2947,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,FT,BA,1,5.335889807586123
+2966,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,FF,AB,0,-22.688537472104844
+2969,"cities::[""Laibin"",""Seoul""]",cities,OR,FF,BA,0,-7.011290627709525
+2971,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,TT,BA,1,6.6944765340967445
+2973,"cities::[""Qujing"",""Ufa""]",cities,OR,TT,AB,1,27.089217705016573
+2977,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,FF,BA,0,-7.834407635138996
+2983,"animal_class::[""gorilla"",""llama""]",animal_class,AND,FF,AB,0,-26.52115853677637
+2984,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,TF,AB,0,-7.791716222189018
+2987,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,TF,AB,0,-11.2617736635069
+2991,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,TT,BA,1,7.711811610324737
+2999,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,FF,BA,0,-5.807195992252518
+3001,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,TT,BA,1,30.06877569840848
+3010,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,FT,AB,0,-12.610932484040607
+3013,"cities::[""Maceio"",""Yerevan""]",cities,AND,FT,AB,0,-20.17073214211673
+3017,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,TT,BA,1,20.44260749985617
+3025,"cities::[""Agadir"",""Comilla""]",cities,AND,TF,AB,0,-13.353441563013348
+3029,"animal_class::[""cat"",""vulture""]",animal_class,AND,FT,BA,0,-12.060239909820943
+3031,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,TF,AB,0,-4.3834164050232545
+3033,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,TT,BA,1,18.56850891420267
+3035,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,TF,BA,0,-10.338623933438443
+3038,"cities::[""Laibin"",""Seoul""]",cities,AND,TF,AB,0,-7.744515830600936
+3039,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,FT,AB,1,17.0225293757876
+3042,"cities::[""Hebi"",""Tomsk""]",cities,OR,TF,BA,1,10.718728014911026
+3045,"cities::[""Bhopal"",""Kisangani""]",cities,OR,FT,BA,1,4.670969158484391
+3049,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,FF,BA,0,-0.2329081174545613
+3057,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,TT,BA,1,8.45713423682534
+3060,"cities::[""Kampala"",""Wenzhou""]",cities,OR,TT,AB,1,37.42512422829802
+3073,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,FT,BA,1,8.39817815824237
+3079,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,FT,BA,0,-16.301928125221075
+3082,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,FT,BA,1,4.175896509611233
+3092,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,TF,AB,0,-13.011447613021275
+3106,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,TT,AB,1,18.200136265770947
+3108,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,FT,BA,1,15.53404817335241
+3112,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,TF,AB,1,9.05704699839431
+3115,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,FF,AB,0,-17.454261080901155
+3116,"cities::[""Agadir"",""Comilla""]",cities,AND,FF,BA,0,-25.829729339368733
+3120,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,FT,AB,0,-1.7474244743715812
+3133,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,TT,BA,1,23.686175613413994
+3134,"cities::[""Algiers"",""Cochin""]",cities,AND,TT,BA,1,8.530753593952724
+3139,"cities::[""Qujing"",""Ufa""]",cities,AND,TF,BA,0,-16.82289450795372
+3140,"animal_class::[""cat"",""vulture""]",animal_class,AND,TT,AB,1,7.35958735597001
+3141,"cities::[""Algiers"",""Cochin""]",cities,AND,FT,AB,0,-17.00962027582806
+3157,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,TT,BA,1,19.42329622605947
+3168,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,FF,AB,0,-15.632597944524836
+3169,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,TF,BA,1,15.199018667019565
+3174,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,FT,AB,0,-6.895109331665079
+3177,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,FT,AB,0,-12.396329119644978
+3183,"cities::[""Maceio"",""Yerevan""]",cities,OR,TF,AB,1,17.60478167478047
+3185,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,FF,BA,0,-5.806462630234917
+3189,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,TF,BA,1,4.830974594956517
+3194,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,TT,BA,1,-2.646329856595554
+3196,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,FF,AB,0,-5.9304819444173305
+3200,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,FT,AB,0,-6.7514101870198076
+3201,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,FF,BA,0,-11.59003643034517
+3203,"animal_class::[""goat"",""llama""]",animal_class,OR,TT,AB,1,12.85093543902012
+3206,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,FF,BA,0,-0.4471625024434902
+3213,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,FT,AB,0,-5.886120080258519
+3219,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,FF,BA,0,6.818308584696635
+3224,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,TF,BA,0,-13.388463337032878
+3245,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,FT,BA,1,10.096751064648355
+3258,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,FT,AB,1,13.053075665544515
+3259,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,FF,BA,0,-25.709587628596964
+3261,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,TT,AB,1,8.821305020075057
+3271,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,FF,BA,0,2.263934340125786
+3273,"animal_class::[""lobster"",""shark""]",animal_class,AND,TT,BA,1,5.304734245045315
+3281,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,FF,BA,0,-19.496232328175715
+3285,"animal_class::[""parrot"",""tiger""]",animal_class,OR,TT,AB,1,30.093289883154497
+3288,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,TF,AB,1,13.29505860435084
+3300,"animal_class::[""bee"",""frog""]",animal_class,OR,FT,AB,1,7.153344954568707
+3314,"cities::[""Laibin"",""Seoul""]",cities,AND,FT,AB,0,-18.780788659279942
+3316,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,TT,BA,1,17.5372154883589
+3325,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,FF,BA,0,-5.887643477167655
+3328,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,TF,AB,1,10.552179760308423
+3346,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,TT,AB,1,22.01449260514346
+3347,"animal_class::[""cat"",""vulture""]",animal_class,AND,TF,AB,0,-12.177269278995125
+3364,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,TT,BA,1,27.6419400442833
+3365,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,TF,AB,0,-2.6999770185142102
+3372,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,FF,AB,0,-27.246477981263205
+3374,"animal_class::[""goat"",""llama""]",animal_class,OR,FT,AB,1,6.2713486271842225
+3381,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,TF,BA,1,16.086492611181065
+3387,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,FF,AB,0,-24.39691957017282
+3396,"animal_class::[""cat"",""vulture""]",animal_class,AND,TT,BA,1,8.27878058389515
+3407,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,FF,BA,0,0.09803878497281504
+3408,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,FT,AB,0,-15.50851523172659
+3411,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,FF,BA,0,-26.68943478154535
+3415,"animal_class::[""llama"",""otter""]",animal_class,AND,TF,BA,0,-15.410313478143808
+3421,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,FF,AB,0,-1.748387378292962
+3427,"animal_class::[""lobster"",""shark""]",animal_class,OR,FF,BA,0,5.182126806733846
+3431,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,FT,BA,0,-13.57771781202844
+3436,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,FF,BA,0,-15.90813673031895
+3440,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,TF,AB,0,-8.584690262683937
+3442,"cities::[""Kampala"",""Wenzhou""]",cities,AND,FF,AB,0,-28.183392397051644
+3445,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,FT,BA,0,-10.411639206171852
+3448,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,FT,BA,1,13.710660820180745
+3452,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,FF,BA,0,3.384856425998689
+3453,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,FF,BA,0,-4.727147468481942
+3465,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,TF,AB,0,-15.947652476812562
+3468,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,FT,BA,0,-8.484869805531138
+3470,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,TF,BA,1,8.30747917526976
+3473,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,FT,AB,0,-3.5834696366608827
+3477,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,FT,BA,1,11.8784534272238
+3484,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,TF,AB,1,8.564599537080898
+3485,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,FT,AB,0,-4.419607438004493
+3486,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,FF,AB,0,-3.615185799666336
+3500,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,FT,AB,0,-12.33188475809489
+3513,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,FT,AB,0,-3.1015726333303943
+3518,"cities::[""Agadir"",""Comilla""]",cities,OR,TT,BA,1,31.497381000350565
+3525,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,TT,AB,1,27.44034412091373
+3527,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,TT,BA,1,-1.8035565782583771
+3531,"cities::[""Hebi"",""Tomsk""]",cities,AND,TT,AB,1,5.998806302456568
+3535,"animal_class::[""bison"",""camel""]",animal_class,OR,FT,AB,1,10.847104891486694
+3541,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,TF,BA,0,-7.461127871961713
+3542,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,TF,AB,1,4.508689620207761
+3551,"cities::[""Kunming"",""N'Djamena""]",cities,AND,FT,BA,0,-10.532698269720637
+3555,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,TT,AB,1,9.79955657326871
+3556,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,TF,BA,0,-8.566855998296052
+3560,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,TF,BA,1,13.521240576744184
+3566,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,FF,AB,0,-8.224067314191593
+3571,"cities::[""Kunming"",""N'Djamena""]",cities,AND,TT,BA,1,7.870890684957061
+3575,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,FT,BA,0,-13.438082779058359
+3576,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,TT,BA,1,5.961113329722883
+3580,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,FF,AB,0,-23.123002342437704
+3588,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,TT,BA,1,8.826416617427538
+3592,"animal_class::[""goat"",""llama""]",animal_class,AND,FF,AB,0,-24.58571418855695
+3603,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,TF,BA,1,6.555335786308891
+3609,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,TT,BA,1,3.5425407587583857
+3610,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,TF,BA,0,-10.884674852738826
+3612,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,FF,BA,0,-13.158997178649505
+3623,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,FF,AB,0,-4.889018706556746
+3624,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,FF,AB,0,-32.52727844079965
+3637,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,FT,BA,1,16.005821060160816
+3648,"cities::[""Qujing"",""Ufa""]",cities,AND,FT,BA,0,-13.011593943934745
+3651,"cities::[""Changshu"",""Nagoya""]",cities,OR,TF,AB,1,9.846577113051406
+3656,"animal_class::[""llama"",""mongoose""]",animal_class,OR,FF,BA,0,-10.960104360888014
+3666,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,FT,BA,0,-5.547829104324587
+3667,"animal_class::[""llama"",""otter""]",animal_class,OR,FT,BA,1,13.848562325411866
+3668,"animal_class::[""llama"",""mongoose""]",animal_class,OR,TF,BA,1,-0.30268881284382043
+3669,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,FT,AB,1,8.62510543541358
+3675,"animal_class::[""camel"",""elephant""]",animal_class,OR,TF,BA,1,6.412916112859655
+3678,"animal_class::[""gorilla"",""llama""]",animal_class,AND,TF,AB,0,-9.783681860693594
+3680,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,TF,AB,0,-6.970268002811425
+3684,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,TT,BA,1,21.02941006395316
+3689,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,FT,AB,1,6.989538232144187
+3692,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,TF,AB,0,-14.138857608915881
+3694,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,TF,BA,1,11.870709454217952
+3701,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,TT,BA,1,9.84533401139418
+3706,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,TT,AB,1,4.404760002483409
+3707,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,FT,BA,0,-10.035542102812427
+3708,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,FT,AB,0,-10.180705200155833
+3732,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,FF,BA,0,-11.72251569052734
+3741,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,FT,AB,0,-18.746097581459892
+3747,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,TT,AB,1,7.187120567256739
+3753,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,TF,BA,0,-17.466510334466435
+3754,"animal_class::[""goat"",""llama""]",animal_class,AND,FT,AB,0,-15.619335257644055
+3756,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,FT,AB,1,6.567120571626563
+3757,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,TT,AB,1,24.682671557916017
+3767,"animal_class::[""llama"",""otter""]",animal_class,AND,FT,BA,0,-12.577897194010298
+3770,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,TT,BA,1,9.137139874588783
+3771,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,FF,BA,0,-12.501749781591693
+3774,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,TT,BA,1,11.194568821415897
+3779,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,TT,BA,1,0.06121876477715804
+3809,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,FT,BA,1,12.977339867981883
+3813,"cities::[""Bhopal"",""Kisangani""]",cities,AND,FF,AB,0,-25.578163660295477
+3815,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,FT,AB,1,10.971157323699384
+3824,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,FT,BA,0,-7.420433673098714
+3827,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,TT,BA,1,17.393079138529593
+3829,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,FF,AB,0,-24.359692231681365
+3833,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,TT,AB,1,15.00016195902928
+3838,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,FF,AB,0,-2.90511860363573
+3839,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,FT,BA,0,-9.180018120317236
+3851,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,FT,BA,1,8.831952405252602
+3854,"animal_class::[""llama"",""mongoose""]",animal_class,AND,FT,BA,0,-9.869908453129845
+3858,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,FT,BA,0,-2.504750960510776
+3865,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,TT,BA,1,20.951808691618563
+3868,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,TF,AB,1,11.47998834323911
+3869,"animal_class::[""camel"",""elephant""]",animal_class,AND,TT,BA,1,12.189064936135
+3873,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,FT,AB,0,-9.338914403035947
+3874,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,TT,AB,1,2.837341425835235
+3877,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,TF,AB,0,-4.286699507282242
+3880,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,TT,AB,1,31.485663691642863
+3890,"cities::[""Changshu"",""Nagoya""]",cities,OR,TF,BA,1,15.1871377578603
+3907,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,TT,AB,1,4.190521398916509
+3908,"cities::[""Laibin"",""Seoul""]",cities,AND,FT,BA,0,-24.011661495864207
+3910,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,FT,BA,0,-16.17712886117704
+3920,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,FT,BA,1,2.4121956322374296
+3924,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,FT,AB,1,10.174464531277872
+3930,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,TT,AB,1,18.59736638433301
+3932,"cities::[""Kunming"",""N'Djamena""]",cities,OR,FF,BA,0,1.118459383901321
+3934,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,FT,BA,1,11.167526729982734
+3937,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,FF,AB,0,-5.5427189624912945
+3946,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,FF,AB,0,3.184889630971912
+3950,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,TT,AB,1,24.750891483556273
+3955,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,TF,BA,0,-9.03579141998223
+3957,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,TF,BA,1,13.018084059732402
+3967,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,FF,AB,0,-14.72804596265778
+3970,"cities::[""Laibin"",""Seoul""]",cities,OR,TT,BA,1,27.642732077850525
+3974,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,FF,AB,0,-3.595511324909033
+3979,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,FT,BA,0,-16.452584044808116
+3984,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,FT,AB,1,5.133808615555034
+3986,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,FF,BA,0,-14.610892856860376
+3988,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,FF,AB,0,-23.549294046340474
+3989,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,FT,BA,0,-8.237058291891852
+3992,"cities::[""Algiers"",""Cochin""]",cities,AND,TF,BA,0,-19.11934143856665
+3994,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,FT,AB,1,7.957702042642744
+4005,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,FF,AB,0,-9.913867801875796
+4012,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,TT,AB,1,23.199882154449305
+4018,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,TT,BA,1,29.196199352606047
+4030,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,FF,BA,0,-25.705900039560497
+4033,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,FT,BA,0,-9.43851457389037
+4034,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,FT,BA,1,11.53323466825016
+4040,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,TT,BA,1,1.3636964416246098
+4044,"animal_class::[""gorilla"",""llama""]",animal_class,OR,FF,BA,0,-11.234080899365711
+4051,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,FF,AB,0,-7.868707668998826
+4056,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,TF,BA,0,-8.794251842751601
+4065,"animal_class::[""camel"",""elephant""]",animal_class,OR,FT,BA,1,11.034639452144464
+4068,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,FT,BA,1,8.401885891616162
+4074,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,FT,AB,0,-10.465370847376931
+4077,"animal_class::[""camel"",""elephant""]",animal_class,AND,TF,AB,0,-7.75836705938533
+4078,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,FF,BA,0,-5.956275490802265
+4079,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,FF,BA,0,-29.067640654224945
+4080,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,TF,AB,0,-11.143782139559466
+4081,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,FT,BA,1,16.266131891241834
+4084,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,FF,BA,0,-11.719404330965883
+4099,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,FT,BA,0,-13.600091331682702
+4103,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,FT,AB,0,-6.088620095961903
+4107,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,AND,FF,AB,0,-20.00207174945026
+4109,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,FT,BA,1,5.063223959221784
+4119,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,TT,AB,1,32.281795769339354
+4130,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,FT,AB,0,-5.428274969151875
+4133,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,TF,BA,0,-15.15885748966464
+4135,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,TF,BA,0,-7.532035853081245
+4140,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,FF,BA,0,-24.012126053072986
+4144,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,TF,BA,1,8.660310025115452
+4150,"cities::[""Hebi"",""Tomsk""]",cities,OR,FF,BA,0,-11.729678349112692
+4152,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,TF,BA,1,10.600087892305385
+4154,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,FT,BA,1,6.678915821970786
+4155,"cities::[""Agadir"",""Comilla""]",cities,AND,TT,BA,1,8.137450866897854
+4163,"cities::[""Jakarta"",""Shah Alam""]",cities,OR,TF,BA,1,8.378185891054638
+4165,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,TF,BA,1,10.852652915148578
+4176,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,TF,AB,1,15.530252064684758
+4178,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,FT,BA,0,-5.251540835205674
+4187,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,TT,AB,1,9.35945545377357
+4190,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,FF,BA,0,-16.268827961721204
+4196,"cities::[""Kampala"",""Wenzhou""]",cities,OR,TF,BA,1,16.14550063865098
+4198,"cities::[""Algiers"",""Cochin""]",cities,OR,TT,AB,1,28.53162388405949
+4200,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,FT,BA,1,14.698489543877464
+4201,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,FT,BA,1,5.654607282740708
+4211,"animal_class::[""bison"",""camel""]",animal_class,AND,TT,AB,1,11.16945758195447
+4214,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,TF,BA,1,6.194986138809069
+4222,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,TT,AB,1,12.448746829074386
+4224,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,TF,BA,0,-17.043099678552437
+4235,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,FT,BA,1,12.547017047529778
+4240,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,FF,AB,0,-21.807853136285686
+4253,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,FF,BA,0,-11.512582415658326
+4264,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,FF,AB,0,-27.116649706013558
+4266,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,TT,BA,1,6.885920215783962
+4273,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,FT,AB,1,7.843037676362505
+4276,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,TF,BA,1,14.648752737209463
+4286,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,TT,BA,1,18.849892382146827
+4295,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,TF,AB,1,9.932852852188375
+4302,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,FF,AB,0,-18.178220895594954
+4305,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,FT,AB,1,11.126261199953985
+4329,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,TT,AB,1,19.545540446915755
+4332,"animal_class::[""lobster"",""shark""]",animal_class,OR,TT,BA,1,23.89068511463008
+4336,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,FT,AB,0,-10.698421368272527
+4342,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,TF,AB,0,-6.368650199545055
+4346,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,TF,BA,1,17.100814764150286
+4347,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,FF,AB,0,-26.284359332327124
+4349,"cities::[""Qujing"",""Ufa""]",cities,OR,TF,AB,1,17.466836821352935
+4351,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,FT,BA,1,8.34015877053124
+4355,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,TT,AB,1,12.626423626429073
+4364,"animal_class::[""cat"",""vulture""]",animal_class,OR,FF,BA,0,-8.395692991248747
+4374,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,TF,AB,0,-9.43040966690958
+4383,"cities::[""Hebi"",""Tomsk""]",cities,OR,TF,AB,1,11.429049878809785
+4388,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,FF,BA,0,-4.2678773962091725
+4390,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,TF,AB,0,-13.912227528558947
+4396,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,TT,BA,1,9.373361072074847
+4397,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,TT,BA,1,25.872315785451494
+4408,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,TF,BA,1,13.024024024138438
+4413,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,TT,AB,1,21.921291764336654
+4418,"animal_class::[""aardvark"",""hyena""]",animal_class,OR,FF,AB,0,-11.177672974584745
+4421,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,TT,BA,1,9.296501831469127
+4429,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,FT,AB,1,9.931949171791537
+4433,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,FT,BA,0,-13.689872909029493
+4440,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,FT,AB,1,7.603142258847582
+4450,"animal_class::[""gorilla"",""llama""]",animal_class,AND,FF,BA,0,-28.123829910058962
+4453,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,TF,AB,1,6.575194331863692
+4463,"animal_class::[""lobster"",""shark""]",animal_class,AND,FT,AB,0,-9.9838204519325
+4464,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,FT,AB,0,-5.616522941874358
+4466,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,TF,BA,0,-16.000439865412133
+4475,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,FT,AB,1,11.467776665468033
+4480,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,TF,BA,0,-12.093763191377214
+4489,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,FF,AB,0,-4.38414696546827
+4492,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,TT,AB,1,29.8068906477385
+4493,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,TT,BA,1,23.37529225832405
+4497,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,FT,AB,1,19.54631239686416
+4505,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,FF,BA,0,-19.986225073906663
+4514,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,FT,AB,1,15.949792753225145
+4519,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,TT,AB,1,9.627353533286684
+4521,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,FT,BA,1,7.2948973518361075
+4523,"animal_class::[""parrot"",""tiger""]",animal_class,OR,FT,AB,1,5.339023807369911
+4524,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,TT,BA,1,6.831265850267879
+4525,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,FT,BA,1,2.1712201944505742
+4527,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,TT,AB,1,17.064137162513237
+4529,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,TT,AB,1,22.922255721314187
+4537,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,TT,AB,1,6.962910793066807
+4539,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,FT,BA,1,8.425357043369946
+4554,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,FT,AB,1,5.523565911202618
+4558,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,FF,BA,0,-21.422012414570098
+4566,"cities::[""Agadir"",""Comilla""]",cities,OR,FT,AB,1,17.262890571298005
+4568,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,TT,BA,1,11.785460741023222
+4569,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,TT,AB,1,12.152607924318279
+4584,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,FF,AB,0,0.4324207388099648
+4585,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,TT,BA,1,29.027827083853303
+4589,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,FT,BA,0,-12.014082437596747
+4599,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,TF,AB,1,14.532872405225667
+4602,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,FT,AB,1,10.332062059353959
+4619,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,FF,BA,0,-15.266522961670853
+4630,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,FT,AB,1,5.18706264358484
+4632,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,FF,BA,0,-4.755063378293017
+4637,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,FF,BA,0,-2.483400204668179
+4655,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,FF,AB,0,-9.660362674536904
+4659,"animal_class::[""lobster"",""shark""]",animal_class,OR,TT,AB,1,21.840405916311333
+4665,"animal_class::[""llama"",""otter""]",animal_class,AND,FF,BA,0,-27.697833156243068
+4669,"animal_class::[""llama"",""mongoose""]",animal_class,AND,TT,BA,1,9.03139573334418
+4673,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,FT,AB,1,5.97500932017292
+4675,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,TT,AB,1,26.15929529377223
+4680,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,TF,BA,0,-13.560000775123353
+4688,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,TF,BA,0,-10.478824599630858
+4689,"cities::[""Laibin"",""Seoul""]",cities,AND,FF,AB,0,-27.717275581330572
+4690,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,FT,AB,0,-6.415981394720829
+4702,"cities::[""Agadir"",""Comilla""]",cities,OR,TF,BA,1,16.74762764371703
+4704,"animal_class::[""bee"",""frog""]",animal_class,AND,TF,AB,0,-12.099867762185132
+4706,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,FT,AB,0,-11.647860848269262
+4712,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,TF,BA,1,10.101718042417147
+4723,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,TF,BA,1,9.567628298484875
+4727,"cities::[""Kunming"",""N'Djamena""]",cities,AND,FF,AB,0,-22.994948882061475
+4730,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,FF,BA,0,5.01961694658376
+4735,"cities::[""Hebi"",""Tomsk""]",cities,OR,FT,BA,1,2.1772990719991983
+4737,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,FT,BA,1,9.579991105325425
+4738,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,FF,AB,0,-9.11220209215216
+4740,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,FT,AB,0,-12.67043153171876
+4743,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,TT,BA,1,10.113757105478378
+4762,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,TT,BA,1,10.705662324859833
+4763,"animal_class::[""goat"",""llama""]",animal_class,OR,FF,BA,0,-17.25581501788386
+4766,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,TT,BA,1,12.321262699127903
+4777,"cities::[""Algiers"",""Cochin""]",cities,AND,FF,BA,0,-26.20610692332005
+4780,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,FT,BA,0,-3.484419171102064
+4782,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,TF,BA,0,-10.04359036891882
+4788,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,FF,AB,0,-20.270751505595832
+4799,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,TT,AB,1,21.785162783879862
+4800,"cities::[""Laibin"",""Seoul""]",cities,OR,TT,AB,1,33.29868875417809
+4809,"animal_class::[""bee"",""frog""]",animal_class,OR,TF,BA,1,3.1437424447145705
+4816,"cities::[""Kampala"",""Wenzhou""]",cities,OR,FF,AB,0,-9.221076048638555
+4822,"cities::[""Agadir"",""Comilla""]",cities,OR,FF,BA,0,-4.86246808151873
+4832,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,TF,AB,0,-9.051718859910206
+4835,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,FT,BA,1,11.595574470590613
+4848,"animal_class::[""camel"",""elephant""]",animal_class,AND,TF,BA,0,-13.79361221560971
+4864,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,TT,BA,1,27.102437135567918
+4868,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,FT,BA,0,-13.497194710836286
+4874,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,FF,AB,0,-17.45898236207843
+4880,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,TF,BA,0,-18.332290644881923
+4890,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,FT,AB,0,-10.072742194165555
+4894,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,FF,AB,0,-22.54323981083623
+4896,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,TT,AB,1,12.931030790839044
+4897,"cities::[""Maceio"",""Yerevan""]",cities,AND,FF,AB,0,-26.32329358575115
+4898,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,TF,BA,0,-15.681245426964017
+4901,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,TF,AB,1,3.7658503936496572
+4904,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,TF,BA,0,-11.528383168639227
+4906,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,FT,BA,0,-14.343776600519838
+4909,"animal_class::[""cat"",""vulture""]",animal_class,AND,FF,AB,0,-16.92075764652417
+4910,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,FT,AB,1,7.392835346857698
+4914,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,TT,AB,1,10.511463384683063
+4920,"cities::[""Changshu"",""Nagoya""]",cities,AND,TT,AB,1,13.467625972159786
+4925,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,TF,BA,0,-10.280059050852053
+4934,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,TF,BA,1,11.495647905641523
+4935,"animal_class::[""lobster"",""shark""]",animal_class,AND,FT,BA,0,-5.7115546382738716
+4963,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,FF,AB,0,-4.066321764219667
+4981,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,FT,AB,0,1.5633350378389794
+4985,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,TF,AB,1,1.2175302958330374
+4986,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,FF,BA,0,-16.61346623962256
+4989,"cities::[""Laibin"",""Seoul""]",cities,OR,TF,BA,1,18.950021793251672
+4991,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,TT,BA,1,11.19651020919715
+4993,"cities::[""Kampala"",""Wenzhou""]",cities,AND,TT,BA,1,9.657031028049216
+4995,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,FF,AB,0,-28.482363820006512
+4996,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,FT,BA,0,-11.101310741239075
+4998,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,TT,AB,1,16.018425935053415
+5000,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,TF,AB,0,-7.371939850824635
+5004,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,TT,BA,1,15.319442554202347
+5010,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,AND,FT,BA,0,-13.058637690154095
+5014,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,FF,AB,0,-2.939574617130377
+5022,"animal_class::[""lobster"",""shark""]",animal_class,OR,TF,BA,1,16.871200979128513
+5031,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,FF,BA,0,-24.02729088431048
+5041,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,TT,AB,1,26.399123446991453
+5042,"animal_class::[""gorilla"",""llama""]",animal_class,AND,TF,BA,0,-12.69345023340841
+5043,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,FT,BA,0,-12.298612086647104
+5045,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,TT,AB,1,6.8440172231904866
+5052,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,TT,BA,1,6.981336851807079
+5053,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,FT,AB,0,-7.291460943940999
+5054,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,TF,AB,1,-2.9840470665243832
+5060,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,FT,BA,1,7.869169442894192
+5070,"cities::[""Qujing"",""Ufa""]",cities,AND,TF,AB,0,-14.626098072587196
+5073,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,FT,AB,1,18.187637015470273
+5075,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,FF,AB,0,-19.43407180697419
+5081,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,FF,BA,0,-26.36149405759702
+5090,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,TF,AB,1,9.183807024442082
+5092,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,FF,BA,0,-21.00014558199417
+5093,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,TF,BA,0,-17.63612137101108
+5095,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,FF,BA,0,-10.924456679000718
+5096,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,TF,AB,0,-17.957656776238856
+5104,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,TF,AB,1,1.7140692522310714
+5105,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,FT,BA,0,-7.482474502988245
+5109,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,TT,BA,1,4.817937116664471
+5110,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,TF,AB,1,8.561075505637726
+5115,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,TF,BA,1,9.213354384457778
+5138,"animal_class::[""goat"",""llama""]",animal_class,OR,FF,AB,0,-7.0883395315012665
+5139,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,FF,BA,0,-19.327497201297682
+5143,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,FT,BA,1,11.203916963650663
+5145,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,FF,BA,0,-5.313687156357871
+5146,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,TT,BA,1,12.271937277947497
+5156,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,TF,AB,0,-14.388642503120078
+5158,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,FT,BA,0,-13.516160698854595
+5162,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,FF,AB,0,-22.72822479462676
+5178,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,FF,AB,0,-21.30205290501527
+5190,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,FF,BA,0,-6.165192706261455
+5191,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,FT,BA,0,-0.42902078378803
+5192,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,FT,AB,1,23.81848211602026
+5197,"animal_class::[""goat"",""llama""]",animal_class,AND,TT,BA,1,10.015934992266349
+5200,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,TT,AB,1,20.04975113330962
+5204,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,FF,AB,0,0.23062033209253419
+5209,"cities::[""Changshu"",""Nagoya""]",cities,OR,FT,BA,1,15.082649602300386
+5216,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,TF,AB,1,14.399369718204316
+5220,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,FF,AB,0,-8.341381503269456
+5222,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,TF,BA,0,-8.649766492928165
+5229,"cities::[""Qujing"",""Ufa""]",cities,OR,TT,BA,1,25.83537795473238
+5230,"animal_class::[""bison"",""camel""]",animal_class,AND,TF,BA,0,-15.740496615332816
+5231,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,FT,BA,1,8.948609861644126
+5238,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,TT,AB,1,4.42721741002584
+5243,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,TT,BA,1,21.090394474619302
+5249,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,FT,BA,1,7.581733388890672
+5251,"cities::[""Agadir"",""Comilla""]",cities,AND,FT,BA,0,-17.117362526546092
+5252,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,TF,BA,1,9.014678188754976
+5256,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,FT,BA,0,-8.23351917686113
+5257,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,AND,TT,AB,1,-0.39572377975646056
+5258,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,FF,AB,0,6.567650300910424
+5259,"cities::[""Kunming"",""N'Djamena""]",cities,OR,TF,BA,1,11.326017836844528
+5268,"animal_class::[""parrot"",""tiger""]",animal_class,AND,FF,AB,0,-27.551243856354727
+5279,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,FT,BA,0,-8.32001379336911
+5283,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,FF,AB,0,-26.12808295919253
+5284,"animal_class::[""llama"",""mongoose""]",animal_class,AND,TF,BA,0,-21.590390823618655
+5286,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,TF,BA,0,-8.98165462225486
+5290,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,FT,AB,1,8.409475802453334
+5291,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,FT,AB,1,15.286381627952453
+5292,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,TT,BA,1,22.931194045444094
+5293,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,FT,BA,1,14.679418654368858
+5310,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,FT,AB,1,10.184049435514172
+5321,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,TF,AB,1,7.560780190947909
+5331,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,TT,BA,1,4.923595103875384
+5334,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,FF,BA,0,-1.335311885070722
+5344,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,TF,BA,0,-8.196211145859126
+5345,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,TF,BA,1,13.24212466755191
+5357,"cities::[""Maceio"",""Yerevan""]",cities,OR,FF,AB,0,-5.144879419120452
+5367,"cities::[""Maceio"",""Yerevan""]",cities,AND,FF,BA,0,-22.155466226291242
+5368,"cities::[""Jakarta"",""Shah Alam""]",cities,AND,TT,AB,1,14.604519063770327
+5371,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,FF,BA,0,-2.96720878542113
+5372,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,TF,BA,0,-11.216007951759279
+5385,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,FT,BA,0,-6.479689633367748
+5388,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,TF,BA,0,-13.488087985740524
+5394,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,TT,AB,1,24.168570296792904
+5410,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,TF,AB,1,2.679931949157636
+5412,"cities::[""Laibin"",""Seoul""]",cities,AND,TT,AB,1,7.610125307698372
+5413,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,TT,BA,1,11.522819563617077
+5418,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,TT,AB,1,13.26181647429449
+5425,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,FF,AB,0,-6.01432878173753
+5429,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,TT,BA,1,2.635621393151471
+5440,"cities::[""Algiers"",""Cochin""]",cities,OR,TF,AB,1,11.981792597211413
+5441,"cities::[""Hebi"",""Tomsk""]",cities,OR,TT,BA,1,14.50530026009077
+5442,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,FF,BA,0,-31.50713195250126
+5452,"animal_class::[""cat"",""vulture""]",animal_class,OR,FT,BA,1,10.44527222470839
+5459,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,FT,BA,1,0.18179180230648384
+5461,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,FT,BA,0,-4.325894248068485
+5466,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,TF,BA,1,10.986321189613294
+5468,"animal_class::[""hedgehog"",""mongoose""]",animal_class,OR,TF,BA,1,3.9957712237681156
+5472,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,TF,BA,1,12.053128516871467
+5473,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,FF,BA,0,-22.190100163059626
+5476,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,FT,BA,1,6.463986615963777
+5493,"cities::[""Qujing"",""Ufa""]",cities,AND,FT,AB,0,-17.369050823324198
+5497,"cities::[""Changshu"",""Nagoya""]",cities,OR,FT,AB,1,12.167224141443967
+5504,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,FT,AB,1,7.740209672086226
+5512,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,FF,BA,0,-4.765665939923188
+5513,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,TT,BA,1,22.923418904404407
+5514,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,FF,AB,0,-21.699617051301885
+5523,"animal_class::[""cat"",""vulture""]",animal_class,AND,FT,AB,0,-5.548844949728307
+5526,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,TT,BA,1,19.688542163228355
+5528,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,FT,BA,0,-7.158145569797304
+5529,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,TT,AB,1,20.406998610730284
+5550,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,FF,AB,0,-0.23054188262285846
+5556,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,FF,BA,0,-3.3475617263365836
+5559,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,TF,BA,1,18.248265261896247
+5570,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,TF,AB,0,-11.887483289967218
+5571,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,FF,BA,0,-12.573795358433692
+5573,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,TF,AB,0,-15.102629472255465
+5575,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,OR,FT,BA,1,11.833748908727893
+5579,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,OR,TT,AB,1,24.297747991623748
+5580,"animal_class::[""parrot"",""tiger""]",animal_class,AND,FT,BA,0,-9.743445625159294
+5586,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,FT,BA,1,11.091237481310184
+5589,"cities::[""Laibin"",""Seoul""]",cities,OR,FT,BA,1,3.023118330203268
+5600,"cities::[""Kunming"",""N'Djamena""]",cities,OR,FF,AB,0,-7.716753371672871
+5606,"element_symb::[""Cadmium"",""Cerium""]",element_symb,OR,FF,BA,0,-2.5973901382305415
+5607,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,FT,AB,0,-21.26241935383859
+5610,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,FF,BA,0,-21.159865092035812
+5614,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,FT,BA,0,-24.539052293043888
+5615,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,TT,AB,1,20.024150450636792
+5617,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,TT,AB,1,4.928894803024093
+5628,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,FT,BA,0,-22.9427149242019
+5630,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,TT,AB,1,25.31111085662813
+5633,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,FF,AB,0,-17.85270135871022
+5639,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,FF,BA,0,-7.841720895342476
+5641,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,TF,AB,1,14.295077846890068
+5653,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,TT,BA,1,9.760470563706766
+5654,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,FF,BA,0,-3.769235185650992
+5660,"cities::[""Agadir"",""Comilla""]",cities,OR,TT,AB,1,31.002129690402974
+5661,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,TF,AB,1,9.724162150289533
+5662,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,FT,BA,1,11.861069171005258
+5664,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,TT,BA,1,6.265393444791677
+5667,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,FF,BA,0,-28.877429308750727
+5675,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,TT,AB,1,13.912624352219233
+5682,"cities::[""Maceio"",""Yerevan""]",cities,AND,TF,BA,0,-15.457657283062865
+5694,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,TT,BA,1,10.790940193631315
+5696,"cities::[""Agadir"",""Comilla""]",cities,AND,FT,AB,0,-20.082657203138552
+5699,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,FT,AB,1,11.507269399157664
+5702,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,FT,AB,1,4.638946291876004
+5711,"cities::[""Maceio"",""Yerevan""]",cities,OR,TF,BA,1,10.614854473325
+5719,"cities::[""Algiers"",""Cochin""]",cities,OR,FT,AB,1,8.945353183134443
+5720,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,FF,AB,0,-19.896973671689928
+5724,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,TF,AB,1,14.257284367430302
+5725,"cities::[""Algiers"",""Cochin""]",cities,AND,FF,AB,0,-36.35205161645635
+5726,"cities::[""Kampala"",""Wenzhou""]",cities,AND,FT,BA,0,-19.732493444466147
+5733,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,FF,AB,0,-7.282501299796962
+5741,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,AND,TF,AB,0,-2.71715699622462
+5758,"animal_class::[""parrot"",""tiger""]",animal_class,OR,TF,AB,1,9.787327480069205
+5764,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,TT,BA,1,9.955638200640703
+5765,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,FF,BA,0,-8.425693556328934
+5766,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,FT,BA,1,13.676678395285677
+5777,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,FF,BA,0,-23.228478037433348
+5782,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,OR,TF,AB,1,9.026515716293469
+5791,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,FF,BA,0,-21.199148649956133
+5796,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,FF,AB,0,-8.743147066307884
+5800,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,TT,AB,1,6.41520174593459
+5803,"animal_class::[""llama"",""otter""]",animal_class,AND,TT,BA,1,9.744526754707998
+5807,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,TT,BA,1,23.905474863385674
+5808,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,FT,BA,0,-4.826118478441442
+5810,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,FF,AB,0,-4.553404431484873
+5813,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,TT,BA,1,28.5566285348634
+5819,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,FT,AB,1,11.944196556021524
+5822,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,FF,BA,0,-25.955132610720213
+5830,"cities::[""Maceio"",""Yerevan""]",cities,OR,TT,BA,1,29.322850981141354
+5834,"cities::[""Maceio"",""Yerevan""]",cities,OR,TT,AB,1,31.245166641740745
+5840,"cities::[""Hebi"",""Tomsk""]",cities,AND,TF,AB,0,-19.91081718933109
+5848,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,TT,AB,1,12.591203897938314
+5850,"cities::[""Bhopal"",""Kisangani""]",cities,OR,TF,AB,1,17.926822693752754
+5853,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,FF,AB,0,-27.193869537660127
+5855,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,TF,AB,0,-11.479754825758373
+5859,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,FT,AB,1,6.219960377134862
+5861,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,TF,AB,0,-20.793756849403366
+5868,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,TT,BA,1,16.869366888111188
+5875,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,FT,AB,1,6.477780361374417
+5880,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,FF,BA,0,-25.643608805313004
+5895,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,FF,AB,0,-4.847992533362252
+5896,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,TT,AB,1,19.092717272995344
+5908,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,TF,AB,0,-18.147841995880174
+5910,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,FT,AB,0,-6.461821373295523
+5911,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,FT,AB,0,-11.806511818305816
+5915,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,FT,AB,0,-13.064944576540128
+5921,"cities::[""Kunming"",""N'Djamena""]",cities,OR,TT,BA,1,31.642814424117592
+5923,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,TF,AB,1,3.7175845515443315
+5938,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,FT,AB,1,5.557159316721894
+5939,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,TT,AB,1,18.506658137870765
+5951,"animal_class::[""bee"",""frog""]",animal_class,OR,FF,AB,0,-5.069342326276434
+5954,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,OR,FT,BA,1,10.01589105962531
+5967,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,FF,BA,0,-3.763159045636745
+5969,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,FF,BA,0,-16.59478344522725
+5970,"animal_class::[""llama"",""mongoose""]",animal_class,AND,TF,AB,0,-10.605853038105353
+5972,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,TF,BA,0,-4.830602716369749
+5976,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,TT,BA,1,19.87729797283081
+5981,"animal_class::[""camel"",""elephant""]",animal_class,AND,FT,BA,0,-5.4370108203421
+5982,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,TT,BA,1,15.091511876608429
+5988,"animal_class::[""llama"",""mongoose""]",animal_class,OR,FF,AB,0,-6.909491360712378
+6000,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,FF,BA,0,-2.8669608518301146
+6001,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,TT,AB,1,20.9615488853263
+6003,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,TT,BA,1,5.146863089494731
+6004,"inventors::[""Alan Turing"",""James Watt""]",inventors,AND,FT,AB,0,-13.157367309625261
+6005,"animal_class::[""bison"",""camel""]",animal_class,AND,FT,AB,0,-12.18570805011662
+6011,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,TF,BA,1,-2.6783886016681415
+6023,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,FF,BA,0,-6.047557763908811
+6025,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,FF,BA,0,-23.42071392296534
+6026,"animal_class::[""bee"",""frog""]",animal_class,AND,TT,BA,1,6.23853485666897
+6027,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,FT,BA,0,-9.415222808196125
+6032,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,FT,BA,0,-0.24103871631952944
+6039,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,TF,AB,0,-6.071142658265221
+6040,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,TF,AB,1,13.259688768381803
+6043,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,FF,AB,0,-2.386143743733516
+6050,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,TF,BA,0,-5.30854066500441
+6056,"element_symb::[""Chromium"",""Radon""]",element_symb,OR,TT,AB,1,25.336606026468527
+6059,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,FF,AB,0,-25.515488518070377
+6062,"cities::[""Hebi"",""Tomsk""]",cities,AND,FT,BA,0,-14.015870879855031
+6066,"animal_class::[""camel"",""elephant""]",animal_class,OR,TF,AB,1,9.136110286994446
+6074,"animal_class::[""lobster"",""shark""]",animal_class,AND,TT,AB,1,7.319682100790592
+6076,"cities::[""Changshu"",""Nagoya""]",cities,OR,TT,BA,1,31.168493297552985
+6083,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,TT,AB,1,11.684169377035053
+6084,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,OR,FT,BA,1,9.75941191840447
+6085,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,TT,AB,1,6.262018471434887
+6088,"cities::[""Maceio"",""Yerevan""]",cities,AND,TT,BA,1,10.480534966735592
+6091,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,FF,AB,0,-7.122612184441514
+6097,"cities::[""Algiers"",""Cochin""]",cities,AND,TF,AB,0,-16.469263984957962
+6101,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,TT,AB,1,16.501964385657235
+6102,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,TT,AB,1,6.630211428257452
+6111,"cities::[""Bhopal"",""Kisangani""]",cities,AND,TT,BA,1,8.728452755964026
+6113,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,TF,AB,1,7.901265793963009
+6120,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,FF,BA,0,-11.944740924481298
+6121,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,FF,BA,0,-5.734045364135007
+6123,"animal_class::[""goat"",""llama""]",animal_class,AND,TF,BA,0,-9.472544118557732
+6124,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,FT,AB,0,-8.115326341156953
+6127,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,FT,BA,1,14.02499237534693
+6134,"animal_class::[""camel"",""elephant""]",animal_class,OR,FT,AB,1,9.63488128646651
+6137,"animal_class::[""llama"",""otter""]",animal_class,OR,TF,AB,1,10.631773683981821
+6138,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,FT,AB,0,-22.381910959435153
+6139,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,FF,BA,0,-3.621485831292672
+6141,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,FF,BA,0,-22.084119430569125
+6142,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,TT,AB,1,22.481945526735398
+6144,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,FF,AB,0,-15.805288886439326
+6147,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,FF,BA,0,-0.5249788825717232
+6152,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,TF,AB,0,-15.418800363465598
+6154,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,TT,BA,1,9.043955164205073
+6167,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,TT,BA,1,5.348027460122868
+6175,"cities::[""Bhopal"",""Kisangani""]",cities,AND,FF,BA,0,-24.866104524418347
+6180,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,TF,BA,0,-10.15882300460796
+6185,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,TT,AB,1,6.376294370411562
+6194,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,TF,BA,1,18.752803639565105
+6203,"cities::[""Laibin"",""Seoul""]",cities,AND,TT,BA,1,12.350596656414025
+6210,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,TT,AB,1,27.591355412503297
+6214,"animal_class::[""gorilla"",""llama""]",animal_class,AND,FT,AB,0,-17.332696379026633
+6216,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,TF,BA,1,7.974320127604775
+6217,"element_symb::[""Antimony"",""Praseodymium""]",element_symb,AND,TF,BA,0,-7.482773597918806
+6219,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,TT,AB,1,7.332574914649946
+6226,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,TF,AB,0,-11.929445002041625
+6230,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,TT,BA,1,11.544996525974874
+6231,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,TT,AB,1,8.157171749997971
+6232,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,FT,AB,0,-1.3562037514541163
+6235,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,TF,AB,1,14.632371041912108
+6247,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,TF,AB,0,-15.585260400903344
+6258,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,FF,AB,0,-11.260110648828691
+6261,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,FT,BA,1,9.83368418775101
+6263,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,FT,AB,1,9.237867221199274
+6267,"inventors::[""Charles Goodyear"",""Igor Sikorsky""]",inventors,OR,TF,BA,1,12.495664482819022
+6282,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,FT,AB,1,10.366680929406286
+6288,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,FF,AB,0,-10.541846749411164
+6291,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,TT,BA,1,19.1358961994738
+6296,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,FT,BA,0,-6.016190927279981
+6302,"animal_class::[""llama"",""mongoose""]",animal_class,OR,TF,AB,1,11.302062259799026
+6307,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,TF,BA,1,9.763277582655732
+6314,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,FF,AB,0,-7.380969448210219
+6316,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,TT,AB,1,2.166721025022985
+6321,"animal_class::[""cat"",""vulture""]",animal_class,OR,FT,AB,1,6.628698282435966
+6334,"animal_class::[""gorilla"",""llama""]",animal_class,OR,TF,AB,1,9.314760432504169
+6335,"animal_class::[""gorilla"",""hamster""]",animal_class,AND,FF,BA,0,-26.039168093274213
+6337,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,TT,BA,1,15.90977432002475
+6348,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,TF,BA,1,12.858712476962475
+6357,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,FT,AB,0,-16.006332569242392
+6358,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,TF,AB,0,-7.255667299855213
+6363,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,TT,BA,1,8.774147945426659
+6367,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,FF,AB,0,-3.654369031703752
+6375,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,TF,BA,1,18.69798282465418
+6379,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,TF,BA,1,7.773487346131956
+6381,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,FF,AB,0,-6.958492812392853
+6384,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,FT,AB,0,-9.417850113702276
+6402,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,FF,AB,0,-4.309009551949538
+6405,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,FT,AB,0,-13.128770893209868
+6408,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,TF,BA,0,-12.203094221352803
+6412,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,OR,FT,BA,1,5.404315106902802
+6419,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,TT,BA,1,1.8197837896458593
+6420,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,TT,AB,1,30.42216001530269
+6425,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,OR,TT,BA,1,14.290990326628972
+6428,"animal_class::[""llama"",""otter""]",animal_class,AND,FF,AB,0,-32.12351271993395
+6430,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,FF,AB,0,-27.06890999928355
+6433,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,FF,BA,0,1.1117572003244027
+6437,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,TF,AB,0,-6.849249804255279
+6439,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,TT,BA,1,12.218141110166172
+6444,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,FT,AB,1,9.844205146009935
+6449,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,FF,AB,0,-32.04579330724644
+6450,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,TT,BA,1,20.082926325640567
+6452,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,TT,BA,1,7.946212077196695
+6466,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,TF,AB,0,-19.002504534488782
+6467,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,TT,AB,1,3.2894165414521677
+6469,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,FT,AB,0,-11.511391558492614
+6470,"cities::[""Lianyungang"",""Puducherry""]",cities,OR,FT,AB,1,8.351616082776864
+6479,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,TF,AB,0,-9.690784846594031
+6484,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,FT,BA,1,10.584086257778745
+6485,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,FF,AB,0,-20.282590080121942
+6489,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,FF,AB,0,-5.754229948946457
+6493,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,TT,AB,1,20.17686486506232
+6499,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,TF,AB,1,3.2997863221855597
+6513,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,OR,TT,AB,1,20.5617414589968
+6518,"inventors::[""Hans Geiger"",""James Starley""]",inventors,AND,TF,BA,0,-8.792260679570916
+6520,"cities::[""Algiers"",""Cochin""]",cities,OR,FF,AB,0,-12.660267858768538
+6528,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,AND,TT,AB,1,9.930640159149746
+6536,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,TF,BA,1,13.011314759795228
+6546,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,FT,AB,1,1.9140732615698848
+6551,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,FF,BA,0,-4.981325851058065
+6552,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,TF,AB,1,10.407948572999162
+6559,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,TF,BA,1,10.500218708576064
+6561,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,AND,TT,AB,1,2.5605463134768347
+6562,"animal_class::[""llama"",""otter""]",animal_class,OR,FF,BA,0,-8.186571005122694
+6568,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,AND,TT,AB,1,-3.3812157773472666
+6569,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,TF,BA,1,8.241138625701254
+6575,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,TT,BA,1,14.39404701060824
+6578,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,FT,AB,1,-0.3807178579852355
+6588,"element_symb::[""Copper"",""Nitrogen""]",element_symb,AND,TF,AB,0,-7.447209312790765
+6593,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,OR,FT,BA,1,9.389352435055883
+6596,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,TF,BA,1,1.280139373685469
+6597,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,FF,AB,0,-2.200018799583403
+6599,"animal_class::[""goat"",""llama""]",animal_class,OR,FT,BA,1,4.617160286547118
+6602,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,TT,AB,1,9.848157838284601
+6605,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,FT,BA,0,-9.683311918399266
+6606,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,TT,BA,1,25.60785064747775
+6614,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,TF,AB,0,-7.558349174498512
+6616,"animal_class::[""bison"",""camel""]",animal_class,AND,TF,AB,0,-7.3809156244925225
+6630,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,FF,BA,0,-5.703661928305371
+6631,"cities::[""Dortmund"",""Ryazan'""]",cities,OR,FF,AB,0,-8.404038815022105
+6634,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,TF,BA,1,11.301619546439582
+6644,"animal_class::[""bee"",""frog""]",animal_class,AND,FT,AB,0,-13.963478581501867
+6649,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,AND,FT,BA,0,-7.20365885614997
+6658,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,TT,AB,1,11.818845238067427
+6662,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,TT,BA,1,8.978564623968449
+6663,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,TT,AB,1,6.594489656261202
+6672,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,FT,AB,1,9.16607380409326
+6673,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,FF,BA,0,-27.42505293506474
+6678,"cities::[""Kampala"",""Wenzhou""]",cities,OR,TF,AB,1,12.406156841922508
+6694,"cities::[""Kampala"",""Wenzhou""]",cities,AND,TT,AB,1,9.375077210515974
+6697,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,TT,AB,1,15.862739633987863
+6709,"animal_class::[""llama"",""otter""]",animal_class,OR,FF,AB,0,-6.341828790978495
+6710,"inventors::[""Daniel Fahrenheit"",""Jean-Bernard-Léon Foucault""]",inventors,AND,FF,AB,0,-8.51519921629314
+6712,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,FT,AB,0,-10.697255540258682
+6720,"sp_en_trans::[""imaginar"",""tercero""]",sp_en_trans,AND,FF,AB,0,-25.413948296294915
+6721,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,FT,BA,1,6.524384848328398
+6728,"element_symb::[""Cesium"",""Thulium""]",element_symb,OR,TT,AB,1,25.678768558580085
+6736,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,FT,BA,1,5.972005435580506
+6741,"animal_class::[""llama"",""otter""]",animal_class,OR,TT,BA,1,15.835354741239094
+6742,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,AND,FF,AB,0,-16.887127249211822
+6744,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,FT,BA,1,7.097048481309437
+6750,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,TF,BA,1,9.908953770813753
+6755,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,TT,BA,1,22.120855854816014
+6771,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,TT,AB,1,25.888274744407763
+6772,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,FT,BA,1,14.87301742040997
+6773,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,FF,AB,0,3.1926894100000247
+6775,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,TT,BA,1,21.885039560290057
+6778,"inventors::[""Ernest Swinton"",""Ernesto Blanco""]",inventors,OR,TT,BA,1,7.902236679970441
+6784,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,FF,BA,0,-9.498741481440018
+6788,"element_symb::[""Tellurium"",""Zirconium""]",element_symb,OR,FT,BA,1,7.361795239631366
+6791,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,TT,BA,1,10.746644537458842
+6792,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,TT,AB,1,21.506684161548485
+6794,"animal_class::[""llama"",""otter""]",animal_class,OR,TT,AB,1,22.22240677490897
+6797,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,OR,TF,BA,1,10.68489829043957
+6809,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,TF,AB,1,15.720331001584867
+6815,"inventors::[""Daisuke Inoue"",""Hans von Ohain""]",inventors,AND,FF,BA,0,-18.360136124751765
+6817,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,TT,AB,1,13.566799153967413
+6818,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,OR,FF,AB,0,-5.3119017622345215
+6824,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,FT,AB,0,2.527750735198862
+6830,"cities::[""Qujing"",""Ufa""]",cities,OR,FT,BA,1,10.941923069557244
+6831,"animal_class::[""camel"",""elephant""]",animal_class,AND,FF,BA,0,-18.173168150961363
+6840,"animal_class::[""camel"",""elephant""]",animal_class,OR,TT,AB,1,14.18460463497766
+6847,"animal_class::[""parrot"",""tiger""]",animal_class,AND,TF,AB,0,-15.023937651491329
+6852,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,TF,AB,1,12.713861267436995
+6853,"animal_class::[""raccoon"",""seagull""]",animal_class,AND,TF,BA,0,-9.401985049522956
+6854,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,TF,AB,1,4.690997731572715
+6862,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,FF,BA,0,-5.29736577918308
+6868,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,OR,FF,BA,0,-1.5091215007721122
+6870,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,AND,TF,BA,0,-5.7301831034943875
+6875,"animal_class::[""camel"",""elephant""]",animal_class,AND,TT,AB,1,11.809263248562253
+6877,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,OR,FF,AB,0,-6.550518732684592
+6888,"element_symb::[""Argon"",""Neodymium""]",element_symb,AND,FT,AB,0,-9.780015366083845
+6890,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,FF,BA,0,-28.019140282701862
+6891,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,FT,AB,1,5.157080720029346
+6897,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,TF,AB,0,-12.75769260131183
+6899,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,FF,BA,0,-7.827043902861888
+6905,"element_symb::[""Radium"",""Tellurium""]",element_symb,AND,TF,BA,0,-4.814081149947636
+6915,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,TF,BA,0,-7.981806513900324
+6918,"element_symb::[""Cadmium"",""Cerium""]",element_symb,AND,TF,AB,0,-14.399023429305291
+6919,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,TF,BA,0,-0.8708856229116915
+6921,"animal_class::[""gorilla"",""llama""]",animal_class,OR,TT,BA,1,12.955921527743524
+6923,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,TF,AB,1,9.833191452809878
+6926,"cities::[""Laibin"",""Seoul""]",cities,OR,FF,AB,0,-8.344288267623586
+6934,"sp_en_trans::[""familia"",""vender""]",sp_en_trans,AND,TT,AB,1,13.892911278522533
+6938,"cities::[""Laibin"",""Seoul""]",cities,OR,TF,AB,1,6.548112500844644
+6940,"cities::[""Jamshedpur"",""Pimpri""]",cities,OR,TF,BA,1,17.836201640706836
+6947,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,TF,AB,1,12.134155989921144
+6948,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,OR,FF,BA,0,-0.9333008496457103
+6951,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,FT,BA,0,-0.21270396050611406
+6956,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,FT,AB,0,-15.308807496702489
+6961,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,TT,AB,1,10.273621275931633
+6976,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,FF,AB,0,-30.420284548127256
+6977,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,TF,BA,0,-14.246177907014044
+6988,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,FF,BA,0,-28.87255120424907
+6995,"animal_class::[""llama"",""mongoose""]",animal_class,AND,TT,AB,1,7.4738324361469965
+6996,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,FF,BA,0,-3.034795470379286
+7005,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,TF,AB,1,5.6466665603302
+7013,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,TT,AB,1,15.180804451222707
+7016,"animal_class::[""bee"",""frog""]",animal_class,AND,FF,AB,0,-24.54386845058417
+7020,"animal_class::[""bee"",""frog""]",animal_class,OR,FF,BA,0,-7.311043663108079
+7023,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,TF,BA,0,-16.321711167028838
+7025,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,TF,BA,0,-7.919145655530416
+7038,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,TF,AB,1,11.407926886760393
+7042,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,AND,TT,BA,1,-2.861841532979533
+7048,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,FF,BA,0,-5.960989401172506
+7051,"animal_class::[""llama"",""mongoose""]",animal_class,AND,FF,BA,0,-26.765850564047568
+7055,"animal_class::[""gorilla"",""llama""]",animal_class,OR,FT,BA,1,14.030303497455648
+7058,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,TT,AB,1,28.214173740412612
+7060,"cities::[""Hebi"",""Tomsk""]",cities,OR,TT,AB,1,17.43538161768446
+7063,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,FT,BA,0,-12.22507349261517
+7067,"element_symb::[""Cobalt"",""Hydrogen""]",element_symb,OR,TT,BA,1,22.879034484760737
+7076,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,OR,FT,BA,1,13.335059900630867
+7077,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,FT,AB,1,7.981675933962572
+7078,"cities::[""Kunming"",""N'Djamena""]",cities,AND,FT,AB,0,-11.543634241065893
+7083,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,AND,TF,AB,0,-17.105667706997124
+7085,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,OR,TT,AB,1,27.261618646723548
+7087,"cities::[""Kunming"",""N'Djamena""]",cities,OR,FT,AB,1,16.117530235036362
+7096,"cities::[""Maceio"",""Yerevan""]",cities,OR,FT,AB,1,18.776893744632964
+7097,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,FT,BA,0,-14.130548270280173
+7099,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,FT,AB,1,5.292004272661282
+7100,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,AND,TF,AB,0,-11.492151248052844
+7114,"cities::[""Changshu"",""Nagoya""]",cities,AND,FF,AB,0,-30.888586122317463
+7121,"animal_class::[""deer"",""kangaroo""]",animal_class,OR,FT,AB,1,4.597282718084595
+7125,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,FF,AB,0,-7.435089193672198
+7126,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,TT,BA,1,7.319288783625593
+7128,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,AND,TT,BA,1,6.308750775727095
+7131,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,FF,BA,0,-18.166208591345708
+7132,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,TT,AB,1,3.026435345529783
+7139,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,TF,BA,1,9.799689898028305
+7141,"inventors::[""Alan Turing"",""James Watt""]",inventors,OR,TT,AB,1,17.118214291088364
+7151,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,TF,BA,1,11.967198841373943
+7153,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,TT,AB,1,1.9144786829345288
+7154,"animal_class::[""gazelle"",""sparrow""]",animal_class,OR,TT,BA,1,26.465776479622086
+7157,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,AND,FF,AB,0,-14.027074508391781
+7163,"inventors::[""Christian Huygens"",""Hippolyte Mège-Mouriès""]",inventors,OR,FF,AB,0,-5.900200949397414
+7164,"element_symb::[""Astatine"",""Palladium""]",element_symb,OR,FT,BA,1,7.941823978177477
+7171,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,TF,BA,1,10.804095433945342
+7177,"cities::[""Kampala"",""Wenzhou""]",cities,AND,FT,AB,0,-15.644555507477142
+7199,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,FF,AB,0,-11.932074508752565
+7203,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,FT,AB,1,9.021842027884125
+7205,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,TF,AB,1,11.591780270659292
+7216,"cities::[""Changshu"",""Nagoya""]",cities,AND,TF,BA,0,-15.548453892316854
+7218,"animal_class::[""gorilla"",""hamster""]",animal_class,OR,FF,AB,0,-10.267556703935398
+7220,"element_symb::[""Copper"",""Nitrogen""]",element_symb,OR,FT,AB,1,21.615937765842368
+7224,"cities::[""Kampala"",""Wenzhou""]",cities,OR,FF,BA,0,-11.411734212490941
+7226,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,TF,BA,0,-2.686385346691888
+7238,"element_symb::[""Radium"",""Tellurium""]",element_symb,OR,TF,AB,1,10.39141424271767
+7240,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,FF,AB,0,-17.004070286490794
+7242,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,FT,AB,0,-9.422283024169332
+7244,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,FF,AB,0,-2.5120445040218624
+7264,"element_symb::[""Copper"",""Dysprosium""]",element_symb,AND,FF,AB,0,-22.32125439577456
+7273,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,TF,BA,0,-14.841091129997462
+7275,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,FF,AB,0,-28.765996578256548
+7276,"animal_class::[""horse"",""hummingbird""]",animal_class,OR,TT,AB,1,32.394404980549105
+7280,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,TF,BA,1,1.1226061154077995
+7285,"animal_class::[""parrot"",""tiger""]",animal_class,AND,TT,BA,1,9.008745514190965
+7295,"element_symb::[""Boron"",""Selenium""]",element_symb,AND,FT,AB,0,-5.233272666404789
+7297,"animal_class::[""bison"",""camel""]",animal_class,OR,FF,BA,0,-11.359327272810912
+7310,"animal_class::[""bee"",""frog""]",animal_class,AND,FT,BA,0,-10.746230407934814
+7311,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,OR,TT,BA,1,15.54093874696623
+7312,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,TT,AB,1,26.56948360546133
+7316,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,TT,BA,1,9.06164241570795
+7318,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,AND,FT,BA,0,-4.384196391710864
+7322,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,FF,BA,0,-18.063489480501687
+7324,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,OR,TT,AB,1,17.274712614002233
+7328,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,FT,BA,0,-14.410738697448998
+7331,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,AND,FF,BA,0,-26.73555407072584
+7334,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,OR,FT,BA,1,5.966151072331316
+7335,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,FF,AB,0,-9.955309471299655
+7350,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,TF,AB,1,7.658196357041984
+7352,"cities::[""Jamshedpur"",""Pimpri""]",cities,AND,TT,AB,1,12.398411383795363
+7357,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,TF,BA,0,-2.396891154492183
+7358,"inventors::[""Linus Torvalds"",""Paul Gottlieb Nipkow""]",inventors,OR,TF,BA,1,7.173199873704647
+7361,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,FF,AB,0,-5.805463417404161
+7369,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,TF,AB,1,10.206551817459891
+7372,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,OR,TT,BA,1,25.019615985162673
+7373,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,TF,BA,1,13.102091454120059
+7376,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,FT,AB,0,-13.196055114845043
+7380,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,TT,BA,1,6.926450766295495
+7387,"cities::[""Hanoi"",""Lubumbashi""]",cities,AND,TT,AB,1,9.796607392798862
+7389,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,TF,AB,0,-10.510341591599154
+7390,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,TT,BA,1,11.353291107124337
+7398,"animal_class::[""llama"",""mongoose""]",animal_class,OR,TT,BA,1,14.875320671299981
+7408,"animal_class::[""cat"",""vulture""]",animal_class,AND,FF,BA,0,-26.206260697124883
+7417,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,OR,TT,BA,1,22.38454487643597
+7420,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,AND,FF,AB,0,-25.353313109048695
+7422,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,OR,TF,AB,1,6.903956566842748
+7426,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,FT,BA,1,11.19520646983425
+7435,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,TF,AB,0,-19.672210976585866
+7439,"element_symb::[""Boron"",""Phosphorus""]",element_symb,OR,FT,AB,1,5.309289089805611
+7443,"animal_class::[""aardvark"",""hyena""]",animal_class,AND,FT,BA,0,-13.002825377101738
+7456,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,TT,BA,1,18.806959214802717
+7465,"inventors::[""John Callcott Horsley"",""William Kelly""]",inventors,AND,TF,AB,0,-7.916892893804388
+7469,"sp_en_trans::[""hola"",""mes""]",sp_en_trans,AND,TT,BA,1,0.8417062310076306
+7487,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,FT,AB,0,-21.67422103810685
+7499,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,FF,BA,0,-25.483991546803647
+7500,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,FF,AB,0,-13.996436020807494
+7506,"element_symb::[""Phosphorus"",""Praseodymium""]",element_symb,AND,FF,AB,0,-23.46014523958817
+7516,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,OR,TF,BA,1,9.22474291622214
+7519,"cities::[""Agadir"",""Comilla""]",cities,AND,FF,AB,0,-28.851357718342996
+7529,"cities::[""Hanoi"",""Lubumbashi""]",cities,OR,TT,BA,1,25.108500280199628
+7547,"cities::[""Qujing"",""Ufa""]",cities,AND,FF,BA,0,-26.206614575247585
+7557,"inventors::[""Hans von Ohain"",""Reginald Fessenden""]",inventors,OR,TF,AB,1,2.144113447121413
+7561,"element_symb::[""Chromium"",""Radon""]",element_symb,AND,TF,AB,0,-8.979238808464679
+7564,"animal_class::[""horse"",""hummingbird""]",animal_class,AND,TT,AB,1,8.448561829517276
+7565,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,OR,TF,BA,1,4.180342349816588
+7568,"element_symb::[""Boron"",""Osmium""]",element_symb,AND,TT,BA,1,9.033670991129078
+7589,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,FT,AB,1,11.982990355801041
+7598,"animal_class::[""deer"",""kangaroo""]",animal_class,AND,TT,AB,1,4.897867957397864
+7604,"element_symb::[""Gold"",""Ruthenium""]",element_symb,AND,FF,BA,0,-8.064969589849618
+7618,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,TF,BA,0,-6.716733140850169
+7619,"element_symb::[""Gold"",""Ruthenium""]",element_symb,OR,FT,BA,1,18.960412146894463
+7621,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,TT,AB,1,17.132439545908596
+7637,"element_symb::[""Gallium"",""Molybdenum""]",element_symb,OR,FF,AB,0,-3.1681231569140804
+7639,"animal_class::[""bison"",""camel""]",animal_class,OR,TT,BA,1,12.99526930844478
+7640,"cities::[""Dortmund"",""Ryazan'""]",cities,AND,FF,AB,0,-30.07383734284527
+7647,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,OR,FT,BA,1,11.149979276096264
+7657,"element_symb::[""Actinium"",""Platinum""]",element_symb,OR,FF,AB,0,-6.057161926871192
+7660,"cities::[""Bhopal"",""Kisangani""]",cities,AND,TF,BA,0,-10.328570263469825
+7663,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,AND,TT,AB,1,6.558753360881706
+7677,"cities::[""Bhopal"",""Kisangani""]",cities,OR,TF,BA,1,8.10613251963018
+7678,"inventors::[""Albert Ghiorso"",""Alexander Graham Bell""]",inventors,AND,FF,BA,0,-5.704178935242665
+7680,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,OR,FT,AB,1,6.71655833516011
+7683,"sp_en_trans::[""abrigo"",""ejemplo""]",sp_en_trans,OR,TT,BA,1,23.66897117453669
+7687,"inventors::[""Fridtjof Nansen"",""Mary Walton""]",inventors,OR,FF,AB,0,3.2842758908818137
+7688,"animal_class::[""raccoon"",""seagull""]",animal_class,OR,TF,BA,1,9.093971576520754
+7689,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,AND,FT,BA,0,1.4451452403349576
+7690,"sp_en_trans::[""guardar"",""vecino""]",sp_en_trans,AND,FT,BA,0,-12.84743569509432
+7691,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,FT,BA,0,-1.7974144762909625
+7695,"sp_en_trans::[""enemigo"",""esposa""]",sp_en_trans,AND,TF,BA,0,-18.318684712312344
+7697,"cities::[""Hebi"",""Tomsk""]",cities,OR,FF,AB,0,-10.866661682917979
+7698,"inventors::[""Garrett Morgan"",""Levi Strauss""]",inventors,OR,TT,BA,1,12.221527364993403
+7699,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,TF,BA,0,-11.956155469312378
+7706,"cities::[""Abu Ghurayb"",""Porto Velho""]",cities,OR,FF,BA,0,-4.606718014793568
+7707,"element_symb::[""Lanthanum"",""Technetium""]",element_symb,AND,TF,BA,0,-7.86812379743431
+7708,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,FT,BA,1,-0.2503978423409694
+7710,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,FT,AB,1,16.30316680236988
+7717,"inventors::[""Chester Carlson"",""Ignazio Porro""]",inventors,AND,TF,BA,0,-10.524246800622613
+7721,"inventors::[""Carl Sontheimer"",""Elihu Thomson""]",inventors,OR,TT,BA,1,7.271277466069541
+7723,"sp_en_trans::[""invierno"",""mar""]",sp_en_trans,AND,FF,AB,0,-27.2243113614554
+7728,"cities::[""Changshu"",""Nagoya""]",cities,AND,FT,AB,0,-13.145168483606424
+7736,"inventors::[""Charles Townes"",""Galileo Galilei""]",inventors,AND,FF,BA,0,-18.55335570574916
+7737,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,FF,BA,0,-4.928358924415822
+7740,"cities::[""Bhopal"",""Kisangani""]",cities,OR,FF,BA,0,-8.90345140405595
+7741,"inventors::[""Igor Tamm"",""Willis Carrier""]",inventors,OR,TF,AB,1,7.228947820061822
+7747,"sp_en_trans::[""abrigo"",""pagar""]",sp_en_trans,AND,FT,AB,0,-14.749139115730872
+7752,"element_symb::[""Molybdenum"",""Radon""]",element_symb,OR,TF,AB,1,11.369216022200934
+7753,"element_symb::[""Manganese"",""Neon""]",element_symb,AND,FT,BA,0,-16.670378596377937
+7756,"animal_class::[""llama"",""otter""]",animal_class,AND,TF,AB,0,-12.889074250567113
+7759,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,TT,BA,1,14.113481181329266
+7760,"element_symb::[""Boron"",""Osmium""]",element_symb,OR,TT,BA,1,18.62978530460426
+7763,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,TF,AB,1,10.079117439592547
+7767,"cities::[""Changshu"",""Nagoya""]",cities,AND,FT,BA,0,-17.74035570224062
+7771,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,AND,FT,AB,0,-3.411418227042439
+7776,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,AND,FT,BA,0,-10.331036691489802
+7778,"sp_en_trans::[""pagar"",""persona""]",sp_en_trans,OR,TF,AB,1,6.112011414553187
+7781,"element_symb::[""Astatine"",""Palladium""]",element_symb,AND,FF,BA,0,-19.082387325873967
+7782,"animal_class::[""goat"",""llama""]",animal_class,AND,TF,AB,0,-7.408272336045758
+7783,"inventors::[""Jacob Perkins"",""John Boyd Dunlop""]",inventors,OR,FF,AB,0,-2.708440843016872
+7786,"cities::[""Tlaquepaque"",""Vladivostok""]",cities,AND,TF,AB,0,-19.373270329739135
+7787,"element_symb::[""Actinium"",""Platinum""]",element_symb,AND,FT,AB,0,-12.595692154217636
+7793,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,FT,AB,0,-7.405969656672422
+7796,"animal_class::[""goat"",""llama""]",animal_class,AND,FF,BA,0,-23.097553997937553
+7798,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,TT,AB,1,14.539083282313939
+7807,"sp_en_trans::[""cabeza"",""lento""]",sp_en_trans,AND,FF,AB,0,-27.526247594564452
+7810,"element_symb::[""Argon"",""Neodymium""]",element_symb,OR,FT,AB,1,9.15720135425342
+7813,"animal_class::[""bison"",""camel""]",animal_class,OR,TF,AB,1,14.11569970431838
+7814,"cities::[""Jingmen"",""Tolyatti""]",cities,AND,TT,AB,1,7.397643314755495
+7823,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,TF,AB,1,6.683925387449726
+7831,"sp_en_trans::[""caer"",""rey""]",sp_en_trans,OR,TT,AB,1,27.085739460739404
+7838,"element_symb::[""Manganese"",""Neon""]",element_symb,OR,FT,BA,1,11.435229579345092
+7842,"element_symb::[""Boron"",""Selenium""]",element_symb,OR,TT,AB,1,22.305082457143165
+7854,"cities::[""Bhopal"",""Kisangani""]",cities,AND,FT,BA,0,-11.763084365475507
+7857,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,TT,AB,1,4.044217557318435
+7862,"cities::[""Mianzhu, Deyang, Sichuan"",""Zibo""]",cities,AND,TT,AB,1,6.009637925296817
+7876,"cities::[""Qujing"",""Ufa""]",cities,AND,TT,AB,1,9.74819909322551
+7878,"inventors::[""Bartolomeo Cristofori"",""Joseph Glidden""]",inventors,AND,TF,BA,0,-4.914064648841602
+7879,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,FF,BA,0,-23.502970590895266
+7883,"inventors::[""George Devol"",""Guglielmo Marconi""]",inventors,OR,TT,BA,1,20.542959521976165
+7885,"cities::[""Jingmen"",""Tolyatti""]",cities,OR,FF,BA,0,-8.782789569332895
+7896,"element_symb::[""Copper"",""Dysprosium""]",element_symb,OR,TF,AB,1,12.859840015072802
+7899,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,AND,TF,AB,0,-7.120906603721883
+7901,"sp_en_trans::[""ejemplo"",""gato""]",sp_en_trans,AND,FF,AB,0,-22.803908586559203
+7902,"cities::[""Lianyungang"",""Puducherry""]",cities,AND,TF,BA,0,-20.61999561680847
+7906,"inventors::[""Hans von Ohain"",""John Kay""]",inventors,OR,FT,BA,1,9.244017708352436
+7911,"inventors::[""Hans Goldschmidt"",""John Ambrose Fleming""]",inventors,OR,TF,AB,1,-0.07893535144129293
+7915,"inventors::[""Hans Geiger"",""James Starley""]",inventors,OR,TF,BA,1,11.900643412186042
+7916,"element_symb::[""Molybdenum"",""Radon""]",element_symb,AND,TT,BA,1,7.601211332783979
+7923,"inventors::[""Emile Berliner"",""Thomas Tompion""]",inventors,AND,TF,AB,0,-14.954220020018536
+7937,"sp_en_trans::[""oferta"",""siete""]",sp_en_trans,OR,TT,AB,1,21.646613058417007
+7940,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,OR,TT,BA,1,28.871209214787893
+7949,"animal_class::[""hedgehog"",""mongoose""]",animal_class,AND,TT,AB,1,7.651496801255552
+7952,"inventors::[""Elisha Gray"",""Georges Claude""]",inventors,OR,TT,BA,1,18.12573109167007
+7953,"cities::[""Kampala"",""Wenzhou""]",cities,OR,TT,BA,1,33.89745381621047
+7954,"cities::[""Laibin"",""Seoul""]",cities,AND,FF,BA,0,-32.13637412643891
+7960,"sp_en_trans::[""leer"",""temprano""]",sp_en_trans,AND,TT,AB,1,10.412718593888409
+7964,"animal_class::[""parrot"",""tiger""]",animal_class,AND,TF,BA,0,-18.95246245938432
+7968,"element_symb::[""Cesium"",""Thulium""]",element_symb,AND,TF,AB,0,-11.894041928112564
+7974,"sp_en_trans::[""caliente"",""vecino""]",sp_en_trans,AND,TT,BA,1,10.566446931968827
+7975,"animal_class::[""gazelle"",""sparrow""]",animal_class,AND,FT,AB,0,-10.44609316193515
+7976,"sp_en_trans::[""clase"",""conectar""]",sp_en_trans,OR,FF,AB,0,-5.571191844213996
+7982,"inventors::[""Joseph Glidden"",""Narinder Singh Kapany""]",inventors,AND,FF,AB,0,-19.318541198891854
+7985,"animal_class::[""lobster"",""shark""]",animal_class,OR,TF,AB,1,11.962972614506919
+7987,"element_symb::[""Boron"",""Phosphorus""]",element_symb,AND,TF,AB,0,-10.78987888346362
+7990,"animal_class::[""cat"",""vulture""]",animal_class,OR,TT,BA,1,23.688283378127515
+7997,"sp_en_trans::[""oscuro"",""primero""]",sp_en_trans,AND,TF,BA,0,-11.76076229918007
+7999,"sp_en_trans::[""morir"",""mujer""]",sp_en_trans,AND,FF,AB,0,-22.31758424960786

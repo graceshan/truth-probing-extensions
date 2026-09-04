@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "analysis_scope": "all-layer robustness sweep; operational layer remains frozen at 22",
+  "n_layers": 28,
+  "primary_layer": 22,
+  "layer_22_consistency_checks": {
+    "atomic_heldout_auroc": {
+      "sweep_value": 0.9995542309378465,
+      "pass1_value": 0.9995542309378465,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_truth_auroc": {
+      "sweep_value": 0.9458666666666667,
+      "pass1_value": 0.9458666666666667,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_truth_auroc": {
+      "sweep_value": 0.6790833333333334,
+      "pass1_value": 0.6790833333333334,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_TT_vs_mixed_auroc": {
+      "sweep_value": 0.9275375,
+      "pass1_value": 0.9275375,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_mixed_vs_FF_auroc": {
+      "sweep_value": 0.6816,
+      "pass1_value": 0.6816,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_TT_vs_mixed_auroc": {
+      "sweep_value": 0.8336,
+      "pass1_value": 0.8336,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_mixed_vs_FF_auroc": {
+      "sweep_value": 0.580275,
+      "pass1_value": 0.580275,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "and_range_over_sd": {
+      "sweep_value": 2.606658466780245,
+      "pass1_value": 2.606658466780245,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    "or_range_over_sd": {
+      "sweep_value": 1.5097718116123047,
+      "pass1_value": 1.509771811612305,
+      "absolute_difference": 2.220446049250313e-16,
+      "pass": true
+    },
+    "all_pass": true
+  },
+  "headline_metric_ranges_across_layers": {
+    "atomic_heldout_auroc": {
+      "min": 0.5319166964460048,
+      "max": 0.9995542309378465,
+      "median": 0.9983329710692195
+    },
+    "and_truth_auroc": {
+      "min": 0.5010333333333333,
+      "max": 0.9498666666666666,
+      "median": 0.8839666666666666
+    },
+    "or_truth_auroc": {
+      "min": 0.4944916666666667,
+      "max": 0.8313333333333333,
+      "median": 0.6791875
+    },
+    "and_minus_or_auroc_gap": {
+      "min": -0.029400000000000093,
+      "max": 0.2667833333333334,
+      "median": 0.13820416666666674
+    },
+    "and_TT_vs_mixed_auroc": {
+      "min": 0.502175,
+      "max": 0.9307874999999999,
+      "median": 0.8448687500000001
+    },
+    "and_mixed_vs_FF_auroc": {
+      "min": 0.4969375,
+      "max": 0.79545,
+      "median": 0.6368437499999999
+    },
+    "or_TT_vs_mixed_auroc": {
+      "min": 0.499975,
+      "max": 0.9249,
+      "median": 0.75096875
+    },
+    "or_mixed_vs_FF_auroc": {
+      "min": 0.494875,
+      "max": 0.751075,
+      "median": 0.6056687500000001
+    },
+    "and_range_over_sd": {
+      "min": 0.07134321833856837,
+      "max": 2.945950429762062,
+      "median": 2.151932345719021
+    },
+    "or_range_over_sd": {
+      "min": 0.07740889146595883,
+      "max": 2.8445635703895844,
+      "median": 1.3881244016971754
+    },
+    "OR_range_compression": {
+      "min": -0.29970401017827286,
+      "max": 0.8555618460891995,
+      "median": 0.28595903469668754
+    }
+  },
+  "counts": {
+    "layers_AND_auroc_gt_OR_auroc": 25,
+    "layers_OR_TT_mixed_gt_mixed_FF": 25,
+    "layers_OR_range_lt_AND_range": 22
+  },
+  "high_atomic_performance": {
+    "threshold": 0.99,
+    "count": 19,
+    "layers": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "median_AND_auroc": 0.9104333333333334,
+    "median_OR_auroc": 0.704,
+    "median_OR_mixed_vs_FF_auroc": 0.621475,
+    "median_OR_range_compression": 0.388026080110339
+  },
+  "sanity_checks": {
+    "compound_heldout_rows_each_layer": 1600,
+    "compound_heldout_pairs": 100,
+    "each_connective_cell_rows": 200,
+    "zero_atomic_entity_overlap": true,
+    "zero_compound_pair_overlap": true,
+    "all_scores_finite": true,
+    "saved_atomic_split_exactly_reproduced": true,
+    "selected_layer_not_changed": true
+  },
+  "sources": {
+    "atomic_split": "results/qwen_union_probe_gate/split_metadata.csv",
+    "atomic_saved_metrics": "results/qwen_union_probe_gate/per_layer_metrics.csv",
+    "selected_layer22_probe": "results/qwen_union_probe_gate/selected_probe.npz",
+    "compound_activations": "acts/r1_quadruples.npy",
+    "compound_pair_split": "results/r1/g_c_cg/pair_split.csv"
+  }
+}
