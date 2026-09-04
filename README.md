@@ -1,107 +1,363 @@
-# Truth probes average their conjuncts
+# When Atomic Truth Directions Fail to Compose
 
-A linear "truth probe" applied to compound statements is not reading the logical
-operator — it computes a weighted average of its conjuncts' truth scores plus a
-constant, connective-dependent offset:
+This repository contains code and results for a research project on whether linear truth probes trained on **atomic factual statements** generalize to **compound statements** formed with `and` and `or`.
 
+The main finding is that atomic truth directions transfer very differently across logical operators. Across both **Qwen2.5-7B-Instruct** and **Qwen3-8B**, a frozen atomic truth probe ranks conjunction truth well but performs substantially worse on disjunctions:
+
+| Model | Atomic AUROC | AND transfer | OR transfer |
+|---|---:|---:|---:|
+| Qwen2.5-7B-Instruct | 0.9996 | 0.9459 | 0.6791 |
+| Qwen3-8B | 0.9995 | 0.9750 | 0.7046 |
+
+A balanced `TT / TF / FT / FF` benchmark makes it possible to decompose this gap. The atomic direction separates **TT from mixed-truth compounds** much better than it separates **mixed-truth compounds from FF**. This geometry is favorable for AND, whose positive class is TT, but unfavorable for OR, whose negative class is FF.
+
+For OR, the particularly weak mixed-vs-FF distinction replicates across both models:
+
+- Qwen2.5: **0.580 AUROC**
+- Qwen3: **0.611 AUROC**
+
+This does not mean compound truth is absent from the representation. A linear probe trained directly on compound truth at the **same layer** achieves >0.99 AUROC on OR in both models. The result is therefore about what the **atomic truth direction exposes under composition**, rather than an inability of the model or layer to represent compound truth.
+
+## Research question
+
+Linear probes can decode whether simple factual statements are true with extremely high accuracy. But real statements often combine multiple facts, so truth information may be distributed across several parts of a sequence.
+
+I ask:
+
+> **Which constituent-truth distinctions does an atomic truth direction preserve under logical composition, and which does it fail to expose?**
+
+The project focuses on transfer rather than merely asking whether compound truth is linearly decodable: the atomic probe is trained and selected using atomic data only, frozen, and then evaluated on compounds without tuning.
+
+## Experimental design
+
+### Atomic probe
+
+For each model, I train an L2 logistic-regression probe on affirmative and negated atomic statements from five topics:
+
+- cities
+- Spanish–English translations
+- inventors
+- element symbols
+- animal classes
+
+Splits are grouped by entity so that entities do not cross the atomic train/test boundary.
+
+Activations are taken from the **last real token** of the raw statement, without a chat template.
+
+The operational layer is selected solely by held-out atomic AUROC:
+
+- **Qwen2.5-7B-Instruct:** layer 22
+- **Qwen3-8B:** layer 21
+
+The probe is then frozen before compound results are examined.
+
+### Compound benchmark
+
+The main benchmark contains **8,000 compound statements** organized into a complete balanced truth table:
+
+- AND / OR
+- TT / TF / FT / FF
+- AB / BA surface ordering
+
+There are 500 canonical fact pairs, each producing 16 compound examples.
+
+Evaluation uses 100 held-out canonical pairs, giving 1,600 held-out rows and exactly 200 examples in each connective × truth-cell combination.
+
+This balanced design is important because it lets overall AND and OR AUROC be decomposed exactly into the pairwise truth-cell distinctions required by each operator.
+
+## Main results
+
+### 1. Atomic truth transfers much better to AND than OR
+
+Frozen atomic probe:
+
+| Model | AND | OR | Gap |
+|---|---:|---:|---:|
+| Qwen2.5-7B-Instruct | 0.9459 | 0.6791 | 0.2668 |
+| Qwen3-8B | 0.9750 | 0.7046 | 0.2704 |
+
+For Qwen3, a 2,000-replicate canonical-pair bootstrap gives:
+
+- AND: 0.9750 `[0.9656, 0.9839]`
+- OR: 0.7046 `[0.6871, 0.7257]`
+- AND − OR: 0.2704 `[0.2476, 0.2881]`
+
+The nearly identical gap across independently trained probes on two model generations was a central replication check.
+
+### 2. The gap can be localized to constituent-truth boundaries
+
+For a balanced four-cell benchmark:
+
+\[
+AUROC_{AND}
+=
+\frac{
+A(TT,TF)+A(TT,FT)+A(TT,FF)
+}{3}
+\]
+
+while
+
+\[
+AUROC_{OR}
+=
+\frac{
+A(TT,FF)+A(TF,FF)+A(FT,FF)
+}{3}.
+\]
+
+The frozen atomic direction preferentially separates the **upper boundary** (`TT → mixed`) over the **lower boundary** (`mixed → FF`).
+
+| Model | AND TT–mixed | AND mixed–FF | OR TT–mixed | OR mixed–FF |
+|---|---:|---:|---:|---:|
+| Qwen2.5 | 0.928 | 0.682 | 0.834 | 0.580 |
+| Qwen3 | 0.963 | 0.745 | 0.808 | 0.611 |
+
+This matters because AND primarily requires distinguishing TT from the other cells, while OR critically requires distinguishing mixed-truth statements from FF.
+
+### 3. OR score geometry is compressed
+
+Along the frozen atomic direction, the mean TT-to-FF score range is smaller for OR than AND:
+
+| Model | AND range | OR range | OR / AND |
+|---|---:|---:|---:|
+| Qwen2.5 | 10.84 | 6.17 | 0.569 |
+| Qwen3 | 14.45 | 6.58 | 0.456 |
+
+For Qwen3, the 95% bootstrap CI for the range ratio is `[0.398, 0.512]`.
+
+The corresponding OR/AND pooled within-cell SD ratio is 1.025 `[0.922, 1.121]`, so the reduced aggregate signal-to-noise ratio is associated primarily with contraction of the between-cell range rather than an obvious increase in pooled within-cell dispersion.
+
+This is descriptive evidence about frozen score geometry, not a causal explanation of how compound truth is represented.
+
+### 4. Compound truth remains linearly recoverable
+
+A new logistic-regression probe trained directly on compound truth at the same representation layer performs nearly perfectly:
+
+| Model | AND | OR |
+|---|---:|---:|
+| Qwen2.5 | 0.9988 | 0.9914 |
+| Qwen3 | 0.9977 | 0.9950 |
+
+For Qwen3, the OR mixed-vs-FF distinction rises from **0.611** under the frozen atomic direction to **0.993** under compound supervision.
+
+Thus the weak OR transfer does not establish that OR-relevant truth information is absent from the layer. Rather, the atomic direction fails to expose it effectively.
+
+## Robustness and checks
+
+Several checks were run to test the interpretation rather than relying only on the headline layer.
+
+### Layer robustness
+
+For Qwen2.5, standalone atomic AUROC is ≥0.99 at layers 9–27.
+
+Across all **19/19** layers in this high-atomic-performance plateau:
+
+- AND transfer AUROC > OR transfer AUROC
+- OR TT-vs-mixed AUROC > OR mixed-vs-FF AUROC
+
+Across all 28 layers, both inequalities hold at 25/28 layers.
+
+### Independent Qwen3 replication
+
+The Qwen3 experiment was run as a separate replication arm:
+
+- a new 4096-dimensional probe was trained from scratch;
+- the operational layer was independently selected from atomic data;
+- the saved entity split was reused;
+- the probe was frozen before compound evaluation;
+- no Qwen2.5 probe weights were transferred to Qwen3.
+
+The AND−OR gap replicated at 0.270, compared with 0.267 in Qwen2.5.
+
+### Surface-position check
+
+An initial TF-vs-FT diagnostic was later found not to test surface position: `TF` and `FT` were defined over canonical `A/B` identities before the `AB/BA` ordering transformation.
+
+I therefore recomputed the comparison using actual surface position.
+
+With AUROC oriented as “first constituent true” scoring above “second constituent true”:
+
+| Model | AND | OR |
+|---|---:|---:|
+| Qwen2.5 | 0.348 | 0.434 |
+| Qwen3 | 0.294 | 0.424 |
+
+This reveals a real positional effect, especially for conjunctions: mixed compounds tend to score higher when the **second** constituent is true. The original canonical TF-vs-FT ≈ 0.5 result should therefore not be interpreted as evidence of positional symmetry.
+
+## Repository structure
+
+```text
+data/
+    Atomic and compound datasets.
+
+acts/
+    Extraction metadata and provenance.
+    Large activation arrays are intentionally excluded from git.
+
+scripts/
+    Activation extraction and analysis scripts.
+
+scripts/mechanism/
+    Qwen2.5 mechanism and robustness analyses.
+
+results/
+    r1/mechanism/
+        Qwen2.5 decomposition, geometry, bootstrap,
+        and layer-sweep outputs.
+
+    qwen3_8b_union_probe_gate/
+        Qwen3 atomic layer selection, split metadata,
+        frozen probe, and per-layer metrics.
+
+    qwen3_8b_r1_core/
+        Qwen3 frozen-transfer results, pairwise AUROCs,
+        score geometry, compound positive control,
+        and cross-model comparison.
+
+    paper_round2_checks/
+        Fixed-seed qualitative samples,
+        corrected surface-position analysis,
+        Qwen3 bootstrap confidence intervals,
+        and layer-sweep verification.
 ```
-Score(A ⊕ B) ≈ w₁·s(A) + w₂·s(B) + c_⊕
+
+## Reproducing the main analyses
+
+The large cached activation arrays are intentionally not committed because they total several GB.
+
+The analysis pipeline is:
+
+```text
+source datasets
+      ↓
+activation extraction
+      ↓
+cached activations (.npy, gitignored)
+      ↓
+atomic probe selection
+      ↓
+freeze probe
+      ↓
+compound transfer evaluation
+      ↓
+mechanism / robustness analyses
 ```
 
-This behaves like truth-conditional understanding on the standard evaluations
-while being conjunct-averaging. The project measures the decomposition fresh at
-7B and shows that training directly on compounds does not fix it — it only buys
-a constant offset.
+### Qwen3 atomic gate
 
-**Model:** Qwen2.5-7B-Instruct (primary), Llama-3.1-8B-Instruct (reserve second
-model). Builds on the prior 1.5B work: <https://graceshan.github.io/truth-probing/>
+```bash
+python scripts/14_qwen3_atomic_union_probe_gate.py
+```
 
----
+This selects the Qwen3 operational layer using atomic held-out data only and saves the selected probe and split metadata under:
 
-## The question
+```text
+results/qwen3_8b_union_probe_gate/
+```
 
-Is a linear truth probe's compound score a readout of the compound's truth
-value, or a weighted average of its parts?
+### Qwen3 compound replication
 
----
+```bash
+python scripts/15_qwen3_r1_core_replication.py
+```
 
-## The four arms
+This evaluates the frozen atomic probe on the R1 compound benchmark and trains the same-layer compound positive-control probe.
 
-Written in this order; **executed in reverse priority** — R3 is cheap and
-near-certain so it is built last, R1/R2 carry the real uncertainty and get the
-clock.
+Outputs are written to:
 
-| Arm | Claim | Evidence | GPU |
-|---|---|---|---|
-| **R3** — motivation, reads first | The existing evaluation *cannot* establish operator-reading. In five of six disjunction sets the anaphoric template forces the second disjunct false, so TT is never realized; on a support without TT, OR ≡ XOR. | Cell-count audit of Bürger's released CSVs | none |
-| **Figure 1** | The model distinguishes AND from OR; the probe barely moves. | Per-cell behavioral accuracy overlaid on per-cell probe score, same sentences | — |
-| **R1** — spine | The score is a weighted average of the conjuncts plus a constant connective offset, and training directly on compounds does not fix it. | Interaction contrast Δ, gap ratios, union → compound-trained escalation, dilution curve, layer robustness | yes |
-| **R2** — support | On a sentence class no additive readout can solve (XOR), the linear probe fails; an MLP on identical activations tells us whether the information is absent or merely not linearly readable. | Linear vs MLP at the critical cell, count-label positive control | yes |
+```text
+results/qwen3_8b_r1_core/
+```
 
-Narrative order R3 → Figure 1 → R1 → R2: lead with *the field's instrument
-cannot test this*, then build one that can.
+### Paper robustness checks
 
----
+```bash
+python scripts/16_paper_round2_checks.py
+```
 
-## Key methodological commitments
+This reproduces the fixed-seed qualitative samples, corrected surface-position diagnostic, Qwen3 bootstrap confidence intervals, and layer-sweep checks.
 
-These are the moves that separate "I found a null" from "I found a null and
-ruled out the boring reasons it could be spurious." They are not optional.
+Outputs are written to:
 
-- **Interaction contrast per connective, never pooled.** `Δ = μ_TT − μ_TF − μ_FT + μ_FF`. Additive → Δ = 0; operator-read AND → large positive; operator-read OR → large negative. Pooling AND and OR manufactures the exact null the additive hypothesis predicts.
-- **Offset boxplots are the cancellation control for Δ**, not decoration — a scalar Δ ≈ 0 can be faked by AND-like and OR-like effects averaging across items; the per-cell distributions catch it.
-- **Count-label positive control runs before any R2 failure is interpreted.** Relabel identical activations "at least one true"; the linear probe must clear every cell, or the setup can't clear the bar and the truth-label failure is uninterpretable.
-- **Rung-zero TT gate.** TT behavioral accuracy ≥ 80% on Set A, or R2 does not run. Reported per cell, never averaged.
-- **Union-probe sanity gate.** Held-out AUROC ≥ 0.95 before the direction is allowed to carry the R1 decomposition. Trained on affirmative **and** negated atomics — negations are what make the gate meaningful.
-- **Every reported quantity names its probe** (see plan §5). "A probe I train" appears nowhere. Atom scores and compound scores in any single formula come from the *same* probe on the *same* scale.
-- **Scale claim is mechanism-level, not number-level.** The 1.5B decomposition was measured on a *cities* probe this project does not run; the 7B numbers are a fresh measurement of the same mechanism, not a like-for-like replication.
-- **Prompt-regime caveat honoured.** Behavioral lines use a chat template, probes read raw-statement activations, and those regimes have low cross-regime geometry (Poulis §5). Figure 1's caption states this rather than implying a clean apples-to-apples comparison.
+```text
+results/paper_round2_checks/
+```
 
----
+See `scripts/mechanism/` for the Qwen2.5 decomposition, score-geometry, bootstrap, and layer-sweep analyses.
 
-## Which probe does what
+## Data and extraction provenance
 
-| Probe | Trained on | Label | Carries |
-|---|---|---|---|
-| **Union** *(primary)* | cities + neg_cities activations, group-split on city | atomic truth | R1 decomposition (Δ, gap ratios, position slope, dilution); atom scores; Figure 1 probe line |
-| **Compound-trained** | compound activations, group-split on city pair | compound truth | R1 escalation: pooled performance, per-cell offset table, 75% ceiling |
-| **R2 linear-truth** | Set A (XOR) activations | XOR truth | the failure at TT |
-| **R2 count-control** | *identical* Set A activations & splits | "at least one true" | proves the setup can pass an additively-solvable label |
-| **R2 MLP** | *identical* Set A activations & splits | XOR truth | absent vs not-linearly-readable |
+Qwen3 extraction metadata is committed under:
 
----
+```text
+acts/qwen3_8b/
+```
 
-## Prior work being engaged
+These files record the row-aligned input statements and extraction provenance without committing the multi-gigabyte activation arrays themselves.
 
-- **Bürger et al. (2024)** — fit a general truth direction, apply to compounds, report generalization. The critique: every two-conjunct AND/OR is a threshold on conjunct count, so a weighted sum solves them without representing the operator. Their results stand; the inference to truth-conditionality doesn't. Framed as extending an acknowledged limitation, **never as an error.**
-- **Bao et al. (2025)** — reuse Bürger's compound data unmodified and evaluate with AUROC, so R3's table covers them too and the conjunct-counting half of the critique applies.
-- **Poulis, Crovella & Terzi (2026), arXiv 2604.03754** — nearest prior work; cited in the first paragraph. Their difficulty hierarchy is counting-limited and never isolates boolean composition at fixed retrieval depth 2, which is exactly R2's impossibility set. Their F2 conjunction generalizing ≈ 1.0 is what conjunct-averaging predicts, not counter-evidence — pre-empted explicitly.
+The extraction convention used for the main experiments is:
 
----
+- raw statement text;
+- no chat template;
+- tokenizer special-token behavior left consistent with the original extraction pipeline;
+- `output_hidden_states=True`;
+- embedding output excluded;
+- activation from the last real token;
+- all transformer-block activations cached as float16.
 
-## Repository layout
+Qwen2.5 and Qwen3 use separate activation spaces and separately trained probes.
 
-> Filled in as the project is built. Activation dumps (`acts/*.npy`) are
-> git-ignored; regenerate via extraction.
+## What I verified
 
+Because much of the implementation and analysis used AI coding agents, I separately checked several assumptions that could invalidate the result.
 
-## Reproducing
+Among other checks:
 
-1. **Environment.** `pip install torch transformers scikit-learn pandas numpy matplotlib`. Qwen2.5-7B in bf16 is ~15 GB; a 24 GB card suffices, inference-only.
-2. **R3 (no GPU).** Parse Bürger's released CSVs (github.com/sciai-lab/Truth_is_Universal), inherit atomic labels, tabulate realized cells, confirm TT = 0 in the five anaphoric disjunction sets. Hand-verify 30 rows per dataset.
-3. **Generate datasets.** Atomic (affirmative + negated), R1 quadruples, leakage control, dilution ladder, R2 Set A.
-4. **Extract** all layers in one pass; checkpoint to `acts/`. Pick the probe layer empirically; pass the union-probe and rung-zero gates.
-5. **Run R1, then R2**, then build the R3 table last.
+- verified zero entity overlap across the atomic train/test split;
+- reused the saved entity split for the Qwen3 replication;
+- verified the R1 held-out benchmark contains exactly 200 rows per connective × truth cell;
+- confirmed the probe was selected and frozen before compound evaluation;
+- reconstructed AND and OR AUROC from their pairwise truth-cell comparisons and matched the direct calculation to numerical precision;
+- checked Qwen2.5 and Qwen3 tokenization behavior on representative raw statements;
+- inspected randomly sampled raw atomic and compound examples;
+- checked the R1 generation logic and false-constituent construction;
+- discovered that the original TF/FT comparison used canonical rather than surface labels and recomputed the correct positional diagnostic;
+- bootstrapped canonical pairs rather than individual compound rows to preserve the benchmark's grouped structure.
 
----
+See:
 
-## Pre-clock vs in-clock
+```text
+results/paper_round2_checks/
+```
 
-The executive summary draws a hard line between the two.
+for the corresponding cached-data audit outputs.
 
-- **Pre-clock (unbilled):** related-work reading, Runpod setup, the HF gating request, the R3 kill-switch / parse de-risk.
-- **In-clock (billed):** dataset generation onward — the quadruple structure and single-token connective carrier are the design decision the spine rests on, so they are research, not setup.
+## Limitations
 
-Budget: 13 billed, 16 with reserve, 20 hard stop. **Never cut:** union-probe
-gate, per-cell rung zero, Figure 1, Δ, compound-trained escalation, count-label
-control, MLP control, cell-count table.
+This project studies two related Qwen model families and therefore does not establish universality across architectures.
+
+The main readout is logistic regression. Mass-mean/TTPD-style truth directions are an important untested baseline.
+
+The same-layer compound positive control is split by canonical pair rather than requiring complete entity disjointness across compound train and test pairs, so per-entity information may contribute to its very high performance.
+
+The OR sentences combine facts that may be semantically unrelated. Some of the observed score compression could therefore reflect general effects of combining multiple unrelated statements rather than an OR-specific mechanism. A null-connective control such as `A. B.` would help distinguish these possibilities.
+
+Finally, these experiments study linear readouts of internal representations rather than whether the models behaviorally answer compound truth questions correctly.
+
+## Related work
+
+This project builds on work studying linear truth representations and their behavior under logical composition.
+
+In particular:
+
+- **Bürger et al. (2024), _Truth is Universal_** study truth directions across datasets and include conjunction/disjunction datasets. Their structured disjunction datasets exclude TT examples by construction, meaning OR evaluation on that support primarily tests the mixed-vs-FF distinction.
+- **Bao et al. (2025)** already report an AND-over-OR decoding gap on Llama-3.1-8B across several probe types. The contribution here is not the observation that AND can outperform OR, but using a balanced full truth table to localize why frozen atomic transfer differs.
+- **Li, Patil & Rawlins (2026)** study conjunctions with balanced truth combinations and report that preliminary disjunction experiments are less successful. This project adds a balanced disjunction benchmark and explicitly studies atomic-to-compound transfer.
+- **Poulis, Crovella & Terzi (2026)** emphasize the layer dependence of truth directions, motivating the all-layer robustness analysis rather than relying solely on the selected layer.
+
+## Author
+
+Grace Shan
+
+September 2026
