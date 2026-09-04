@@ -1,0 +1,21 @@
+example_type,category,source_path,topic,form,statement,label,conjunctA,conjunctB,labelA,labelB,cell,connective,ordering
+primary_atomic,cities_affirmative,data/tiu_datasets/cities.csv,cities,affirmative,The city of Dombivli is in India.,1.0,,,,,,,
+primary_atomic,cities_negated,data/tiu_datasets/neg_cities.csv,cities,negated,The city of Dombivli is not in India.,0.0,,,,,,,
+primary_atomic,sp_en_trans_affirmative,data/tiu_datasets/sp_en_trans.csv,sp_en_trans,affirmative,The Spanish word 'guardar' means 'to save'.,1.0,,,,,,,
+primary_atomic,sp_en_trans_negated,data/tiu_datasets/neg_sp_en_trans.csv,sp_en_trans,negated,The Spanish word 'guardar' does not mean 'to save'.,0.0,,,,,,,
+primary_atomic,inventors_affirmative,data/tiu_datasets/inventors.csv,inventors,affirmative,Carl Sontheimer lived in Switzerland.,0.0,,,,,,,
+primary_atomic,inventors_negated,data/tiu_datasets/neg_inventors.csv,inventors,negated,Carl Sontheimer did not live in Switzerland.,1.0,,,,,,,
+primary_atomic,element_symb_affirmative,data/tiu_datasets/element_symb.csv,element_symb,affirmative,Nickel has the symbol Ni.,1.0,,,,,,,
+primary_atomic,element_symb_negated,data/tiu_datasets/neg_element_symb.csv,element_symb,negated,Nickel does not have the symbol Ni.,0.0,,,,,,,
+primary_atomic,animal_class_affirmative,data/tiu_datasets/animal_class.csv,animal_class,affirmative,The llama is a bird.,0.0,,,,,,,
+primary_atomic,animal_class_negated,data/tiu_datasets/neg_animal_class.csv,animal_class,negated,The llama is not a bird.,1.0,,,,,,,
+heldout_atomic,facts,data/tiu_datasets/facts.csv,heldout_facts,affirmative,The Milky Way is a spiral galaxy.,1.0,,,,,,,
+heldout_atomic,neg_facts,data/tiu_datasets/neg_facts.csv,heldout_facts,negated,The Milky Way isn't a spiral galaxy.,0.0,,,,,,,
+r1_compound,AND-TT,data/r1_quadruples.csv,animal_class,,The hippopotamus is a mammal and the lobster is a crustacean.,,The lobster is a crustacean.,The hippopotamus is a mammal.,1.0,1.0,TT,and,BA
+r1_compound,AND-TF,data/r1_quadruples.csv,cities,,The city of Malang is in Indonesia and the city of Asmara is in Nepal.,,The city of Malang is in Indonesia.,The city of Asmara is in Nepal.,1.0,0.0,TF,and,AB
+r1_compound,AND-FT,data/r1_quadruples.csv,inventors,,Emile Berliner lived in Japan and Thomas Tompion lived in the U.K.,,Emile Berliner lived in Japan.,Thomas Tompion lived in the U.K.,0.0,1.0,FT,and,AB
+r1_compound,AND-FF,data/r1_quadruples.csv,sp_en_trans,,The Spanish word 'desarrollar' means 'sand' and the Spanish word 'viejo' means 'to save'.,,The Spanish word 'viejo' means 'to save'.,The Spanish word 'desarrollar' means 'sand'.,0.0,0.0,FF,and,BA
+r1_compound,OR-TT,data/r1_quadruples.csv,sp_en_trans,,The Spanish word 'clase' means 'class' or the Spanish word 'bosque' means 'forest'.,,The Spanish word 'clase' means 'class'.,The Spanish word 'bosque' means 'forest'.,1.0,1.0,TT,or,AB
+r1_compound,OR-TF,data/r1_quadruples.csv,element_symb,,Lithium has the symbol Rh or Fluorine has the symbol F.,,Fluorine has the symbol F.,Lithium has the symbol Rh.,1.0,0.0,TF,or,BA
+r1_compound,OR-FT,data/r1_quadruples.csv,animal_class,,The jellyfish is a mammal or the gorilla is a mammal.,,The jellyfish is a mammal.,The gorilla is a mammal.,0.0,1.0,FT,or,AB
+r1_compound,OR-FF,data/r1_quadruples.csv,animal_class,,The gorilla is a reptile or the panda is a bird.,,The gorilla is a reptile.,The panda is a bird.,0.0,0.0,FF,or,AB
