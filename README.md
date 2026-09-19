@@ -88,23 +88,11 @@ The nearly identical gap across independently trained probes on two model genera
 
 For a balanced four-cell benchmark:
 
-\[
-AUROC_{AND}
-=
-\frac{
-A(TT,TF)+A(TT,FT)+A(TT,FF)
-}{3}
-\]
+$$\mathrm{AUROC}_{\mathrm{AND}} = \frac{A(TT,TF) + A(TT,FT) + A(TT,FF)}{3}$$
 
 while
 
-\[
-AUROC_{OR}
-=
-\frac{
-A(TT,FF)+A(TF,FF)+A(FT,FF)
-}{3}.
-\]
+$$\mathrm{AUROC}_{\mathrm{OR}} = \frac{A(TT,FF) + A(TF,FF) + A(FT,FF)}{3}$$
 
 The frozen atomic direction preferentially separates the **upper boundary** (`TT → mixed`) over the **lower boundary** (`mixed → FF`).
 
