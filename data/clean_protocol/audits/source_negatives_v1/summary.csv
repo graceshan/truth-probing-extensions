@@ -1,0 +1,6 @@
+topic,entities,compound_usable_entities,potential_candidate_negatives,invalid_known_true,supported_false,unverified_negative,entities_zero_supported_false,usable_entities_zero_supported_false,contradictory_propositions,multiple_true_entities,duplicate_proposition_groups,duplicate_extra_rows,parse_failures
+cities,748,748,50456,0,670,49786,78,78,0,0,0,0,0
+sp_en_trans,344,174,13374,0,1,13373,343,173,0,0,3,3,0
+inventors,231,229,4743,0,163,4580,68,66,0,0,0,0,0
+element_symb,93,93,3804,0,38,3766,55,55,0,0,0,0,0
+animal_class,84,80,480,0,72,408,12,8,0,0,0,0,0

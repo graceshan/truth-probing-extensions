@@ -1,0 +1,52 @@
+{
+  "contradictory_propositions": [],
+  "duplicate_propositions": [
+    {
+      "entity": "caballo",
+      "labels": [
+        1
+      ],
+      "object_value": "horse",
+      "occurrences": 2,
+      "proposition_key": "[\"sp_en_trans\",\"caballo\",\"horse\"]",
+      "source_refs": [
+        "sp_en_trans.csv:330",
+        "sp_en_trans.csv:96"
+      ],
+      "topic": "sp_en_trans"
+    },
+    {
+      "entity": "perro",
+      "labels": [
+        1
+      ],
+      "object_value": "dog",
+      "occurrences": 2,
+      "proposition_key": "[\"sp_en_trans\",\"perro\",\"dog\"]",
+      "source_refs": [
+        "sp_en_trans.csv:120",
+        "sp_en_trans.csv:338"
+      ],
+      "topic": "sp_en_trans"
+    },
+    {
+      "entity": "vaca",
+      "labels": [
+        1
+      ],
+      "object_value": "cow",
+      "occurrences": 2,
+      "proposition_key": "[\"sp_en_trans\",\"vaca\",\"cow\"]",
+      "source_refs": [
+        "sp_en_trans.csv:203",
+        "sp_en_trans.csv:335"
+      ],
+      "topic": "sp_en_trans"
+    }
+  ],
+  "entities_with_multiple_true_objects": [],
+  "invalid_labels": [],
+  "parse_failures": [],
+  "source_entities_absent_from_manifest": [],
+  "source_hash_mismatches": []
+}

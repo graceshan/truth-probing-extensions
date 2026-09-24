@@ -1,0 +1,272 @@
+{
+  "audit_complete_without_parse_or_provenance_gaps": true,
+  "audit_version": "source-negative-audit-v1",
+  "blocked_strata_policy": "Retain all true objects; audit ambiguous pool alternatives with generator_stratum_blocked=True",
+  "candidate_scope": "All split-local usable-object pool alternatives, excluding an entity's unique true object",
+  "classification_precedence": [
+    "invalid_known_true",
+    "supported_false",
+    "unverified_negative"
+  ],
+  "displayed_examples_scope": "train entities only; source proposition tuples, no compound rendering",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "issue_counts": {
+    "contradictory_propositions": 0,
+    "duplicate_propositions": 3,
+    "entities_with_multiple_true_objects": 0,
+    "invalid_labels": 0,
+    "parse_failures": 0,
+    "source_entities_absent_from_manifest": 0,
+    "source_hash_mismatches": 0
+  },
+  "proposition_identity": "Exact compact JSON [topic, entity, object]; no normalization",
+  "source_scope": "Five affirmative atomic datasets only; no inferred negation labels or external facts",
+  "sources": [
+    {
+      "file": "cities.csv",
+      "rows": 1496,
+      "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e"
+    },
+    {
+      "file": "sp_en_trans.csv",
+      "rows": 354,
+      "sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5"
+    },
+    {
+      "file": "inventors.csv",
+      "rows": 406,
+      "sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c"
+    },
+    {
+      "file": "element_symb.csv",
+      "rows": 186,
+      "sha256": "2aa8da5696a1f0f0c4630b7a75949cf47e81254728be13c0f4e835ed6129a5a6"
+    },
+    {
+      "file": "animal_class.csv",
+      "rows": 164,
+      "sha256": "598ed996dd00dd6cddcf125fafad48ad7c4d827a91dfbd8202473354fdba0d97"
+    }
+  ],
+  "strata": [
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 82,
+      "split": "train",
+      "topic": "cities",
+      "usable_entities": 450
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 47,
+      "split": "validation",
+      "topic": "cities",
+      "usable_entities": 149
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 49,
+      "split": "test",
+      "topic": "cities",
+      "usable_entities": 149
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 106,
+      "split": "train",
+      "topic": "sp_en_trans",
+      "usable_entities": 106
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 34,
+      "split": "validation",
+      "topic": "sp_en_trans",
+      "usable_entities": 34
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 34,
+      "split": "test",
+      "topic": "sp_en_trans",
+      "usable_entities": 34
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 28,
+      "split": "train",
+      "topic": "inventors",
+      "usable_entities": 139
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 10,
+      "split": "validation",
+      "topic": "inventors",
+      "usable_entities": 45
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 14,
+      "split": "test",
+      "topic": "inventors",
+      "usable_entities": 45
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 57,
+      "split": "train",
+      "topic": "element_symb",
+      "usable_entities": 57
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 18,
+      "split": "validation",
+      "topic": "element_symb",
+      "usable_entities": 18
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 18,
+      "split": "test",
+      "topic": "element_symb",
+      "usable_entities": 18
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 9,
+      "split": "train",
+      "topic": "animal_class",
+      "usable_entities": 48
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 4,
+      "split": "validation",
+      "topic": "animal_class",
+      "usable_entities": 16
+    },
+    {
+      "current_generator_blocked": false,
+      "no_alternative_object": false,
+      "nonunique_or_missing_true_mapping": false,
+      "object_pool_size": 4,
+      "split": "test",
+      "topic": "animal_class",
+      "usable_entities": 16
+    }
+  ],
+  "summaries": [
+    {
+      "compound_usable_entities": 748,
+      "contradictory_propositions": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_proposition_groups": 0,
+      "entities": 748,
+      "entities_zero_supported_false": 78,
+      "invalid_known_true": 0,
+      "multiple_true_entities": 0,
+      "parse_failures": 0,
+      "potential_candidate_negatives": 50456,
+      "supported_false": 670,
+      "topic": "cities",
+      "unverified_negative": 49786,
+      "usable_entities_zero_supported_false": 78
+    },
+    {
+      "compound_usable_entities": 174,
+      "contradictory_propositions": 0,
+      "duplicate_extra_rows": 3,
+      "duplicate_proposition_groups": 3,
+      "entities": 344,
+      "entities_zero_supported_false": 343,
+      "invalid_known_true": 0,
+      "multiple_true_entities": 0,
+      "parse_failures": 0,
+      "potential_candidate_negatives": 13374,
+      "supported_false": 1,
+      "topic": "sp_en_trans",
+      "unverified_negative": 13373,
+      "usable_entities_zero_supported_false": 173
+    },
+    {
+      "compound_usable_entities": 229,
+      "contradictory_propositions": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_proposition_groups": 0,
+      "entities": 231,
+      "entities_zero_supported_false": 68,
+      "invalid_known_true": 0,
+      "multiple_true_entities": 0,
+      "parse_failures": 0,
+      "potential_candidate_negatives": 4743,
+      "supported_false": 163,
+      "topic": "inventors",
+      "unverified_negative": 4580,
+      "usable_entities_zero_supported_false": 66
+    },
+    {
+      "compound_usable_entities": 93,
+      "contradictory_propositions": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_proposition_groups": 0,
+      "entities": 93,
+      "entities_zero_supported_false": 55,
+      "invalid_known_true": 0,
+      "multiple_true_entities": 0,
+      "parse_failures": 0,
+      "potential_candidate_negatives": 3804,
+      "supported_false": 38,
+      "topic": "element_symb",
+      "unverified_negative": 3766,
+      "usable_entities_zero_supported_false": 55
+    },
+    {
+      "compound_usable_entities": 80,
+      "contradictory_propositions": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_proposition_groups": 0,
+      "entities": 84,
+      "entities_zero_supported_false": 12,
+      "invalid_known_true": 0,
+      "multiple_true_entities": 0,
+      "parse_failures": 0,
+      "potential_candidate_negatives": 480,
+      "supported_false": 72,
+      "topic": "animal_class",
+      "unverified_negative": 408,
+      "usable_entities_zero_supported_false": 8
+    }
+  ],
+  "unverified_negative_is_established_false": false
+}
