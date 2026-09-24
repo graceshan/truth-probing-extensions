@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "seed": 0,
+  "split_percentages": {"train": 60, "validation": 20, "test": 20},
+  "source_dir": "data/tiu_datasets",
+  "output_dir": "data/clean_protocol/entity_partitions",
+  "exploratory_snapshot": "3145daab52d359353b7a242c4965f6e4c49b63ca",
+  "expected_counts": {
+    "cities": {"entities": 748, "compound_usable": 748},
+    "sp_en_trans": {"entities": 344, "compound_usable": 174},
+    "inventors": {"entities": 231, "compound_usable": 229},
+    "element_symb": {"entities": 93, "compound_usable": 93},
+    "animal_class": {"entities": 84, "compound_usable": 80}
+  }
+}

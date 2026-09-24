@@ -1,0 +1,16 @@
+topic,split,entities,compound_usable,max_unordered_usable_pairs
+cities,train,450,450,101025
+cities,validation,149,149,11026
+cities,test,149,149,11026
+sp_en_trans,train,208,106,5565
+sp_en_trans,validation,68,34,561
+sp_en_trans,test,68,34,561
+inventors,train,141,139,9591
+inventors,validation,45,45,990
+inventors,test,45,45,990
+element_symb,train,57,57,1596
+element_symb,validation,18,18,153
+element_symb,test,18,18,153
+animal_class,train,52,48,1128
+animal_class,validation,16,16,120
+animal_class,test,16,16,120

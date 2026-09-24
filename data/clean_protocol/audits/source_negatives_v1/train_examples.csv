@@ -1,0 +1,20 @@
+topic,split,entity,entity_id,candidate_object,proposition_key,classification,source_proposition_rows,generator_stratum_blocked
+cities,train,Abeokuta,entity_c619cdd4b682d21255fec748c4385e77b3f45b4ef93b6fdcb8f8746195e1811c,Mozambique,"[""cities"",""Abeokuta"",""Mozambique""]",supported_false,"[""cities.csv:938""]",False
+cities,train,Abidjan,entity_afbd62642a9c2bde9c5a033457d1a372a56a88836c02ea244abd1b77fce6ea08,China,"[""cities"",""Abidjan"",""China""]",supported_false,"[""cities.csv:14""]",False
+sp_en_trans,train,gato,entity_3936ed3d060006f0ed9c0cc053b3ad71ff4b9fc89325a5287e5d7c1d45e7386d,large,"[""sp_en_trans"",""gato"",""large""]",supported_false,"[""sp_en_trans.csv:337""]",False
+inventors,train,Alessandro Volta,entity_d7755c24c57984f0e5402622c6fcf0d1addc6901382f97082aab6ca96fd59482,the U.S,"[""inventors"",""Alessandro Volta"",""the U.S""]",supported_false,"[""inventors.csv:303""]",False
+inventors,train,Alexander Fleming,entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74,France,"[""inventors"",""Alexander Fleming"",""France""]",supported_false,"[""inventors.csv:154""]",False
+element_symb,train,Actinium,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,Ar,"[""element_symb"",""Actinium"",""Ar""]",supported_false,"[""element_symb.csv:43""]",False
+element_symb,train,Boron,entity_17eaa53d50c3143e32642db274e0591602c5d88d2bc02c398e1ce6be24317842,Pm,"[""element_symb"",""Boron"",""Pm""]",supported_false,"[""element_symb.csv:152""]",False
+animal_class,train,aardvark,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,fish,"[""animal_class"",""aardvark"",""fish""]",supported_false,"[""animal_class.csv:7""]",False
+animal_class,train,alpaca,entity_94086439f6f5213caf5eb4ec1a721f49ce9adff94dc6a4efab321fb15a3731fa,bird,"[""animal_class"",""alpaca"",""bird""]",supported_false,"[""animal_class.csv:109""]",False
+cities,train,Abeokuta,entity_c619cdd4b682d21255fec748c4385e77b3f45b4ef93b6fdcb8f8746195e1811c,Algeria,"[""cities"",""Abeokuta"",""Algeria""]",unverified_negative,[],False
+cities,train,Abeokuta,entity_c619cdd4b682d21255fec748c4385e77b3f45b4ef93b6fdcb8f8746195e1811c,Australia,"[""cities"",""Abeokuta"",""Australia""]",unverified_negative,[],False
+sp_en_trans,train,abierto,entity_bb35c5e8231370acb299907287faff31453c7e9e95bad4ac1f4b4386d7a636dc,all,"[""sp_en_trans"",""abierto"",""all""]",unverified_negative,[],False
+sp_en_trans,train,abierto,entity_bb35c5e8231370acb299907287faff31453c7e9e95bad4ac1f4b4386d7a636dc,and,"[""sp_en_trans"",""abierto"",""and""]",unverified_negative,[],False
+inventors,train,Alan Turing,entity_dbb029820d24da086e2bbc3f3c81704f835e658cf3757b0e2a2d1c86278b71ff,Ancient Greece,"[""inventors"",""Alan Turing"",""Ancient Greece""]",unverified_negative,[],False
+inventors,train,Alan Turing,entity_dbb029820d24da086e2bbc3f3c81704f835e658cf3757b0e2a2d1c86278b71ff,Austria,"[""inventors"",""Alan Turing"",""Austria""]",unverified_negative,[],False
+element_symb,train,Actinium,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,Al,"[""element_symb"",""Actinium"",""Al""]",unverified_negative,[],False
+element_symb,train,Actinium,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,As,"[""element_symb"",""Actinium"",""As""]",unverified_negative,[],False
+animal_class,train,aardvark,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,amphibian,"[""animal_class"",""aardvark"",""amphibian""]",unverified_negative,[],False
+animal_class,train,aardvark,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,arachnid,"[""animal_class"",""aardvark"",""arachnid""]",unverified_negative,[],False

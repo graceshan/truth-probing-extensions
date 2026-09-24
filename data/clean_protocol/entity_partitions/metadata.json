@@ -1,0 +1,213 @@
+{
+  "config": {
+    "schema_version": 1,
+    "seed": 0,
+    "split_percentages": {
+      "train": 60,
+      "validation": 20,
+      "test": 20
+    },
+    "source_dir": "data/tiu_datasets",
+    "output_dir": "data/clean_protocol/entity_partitions",
+    "exploratory_snapshot": "3145daab52d359353b7a242c4965f6e4c49b63ca",
+    "expected_counts": {
+      "cities": {
+        "entities": 748,
+        "compound_usable": 748
+      },
+      "sp_en_trans": {
+        "entities": 344,
+        "compound_usable": 174
+      },
+      "inventors": {
+        "entities": 231,
+        "compound_usable": 229
+      },
+      "element_symb": {
+        "entities": 93,
+        "compound_usable": 93
+      },
+      "animal_class": {
+        "entities": 84,
+        "compound_usable": 80
+      }
+    }
+  },
+  "algorithm": "sha256-topic-entity-usable-stratified-v1",
+  "entity_id": "entity_ + SHA256(UTF-8 compact JSON [topic, entity], ensure_ascii=False)",
+  "rank_key": "SHA256(UTF-8 compact JSON [seed, topic, entity], ensure_ascii=False)",
+  "allocation": "Within topic x usability: validation=test=floor(n/5); train=remainder",
+  "compound_usable_definition": "Unique true object in affirmative generator source",
+  "scope": "Entity assignments only; no final-test examples generated or scored",
+  "sources": [
+    {
+      "file": "cities.csv",
+      "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+      "rows": 1496
+    },
+    {
+      "file": "neg_cities.csv",
+      "sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+      "rows": 1496
+    },
+    {
+      "file": "sp_en_trans.csv",
+      "sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+      "rows": 354
+    },
+    {
+      "file": "neg_sp_en_trans.csv",
+      "sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+      "rows": 354
+    },
+    {
+      "file": "inventors.csv",
+      "sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c",
+      "rows": 406
+    },
+    {
+      "file": "neg_inventors.csv",
+      "sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+      "rows": 406
+    },
+    {
+      "file": "element_symb.csv",
+      "sha256": "2aa8da5696a1f0f0c4630b7a75949cf47e81254728be13c0f4e835ed6129a5a6",
+      "rows": 186
+    },
+    {
+      "file": "neg_element_symb.csv",
+      "sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+      "rows": 186
+    },
+    {
+      "file": "animal_class.csv",
+      "sha256": "598ed996dd00dd6cddcf125fafad48ad7c4d827a91dfbd8202473354fdba0d97",
+      "rows": 164
+    },
+    {
+      "file": "neg_animal_class.csv",
+      "sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+      "rows": 164
+    }
+  ],
+  "manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "assertions": {
+    "unique_identity": true,
+    "unique_entity_id": true,
+    "complete_atomic_entity_coverage": true,
+    "pairwise_disjoint_splits": true,
+    "same_seed_reproduction": true,
+    "input_order_independence": true,
+    "expected_topic_counts": true,
+    "expected_compound_usable_counts": true,
+    "stratified_counts": true
+  },
+  "counts": [
+    {
+      "topic": "cities",
+      "split": "train",
+      "entities": 450,
+      "compound_usable": 450,
+      "max_unordered_usable_pairs": 101025
+    },
+    {
+      "topic": "cities",
+      "split": "validation",
+      "entities": 149,
+      "compound_usable": 149,
+      "max_unordered_usable_pairs": 11026
+    },
+    {
+      "topic": "cities",
+      "split": "test",
+      "entities": 149,
+      "compound_usable": 149,
+      "max_unordered_usable_pairs": 11026
+    },
+    {
+      "topic": "sp_en_trans",
+      "split": "train",
+      "entities": 208,
+      "compound_usable": 106,
+      "max_unordered_usable_pairs": 5565
+    },
+    {
+      "topic": "sp_en_trans",
+      "split": "validation",
+      "entities": 68,
+      "compound_usable": 34,
+      "max_unordered_usable_pairs": 561
+    },
+    {
+      "topic": "sp_en_trans",
+      "split": "test",
+      "entities": 68,
+      "compound_usable": 34,
+      "max_unordered_usable_pairs": 561
+    },
+    {
+      "topic": "inventors",
+      "split": "train",
+      "entities": 141,
+      "compound_usable": 139,
+      "max_unordered_usable_pairs": 9591
+    },
+    {
+      "topic": "inventors",
+      "split": "validation",
+      "entities": 45,
+      "compound_usable": 45,
+      "max_unordered_usable_pairs": 990
+    },
+    {
+      "topic": "inventors",
+      "split": "test",
+      "entities": 45,
+      "compound_usable": 45,
+      "max_unordered_usable_pairs": 990
+    },
+    {
+      "topic": "element_symb",
+      "split": "train",
+      "entities": 57,
+      "compound_usable": 57,
+      "max_unordered_usable_pairs": 1596
+    },
+    {
+      "topic": "element_symb",
+      "split": "validation",
+      "entities": 18,
+      "compound_usable": 18,
+      "max_unordered_usable_pairs": 153
+    },
+    {
+      "topic": "element_symb",
+      "split": "test",
+      "entities": 18,
+      "compound_usable": 18,
+      "max_unordered_usable_pairs": 153
+    },
+    {
+      "topic": "animal_class",
+      "split": "train",
+      "entities": 52,
+      "compound_usable": 48,
+      "max_unordered_usable_pairs": 1128
+    },
+    {
+      "topic": "animal_class",
+      "split": "validation",
+      "entities": 16,
+      "compound_usable": 16,
+      "max_unordered_usable_pairs": 120
+    },
+    {
+      "topic": "animal_class",
+      "split": "test",
+      "entities": 16,
+      "compound_usable": 16,
+      "max_unordered_usable_pairs": 120
+    }
+  ]
+}
