@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "entity_manifest": "data/clean_protocol/entity_partitions/manifest.csv",
+  "entity_manifest_metadata": "data/clean_protocol/entity_partitions/metadata.json",
+  "source_dir": "data/tiu_datasets",
+  "C_values": [0.001, 0.01, 0.1, 1.0, 10.0],
+  "models": {
+    "qwen25_7b": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "activation_pattern": "acts/{dataset}.npy",
+      "metadata_pattern": "acts/{dataset}.csv",
+      "n_layers": 28,
+      "hidden_size": 3584,
+      "dtype": "float16",
+      "results_dir": "results/clean_protocol/atomic_probes_converged/qwen25_7b"
+    },
+    "qwen3_8b": {
+      "model": "Qwen/Qwen3-8B",
+      "activation_pattern": "acts/qwen3_8b/atomic/{dataset}_qwen3_8b_acts.npy",
+      "metadata_pattern": "acts/qwen3_8b/atomic/{dataset}_qwen3_8b_metadata.csv",
+      "n_layers": 36,
+      "hidden_size": 4096,
+      "dtype": "float16",
+      "extraction_metadata": "acts/qwen3_8b/extraction_summary.json",
+      "results_dir": "results/clean_protocol/atomic_probes_converged/qwen3_8b"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "all_false_constituents_lowest_ranked_accepted": true,
+  "benchmark_label": "DEVELOPMENT / VALIDATION - NOT FINAL TEST",
+  "byte_identical_reproduction": true,
+  "code_provenance_hashes_verified": true,
+  "entity_degrees": {
+    "histogram": {
+      "4": 262
+    },
+    "max": 4,
+    "mean": 4.0,
+    "min": 4
+  },
+  "evaluation_phase": "development",
+  "existing_files_sha256_verified": 362,
+  "existing_files_stat_only_verified": 1,
+  "existing_files_unchanged": 363,
+  "false_constituent_occurrences": 8384,
+  "model_activations_or_scores_computed": false,
+  "protocol": "entity_disjoint",
+  "rows": 8384,
+  "saved_csv_integrity_checks_passed": true,
+  "saved_file_hashes_verified": true,
+  "selected_negative_status_counts": {
+    "externally_validated_false": 88,
+    "source_supported_false": 174
+  },
+  "split": "validation",
+  "test_candidate_queues_accessed": 0,
+  "test_entities_in_output": 0,
+  "test_examples_generated": 0,
+  "train_entities_in_output": 0,
+  "unique_pairs": 524,
+  "unit_tests": {
+    "failed": 0,
+    "test_inventor_country_semantics.py": 7,
+    "test_validation_compound_benchmark.py": 6
+  },
+  "validation_entities": 262
+}
