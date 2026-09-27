@@ -1,0 +1,16 @@
+topic,split,entities,rows,affirmative_rows,negated_rows
+cities,train,450,1800,900,900
+cities,validation,149,596,298,298
+cities,test,149,596,298,298
+sp_en_trans,train,208,424,212,212
+sp_en_trans,validation,68,146,73,73
+sp_en_trans,test,68,138,69,69
+inventors,train,141,492,246,246
+inventors,validation,45,162,81,81
+inventors,test,45,158,79,79
+element_symb,train,57,228,114,114
+element_symb,validation,18,72,36,36
+element_symb,test,18,72,36,36
+animal_class,train,52,200,100,100
+animal_class,validation,16,64,32,32
+animal_class,test,16,64,32,32

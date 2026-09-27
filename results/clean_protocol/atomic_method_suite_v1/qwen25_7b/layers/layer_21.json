@@ -1,0 +1,133 @@
+{
+  "activation_hash_encoding": "concatenated selected float16 row bytes in partition/dataset order at this layer",
+  "elapsed_seconds": 9.573090457823128,
+  "layer": 21,
+  "method_details": {
+    "burger_t_g": {
+      "fit_rows": 1000,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 390841.0657743905,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "difference_of_means": {
+      "fit_rows": 3144,
+      "formula": "unit(mean_true - mean_false)",
+      "sign_orientation": "true-minus-false; no validation-dependent flip"
+    },
+    "mass_mean_covariance": {
+      "covariance_divisor": 3144,
+      "covariance_rank_retained": 2835,
+      "fit_rows": 3144,
+      "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+      "intercept": "none in upstream iid MM readout",
+      "sign_orientation": "PSD inverse of true-minus-false; no sign flip"
+    },
+    "ttpd": {
+      "fit_rows": 1000,
+      "formula": "unregularized LR([X@t_G, X@polarity_LR.coef])",
+      "head_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 30
+        }
+      ],
+      "polarity_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 23
+        }
+      ],
+      "polarity_projection_excludes_intercept": true,
+      "polarity_training_alignment": 51.6672069016503,
+      "sign_orientation": "truth LR classes [0,1]; polarity LR negated=0,affirmative=1",
+      "truth_fit": {
+        "fit_rows": 1000,
+        "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+        "inference": "raw activation dot t_G; no validation centering",
+        "partial_truth_training_alignment": 390841.0657743905,
+        "polarity_encoding": "negated=-1,affirmative=+1",
+        "sign_orientation": "OLS truth coefficient, never flipped on validation",
+        "truth_encoding": "false=-1,true=+1"
+      }
+    }
+  },
+  "metrics": [
+    {
+      "fit_rows": 3144,
+      "layer": 21,
+      "method": "difference_of_means",
+      "train_true_minus_false_score_mean": 44.61075953804601,
+      "validation_accuracy_at_zero": 0.8221153846153846,
+      "validation_affirmative_auroc": 0.9935035146133925,
+      "validation_negated_auroc": 0.9570255271920088,
+      "validation_overall_auroc": 0.974900147928994,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9941218864015134,
+      "validation_topic_element_symb_auroc": 0.9969135802469136,
+      "validation_topic_inventors_auroc": 0.8645023624447492,
+      "validation_topic_macro_auroc": 0.9674295774530883,
+      "validation_topic_sp_en_trans_auroc": 0.9816100581722649
+    },
+    {
+      "fit_rows": 3144,
+      "layer": 21,
+      "method": "mass_mean_covariance",
+      "train_true_minus_false_score_mean": 637.134190028809,
+      "validation_accuracy_at_zero": 0.9778846153846154,
+      "validation_affirmative_auroc": 0.999245283018868,
+      "validation_negated_auroc": 0.9961524232334444,
+      "validation_overall_auroc": 0.9977625739644969,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9997860456736183,
+      "validation_topic_element_symb_auroc": 1.0,
+      "validation_topic_inventors_auroc": 0.9830818472793782,
+      "validation_topic_macro_auroc": 0.9965735785905994,
+      "validation_topic_sp_en_trans_auroc": 1.0
+    },
+    {
+      "fit_rows": 1000,
+      "layer": 21,
+      "method": "burger_t_g",
+      "train_true_minus_false_score_mean": 789.0181076682276,
+      "validation_accuracy_at_zero": 0.8009615384615385,
+      "validation_affirmative_auroc": 0.9940510543840178,
+      "validation_negated_auroc": 0.9513873473917869,
+      "validation_overall_auroc": 0.9742159763313609,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9915656952389531,
+      "validation_topic_element_symb_auroc": 0.9992283950617283,
+      "validation_topic_inventors_auroc": 0.8937661941777169,
+      "validation_topic_macro_auroc": 0.9749229407388021,
+      "validation_topic_sp_en_trans_auroc": 0.9900544192156127
+    },
+    {
+      "fit_rows": 1000,
+      "layer": 21,
+      "method": "ttpd",
+      "train_true_minus_false_score_mean": 9.883543550235032,
+      "validation_accuracy_at_zero": 0.9259615384615385,
+      "validation_affirmative_auroc": 0.9933555308916019,
+      "validation_negated_auroc": 0.950928597854236,
+      "validation_overall_auroc": 0.9761575443786983,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9889757218143327,
+      "validation_topic_element_symb_auroc": 0.9969135802469136,
+      "validation_topic_inventors_auroc": 0.9242493522328913,
+      "validation_topic_macro_auroc": 0.9805640416113139,
+      "validation_topic_sp_en_trans_auroc": 0.992681553762432
+    }
+  ],
+  "parameter_archive_sha256": "23605e2c7076b37f5d4f12495e809458e646d3d3ab9b01b952ebb44e3dcf0cc4",
+  "parameter_string_encoding": "Unicode; numerical fitted arrays unchanged",
+  "train_activation_sha256": "07aeabe692f17ad23bead4accbdc41655fb321fd8e782e2e17c489d523b414a9",
+  "validation_activation_sha256": "0b8d0fe10d5b94252bff53c887f5d383d9be7056e2e528467ad21ffbed58d939"
+}

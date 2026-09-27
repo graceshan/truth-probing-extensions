@@ -1,0 +1,675 @@
+{
+  "compound_activations_read": 0,
+  "current_serialization_fixed_source_sha256": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+  "finalizer_sha256": "87ea3eac88f07cc41306d0510df41425a93a5fccb5cdbcc1698d01937530917c",
+  "fitting_source_snapshot": {
+    "path": "results/clean_protocol/atomic_method_suite_v1/fit_implementation_snapshot/atomic_probe_methods.py",
+    "sha256": "560c9137afa30a2b027238906343398af784989dcc8dd81899bbd40b5819b607"
+  },
+  "models": {
+    "qwen25_7b": {
+      "all_archives_pickle_disabled": true,
+      "all_numeric_parameters_finite": true,
+      "frozen_lr_provenance_unchanged": true,
+      "historical_activation_size_mtime_unchanged": true,
+      "layers_verified": 28,
+      "metadata_encoding_repairs": [
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 0,
+          "new_archive_sha256": "3e554a8c0d30de7833d83ad892791e06bd0e46d6b93670642ec9784b32041d7c",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1ee1a8b669558e07134451b2eff92a6e88845b962f196d40711cdb10d41c7d47"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 1,
+          "new_archive_sha256": "adfe347ca8fcf09fc6161cf1b60abe899f74e8e39e426118af7de1250799836e",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "ffbd9f7f5a8c29672eb0a7086b950efc41d63848f9605cf1c9e65cfe46576264"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 2,
+          "new_archive_sha256": "c781a32b18b8a207e20fc2667e1532b36d1dffd01568d35b343f09ef5dd34a2b",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "2bdb56989de2813d73e1b146f2743dc22cc9b3a504acc2bdc26adb669bfac7db"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 3,
+          "new_archive_sha256": "15b36d7df4177e1dee65714edacd8fcddf8d62c670562ff260629ec45fc0d4f6",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "cc6f98c0618a197cc96737260479f08bef21f372bf233e030b6a569cb9d59526"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 4,
+          "new_archive_sha256": "8aa6770a0cc53e7d98eb9fd8dbe0b2ffe49b6f498e2b2ab495defc9fed8e01a4",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "c45ac8ae54bb0fbaf97f20d98b9ac88bdbd7909c03bd689aceaa119b1cd8cc4b"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 5,
+          "new_archive_sha256": "6477863f73f90184a688e8d9ec15308e048853b096ba3710d38342bb3596df7a",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "7af6c848e8960e4e46642ee49bcbc47f4005ba77f7e45f841e6a6210cb36a878"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 6,
+          "new_archive_sha256": "ec226060215b867d768452bef04c9abad3e9e00c9fbbb567829e042285abd9bd",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "d9419ba01997415b7afffad6242813ae88271b92c78d463c694f3d9cffd01008"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 7,
+          "new_archive_sha256": "2db75931777a48c6bc026650c17800c6947fcbc4c7cca30ace4991a6fc0aae6d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "4c1cebbf83ef6b4ad97d7b7ee28bef5c6e8f827e262038c4e6688102a808f472"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 8,
+          "new_archive_sha256": "8465bb09d2631448d7433483beab59df397bc9353bcbb794cdd99879551748f5",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "257a936252c26a04c76474177f8337e6d110ee60661452fc4636bfa778e1054c"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 9,
+          "new_archive_sha256": "1271f287ab8a8a5ce7395cea99f6af9f5244959723773cf692c5756b70ec8376",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "6ee56085d6019a7ec236019965dbeb63d7f497fc4d9810a9c1c45fca0837891e"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 10,
+          "new_archive_sha256": "b7a92e6e9b9b3b5c7b25d07e0759421aa00524d464245c7d0adb86f61960055d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "d13ec89cb3e59903cc74a70e27c8ca3e661363314d440bce5b38fb1a3d789ce3"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 11,
+          "new_archive_sha256": "c786f6eed7f51d088dc6944793cc8ff20447ae757b4b27a43d8a470090c1ad26",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "c42433ac70b623a1765f0ad0e2b28b736601f55e8012c32399b3e97876bf09d5"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 12,
+          "new_archive_sha256": "4d533bc1f980f0cd1c7d69a467ba181ca69573bbdba25b3b1bddf550ce0a7a23",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "e1234651b2ce8de724704981d232accbb7a07f2a1722bdff028bd2d74423fff4"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 13,
+          "new_archive_sha256": "07daadbb24475fb54c845c6f11f5d68a490d193a867583ddcd2fce3214709132",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "3951499f73a0533ac89837f1833dfbf530273b5a171c75d1e6e55ef6db49203f"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 14,
+          "new_archive_sha256": "1794456d87d7f281024284d3ffb8f1b3d22173d780c016256de376122cb0c9f3",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1e3f7113c4347fe0df1a85b815336ae52ecb44f7ef57633503b4f5fbd99cb174"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 15,
+          "new_archive_sha256": "a8e1c27fb5737bdfc7b8aa6e3e84ff7c4e1d051ae1a57572a5bdd76d2dacad20",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "11f7dc755b492b60154d993aed82d122f7a8b7f5e2d878a26a2aa3882133588c"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 16,
+          "new_archive_sha256": "af902177484b6c2bce06799afb1bd2f73b270eb69557162305f069da3cbe3060",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "0da07e700d62761161816cbc82e1cd46c001113fbba8f9f08413035af87ca594"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 17,
+          "new_archive_sha256": "8d73900181da0795f14ed17d78682e3a138c67fbd7bbe413c8a115f649ae971a",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "3e7178fb14ceb678656acf5ca49ad865f23cb89eb624e13bc0d4f626af997ff3"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 18,
+          "new_archive_sha256": "0eb30b7b2706c4b7f9dd8486a396b6be4dd917f69284f54f5f8a5300df392bf6",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "88d746dba09e2ec5db7d7618be25ae8d8760ddbc71fe86c43545167b2fb79375"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 19,
+          "new_archive_sha256": "ac1376e6a50b36aa29a1fa4bf30af6cb0d8cbf9ee9ada23e0a795c3af4960ba9",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "a8d976585da164ed28868dbe1642ad16b6709eefcc9068de9b6e60e4c18f5039"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 20,
+          "new_archive_sha256": "044ba7bca279e2d33c3c8ff542a68c30b1ea4e31d1b80b306e3df39fff478139",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "85592fdce2694b96b14415f87c9259943a536135d8abecaf12720c1bffcad50e"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 21,
+          "new_archive_sha256": "23605e2c7076b37f5d4f12495e809458e646d3d3ab9b01b952ebb44e3dcf0cc4",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "38b1001f2d53d55c968d7ac50f1dc9a26f470cb120c3280879107f5016507f4d"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 22,
+          "new_archive_sha256": "9666d61e2ab88b3ed7bc9ba05cdfbdd143295d77cfa84cfd502f288fc5a1456d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "36064ee70bd808bbdd1e8d84a82e3f81aacf8bc66f2ac519fe65816582e74f41"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 23,
+          "new_archive_sha256": "11cb15ddaab73d3bb123cf4dc23b597b4db533eb135412af2163010bd468bc3c",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "664cd253e580e5351d3b7e431be26efbf23822a8171fde7836334848b907d19e"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 24,
+          "new_archive_sha256": "4fe67b8c2acb8a84430579c92da6c2c30d317b34035e725e60579b6bdcf1683c",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "b3be548363399306fff842c5c1c450b53070a388daab042962b1e9b8f1788fb3"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 25,
+          "new_archive_sha256": "c3d252e2c36b19c90988168ea64169efa9885666d2c8353ca15571ed4a1bf028",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "ed0a731599029492b052d8e395e3c8b7b94ec324e8e35ab3742b936ebf957ee8"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 26,
+          "new_archive_sha256": "256e8253b3d7b3e41d5153c8202e6dab9c96d85ebd7b17f2c4ee16de79ca7c2f",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "965e8ef5145a4c961d56cefbb9db3a592d3d75db11f7db99b46ca40f88eee583"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 27,
+          "new_archive_sha256": "a58d1c68aa691eb54f6c428feb447ce88a8ecade577485c911a7ae4ff1e5d84d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "c50f6e3b69658ab08b41f95e4bc900e30659f105b2e7489667f79d1a6f4e2a02"
+        }
+      ],
+      "original_fit_provenance_sha256": "39f06dcb31a9958d9319c54d7d84473037df1e202e475cd9562a6bc1d4df8479",
+      "primary_secondary_metrics_reproduced": true
+    },
+    "qwen3_8b": {
+      "all_archives_pickle_disabled": true,
+      "all_numeric_parameters_finite": true,
+      "frozen_lr_provenance_unchanged": true,
+      "historical_activation_size_mtime_unchanged": true,
+      "layers_verified": 36,
+      "metadata_encoding_repairs": [
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 0,
+          "new_archive_sha256": "664de0e84b3879d43c4ce3f44e4cbd9813f94f4f0e1b81a3e9836c6df46c5153",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "fbd5ae05f2fbd612d6d04978976b3f6a31ebffb6925a37688d7ca7bed123b116"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 1,
+          "new_archive_sha256": "c6ad12b75266d651bfa7a6e89df196b0c9e54b7adbac48b8931c9c318e307ea2",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "284a6ff9859a689b1b0ec0c7fffe88e6373a03c88e2e33abf36b23dc2410b243"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 2,
+          "new_archive_sha256": "3aac86646a05cf365052544e01f88ba90647378fc7faacaea120af29555ea3f0",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "89036f241c126103e0d692ec8f424997e6f1859c6ae2ae375d7c01641a5028f5"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 3,
+          "new_archive_sha256": "e1b994a3d9e4058db45874811a63fe988aecefd6584599f82ca0018efaac18aa",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "0d192ff13d1a2b9b464fde38d027cf3acf4521a016228ef677099be6651fdde2"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 4,
+          "new_archive_sha256": "4f1c43ae27075cf7012cadf6c48bf20c8b315b5372925cf22b75295076b28b75",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "b4944110aa6c580d85ad2460452c1d722b50d9dab8a9e6fa3cbab581961a714c"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 5,
+          "new_archive_sha256": "bd24f932cd89e2d6dba4be7388b4400e236a3b3aa1bb8048094dd787fa9e4a8c",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "3711d9343290ea24b270a3a5b42c10515adba836dc69bf96c806729cdb9054a2"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 6,
+          "new_archive_sha256": "2d11366b9d70b05097dc48ceeca3600c39ef154c66a76647e858770ad050691f",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "8a5c25e38dfd89cb74b8bf39ef5cab0c30a7fc838a6a126c377b6d4f2abd0d41"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 7,
+          "new_archive_sha256": "0c50149220fcc6f91e45bd12a0964982eac618d1299acde3ce17588ecd55fea7",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "aa7e3376384beef4e572b2d676f2a3c0368a52c405db328b8362d5aa3b0dd91e"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 8,
+          "new_archive_sha256": "074094c0a3e8768fade1d8116308badb115d2af2e9af537e00a1cc346acb5bea",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1834e2c78867bb1a5d339a073765f68985285f3c9a964ac6157fd3f677c3d0b7"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 9,
+          "new_archive_sha256": "6fa450e6ac7b073b26067ea942e1d68a53768add00e93ac41a9b050089d0ca30",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "c4e74edad88a34a900c60f77c4f3ee6ecbb86b896bb4692070b700a1fa030504"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 10,
+          "new_archive_sha256": "a5de82c9ad1d9a15f1e6df014d9caa5becef970b751d74b0a248bce05494e8b1",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "6ba710ef638c84f1a6267793bf4054cc14dbd4c26ec49f9a4cd569f7610d1689"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 11,
+          "new_archive_sha256": "97252b8476c97b859222afe9933e617ef9942c3dea42ecce4496d6ab81784e44",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "f1672d5a3af51f5d5898852bab6f2c643ab1008519e136e20bf09597b33188e2"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 12,
+          "new_archive_sha256": "898831037004a1e78a7a4c3b30e0a9975b08ec9f50a71990fc3117d735f1a545",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "00f6cface79944e0d1f88cf9e45594b2143ff220de24931557480921fb7a80c5"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 13,
+          "new_archive_sha256": "ab2bf38789a086f22d55e71b4d0d52efe0dd4f8fd45afe150cb59bdb1e69ac2b",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "61484be68d7d567fba82e2f0d7f2f4f0ca1fa2c8266b26b7e60fc820a3227aa1"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 14,
+          "new_archive_sha256": "099fefccbbfa7f65c9d5690b3320e7acbad294269b77aa3068d526896dfca65d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "42905a1b861effc22cd5c1cc53395ba29a6499b1edee1411655da94a1b452305"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 15,
+          "new_archive_sha256": "62c201abd8e4c7fac1ff5ee3c75ff0b56fe6c1f0faa4a39a9c41240c82ccb695",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "6bf779773bc70012b4ba08bfd91f4e9eb24f36adc4357f15bf04703d6a90ccb1"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 16,
+          "new_archive_sha256": "2837701310b9ed835defb8a4d45b9a17dd34a0703516c2b1be54afe855e6ab13",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "a3a991f30ed6b9f73346fe84519b3ea50ba72126befd85c2c257a298a027c4c5"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 17,
+          "new_archive_sha256": "fdc6c28a7c06f4ea6ddbda900d189425b203b31ea54d9baee9ba45f2dbb614b2",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "bda4286785604c0f8025466428d446c27acd847bf524e01ea597c560b826b185"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 18,
+          "new_archive_sha256": "47052207e87d29823e9fbdde815e9620b5e614cde108e5e6f6e93e951c524b79",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "21016586a9473693114b2bfcba2cb0f2e73342dfba067b2edd65c52158d4834f"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 19,
+          "new_archive_sha256": "246bfef43b17910516991860904dff40d9943dfdcea9487acfb3a3fbabab3e2d",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "9f271d789f541b9d82c01c6f0a0790398dd8df7e89ec62b93848890971f66616"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 20,
+          "new_archive_sha256": "2df0f8abc29d406594a5a2cb33e62881e1ad6acc4f647f0369da8d698276b805",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1fa7f1f4c27c55a487b518b89c8fb8a5714bd02f2089f04e964d26a2e373f1f5"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 21,
+          "new_archive_sha256": "3ce05230827cd3e152dccdc018cfccba34a291349698b0dd3cee149ccb843623",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "fd5fc7d18311a3169c311cfc7ee9b71b44ef537644ac416dbf69c8c33716d338"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 22,
+          "new_archive_sha256": "14c852b9f2b11ba7c164fe2eeadb02a774e53e7f9581bfffe9ae753e02ba73f2",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "f4cf9ee8b7322efc721df0f4682203f09bcd9343ca3b7ecca67a86fdcceeae2e"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 23,
+          "new_archive_sha256": "5f3755d3257ab762a7e6bb4c59eb9f0b85ea963c5fa7d1942b64de17359640ea",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1a4d8841b4c20d7cec18b6f74b232b987b4d4f205c99c35808145869d9329444"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 24,
+          "new_archive_sha256": "5cf2dda1f65c85a237909781b9fb21dce50eca3a9a372e6ff083c8bece26898f",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "1f335569174f15cae7826fb9645b09f5b5d217cbe209a1545dd20e49384c4196"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 25,
+          "new_archive_sha256": "78040d46d81d661afe322a67e85b1038bce0fc24ce2928ec8fc7505ac18c0764",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "8819c54d9ba3161df4f7eb6c7b824e07f8d6aa4551616ac349c0ed919cd939da"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 26,
+          "new_archive_sha256": "802a8503141db53a847a7c3b772dadf6a30b6612615496ac58725450b96a07af",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "b207696d9c2d2b93fcbbd78ea736e8fed62abc96e37b7f04807740bb569e3daa"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 27,
+          "new_archive_sha256": "5c64ef4b63c84a080a96a0b552e448311fe6b53874699cfbab19ed2733be628e",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "ea3a1ad83789694221ffa336f079fa6fcc9b0b347793d1336cc9d61f3dbe5ad6"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 28,
+          "new_archive_sha256": "eec89df6bbc353460d0bd836b9963d2edd287ae3d204a991afffdef46c64d484",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "fce04a3270f7e2965c4703f685bbb2e05be41dd0b3f3a5cf82c9fd8d14272f22"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 29,
+          "new_archive_sha256": "2cc06f5b16d136c717a426e5903c04076ab7d03ce0eb1facc8e7594b10015bed",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "035a13237d5ec54691445e2e2757666cdcdcefc27355f980f5f220d5167e3426"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 30,
+          "new_archive_sha256": "7ccfda575b6f890907151102a9c7960358226275fd650a2f8e3aa6b0f6f16503",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "d7b1965bdd19415fba5cf6ca7a5627abe0d7cacf3dc1ea32623534d4dfbc2132"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 31,
+          "new_archive_sha256": "c010156a45605c2723bb5353d03a95465516795ef40d0799a49e720af0aed3b0",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "4faa4c607ff0e48d8402d381236298f9a6be261515b473e52cd40fad4804b965"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 32,
+          "new_archive_sha256": "92be0bd564f076611c0a9aa081e3f6aa6355194b4b2c67d7ce8a0aab71b7b4dd",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "d4cde12d6f50a186df68ea924488479e1187bdb151c02af2726e0e73ba40fb87"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 33,
+          "new_archive_sha256": "467b6f0987691d883d651ddfdd5a598c9a4256b775d048104c6a06ef7488869e",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "82830449bbe7e65e576afd70380dfc671d93631e2b300f4914a30011d78968a7"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 34,
+          "new_archive_sha256": "d5ce966d377802d1ff63db9109aa8fee9e75eb841fff9274ae81d8570228b9db",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "182176ce51328528f53dd79cc735c59075212fce92a177c9b79fbf730c1aa944"
+        },
+        {
+          "changed_metadata_fields": [
+            "burger_t_g__dataset_names",
+            "ttpd__dataset_names"
+          ],
+          "layer": 35,
+          "new_archive_sha256": "4b68513dccd4c3a278e100b46f93b449e6f7e4e486418c6eaab8a7416c3fdbc4",
+          "numeric_arrays_exactly_unchanged": true,
+          "old_archive_sha256": "b147f407b39d6d9ad1f553b2ece5cc3badb31786ceed9fc440477f07bf568dd8"
+        }
+      ],
+      "original_fit_provenance_sha256": "6520642e69b1c7a6edb81c53e4e65fb3787c1fc6133dc8ec61a289220a60c93c",
+      "primary_secondary_metrics_reproduced": true
+    }
+  },
+  "test_activation_rows_read": 0,
+  "test_labels_loaded": 0
+}

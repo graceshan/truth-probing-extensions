@@ -1,0 +1,1041 @@
+dataset,row_index,statement,entity_id,topic,form,split,label
+cities,48,The city of Ajmer is in India.,entity_01598358f97705079422319e257cfd8564800f791999af2af9531b9a254507ab,cities,affirmative,validation,1
+cities,49,The city of Ajmer is in Russia.,entity_01598358f97705079422319e257cfd8564800f791999af2af9531b9a254507ab,cities,affirmative,validation,0
+cities,52,The city of Serang is in Indonesia.,entity_1e0bd19ebb0650fc5c14a7e26084f2659c9df61c7d07d6492479cd4aba8ae944,cities,affirmative,validation,1
+cities,53,The city of Serang is in Poland.,entity_1e0bd19ebb0650fc5c14a7e26084f2659c9df61c7d07d6492479cd4aba8ae944,cities,affirmative,validation,0
+cities,66,The city of Najafgarh is in India.,entity_703793d0175fab26501c1d02955fe82c665345470175e1f9cc7696bc47301077,cities,affirmative,validation,1
+cities,67,The city of Najafgarh is in Brazil.,entity_703793d0175fab26501c1d02955fe82c665345470175e1f9cc7696bc47301077,cities,affirmative,validation,0
+cities,84,The city of Niamey is in Niger.,entity_325a4cdf9f79efbd311bcfe927412bac54068e5d242212124b78af55f0a5ea72,cities,affirmative,validation,1
+cities,85,The city of Niamey is in China.,entity_325a4cdf9f79efbd311bcfe927412bac54068e5d242212124b78af55f0a5ea72,cities,affirmative,validation,0
+cities,114,The city of Linyi is in China.,entity_45ef68699c33f4cf505c4fe163c62580c05c7be393d46a88a87c61ca1cbfb73e,cities,affirmative,validation,1
+cities,115,The city of Linyi is in Iraq.,entity_45ef68699c33f4cf505c4fe163c62580c05c7be393d46a88a87c61ca1cbfb73e,cities,affirmative,validation,0
+cities,120,The city of Busan is in South Korea.,entity_c288106cb5c8b74859fa9fd9d99f60199d2d2fe4be296e89a5dbdb45aec6f12f,cities,affirmative,validation,1
+cities,121,The city of Busan is in Brazil.,entity_c288106cb5c8b74859fa9fd9d99f60199d2d2fe4be296e89a5dbdb45aec6f12f,cities,affirmative,validation,0
+cities,128,The city of Incheon is in South Korea.,entity_edf508dd7d48753c449003fb50c8f96e75df87867f49d44713731212891b5f3a,cities,affirmative,validation,1
+cities,129,The city of Incheon is in India.,entity_edf508dd7d48753c449003fb50c8f96e75df87867f49d44713731212891b5f3a,cities,affirmative,validation,0
+cities,136,The city of Acapulco de Juarez is in Mexico.,entity_092e823eade7d59b61de393a13a613c5a4e965ebd27dd6503d2b62d2871da3cd,cities,affirmative,validation,1
+cities,137,The city of Acapulco de Juarez is in Morocco.,entity_092e823eade7d59b61de393a13a613c5a4e965ebd27dd6503d2b62d2871da3cd,cities,affirmative,validation,0
+cities,142,The city of Qom is in Iran.,entity_c407d5b3957f45bdfeff423a0cf6ad51c90f9b2799b701c4464fc32e53fb6ba8,cities,affirmative,validation,1
+cities,143,The city of Qom is in Vietnam.,entity_c407d5b3957f45bdfeff423a0cf6ad51c90f9b2799b701c4464fc32e53fb6ba8,cities,affirmative,validation,0
+cities,150,The city of Dehra Dun is in India.,entity_62c89057e1da605fdb7669537a3f1cd0e1ea39f90ee1659f6df402ec4bd42393,cities,affirmative,validation,1
+cities,151,The city of Dehra Dun is in China.,entity_62c89057e1da605fdb7669537a3f1cd0e1ea39f90ee1659f6df402ec4bd42393,cities,affirmative,validation,0
+cities,162,The city of Izmir is in Turkey.,entity_78f934f1db7d5b9fa724b540b7333e7322a235094c3dd01b65486f9d56b886bc,cities,affirmative,validation,1
+cities,163,The city of Izmir is in Iran.,entity_78f934f1db7d5b9fa724b540b7333e7322a235094c3dd01b65486f9d56b886bc,cities,affirmative,validation,0
+cities,166,The city of Zhenjiang is in China.,entity_69cf8748b9d1175a8ca15526a74c509c4e5d63094401e36bf83db6261b6c65bf,cities,affirmative,validation,1
+cities,167,The city of Zhenjiang is in Germany.,entity_69cf8748b9d1175a8ca15526a74c509c4e5d63094401e36bf83db6261b6c65bf,cities,affirmative,validation,0
+cities,172,The city of Tianjin is in China.,entity_804c5d1c3c1b802ff7b21d10d3dfb916bc053366569468e76f94a3da42cc7b89,cities,affirmative,validation,1
+cities,173,The city of Tianjin is in Bangladesh.,entity_804c5d1c3c1b802ff7b21d10d3dfb916bc053366569468e76f94a3da42cc7b89,cities,affirmative,validation,0
+cities,178,The city of Mudanjiang is in China.,entity_74e69743a01e1068a6aadabfb5f745f7cb3df03ced725bc84f86c1cf7bd94dea,cities,affirmative,validation,1
+cities,179,The city of Mudanjiang is in Turkey.,entity_74e69743a01e1068a6aadabfb5f745f7cb3df03ced725bc84f86c1cf7bd94dea,cities,affirmative,validation,0
+cities,188,The city of Marseille is in France.,entity_4aac0e553c866690d77bcbc77c6ce20c9c4294bbded2e04adc0f08d4ddabe19c,cities,affirmative,validation,1
+cities,189,The city of Marseille is in Russia.,entity_4aac0e553c866690d77bcbc77c6ce20c9c4294bbded2e04adc0f08d4ddabe19c,cities,affirmative,validation,0
+cities,198,The city of Mukalla is in Yemen.,entity_aa1fff67620f77223ec20979b3bddaa905438dd11190eeb5556b223579ef9763,cities,affirmative,validation,1
+cities,199,The city of Mukalla is in Iran.,entity_aa1fff67620f77223ec20979b3bddaa905438dd11190eeb5556b223579ef9763,cities,affirmative,validation,0
+cities,200,The city of Harare is in Zimbabwe.,entity_3511f4ae3741355b5f0e283c5b45132185eadbdb178fc9736af55f0452289f3c,cities,affirmative,validation,1
+cities,201,The city of Harare is in Turkey.,entity_3511f4ae3741355b5f0e283c5b45132185eadbdb178fc9736af55f0452289f3c,cities,affirmative,validation,0
+cities,204,The city of Lipetsk is in Russia.,entity_61b191330fe7a96a5cd8213f797556ba327c7871125c1735f680180ccaccd3b6,cities,affirmative,validation,1
+cities,205,The city of Lipetsk is in China.,entity_61b191330fe7a96a5cd8213f797556ba327c7871125c1735f680180ccaccd3b6,cities,affirmative,validation,0
+cities,214,The city of Maturin is in Venezuela.,entity_a417c5e4cc68ccaf30cdb0f9e8ecb68f9ced6c222667a12a5af0c54cb7053c26,cities,affirmative,validation,1
+cities,215,The city of Maturin is in Saudi Arabia.,entity_a417c5e4cc68ccaf30cdb0f9e8ecb68f9ced6c222667a12a5af0c54cb7053c26,cities,affirmative,validation,0
+cities,220,The city of Cucuta is in Colombia.,entity_8b27bdb5fb47a61570bb4ca00ac81d6ef159161ec87f8e7050e2c279382337e2,cities,affirmative,validation,1
+cities,221,The city of Cucuta is in India.,entity_8b27bdb5fb47a61570bb4ca00ac81d6ef159161ec87f8e7050e2c279382337e2,cities,affirmative,validation,0
+cities,260,The city of Jalandhar is in India.,entity_6c35a2fa9a607bcf34178f3c0ea925b56991d55d13d2ecc5548daa9b57c5c401,cities,affirmative,validation,1
+cities,261,The city of Jalandhar is in Iraq.,entity_6c35a2fa9a607bcf34178f3c0ea925b56991d55d13d2ecc5548daa9b57c5c401,cities,affirmative,validation,0
+cities,274,The city of Jabalpur is in India.,entity_1423b63547144900c4928b1089552561549d90e5d3341363c48833b2f969a7c2,cities,affirmative,validation,1
+cities,275,The city of Jabalpur is in Ukraine.,entity_1423b63547144900c4928b1089552561549d90e5d3341363c48833b2f969a7c2,cities,affirmative,validation,0
+cities,276,The city of Bilimora is in India.,entity_f3e83c0a7bfd5fa2b4ccf373f072a68b1cedac6e36c3c82f8c1f15080f814975,cities,affirmative,validation,1
+cities,277,The city of Bilimora is in Uzbekistan.,entity_f3e83c0a7bfd5fa2b4ccf373f072a68b1cedac6e36c3c82f8c1f15080f814975,cities,affirmative,validation,0
+cities,280,The city of Bogor is in Indonesia.,entity_1066c7ad9dddc059f61f6c712c5527a0214acfdfed91964656b864c584cfcc6f,cities,affirmative,validation,1
+cities,281,The city of Bogor is in South Korea.,entity_1066c7ad9dddc059f61f6c712c5527a0214acfdfed91964656b864c584cfcc6f,cities,affirmative,validation,0
+cities,336,The city of Volgograd is in Russia.,entity_03f79e26ca2c3c675e9b8cfa51ad3eab2bdc30cc203685272822baa1598cf01e,cities,affirmative,validation,1
+cities,337,The city of Volgograd is in Nigeria.,entity_03f79e26ca2c3c675e9b8cfa51ad3eab2bdc30cc203685272822baa1598cf01e,cities,affirmative,validation,0
+cities,344,The city of Maceio is in Brazil.,entity_3c1b578efe355e3fbac060c128ee40e8a365d784d96d8a99035c7f745908b0b5,cities,affirmative,validation,1
+cities,345,The city of Maceio is in China.,entity_3c1b578efe355e3fbac060c128ee40e8a365d784d96d8a99035c7f745908b0b5,cities,affirmative,validation,0
+cities,350,The city of Zhangye is in China.,entity_0b4f04fbec0cf366c85f4e3897dd5f2a5e6d2946423d09ea279723db5cdc29be,cities,affirmative,validation,1
+cities,351,The city of Zhangye is in Venezuela.,entity_0b4f04fbec0cf366c85f4e3897dd5f2a5e6d2946423d09ea279723db5cdc29be,cities,affirmative,validation,0
+cities,376,The city of Ansan-si is in South Korea.,entity_a5a3305dfe3a4bfd53aada3bd64bde9812f264ecb2434b56cec12b8bacbc9e42,cities,affirmative,validation,1
+cities,377,The city of Ansan-si is in Canada.,entity_a5a3305dfe3a4bfd53aada3bd64bde9812f264ecb2434b56cec12b8bacbc9e42,cities,affirmative,validation,0
+cities,468,The city of Puente Alto is in Chile.,entity_f5348a6af205ee9d5edfd956120879780085728e4bdbb84fbfd5d4d44901fe26,cities,affirmative,validation,1
+cities,469,The city of Puente Alto is in China.,entity_f5348a6af205ee9d5edfd956120879780085728e4bdbb84fbfd5d4d44901fe26,cities,affirmative,validation,0
+cities,470,The city of Zhumadian is in China.,entity_559a146c98d66bb160f001a5dfdbaff55aa1f6c1ddb400c42d7bfeed433da17a,cities,affirmative,validation,1
+cities,471,The city of Zhumadian is in Brazil.,entity_559a146c98d66bb160f001a5dfdbaff55aa1f6c1ddb400c42d7bfeed433da17a,cities,affirmative,validation,0
+cities,472,The city of Zhengzhou is in China.,entity_cea4c55ad2019fb6ce3f5e407988b872aa564170fef99678a2be965e5dbfa572,cities,affirmative,validation,1
+cities,473,The city of Zhengzhou is in Brazil.,entity_cea4c55ad2019fb6ce3f5e407988b872aa564170fef99678a2be965e5dbfa572,cities,affirmative,validation,0
+cities,476,The city of Xianyang is in China.,entity_7505349e7fdf152ca4800ed483184d8cdca5129aef1ed27af372ab9c45e9f15c,cities,affirmative,validation,1
+cities,477,The city of Xianyang is in Russia.,entity_7505349e7fdf152ca4800ed483184d8cdca5129aef1ed27af372ab9c45e9f15c,cities,affirmative,validation,0
+cities,488,The city of Yerevan is in Armenia.,entity_705b7592d023106ec70ff335c459668fb694787e5c97e4bd953c8580c725d406,cities,affirmative,validation,1
+cities,489,The city of Yerevan is in Bangladesh.,entity_705b7592d023106ec70ff335c459668fb694787e5c97e4bd953c8580c725d406,cities,affirmative,validation,0
+cities,498,The city of Bobo-Dioulasso is in Burkina Faso.,entity_f25e081509761b33e2b7b79d3e1eec02289527060495e1d129f44a01821063d1,cities,affirmative,validation,1
+cities,499,The city of Bobo-Dioulasso is in China.,entity_f25e081509761b33e2b7b79d3e1eec02289527060495e1d129f44a01821063d1,cities,affirmative,validation,0
+cities,500,The city of Sao Jose dos Campos is in Brazil.,entity_d8a02d9bf432c431ba2d6dc649ea49dda72d15fecd67f69a16fe9d415a8e8918,cities,affirmative,validation,1
+cities,501,The city of Sao Jose dos Campos is in Iran.,entity_d8a02d9bf432c431ba2d6dc649ea49dda72d15fecd67f69a16fe9d415a8e8918,cities,affirmative,validation,0
+cities,536,The city of Yaroslavl is in Russia.,entity_f3fb107a9dcbfbb1ad1a8777b04210d02392b60a47cc6da3d410b9a59c9c166d,cities,affirmative,validation,1
+cities,537,The city of Yaroslavl is in India.,entity_f3fb107a9dcbfbb1ad1a8777b04210d02392b60a47cc6da3d410b9a59c9c166d,cities,affirmative,validation,0
+cities,542,The city of Tyumen is in Russia.,entity_792518b3a9d09d6ca79a469e814759ac1b45fcb9bb7289050113135ed79e482d,cities,affirmative,validation,1
+cities,543,The city of Tyumen is in Mexico.,entity_792518b3a9d09d6ca79a469e814759ac1b45fcb9bb7289050113135ed79e482d,cities,affirmative,validation,0
+cities,550,The city of Kimhae is in South Korea.,entity_4bb6de93985e39846a5ed206ce6fa242e69f5e6be4d7d4d29ddd1c476aa3496f,cities,affirmative,validation,1
+cities,551,The city of Kimhae is in Senegal.,entity_4bb6de93985e39846a5ed206ce6fa242e69f5e6be4d7d4d29ddd1c476aa3496f,cities,affirmative,validation,0
+cities,556,The city of Culiacan is in Mexico.,entity_58398870cfbd33ca2f361b4b67d54c03e0aaed51593555f207ea5a5f11ef6795,cities,affirmative,validation,1
+cities,557,The city of Culiacan is in China.,entity_58398870cfbd33ca2f361b4b67d54c03e0aaed51593555f207ea5a5f11ef6795,cities,affirmative,validation,0
+cities,562,The city of Ebute Ikorodu is in Nigeria.,entity_55713819014f36a6792ea29887e1e5430566c2bd37c6095731a363b1e5c97bdf,cities,affirmative,validation,1
+cities,563,The city of Ebute Ikorodu is in China.,entity_55713819014f36a6792ea29887e1e5430566c2bd37c6095731a363b1e5c97bdf,cities,affirmative,validation,0
+cities,576,The city of Luohe is in China.,entity_a4bdff7536dafaa57f086b14a8c665546b1ace7da0ec006e12c4f9b740671e4a,cities,affirmative,validation,1
+cities,577,The city of Luohe is in Brazil.,entity_a4bdff7536dafaa57f086b14a8c665546b1ace7da0ec006e12c4f9b740671e4a,cities,affirmative,validation,0
+cities,584,The city of Guangzhou is in China.,entity_ea28d1e882cf6d850ed29d15e84843fa15436e9ba6c34c7879d22f628aa6afc5,cities,affirmative,validation,1
+cities,585,The city of Guangzhou is in India.,entity_ea28d1e882cf6d850ed29d15e84843fa15436e9ba6c34c7879d22f628aa6afc5,cities,affirmative,validation,0
+cities,588,The city of Pekanbaru is in Indonesia.,entity_a90e427c709043f97b449c2f65311f4102bcbb78861367a1c9998126a06850ea,cities,affirmative,validation,1
+cities,589,The city of Pekanbaru is in India.,entity_a90e427c709043f97b449c2f65311f4102bcbb78861367a1c9998126a06850ea,cities,affirmative,validation,0
+cities,596,The city of Zibo is in China.,entity_f321ef987a62a0aeafafc6dc1ca20cff404b6137d4d0dcaf5a6f25242620a197,cities,affirmative,validation,1
+cities,597,The city of Zibo is in India.,entity_f321ef987a62a0aeafafc6dc1ca20cff404b6137d4d0dcaf5a6f25242620a197,cities,affirmative,validation,0
+cities,600,The city of Laibin is in China.,entity_ab5b4c8f8912237ff7c24ac682f31168cb1bfa0fcb00a06ff2e03866555d4132,cities,affirmative,validation,1
+cities,601,The city of Laibin is in Ethiopia.,entity_ab5b4c8f8912237ff7c24ac682f31168cb1bfa0fcb00a06ff2e03866555d4132,cities,affirmative,validation,0
+cities,604,The city of Teresina is in Brazil.,entity_2d6ec395870a25ac707f7215b925759eca10f636e80c9fc24d38aaf323dfaf7e,cities,affirmative,validation,1
+cities,605,The city of Teresina is in Vietnam.,entity_2d6ec395870a25ac707f7215b925759eca10f636e80c9fc24d38aaf323dfaf7e,cities,affirmative,validation,0
+cities,608,The city of Duesseldorf is in Germany.,entity_2b008df8371824ba36b0fde7e604113ed0d5f1cccdc344d7ca62e037b60751f0,cities,affirmative,validation,1
+cities,609,The city of Duesseldorf is in Mexico.,entity_2b008df8371824ba36b0fde7e604113ed0d5f1cccdc344d7ca62e037b60751f0,cities,affirmative,validation,0
+cities,622,The city of Himeji is in Japan.,entity_efdce7063ba449641f7211bccd3975a7999750932f2f3f5fff2064b96e9e913b,cities,affirmative,validation,1
+cities,623,The city of Himeji is in the Democratic Republic of the Congo.,entity_efdce7063ba449641f7211bccd3975a7999750932f2f3f5fff2064b96e9e913b,cities,affirmative,validation,0
+cities,632,The city of Dubai is in the United Arab Emirates.,entity_48a6427f801826e53421529f4ef01ab46889bb178af81f39d8cc5b8df8bf16aa,cities,affirmative,validation,1
+cities,633,The city of Dubai is in the United States.,entity_48a6427f801826e53421529f4ef01ab46889bb178af81f39d8cc5b8df8bf16aa,cities,affirmative,validation,0
+cities,634,The city of Astrakhan is in Russia.,entity_637d57f9db68999144bd7e45d60a0a2ff3d1dc326b0bf44e386d1eacd3a8f0f8,cities,affirmative,validation,1
+cities,635,The city of Astrakhan is in India.,entity_637d57f9db68999144bd7e45d60a0a2ff3d1dc326b0bf44e386d1eacd3a8f0f8,cities,affirmative,validation,0
+cities,636,The city of Aleppo is in Syria.,entity_3ef48c40b1aa902aeea6f9aeaa276b0ec700722bb3557585907398964ffa915f,cities,affirmative,validation,1
+cities,637,The city of Aleppo is in China.,entity_3ef48c40b1aa902aeea6f9aeaa276b0ec700722bb3557585907398964ffa915f,cities,affirmative,validation,0
+cities,648,The city of Qinhuangdao is in China.,entity_6a835456ff2a58e97088077e5a53d44da09b614b6b46b986cc5e8be146ceec95,cities,affirmative,validation,1
+cities,649,The city of Qinhuangdao is in Eritrea.,entity_6a835456ff2a58e97088077e5a53d44da09b614b6b46b986cc5e8be146ceec95,cities,affirmative,validation,0
+cities,650,The city of Meizhou is in China.,entity_52d419d9b447143578eb81434592e1c82eea502539c74207dfc3e7a3e5e0cedd,cities,affirmative,validation,1
+cities,651,The city of Meizhou is in Russia.,entity_52d419d9b447143578eb81434592e1c82eea502539c74207dfc3e7a3e5e0cedd,cities,affirmative,validation,0
+cities,654,The city of Beijing is in China.,entity_e0b7ef7718baceccfdbbec3af290c22dcacbc29250a51d0d2c731cb4dbea7bd7,cities,affirmative,validation,1
+cities,655,The city of Beijing is in Ghana.,entity_e0b7ef7718baceccfdbbec3af290c22dcacbc29250a51d0d2c731cb4dbea7bd7,cities,affirmative,validation,0
+cities,666,The city of Aligarh is in India.,entity_f93e989f31b79ce1a15096a080af778306c53715eb34fff7d1cda91e0e30621d,cities,affirmative,validation,1
+cities,667,The city of Aligarh is in China.,entity_f93e989f31b79ce1a15096a080af778306c53715eb34fff7d1cda91e0e30621d,cities,affirmative,validation,0
+cities,676,The city of Zaozhuang is in China.,entity_072fbb4a4256c65c0823e571c84291b00851283e56a7717ca907aca60f9b861e,cities,affirmative,validation,1
+cities,677,The city of Zaozhuang is in Belarus.,entity_072fbb4a4256c65c0823e571c84291b00851283e56a7717ca907aca60f9b861e,cities,affirmative,validation,0
+cities,704,The city of Feira de Santana is in Brazil.,entity_6be64c518a673673c972610ccaa0fee16dd10cdd193b693a8ce0cd44ba529d38,cities,affirmative,validation,1
+cities,705,The city of Feira de Santana is in China.,entity_6be64c518a673673c972610ccaa0fee16dd10cdd193b693a8ce0cd44ba529d38,cities,affirmative,validation,0
+cities,708,The city of Juiz de Fora is in Brazil.,entity_1a08d2b9715ccdf09a962f5b7c0a51cb056b94c8c50cd1e39ebb0d73ebac1164,cities,affirmative,validation,1
+cities,709,The city of Juiz de Fora is in India.,entity_1a08d2b9715ccdf09a962f5b7c0a51cb056b94c8c50cd1e39ebb0d73ebac1164,cities,affirmative,validation,0
+cities,714,The city of Beirut is in Lebanon.,entity_dbc72697f2ab5a6a331bce5de20c6e1c2909d3de38df1c893135afe8e21d1179,cities,affirmative,validation,1
+cities,715,The city of Beirut is in Algeria.,entity_dbc72697f2ab5a6a331bce5de20c6e1c2909d3de38df1c893135afe8e21d1179,cities,affirmative,validation,0
+cities,722,The city of Isfahan is in Iran.,entity_ddef22939572ace29b73cd2742bd901a007838635cde1e1fc391d121e86ff152,cities,affirmative,validation,1
+cities,723,The city of Isfahan is in China.,entity_ddef22939572ace29b73cd2742bd901a007838635cde1e1fc391d121e86ff152,cities,affirmative,validation,0
+cities,732,The city of Arequipa is in Peru.,entity_caeb040a9c10373e790fcb48ba13b4554aacb6e860508fad77b2a5c68e234ba3,cities,affirmative,validation,1
+cities,733,The city of Arequipa is in India.,entity_caeb040a9c10373e790fcb48ba13b4554aacb6e860508fad77b2a5c68e234ba3,cities,affirmative,validation,0
+cities,744,The city of Lviv is in Ukraine.,entity_798e6c63cac4aca6cbb155625a917b44078889a953793cbb44e564a9e1f19ca0,cities,affirmative,validation,1
+cities,745,The city of Lviv is in China.,entity_798e6c63cac4aca6cbb155625a917b44078889a953793cbb44e564a9e1f19ca0,cities,affirmative,validation,0
+cities,748,The city of Kitakyushu is in Japan.,entity_f83ae46a9d77b2e70bd29059f64663a6360c2d125146881be407c80d4713c535,cities,affirmative,validation,1
+cities,749,The city of Kitakyushu is in Yemen.,entity_f83ae46a9d77b2e70bd29059f64663a6360c2d125146881be407c80d4713c535,cities,affirmative,validation,0
+cities,750,The city of Onitsha is in Nigeria.,entity_75a392b7c10cebd527b4cf4fedf35ae5ce6f4ce95e829088f9b7004c9cc9b735,cities,affirmative,validation,1
+cities,751,The city of Onitsha is in China.,entity_75a392b7c10cebd527b4cf4fedf35ae5ce6f4ce95e829088f9b7004c9cc9b735,cities,affirmative,validation,0
+cities,752,The city of Anyang-si is in South Korea.,entity_82188a7424be3aca85c2bd73127cbd29c2cbcf5b8b5528733c1f5420a9a4a5e0,cities,affirmative,validation,1
+cities,753,The city of Anyang-si is in Iraq.,entity_82188a7424be3aca85c2bd73127cbd29c2cbcf5b8b5528733c1f5420a9a4a5e0,cities,affirmative,validation,0
+cities,758,The city of Phnom Penh is in Cambodia.,entity_f12a72241e256e527e89a3c7b5888ee378c5cde6e30e9a0123f09265f5c3ba06,cities,affirmative,validation,1
+cities,759,The city of Phnom Penh is in Senegal.,entity_f12a72241e256e527e89a3c7b5888ee378c5cde6e30e9a0123f09265f5c3ba06,cities,affirmative,validation,0
+cities,768,The city of Quetta is in Pakistan.,entity_0d5abaf4788ec20fa27f55455b821c874b7cc21c6ff2c60afa4a507dde1c3a7c,cities,affirmative,validation,1
+cities,769,The city of Quetta is in Kenya.,entity_0d5abaf4788ec20fa27f55455b821c874b7cc21c6ff2c60afa4a507dde1c3a7c,cities,affirmative,validation,0
+cities,770,The city of Chennai is in India.,entity_a6e4f75cd04f461274cecbcfa160780ffacdcbcb39e751a2eb9b89f5d576d5ac,cities,affirmative,validation,1
+cities,771,The city of Chennai is in China.,entity_a6e4f75cd04f461274cecbcfa160780ffacdcbcb39e751a2eb9b89f5d576d5ac,cities,affirmative,validation,0
+cities,778,The city of Barranquilla is in Colombia.,entity_86d66637a78a0b1e7054c781d47db77e942e526492b340a1d2ad334f4a532d42,cities,affirmative,validation,1
+cities,779,The city of Barranquilla is in Pakistan.,entity_86d66637a78a0b1e7054c781d47db77e942e526492b340a1d2ad334f4a532d42,cities,affirmative,validation,0
+cities,786,The city of Contagem is in Brazil.,entity_9cacc8e8f1728f30f639ddba0ac24231be2c2d174a610567b835c363a7a96558,cities,affirmative,validation,1
+cities,787,The city of Contagem is in Indonesia.,entity_9cacc8e8f1728f30f639ddba0ac24231be2c2d174a610567b835c363a7a96558,cities,affirmative,validation,0
+cities,794,The city of Yinchuan is in China.,entity_bf3d317f5339474a2a1660ed4f356533812eb6ee214d6ebd408b40d4734e2ba6,cities,affirmative,validation,1
+cities,795,The city of Yinchuan is in Bangladesh.,entity_bf3d317f5339474a2a1660ed4f356533812eb6ee214d6ebd408b40d4734e2ba6,cities,affirmative,validation,0
+cities,806,The city of Frankfurt am Main is in Germany.,entity_e49935f5d6f8641064c3cd2905a931862ef919bd852523488fe1439ae5675274,cities,affirmative,validation,1
+cities,807,The city of Frankfurt am Main is in Vietnam.,entity_e49935f5d6f8641064c3cd2905a931862ef919bd852523488fe1439ae5675274,cities,affirmative,validation,0
+cities,810,The city of Aden is in Yemen.,entity_12af7a8bc7eeb1dfbf272b6fe1a9b174e3f3d6d80edeed5956285ad0469be0e2,cities,affirmative,validation,1
+cities,811,The city of Aden is in Japan.,entity_12af7a8bc7eeb1dfbf272b6fe1a9b174e3f3d6d80edeed5956285ad0469be0e2,cities,affirmative,validation,0
+cities,820,The city of Kunshan is in China.,entity_f34def8a13e8b471eec549f725e2ac8b3ddabbc72f2c256c51b81c2a18d1be45,cities,affirmative,validation,1
+cities,821,The city of Kunshan is in Russia.,entity_f34def8a13e8b471eec549f725e2ac8b3ddabbc72f2c256c51b81c2a18d1be45,cities,affirmative,validation,0
+cities,828,The city of Ma'anshan is in China.,entity_edf26f7f38289f3b55f37fe64fb00da7e98ba04bb5c35c4e26f393ad23770117,cities,affirmative,validation,1
+cities,829,The city of Ma'anshan is in India.,entity_edf26f7f38289f3b55f37fe64fb00da7e98ba04bb5c35c4e26f393ad23770117,cities,affirmative,validation,0
+cities,834,The city of Rajshahi is in Bangladesh.,entity_b51b14c491fe6bf2af792db0dbf4ee38ce8a1318a5d5a10b5099fbdca31ccbf4,cities,affirmative,validation,1
+cities,835,The city of Rajshahi is in Russia.,entity_b51b14c491fe6bf2af792db0dbf4ee38ce8a1318a5d5a10b5099fbdca31ccbf4,cities,affirmative,validation,0
+cities,838,The city of Dortmund is in Germany.,entity_4656041c6dbc434490ec8b4ac3108531682c806aba68289852078d7218b28ec4,cities,affirmative,validation,1
+cities,839,The city of Dortmund is in India.,entity_4656041c6dbc434490ec8b4ac3108531682c806aba68289852078d7218b28ec4,cities,affirmative,validation,0
+cities,856,The city of Surakarta is in Indonesia.,entity_3165b5fb6edf2cf5a5c16f1f6276bea842e8e9930b553680ecb42352d76c669c,cities,affirmative,validation,1
+cities,857,The city of Surakarta is in India.,entity_3165b5fb6edf2cf5a5c16f1f6276bea842e8e9930b553680ecb42352d76c669c,cities,affirmative,validation,0
+cities,858,The city of Banjarmasin is in Indonesia.,entity_dd984f7d4e06466c9b422d79cbf13d86a0b2e8583187f90bf641c55318fe5f29,cities,affirmative,validation,1
+cities,859,The city of Banjarmasin is in South Korea.,entity_dd984f7d4e06466c9b422d79cbf13d86a0b2e8583187f90bf641c55318fe5f29,cities,affirmative,validation,0
+cities,878,The city of Okayama is in Japan.,entity_2362000b1ac33ec28e96fd8e769e79f3a02ae89fec23f4f17d0af200a429801b,cities,affirmative,validation,1
+cities,879,The city of Okayama is in Russia.,entity_2362000b1ac33ec28e96fd8e769e79f3a02ae89fec23f4f17d0af200a429801b,cities,affirmative,validation,0
+cities,890,The city of Sanya is in China.,entity_8f17363daaaab07fa1e0b2b521661009777799a23f07d94b6f03ff5295f8e776,cities,affirmative,validation,1
+cities,891,The city of Sanya is in India.,entity_8f17363daaaab07fa1e0b2b521661009777799a23f07d94b6f03ff5295f8e776,cities,affirmative,validation,0
+cities,892,The city of Foshan is in China.,entity_a790d9ab6f4088eb0a025f828794c222e8231cf7bdf3d4eb5e4a525c9869e51d,cities,affirmative,validation,1
+cities,893,The city of Foshan is in Mozambique.,entity_a790d9ab6f4088eb0a025f828794c222e8231cf7bdf3d4eb5e4a525c9869e51d,cities,affirmative,validation,0
+cities,900,The city of Mersin is in Turkey.,entity_d5c379f635c7724968c9a816606682d7cfe03cfd76bc8abf6917426e6dc539da,cities,affirmative,validation,1
+cities,901,The city of Mersin is in the United States.,entity_d5c379f635c7724968c9a816606682d7cfe03cfd76bc8abf6917426e6dc539da,cities,affirmative,validation,0
+cities,902,The city of Guayaquil is in Ecuador.,entity_6ab7df3fb284cba535d1f6bbfb60a1414df8b826e156f57507e4a57d135e5620,cities,affirmative,validation,1
+cities,903,The city of Guayaquil is in China.,entity_6ab7df3fb284cba535d1f6bbfb60a1414df8b826e156f57507e4a57d135e5620,cities,affirmative,validation,0
+cities,924,The city of Johor Bahru is in Malaysia.,entity_d6401fee7c3a20a967aa3b7457d20812ffcb2e745faf80fe63040fa9524de94e,cities,affirmative,validation,1
+cities,925,The city of Johor Bahru is in Cuba.,entity_d6401fee7c3a20a967aa3b7457d20812ffcb2e745faf80fe63040fa9524de94e,cities,affirmative,validation,0
+cities,942,The city of Fukuoka is in Japan.,entity_4c51e83f94040e163380845b4edaf6ed5066ad3a17b13ec0958d126c6894cf86,cities,affirmative,validation,1
+cities,943,The city of Fukuoka is in Senegal.,entity_4c51e83f94040e163380845b4edaf6ed5066ad3a17b13ec0958d126c6894cf86,cities,affirmative,validation,0
+cities,952,The city of Jaipur is in India.,entity_7fa8e644c8e0729a2351e04359f08ef07aa4dec84c05d28e788436e879424305,cities,affirmative,validation,1
+cities,953,The city of Jaipur is in China.,entity_7fa8e644c8e0729a2351e04359f08ef07aa4dec84c05d28e788436e879424305,cities,affirmative,validation,0
+cities,956,The city of Bhilai is in India.,entity_3156965b50124b9b085d06dfb6fc006e763d48b2ea707175ebf8f41acca3a0aa,cities,affirmative,validation,1
+cities,957,The city of Bhilai is in Venezuela.,entity_3156965b50124b9b085d06dfb6fc006e763d48b2ea707175ebf8f41acca3a0aa,cities,affirmative,validation,0
+cities,982,The city of Huzhou is in China.,entity_8d4d82c5ad5a84d6e6c34fd27932c2033bea45c84f6e1e1ce1813323fe3bc160,cities,affirmative,validation,1
+cities,983,The city of Huzhou is in Germany.,entity_8d4d82c5ad5a84d6e6c34fd27932c2033bea45c84f6e1e1ce1813323fe3bc160,cities,affirmative,validation,0
+cities,986,The city of Chengdu is in China.,entity_09873d5b7e6eaa650773ec2438968a436171aa0f77e4a462fcd595644e1b32d8,cities,affirmative,validation,1
+cities,987,The city of Chengdu is in South Korea.,entity_09873d5b7e6eaa650773ec2438968a436171aa0f77e4a462fcd595644e1b32d8,cities,affirmative,validation,0
+cities,994,The city of Khabarovsk Vtoroy is in Russia.,entity_30151cd4097bb3c74f9fb93fa860d21b20e52d548d60681502ab15c5f4aed6b5,cities,affirmative,validation,1
+cities,995,The city of Khabarovsk Vtoroy is in China.,entity_30151cd4097bb3c74f9fb93fa860d21b20e52d548d60681502ab15c5f4aed6b5,cities,affirmative,validation,0
+cities,996,The city of Wroclaw is in Poland.,entity_6886ec989ba30e47cd08c82a386a5121b48083147eca4cc86b95dfc6e9e3afca,cities,affirmative,validation,1
+cities,997,The city of Wroclaw is in Mexico.,entity_6886ec989ba30e47cd08c82a386a5121b48083147eca4cc86b95dfc6e9e3afca,cities,affirmative,validation,0
+cities,1010,The city of Soweto is in South Africa.,entity_43f8dc5d1bb259ed2c9897bd7a945b0ec52bb8434009e324c5162a1f40c1fd1a,cities,affirmative,validation,1
+cities,1011,The city of Soweto is in Gabon.,entity_43f8dc5d1bb259ed2c9897bd7a945b0ec52bb8434009e324c5162a1f40c1fd1a,cities,affirmative,validation,0
+cities,1016,The city of Wanxian is in China.,entity_a8a32f18ba2c6ee1ab7b5d8fcd7a95d3afbcd42f132b7ed6ffe3dad23cc80528,cities,affirmative,validation,1
+cities,1017,The city of Wanxian is in Algeria.,entity_a8a32f18ba2c6ee1ab7b5d8fcd7a95d3afbcd42f132b7ed6ffe3dad23cc80528,cities,affirmative,validation,0
+cities,1022,The city of Hefei is in China.,entity_cfa370ead8f1126ca1bb4212a78748f3d97e83d9468b47e4dcf3a06db7b1f94c,cities,affirmative,validation,1
+cities,1023,The city of Hefei is in Germany.,entity_cfa370ead8f1126ca1bb4212a78748f3d97e83d9468b47e4dcf3a06db7b1f94c,cities,affirmative,validation,0
+cities,1024,The city of Handan is in China.,entity_dfcbac7e2558b60123b698d9bcd178e0fbe3582c5a865f10341d262ed1392f87,cities,affirmative,validation,1
+cities,1025,The city of Handan is in Russia.,entity_dfcbac7e2558b60123b698d9bcd178e0fbe3582c5a865f10341d262ed1392f87,cities,affirmative,validation,0
+cities,1038,The city of Kozhikode is in India.,entity_6de6afd586ec9fdca6d853422bd021894595e0678fb0178c6dfb6f0e37616b55,cities,affirmative,validation,1
+cities,1039,The city of Kozhikode is in the United States.,entity_6de6afd586ec9fdca6d853422bd021894595e0678fb0178c6dfb6f0e37616b55,cities,affirmative,validation,0
+cities,1044,The city of Jingmen is in China.,entity_d54520ade9d7fd0eb9eaf439598462c172a568d2d097bb051c10bcc2ca9aae95,cities,affirmative,validation,1
+cities,1045,The city of Jingmen is in Japan.,entity_d54520ade9d7fd0eb9eaf439598462c172a568d2d097bb051c10bcc2ca9aae95,cities,affirmative,validation,0
+cities,1060,The city of Dakar is in Senegal.,entity_da05c3a51339be66f742e6a629758760291c8e11fd1e1eb2999803ef73d81203,cities,affirmative,validation,1
+cities,1061,The city of Dakar is in India.,entity_da05c3a51339be66f742e6a629758760291c8e11fd1e1eb2999803ef73d81203,cities,affirmative,validation,0
+cities,1068,The city of Makhachkala is in Russia.,entity_8133769f7f2dc159b4c50a42233c820602b1625db0d630cfe0966a63f7e9af2b,cities,affirmative,validation,1
+cities,1069,The city of Makhachkala is in Indonesia.,entity_8133769f7f2dc159b4c50a42233c820602b1625db0d630cfe0966a63f7e9af2b,cities,affirmative,validation,0
+cities,1078,The city of Kampala is in Uganda.,entity_d8dc3759ac9787d6db6a63ed25551908e872593ae2efe14a6428410243f665d3,cities,affirmative,validation,1
+cities,1079,The city of Kampala is in Turkey.,entity_d8dc3759ac9787d6db6a63ed25551908e872593ae2efe14a6428410243f665d3,cities,affirmative,validation,0
+cities,1088,The city of Curitiba is in Brazil.,entity_59d6b6ef55bb360fb79de73978bd4d6801e797a0dc17fc320d82afb47c3281f3,cities,affirmative,validation,1
+cities,1089,The city of Curitiba is in India.,entity_59d6b6ef55bb360fb79de73978bd4d6801e797a0dc17fc320d82afb47c3281f3,cities,affirmative,validation,0
+cities,1096,The city of Samarkand is in Uzbekistan.,entity_296d1fb0abef112eff11d712d9553a99ceaaa18c8dd196af51f1c7ac3589d33d,cities,affirmative,validation,1
+cities,1097,The city of Samarkand is in China.,entity_296d1fb0abef112eff11d712d9553a99ceaaa18c8dd196af51f1c7ac3589d33d,cities,affirmative,validation,0
+cities,1122,The city of Jiaozuo is in China.,entity_99251fdef44f31e3630ee8ab2d53094da161608f91439dee3e428fca6e8bca7c,cities,affirmative,validation,1
+cities,1123,The city of Jiaozuo is in Bangladesh.,entity_99251fdef44f31e3630ee8ab2d53094da161608f91439dee3e428fca6e8bca7c,cities,affirmative,validation,0
+cities,1130,The city of Herat is in Afghanistan.,entity_8d9f9f65e84dad9e1cc5cfc2504b8680915eeb9171f2c61372c0fbe4565cc161,cities,affirmative,validation,1
+cities,1131,The city of Herat is in China.,entity_8d9f9f65e84dad9e1cc5cfc2504b8680915eeb9171f2c61372c0fbe4565cc161,cities,affirmative,validation,0
+cities,1140,The city of Zapopan is in Mexico.,entity_326aee9f5964382c6306327ca8dc7aa9713f5c9466f67b9be2f76e6cdce971fc,cities,affirmative,validation,1
+cities,1141,The city of Zapopan is in China.,entity_326aee9f5964382c6306327ca8dc7aa9713f5c9466f67b9be2f76e6cdce971fc,cities,affirmative,validation,0
+cities,1144,The city of Rourkela is in India.,entity_6e32eb422a5765764976eaed60dd495de2f83bd1481ca9e7bd076f312336f6a4,cities,affirmative,validation,1
+cities,1145,The city of Rourkela is in Brazil.,entity_6e32eb422a5765764976eaed60dd495de2f83bd1481ca9e7bd076f312336f6a4,cities,affirmative,validation,0
+cities,1160,The city of Taguig is in the Philippines.,entity_5c54705305be130d5c347658bd5d5aed57da25e1c0188b18d6f73fb40e092256,cities,affirmative,validation,1
+cities,1161,The city of Taguig is in India.,entity_5c54705305be130d5c347658bd5d5aed57da25e1c0188b18d6f73fb40e092256,cities,affirmative,validation,0
+cities,1170,The city of Bhiwandi is in India.,entity_0b16be33d87b3b30a4102cbb6ae6281790da8a3b8a17368df9a5ecd063927ba3,cities,affirmative,validation,1
+cities,1171,The city of Bhiwandi is in China.,entity_0b16be33d87b3b30a4102cbb6ae6281790da8a3b8a17368df9a5ecd063927ba3,cities,affirmative,validation,0
+cities,1172,The city of Erbil is in Iraq.,entity_a9fb84266c43c27978f707296fe388adb6f1d0543167448e135a428e25ed5833,cities,affirmative,validation,1
+cities,1173,The city of Erbil is in Cuba.,entity_a9fb84266c43c27978f707296fe388adb6f1d0543167448e135a428e25ed5833,cities,affirmative,validation,0
+cities,1176,The city of Uskudar is in Turkey.,entity_69b6d31f11da8e4ff8f2917e7d407e30d0daadf9faa55ea09b885816e2cca472,cities,affirmative,validation,1
+cities,1177,The city of Uskudar is in Bulgaria.,entity_69b6d31f11da8e4ff8f2917e7d407e30d0daadf9faa55ea09b885816e2cca472,cities,affirmative,validation,0
+cities,1180,The city of Quezon City is in the Philippines.,entity_d9cbea491bf806a86e6f97755a14d2efe2c1c72b4ebc1258182c6d872ec219b5,cities,affirmative,validation,1
+cities,1181,The city of Quezon City is in China.,entity_d9cbea491bf806a86e6f97755a14d2efe2c1c72b4ebc1258182c6d872ec219b5,cities,affirmative,validation,0
+cities,1188,The city of Surat is in India.,entity_6cb27c01f6806a4842c1c71eea5025fe570d1f9cb58fcd709e2eef9a5aed7bc3,cities,affirmative,validation,1
+cities,1189,The city of Surat is in Burkina Faso.,entity_6cb27c01f6806a4842c1c71eea5025fe570d1f9cb58fcd709e2eef9a5aed7bc3,cities,affirmative,validation,0
+cities,1190,The city of Barnaul is in Russia.,entity_f67c23e0023649cb229ed23eeea5970de49351f7dd8cb84a5608f030a7d146b7,cities,affirmative,validation,1
+cities,1191,The city of Barnaul is in South Africa.,entity_f67c23e0023649cb229ed23eeea5970de49351f7dd8cb84a5608f030a7d146b7,cities,affirmative,validation,0
+cities,1196,The city of Mogadishu is in Somalia.,entity_232ffdbef006a2177bff40140ad04afc919fe078cd016d4e8a529ed4bd2cf255,cities,affirmative,validation,1
+cities,1197,The city of Mogadishu is in Iran.,entity_232ffdbef006a2177bff40140ad04afc919fe078cd016d4e8a529ed4bd2cf255,cities,affirmative,validation,0
+cities,1200,The city of Port-au-Prince is in Haiti.,entity_814e162fcc0392936a20c95978fa8892a0c46ea840d69928c093187dd44019e3,cities,affirmative,validation,1
+cities,1201,The city of Port-au-Prince is in South Korea.,entity_814e162fcc0392936a20c95978fa8892a0c46ea840d69928c093187dd44019e3,cities,affirmative,validation,0
+cities,1210,The city of Abu Dhabi is in the United Arab Emirates.,entity_ddf3e1fdff48d03b0e21fc1330ac8df047b5413f9ecbf2e45683528e0bd939b6,cities,affirmative,validation,1
+cities,1211,The city of Abu Dhabi is in Oman.,entity_ddf3e1fdff48d03b0e21fc1330ac8df047b5413f9ecbf2e45683528e0bd939b6,cities,affirmative,validation,0
+cities,1212,The city of Sao Paulo is in Brazil.,entity_8c2f3e5e83270b5ef6171addfcc8f658cfc3d792f2eac3b5dfeecc148afc291f,cities,affirmative,validation,1
+cities,1213,The city of Sao Paulo is in China.,entity_8c2f3e5e83270b5ef6171addfcc8f658cfc3d792f2eac3b5dfeecc148afc291f,cities,affirmative,validation,0
+cities,1218,The city of Taicang is in China.,entity_6a2edc850b0af2f26712e9c78265bb5f0634c1058efa2f78c4bf6e60b0109e71,cities,affirmative,validation,1
+cities,1219,The city of Taicang is in Madagascar.,entity_6a2edc850b0af2f26712e9c78265bb5f0634c1058efa2f78c4bf6e60b0109e71,cities,affirmative,validation,0
+cities,1226,The city of Jambi City is in Indonesia.,entity_9d1249191f1e8ab98d1605dbe038faf0592d9cbaad1b0250abdbe812cabaecf1,cities,affirmative,validation,1
+cities,1227,The city of Jambi City is in China.,entity_9d1249191f1e8ab98d1605dbe038faf0592d9cbaad1b0250abdbe812cabaecf1,cities,affirmative,validation,0
+cities,1230,The city of New York City is in the United States.,entity_91f14dc61a43a392618226855818af17f9cca880552cb2c754ccbafeb40587cf,cities,affirmative,validation,1
+cities,1231,The city of New York City is in India.,entity_91f14dc61a43a392618226855818af17f9cca880552cb2c754ccbafeb40587cf,cities,affirmative,validation,0
+cities,1236,The city of Quito is in Ecuador.,entity_1b01395e6c9f2650c8367a630f3f04572ac82d8e816a8cf7a047f260e8cc9feb,cities,affirmative,validation,1
+cities,1237,The city of Quito is in China.,entity_1b01395e6c9f2650c8367a630f3f04572ac82d8e816a8cf7a047f260e8cc9feb,cities,affirmative,validation,0
+cities,1248,The city of Jinan is in China.,entity_94cd88c106a745e536c588ed7148f55e04eb7cb7caa010d9a6dd109d991c9883,cities,affirmative,validation,1
+cities,1249,The city of Jinan is in Rwanda.,entity_94cd88c106a745e536c588ed7148f55e04eb7cb7caa010d9a6dd109d991c9883,cities,affirmative,validation,0
+cities,1258,The city of Winnipeg is in Canada.,entity_5727a75ab7c48d93ed35d8bca3e8e1762f709ccdb874daed7624ede04ffcba88,cities,affirmative,validation,1
+cities,1259,The city of Winnipeg is in Mexico.,entity_5727a75ab7c48d93ed35d8bca3e8e1762f709ccdb874daed7624ede04ffcba88,cities,affirmative,validation,0
+cities,1268,The city of Kotli is in Pakistan.,entity_c15e317a3aa68c91c717b12b5511e4255fa28c2ad722dac2e6f7ca21f4659a61,cities,affirmative,validation,1
+cities,1269,The city of Kotli is in the United States.,entity_c15e317a3aa68c91c717b12b5511e4255fa28c2ad722dac2e6f7ca21f4659a61,cities,affirmative,validation,0
+cities,1274,The city of Cuttack is in India.,entity_08e2ac2bcd9be7fa4bb06296f650cc23f31dae7825a57d1f9e01ca5f653cbae7,cities,affirmative,validation,1
+cities,1275,The city of Cuttack is in Pakistan.,entity_08e2ac2bcd9be7fa4bb06296f650cc23f31dae7825a57d1f9e01ca5f653cbae7,cities,affirmative,validation,0
+cities,1296,The city of Shantou is in China.,entity_2ef9c29479ac37ecbc142a0b11129adee82f7751d20562c0afb0d61d0067ffa2,cities,affirmative,validation,1
+cities,1297,The city of Shantou is in Pakistan.,entity_2ef9c29479ac37ecbc142a0b11129adee82f7751d20562c0afb0d61d0067ffa2,cities,affirmative,validation,0
+cities,1306,The city of Chenzhou is in China.,entity_d6ad9bbafa6630e37f194f31e047c6f19c41ac19b97845a6f9a103a51c3875bb,cities,affirmative,validation,1
+cities,1307,The city of Chenzhou is in Brazil.,entity_d6ad9bbafa6630e37f194f31e047c6f19c41ac19b97845a6f9a103a51c3875bb,cities,affirmative,validation,0
+cities,1314,The city of Brasilia is in Brazil.,entity_ad534749b8a0bb4b484af38c5ea97042453326adccf3f6055c4e4ff735634db3,cities,affirmative,validation,1
+cities,1315,The city of Brasilia is in South Korea.,entity_ad534749b8a0bb4b484af38c5ea97042453326adccf3f6055c4e4ff735634db3,cities,affirmative,validation,0
+cities,1316,The city of Kandahar is in Afghanistan.,entity_f8f9b369719c29f7531db3296e2ca0bc23dec7d65bdf849ef3bcfa1ca6e0c878,cities,affirmative,validation,1
+cities,1317,The city of Kandahar is in China.,entity_f8f9b369719c29f7531db3296e2ca0bc23dec7d65bdf849ef3bcfa1ca6e0c878,cities,affirmative,validation,0
+cities,1362,The city of Grosszschocher is in Germany.,entity_b897fde0df14311066820e3174acfeffad0ece9a230403fcdb3095bb92d779b5,cities,affirmative,validation,1
+cities,1363,The city of Grosszschocher is in China.,entity_b897fde0df14311066820e3174acfeffad0ece9a230403fcdb3095bb92d779b5,cities,affirmative,validation,0
+cities,1364,The city of San Pedro Sula is in Honduras.,entity_ac296e4a20c660122dba300d33a292da2cb4345e7ad7c358c60f137ca1756f1c,cities,affirmative,validation,1
+cities,1365,The city of San Pedro Sula is in India.,entity_ac296e4a20c660122dba300d33a292da2cb4345e7ad7c358c60f137ca1756f1c,cities,affirmative,validation,0
+cities,1368,The city of Caracas is in Venezuela.,entity_f94fd5c19baaed3b1fe75ef84492cf25fc6d6c730c73ec5d7d357ae73c8f80aa,cities,affirmative,validation,1
+cities,1369,The city of Caracas is in Sudan.,entity_f94fd5c19baaed3b1fe75ef84492cf25fc6d6c730c73ec5d7d357ae73c8f80aa,cities,affirmative,validation,0
+cities,1380,The city of Nay Pyi Taw is in Myanmar.,entity_6976a1296172cbb4c12acb0cc518b0cec7bd0a044cf185a100f4b7224e42f61c,cities,affirmative,validation,1
+cities,1381,The city of Nay Pyi Taw is in Mozambique.,entity_6976a1296172cbb4c12acb0cc518b0cec7bd0a044cf185a100f4b7224e42f61c,cities,affirmative,validation,0
+cities,1392,The city of Denpasar is in Indonesia.,entity_899b61245d69662b613c8f7c7cf0ecc0f6fb8b9972dd1f7cb87e1120a5ec1454,cities,affirmative,validation,1
+cities,1393,The city of Denpasar is in Brazil.,entity_899b61245d69662b613c8f7c7cf0ecc0f6fb8b9972dd1f7cb87e1120a5ec1454,cities,affirmative,validation,0
+cities,1396,The city of Liupanshui is in China.,entity_50eb37f3b1b64bf8baa3e19d840ff6d42c4d4207041225955a9cee2b0811b87c,cities,affirmative,validation,1
+cities,1397,The city of Liupanshui is in the Philippines.,entity_50eb37f3b1b64bf8baa3e19d840ff6d42c4d4207041225955a9cee2b0811b87c,cities,affirmative,validation,0
+cities,1398,The city of Shangrao is in China.,entity_002f09924e0951fbecc3c01b6fb0431079ad1e49e37a04f8ce2b1fe262ed1180,cities,affirmative,validation,1
+cities,1399,The city of Shangrao is in Russia.,entity_002f09924e0951fbecc3c01b6fb0431079ad1e49e37a04f8ce2b1fe262ed1180,cities,affirmative,validation,0
+cities,1414,The city of Mazar-e Sharif is in Afghanistan.,entity_2769721a0093b1cd3d89e4d73b54b59163138af65af32320951d36f77024530a,cities,affirmative,validation,1
+cities,1415,The city of Mazar-e Sharif is in India.,entity_2769721a0093b1cd3d89e4d73b54b59163138af65af32320951d36f77024530a,cities,affirmative,validation,0
+cities,1416,The city of Mar del Plata is in Argentina.,entity_5202b6373bc24d68755acc67b0a4007cced195241dc8393b0cc5ea97d3fb4452,cities,affirmative,validation,1
+cities,1417,The city of Mar del Plata is in Nigeria.,entity_5202b6373bc24d68755acc67b0a4007cced195241dc8393b0cc5ea97d3fb4452,cities,affirmative,validation,0
+cities,1434,The city of Tijuana is in Mexico.,entity_5ee398e82e3d2a334383408bbbfc6018152cbe817bc209dcf4042dc0bad90971,cities,affirmative,validation,1
+cities,1435,The city of Tijuana is in the United Arab Emirates.,entity_5ee398e82e3d2a334383408bbbfc6018152cbe817bc209dcf4042dc0bad90971,cities,affirmative,validation,0
+cities,1436,The city of Jos is in Nigeria.,entity_267674df801c442c65b3681bddb6406b650fff0be9c1834729626a87f4cbe3f4,cities,affirmative,validation,1
+cities,1437,The city of Jos is in India.,entity_267674df801c442c65b3681bddb6406b650fff0be9c1834729626a87f4cbe3f4,cities,affirmative,validation,0
+cities,1438,The city of Ibadan is in Nigeria.,entity_577726953b7414a87938eb614170e12e27281d5793483c80470773ae9c3dabfb,cities,affirmative,validation,1
+cities,1439,The city of Ibadan is in Malaysia.,entity_577726953b7414a87938eb614170e12e27281d5793483c80470773ae9c3dabfb,cities,affirmative,validation,0
+cities,1440,The city of Managua is in Nicaragua.,entity_4a3312c97d535833a35c95eb1d4ba35db3b7f5f399fd9b67e8ef8dd4cf685dfc,cities,affirmative,validation,1
+cities,1441,The city of Managua is in Turkey.,entity_4a3312c97d535833a35c95eb1d4ba35db3b7f5f399fd9b67e8ef8dd4cf685dfc,cities,affirmative,validation,0
+cities,1464,The city of Ibague is in Colombia.,entity_b552f320aad518d5e94e7581eb7ea3479f3e2261e59d1e74d883bfa9beac0dd7,cities,affirmative,validation,1
+cities,1465,The city of Ibague is in Finland.,entity_b552f320aad518d5e94e7581eb7ea3479f3e2261e59d1e74d883bfa9beac0dd7,cities,affirmative,validation,0
+cities,1468,The city of Xinyang is in China.,entity_3b3516fa4187d488c6265e19582f09b536a1a4311c2809cef9eacf6141ff9b8a,cities,affirmative,validation,1
+cities,1469,The city of Xinyang is in Japan.,entity_3b3516fa4187d488c6265e19582f09b536a1a4311c2809cef9eacf6141ff9b8a,cities,affirmative,validation,0
+cities,1470,The city of Weinan is in China.,entity_bb5ea5f20dee965eb49887e2e8ab30c7093e02cc60d9965367d75d3bf36d1935,cities,affirmative,validation,1
+cities,1471,The city of Weinan is in Colombia.,entity_bb5ea5f20dee965eb49887e2e8ab30c7093e02cc60d9965367d75d3bf36d1935,cities,affirmative,validation,0
+cities,1472,The city of Wanning is in China.,entity_eae22f455d4b089e3d4ec116bcd2b4903a3a6b7014bfd1681dc668a01620176c,cities,affirmative,validation,1
+cities,1473,The city of Wanning is in the United States.,entity_eae22f455d4b089e3d4ec116bcd2b4903a3a6b7014bfd1681dc668a01620176c,cities,affirmative,validation,0
+cities,1478,The city of Hengyang is in China.,entity_2de8dbfd6af65a5d68c238d1e29e03671a14d3734d25362ff49e1829b8745dbf,cities,affirmative,validation,1
+cities,1479,The city of Hengyang is in Turkey.,entity_2de8dbfd6af65a5d68c238d1e29e03671a14d3734d25362ff49e1829b8745dbf,cities,affirmative,validation,0
+cities,1480,The city of Changchun is in China.,entity_12b686f3c6706a0004f7c34d7d7694162e07ac56718a1d6f67f8724a3378c66a,cities,affirmative,validation,1
+cities,1481,The city of Changchun is in Germany.,entity_12b686f3c6706a0004f7c34d7d7694162e07ac56718a1d6f67f8724a3378c66a,cities,affirmative,validation,0
+neg_cities,48,The city of Ajmer is not in India.,entity_01598358f97705079422319e257cfd8564800f791999af2af9531b9a254507ab,cities,negated,validation,0
+neg_cities,49,The city of Ajmer is not in Russia.,entity_01598358f97705079422319e257cfd8564800f791999af2af9531b9a254507ab,cities,negated,validation,1
+neg_cities,52,The city of Serang is not in Indonesia.,entity_1e0bd19ebb0650fc5c14a7e26084f2659c9df61c7d07d6492479cd4aba8ae944,cities,negated,validation,0
+neg_cities,53,The city of Serang is not in Poland.,entity_1e0bd19ebb0650fc5c14a7e26084f2659c9df61c7d07d6492479cd4aba8ae944,cities,negated,validation,1
+neg_cities,66,The city of Najafgarh is not in India.,entity_703793d0175fab26501c1d02955fe82c665345470175e1f9cc7696bc47301077,cities,negated,validation,0
+neg_cities,67,The city of Najafgarh is not in Brazil.,entity_703793d0175fab26501c1d02955fe82c665345470175e1f9cc7696bc47301077,cities,negated,validation,1
+neg_cities,84,The city of Niamey is not in Niger.,entity_325a4cdf9f79efbd311bcfe927412bac54068e5d242212124b78af55f0a5ea72,cities,negated,validation,0
+neg_cities,85,The city of Niamey is not in China.,entity_325a4cdf9f79efbd311bcfe927412bac54068e5d242212124b78af55f0a5ea72,cities,negated,validation,1
+neg_cities,114,The city of Linyi is not in China.,entity_45ef68699c33f4cf505c4fe163c62580c05c7be393d46a88a87c61ca1cbfb73e,cities,negated,validation,0
+neg_cities,115,The city of Linyi is not in Iraq.,entity_45ef68699c33f4cf505c4fe163c62580c05c7be393d46a88a87c61ca1cbfb73e,cities,negated,validation,1
+neg_cities,120,The city of Busan is not in South Korea.,entity_c288106cb5c8b74859fa9fd9d99f60199d2d2fe4be296e89a5dbdb45aec6f12f,cities,negated,validation,0
+neg_cities,121,The city of Busan is not in Brazil.,entity_c288106cb5c8b74859fa9fd9d99f60199d2d2fe4be296e89a5dbdb45aec6f12f,cities,negated,validation,1
+neg_cities,128,The city of Incheon is not in South Korea.,entity_edf508dd7d48753c449003fb50c8f96e75df87867f49d44713731212891b5f3a,cities,negated,validation,0
+neg_cities,129,The city of Incheon is not in India.,entity_edf508dd7d48753c449003fb50c8f96e75df87867f49d44713731212891b5f3a,cities,negated,validation,1
+neg_cities,136,The city of Acapulco de Juarez is not in Mexico.,entity_092e823eade7d59b61de393a13a613c5a4e965ebd27dd6503d2b62d2871da3cd,cities,negated,validation,0
+neg_cities,137,The city of Acapulco de Juarez is not in Morocco.,entity_092e823eade7d59b61de393a13a613c5a4e965ebd27dd6503d2b62d2871da3cd,cities,negated,validation,1
+neg_cities,142,The city of Qom is not in Iran.,entity_c407d5b3957f45bdfeff423a0cf6ad51c90f9b2799b701c4464fc32e53fb6ba8,cities,negated,validation,0
+neg_cities,143,The city of Qom is not in Vietnam.,entity_c407d5b3957f45bdfeff423a0cf6ad51c90f9b2799b701c4464fc32e53fb6ba8,cities,negated,validation,1
+neg_cities,150,The city of Dehra Dun is not in India.,entity_62c89057e1da605fdb7669537a3f1cd0e1ea39f90ee1659f6df402ec4bd42393,cities,negated,validation,0
+neg_cities,151,The city of Dehra Dun is not in China.,entity_62c89057e1da605fdb7669537a3f1cd0e1ea39f90ee1659f6df402ec4bd42393,cities,negated,validation,1
+neg_cities,162,The city of Izmir is not in Turkey.,entity_78f934f1db7d5b9fa724b540b7333e7322a235094c3dd01b65486f9d56b886bc,cities,negated,validation,0
+neg_cities,163,The city of Izmir is not in Iran.,entity_78f934f1db7d5b9fa724b540b7333e7322a235094c3dd01b65486f9d56b886bc,cities,negated,validation,1
+neg_cities,166,The city of Zhenjiang is not in China.,entity_69cf8748b9d1175a8ca15526a74c509c4e5d63094401e36bf83db6261b6c65bf,cities,negated,validation,0
+neg_cities,167,The city of Zhenjiang is not in Germany.,entity_69cf8748b9d1175a8ca15526a74c509c4e5d63094401e36bf83db6261b6c65bf,cities,negated,validation,1
+neg_cities,172,The city of Tianjin is not in China.,entity_804c5d1c3c1b802ff7b21d10d3dfb916bc053366569468e76f94a3da42cc7b89,cities,negated,validation,0
+neg_cities,173,The city of Tianjin is not in Bangladesh.,entity_804c5d1c3c1b802ff7b21d10d3dfb916bc053366569468e76f94a3da42cc7b89,cities,negated,validation,1
+neg_cities,178,The city of Mudanjiang is not in China.,entity_74e69743a01e1068a6aadabfb5f745f7cb3df03ced725bc84f86c1cf7bd94dea,cities,negated,validation,0
+neg_cities,179,The city of Mudanjiang is not in Turkey.,entity_74e69743a01e1068a6aadabfb5f745f7cb3df03ced725bc84f86c1cf7bd94dea,cities,negated,validation,1
+neg_cities,188,The city of Marseille is not in France.,entity_4aac0e553c866690d77bcbc77c6ce20c9c4294bbded2e04adc0f08d4ddabe19c,cities,negated,validation,0
+neg_cities,189,The city of Marseille is not in Russia.,entity_4aac0e553c866690d77bcbc77c6ce20c9c4294bbded2e04adc0f08d4ddabe19c,cities,negated,validation,1
+neg_cities,198,The city of Mukalla is not in Yemen.,entity_aa1fff67620f77223ec20979b3bddaa905438dd11190eeb5556b223579ef9763,cities,negated,validation,0
+neg_cities,199,The city of Mukalla is not in Iran.,entity_aa1fff67620f77223ec20979b3bddaa905438dd11190eeb5556b223579ef9763,cities,negated,validation,1
+neg_cities,200,The city of Harare is not in Zimbabwe.,entity_3511f4ae3741355b5f0e283c5b45132185eadbdb178fc9736af55f0452289f3c,cities,negated,validation,0
+neg_cities,201,The city of Harare is not in Turkey.,entity_3511f4ae3741355b5f0e283c5b45132185eadbdb178fc9736af55f0452289f3c,cities,negated,validation,1
+neg_cities,204,The city of Lipetsk is not in Russia.,entity_61b191330fe7a96a5cd8213f797556ba327c7871125c1735f680180ccaccd3b6,cities,negated,validation,0
+neg_cities,205,The city of Lipetsk is not in China.,entity_61b191330fe7a96a5cd8213f797556ba327c7871125c1735f680180ccaccd3b6,cities,negated,validation,1
+neg_cities,214,The city of Maturin is not in Venezuela.,entity_a417c5e4cc68ccaf30cdb0f9e8ecb68f9ced6c222667a12a5af0c54cb7053c26,cities,negated,validation,0
+neg_cities,215,The city of Maturin is not in Saudi Arabia.,entity_a417c5e4cc68ccaf30cdb0f9e8ecb68f9ced6c222667a12a5af0c54cb7053c26,cities,negated,validation,1
+neg_cities,220,The city of Cucuta is not in Colombia.,entity_8b27bdb5fb47a61570bb4ca00ac81d6ef159161ec87f8e7050e2c279382337e2,cities,negated,validation,0
+neg_cities,221,The city of Cucuta is not in India.,entity_8b27bdb5fb47a61570bb4ca00ac81d6ef159161ec87f8e7050e2c279382337e2,cities,negated,validation,1
+neg_cities,260,The city of Jalandhar is not in India.,entity_6c35a2fa9a607bcf34178f3c0ea925b56991d55d13d2ecc5548daa9b57c5c401,cities,negated,validation,0
+neg_cities,261,The city of Jalandhar is not in Iraq.,entity_6c35a2fa9a607bcf34178f3c0ea925b56991d55d13d2ecc5548daa9b57c5c401,cities,negated,validation,1
+neg_cities,274,The city of Jabalpur is not in India.,entity_1423b63547144900c4928b1089552561549d90e5d3341363c48833b2f969a7c2,cities,negated,validation,0
+neg_cities,275,The city of Jabalpur is not in Ukraine.,entity_1423b63547144900c4928b1089552561549d90e5d3341363c48833b2f969a7c2,cities,negated,validation,1
+neg_cities,276,The city of Bilimora is not in India.,entity_f3e83c0a7bfd5fa2b4ccf373f072a68b1cedac6e36c3c82f8c1f15080f814975,cities,negated,validation,0
+neg_cities,277,The city of Bilimora is not in Uzbekistan.,entity_f3e83c0a7bfd5fa2b4ccf373f072a68b1cedac6e36c3c82f8c1f15080f814975,cities,negated,validation,1
+neg_cities,280,The city of Bogor is not in Indonesia.,entity_1066c7ad9dddc059f61f6c712c5527a0214acfdfed91964656b864c584cfcc6f,cities,negated,validation,0
+neg_cities,281,The city of Bogor is not in South Korea.,entity_1066c7ad9dddc059f61f6c712c5527a0214acfdfed91964656b864c584cfcc6f,cities,negated,validation,1
+neg_cities,336,The city of Volgograd is not in Russia.,entity_03f79e26ca2c3c675e9b8cfa51ad3eab2bdc30cc203685272822baa1598cf01e,cities,negated,validation,0
+neg_cities,337,The city of Volgograd is not in Nigeria.,entity_03f79e26ca2c3c675e9b8cfa51ad3eab2bdc30cc203685272822baa1598cf01e,cities,negated,validation,1
+neg_cities,344,The city of Maceio is not in Brazil.,entity_3c1b578efe355e3fbac060c128ee40e8a365d784d96d8a99035c7f745908b0b5,cities,negated,validation,0
+neg_cities,345,The city of Maceio is not in China.,entity_3c1b578efe355e3fbac060c128ee40e8a365d784d96d8a99035c7f745908b0b5,cities,negated,validation,1
+neg_cities,350,The city of Zhangye is not in China.,entity_0b4f04fbec0cf366c85f4e3897dd5f2a5e6d2946423d09ea279723db5cdc29be,cities,negated,validation,0
+neg_cities,351,The city of Zhangye is not in Venezuela.,entity_0b4f04fbec0cf366c85f4e3897dd5f2a5e6d2946423d09ea279723db5cdc29be,cities,negated,validation,1
+neg_cities,376,The city of Ansan-si is not in South Korea.,entity_a5a3305dfe3a4bfd53aada3bd64bde9812f264ecb2434b56cec12b8bacbc9e42,cities,negated,validation,0
+neg_cities,377,The city of Ansan-si is not in Canada.,entity_a5a3305dfe3a4bfd53aada3bd64bde9812f264ecb2434b56cec12b8bacbc9e42,cities,negated,validation,1
+neg_cities,468,The city of Puente Alto is not in Chile.,entity_f5348a6af205ee9d5edfd956120879780085728e4bdbb84fbfd5d4d44901fe26,cities,negated,validation,0
+neg_cities,469,The city of Puente Alto is not in China.,entity_f5348a6af205ee9d5edfd956120879780085728e4bdbb84fbfd5d4d44901fe26,cities,negated,validation,1
+neg_cities,470,The city of Zhumadian is not in China.,entity_559a146c98d66bb160f001a5dfdbaff55aa1f6c1ddb400c42d7bfeed433da17a,cities,negated,validation,0
+neg_cities,471,The city of Zhumadian is not in Brazil.,entity_559a146c98d66bb160f001a5dfdbaff55aa1f6c1ddb400c42d7bfeed433da17a,cities,negated,validation,1
+neg_cities,472,The city of Zhengzhou is not in China.,entity_cea4c55ad2019fb6ce3f5e407988b872aa564170fef99678a2be965e5dbfa572,cities,negated,validation,0
+neg_cities,473,The city of Zhengzhou is not in Brazil.,entity_cea4c55ad2019fb6ce3f5e407988b872aa564170fef99678a2be965e5dbfa572,cities,negated,validation,1
+neg_cities,476,The city of Xianyang is not in China.,entity_7505349e7fdf152ca4800ed483184d8cdca5129aef1ed27af372ab9c45e9f15c,cities,negated,validation,0
+neg_cities,477,The city of Xianyang is not in Russia.,entity_7505349e7fdf152ca4800ed483184d8cdca5129aef1ed27af372ab9c45e9f15c,cities,negated,validation,1
+neg_cities,488,The city of Yerevan is not in Armenia.,entity_705b7592d023106ec70ff335c459668fb694787e5c97e4bd953c8580c725d406,cities,negated,validation,0
+neg_cities,489,The city of Yerevan is not in Bangladesh.,entity_705b7592d023106ec70ff335c459668fb694787e5c97e4bd953c8580c725d406,cities,negated,validation,1
+neg_cities,498,The city of Bobo-Dioulasso is not in Burkina Faso.,entity_f25e081509761b33e2b7b79d3e1eec02289527060495e1d129f44a01821063d1,cities,negated,validation,0
+neg_cities,499,The city of Bobo-Dioulasso is not in China.,entity_f25e081509761b33e2b7b79d3e1eec02289527060495e1d129f44a01821063d1,cities,negated,validation,1
+neg_cities,500,The city of Sao Jose dos Campos is not in Brazil.,entity_d8a02d9bf432c431ba2d6dc649ea49dda72d15fecd67f69a16fe9d415a8e8918,cities,negated,validation,0
+neg_cities,501,The city of Sao Jose dos Campos is not in Iran.,entity_d8a02d9bf432c431ba2d6dc649ea49dda72d15fecd67f69a16fe9d415a8e8918,cities,negated,validation,1
+neg_cities,536,The city of Yaroslavl is not in Russia.,entity_f3fb107a9dcbfbb1ad1a8777b04210d02392b60a47cc6da3d410b9a59c9c166d,cities,negated,validation,0
+neg_cities,537,The city of Yaroslavl is not in India.,entity_f3fb107a9dcbfbb1ad1a8777b04210d02392b60a47cc6da3d410b9a59c9c166d,cities,negated,validation,1
+neg_cities,542,The city of Tyumen is not in Russia.,entity_792518b3a9d09d6ca79a469e814759ac1b45fcb9bb7289050113135ed79e482d,cities,negated,validation,0
+neg_cities,543,The city of Tyumen is not in Mexico.,entity_792518b3a9d09d6ca79a469e814759ac1b45fcb9bb7289050113135ed79e482d,cities,negated,validation,1
+neg_cities,550,The city of Kimhae is not in South Korea.,entity_4bb6de93985e39846a5ed206ce6fa242e69f5e6be4d7d4d29ddd1c476aa3496f,cities,negated,validation,0
+neg_cities,551,The city of Kimhae is not in Senegal.,entity_4bb6de93985e39846a5ed206ce6fa242e69f5e6be4d7d4d29ddd1c476aa3496f,cities,negated,validation,1
+neg_cities,556,The city of Culiacan is not in Mexico.,entity_58398870cfbd33ca2f361b4b67d54c03e0aaed51593555f207ea5a5f11ef6795,cities,negated,validation,0
+neg_cities,557,The city of Culiacan is not in China.,entity_58398870cfbd33ca2f361b4b67d54c03e0aaed51593555f207ea5a5f11ef6795,cities,negated,validation,1
+neg_cities,562,The city of Ebute Ikorodu is not in Nigeria.,entity_55713819014f36a6792ea29887e1e5430566c2bd37c6095731a363b1e5c97bdf,cities,negated,validation,0
+neg_cities,563,The city of Ebute Ikorodu is not in China.,entity_55713819014f36a6792ea29887e1e5430566c2bd37c6095731a363b1e5c97bdf,cities,negated,validation,1
+neg_cities,576,The city of Luohe is not in China.,entity_a4bdff7536dafaa57f086b14a8c665546b1ace7da0ec006e12c4f9b740671e4a,cities,negated,validation,0
+neg_cities,577,The city of Luohe is not in Brazil.,entity_a4bdff7536dafaa57f086b14a8c665546b1ace7da0ec006e12c4f9b740671e4a,cities,negated,validation,1
+neg_cities,584,The city of Guangzhou is not in China.,entity_ea28d1e882cf6d850ed29d15e84843fa15436e9ba6c34c7879d22f628aa6afc5,cities,negated,validation,0
+neg_cities,585,The city of Guangzhou is not in India.,entity_ea28d1e882cf6d850ed29d15e84843fa15436e9ba6c34c7879d22f628aa6afc5,cities,negated,validation,1
+neg_cities,588,The city of Pekanbaru is not in Indonesia.,entity_a90e427c709043f97b449c2f65311f4102bcbb78861367a1c9998126a06850ea,cities,negated,validation,0
+neg_cities,589,The city of Pekanbaru is not in India.,entity_a90e427c709043f97b449c2f65311f4102bcbb78861367a1c9998126a06850ea,cities,negated,validation,1
+neg_cities,596,The city of Zibo is not in China.,entity_f321ef987a62a0aeafafc6dc1ca20cff404b6137d4d0dcaf5a6f25242620a197,cities,negated,validation,0
+neg_cities,597,The city of Zibo is not in India.,entity_f321ef987a62a0aeafafc6dc1ca20cff404b6137d4d0dcaf5a6f25242620a197,cities,negated,validation,1
+neg_cities,600,The city of Laibin is not in China.,entity_ab5b4c8f8912237ff7c24ac682f31168cb1bfa0fcb00a06ff2e03866555d4132,cities,negated,validation,0
+neg_cities,601,The city of Laibin is not in Ethiopia.,entity_ab5b4c8f8912237ff7c24ac682f31168cb1bfa0fcb00a06ff2e03866555d4132,cities,negated,validation,1
+neg_cities,604,The city of Teresina is not in Brazil.,entity_2d6ec395870a25ac707f7215b925759eca10f636e80c9fc24d38aaf323dfaf7e,cities,negated,validation,0
+neg_cities,605,The city of Teresina is not in Vietnam.,entity_2d6ec395870a25ac707f7215b925759eca10f636e80c9fc24d38aaf323dfaf7e,cities,negated,validation,1
+neg_cities,608,The city of Duesseldorf is not in Germany.,entity_2b008df8371824ba36b0fde7e604113ed0d5f1cccdc344d7ca62e037b60751f0,cities,negated,validation,0
+neg_cities,609,The city of Duesseldorf is not in Mexico.,entity_2b008df8371824ba36b0fde7e604113ed0d5f1cccdc344d7ca62e037b60751f0,cities,negated,validation,1
+neg_cities,622,The city of Himeji is not in Japan.,entity_efdce7063ba449641f7211bccd3975a7999750932f2f3f5fff2064b96e9e913b,cities,negated,validation,0
+neg_cities,623,The city of Himeji is not in the Democratic Republic of the Congo.,entity_efdce7063ba449641f7211bccd3975a7999750932f2f3f5fff2064b96e9e913b,cities,negated,validation,1
+neg_cities,632,The city of Dubai is not in the United Arab Emirates.,entity_48a6427f801826e53421529f4ef01ab46889bb178af81f39d8cc5b8df8bf16aa,cities,negated,validation,0
+neg_cities,633,The city of Dubai is not in the United States.,entity_48a6427f801826e53421529f4ef01ab46889bb178af81f39d8cc5b8df8bf16aa,cities,negated,validation,1
+neg_cities,634,The city of Astrakhan is not in Russia.,entity_637d57f9db68999144bd7e45d60a0a2ff3d1dc326b0bf44e386d1eacd3a8f0f8,cities,negated,validation,0
+neg_cities,635,The city of Astrakhan is not in India.,entity_637d57f9db68999144bd7e45d60a0a2ff3d1dc326b0bf44e386d1eacd3a8f0f8,cities,negated,validation,1
+neg_cities,636,The city of Aleppo is not in Syria.,entity_3ef48c40b1aa902aeea6f9aeaa276b0ec700722bb3557585907398964ffa915f,cities,negated,validation,0
+neg_cities,637,The city of Aleppo is not in China.,entity_3ef48c40b1aa902aeea6f9aeaa276b0ec700722bb3557585907398964ffa915f,cities,negated,validation,1
+neg_cities,648,The city of Qinhuangdao is not in China.,entity_6a835456ff2a58e97088077e5a53d44da09b614b6b46b986cc5e8be146ceec95,cities,negated,validation,0
+neg_cities,649,The city of Qinhuangdao is not in Eritrea.,entity_6a835456ff2a58e97088077e5a53d44da09b614b6b46b986cc5e8be146ceec95,cities,negated,validation,1
+neg_cities,650,The city of Meizhou is not in China.,entity_52d419d9b447143578eb81434592e1c82eea502539c74207dfc3e7a3e5e0cedd,cities,negated,validation,0
+neg_cities,651,The city of Meizhou is not in Russia.,entity_52d419d9b447143578eb81434592e1c82eea502539c74207dfc3e7a3e5e0cedd,cities,negated,validation,1
+neg_cities,654,The city of Beijing is not in China.,entity_e0b7ef7718baceccfdbbec3af290c22dcacbc29250a51d0d2c731cb4dbea7bd7,cities,negated,validation,0
+neg_cities,655,The city of Beijing is not in Ghana.,entity_e0b7ef7718baceccfdbbec3af290c22dcacbc29250a51d0d2c731cb4dbea7bd7,cities,negated,validation,1
+neg_cities,666,The city of Aligarh is not in India.,entity_f93e989f31b79ce1a15096a080af778306c53715eb34fff7d1cda91e0e30621d,cities,negated,validation,0
+neg_cities,667,The city of Aligarh is not in China.,entity_f93e989f31b79ce1a15096a080af778306c53715eb34fff7d1cda91e0e30621d,cities,negated,validation,1
+neg_cities,676,The city of Zaozhuang is not in China.,entity_072fbb4a4256c65c0823e571c84291b00851283e56a7717ca907aca60f9b861e,cities,negated,validation,0
+neg_cities,677,The city of Zaozhuang is not in Belarus.,entity_072fbb4a4256c65c0823e571c84291b00851283e56a7717ca907aca60f9b861e,cities,negated,validation,1
+neg_cities,704,The city of Feira de Santana is not in Brazil.,entity_6be64c518a673673c972610ccaa0fee16dd10cdd193b693a8ce0cd44ba529d38,cities,negated,validation,0
+neg_cities,705,The city of Feira de Santana is not in China.,entity_6be64c518a673673c972610ccaa0fee16dd10cdd193b693a8ce0cd44ba529d38,cities,negated,validation,1
+neg_cities,708,The city of Juiz de Fora is not in Brazil.,entity_1a08d2b9715ccdf09a962f5b7c0a51cb056b94c8c50cd1e39ebb0d73ebac1164,cities,negated,validation,0
+neg_cities,709,The city of Juiz de Fora is not in India.,entity_1a08d2b9715ccdf09a962f5b7c0a51cb056b94c8c50cd1e39ebb0d73ebac1164,cities,negated,validation,1
+neg_cities,714,The city of Beirut is not in Lebanon.,entity_dbc72697f2ab5a6a331bce5de20c6e1c2909d3de38df1c893135afe8e21d1179,cities,negated,validation,0
+neg_cities,715,The city of Beirut is not in Algeria.,entity_dbc72697f2ab5a6a331bce5de20c6e1c2909d3de38df1c893135afe8e21d1179,cities,negated,validation,1
+neg_cities,722,The city of Isfahan is not in Iran.,entity_ddef22939572ace29b73cd2742bd901a007838635cde1e1fc391d121e86ff152,cities,negated,validation,0
+neg_cities,723,The city of Isfahan is not in China.,entity_ddef22939572ace29b73cd2742bd901a007838635cde1e1fc391d121e86ff152,cities,negated,validation,1
+neg_cities,732,The city of Arequipa is not in Peru.,entity_caeb040a9c10373e790fcb48ba13b4554aacb6e860508fad77b2a5c68e234ba3,cities,negated,validation,0
+neg_cities,733,The city of Arequipa is not in India.,entity_caeb040a9c10373e790fcb48ba13b4554aacb6e860508fad77b2a5c68e234ba3,cities,negated,validation,1
+neg_cities,744,The city of Lviv is not in Ukraine.,entity_798e6c63cac4aca6cbb155625a917b44078889a953793cbb44e564a9e1f19ca0,cities,negated,validation,0
+neg_cities,745,The city of Lviv is not in China.,entity_798e6c63cac4aca6cbb155625a917b44078889a953793cbb44e564a9e1f19ca0,cities,negated,validation,1
+neg_cities,748,The city of Kitakyushu is not in Japan.,entity_f83ae46a9d77b2e70bd29059f64663a6360c2d125146881be407c80d4713c535,cities,negated,validation,0
+neg_cities,749,The city of Kitakyushu is not in Yemen.,entity_f83ae46a9d77b2e70bd29059f64663a6360c2d125146881be407c80d4713c535,cities,negated,validation,1
+neg_cities,750,The city of Onitsha is not in Nigeria.,entity_75a392b7c10cebd527b4cf4fedf35ae5ce6f4ce95e829088f9b7004c9cc9b735,cities,negated,validation,0
+neg_cities,751,The city of Onitsha is not in China.,entity_75a392b7c10cebd527b4cf4fedf35ae5ce6f4ce95e829088f9b7004c9cc9b735,cities,negated,validation,1
+neg_cities,752,The city of Anyang-si is not in South Korea.,entity_82188a7424be3aca85c2bd73127cbd29c2cbcf5b8b5528733c1f5420a9a4a5e0,cities,negated,validation,0
+neg_cities,753,The city of Anyang-si is not in Iraq.,entity_82188a7424be3aca85c2bd73127cbd29c2cbcf5b8b5528733c1f5420a9a4a5e0,cities,negated,validation,1
+neg_cities,758,The city of Phnom Penh is not in Cambodia.,entity_f12a72241e256e527e89a3c7b5888ee378c5cde6e30e9a0123f09265f5c3ba06,cities,negated,validation,0
+neg_cities,759,The city of Phnom Penh is not in Senegal.,entity_f12a72241e256e527e89a3c7b5888ee378c5cde6e30e9a0123f09265f5c3ba06,cities,negated,validation,1
+neg_cities,768,The city of Quetta is not in Pakistan.,entity_0d5abaf4788ec20fa27f55455b821c874b7cc21c6ff2c60afa4a507dde1c3a7c,cities,negated,validation,0
+neg_cities,769,The city of Quetta is not in Kenya.,entity_0d5abaf4788ec20fa27f55455b821c874b7cc21c6ff2c60afa4a507dde1c3a7c,cities,negated,validation,1
+neg_cities,770,The city of Chennai is not in India.,entity_a6e4f75cd04f461274cecbcfa160780ffacdcbcb39e751a2eb9b89f5d576d5ac,cities,negated,validation,0
+neg_cities,771,The city of Chennai is not in China.,entity_a6e4f75cd04f461274cecbcfa160780ffacdcbcb39e751a2eb9b89f5d576d5ac,cities,negated,validation,1
+neg_cities,778,The city of Barranquilla is not in Colombia.,entity_86d66637a78a0b1e7054c781d47db77e942e526492b340a1d2ad334f4a532d42,cities,negated,validation,0
+neg_cities,779,The city of Barranquilla is not in Pakistan.,entity_86d66637a78a0b1e7054c781d47db77e942e526492b340a1d2ad334f4a532d42,cities,negated,validation,1
+neg_cities,786,The city of Contagem is not in Brazil.,entity_9cacc8e8f1728f30f639ddba0ac24231be2c2d174a610567b835c363a7a96558,cities,negated,validation,0
+neg_cities,787,The city of Contagem is not in Indonesia.,entity_9cacc8e8f1728f30f639ddba0ac24231be2c2d174a610567b835c363a7a96558,cities,negated,validation,1
+neg_cities,794,The city of Yinchuan is not in China.,entity_bf3d317f5339474a2a1660ed4f356533812eb6ee214d6ebd408b40d4734e2ba6,cities,negated,validation,0
+neg_cities,795,The city of Yinchuan is not in Bangladesh.,entity_bf3d317f5339474a2a1660ed4f356533812eb6ee214d6ebd408b40d4734e2ba6,cities,negated,validation,1
+neg_cities,806,The city of Frankfurt am Main is not in Germany.,entity_e49935f5d6f8641064c3cd2905a931862ef919bd852523488fe1439ae5675274,cities,negated,validation,0
+neg_cities,807,The city of Frankfurt am Main is not in Vietnam.,entity_e49935f5d6f8641064c3cd2905a931862ef919bd852523488fe1439ae5675274,cities,negated,validation,1
+neg_cities,810,The city of Aden is not in Yemen.,entity_12af7a8bc7eeb1dfbf272b6fe1a9b174e3f3d6d80edeed5956285ad0469be0e2,cities,negated,validation,0
+neg_cities,811,The city of Aden is not in Japan.,entity_12af7a8bc7eeb1dfbf272b6fe1a9b174e3f3d6d80edeed5956285ad0469be0e2,cities,negated,validation,1
+neg_cities,820,The city of Kunshan is not in China.,entity_f34def8a13e8b471eec549f725e2ac8b3ddabbc72f2c256c51b81c2a18d1be45,cities,negated,validation,0
+neg_cities,821,The city of Kunshan is not in Russia.,entity_f34def8a13e8b471eec549f725e2ac8b3ddabbc72f2c256c51b81c2a18d1be45,cities,negated,validation,1
+neg_cities,828,The city of Ma'anshan is not in China.,entity_edf26f7f38289f3b55f37fe64fb00da7e98ba04bb5c35c4e26f393ad23770117,cities,negated,validation,0
+neg_cities,829,The city of Ma'anshan is not in India.,entity_edf26f7f38289f3b55f37fe64fb00da7e98ba04bb5c35c4e26f393ad23770117,cities,negated,validation,1
+neg_cities,834,The city of Rajshahi is not in Bangladesh.,entity_b51b14c491fe6bf2af792db0dbf4ee38ce8a1318a5d5a10b5099fbdca31ccbf4,cities,negated,validation,0
+neg_cities,835,The city of Rajshahi is not in Russia.,entity_b51b14c491fe6bf2af792db0dbf4ee38ce8a1318a5d5a10b5099fbdca31ccbf4,cities,negated,validation,1
+neg_cities,838,The city of Dortmund is not in Germany.,entity_4656041c6dbc434490ec8b4ac3108531682c806aba68289852078d7218b28ec4,cities,negated,validation,0
+neg_cities,839,The city of Dortmund is not in India.,entity_4656041c6dbc434490ec8b4ac3108531682c806aba68289852078d7218b28ec4,cities,negated,validation,1
+neg_cities,856,The city of Surakarta is not in Indonesia.,entity_3165b5fb6edf2cf5a5c16f1f6276bea842e8e9930b553680ecb42352d76c669c,cities,negated,validation,0
+neg_cities,857,The city of Surakarta is not in India.,entity_3165b5fb6edf2cf5a5c16f1f6276bea842e8e9930b553680ecb42352d76c669c,cities,negated,validation,1
+neg_cities,858,The city of Banjarmasin is not in Indonesia.,entity_dd984f7d4e06466c9b422d79cbf13d86a0b2e8583187f90bf641c55318fe5f29,cities,negated,validation,0
+neg_cities,859,The city of Banjarmasin is not in South Korea.,entity_dd984f7d4e06466c9b422d79cbf13d86a0b2e8583187f90bf641c55318fe5f29,cities,negated,validation,1
+neg_cities,878,The city of Okayama is not in Japan.,entity_2362000b1ac33ec28e96fd8e769e79f3a02ae89fec23f4f17d0af200a429801b,cities,negated,validation,0
+neg_cities,879,The city of Okayama is not in Russia.,entity_2362000b1ac33ec28e96fd8e769e79f3a02ae89fec23f4f17d0af200a429801b,cities,negated,validation,1
+neg_cities,890,The city of Sanya is not in China.,entity_8f17363daaaab07fa1e0b2b521661009777799a23f07d94b6f03ff5295f8e776,cities,negated,validation,0
+neg_cities,891,The city of Sanya is not in India.,entity_8f17363daaaab07fa1e0b2b521661009777799a23f07d94b6f03ff5295f8e776,cities,negated,validation,1
+neg_cities,892,The city of Foshan is not in China.,entity_a790d9ab6f4088eb0a025f828794c222e8231cf7bdf3d4eb5e4a525c9869e51d,cities,negated,validation,0
+neg_cities,893,The city of Foshan is not in Mozambique.,entity_a790d9ab6f4088eb0a025f828794c222e8231cf7bdf3d4eb5e4a525c9869e51d,cities,negated,validation,1
+neg_cities,900,The city of Mersin is not in Turkey.,entity_d5c379f635c7724968c9a816606682d7cfe03cfd76bc8abf6917426e6dc539da,cities,negated,validation,0
+neg_cities,901,The city of Mersin is not in the United States.,entity_d5c379f635c7724968c9a816606682d7cfe03cfd76bc8abf6917426e6dc539da,cities,negated,validation,1
+neg_cities,902,The city of Guayaquil is not in Ecuador.,entity_6ab7df3fb284cba535d1f6bbfb60a1414df8b826e156f57507e4a57d135e5620,cities,negated,validation,0
+neg_cities,903,The city of Guayaquil is not in China.,entity_6ab7df3fb284cba535d1f6bbfb60a1414df8b826e156f57507e4a57d135e5620,cities,negated,validation,1
+neg_cities,924,The city of Johor Bahru is not in Malaysia.,entity_d6401fee7c3a20a967aa3b7457d20812ffcb2e745faf80fe63040fa9524de94e,cities,negated,validation,0
+neg_cities,925,The city of Johor Bahru is not in Cuba.,entity_d6401fee7c3a20a967aa3b7457d20812ffcb2e745faf80fe63040fa9524de94e,cities,negated,validation,1
+neg_cities,942,The city of Fukuoka is not in Japan.,entity_4c51e83f94040e163380845b4edaf6ed5066ad3a17b13ec0958d126c6894cf86,cities,negated,validation,0
+neg_cities,943,The city of Fukuoka is not in Senegal.,entity_4c51e83f94040e163380845b4edaf6ed5066ad3a17b13ec0958d126c6894cf86,cities,negated,validation,1
+neg_cities,952,The city of Jaipur is not in India.,entity_7fa8e644c8e0729a2351e04359f08ef07aa4dec84c05d28e788436e879424305,cities,negated,validation,0
+neg_cities,953,The city of Jaipur is not in China.,entity_7fa8e644c8e0729a2351e04359f08ef07aa4dec84c05d28e788436e879424305,cities,negated,validation,1
+neg_cities,956,The city of Bhilai is not in India.,entity_3156965b50124b9b085d06dfb6fc006e763d48b2ea707175ebf8f41acca3a0aa,cities,negated,validation,0
+neg_cities,957,The city of Bhilai is not in Venezuela.,entity_3156965b50124b9b085d06dfb6fc006e763d48b2ea707175ebf8f41acca3a0aa,cities,negated,validation,1
+neg_cities,982,The city of Huzhou is not in China.,entity_8d4d82c5ad5a84d6e6c34fd27932c2033bea45c84f6e1e1ce1813323fe3bc160,cities,negated,validation,0
+neg_cities,983,The city of Huzhou is not in Germany.,entity_8d4d82c5ad5a84d6e6c34fd27932c2033bea45c84f6e1e1ce1813323fe3bc160,cities,negated,validation,1
+neg_cities,986,The city of Chengdu is not in China.,entity_09873d5b7e6eaa650773ec2438968a436171aa0f77e4a462fcd595644e1b32d8,cities,negated,validation,0
+neg_cities,987,The city of Chengdu is not in South Korea.,entity_09873d5b7e6eaa650773ec2438968a436171aa0f77e4a462fcd595644e1b32d8,cities,negated,validation,1
+neg_cities,994,The city of Khabarovsk Vtoroy is not in Russia.,entity_30151cd4097bb3c74f9fb93fa860d21b20e52d548d60681502ab15c5f4aed6b5,cities,negated,validation,0
+neg_cities,995,The city of Khabarovsk Vtoroy is not in China.,entity_30151cd4097bb3c74f9fb93fa860d21b20e52d548d60681502ab15c5f4aed6b5,cities,negated,validation,1
+neg_cities,996,The city of Wroclaw is not in Poland.,entity_6886ec989ba30e47cd08c82a386a5121b48083147eca4cc86b95dfc6e9e3afca,cities,negated,validation,0
+neg_cities,997,The city of Wroclaw is not in Mexico.,entity_6886ec989ba30e47cd08c82a386a5121b48083147eca4cc86b95dfc6e9e3afca,cities,negated,validation,1
+neg_cities,1010,The city of Soweto is not in South Africa.,entity_43f8dc5d1bb259ed2c9897bd7a945b0ec52bb8434009e324c5162a1f40c1fd1a,cities,negated,validation,0
+neg_cities,1011,The city of Soweto is not in Gabon.,entity_43f8dc5d1bb259ed2c9897bd7a945b0ec52bb8434009e324c5162a1f40c1fd1a,cities,negated,validation,1
+neg_cities,1016,The city of Wanxian is not in China.,entity_a8a32f18ba2c6ee1ab7b5d8fcd7a95d3afbcd42f132b7ed6ffe3dad23cc80528,cities,negated,validation,0
+neg_cities,1017,The city of Wanxian is not in Algeria.,entity_a8a32f18ba2c6ee1ab7b5d8fcd7a95d3afbcd42f132b7ed6ffe3dad23cc80528,cities,negated,validation,1
+neg_cities,1022,The city of Hefei is not in China.,entity_cfa370ead8f1126ca1bb4212a78748f3d97e83d9468b47e4dcf3a06db7b1f94c,cities,negated,validation,0
+neg_cities,1023,The city of Hefei is not in Germany.,entity_cfa370ead8f1126ca1bb4212a78748f3d97e83d9468b47e4dcf3a06db7b1f94c,cities,negated,validation,1
+neg_cities,1024,The city of Handan is not in China.,entity_dfcbac7e2558b60123b698d9bcd178e0fbe3582c5a865f10341d262ed1392f87,cities,negated,validation,0
+neg_cities,1025,The city of Handan is not in Russia.,entity_dfcbac7e2558b60123b698d9bcd178e0fbe3582c5a865f10341d262ed1392f87,cities,negated,validation,1
+neg_cities,1038,The city of Kozhikode is not in India.,entity_6de6afd586ec9fdca6d853422bd021894595e0678fb0178c6dfb6f0e37616b55,cities,negated,validation,0
+neg_cities,1039,The city of Kozhikode is not in the United States.,entity_6de6afd586ec9fdca6d853422bd021894595e0678fb0178c6dfb6f0e37616b55,cities,negated,validation,1
+neg_cities,1044,The city of Jingmen is not in China.,entity_d54520ade9d7fd0eb9eaf439598462c172a568d2d097bb051c10bcc2ca9aae95,cities,negated,validation,0
+neg_cities,1045,The city of Jingmen is not in Japan.,entity_d54520ade9d7fd0eb9eaf439598462c172a568d2d097bb051c10bcc2ca9aae95,cities,negated,validation,1
+neg_cities,1060,The city of Dakar is not in Senegal.,entity_da05c3a51339be66f742e6a629758760291c8e11fd1e1eb2999803ef73d81203,cities,negated,validation,0
+neg_cities,1061,The city of Dakar is not in India.,entity_da05c3a51339be66f742e6a629758760291c8e11fd1e1eb2999803ef73d81203,cities,negated,validation,1
+neg_cities,1068,The city of Makhachkala is not in Russia.,entity_8133769f7f2dc159b4c50a42233c820602b1625db0d630cfe0966a63f7e9af2b,cities,negated,validation,0
+neg_cities,1069,The city of Makhachkala is not in Indonesia.,entity_8133769f7f2dc159b4c50a42233c820602b1625db0d630cfe0966a63f7e9af2b,cities,negated,validation,1
+neg_cities,1078,The city of Kampala is not in Uganda.,entity_d8dc3759ac9787d6db6a63ed25551908e872593ae2efe14a6428410243f665d3,cities,negated,validation,0
+neg_cities,1079,The city of Kampala is not in Turkey.,entity_d8dc3759ac9787d6db6a63ed25551908e872593ae2efe14a6428410243f665d3,cities,negated,validation,1
+neg_cities,1088,The city of Curitiba is not in Brazil.,entity_59d6b6ef55bb360fb79de73978bd4d6801e797a0dc17fc320d82afb47c3281f3,cities,negated,validation,0
+neg_cities,1089,The city of Curitiba is not in India.,entity_59d6b6ef55bb360fb79de73978bd4d6801e797a0dc17fc320d82afb47c3281f3,cities,negated,validation,1
+neg_cities,1096,The city of Samarkand is not in Uzbekistan.,entity_296d1fb0abef112eff11d712d9553a99ceaaa18c8dd196af51f1c7ac3589d33d,cities,negated,validation,0
+neg_cities,1097,The city of Samarkand is not in China.,entity_296d1fb0abef112eff11d712d9553a99ceaaa18c8dd196af51f1c7ac3589d33d,cities,negated,validation,1
+neg_cities,1122,The city of Jiaozuo is not in China.,entity_99251fdef44f31e3630ee8ab2d53094da161608f91439dee3e428fca6e8bca7c,cities,negated,validation,0
+neg_cities,1123,The city of Jiaozuo is not in Bangladesh.,entity_99251fdef44f31e3630ee8ab2d53094da161608f91439dee3e428fca6e8bca7c,cities,negated,validation,1
+neg_cities,1130,The city of Herat is not in Afghanistan.,entity_8d9f9f65e84dad9e1cc5cfc2504b8680915eeb9171f2c61372c0fbe4565cc161,cities,negated,validation,0
+neg_cities,1131,The city of Herat is not in China.,entity_8d9f9f65e84dad9e1cc5cfc2504b8680915eeb9171f2c61372c0fbe4565cc161,cities,negated,validation,1
+neg_cities,1140,The city of Zapopan is not in Mexico.,entity_326aee9f5964382c6306327ca8dc7aa9713f5c9466f67b9be2f76e6cdce971fc,cities,negated,validation,0
+neg_cities,1141,The city of Zapopan is not in China.,entity_326aee9f5964382c6306327ca8dc7aa9713f5c9466f67b9be2f76e6cdce971fc,cities,negated,validation,1
+neg_cities,1144,The city of Rourkela is not in India.,entity_6e32eb422a5765764976eaed60dd495de2f83bd1481ca9e7bd076f312336f6a4,cities,negated,validation,0
+neg_cities,1145,The city of Rourkela is not in Brazil.,entity_6e32eb422a5765764976eaed60dd495de2f83bd1481ca9e7bd076f312336f6a4,cities,negated,validation,1
+neg_cities,1160,The city of Taguig is not in the Philippines.,entity_5c54705305be130d5c347658bd5d5aed57da25e1c0188b18d6f73fb40e092256,cities,negated,validation,0
+neg_cities,1161,The city of Taguig is not in India.,entity_5c54705305be130d5c347658bd5d5aed57da25e1c0188b18d6f73fb40e092256,cities,negated,validation,1
+neg_cities,1170,The city of Bhiwandi is not in India.,entity_0b16be33d87b3b30a4102cbb6ae6281790da8a3b8a17368df9a5ecd063927ba3,cities,negated,validation,0
+neg_cities,1171,The city of Bhiwandi is not in China.,entity_0b16be33d87b3b30a4102cbb6ae6281790da8a3b8a17368df9a5ecd063927ba3,cities,negated,validation,1
+neg_cities,1172,The city of Erbil is not in Iraq.,entity_a9fb84266c43c27978f707296fe388adb6f1d0543167448e135a428e25ed5833,cities,negated,validation,0
+neg_cities,1173,The city of Erbil is not in Cuba.,entity_a9fb84266c43c27978f707296fe388adb6f1d0543167448e135a428e25ed5833,cities,negated,validation,1
+neg_cities,1176,The city of Uskudar is not in Turkey.,entity_69b6d31f11da8e4ff8f2917e7d407e30d0daadf9faa55ea09b885816e2cca472,cities,negated,validation,0
+neg_cities,1177,The city of Uskudar is not in Bulgaria.,entity_69b6d31f11da8e4ff8f2917e7d407e30d0daadf9faa55ea09b885816e2cca472,cities,negated,validation,1
+neg_cities,1180,The city of Quezon City is not in the Philippines.,entity_d9cbea491bf806a86e6f97755a14d2efe2c1c72b4ebc1258182c6d872ec219b5,cities,negated,validation,0
+neg_cities,1181,The city of Quezon City is not in China.,entity_d9cbea491bf806a86e6f97755a14d2efe2c1c72b4ebc1258182c6d872ec219b5,cities,negated,validation,1
+neg_cities,1188,The city of Surat is not in India.,entity_6cb27c01f6806a4842c1c71eea5025fe570d1f9cb58fcd709e2eef9a5aed7bc3,cities,negated,validation,0
+neg_cities,1189,The city of Surat is not in Burkina Faso.,entity_6cb27c01f6806a4842c1c71eea5025fe570d1f9cb58fcd709e2eef9a5aed7bc3,cities,negated,validation,1
+neg_cities,1190,The city of Barnaul is not in Russia.,entity_f67c23e0023649cb229ed23eeea5970de49351f7dd8cb84a5608f030a7d146b7,cities,negated,validation,0
+neg_cities,1191,The city of Barnaul is not in South Africa.,entity_f67c23e0023649cb229ed23eeea5970de49351f7dd8cb84a5608f030a7d146b7,cities,negated,validation,1
+neg_cities,1196,The city of Mogadishu is not in Somalia.,entity_232ffdbef006a2177bff40140ad04afc919fe078cd016d4e8a529ed4bd2cf255,cities,negated,validation,0
+neg_cities,1197,The city of Mogadishu is not in Iran.,entity_232ffdbef006a2177bff40140ad04afc919fe078cd016d4e8a529ed4bd2cf255,cities,negated,validation,1
+neg_cities,1200,The city of Port-au-Prince is not in Haiti.,entity_814e162fcc0392936a20c95978fa8892a0c46ea840d69928c093187dd44019e3,cities,negated,validation,0
+neg_cities,1201,The city of Port-au-Prince is not in South Korea.,entity_814e162fcc0392936a20c95978fa8892a0c46ea840d69928c093187dd44019e3,cities,negated,validation,1
+neg_cities,1210,The city of Abu Dhabi is not in the United Arab Emirates.,entity_ddf3e1fdff48d03b0e21fc1330ac8df047b5413f9ecbf2e45683528e0bd939b6,cities,negated,validation,0
+neg_cities,1211,The city of Abu Dhabi is not in Oman.,entity_ddf3e1fdff48d03b0e21fc1330ac8df047b5413f9ecbf2e45683528e0bd939b6,cities,negated,validation,1
+neg_cities,1212,The city of Sao Paulo is not in Brazil.,entity_8c2f3e5e83270b5ef6171addfcc8f658cfc3d792f2eac3b5dfeecc148afc291f,cities,negated,validation,0
+neg_cities,1213,The city of Sao Paulo is not in China.,entity_8c2f3e5e83270b5ef6171addfcc8f658cfc3d792f2eac3b5dfeecc148afc291f,cities,negated,validation,1
+neg_cities,1218,The city of Taicang is not in China.,entity_6a2edc850b0af2f26712e9c78265bb5f0634c1058efa2f78c4bf6e60b0109e71,cities,negated,validation,0
+neg_cities,1219,The city of Taicang is not in Madagascar.,entity_6a2edc850b0af2f26712e9c78265bb5f0634c1058efa2f78c4bf6e60b0109e71,cities,negated,validation,1
+neg_cities,1226,The city of Jambi City is not in Indonesia.,entity_9d1249191f1e8ab98d1605dbe038faf0592d9cbaad1b0250abdbe812cabaecf1,cities,negated,validation,0
+neg_cities,1227,The city of Jambi City is not in China.,entity_9d1249191f1e8ab98d1605dbe038faf0592d9cbaad1b0250abdbe812cabaecf1,cities,negated,validation,1
+neg_cities,1230,The city of New York City is not in the United States.,entity_91f14dc61a43a392618226855818af17f9cca880552cb2c754ccbafeb40587cf,cities,negated,validation,0
+neg_cities,1231,The city of New York City is not in India.,entity_91f14dc61a43a392618226855818af17f9cca880552cb2c754ccbafeb40587cf,cities,negated,validation,1
+neg_cities,1236,The city of Quito is not in Ecuador.,entity_1b01395e6c9f2650c8367a630f3f04572ac82d8e816a8cf7a047f260e8cc9feb,cities,negated,validation,0
+neg_cities,1237,The city of Quito is not in China.,entity_1b01395e6c9f2650c8367a630f3f04572ac82d8e816a8cf7a047f260e8cc9feb,cities,negated,validation,1
+neg_cities,1248,The city of Jinan is not in China.,entity_94cd88c106a745e536c588ed7148f55e04eb7cb7caa010d9a6dd109d991c9883,cities,negated,validation,0
+neg_cities,1249,The city of Jinan is not in Rwanda.,entity_94cd88c106a745e536c588ed7148f55e04eb7cb7caa010d9a6dd109d991c9883,cities,negated,validation,1
+neg_cities,1258,The city of Winnipeg is not in Canada.,entity_5727a75ab7c48d93ed35d8bca3e8e1762f709ccdb874daed7624ede04ffcba88,cities,negated,validation,0
+neg_cities,1259,The city of Winnipeg is not in Mexico.,entity_5727a75ab7c48d93ed35d8bca3e8e1762f709ccdb874daed7624ede04ffcba88,cities,negated,validation,1
+neg_cities,1268,The city of Kotli is not in Pakistan.,entity_c15e317a3aa68c91c717b12b5511e4255fa28c2ad722dac2e6f7ca21f4659a61,cities,negated,validation,0
+neg_cities,1269,The city of Kotli is not in the United States.,entity_c15e317a3aa68c91c717b12b5511e4255fa28c2ad722dac2e6f7ca21f4659a61,cities,negated,validation,1
+neg_cities,1274,The city of Cuttack is not in India.,entity_08e2ac2bcd9be7fa4bb06296f650cc23f31dae7825a57d1f9e01ca5f653cbae7,cities,negated,validation,0
+neg_cities,1275,The city of Cuttack is not in Pakistan.,entity_08e2ac2bcd9be7fa4bb06296f650cc23f31dae7825a57d1f9e01ca5f653cbae7,cities,negated,validation,1
+neg_cities,1296,The city of Shantou is not in China.,entity_2ef9c29479ac37ecbc142a0b11129adee82f7751d20562c0afb0d61d0067ffa2,cities,negated,validation,0
+neg_cities,1297,The city of Shantou is not in Pakistan.,entity_2ef9c29479ac37ecbc142a0b11129adee82f7751d20562c0afb0d61d0067ffa2,cities,negated,validation,1
+neg_cities,1306,The city of Chenzhou is not in China.,entity_d6ad9bbafa6630e37f194f31e047c6f19c41ac19b97845a6f9a103a51c3875bb,cities,negated,validation,0
+neg_cities,1307,The city of Chenzhou is not in Brazil.,entity_d6ad9bbafa6630e37f194f31e047c6f19c41ac19b97845a6f9a103a51c3875bb,cities,negated,validation,1
+neg_cities,1314,The city of Brasilia is not in Brazil.,entity_ad534749b8a0bb4b484af38c5ea97042453326adccf3f6055c4e4ff735634db3,cities,negated,validation,0
+neg_cities,1315,The city of Brasilia is not in South Korea.,entity_ad534749b8a0bb4b484af38c5ea97042453326adccf3f6055c4e4ff735634db3,cities,negated,validation,1
+neg_cities,1316,The city of Kandahar is not in Afghanistan.,entity_f8f9b369719c29f7531db3296e2ca0bc23dec7d65bdf849ef3bcfa1ca6e0c878,cities,negated,validation,0
+neg_cities,1317,The city of Kandahar is not in China.,entity_f8f9b369719c29f7531db3296e2ca0bc23dec7d65bdf849ef3bcfa1ca6e0c878,cities,negated,validation,1
+neg_cities,1362,The city of Grosszschocher is not in Germany.,entity_b897fde0df14311066820e3174acfeffad0ece9a230403fcdb3095bb92d779b5,cities,negated,validation,0
+neg_cities,1363,The city of Grosszschocher is not in China.,entity_b897fde0df14311066820e3174acfeffad0ece9a230403fcdb3095bb92d779b5,cities,negated,validation,1
+neg_cities,1364,The city of San Pedro Sula is not in Honduras.,entity_ac296e4a20c660122dba300d33a292da2cb4345e7ad7c358c60f137ca1756f1c,cities,negated,validation,0
+neg_cities,1365,The city of San Pedro Sula is not in India.,entity_ac296e4a20c660122dba300d33a292da2cb4345e7ad7c358c60f137ca1756f1c,cities,negated,validation,1
+neg_cities,1368,The city of Caracas is not in Venezuela.,entity_f94fd5c19baaed3b1fe75ef84492cf25fc6d6c730c73ec5d7d357ae73c8f80aa,cities,negated,validation,0
+neg_cities,1369,The city of Caracas is not in Sudan.,entity_f94fd5c19baaed3b1fe75ef84492cf25fc6d6c730c73ec5d7d357ae73c8f80aa,cities,negated,validation,1
+neg_cities,1380,The city of Nay Pyi Taw is not in Myanmar.,entity_6976a1296172cbb4c12acb0cc518b0cec7bd0a044cf185a100f4b7224e42f61c,cities,negated,validation,0
+neg_cities,1381,The city of Nay Pyi Taw is not in Mozambique.,entity_6976a1296172cbb4c12acb0cc518b0cec7bd0a044cf185a100f4b7224e42f61c,cities,negated,validation,1
+neg_cities,1392,The city of Denpasar is not in Indonesia.,entity_899b61245d69662b613c8f7c7cf0ecc0f6fb8b9972dd1f7cb87e1120a5ec1454,cities,negated,validation,0
+neg_cities,1393,The city of Denpasar is not in Brazil.,entity_899b61245d69662b613c8f7c7cf0ecc0f6fb8b9972dd1f7cb87e1120a5ec1454,cities,negated,validation,1
+neg_cities,1396,The city of Liupanshui is not in China.,entity_50eb37f3b1b64bf8baa3e19d840ff6d42c4d4207041225955a9cee2b0811b87c,cities,negated,validation,0
+neg_cities,1397,The city of Liupanshui is not in the Philippines.,entity_50eb37f3b1b64bf8baa3e19d840ff6d42c4d4207041225955a9cee2b0811b87c,cities,negated,validation,1
+neg_cities,1398,The city of Shangrao is not in China.,entity_002f09924e0951fbecc3c01b6fb0431079ad1e49e37a04f8ce2b1fe262ed1180,cities,negated,validation,0
+neg_cities,1399,The city of Shangrao is not in Russia.,entity_002f09924e0951fbecc3c01b6fb0431079ad1e49e37a04f8ce2b1fe262ed1180,cities,negated,validation,1
+neg_cities,1414,The city of Mazar-e Sharif is not in Afghanistan.,entity_2769721a0093b1cd3d89e4d73b54b59163138af65af32320951d36f77024530a,cities,negated,validation,0
+neg_cities,1415,The city of Mazar-e Sharif is not in India.,entity_2769721a0093b1cd3d89e4d73b54b59163138af65af32320951d36f77024530a,cities,negated,validation,1
+neg_cities,1416,The city of Mar del Plata is not in Argentina.,entity_5202b6373bc24d68755acc67b0a4007cced195241dc8393b0cc5ea97d3fb4452,cities,negated,validation,0
+neg_cities,1417,The city of Mar del Plata is not in Nigeria.,entity_5202b6373bc24d68755acc67b0a4007cced195241dc8393b0cc5ea97d3fb4452,cities,negated,validation,1
+neg_cities,1434,The city of Tijuana is not in Mexico.,entity_5ee398e82e3d2a334383408bbbfc6018152cbe817bc209dcf4042dc0bad90971,cities,negated,validation,0
+neg_cities,1435,The city of Tijuana is not in the United Arab Emirates.,entity_5ee398e82e3d2a334383408bbbfc6018152cbe817bc209dcf4042dc0bad90971,cities,negated,validation,1
+neg_cities,1436,The city of Jos is not in Nigeria.,entity_267674df801c442c65b3681bddb6406b650fff0be9c1834729626a87f4cbe3f4,cities,negated,validation,0
+neg_cities,1437,The city of Jos is not in India.,entity_267674df801c442c65b3681bddb6406b650fff0be9c1834729626a87f4cbe3f4,cities,negated,validation,1
+neg_cities,1438,The city of Ibadan is not in Nigeria.,entity_577726953b7414a87938eb614170e12e27281d5793483c80470773ae9c3dabfb,cities,negated,validation,0
+neg_cities,1439,The city of Ibadan is not in Malaysia.,entity_577726953b7414a87938eb614170e12e27281d5793483c80470773ae9c3dabfb,cities,negated,validation,1
+neg_cities,1440,The city of Managua is not in Nicaragua.,entity_4a3312c97d535833a35c95eb1d4ba35db3b7f5f399fd9b67e8ef8dd4cf685dfc,cities,negated,validation,0
+neg_cities,1441,The city of Managua is not in Turkey.,entity_4a3312c97d535833a35c95eb1d4ba35db3b7f5f399fd9b67e8ef8dd4cf685dfc,cities,negated,validation,1
+neg_cities,1464,The city of Ibague is not in Colombia.,entity_b552f320aad518d5e94e7581eb7ea3479f3e2261e59d1e74d883bfa9beac0dd7,cities,negated,validation,0
+neg_cities,1465,The city of Ibague is not in Finland.,entity_b552f320aad518d5e94e7581eb7ea3479f3e2261e59d1e74d883bfa9beac0dd7,cities,negated,validation,1
+neg_cities,1468,The city of Xinyang is not in China.,entity_3b3516fa4187d488c6265e19582f09b536a1a4311c2809cef9eacf6141ff9b8a,cities,negated,validation,0
+neg_cities,1469,The city of Xinyang is not in Japan.,entity_3b3516fa4187d488c6265e19582f09b536a1a4311c2809cef9eacf6141ff9b8a,cities,negated,validation,1
+neg_cities,1470,The city of Weinan is not in China.,entity_bb5ea5f20dee965eb49887e2e8ab30c7093e02cc60d9965367d75d3bf36d1935,cities,negated,validation,0
+neg_cities,1471,The city of Weinan is not in Colombia.,entity_bb5ea5f20dee965eb49887e2e8ab30c7093e02cc60d9965367d75d3bf36d1935,cities,negated,validation,1
+neg_cities,1472,The city of Wanning is not in China.,entity_eae22f455d4b089e3d4ec116bcd2b4903a3a6b7014bfd1681dc668a01620176c,cities,negated,validation,0
+neg_cities,1473,The city of Wanning is not in the United States.,entity_eae22f455d4b089e3d4ec116bcd2b4903a3a6b7014bfd1681dc668a01620176c,cities,negated,validation,1
+neg_cities,1478,The city of Hengyang is not in China.,entity_2de8dbfd6af65a5d68c238d1e29e03671a14d3734d25362ff49e1829b8745dbf,cities,negated,validation,0
+neg_cities,1479,The city of Hengyang is not in Turkey.,entity_2de8dbfd6af65a5d68c238d1e29e03671a14d3734d25362ff49e1829b8745dbf,cities,negated,validation,1
+neg_cities,1480,The city of Changchun is not in China.,entity_12b686f3c6706a0004f7c34d7d7694162e07ac56718a1d6f67f8724a3378c66a,cities,negated,validation,0
+neg_cities,1481,The city of Changchun is not in Germany.,entity_12b686f3c6706a0004f7c34d7d7694162e07ac56718a1d6f67f8724a3378c66a,cities,negated,validation,1
+sp_en_trans,3,The Spanish word 'caliente' means 'hot'.,entity_12c652b4ba69211b690fbfdfa9767f22bbd4b53c4b559a14a98cfae1f8d04f6a,sp_en_trans,affirmative,validation,1
+sp_en_trans,11,The Spanish word 'tiempo' means 'market'.,entity_3c361528504a3cf7bede5945081588322e8df0a127faf227e7e633b01d464e07,sp_en_trans,affirmative,validation,0
+sp_en_trans,12,The Spanish word 'decir' means 'order'.,entity_77f8f73c0db975fed47d5b0af4d5de21b56dab8b718cbe9fff47d81aa2c6f05f,sp_en_trans,affirmative,validation,0
+sp_en_trans,14,The Spanish word 'tres' means 'three'.,entity_b740cac2fd92ada375d185f9e2a8a952bc6bed5683f9344af10a04027864fe13,sp_en_trans,affirmative,validation,1
+sp_en_trans,27,The Spanish word 'hombre' means 'simple'.,entity_8cfe1408260a7a224b7bac6071b949d023c72cb47d48f91c9f11a0de4b006909,sp_en_trans,affirmative,validation,0
+sp_en_trans,35,The Spanish word 'parte' means 'part'.,entity_f614ed08b147dd27a552f2640cd9cdaa3546cc383e582fe470363f2cdcbed3ff,sp_en_trans,affirmative,validation,1
+sp_en_trans,42,The Spanish word 'muy' means 'temperature'.,entity_c6af21ca261cf0baa5dee1958c6440c6e085c918f05e366a0ca9884531e4e2ee,sp_en_trans,affirmative,validation,0
+sp_en_trans,44,The Spanish word 'ayudar' means 'to help'.,entity_f7ff5e0ab82bbe0dc86249b86db8e9b025596f41c2e7e702a128f1b4f3bdd807,sp_en_trans,affirmative,validation,1
+sp_en_trans,59,The Spanish word 'venir' means 'to know'.,entity_e6d50182f8e5b64968c896f2debf1a5ef398c73447e85a9e636644776584937a,sp_en_trans,affirmative,validation,0
+sp_en_trans,68,The Spanish word 'respuesta' means 'bread'.,entity_3394f16180633930b75531d568cfb100ddd6aea1f5cf41d6e13677c9200d268e,sp_en_trans,affirmative,validation,0
+sp_en_trans,69,The Spanish word 'escuela' means 'school'.,entity_58b574138deb1c1c93d43a6a10bdc53ca07f77b5c6fc735dd64832ba25e17be8,sp_en_trans,affirmative,validation,1
+sp_en_trans,72,The Spanish word 'planta' means 'cloud'.,entity_54da25c6dcb88874a2d2930692bad69b09b841b66e6d3de8f5af3b08841d2c13,sp_en_trans,affirmative,validation,0
+sp_en_trans,76,The Spanish word 'nunca' means 'to hear'.,entity_0cb4c7aff5e2dcac9dae7cca9589af88cf1b1fcd83917738aa553bba867569c8,sp_en_trans,affirmative,validation,0
+sp_en_trans,85,The Spanish word 'mientras' means 'while'.,entity_0e10d7ee03a00ee1725bece0ccaeab0309de3b0b246927ecbabf8dc7e06c814f,sp_en_trans,affirmative,validation,1
+sp_en_trans,87,The Spanish word 'vida' means 'life'.,entity_f3ff60d1b4a8b113a4e9676185387f72e01d7df967a5164b76ea1761847d8133,sp_en_trans,affirmative,validation,1
+sp_en_trans,89,The Spanish word 'libro' means 'industry'.,entity_a03092b4fc04a9dd67e4cbc3cdeba0adbf1f159b176fb67cfcc197bc96ca07c6,sp_en_trans,affirmative,validation,0
+sp_en_trans,95,The Spanish word 'caballo' means 'horse'.,entity_2606c19b0a331cfe349c9390ab3b5b412ade9b5d751b820eeb2b8382af8e5209,sp_en_trans,affirmative,validation,1
+sp_en_trans,96,The Spanish word 'cara' means 'name'.,entity_b40d5ac400cb08509a31dcdfe53ab97823b0cc6f443e1cfa017c65233b856cd9,sp_en_trans,affirmative,validation,0
+sp_en_trans,97,The Spanish word 'madera' means 'to have'.,entity_40a97e625df4b5092e1e3ccd72961b02e7ee03c1f4da1f42a75e3a5c10ef8cee,sp_en_trans,affirmative,validation,0
+sp_en_trans,100,The Spanish word 'blanco' means 'to think'.,entity_6708444cb5d3ad5343139141c853efd917b547699fb5e307e3d7f5fcb9bf264f,sp_en_trans,affirmative,validation,0
+sp_en_trans,102,The Spanish word 'ejemplo' means 'example'.,entity_67e067d795971884f72ebacda9302b0a87c94f72465d009e9edb4b779006a3bd,sp_en_trans,affirmative,validation,1
+sp_en_trans,108,The Spanish word 'segundo' means 'hello'.,entity_04dc02af6d6fa8ebf6ee6cc41dd6e232741913bd608e846f6cb2b70344e55a41,sp_en_trans,affirmative,validation,0
+sp_en_trans,119,The Spanish word 'perro' means 'dog'.,entity_4efa5af20f6f532bfad86d8f127c0ff321b7472542e102063e43be9b9d7aea9a,sp_en_trans,affirmative,validation,1
+sp_en_trans,133,The Spanish word 'pieza' means 'duck'.,entity_2b4ecb506b17a6815a44097496a7ef21164d7efdf4d45654abc2a0951ad97f7a,sp_en_trans,affirmative,validation,0
+sp_en_trans,134,The Spanish word 'pasar' means 'to pass'.,entity_b41bd1079845fec39bfa205dfa72adb861704d508e89ebb7e78dad038e93b637,sp_en_trans,affirmative,validation,1
+sp_en_trans,135,The Spanish word 'rey' means 'king'.,entity_2ceee0e6c86bdf551588efcf920aeaee7bebdb12b86c0967dc92a6986ecb3bc0,sp_en_trans,affirmative,validation,1
+sp_en_trans,137,The Spanish word 'nada' means 'nothing'.,entity_959e72b45ac7194435a2ee34ceeffa75fae116967e03224b3ccf5d93412ec5c9,sp_en_trans,affirmative,validation,1
+sp_en_trans,143,The Spanish word 'isla' means 'island'.,entity_b64e3b6b7ec7bc6d01493624a1841763d073444fcaaf567d72b24380596dc146,sp_en_trans,affirmative,validation,1
+sp_en_trans,152,The Spanish word 'mil' means 'to eat'.,entity_c16b1e9a2f99198f004d77ae3bf418114558c2af4fbed67e6427096b2006bcca,sp_en_trans,affirmative,validation,0
+sp_en_trans,153,The Spanish word 'caliente' means 'iron'.,entity_12c652b4ba69211b690fbfdfa9767f22bbd4b53c4b559a14a98cfae1f8d04f6a,sp_en_trans,affirmative,validation,0
+sp_en_trans,157,The Spanish word 'potencia' means 'power'.,entity_b2bf002964046b983c02872f40bc78b2931affc274edbbc8471fa8e9d1464b2a,sp_en_trans,affirmative,validation,1
+sp_en_trans,161,The Spanish word 'estrella' means 'star'.,entity_2880916d9dbe70e8189d69075d3a92cdf51cb9a2f30db75d47c04538d4b51ffc,sp_en_trans,affirmative,validation,1
+sp_en_trans,164,The Spanish word 'desarrollar' means 'to develop'.,entity_cd0f42ca0dbab4cb79503f0be29d0524bee20c0817327f03e6e2e1f2e4cb849b,sp_en_trans,affirmative,validation,1
+sp_en_trans,169,The Spanish word 'espacio' means 'to measure'.,entity_3fd5fce57ab7e09c57b15a8b557ed6d243dc626ec7a3f598dbe95b5a37230b4c,sp_en_trans,affirmative,validation,0
+sp_en_trans,171,The Spanish word 'temprano' means 'early'.,entity_2ccd9a5345d0bd0d376280ca2b5ff27d687aa1abd3f8c9c91ea44672aab5fc28,sp_en_trans,affirmative,validation,1
+sp_en_trans,177,The Spanish word 'sencilla' means 'simple'.,entity_bb1e06f83011486258b48d29cd35228f0a9def6be3bda573a746f1d2a5bb19b6,sp_en_trans,affirmative,validation,1
+sp_en_trans,178,The Spanish word 'guerra' means 'example'.,entity_e7cb8506f3d528613173e2fd7c663a507b79485bc6f917a7de85d9b194312967,sp_en_trans,affirmative,validation,0
+sp_en_trans,179,The Spanish word 'lento' means 'slow'.,entity_0febc875cb15903beea123a9d0d34ba34eb7447a4e768b507c003163d6af2bf0,sp_en_trans,affirmative,validation,1
+sp_en_trans,182,The Spanish word 'mapa' means 'map'.,entity_a63a403d7d4a1b8740b3b09632678af541b177038dcdc03f3ba112bfc75ed597,sp_en_trans,affirmative,validation,1
+sp_en_trans,202,The Spanish word 'vaca' means 'cow'.,entity_0546fe7beeff346164e10948d7d31743bdcce70b475af819238b5daea10cdd84,sp_en_trans,affirmative,validation,1
+sp_en_trans,203,The Spanish word 'suave' means 'skin'.,entity_f5e19b9e075eb39e1cabb0f6574ead61dfce82faa3d0828184435b83f6118675,sp_en_trans,affirmative,validation,0
+sp_en_trans,210,The Spanish word 'recibir' means 'time'.,entity_43351cfaa29940173c7cfe42733765bcb3e4a2880952076770ada4fef3ffbf12,sp_en_trans,affirmative,validation,0
+sp_en_trans,215,The Spanish word 'sangre' means 'sun'.,entity_0c445794f776a25d2d8362cfdb85044e503790870324ab365d3b5cf852f5a340,sp_en_trans,affirmative,validation,0
+sp_en_trans,217,The Spanish word 'perdido' means 'test'.,entity_b1c7358b8d4930cdd812d80a1bb3f2f49443ce451ca812fb45f510796c794c93,sp_en_trans,affirmative,validation,0
+sp_en_trans,223,The Spanish word 'lago' means 'month'.,entity_e2e070aabc75a33918872a27a451eeea43d37f1559d15ee756f3e3ec629c098c,sp_en_trans,affirmative,validation,0
+sp_en_trans,224,The Spanish word 'momento' means 'moment'.,entity_b0db68f411ccad33d929c070645d8efea7afbd7caaacf3d1b3dd418108efdff6,sp_en_trans,affirmative,validation,1
+sp_en_trans,226,The Spanish word 'diccionario' means 'dictionary'.,entity_4c1a2a23ad94e366ded5d24be0ee7ef449413e154eb3b8cab660d58d2e691420,sp_en_trans,affirmative,validation,1
+sp_en_trans,236,The Spanish word 'veinte' means 'twenty'.,entity_83c84e935387499f043418a46b6c81fb8bf187a0d45c496894ed4e898ed784af,sp_en_trans,affirmative,validation,1
+sp_en_trans,240,The Spanish word 'comprar' means 'dry'.,entity_688e4913da6eaae17e3a8bb20f327bde29423277956859e6c09cbed73ee4ad17,sp_en_trans,affirmative,validation,0
+sp_en_trans,241,The Spanish word 'empujar' means 'to govern'.,entity_261532816b48c6b8c2eb8cc26667eb4148628525573dd9c66495e7293bc69e03,sp_en_trans,affirmative,validation,0
+sp_en_trans,244,The Spanish word 'describir' means 'to die'.,entity_3392bbb66b98a032a22855bfb139dd593b254e7a0bc465624974494ab40107b6,sp_en_trans,affirmative,validation,0
+sp_en_trans,255,The Spanish word 'temperatura' means 'hand'.,entity_e26de0ddce355f98ec972e71fa5302c7d40ef99dc6afcb4ac15117517049295c,sp_en_trans,affirmative,validation,0
+sp_en_trans,268,The Spanish word 'insecto' means 'then'.,entity_d51446375653a695c899381dcfe998c776e96451f03bc713f6bfd0e338fc3edd,sp_en_trans,affirmative,validation,0
+sp_en_trans,274,The Spanish word 'agudo' means 'sharp'.,entity_59b22700029688e8d15c95405a959c18a6b7bf860bd61676ea53e8394cb0ab6a,sp_en_trans,affirmative,validation,1
+sp_en_trans,277,The Spanish word 'poema' means 'to win'.,entity_7f59009264dc34a2526fe5a09f814e0ff836d8ddfb8236a3c2058084dce335d3,sp_en_trans,affirmative,validation,0
+sp_en_trans,280,The Spanish word 'famoso' means 'to believe'.,entity_a887f7d94717d9ad8edce7d0711626dafc74d405387bcb8b47f3c8e3570aa4dc,sp_en_trans,affirmative,validation,0
+sp_en_trans,290,The Spanish word 'pan' means 'eye'.,entity_a44ae3bbdd9b80f4b6dd8a3c77ace44149427408e9eecb0b609486d544dff145,sp_en_trans,affirmative,validation,0
+sp_en_trans,293,The Spanish word 'pato' means 'wolf'.,entity_8551cecc5c5c5b8ff6055254a5b6405f44900c315d16ef55d757e31f40221f7f,sp_en_trans,affirmative,validation,0
+sp_en_trans,296,The Spanish word 'bebida' means 'train'.,entity_2b35c4e09d0b77fda844ce5e96b1b60bfa26fbd012a20dc4c0701c05e70eb55b,sp_en_trans,affirmative,validation,0
+sp_en_trans,316,The Spanish word 'nadar' means 'to swim'.,entity_ad8247f744f04775bf4ca9ea6f61996c75d68ddba9b6c5859d38fe40555e5195,sp_en_trans,affirmative,validation,1
+sp_en_trans,318,The Spanish word 'esposa' means 'wife'.,entity_95563d372578bcc9121b20a2b61ba878c434b3df941e419db79f0505b1bca104,sp_en_trans,affirmative,validation,1
+sp_en_trans,321,The Spanish word 'ruido' means 'noise'.,entity_b2c0248a45daa9e4ef826e96306a0100a0e1d1e90fa42127eb470407ccbbca86,sp_en_trans,affirmative,validation,1
+sp_en_trans,325,The Spanish word 'nariz' means 'giraffe'.,entity_23fa23266fb0e942cc36f531c70f1bb049153cda09e7f68b1adf177ba0820ac6,sp_en_trans,affirmative,validation,0
+sp_en_trans,326,The Spanish word 'burro' means 'donkey'.,entity_6c7662cbda5ffd986ea53b322786493d0143f4defac4b973e3f8e9380bf1524d,sp_en_trans,affirmative,validation,1
+sp_en_trans,329,The Spanish word 'caballo' means 'horse'.,entity_2606c19b0a331cfe349c9390ab3b5b412ade9b5d751b820eeb2b8382af8e5209,sp_en_trans,affirmative,validation,1
+sp_en_trans,332,The Spanish word 'pato' means 'shoulder'.,entity_8551cecc5c5c5b8ff6055254a5b6405f44900c315d16ef55d757e31f40221f7f,sp_en_trans,affirmative,validation,0
+sp_en_trans,334,The Spanish word 'vaca' means 'cow'.,entity_0546fe7beeff346164e10948d7d31743bdcce70b475af819238b5daea10cdd84,sp_en_trans,affirmative,validation,1
+sp_en_trans,335,The Spanish word 'conejo' means 'rabbit'.,entity_982fa13db99e1e6480cee9873ae85f5060956e271ba22197e246542bcce42a91,sp_en_trans,affirmative,validation,1
+sp_en_trans,337,The Spanish word 'perro' means 'dog'.,entity_4efa5af20f6f532bfad86d8f127c0ff321b7472542e102063e43be9b9d7aea9a,sp_en_trans,affirmative,validation,1
+sp_en_trans,340,The Spanish word 'ballena' means 'whale'.,entity_a56db6e452c431a01916e8e0d07b0e800a39c63a6246b0288f1195c5191a3b45,sp_en_trans,affirmative,validation,1
+sp_en_trans,344,The Spanish word 'oso' means 'bear'.,entity_191984287ff05eddf25fee1ecee5b65f63db2f653315b95924020d9c786d1565,sp_en_trans,affirmative,validation,1
+sp_en_trans,348,The Spanish word 'cebra' means 'to imagine'.,entity_ef50535c3fac6283466e5f739fbbc215a0250c61e3f49c72337c7f6fe114bacc,sp_en_trans,affirmative,validation,0
+sp_en_trans,350,The Spanish word 'jirafa' means 'giraffe'.,entity_bf8b0057eea47e6a4a76468b03938a24017a1f02aa46f4dd94bf59d1e6a34331,sp_en_trans,affirmative,validation,1
+neg_sp_en_trans,3,The Spanish word 'caliente' does not mean 'hot'.,entity_12c652b4ba69211b690fbfdfa9767f22bbd4b53c4b559a14a98cfae1f8d04f6a,sp_en_trans,negated,validation,0
+neg_sp_en_trans,11,The Spanish word 'tiempo' does not mean 'market'.,entity_3c361528504a3cf7bede5945081588322e8df0a127faf227e7e633b01d464e07,sp_en_trans,negated,validation,1
+neg_sp_en_trans,12,The Spanish word 'decir' does not mean 'order'.,entity_77f8f73c0db975fed47d5b0af4d5de21b56dab8b718cbe9fff47d81aa2c6f05f,sp_en_trans,negated,validation,1
+neg_sp_en_trans,14,The Spanish word 'tres' does not mean 'three'.,entity_b740cac2fd92ada375d185f9e2a8a952bc6bed5683f9344af10a04027864fe13,sp_en_trans,negated,validation,0
+neg_sp_en_trans,27,The Spanish word 'hombre' does not mean 'simple'.,entity_8cfe1408260a7a224b7bac6071b949d023c72cb47d48f91c9f11a0de4b006909,sp_en_trans,negated,validation,1
+neg_sp_en_trans,35,The Spanish word 'parte' does not mean 'part'.,entity_f614ed08b147dd27a552f2640cd9cdaa3546cc383e582fe470363f2cdcbed3ff,sp_en_trans,negated,validation,0
+neg_sp_en_trans,42,The Spanish word 'muy' does not mean 'temperature'.,entity_c6af21ca261cf0baa5dee1958c6440c6e085c918f05e366a0ca9884531e4e2ee,sp_en_trans,negated,validation,1
+neg_sp_en_trans,44,The Spanish word 'ayudar' does not mean 'to help'.,entity_f7ff5e0ab82bbe0dc86249b86db8e9b025596f41c2e7e702a128f1b4f3bdd807,sp_en_trans,negated,validation,0
+neg_sp_en_trans,59,The Spanish word 'venir' does not mean 'to know'.,entity_e6d50182f8e5b64968c896f2debf1a5ef398c73447e85a9e636644776584937a,sp_en_trans,negated,validation,1
+neg_sp_en_trans,68,The Spanish word 'respuesta' does not mean 'bread'.,entity_3394f16180633930b75531d568cfb100ddd6aea1f5cf41d6e13677c9200d268e,sp_en_trans,negated,validation,1
+neg_sp_en_trans,69,The Spanish word 'escuela' does not mean 'school'.,entity_58b574138deb1c1c93d43a6a10bdc53ca07f77b5c6fc735dd64832ba25e17be8,sp_en_trans,negated,validation,0
+neg_sp_en_trans,72,The Spanish word 'planta' does not mean 'cloud'.,entity_54da25c6dcb88874a2d2930692bad69b09b841b66e6d3de8f5af3b08841d2c13,sp_en_trans,negated,validation,1
+neg_sp_en_trans,76,The Spanish word 'nunca' does not mean 'to hear'.,entity_0cb4c7aff5e2dcac9dae7cca9589af88cf1b1fcd83917738aa553bba867569c8,sp_en_trans,negated,validation,1
+neg_sp_en_trans,85,The Spanish word 'mientras' does not mean 'while'.,entity_0e10d7ee03a00ee1725bece0ccaeab0309de3b0b246927ecbabf8dc7e06c814f,sp_en_trans,negated,validation,0
+neg_sp_en_trans,87,The Spanish word 'vida' does not mean 'life'.,entity_f3ff60d1b4a8b113a4e9676185387f72e01d7df967a5164b76ea1761847d8133,sp_en_trans,negated,validation,0
+neg_sp_en_trans,89,The Spanish word 'libro' does not mean 'industry'.,entity_a03092b4fc04a9dd67e4cbc3cdeba0adbf1f159b176fb67cfcc197bc96ca07c6,sp_en_trans,negated,validation,1
+neg_sp_en_trans,95,The Spanish word 'caballo' does not mean 'horse'.,entity_2606c19b0a331cfe349c9390ab3b5b412ade9b5d751b820eeb2b8382af8e5209,sp_en_trans,negated,validation,0
+neg_sp_en_trans,96,The Spanish word 'cara' does not mean 'name'.,entity_b40d5ac400cb08509a31dcdfe53ab97823b0cc6f443e1cfa017c65233b856cd9,sp_en_trans,negated,validation,1
+neg_sp_en_trans,97,The Spanish word 'madera' does not mean 'to have'.,entity_40a97e625df4b5092e1e3ccd72961b02e7ee03c1f4da1f42a75e3a5c10ef8cee,sp_en_trans,negated,validation,1
+neg_sp_en_trans,100,The Spanish word 'blanco' does not mean 'to think'.,entity_6708444cb5d3ad5343139141c853efd917b547699fb5e307e3d7f5fcb9bf264f,sp_en_trans,negated,validation,1
+neg_sp_en_trans,102,The Spanish word 'ejemplo' does not mean 'example'.,entity_67e067d795971884f72ebacda9302b0a87c94f72465d009e9edb4b779006a3bd,sp_en_trans,negated,validation,0
+neg_sp_en_trans,108,The Spanish word 'segundo' does not mean 'hello'.,entity_04dc02af6d6fa8ebf6ee6cc41dd6e232741913bd608e846f6cb2b70344e55a41,sp_en_trans,negated,validation,1
+neg_sp_en_trans,119,The Spanish word 'perro' does not mean 'dog'.,entity_4efa5af20f6f532bfad86d8f127c0ff321b7472542e102063e43be9b9d7aea9a,sp_en_trans,negated,validation,0
+neg_sp_en_trans,133,The Spanish word 'pieza' does not mean 'duck'.,entity_2b4ecb506b17a6815a44097496a7ef21164d7efdf4d45654abc2a0951ad97f7a,sp_en_trans,negated,validation,1
+neg_sp_en_trans,134,The Spanish word 'pasar' does not mean 'to pass'.,entity_b41bd1079845fec39bfa205dfa72adb861704d508e89ebb7e78dad038e93b637,sp_en_trans,negated,validation,0
+neg_sp_en_trans,135,The Spanish word 'rey' does not mean 'king'.,entity_2ceee0e6c86bdf551588efcf920aeaee7bebdb12b86c0967dc92a6986ecb3bc0,sp_en_trans,negated,validation,0
+neg_sp_en_trans,137,The Spanish word 'nada' does not mean 'nothing'.,entity_959e72b45ac7194435a2ee34ceeffa75fae116967e03224b3ccf5d93412ec5c9,sp_en_trans,negated,validation,0
+neg_sp_en_trans,143,The Spanish word 'isla' does not mean 'island'.,entity_b64e3b6b7ec7bc6d01493624a1841763d073444fcaaf567d72b24380596dc146,sp_en_trans,negated,validation,0
+neg_sp_en_trans,152,The Spanish word 'mil' does not mean 'to eat'.,entity_c16b1e9a2f99198f004d77ae3bf418114558c2af4fbed67e6427096b2006bcca,sp_en_trans,negated,validation,1
+neg_sp_en_trans,153,The Spanish word 'caliente' does not mean 'iron'.,entity_12c652b4ba69211b690fbfdfa9767f22bbd4b53c4b559a14a98cfae1f8d04f6a,sp_en_trans,negated,validation,1
+neg_sp_en_trans,157,The Spanish word 'potencia' does not mean 'power'.,entity_b2bf002964046b983c02872f40bc78b2931affc274edbbc8471fa8e9d1464b2a,sp_en_trans,negated,validation,0
+neg_sp_en_trans,161,The Spanish word 'estrella' does not mean 'star'.,entity_2880916d9dbe70e8189d69075d3a92cdf51cb9a2f30db75d47c04538d4b51ffc,sp_en_trans,negated,validation,0
+neg_sp_en_trans,164,The Spanish word 'desarrollar' does not mean 'to develop'.,entity_cd0f42ca0dbab4cb79503f0be29d0524bee20c0817327f03e6e2e1f2e4cb849b,sp_en_trans,negated,validation,0
+neg_sp_en_trans,169,The Spanish word 'espacio' does not mean 'to measure'.,entity_3fd5fce57ab7e09c57b15a8b557ed6d243dc626ec7a3f598dbe95b5a37230b4c,sp_en_trans,negated,validation,1
+neg_sp_en_trans,171,The Spanish word 'temprano' does not mean 'early'.,entity_2ccd9a5345d0bd0d376280ca2b5ff27d687aa1abd3f8c9c91ea44672aab5fc28,sp_en_trans,negated,validation,0
+neg_sp_en_trans,177,The Spanish word 'sencilla' does not mean 'simple'.,entity_bb1e06f83011486258b48d29cd35228f0a9def6be3bda573a746f1d2a5bb19b6,sp_en_trans,negated,validation,0
+neg_sp_en_trans,178,The Spanish word 'guerra' does not mean 'example'.,entity_e7cb8506f3d528613173e2fd7c663a507b79485bc6f917a7de85d9b194312967,sp_en_trans,negated,validation,1
+neg_sp_en_trans,179,The Spanish word 'lento' does not mean 'slow'.,entity_0febc875cb15903beea123a9d0d34ba34eb7447a4e768b507c003163d6af2bf0,sp_en_trans,negated,validation,0
+neg_sp_en_trans,182,The Spanish word 'mapa' does not mean 'map'.,entity_a63a403d7d4a1b8740b3b09632678af541b177038dcdc03f3ba112bfc75ed597,sp_en_trans,negated,validation,0
+neg_sp_en_trans,202,The Spanish word 'vaca' does not mean 'cow'.,entity_0546fe7beeff346164e10948d7d31743bdcce70b475af819238b5daea10cdd84,sp_en_trans,negated,validation,0
+neg_sp_en_trans,203,The Spanish word 'suave' does not mean 'skin'.,entity_f5e19b9e075eb39e1cabb0f6574ead61dfce82faa3d0828184435b83f6118675,sp_en_trans,negated,validation,1
+neg_sp_en_trans,210,The Spanish word 'recibir' does not mean 'time'.,entity_43351cfaa29940173c7cfe42733765bcb3e4a2880952076770ada4fef3ffbf12,sp_en_trans,negated,validation,1
+neg_sp_en_trans,215,The Spanish word 'sangre' does not mean 'sun'.,entity_0c445794f776a25d2d8362cfdb85044e503790870324ab365d3b5cf852f5a340,sp_en_trans,negated,validation,1
+neg_sp_en_trans,217,The Spanish word 'perdido' does not mean 'test'.,entity_b1c7358b8d4930cdd812d80a1bb3f2f49443ce451ca812fb45f510796c794c93,sp_en_trans,negated,validation,1
+neg_sp_en_trans,223,The Spanish word 'lago' does not mean 'month'.,entity_e2e070aabc75a33918872a27a451eeea43d37f1559d15ee756f3e3ec629c098c,sp_en_trans,negated,validation,1
+neg_sp_en_trans,224,The Spanish word 'momento' does not mean 'moment'.,entity_b0db68f411ccad33d929c070645d8efea7afbd7caaacf3d1b3dd418108efdff6,sp_en_trans,negated,validation,0
+neg_sp_en_trans,226,The Spanish word 'diccionario' does not mean 'dictionary'.,entity_4c1a2a23ad94e366ded5d24be0ee7ef449413e154eb3b8cab660d58d2e691420,sp_en_trans,negated,validation,0
+neg_sp_en_trans,236,The Spanish word 'veinte' does not mean 'twenty'.,entity_83c84e935387499f043418a46b6c81fb8bf187a0d45c496894ed4e898ed784af,sp_en_trans,negated,validation,0
+neg_sp_en_trans,240,The Spanish word 'comprar' does not mean 'dry'.,entity_688e4913da6eaae17e3a8bb20f327bde29423277956859e6c09cbed73ee4ad17,sp_en_trans,negated,validation,1
+neg_sp_en_trans,241,The Spanish word 'empujar' does not mean 'to govern'.,entity_261532816b48c6b8c2eb8cc26667eb4148628525573dd9c66495e7293bc69e03,sp_en_trans,negated,validation,1
+neg_sp_en_trans,244,The Spanish word 'describir' does not mean 'to die'.,entity_3392bbb66b98a032a22855bfb139dd593b254e7a0bc465624974494ab40107b6,sp_en_trans,negated,validation,1
+neg_sp_en_trans,255,The Spanish word 'temperatura' does not mean 'hand'.,entity_e26de0ddce355f98ec972e71fa5302c7d40ef99dc6afcb4ac15117517049295c,sp_en_trans,negated,validation,1
+neg_sp_en_trans,268,The Spanish word 'insecto' does not mean 'then'.,entity_d51446375653a695c899381dcfe998c776e96451f03bc713f6bfd0e338fc3edd,sp_en_trans,negated,validation,1
+neg_sp_en_trans,274,The Spanish word 'agudo' does not mean 'sharp'.,entity_59b22700029688e8d15c95405a959c18a6b7bf860bd61676ea53e8394cb0ab6a,sp_en_trans,negated,validation,0
+neg_sp_en_trans,277,The Spanish word 'poema' does not mean 'to win'.,entity_7f59009264dc34a2526fe5a09f814e0ff836d8ddfb8236a3c2058084dce335d3,sp_en_trans,negated,validation,1
+neg_sp_en_trans,280,The Spanish word 'famoso' does not mean 'to believe'.,entity_a887f7d94717d9ad8edce7d0711626dafc74d405387bcb8b47f3c8e3570aa4dc,sp_en_trans,negated,validation,1
+neg_sp_en_trans,290,The Spanish word 'pan' does not mean 'eye'.,entity_a44ae3bbdd9b80f4b6dd8a3c77ace44149427408e9eecb0b609486d544dff145,sp_en_trans,negated,validation,1
+neg_sp_en_trans,293,The Spanish word 'pato' does not mean 'wolf'.,entity_8551cecc5c5c5b8ff6055254a5b6405f44900c315d16ef55d757e31f40221f7f,sp_en_trans,negated,validation,1
+neg_sp_en_trans,296,The Spanish word 'bebida' does not mean 'train'.,entity_2b35c4e09d0b77fda844ce5e96b1b60bfa26fbd012a20dc4c0701c05e70eb55b,sp_en_trans,negated,validation,1
+neg_sp_en_trans,316,The Spanish word 'nadar' does not mean 'to swim'.,entity_ad8247f744f04775bf4ca9ea6f61996c75d68ddba9b6c5859d38fe40555e5195,sp_en_trans,negated,validation,0
+neg_sp_en_trans,318,The Spanish word 'esposa' does not mean 'wife'.,entity_95563d372578bcc9121b20a2b61ba878c434b3df941e419db79f0505b1bca104,sp_en_trans,negated,validation,0
+neg_sp_en_trans,321,The Spanish word 'ruido' does not mean 'noise'.,entity_b2c0248a45daa9e4ef826e96306a0100a0e1d1e90fa42127eb470407ccbbca86,sp_en_trans,negated,validation,0
+neg_sp_en_trans,325,The Spanish word 'nariz' does not mean 'giraffe'.,entity_23fa23266fb0e942cc36f531c70f1bb049153cda09e7f68b1adf177ba0820ac6,sp_en_trans,negated,validation,1
+neg_sp_en_trans,326,The Spanish word 'burro' does not mean 'donkey'.,entity_6c7662cbda5ffd986ea53b322786493d0143f4defac4b973e3f8e9380bf1524d,sp_en_trans,negated,validation,0
+neg_sp_en_trans,329,The Spanish word 'caballo' does not mean 'horse'.,entity_2606c19b0a331cfe349c9390ab3b5b412ade9b5d751b820eeb2b8382af8e5209,sp_en_trans,negated,validation,0
+neg_sp_en_trans,332,The Spanish word 'pato' does not mean 'shoulder'.,entity_8551cecc5c5c5b8ff6055254a5b6405f44900c315d16ef55d757e31f40221f7f,sp_en_trans,negated,validation,1
+neg_sp_en_trans,334,The Spanish word 'vaca' does not mean 'cow'.,entity_0546fe7beeff346164e10948d7d31743bdcce70b475af819238b5daea10cdd84,sp_en_trans,negated,validation,0
+neg_sp_en_trans,335,The Spanish word 'conejo' does not mean 'rabbit'.,entity_982fa13db99e1e6480cee9873ae85f5060956e271ba22197e246542bcce42a91,sp_en_trans,negated,validation,0
+neg_sp_en_trans,337,The Spanish word 'perro' does not mean 'dog'.,entity_4efa5af20f6f532bfad86d8f127c0ff321b7472542e102063e43be9b9d7aea9a,sp_en_trans,negated,validation,0
+neg_sp_en_trans,340,The Spanish word 'ballena' does not mean 'whale'.,entity_a56db6e452c431a01916e8e0d07b0e800a39c63a6246b0288f1195c5191a3b45,sp_en_trans,negated,validation,0
+neg_sp_en_trans,344,The Spanish word 'oso' does not mean 'bear'.,entity_191984287ff05eddf25fee1ecee5b65f63db2f653315b95924020d9c786d1565,sp_en_trans,negated,validation,0
+neg_sp_en_trans,348,The Spanish word 'cebra' does not mean 'to imagine'.,entity_ef50535c3fac6283466e5f739fbbc215a0250c61e3f49c72337c7f6fe114bacc,sp_en_trans,negated,validation,1
+neg_sp_en_trans,350,The Spanish word 'jirafa' does not mean 'giraffe'.,entity_bf8b0057eea47e6a4a76468b03938a24017a1f02aa46f4dd94bf59d1e6a34331,sp_en_trans,negated,validation,0
+inventors,5,Evangelista Torricelli lived in the U.S.,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,inventors,affirmative,validation,0
+inventors,16,Joseph Glidden lived in the U.S.,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,inventors,affirmative,validation,1
+inventors,18,Charles Wheatstone lived in France.,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,inventors,affirmative,validation,0
+inventors,37,Semyon Kirlian lived in Russia.,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,inventors,affirmative,validation,1
+inventors,41,Lester Wire lived in the U.S.,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,inventors,affirmative,validation,1
+inventors,42,László Bíró lived in Hungary.,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,inventors,affirmative,validation,1
+inventors,44,Galileo Galilei lived in Italy.,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,inventors,affirmative,validation,1
+inventors,46,Benjamin Franklin lived in the U.S.,entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385,inventors,affirmative,validation,1
+inventors,49,George Washington Carver lived in the U.S.,entity_b7e637d260e38ad137565106168f84be27450dd4d166c82509057d0af2e8deb4,inventors,affirmative,validation,1
+inventors,51,Hans Lippershey lived in the U.S.,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,inventors,affirmative,validation,0
+inventors,54,Willis Carrier lived in the U.S.,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,inventors,affirmative,validation,1
+inventors,62,James Dyson lived in the U.K.,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,inventors,affirmative,validation,1
+inventors,66,Samuel Morse lived in Germany.,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,inventors,affirmative,validation,0
+inventors,68,Guglielmo Marconi lived in the U.K.,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,inventors,affirmative,validation,0
+inventors,80,Josephine Cochrane lived in Germany.,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,inventors,affirmative,validation,0
+inventors,89,Sir Humphry Davy lived in the U.K.,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,inventors,affirmative,validation,1
+inventors,97,Jean-Bernard-Léon Foucault lived in France.,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,inventors,affirmative,validation,1
+inventors,104,Ruth Benerito lived in the U.S.,entity_46171df26c0b4200b2c874d1c88a82182381d3773b5d3e76ce4306583dccbde3,inventors,affirmative,validation,1
+inventors,107,Ralph H. Baer lived in the U.S.,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,inventors,affirmative,validation,1
+inventors,108,John Gorrie lived in Italy.,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,inventors,affirmative,validation,0
+inventors,119,László Bíró lived in the U.S.,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,inventors,affirmative,validation,0
+inventors,123,Hans Berger lived in the U.S.,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,inventors,affirmative,validation,0
+inventors,125,Ralph Benjamin lived in Italy.,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,inventors,affirmative,validation,0
+inventors,128,Charles Babbage lived in the U.K.,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,inventors,affirmative,validation,1
+inventors,132,Richard Gatling lived in the U.K.,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,inventors,affirmative,validation,0
+inventors,133,Luther Simjian lived in Turkey/the U.S.,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,inventors,affirmative,validation,1
+inventors,138,Charles Macintosh lived in the U.K.,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,inventors,affirmative,validation,1
+inventors,146,R. Buckminster Fuller lived in Scotland.,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,inventors,affirmative,validation,0
+inventors,147,Willis Carrier lived in Italy.,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,inventors,affirmative,validation,0
+inventors,158,Josephine Cochrane lived in the U.S.,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,inventors,affirmative,validation,1
+inventors,160,Otis Boykin lived in France.,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,inventors,affirmative,validation,0
+inventors,162,Jack Kilby lived in the U.S.,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,inventors,affirmative,validation,1
+inventors,164,Hans Berger lived in Germany.,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,inventors,affirmative,validation,1
+inventors,166,André-Jacques Garnerin lived in France.,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,inventors,affirmative,validation,1
+inventors,177,Albert Ghiorso lived in the U.S.,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,inventors,affirmative,validation,1
+inventors,186,John Gorrie lived in the U.S.,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,inventors,affirmative,validation,1
+inventors,194,John Bardeen lived in the U.S.,entity_27385cc0c8e95174d7486c65707ce7b6df069bde547881d258a01acf5ce16b29,inventors,affirmative,validation,1
+inventors,199,Hans Lippershey lived in the Netherlands.,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,inventors,affirmative,validation,1
+inventors,202,Heinrich Hertz lived in Germany.,entity_f8decc90c08060f8c1a0b2ee0493c561480c571c5854a5cdfe3ace18b85a664e,inventors,affirmative,validation,1
+inventors,206,Guglielmo Marconi lived in Italy.,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,inventors,affirmative,validation,1
+inventors,211,James West lived in the U.S.,entity_cdbb5141199a0db8adec1540cc4ee2a12702a78916f3beded1be4aff5a034209,inventors,affirmative,validation,1
+inventors,214,John Ambrose Fleming lived in the U.K.,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,inventors,affirmative,validation,1
+inventors,225,Joseph Glidden lived in Germany.,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,inventors,affirmative,validation,0
+inventors,228,Ralph Benjamin lived in the U.K.,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,inventors,affirmative,validation,1
+inventors,233,Heinrich Göbel lived in the U.S.,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,inventors,affirmative,validation,0
+inventors,242,Charles Tellier lived in the U.K.,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,inventors,affirmative,validation,0
+inventors,247,Joseph Henry lived in the U.S.,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,inventors,affirmative,validation,1
+inventors,255,Otis Boykin lived in the U.S.,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,inventors,affirmative,validation,1
+inventors,262,John Ambrose Fleming lived in the U.S.,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,inventors,affirmative,validation,0
+inventors,269,Henry Ford lived in the U.S.,entity_e652771a320786ae7fcb44b875abb50e5ec3a459a02a47c288b1afbf320f1efd,inventors,affirmative,validation,1
+inventors,272,Richard Gatling lived in the U.S.,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,inventors,affirmative,validation,1
+inventors,273,Ferdinand von Zeppelin lived in Germany.,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,inventors,affirmative,validation,1
+inventors,277,Charles Macintosh lived in the U.S.,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,inventors,affirmative,validation,0
+inventors,278,Heinrich Göbel lived in Germany.,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,inventors,affirmative,validation,1
+inventors,284,Ada Lovelace lived in the U.S.,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,inventors,affirmative,validation,0
+inventors,288,Charles Wheatstone lived in the U.K.,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,inventors,affirmative,validation,1
+inventors,294,Albert Ghiorso lived in the U.K.,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,inventors,affirmative,validation,0
+inventors,296,Joseph Henry lived in the U.K.,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,inventors,affirmative,validation,0
+inventors,297,Galileo Galilei lived in the U.S.,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,inventors,affirmative,validation,0
+inventors,300,André-Jacques Garnerin lived in the Netherlands.,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,inventors,affirmative,validation,0
+inventors,306,Ralph H. Baer lived in France.,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,inventors,affirmative,validation,0
+inventors,318,Jean-Bernard-Léon Foucault lived in the U.S.,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,inventors,affirmative,validation,0
+inventors,321,Ada Lovelace lived in the U.K.,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,inventors,affirmative,validation,1
+inventors,325,Evangelista Torricelli lived in Italy.,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,inventors,affirmative,validation,1
+inventors,327,Daniel Fahrenheit lived in the U.S.,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,inventors,affirmative,validation,0
+inventors,339,Charles Babbage lived in Hungary/the U.S.,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,inventors,affirmative,validation,0
+inventors,340,Hans von Ohain lived in Germany.,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,inventors,affirmative,validation,1
+inventors,343,R. Buckminster Fuller lived in the U.S.,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,inventors,affirmative,validation,1
+inventors,344,Thomas Tompion lived in the U.K.,entity_139d3e2e593fa0f3f759a2512acdc431129eebca5b5f4acb837f03333e8beaf4,inventors,affirmative,validation,1
+inventors,358,Charles Tellier lived in France.,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,inventors,affirmative,validation,1
+inventors,363,James Dyson lived in Canada.,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,inventors,affirmative,validation,0
+inventors,364,Jack Kilby lived in the U.K.,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,inventors,affirmative,validation,0
+inventors,367,Sir Humphry Davy lived in the U.S.,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,inventors,affirmative,validation,0
+inventors,373,Lester Wire lived in the U.K.,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,inventors,affirmative,validation,0
+inventors,375,Hans von Ohain lived in Canada.,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,inventors,affirmative,validation,0
+inventors,381,Dr. Robert Gallo lived in the U.S.,entity_b7e2c4e013cdd42301473e08b120cf95051567dfbe59d6a00cd3f3399bba3c27,inventors,affirmative,validation,1
+inventors,383,Samuel Morse lived in the U.S.,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,inventors,affirmative,validation,1
+inventors,384,Daniel Fahrenheit lived in Poland/Germany.,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,inventors,affirmative,validation,1
+inventors,393,Semyon Kirlian lived in the U.K.,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,inventors,affirmative,validation,0
+inventors,396,Luther Simjian lived in the U.S.,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,inventors,affirmative,validation,0
+inventors,402,Ferdinand von Zeppelin lived in France.,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,inventors,affirmative,validation,0
+neg_inventors,5,Evangelista Torricelli did not live in the U.S.,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,inventors,negated,validation,1
+neg_inventors,16,Joseph Glidden did not live in the U.S.,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,inventors,negated,validation,0
+neg_inventors,18,Charles Wheatstone did not live in France.,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,inventors,negated,validation,1
+neg_inventors,37,Semyon Kirlian did not live in Russia.,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,inventors,negated,validation,0
+neg_inventors,41,Lester Wire did not live in the U.S.,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,inventors,negated,validation,0
+neg_inventors,42,László Bíró did not live in Hungary.,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,inventors,negated,validation,0
+neg_inventors,44,Galileo Galilei did not live in Italy.,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,inventors,negated,validation,0
+neg_inventors,46,Benjamin Franklin did not live in the U.S.,entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385,inventors,negated,validation,0
+neg_inventors,49,George Washington Carver did not live in the U.S.,entity_b7e637d260e38ad137565106168f84be27450dd4d166c82509057d0af2e8deb4,inventors,negated,validation,0
+neg_inventors,51,Hans Lippershey did not live in the U.S.,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,inventors,negated,validation,1
+neg_inventors,54,Willis Carrier did not live in the U.S.,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,inventors,negated,validation,0
+neg_inventors,62,James Dyson did not live in the U.K.,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,inventors,negated,validation,0
+neg_inventors,66,Samuel Morse did not live in Germany.,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,inventors,negated,validation,1
+neg_inventors,68,Guglielmo Marconi did not live in the U.K.,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,inventors,negated,validation,1
+neg_inventors,80,Josephine Cochrane did not live in Germany.,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,inventors,negated,validation,1
+neg_inventors,89,Sir Humphry Davy did not live in the U.K.,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,inventors,negated,validation,0
+neg_inventors,97,Jean-Bernard-Léon Foucault did not live in France.,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,inventors,negated,validation,0
+neg_inventors,104,Ruth Benerito did not live in the U.S.,entity_46171df26c0b4200b2c874d1c88a82182381d3773b5d3e76ce4306583dccbde3,inventors,negated,validation,0
+neg_inventors,107,Ralph H. Baer did not live in the U.S.,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,inventors,negated,validation,0
+neg_inventors,108,John Gorrie did not live in Italy.,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,inventors,negated,validation,1
+neg_inventors,119,László Bíró did not live in the U.S.,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,inventors,negated,validation,1
+neg_inventors,123,Hans Berger did not live in the U.S.,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,inventors,negated,validation,1
+neg_inventors,125,Ralph Benjamin did not live in Italy.,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,inventors,negated,validation,1
+neg_inventors,128,Charles Babbage did not live in the U.K.,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,inventors,negated,validation,0
+neg_inventors,132,Richard Gatling did not live in the U.K.,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,inventors,negated,validation,1
+neg_inventors,133,Luther Simjian did not live in Turkey/the U.S.,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,inventors,negated,validation,0
+neg_inventors,138,Charles Macintosh did not live in the U.K.,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,inventors,negated,validation,0
+neg_inventors,146,R. Buckminster Fuller did not live in Scotland.,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,inventors,negated,validation,1
+neg_inventors,147,Willis Carrier did not live in Italy.,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,inventors,negated,validation,1
+neg_inventors,158,Josephine Cochrane did not live in the U.S.,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,inventors,negated,validation,0
+neg_inventors,160,Otis Boykin did not live in France.,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,inventors,negated,validation,1
+neg_inventors,162,Jack Kilby did not live in the U.S.,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,inventors,negated,validation,0
+neg_inventors,164,Hans Berger did not live in Germany.,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,inventors,negated,validation,0
+neg_inventors,166,André-Jacques Garnerin did not live in France.,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,inventors,negated,validation,0
+neg_inventors,177,Albert Ghiorso did not live in the U.S.,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,inventors,negated,validation,0
+neg_inventors,186,John Gorrie did not live in the U.S.,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,inventors,negated,validation,0
+neg_inventors,194,John Bardeen did not live in the U.S.,entity_27385cc0c8e95174d7486c65707ce7b6df069bde547881d258a01acf5ce16b29,inventors,negated,validation,0
+neg_inventors,199,Hans Lippershey did not live in the Netherlands.,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,inventors,negated,validation,0
+neg_inventors,202,Heinrich Hertz did not live in Germany.,entity_f8decc90c08060f8c1a0b2ee0493c561480c571c5854a5cdfe3ace18b85a664e,inventors,negated,validation,0
+neg_inventors,206,Guglielmo Marconi did not live in Italy.,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,inventors,negated,validation,0
+neg_inventors,211,James West did not live in the U.S.,entity_cdbb5141199a0db8adec1540cc4ee2a12702a78916f3beded1be4aff5a034209,inventors,negated,validation,0
+neg_inventors,214,John Ambrose Fleming did not live in the U.K.,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,inventors,negated,validation,0
+neg_inventors,225,Joseph Glidden did not live in Germany.,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,inventors,negated,validation,1
+neg_inventors,228,Ralph Benjamin did not live in the U.K.,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,inventors,negated,validation,0
+neg_inventors,233,Heinrich Göbel did not live in the U.S.,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,inventors,negated,validation,1
+neg_inventors,242,Charles Tellier did not live in the U.K.,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,inventors,negated,validation,1
+neg_inventors,247,Joseph Henry did not live in the U.S.,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,inventors,negated,validation,0
+neg_inventors,255,Otis Boykin did not live in the U.S.,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,inventors,negated,validation,0
+neg_inventors,262,John Ambrose Fleming did not live in the U.S.,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,inventors,negated,validation,1
+neg_inventors,269,Henry Ford did not live in the U.S.,entity_e652771a320786ae7fcb44b875abb50e5ec3a459a02a47c288b1afbf320f1efd,inventors,negated,validation,0
+neg_inventors,272,Richard Gatling did not live in the U.S.,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,inventors,negated,validation,0
+neg_inventors,273,Ferdinand von Zeppelin did not live in Germany.,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,inventors,negated,validation,0
+neg_inventors,277,Charles Macintosh did not live in the U.S.,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,inventors,negated,validation,1
+neg_inventors,278,Heinrich Göbel did not live in Germany.,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,inventors,negated,validation,0
+neg_inventors,284,Ada Lovelace did not live in the U.S.,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,inventors,negated,validation,1
+neg_inventors,288,Charles Wheatstone did not live in the U.K.,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,inventors,negated,validation,0
+neg_inventors,294,Albert Ghiorso did not live in the U.K.,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,inventors,negated,validation,1
+neg_inventors,296,Joseph Henry did not live in the U.K.,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,inventors,negated,validation,1
+neg_inventors,297,Galileo Galilei did not live in the U.S.,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,inventors,negated,validation,1
+neg_inventors,300,André-Jacques Garnerin did not live in the Netherlands.,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,inventors,negated,validation,1
+neg_inventors,306,Ralph H. Baer did not live in France.,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,inventors,negated,validation,1
+neg_inventors,318,Jean-Bernard-Léon Foucault did not live in the U.S.,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,inventors,negated,validation,1
+neg_inventors,321,Ada Lovelace did not live in the U.K.,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,inventors,negated,validation,0
+neg_inventors,325,Evangelista Torricelli did not live in Italy.,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,inventors,negated,validation,0
+neg_inventors,327,Daniel Fahrenheit did not live in the U.S.,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,inventors,negated,validation,1
+neg_inventors,339,Charles Babbage did not live in Hungary/the U.S.,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,inventors,negated,validation,1
+neg_inventors,340,Hans von Ohain did not live in Germany.,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,inventors,negated,validation,0
+neg_inventors,343,R. Buckminster Fuller did not live in the U.S.,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,inventors,negated,validation,0
+neg_inventors,344,Thomas Tompion did not live in the U.K.,entity_139d3e2e593fa0f3f759a2512acdc431129eebca5b5f4acb837f03333e8beaf4,inventors,negated,validation,0
+neg_inventors,358,Charles Tellier did not live in France.,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,inventors,negated,validation,0
+neg_inventors,363,James Dyson did not live in Canada.,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,inventors,negated,validation,1
+neg_inventors,364,Jack Kilby did not live in the U.K.,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,inventors,negated,validation,1
+neg_inventors,367,Sir Humphry Davy did not live in the U.S.,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,inventors,negated,validation,1
+neg_inventors,373,Lester Wire did not live in the U.K.,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,inventors,negated,validation,1
+neg_inventors,375,Hans von Ohain did not live in Canada.,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,inventors,negated,validation,1
+neg_inventors,381,Dr. Robert Gallo did not live in the U.S.,entity_b7e2c4e013cdd42301473e08b120cf95051567dfbe59d6a00cd3f3399bba3c27,inventors,negated,validation,0
+neg_inventors,383,Samuel Morse did not live in the U.S.,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,inventors,negated,validation,0
+neg_inventors,384,Daniel Fahrenheit did not live in Poland/Germany.,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,inventors,negated,validation,0
+neg_inventors,393,Semyon Kirlian did not live in the U.K.,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,inventors,negated,validation,1
+neg_inventors,396,Luther Simjian did not live in the U.S.,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,inventors,negated,validation,1
+neg_inventors,402,Ferdinand von Zeppelin did not live in France.,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,inventors,negated,validation,1
+element_symb,1,Barium has the symbol Sb.,entity_4c59662f7518424a4c39be061b22694536bffd771bdfe02cc104124f56de9fb9,element_symb,affirmative,validation,0
+element_symb,24,Silver has the symbol Ag.,entity_ba15366de0f12a283336c3713a6b1767b20cce976fa3b616f2fdabd79e4a20c8,element_symb,affirmative,validation,1
+element_symb,26,Neon has the symbol Ne.,entity_b544127d2baf3266b837fe4ab23111be0ee16651f42d0bae30ef16ca924ef44d,element_symb,affirmative,validation,1
+element_symb,29,Antimony has the symbol Al.,entity_6f17a06863ad541f88eadbad81af125dcb83cd902eef525cbbd0ed4a629604aa,element_symb,affirmative,validation,0
+element_symb,34,Iridium has the symbol Ir.,entity_31f501a2c9731e87ff8773c14d194056931f77a8e6f758f2ffb36f9e671c79eb,element_symb,affirmative,validation,1
+element_symb,39,Rhenium has the symbol Tm.,entity_86d08ac329be1e0ab632ed46e0259ad490a71886223d78ed964f0d345fc67bfe,element_symb,affirmative,validation,0
+element_symb,40,Erbium has the symbol Pr.,entity_1da496960474b03fab9ed53e2382d4c2852fad1d8752aba18d6381e7afb49fdf,element_symb,affirmative,validation,0
+element_symb,41,Cadmium has the symbol Cd.,entity_7ee64cfbd3e830775a45a3a783654d07fabca6e550a40c80c9959a54a1bfd1a6,element_symb,affirmative,validation,1
+element_symb,51,Zirconium has the symbol Zr.,entity_38fff701b6de579d5e29a3da5935907d866a7991f42764329e4cc65e8ea6e67a,element_symb,affirmative,validation,1
+element_symb,54,Silver has the symbol Sb.,entity_ba15366de0f12a283336c3713a6b1767b20cce976fa3b616f2fdabd79e4a20c8,element_symb,affirmative,validation,0
+element_symb,60,Magnesium has the symbol Mg.,entity_48995c028e06f14d06ac2186415dcdabac5ddd5b5854d615101c47d89acefc1e,element_symb,affirmative,validation,1
+element_symb,61,Neon has the symbol Lu.,entity_b544127d2baf3266b837fe4ab23111be0ee16651f42d0bae30ef16ca924ef44d,element_symb,affirmative,validation,0
+element_symb,64,Holmium has the symbol Ho.,entity_2493d40ec4ce6529bf741bc374bc8768941f6ff81bef444359ec9ce4094dfa9b,element_symb,affirmative,validation,1
+element_symb,66,Bismuth has the symbol Bi.,entity_aa65186ba3b44d0e11a8b38da4e88d6527f0756ff981da5665867bf4bdaf4d54,element_symb,affirmative,validation,1
+element_symb,75,Cadmium has the symbol Ir.,entity_7ee64cfbd3e830775a45a3a783654d07fabca6e550a40c80c9959a54a1bfd1a6,element_symb,affirmative,validation,0
+element_symb,77,Oxygen has the symbol O.,entity_fcbf19f10dd56e85c18dc1932724fcca7af72cf09020cce6ba70e0999411506b,element_symb,affirmative,validation,1
+element_symb,79,Carbon has the symbol C.,entity_e03f98b5dc7be841b68376259461f80620c64b55ed919fbf37f6614f72acbc20,element_symb,affirmative,validation,1
+element_symb,92,Rhenium has the symbol Re.,entity_86d08ac329be1e0ab632ed46e0259ad490a71886223d78ed964f0d345fc67bfe,element_symb,affirmative,validation,1
+element_symb,97,Magnesium has the symbol Br.,entity_48995c028e06f14d06ac2186415dcdabac5ddd5b5854d615101c47d89acefc1e,element_symb,affirmative,validation,0
+element_symb,98,Iodine has the symbol I.,entity_94baabb03c741af930cac20a6dd4cc951720d1fa45348eb80bdc3a55eff1d9f3,element_symb,affirmative,validation,1
+element_symb,99,Zirconium has the symbol Eu.,entity_38fff701b6de579d5e29a3da5935907d866a7991f42764329e4cc65e8ea6e67a,element_symb,affirmative,validation,0
+element_symb,101,Bismuth has the symbol La.,entity_aa65186ba3b44d0e11a8b38da4e88d6527f0756ff981da5665867bf4bdaf4d54,element_symb,affirmative,validation,0
+element_symb,103,Oxygen has the symbol Ne.,entity_fcbf19f10dd56e85c18dc1932724fcca7af72cf09020cce6ba70e0999411506b,element_symb,affirmative,validation,0
+element_symb,109,Scandium has the symbol Rn.,entity_055cc6c79495ef4e2c0cb7aad184f310e5baa6a2af58b3c849db7712d393f641,element_symb,affirmative,validation,0
+element_symb,110,Erbium has the symbol Er.,entity_1da496960474b03fab9ed53e2382d4c2852fad1d8752aba18d6381e7afb49fdf,element_symb,affirmative,validation,1
+element_symb,123,Hydrogen has the symbol Pt.,entity_03cb2c3e7873197b1ec90595b17dad96013434726c7da5c48fe7c3feaedcfe14,element_symb,affirmative,validation,0
+element_symb,129,Hydrogen has the symbol H.,entity_03cb2c3e7873197b1ec90595b17dad96013434726c7da5c48fe7c3feaedcfe14,element_symb,affirmative,validation,1
+element_symb,131,Barium has the symbol Ba.,entity_4c59662f7518424a4c39be061b22694536bffd771bdfe02cc104124f56de9fb9,element_symb,affirmative,validation,1
+element_symb,143,Holmium has the symbol Tb.,entity_2493d40ec4ce6529bf741bc374bc8768941f6ff81bef444359ec9ce4094dfa9b,element_symb,affirmative,validation,0
+element_symb,145,Technetium has the symbol Tc.,entity_99c89fab95062e9367451bdbbf72f10ce36989cecd8de60cfab3e1e2cf02a2c6,element_symb,affirmative,validation,1
+element_symb,146,Technetium has the symbol Ag.,entity_99c89fab95062e9367451bdbbf72f10ce36989cecd8de60cfab3e1e2cf02a2c6,element_symb,affirmative,validation,0
+element_symb,157,Iridium has the symbol Fe.,entity_31f501a2c9731e87ff8773c14d194056931f77a8e6f758f2ffb36f9e671c79eb,element_symb,affirmative,validation,0
+element_symb,164,Carbon has the symbol In.,entity_e03f98b5dc7be841b68376259461f80620c64b55ed919fbf37f6614f72acbc20,element_symb,affirmative,validation,0
+element_symb,172,Antimony has the symbol Sb.,entity_6f17a06863ad541f88eadbad81af125dcb83cd902eef525cbbd0ed4a629604aa,element_symb,affirmative,validation,1
+element_symb,176,Iodine has the symbol Nb.,entity_94baabb03c741af930cac20a6dd4cc951720d1fa45348eb80bdc3a55eff1d9f3,element_symb,affirmative,validation,0
+element_symb,185,Scandium has the symbol Sc.,entity_055cc6c79495ef4e2c0cb7aad184f310e5baa6a2af58b3c849db7712d393f641,element_symb,affirmative,validation,1
+neg_element_symb,1,Barium does not have the symbol Sb.,entity_4c59662f7518424a4c39be061b22694536bffd771bdfe02cc104124f56de9fb9,element_symb,negated,validation,1
+neg_element_symb,24,Silver does not have the symbol Ag.,entity_ba15366de0f12a283336c3713a6b1767b20cce976fa3b616f2fdabd79e4a20c8,element_symb,negated,validation,0
+neg_element_symb,26,Neon does not have the symbol Ne.,entity_b544127d2baf3266b837fe4ab23111be0ee16651f42d0bae30ef16ca924ef44d,element_symb,negated,validation,0
+neg_element_symb,29,Antimony does not have the symbol Al.,entity_6f17a06863ad541f88eadbad81af125dcb83cd902eef525cbbd0ed4a629604aa,element_symb,negated,validation,1
+neg_element_symb,34,Iridium does not have the symbol Ir.,entity_31f501a2c9731e87ff8773c14d194056931f77a8e6f758f2ffb36f9e671c79eb,element_symb,negated,validation,0
+neg_element_symb,39,Rhenium does not have the symbol Tm.,entity_86d08ac329be1e0ab632ed46e0259ad490a71886223d78ed964f0d345fc67bfe,element_symb,negated,validation,1
+neg_element_symb,40,Erbium does not have the symbol Pr.,entity_1da496960474b03fab9ed53e2382d4c2852fad1d8752aba18d6381e7afb49fdf,element_symb,negated,validation,1
+neg_element_symb,41,Cadmium does not have the symbol Cd.,entity_7ee64cfbd3e830775a45a3a783654d07fabca6e550a40c80c9959a54a1bfd1a6,element_symb,negated,validation,0
+neg_element_symb,51,Zirconium does not have the symbol Zr.,entity_38fff701b6de579d5e29a3da5935907d866a7991f42764329e4cc65e8ea6e67a,element_symb,negated,validation,0
+neg_element_symb,54,Silver does not have the symbol Sb.,entity_ba15366de0f12a283336c3713a6b1767b20cce976fa3b616f2fdabd79e4a20c8,element_symb,negated,validation,1
+neg_element_symb,60,Magnesium does not have the symbol Mg.,entity_48995c028e06f14d06ac2186415dcdabac5ddd5b5854d615101c47d89acefc1e,element_symb,negated,validation,0
+neg_element_symb,61,Neon does not have the symbol Lu.,entity_b544127d2baf3266b837fe4ab23111be0ee16651f42d0bae30ef16ca924ef44d,element_symb,negated,validation,1
+neg_element_symb,64,Holmium does not have the symbol Ho.,entity_2493d40ec4ce6529bf741bc374bc8768941f6ff81bef444359ec9ce4094dfa9b,element_symb,negated,validation,0
+neg_element_symb,66,Bismuth does not have the symbol Bi.,entity_aa65186ba3b44d0e11a8b38da4e88d6527f0756ff981da5665867bf4bdaf4d54,element_symb,negated,validation,0
+neg_element_symb,75,Cadmium does not have the symbol Ir.,entity_7ee64cfbd3e830775a45a3a783654d07fabca6e550a40c80c9959a54a1bfd1a6,element_symb,negated,validation,1
+neg_element_symb,77,Oxygen does not have the symbol O.,entity_fcbf19f10dd56e85c18dc1932724fcca7af72cf09020cce6ba70e0999411506b,element_symb,negated,validation,0
+neg_element_symb,79,Carbon does not have the symbol C.,entity_e03f98b5dc7be841b68376259461f80620c64b55ed919fbf37f6614f72acbc20,element_symb,negated,validation,0
+neg_element_symb,92,Rhenium does not have the symbol Re.,entity_86d08ac329be1e0ab632ed46e0259ad490a71886223d78ed964f0d345fc67bfe,element_symb,negated,validation,0
+neg_element_symb,97,Magnesium does not have the symbol Br.,entity_48995c028e06f14d06ac2186415dcdabac5ddd5b5854d615101c47d89acefc1e,element_symb,negated,validation,1
+neg_element_symb,98,Iodine does not have the symbol I.,entity_94baabb03c741af930cac20a6dd4cc951720d1fa45348eb80bdc3a55eff1d9f3,element_symb,negated,validation,0
+neg_element_symb,99,Zirconium does not have the symbol Eu.,entity_38fff701b6de579d5e29a3da5935907d866a7991f42764329e4cc65e8ea6e67a,element_symb,negated,validation,1
+neg_element_symb,101,Bismuth does not have the symbol La.,entity_aa65186ba3b44d0e11a8b38da4e88d6527f0756ff981da5665867bf4bdaf4d54,element_symb,negated,validation,1
+neg_element_symb,103,Oxygen does not have the symbol Ne.,entity_fcbf19f10dd56e85c18dc1932724fcca7af72cf09020cce6ba70e0999411506b,element_symb,negated,validation,1
+neg_element_symb,109,Scandium does not have the symbol Rn.,entity_055cc6c79495ef4e2c0cb7aad184f310e5baa6a2af58b3c849db7712d393f641,element_symb,negated,validation,1
+neg_element_symb,110,Erbium does not have the symbol Er.,entity_1da496960474b03fab9ed53e2382d4c2852fad1d8752aba18d6381e7afb49fdf,element_symb,negated,validation,0
+neg_element_symb,123,Hydrogen does not have the symbol Pt.,entity_03cb2c3e7873197b1ec90595b17dad96013434726c7da5c48fe7c3feaedcfe14,element_symb,negated,validation,1
+neg_element_symb,129,Hydrogen does not have the symbol H.,entity_03cb2c3e7873197b1ec90595b17dad96013434726c7da5c48fe7c3feaedcfe14,element_symb,negated,validation,0
+neg_element_symb,131,Barium does not have the symbol Ba.,entity_4c59662f7518424a4c39be061b22694536bffd771bdfe02cc104124f56de9fb9,element_symb,negated,validation,0
+neg_element_symb,143,Holmium does not have the symbol Tb.,entity_2493d40ec4ce6529bf741bc374bc8768941f6ff81bef444359ec9ce4094dfa9b,element_symb,negated,validation,1
+neg_element_symb,145,Technetium does not have the symbol Tc.,entity_99c89fab95062e9367451bdbbf72f10ce36989cecd8de60cfab3e1e2cf02a2c6,element_symb,negated,validation,0
+neg_element_symb,146,Technetium does not have the symbol Ag.,entity_99c89fab95062e9367451bdbbf72f10ce36989cecd8de60cfab3e1e2cf02a2c6,element_symb,negated,validation,1
+neg_element_symb,157,Iridium does not have the symbol Fe.,entity_31f501a2c9731e87ff8773c14d194056931f77a8e6f758f2ffb36f9e671c79eb,element_symb,negated,validation,1
+neg_element_symb,164,Carbon does not have the symbol In.,entity_e03f98b5dc7be841b68376259461f80620c64b55ed919fbf37f6614f72acbc20,element_symb,negated,validation,1
+neg_element_symb,172,Antimony does not have the symbol Sb.,entity_6f17a06863ad541f88eadbad81af125dcb83cd902eef525cbbd0ed4a629604aa,element_symb,negated,validation,0
+neg_element_symb,176,Iodine does not have the symbol Nb.,entity_94baabb03c741af930cac20a6dd4cc951720d1fa45348eb80bdc3a55eff1d9f3,element_symb,negated,validation,1
+neg_element_symb,185,Scandium does not have the symbol Sc.,entity_055cc6c79495ef4e2c0cb7aad184f310e5baa6a2af58b3c849db7712d393f641,element_symb,negated,validation,0
+animal_class,0,The salmon is a fish.,entity_d7760bce16d6cde553bddca1787a917b5f52bc90003dce6663110741842b76a0,animal_class,affirmative,validation,1
+animal_class,12,The zebra is a mammal.,entity_a3bad0daac3aeb5be6846b15c3b2620fa396895f317385f9a50789cbb063801b,animal_class,affirmative,validation,1
+animal_class,14,The rabbit is a mammal.,entity_b15e3f5fee6929e929ff1ecca1b1e6159121e71c8492f43d0a2b7bb68bc27fb6,animal_class,affirmative,validation,1
+animal_class,20,The deer is a mammal.,entity_f0239c0eb6372129f2d8f617d67c839ee709eb1e342f7d5d7dffe3c3ae4d326a,animal_class,affirmative,validation,1
+animal_class,28,The swan is a bird.,entity_a580d4b3eb08aa7077596d431389eb797805b1b4170e1514128491e23f725b89,animal_class,affirmative,validation,1
+animal_class,32,The cow is a mammal.,entity_9de2623a82ccf7c779e23493c7f674d7691c7e165bc63dd56abb79f8565be4b9,animal_class,affirmative,validation,1
+animal_class,39,The rabbit is a bird.,entity_b15e3f5fee6929e929ff1ecca1b1e6159121e71c8492f43d0a2b7bb68bc27fb6,animal_class,affirmative,validation,0
+animal_class,41,The rat is a bird.,entity_ff382bbd679fdbbb1d1d67e7f6968b5f701581ded0e4d4a92db107667c6c857a,animal_class,affirmative,validation,0
+animal_class,49,The deer is a bird.,entity_f0239c0eb6372129f2d8f617d67c839ee709eb1e342f7d5d7dffe3c3ae4d326a,animal_class,affirmative,validation,0
+animal_class,50,The cow is a bird.,entity_9de2623a82ccf7c779e23493c7f674d7691c7e165bc63dd56abb79f8565be4b9,animal_class,affirmative,validation,0
+animal_class,51,The salmon is a reptile.,entity_d7760bce16d6cde553bddca1787a917b5f52bc90003dce6663110741842b76a0,animal_class,affirmative,validation,0
+animal_class,65,The gecko is a reptile.,entity_a7568ebccf0dcda9ffe37b1c0e7075a927075a517ea396056e0f3104a692d10c,animal_class,affirmative,validation,1
+animal_class,76,The rat is a mammal.,entity_ff382bbd679fdbbb1d1d67e7f6968b5f701581ded0e4d4a92db107667c6c857a,animal_class,affirmative,validation,1
+animal_class,80,The gecko is a crustacean.,entity_a7568ebccf0dcda9ffe37b1c0e7075a927075a517ea396056e0f3104a692d10c,animal_class,affirmative,validation,0
+animal_class,86,The swan is a reptile.,entity_a580d4b3eb08aa7077596d431389eb797805b1b4170e1514128491e23f725b89,animal_class,affirmative,validation,0
+animal_class,89,The llama is a mammal.,entity_31c3f6c332a7a7d03c0868d46aa6b84210da215c99226a2d585e0164aec23cb1,animal_class,affirmative,validation,1
+animal_class,94,The zebra is a fish.,entity_a3bad0daac3aeb5be6846b15c3b2620fa396895f317385f9a50789cbb063801b,animal_class,affirmative,validation,0
+animal_class,96,The whale is a fish.,entity_571adeeadd44c0338abedf9d440834af914885a0b56faa6d8ce0f67dd276814b,animal_class,affirmative,validation,0
+animal_class,115,The tortoise is a reptile.,entity_51e84f4c453a47a9ad47c7f25383a026ce076b3af35891538d98a2024f5bf262,animal_class,affirmative,validation,1
+animal_class,116,The leopard is a bird.,entity_b420d2d4d3569ba3ef7ff8fce75b0719f5eaee5fc2f0956d14de522d2b493d98,animal_class,affirmative,validation,0
+animal_class,121,The tortoise is a cnidarian.,entity_51e84f4c453a47a9ad47c7f25383a026ce076b3af35891538d98a2024f5bf262,animal_class,affirmative,validation,0
+animal_class,132,The giraffe is a crustacean.,entity_8706fcd83e30a672481c53291466ec4544eb9b982bbd184343ae95ffd5c12909,animal_class,affirmative,validation,0
+animal_class,133,The narwhal is a bird.,entity_14c807984442b3db5630500fd2fd0d52779f6005595e4124074f1140f7a9300b,animal_class,affirmative,validation,0
+animal_class,135,The llama is a bird.,entity_31c3f6c332a7a7d03c0868d46aa6b84210da215c99226a2d585e0164aec23cb1,animal_class,affirmative,validation,0
+animal_class,139,The rhinoceros is a mammal.,entity_e711401823a3bae0c2a29de071403e48aee8f4a538ab187ca6e1af363fdbf841,animal_class,affirmative,validation,1
+animal_class,144,The leopard is a mammal.,entity_b420d2d4d3569ba3ef7ff8fce75b0719f5eaee5fc2f0956d14de522d2b493d98,animal_class,affirmative,validation,1
+animal_class,146,The whale is a mammal.,entity_571adeeadd44c0338abedf9d440834af914885a0b56faa6d8ce0f67dd276814b,animal_class,affirmative,validation,1
+animal_class,149,The pigeon is a bird.,entity_036e1404b3c4d52f8b68f1c162d8919394e7948a29cdf858b3aa0aed64cb2597,animal_class,affirmative,validation,1
+animal_class,150,The rhinoceros is a reptile.,entity_e711401823a3bae0c2a29de071403e48aee8f4a538ab187ca6e1af363fdbf841,animal_class,affirmative,validation,0
+animal_class,153,The narwhal is a mammal.,entity_14c807984442b3db5630500fd2fd0d52779f6005595e4124074f1140f7a9300b,animal_class,affirmative,validation,1
+animal_class,155,The giraffe is a mammal.,entity_8706fcd83e30a672481c53291466ec4544eb9b982bbd184343ae95ffd5c12909,animal_class,affirmative,validation,1
+animal_class,161,The pigeon is a mammal.,entity_036e1404b3c4d52f8b68f1c162d8919394e7948a29cdf858b3aa0aed64cb2597,animal_class,affirmative,validation,0
+neg_animal_class,0,The salmon is not a fish.,entity_d7760bce16d6cde553bddca1787a917b5f52bc90003dce6663110741842b76a0,animal_class,negated,validation,0
+neg_animal_class,12,The zebra is not a mammal.,entity_a3bad0daac3aeb5be6846b15c3b2620fa396895f317385f9a50789cbb063801b,animal_class,negated,validation,0
+neg_animal_class,14,The rabbit is not a mammal.,entity_b15e3f5fee6929e929ff1ecca1b1e6159121e71c8492f43d0a2b7bb68bc27fb6,animal_class,negated,validation,0
+neg_animal_class,20,The deer is not a mammal.,entity_f0239c0eb6372129f2d8f617d67c839ee709eb1e342f7d5d7dffe3c3ae4d326a,animal_class,negated,validation,0
+neg_animal_class,28,The swan is not a bird.,entity_a580d4b3eb08aa7077596d431389eb797805b1b4170e1514128491e23f725b89,animal_class,negated,validation,0
+neg_animal_class,32,The cow is not a mammal.,entity_9de2623a82ccf7c779e23493c7f674d7691c7e165bc63dd56abb79f8565be4b9,animal_class,negated,validation,0
+neg_animal_class,39,The rabbit is not a bird.,entity_b15e3f5fee6929e929ff1ecca1b1e6159121e71c8492f43d0a2b7bb68bc27fb6,animal_class,negated,validation,1
+neg_animal_class,41,The rat is not a bird.,entity_ff382bbd679fdbbb1d1d67e7f6968b5f701581ded0e4d4a92db107667c6c857a,animal_class,negated,validation,1
+neg_animal_class,49,The deer is not a bird.,entity_f0239c0eb6372129f2d8f617d67c839ee709eb1e342f7d5d7dffe3c3ae4d326a,animal_class,negated,validation,1
+neg_animal_class,50,The cow is not a bird.,entity_9de2623a82ccf7c779e23493c7f674d7691c7e165bc63dd56abb79f8565be4b9,animal_class,negated,validation,1
+neg_animal_class,51,The salmon is not a reptile.,entity_d7760bce16d6cde553bddca1787a917b5f52bc90003dce6663110741842b76a0,animal_class,negated,validation,1
+neg_animal_class,65,The gecko is not a reptile.,entity_a7568ebccf0dcda9ffe37b1c0e7075a927075a517ea396056e0f3104a692d10c,animal_class,negated,validation,0
+neg_animal_class,76,The rat is not a mammal.,entity_ff382bbd679fdbbb1d1d67e7f6968b5f701581ded0e4d4a92db107667c6c857a,animal_class,negated,validation,0
+neg_animal_class,80,The gecko is not a crustacean.,entity_a7568ebccf0dcda9ffe37b1c0e7075a927075a517ea396056e0f3104a692d10c,animal_class,negated,validation,1
+neg_animal_class,86,The swan is not a reptile.,entity_a580d4b3eb08aa7077596d431389eb797805b1b4170e1514128491e23f725b89,animal_class,negated,validation,1
+neg_animal_class,89,The llama is not a mammal.,entity_31c3f6c332a7a7d03c0868d46aa6b84210da215c99226a2d585e0164aec23cb1,animal_class,negated,validation,0
+neg_animal_class,94,The zebra is not a fish.,entity_a3bad0daac3aeb5be6846b15c3b2620fa396895f317385f9a50789cbb063801b,animal_class,negated,validation,1
+neg_animal_class,96,The whale is not a fish.,entity_571adeeadd44c0338abedf9d440834af914885a0b56faa6d8ce0f67dd276814b,animal_class,negated,validation,1
+neg_animal_class,115,The tortoise is not a reptile.,entity_51e84f4c453a47a9ad47c7f25383a026ce076b3af35891538d98a2024f5bf262,animal_class,negated,validation,0
+neg_animal_class,116,The leopard is not a bird.,entity_b420d2d4d3569ba3ef7ff8fce75b0719f5eaee5fc2f0956d14de522d2b493d98,animal_class,negated,validation,1
+neg_animal_class,121,The tortoise is not a cnidarian.,entity_51e84f4c453a47a9ad47c7f25383a026ce076b3af35891538d98a2024f5bf262,animal_class,negated,validation,1
+neg_animal_class,132,The giraffe is not a crustacean.,entity_8706fcd83e30a672481c53291466ec4544eb9b982bbd184343ae95ffd5c12909,animal_class,negated,validation,1
+neg_animal_class,133,The narwhal is not a bird.,entity_14c807984442b3db5630500fd2fd0d52779f6005595e4124074f1140f7a9300b,animal_class,negated,validation,1
+neg_animal_class,135,The llama is not a bird.,entity_31c3f6c332a7a7d03c0868d46aa6b84210da215c99226a2d585e0164aec23cb1,animal_class,negated,validation,1
+neg_animal_class,139,The rhinoceros is not a mammal.,entity_e711401823a3bae0c2a29de071403e48aee8f4a538ab187ca6e1af363fdbf841,animal_class,negated,validation,0
+neg_animal_class,144,The leopard is not a mammal.,entity_b420d2d4d3569ba3ef7ff8fce75b0719f5eaee5fc2f0956d14de522d2b493d98,animal_class,negated,validation,0
+neg_animal_class,146,The whale is not a mammal.,entity_571adeeadd44c0338abedf9d440834af914885a0b56faa6d8ce0f67dd276814b,animal_class,negated,validation,0
+neg_animal_class,149,The pigeon is not a bird.,entity_036e1404b3c4d52f8b68f1c162d8919394e7948a29cdf858b3aa0aed64cb2597,animal_class,negated,validation,0
+neg_animal_class,150,The rhinoceros is not a reptile.,entity_e711401823a3bae0c2a29de071403e48aee8f4a538ab187ca6e1af363fdbf841,animal_class,negated,validation,1
+neg_animal_class,153,The narwhal is not a mammal.,entity_14c807984442b3db5630500fd2fd0d52779f6005595e4124074f1140f7a9300b,animal_class,negated,validation,0
+neg_animal_class,155,The giraffe is not a mammal.,entity_8706fcd83e30a672481c53291466ec4544eb9b982bbd184343ae95ffd5c12909,animal_class,negated,validation,0
+neg_animal_class,161,The pigeon is not a mammal.,entity_036e1404b3c4d52f8b68f1c162d8919394e7948a29cdf858b3aa0aed64cb2597,animal_class,negated,validation,1

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "faithful_config": "config/clean_protocol/atomic_probe_methods.json",
+  "output_dir": "results/clean_protocol/atomic_method_matched_v1",
+  "expected_train_rows": 1000,
+  "expected_validation_rows": 1040,
+  "primary_layers": {"qwen25_7b": 17, "qwen3_8b": 28},
+  "lr_C": 0.01,
+  "lr_policy": "Refit on matched TRAIN with existing C and solver settings; no new hyperparameter selection",
+  "layer_policy": "Fixed model-level layers only; optional secondary sweep not performed"
+}

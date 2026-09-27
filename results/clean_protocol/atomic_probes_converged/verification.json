@@ -1,0 +1,36 @@
+{
+  "both_models_use_identical_entity_assignments": true,
+  "models": {
+    "qwen25_7b": {
+      "all_final_fits_converged": true,
+      "configurations_checked": 140,
+      "current_artifact_and_provenance_hashes_verified": true,
+      "every_validation_metric_and_n_iter_matches_original_or_converged_audit": true,
+      "original_artifact_hashes_and_mtimes_unchanged": true,
+      "retried_configurations": 9,
+      "scientific_configuration_and_assignments_unchanged": true,
+      "selected_C": 0.01,
+      "selected_layer": 17,
+      "selected_probe_arrays_identical_to_original": true,
+      "selected_validation_auroc": 0.9996671597633136,
+      "test_decision_scores_computed": 0,
+      "test_evaluated": false
+    },
+    "qwen3_8b": {
+      "all_final_fits_converged": true,
+      "configurations_checked": 180,
+      "current_artifact_and_provenance_hashes_verified": true,
+      "every_validation_metric_and_n_iter_matches_original_or_converged_audit": true,
+      "original_artifact_hashes_and_mtimes_unchanged": true,
+      "retried_configurations": 6,
+      "scientific_configuration_and_assignments_unchanged": true,
+      "selected_C": 0.01,
+      "selected_layer": 28,
+      "selected_probe_arrays_identical_to_original": true,
+      "selected_validation_auroc": 0.9997004437869822,
+      "test_decision_scores_computed": 0,
+      "test_evaluated": false
+    }
+  },
+  "test_decision_scores_computed": 0
+}

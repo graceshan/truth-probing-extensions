@@ -1,0 +1,1001 @@
+dataset,row_index,statement,entity_id,topic,form,split,label
+cities,822,The city of Yichang is in China.,entity_929e38779cf9c72c01f8058c971c17a1234b6b93664259f31d8a6b4ec476e05c,cities,affirmative,train,1
+cities,225,The city of Tangshan is in India.,entity_a171267954443836671909301968afd23cfb62497ff6a85dd51dcbff0ae8bd7c,cities,affirmative,train,0
+cities,653,The city of Yangjiang is in Indonesia.,entity_36ab9e4a29145e5c25c1b2fad2f2a7b82ffb223330c3b5b8db282219412b464b,cities,affirmative,train,0
+cities,47,The city of Sambhaji Nagar is in China.,entity_fa383f5b8897294fc114206b0c0cf13dba60cfe3d2db70d7923bc2d3e0b5ecaa,cities,affirmative,train,0
+cities,938,The city of Amman is in Jordan.,entity_189d3c83b7c794f19386728cc059269ddcc078803d32745a6a85483c5da6726c,cities,affirmative,train,1
+cities,971,The city of Barquisimeto is in Poland.,entity_70aec098b09baa3f70d40f5fe8c9d35325360bbfd6ac5395026b65adb84b97f1,cities,affirmative,train,0
+cities,1447,The city of Cape Town is in China.,entity_5b987b7cc65ce3263f21b9e4d2189dc7471395695bd3a3b00223fd081d68f3aa,cities,affirmative,train,0
+cities,629,The city of Meerut is in Nigeria.,entity_da86bf71de7b769cca96d259c70d24492eb4fc679db6dcd6af419e1d3e5f5de7,cities,affirmative,train,0
+cities,644,The city of Wanzhou is in China.,entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5,cities,affirmative,train,1
+cities,424,The city of Sulaymaniyah is in Iraq.,entity_03d96c8be62b38ab5db72141ede8eecc6ed24d09ef6e6c2f27b243d806792ded,cities,affirmative,train,1
+cities,1139,The city of Islamabad is in Japan.,entity_9cbffd9601cfdc6a161a55e345c5a3627121addcc2365e3014a1bad006f875cf,cities,affirmative,train,0
+cities,90,The city of South Tangerang is in Indonesia.,entity_26946ca90d2e1f9a87280a8541db4d7c4b4e496428e9334bf0b6c90cdfac2acb,cities,affirmative,train,1
+cities,484,The city of Zhangjiakou is in China.,entity_21ca6ace64008470453cbc8d8040f667e8e5251a002f7adfa3867ee272a6ab4c,cities,affirmative,train,1
+cities,1062,The city of Faisalabad is in Pakistan.,entity_ea9b1d9fab82533e68e29df3e2e762f6ef9a2f887ca5cf2586493cf45d90c7f3,cities,affirmative,train,1
+cities,832,The city of Fushun is in China.,entity_22a2afa2aaeeb499a173488d23ef39f88e57a3b15dff7f987b748b906885a4c1,cities,affirmative,train,1
+cities,533,The city of Mbuji-Mayi is in Pakistan.,entity_13ce926eea9bece7658084f70793587a00d40cbd70b7d1f1c3c67757706281e7,cities,affirmative,train,0
+cities,541,The city of Diyarbakir is in Colombia.,entity_2c4741f4b7ecc3d94d1becc585bc4cf1c6ca718ac4d73d049437b3ea75644972,cities,affirmative,train,0
+cities,1063,The city of Faisalabad is in India.,entity_ea9b1d9fab82533e68e29df3e2e762f6ef9a2f887ca5cf2586493cf45d90c7f3,cities,affirmative,train,0
+cities,1290,The city of Zhuzhou is in China.,entity_e5a034774fc212756417667ceb7cb34419f2c787b60152afaea89d4cb56eebd8,cities,affirmative,train,1
+cities,1410,The city of Fuxin is in China.,entity_d7cd2d338cf3424fdb6e6843f23cbd82ced06582333ffc0196e5392ef122fa22,cities,affirmative,train,1
+cities,18,The city of Lu'an is in China.,entity_a666efa0e1eea6a5794f30c8474bf94d3f0d522579e22e1a3f1c3bcfc1fe978f,cities,affirmative,train,1
+cities,1265,The city of Bishkek is in Germany.,entity_f564f2585045501b9c17610cdfa4a06464cac1bb9e33e09542a8663639f4ab29,cities,affirmative,train,0
+cities,1148,The city of Bokaro is in India.,entity_3f5105b88e6ef59a73a48561b2ab47a000bfb360996f4e7fd064cff59808eccd,cities,affirmative,train,1
+cities,1309,The city of Baise is in Japan.,entity_0282a50af26947314a104dae9dac6f14a720734366b38903d5d5374500f7b589,cities,affirmative,train,0
+cities,868,The city of Ordos is in China.,entity_51a00cb823279525c56151118ad4496d374574667a8232df52b48ac6144a942e,cities,affirmative,train,1
+cities,165,The city of Lahore is in China.,entity_8713ede3a534ce5ff58669192d727521d2b9fedfe03625aef4f57135a8f61c9f,cities,affirmative,train,0
+cities,248,The city of Subang Jaya is in Malaysia.,entity_b2aea1a878786f17fa146df9479d78df43889aa91b3d5966c78d24f7d0dfe964,cities,affirmative,train,1
+cities,1195,The city of Bikaner is in South Korea.,entity_e221434032d16996d61a3107b586237c787742a8f325f726bb64ab6a951612de,cities,affirmative,train,0
+cities,754,The city of Kobe is in Japan.,entity_300c34d056677900a2fb2e98b507065badd884ddf10d8e4ef10656186ad4817d,cities,affirmative,train,1
+cities,907,The city of Koeln is in Nigeria.,entity_a9c42b820f4b0e1e1e296ee5a667c1863b54c5e77e263b662a1722a9d758db1f,cities,affirmative,train,0
+cities,236,The city of Aparecida de Goiania is in Brazil.,entity_f9e735b34a259feab462b6558f2c17bfefc8fffbf0c1d67140d79ce0386e8556,cities,affirmative,train,1
+cities,933,The city of Sofia is in South Korea.,entity_7f87d67f95c36b1aa41ce682bb637b083a00e11a307c26ac4fed709b571ffe74,cities,affirmative,train,0
+cities,1185,The city of Leon de los Aldama is in China.,entity_e84bc391e2084afdd2d42b08a4c21ee461ea8e382c279bb622c7be09b22cf873,cities,affirmative,train,0
+cities,641,The city of Saint Petersburg is in Canada.,entity_19251406fbc2d385b62264c5a4f36f7c6459d5b3d7801cc6dc755d996bb0da27,cities,affirmative,train,0
+cities,1086,The city of Uberlandia is in Brazil.,entity_f8a316539c6cb0841a840d431f76bd6e3cc9c2b02e78c366512c779d23f02312,cities,affirmative,train,1
+cities,1430,The city of Rawalpindi is in Pakistan.,entity_7cfd3bcd4ca7e94bf1998426214f628505e16edbe1911e1ba6e024dfe275195f,cities,affirmative,train,1
+cities,558,The city of Kaduna is in Nigeria.,entity_8126fcc188fbb772efb0d33ae5a066027398d0e79a9f5f13a80c54ef33c238ca,cities,affirmative,train,1
+cities,615,The city of Penza is in China.,entity_75394a2c52577286d545ca3ffa1fefca1e7287481b24c8a4608ad5d03bfea9e5,cities,affirmative,train,0
+cities,1376,The city of Bucheon-si is in South Korea.,entity_f9c25b82147c35152fb9d8ca0d42f9fc16a6648a14ea37ffec98dd0ddc8f2aa8,cities,affirmative,train,1
+cities,735,The city of Multan is in Ecuador.,entity_d7a732928cdb50f9629269fa3a06bfb4eb32f8cbccc74546bd4b86c5ffc45785,cities,affirmative,train,0
+cities,1118,The city of Ningbo is in China.,entity_602d1e711ed4c69dc13c486ef6e6302f35db4daa4e0cf888fa6bc2448d3d2562,cities,affirmative,train,1
+cities,363,The city of Guangyuan is in Mexico.,entity_22bb8809f1c916aee5317d28db87b578c1a5d5a08e295758f6e9031f5a82341d,cities,affirmative,train,0
+cities,155,The city of Ahvaz is in China.,entity_1f2b497f034ffd330102647d7919dd0aff2f9903c93899a1c3865ae9d11ee271,cities,affirmative,train,0
+cities,817,The city of Londrina is in India.,entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511,cities,affirmative,train,0
+cities,1020,The city of Wuwei is in China.,entity_725b5fe9f32ce174569abadfb446902c3b09a9ae6875f62452efc388d1845c77,cities,affirmative,train,1
+cities,906,The city of Koeln is in Germany.,entity_a9c42b820f4b0e1e1e296ee5a667c1863b54c5e77e263b662a1722a9d758db1f,cities,affirmative,train,1
+cities,324,The city of Ulan Bator is in Mongolia.,entity_9f41a6445f66823bd408af0759b084b85b1caf8c9997cbce58b8895c505d3cdf,cities,affirmative,train,1
+cities,81,The city of Panzhihua is in Iran.,entity_67c9dedde4d0c95846f72eb7b23c12dc707615463e2b0df325ae8bb76f297b36,cities,affirmative,train,0
+cities,95,The city of Fort Worth is in Russia.,entity_ec5bcf666a0d488d067ae59443ca23da92e5be4d56b4a41ef1e10435ed2a2719,cities,affirmative,train,0
+cities,1234,The city of Santiago de Cuba is in Cuba.,entity_d0222ac36d5f80c70c52ced6eae3a9dc80afb8bb105fe8f2c35636094f5a01d3,cities,affirmative,train,1
+cities,1053,The city of Benxi is in Brazil.,entity_f1e7fbc354ca516c94ee5753f40f787302d8e13f59359a872a95d5be897aaa54,cities,affirmative,train,0
+cities,316,The city of Manaus is in Brazil.,entity_30c320db4ce1f62c6c906f92a01bd2e7bc64c734136fec3246d2a24afab5588b,cities,affirmative,train,1
+cities,480,The city of Pingdingshan is in China.,entity_8a0a5d8d368705b1c468bb9eb754833522b327e294e22bf548e43434ce374054,cities,affirmative,train,1
+cities,454,The city of Shihezi is in China.,entity_ffe8e4187c7944a7a08a56e6e665350bc9ebdb05f1ecf6c3ab9702c3e0fff2fa,cities,affirmative,train,1
+cities,1157,The city of Kota Kinabalu is in the United States.,entity_c17a665ac202bb056f3f08a21800e84beb69033e91a6be4e2172232100cfb9ac,cities,affirmative,train,0
+cities,432,The city of Stockholm is in Sweden.,entity_020c36812432f21b87595cc2c61296c29a94cb7592b0e31d67968c8fb917b48d,cities,affirmative,train,1
+cities,113,The city of Poznan is in Mexico.,entity_5fd508c0c06f482011127f7dff81e4b591244c442346fac2ffad1ea888cc2c23,cities,affirmative,train,0
+cities,1486,The city of Bhopal is in India.,entity_67764db1eadc4843f584618e4d95eac7226a2da64699fd32f7f16b3c677df62f,cities,affirmative,train,1
+cities,612,The city of Hannover is in Germany.,entity_a9a8aeec3bf18d515f62a199fac892df70a97ae8ee7ccc026e8ec890efe39b74,cities,affirmative,train,1
+cities,974,The city of Krasnoyarsk is in Russia.,entity_b26f23c9c4d6681bb12dbe39c02932ec1aa852aafe3c4254f4ebdbb09205f3ee,cities,affirmative,train,1
+cities,837,The city of Rangpur is in Russia.,entity_07d88bcb5bdf6069ba580f2d7fa0db1a1300da4421dbba209308a7ece579cb60,cities,affirmative,train,0
+cities,402,The city of Iztapalapa is in Mexico.,entity_209170067c8ad2291e7c6b78715e48288de2ee6bc98c70c06b6d395885805b5b,cities,affirmative,train,1
+cities,459,The city of Xiangtan is in Brazil.,entity_9652449e6527ee0cb54af180eda1913d0e05b9c6be9e70de4c78d713904d97c1,cities,affirmative,train,0
+cities,1291,The city of Zhuzhou is in France.,entity_e5a034774fc212756417667ceb7cb34419f2c787b60152afaea89d4cb56eebd8,cities,affirmative,train,0
+cities,226,The city of Neijiang is in China.,entity_0ec0bbd8967ae74e709dd45499ada81f5221c6a903d8cde28a1e3819a965bfca,cities,affirmative,train,1
+cities,1030,The city of Sorocaba is in Brazil.,entity_4f07d0df183c2303821dff7f7a27df8aaf731e6a1abe41b651dbe621b64e2494,cities,affirmative,train,1
+cities,863,The city of Adana is in Togo.,entity_58c121c48f3691fa0f01a0c41ebb3528f2d6ce12b99b4cf9f1a9a134c1d19ccf,cities,affirmative,train,0
+cities,1462,The city of Rostov-na-Donu is in Russia.,entity_33a87351f82ce9d0bc0580f721896d0c784f91bc7e0f57797ea07fb0f26cd355,cities,affirmative,train,1
+cities,1295,The city of Tanggu is in South Korea.,entity_c1a50a55e87b2d5f035e9addf1280c6a4d1f85c89d1000e4febbc0f645c6114a,cities,affirmative,train,0
+cities,785,The city of Recife is in North Korea.,entity_c97cde0e3be323455a90a133d46526a7b0e099565d04b3df7563befdb4f65994,cities,affirmative,train,0
+cities,1394,The city of Batam is in Indonesia.,entity_24ddd08285b2b0fa1a1ab13e94871ec20e7f0abf0869d95e299e8f4beb399408,cities,affirmative,train,1
+cities,1026,The city of Jiangyin is in China.,entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe,cities,affirmative,train,1
+cities,10,The city of Addis Ababa is in Ethiopia.,entity_bceadd6b343c4d2df0517cc51f8ccf77953467b330a726bc3a33bb0075403967,cities,affirmative,train,1
+cities,1289,The city of Tebessa is in India.,entity_9f6101ee9f9484686f33519cb1450664bd3c2431053121db75d946697f062227,cities,affirmative,train,0
+cities,592,The city of Douala is in Cameroon.,entity_033f1a0f686afbcc4d156382058217d695967e6c4fb5233580748609bc92dbc1,cities,affirmative,train,1
+cities,915,The city of Nanded is in China.,entity_adeb39f2a6354e7097f7862d03180106d72c5c588a307e2ef6ae314cab894ba3,cities,affirmative,train,0
+cities,1426,The city of Cankaya is in Turkey.,entity_39367ff6f0d62665c2b5ca7f9b3afa0810996408ec976ab00798a266d268ba83,cities,affirmative,train,1
+cities,228,The city of Linfen is in China.,entity_59119d42b72bad82a47ecbcef5636edd57a4e46a9e24a02f45a480ae000a5af0,cities,affirmative,train,1
+cities,229,The city of Linfen is in India.,entity_59119d42b72bad82a47ecbcef5636edd57a4e46a9e24a02f45a480ae000a5af0,cities,affirmative,train,0
+cities,483,The city of Bengbu is in India.,entity_05cc7c67707344a427a0695df7ea254b37122770833d5de0500fa9b47c4a76ff,cities,affirmative,train,0
+cities,616,The city of Matola is in Mozambique.,entity_28ba9b2d96b37400cb5175b1cf56ea284efe31b7b042d2f78df8e38e721797b0,cities,affirmative,train,1
+cities,1233,The city of Bulawayo is in China.,entity_f1c73fc5a906967121369ae8216cc2a749a65827d9a67766ae9c263c8eb332d1,cities,affirmative,train,0
+cities,896,The city of Al Ain City is in the United Arab Emirates.,entity_cf5f1deb367e556e0c3871cb0c91eb0270d14c86f8e50b0b7705f7ab76c7f66a,cities,affirmative,train,1
+cities,56,The city of Marrakesh is in Morocco.,entity_485676ff0438d7d9cbad5ba2eddfb8cbc97ddeb2aa27d6f837fb7d5a38833d0f,cities,affirmative,train,1
+cities,1330,The city of Nampula is in Mozambique.,entity_a4ef2609355f974615220e623e3e9fb5513a30983d1f3cd78d48a543b2bb5bcb,cities,affirmative,train,1
+cities,800,The city of Jieyang is in China.,entity_d9bd25072aeb501396220598466096fdcfe944a3be170d49d6564f4c8b29f2cc,cities,affirmative,train,1
+cities,1493,The city of Al Mawsil al Jadidah is in India.,entity_361bedb1aceb6d5956184687e38832460d03b5522547c9ca2855205586342c9c,cities,affirmative,train,0
+cities,842,The city of Latakia is in Syria.,entity_b05759c2a8e4dc72440e1dc1ca425a5e331fed90cc0ccbb25e4243da2c504111,cities,affirmative,train,1
+cities,43,The city of Tiruchirappalli is in Iraq.,entity_dc43751c2170a76891641beab419fa6c4b2f7063bdf6ae43cccd04312e6976db,cities,affirmative,train,0
+cities,496,The city of Kisangani is in the Democratic Republic of the Congo.,entity_1f5ed3c03a6224342c49e94fdfab16a425c14b729c96581501cc07d3c49936b9,cities,affirmative,train,1
+cities,46,The city of Sambhaji Nagar is in India.,entity_fa383f5b8897294fc114206b0c0cf13dba60cfe3d2db70d7923bc2d3e0b5ecaa,cities,affirmative,train,1
+cities,680,The city of Shenzhen is in China.,entity_7945a5e4c8cae33017def5b1a74186b2c9352c74b248fbce6ff6ee57adaa9101,cities,affirmative,train,1
+cities,734,The city of Multan is in Pakistan.,entity_d7a732928cdb50f9629269fa3a06bfb4eb32f8cbccc74546bd4b86c5ffc45785,cities,affirmative,train,1
+cities,1400,The city of Xingtai is in China.,entity_a4932e510d5d3826c2290c6188f9008f11d15a9990faead64324b400aa96434f,cities,affirmative,train,1
+cities,1443,The city of Ha'il is in China.,entity_9cb56bfe136e009eda6c571f7648b815a8c6d62ed753cf6556b309a4a470c8bc,cities,affirmative,train,0
+cities,1321,The city of Ouagadougou is in China.,entity_12a79dd1f969b55e3b03f55c09e2570bbc005d94231311b01569b1395bb1665e,cities,affirmative,train,0
+cities,410,The city of Peshawar is in Pakistan.,entity_bf312d41ad78b08de7348d6572d2482e2c6924f2b95b100fd26b02fcaae30efa,cities,affirmative,train,1
+cities,1126,The city of Huizhou is in China.,entity_3109af07d9877749fb17e829b710998253f8730fc8973f7e75ad38643a7d8c42,cities,affirmative,train,1
+cities,1228,The city of Indianapolis is in the United States.,entity_e1e660acf5c7f2f70bade568ba40326d8708ed3c08e1628977437cafcff6f421,cities,affirmative,train,1
+cities,534,The city of Goiania is in Brazil.,entity_a0243ea2778e1374fd4598bfe31c4d4d9cdd74068957ca32ffa37032b4e7477f,cities,affirmative,train,1
+neg_cities,822,The city of Yichang is not in China.,entity_929e38779cf9c72c01f8058c971c17a1234b6b93664259f31d8a6b4ec476e05c,cities,negated,train,0
+neg_cities,225,The city of Tangshan is not in India.,entity_a171267954443836671909301968afd23cfb62497ff6a85dd51dcbff0ae8bd7c,cities,negated,train,1
+neg_cities,653,The city of Yangjiang is not in Indonesia.,entity_36ab9e4a29145e5c25c1b2fad2f2a7b82ffb223330c3b5b8db282219412b464b,cities,negated,train,1
+neg_cities,47,The city of Sambhaji Nagar is not in China.,entity_fa383f5b8897294fc114206b0c0cf13dba60cfe3d2db70d7923bc2d3e0b5ecaa,cities,negated,train,1
+neg_cities,938,The city of Amman is not in Jordan.,entity_189d3c83b7c794f19386728cc059269ddcc078803d32745a6a85483c5da6726c,cities,negated,train,0
+neg_cities,971,The city of Barquisimeto is not in Poland.,entity_70aec098b09baa3f70d40f5fe8c9d35325360bbfd6ac5395026b65adb84b97f1,cities,negated,train,1
+neg_cities,1447,The city of Cape Town is not in China.,entity_5b987b7cc65ce3263f21b9e4d2189dc7471395695bd3a3b00223fd081d68f3aa,cities,negated,train,1
+neg_cities,629,The city of Meerut is not in Nigeria.,entity_da86bf71de7b769cca96d259c70d24492eb4fc679db6dcd6af419e1d3e5f5de7,cities,negated,train,1
+neg_cities,644,The city of Wanzhou is not in China.,entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5,cities,negated,train,0
+neg_cities,424,The city of Sulaymaniyah is not in Iraq.,entity_03d96c8be62b38ab5db72141ede8eecc6ed24d09ef6e6c2f27b243d806792ded,cities,negated,train,0
+neg_cities,1139,The city of Islamabad is not in Japan.,entity_9cbffd9601cfdc6a161a55e345c5a3627121addcc2365e3014a1bad006f875cf,cities,negated,train,1
+neg_cities,90,The city of South Tangerang is not in Indonesia.,entity_26946ca90d2e1f9a87280a8541db4d7c4b4e496428e9334bf0b6c90cdfac2acb,cities,negated,train,0
+neg_cities,484,The city of Zhangjiakou is not in China.,entity_21ca6ace64008470453cbc8d8040f667e8e5251a002f7adfa3867ee272a6ab4c,cities,negated,train,0
+neg_cities,1062,The city of Faisalabad is not in Pakistan.,entity_ea9b1d9fab82533e68e29df3e2e762f6ef9a2f887ca5cf2586493cf45d90c7f3,cities,negated,train,0
+neg_cities,832,The city of Fushun is not in China.,entity_22a2afa2aaeeb499a173488d23ef39f88e57a3b15dff7f987b748b906885a4c1,cities,negated,train,0
+neg_cities,533,The city of Mbuji-Mayi is not in Pakistan.,entity_13ce926eea9bece7658084f70793587a00d40cbd70b7d1f1c3c67757706281e7,cities,negated,train,1
+neg_cities,541,The city of Diyarbakir is not in Colombia.,entity_2c4741f4b7ecc3d94d1becc585bc4cf1c6ca718ac4d73d049437b3ea75644972,cities,negated,train,1
+neg_cities,1063,The city of Faisalabad is not in India.,entity_ea9b1d9fab82533e68e29df3e2e762f6ef9a2f887ca5cf2586493cf45d90c7f3,cities,negated,train,1
+neg_cities,1290,The city of Zhuzhou is not in China.,entity_e5a034774fc212756417667ceb7cb34419f2c787b60152afaea89d4cb56eebd8,cities,negated,train,0
+neg_cities,1410,The city of Fuxin is not in China.,entity_d7cd2d338cf3424fdb6e6843f23cbd82ced06582333ffc0196e5392ef122fa22,cities,negated,train,0
+neg_cities,18,The city of Lu'an is not in China.,entity_a666efa0e1eea6a5794f30c8474bf94d3f0d522579e22e1a3f1c3bcfc1fe978f,cities,negated,train,0
+neg_cities,1265,The city of Bishkek is not in Germany.,entity_f564f2585045501b9c17610cdfa4a06464cac1bb9e33e09542a8663639f4ab29,cities,negated,train,1
+neg_cities,1148,The city of Bokaro is not in India.,entity_3f5105b88e6ef59a73a48561b2ab47a000bfb360996f4e7fd064cff59808eccd,cities,negated,train,0
+neg_cities,1309,The city of Baise is not in Japan.,entity_0282a50af26947314a104dae9dac6f14a720734366b38903d5d5374500f7b589,cities,negated,train,1
+neg_cities,868,The city of Ordos is not in China.,entity_51a00cb823279525c56151118ad4496d374574667a8232df52b48ac6144a942e,cities,negated,train,0
+neg_cities,165,The city of Lahore is not in China.,entity_8713ede3a534ce5ff58669192d727521d2b9fedfe03625aef4f57135a8f61c9f,cities,negated,train,1
+neg_cities,248,The city of Subang Jaya is not in Malaysia.,entity_b2aea1a878786f17fa146df9479d78df43889aa91b3d5966c78d24f7d0dfe964,cities,negated,train,0
+neg_cities,1195,The city of Bikaner is not in South Korea.,entity_e221434032d16996d61a3107b586237c787742a8f325f726bb64ab6a951612de,cities,negated,train,1
+neg_cities,754,The city of Kobe is not in Japan.,entity_300c34d056677900a2fb2e98b507065badd884ddf10d8e4ef10656186ad4817d,cities,negated,train,0
+neg_cities,907,The city of Koeln is not in Nigeria.,entity_a9c42b820f4b0e1e1e296ee5a667c1863b54c5e77e263b662a1722a9d758db1f,cities,negated,train,1
+neg_cities,236,The city of Aparecida de Goiania is not in Brazil.,entity_f9e735b34a259feab462b6558f2c17bfefc8fffbf0c1d67140d79ce0386e8556,cities,negated,train,0
+neg_cities,933,The city of Sofia is not in South Korea.,entity_7f87d67f95c36b1aa41ce682bb637b083a00e11a307c26ac4fed709b571ffe74,cities,negated,train,1
+neg_cities,1185,The city of Leon de los Aldama is not in China.,entity_e84bc391e2084afdd2d42b08a4c21ee461ea8e382c279bb622c7be09b22cf873,cities,negated,train,1
+neg_cities,641,The city of Saint Petersburg is not in Canada.,entity_19251406fbc2d385b62264c5a4f36f7c6459d5b3d7801cc6dc755d996bb0da27,cities,negated,train,1
+neg_cities,1086,The city of Uberlandia is not in Brazil.,entity_f8a316539c6cb0841a840d431f76bd6e3cc9c2b02e78c366512c779d23f02312,cities,negated,train,0
+neg_cities,1430,The city of Rawalpindi is not in Pakistan.,entity_7cfd3bcd4ca7e94bf1998426214f628505e16edbe1911e1ba6e024dfe275195f,cities,negated,train,0
+neg_cities,558,The city of Kaduna is not in Nigeria.,entity_8126fcc188fbb772efb0d33ae5a066027398d0e79a9f5f13a80c54ef33c238ca,cities,negated,train,0
+neg_cities,615,The city of Penza is not in China.,entity_75394a2c52577286d545ca3ffa1fefca1e7287481b24c8a4608ad5d03bfea9e5,cities,negated,train,1
+neg_cities,1376,The city of Bucheon-si is not in South Korea.,entity_f9c25b82147c35152fb9d8ca0d42f9fc16a6648a14ea37ffec98dd0ddc8f2aa8,cities,negated,train,0
+neg_cities,735,The city of Multan is not in Ecuador.,entity_d7a732928cdb50f9629269fa3a06bfb4eb32f8cbccc74546bd4b86c5ffc45785,cities,negated,train,1
+neg_cities,1118,The city of Ningbo is not in China.,entity_602d1e711ed4c69dc13c486ef6e6302f35db4daa4e0cf888fa6bc2448d3d2562,cities,negated,train,0
+neg_cities,363,The city of Guangyuan is not in Mexico.,entity_22bb8809f1c916aee5317d28db87b578c1a5d5a08e295758f6e9031f5a82341d,cities,negated,train,1
+neg_cities,155,The city of Ahvaz is not in China.,entity_1f2b497f034ffd330102647d7919dd0aff2f9903c93899a1c3865ae9d11ee271,cities,negated,train,1
+neg_cities,817,The city of Londrina is not in India.,entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511,cities,negated,train,1
+neg_cities,1020,The city of Wuwei is not in China.,entity_725b5fe9f32ce174569abadfb446902c3b09a9ae6875f62452efc388d1845c77,cities,negated,train,0
+neg_cities,906,The city of Koeln is not in Germany.,entity_a9c42b820f4b0e1e1e296ee5a667c1863b54c5e77e263b662a1722a9d758db1f,cities,negated,train,0
+neg_cities,324,The city of Ulan Bator is not in Mongolia.,entity_9f41a6445f66823bd408af0759b084b85b1caf8c9997cbce58b8895c505d3cdf,cities,negated,train,0
+neg_cities,81,The city of Panzhihua is not in Iran.,entity_67c9dedde4d0c95846f72eb7b23c12dc707615463e2b0df325ae8bb76f297b36,cities,negated,train,1
+neg_cities,95,The city of Fort Worth is not in Russia.,entity_ec5bcf666a0d488d067ae59443ca23da92e5be4d56b4a41ef1e10435ed2a2719,cities,negated,train,1
+neg_cities,1234,The city of Santiago de Cuba is not in Cuba.,entity_d0222ac36d5f80c70c52ced6eae3a9dc80afb8bb105fe8f2c35636094f5a01d3,cities,negated,train,0
+neg_cities,1053,The city of Benxi is not in Brazil.,entity_f1e7fbc354ca516c94ee5753f40f787302d8e13f59359a872a95d5be897aaa54,cities,negated,train,1
+neg_cities,316,The city of Manaus is not in Brazil.,entity_30c320db4ce1f62c6c906f92a01bd2e7bc64c734136fec3246d2a24afab5588b,cities,negated,train,0
+neg_cities,480,The city of Pingdingshan is not in China.,entity_8a0a5d8d368705b1c468bb9eb754833522b327e294e22bf548e43434ce374054,cities,negated,train,0
+neg_cities,454,The city of Shihezi is not in China.,entity_ffe8e4187c7944a7a08a56e6e665350bc9ebdb05f1ecf6c3ab9702c3e0fff2fa,cities,negated,train,0
+neg_cities,1157,The city of Kota Kinabalu is not in the United States.,entity_c17a665ac202bb056f3f08a21800e84beb69033e91a6be4e2172232100cfb9ac,cities,negated,train,1
+neg_cities,432,The city of Stockholm is not in Sweden.,entity_020c36812432f21b87595cc2c61296c29a94cb7592b0e31d67968c8fb917b48d,cities,negated,train,0
+neg_cities,113,The city of Poznan is not in Mexico.,entity_5fd508c0c06f482011127f7dff81e4b591244c442346fac2ffad1ea888cc2c23,cities,negated,train,1
+neg_cities,1486,The city of Bhopal is not in India.,entity_67764db1eadc4843f584618e4d95eac7226a2da64699fd32f7f16b3c677df62f,cities,negated,train,0
+neg_cities,612,The city of Hannover is not in Germany.,entity_a9a8aeec3bf18d515f62a199fac892df70a97ae8ee7ccc026e8ec890efe39b74,cities,negated,train,0
+neg_cities,974,The city of Krasnoyarsk is not in Russia.,entity_b26f23c9c4d6681bb12dbe39c02932ec1aa852aafe3c4254f4ebdbb09205f3ee,cities,negated,train,0
+neg_cities,837,The city of Rangpur is not in Russia.,entity_07d88bcb5bdf6069ba580f2d7fa0db1a1300da4421dbba209308a7ece579cb60,cities,negated,train,1
+neg_cities,402,The city of Iztapalapa is not in Mexico.,entity_209170067c8ad2291e7c6b78715e48288de2ee6bc98c70c06b6d395885805b5b,cities,negated,train,0
+neg_cities,459,The city of Xiangtan is not in Brazil.,entity_9652449e6527ee0cb54af180eda1913d0e05b9c6be9e70de4c78d713904d97c1,cities,negated,train,1
+neg_cities,1291,The city of Zhuzhou is not in France.,entity_e5a034774fc212756417667ceb7cb34419f2c787b60152afaea89d4cb56eebd8,cities,negated,train,1
+neg_cities,226,The city of Neijiang is not in China.,entity_0ec0bbd8967ae74e709dd45499ada81f5221c6a903d8cde28a1e3819a965bfca,cities,negated,train,0
+neg_cities,1030,The city of Sorocaba is not in Brazil.,entity_4f07d0df183c2303821dff7f7a27df8aaf731e6a1abe41b651dbe621b64e2494,cities,negated,train,0
+neg_cities,863,The city of Adana is not in Togo.,entity_58c121c48f3691fa0f01a0c41ebb3528f2d6ce12b99b4cf9f1a9a134c1d19ccf,cities,negated,train,1
+neg_cities,1462,The city of Rostov-na-Donu is not in Russia.,entity_33a87351f82ce9d0bc0580f721896d0c784f91bc7e0f57797ea07fb0f26cd355,cities,negated,train,0
+neg_cities,1295,The city of Tanggu is not in South Korea.,entity_c1a50a55e87b2d5f035e9addf1280c6a4d1f85c89d1000e4febbc0f645c6114a,cities,negated,train,1
+neg_cities,785,The city of Recife is not in North Korea.,entity_c97cde0e3be323455a90a133d46526a7b0e099565d04b3df7563befdb4f65994,cities,negated,train,1
+neg_cities,1394,The city of Batam is not in Indonesia.,entity_24ddd08285b2b0fa1a1ab13e94871ec20e7f0abf0869d95e299e8f4beb399408,cities,negated,train,0
+neg_cities,1026,The city of Jiangyin is not in China.,entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe,cities,negated,train,0
+neg_cities,10,The city of Addis Ababa is not in Ethiopia.,entity_bceadd6b343c4d2df0517cc51f8ccf77953467b330a726bc3a33bb0075403967,cities,negated,train,0
+neg_cities,1289,The city of Tebessa is not in India.,entity_9f6101ee9f9484686f33519cb1450664bd3c2431053121db75d946697f062227,cities,negated,train,1
+neg_cities,592,The city of Douala is not in Cameroon.,entity_033f1a0f686afbcc4d156382058217d695967e6c4fb5233580748609bc92dbc1,cities,negated,train,0
+neg_cities,915,The city of Nanded is not in China.,entity_adeb39f2a6354e7097f7862d03180106d72c5c588a307e2ef6ae314cab894ba3,cities,negated,train,1
+neg_cities,1426,The city of Cankaya is not in Turkey.,entity_39367ff6f0d62665c2b5ca7f9b3afa0810996408ec976ab00798a266d268ba83,cities,negated,train,0
+neg_cities,228,The city of Linfen is not in China.,entity_59119d42b72bad82a47ecbcef5636edd57a4e46a9e24a02f45a480ae000a5af0,cities,negated,train,0
+neg_cities,229,The city of Linfen is not in India.,entity_59119d42b72bad82a47ecbcef5636edd57a4e46a9e24a02f45a480ae000a5af0,cities,negated,train,1
+neg_cities,483,The city of Bengbu is not in India.,entity_05cc7c67707344a427a0695df7ea254b37122770833d5de0500fa9b47c4a76ff,cities,negated,train,1
+neg_cities,616,The city of Matola is not in Mozambique.,entity_28ba9b2d96b37400cb5175b1cf56ea284efe31b7b042d2f78df8e38e721797b0,cities,negated,train,0
+neg_cities,1233,The city of Bulawayo is not in China.,entity_f1c73fc5a906967121369ae8216cc2a749a65827d9a67766ae9c263c8eb332d1,cities,negated,train,1
+neg_cities,896,The city of Al Ain City is not in the United Arab Emirates.,entity_cf5f1deb367e556e0c3871cb0c91eb0270d14c86f8e50b0b7705f7ab76c7f66a,cities,negated,train,0
+neg_cities,56,The city of Marrakesh is not in Morocco.,entity_485676ff0438d7d9cbad5ba2eddfb8cbc97ddeb2aa27d6f837fb7d5a38833d0f,cities,negated,train,0
+neg_cities,1330,The city of Nampula is not in Mozambique.,entity_a4ef2609355f974615220e623e3e9fb5513a30983d1f3cd78d48a543b2bb5bcb,cities,negated,train,0
+neg_cities,800,The city of Jieyang is not in China.,entity_d9bd25072aeb501396220598466096fdcfe944a3be170d49d6564f4c8b29f2cc,cities,negated,train,0
+neg_cities,1493,The city of Al Mawsil al Jadidah is not in India.,entity_361bedb1aceb6d5956184687e38832460d03b5522547c9ca2855205586342c9c,cities,negated,train,1
+neg_cities,842,The city of Latakia is not in Syria.,entity_b05759c2a8e4dc72440e1dc1ca425a5e331fed90cc0ccbb25e4243da2c504111,cities,negated,train,0
+neg_cities,43,The city of Tiruchirappalli is not in Iraq.,entity_dc43751c2170a76891641beab419fa6c4b2f7063bdf6ae43cccd04312e6976db,cities,negated,train,1
+neg_cities,496,The city of Kisangani is not in the Democratic Republic of the Congo.,entity_1f5ed3c03a6224342c49e94fdfab16a425c14b729c96581501cc07d3c49936b9,cities,negated,train,0
+neg_cities,46,The city of Sambhaji Nagar is not in India.,entity_fa383f5b8897294fc114206b0c0cf13dba60cfe3d2db70d7923bc2d3e0b5ecaa,cities,negated,train,0
+neg_cities,680,The city of Shenzhen is not in China.,entity_7945a5e4c8cae33017def5b1a74186b2c9352c74b248fbce6ff6ee57adaa9101,cities,negated,train,0
+neg_cities,734,The city of Multan is not in Pakistan.,entity_d7a732928cdb50f9629269fa3a06bfb4eb32f8cbccc74546bd4b86c5ffc45785,cities,negated,train,0
+neg_cities,1400,The city of Xingtai is not in China.,entity_a4932e510d5d3826c2290c6188f9008f11d15a9990faead64324b400aa96434f,cities,negated,train,0
+neg_cities,1443,The city of Ha'il is not in China.,entity_9cb56bfe136e009eda6c571f7648b815a8c6d62ed753cf6556b309a4a470c8bc,cities,negated,train,1
+neg_cities,1321,The city of Ouagadougou is not in China.,entity_12a79dd1f969b55e3b03f55c09e2570bbc005d94231311b01569b1395bb1665e,cities,negated,train,1
+neg_cities,410,The city of Peshawar is not in Pakistan.,entity_bf312d41ad78b08de7348d6572d2482e2c6924f2b95b100fd26b02fcaae30efa,cities,negated,train,0
+neg_cities,1126,The city of Huizhou is not in China.,entity_3109af07d9877749fb17e829b710998253f8730fc8973f7e75ad38643a7d8c42,cities,negated,train,0
+neg_cities,1228,The city of Indianapolis is not in the United States.,entity_e1e660acf5c7f2f70bade568ba40326d8708ed3c08e1628977437cafcff6f421,cities,negated,train,0
+neg_cities,534,The city of Goiania is not in Brazil.,entity_a0243ea2778e1374fd4598bfe31c4d4d9cdd74068957ca32ffa37032b4e7477f,cities,negated,train,0
+sp_en_trans,54,The Spanish word 'largo' means 'history'.,entity_72e782b9a4ec265b9b58e990dd802cf1a3fb9ae5bf4216d5d86fc6efbd22fcc1,sp_en_trans,affirmative,train,0
+sp_en_trans,56,The Spanish word 'cosa' means 'thing'.,entity_ee4f7143b8b85f1be38c688c442502e200fc2f6d829af031937308bb494c04ae,sp_en_trans,affirmative,train,1
+sp_en_trans,53,The Spanish word 'escribir' means 'to write'.,entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa,sp_en_trans,affirmative,train,1
+sp_en_trans,120,The Spanish word 'familia' means 'family'.,entity_66b8f618bc1c517c0e37e2f2be9505b84d16fd70dc8fd1b9ec9b9366bd64959a,sp_en_trans,affirmative,train,1
+sp_en_trans,60,The Spanish word 'persona' means 'person'.,entity_ddfb6f2d8c0d820a60118049488ddc8af3e48488ee053892bbb4d936f9d0a307,sp_en_trans,affirmative,train,1
+sp_en_trans,128,The Spanish word 'roca' means 'rock'.,entity_c1e48ab217e8b040c0f55f8e1639ee74f83390763f2966ad83ed3a27085a0259,sp_en_trans,affirmative,train,1
+sp_en_trans,270,The Spanish word 'hueso' means 'bone'.,entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d,sp_en_trans,affirmative,train,1
+sp_en_trans,65,The Spanish word 'ahora' means 'now'.,entity_9e995c8d03844882706c9a86caaa88c2eb8a9c1c1f27cd11ae506becc037f465,sp_en_trans,affirmative,train,1
+sp_en_trans,77,The Spanish word 'ciudad' means 'city'.,entity_e95522b64ab49dd7816cf3c59f842e84e08c8f2a71d13e3fb0a2b3df2faa56f0,sp_en_trans,affirmative,train,1
+sp_en_trans,64,The Spanish word 'lado' means 'equal'.,entity_8bbe35e94663c33fcd2abc5498fd1e47bd9d1db1bad9f26796a77c1ae3725fb7,sp_en_trans,affirmative,train,0
+sp_en_trans,324,The Spanish word 'sal' means 'horse'.,entity_d09a7a93ab4e8c6cfa8d61b892ec8fb0f267137f8e3987d5b2d3226d043b052b,sp_en_trans,affirmative,train,0
+sp_en_trans,191,The Spanish word 'presente' means 'present'.,entity_4f9058348028112b928424202ccd4b1322f785ace9cceccc333c535423435e90,sp_en_trans,affirmative,train,1
+sp_en_trans,234,The Spanish word 'clave' means 'rose'.,entity_1651443fcf831d1230fd4d3fbfe0ee58b93cfeb9e330e7879f413272009d6b86,sp_en_trans,affirmative,train,0
+sp_en_trans,73,The Spanish word 'sol' means 'sun'.,entity_44093dce1f480a642732300c4e2c9a637525e4cb7860ddcadae586a549d13ff3,sp_en_trans,affirmative,train,1
+sp_en_trans,173,The Spanish word 'suelo' means 'ground'.,entity_3ddaa8a7982b03dc6245ad7fbdf4d0b16bafa100fba970afbe919cd06cb5f221,sp_en_trans,affirmative,train,1
+sp_en_trans,338,The Spanish word 'rana' means 'frog'.,entity_3874f4f3505a19a05e0bc0a8e79f769416dfa803047cdf316a5f7caefa2cf61a,sp_en_trans,affirmative,train,1
+sp_en_trans,30,The Spanish word 'mundo' means 'zebra'.,entity_c0428ff69ea2ed8c7a0b30e5257f8649c70d6673212c0891443eb24950c3cf75,sp_en_trans,affirmative,train,0
+sp_en_trans,94,The Spanish word 'escuchar' means 'market'.,entity_52a1a015507569faf7f16063256c28c07b7ca279f320be7d1ffb8275fb98cf5c,sp_en_trans,affirmative,train,0
+sp_en_trans,235,The Spanish word 'hierro' means 'iron'.,entity_ba8b34056856927617cca817aa6f6a67a18d3a8e5153f9e615da7728ee9b701f,sp_en_trans,affirmative,train,1
+sp_en_trans,43,The Spanish word 'pensar' means 'to think'.,entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa,sp_en_trans,affirmative,train,1
+sp_en_trans,125,The Spanish word 'clase' means 'class'.,entity_91edf1252d810ebe362176d3a1e27f41b58019c84ddfb1cff0ea7aeeaad540e7,sp_en_trans,affirmative,train,1
+sp_en_trans,291,The Spanish word 'oferta' means 'offer'.,entity_edf3a2c5e440bb61a97511b1f110a446089ac2b46265b8d224e9656130ef9e36,sp_en_trans,affirmative,train,1
+sp_en_trans,218,The Spanish word 'igual' means 'to imagine'.,entity_7f487139f23ff98ee83111a6e8a77c66d98f360fdd1609aec257eadb28000cf3,sp_en_trans,affirmative,train,0
+sp_en_trans,194,The Spanish word 'ventana' means 'half'.,entity_0ba5674a48e9ae88f3e8aa5e46d51f2e9308e593a256606e89f2dabfce781bb4,sp_en_trans,affirmative,train,0
+sp_en_trans,327,The Spanish word 'cabra' means 'money'.,entity_a7bb8692ab44359d0f722bb79d4eff6dd636b7f219e1bb04b0f07c8c8f18a711,sp_en_trans,affirmative,train,0
+sp_en_trans,0,The Spanish word 'con' means 'to speak'.,entity_a1f85c94704d91d59dbc15b958049b3b51687ad0a374191264444aa632758f5c,sp_en_trans,affirmative,train,0
+sp_en_trans,342,The Spanish word 'pulpo' means 'slow'.,entity_e35b10a8f9aad38cb83f942b8b899c70f755fe653cfde3cefc6c3b69e2ce08b6,sp_en_trans,affirmative,train,0
+sp_en_trans,180,The Spanish word 'amar' means 'teeth'.,entity_72a1a81bef35e3dda053189267ad17b7dd54ae3f1a37b35e715aeedbffbb305f,sp_en_trans,affirmative,train,0
+sp_en_trans,26,The Spanish word 'preguntar' means 'to describe'.,entity_6433a41bc74cd0f9acbe41ffa55c0e7be831c3854b44e001339c9a41d7528a2d,sp_en_trans,affirmative,train,0
+sp_en_trans,328,The Spanish word 'cordero' means 'fat'.,entity_0c7d0d005684451a6d1437b5eef4d904508e1dc2b82aac2216002ba28eb24f17,sp_en_trans,affirmative,train,0
+sp_en_trans,301,The Spanish word 'temporada' means 'insect'.,entity_5726f25949bec40dafb95a4b50dae3605d144692c69a197f8eac2ac1ac057768,sp_en_trans,affirmative,train,0
+sp_en_trans,154,The Spanish word 'calor' means 'dry'.,entity_90411a9ea6f99997fdb812b44b54b8cbf768b3d4c6cb5baf3567433285bceb2d,sp_en_trans,affirmative,train,0
+sp_en_trans,38,The Spanish word 'espalda' means 'back'.,entity_718355cfbdd98ea6806604afb4fce60f93443f2c365e1692acc03fa18c470448,sp_en_trans,affirmative,train,1
+sp_en_trans,333,The Spanish word 'toro' means 'bull'.,entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06,sp_en_trans,affirmative,train,1
+sp_en_trans,74,The Spanish word 'cuatro' means 'to imagine'.,entity_66677d78ea058142fdc080a7c898aa76ec31ff6802a1482cf0e5d8319057d3a1,sp_en_trans,affirmative,train,0
+sp_en_trans,114,The Spanish word 'rojo' means 'red'.,entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c,sp_en_trans,affirmative,train,1
+sp_en_trans,221,The Spanish word 'matar' means 'bread'.,entity_01fcd902f1e683a46456004a85e8e7807323fc5b521dda89b6909fdbcc1723e7,sp_en_trans,affirmative,train,0
+sp_en_trans,7,The Spanish word 'de' means 'now'.,entity_d87bd6d64fb56f4dbfe328cc18fe2c2656d62450ce1e5cb7380030f191b12967,sp_en_trans,affirmative,train,0
+sp_en_trans,258,The Spanish word 'luchar' means 'heat'.,entity_9f4ff34b17508938cf213eb81e15ff468a3b90073f2a55aae27205ebf8314740,sp_en_trans,affirmative,train,0
+sp_en_trans,299,The Spanish word 'concha' means 'shell'.,entity_8483f6916a45f66de2330038f86ef35aae1b8fa1ef16ea928dbb5b21fc56f8ee,sp_en_trans,affirmative,train,1
+sp_en_trans,259,The Spanish word 'silla' means 'neighbor'.,entity_ff2e9d818215e862b83d58f44417914d7c399af01cb26511ba977485cf7beb47,sp_en_trans,affirmative,train,0
+sp_en_trans,91,The Spanish word 'ciencia' means 'to buy'.,entity_4e93cb63b9e1e420adc275dec73a32c754b0feb761acf9f9559f87974db97808,sp_en_trans,affirmative,train,0
+sp_en_trans,352,The Spanish word 'hola' means 'hello'.,entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7,sp_en_trans,affirmative,train,1
+sp_en_trans,195,The Spanish word 'tienda' means 'insect'.,entity_90d57fcf72240ba2deb042c69820026942e6cf86ca094f0cf1f6a7ea743c70a9,sp_en_trans,affirmative,train,0
+sp_en_trans,105,The Spanish word 'siempre' means 'month'.,entity_72ebac24c83259600adfd1d722c8e14a4b79d33b9e9d93d0f2cd88c9e70af314,sp_en_trans,affirmative,train,0
+sp_en_trans,75,The Spanish word 'ojo' means 'order'.,entity_3a0134c04864d25d9176d7b9b17db07d91a2ffe8d8b977162cadb688baeab607,sp_en_trans,affirmative,train,0
+sp_en_trans,233,The Spanish word 'experimento' means 'dark'.,entity_269a67f403b7286ed986b66c7d5f0cd83d9e53d30afb096273d53f3c51549731,sp_en_trans,affirmative,train,0
+sp_en_trans,67,The Spanish word 'cabeza' means 'head'.,entity_57ed100ac04adcad299716dc89d1234f2fd1d56dbd20e3ce0cdbfcd116ece530,sp_en_trans,affirmative,train,1
+sp_en_trans,150,The Spanish word 'seco' means 'book'.,entity_a711d854e771c841445659a1e8cf445821a51413fda7d25fc8e5f6deca992574,sp_en_trans,affirmative,train,0
+sp_en_trans,214,The Spanish word 'aceite' means 'oil'.,entity_7a32c30fe125e4803c709785def3d589219733f4fe6a6cb6321a737d51d9b820,sp_en_trans,affirmative,train,1
+sp_en_trans,31,The Spanish word 'cerca' means 'dog'.,entity_85df645ee423c2cbc8f16e92008e9e61e62c38b7ee1555af1311a8cae20ccf88,sp_en_trans,affirmative,train,0
+sp_en_trans,84,The Spanish word 'tarde' means 'hand'.,entity_73cb60fc19e96cd939942fb3787738bf445f983525f5c8966dd024412560ff71,sp_en_trans,affirmative,train,0
+sp_en_trans,22,The Spanish word 'grande' means 'large'.,entity_8874bb61c73df2eb388bff37d05c17849e86d1f9d9594e432799987817bff165,sp_en_trans,affirmative,train,1
+sp_en_trans,243,The Spanish word 'tercero' means 'third'.,entity_4d3e3235d51da7f46be2e66e5ae11909938a8bcc3bc442c70359e2e5807fedaa,sp_en_trans,affirmative,train,1
+sp_en_trans,21,The Spanish word 'mano' means 'too'.,entity_0599b28bcea8f3f79eb156ee62d314f2231228cd4971a76fada2ef6438afbcce,sp_en_trans,affirmative,train,0
+sp_en_trans,204,The Spanish word 'mes' means 'month'.,entity_4d0c93f3e6842186926bc9d236514913ea44fd1de67ec0fecb99aad73befd203,sp_en_trans,affirmative,train,1
+sp_en_trans,139,The Spanish word 'fuerza' means 'force'.,entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9,sp_en_trans,affirmative,train,1
+sp_en_trans,349,The Spanish word 'elefante' means 'spring'.,entity_c6cb4ce063bceb82eeb2c136de10e7b59918b0f04bff90fb3920b52c1a578c89,sp_en_trans,affirmative,train,0
+sp_en_trans,39,The Spanish word 'bueno' means 'good'.,entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455,sp_en_trans,affirmative,train,1
+sp_en_trans,285,The Spanish word 'amarillo' means 'land'.,entity_bf91037f0093c8d5f1261b2d0a23c2c46c903f05cab8c011646d921f4a9a97f7,sp_en_trans,affirmative,train,0
+sp_en_trans,219,The Spanish word 'elegir' means 'to choose'.,entity_6f5e6bd72329bbe14fcaaa661465f19da1b6bcf927636fc936db0a43525975fb,sp_en_trans,affirmative,train,1
+sp_en_trans,106,The Spanish word 'carta' means 'nothing'.,entity_42227c3b81c04713f039e365b9383b8fe19a3aa184aa871fc1ab6ab62d06a73b,sp_en_trans,affirmative,train,0
+sp_en_trans,129,The Spanish word 'orden' means 'old'.,entity_388cd94fb89b1239be96e57f9ac4c651dbc245d9ef4d04dd116f10a10b4b9621,sp_en_trans,affirmative,train,0
+sp_en_trans,300,The Spanish word 'cuello' means 'neck'.,entity_ef79352b6175cfc5d58684c590b0962a9683b8b3565ae270ae14e0126fac9966,sp_en_trans,affirmative,train,1
+sp_en_trans,98,The Spanish word 'abierto' means 'open'.,entity_bb35c5e8231370acb299907287faff31453c7e9e95bad4ac1f4b4386d7a636dc,sp_en_trans,affirmative,train,1
+sp_en_trans,80,The Spanish word 'historia' means 'office'.,entity_df0bed6036d2d275932329b4735187a766ddc3c9aa612970b322144b19163063,sp_en_trans,affirmative,train,0
+sp_en_trans,319,The Spanish word 'hombro' means 'shoulder'.,entity_045647b472d12d67bd24e765227c3098da74a32b1fd5ba7240ed95ddb86cfe2c,sp_en_trans,affirmative,train,1
+sp_en_trans,312,The Spanish word 'olor' means 'smell'.,entity_8e37d350544e324c1480b4c11045adb8d33a37c5b05a5b928ab3fb0e7a8ee6f9,sp_en_trans,affirmative,train,1
+sp_en_trans,117,The Spanish word 'pronto' means 'to die'.,entity_07eca21732fcb51fa1bc75710d417d40fd675455b75f4c4b41cde58f36e4638a,sp_en_trans,affirmative,train,0
+sp_en_trans,298,The Spanish word 'dientes' means 'hope'.,entity_705544b5088c28dcf328f3f0d86f4014b9933c9a1757e70a859b855e388e018a,sp_en_trans,affirmative,train,0
+sp_en_trans,124,The Spanish word 'corto' means 'letter'.,entity_f863ec19897925330f01e23a9153ad07727d2a51f08b4f1494cfe6a92668c58c,sp_en_trans,affirmative,train,0
+sp_en_trans,18,The Spanish word 'poner' means 'whale'.,entity_88dceb3243303556aabb593be055655965256a238ad3721533bc7f64ef67cce2,sp_en_trans,affirmative,train,0
+sp_en_trans,276,The Spanish word 'vecino' means 'neighbor'.,entity_f75baae3e1b347d08949f26157a16bc2c5abb965192b413459fda3ee89a86524,sp_en_trans,affirmative,train,1
+sp_en_trans,20,The Spanish word 'leer' means 'to read'.,entity_d6fe3d2312a2fa17cc4db5ab68be89c2aebda2fcf41ba5365b7319c3be11d6e0,sp_en_trans,affirmative,train,1
+sp_en_trans,288,The Spanish word 'conectar' means 'to connect'.,entity_13c6550158d87da718bc518ac20483a9f61b7443b2337b2e98f29db76526d9a4,sp_en_trans,affirmative,train,1
+sp_en_trans,193,The Spanish word 'bosque' means 'forest'.,entity_8e0f6334bc440ea7d468e3eeb40cb1a88ccc604b4f1b353ac9cfad9c8cb1a8ab,sp_en_trans,affirmative,train,1
+sp_en_trans,136,The Spanish word 'multiplicar' means 'to multiply'.,entity_ef0fb89a2b7b6c9b42f26707038c7cb2e52a44e973eb515fea29b5db40cc9143,sp_en_trans,affirmative,train,1
+sp_en_trans,207,The Spanish word 'flor' means 'market'.,entity_5df70b5039b608fceac6772770a188902771e7f95e1b9f7e0955bc78105bf5b2,sp_en_trans,affirmative,train,0
+sp_en_trans,33,The Spanish word 'padre' means 'special'.,entity_b9afe304a04e954ad1b9cda6a9189ae1fb4a1067603282dc0c0f60e0084fae60,sp_en_trans,affirmative,train,0
+sp_en_trans,45,The Spanish word 'antes' means 'before'.,entity_a335a206e6155e7f6ef8dfd41e8fca27437956cfae325dadf037a03d6abf380b,sp_en_trans,affirmative,train,1
+sp_en_trans,238,The Spanish word 'sonrisa' means 'smile'.,entity_2ea062c6c7dbf8a50675b7676aa0f5d8e5ed112211c563640f49c5161468edd6,sp_en_trans,affirmative,train,1
+sp_en_trans,34,The Spanish word 'nuevo' means 'always'.,entity_38bc30f6832987cddf476fb9a685ec1b2fed9887dd154c0f3085c73a92d2ba4d,sp_en_trans,affirmative,train,0
+sp_en_trans,47,The Spanish word 'viejo' means 'old'.,entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b,sp_en_trans,affirmative,train,1
+sp_en_trans,308,The Spanish word 'abrigo' means 'coat'.,entity_2ea29bc8337753322a926ae7010473088c0f589f00ba7fa632cbb890b87eb0b9,sp_en_trans,affirmative,train,1
+sp_en_trans,126,The Spanish word 'viento' means 'wind'.,entity_50501ebb9506ef69971b077559f7cb74540f6cd340a357a208305579ac514974,sp_en_trans,affirmative,train,1
+sp_en_trans,62,The Spanish word 'agua' means 'water'.,entity_d2c7ccbf314c26511d33d7d7e551ee80c8c1c4d9b87cdd6ff726db0f2541d7aa,sp_en_trans,affirmative,train,1
+sp_en_trans,70,The Spanish word 'crecer' means 'to grow'.,entity_5977ec5796d573b12c21b8004953a381bf821d9dcdd51be24a344adf3ccc5da9,sp_en_trans,affirmative,train,1
+sp_en_trans,189,The Spanish word 'hielo' means 'ice'.,entity_c8c201d2f09af6d0b6060033fbef14db06eaffb6d3d0706dfb5a7e5874e1fd09,sp_en_trans,affirmative,train,1
+sp_en_trans,50,The Spanish word 'todo' means 'all'.,entity_a0324b087a2ddb7d227e28a5cc38e61e5f1133fd14fddf27865f268abd7405f2,sp_en_trans,affirmative,train,1
+sp_en_trans,163,The Spanish word 'semana' means 'face'.,entity_351b068ae357cd4d4bdd3eed2667535991d2d6f53ae0c06e12ac16c6fa2b676e,sp_en_trans,affirmative,train,0
+sp_en_trans,295,The Spanish word 'enemigo' means 'enemy'.,entity_d4b9f3b8446e2f2193222494d668f089c706a34b3a0b97182457f7e3cf2358da,sp_en_trans,affirmative,train,1
+sp_en_trans,222,The Spanish word 'hijo' means 'son'.,entity_bc658b6771d9e1872f73f9b0710d15e4db2d15a0337ec84733433f7a40fddb03,sp_en_trans,affirmative,train,1
+sp_en_trans,220,The Spanish word 'guardar' means 'to save'.,entity_9bf3b5e35cf48e658eb055ffde895dcc5f19515df832be78e6c04c6372c65ebb,sp_en_trans,affirmative,train,1
+sp_en_trans,52,The Spanish word 'entonces' means 'corner'.,entity_49b5fc53cf4528987f70193e8dc2516b138bab53ee59c0cd3b34d6720c3b7157,sp_en_trans,affirmative,train,0
+sp_en_trans,263,The Spanish word 'proteger' means 'dry'.,entity_bba5b2442cee4cdb5b0fbd81f25a9a732d024e245d52d025ad39b74aa99b7821,sp_en_trans,affirmative,train,0
+sp_en_trans,279,The Spanish word 'carne' means 'meat'.,entity_62bf96fef5c635c2428f06afe0c70c305fee9179add501ab8fb44bfc8d70110a,sp_en_trans,affirmative,train,1
+sp_en_trans,282,The Spanish word 'delgado' means 'thin'.,entity_21325e32e76adc80f3b853b6d4a65b2b4d4a99dc9127422a6d87dea9eae4319d,sp_en_trans,affirmative,train,1
+sp_en_trans,322,The Spanish word 'lanzar' means 'to throw'.,entity_c97c2e09f126cc13f4f534c46b81cad5f27eaaeb6deb393941b9c8872b8e46ee,sp_en_trans,affirmative,train,1
+sp_en_trans,130,The Spanish word 'fuego' means 'fire'.,entity_724ac93aed54018b5e5e8e6f9690d005bddf9d55dc4c6b0616eda0d83ab0f21e,sp_en_trans,affirmative,train,1
+sp_en_trans,112,The Spanish word 'joven' means 'hot'.,entity_1fdbe7ebff863d08c5ca3faa2d28822a4e5b32aa75d89770d78b49de8e380839,sp_en_trans,affirmative,train,0
+neg_sp_en_trans,54,The Spanish word 'largo' does not mean 'history'.,entity_72e782b9a4ec265b9b58e990dd802cf1a3fb9ae5bf4216d5d86fc6efbd22fcc1,sp_en_trans,negated,train,1
+neg_sp_en_trans,56,The Spanish word 'cosa' does not mean 'thing'.,entity_ee4f7143b8b85f1be38c688c442502e200fc2f6d829af031937308bb494c04ae,sp_en_trans,negated,train,0
+neg_sp_en_trans,53,The Spanish word 'escribir' does not mean 'to write'.,entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa,sp_en_trans,negated,train,0
+neg_sp_en_trans,120,The Spanish word 'familia' does not mean 'family'.,entity_66b8f618bc1c517c0e37e2f2be9505b84d16fd70dc8fd1b9ec9b9366bd64959a,sp_en_trans,negated,train,0
+neg_sp_en_trans,60,The Spanish word 'persona' does not mean 'person'.,entity_ddfb6f2d8c0d820a60118049488ddc8af3e48488ee053892bbb4d936f9d0a307,sp_en_trans,negated,train,0
+neg_sp_en_trans,128,The Spanish word 'roca' does not mean 'rock'.,entity_c1e48ab217e8b040c0f55f8e1639ee74f83390763f2966ad83ed3a27085a0259,sp_en_trans,negated,train,0
+neg_sp_en_trans,270,The Spanish word 'hueso' does not mean 'bone'.,entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d,sp_en_trans,negated,train,0
+neg_sp_en_trans,65,The Spanish word 'ahora' does not mean 'now'.,entity_9e995c8d03844882706c9a86caaa88c2eb8a9c1c1f27cd11ae506becc037f465,sp_en_trans,negated,train,0
+neg_sp_en_trans,77,The Spanish word 'ciudad' does not mean 'city'.,entity_e95522b64ab49dd7816cf3c59f842e84e08c8f2a71d13e3fb0a2b3df2faa56f0,sp_en_trans,negated,train,0
+neg_sp_en_trans,64,The Spanish word 'lado' does not mean 'equal'.,entity_8bbe35e94663c33fcd2abc5498fd1e47bd9d1db1bad9f26796a77c1ae3725fb7,sp_en_trans,negated,train,1
+neg_sp_en_trans,324,The Spanish word 'sal' does not mean 'horse'.,entity_d09a7a93ab4e8c6cfa8d61b892ec8fb0f267137f8e3987d5b2d3226d043b052b,sp_en_trans,negated,train,1
+neg_sp_en_trans,191,The Spanish word 'presente' does not mean 'present'.,entity_4f9058348028112b928424202ccd4b1322f785ace9cceccc333c535423435e90,sp_en_trans,negated,train,0
+neg_sp_en_trans,234,The Spanish word 'clave' does not mean 'rose'.,entity_1651443fcf831d1230fd4d3fbfe0ee58b93cfeb9e330e7879f413272009d6b86,sp_en_trans,negated,train,1
+neg_sp_en_trans,73,The Spanish word 'sol' does not mean 'sun'.,entity_44093dce1f480a642732300c4e2c9a637525e4cb7860ddcadae586a549d13ff3,sp_en_trans,negated,train,0
+neg_sp_en_trans,173,The Spanish word 'suelo' does not mean 'ground'.,entity_3ddaa8a7982b03dc6245ad7fbdf4d0b16bafa100fba970afbe919cd06cb5f221,sp_en_trans,negated,train,0
+neg_sp_en_trans,338,The Spanish word 'rana' does not mean 'frog'.,entity_3874f4f3505a19a05e0bc0a8e79f769416dfa803047cdf316a5f7caefa2cf61a,sp_en_trans,negated,train,0
+neg_sp_en_trans,30,The Spanish word 'mundo' does not mean 'zebra'.,entity_c0428ff69ea2ed8c7a0b30e5257f8649c70d6673212c0891443eb24950c3cf75,sp_en_trans,negated,train,1
+neg_sp_en_trans,94,The Spanish word 'escuchar' does not mean 'market'.,entity_52a1a015507569faf7f16063256c28c07b7ca279f320be7d1ffb8275fb98cf5c,sp_en_trans,negated,train,1
+neg_sp_en_trans,235,The Spanish word 'hierro' does not mean 'iron'.,entity_ba8b34056856927617cca817aa6f6a67a18d3a8e5153f9e615da7728ee9b701f,sp_en_trans,negated,train,0
+neg_sp_en_trans,43,The Spanish word 'pensar' does not mean 'to think'.,entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa,sp_en_trans,negated,train,0
+neg_sp_en_trans,125,The Spanish word 'clase' does not mean 'class'.,entity_91edf1252d810ebe362176d3a1e27f41b58019c84ddfb1cff0ea7aeeaad540e7,sp_en_trans,negated,train,0
+neg_sp_en_trans,291,The Spanish word 'oferta' does not mean 'offer'.,entity_edf3a2c5e440bb61a97511b1f110a446089ac2b46265b8d224e9656130ef9e36,sp_en_trans,negated,train,0
+neg_sp_en_trans,218,The Spanish word 'igual' does not mean 'to imagine'.,entity_7f487139f23ff98ee83111a6e8a77c66d98f360fdd1609aec257eadb28000cf3,sp_en_trans,negated,train,1
+neg_sp_en_trans,194,The Spanish word 'ventana' does not mean 'half'.,entity_0ba5674a48e9ae88f3e8aa5e46d51f2e9308e593a256606e89f2dabfce781bb4,sp_en_trans,negated,train,1
+neg_sp_en_trans,327,The Spanish word 'cabra' does not mean 'money'.,entity_a7bb8692ab44359d0f722bb79d4eff6dd636b7f219e1bb04b0f07c8c8f18a711,sp_en_trans,negated,train,1
+neg_sp_en_trans,0,The Spanish word 'con' does not mean 'to speak'.,entity_a1f85c94704d91d59dbc15b958049b3b51687ad0a374191264444aa632758f5c,sp_en_trans,negated,train,1
+neg_sp_en_trans,342,The Spanish word 'pulpo' does not mean 'slow'.,entity_e35b10a8f9aad38cb83f942b8b899c70f755fe653cfde3cefc6c3b69e2ce08b6,sp_en_trans,negated,train,1
+neg_sp_en_trans,180,The Spanish word 'amar' does not mean 'teeth'.,entity_72a1a81bef35e3dda053189267ad17b7dd54ae3f1a37b35e715aeedbffbb305f,sp_en_trans,negated,train,1
+neg_sp_en_trans,26,The Spanish word 'preguntar' does not mean 'to describe'.,entity_6433a41bc74cd0f9acbe41ffa55c0e7be831c3854b44e001339c9a41d7528a2d,sp_en_trans,negated,train,1
+neg_sp_en_trans,328,The Spanish word 'cordero' does not mean 'fat'.,entity_0c7d0d005684451a6d1437b5eef4d904508e1dc2b82aac2216002ba28eb24f17,sp_en_trans,negated,train,1
+neg_sp_en_trans,301,The Spanish word 'temporada' does not mean 'insect'.,entity_5726f25949bec40dafb95a4b50dae3605d144692c69a197f8eac2ac1ac057768,sp_en_trans,negated,train,1
+neg_sp_en_trans,154,The Spanish word 'calor' does not mean 'dry'.,entity_90411a9ea6f99997fdb812b44b54b8cbf768b3d4c6cb5baf3567433285bceb2d,sp_en_trans,negated,train,1
+neg_sp_en_trans,38,The Spanish word 'espalda' does not mean 'back'.,entity_718355cfbdd98ea6806604afb4fce60f93443f2c365e1692acc03fa18c470448,sp_en_trans,negated,train,0
+neg_sp_en_trans,333,The Spanish word 'toro' does not mean 'bull'.,entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06,sp_en_trans,negated,train,0
+neg_sp_en_trans,74,The Spanish word 'cuatro' does not mean 'to imagine'.,entity_66677d78ea058142fdc080a7c898aa76ec31ff6802a1482cf0e5d8319057d3a1,sp_en_trans,negated,train,1
+neg_sp_en_trans,114,The Spanish word 'rojo' does not mean 'red'.,entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c,sp_en_trans,negated,train,0
+neg_sp_en_trans,221,The Spanish word 'matar' does not mean 'bread'.,entity_01fcd902f1e683a46456004a85e8e7807323fc5b521dda89b6909fdbcc1723e7,sp_en_trans,negated,train,1
+neg_sp_en_trans,7,The Spanish word 'de' does not mean 'now'.,entity_d87bd6d64fb56f4dbfe328cc18fe2c2656d62450ce1e5cb7380030f191b12967,sp_en_trans,negated,train,1
+neg_sp_en_trans,258,The Spanish word 'luchar' does not mean 'heat'.,entity_9f4ff34b17508938cf213eb81e15ff468a3b90073f2a55aae27205ebf8314740,sp_en_trans,negated,train,1
+neg_sp_en_trans,299,The Spanish word 'concha' does not mean 'shell'.,entity_8483f6916a45f66de2330038f86ef35aae1b8fa1ef16ea928dbb5b21fc56f8ee,sp_en_trans,negated,train,0
+neg_sp_en_trans,259,The Spanish word 'silla' does not mean 'neighbor'.,entity_ff2e9d818215e862b83d58f44417914d7c399af01cb26511ba977485cf7beb47,sp_en_trans,negated,train,1
+neg_sp_en_trans,91,The Spanish word 'ciencia' does not mean 'to buy'.,entity_4e93cb63b9e1e420adc275dec73a32c754b0feb761acf9f9559f87974db97808,sp_en_trans,negated,train,1
+neg_sp_en_trans,352,The Spanish word 'hola' does not mean 'hello'.,entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7,sp_en_trans,negated,train,0
+neg_sp_en_trans,195,The Spanish word 'tienda' does not mean 'insect'.,entity_90d57fcf72240ba2deb042c69820026942e6cf86ca094f0cf1f6a7ea743c70a9,sp_en_trans,negated,train,1
+neg_sp_en_trans,105,The Spanish word 'siempre' does not mean 'month'.,entity_72ebac24c83259600adfd1d722c8e14a4b79d33b9e9d93d0f2cd88c9e70af314,sp_en_trans,negated,train,1
+neg_sp_en_trans,75,The Spanish word 'ojo' does not mean 'order'.,entity_3a0134c04864d25d9176d7b9b17db07d91a2ffe8d8b977162cadb688baeab607,sp_en_trans,negated,train,1
+neg_sp_en_trans,233,The Spanish word 'experimento' does not mean 'dark'.,entity_269a67f403b7286ed986b66c7d5f0cd83d9e53d30afb096273d53f3c51549731,sp_en_trans,negated,train,1
+neg_sp_en_trans,67,The Spanish word 'cabeza' does not mean 'head'.,entity_57ed100ac04adcad299716dc89d1234f2fd1d56dbd20e3ce0cdbfcd116ece530,sp_en_trans,negated,train,0
+neg_sp_en_trans,150,The Spanish word 'seco' does not mean 'book'.,entity_a711d854e771c841445659a1e8cf445821a51413fda7d25fc8e5f6deca992574,sp_en_trans,negated,train,1
+neg_sp_en_trans,214,The Spanish word 'aceite' does not mean 'oil'.,entity_7a32c30fe125e4803c709785def3d589219733f4fe6a6cb6321a737d51d9b820,sp_en_trans,negated,train,0
+neg_sp_en_trans,31,The Spanish word 'cerca' does not mean 'dog'.,entity_85df645ee423c2cbc8f16e92008e9e61e62c38b7ee1555af1311a8cae20ccf88,sp_en_trans,negated,train,1
+neg_sp_en_trans,84,The Spanish word 'tarde' does not mean 'hand'.,entity_73cb60fc19e96cd939942fb3787738bf445f983525f5c8966dd024412560ff71,sp_en_trans,negated,train,1
+neg_sp_en_trans,22,The Spanish word 'grande' does not mean 'large'.,entity_8874bb61c73df2eb388bff37d05c17849e86d1f9d9594e432799987817bff165,sp_en_trans,negated,train,0
+neg_sp_en_trans,243,The Spanish word 'tercero' does not mean 'third'.,entity_4d3e3235d51da7f46be2e66e5ae11909938a8bcc3bc442c70359e2e5807fedaa,sp_en_trans,negated,train,0
+neg_sp_en_trans,21,The Spanish word 'mano' does not mean 'too'.,entity_0599b28bcea8f3f79eb156ee62d314f2231228cd4971a76fada2ef6438afbcce,sp_en_trans,negated,train,1
+neg_sp_en_trans,204,The Spanish word 'mes' does not mean 'month'.,entity_4d0c93f3e6842186926bc9d236514913ea44fd1de67ec0fecb99aad73befd203,sp_en_trans,negated,train,0
+neg_sp_en_trans,139,The Spanish word 'fuerza' does not mean 'force'.,entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9,sp_en_trans,negated,train,0
+neg_sp_en_trans,349,The Spanish word 'elefante' does not mean 'spring'.,entity_c6cb4ce063bceb82eeb2c136de10e7b59918b0f04bff90fb3920b52c1a578c89,sp_en_trans,negated,train,1
+neg_sp_en_trans,39,The Spanish word 'bueno' does not mean 'good'.,entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455,sp_en_trans,negated,train,0
+neg_sp_en_trans,285,The Spanish word 'amarillo' does not mean 'land'.,entity_bf91037f0093c8d5f1261b2d0a23c2c46c903f05cab8c011646d921f4a9a97f7,sp_en_trans,negated,train,1
+neg_sp_en_trans,219,The Spanish word 'elegir' does not mean 'to choose'.,entity_6f5e6bd72329bbe14fcaaa661465f19da1b6bcf927636fc936db0a43525975fb,sp_en_trans,negated,train,0
+neg_sp_en_trans,106,The Spanish word 'carta' does not mean 'nothing'.,entity_42227c3b81c04713f039e365b9383b8fe19a3aa184aa871fc1ab6ab62d06a73b,sp_en_trans,negated,train,1
+neg_sp_en_trans,129,The Spanish word 'orden' does not mean 'old'.,entity_388cd94fb89b1239be96e57f9ac4c651dbc245d9ef4d04dd116f10a10b4b9621,sp_en_trans,negated,train,1
+neg_sp_en_trans,300,The Spanish word 'cuello' does not mean 'neck'.,entity_ef79352b6175cfc5d58684c590b0962a9683b8b3565ae270ae14e0126fac9966,sp_en_trans,negated,train,0
+neg_sp_en_trans,98,The Spanish word 'abierto' does not mean 'open'.,entity_bb35c5e8231370acb299907287faff31453c7e9e95bad4ac1f4b4386d7a636dc,sp_en_trans,negated,train,0
+neg_sp_en_trans,80,The Spanish word 'historia' does not mean 'office'.,entity_df0bed6036d2d275932329b4735187a766ddc3c9aa612970b322144b19163063,sp_en_trans,negated,train,1
+neg_sp_en_trans,319,The Spanish word 'hombro' does not mean 'shoulder'.,entity_045647b472d12d67bd24e765227c3098da74a32b1fd5ba7240ed95ddb86cfe2c,sp_en_trans,negated,train,0
+neg_sp_en_trans,312,The Spanish word 'olor' does not mean 'smell'.,entity_8e37d350544e324c1480b4c11045adb8d33a37c5b05a5b928ab3fb0e7a8ee6f9,sp_en_trans,negated,train,0
+neg_sp_en_trans,117,The Spanish word 'pronto' does not mean 'to die'.,entity_07eca21732fcb51fa1bc75710d417d40fd675455b75f4c4b41cde58f36e4638a,sp_en_trans,negated,train,1
+neg_sp_en_trans,298,The Spanish word 'dientes' does not mean 'hope'.,entity_705544b5088c28dcf328f3f0d86f4014b9933c9a1757e70a859b855e388e018a,sp_en_trans,negated,train,1
+neg_sp_en_trans,124,The Spanish word 'corto' does not mean 'letter'.,entity_f863ec19897925330f01e23a9153ad07727d2a51f08b4f1494cfe6a92668c58c,sp_en_trans,negated,train,1
+neg_sp_en_trans,18,The Spanish word 'poner' does not mean 'whale'.,entity_88dceb3243303556aabb593be055655965256a238ad3721533bc7f64ef67cce2,sp_en_trans,negated,train,1
+neg_sp_en_trans,276,The Spanish word 'vecino' does not mean 'neighbor'.,entity_f75baae3e1b347d08949f26157a16bc2c5abb965192b413459fda3ee89a86524,sp_en_trans,negated,train,0
+neg_sp_en_trans,20,The Spanish word 'leer' does not mean 'to read'.,entity_d6fe3d2312a2fa17cc4db5ab68be89c2aebda2fcf41ba5365b7319c3be11d6e0,sp_en_trans,negated,train,0
+neg_sp_en_trans,288,The Spanish word 'conectar' does not mean 'to connect'.,entity_13c6550158d87da718bc518ac20483a9f61b7443b2337b2e98f29db76526d9a4,sp_en_trans,negated,train,0
+neg_sp_en_trans,193,The Spanish word 'bosque' does not mean 'forest'.,entity_8e0f6334bc440ea7d468e3eeb40cb1a88ccc604b4f1b353ac9cfad9c8cb1a8ab,sp_en_trans,negated,train,0
+neg_sp_en_trans,136,The Spanish word 'multiplicar' does not mean 'to multiply'.,entity_ef0fb89a2b7b6c9b42f26707038c7cb2e52a44e973eb515fea29b5db40cc9143,sp_en_trans,negated,train,0
+neg_sp_en_trans,207,The Spanish word 'flor' does not mean 'market'.,entity_5df70b5039b608fceac6772770a188902771e7f95e1b9f7e0955bc78105bf5b2,sp_en_trans,negated,train,1
+neg_sp_en_trans,33,The Spanish word 'padre' does not mean 'special'.,entity_b9afe304a04e954ad1b9cda6a9189ae1fb4a1067603282dc0c0f60e0084fae60,sp_en_trans,negated,train,1
+neg_sp_en_trans,45,The Spanish word 'antes' does not mean 'before'.,entity_a335a206e6155e7f6ef8dfd41e8fca27437956cfae325dadf037a03d6abf380b,sp_en_trans,negated,train,0
+neg_sp_en_trans,238,The Spanish word 'sonrisa' does not mean 'smile'.,entity_2ea062c6c7dbf8a50675b7676aa0f5d8e5ed112211c563640f49c5161468edd6,sp_en_trans,negated,train,0
+neg_sp_en_trans,34,The Spanish word 'nuevo' does not mean 'always'.,entity_38bc30f6832987cddf476fb9a685ec1b2fed9887dd154c0f3085c73a92d2ba4d,sp_en_trans,negated,train,1
+neg_sp_en_trans,47,The Spanish word 'viejo' does not mean 'old'.,entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b,sp_en_trans,negated,train,0
+neg_sp_en_trans,308,The Spanish word 'abrigo' does not mean 'coat'.,entity_2ea29bc8337753322a926ae7010473088c0f589f00ba7fa632cbb890b87eb0b9,sp_en_trans,negated,train,0
+neg_sp_en_trans,126,The Spanish word 'viento' does not mean 'wind'.,entity_50501ebb9506ef69971b077559f7cb74540f6cd340a357a208305579ac514974,sp_en_trans,negated,train,0
+neg_sp_en_trans,62,The Spanish word 'agua' does not mean 'water'.,entity_d2c7ccbf314c26511d33d7d7e551ee80c8c1c4d9b87cdd6ff726db0f2541d7aa,sp_en_trans,negated,train,0
+neg_sp_en_trans,70,The Spanish word 'crecer' does not mean 'to grow'.,entity_5977ec5796d573b12c21b8004953a381bf821d9dcdd51be24a344adf3ccc5da9,sp_en_trans,negated,train,0
+neg_sp_en_trans,189,The Spanish word 'hielo' does not mean 'ice'.,entity_c8c201d2f09af6d0b6060033fbef14db06eaffb6d3d0706dfb5a7e5874e1fd09,sp_en_trans,negated,train,0
+neg_sp_en_trans,50,The Spanish word 'todo' does not mean 'all'.,entity_a0324b087a2ddb7d227e28a5cc38e61e5f1133fd14fddf27865f268abd7405f2,sp_en_trans,negated,train,0
+neg_sp_en_trans,163,The Spanish word 'semana' does not mean 'face'.,entity_351b068ae357cd4d4bdd3eed2667535991d2d6f53ae0c06e12ac16c6fa2b676e,sp_en_trans,negated,train,1
+neg_sp_en_trans,295,The Spanish word 'enemigo' does not mean 'enemy'.,entity_d4b9f3b8446e2f2193222494d668f089c706a34b3a0b97182457f7e3cf2358da,sp_en_trans,negated,train,0
+neg_sp_en_trans,222,The Spanish word 'hijo' does not mean 'son'.,entity_bc658b6771d9e1872f73f9b0710d15e4db2d15a0337ec84733433f7a40fddb03,sp_en_trans,negated,train,0
+neg_sp_en_trans,220,The Spanish word 'guardar' does not mean 'to save'.,entity_9bf3b5e35cf48e658eb055ffde895dcc5f19515df832be78e6c04c6372c65ebb,sp_en_trans,negated,train,0
+neg_sp_en_trans,52,The Spanish word 'entonces' does not mean 'corner'.,entity_49b5fc53cf4528987f70193e8dc2516b138bab53ee59c0cd3b34d6720c3b7157,sp_en_trans,negated,train,1
+neg_sp_en_trans,263,The Spanish word 'proteger' does not mean 'dry'.,entity_bba5b2442cee4cdb5b0fbd81f25a9a732d024e245d52d025ad39b74aa99b7821,sp_en_trans,negated,train,1
+neg_sp_en_trans,279,The Spanish word 'carne' does not mean 'meat'.,entity_62bf96fef5c635c2428f06afe0c70c305fee9179add501ab8fb44bfc8d70110a,sp_en_trans,negated,train,0
+neg_sp_en_trans,282,The Spanish word 'delgado' does not mean 'thin'.,entity_21325e32e76adc80f3b853b6d4a65b2b4d4a99dc9127422a6d87dea9eae4319d,sp_en_trans,negated,train,0
+neg_sp_en_trans,322,The Spanish word 'lanzar' does not mean 'to throw'.,entity_c97c2e09f126cc13f4f534c46b81cad5f27eaaeb6deb393941b9c8872b8e46ee,sp_en_trans,negated,train,0
+neg_sp_en_trans,130,The Spanish word 'fuego' does not mean 'fire'.,entity_724ac93aed54018b5e5e8e6f9690d005bddf9d55dc4c6b0616eda0d83ab0f21e,sp_en_trans,negated,train,0
+neg_sp_en_trans,112,The Spanish word 'joven' does not mean 'hot'.,entity_1fdbe7ebff863d08c5ca3faa2d28822a4e5b32aa75d89770d78b49de8e380839,sp_en_trans,negated,train,1
+inventors,134,Joseph Bramah lived in the U.K.,entity_a2d9f017e0a0d61da45e06ba11ac94c7b18213d3f06f06442d83bd9d99f76cfa,inventors,affirmative,train,1
+inventors,354,John Wesley Hyatt lived in the U.K.,entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1,inventors,affirmative,train,0
+inventors,295,Karl Landsteiner lived in Austria.,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,inventors,affirmative,train,1
+inventors,312,John Shepherd-Barron lived in the U.S.,entity_5072e2006427b892d26836ed6763295a988a5730656386442ae299ddd741af05,inventors,affirmative,train,0
+inventors,8,William Sturgeon lived in the U.K.,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,inventors,affirmative,train,1
+inventors,245,Nicolas Appert lived in Russia.,entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229,inventors,affirmative,train,0
+inventors,388,Zhores Alferov lived in Russia.,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,inventors,affirmative,train,1
+inventors,83,Carlos Glidden lived in Scotland.,entity_b7e5f40dbeee41816987957715c25f05ec657b6579e9968d73e05ebb2fef08b6,inventors,affirmative,train,0
+inventors,14,Chester Carlson lived in the U.K.,entity_62464b85d554a9c03b3ee3a506a4c7d2d43f61695557f6c7e6e1313327f90ee5,inventors,affirmative,train,0
+inventors,238,Valdemar Poulsen lived in Scotland.,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,inventors,affirmative,train,0
+inventors,170,Garrett Morgan lived in the U.S.,entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb,inventors,affirmative,train,1
+inventors,370,Bartolomeo Cristofori lived in the U.S.,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,inventors,affirmative,train,0
+inventors,305,Charles Townes lived in the U.S.,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,inventors,affirmative,train,1
+inventors,63,Candace Pert lived in the U.S.,entity_43e3b285d0d18ae99b1d74d3e43e51d39fa5a97f1c46373a5d52aedb640ed5d6,inventors,affirmative,train,1
+inventors,48,Robert Moog lived in the U.S.,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,inventors,affirmative,train,1
+inventors,289,Biruté Galdikas lived in France.,entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d,inventors,affirmative,train,0
+inventors,84,Maria Telkes lived in Hungary/the U.S.,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,inventors,affirmative,train,1
+inventors,73,Henry Bessemer lived in the U.K.,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,inventors,affirmative,train,1
+inventors,127,Marvin Camras lived in the U.S.,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,inventors,affirmative,train,1
+inventors,287,Emile Berliner lived in Germany/the U.S.,entity_6c5d95e799d90a3d7db71d03712fb1d717c1a3a0ccd283472f029026ec4ea607,inventors,affirmative,train,1
+inventors,189,Maria Telkes lived in Hungary.,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,inventors,affirmative,train,0
+inventors,317,Charles Francis Jenkins lived in the U.S.,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,inventors,affirmative,train,1
+inventors,226,Tim Berners-Lee lived in Germany.,entity_02037e7a37cc7ff0c61436dc6d273f65ddee800a5e40dee7964578119c086b9a,inventors,affirmative,train,0
+inventors,299,Ami Argand lived in the U.S.,entity_7e1ac3ec55a6dd8156614391e664c58d64ef348f6824841ad3e8f5b7d14a23e9,inventors,affirmative,train,0
+inventors,178,George de Mestral lived in Switzerland.,entity_286d104c7c6961210bb320b1e924a0bd426bed45228d66ae0be58dee17a8cadd,inventors,affirmative,train,1
+inventors,322,Philo Taylor Farnsworth lived in the U.S.,entity_ce2d336e72d3c673fc2e5481f3f854fea1f26de9d65f998d4d94e207a2f8f516,inventors,affirmative,train,1
+inventors,319,Wilhelm Conrad Röntgen lived in Germany.,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,inventors,affirmative,train,1
+inventors,110,Lloyd Groff Copeman lived in Germany.,entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e,inventors,affirmative,train,0
+inventors,187,Robert Chesebrough lived in the U.S.,entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c,inventors,affirmative,train,1
+inventors,94,Joseph Aspdin lived in Switzerland.,entity_0edcb780d202bbbb53ad8f9a8824ee9dc5360ac6493105ee3ed61beb98780d4d,inventors,affirmative,train,0
+inventors,35,Arthur Fry lived in the U.S.,entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc,inventors,affirmative,train,1
+inventors,7,Marvin Camras lived in France.,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,inventors,affirmative,train,0
+inventors,70,Carl Sontheimer lived in Switzerland.,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,inventors,affirmative,train,0
+inventors,259,Georges Claude lived in France.,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,inventors,affirmative,train,1
+inventors,212,Charles Townes lived in Russia.,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,inventors,affirmative,train,0
+inventors,195,Orville and Wilbur Wright lived in France.,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,inventors,affirmative,train,0
+inventors,67,Yvonne Brill lived in Canada.,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,inventors,affirmative,train,1
+inventors,142,Orville and Wilbur Wright lived in the U.S.,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,inventors,affirmative,train,1
+inventors,310,Karl Landsteiner lived in the U.K.,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,inventors,affirmative,train,0
+inventors,115,Zhores Alferov lived in the U.K.,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,inventors,affirmative,train,0
+inventors,53,Sir Sandford Fleming lived in the U.S.,entity_3bd09da47a502837d3f4306d23e848f902c10d926e41c511c543001ff57ddc2c,inventors,affirmative,train,0
+inventors,351,James Clerk Maxwell lived in the U.K.,entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8,inventors,affirmative,train,1
+inventors,285,Spencer Silver lived in the U.S.,entity_162096dd276925d4e85761141810e74e189ffc69d29b292beddb349e673d35eb,inventors,affirmative,train,1
+inventors,135,Hans Geiger lived in Austria/the U.S.,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,inventors,affirmative,train,0
+inventors,129,Charles Francis Richter lived in France.,entity_1aba4271a8b0d7e7550f171355209a793bacce1ad71f0849f79a99b8eb169129,inventors,affirmative,train,0
+inventors,156,Paul Gottlieb Nipkow lived in Germany.,entity_d555076aae9c496b1c8fbf94ec9e5351c5204ca20cad98f9e8e4191dc14874e7,inventors,affirmative,train,1
+inventors,93,Mary Walton lived in France.,entity_9240a6a1cd754b779e934a1c8d1b230b9a491b0438f9c36687c95a2bdfe524b9,inventors,affirmative,train,0
+inventors,71,Sergey Brin and Larry Page lived in the U.K.,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,inventors,affirmative,train,0
+inventors,120,Valdemar Poulsen lived in Denmark.,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,inventors,affirmative,train,1
+inventors,172,Georges Claude lived in Italy.,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,inventors,affirmative,train,0
+inventors,308,Antoine Lavoisier lived in Austria.,entity_2893aa6253722d064f89b95bfdab30ec1a3b479197fef9e96abef5ae6a4fb1da,inventors,affirmative,train,0
+inventors,347,Wallace Carothers lived in Denmark.,entity_1b0f1f2bb5a919012ce64b1229b4eb31e552caa4f9f09251d317353ea8e55d2e,inventors,affirmative,train,0
+inventors,279,Marie Curie lived in Hungary.,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,inventors,affirmative,train,0
+inventors,163,Samuel Fox lived in the U.K.,entity_5e9a51e451360ddad4b64f7e0ee5aa612bf0999c4e510d6783ed9afe5ab944fa,inventors,affirmative,train,1
+inventors,86,James Watt lived in the U.S.,entity_9f6356c71983dc7f2df1a26508666518aa54985f0480a3fd3d36dcb5a1db5520,inventors,affirmative,train,0
+inventors,293,Daisuke Inoue lived in Japan.,entity_a194566f08ad5b17675d15fc2f7c357060a41e14fce3074cd8b7a12544ce2f39,inventors,affirmative,train,1
+inventors,348,Carl Sontheimer lived in the U.S.,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,inventors,affirmative,train,1
+inventors,81,Godfrey Hounsfield lived in Denmark.,entity_78f19d21d14dd9d6073f64b47abb97c98cba199e992f02388171b73ed96795eb,inventors,affirmative,train,0
+inventors,205,Wilhelm Conrad Röntgen lived in the U.S.,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,inventors,affirmative,train,0
+inventors,148,Charles Cros lived in France.,entity_f7bd87a154822f93994b302c9dc2a677c2fe16ee8d5815bf27f36f2050ea9043,inventors,affirmative,train,1
+inventors,275,James Starley lived in the U.K.,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,inventors,affirmative,train,1
+inventors,219,Frank Julian Sprague lived in the U.S.,entity_4d8d21dee789ab3055d0a461e8d745a132bde7d16666eacee6a4cb365eff29fb,inventors,affirmative,train,1
+inventors,150,Bartolomeo Cristofori lived in Italy.,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,inventors,affirmative,train,1
+inventors,105,Robert Moog lived in Austria/the U.S.,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,inventors,affirmative,train,0
+inventors,405,Cai Lun lived in China.,entity_5af84507344c54756347766a5575d9c6f362f41b920ef3da3683237067d289e9,inventors,affirmative,train,1
+inventors,131,Kwolek lived in the U.S.,entity_a8c3b12a0b65406bf3b6ab33cbf21c386fe6a79acd6d89aede0221667c862a5c,inventors,affirmative,train,0
+inventors,140,Bette Nesmith Graham lived in the U.S.,entity_5e5c11a74bf355507521edf353e8d8064ab27f399dcaedbc24345f9a09aff777,inventors,affirmative,train,1
+inventors,283,Hippolyte Mège-Mouriès lived in France.,entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632,inventors,affirmative,train,1
+inventors,392,John Walker lived in the U.K.,entity_ed509071c1145375acc32adb69779c63056787175d3569540299db81bc677d80,inventors,affirmative,train,1
+inventors,377,Yvonne Brill lived in the U.S.,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,inventors,affirmative,train,0
+inventors,389,Ferdinand Carré lived in France.,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,inventors,affirmative,train,1
+inventors,342,Christopher Cockerell lived in France.,entity_1a2f2aa449e7c761fc5276e83390842585b202b75823fdf281c5c6b70478d851,inventors,affirmative,train,0
+inventors,323,Sergey Brin and Larry Page lived in the U.S.,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,inventors,affirmative,train,1
+inventors,31,Narinder Singh Kapany lived in India.,entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c,inventors,affirmative,train,1
+inventors,324,Hans Geiger lived in Germany.,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,inventors,affirmative,train,1
+inventors,6,George Pullman lived in the U.K.,entity_7e0ab0ff563776483cbc566dbbe21e92e12861a2f82ac15c3dc3168cd1aa1e6b,inventors,affirmative,train,0
+inventors,390,Richard Trevithick lived in the U.K.,entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366,inventors,affirmative,train,1
+inventors,298,Linus Torvalds lived in Finland.,entity_7f5fe6fb86bf747d53506321a81af7d51f9b13fe9a2c9b0f503315750cb1e75c,inventors,affirmative,train,1
+inventors,330,Charles Francis Jenkins lived in Germany.,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,inventors,affirmative,train,0
+inventors,224,Thomas Edison lived in the U.S.,entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4,inventors,affirmative,train,1
+inventors,149,Thomas Savery lived in the U.K.,entity_a774531c552cd2f20be901def0de3ef9e970a544a0087c0f45a6f78c4b0a3c03,inventors,affirmative,train,1
+inventors,58,Herbert Saffir lived in the U.S.,entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d,inventors,affirmative,train,1
+inventors,69,Shinya Yamanaka lived in Germany.,entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160,inventors,affirmative,train,0
+inventors,167,Alexander Fleming lived in the U.K.,entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74,inventors,affirmative,train,1
+inventors,4,Gustaf Dalén lived in Sweden.,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,inventors,affirmative,train,1
+inventors,29,Rudolf Kálmán lived in Hungary.,entity_ea4e11aa4084638dcd6fd6bed1b54e387d4f4ddd40af06cb4d6464bbddf4dccf,inventors,affirmative,train,1
+inventors,218,Igor Tamm lived in the U.S.,entity_24e9b16a61afee3daacd4ed55cc1655295d4ddf85e9c02dd6e7b5d83c75261bf,inventors,affirmative,train,0
+inventors,362,Henry Bessemer lived in the U.S.,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,inventors,affirmative,train,0
+inventors,260,Hedy Lamarr lived in the U.S.,entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d,inventors,affirmative,train,0
+inventors,32,Archimedes lived in Ancient Greece.,entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf,inventors,affirmative,train,1
+inventors,217,William Sturgeon lived in Germany.,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,inventors,affirmative,train,0
+inventors,28,Ferdinand Carré lived in the U.S.,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,inventors,affirmative,train,0
+inventors,246,Felix Hoffmann lived in the U.S.,entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e,inventors,affirmative,train,0
+inventors,361,Sir Charles Parsons lived in the U.S.,entity_193f4e1b01adb117c03ef2f4ca937cfac4b60ba1d3f21baa64e811cccb638d06,inventors,affirmative,train,0
+inventors,386,Henri Giffard lived in France.,entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454,inventors,affirmative,train,1
+inventors,236,Marie Curie lived in Poland/France.,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,inventors,affirmative,train,1
+inventors,124,Philo Farnsworth lived in the U.S.,entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625,inventors,affirmative,train,1
+inventors,65,Walter Hunt lived in the U.S.,entity_13d46f662918ef3345308e025bf5b93f2d9d0af70dbe06be668fd2d89bcd8e1c,inventors,affirmative,train,1
+inventors,241,James Starley lived in Sweden/the U.S.,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,inventors,affirmative,train,0
+inventors,281,Gustaf Dalén lived in Germany.,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,inventors,affirmative,train,0
+neg_inventors,134,Joseph Bramah did not live in the U.K.,entity_a2d9f017e0a0d61da45e06ba11ac94c7b18213d3f06f06442d83bd9d99f76cfa,inventors,negated,train,0
+neg_inventors,354,John Wesley Hyatt did not live in the U.K.,entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1,inventors,negated,train,1
+neg_inventors,295,Karl Landsteiner did not live in Austria.,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,inventors,negated,train,0
+neg_inventors,312,John Shepherd-Barron did not live in the U.S.,entity_5072e2006427b892d26836ed6763295a988a5730656386442ae299ddd741af05,inventors,negated,train,1
+neg_inventors,8,William Sturgeon did not live in the U.K.,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,inventors,negated,train,0
+neg_inventors,245,Nicolas Appert did not live in Russia.,entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229,inventors,negated,train,1
+neg_inventors,388,Zhores Alferov did not live in Russia.,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,inventors,negated,train,0
+neg_inventors,83,Carlos Glidden did not live in Scotland.,entity_b7e5f40dbeee41816987957715c25f05ec657b6579e9968d73e05ebb2fef08b6,inventors,negated,train,1
+neg_inventors,14,Chester Carlson did not live in the U.K.,entity_62464b85d554a9c03b3ee3a506a4c7d2d43f61695557f6c7e6e1313327f90ee5,inventors,negated,train,1
+neg_inventors,238,Valdemar Poulsen did not live in Scotland.,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,inventors,negated,train,1
+neg_inventors,170,Garrett Morgan did not live in the U.S.,entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb,inventors,negated,train,0
+neg_inventors,370,Bartolomeo Cristofori did not live in the U.S.,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,inventors,negated,train,1
+neg_inventors,305,Charles Townes did not live in the U.S.,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,inventors,negated,train,0
+neg_inventors,63,Candace Pert did not live in the U.S.,entity_43e3b285d0d18ae99b1d74d3e43e51d39fa5a97f1c46373a5d52aedb640ed5d6,inventors,negated,train,0
+neg_inventors,48,Robert Moog did not live in the U.S.,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,inventors,negated,train,0
+neg_inventors,289,Biruté Galdikas did not live in France.,entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d,inventors,negated,train,1
+neg_inventors,84,Maria Telkes did not live in Hungary/the U.S.,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,inventors,negated,train,0
+neg_inventors,73,Henry Bessemer did not live in the U.K.,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,inventors,negated,train,0
+neg_inventors,127,Marvin Camras did not live in the U.S.,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,inventors,negated,train,0
+neg_inventors,287,Emile Berliner did not live in Germany/the U.S.,entity_6c5d95e799d90a3d7db71d03712fb1d717c1a3a0ccd283472f029026ec4ea607,inventors,negated,train,0
+neg_inventors,189,Maria Telkes did not live in Hungary.,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,inventors,negated,train,1
+neg_inventors,317,Charles Francis Jenkins did not live in the U.S.,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,inventors,negated,train,0
+neg_inventors,226,Tim Berners-Lee did not live in Germany.,entity_02037e7a37cc7ff0c61436dc6d273f65ddee800a5e40dee7964578119c086b9a,inventors,negated,train,1
+neg_inventors,299,Ami Argand did not live in the U.S.,entity_7e1ac3ec55a6dd8156614391e664c58d64ef348f6824841ad3e8f5b7d14a23e9,inventors,negated,train,1
+neg_inventors,178,George de Mestral did not live in Switzerland.,entity_286d104c7c6961210bb320b1e924a0bd426bed45228d66ae0be58dee17a8cadd,inventors,negated,train,0
+neg_inventors,322,Philo Taylor Farnsworth did not live in the U.S.,entity_ce2d336e72d3c673fc2e5481f3f854fea1f26de9d65f998d4d94e207a2f8f516,inventors,negated,train,0
+neg_inventors,319,Wilhelm Conrad Röntgen did not live in Germany.,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,inventors,negated,train,0
+neg_inventors,110,Lloyd Groff Copeman did not live in Germany.,entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e,inventors,negated,train,1
+neg_inventors,187,Robert Chesebrough did not live in the U.S.,entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c,inventors,negated,train,0
+neg_inventors,94,Joseph Aspdin did not live in Switzerland.,entity_0edcb780d202bbbb53ad8f9a8824ee9dc5360ac6493105ee3ed61beb98780d4d,inventors,negated,train,1
+neg_inventors,35,Arthur Fry did not live in the U.S.,entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc,inventors,negated,train,0
+neg_inventors,7,Marvin Camras did not live in France.,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,inventors,negated,train,1
+neg_inventors,70,Carl Sontheimer did not live in Switzerland.,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,inventors,negated,train,1
+neg_inventors,259,Georges Claude did not live in France.,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,inventors,negated,train,0
+neg_inventors,212,Charles Townes did not live in Russia.,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,inventors,negated,train,1
+neg_inventors,195,Orville and Wilbur Wright did not live in France.,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,inventors,negated,train,1
+neg_inventors,67,Yvonne Brill did not live in Canada.,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,inventors,negated,train,0
+neg_inventors,142,Orville and Wilbur Wright did not live in the U.S.,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,inventors,negated,train,0
+neg_inventors,310,Karl Landsteiner did not live in the U.K.,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,inventors,negated,train,1
+neg_inventors,115,Zhores Alferov did not live in the U.K.,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,inventors,negated,train,1
+neg_inventors,53,Sir Sandford Fleming did not live in the U.S.,entity_3bd09da47a502837d3f4306d23e848f902c10d926e41c511c543001ff57ddc2c,inventors,negated,train,1
+neg_inventors,351,James Clerk Maxwell did not live in the U.K.,entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8,inventors,negated,train,0
+neg_inventors,285,Spencer Silver did not live in the U.S.,entity_162096dd276925d4e85761141810e74e189ffc69d29b292beddb349e673d35eb,inventors,negated,train,0
+neg_inventors,135,Hans Geiger did not live in Austria/the U.S.,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,inventors,negated,train,1
+neg_inventors,129,Charles Francis Richter did not live in France.,entity_1aba4271a8b0d7e7550f171355209a793bacce1ad71f0849f79a99b8eb169129,inventors,negated,train,1
+neg_inventors,156,Paul Gottlieb Nipkow did not live in Germany.,entity_d555076aae9c496b1c8fbf94ec9e5351c5204ca20cad98f9e8e4191dc14874e7,inventors,negated,train,0
+neg_inventors,93,Mary Walton did not live in France.,entity_9240a6a1cd754b779e934a1c8d1b230b9a491b0438f9c36687c95a2bdfe524b9,inventors,negated,train,1
+neg_inventors,71,Sergey Brin and Larry Page did not live in the U.K.,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,inventors,negated,train,1
+neg_inventors,120,Valdemar Poulsen did not live in Denmark.,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,inventors,negated,train,0
+neg_inventors,172,Georges Claude did not live in Italy.,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,inventors,negated,train,1
+neg_inventors,308,Antoine Lavoisier did not live in Austria.,entity_2893aa6253722d064f89b95bfdab30ec1a3b479197fef9e96abef5ae6a4fb1da,inventors,negated,train,1
+neg_inventors,347,Wallace Carothers did not live in Denmark.,entity_1b0f1f2bb5a919012ce64b1229b4eb31e552caa4f9f09251d317353ea8e55d2e,inventors,negated,train,1
+neg_inventors,279,Marie Curie did not live in Hungary.,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,inventors,negated,train,1
+neg_inventors,163,Samuel Fox did not live in the U.K.,entity_5e9a51e451360ddad4b64f7e0ee5aa612bf0999c4e510d6783ed9afe5ab944fa,inventors,negated,train,0
+neg_inventors,86,James Watt did not live in the U.S.,entity_9f6356c71983dc7f2df1a26508666518aa54985f0480a3fd3d36dcb5a1db5520,inventors,negated,train,1
+neg_inventors,293,Daisuke Inoue did not live in Japan.,entity_a194566f08ad5b17675d15fc2f7c357060a41e14fce3074cd8b7a12544ce2f39,inventors,negated,train,0
+neg_inventors,348,Carl Sontheimer did not live in the U.S.,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,inventors,negated,train,0
+neg_inventors,81,Godfrey Hounsfield did not live in Denmark.,entity_78f19d21d14dd9d6073f64b47abb97c98cba199e992f02388171b73ed96795eb,inventors,negated,train,1
+neg_inventors,205,Wilhelm Conrad Röntgen did not live in the U.S.,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,inventors,negated,train,1
+neg_inventors,148,Charles Cros did not live in France.,entity_f7bd87a154822f93994b302c9dc2a677c2fe16ee8d5815bf27f36f2050ea9043,inventors,negated,train,0
+neg_inventors,275,James Starley did not live in the U.K.,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,inventors,negated,train,0
+neg_inventors,219,Frank Julian Sprague did not live in the U.S.,entity_4d8d21dee789ab3055d0a461e8d745a132bde7d16666eacee6a4cb365eff29fb,inventors,negated,train,0
+neg_inventors,150,Bartolomeo Cristofori did not live in Italy.,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,inventors,negated,train,0
+neg_inventors,105,Robert Moog did not live in Austria/the U.S.,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,inventors,negated,train,1
+neg_inventors,405,Cai Lun did not live in China.,entity_5af84507344c54756347766a5575d9c6f362f41b920ef3da3683237067d289e9,inventors,negated,train,0
+neg_inventors,131,Kwolek did not live in the U.S.,entity_a8c3b12a0b65406bf3b6ab33cbf21c386fe6a79acd6d89aede0221667c862a5c,inventors,negated,train,1
+neg_inventors,140,Bette Nesmith Graham did not live in the U.S.,entity_5e5c11a74bf355507521edf353e8d8064ab27f399dcaedbc24345f9a09aff777,inventors,negated,train,0
+neg_inventors,283,Hippolyte Mège-Mouriès did not live in France.,entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632,inventors,negated,train,0
+neg_inventors,392,John Walker did not live in the U.K.,entity_ed509071c1145375acc32adb69779c63056787175d3569540299db81bc677d80,inventors,negated,train,0
+neg_inventors,377,Yvonne Brill did not live in the U.S.,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,inventors,negated,train,1
+neg_inventors,389,Ferdinand Carré did not live in France.,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,inventors,negated,train,0
+neg_inventors,342,Christopher Cockerell did not live in France.,entity_1a2f2aa449e7c761fc5276e83390842585b202b75823fdf281c5c6b70478d851,inventors,negated,train,1
+neg_inventors,323,Sergey Brin and Larry Page did not live in the U.S.,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,inventors,negated,train,0
+neg_inventors,31,Narinder Singh Kapany did not live in India.,entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c,inventors,negated,train,0
+neg_inventors,324,Hans Geiger did not live in Germany.,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,inventors,negated,train,0
+neg_inventors,6,George Pullman did not live in the U.K.,entity_7e0ab0ff563776483cbc566dbbe21e92e12861a2f82ac15c3dc3168cd1aa1e6b,inventors,negated,train,1
+neg_inventors,390,Richard Trevithick did not live in the U.K.,entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366,inventors,negated,train,0
+neg_inventors,298,Linus Torvalds did not live in Finland.,entity_7f5fe6fb86bf747d53506321a81af7d51f9b13fe9a2c9b0f503315750cb1e75c,inventors,negated,train,0
+neg_inventors,330,Charles Francis Jenkins did not live in Germany.,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,inventors,negated,train,1
+neg_inventors,224,Thomas Edison did not live in the U.S.,entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4,inventors,negated,train,0
+neg_inventors,149,Thomas Savery did not live in the U.K.,entity_a774531c552cd2f20be901def0de3ef9e970a544a0087c0f45a6f78c4b0a3c03,inventors,negated,train,0
+neg_inventors,58,Herbert Saffir did not live in the U.S.,entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d,inventors,negated,train,0
+neg_inventors,69,Shinya Yamanaka did not live in Germany.,entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160,inventors,negated,train,1
+neg_inventors,167,Alexander Fleming did not live in the U.K.,entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74,inventors,negated,train,0
+neg_inventors,4,Gustaf Dalén did not live in Sweden.,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,inventors,negated,train,0
+neg_inventors,29,Rudolf Kálmán did not live in Hungary.,entity_ea4e11aa4084638dcd6fd6bed1b54e387d4f4ddd40af06cb4d6464bbddf4dccf,inventors,negated,train,0
+neg_inventors,218,Igor Tamm did not live in the U.S.,entity_24e9b16a61afee3daacd4ed55cc1655295d4ddf85e9c02dd6e7b5d83c75261bf,inventors,negated,train,1
+neg_inventors,362,Henry Bessemer did not live in the U.S.,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,inventors,negated,train,1
+neg_inventors,260,Hedy Lamarr did not live in the U.S.,entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d,inventors,negated,train,1
+neg_inventors,32,Archimedes did not live in Ancient Greece.,entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf,inventors,negated,train,0
+neg_inventors,217,William Sturgeon did not live in Germany.,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,inventors,negated,train,1
+neg_inventors,28,Ferdinand Carré did not live in the U.S.,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,inventors,negated,train,1
+neg_inventors,246,Felix Hoffmann did not live in the U.S.,entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e,inventors,negated,train,1
+neg_inventors,361,Sir Charles Parsons did not live in the U.S.,entity_193f4e1b01adb117c03ef2f4ca937cfac4b60ba1d3f21baa64e811cccb638d06,inventors,negated,train,1
+neg_inventors,386,Henri Giffard did not live in France.,entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454,inventors,negated,train,0
+neg_inventors,236,Marie Curie did not live in Poland/France.,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,inventors,negated,train,0
+neg_inventors,124,Philo Farnsworth did not live in the U.S.,entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625,inventors,negated,train,0
+neg_inventors,65,Walter Hunt did not live in the U.S.,entity_13d46f662918ef3345308e025bf5b93f2d9d0af70dbe06be668fd2d89bcd8e1c,inventors,negated,train,0
+neg_inventors,241,James Starley did not live in Sweden/the U.S.,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,inventors,negated,train,1
+neg_inventors,281,Gustaf Dalén did not live in Germany.,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,inventors,negated,train,1
+animal_class,151,The seahorse is a mammal.,entity_49dda36b98cc615b18db1ef94a017f28112da18935d561e2d18c91e3385e0428,animal_class,affirmative,train,0
+animal_class,5,The giant anteater is a fish.,entity_18c63950c36aa062bd59476907617a30b36a523de6b0c056386b03d24640632b,animal_class,affirmative,train,0
+animal_class,29,The peacock is a bird.,entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c,animal_class,affirmative,train,1
+animal_class,36,The aardvark is a mammal.,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,animal_class,affirmative,train,1
+animal_class,117,The bison is a amphibian.,entity_dd5ebd3b3a3bd0f8632af49031cac6018efd3619d8419f5d2d4ab990e5399c3f,animal_class,affirmative,train,0
+animal_class,66,The dolphin is a crustacean.,entity_64bc24902edb91380136ba50ddcf621045a1026f217c5b7c645d6a6863306dd5,animal_class,affirmative,train,0
+animal_class,118,The dog is a bird.,entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867,animal_class,affirmative,train,0
+animal_class,78,The cat is a mammal.,entity_169599af0fea9fc83c9921b74f8782f4569d018434db713fa1cc0b27be3b4d5c,animal_class,affirmative,train,1
+animal_class,87,The panda is a mammal.,entity_d7a915f719056cc918bcbd148a8de304a8b4de1a3bc6d5e7dc9bd3e326629dea,animal_class,affirmative,train,1
+animal_class,40,The tarantula is a arachnid.,entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f,animal_class,affirmative,train,1
+animal_class,18,The camel is a amphibian.,entity_7cd0d33345f562b597444cee3c8335226548f6c172dd13e6675648ac645035ea,animal_class,affirmative,train,0
+animal_class,54,The axolotl is a reptile.,entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1,animal_class,affirmative,train,0
+animal_class,64,The beaver is a mammal.,entity_6abb4bbfff22377d140a38df9eec4c659587438e25eac9e18a6da6d98e600684,animal_class,affirmative,train,1
+animal_class,83,The shark is a mammal.,entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a,animal_class,affirmative,train,0
+animal_class,16,The moose is a bird.,entity_4ad5850fa3ea2da1ee20f1c2f056d7c933a74174ced044ee46bb3514951951d6,animal_class,affirmative,train,0
+animal_class,147,The gazelle is a mollusk.,entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140,animal_class,affirmative,train,0
+animal_class,140,The moose is a mammal.,entity_4ad5850fa3ea2da1ee20f1c2f056d7c933a74174ced044ee46bb3514951951d6,animal_class,affirmative,train,1
+animal_class,142,The ostrich is a fish.,entity_03398019a378d4d2c73ee86bbb1d2f5bb2922f06c3e1a028b3bbbea93eef0785,animal_class,affirmative,train,0
+animal_class,103,The squirrel is a bird.,entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9,animal_class,affirmative,train,0
+animal_class,1,The frog is a bird.,entity_eced699350172fc8081149a15aca48234a84c4eddb36dfb469c89fda51058f7f,animal_class,affirmative,train,0
+animal_class,81,The ostrich is a bird.,entity_03398019a378d4d2c73ee86bbb1d2f5bb2922f06c3e1a028b3bbbea93eef0785,animal_class,affirmative,train,1
+animal_class,110,The jellyfish is a cnidarian.,entity_2675b18d22ab41fd83a19957ee0ddd0980d15500682ca9da1430e707e249ee1a,animal_class,affirmative,train,1
+animal_class,82,The snake is a reptile.,entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723,animal_class,affirmative,train,1
+animal_class,10,The gorilla is a mammal.,entity_4d8dcd8163b6efdb6c45dfa5238d9b80b7150256bd63b15fe99b9c6a521bae21,animal_class,affirmative,train,1
+animal_class,145,The gorilla is a amphibian.,entity_4d8dcd8163b6efdb6c45dfa5238d9b80b7150256bd63b15fe99b9c6a521bae21,animal_class,affirmative,train,0
+animal_class,2,The lobster is a crustacean.,entity_f437f7ff80f2a27dcb587f0fe58c6b819240955884f9409f228b98ab9b9e4706,animal_class,affirmative,train,1
+animal_class,47,The parrot is a bird.,entity_b4cb07ac5ad2aacbb9a15615c7c6e07b42d8d6a2c441a42cedee471f921245f5,animal_class,affirmative,train,1
+animal_class,130,The walrus is a mammal.,entity_36b697392bc276973d8a123d9c188a8291ee4ef1f45ed4dbc1a98216d0329932,animal_class,affirmative,train,1
+animal_class,105,The cassowary is a mammal.,entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49,animal_class,affirmative,train,0
+animal_class,91,The tuna is a fish.,entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7,animal_class,affirmative,train,1
+animal_class,71,The cheetah is a insect.,entity_99fada9747fb0a6b100222960ebd7ddef0adfe9a4e1b391867edf9d5b25bf8e1,animal_class,affirmative,train,0
+animal_class,112,The gazelle is a mammal.,entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140,animal_class,affirmative,train,1
+animal_class,46,The manta ray is a mammal.,entity_a4c8ca21cf6882b512aa09774bb371231995797bcf3a07a27d5a904e51b55956,animal_class,affirmative,train,0
+animal_class,63,The eagle is a mammal.,entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c,animal_class,affirmative,train,0
+animal_class,84,The iguana is a reptile.,entity_f0d378d1a9ca138e6d23459ce61f6a59c0ea4c1ed3699b01c79511c03632c969,animal_class,affirmative,train,1
+animal_class,137,The hedgehog is a bird.,entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a,animal_class,affirmative,train,0
+animal_class,59,The armadillo is a reptile.,entity_0dd5a5e34dd0285a866f19c7587022a99a72aca52ec3a6dca06f874e68667d73,animal_class,affirmative,train,0
+animal_class,56,The camel is a mammal.,entity_7cd0d33345f562b597444cee3c8335226548f6c172dd13e6675648ac645035ea,animal_class,affirmative,train,1
+animal_class,98,The bison is a mammal.,entity_dd5ebd3b3a3bd0f8632af49031cac6018efd3619d8419f5d2d4ab990e5399c3f,animal_class,affirmative,train,1
+animal_class,15,The platypus is a bird.,entity_9772371c01bbaf94b8c941a49b8e2561c950baa58549e2c0245e2f03ba000aac,animal_class,affirmative,train,0
+animal_class,123,The eagle is a bird.,entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c,animal_class,affirmative,train,1
+animal_class,8,The armadillo is a mammal.,entity_0dd5a5e34dd0285a866f19c7587022a99a72aca52ec3a6dca06f874e68667d73,animal_class,affirmative,train,1
+animal_class,108,The alpaca is a bird.,entity_94086439f6f5213caf5eb4ec1a721f49ce9adff94dc6a4efab321fb15a3731fa,animal_class,affirmative,train,0
+animal_class,74,The squirrel is a mammal.,entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9,animal_class,affirmative,train,1
+animal_class,119,The axolotl is a amphibian.,entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1,animal_class,affirmative,train,1
+animal_class,38,The horse is a mollusk.,entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e,animal_class,affirmative,train,0
+animal_class,6,The aardvark is a fish.,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,animal_class,affirmative,train,0
+animal_class,97,The seagull is a mammal.,entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1,animal_class,affirmative,train,0
+animal_class,25,The cassowary is a bird.,entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49,animal_class,affirmative,train,1
+animal_class,95,The polar bear is a fish.,entity_cba3593e3c4b9c766e8525eb0f18f4b61209596cf784c7066bb1396b13b12bfb,animal_class,affirmative,train,0
+animal_class,17,The kangaroo is a crustacean.,entity_99d437eb4622d2de9b48c3653c0b8adbed6ccfaed612a6497b589dd9b0cca421,animal_class,affirmative,train,0
+animal_class,122,The iguana is a bird.,entity_f0d378d1a9ca138e6d23459ce61f6a59c0ea4c1ed3699b01c79511c03632c969,animal_class,affirmative,train,0
+animal_class,13,The tapir is a mammal.,entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2,animal_class,affirmative,train,1
+animal_class,60,The koala is a mammal.,entity_694b218264497897f3fd4fbe2e6be835c1cc925ac08ecf6626f5a0d3e9289f22,animal_class,affirmative,train,1
+animal_class,114,The dolphin is a mammal.,entity_64bc24902edb91380136ba50ddcf621045a1026f217c5b7c645d6a6863306dd5,animal_class,affirmative,train,1
+animal_class,35,The panda is a bird.,entity_d7a915f719056cc918bcbd148a8de304a8b4de1a3bc6d5e7dc9bd3e326629dea,animal_class,affirmative,train,0
+animal_class,48,The parrot is a mammal.,entity_b4cb07ac5ad2aacbb9a15615c7c6e07b42d8d6a2c441a42cedee471f921245f5,animal_class,affirmative,train,0
+animal_class,160,The tapir is a bird.,entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2,animal_class,affirmative,train,0
+animal_class,27,The tuna is a mammal.,entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7,animal_class,affirmative,train,0
+animal_class,111,The shark is a fish.,entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a,animal_class,affirmative,train,1
+animal_class,68,The crocodile is a mammal.,entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d,animal_class,affirmative,train,0
+animal_class,138,The snake is a fish.,entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723,animal_class,affirmative,train,0
+animal_class,79,The hyena is a mammal.,entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e,animal_class,affirmative,train,1
+animal_class,136,The dog is a mammal.,entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867,animal_class,affirmative,train,1
+animal_class,90,The flamingo is a mammal.,entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe,animal_class,affirmative,train,0
+animal_class,99,The platypus is a mammal.,entity_9772371c01bbaf94b8c941a49b8e2561c950baa58549e2c0245e2f03ba000aac,animal_class,affirmative,train,1
+animal_class,85,The beaver is a bird.,entity_6abb4bbfff22377d140a38df9eec4c659587438e25eac9e18a6da6d98e600684,animal_class,affirmative,train,0
+animal_class,77,The hedgehog is a mammal.,entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a,animal_class,affirmative,train,1
+animal_class,75,The chimpanzee is a mammal.,entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f,animal_class,affirmative,train,1
+animal_class,55,The frog is a amphibian.,entity_eced699350172fc8081149a15aca48234a84c4eddb36dfb469c89fda51058f7f,animal_class,affirmative,train,1
+animal_class,45,The sea turtle is a fish.,entity_f670d7ef239996490aead5d2cb06a53083463deaad6bf381c6c6afaa8e99133e,animal_class,affirmative,train,0
+animal_class,125,The jellyfish is a mammal.,entity_2675b18d22ab41fd83a19957ee0ddd0980d15500682ca9da1430e707e249ee1a,animal_class,affirmative,train,0
+animal_class,24,The mongoose is a bird.,entity_897679fa829944c5683fba4dde56773a703ff1b11cd768b003bbf2554e0ece58,animal_class,affirmative,train,0
+animal_class,163,The alpaca is a mammal.,entity_94086439f6f5213caf5eb4ec1a721f49ce9adff94dc6a4efab321fb15a3731fa,animal_class,affirmative,train,1
+animal_class,42,The slug is a mollusk.,entity_33cb025ed42cb1797a8a25566f41cb7e75851c889b4b03c454a138ecfd319bd3,animal_class,affirmative,train,1
+animal_class,131,The hummingbird is a mammal.,entity_797598c9fa00f88bdc9c42cfcebb86b87a6747d50899b03bbd1b4730bfb09c47,animal_class,affirmative,train,0
+animal_class,52,The chimpanzee is a fish.,entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f,animal_class,affirmative,train,0
+animal_class,106,The hamster is a mammal.,entity_9e1a6cabed1ee178cfba6190c44b1fa2794fff6e447cc15b729422ba2e4d6cc4,animal_class,affirmative,train,1
+animal_class,33,The flamingo is a bird.,entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe,animal_class,affirmative,train,1
+animal_class,22,The seahorse is a fish.,entity_49dda36b98cc615b18db1ef94a017f28112da18935d561e2d18c91e3385e0428,animal_class,affirmative,train,1
+animal_class,152,The crocodile is a reptile.,entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d,animal_class,affirmative,train,1
+animal_class,101,The mongoose is a mammal.,entity_897679fa829944c5683fba4dde56773a703ff1b11cd768b003bbf2554e0ece58,animal_class,affirmative,train,1
+animal_class,43,The hippopotamus is a reptile.,entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0,animal_class,affirmative,train,0
+animal_class,113,The octopus is a fish.,entity_68fe80c9dc31be51d7b4b4dc39db6f2273a307764773be0829a1ed0fbc9a435e,animal_class,affirmative,train,0
+animal_class,109,The koala is a fish.,entity_694b218264497897f3fd4fbe2e6be835c1cc925ac08ecf6626f5a0d3e9289f22,animal_class,affirmative,train,0
+animal_class,4,The horse is a mammal.,entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e,animal_class,affirmative,train,1
+animal_class,37,The slug is a mammal.,entity_33cb025ed42cb1797a8a25566f41cb7e75851c889b4b03c454a138ecfd319bd3,animal_class,affirmative,train,0
+animal_class,128,The octopus is a mollusk.,entity_68fe80c9dc31be51d7b4b4dc39db6f2273a307764773be0829a1ed0fbc9a435e,animal_class,affirmative,train,1
+animal_class,7,The hummingbird is a bird.,entity_797598c9fa00f88bdc9c42cfcebb86b87a6747d50899b03bbd1b4730bfb09c47,animal_class,affirmative,train,1
+animal_class,31,The seagull is a bird.,entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1,animal_class,affirmative,train,1
+animal_class,100,The cat is a bird.,entity_169599af0fea9fc83c9921b74f8782f4569d018434db713fa1cc0b27be3b4d5c,animal_class,affirmative,train,0
+animal_class,73,The tarantula is a insect.,entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f,animal_class,affirmative,train,0
+animal_class,124,The hippopotamus is a mammal.,entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0,animal_class,affirmative,train,1
+animal_class,11,The cheetah is a mammal.,entity_99fada9747fb0a6b100222960ebd7ddef0adfe9a4e1b391867edf9d5b25bf8e1,animal_class,affirmative,train,1
+animal_class,104,The lobster is a mammal.,entity_f437f7ff80f2a27dcb587f0fe58c6b819240955884f9409f228b98ab9b9e4706,animal_class,affirmative,train,0
+animal_class,69,The peacock is a mammal.,entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c,animal_class,affirmative,train,0
+animal_class,120,The hamster is a fish.,entity_9e1a6cabed1ee178cfba6190c44b1fa2794fff6e447cc15b729422ba2e4d6cc4,animal_class,affirmative,train,0
+animal_class,72,The hyena is a bird.,entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e,animal_class,affirmative,train,0
+animal_class,162,The kangaroo is a mammal.,entity_99d437eb4622d2de9b48c3653c0b8adbed6ccfaed612a6497b589dd9b0cca421,animal_class,affirmative,train,1
+animal_class,30,The walrus is a mollusk.,entity_36b697392bc276973d8a123d9c188a8291ee4ef1f45ed4dbc1a98216d0329932,animal_class,affirmative,train,0
+neg_animal_class,151,The seahorse is not a mammal.,entity_49dda36b98cc615b18db1ef94a017f28112da18935d561e2d18c91e3385e0428,animal_class,negated,train,1
+neg_animal_class,5,The giant anteater is not a fish.,entity_18c63950c36aa062bd59476907617a30b36a523de6b0c056386b03d24640632b,animal_class,negated,train,1
+neg_animal_class,29,The peacock is not a bird.,entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c,animal_class,negated,train,0
+neg_animal_class,36,The aardvark is not a mammal.,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,animal_class,negated,train,0
+neg_animal_class,117,The bison is not a amphibian.,entity_dd5ebd3b3a3bd0f8632af49031cac6018efd3619d8419f5d2d4ab990e5399c3f,animal_class,negated,train,1
+neg_animal_class,66,The dolphin is not a crustacean.,entity_64bc24902edb91380136ba50ddcf621045a1026f217c5b7c645d6a6863306dd5,animal_class,negated,train,1
+neg_animal_class,118,The dog is not a bird.,entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867,animal_class,negated,train,1
+neg_animal_class,78,The cat is not a mammal.,entity_169599af0fea9fc83c9921b74f8782f4569d018434db713fa1cc0b27be3b4d5c,animal_class,negated,train,0
+neg_animal_class,87,The panda is not a mammal.,entity_d7a915f719056cc918bcbd148a8de304a8b4de1a3bc6d5e7dc9bd3e326629dea,animal_class,negated,train,0
+neg_animal_class,40,The tarantula is not a arachnid.,entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f,animal_class,negated,train,0
+neg_animal_class,18,The camel is not a amphibian.,entity_7cd0d33345f562b597444cee3c8335226548f6c172dd13e6675648ac645035ea,animal_class,negated,train,1
+neg_animal_class,54,The axolotl is not a reptile.,entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1,animal_class,negated,train,1
+neg_animal_class,64,The beaver is not a mammal.,entity_6abb4bbfff22377d140a38df9eec4c659587438e25eac9e18a6da6d98e600684,animal_class,negated,train,0
+neg_animal_class,83,The shark is not a mammal.,entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a,animal_class,negated,train,1
+neg_animal_class,16,The moose is not a bird.,entity_4ad5850fa3ea2da1ee20f1c2f056d7c933a74174ced044ee46bb3514951951d6,animal_class,negated,train,1
+neg_animal_class,147,The gazelle is not a mollusk.,entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140,animal_class,negated,train,1
+neg_animal_class,140,The moose is not a mammal.,entity_4ad5850fa3ea2da1ee20f1c2f056d7c933a74174ced044ee46bb3514951951d6,animal_class,negated,train,0
+neg_animal_class,142,The ostrich is not a fish.,entity_03398019a378d4d2c73ee86bbb1d2f5bb2922f06c3e1a028b3bbbea93eef0785,animal_class,negated,train,1
+neg_animal_class,103,The squirrel is not a bird.,entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9,animal_class,negated,train,1
+neg_animal_class,1,The frog is not a bird.,entity_eced699350172fc8081149a15aca48234a84c4eddb36dfb469c89fda51058f7f,animal_class,negated,train,1
+neg_animal_class,81,The ostrich is not a bird.,entity_03398019a378d4d2c73ee86bbb1d2f5bb2922f06c3e1a028b3bbbea93eef0785,animal_class,negated,train,0
+neg_animal_class,110,The jellyfish is not a cnidarian.,entity_2675b18d22ab41fd83a19957ee0ddd0980d15500682ca9da1430e707e249ee1a,animal_class,negated,train,0
+neg_animal_class,82,The snake is not a reptile.,entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723,animal_class,negated,train,0
+neg_animal_class,10,The gorilla is not a mammal.,entity_4d8dcd8163b6efdb6c45dfa5238d9b80b7150256bd63b15fe99b9c6a521bae21,animal_class,negated,train,0
+neg_animal_class,145,The gorilla is not a amphibian.,entity_4d8dcd8163b6efdb6c45dfa5238d9b80b7150256bd63b15fe99b9c6a521bae21,animal_class,negated,train,1
+neg_animal_class,2,The lobster is not a crustacean.,entity_f437f7ff80f2a27dcb587f0fe58c6b819240955884f9409f228b98ab9b9e4706,animal_class,negated,train,0
+neg_animal_class,47,The parrot is not a bird.,entity_b4cb07ac5ad2aacbb9a15615c7c6e07b42d8d6a2c441a42cedee471f921245f5,animal_class,negated,train,0
+neg_animal_class,130,The walrus is not a mammal.,entity_36b697392bc276973d8a123d9c188a8291ee4ef1f45ed4dbc1a98216d0329932,animal_class,negated,train,0
+neg_animal_class,105,The cassowary is not a mammal.,entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49,animal_class,negated,train,1
+neg_animal_class,91,The tuna is not a fish.,entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7,animal_class,negated,train,0
+neg_animal_class,71,The cheetah is not a insect.,entity_99fada9747fb0a6b100222960ebd7ddef0adfe9a4e1b391867edf9d5b25bf8e1,animal_class,negated,train,1
+neg_animal_class,112,The gazelle is not a mammal.,entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140,animal_class,negated,train,0
+neg_animal_class,46,The manta ray is not a mammal.,entity_a4c8ca21cf6882b512aa09774bb371231995797bcf3a07a27d5a904e51b55956,animal_class,negated,train,1
+neg_animal_class,63,The eagle is not a mammal.,entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c,animal_class,negated,train,1
+neg_animal_class,84,The iguana is not a reptile.,entity_f0d378d1a9ca138e6d23459ce61f6a59c0ea4c1ed3699b01c79511c03632c969,animal_class,negated,train,0
+neg_animal_class,137,The hedgehog is not a bird.,entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a,animal_class,negated,train,1
+neg_animal_class,59,The armadillo is not a reptile.,entity_0dd5a5e34dd0285a866f19c7587022a99a72aca52ec3a6dca06f874e68667d73,animal_class,negated,train,1
+neg_animal_class,56,The camel is not a mammal.,entity_7cd0d33345f562b597444cee3c8335226548f6c172dd13e6675648ac645035ea,animal_class,negated,train,0
+neg_animal_class,98,The bison is not a mammal.,entity_dd5ebd3b3a3bd0f8632af49031cac6018efd3619d8419f5d2d4ab990e5399c3f,animal_class,negated,train,0
+neg_animal_class,15,The platypus is not a bird.,entity_9772371c01bbaf94b8c941a49b8e2561c950baa58549e2c0245e2f03ba000aac,animal_class,negated,train,1
+neg_animal_class,123,The eagle is not a bird.,entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c,animal_class,negated,train,0
+neg_animal_class,8,The armadillo is not a mammal.,entity_0dd5a5e34dd0285a866f19c7587022a99a72aca52ec3a6dca06f874e68667d73,animal_class,negated,train,0
+neg_animal_class,108,The alpaca is not a bird.,entity_94086439f6f5213caf5eb4ec1a721f49ce9adff94dc6a4efab321fb15a3731fa,animal_class,negated,train,1
+neg_animal_class,74,The squirrel is not a mammal.,entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9,animal_class,negated,train,0
+neg_animal_class,119,The axolotl is not a amphibian.,entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1,animal_class,negated,train,0
+neg_animal_class,38,The horse is not a mollusk.,entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e,animal_class,negated,train,1
+neg_animal_class,6,The aardvark is not a fish.,entity_51710b7b05862dc20152fa8eec71436ca7cac0e6fd27fddc92934cbd9e2b3cc4,animal_class,negated,train,1
+neg_animal_class,97,The seagull is not a mammal.,entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1,animal_class,negated,train,1
+neg_animal_class,25,The cassowary is not a bird.,entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49,animal_class,negated,train,0
+neg_animal_class,95,The polar bear is not a fish.,entity_cba3593e3c4b9c766e8525eb0f18f4b61209596cf784c7066bb1396b13b12bfb,animal_class,negated,train,1
+neg_animal_class,17,The kangaroo is not a crustacean.,entity_99d437eb4622d2de9b48c3653c0b8adbed6ccfaed612a6497b589dd9b0cca421,animal_class,negated,train,1
+neg_animal_class,122,The iguana is not a bird.,entity_f0d378d1a9ca138e6d23459ce61f6a59c0ea4c1ed3699b01c79511c03632c969,animal_class,negated,train,1
+neg_animal_class,13,The tapir is not a mammal.,entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2,animal_class,negated,train,0
+neg_animal_class,60,The koala is not a mammal.,entity_694b218264497897f3fd4fbe2e6be835c1cc925ac08ecf6626f5a0d3e9289f22,animal_class,negated,train,0
+neg_animal_class,114,The dolphin is not a mammal.,entity_64bc24902edb91380136ba50ddcf621045a1026f217c5b7c645d6a6863306dd5,animal_class,negated,train,0
+neg_animal_class,35,The panda is not a bird.,entity_d7a915f719056cc918bcbd148a8de304a8b4de1a3bc6d5e7dc9bd3e326629dea,animal_class,negated,train,1
+neg_animal_class,48,The parrot is not a mammal.,entity_b4cb07ac5ad2aacbb9a15615c7c6e07b42d8d6a2c441a42cedee471f921245f5,animal_class,negated,train,1
+neg_animal_class,160,The tapir is not a bird.,entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2,animal_class,negated,train,1
+neg_animal_class,27,The tuna is not a mammal.,entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7,animal_class,negated,train,1
+neg_animal_class,111,The shark is not a fish.,entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a,animal_class,negated,train,0
+neg_animal_class,68,The crocodile is not a mammal.,entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d,animal_class,negated,train,1
+neg_animal_class,138,The snake is not a fish.,entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723,animal_class,negated,train,1
+neg_animal_class,79,The hyena is not a mammal.,entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e,animal_class,negated,train,0
+neg_animal_class,136,The dog is not a mammal.,entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867,animal_class,negated,train,0
+neg_animal_class,90,The flamingo is not a mammal.,entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe,animal_class,negated,train,1
+neg_animal_class,99,The platypus is not a mammal.,entity_9772371c01bbaf94b8c941a49b8e2561c950baa58549e2c0245e2f03ba000aac,animal_class,negated,train,0
+neg_animal_class,85,The beaver is not a bird.,entity_6abb4bbfff22377d140a38df9eec4c659587438e25eac9e18a6da6d98e600684,animal_class,negated,train,1
+neg_animal_class,77,The hedgehog is not a mammal.,entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a,animal_class,negated,train,0
+neg_animal_class,75,The chimpanzee is not a mammal.,entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f,animal_class,negated,train,0
+neg_animal_class,55,The frog is not a amphibian.,entity_eced699350172fc8081149a15aca48234a84c4eddb36dfb469c89fda51058f7f,animal_class,negated,train,0
+neg_animal_class,45,The sea turtle is not a fish.,entity_f670d7ef239996490aead5d2cb06a53083463deaad6bf381c6c6afaa8e99133e,animal_class,negated,train,1
+neg_animal_class,125,The jellyfish is not a mammal.,entity_2675b18d22ab41fd83a19957ee0ddd0980d15500682ca9da1430e707e249ee1a,animal_class,negated,train,1
+neg_animal_class,24,The mongoose is not a bird.,entity_897679fa829944c5683fba4dde56773a703ff1b11cd768b003bbf2554e0ece58,animal_class,negated,train,1
+neg_animal_class,163,The alpaca is not a mammal.,entity_94086439f6f5213caf5eb4ec1a721f49ce9adff94dc6a4efab321fb15a3731fa,animal_class,negated,train,0
+neg_animal_class,42,The slug is not a mollusk.,entity_33cb025ed42cb1797a8a25566f41cb7e75851c889b4b03c454a138ecfd319bd3,animal_class,negated,train,0
+neg_animal_class,131,The hummingbird is not a mammal.,entity_797598c9fa00f88bdc9c42cfcebb86b87a6747d50899b03bbd1b4730bfb09c47,animal_class,negated,train,1
+neg_animal_class,52,The chimpanzee is not a fish.,entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f,animal_class,negated,train,1
+neg_animal_class,106,The hamster is not a mammal.,entity_9e1a6cabed1ee178cfba6190c44b1fa2794fff6e447cc15b729422ba2e4d6cc4,animal_class,negated,train,0
+neg_animal_class,33,The flamingo is not a bird.,entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe,animal_class,negated,train,0
+neg_animal_class,22,The seahorse is not a fish.,entity_49dda36b98cc615b18db1ef94a017f28112da18935d561e2d18c91e3385e0428,animal_class,negated,train,0
+neg_animal_class,152,The crocodile is not a reptile.,entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d,animal_class,negated,train,0
+neg_animal_class,101,The mongoose is not a mammal.,entity_897679fa829944c5683fba4dde56773a703ff1b11cd768b003bbf2554e0ece58,animal_class,negated,train,0
+neg_animal_class,43,The hippopotamus is not a reptile.,entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0,animal_class,negated,train,1
+neg_animal_class,113,The octopus is not a fish.,entity_68fe80c9dc31be51d7b4b4dc39db6f2273a307764773be0829a1ed0fbc9a435e,animal_class,negated,train,1
+neg_animal_class,109,The koala is not a fish.,entity_694b218264497897f3fd4fbe2e6be835c1cc925ac08ecf6626f5a0d3e9289f22,animal_class,negated,train,1
+neg_animal_class,4,The horse is not a mammal.,entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e,animal_class,negated,train,0
+neg_animal_class,37,The slug is not a mammal.,entity_33cb025ed42cb1797a8a25566f41cb7e75851c889b4b03c454a138ecfd319bd3,animal_class,negated,train,1
+neg_animal_class,128,The octopus is not a mollusk.,entity_68fe80c9dc31be51d7b4b4dc39db6f2273a307764773be0829a1ed0fbc9a435e,animal_class,negated,train,0
+neg_animal_class,7,The hummingbird is not a bird.,entity_797598c9fa00f88bdc9c42cfcebb86b87a6747d50899b03bbd1b4730bfb09c47,animal_class,negated,train,0
+neg_animal_class,31,The seagull is not a bird.,entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1,animal_class,negated,train,0
+neg_animal_class,100,The cat is not a bird.,entity_169599af0fea9fc83c9921b74f8782f4569d018434db713fa1cc0b27be3b4d5c,animal_class,negated,train,1
+neg_animal_class,73,The tarantula is not a insect.,entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f,animal_class,negated,train,1
+neg_animal_class,124,The hippopotamus is not a mammal.,entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0,animal_class,negated,train,0
+neg_animal_class,11,The cheetah is not a mammal.,entity_99fada9747fb0a6b100222960ebd7ddef0adfe9a4e1b391867edf9d5b25bf8e1,animal_class,negated,train,0
+neg_animal_class,104,The lobster is not a mammal.,entity_f437f7ff80f2a27dcb587f0fe58c6b819240955884f9409f228b98ab9b9e4706,animal_class,negated,train,1
+neg_animal_class,69,The peacock is not a mammal.,entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c,animal_class,negated,train,1
+neg_animal_class,120,The hamster is not a fish.,entity_9e1a6cabed1ee178cfba6190c44b1fa2794fff6e447cc15b729422ba2e4d6cc4,animal_class,negated,train,1
+neg_animal_class,72,The hyena is not a bird.,entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e,animal_class,negated,train,1
+neg_animal_class,162,The kangaroo is not a mammal.,entity_99d437eb4622d2de9b48c3653c0b8adbed6ccfaed612a6497b589dd9b0cca421,animal_class,negated,train,0
+neg_animal_class,30,The walrus is not a mollusk.,entity_36b697392bc276973d8a123d9c188a8291ee4ef1f45ed4dbc1a98216d0329932,animal_class,negated,train,1
+element_symb,150,Krypton has the symbol Nb.,entity_8f6d1133c48e69d2e7004493a604a5e44bf45f11ed9916f8e90e9ba9ce5250f4,element_symb,affirmative,train,0
+element_symb,122,Samarium has the symbol Pr.,entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004,element_symb,affirmative,train,0
+element_symb,136,Molybdenum has the symbol Mo.,entity_952e801b0fa09dd4b0d5fe40f7d962d09cab9e3ea6ca76fdcc44e39f7e3d6754,element_symb,affirmative,train,1
+element_symb,184,Nitrogen has the symbol N.,entity_acd59f0b22c9f431aeff8b185bd234229d35dc8a725e0e4981b003a40311cf45,element_symb,affirmative,train,1
+element_symb,12,Xenon has the symbol Xe.,entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c,element_symb,affirmative,train,1
+element_symb,85,Calcium has the symbol P.,entity_f6d0094b9ef33329d113afedd091a7fd0c81cc10c1c21266d1707b1b54a9c15f,element_symb,affirmative,train,0
+element_symb,154,Thulium has the symbol Ne.,entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497,element_symb,affirmative,train,0
+element_symb,37,Gold has the symbol Au.,entity_be6a8f11b76dc47907cfbe03230a3fa16069779d1a7a073d381204767565c744,element_symb,affirmative,train,1
+element_symb,167,Lead has the symbol Na.,entity_13f29230c5750c6aeb886e48ddd7ce8a03c8c225198d659281750905db51a1f6,element_symb,affirmative,train,0
+element_symb,56,Xenon has the symbol F.,entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c,element_symb,affirmative,train,0
+element_symb,72,Ytterbium has the symbol Mo.,entity_ad642bcc43c2cc3a18b8bbc69c41a403def98fe6c30c5e8949dde55311da7ae6,element_symb,affirmative,train,0
+element_symb,144,Iron has the symbol Fe.,entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12,element_symb,affirmative,train,1
+element_symb,53,Boron has the symbol B.,entity_17eaa53d50c3143e32642db274e0591602c5d88d2bc02c398e1ce6be24317842,element_symb,affirmative,train,1
+element_symb,2,Tantalum has the symbol Ta.,entity_04eacd327bc4e7f4da1153e8659b0e43e1c6d3c223a6470222ea86b30f900ccc,element_symb,affirmative,train,1
+element_symb,76,Mercury has the symbol Hg.,entity_aa049853fde6dea0353519102d733fa9c046cf6cc2ac00efe457cb312331bde3,element_symb,affirmative,train,1
+element_symb,108,Argon has the symbol Ar.,entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7,element_symb,affirmative,train,1
+element_symb,83,Gallium has the symbol Cs.,entity_a4d7e05ba3d3317a3ce46747e333f32231ead7a8d69521c4ee478b2a2fd69145,element_symb,affirmative,train,0
+element_symb,151,Boron has the symbol Pm.,entity_17eaa53d50c3143e32642db274e0591602c5d88d2bc02c398e1ce6be24317842,element_symb,affirmative,train,0
+element_symb,126,Tin has the symbol Be.,entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655,element_symb,affirmative,train,0
+element_symb,11,Mercury has the symbol Cl.,entity_aa049853fde6dea0353519102d733fa9c046cf6cc2ac00efe457cb312331bde3,element_symb,affirmative,train,0
+element_symb,35,Francium has the symbol Tl.,entity_8fa7e153bb3e13d8afc404efc835d6f6047a67593a062f368d2ac901ceed99a2,element_symb,affirmative,train,0
+element_symb,30,Polonium has the symbol Tb.,entity_9a321dd56f45a13c62007d9fc0939e3dd17cafa082bac01d0f463b99657d93b2,element_symb,affirmative,train,0
+element_symb,7,Strontium has the symbol Sn.,entity_710cbcb0b4eb66b8a7a460f36cb23af0f0a420e104e32e926214dc1d87ba89fd,element_symb,affirmative,train,0
+element_symb,133,Cerium has the symbol Ce.,entity_db74ebb47c3af647b2f296a90a023f09edc056a91a9bbaaa96414e2930184ceb,element_symb,affirmative,train,1
+element_symb,93,Argon has the symbol Co.,entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7,element_symb,affirmative,train,0
+element_symb,55,Phosphorus has the symbol P.,entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5,element_symb,affirmative,train,1
+element_symb,49,Thorium has the symbol Se.,entity_2f7fa0426f452b28cbd014ee0d1650ab988c563a435daf435cbf016f633d6b9e,element_symb,affirmative,train,0
+element_symb,106,Germanium has the symbol Ge.,entity_a64c4a3bcc1cd6c9a4649dd7811d8c3ea2b2729de17a564e105b76d46beec71c,element_symb,affirmative,train,1
+element_symb,115,Yttrium has the symbol Y.,entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8,element_symb,affirmative,train,1
+element_symb,9,Titanium has the symbol Ti.,entity_e0edbd6d41332ed3479965c398b2f2a654b4b09a3e8b4308b499910546a2dbf6,element_symb,affirmative,train,1
+element_symb,175,Tin has the symbol Sn.,entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655,element_symb,affirmative,train,1
+element_symb,104,Lutetium has the symbol Be.,entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a,element_symb,affirmative,train,0
+element_symb,63,Thulium has the symbol Tm.,entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497,element_symb,affirmative,train,1
+element_symb,0,Thallium has the symbol Tl.,entity_3dd2d429c085f803d55cef4d831e8bdf586f6007915f1204fb031917cc4d084f,element_symb,affirmative,train,1
+element_symb,68,Rhodium has the symbol Rh.,entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415,element_symb,affirmative,train,1
+element_symb,155,Osmium has the symbol Rn.,entity_c69ac3bcb9fb06bef8e41d6a129a7471b73ba0161dd010412413fa1a92c0326a,element_symb,affirmative,train,0
+element_symb,124,Neptunium has the symbol Na.,entity_46cd66d080d9ceea9086aa1bf8909a28485656b4a278d4d451a3c1a104ef2c23,element_symb,affirmative,train,0
+element_symb,166,Tellurium has the symbol O.,entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7,element_symb,affirmative,train,0
+element_symb,91,Ytterbium has the symbol Yb.,entity_ad642bcc43c2cc3a18b8bbc69c41a403def98fe6c30c5e8949dde55311da7ae6,element_symb,affirmative,train,1
+element_symb,116,Tellurium has the symbol Te.,entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7,element_symb,affirmative,train,1
+element_symb,14,Indium has the symbol As.,entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8,element_symb,affirmative,train,0
+element_symb,43,Osmium has the symbol Os.,entity_c69ac3bcb9fb06bef8e41d6a129a7471b73ba0161dd010412413fa1a92c0326a,element_symb,affirmative,train,1
+element_symb,70,Selenium has the symbol Na.,entity_25597f7945e412a458e186c0e97e45a03f361b3906bb67aba66269fe7d3f353c,element_symb,affirmative,train,0
+element_symb,105,Praseodymium has the symbol Sc.,entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068,element_symb,affirmative,train,0
+element_symb,48,Arsenic has the symbol Re.,entity_15c5dafd5fc088fac6be48be30a1b5252cd067a716dc5f6f06f0ebd28d50e5fc,element_symb,affirmative,train,0
+element_symb,153,Titanium has the symbol B.,entity_e0edbd6d41332ed3479965c398b2f2a654b4b09a3e8b4308b499910546a2dbf6,element_symb,affirmative,train,0
+element_symb,149,Nickel has the symbol Rb.,entity_5c4ead21b002ee83dc58d41098045ecc98606acc9eb188d109959c15f99e8ad4,element_symb,affirmative,train,0
+element_symb,95,Uranium has the symbol U.,entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b,element_symb,affirmative,train,1
+element_symb,18,Palladium has the symbol Nd.,entity_9600b36106c693bdd02de0a55bd3c0db67a2c13456c22dcb5e1c188299ec3e44,element_symb,affirmative,train,0
+element_symb,59,Fluorine has the symbol N.,entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2,element_symb,affirmative,train,0
+element_symb,86,Chromium has the symbol Ru.,entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c,element_symb,affirmative,train,0
+element_symb,45,Cerium has the symbol Ne.,entity_db74ebb47c3af647b2f296a90a023f09edc056a91a9bbaaa96414e2930184ceb,element_symb,affirmative,train,0
+element_symb,13,Uranium has the symbol Re.,entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b,element_symb,affirmative,train,0
+element_symb,158,Cesium has the symbol Tc.,entity_89fb9f75234557d3c374ece3f4f98d832b4c3a16d64c8e7261611e381d6364f9,element_symb,affirmative,train,0
+element_symb,171,Radium has the symbol Sm.,entity_8021ed314b6cc5d2e99a9564f4e5bf10b6d49a6fd3bf2b52cd284e91f215a119,element_symb,affirmative,train,0
+element_symb,67,Promethium has the symbol Pm.,entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88,element_symb,affirmative,train,1
+element_symb,159,Dysprosium has the symbol Dy.,entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410,element_symb,affirmative,train,1
+element_symb,180,Radon has the symbol H.,entity_6bf3a30516508151849271a80d2fad01dae99791eed387ff178ee3c2c1c73e77,element_symb,affirmative,train,0
+element_symb,170,Sulfur has the symbol Cs.,entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3,element_symb,affirmative,train,0
+element_symb,168,Polonium has the symbol Po.,entity_9a321dd56f45a13c62007d9fc0939e3dd17cafa082bac01d0f463b99657d93b2,element_symb,affirmative,train,1
+element_symb,114,Praseodymium has the symbol Pr.,entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068,element_symb,affirmative,train,1
+element_symb,178,Tantalum has the symbol Cs.,entity_04eacd327bc4e7f4da1153e8659b0e43e1c6d3c223a6470222ea86b30f900ccc,element_symb,affirmative,train,0
+element_symb,42,Actinium has the symbol Ar.,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,element_symb,affirmative,train,0
+element_symb,162,Helium has the symbol He.,entity_095fdaec82615f37c241c9fd9330579d4f037d77a203b87d82c71dd4dd7c0d27,element_symb,affirmative,train,1
+element_symb,181,Lead has the symbol Pb.,entity_13f29230c5750c6aeb886e48ddd7ce8a03c8c225198d659281750905db51a1f6,element_symb,affirmative,train,1
+element_symb,113,Nickel has the symbol Ni.,entity_5c4ead21b002ee83dc58d41098045ecc98606acc9eb188d109959c15f99e8ad4,element_symb,affirmative,train,1
+element_symb,25,Potassium has the symbol Al.,entity_55585ebdd5c06dda9169e9a00d60cab71294d5be1fd41e345cc87d5c429fdfbe,element_symb,affirmative,train,0
+element_symb,107,Terbium has the symbol Tb.,entity_6f554ddcb0f9732c8a9fa20133ca7fd7c42bbf544ecd6d406687a4fe9d6781db,element_symb,affirmative,train,1
+element_symb,73,Lithium has the symbol Sb.,entity_1356df8291094b3a234cef7f6ecd5649bd6b92e5355597b0471d3c9bf330936c,element_symb,affirmative,train,0
+element_symb,15,Gallium has the symbol Ga.,entity_a4d7e05ba3d3317a3ce46747e333f32231ead7a8d69521c4ee478b2a2fd69145,element_symb,affirmative,train,1
+element_symb,121,Thallium has the symbol Sr.,entity_3dd2d429c085f803d55cef4d831e8bdf586f6007915f1204fb031917cc4d084f,element_symb,affirmative,train,0
+element_symb,183,Radium has the symbol Ra.,entity_8021ed314b6cc5d2e99a9564f4e5bf10b6d49a6fd3bf2b52cd284e91f215a119,element_symb,affirmative,train,1
+element_symb,140,Aluminum has the symbol Al.,entity_06ccef37010e0e13d58abcba83b87f2550056dbd57f222fdef246dbb9883c4ee,element_symb,affirmative,train,1
+element_symb,82,Protactinium has the symbol Pa.,entity_8bc5cb7fb5745b0efd4a62e6c018ca9f773ec9ea79fe3c138f56cf505932ee78,element_symb,affirmative,train,1
+element_symb,128,Samarium has the symbol Sm.,entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004,element_symb,affirmative,train,1
+element_symb,5,Krypton has the symbol Kr.,entity_8f6d1133c48e69d2e7004493a604a5e44bf45f11ed9916f8e90e9ba9ce5250f4,element_symb,affirmative,train,1
+element_symb,32,Gold has the symbol Cr.,entity_be6a8f11b76dc47907cfbe03230a3fa16069779d1a7a073d381204767565c744,element_symb,affirmative,train,0
+element_symb,57,Lutetium has the symbol Lu.,entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a,element_symb,affirmative,train,1
+element_symb,28,Sulfur has the symbol S.,entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3,element_symb,affirmative,train,1
+element_symb,127,Thorium has the symbol Th.,entity_2f7fa0426f452b28cbd014ee0d1650ab988c563a435daf435cbf016f633d6b9e,element_symb,affirmative,train,1
+element_symb,100,Rhodium has the symbol Sn.,entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415,element_symb,affirmative,train,0
+element_symb,139,Arsenic has the symbol As.,entity_15c5dafd5fc088fac6be48be30a1b5252cd067a716dc5f6f06f0ebd28d50e5fc,element_symb,affirmative,train,1
+element_symb,6,Molybdenum has the symbol Np.,entity_952e801b0fa09dd4b0d5fe40f7d962d09cab9e3ea6ca76fdcc44e39f7e3d6754,element_symb,affirmative,train,0
+element_symb,44,Neptunium has the symbol Np.,entity_46cd66d080d9ceea9086aa1bf8909a28485656b4a278d4d451a3c1a104ef2c23,element_symb,affirmative,train,1
+element_symb,80,Lithium has the symbol Li.,entity_1356df8291094b3a234cef7f6ecd5649bd6b92e5355597b0471d3c9bf330936c,element_symb,affirmative,train,1
+element_symb,88,Cesium has the symbol Cs.,entity_89fb9f75234557d3c374ece3f4f98d832b4c3a16d64c8e7261611e381d6364f9,element_symb,affirmative,train,1
+element_symb,10,Strontium has the symbol Sr.,entity_710cbcb0b4eb66b8a7a460f36cb23af0f0a420e104e32e926214dc1d87ba89fd,element_symb,affirmative,train,1
+element_symb,137,Gadolinium has the symbol Hg.,entity_9af95c9919a536dfc0d58d6a4cedcd6a4b887d03d35acf29c9f6f8e712bc72fb,element_symb,affirmative,train,0
+element_symb,36,Actinium has the symbol Ac.,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,element_symb,affirmative,train,1
+element_symb,142,Promethium has the symbol Dy.,entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88,element_symb,affirmative,train,0
+element_symb,111,Chromium has the symbol Cr.,entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c,element_symb,affirmative,train,1
+element_symb,23,Selenium has the symbol Se.,entity_25597f7945e412a458e186c0e97e45a03f361b3906bb67aba66269fe7d3f353c,element_symb,affirmative,train,1
+element_symb,27,Palladium has the symbol Pd.,entity_9600b36106c693bdd02de0a55bd3c0db67a2c13456c22dcb5e1c188299ec3e44,element_symb,affirmative,train,1
+element_symb,4,Yttrium has the symbol U.,entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8,element_symb,affirmative,train,0
+element_symb,58,Phosphorus has the symbol Zn.,entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5,element_symb,affirmative,train,0
+element_symb,118,Neodymium has the symbol Ac.,entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5,element_symb,affirmative,train,0
+element_symb,74,Iron has the symbol Tl.,entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12,element_symb,affirmative,train,0
+element_symb,81,Tungsten has the symbol Zr.,entity_d4017a68ffba191acc83e3e3f37ed92a0e4e3207604ffa33c39509de467b02d1,element_symb,affirmative,train,0
+element_symb,161,Gadolinium has the symbol Gd.,entity_9af95c9919a536dfc0d58d6a4cedcd6a4b887d03d35acf29c9f6f8e712bc72fb,element_symb,affirmative,train,1
+element_symb,71,Aluminum has the symbol Sc.,entity_06ccef37010e0e13d58abcba83b87f2550056dbd57f222fdef246dbb9883c4ee,element_symb,affirmative,train,0
+neg_element_symb,150,Krypton does not have the symbol Nb.,entity_8f6d1133c48e69d2e7004493a604a5e44bf45f11ed9916f8e90e9ba9ce5250f4,element_symb,negated,train,1
+neg_element_symb,122,Samarium does not have the symbol Pr.,entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004,element_symb,negated,train,1
+neg_element_symb,136,Molybdenum does not have the symbol Mo.,entity_952e801b0fa09dd4b0d5fe40f7d962d09cab9e3ea6ca76fdcc44e39f7e3d6754,element_symb,negated,train,0
+neg_element_symb,184,Nitrogen does not have the symbol N.,entity_acd59f0b22c9f431aeff8b185bd234229d35dc8a725e0e4981b003a40311cf45,element_symb,negated,train,0
+neg_element_symb,12,Xenon does not have the symbol Xe.,entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c,element_symb,negated,train,0
+neg_element_symb,85,Calcium does not have the symbol P.,entity_f6d0094b9ef33329d113afedd091a7fd0c81cc10c1c21266d1707b1b54a9c15f,element_symb,negated,train,1
+neg_element_symb,154,Thulium does not have the symbol Ne.,entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497,element_symb,negated,train,1
+neg_element_symb,37,Gold does not have the symbol Au.,entity_be6a8f11b76dc47907cfbe03230a3fa16069779d1a7a073d381204767565c744,element_symb,negated,train,0
+neg_element_symb,167,Lead does not have the symbol Na.,entity_13f29230c5750c6aeb886e48ddd7ce8a03c8c225198d659281750905db51a1f6,element_symb,negated,train,1
+neg_element_symb,56,Xenon does not have the symbol F.,entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c,element_symb,negated,train,1
+neg_element_symb,72,Ytterbium does not have the symbol Mo.,entity_ad642bcc43c2cc3a18b8bbc69c41a403def98fe6c30c5e8949dde55311da7ae6,element_symb,negated,train,1
+neg_element_symb,144,Iron does not have the symbol Fe.,entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12,element_symb,negated,train,0
+neg_element_symb,53,Boron does not have the symbol B.,entity_17eaa53d50c3143e32642db274e0591602c5d88d2bc02c398e1ce6be24317842,element_symb,negated,train,0
+neg_element_symb,2,Tantalum does not have the symbol Ta.,entity_04eacd327bc4e7f4da1153e8659b0e43e1c6d3c223a6470222ea86b30f900ccc,element_symb,negated,train,0
+neg_element_symb,76,Mercury does not have the symbol Hg.,entity_aa049853fde6dea0353519102d733fa9c046cf6cc2ac00efe457cb312331bde3,element_symb,negated,train,0
+neg_element_symb,108,Argon does not have the symbol Ar.,entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7,element_symb,negated,train,0
+neg_element_symb,83,Gallium does not have the symbol Cs.,entity_a4d7e05ba3d3317a3ce46747e333f32231ead7a8d69521c4ee478b2a2fd69145,element_symb,negated,train,1
+neg_element_symb,151,Boron does not have the symbol Pm.,entity_17eaa53d50c3143e32642db274e0591602c5d88d2bc02c398e1ce6be24317842,element_symb,negated,train,1
+neg_element_symb,126,Tin does not have the symbol Be.,entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655,element_symb,negated,train,1
+neg_element_symb,11,Mercury does not have the symbol Cl.,entity_aa049853fde6dea0353519102d733fa9c046cf6cc2ac00efe457cb312331bde3,element_symb,negated,train,1
+neg_element_symb,35,Francium does not have the symbol Tl.,entity_8fa7e153bb3e13d8afc404efc835d6f6047a67593a062f368d2ac901ceed99a2,element_symb,negated,train,1
+neg_element_symb,30,Polonium does not have the symbol Tb.,entity_9a321dd56f45a13c62007d9fc0939e3dd17cafa082bac01d0f463b99657d93b2,element_symb,negated,train,1
+neg_element_symb,7,Strontium does not have the symbol Sn.,entity_710cbcb0b4eb66b8a7a460f36cb23af0f0a420e104e32e926214dc1d87ba89fd,element_symb,negated,train,1
+neg_element_symb,133,Cerium does not have the symbol Ce.,entity_db74ebb47c3af647b2f296a90a023f09edc056a91a9bbaaa96414e2930184ceb,element_symb,negated,train,0
+neg_element_symb,93,Argon does not have the symbol Co.,entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7,element_symb,negated,train,1
+neg_element_symb,55,Phosphorus does not have the symbol P.,entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5,element_symb,negated,train,0
+neg_element_symb,49,Thorium does not have the symbol Se.,entity_2f7fa0426f452b28cbd014ee0d1650ab988c563a435daf435cbf016f633d6b9e,element_symb,negated,train,1
+neg_element_symb,106,Germanium does not have the symbol Ge.,entity_a64c4a3bcc1cd6c9a4649dd7811d8c3ea2b2729de17a564e105b76d46beec71c,element_symb,negated,train,0
+neg_element_symb,115,Yttrium does not have the symbol Y.,entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8,element_symb,negated,train,0
+neg_element_symb,9,Titanium does not have the symbol Ti.,entity_e0edbd6d41332ed3479965c398b2f2a654b4b09a3e8b4308b499910546a2dbf6,element_symb,negated,train,0
+neg_element_symb,175,Tin does not have the symbol Sn.,entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655,element_symb,negated,train,0
+neg_element_symb,104,Lutetium does not have the symbol Be.,entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a,element_symb,negated,train,1
+neg_element_symb,63,Thulium does not have the symbol Tm.,entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497,element_symb,negated,train,0
+neg_element_symb,0,Thallium does not have the symbol Tl.,entity_3dd2d429c085f803d55cef4d831e8bdf586f6007915f1204fb031917cc4d084f,element_symb,negated,train,0
+neg_element_symb,68,Rhodium does not have the symbol Rh.,entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415,element_symb,negated,train,0
+neg_element_symb,155,Osmium does not have the symbol Rn.,entity_c69ac3bcb9fb06bef8e41d6a129a7471b73ba0161dd010412413fa1a92c0326a,element_symb,negated,train,1
+neg_element_symb,124,Neptunium does not have the symbol Na.,entity_46cd66d080d9ceea9086aa1bf8909a28485656b4a278d4d451a3c1a104ef2c23,element_symb,negated,train,1
+neg_element_symb,166,Tellurium does not have the symbol O.,entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7,element_symb,negated,train,1
+neg_element_symb,91,Ytterbium does not have the symbol Yb.,entity_ad642bcc43c2cc3a18b8bbc69c41a403def98fe6c30c5e8949dde55311da7ae6,element_symb,negated,train,0
+neg_element_symb,116,Tellurium does not have the symbol Te.,entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7,element_symb,negated,train,0
+neg_element_symb,14,Indium does not have the symbol As.,entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8,element_symb,negated,train,1
+neg_element_symb,43,Osmium does not have the symbol Os.,entity_c69ac3bcb9fb06bef8e41d6a129a7471b73ba0161dd010412413fa1a92c0326a,element_symb,negated,train,0
+neg_element_symb,70,Selenium does not have the symbol Na.,entity_25597f7945e412a458e186c0e97e45a03f361b3906bb67aba66269fe7d3f353c,element_symb,negated,train,1
+neg_element_symb,105,Praseodymium does not have the symbol Sc.,entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068,element_symb,negated,train,1
+neg_element_symb,48,Arsenic does not have the symbol Re.,entity_15c5dafd5fc088fac6be48be30a1b5252cd067a716dc5f6f06f0ebd28d50e5fc,element_symb,negated,train,1
+neg_element_symb,153,Titanium does not have the symbol B.,entity_e0edbd6d41332ed3479965c398b2f2a654b4b09a3e8b4308b499910546a2dbf6,element_symb,negated,train,1
+neg_element_symb,149,Nickel does not have the symbol Rb.,entity_5c4ead21b002ee83dc58d41098045ecc98606acc9eb188d109959c15f99e8ad4,element_symb,negated,train,1
+neg_element_symb,95,Uranium does not have the symbol U.,entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b,element_symb,negated,train,0
+neg_element_symb,18,Palladium does not have the symbol Nd.,entity_9600b36106c693bdd02de0a55bd3c0db67a2c13456c22dcb5e1c188299ec3e44,element_symb,negated,train,1
+neg_element_symb,59,Fluorine does not have the symbol N.,entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2,element_symb,negated,train,1
+neg_element_symb,86,Chromium does not have the symbol Ru.,entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c,element_symb,negated,train,1
+neg_element_symb,45,Cerium does not have the symbol Ne.,entity_db74ebb47c3af647b2f296a90a023f09edc056a91a9bbaaa96414e2930184ceb,element_symb,negated,train,1
+neg_element_symb,13,Uranium does not have the symbol Re.,entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b,element_symb,negated,train,1
+neg_element_symb,158,Cesium does not have the symbol Tc.,entity_89fb9f75234557d3c374ece3f4f98d832b4c3a16d64c8e7261611e381d6364f9,element_symb,negated,train,1
+neg_element_symb,171,Radium does not have the symbol Sm.,entity_8021ed314b6cc5d2e99a9564f4e5bf10b6d49a6fd3bf2b52cd284e91f215a119,element_symb,negated,train,1
+neg_element_symb,67,Promethium does not have the symbol Pm.,entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88,element_symb,negated,train,0
+neg_element_symb,159,Dysprosium does not have the symbol Dy.,entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410,element_symb,negated,train,0
+neg_element_symb,180,Radon does not have the symbol H.,entity_6bf3a30516508151849271a80d2fad01dae99791eed387ff178ee3c2c1c73e77,element_symb,negated,train,1
+neg_element_symb,170,Sulfur does not have the symbol Cs.,entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3,element_symb,negated,train,1
+neg_element_symb,168,Polonium does not have the symbol Po.,entity_9a321dd56f45a13c62007d9fc0939e3dd17cafa082bac01d0f463b99657d93b2,element_symb,negated,train,0
+neg_element_symb,114,Praseodymium does not have the symbol Pr.,entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068,element_symb,negated,train,0
+neg_element_symb,178,Tantalum does not have the symbol Cs.,entity_04eacd327bc4e7f4da1153e8659b0e43e1c6d3c223a6470222ea86b30f900ccc,element_symb,negated,train,1
+neg_element_symb,42,Actinium does not have the symbol Ar.,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,element_symb,negated,train,1
+neg_element_symb,162,Helium does not have the symbol He.,entity_095fdaec82615f37c241c9fd9330579d4f037d77a203b87d82c71dd4dd7c0d27,element_symb,negated,train,0
+neg_element_symb,181,Lead does not have the symbol Pb.,entity_13f29230c5750c6aeb886e48ddd7ce8a03c8c225198d659281750905db51a1f6,element_symb,negated,train,0
+neg_element_symb,113,Nickel does not have the symbol Ni.,entity_5c4ead21b002ee83dc58d41098045ecc98606acc9eb188d109959c15f99e8ad4,element_symb,negated,train,0
+neg_element_symb,25,Potassium does not have the symbol Al.,entity_55585ebdd5c06dda9169e9a00d60cab71294d5be1fd41e345cc87d5c429fdfbe,element_symb,negated,train,1
+neg_element_symb,107,Terbium does not have the symbol Tb.,entity_6f554ddcb0f9732c8a9fa20133ca7fd7c42bbf544ecd6d406687a4fe9d6781db,element_symb,negated,train,0
+neg_element_symb,73,Lithium does not have the symbol Sb.,entity_1356df8291094b3a234cef7f6ecd5649bd6b92e5355597b0471d3c9bf330936c,element_symb,negated,train,1
+neg_element_symb,15,Gallium does not have the symbol Ga.,entity_a4d7e05ba3d3317a3ce46747e333f32231ead7a8d69521c4ee478b2a2fd69145,element_symb,negated,train,0
+neg_element_symb,121,Thallium does not have the symbol Sr.,entity_3dd2d429c085f803d55cef4d831e8bdf586f6007915f1204fb031917cc4d084f,element_symb,negated,train,1
+neg_element_symb,183,Radium does not have the symbol Ra.,entity_8021ed314b6cc5d2e99a9564f4e5bf10b6d49a6fd3bf2b52cd284e91f215a119,element_symb,negated,train,0
+neg_element_symb,140,Aluminum does not have the symbol Al.,entity_06ccef37010e0e13d58abcba83b87f2550056dbd57f222fdef246dbb9883c4ee,element_symb,negated,train,0
+neg_element_symb,82,Protactinium does not have the symbol Pa.,entity_8bc5cb7fb5745b0efd4a62e6c018ca9f773ec9ea79fe3c138f56cf505932ee78,element_symb,negated,train,0
+neg_element_symb,128,Samarium does not have the symbol Sm.,entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004,element_symb,negated,train,0
+neg_element_symb,5,Krypton does not have the symbol Kr.,entity_8f6d1133c48e69d2e7004493a604a5e44bf45f11ed9916f8e90e9ba9ce5250f4,element_symb,negated,train,0
+neg_element_symb,32,Gold does not have the symbol Cr.,entity_be6a8f11b76dc47907cfbe03230a3fa16069779d1a7a073d381204767565c744,element_symb,negated,train,1
+neg_element_symb,57,Lutetium does not have the symbol Lu.,entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a,element_symb,negated,train,0
+neg_element_symb,28,Sulfur does not have the symbol S.,entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3,element_symb,negated,train,0
+neg_element_symb,127,Thorium does not have the symbol Th.,entity_2f7fa0426f452b28cbd014ee0d1650ab988c563a435daf435cbf016f633d6b9e,element_symb,negated,train,0
+neg_element_symb,100,Rhodium does not have the symbol Sn.,entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415,element_symb,negated,train,1
+neg_element_symb,139,Arsenic does not have the symbol As.,entity_15c5dafd5fc088fac6be48be30a1b5252cd067a716dc5f6f06f0ebd28d50e5fc,element_symb,negated,train,0
+neg_element_symb,6,Molybdenum does not have the symbol Np.,entity_952e801b0fa09dd4b0d5fe40f7d962d09cab9e3ea6ca76fdcc44e39f7e3d6754,element_symb,negated,train,1
+neg_element_symb,44,Neptunium does not have the symbol Np.,entity_46cd66d080d9ceea9086aa1bf8909a28485656b4a278d4d451a3c1a104ef2c23,element_symb,negated,train,0
+neg_element_symb,80,Lithium does not have the symbol Li.,entity_1356df8291094b3a234cef7f6ecd5649bd6b92e5355597b0471d3c9bf330936c,element_symb,negated,train,0
+neg_element_symb,88,Cesium does not have the symbol Cs.,entity_89fb9f75234557d3c374ece3f4f98d832b4c3a16d64c8e7261611e381d6364f9,element_symb,negated,train,0
+neg_element_symb,10,Strontium does not have the symbol Sr.,entity_710cbcb0b4eb66b8a7a460f36cb23af0f0a420e104e32e926214dc1d87ba89fd,element_symb,negated,train,0
+neg_element_symb,137,Gadolinium does not have the symbol Hg.,entity_9af95c9919a536dfc0d58d6a4cedcd6a4b887d03d35acf29c9f6f8e712bc72fb,element_symb,negated,train,1
+neg_element_symb,36,Actinium does not have the symbol Ac.,entity_3082fcb6b6d2b09427cee8d9ed1940b10588c9a35cc061ba5e4c0fcb5657be27,element_symb,negated,train,0
+neg_element_symb,142,Promethium does not have the symbol Dy.,entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88,element_symb,negated,train,1
+neg_element_symb,111,Chromium does not have the symbol Cr.,entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c,element_symb,negated,train,0
+neg_element_symb,23,Selenium does not have the symbol Se.,entity_25597f7945e412a458e186c0e97e45a03f361b3906bb67aba66269fe7d3f353c,element_symb,negated,train,0
+neg_element_symb,27,Palladium does not have the symbol Pd.,entity_9600b36106c693bdd02de0a55bd3c0db67a2c13456c22dcb5e1c188299ec3e44,element_symb,negated,train,0
+neg_element_symb,4,Yttrium does not have the symbol U.,entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8,element_symb,negated,train,1
+neg_element_symb,58,Phosphorus does not have the symbol Zn.,entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5,element_symb,negated,train,1
+neg_element_symb,118,Neodymium does not have the symbol Ac.,entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5,element_symb,negated,train,1
+neg_element_symb,74,Iron does not have the symbol Tl.,entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12,element_symb,negated,train,1
+neg_element_symb,81,Tungsten does not have the symbol Zr.,entity_d4017a68ffba191acc83e3e3f37ed92a0e4e3207604ffa33c39509de467b02d1,element_symb,negated,train,1
+neg_element_symb,161,Gadolinium does not have the symbol Gd.,entity_9af95c9919a536dfc0d58d6a4cedcd6a4b887d03d35acf29c9f6f8e712bc72fb,element_symb,negated,train,0
+neg_element_symb,71,Aluminum does not have the symbol Sc.,entity_06ccef37010e0e13d58abcba83b87f2550056dbd57f222fdef246dbb9883c4ee,element_symb,negated,train,1

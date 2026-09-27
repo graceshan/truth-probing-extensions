@@ -1,0 +1,10 @@
+{
+  "all_five_methods_share_exact_ordered_training_rows": true,
+  "compound_activations_read": 0,
+  "faithful_file_hashes_sha256": "eea96cd627c37b885b04adfd41c8d618ee75b1e7ad33b1f20b495c4f8837f50f",
+  "faithful_files_byte_unchanged": true,
+  "faithful_files_verified": 141,
+  "identical_train_and_validation_rows_across_models": true,
+  "test_activation_rows_read": 0,
+  "test_labels_loaded": 0
+}

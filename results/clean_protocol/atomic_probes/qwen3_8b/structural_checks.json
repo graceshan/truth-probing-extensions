@@ -1,0 +1,352 @@
+{
+  "activation_values_inspected_by_structural_checks": false,
+  "assignment_sha256": "84004e7276ae458889d7c3253a7dd5ea3abc604748047e6838fda64b10da905d",
+  "checks": {
+    "activation_headers": true,
+    "compatible_affirmative_negated_coverage": true,
+    "complete_atomic_coverage": true,
+    "pairwise_disjoint_entities": true,
+    "same_entity_same_split": true,
+    "source_sidecar_alignment": true,
+    "unique_manifest_identity": true
+  },
+  "counts": [
+    {
+      "affirmative_rows": 900,
+      "entities": 450,
+      "negated_rows": 900,
+      "rows": 1800,
+      "split": "train",
+      "topic": "cities"
+    },
+    {
+      "affirmative_rows": 298,
+      "entities": 149,
+      "negated_rows": 298,
+      "rows": 596,
+      "split": "validation",
+      "topic": "cities"
+    },
+    {
+      "affirmative_rows": 298,
+      "entities": 149,
+      "negated_rows": 298,
+      "rows": 596,
+      "split": "test",
+      "topic": "cities"
+    },
+    {
+      "affirmative_rows": 212,
+      "entities": 208,
+      "negated_rows": 212,
+      "rows": 424,
+      "split": "train",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative_rows": 73,
+      "entities": 68,
+      "negated_rows": 73,
+      "rows": 146,
+      "split": "validation",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative_rows": 69,
+      "entities": 68,
+      "negated_rows": 69,
+      "rows": 138,
+      "split": "test",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative_rows": 246,
+      "entities": 141,
+      "negated_rows": 246,
+      "rows": 492,
+      "split": "train",
+      "topic": "inventors"
+    },
+    {
+      "affirmative_rows": 81,
+      "entities": 45,
+      "negated_rows": 81,
+      "rows": 162,
+      "split": "validation",
+      "topic": "inventors"
+    },
+    {
+      "affirmative_rows": 79,
+      "entities": 45,
+      "negated_rows": 79,
+      "rows": 158,
+      "split": "test",
+      "topic": "inventors"
+    },
+    {
+      "affirmative_rows": 114,
+      "entities": 57,
+      "negated_rows": 114,
+      "rows": 228,
+      "split": "train",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative_rows": 36,
+      "entities": 18,
+      "negated_rows": 36,
+      "rows": 72,
+      "split": "validation",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative_rows": 36,
+      "entities": 18,
+      "negated_rows": 36,
+      "rows": 72,
+      "split": "test",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative_rows": 100,
+      "entities": 52,
+      "negated_rows": 100,
+      "rows": 200,
+      "split": "train",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative_rows": 32,
+      "entities": 16,
+      "negated_rows": 32,
+      "rows": 64,
+      "split": "validation",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative_rows": 32,
+      "entities": 16,
+      "negated_rows": 32,
+      "rows": 64,
+      "split": "test",
+      "topic": "animal_class"
+    }
+  ],
+  "extraction_metadata": {
+    "path": "acts/qwen3_8b/extraction_summary.json",
+    "sha256": "dbdd794e9ac2c776b84dfedf9d050151ccf5573afed7086c7b0fe2c8db80affc"
+  },
+  "manifest_metadata_sha256": "d4eeccdfc46e9e85d4d583790fe2d22442d04a69c619e63b35dcdb878241dacb",
+  "manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "manifest_version": 1,
+  "model": "Qwen/Qwen3-8B",
+  "sources": [
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400661000000000,
+      "activation_shape": [
+        1496,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 441188480,
+      "dataset": "cities",
+      "metadata_columns": [
+        "statement",
+        "label",
+        "city",
+        "country",
+        "correct_country"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/cities_qwen3_8b_metadata.csv",
+      "metadata_sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+      "source_csv": "data/tiu_datasets/cities.csv",
+      "source_sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400719000000000,
+      "activation_shape": [
+        1496,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 441188480,
+      "dataset": "neg_cities",
+      "metadata_columns": [
+        "statement",
+        "label",
+        "city",
+        "country",
+        "correct_country"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_metadata.csv",
+      "metadata_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+      "source_csv": "data/tiu_datasets/neg_cities.csv",
+      "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400734000000000,
+      "activation_shape": [
+        354,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 104398976,
+      "dataset": "sp_en_trans",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_metadata.csv",
+      "metadata_sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+      "source_csv": "data/tiu_datasets/sp_en_trans.csv",
+      "source_sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400747000000000,
+      "activation_shape": [
+        354,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 104398976,
+      "dataset": "neg_sp_en_trans",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_metadata.csv",
+      "metadata_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+      "source_csv": "data/tiu_datasets/neg_sp_en_trans.csv",
+      "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400763000000000,
+      "activation_shape": [
+        406,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 119734400,
+      "dataset": "inventors",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/inventors_qwen3_8b_metadata.csv",
+      "metadata_sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c",
+      "source_csv": "data/tiu_datasets/inventors.csv",
+      "source_sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400779000000000,
+      "activation_shape": [
+        406,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 119734400,
+      "dataset": "neg_inventors",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_metadata.csv",
+      "metadata_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+      "source_csv": "data/tiu_datasets/neg_inventors.csv",
+      "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400786000000000,
+      "activation_shape": [
+        186,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 54853760,
+      "dataset": "element_symb",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_metadata.csv",
+      "metadata_sha256": "2aa8da5696a1f0f0c4630b7a75949cf47e81254728be13c0f4e835ed6129a5a6",
+      "source_csv": "data/tiu_datasets/element_symb.csv",
+      "source_sha256": "2aa8da5696a1f0f0c4630b7a75949cf47e81254728be13c0f4e835ed6129a5a6"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400794000000000,
+      "activation_shape": [
+        186,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 54853760,
+      "dataset": "neg_element_symb",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_metadata.csv",
+      "metadata_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+      "source_csv": "data/tiu_datasets/neg_element_symb.csv",
+      "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400800000000000,
+      "activation_shape": [
+        164,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 48365696,
+      "dataset": "animal_class",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_metadata.csv",
+      "metadata_sha256": "598ed996dd00dd6cddcf125fafad48ad7c4d827a91dfbd8202473354fdba0d97",
+      "source_csv": "data/tiu_datasets/animal_class.csv",
+      "source_sha256": "598ed996dd00dd6cddcf125fafad48ad7c4d827a91dfbd8202473354fdba0d97"
+    },
+    {
+      "activation_dtype": "float16",
+      "activation_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_acts.npy",
+      "activation_mtime_ns": 1788400807000000000,
+      "activation_shape": [
+        164,
+        36,
+        4096
+      ],
+      "activation_size_bytes": 48365696,
+      "dataset": "neg_animal_class",
+      "metadata_columns": [
+        "statement",
+        "label"
+      ],
+      "metadata_csv": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_metadata.csv",
+      "metadata_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+      "source_csv": "data/tiu_datasets/neg_animal_class.csv",
+      "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256"
+    }
+  ],
+  "test_metrics_evaluated": false
+}

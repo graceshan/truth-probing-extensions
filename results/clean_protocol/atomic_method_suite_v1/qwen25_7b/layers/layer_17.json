@@ -1,0 +1,168 @@
+{
+  "activation_hash_encoding": "concatenated selected float16 row bytes in partition/dataset order at this layer",
+  "elapsed_seconds": 10.20397441694513,
+  "layer": 17,
+  "method_details": {
+    "burger_t_g": {
+      "fit_rows": 1000,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 70536.64235482276,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "difference_of_means": {
+      "fit_rows": 3144,
+      "formula": "unit(mean_true - mean_false)",
+      "sign_orientation": "true-minus-false; no validation-dependent flip"
+    },
+    "l2_logistic": {
+      "fit_configuration": {
+        "class_weight": null,
+        "fit_intercept": true,
+        "max_iter": 2000,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "tol": 0.0001
+      },
+      "fit_rows": 3144,
+      "parameter_sha256": "07b712748b0ba645d4d2f3266671c835db685eac07ca7d8761fd555fd94fcb28",
+      "reuse": "existing TRAIN-fit, VALIDATION-selected clean L2 baseline; unchanged coefficients",
+      "selected_C": 0.01,
+      "selection_path": "results/clean_protocol/atomic_probes_converged/qwen25_7b/selection.json",
+      "selection_sha256": "e5166ed5eb0970202b4f8cb4ff41cc6f8e8dbf1a2ee8f3db1a5af2ec289150ff",
+      "sign_orientation": "existing LR classes [0,1]; no sign flip",
+      "validation_grid_sha256": "d10e421247bcb0018fad04ddd29cc9ed0a09dccc4e477ca0384e27deaffb6de8"
+    },
+    "mass_mean_covariance": {
+      "covariance_divisor": 3144,
+      "covariance_rank_retained": 2541,
+      "fit_rows": 3144,
+      "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+      "intercept": "none in upstream iid MM readout",
+      "sign_orientation": "PSD inverse of true-minus-false; no sign flip"
+    },
+    "ttpd": {
+      "fit_rows": 1000,
+      "formula": "unregularized LR([X@t_G, X@polarity_LR.coef])",
+      "head_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 30
+        }
+      ],
+      "polarity_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 24
+        }
+      ],
+      "polarity_projection_excludes_intercept": true,
+      "polarity_training_alignment": 40.77564827671685,
+      "sign_orientation": "truth LR classes [0,1]; polarity LR negated=0,affirmative=1",
+      "truth_fit": {
+        "fit_rows": 1000,
+        "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+        "inference": "raw activation dot t_G; no validation centering",
+        "partial_truth_training_alignment": 70536.64235482276,
+        "polarity_encoding": "negated=-1,affirmative=+1",
+        "sign_orientation": "OLS truth coefficient, never flipped on validation",
+        "truth_encoding": "false=-1,true=+1"
+      }
+    }
+  },
+  "metrics": [
+    {
+      "fit_rows": 3144,
+      "layer": 17,
+      "method": "l2_logistic",
+      "train_true_minus_false_score_mean": 12.106279145378165,
+      "validation_accuracy_at_zero": 0.9913461538461539,
+      "validation_affirmative_auroc": 0.999763226045135,
+      "validation_negated_auroc": 0.9996152423233444,
+      "validation_overall_auroc": 0.9996671597633136,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9999099139678392,
+      "validation_topic_element_symb_auroc": 1.0,
+      "validation_topic_inventors_auroc": 0.9954275262917238,
+      "validation_topic_macro_auroc": 0.9990674880519126,
+      "validation_topic_sp_en_trans_auroc": 1.0
+    },
+    {
+      "fit_rows": 3144,
+      "layer": 17,
+      "method": "difference_of_means",
+      "train_true_minus_false_score_mean": 18.893672776629387,
+      "validation_accuracy_at_zero": 0.5,
+      "validation_affirmative_auroc": 0.9993488716241213,
+      "validation_negated_auroc": 0.9906326304106549,
+      "validation_overall_auroc": 0.9948668639053255,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9998873924597991,
+      "validation_topic_element_symb_auroc": 0.9228395061728396,
+      "validation_topic_inventors_auroc": 0.9768327998780674,
+      "validation_topic_macro_auroc": 0.9779978845323157,
+      "validation_topic_sp_en_trans_auroc": 0.9904297241508726
+    },
+    {
+      "fit_rows": 3144,
+      "layer": 17,
+      "method": "mass_mean_covariance",
+      "train_true_minus_false_score_mean": 332.4674472113488,
+      "validation_accuracy_at_zero": 0.9701923076923077,
+      "validation_affirmative_auroc": 0.9988161302256751,
+      "validation_negated_auroc": 0.9994080651128376,
+      "validation_overall_auroc": 0.9992159763313609,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 0.9970703125,
+      "validation_topic_cities_auroc": 0.9998986532138192,
+      "validation_topic_element_symb_auroc": 1.0,
+      "validation_topic_inventors_auroc": 0.9926840420667582,
+      "validation_topic_macro_auroc": 0.9979306015561156,
+      "validation_topic_sp_en_trans_auroc": 1.0
+    },
+    {
+      "fit_rows": 1000,
+      "layer": 17,
+      "method": "burger_t_g",
+      "train_true_minus_false_score_mean": 141.6938605914519,
+      "validation_accuracy_at_zero": 0.5,
+      "validation_affirmative_auroc": 0.9993340732519423,
+      "validation_negated_auroc": 0.9939030706622272,
+      "validation_overall_auroc": 0.9967270710059172,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9998085671816584,
+      "validation_topic_element_symb_auroc": 0.9575617283950617,
+      "validation_topic_inventors_auroc": 0.9835390946502058,
+      "validation_topic_macro_auroc": 0.9876189206424953,
+      "validation_topic_sp_en_trans_auroc": 0.9971852129855507
+    },
+    {
+      "fit_rows": 1000,
+      "layer": 17,
+      "method": "ttpd",
+      "train_true_minus_false_score_mean": 13.04112193332501,
+      "validation_accuracy_at_zero": 0.9759615384615384,
+      "validation_affirmative_auroc": 0.9993192748797632,
+      "validation_negated_auroc": 0.9932223455419904,
+      "validation_overall_auroc": 0.9962684911242603,
+      "validation_rows": 1040,
+      "validation_topic_animal_class_auroc": 1.0,
+      "validation_topic_cities_auroc": 0.9983671906670871,
+      "validation_topic_element_symb_auroc": 0.9837962962962963,
+      "validation_topic_inventors_auroc": 0.9827770156988264,
+      "validation_topic_macro_auroc": 0.992312551648974,
+      "validation_topic_sp_en_trans_auroc": 0.9966222555826609
+    }
+  ],
+  "parameter_archive_sha256": "8d73900181da0795f14ed17d78682e3a138c67fbd7bbe413c8a115f649ae971a",
+  "parameter_string_encoding": "Unicode; numerical fitted arrays unchanged",
+  "train_activation_sha256": "8fb608f76c47b8c0e11d2dec8914270b991b8a198e3f197015bf090ddf58e671",
+  "validation_activation_sha256": "667a8090531b25e2fb1c6649a1d7fb76fb44694ae348c5702547a532c98ebba2"
+}

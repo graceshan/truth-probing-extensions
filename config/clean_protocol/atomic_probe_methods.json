@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "atomic_config": "config/clean_protocol/atomic_probes.json",
+  "output_dir": "results/clean_protocol/atomic_method_suite_v1",
+  "burger_sampling_seed": 0,
+  "covariance_pinv_atol": 0.001,
+  "primary_layers": {
+    "qwen25_7b": 17,
+    "qwen3_8b": 28
+  },
+  "sources": [
+    {
+      "repository": "sciai-lab/Truth_is_Universal",
+      "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+      "file": "probes.py",
+      "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/probes.py",
+      "sha256": "794f9b1466f5553dce5d8c52919b9ea2d384aef9fca309996713c5e8f5443833"
+    },
+    {
+      "repository": "sciai-lab/Truth_is_Universal",
+      "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+      "file": "utils.py",
+      "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/utils.py",
+      "sha256": "cfee23eabe78e4d26fbf2ece96ff8dbdf2cad6e50604a6d56a886e2e848da392"
+    },
+    {
+      "repository": "sciai-lab/Truth_is_Universal",
+      "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+      "file": "truth_directions.ipynb",
+      "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/truth_directions.ipynb",
+      "sha256": "98de4f63e60757996bc29067ed76e558ee8f9279598e970862117a9cdc47e22a"
+    },
+    {
+      "repository": "saprmarks/geometry-of-truth",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "file": "probes.py",
+      "url": "https://github.com/saprmarks/geometry-of-truth/blob/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/probes.py",
+      "sha256": "dce29d97e93c08a554d5c173e05228a1596c6d0085acc56dd7f62ed92b5bc8d7"
+    }
+  ],
+  "paper": "https://arxiv.org/html/2407.12831v2",
+  "secondary_rule": "maximum pooled atomic validation AUROC, then lowest saved layer",
+  "scope": "primary atomic TRAIN fitting and VALIDATION selection only; no test or compound data"
+}

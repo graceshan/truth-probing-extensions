@@ -1,0 +1,463 @@
+{
+  "all_saved_parameters_and_validation_metrics_verified": true,
+  "burger_parameters_identical_to_faithful": true,
+  "compound_activations_read": 0,
+  "data": {
+    "allowed_rows_sha256": "1faf186cb28b48311e85fd41921316fad9d06b3d28c9756aa5e8b381a950f1d6",
+    "assignment_sha256": "84004e7276ae458889d7c3253a7dd5ea3abc604748047e6838fda64b10da905d",
+    "manifest_metadata_sha256": "d4eeccdfc46e9e85d4d583790fe2d22442d04a69c619e63b35dcdb878241dacb",
+    "manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+    "model": "Qwen/Qwen3-8B",
+    "sources": [
+      {
+        "activation_file": "acts/qwen3_8b/atomic/cities_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400661000000000,
+        "activation_shape": [
+          1496,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 441188480,
+        "dataset": "cities",
+        "selected_rows_statement_label_sha256": "414a791d7c4a9f5d91121aefd31fc7cd830c374e899db588b7a5e4847b445e23"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/neg_cities_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400719000000000,
+        "activation_shape": [
+          1496,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 441188480,
+        "dataset": "neg_cities",
+        "selected_rows_statement_label_sha256": "f85ea5fb8f9832a625d24b68e219e42f8e5c5008b8d1d4db08d13a69845e847e"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/sp_en_trans_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400734000000000,
+        "activation_shape": [
+          354,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 104398976,
+        "dataset": "sp_en_trans",
+        "selected_rows_statement_label_sha256": "fa0ce39b0cd153b61b2b520e52b7a9d022de6b318d8c28d936b0f06195b551f3"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/neg_sp_en_trans_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400747000000000,
+        "activation_shape": [
+          354,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 104398976,
+        "dataset": "neg_sp_en_trans",
+        "selected_rows_statement_label_sha256": "14a87eb4faf95721de3106a2125781798b80bdc7fba63b5e72fd6bcd9bdcdd72"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/inventors_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400763000000000,
+        "activation_shape": [
+          406,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 119734400,
+        "dataset": "inventors",
+        "selected_rows_statement_label_sha256": "40753c4572d801b4f0d3a71a29c41adaf5bdeec9f47bf49ec96f7f6c88900c0a"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/neg_inventors_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400779000000000,
+        "activation_shape": [
+          406,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 119734400,
+        "dataset": "neg_inventors",
+        "selected_rows_statement_label_sha256": "ead2a94f31fc81a6dd73b7327d956694c0a796507d92dee45637c400d45fd1ea"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/element_symb_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400786000000000,
+        "activation_shape": [
+          186,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 54853760,
+        "dataset": "element_symb",
+        "selected_rows_statement_label_sha256": "83b0660d32cba6551f983d3aa638cc4e6e234ed1eff7f19ae7c860e2252aea6e"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/neg_element_symb_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400794000000000,
+        "activation_shape": [
+          186,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 54853760,
+        "dataset": "neg_element_symb",
+        "selected_rows_statement_label_sha256": "61201f0d5e895ec875a348957f67d29e66e2e847c41eae6f34769cf4de65ed8b"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/animal_class_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400800000000000,
+        "activation_shape": [
+          164,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 48365696,
+        "dataset": "animal_class",
+        "selected_rows_statement_label_sha256": "62c1814a3625c3c2ca4f986e206e8c4394821fcf9f1ec8d4dfe0780c61fb3b6b"
+      },
+      {
+        "activation_file": "acts/qwen3_8b/atomic/neg_animal_class_qwen3_8b_acts.npy",
+        "activation_mtime_ns": 1788400807000000000,
+        "activation_shape": [
+          164,
+          36,
+          4096
+        ],
+        "activation_size_bytes": 48365696,
+        "dataset": "neg_animal_class",
+        "selected_rows_statement_label_sha256": "1ac749acb28f1cb2c4bb6d59725606045a89a28c0c804c4ad4fd889c5e10c15b"
+      }
+    ],
+    "split_counts": [
+      {
+        "form": "affirmative",
+        "rows": 100,
+        "split": "train",
+        "topic": "animal_class"
+      },
+      {
+        "form": "negated",
+        "rows": 100,
+        "split": "train",
+        "topic": "animal_class"
+      },
+      {
+        "form": "affirmative",
+        "rows": 900,
+        "split": "train",
+        "topic": "cities"
+      },
+      {
+        "form": "negated",
+        "rows": 900,
+        "split": "train",
+        "topic": "cities"
+      },
+      {
+        "form": "affirmative",
+        "rows": 114,
+        "split": "train",
+        "topic": "element_symb"
+      },
+      {
+        "form": "negated",
+        "rows": 114,
+        "split": "train",
+        "topic": "element_symb"
+      },
+      {
+        "form": "affirmative",
+        "rows": 246,
+        "split": "train",
+        "topic": "inventors"
+      },
+      {
+        "form": "negated",
+        "rows": 246,
+        "split": "train",
+        "topic": "inventors"
+      },
+      {
+        "form": "affirmative",
+        "rows": 212,
+        "split": "train",
+        "topic": "sp_en_trans"
+      },
+      {
+        "form": "negated",
+        "rows": 212,
+        "split": "train",
+        "topic": "sp_en_trans"
+      },
+      {
+        "form": "affirmative",
+        "rows": 32,
+        "split": "validation",
+        "topic": "animal_class"
+      },
+      {
+        "form": "negated",
+        "rows": 32,
+        "split": "validation",
+        "topic": "animal_class"
+      },
+      {
+        "form": "affirmative",
+        "rows": 298,
+        "split": "validation",
+        "topic": "cities"
+      },
+      {
+        "form": "negated",
+        "rows": 298,
+        "split": "validation",
+        "topic": "cities"
+      },
+      {
+        "form": "affirmative",
+        "rows": 36,
+        "split": "validation",
+        "topic": "element_symb"
+      },
+      {
+        "form": "negated",
+        "rows": 36,
+        "split": "validation",
+        "topic": "element_symb"
+      },
+      {
+        "form": "affirmative",
+        "rows": 81,
+        "split": "validation",
+        "topic": "inventors"
+      },
+      {
+        "form": "negated",
+        "rows": 81,
+        "split": "validation",
+        "topic": "inventors"
+      },
+      {
+        "form": "affirmative",
+        "rows": 73,
+        "split": "validation",
+        "topic": "sp_en_trans"
+      },
+      {
+        "form": "negated",
+        "rows": 73,
+        "split": "validation",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "test_activation_rows_read": 0,
+    "test_labels_loaded": 0
+  },
+  "faithful_parameter_archive_sha256": "eec89df6bbc353460d0bd836b9963d2edd287ae3d204a991afffdef46c64d484",
+  "faithful_provenance_sha256": "6520642e69b1c7a6edb81c53e4e65fb3787c1fc6133dc8ec61a289220a60c93c",
+  "files_sha256": {
+    "parameters.npz": "635dd5ecf50c2bf9cc17bc32edb3911ee01564e1e7aa5ca4a2beebe47cfbe867",
+    "row_ids.json": "864940ae18706117b7b21c609d72bb38d15bf8ace301a0acf9bc1d677e5656a6",
+    "training_rows.csv": "f27b39b852e5af0584d5a932f675b7ba3c75f5696a1a03cf7f08cd2bc6c2f371",
+    "validation_metrics.csv": "68ac56ac8f7842904d6c023713d0ee8e6a6b906c95cc9f54b0211721a7d153fb",
+    "validation_rows.csv": "df28f3c73802d6c455f161538aedde6bee8c7ea0d927719fa5e7755c0b073828"
+  },
+  "fit_rows": 1000,
+  "implementation": {
+    "blas_libraries": [
+      {
+        "architecture": "armv8",
+        "internal_api": "openblas",
+        "threading_layer": "pthreads",
+        "version": "0.3.23.dev"
+      },
+      {
+        "architecture": null,
+        "internal_api": "openmp",
+        "threading_layer": null,
+        "version": null
+      },
+      {
+        "architecture": "armv8",
+        "internal_api": "openblas",
+        "threading_layer": "pthreads",
+        "version": "0.3.21.dev"
+      }
+    ],
+    "blas_threads": 1,
+    "code_sha256": {
+      "config/clean_protocol/atomic_methods_matched.json": "fc94cb3596083149c91fe3a16adbd5539d0a0e3ab5d0ae082c79ff568228115c",
+      "scripts/29_clean_atomic_method_suite.py": "13b29205aea229572d7739fe6ae271129442130e4812b6b4d581287f4ce1ee6c",
+      "scripts/31_matched_atomic_methods.py": "54faeb6619b102eaf4748769aeedc074339d2e4515cc01fbdd49eecc6e19415f",
+      "src/atomic_method_suite.py": "3920cdbc6796f22fe3194ae491a2f223274a6c6b59a5d075fb072e214c924501",
+      "src/atomic_methods_matched.py": "2c4e233c75a663d198a627527ca0cb93b64b286a6e543d2412ed6072a947c420",
+      "src/atomic_probe_methods.py": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+      "src/clean_atomic_method_data.py": "b36d50e316ca8415ebb84107418a1234b78ec9f7b0c2a72e7e9909d3bb24072b",
+      "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+      "src/data.py": "6d27ace781d71740d043f6f0fa71f376c22280745e9e033aa1102b7dce4f7cdc",
+      "src/diff_means.py": "7ff4ae42758721ad74cb7b627360c61b079ec581e0f91ea6d0257eeaf8e5136d",
+      "src/entity_partitions.py": "addb1571c3db61fcae2d158e5ef588cbdb0a907b04af1b71813186f43052f498"
+    },
+    "configuration": {
+      "expected_train_rows": 1000,
+      "expected_validation_rows": 1040,
+      "faithful_config": "config/clean_protocol/atomic_probe_methods.json",
+      "layer_policy": "Fixed model-level layers only; optional secondary sweep not performed",
+      "lr_C": 0.01,
+      "lr_policy": "Refit on matched TRAIN with existing C and solver settings; no new hyperparameter selection",
+      "output_dir": "results/clean_protocol/atomic_method_matched_v1",
+      "primary_layers": {
+        "qwen25_7b": 17,
+        "qwen3_8b": 28
+      },
+      "schema_version": 1
+    },
+    "git_dirty": true,
+    "git_head": "c63df7e2f1d3aea967d2d9689d2453a1aed66d60",
+    "implementation": "clean-atomic-matched-control-v1",
+    "numeric_dtype": "float64",
+    "numpy": "1.26.2",
+    "pandas": "3.0.3",
+    "python": "3.11.6",
+    "scikit_learn": "1.3.2",
+    "scipy": "1.11.4"
+  },
+  "layer": 28,
+  "matched_activation_hash_encoding": "float16 C-order bytes in training_rows.csv order at fixed layer",
+  "matched_training_activations_sha256": "7541e43dc3fa60113e3c2593813813318c94458f6e9e897f7f25d2591bba796f",
+  "method_details": {
+    "burger_t_g": {
+      "fit_rows": 1000,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 1852304.1705757617,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "difference_of_means": {
+      "fit_rows": 1000,
+      "formula": "unit(mean_true - mean_false)",
+      "sign_orientation": "true-minus-false; no validation-dependent flip"
+    },
+    "l2_logistic": {
+      "configuration": {
+        "class_weight": null,
+        "fit_intercept": true,
+        "max_iter": 2000,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "tol": 0.0001
+      },
+      "fit_rows": 1000,
+      "optimization": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 175,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 175,
+        "initial_warning_messages": "[]",
+        "n_iter": 175,
+        "retry_needed": false
+      },
+      "sign_orientation": "LR classes [0,1]; no validation sign flip"
+    },
+    "mass_mean_covariance": {
+      "covariance_divisor": 1000,
+      "covariance_rank_retained": 998,
+      "fit_rows": 1000,
+      "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+      "intercept": "none in upstream iid MM readout",
+      "sign_orientation": "PSD inverse of true-minus-false; no sign flip"
+    },
+    "ttpd": {
+      "fit_rows": 1000,
+      "formula": "unregularized LR([X@t_G, X@polarity_LR.coef])",
+      "head_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 15
+        }
+      ],
+      "polarity_optimizer": [
+        {
+          "convergence_warnings": [],
+          "max_iter": 100,
+          "n_iter": 29
+        }
+      ],
+      "polarity_projection_excludes_intercept": true,
+      "polarity_training_alignment": 70.81180443670218,
+      "sign_orientation": "truth LR classes [0,1]; polarity LR negated=0,affirmative=1",
+      "truth_fit": {
+        "fit_rows": 1000,
+        "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+        "inference": "raw activation dot t_G; no validation centering",
+        "partial_truth_training_alignment": 1852304.1705757617,
+        "polarity_encoding": "negated=-1,affirmative=+1",
+        "sign_orientation": "OLS truth coefficient, never flipped on validation",
+        "truth_encoding": "false=-1,true=+1"
+      }
+    }
+  },
+  "ordered_training_row_ids_sha256": "175267eeb40f2a4a535e4508595c037f676c443313485965ae21764135d0b1ec",
+  "ordered_validation_row_ids_sha256": "11b8952551e3da95ef1f6ab95454639f5a3b07e4df66b0e1618afa2a98148d66",
+  "original_method_definitions": {
+    "atomic_config": "config/clean_protocol/atomic_probes.json",
+    "burger_sampling_seed": 0,
+    "covariance_pinv_atol": 0.001,
+    "output_dir": "results/clean_protocol/atomic_method_suite_v1",
+    "paper": "https://arxiv.org/html/2407.12831v2",
+    "primary_layers": {
+      "qwen25_7b": 17,
+      "qwen3_8b": 28
+    },
+    "schema_version": 1,
+    "scope": "primary atomic TRAIN fitting and VALIDATION selection only; no test or compound data",
+    "secondary_rule": "maximum pooled atomic validation AUROC, then lowest saved layer",
+    "sources": [
+      {
+        "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+        "file": "probes.py",
+        "repository": "sciai-lab/Truth_is_Universal",
+        "sha256": "794f9b1466f5553dce5d8c52919b9ea2d384aef9fca309996713c5e8f5443833",
+        "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/probes.py"
+      },
+      {
+        "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+        "file": "utils.py",
+        "repository": "sciai-lab/Truth_is_Universal",
+        "sha256": "cfee23eabe78e4d26fbf2ece96ff8dbdf2cad6e50604a6d56a886e2e848da392",
+        "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/utils.py"
+      },
+      {
+        "commit": "605ef00514415deb4806969a172f6e13e0798df7",
+        "file": "truth_directions.ipynb",
+        "repository": "sciai-lab/Truth_is_Universal",
+        "sha256": "98de4f63e60757996bc29067ed76e558ee8f9279598e970862117a9cdc47e22a",
+        "url": "https://github.com/sciai-lab/Truth_is_Universal/blob/605ef00514415deb4806969a172f6e13e0798df7/truth_directions.ipynb"
+      },
+      {
+        "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+        "file": "probes.py",
+        "repository": "saprmarks/geometry-of-truth",
+        "sha256": "dce29d97e93c08a554d5c173e05228a1596c6d0085acc56dd7f62ed92b5bc8d7",
+        "url": "https://github.com/saprmarks/geometry-of-truth/blob/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/probes.py"
+      }
+    ]
+  },
+  "test_activation_rows_read": 0,
+  "test_labels_loaded": 0,
+  "timestamp_utc": "2026-09-27T23:20:08.707824+00:00",
+  "training_rows_sha256": "cc276dad34edf412285fde8e32be40ce152dae9ced78b2b4c20754f5fd92a189",
+  "validation_activation_sha256": "4dea4673252dff5f02e93ee19344fbfe51b387efe6d98ba537f826d15023c657",
+  "validation_rows": 1040,
+  "validation_rows_sha256": "27e53b45edc8396b03546d42bf3d46b1056aa936e2095ced8b9db2ef6fe7f5e8",
+  "validation_sign_flips": false
+}
