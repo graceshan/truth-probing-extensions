@@ -42,8 +42,8 @@ are refused before fitting. Outputs retain the shared format:
 `selection.json`, `selected_probe.npz`, `validation_metrics.csv`, `split_counts.csv`.
 The selection's `structural.repaired_cache_files` records SHA-256 and size for
 the extraction manifest, completion receipt, and both activation/metadata pairs;
-`structural.adapter_code_sha256` binds the adapter, pinned CLI, and imported
-extraction-contract module. Existing shared
+`structural.adapter_code_sha256` binds the adapter, pinned CLI, shared repaired-cache
+validator, and imported extraction-contract module. Existing shared
 selection provenance records library versions, configuration, and selection code.
 
 Synthetic adapter and shared-selection tests (no real cache selection):

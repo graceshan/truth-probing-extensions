@@ -20,6 +20,7 @@ from sklearn.linear_model import LogisticRegression
 
 from src import clean_atomic_probes as shared
 from src import pinned_atomic_probes as pinned
+from src import repaired_atomic_cache as cache_validation
 
 
 class PinnedAtomicTests(unittest.TestCase):
@@ -41,9 +42,10 @@ class PinnedAtomicTests(unittest.TestCase):
         self.parts = {s: [r for r in records if r["split"] == s] for s in ("train", "validation")}
         for name, value in (("COUNTS", {"train": 20, "validation": 20}), ("WIDTH", 3),
                             ("INPUT_DIGEST", pinned.digest(pinned.canonical(records)))):
-            patcher = patch.object(pinned, name, value)
-            patcher.start()
-            self.addCleanup(patcher.stop)
+            for module in (pinned, cache_validation):
+                patcher = patch.object(module, name, value)
+                patcher.start()
+                self.addCleanup(patcher.stop)
         for split, rows in self.parts.items():
             (self.cache / split).mkdir()
             self.write_metadata(split, rows)
