@@ -151,6 +151,42 @@ def test_isolated_lifecycle_no_historical_test_or_method_dependencies(fixture, m
     assert root / validation.CACHE / "completion.json" in opened
 
 
+def test_static_historical_failure_is_provenance_only(fixture, monkeypatch):
+    root, _, _, _, _ = fixture
+    guard(monkeypatch, root)
+    result = compound.run("smoke", root=root)
+    manifest = json.loads(Path(result["diagnostics"]).read_text())
+    field = "superseded_historical_representation"
+    provenance = manifest[field]
+    assert provenance["status"] == "failed_compatibility"
+    for flag in ("canonical_for_current_extraction", "used_as_gate", "historical_caches_opened"):
+        assert provenance[flag] is False
+    assert "supersedes them" in provenance["reason"]
+    assert provenance["prior_diagnostic"] == {
+        "source": "previously established diagnostic; static context, not recomputed by this extractor",
+        "sample": "deterministic 10-row train/validation sample",
+        "comparison": "historical versus fresh float16 activations",
+        "overall_max_abs": 4.0,
+        "overall_mean_abs": 0.019086328928111768,
+        "saved_layer_17_max_abs": 0.375,
+        "saved_layer_17_mean_abs": 0.01360274042401995,
+        "saved_float16_byte_equal": False,
+        "literal_legacy_regime_reproduced_mismatch": True}
+    assert field not in manifest["representation"]
+    assert field not in manifest["smoke_test"]
+    baseline = manifest["representation_fingerprint"]
+    for action in ("unchanged", "changed", "removed"):
+        candidate = copy.deepcopy(manifest)
+        if action == "changed":
+            candidate[field] = {"status": "arbitrary informational context"}
+        elif action == "removed":
+            del candidate[field]
+        assert compound.fingerprint(candidate["representation"]) == baseline
+        compound.require_canonical_gates(candidate)
+    settings = {**atomic.contract(), field: provenance}
+    assert compound.fingerprint(compound.representation_fields(settings)) == baseline
+
+
 def test_full_production_row_count_shape_and_no_model_in_plan(fixture, monkeypatch):
     root, _, _, manifest, rows = fixture
     assert compound.LAYERS == 28

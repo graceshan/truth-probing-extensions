@@ -72,6 +72,12 @@ model/tokenizer revisions must resolve to
 `a09a35458c702b33eeacc393d103063234e8bc28`; model config-file, tokenizer config-file,
 and tokenizer-backend hashes must also match the repaired producer.
 
+The manifest also records `superseded_historical_representation` as static
+informational provenance: the historical Qwen2.5 representation failed compatibility
+and is superseded. Its ten-row diagnostic measurements are prior context, never
+recomputed here. This field is outside the representation fingerprint and canonical
+gates; recording it reads neither historical caches nor old compatibility reports.
+
 ## Exact gates
 
 Plan verifies static inputs and representation binding, prints the expected

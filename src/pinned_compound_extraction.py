@@ -180,6 +180,24 @@ def make_manifest(root, output, benchmark, binding, samples, model_info):
     head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, text=True, capture_output=True)
     return {"schema_version": 1, "representation": binding["representation"],
             "representation_fingerprint": binding["representation_fingerprint"],
+            "superseded_historical_representation": {
+                "status": "failed_compatibility",
+                "canonical_for_current_extraction": False,
+                "used_as_gate": False,
+                "historical_caches_opened": False,
+                "reason": "Historical Qwen2.5 atomic activations materially disagreed with the pinned revision "
+                          "under the literal legacy batch-size-1/no-padding extraction regime; "
+                          "the pinned repaired representation supersedes them.",
+                "prior_diagnostic": {
+                    "source": "previously established diagnostic; static context, not recomputed by this extractor",
+                    "sample": "deterministic 10-row train/validation sample",
+                    "comparison": "historical versus fresh float16 activations",
+                    "overall_max_abs": 4.0,
+                    "overall_mean_abs": 0.019086328928111768,
+                    "saved_layer_17_max_abs": 0.375,
+                    "saved_layer_17_mean_abs": 0.01360274042401995,
+                    "saved_float16_byte_equal": False,
+                    "literal_legacy_regime_reproduced_mismatch": True}},
             "repaired_atomic_binding": binding, "atomic_replay_sample_sha256": fingerprint(samples),
             "resolved_model": model_info, "execution_contract": atomic.contract(),
             "numerics": {"batch_size": 1, "runtime": runtime_provenance()},
