@@ -1,11 +1,23 @@
 # Priority-2 same-fact input controls v1
 
-Implementation only. No production generation, coverage measurement, extraction,
-new probe scores, bootstrap or scientific-result inspection was performed locally.
+Implementation and pre-production coverage audit only. No production generation,
+extraction, new probe scores, bootstrap or scientific-result inspection occurred.
 This adds one shared pipeline for the first Priority-2 bridge experiments; it does
 not modify the canonical raw generator, cache, LR spec/results, scripts 33–40,
 entity split or fitted probe. No chat, behavioral prompting, additional models,
 new split seeds, atomic TEST or compound test paths are implemented.
+
+The initial implementation attempted to reuse exact repaired atomic rows for
+isolated scores. A real pre-production coverage audit found duplicate exact
+VALIDATION source rows for three true Spanish facts: perro/dog, caballo/horse,
+and vaca/cow. The original ambiguity guard correctly stopped that audit.
+Before any Priority-2 scores were computed, the protocol was simplified to
+freshly extract all 524 unique required isolated facts. This avoids arbitrary
+duplicate-source selection and removes mixed-source score provenance. It costs
+524 isolated forwards, uses the same canonical representation, and changes no
+metric, bootstrap definition, or scientific selection rule. The repaired cache
+remains a provenance/reference, representation-binding, coverage-diagnostic and
+replay-gate input; it supplies no isolated scientific scores.
 
 ## Conditions, identities and exact templates
 
@@ -26,7 +38,7 @@ text and terminal period. The versioned template ID equals its condition ID.
 | `or_explicit_or_both_v1` | 4,192 new | `render_binary(first, second, 'OR').removesuffix('.') + ', or both.'` |
 | `or_at_least_one_v1` | 4,192 new | `'At least one of the following is true: ' + first + ' ' + second` |
 | `juxtaposition_v1` | 4,192 new | `first + ' ' + second` |
-| `isolated_constituents_v1` | 524 required unique facts | Exact isolated fact sentence; only missing facts are newly extracted |
+| `isolated_constituents_v1` | 524 new | Every exact unique isolated fact sentence, freshly extracted |
 
 The existing `render_binary` primitive is reused unchanged for OR-both: it strips
 one final period from each clause and lowercases only a leading `The ` in the
@@ -54,32 +66,43 @@ text-only matching, historical-cache fallback or test partition is permitted.
 The repaired cache does not contain compound fact IDs. The explicit provenance
 bridge is therefore:
 
-`canonical fact_id -> exact fact tuple -> repaired dataset/row_index + cache split/index`.
+`canonical fact_id -> exact fact tuple -> all repaired candidate provenance`.
 
-A reused row binds to the six-file validated repaired-cache identity. Multiple
-exact candidates are rejected as ambiguous. Missing identities are listed with
-fact ID, entity ID, statement and their deterministic extraction ID. They become
-new DEVELOPMENT/VALIDATION extraction rows. Full coverage produces **zero** new
-isolated rows. The number of missing facts M is measured, never guessed;
-0 ≤ M ≤ 524. Extraction contains exactly 12,576 + M statements.
+This audit is diagnostic only. Each required fact is classified as `no_match`,
+`unique_exact_match`, or `duplicate_exact_match`. The report records `required`
+and all three category counts. Every identity records its exact match count and
+all candidates, including cache split/index, dataset, original row_index, form,
+label, statement, entity_id and topic. Duplicate matches neither select a source
+row nor block generation; activation equality is never used to resolve them.
+The report explicitly declares
+`isolated_scoring_source = "fresh_priority2_extraction"` and
+`fresh_isolated_rows = 524`, independent of coverage.
+
+All 524 canonical isolated fact keys and statements are unique and appear once
+in the new DEVELOPMENT/VALIDATION extraction input. Extraction always contains
+exactly **13,100** statements: three conditions of 4,192 plus 524 isolated rows.
+The real diagnostic found 88 no-match, 433 unique-exact-match and 3 duplicate-exact-
+match facts. These are provenance counts, not scientific condition sizes.
 
 Generation writes exclusively under
 `data/clean_protocol/priority2_input_controls_v1/`:
 
 - One label-aware metadata CSV per new wording/juxtaposition condition.
 - `isolated_facts.csv`: exact fact identity and coverage-audit metadata.
-- `isolated_sources.csv`: truth-free pointers to repaired rows or missing-fact
-  extraction IDs.
+- `isolated_sources.csv`: truth-free fresh-extraction identities only. Every row
+  has `source_kind=fresh_extraction`, empty `cache_split`/`cache_row_index`, and
+  `example_id=fact_key`. Repaired scientific source pointers are forbidden.
 - `constituent_map.csv`: each of 8,384 base IDs mapped to its A/B isolated fact keys.
 - `scoring_index.csv`: only example ID, condition ID and base ID.
 - `statements.csv`: only example ID, condition ID, statement, split, protocol and
   evaluation phase; no truth labels or formal operators.
-- `coverage.json`: exact counts, missing/existing identities and extraction requirement.
+- `coverage.json`: diagnostic categories, exact candidate provenance and the
+  fixed fresh-isolated scoring policy.
 - `generation_manifest.json`: complete marker published last, input/output hashes,
   repaired-cache identities, frozen templates and implementation source hashes.
 
 Generation is byte-deterministic, refuses an existing destination and provides
-an audit-only mode that creates no output files.
+an audit-only mode that creates no output files and does not invoke generation.
 
 ## Pinned extraction
 
@@ -107,7 +130,7 @@ New cache:
 `acts/clean_protocol/priority2_input_controls_v1/qwen25_a09a354_bs1_bf16_v1/`
 
 - `metadata.csv`: byte-identical truth-free `statements.csv` sidecar.
-- `activations.npy`: C-order float16, shape `[12576 + M, 28, 3584]`.
+- `activations.npy`: C-order float16, shape `[13100, 28, 3584]`.
 - `extraction_manifest.json`: representation, tokenizer/model identities,
   generation hashes, per-condition counts, runtime, code and replay/smoke evidence.
 - `progress.json`: durable contiguous row journal and completed full-file hash.
@@ -127,8 +150,9 @@ CPU preflight checks all generated/extracted file hashes, NPY shape/order/dtype,
 complete contiguous progress, canonical representation and passing gates. It
 reads only identity/scope projections for raw compound metadata. Truth-bearing
 generated fact metadata is projected to fact key/ID, statement, entity and topic
-to recheck exact repaired-cache pointers; no constituent truth column is parsed.
-Statement/pointer/index headers are checked before dataframe parsing. Activation
+to check every fresh isolated ID and exact statement against the new extraction
+table; no constituent truth column is parsed. Statement/source/index headers are
+checked before dataframe parsing. Activation
 files are hashed as opaque bytes; no numerical activation matrix or probe scores
 are materialized during preflight/freeze.
 
@@ -137,13 +161,21 @@ The new strict production spec is
 It pins actual generation/extraction/LR-reference hashes and sizes, counts,
 fixed templates, the LR selection, metrics, bootstrap, contrasts, composition,
 prohibitions and output schemas. Unknown keys and changed policies are rejected.
+`condition_counts` contains only the four actual extracted conditions:
+`or_explicit_or_both_v1: 4192`, `or_at_least_one_v1: 4192`,
+`juxtaposition_v1: 4192`, `isolated_constituents_v1: 524`.
+The coverage diagnostic is pinned through its generated file hash and the
+generation-manifest hash; it cannot change cardinality or scoring source. The
+spec and generation/extraction/scoring manifests explicitly bind the fresh
+isolated scoring source and reject the prior reuse policy.
 No production spec is shipped with this implementation. Preflight must succeed on
 the real artifact host, then freeze must revalidate it. Review and commit the
 exact spec before scoring: the scorer checks its bytes against Git HEAD.
 
 Scoring uses one BLAS thread, selected-layer float64 batches and unchanged
-`X @ coef + intercept`. All isolated scores come from actual isolated activation
-rows, either the exact repaired row or a freshly extracted missing-fact row.
+`X @ coef + intercept`. All 524 isolated scores come from the new Priority-2
+isolated activation rows. The isolated score selector only accepts fresh
+extraction identities and never opens repaired atomic activation arrays.
 Compound activations are never used to infer an isolated score.
 
 New result root: `results/clean_protocol/priority2_input_controls_v1/`.
@@ -257,7 +289,8 @@ not command-line overrides.
 
 `tests/test_priority2_input_controls.py` uses synthetic facts, tiny activation
 widths and deterministic fake readouts. It exercises full 8,384-row generation,
-byte determinism, coverage/missing/ambiguous identities, all extraction gates and
+byte determinism, diagnostic zero/one/duplicate exact matches, fixed extraction
+counts, fresh-only isolated score provenance, all extraction gates and
 shared writer, frozen affine scores, truth-blind parsing, label-aware evaluation,
 Boolean zero handling, paired contrasts, no archive reads in evaluation and
 byte preservation of all synthetic raw references. No real model loads or new

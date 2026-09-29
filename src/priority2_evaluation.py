@@ -30,6 +30,8 @@ def load(root,spec):
               manifest['score_columns'] == t.SCORE_COLUMNS and manifest['isolated_columns'] == t.ISOLATED_COLUMNS and
               manifest['fit_operations'] == 0 and manifest['compound_truth_columns_materialized'] is False and
               manifest['compound_labels_used'] is False and manifest['test_accessed'] is False, 'scoring binding mismatch')
+    c.require(manifest['isolated_scoring_source'] == spec['isolated_scoring_source'] == p.ISOLATED_SCORING_SOURCE,
+              'isolated scoring provenance mismatch')
     for name in ['condition_scores.csv','isolated_scores.csv']:
         c.require(c.record(c.safe_path(root,p.OUTPUT+'/scores/'+name)) == manifest['outputs'][name], 'score hash mismatch')
     generation,files = p.verify_generation(root)
@@ -41,6 +43,7 @@ def load(root,spec):
     isolated = pd.read_csv(output/'isolated_scores.csv',keep_default_na=False,float_precision='round_trip')
     index = pd.read_csv(c.safe_path(root,p.DATA+'/scoring_index.csv'),dtype=str,keep_default_na=False)
     sources = pd.read_csv(c.safe_path(root,p.DATA+'/isolated_sources.csv'),dtype=str,keep_default_na=False)
+    t.validate_isolated_sources(sources)
     c.require(list(scores) == t.SCORE_COLUMNS and scores.iloc[:,:3].equals(index) and scores.example_id.is_unique and
               len(scores) == manifest['condition_rows'] == 3*c.ROWS//2 and np.isfinite(scores.frozen_probe_score).all() and
               c.ordered_hash(scores.example_id) == manifest['ordered_example_id_sha256'], 'condition identity/cardinality mismatch')

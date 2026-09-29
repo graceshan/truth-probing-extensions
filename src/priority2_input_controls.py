@@ -1,4 +1,4 @@
-"""Deterministic same-fact input controls and exact isolated-fact coverage audit."""
+"""Same-fact controls with fresh isolated extraction and diagnostic coverage."""
 import pandas as pd
 
 from src import clean_transfer_contracts as c
@@ -18,6 +18,7 @@ BOTH = 'or_explicit_or_both_v1'
 LEAST = 'or_at_least_one_v1'
 JUX = 'juxtaposition_v1'
 ISO = 'isolated_constituents_v1'
+ISOLATED_SCORING_SOURCE = 'fresh_priority2_extraction'
 EXTERNAL = 'isolated_external_minmax_v1'
 BOOLEAN = 'isolated_external_boolean_v1'
 TEXT_CONDITIONS = [BOTH, LEAST, JUX]
@@ -30,6 +31,11 @@ STATEMENT_FIELDS = ['example_id', 'condition_id', 'statement', 'split', 'protoco
 SOURCE_FIELDS = ['fact_key', 'source_kind', 'cache_split', 'cache_row_index', 'example_id']
 FILES = [BOTH+'.csv', LEAST+'.csv', JUX+'.csv', 'isolated_facts.csv', 'isolated_sources.csv',
          'constituent_map.csv', 'statements.csv', 'scoring_index.csv', 'coverage.json', 'generation_manifest.json']
+
+
+def condition_counts():
+    """Fixed canonical extraction: three 4,192-row controls plus 524 facts."""
+    return {**{k: c.ROWS//2 for k in TEXT_CONDITIONS}, ISO: 2*c.BENCHMARK['entities']}
 
 
 def identifier(kind, value):
@@ -62,7 +68,8 @@ def validate_base(raw):
                          (row['fact_b_statement'], row['fact_a_statement']))
         c.require(row['statement'] == render_binary(first, second, row['operator']), 'raw wording/fact identity mismatch')
     facts = pd.DataFrame(inventory).drop_duplicates().sort_values('fact_key').reset_index(drop=True)
-    c.require(facts.fact_id.is_unique and facts.fact_key.is_unique and len(facts) == 2*c.BENCHMARK['entities'],
+    c.require(facts.fact_id.is_unique and facts.fact_key.is_unique and facts.statement.is_unique and
+              len(facts) == condition_counts()[ISO],
               'fact identity is not one-to-one with entity/truth')
     grouped = frame.groupby(['pair_id', 'canonical_truth_a', 'canonical_truth_b', 'ordering'])
     for _, part in grouped:
@@ -100,42 +107,43 @@ def variants(raw):
 
 
 def coverage(facts, cache):
+    """Diagnose exact TRAIN/VALIDATION matches without selecting scoring rows."""
     lookup = {}
     for split in ['train', 'validation']:
         for index, row in enumerate(cache.rows[split]):
+            c.require(row['split'] == split and row['label'] in (0, 1), 'forbidden coverage scope/label')
             key = (row['statement'], row['entity_id'], row['topic'], bool(row['label']))
             lookup.setdefault(key, []).append((split, index, row))
     sources, details = [], []
+    counts = dict(no_match=0, unique_exact_match=0, duplicate_exact_match=0)
     for row in facts.to_dict('records'):
         key = (row['statement'], row['entity_id'], row['topic'], row['truth'])
         matches = lookup.get(key, [])
-        c.require(len(matches) <= 1, 'ambiguous exact isolated-fact match; no arbitrary cache row selection')
-        if matches:
-            split, index, atom = matches[0]
-            source = dict(fact_key=row['fact_key'], source_kind='repaired', cache_split=split, cache_row_index=index, example_id='')
-            detail = dict(source, fact_id=row['fact_id'], entity_id=row['entity_id'], statement=row['statement'],
-                          dataset=atom['dataset'], row_index=atom['row_index'])
-        else:
-            source = dict(fact_key=row['fact_key'], source_kind='extract', cache_split='', cache_row_index='', example_id=row['fact_key'])
-            detail = dict(source, fact_id=row['fact_id'], entity_id=row['entity_id'], statement=row['statement'])
-        sources.append(source)
-        details.append(detail)
+        classification = 'no_match' if not matches else 'unique_exact_match' if len(matches) == 1 else 'duplicate_exact_match'
+        counts[classification] += 1
+        candidates = [dict(cache_split=split, cache_row_index=index,
+                          **{k: atom[k] for k in ['dataset', 'row_index', 'form', 'label', 'statement', 'entity_id', 'topic']})
+                      for split, index, atom in matches]
+        sources.append(dict(fact_key=row['fact_key'], source_kind='fresh_extraction', cache_split='',
+                            cache_row_index='', example_id=row['fact_key']))
+        details.append(dict(**row, classification=classification, exact_match_count=len(matches), candidates=candidates))
     sources = pd.DataFrame(sources, columns=SOURCE_FIELDS)
-    missing = facts[facts.fact_key.isin(sources.loc[sources.source_kind == 'extract', 'fact_key'])]
     report = dict(schema_version=1, exact_match_fields=['statement', 'entity_id', 'topic', 'truth'],
-        provenance_bridge='canonical fact_id -> exact tuple -> repaired dataset/row_index and cache split/index',
-        required=len(facts), covered=len(facts)-len(missing), missing=len(missing),
-        extraction_required=bool(len(missing)), identities=details, atomic_test_accessed=False)
-    return sources, missing, report
+        provenance_bridge='diagnostic only: canonical fact_id -> exact tuple -> all repaired candidate provenance',
+        required=len(facts), **counts, isolated_scoring_source=ISOLATED_SCORING_SOURCE,
+        fresh_isolated_rows=len(facts), identities=details, atomic_test_accessed=False)
+    return sources, report
 
 
 def build(raw, cache):
     tables, facts, mapping = variants(raw)
-    sources, missing, audit = coverage(facts, cache)
+    sources, audit = coverage(facts, cache)
     statements = [tables[k][STATEMENT_FIELDS] for k in TEXT_CONDITIONS]
-    extra = missing.rename(columns={'fact_key': 'example_id'}).assign(condition_id=ISO)
+    extra = facts.rename(columns={'fact_key': 'example_id'}).assign(condition_id=ISO)
     statements.append(extra[STATEMENT_FIELDS])
     extraction = pd.concat(statements, ignore_index=True).sort_values(['condition_id', 'example_id']).reset_index(drop=True)
+    c.require(extraction.groupby('condition_id').size().to_dict() == condition_counts() and
+              extraction.example_id.is_unique, 'fixed extraction coverage mismatch')
     index = pd.concat([tables[k][['example_id', 'condition_id', 'base_example_id']] for k in TEXT_CONDITIONS], ignore_index=True)
     return {**{k+'.csv': csv_bytes(v) for k, v in tables.items()}, 'isolated_facts.csv': csv_bytes(facts),
         'isolated_sources.csv': csv_bytes(sources), 'constituent_map.csv': csv_bytes(mapping),
@@ -147,9 +155,10 @@ def generate(root=c.ROOT, *, audit_only=False):
     c.require(c.file_hash(path) == c.METADATA_SHA, 'canonical raw benchmark hash mismatch')
     cache = RepairedAtomicCache(root)
     raw = pd.read_csv(path, dtype=str, keep_default_na=False)
-    payloads, audit = build(raw, cache)
     if audit_only:
-        return audit
+        _, facts, _ = validate_base(raw)
+        return coverage(facts, cache)[1]
+    payloads, audit = build(raw, cache)
     output = c.safe_path(root, DATA)
     c.require(not output.exists(), 'refusing existing generation output')
     output.mkdir(parents=True)
@@ -157,7 +166,8 @@ def generate(root=c.ROOT, *, audit_only=False):
         with (output / name).open('xb') as handle: handle.write(payload)
     c.publish_json(output / 'generation_manifest.json', dict(complete=True, version=VERSION,
         raw_benchmark=c.record(path), repaired_cache_files=cache.files, templates=TEMPLATES,
-        condition_counts={k: c.ROWS//2 for k in TEXT_CONDITIONS}, isolated_facts=audit['required'], missing_facts=audit['missing'],
+        condition_counts=condition_counts(), isolated_scoring_source=ISOLATED_SCORING_SOURCE,
+        fresh_isolated_rows=audit['fresh_isolated_rows'],
         test_accessed=False, resampled=False,
         source_sha256={name:c.file_hash(c.ROOT/name) for name in ['src/priority2_input_controls.py','src/clean_compounds.py']},
         outputs={n: c.record(output / n) for n in payloads}))
@@ -169,7 +179,9 @@ def verify_generation(root, cache=None):
     manifest = c.read_json(paths['generation_manifest.json'])
     c.require(manifest['complete'] is True and manifest['version'] == VERSION and manifest['templates'] == TEMPLATES and
               manifest['raw_benchmark']['sha256'] == c.METADATA_SHA and manifest['test_accessed'] is False and
-              manifest['resampled'] is False and manifest['condition_counts'] == {k: c.ROWS//2 for k in TEXT_CONDITIONS}, 'generation identity mismatch')
+              manifest['resampled'] is False and manifest['condition_counts'] == condition_counts() and
+              manifest['isolated_scoring_source'] == ISOLATED_SCORING_SOURCE and
+              manifest['fresh_isolated_rows'] == condition_counts()[ISO], 'generation identity mismatch')
     c.require(set(manifest['outputs']) == set(FILES)-{'generation_manifest.json'}, 'generation file allowlist')
     files = {n: c.record(p) for n, p in paths.items()}
     c.require(all(files[n] == r for n, r in manifest['outputs'].items()), 'generation hash mismatch')

@@ -72,7 +72,25 @@ def test_full_canonical_counts_templates_and_determinism():
     cache = synthetic_cache(facts,covered=set())
     a,audit = p.build(raw,cache)
     b,_ = p.build(raw,cache)
-    assert a == b and audit['missing'] == 524 and audit['extraction_required']
+    assert a == b and audit['no_match'] == 524
+    # Coverage never controls extraction cardinality or scientific source.
+    for candidate in [cache, synthetic_cache(facts)]:
+        payloads,report = p.build(raw,candidate)
+        statements = pd.read_csv(io.BytesIO(payloads['statements.csv']),keep_default_na=False)
+        sources = pd.read_csv(io.BytesIO(payloads['isolated_sources.csv']),keep_default_na=False)
+        assert statements.groupby('condition_id').size().to_dict() == {
+            p.BOTH:4192,p.LEAST:4192,p.JUX:4192,p.ISO:524}
+        assert len(statements) == 13100
+        isolated = statements[statements.condition_id == p.ISO]
+        assert isolated.example_id.is_unique and isolated.statement.is_unique
+        assert set(isolated.example_id) == set(facts.fact_key)
+        assert isolated.set_index('example_id').statement.to_dict() == facts.set_index('fact_key').statement.to_dict()
+        assert set(sources.source_kind) == {'fresh_extraction'}
+        assert sources.cache_split.eq('').all() and sources.cache_row_index.eq('').all()
+        assert sources.fact_key.equals(sources.example_id)
+        assert report['fresh_isolated_rows'] == 524 and report['isolated_scoring_source'] == 'fresh_priority2_extraction'
+        assert payloads['statements.csv'] == a['statements.csv']
+        assert payloads['isolated_sources.csv'] == a['isolated_sources.csv']
 
 
 def test_coverage_exact_provenance_missing_and_ambiguity(monkeypatch):
@@ -81,21 +99,47 @@ def test_coverage_exact_provenance_missing_and_ambiguity(monkeypatch):
     monkeypatch.setattr(c,'BENCHMARK',expected)
     _,facts,_ = p.variants(raw_facts(frame))
     cache = synthetic_cache(facts)
-    sources,missing,audit = p.coverage(facts,cache)
-    assert not len(missing) and not audit['extraction_required'] and audit['covered'] == len(facts)
-    assert set(sources.source_kind) == {'repaired'}
+    sources,audit = p.coverage(facts,cache)
+    assert audit['no_match'] == audit['duplicate_exact_match'] == 0 and audit['unique_exact_match'] == len(facts)
+    assert set(sources.source_kind) == {'fresh_extraction'}
     cache.rows['validation'][0]['statement'] += ' '
-    sources,missing,audit = p.coverage(facts,cache)
-    assert len(missing) == 1 and audit['extraction_required']
+    sources,audit = p.coverage(facts,cache)
+    assert audit['no_match'] == 1
     cache = synthetic_cache(facts)
     cache.rows['validation'][0]['entity_id'] = 'different_entity'
-    assert len(p.coverage(facts,cache)[1]) == 1
+    assert p.coverage(facts,cache)[1]['no_match'] == 1
+    cache = synthetic_cache(facts)
+    cache.rows['validation'][0]['topic'] = 'different_topic'
+    assert p.coverage(facts,cache)[1]['no_match'] == 1
     cache = synthetic_cache(facts)
     cache.rows['validation'][0]['label'] = 1-cache.rows['validation'][0]['label']
-    assert len(p.coverage(facts,cache)[1]) == 1
+    assert p.coverage(facts,cache)[1]['no_match'] == 1
     cache = synthetic_cache(facts)
-    cache.rows['validation'].append(cache.rows['validation'][0].copy())
-    with pytest.raises(ValueError,match='ambiguous'): p.coverage(facts,cache)
+    # Same structure as the real issue: identical true Spanish key, distinct
+    # original row indices in repaired VALIDATION, both affirmative.
+    index = next(i for i,r in enumerate(cache.rows['validation']) if r['topic']=='sp_en_trans' and r['label']==1)
+    duplicate = {**cache.rows['validation'][index], 'row_index':10000}
+    cache.rows['validation'].append(duplicate)
+    sources,audit = p.coverage(facts,cache)
+    assert audit['duplicate_exact_match'] == 1 and audit['unique_exact_match'] == len(facts)-1
+    detail = next(r for r in audit['identities'] if r['classification']=='duplicate_exact_match')
+    expected_candidates = [dict(cache_split='validation',cache_row_index=i,
+        **{k:cache.rows['validation'][i][k] for k in ['dataset','row_index','form','label','statement','entity_id','topic']})
+        for i in [index,len(cache.rows['validation'])-1]]
+    assert detail['candidates'] == expected_candidates and detail['exact_match_count'] == 2
+    assert sources.cache_split.eq('').all() and sources.cache_row_index.eq('').all()
+    assert sources.example_id.equals(sources.fact_key)
+    class NoTest(dict):
+        def __getitem__(self,key):
+            assert key in ['train','validation'], 'TEST accessed'
+            return super().__getitem__(key)
+    cache.rows = NoTest(cache.rows)
+    payloads,_ = p.build(raw_facts(frame),cache)
+    repeated,_ = p.build(raw_facts(frame),cache)
+    assert payloads == repeated
+    assert len(pd.read_csv(io.BytesIO(payloads['statements.csv']))) == sum(p.condition_counts().values())
+    cache.rows['validation'][0]['split'] = 'test'
+    with pytest.raises(ValueError,match='scope'): p.coverage(facts,cache)
     raw = raw_facts(frame)
     raw.loc[0,'split'] = 'test'
     with pytest.raises(ValueError,match='scope'): p.variants(raw)
@@ -109,6 +153,50 @@ def test_composition_formulas_and_zero_boundary():
     np.testing.assert_array_equal(continuous,[-2.,0.,2.,2.,-3.,0.])
     np.testing.assert_array_equal(boolean,[False,True,True,True,False,True])
     with pytest.raises(ValueError): e.composition(a,b,['XOR']*6)
+
+
+def test_audit_does_not_generate_and_duplicate_does_not_block_generation(tmp_path,monkeypatch):
+    frame,expected = graph()
+    monkeypatch.setattr(c,'ROWS',len(frame))
+    monkeypatch.setattr(c,'BENCHMARK',expected)
+    raw = raw_facts(frame)
+    _,facts,_ = p.variants(raw)
+    cache = synthetic_cache(facts)
+    cache.files = {}
+    row = next(r for r in cache.rows['validation'] if r['topic']=='sp_en_trans' and r['label']==1)
+    cache.rows['validation'].append({**row,'row_index':10000})
+    monkeypatch.setattr(p,'RepairedAtomicCache',lambda root:cache)
+    path = tmp_path/p.RAW
+    path.parent.mkdir(parents=True)
+    raw.to_csv(path,index=False)
+    monkeypatch.setattr(c,'METADATA_SHA',c.file_hash(path))
+    original = path.read_bytes()
+    with monkeypatch.context() as patch:
+        patch.setattr(p,'build',lambda *a:pytest.fail('audit invoked generation'))
+        audit = p.generate(tmp_path,audit_only=True)
+    assert audit['duplicate_exact_match'] == 1
+    assert audit['required'] == audit['fresh_isolated_rows'] == len(facts)
+    assert audit['isolated_scoring_source'] == p.ISOLATED_SCORING_SOURCE
+    assert audit['atomic_test_accessed'] is False and not (tmp_path/p.DATA).exists()
+    result = p.generate(tmp_path)
+    assert result['generated'] is True
+    manifest,_ = p.verify_generation(tmp_path,cache)
+    assert manifest['condition_counts'] == p.condition_counts()
+    assert 'missing_facts' not in manifest and path.read_bytes() == original
+    ex.Statements(tmp_path/p.DATA/'statements.csv')
+
+
+def test_metric_and_bootstrap_policy_unchanged():
+    lr = c.spec_template({}, {})
+    spec = t.template(lr, {}, {}, {}, p.condition_counts())
+    assert spec['bootstrap'] == lr['bootstrap']
+    assert spec['statistics'] == lr['statistics']
+    assert spec['formal_metrics'] == [d for d in lr['metrics'] if d['category'] in ['primary','boundary']]
+    assert spec['boolean_metrics'] == [d for d in lr['metrics'] if d['category']=='threshold']
+    assert spec['composition'] == dict(continuous_and='min(s_A,s_B)',continuous_or='max(s_A,s_B)',
+        boolean_and='(s_A>=0) and (s_B>=0)',boolean_or='(s_A>=0) or (s_B>=0)',
+        interpretation='two isolated model evaluations plus a known parse/external composition rule',boolean_auroc_reported=False)
+    assert spec['condition_counts'] == {p.BOTH:4192,p.LEAST:4192,p.JUX:4192,p.ISO:524}
 
 
 @pytest.fixture
@@ -212,7 +300,12 @@ def test_fake_extraction_truth_blind_scoring_and_evaluation(controls,monkeypatch
             t.freeze_spec(root)
         with pytest.raises(ValueError,match='commit exact'): t.score(root)
         monkeypatch.setattr(t,'committed_spec',lambda root:None)
-        t.score(root)
+        def score_load(path,*args,**kwargs):
+            assert not Path(path).is_relative_to(root/c.ATOMIC), 'isolated scoring opened repaired atomic array'
+            return load(path,*args,**kwargs)
+        with monkeypatch.context() as patch:
+            patch.setattr(np,'load',score_load)
+            t.score(root)
     scores=pd.read_csv(root/p.OUTPUT/'scores/condition_scores.csv',float_precision='round_trip')
     isolated=pd.read_csv(root/p.OUTPUT/'scores/isolated_scores.csv',float_precision='round_trip')
     assert list(scores)==t.SCORE_COLUMNS and list(isolated)==t.ISOLATED_COLUMNS
@@ -267,21 +360,25 @@ def test_extraction_gates_and_input_tamper(controls,monkeypatch):
     with pytest.raises(ValueError,match='generation hash'): ex.run('plan',root)
 
 
-def test_isolated_readouts_reuse_exact_rows_and_no_test_interface(controls):
-    root,_,_,_=controls
-    with np.load(root/c.PROBE/'selected_probe.npz',allow_pickle=False) as z:
-        probe=dict(layer=int(z['layer']),coef=z['coef'][0],intercept=float(z['intercept'][0]))
-    sources=pd.DataFrame([dict(fact_key='one',source_kind='repaired',cache_split='train',cache_row_index='2',example_id=''),
-                          dict(fact_key='two',source_kind='repaired',cache_split='validation',cache_row_index='3',example_id='')])
-    result=t.isolated_readouts(root,sources,{},probe,256)
-    for key,split,index in [('one','train',2),('two','validation',3)]:
-        X=np.load(root/c.ATOMIC/split/'activations.npy',allow_pickle=False)
-        assert result[key]==pytest.approx(X[index,17].astype(float)@probe['coef']+probe['intercept'])
-    extra=pd.DataFrame([dict(fact_key='three',source_kind='extract',cache_split='',cache_row_index='',example_id='three')])
-    mixed=t.isolated_readouts(root,pd.concat([sources,extra],ignore_index=True),{'three':-4.25},probe,1)
-    assert mixed=={**result,'three':-4.25}
-    sources.loc[0,'cache_split']='test'
-    with pytest.raises(ValueError,match='coverage'): t.isolated_readouts(root,sources,{},probe,256)
+def test_isolated_readouts_fresh_only_without_file_access(monkeypatch):
+    monkeypatch.setattr(c,'BENCHMARK',dict(entities=1))
+    sources=pd.DataFrame([dict(fact_key=key,source_kind='fresh_extraction',cache_split='',cache_row_index='',example_id=key)
+                          for key in ['one','two']],columns=p.SOURCE_FIELDS)
+    def forbidden(*args,**kwargs):
+        pytest.fail('isolated score selection attempted file/activation access')
+    monkeypatch.setattr(np,'load',forbidden)
+    monkeypatch.setattr(builtins,'open',forbidden)
+    monkeypatch.setattr(io,'open',forbidden)
+    monkeypatch.setattr(os,'open',forbidden)
+    extracted={'one':-4.25,'two':1.5}
+    assert t.isolated_readouts(sources,extracted) == extracted
+    for key,value in [('source_kind','repaired'),('source_kind','extract'),('cache_split','test'),
+                      ('cache_split','validation'),('cache_row_index','3'),('example_id','compound_row')]:
+        altered=sources.copy()
+        altered.loc[0,key]=value
+        with pytest.raises(ValueError,match='fresh isolated source'): t.isolated_readouts(altered,extracted)
+    for scores in [{'one':1.}, {**extracted,'compound':3.}, {'one':np.nan,'two':1.}]:
+        with pytest.raises(ValueError,match='coverage'): t.isolated_readouts(sources,scores)
 
 
 def test_truth_free_statement_header_rejected_before_parsing(tmp_path,monkeypatch):
@@ -315,7 +412,10 @@ def test_manifest_spec_and_score_corruption_fail_closed(controls,monkeypatch):
     spec=t.validate(c.read_json(root/p.SPEC))
     for mutate in [lambda s:s.update(unknown=True),lambda s:s['bootstrap'].update(seed=1),
                    lambda s:s['templates'].update({p.JUX:'A blah B.'}),lambda s:s['composition'].update(continuous_and='mean(s_A,s_B)'),
-                   lambda s:s['condition_counts'].update({p.BOTH:4191}),lambda s:s['inputs']['extraction']['files']['activations.npy'].update(sha256='placeholder')]:
+                   lambda s:s['condition_counts'].update({p.BOTH:4191}),
+                   lambda s:s['condition_counts'].update(missing_isolated=0),
+                   lambda s:s.update(isolated_scoring_source='repaired'),
+                   lambda s:s['inputs']['extraction']['files']['activations.npy'].update(sha256='placeholder')]:
         candidate=copy.deepcopy(spec)
         mutate(candidate)
         with pytest.raises(ValueError): t.validate(candidate)

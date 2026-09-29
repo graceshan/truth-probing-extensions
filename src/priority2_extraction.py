@@ -26,6 +26,9 @@ class Statements:
                   set(self.frame.split) <= set(c.BENCHMARK['allowed_splits']) and
                   set(self.frame.evaluation_phase) <= set(c.BENCHMARK['allowed_phases']) and
                   set(self.frame.protocol) == {'entity_disjoint'}, 'forbidden extraction scope')
+        isolated = self.frame[self.frame.condition_id == p.ISO]
+        c.require(self.frame.groupby('condition_id').size().to_dict() == p.condition_counts() and
+                  isolated.statement.is_unique, 'fixed extraction condition counts/isolated statements')
         self.hashes = dict(benchmark_sha256=c.digest(self.payload), sidecar_sha256=c.digest(self.payload),
             ordered_example_id_sha256=c.ordered_hash(self.frame.example_id), ordered_statement_sha256=c.ordered_hash(self.frame.statement))
 
@@ -43,6 +46,10 @@ class Statements:
 def require_gates(manifest):
     from src import pinned_compound_extraction as shared
     shared.require_canonical_gates(manifest)
+    c.require(manifest['condition_counts'] == p.condition_counts() and
+              manifest['isolated_scoring_source'] == p.ISOLATED_SCORING_SOURCE and
+              manifest['data']['expected_activation_shape'] == [sum(p.condition_counts().values()), c.LAYERS, c.WIDTH],
+              'fixed fresh-isolated extraction contract')
     smoke = manifest['smoke_test']['compound_smoke']
     expected = set(manifest['condition_counts'])
     c.require(set(smoke['conditions']) == expected and all(r['passed'] is True and r['batch_size'] == 1 and
@@ -72,10 +79,10 @@ def run(mode='plan', root=c.ROOT):
     generation, files = p.verify_generation(root, cache)
     benchmark = Statements(c.safe_path(root, p.DATA+'/statements.csv'))
     counts = benchmark.frame.groupby('condition_id').size().to_dict()
-    expected = {k: c.ROWS//2 for k in p.TEXT_CONDITIONS}
-    if generation['missing_facts']: expected[p.ISO] = generation['missing_facts']
+    expected = p.condition_counts()
     c.require(counts == expected and binding['representation_fingerprint'] == c.FINGERPRINT, 'extraction shape/representation')
     plan = dict(condition_counts=counts, shape=[len(benchmark.frame), c.LAYERS, c.WIDTH],
+                isolated_scoring_source=p.ISOLATED_SCORING_SOURCE,
                 representation_fingerprint=c.FINGERPRINT, output=p.ACTS, model_loaded=False)
     if mode == 'plan': return plan
     model, tokenizer, info = atomic.load_pinned_model()
@@ -88,6 +95,7 @@ def run(mode='plan', root=c.ROOT):
     manifest = dict(schema_version=1, representation=binding['representation'], representation_fingerprint=c.FINGERPRINT,
         repaired_atomic_binding=binding, atomic_replay_sample_sha256=shared.fingerprint(samples),
         execution_contract=atomic.contract(), resolved_model=info, generation_files=files, condition_counts=counts,
+        isolated_scoring_source=p.ISOLATED_SCORING_SOURCE,
         superseded_historical_representation=dict(status='failed_compatibility', used_as_gate=False, historical_caches_opened=False),
         numerics=dict(batch_size=1, runtime=shared.runtime_provenance()),
         data=dict(**benchmark.hashes, metadata_columns=list(benchmark.frame.columns), number_of_examples=len(benchmark.frame),
@@ -137,11 +145,15 @@ def verify(root, cache, generation_files):
               'replay gate failed')
     counts = benchmark.frame.groupby('condition_id').size().to_dict()
     smoke = gates['compound_smoke']
-    c.require(manifest['condition_counts'] == counts and smoke['passed'] is True and set(smoke['conditions']) == set(counts) and
+    c.require(manifest['condition_counts'] == counts == p.condition_counts() and
+              manifest['isolated_scoring_source'] == p.ISOLATED_SCORING_SOURCE and
+              smoke['passed'] is True and set(smoke['conditions']) == set(counts) and
               all(r['passed'] is True and r['batch_size'] == 1 and r['padding'] is False and r['policy'] == 'unpadded-single-repeat-direct-exact-v1'
                   for r in smoke['conditions'].values()), 'condition smoke failed')
     shape = [len(benchmark.frame), c.LAYERS, c.WIDTH]
-    c.require(manifest['data']['expected_activation_shape'] == shape and all(manifest['data'][k] == v for k,v in benchmark.hashes.items()), 'extraction data mismatch')
+    c.require(manifest['data']['expected_activation_shape'] == shape and
+              manifest['data']['number_of_examples'] == sum(p.condition_counts().values()) and
+              all(manifest['data'][k] == v for k,v in benchmark.hashes.items()), 'extraction data mismatch')
     array_header(paths['activations.npy'], tuple(shape))
     # Same identity rule as the shared durable writer, without importing GPU modules.
     identity = dict(manifest)

@@ -30,6 +30,7 @@ def template(lr_spec, generation, cache, lr_ref, counts):
     return dict(schema_version=1, analysis_id=p.VERSION, lr_spec=lr_spec, lr_spec_sha256=reference.LR_SPEC_SHA,
         inputs=dict(generation=dict(directory=p.DATA, files=generation), extraction=dict(directory=p.ACTS, files=cache), lr_reference=lr_ref),
         representation_fingerprint=c.FINGERPRINT, templates=p.TEMPLATES, condition_counts=counts,
+        isolated_scoring_source=p.ISOLATED_SCORING_SOURCE,
         scoring=lr_spec['scoring'], expected_selection=lr_spec['expected_selection'], bootstrap=lr_spec['bootstrap'],
         statistics=lr_spec['statistics'], benchmark=lr_spec['benchmark'],
         formal_metrics=[d for d in lr_spec['metrics'] if d['category'] in ['primary', 'boundary']],
@@ -62,9 +63,7 @@ def validate(spec):
               ref['files']['evaluation/evaluation_manifest.json']['sha256'] == reference.LR_EVALUATION_SHA and
               ref['files']['evaluation/primary_metrics.csv']['sha256'] == reference.LR_PRIMARY_SHA, 'LR reference identity')
     counts = spec['condition_counts']
-    c.require(set(counts) == set(p.TEXT_CONDITIONS+[p.ISO,'missing_isolated']) and
-              all(counts[k] == c.ROWS//2 for k in p.TEXT_CONDITIONS) and counts[p.ISO] == 2*c.BENCHMARK['entities'] and
-              type(counts['missing_isolated']) is int and 0 <= counts['missing_isolated'] <= counts[p.ISO], 'condition counts')
+    c.require(counts == p.condition_counts() and all(type(v) is int for v in counts.values()), 'condition counts')
     c.require(c.canonical(spec) == c.canonical(template(lr, entries['generation']['files'], entries['extraction']['files'], ref, counts)),
               'unknown keys or altered frozen policy')
     return spec
@@ -79,7 +78,7 @@ def inspect(root):
     generated, files = p.verify_generation(root,cache)
     acts, statements = extraction.verify(root,cache,files)
     ref, _ = lr_reference(root,lr)
-    counts = {**generated['condition_counts'], p.ISO:generated['isolated_facts'], 'missing_isolated':generated['missing_facts']}
+    counts = generated['condition_counts']
     spec = validate(template(lr,files,acts,ref,counts))
     # These generated tables contain identities/pointers only, never truth columns.
     def identity_table(name, columns):
@@ -91,24 +90,15 @@ def inspect(root):
     sources = identity_table('isolated_sources.csv',p.SOURCE_FIELDS)
     facts = pd.read_csv(c.safe_path(root,p.DATA+'/isolated_facts.csv'),
         usecols=['fact_key','fact_id','entity_id','topic','statement'],dtype=str,keep_default_na=False).set_index('fact_key')
-    c.require(facts.index.is_unique and set(facts.index) == set(sources.fact_key), 'isolated fact identity coverage')
+    c.require(facts.index.is_unique and facts.statement.is_unique and set(facts.index) == set(sources.fact_key), 'isolated fact identity coverage')
     c.require(list(index) == ['example_id','condition_id','base_example_id'] and index.example_id.is_unique and
               index.groupby('condition_id').size().to_dict() == {k:c.ROWS//2 for k in p.TEXT_CONDITIONS}, 'scoring index invalid')
-    c.require(list(sources) == p.SOURCE_FIELDS and sources.fact_key.is_unique and len(sources) == counts[p.ISO] and
-              set(sources.source_kind) <= {'repaired','extract'}, 'isolated source schema')
+    validate_isolated_sources(sources)
     for row in sources.itertuples():
-        if row.source_kind == 'repaired':
-            c.require(row.cache_split in ['train','validation'] and row.cache_row_index.isdigit() and
-                      0 <= int(row.cache_row_index) < len(cache.rows[row.cache_split]) and row.example_id == '', 'forbidden cache pointer')
-            atom = cache.rows[row.cache_split][int(row.cache_row_index)]
-            fact = facts.loc[row.fact_key]
-            c.require(all(atom[key] == fact[key] for key in ['statement','entity_id','topic']), 'isolated exact cache pointer mismatch')
-        else:
-            c.require(row.cache_split == row.cache_row_index == '' and row.example_id == row.fact_key, 'missing isolated pointer')
-            selected = statements[statements.example_id == row.example_id]
-            c.require(len(selected) == 1 and selected.statement.iloc[0] == facts.loc[row.fact_key,'statement'], 'isolated extraction statement mismatch')
+        selected = statements[(statements.condition_id == p.ISO) & (statements.example_id == row.example_id)]
+        c.require(len(selected) == 1 and selected.statement.iloc[0] == facts.loc[row.fact_key,'statement'], 'isolated extraction statement mismatch')
     c.require(set(index.example_id) == set(statements.loc[statements.condition_id != p.ISO,'example_id']) and
-              set(sources.loc[sources.source_kind == 'extract','example_id']) == set(statements.loc[statements.condition_id == p.ISO,'example_id']), 'extraction identity coverage')
+              set(sources.example_id) == set(statements.loc[statements.condition_id == p.ISO,'example_id']), 'extraction identity coverage')
     joined = index.merge(statements[['example_id','condition_id']],on='example_id',validate='one_to_one',suffixes=('_index','_extraction'))
     c.require(joined.condition_id_index.eq(joined.condition_id_extraction).all(), 'condition ID mapping mismatch')
     return spec,probe,statements,index,sources
@@ -147,19 +137,19 @@ def code():
     return dict(version=p.VERSION,source_sha256={name:c.file_hash(c.ROOT/name) for name in SOURCES})
 
 
-def isolated_readouts(root,sources,extracted,probe,batch_size):
-    """Score previously verified exact TRAIN/VALIDATION pointers, never compound values."""
-    isolated = {}
-    for split in ['train','validation']:
-        rows = sources[(sources.source_kind == 'repaired') & (sources.cache_split == split)]
-        if not len(rows): continue
-        array = np.load(c.safe_path(root,c.ATOMIC+'/'+split+'/activations.npy'),mmap_mode='r',allow_pickle=False)
-        for start in range(0,len(rows),batch_size):
-            batch = rows.iloc[start:start+batch_size]
-            result = affine(array[batch.cache_row_index.astype(int).to_numpy(),probe['layer'],:],probe['coef'],probe['intercept'])
-            isolated.update(zip(batch.fact_key,map(float,result)))
-        del array
-    isolated.update({r.fact_key:extracted[r.example_id] for r in sources[sources.source_kind == 'extract'].itertuples()})
+def validate_isolated_sources(sources):
+    c.require(list(sources) == p.SOURCE_FIELDS and sources.fact_key.is_unique and
+              len(sources) == p.condition_counts()[p.ISO] and sources.fact_key.str.strip().ne('').all() and
+              sources.source_kind.eq('fresh_extraction').all() and sources.cache_split.eq('').all() and
+              sources.cache_row_index.eq('').all() and sources.example_id.eq(sources.fact_key).all(),
+              'fresh isolated source contract')
+
+
+def isolated_readouts(sources, extracted):
+    """Select only fresh isolated scores; no cache, archive, or probe read API."""
+    validate_isolated_sources(sources)
+    c.require(set(extracted) == set(sources.example_id), 'fresh isolated extraction coverage incomplete')
+    isolated = {r.fact_key: extracted[r.example_id] for r in sources.itertuples()}
     c.require(len(isolated) == len(sources) and np.isfinite(list(isolated.values())).all(), 'isolated source coverage incomplete')
     return isolated
 
@@ -180,7 +170,8 @@ def score(root=c.ROOT):
             result = affine(array[start:stop,probe['layer'],:],probe['coef'],probe['intercept'])
             scores.update(zip(statements.example_id.iloc[start:stop],map(float,result)))
         del array
-        isolated = isolated_readouts(root,sources,scores,probe,spec['scoring']['batch_size'])
+        isolated_ids = statements.loc[statements.condition_id == p.ISO, 'example_id']
+        isolated = isolated_readouts(sources, {key: scores[key] for key in isolated_ids})
     table = index.copy()
     table['frozen_probe_score'] = table.example_id.map(scores)
     isolated_table = pd.DataFrame(dict(fact_key=sources.fact_key,frozen_probe_score=sources.fact_key.map(isolated)))
@@ -195,6 +186,7 @@ def score(root=c.ROOT):
         inputs=spec['inputs'],representation_fingerprint=c.FINGERPRINT,selected_layer=probe['layer'],C=probe['C'],
         selected_probe_sha256=probe['files']['selected_probe.npz']['sha256'],
         condition_rows=len(table),isolated_rows=len(isolated_table),
+        isolated_scoring_source=p.ISOLATED_SCORING_SOURCE,
         ordered_example_id_sha256=c.ordered_hash(table.example_id),ordered_fact_key_sha256=c.ordered_hash(isolated_table.fact_key),
         score_columns=SCORE_COLUMNS,isolated_columns=ISOLATED_COLUMNS,fit_operations=0,compound_truth_columns_materialized=False,
         compound_labels_used=False,test_accessed=False,provenance=code(),
