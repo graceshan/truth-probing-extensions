@@ -45,9 +45,9 @@ def write_cache(root, stage, rows, binding, values):
 
 
 @pytest.fixture
-def suite(tmp_path, monkeypatch):
+def suite(tmp_path, monkeypatch, request):
     root = tmp_path
-    monkeypatch.setattr(l, 'LAYERS', 2)
+    monkeypatch.setattr(l, 'LAYERS', getattr(request, 'param', 2))
     monkeypatch.setattr(l, 'WIDTH', 3)
     c.publish_json(root/l.PIN, synthetic_pin())
     monkeypatch.setattr(l, 'sources', lambda root: {'synthetic': 'd'*64})
@@ -102,6 +102,92 @@ def test_loader_selector_readonly_verifier(suite, monkeypatch):
     np.testing.assert_allclose(tr.affine(values, coef, intercept), sklearn_probe.decision_function(values), rtol=0, atol=1e-14)
     with (root/l.PROBE/'selected_probe.npz').open('ab') as handle: handle.write(b'bad')
     with pytest.raises(ValueError, match='hash mismatch'): pr.verify_probe(root)
+
+
+@pytest.fixture
+def zero_iteration_grid(suite, monkeypatch, request):
+    """Use the real producer on balanced, zero-feature synthetic training rows."""
+    root, _ = suite
+    original_fit = pr.selector.fit_converged_probe
+    zero_all_layers = getattr(request, 'param', False)
+    def fit(X, labels, C, *, layer):
+        # Exercise an arbitrary layer, not a special case for production layer 0.
+        if zero_all_layers or layer == l.LAYERS-1:
+            X = np.zeros_like(X)
+        return original_fit(X, labels, C, layer=layer)
+    monkeypatch.setattr(pr.selector, 'fit_converged_probe', fit)
+    monkeypatch.setattr(ex, 'transfer_rows', lambda *a: pytest.fail('compound access'))
+    selected = pr.select(root)
+    metrics = pd.read_csv(root/l.PROBE/'validation_metrics.csv', float_precision='round_trip')
+    zero = metrics[metrics.layer == l.LAYERS-1]
+    assert len(zero) == len(pr.selector.C_VALUES)
+    assert zero.initial_n_iter.eq(0).all() and zero.final_n_iter.eq(0).all()
+    assert zero.final_converged.eq(True).all() and zero.final_convergence_status.eq('converged').all()
+    for column in ['retry_needed', 'initial_convergence_warning', 'convergence_warning']:
+        assert zero[column].eq(False).all()
+    monkeypatch.setattr(pr.selector, 'fit_converged_probe', lambda *a, **k: pytest.fail('verification refit'))
+    monkeypatch.setattr(pr.Partition, 'matrix', lambda *a: pytest.fail('verification read activation rows'))
+    return root, selected, metrics
+
+
+@pytest.mark.parametrize('suite', [32], indirect=True)
+@pytest.mark.parametrize('zero_iteration_grid', [False, True], indirect=True,
+                         ids=['zero-iteration-nonwinner', 'zero-iteration-winner'])
+def test_complete_zero_iteration_grid_verifies(zero_iteration_grid, monkeypatch):
+    root, selected, metrics = zero_iteration_grid
+    assert len(metrics) == 160
+    before = {str(path): c.record(path) for directory in [root/l.ATOMIC, root/l.PROBE]
+              for path in directory.rglob('*') if path.is_file()}
+    opened = []
+    original_open = Path.open
+    def atomic_only(path, *args, **kwargs):
+        if path.is_relative_to(root):
+            assert path == root/l.PIN or any(path.is_relative_to(root/name) for name in [l.ATOMIC, l.PROBE])
+            opened.append(path)
+        return original_open(path, *args, **kwargs)
+    monkeypatch.setattr(Path, 'open', atomic_only)
+    verified, _, _, structural = pr.verify_probe(root)
+    assert opened and verified == selected
+    winner = min(metrics.to_dict('records'), key=pr.selector.selection_key)
+    assert (verified['selected_layer'], verified['selected_C']) == (winner['layer'], winner['C'])
+    assert structural['test_accessed'] is False and structural['compound_accessed'] is False
+    data = pr.AtomicData(root)
+    assert data.activation_rows_read == dict(train=0, validation=0, test=0)
+    for split in ['test', 'final', 'compound', 'transfer']:
+        with pytest.raises(PermissionError): data.partition(split)
+    assert {name: c.record(Path(name)) for name in before} == before
+
+
+@pytest.mark.parametrize('mutation', ['nonconverged', 'warning', 'failed_status', 'negative_iterations',
+                                    'over_budget', 'incomplete', 'wrong_winner'])
+def test_zero_iteration_grid_keeps_other_gates(zero_iteration_grid, mutation):
+    root, selected, metrics = zero_iteration_grid
+    index = metrics.index[metrics.layer == l.LAYERS-1][0]
+    if mutation == 'nonconverged':
+        metrics.loc[index, 'final_converged'] = False
+    elif mutation == 'warning':
+        metrics.loc[index, 'convergence_warning'] = True
+    elif mutation == 'failed_status':
+        metrics.loc[index, 'final_convergence_status'] = 'failed'
+    elif mutation == 'negative_iterations':
+        metrics.loc[index, 'final_n_iter'] = -1
+    elif mutation == 'over_budget':
+        metrics.loc[index, 'final_n_iter'] = metrics.loc[index, 'final_max_iter']+1
+    elif mutation == 'incomplete':
+        metrics = metrics.drop(index)
+    else:
+        selected['selected_layer'] = l.LAYERS-1
+    # Rebind synthetic hashes so the semantic gate, rather than integrity, fails.
+    directory = root/l.PROBE
+    metrics.to_csv(directory/'validation_metrics.csv', index=False)
+    selected['validation_metrics_sha256'] = c.file_hash(directory/'validation_metrics.csv')
+    (directory/'selection.json').write_bytes(c.canonical(selected))
+    receipt = c.read_json(directory/'completion.json')
+    for name in ['validation_metrics.csv', 'selection.json']:
+        receipt['files'][name] = c.record(directory/name)
+    (directory/'completion.json').write_bytes(c.canonical(receipt))
+    error = 'validation-only winner mismatch' if mutation == 'wrong_winner' else 'complete converged validation grid required'
+    with pytest.raises(ValueError, match=error): pr.verify_probe(root)
 
 
 def test_tiny_llama_native_positions_last_token_and_hidden_indexing():

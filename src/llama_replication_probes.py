@@ -89,7 +89,7 @@ def verify_probe(root=c.ROOT):
               metrics.final_converged.eq(True).all() and metrics.convergence_warning.eq(False).all() and
               metrics.validation_overall_auroc.between(0, 1).all() and
               metrics.final_convergence_status.eq('converged').all() and
-              (metrics.final_n_iter > 0).all() and (metrics.final_n_iter <= metrics.final_max_iter).all(),
+              (metrics.final_n_iter >= 0).all() and (metrics.final_n_iter <= metrics.final_max_iter).all(),
               'complete converged validation grid required')
     winner = min(metrics.to_dict('records'), key=selector.selection_key)
     c.require(winner['layer'] == selection['selected_layer'] and winner['C'] == selection['selected_C'] and

@@ -130,6 +130,9 @@ Exact ties prefer smaller C, then lower layer. L2 logistic includes an intercept
 no scaling/class weighting, and float64 solver inputs. The existing convergence
 policy retries a convergence warning from scratch at 10,000 iterations, then
 fails if still unconverged. No validation refit or sign flip is implemented.
+Successful fits without a convergence warning may report zero optimizer
+iterations. The Llama verifier accepts nonnegative iteration counts within the
+recorded final iteration budget, matching the shared producer's semantics.
 Layer 17 is not assumed or preferred.
 
 The completed probe must have the entire 160-configuration converged grid,
