@@ -1,0 +1,37 @@
+{
+  "status": "proposed_only_requires_review",
+  "score_blind": true,
+  "rules": [
+    {
+      "id": "documented_overseas_residential_postings_v1",
+      "trigger": "Inventor source false affirmatives whose exact country has independently documented residential diplomatic, military/research, employment or study postings.",
+      "confirmed_examples": [
+        "inventors:36",
+        "inventors:153"
+      ],
+      "action": "Versioned exclusion of affirmative and paired negation, with positive evidence attached; no relabeling or partition moves.",
+      "targeted_revalidation": "Across outer train/D/E, enumerate retained inventor false affirmatives and inspect institutional full biographies for foreign postings/residences. Normalize only approved country spellings, resolve person identity, and manually adjudicate exact claim. No arbitrary travel-duration cutoff, and no country-set nonmembership inference. Preserve original sample outcomes and distinguish newly discovered cases."
+    },
+    {
+      "id": "semantic_uncertainty_quarantine_v1",
+      "trigger": "Unresolved exact residence claims, slash-separated country subjects, historical/current border ambiguity, or joint-person subjects lacking evidence for every named person.",
+      "action": "Propose paired quarantine of unresolved sample rows; create a separately versioned targeted queue for analogous rows across all outer partitions. Do not apply automatic new truth labels.",
+      "targeted_revalidation": "Inventory all retained inventor slash/joint-person rows and historically time-dependent location claims using source facts only. Freeze any new residence/geography/subject interpretation before adjudicating that targeted population; preserve which interpretations change each judgment."
+    },
+    {
+      "id": "franklin_candidate_positive_evidence_v1",
+      "trigger": "The exact historical Franklin/France negative candidate.",
+      "action": "Preserve original rejected status and attach new positive residence evidence separately. Do not include it in sample error counts or invent paired original source IDs."
+    }
+  ],
+  "not_authorized_here": [
+    "apply_overlay_changes",
+    "resample",
+    "reserve_A_or_P",
+    "fit",
+    "extract",
+    "read_activations",
+    "generate_compounds",
+    "read_final_test_predictions"
+  ]
+}
