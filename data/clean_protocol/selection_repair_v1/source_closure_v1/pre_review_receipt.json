@@ -1,0 +1,9 @@
+{
+  "queue_sha256": "c710fd1e2ab88a04608c0af6fc0d15a7e032e961805085c1fed4a40a3685dc42",
+  "policy_sha256": "b93676057519ec4432e8495f171a6575c24c51b37ea3a98d89d30d2306ce4be0",
+  "timing": "Policy and exact seven-row queue saved before new external retrievals",
+  "host": "Darwin",
+  "head": "b8e27508f20bab896a46f448081f43ed32d919c4",
+  "origin_matches_head": true,
+  "pull_needed": false
+}

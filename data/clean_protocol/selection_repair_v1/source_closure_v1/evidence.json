@@ -1,0 +1,186 @@
+{
+  "marconi_home": {
+    "id": "marconi_home",
+    "url": "https://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "fetch_result": "200\nhttps://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "58de2bc4ad76c1824fb3c52bff1f1dca148e5e9830ea3f64e0fdcc7de165bbce",
+    "text_sha256": "bb1a69803083037c2e081c43e089c603516b3574a81b7f3050a1e88bab12c6bb",
+    "title": "Guglielmo Marconi | Pioneer | Blue Plaques | English Heritage",
+    "authority": "English Heritage institutional address record",
+    "observations": [
+      {
+        "locator": "Extracted text lines 283-283; locate by quoted text",
+        "excerpt": "GUGLIELMO MARCONI 1874-1937 THE PIONEER OF WIRELESS COMMUNICATION lived here in 1896-1897"
+      }
+    ],
+    "actual_support_and_limitations": "Explicit lived-here plaque, London 1896–1897; address-specific residence, not inferred from nationality.",
+    "inspection": "Saved T2C full response reinspection",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "v1_evidence_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "v1_evidence_id": "marconi_home",
+    "corroborates_residence": true
+  },
+  "brill2": {
+    "id": "brill2",
+    "url": "https://www.invent.org/inductees/yvonne-brill",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/yvonne-brill",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "89b1c9355dfbd491ae83e73e29f4fe80b93003c0279226f8de925e0f56f953f5",
+    "text_sha256": "87f35af5652ca3a7335daba7f1c472f0193ba7db0ccbd31690b280f73ad2deb7",
+    "title": "Yvonne Brill | National Inventors Hall of Fame® Inductee",
+    "authority": "National Inventors Hall of Fame institutional biography",
+    "observations": [
+      {
+        "locator": "Extracted text lines 102-102; locate by quoted text",
+        "excerpt": "Following her graduation, Brill accepted a position at Douglas Aircraft Co. in California, where she began to pursue rocket science – and during this time, it is believed she was the only woman in the U.S. working as a rocket scientist. As she grew particularly interested in rocket propulsion, Brill took graduate classes in her free time, eventually earning her master’s degree in chemistry from the University of Southern California in 1951."
+      }
+    ],
+    "actual_support_and_limitations": "Explicit California employment combined with concurrent graduate classes and USC degree supports residential work/study. No claim about her entire life.",
+    "inspection": "Saved T2C full response reinspection",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "v1_evidence_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "v1_evidence_id": "brill2",
+    "corroborates_residence": true
+  },
+  "kapany_ucsc": {
+    "id": "kapany_ucsc",
+    "url": "https://news.ucsc.edu/2020/12/narinder-kapany-in-memoriam.html",
+    "fetch_result": "200\nhttps://news.ucsc.edu/2020/12/narinder-kapany-in-memoriam/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7e98026886a9048d656ee478adab59c6b20fcfab2beabc46371c06cec5b865d0",
+    "text_sha256": "44c3470045a64b478ddaf93102c39d8f34c7f95d352230fe3a6885d5c71f4572",
+    "title": "Narinder Kapany, known as the ‘father of fiber optics,’ dies at 94 - News",
+    "authority": "University of California Santa Cruz institutional obituary",
+    "observations": [
+      {
+        "locator": "Extracted text lines 31-31; locate by quoted text",
+        "excerpt": "Born in India, Kapany went to England for graduate school and spent the bulk of his career in the United States. A graduate of Agra University in India, he completed advanced studies in optics at Imperial College London and received his Ph.D. from the University of London in 1955. As a graduate student working alongside Harold Hopkins at Imperial College in 1953, Kapany was the first to successfully transmit high-quality images through a bundle of optical fibers."
+      }
+    ],
+    "actual_support_and_limitations": "Explicitly went to England for graduate school, advanced study in London and 1955 PhD; documents relocation for study rather than merely naming an institution. 1950s London supports the UK claim case-specifically, without changing country normalization.",
+    "inspection": "Actual retrieved source text inspected; not a search snippet",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "corroborates_residence": true
+  },
+  "gobel_city": {
+    "id": "gobel_city",
+    "url": "https://www.springe.de/portal/seiten/heinrich-goebel-900000162-24600.html?rubrik=900000002",
+    "fetch_result": "200\nhttps://www.springe.de/portal/seiten/heinrich-goebel-900000162-24600.html?rubrik=900000002",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dfef44d99b06cecdb0d8e97753d2bd3c3d7d2db63b6542214950bf00f058983f",
+    "text_sha256": "7fae429bba611dd40d6ce946ad1f5f52fb55d50817e02efd0bd33a5b9b15eb34",
+    "title": "Heinrich Göbel | Stadt Springe",
+    "authority": "Stadt Springe municipal history",
+    "observations": [
+      {
+        "locator": "Extracted text lines 184-184; locate by quoted text",
+        "excerpt": "Die Springer Bürger ehrten seit 1929 Heinrich Göbel als Erfinder der Glühlampe, was an verschiedenen Stellen in der Stadt sichtbar ist. Das Göbelhaus in seiner schlichten Ausstrahlung lässt nicht vermuten, dass hier in der Straße Zum Oberntor 30 einst Heinrich Göbel lebte. Ein Bronzerelief mit einer ewig brennenden Glühlampe erinnert an den 1848 nach New York emigrierten Springer Bürger. Im Museum auf dem Burghof befasst sich eine Abteilung mit Heinrich Göbel. So kann man dort erfahren, dass man glaubte, Heinrich Göbel habe kurz vor seinem Tode in einem Prozess die gebührende Anerkennung erhalten, bereits 25 Jahre vor dem Amerikaner Thomas Edison eine gebrauchsfertige Glühlampe erfunden zu haben. Diese Geschichte wird hier aber auch aus der Sicht Hans-Christian Rohdes beleuchtet, der in seiner Dissertation von 2007 die Erfindung der Glühlampe durch Heinrich Göbel zu widerlegen versucht."
+      }
+    ],
+    "actual_support_and_limitations": "Explicit 1848 emigration to New York supports settlement; invention-priority legends on the page are disputed and are not evidence for this residence judgment.",
+    "inspection": "Actual retrieved source text inspected; not a search snippet",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "corroborates_residence": true
+  },
+  "gobel_patent": {
+    "id": "gobel_patent",
+    "url": "https://patents.google.com/patent/US266358A/en",
+    "fetch_result": "200\nhttps://patents.google.com/patent/US266358A/en",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "59138f61ea0572f389b1263a307f8a2771e01bce8bc7ae03e27993f28bbd698b",
+    "text_sha256": "a33172c2e0416e9058d5d23c4bbc829b0cfa58cc44aa1adcf572c06ded69c9a0",
+    "title": "US266358A - Henry goebel - Google Patents",
+    "authority": "Contemporary US patent, reproduced by Google Patents",
+    "observations": [
+      {
+        "locator": "Extracted text lines 113-113; locate by quoted text",
+        "excerpt": "Be it known that I, HENRY GoEBEL, of the city, county, and State of New York, have invented certain new and useful Improvements 5 in Electric Incandescent Lamps, of which the following is a specification."
+      }
+    ],
+    "actual_support_and_limitations": "Corroborates Henry Goebel of New York. Locality alone would be narrower than proof of residence; municipal emigration evidence supplies settlement for Heinrich Göbel.",
+    "inspection": "Saved T2C full response reinspection",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "v1_evidence_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "v1_evidence_id": "gobel_patent",
+    "corroborates_residence": false
+  },
+  "ericsson_archive": {
+    "id": "ericsson_archive",
+    "url": "https://archive.org/stream/lifeofjohnericss011402mbp/lifeofjohnericss011402mbp_djvu.txt",
+    "fetch_result": "200\nhttps://archive.org/stream/lifeofjohnericss011402mbp/lifeofjohnericss011402mbp_djvu.txt",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e7c3567be8b794f5acc178d791148d0fb1cfb681f3c067ac7c646a0298080db2",
+    "text_sha256": "60efd6644c574b2a447682ba5a5dd6c9f4685fc7be98140d608aed8abe3c67d9",
+    "title": "The Life of John Ericsson, Volume I — William Conant Church (1906 edition; copyright 1890)",
+    "authority": "William Conant Church, The Life of John Ericsson, vol. I (1906 scanned edition; copyright 1890), historical biography quoting personal recollections",
+    "observations": [
+      {
+        "locator": "Extracted text lines 4480-4481; locate by quoted text",
+        "excerpt": "When he first came to New York Captain Ericsson took up his residence at the Astor house, in those days a famous hos-"
+      },
+      {
+        "locator": "Extracted text lines 4615-4617; locate by quoted text",
+        "excerpt": "I last saw Captain Ericsson on July 1, 1887, at his home, Beach Street, New York. Being on my way to England, I 'called to say good- by ; we had not met for several years. He was very cordial-, going"
+      },
+      {
+        "locator": "Extracted text lines 4633-4638; locate by quoted text",
+        "excerpt": "she had a trying passage, arriving in a state of complete ex- haustion. She remained with Captain Ericsson for a time at the Astor House, and until they transferred their residence to No. 95 Franklin Street, where he had his office as well as his home. This was a fine house in that day, and stories of John's extravagant living went back to Sweden, as would appear from"
+      }
+    ],
+    "actual_support_and_limitations": "Chapter Removal to the United States, pp.111,114–115: Astor House residence, an eyewitness visit to Beach Street home in 1887, and Franklin Street office/home. OCR contains errors; addresses and residence wording are explicit. Archive hosting itself is not endorsement of every biographical claim.",
+    "inspection": "Actual retrieved source text inspected; not a search snippet",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "corroborates_residence": true,
+    "bibliographic_locator": "Extracted text lines 227–239, title and copyright pages"
+  },
+  "walton_memoir_text": {
+    "id": "walton_memoir_text",
+    "url": "https://archive.org/download/in.ernet.dli.2015.180126/2015.180126.Myself-Not-Least-Being-The-Personal-Reminiscences-Of-X_djvu.txt",
+    "fetch_result": "200\nhttps://dn760008.eu.archive.org/0/items/in.ernet.dli.2015.180126/2015.180126.Myself-Not-Least-Being-The-Personal-Reminiscences-Of-X_djvu.txt",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "bc8f77dd6a672ac37f9e3aa4d6245340db73246fa9f7788fe563f814a8febce5",
+    "text_sha256": "fb70c824adc58544b9c91985bea0dc22b09129fca12389ccc5bca192787d8166",
+    "title": "Myself Not Least: Being the Personal Reminiscences of X — Herbert Vivian (1923)",
+    "authority": "Herbert Vivian, Myself Not Least (1923), firsthand memoir",
+    "observations": [
+      {
+        "locator": "Chapter IX, Jetsam, pp.158–159; extracted lines 5382–5395",
+        "excerpt": "Frederick Walton, who at one time I saw much of, invented linoleum, lincrusta and other useful eyesores. They were begotten somewhat in this way. He was watching a screw loose in a machine when he noticed that it made a pattern on the roll of material. Now Walton was far from having a screw loose himself, so he had a happy thought, like Newton in his orchard. He devised a machine for making patterns at will, with the result that he had ample leisure to gratify his fondness for art. He bought many expensive pictures, and painted excel- lent ones himself. Once he wanted to sell some of his surplus treasures and sent for a dealer to inspect them JETSAM 159 at his Brighton house. They were all pooh-poohed save"
+      }
+    ],
+    "actual_support_and_limitations": "This passage supports acquaintance, inventions and a Brighton house, not a US residential posting. Omission of US residence here does not establish that the US statement is false.",
+    "inspection": "Actual retrieved source text inspected; not a search snippet",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "corroborates_residence": false,
+    "bibliographic_locator": "Archive item metadata and extracted text line 2, title"
+  },
+  "bengio_cifar": {
+    "id": "bengio_cifar",
+    "url": "https://cifar.ca/bios/yoshua-bengio/",
+    "fetch_result": "200\nhttps://cifar.ca/bios/yoshua-bengio/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "912f773467e4f2e6ea73b8301d049b9848b681fca60ea196b47f577cadf8ba86",
+    "text_sha256": "7db30d77298bcbd312d1b30a767215fb280a260b1721cc732a275bfd68af819a",
+    "title": "Yoshua Bengio – CIFAR",
+    "authority": "CIFAR institutional biography",
+    "observations": [
+      {
+        "locator": "Extracted text lines 57-61; locate by quoted text",
+        "excerpt": "Renewed Canada CIFAR AI Chair – 2023 Recognized worldwide as one of the leading experts in artificial intelligence, Yoshua Bengio is most known for his pioneering work in deep learning, earning him the 2018 A.M. Turing Award, “the Nobel Prize of Computing,” with Geoffrey Hinton and Yann LeCun. He is a Full Professor at Université de Montréal, and the Founder and Scientific Director of Mila – Quebec AI Institute. He co-directs the CIFAR Learning in Machines & Brains program as Senior Fellow and acts as Scientific Director of IVADO. In 2019, he was awarded the prestigious Killam Prize and in 2021, became the second most cited computer scientist in the world. He is a Fellow of both the Royal Society of London and Canada and Officer of the Order of Canada. Concerned about the social impact of AI and the objective that AI benefits all, he actively contributed to the Montreal Declaration for the Responsible Development of Artificial Intelligence."
+      }
+    ],
+    "actual_support_and_limitations": "Documents Canadian appointments/current achievements, not the earlier US posting or its residential nature. Omission is not false evidence.",
+    "inspection": "Actual retrieved source text inspected; not a search snippet",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "corroborates_residence": false
+  }
+}

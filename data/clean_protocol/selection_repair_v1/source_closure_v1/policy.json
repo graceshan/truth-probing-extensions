@@ -1,0 +1,15 @@
+{
+  "version": "source-closure-v1",
+  "reviewed_base_commit": "b8e27508f20bab896a46f448081f43ed32d919c4",
+  "status": "recommendation_pending_review",
+  "scope": "Exactly seven v1 label conflicts; no exhaustive biography audit; no experiments",
+  "semantics": "Unchanged source_review_v1/review_policy.md. Require explicit residence, settlement, or documented residential work/study; not nationality, a visit, or institution location alone. No new duration threshold.",
+  "corroboration": "For secondary-only findings seek accessible primary/institutional corroboration. If insufficient retain unresolved, quarantine paired forms. All seven remain nonadmitted.",
+  "bounded_search": "At most three discovery queries and six new substantive source pages per secondary-dependent claim; reuse saved institutional/primary evidence where sufficient. Blocked sources and discovery snippets do not establish facts.",
+  "successor": "Preserve every v1 column and append closure status/reasons; no label/identity/partition changes, no automatic readmission.",
+  "sample": "Frozen 30-case sample and 42-case queue unchanged; closure contributes zero sample rows.",
+  "roles": {
+    "T_C": "May overlap P and A; excludes D/E. 20 audited usable entities/topic is an outer-training target. Extra facts may come from P without enlarging A.",
+    "reservation_plan": "15/topic pilot; 10 fallback; 20 only deliberate B=50 commitment. No selection/reservation in this task."
+  }
+}

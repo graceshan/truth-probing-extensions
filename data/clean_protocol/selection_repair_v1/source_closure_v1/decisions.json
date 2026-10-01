@@ -1,0 +1,165 @@
+[
+  {
+    "source_row_id": "inventors:2",
+    "paired_source_row_id": "neg_inventors:2",
+    "statement_sha256": "288de7a606aa10b0b5750aa5e84b4f5f8aa149d892e5299db4f1e65a5fe37703",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "unresolved",
+    "classification": "unresolved_not_confirmed_error",
+    "successor_status": "quarantined",
+    "evidence_ids": [
+      "walton_memoir_text"
+    ],
+    "v1_evidence_ids": [
+      "walton"
+    ],
+    "reasoning": "The saved secondary biography claims a two-year US factory-startup stay. Accessible primary memoir passages do not corroborate that posting; the ACS historical article was blocked. Under this closure requirement the claim remains unresolved, not a confirmed label error. Quarantine both forms without inferring falsity.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Insufficient corroboration; original secondary lead remains preserved, not disproved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:68",
+    "paired_source_row_id": "neg_inventors:68",
+    "statement_sha256": "61330d96a80fbc6459f5aad1a9d4607e3ac3e0ba5d94798b2370679faa992d8d",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "supported_true",
+    "classification": "corroborated_label_conflict",
+    "successor_status": "excluded",
+    "evidence_ids": [
+      "marconi_home"
+    ],
+    "v1_evidence_ids": [
+      "marconi_home"
+    ],
+    "reasoning": "The saved English Heritage inscription explicitly records Marconi living at the London address in 1896–1897. Institutional residence evidence corroborates the conflict with the original false label; retain paired exclusion.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Evidence establishes a specific residential interval, not an exhaustive country set.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:139",
+    "paired_source_row_id": "neg_inventors:139",
+    "statement_sha256": "9abca5922e769687733af30f95eb3070450e1273af14309c4626530ef5dcc358",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "supported_true",
+    "classification": "corroborated_label_conflict",
+    "successor_status": "excluded",
+    "evidence_ids": [
+      "kapany_ucsc"
+    ],
+    "v1_evidence_ids": [
+      "kapany2"
+    ],
+    "reasoning": "UCSC explicitly says Kapany went to England for graduate school and describes London research and his 1955 doctorate. This supports residential study, rather than relying on university location alone; retain paired exclusion.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Evidence establishes a specific residential interval, not an exhaustive country set.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:233",
+    "paired_source_row_id": "neg_inventors:233",
+    "statement_sha256": "41471d77caf75da3efd236b8d9800c08733cf1c7c3b9eefaaaf2eeb6bbb87b39",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "supported_true",
+    "classification": "corroborated_label_conflict",
+    "successor_status": "excluded",
+    "evidence_ids": [
+      "gobel_city",
+      "gobel_patent"
+    ],
+    "v1_evidence_ids": [
+      "gobel",
+      "gobel_patent"
+    ],
+    "reasoning": "The municipal history identifies Heinrich Göbel and explicitly records emigration to New York in 1848. Together with the saved contemporary Henry Goebel patent this corroborates US settlement. Invention-priority disputes are irrelevant to the residence claim; no new source person-key merger is made.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Evidence establishes a specific residential interval, not an exhaustive country set.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:234",
+    "paired_source_row_id": "neg_inventors:234",
+    "statement_sha256": "c96b4bb13d67ee570e06bb0965db43c020564c89b475d62f1bcda90352dabb2a",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_ab7e3d36099ec6493a4414c6b6c8761c961ea60f870a0c3f612ba5d6635417f3",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "unresolved",
+    "classification": "unresolved_not_confirmed_error",
+    "successor_status": "quarantined",
+    "evidence_ids": [
+      "bengio_cifar"
+    ],
+    "v1_evidence_ids": [
+      "bengio_wiki"
+    ],
+    "reasoning": "The saved secondary account reports MIT/Bell Labs postdoctoral appointments. The institutional pages retrieved here do not establish the relevant US residential posting: two CV paths were unavailable, ACM was blocked, the university index had no usable text, and CIFAR discusses Canadian appointments. Do not turn absence of a remote-work qualifier into residence proof. Retain unresolved and quarantine both forms.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Insufficient corroboration; original secondary lead remains preserved, not disproved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:240",
+    "paired_source_row_id": "neg_inventors:240",
+    "statement_sha256": "40b76eef5cd7b11188a8b62b4718e6b03d9e32afd9330e8764bc91bd7f595357",
+    "split": "test",
+    "original_label": "0",
+    "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "supported_true",
+    "classification": "corroborated_label_conflict",
+    "successor_status": "excluded",
+    "evidence_ids": [
+      "ericsson_archive"
+    ],
+    "v1_evidence_ids": [
+      "ericsson2"
+    ],
+    "reasoning": "Church’s historical biography explicitly identifies Astor House residence, a Franklin Street office/home and a recalled visit to Ericsson at his Beach Street home. These are particular New York homes, not merely work for the US Navy; retain paired exclusion.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Evidence establishes a specific residential interval, not an exhaustive country set.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:377",
+    "paired_source_row_id": "neg_inventors:377",
+    "statement_sha256": "3d47ebe71450d252d45ce03025ac18a2c345f5546debfddd25234471cdca5a9b",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d",
+    "previous_v1_judgment": "supported_true",
+    "judgment": "supported_true",
+    "classification": "corroborated_label_conflict",
+    "successor_status": "excluded",
+    "evidence_ids": [
+      "brill2"
+    ],
+    "v1_evidence_ids": [
+      "brill2"
+    ],
+    "reasoning": "NIHF explicitly places Brill in a California job with concurrent graduate classes and a USC degree. This corroborates residential employment/study without inferring residence merely from an institution’s address; retain paired exclusion.",
+    "limitations": "Bounded corroboration only; no complete life-history audit, relabeling or automatic readmission. Evidence establishes a specific residential interval, not an exhaustive country set.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  }
+]
