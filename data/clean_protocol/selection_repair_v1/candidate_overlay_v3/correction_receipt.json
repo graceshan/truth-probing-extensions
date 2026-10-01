@@ -1,0 +1,27 @@
+{
+  "admitted_by_split": {
+    "test": 1002,
+    "train": 3044,
+    "validation": 1012
+  },
+  "affected_source_ids": [
+    "inventors:157",
+    "inventors:23",
+    "neg_inventors:157",
+    "neg_inventors:23"
+  ],
+  "base": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2/row_manifest.csv",
+  "confirmed_label_errors": 0,
+  "correction_base_must_advance_before_fitting": true,
+  "judgment_source": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/reviews.json",
+  "outputs": {
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/admitted_rows.csv": "5e252f044823717e9d34a734d0ec0e8f9c7bd0227a513383504474f5345f484c",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/excluded_rows.csv": "933cc1670a72e274c33fc05fb64d02d773fee4628ba306373e1fe04ad41417f1",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/fact_inventory.csv": "f019a26f38d46f8181cc46dca838f58083a3c1b90b2aa5c57f7eae36653c19bd",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/quarantined_rows.csv": "5340c72cb178a12ead82c18fb2c046c239258e7ac105d1fe412af9f3b3d2fa28",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/row_manifest.csv": "56a3ad10e47bcc207201d27d56c748841d761c433b7f54bd2b9639eaf0905bb0",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/source_fact_eligibility.csv": "10613156d0c4a0485ccaddb3a2ec2e5ed9f3a86934c13217b36ca0499379c5ed",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/status_changes.csv": "c4ad70ea7800679293586e132b083cf17f009462ac7b40a5923ee67447791fd4"
+  },
+  "status_column": "audit_successor_status"
+}
