@@ -1,0 +1,138 @@
+{
+  "P_A_frozen": false,
+  "adoption_sha256": "bea2bb1b69c5801767ce010640c9866be2d5288c1b49239c9e911e61f361da0f",
+  "bootstrap": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "burger_t_g": "unchanged seed=0 paired balanced sampler, full1000/P15700, dataset-centered OLS; no inference centering",
+  "cohorts": [
+    "full",
+    "P15"
+  ],
+  "correction_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "difference_of_means": "unchanged unit true-minus-false means on all cohort rows",
+  "endpoints": [
+    {
+      "condition": "atomic_D",
+      "metric": "atomic_auroc",
+      "negative": null,
+      "operator": null,
+      "positive": null
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_auroc",
+      "negative": [
+        "TF",
+        "FT",
+        "FF"
+      ],
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_auroc",
+      "negative": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive": [
+        "TT",
+        "TF",
+        "FT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_tt_vs_mixed_auroc",
+      "negative": [
+        "TF",
+        "FT"
+      ],
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_mixed_vs_ff_auroc",
+      "negative": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ]
+    }
+  ],
+  "fit_policy": "float64, single process, one BLAS thread, serial configurations, per-fit checkpoint; every fitted transform uses its own fitting cohort",
+  "forbidden": [
+    "P10 fits",
+    "P20 fits",
+    "A/P freeze",
+    "production bank",
+    "compound control",
+    "repair fit",
+    "model extraction",
+    "final-test access"
+  ],
+  "full_role": "A-exposed diagnostic; never primary P-only bank",
+  "mass_mean_covariance": "unchanged within-class covariance / n; spectral pseudoinverse absolute cutoff 1e-3, rtol=0, no shrinkage",
+  "methods": [
+    "l2_logistic",
+    "difference_of_means",
+    "mass_mean_covariance",
+    "burger_t_g",
+    "ttpd",
+    "r0"
+  ],
+  "models": {
+    "llama": {
+      "C": 10.0,
+      "layers": [
+        10,
+        15,
+        20
+      ]
+    },
+    "qwen": {
+      "C": 1.0,
+      "layers": [
+        17,
+        18,
+        22
+      ]
+    }
+  },
+  "r0": "verified selection_repair_objectives mean BCE + .001 sum(w^2); cohort-only population scaling; unpenalized intercept; 2000 then warm retry10000 total",
+  "raw_lr": "historical canonical raw LR; Qwen C=1, Llama C=10; no standardization",
+  "review_drop_thresholds": {
+    "atomic_auroc": 0.005,
+    "or_mixed_vs_ff_auroc": 0.05
+  },
+  "schema_version": 1,
+  "scopes": [
+    "pooled",
+    "topic",
+    "topic_macro"
+  ],
+  "topics": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "element_symb",
+    "animal_class"
+  ],
+  "trigger_policy": "strict drops on identical v4-eligible D; pooled, macro and per-topic flagged separately; pointwise intervals; no automatic membership changes",
+  "ttpd": "same balanced sampler; unregularized polarity LR and two-coordinate truth LR; 100 then cold10000 warning retry; raw projections"
+}
