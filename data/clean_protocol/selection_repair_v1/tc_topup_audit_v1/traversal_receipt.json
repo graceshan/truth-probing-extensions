@@ -1,0 +1,246 @@
+{
+  "ledger": [
+    {
+      "cumulative_usable": 16,
+      "person_key": "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140",
+      "rank": 16,
+      "status": "usable",
+      "topic": "animal_class"
+    },
+    {
+      "cumulative_usable": 17,
+      "person_key": "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a",
+      "rank": 17,
+      "status": "usable",
+      "topic": "animal_class"
+    },
+    {
+      "cumulative_usable": 18,
+      "person_key": "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e",
+      "rank": 18,
+      "status": "usable",
+      "topic": "animal_class"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c",
+      "rank": 19,
+      "status": "usable",
+      "topic": "animal_class"
+    },
+    {
+      "cumulative_usable": 20,
+      "person_key": "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e",
+      "rank": 20,
+      "status": "usable",
+      "topic": "animal_class"
+    },
+    {
+      "cumulative_usable": 16,
+      "person_key": "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f",
+      "rank": 16,
+      "status": "usable",
+      "topic": "cities"
+    },
+    {
+      "cumulative_usable": 17,
+      "person_key": "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f",
+      "rank": 17,
+      "status": "usable",
+      "topic": "cities"
+    },
+    {
+      "cumulative_usable": 18,
+      "person_key": "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2",
+      "rank": 18,
+      "status": "usable",
+      "topic": "cities"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb",
+      "rank": 19,
+      "status": "usable",
+      "topic": "cities"
+    },
+    {
+      "cumulative_usable": 20,
+      "person_key": "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b",
+      "rank": 20,
+      "status": "usable",
+      "topic": "cities"
+    },
+    {
+      "cumulative_usable": 16,
+      "person_key": "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497",
+      "rank": 16,
+      "status": "usable",
+      "topic": "element_symb"
+    },
+    {
+      "cumulative_usable": 17,
+      "person_key": "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068",
+      "rank": 17,
+      "status": "usable",
+      "topic": "element_symb"
+    },
+    {
+      "cumulative_usable": 18,
+      "person_key": "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7",
+      "rank": 18,
+      "status": "usable",
+      "topic": "element_symb"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c",
+      "rank": 19,
+      "status": "usable",
+      "topic": "element_symb"
+    },
+    {
+      "cumulative_usable": 20,
+      "person_key": "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3",
+      "rank": 20,
+      "status": "usable",
+      "topic": "element_symb"
+    },
+    {
+      "cumulative_usable": 16,
+      "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+      "rank": 24,
+      "status": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 17,
+      "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+      "rank": 25,
+      "status": "usable",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 18,
+      "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+      "rank": 26,
+      "status": "usable",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+      "rank": 27,
+      "status": "usable",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+      "rank": 28,
+      "status": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+      "rank": 29,
+      "status": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 20,
+      "person_key": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+      "rank": 30,
+      "status": "usable",
+      "topic": "inventors"
+    },
+    {
+      "cumulative_usable": 16,
+      "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+      "rank": 16,
+      "status": "usable",
+      "topic": "sp_en_trans"
+    },
+    {
+      "cumulative_usable": 17,
+      "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+      "rank": 17,
+      "status": "usable",
+      "topic": "sp_en_trans"
+    },
+    {
+      "cumulative_usable": 18,
+      "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+      "rank": 18,
+      "status": "usable",
+      "topic": "sp_en_trans"
+    },
+    {
+      "cumulative_usable": 19,
+      "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+      "rank": 19,
+      "status": "usable",
+      "topic": "sp_en_trans"
+    },
+    {
+      "cumulative_usable": 20,
+      "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+      "rank": 20,
+      "status": "usable",
+      "topic": "sp_en_trans"
+    }
+  ],
+  "queue_sha256": "ef84a37becfad0b6ef25bb5b3afe62912d57116cb4f1901181c45978490335d2",
+  "rule": "Topics in lexical order; increasing original numeric rank within each topic. Skip all existing completed keys and all prior attempted/unresolved keys without reopening. Review each remaining unreviewed queued candidate with its exact frozen positive and negative. Stop each topic immediately upon 20 usable keys including historical completed keys. If exhausted report concrete shortfall. Preserve every attempt; no redraw or fact replacement.",
+  "skipped_prior_attempts": [
+    {
+      "person_key": "entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de",
+      "rank": 1,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1",
+      "rank": 8,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e",
+      "rank": 9,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d",
+      "rank": 12,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741",
+      "rank": 14,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "person_36252372c959143c714bebcea02058b6ece7591e1ad9f988832c4ff55e39edeb",
+      "rank": 17,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632",
+      "rank": 19,
+      "state": "unresolved",
+      "topic": "inventors"
+    },
+    {
+      "person_key": "entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c",
+      "rank": 20,
+      "state": "unresolved",
+      "topic": "inventors"
+    }
+  ],
+  "target": 20
+}

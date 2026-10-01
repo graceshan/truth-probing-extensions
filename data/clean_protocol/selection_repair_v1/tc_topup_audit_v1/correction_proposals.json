@@ -1,0 +1,44 @@
+{
+  "actions": {
+    "inventors:155": {
+      "judgment": "unresolved",
+      "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+      "rank": 24,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "inventors:380": {
+      "judgment": "unresolved",
+      "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+      "rank": 29,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "neg_inventors:155": {
+      "judgment": "unresolved",
+      "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+      "rank": 24,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "neg_inventors:380": {
+      "judgment": "unresolved",
+      "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+      "rank": 29,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d",
+      "status": "quarantined",
+      "topic": "inventors"
+    }
+  },
+  "base": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3",
+  "confirmed_label_errors": 0,
+  "policy": "Unresolved source facts quarantine exact source pairs, including exact registry duplicates. Confirmed conflicts exclude exact pairs. Original labels are not rewritten. No person-wide ban.",
+  "successor": "data/clean_protocol/selection_repair_v1/candidate_overlay_v4"
+}

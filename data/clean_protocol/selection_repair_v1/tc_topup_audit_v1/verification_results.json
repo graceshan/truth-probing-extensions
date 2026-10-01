@@ -1,0 +1,28 @@
+{
+  "A10_keys": 50,
+  "A15_keys": 75,
+  "A_bytes_unchanged": true,
+  "PA_frozen": false,
+  "activation_or_prediction_access": false,
+  "branch": "clean-eval-protocol",
+  "deterministic_builders": [
+    "scripts/49_build_capacity_pilot_audit.py",
+    "scripts/50_project_capacity_pilot_corrections.py",
+    "scripts/51_complete_tc_topup_audit.py"
+  ],
+  "fitting_performed": false,
+  "historical_input_hashes_matched": 119,
+  "platform": "Darwin",
+  "preservation_check": "scripts/check_selection_repair_local_preservation.py --root \"$PWD\"",
+  "prior_completed_pairs_unchanged": 76,
+  "prior_evidence_entries_unchanged": true,
+  "production_compounds_generated": false,
+  "pytest": {
+    "command": "python -m pytest tests/test_tc_topup_audit.py tests/test_capacity_pilot_audit.py tests/test_capacity_pilot_projection.py tests/test_selection_repair_candidate_overlay.py tests/test_selection_repair_source_closure.py tests/test_selection_repair_source_audit.py -q",
+    "passed": 85,
+    "subtests_passed": 43
+  },
+  "result": "passed",
+  "reviewed_start_commit": "2ffbe79cdb22eb772c1b842ab9f0e9d8d11a8e8c",
+  "unrelated_untracked_hashes_matched": 13
+}

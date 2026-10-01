@@ -1,0 +1,1192 @@
+[
+  {
+    "entities": [
+      "gazelle"
+    ],
+    "entity_ids": [
+      "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_animal_16"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The identified animal is in the stated taxonomic class; the independently retrieved classification supports the positive.",
+        "source_row_id": "animal_class:112",
+        "statement": "The gazelle is a mammal.",
+        "statement_sha256": "e6f4ea47f849880b2ab92f74afa3a263da98104997227e9f059eed1b43d4908c"
+      },
+      {
+        "evidence_ids": [
+          "topup_animal_16"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The independently retrieved class excludes the proposed different class/phylum in ordinary zoological usage; this is a distinct affirmative classification claim.",
+        "source_row_id": "animal_class:147",
+        "statement": "The gazelle is a mollusk.",
+        "statement_sha256": "df855166cd823c4c44bb90ab7de7117d187d0d93d42db65fea1b53f6995ac944"
+      }
+    ],
+    "identity": "gazelle",
+    "person_key": "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140",
+    "rank": 16,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "animal_class"
+  },
+  {
+    "entities": [
+      "hedgehog"
+    ],
+    "entity_ids": [
+      "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_animal_17"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The identified animal is in the stated taxonomic class; the independently retrieved classification supports the positive.",
+        "source_row_id": "animal_class:77",
+        "statement": "The hedgehog is a mammal.",
+        "statement_sha256": "068e72bec323f0b5057165e3a2e400873edf65a20096909a32b7bd6f716d7b80"
+      },
+      {
+        "evidence_ids": [
+          "topup_animal_17"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The independently retrieved class excludes the proposed different class/phylum in ordinary zoological usage; this is a distinct affirmative classification claim.",
+        "source_row_id": "animal_class:137",
+        "statement": "The hedgehog is a bird.",
+        "statement_sha256": "86f23776c2c9a3b32926947ab4409a16d87143f6c8894cf6afdecc57bdf6b58c"
+      }
+    ],
+    "identity": "hedgehog",
+    "person_key": "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a",
+    "rank": 17,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "animal_class"
+  },
+  {
+    "entities": [
+      "horse"
+    ],
+    "entity_ids": [
+      "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_animal_18"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The identified animal is in the stated taxonomic class; the independently retrieved classification supports the positive.",
+        "source_row_id": "animal_class:4",
+        "statement": "The horse is a mammal.",
+        "statement_sha256": "146c05f4f77a974cf52ab1563749ffe0e90412930167ddcb84fceafbe9fcab02"
+      },
+      {
+        "evidence_ids": [
+          "topup_animal_18"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The independently retrieved class excludes the proposed different class/phylum in ordinary zoological usage; this is a distinct affirmative classification claim.",
+        "source_row_id": "animal_class:38",
+        "statement": "The horse is a mollusk.",
+        "statement_sha256": "13cf680dd06b375988980ca88a0ed39a033a48d02c574c5c4772f50a87dd5df9"
+      }
+    ],
+    "identity": "horse",
+    "person_key": "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e",
+    "rank": 18,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "animal_class"
+  },
+  {
+    "entities": [
+      "eagle"
+    ],
+    "entity_ids": [
+      "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_animal_19"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The identified animal is in the stated taxonomic class; the independently retrieved classification supports the positive.",
+        "source_row_id": "animal_class:123",
+        "statement": "The eagle is a bird.",
+        "statement_sha256": "49d885f792801d8e081aa06eb3e2722716516263845013ba4afe61aafd074826"
+      },
+      {
+        "evidence_ids": [
+          "topup_animal_19"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The independently retrieved class excludes the proposed different class/phylum in ordinary zoological usage; this is a distinct affirmative classification claim.",
+        "source_row_id": "animal_class:63",
+        "statement": "The eagle is a mammal.",
+        "statement_sha256": "e124e9debcdfbeed50591627d201b18fcb29d4ec57f19daa767ecf6f38854939"
+      }
+    ],
+    "identity": "eagle",
+    "person_key": "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c",
+    "rank": 19,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "animal_class"
+  },
+  {
+    "entities": [
+      "hyena"
+    ],
+    "entity_ids": [
+      "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_animal_20"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The identified animal is in the stated taxonomic class; the independently retrieved classification supports the positive.",
+        "source_row_id": "animal_class:79",
+        "statement": "The hyena is a mammal.",
+        "statement_sha256": "814dd4043fdaf9ea7d6a626d2482ca21f23b7e448c5d70ff652035a553f806ae"
+      },
+      {
+        "evidence_ids": [
+          "topup_animal_20"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The independently retrieved class excludes the proposed different class/phylum in ordinary zoological usage; this is a distinct affirmative classification claim.",
+        "source_row_id": "animal_class:72",
+        "statement": "The hyena is a bird.",
+        "statement_sha256": "97a3d90f020cef1012e3c2cda63fb7f8ca0a7ed619816d34ea5f30266ab511cf"
+      }
+    ],
+    "identity": "hyena",
+    "person_key": "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e",
+    "rank": 20,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "animal_class"
+  },
+  {
+    "entities": [
+      "Agadir"
+    ],
+    "entity_ids": [
+      "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_city_16"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The lead locates this exact city and its administrative region in the asserted country. Identity is the named city in this region, not a hypothetical namesake.",
+        "source_row_id": "cities:322",
+        "statement": "The city of Agadir is in Morocco.",
+        "statement_sha256": "f95ecd48b77e0e53836d6ad63d588d0bc5fe831a197503db0dffb1ddfd7d9235"
+      },
+      {
+        "evidence_ids": [
+          "topup_city_16"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The located city belongs to the independently established country, geographically disjoint from the proposed false country. The full false affirmative is adjudicated, not a negation used as a second fact.",
+        "source_row_id": "cities:323",
+        "statement": "The city of Agadir is in Bangladesh.",
+        "statement_sha256": "1fd5b52f833fdf39a69eabc455d340f39b725744702d126fecff522736618572"
+      }
+    ],
+    "identity": "Agadir",
+    "person_key": "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f",
+    "rank": 16,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "cities"
+  },
+  {
+    "entities": [
+      "Kawaguchi"
+    ],
+    "entity_ids": [
+      "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_city_17"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The lead locates this exact city and its administrative region in the asserted country. Identity is the named city in this region, not a hypothetical namesake.",
+        "source_row_id": "cities:1374",
+        "statement": "The city of Kawaguchi is in Japan.",
+        "statement_sha256": "2fcf83dbb46822e1f6e85bc024c63afb377e8645cd84a705dc22d39b12407f94"
+      },
+      {
+        "evidence_ids": [
+          "topup_city_17"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The located city belongs to the independently established country, geographically disjoint from the proposed false country. The full false affirmative is adjudicated, not a negation used as a second fact.",
+        "source_row_id": "cities:1375",
+        "statement": "The city of Kawaguchi is in Indonesia.",
+        "statement_sha256": "105945a54533528da6486331f92a8a0a034b6edfe597fe0f01ad958a9e9bc242"
+      }
+    ],
+    "identity": "Kawaguchi",
+    "person_key": "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f",
+    "rank": 17,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "cities"
+  },
+  {
+    "entities": [
+      "Ankara"
+    ],
+    "entity_ids": [
+      "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_city_18"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The lead locates this exact city and its administrative region in the asserted country. Identity is the named city in this region, not a hypothetical namesake.",
+        "source_row_id": "cities:1422",
+        "statement": "The city of Ankara is in Turkey.",
+        "statement_sha256": "add54615a14184899c5723bfae173a407f71809d42f9969960bed6a83ff81892"
+      },
+      {
+        "evidence_ids": [
+          "topup_city_18"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The located city belongs to the independently established country, geographically disjoint from the proposed false country. The full false affirmative is adjudicated, not a negation used as a second fact.",
+        "source_row_id": "cities:1423",
+        "statement": "The city of Ankara is in Japan.",
+        "statement_sha256": "fe913024a76884020fbee8c087e80e50983a4cf4412d47006616ae5f5391764b"
+      }
+    ],
+    "identity": "Ankara",
+    "person_key": "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2",
+    "rank": 18,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "cities"
+  },
+  {
+    "entities": [
+      "Helsinki"
+    ],
+    "entity_ids": [
+      "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_city_19"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The lead locates this exact city and its administrative region in the asserted country. Identity is the named city in this region, not a hypothetical namesake.",
+        "source_row_id": "cities:992",
+        "statement": "The city of Helsinki is in Finland.",
+        "statement_sha256": "8b9192ef364b0839a0d753015fa2721608356d6ecc61de60b07bdee2e29425a9"
+      },
+      {
+        "evidence_ids": [
+          "topup_city_19"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The located city belongs to the independently established country, geographically disjoint from the proposed false country. The full false affirmative is adjudicated, not a negation used as a second fact.",
+        "source_row_id": "cities:993",
+        "statement": "The city of Helsinki is in Pakistan.",
+        "statement_sha256": "37cd666274ec62efcd96faa991ca36d35ae7b35b10b6b9d4a80b7b4728778545"
+      }
+    ],
+    "identity": "Helsinki",
+    "person_key": "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb",
+    "rank": 19,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "cities"
+  },
+  {
+    "entities": [
+      "Yiwu"
+    ],
+    "entity_ids": [
+      "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_city_20"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The lead locates this exact city and its administrative region in the asserted country. Identity is the named city in this region, not a hypothetical namesake.",
+        "source_row_id": "cities:230",
+        "statement": "The city of Yiwu is in China.",
+        "statement_sha256": "bfbe88ce18335f7f4b391e48c041b7f2f2419f2bc6f3e3b32e4c9520e17d44d4"
+      },
+      {
+        "evidence_ids": [
+          "topup_city_20"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The located city belongs to the independently established country, geographically disjoint from the proposed false country. The full false affirmative is adjudicated, not a negation used as a second fact.",
+        "source_row_id": "cities:231",
+        "statement": "The city of Yiwu is in India.",
+        "statement_sha256": "ba0d0373084e67120effa3d88f1018c889a7718c640a42842569f3ef60ea9c4b"
+      }
+    ],
+    "identity": "Yiwu",
+    "person_key": "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b",
+    "rank": 20,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "cities"
+  },
+  {
+    "entities": [
+      "Thulium"
+    ],
+    "entity_ids": [
+      "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_element_16"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "PubChem assigns Tm to Thulium.",
+        "source_row_id": "element_symb:63",
+        "statement": "Thulium has the symbol Tm.",
+        "statement_sha256": "11eaa80b507e7d45b098c70bd15e2dce5362460d422e47f671d61f632206f4b4"
+      },
+      {
+        "evidence_ids": [
+          "topup_element_16"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "PubChem assigns Ne to Neon, not Thulium; standardized symbols are unique. Both exact Name/Symbol bindings were inspected.",
+        "source_row_id": "element_symb:154",
+        "statement": "Thulium has the symbol Ne.",
+        "statement_sha256": "3d076f5a6e01e00349fb2a6c38e8eba409fbd1ff7254fbbd347cc9030c3f5a0a"
+      }
+    ],
+    "identity": "Thulium",
+    "person_key": "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497",
+    "rank": 16,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "element_symb"
+  },
+  {
+    "entities": [
+      "Praseodymium"
+    ],
+    "entity_ids": [
+      "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_element_17"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "PubChem assigns Pr to Praseodymium.",
+        "source_row_id": "element_symb:114",
+        "statement": "Praseodymium has the symbol Pr.",
+        "statement_sha256": "19a0eae624ee8381cce2a19e820e2217b15ef10cd81cf1e39d849c96420f607a"
+      },
+      {
+        "evidence_ids": [
+          "topup_element_17"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "PubChem assigns Sc to Scandium, not Praseodymium; standardized symbols are unique. Both exact Name/Symbol bindings were inspected.",
+        "source_row_id": "element_symb:105",
+        "statement": "Praseodymium has the symbol Sc.",
+        "statement_sha256": "860dbef6633e8acf478242171a91ab260bcd374c9f48ade27607c0ba2f1d27bd"
+      }
+    ],
+    "identity": "Praseodymium",
+    "person_key": "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068",
+    "rank": 17,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "element_symb"
+  },
+  {
+    "entities": [
+      "Tellurium"
+    ],
+    "entity_ids": [
+      "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_element_18"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "PubChem assigns Te to Tellurium.",
+        "source_row_id": "element_symb:116",
+        "statement": "Tellurium has the symbol Te.",
+        "statement_sha256": "f88485632577951b354700a8599e48d1b9cc9f707e4c95bd1c26d8a022f26ac0"
+      },
+      {
+        "evidence_ids": [
+          "topup_element_18"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "PubChem assigns O to Oxygen, not Tellurium; standardized symbols are unique. Both exact Name/Symbol bindings were inspected.",
+        "source_row_id": "element_symb:166",
+        "statement": "Tellurium has the symbol O.",
+        "statement_sha256": "32389a8ef21f2be5dac3674bbf87f2de873d30a35d528d40a62a55705f7759e8"
+      }
+    ],
+    "identity": "Tellurium",
+    "person_key": "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7",
+    "rank": 18,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "element_symb"
+  },
+  {
+    "entities": [
+      "Chromium"
+    ],
+    "entity_ids": [
+      "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_element_19"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "PubChem assigns Cr to Chromium.",
+        "source_row_id": "element_symb:111",
+        "statement": "Chromium has the symbol Cr.",
+        "statement_sha256": "25855ef9ae2e126b04e6701e9043164fb87207bc65e3e314c4156a8c667ff06d"
+      },
+      {
+        "evidence_ids": [
+          "topup_element_19"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "PubChem assigns Ru to Ruthenium, not Chromium; standardized symbols are unique. Both exact Name/Symbol bindings were inspected.",
+        "source_row_id": "element_symb:86",
+        "statement": "Chromium has the symbol Ru.",
+        "statement_sha256": "1a664da1ec953740372a0cb8c3b0b64f057a46d30cf310b3c62fa703a13e91d6"
+      }
+    ],
+    "identity": "Chromium",
+    "person_key": "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c",
+    "rank": 19,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "element_symb"
+  },
+  {
+    "entities": [
+      "Sulfur"
+    ],
+    "entity_ids": [
+      "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_element_20"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "PubChem assigns S to Sulfur.",
+        "source_row_id": "element_symb:28",
+        "statement": "Sulfur has the symbol S.",
+        "statement_sha256": "528962e31b6d6bab8b504dec12e988478a7cbb78ae8e170510e09b07e217857b"
+      },
+      {
+        "evidence_ids": [
+          "topup_element_20"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "PubChem assigns Cs to Cesium, not Sulfur; standardized symbols are unique. Both exact Name/Symbol bindings were inspected.",
+        "source_row_id": "element_symb:170",
+        "statement": "Sulfur has the symbol Cs.",
+        "statement_sha256": "66011739589fff893cb83bc685abd1dffc9725a0fe8bc04829c9e51a6d9e5b01"
+      }
+    ],
+    "identity": "Sulfur",
+    "person_key": "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3",
+    "rank": 20,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "element_symb"
+  },
+  {
+    "entities": [
+      "Henri Giffard"
+    ],
+    "entity_ids": [
+      "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_giffard"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Paris schooling at collège Bourbon establishes residential study in France, beyond birthplace or nationality. Identity: Henri/Henry-Jacques Giffard, airship/injector inventor.",
+        "source_row_id": "inventors:386",
+        "statement": "Henri Giffard lived in France.",
+        "statement_sha256": "f7b3eb99cb3c787306a3f07a805730ab9abad5a524c21ce421bb5d1f9b383976"
+      },
+      {
+        "evidence_ids": [
+          "topup_giffard"
+        ],
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "The biography lists Paris schooling, French engineering milestones and a London construction episode, but does not account for homes/postings throughout his life. Omission of America cannot establish the US affirmative false. Quarantine this admitted exact source claim and its paired negation; do not restrict the France pair.",
+        "source_row_id": "inventors:155",
+        "statement": "Henri Giffard lived in the U.S.",
+        "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36"
+      }
+    ],
+    "identity": "Henri Giffard",
+    "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+    "rank": 24,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Alexander Fleming"
+    ],
+    "entity_ids": [
+      "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_fleming_memoir",
+          "topup_fleming_life"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Scottish schooling, London education/employment and explicit final London home support the UK positive. Reuse Allison’s reviewed memoir of London work with the 1914–1918 Boulogne interruption.",
+        "source_row_id": "inventors:167",
+        "statement": "Alexander Fleming lived in the U.K.",
+        "statement_sha256": "210777e9b1e77298e5935d4736270196d5d3d3f431397ede9fbf9aebcb747579"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+        "evidence_ids": [
+          "topup_fleming_memoir",
+          "topup_fleming_life"
+        ],
+        "fact_id": "fact_0ded6277ba32cc92b028bee6a542305b1232abae7fd13b1b53049fd3dfb1a895",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "26bff21b4b9c23aad1284b15c27701c41611b6892d98c591d551b8b160d3790f",
+        "reasoning": "Scottish childhood/education followed by London education and work, the explicitly bounded Boulogne laboratory posting (1914–1918), return to London and final London home provide a sustained residence chronology. It supports no Greek residential phase even on a territorial reading; the judgment does not rely merely on the anachronism of Ancient Greece. Greek honours or a Greek spouse do not imply a home or posting there.",
+        "statement": "Alexander Fleming lived in Ancient Greece.",
+        "statement_sha256": "1ec5206178bfcc1e0f0e41ad67b75dc75791c2e76365286b2cb6887eb0ee2ac7"
+      }
+    ],
+    "identity": "Alexander Fleming",
+    "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+    "rank": 25,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Lloyd Groff Copeman"
+    ],
+    "entity_ids": [
+      "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_copeman_early",
+          "topup_copeman_family",
+          "topup_copeman_career"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Childhood and education in Michigan, US utility work, Flint family settlement and explicit Farmers Creek home establish US residence.",
+        "source_row_id": "inventors:21",
+        "statement": "Lloyd Groff Copeman lived in the U.S.",
+        "statement_sha256": "6d79513900062f1d47228d83d20e4a00f705905ac81b6217d657a49cc43a8f31"
+      },
+      {
+        "evidence_ids": [
+          "topup_copeman_early",
+          "topup_copeman_family",
+          "topup_copeman_career"
+        ],
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "source",
+        "reasoning": "Recovered biography plus expanded family/local-history account trace Michigan childhood/study, Philadelphia and Spokane employment, return to Flint, 1918–1936 laboratory work and subsequent Farmers Creek home work through late life. This sustained trajectory supports false for Germany; Canadian parents and overseas patents do not transfer residence. Family-edited accounts are secondary and not claimed independent of Wikipedia.",
+        "source_row_id": "inventors:110",
+        "statement": "Lloyd Groff Copeman lived in Germany.",
+        "statement_sha256": "4587b211b22770ffeab2dfef762dbc850da92470a6b28f12fe2a4c43ccd6d303"
+      }
+    ],
+    "identity": "Lloyd Groff Copeman",
+    "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+    "rank": 26,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Ernesto Blanco"
+    ],
+    "entity_ids": [
+      "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_blanco"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Identity is Cuban-born MIT mechanical-engineering inventor Ernesto Blanco (1922–2017), not a namesake. Albany employment/RPI study and MIT/Tufts residential appointments establish US residence.",
+        "source_row_id": "inventors:100",
+        "statement": "Ernesto Blanco lived in the U.S.",
+        "statement_sha256": "fd1fad1a8547f3741c4e19ebe4af97913a657a68981764c2e1701ac9f2ed0e32"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+        "evidence_ids": [
+          "topup_blanco"
+        ],
+        "fact_id": "fact_89cb40fc24821081f047796e1cf9fad0a23d0555d179fabfbec350e3a1778529",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "05bd1deded3850c19bb497f4f06068bf1c7eda88fc187b290e1b176ae8b3cccd",
+        "reasoning": "Institutional life history covers Havana upbringing/university/work, US move 1949 and RPI study through 1956, return to direct the Cuban engineering school, US return 1960, MIT/Tufts appointments, consultancy/business 1969–1977, renewed MIT professorship and later California death. This accounts for major life phases and supports false for Finland rather than inferring from nationality. Foreign cooperative engineering programs are not silently treated as homes.",
+        "statement": "Ernesto Blanco lived in Finland.",
+        "statement_sha256": "2305472f1f1e967a72f3db7927aad26483e1a2ffb0f210f764cb2495ed02e6bf"
+      }
+    ],
+    "identity": "Ernesto Blanco",
+    "person_key": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+    "rank": 27,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Frederick Walton"
+    ],
+    "entity_ids": [
+      "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_walton_recovered",
+          "topup_walton_home"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Schooling and factory work in England and explicit Cwmllecoediog home establish UK residence; preserve the separate reviewed US posting and quarantine history.",
+        "source_row_id": "inventors:9",
+        "statement": "Frederick Walton lived in the U.K.",
+        "statement_sha256": "984026d652dd6fc60f24c4875b2fe80735b612a74a4b8923abb936d9ee4e5859"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+        "evidence_ids": [
+          "topup_walton_recovered",
+          "topup_walton_home"
+        ],
+        "fact_id": "fact_f114e0255f9a691bd83c5e53623352e57a11837e61b9a942a360105ecb2fe7d3",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "05456666c143041b4fd8ca4a6d3040a47d0265ebe8e4301d6ecce5a769207525",
+        "reasoning": "Retrieved narrative has specific UK homes and the recovered US posting but insufficient residence detail after the 1900 partnership dissolution through 1928. Poland’s omission from that partial chronology cannot establish the proposed generated affirmative false. Keep candidate unusable; no new source restriction for this generated claim.",
+        "statement": "Frederick Walton lived in Poland.",
+        "statement_sha256": "aee315468583d19a4ad4b4fd71651bc16a2f3f718d4cfd167d2b957f2d740559"
+      }
+    ],
+    "identity": "Frederick Walton",
+    "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+    "rank": 28,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Nikolay Slavyanov"
+    ],
+    "entity_ids": [
+      "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_slavyanov"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Exact person is Nikolay Gavrilovich Slavyanov (1854–1897). Residential study/employment in St Petersburg/Votkinsk/Omutninsk/Perm occurred in the Russian Empire. The bare source object Russia does not specify whether it includes that historical polity; no modern-border/successor substitution is adopted. Preserve label 1 but quarantine source pair as unresolved.",
+        "source_row_id": "inventors:380",
+        "statement": "Nikolay Slavyanov lived in Russia.",
+        "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+        "evidence_ids": [
+          "topup_slavyanov"
+        ],
+        "fact_id": "fact_7efad98db02dae34fac2f51a639287ca149daae16c40a8879269c0a8e34219d7",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0d568cbf27fd2be013c4b835fcc92c5c087de82bdbf33fcab4bd6f566ce64194",
+        "reasoning": "Voronezh schooling, St Petersburg study 1872–1877, Votkinsk work, Omutninsk 1881–1883, then explicitly Perm from 1883 until death account for major life phases. This supports false for Scotland independent of the ambiguity in the Russia positive. An exhibition award at Chicago does not establish a Scottish home.",
+        "statement": "Nikolay Slavyanov lived in Scotland.",
+        "statement_sha256": "277fe1131fc266b013c733c843faaec1272eba5b34c6235f2892d01e298b1c3e"
+      }
+    ],
+    "identity": "Nikolay Slavyanov",
+    "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+    "rank": 29,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "Levi Strauss"
+    ],
+    "entity_ids": [
+      "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_strauss"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "US employment and explicit Louisville and San Francisco family homes establish US residence. Identity: Löb Strauß / Levi Strauss, jeans manufacturer.",
+        "source_row_id": "inventors:301",
+        "statement": "Levi Strauss lived in the U.S.",
+        "statement_sha256": "86e5cbcde536ce6c03be6108c6069744b6f2e08d6f4a8d58d8c8d7b90814592e"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+        "evidence_ids": [
+          "topup_strauss"
+        ],
+        "fact_id": "fact_c2ef3985feddd680b8cfb0354049c3d6a38dadaf3500f5e39af55e718e8320d8",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0778ee7a3fccadc3fd59b95d058692954e4c93cda5e7f3d742fa8f0d5102f7d9",
+        "reasoning": "The biography traces Bavarian childhood through emigration at 18 in 1847, New York family business, Louisville home, transit via Panama to San Francisco, family home and business there through final death in 1902. This sustained chronology supports false for India. Imported goods, business customers and travel transit are not personal residence.",
+        "statement": "Levi Strauss lived in India.",
+        "statement_sha256": "47aeb3d9255383d42e5aae37b637b14a6edd2a2774595195d053bb09f492c519"
+      }
+    ],
+    "identity": "Levi Strauss",
+    "person_key": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+    "rank": 30,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "status": "usable",
+    "topic": "inventors"
+  },
+  {
+    "entities": [
+      "mujer"
+    ],
+    "entity_ids": [
+      "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_cambridge_16",
+          "topup_spanishdict_16"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Both dictionaries support mujer → woman for this exact headword. A valid sense suffices; no sole-sense claim is made.",
+        "source_row_id": "sp_en_trans:272",
+        "statement": "The Spanish word 'mujer' means 'woman'.",
+        "statement_sha256": "7ab9ae7c1a3355ca8f481cedf5cf9d61ef68bdc73ecce6993bd332b1c7889d89"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+        "evidence_ids": [
+          "topup_cambridge_16",
+          "topup_spanishdict_16"
+        ],
+        "fact_id": "fact_97bbd5d85ea0c9cb46f811d0da15066df797088d3604bd04a809ce2595f22551",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "004d51a65d3639a1d8b4eb4931cd491f3fb0f699b2831f0d78e1ecf53b3a3714",
+        "reasoning": "Adult female and wife senses, address/emphasis, informal equivalents and listed idioms were inspected. None means busy; a descriptive phrase about a busy woman does not translate the headword as busy.",
+        "statement": "The Spanish word 'mujer' means 'busy'.",
+        "statement_sha256": "9e3ffbe10751b60c1b764bedc50a69ad98604e3630f6e4dcd058d367641ab673"
+      }
+    ],
+    "identity": "mujer",
+    "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+    "rank": 16,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "spanish_checks": {
+      "direction": "Spanish→English",
+      "headword": "mujer",
+      "polysemy_and_dialect": "Adult female and wife senses, address/emphasis, informal equivalents and listed idioms were inspected. None means busy; a descriptive phrase about a busy woman does not translate the headword as busy.",
+      "scope": "Full editorial entries and listed idioms/register/region labels inspected in both dictionaries; examples are not treated as headword glosses. No exhaustive claim about every possible dialect; defeasible lexical judgment.",
+      "spelling_diacritics": "Exact queued headword preserved; none of these five requires a written accent."
+    },
+    "status": "usable",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entities": [
+      "caer"
+    ],
+    "entity_ids": [
+      "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_cambridge_17",
+          "topup_spanishdict_17"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Both dictionaries support caer → to fall for this exact headword. A valid sense suffices; no sole-sense claim is made.",
+        "source_row_id": "sp_en_trans:159",
+        "statement": "The Spanish word 'caer' means 'to fall'.",
+        "statement_sha256": "4cb7654db80613465eb35d9801135202cde9a76f6a0c1e4d2b03486f845e91d1"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+        "evidence_ids": [
+          "topup_cambridge_17",
+          "topup_spanishdict_17"
+        ],
+        "fact_id": "fact_860394d850d555470f5fe692b41a0780f3cae5e9a04a6a33873cd5c59bf443db",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "00e4877c5d154d26bb6fdbc1cca924fd3bfcd52ba5328dfaaf55c5a96837f7a6",
+        "reasoning": "Full 22-sense SpanishDictionary entry includes falling/hanging, weather, decline/defeat/death, occurrence, Spain location sense, chance receipt, colloquial realization, temptation, suitability, appearance, nightfall and caerse forms. None means group as noun or verb; no cross-word borrowing.",
+        "statement": "The Spanish word 'caer' means 'group'.",
+        "statement_sha256": "d3801d1a839d53824b0b7b9010842f3e9249ffb8a8f3aafbf7ef69d0c8cdf6b6"
+      }
+    ],
+    "identity": "caer",
+    "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+    "rank": 17,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "spanish_checks": {
+      "direction": "Spanish→English",
+      "headword": "caer",
+      "polysemy_and_dialect": "Full 22-sense SpanishDictionary entry includes falling/hanging, weather, decline/defeat/death, occurrence, Spain location sense, chance receipt, colloquial realization, temptation, suitability, appearance, nightfall and caerse forms. None means group as noun or verb; no cross-word borrowing.",
+      "scope": "Full editorial entries and listed idioms/register/region labels inspected in both dictionaries; examples are not treated as headword glosses. No exhaustive claim about every possible dialect; defeasible lexical judgment.",
+      "spelling_diacritics": "Exact queued headword preserved; none of these five requires a written accent."
+    },
+    "status": "usable",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entities": [
+      "rojo"
+    ],
+    "entity_ids": [
+      "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_cambridge_18",
+          "topup_spanishdict_18"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Both dictionaries support rojo → red for this exact headword. A valid sense suffices; no sole-sense claim is made.",
+        "source_row_id": "sp_en_trans:114",
+        "statement": "The Spanish word 'rojo' means 'red'.",
+        "statement_sha256": "fff4d0407b9af03dc90a667346d3b77f99d31442d4b1e2bb998b39e65db9948a"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+        "evidence_ids": [
+          "topup_cambridge_18",
+          "topup_spanishdict_18"
+        ],
+        "fact_id": "fact_3149e7b7d493493c5b7114c1e58888b6a2eb70b0ad0c0dcb17a7603875df6a38",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "07c46a4c6d4e36116da5d1b7930e5320fe499b7eee2cf4865bd47cf6eed4708f",
+        "reasoning": "Color adjective/noun and political red senses, including colloquial/pejorative register, were checked. None means corner. The feminine inflection roja does not change that judgment.",
+        "statement": "The Spanish word 'rojo' means 'corner'.",
+        "statement_sha256": "e1bf405b5fdbc07cf807b86a9ef7e751157fd5947e1e0caff7240be6f9690614"
+      }
+    ],
+    "identity": "rojo",
+    "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+    "rank": 18,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "spanish_checks": {
+      "direction": "Spanish→English",
+      "headword": "rojo",
+      "polysemy_and_dialect": "Color adjective/noun and political red senses, including colloquial/pejorative register, were checked. None means corner. The feminine inflection roja does not change that judgment.",
+      "scope": "Full editorial entries and listed idioms/register/region labels inspected in both dictionaries; examples are not treated as headword glosses. No exhaustive claim about every possible dialect; defeasible lexical judgment.",
+      "spelling_diacritics": "Exact queued headword preserved; none of these five requires a written accent."
+    },
+    "status": "usable",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entities": [
+      "hola"
+    ],
+    "entity_ids": [
+      "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_cambridge_19",
+          "topup_spanishdict_19"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Both dictionaries support hola → hello for this exact headword. A valid sense suffices; no sole-sense claim is made.",
+        "source_row_id": "sp_en_trans:352",
+        "statement": "The Spanish word 'hola' means 'hello'.",
+        "statement_sha256": "1c2c63b450434b2cfebe778adc022770be3fc320684ba5d11cb7f9d13146a892"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+        "evidence_ids": [
+          "topup_cambridge_19",
+          "topup_spanishdict_19"
+        ],
+        "fact_id": "fact_20060efecaa7daf8ecf2c6719b54893fdc5e5912a687272364c6f054731d2818",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "006f667fe8f4fcc9a344a7b0ad33fe7cb7f0be089a8cff48439b4e1ddfd29fd5",
+        "reasoning": "Greeting/interjection and attention/surprise use support hello. Son as English male offspring or Spanish conjugation is not a translation of hola. Exact unaccented hola is preserved; separate suggested Holá and homophone ola are not substituted.",
+        "statement": "The Spanish word 'hola' means 'son'.",
+        "statement_sha256": "1f5b6a563ed87bbe3a4c29b4823568189e11594c0db55619cfeae6c087af1148"
+      }
+    ],
+    "identity": "hola",
+    "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+    "rank": 19,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "spanish_checks": {
+      "direction": "Spanish→English",
+      "headword": "hola",
+      "polysemy_and_dialect": "Greeting/interjection and attention/surprise use support hello. Son as English male offspring or Spanish conjugation is not a translation of hola. Exact unaccented hola is preserved; separate suggested Holá and homophone ola are not substituted.",
+      "scope": "Full editorial entries and listed idioms/register/region labels inspected in both dictionaries; examples are not treated as headword glosses. No exhaustive claim about every possible dialect; defeasible lexical judgment.",
+      "spelling_diacritics": "Exact queued headword preserved; none of these five requires a written accent."
+    },
+    "status": "usable",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entities": [
+      "papel"
+    ],
+    "entity_ids": [
+      "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4"
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "topup_cambridge_20",
+          "topup_spanishdict_20"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Both dictionaries support papel → paper for this exact headword. A valid sense suffices; no sole-sense claim is made.",
+        "source_row_id": "sp_en_trans:103",
+        "statement": "The Spanish word 'papel' means 'paper'.",
+        "statement_sha256": "73e2f38ec1eb1d325cffdaefb39ed1cbd52187f92d78caf2663f5f6cd35e0d90"
+      },
+      {
+        "candidate_rank": 1,
+        "entity_id": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+        "evidence_ids": [
+          "topup_cambridge_20",
+          "topup_spanishdict_20"
+        ],
+        "fact_id": "fact_90f5b5b21000417e802f6c36d1e760ed4fa01b4ed5c9e939fa0ca32b1d916c79",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "015a433f9e16ac07d694925108efe60238ce41c84b4096abcccea761385c6ec3",
+        "reasoning": "Material/sheet, document, theatrical part, role/function, performance and share/securities senses were checked. None means present as gift, current/attending adjective, or verb. Papel de regalo means wrapping paper, not a present; presentar in an example about documents does not translate papel. No regional sense in the inspected entries supports the candidate.",
+        "statement": "The Spanish word 'papel' means 'present'.",
+        "statement_sha256": "af4ed6772016e63ffe3242279c008452294acafe1d8a01994d5eee7a5fad1909"
+      }
+    ],
+    "identity": "papel",
+    "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+    "rank": 20,
+    "review_date": "2026-10-01",
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "spanish_checks": {
+      "direction": "Spanish→English",
+      "headword": "papel",
+      "polysemy_and_dialect": "Material/sheet, document, theatrical part, role/function, performance and share/securities senses were checked. None means present as gift, current/attending adjective, or verb. Papel de regalo means wrapping paper, not a present; presentar in an example about documents does not translate papel. No regional sense in the inspected entries supports the candidate.",
+      "scope": "Full editorial entries and listed idioms/register/region labels inspected in both dictionaries; examples are not treated as headword glosses. No exhaustive claim about every possible dialect; defeasible lexical judgment.",
+      "spelling_diacritics": "Exact queued headword preserved; none of these five requires a written accent."
+    },
+    "status": "usable",
+    "topic": "sp_en_trans"
+  }
+]
