@@ -1,0 +1,529 @@
+{
+  "P_A_frozen": false,
+  "artifacts": {
+    "P10_balanced.csv": {
+      "bytes": 616476,
+      "sha256": "c6164903384ae96486e87414c0d436f1799f08a0670c8f38aee4f1853a30e5d2"
+    },
+    "P10_membership.csv": {
+      "bytes": 2275942,
+      "sha256": "6731cc0f53eeef4a929651cce6612034aa452c6bd0abe23a630b9d5b9277ef58"
+    },
+    "alignment.json": {
+      "bytes": 160,
+      "sha256": "eb0afe063c7df8c8b713ccee44f16fe26da040c1d1be289ea393280a3384d6d3"
+    },
+    "atomic_D_rows.csv": {
+      "bytes": 117328,
+      "sha256": "763f9aa6e6e64c9f6287dbcdb57800d824b25c665325ed28e82332fe2373a7a4"
+    },
+    "bare_D_rows.csv": {
+      "bytes": 6729841,
+      "sha256": "1ed2d50833a354e896cc99b6f94a6228207a2f39818524a6d2a93291f624c4b3"
+    },
+    "binding.json": {
+      "bytes": 2074,
+      "sha256": "eb05228cf307cf05879a899a16e5cb455a65e9952b887a8f1681d12004df5331"
+    },
+    "bootstrap_binding.json": {
+      "bytes": 195,
+      "sha256": "a21f1546d893e3c22a12128b61f3f1b6cf2d84559b4fd717d4a33aa822254d93"
+    },
+    "fits.json": {
+      "bytes": 176640,
+      "sha256": "e84c9a759ae0fb0e2864e36fcb004c78f07b36604e9e6bff4283dd7d5e8c3609"
+    },
+    "fits/llama_L10_burger_t_g_P10/fit.json": {
+      "bytes": 4058,
+      "sha256": "ab8a6ddf39df7b14395249ae173d390a80ffdb1e9339acd4e8881f1fc155ddd5"
+    },
+    "fits/llama_L10_burger_t_g_P10/parameters.npz": {
+      "bytes": 216264,
+      "sha256": "2c667df68c992a92f05f8189b83edf76f245b48eb7d187690d574619dbe6dd29"
+    },
+    "fits/llama_L10_difference_of_means_P10/fit.json": {
+      "bytes": 3836,
+      "sha256": "5ac5fc6114b62f7dac6b8e8f415011a5a09b7a9851f3882a485dd8a759d38e2f"
+    },
+    "fits/llama_L10_difference_of_means_P10/parameters.npz": {
+      "bytes": 93292,
+      "sha256": "7c967c3a965dc9fd649424f423e3b9b2fb0c23da59c0f1c3d520e58ba7cd1cdf"
+    },
+    "fits/llama_L10_l2_logistic_P10/fit.json": {
+      "bytes": 4591,
+      "sha256": "2cf5db146d9f61a9bb57574a36b35e3895d58e59b009d14b23367bf42a4019a1"
+    },
+    "fits/llama_L10_l2_logistic_P10/parameters.npz": {
+      "bytes": 31783,
+      "sha256": "2ffdc29005ab4ff198bbcde2cb9068681e313b118c3dea46134fa166601743a0"
+    },
+    "fits/llama_L10_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3981,
+      "sha256": "6a5bf8d93b12c7a5cd4fc3cdc3cb45f53e95f9540f8d24d26151dd851906bc39"
+    },
+    "fits/llama_L10_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 125477,
+      "sha256": "7927db9bfeeb52b47732892d9cc876044ba89c1747a6bf1cd3f2b7442c2a2441"
+    },
+    "fits/llama_L10_r0_P10/fit.json": {
+      "bytes": 4683,
+      "sha256": "39dcb65cb331aac6e63af2fa6624759a3fbe35d5166041d1af2934ca8bed5466"
+    },
+    "fits/llama_L10_r0_P10/parameters.npz": {
+      "bytes": 146448,
+      "sha256": "69eea0ad9b5d40f2f592a92593395d775e5a395124a93016eb282027a7587976"
+    },
+    "fits/llama_L10_ttpd_P10/fit.json": {
+      "bytes": 5993,
+      "sha256": "77b52f3a1d5ea3f83359ba541e8b4ad0b2b6630f1491dc4fd7ef6c48dca793e6"
+    },
+    "fits/llama_L10_ttpd_P10/parameters.npz": {
+      "bytes": 256103,
+      "sha256": "7404a0c9ded10902348803e8be6f1bd61dab053d5d6b9ed38a71dce3dc4e66e2"
+    },
+    "fits/llama_L15_burger_t_g_P10/fit.json": {
+      "bytes": 4058,
+      "sha256": "4ba119dad6d530921911c63178465ef7a356fa96dc926507b25a4e4c68103758"
+    },
+    "fits/llama_L15_burger_t_g_P10/parameters.npz": {
+      "bytes": 217153,
+      "sha256": "ea73a05da3f26325be699d9e0302905efd51a41504257a8329a99fa16a749f43"
+    },
+    "fits/llama_L15_difference_of_means_P10/fit.json": {
+      "bytes": 3835,
+      "sha256": "6ec51928759c83224a823463fa9bca173125ff47de1400913acece0a4a3139d0"
+    },
+    "fits/llama_L15_difference_of_means_P10/parameters.npz": {
+      "bytes": 93693,
+      "sha256": "ca668bfe083b9122d4f6a8487849c20c3c2947339d3469278e90b7395bea76c0"
+    },
+    "fits/llama_L15_l2_logistic_P10/fit.json": {
+      "bytes": 4591,
+      "sha256": "fe55a37104a4ca6d3fbb69b2a6f715271751b35c7f2cfd2c521c99de3b5f1184"
+    },
+    "fits/llama_L15_l2_logistic_P10/parameters.npz": {
+      "bytes": 31792,
+      "sha256": "d725fc92ddaaae701c93545ec3adece00e8a0cba9af7bb61df9ae110f30cab1a"
+    },
+    "fits/llama_L15_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3981,
+      "sha256": "0b8d12b36d35c97117972153847df53641b3f3c27daa4fdc8a67314a6a12abc4"
+    },
+    "fits/llama_L15_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 125815,
+      "sha256": "12f6c8bf6a363d49fb9a2da4a5d80c578a6137f2cb0a958d8dd5b3aafc5cee55"
+    },
+    "fits/llama_L15_r0_P10/fit.json": {
+      "bytes": 4682,
+      "sha256": "fefc8e0df5a4aa1ee9cd58d44c6ff21010f2e2450de143a032cb205d92b2d2c9"
+    },
+    "fits/llama_L15_r0_P10/parameters.npz": {
+      "bytes": 146493,
+      "sha256": "91a6ec9d260d50f4e7b74ae63e64e0bcce296a82181c6a5ecac17ca12ef1cf2c"
+    },
+    "fits/llama_L15_ttpd_P10/fit.json": {
+      "bytes": 5993,
+      "sha256": "232c7dd29a4e507a047c17abe8e8740afe5cc580b66678e91fa5753b8b02da15"
+    },
+    "fits/llama_L15_ttpd_P10/parameters.npz": {
+      "bytes": 256955,
+      "sha256": "210c8c5c9d5fcb20764ba89cdcdb4020880080a9c3a7d25e2a1872dd88008d99"
+    },
+    "fits/llama_L20_burger_t_g_P10/fit.json": {
+      "bytes": 4058,
+      "sha256": "d88e029cc557f9b9b445930649868b70a9a6553d9f98326b25f0132c4f20d43e"
+    },
+    "fits/llama_L20_burger_t_g_P10/parameters.npz": {
+      "bytes": 218500,
+      "sha256": "b3ad8588f410ac68e3f13e9d7cdfb22fa7a6f58ca7d4e4375fdc0e1b68346cf8"
+    },
+    "fits/llama_L20_difference_of_means_P10/fit.json": {
+      "bytes": 3835,
+      "sha256": "f40b4366e65efd390bd09c6c4c9da2b2eb82fbd41354f09123403ca01039d4fe"
+    },
+    "fits/llama_L20_difference_of_means_P10/parameters.npz": {
+      "bytes": 94308,
+      "sha256": "7609bbb83d18ac51156283f932348d2f74f93a808612eba2c973ac88bbeb34a1"
+    },
+    "fits/llama_L20_l2_logistic_P10/fit.json": {
+      "bytes": 4591,
+      "sha256": "6dfdcbf35501e80fcf4f8e8660af2eafe2164103d97721a18f5ab235d51c5933"
+    },
+    "fits/llama_L20_l2_logistic_P10/parameters.npz": {
+      "bytes": 31788,
+      "sha256": "47769212e54309c15e41cecbe8f8bf788fabe9003f356680b126ae548b2ba81f"
+    },
+    "fits/llama_L20_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3982,
+      "sha256": "e234f5a3175583bbddbf85c05ad70044b5ca8091e4252c6ace62bb9c43574148"
+    },
+    "fits/llama_L20_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 126451,
+      "sha256": "88616c999dbeced174dbe6d2a8eea8da28b76f1330102c9c3e7d780c9a808de4"
+    },
+    "fits/llama_L20_r0_P10/fit.json": {
+      "bytes": 4682,
+      "sha256": "3049747d197f37eaad3b68f7ce494ba2a6da44bd7ea58fe9de7fb91c0d31bb48"
+    },
+    "fits/llama_L20_r0_P10/parameters.npz": {
+      "bytes": 146571,
+      "sha256": "1e945de72a29160ee1e1e32a6c52f69de871b0172ffab5fe6a391aee1fd7e120"
+    },
+    "fits/llama_L20_ttpd_P10/fit.json": {
+      "bytes": 5995,
+      "sha256": "3bd794c2ce34cc1067b854836056ec9b5f53765d9917a54a80b989a77ad25465"
+    },
+    "fits/llama_L20_ttpd_P10/parameters.npz": {
+      "bytes": 258135,
+      "sha256": "4fb5a0b94ab51fce1c66aaa27b5b5cff1c5d2db2456fe416bc2541170980f7c6"
+    },
+    "fits/qwen_L17_burger_t_g_P10/fit.json": {
+      "bytes": 4066,
+      "sha256": "ca37e60cea10f9dffe53a0aaf114277dea011144078821336c7b7d22c4245802"
+    },
+    "fits/qwen_L17_burger_t_g_P10/parameters.npz": {
+      "bytes": 193719,
+      "sha256": "04c74283f91b4ed50c43e5f65051f9c1ecc78308274ea2b1676379d2a78cb50b"
+    },
+    "fits/qwen_L17_difference_of_means_P10/fit.json": {
+      "bytes": 3845,
+      "sha256": "688f0dc897e0b3ddcb331fe789ffb68af464177338156a7cb9a136d137f71bc6"
+    },
+    "fits/qwen_L17_difference_of_means_P10/parameters.npz": {
+      "bytes": 83060,
+      "sha256": "8f4ee30046310eedbd9496cc9a187d7c079e0c5390f3bab6382872f20bc02c48"
+    },
+    "fits/qwen_L17_l2_logistic_P10/fit.json": {
+      "bytes": 4598,
+      "sha256": "0c71167592025ac6727047f8a75364f51ccae00397cb0ca2762e353186036935"
+    },
+    "fits/qwen_L17_l2_logistic_P10/parameters.npz": {
+      "bytes": 27889,
+      "sha256": "cb74af2319057e37ddd41b30ab11b07097e8abea9294f3ad40f11b9402155822"
+    },
+    "fits/qwen_L17_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3991,
+      "sha256": "8a8cf0f58f71b15a46f7fefb01c56c7fd05cb830e800fc1fbb0eebdd872dc34c"
+    },
+    "fits/qwen_L17_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 111136,
+      "sha256": "d165062f377e917f94210b52c2ccf2de77d1aca95b6e0dba76e801a08c2dfafb"
+    },
+    "fits/qwen_L17_r0_P10/fit.json": {
+      "bytes": 4691,
+      "sha256": "7f4ad60bcc2768d96512827a25d7da0179e100101b4871a2a60f7e256a51a57c"
+    },
+    "fits/qwen_L17_r0_P10/parameters.npz": {
+      "bytes": 128844,
+      "sha256": "594513aefab010b49133a0071dd3b234e3653578e9f07e687dda73047cd65646"
+    },
+    "fits/qwen_L17_ttpd_P10/fit.json": {
+      "bytes": 6005,
+      "sha256": "42d4c2f1cd133601db4913be22cf79459f3ed49a57976a9d5884767530d55f18"
+    },
+    "fits/qwen_L17_ttpd_P10/parameters.npz": {
+      "bytes": 228514,
+      "sha256": "455397f8d0c52ff15bac8eeb689ca9744c998a3a0e77ef379cff3ceb00893712"
+    },
+    "fits/qwen_L18_burger_t_g_P10/fit.json": {
+      "bytes": 4066,
+      "sha256": "75734d868f69e28248045edae390c7034670b369e0a90acec88943892f3b2f7f"
+    },
+    "fits/qwen_L18_burger_t_g_P10/parameters.npz": {
+      "bytes": 192875,
+      "sha256": "833035d05228fdd684d7ab52a6c647375463dbb65df50e9955b7ade3d57c0eb6"
+    },
+    "fits/qwen_L18_difference_of_means_P10/fit.json": {
+      "bytes": 3843,
+      "sha256": "dbce6489f824f145a71a9dd89425a92769d4a598e6c01784449f7fd96e6a0566"
+    },
+    "fits/qwen_L18_difference_of_means_P10/parameters.npz": {
+      "bytes": 83135,
+      "sha256": "6bb72f31fec75f2f525d1d258e29a8b6554a5233476d7052da3795b0acad9291"
+    },
+    "fits/qwen_L18_l2_logistic_P10/fit.json": {
+      "bytes": 4600,
+      "sha256": "ac4b14579b31336d21297a31161910076c83aff835be0a1257927229c1a8e0d1"
+    },
+    "fits/qwen_L18_l2_logistic_P10/parameters.npz": {
+      "bytes": 27893,
+      "sha256": "a2e9d4e7a0e8eb2ba21b30661acd24eab5fd300fcca521659082b0de54411b06"
+    },
+    "fits/qwen_L18_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3991,
+      "sha256": "39dbe93fb8c063f15eb38fee58a875bdfc38263f2dd3139ad034dbaf642646cb"
+    },
+    "fits/qwen_L18_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 111164,
+      "sha256": "1021b015029977deba739ec5cdd73184eb2756e1db86371f1306440d4fcff5ee"
+    },
+    "fits/qwen_L18_r0_P10/fit.json": {
+      "bytes": 4691,
+      "sha256": "87a74593e5c2d126c54062b25d880d80416d1f6bc57bd5fb26e7d902e0d6a3e6"
+    },
+    "fits/qwen_L18_r0_P10/parameters.npz": {
+      "bytes": 128880,
+      "sha256": "c02eda76de0f9f49bfbe3b356ef2010c529351ad6f20b566e94dabe509a0df95"
+    },
+    "fits/qwen_L18_ttpd_P10/fit.json": {
+      "bytes": 6002,
+      "sha256": "7cda7bd4af3117ea10b0820da5edddae7dd252225471eceacc22a306ce8b0aec"
+    },
+    "fits/qwen_L18_ttpd_P10/parameters.npz": {
+      "bytes": 227821,
+      "sha256": "b1d0cd1adfa44472c2cc858c49ba5e265020e340cd9878cf588ae12de4f4e344"
+    },
+    "fits/qwen_L22_burger_t_g_P10/fit.json": {
+      "bytes": 4067,
+      "sha256": "5d61b961fe06db4b33e0f0b72fadd89824d045c000f71eb49d77982bc9ea7eb7"
+    },
+    "fits/qwen_L22_burger_t_g_P10/parameters.npz": {
+      "bytes": 192832,
+      "sha256": "6cff70e2933fb7d290ab288c0adb36ad2594a475c1d40c11a2c7653e808b129d"
+    },
+    "fits/qwen_L22_difference_of_means_P10/fit.json": {
+      "bytes": 3845,
+      "sha256": "7de6836134c60a6001f9d22c08522cb4645bd0f9884b1e3c0bf5ed9baf239eb3"
+    },
+    "fits/qwen_L22_difference_of_means_P10/parameters.npz": {
+      "bytes": 84188,
+      "sha256": "2d0b804b99efc25792f4cad874bde72d41c790e35572fe8ac186ad2a2e1b506e"
+    },
+    "fits/qwen_L22_l2_logistic_P10/fit.json": {
+      "bytes": 4600,
+      "sha256": "0025a31939b6c23035d8d6d6a9810bbc2ec4a19f70de1da068f5f1e9a033ad3b"
+    },
+    "fits/qwen_L22_l2_logistic_P10/parameters.npz": {
+      "bytes": 27885,
+      "sha256": "dafd36bbc6cec356bb1cf01352fe541b17f68b16bf0f170d7b266dc9cdd71c80"
+    },
+    "fits/qwen_L22_mass_mean_covariance_P10/fit.json": {
+      "bytes": 3991,
+      "sha256": "2fb8ef734310a032a14e16ff0fdda42c939acdf149d50aed754b9d970ced2d6f"
+    },
+    "fits/qwen_L22_mass_mean_covariance_P10/parameters.npz": {
+      "bytes": 112249,
+      "sha256": "c4d11ef768e9d12d21ce5626df2973f896ac6c7edc7a4030618184e1e72112aa"
+    },
+    "fits/qwen_L22_r0_P10/fit.json": {
+      "bytes": 4691,
+      "sha256": "b8b5f4324d4b3d76822fa1f997dcf8ba637f8df48941da1e46c929be785646f1"
+    },
+    "fits/qwen_L22_r0_P10/parameters.npz": {
+      "bytes": 129540,
+      "sha256": "0849eb7dbb371837caf52b9fc08d34819d98ae07c396d12dfd6fca006ac118a3"
+    },
+    "fits/qwen_L22_ttpd_P10/fit.json": {
+      "bytes": 6003,
+      "sha256": "270a539a4d08ec22c90d19301df450f2a20653c4b9c1956395b1f77f0a2cb8b4"
+    },
+    "fits/qwen_L22_ttpd_P10/parameters.npz": {
+      "bytes": 227700,
+      "sha256": "8e98158261b167430c1d5c90ccb875a40837df68f550381a212501cf21f1b07f"
+    },
+    "membership.json": {
+      "bytes": 20365,
+      "sha256": "651ad72933bb94bc01bef9dbfe9b3047267bb2efafa318d04a0e29f04d922e79"
+    },
+    "metrics.csv": {
+      "bytes": 556182,
+      "sha256": "6d60cc7616232d1685ad53ef1ab3fc1258d50c81b70cd47c2b8f6d9ca33d0332"
+    },
+    "metrics.json": {
+      "bytes": 3088520,
+      "sha256": "2513f6437e00b9c57344f13f4e271abf477ae022143ecfe37991011980ad5a79"
+    },
+    "predecessor_replay.json": {
+      "bytes": 19134,
+      "sha256": "4f4e4fb27b3c59fa9edf4512f2990e038e8692fd0d90c93110641ad1fa4e7a0a"
+    },
+    "predecessor_validation.json": {
+      "bytes": 449,
+      "sha256": "6698a3a2dcac4196f4bc816f65f7453612a74d24841b29876618f9d0b3e03ade"
+    },
+    "predeclared_config.json": {
+      "bytes": 6635,
+      "sha256": "c5acb06506090a763f4b0dc5ad3cfb99564b382791a901d00a6da8e9839046bd"
+    },
+    "scores/llama_L10_burger_t_g_P10.npz": {
+      "bytes": 67271,
+      "sha256": "6e95b045afb09d31f76937577a9cc570988c38ff2211d59e93a6dcc7ba1a290c"
+    },
+    "scores/llama_L10_difference_of_means_P10.npz": {
+      "bytes": 67137,
+      "sha256": "d9c3f72146402fcc01ed6461ecd6889066d79a7372a2da1b2cea7d9218de6fe2"
+    },
+    "scores/llama_L10_l2_logistic_P10.npz": {
+      "bytes": 68025,
+      "sha256": "c37dd324f7235e2aa454d4f381fdc99ad81898b6f05a1dfa0663edf4a446b80f"
+    },
+    "scores/llama_L10_mass_mean_covariance_P10.npz": {
+      "bytes": 67462,
+      "sha256": "5a1ccbb2caa9d2a1ee34c713f5ea9fc2115792f5857a6cf6e87a69454c15fa1b"
+    },
+    "scores/llama_L10_r0_P10.npz": {
+      "bytes": 67999,
+      "sha256": "0e8a3376d6811e9e65e9b4d1208d5cafc2dac728ef50e6350929f06f9b1e495f"
+    },
+    "scores/llama_L10_ttpd_P10.npz": {
+      "bytes": 67917,
+      "sha256": "72325a444a12868353836c0e3f7acefc326ef52d07c66ee780799204011c2a40"
+    },
+    "scores/llama_L15_burger_t_g_P10.npz": {
+      "bytes": 68032,
+      "sha256": "9f98d4b14a4658b161475779ef98512486356f7c5170212a3f46fc0badaa97e6"
+    },
+    "scores/llama_L15_difference_of_means_P10.npz": {
+      "bytes": 67723,
+      "sha256": "9c02af4550c0a0842821fc11d2420691fc300db1dcd4c934a6a8db124bc08f93"
+    },
+    "scores/llama_L15_l2_logistic_P10.npz": {
+      "bytes": 67752,
+      "sha256": "3638eb481bc4f56400dfd9f4ef7c427c8e4d407b5d9216da3991dd74838f6ce6"
+    },
+    "scores/llama_L15_mass_mean_covariance_P10.npz": {
+      "bytes": 67127,
+      "sha256": "06e52b1b48ab2e04b9d6a9d6140145f5129144d89b97c70378a5b1a5782cbcf8"
+    },
+    "scores/llama_L15_r0_P10.npz": {
+      "bytes": 67890,
+      "sha256": "a71e1eb2d6bd17669f2d1a41f3e432c08a5d556d193b515b75d469560be921f4"
+    },
+    "scores/llama_L15_ttpd_P10.npz": {
+      "bytes": 67663,
+      "sha256": "8932db1fc9a5d1ef96518efffee0782d69a53187b161316b225cb7173c24525e"
+    },
+    "scores/llama_L20_burger_t_g_P10.npz": {
+      "bytes": 67826,
+      "sha256": "7c47242a431ab0512f6f6a90afb800eaec70bcd34966b32cc1ec16d161d55bc4"
+    },
+    "scores/llama_L20_difference_of_means_P10.npz": {
+      "bytes": 67611,
+      "sha256": "f3a062931243618e84985f0ef9e46a61cb010539750164400704ad436f317356"
+    },
+    "scores/llama_L20_l2_logistic_P10.npz": {
+      "bytes": 67516,
+      "sha256": "4869ff317af554dab607748fb4a409957abab1152325558e250e65aad1f7d5bc"
+    },
+    "scores/llama_L20_mass_mean_covariance_P10.npz": {
+      "bytes": 67179,
+      "sha256": "58c5bfbf4d91dd5e2ffbb6be983b9f1023b7750f0886524e03d6cd09ca032e78"
+    },
+    "scores/llama_L20_r0_P10.npz": {
+      "bytes": 67915,
+      "sha256": "129381936adfd623b446a500a0f73e85017088c580cfea7b62a1bee48c5a59b0"
+    },
+    "scores/llama_L20_ttpd_P10.npz": {
+      "bytes": 67711,
+      "sha256": "0137f440277899fe910c9612f3f7f41413f8e6134e70b12fff91cd21de6b6c11"
+    },
+    "scores/paired_draws.npz": {
+      "bytes": 54425058,
+      "sha256": "ad8c67a6bf761023ee32583c80a1d478f146c7bf39c2920b0a4bc2e65ad26153"
+    },
+    "scores/qwen_L17_burger_t_g_P10.npz": {
+      "bytes": 66161,
+      "sha256": "0cc69afa3e3d9b4e99c0adbdaef165a769d4132670900625e4aff32866491583"
+    },
+    "scores/qwen_L17_difference_of_means_P10.npz": {
+      "bytes": 66157,
+      "sha256": "ae357233688a57a203e4d13ef76e90a42187f44675949914f35a2b7bd8e0d810"
+    },
+    "scores/qwen_L17_l2_logistic_P10.npz": {
+      "bytes": 67811,
+      "sha256": "e5f5d75c230e4015acac55f2c2c81c60beb103ca8ee93e1333c3aa9aa3c2a5c2"
+    },
+    "scores/qwen_L17_mass_mean_covariance_P10.npz": {
+      "bytes": 67187,
+      "sha256": "0a57808079ac3a6c5ab20cc9b4257beb272791c47efbb4caf70085148d48d53b"
+    },
+    "scores/qwen_L17_r0_P10.npz": {
+      "bytes": 67659,
+      "sha256": "17307c0242104e11f2356f885a8fe226a83c85af0c3b787d95df52611ba7ca81"
+    },
+    "scores/qwen_L17_ttpd_P10.npz": {
+      "bytes": 67733,
+      "sha256": "1ae6cb6845515bd97aabdeae9ff20be79fe2f00ec0466f79abac0a7e8fc34c2e"
+    },
+    "scores/qwen_L18_burger_t_g_P10.npz": {
+      "bytes": 67143,
+      "sha256": "fed9db3cf21b4a2c1718c66b9bc874fe8e29fa672d65b3c8632ddbae89a26919"
+    },
+    "scores/qwen_L18_difference_of_means_P10.npz": {
+      "bytes": 67610,
+      "sha256": "f6b74053808cf85484a0a76f04d69dc74c2d13eda36829167eb386215b20e83a"
+    },
+    "scores/qwen_L18_l2_logistic_P10.npz": {
+      "bytes": 67933,
+      "sha256": "c8971b61745564388814d8a9c8b02518c85fb9e4375a029949a314313af901df"
+    },
+    "scores/qwen_L18_mass_mean_covariance_P10.npz": {
+      "bytes": 66926,
+      "sha256": "a17ac831cd7c0b93a23f9e238bf5b8350b0aafe0c91ae6f7a48222297c2f9061"
+    },
+    "scores/qwen_L18_r0_P10.npz": {
+      "bytes": 67964,
+      "sha256": "1c24294d1769545849bc09188eb6fea1f2b3414389df3dc36540f9797ede6e5a"
+    },
+    "scores/qwen_L18_ttpd_P10.npz": {
+      "bytes": 67635,
+      "sha256": "8607b385a0b5a4f1d3a748fe43c65395aec0f88f7323295b42bd97461482b79d"
+    },
+    "scores/qwen_L22_burger_t_g_P10.npz": {
+      "bytes": 67259,
+      "sha256": "718d7166d4fde459d33cad138fb4667f0e9f13ae1f70b4c6c66e6e66d406c231"
+    },
+    "scores/qwen_L22_difference_of_means_P10.npz": {
+      "bytes": 67404,
+      "sha256": "a51a10085f21948b99df15c9e03d49e04e1f9331656a6a4699333e7315daf52d"
+    },
+    "scores/qwen_L22_l2_logistic_P10.npz": {
+      "bytes": 67956,
+      "sha256": "80f460f5eff2ee72eb4772a33c206481d31667202dd7a955f32a105bbdd12eb9"
+    },
+    "scores/qwen_L22_mass_mean_covariance_P10.npz": {
+      "bytes": 66271,
+      "sha256": "2beef08d5824e0db28415ef13e6040912414579f717e3abdacad87f71f67b854"
+    },
+    "scores/qwen_L22_r0_P10.npz": {
+      "bytes": 67880,
+      "sha256": "ca86d27fd1553f95112369737fa9ead5e29d75214c11e6d2eda4d34378113cb3"
+    },
+    "scores/qwen_L22_ttpd_P10.npz": {
+      "bytes": 67847,
+      "sha256": "6defed56443d3497c7e3500f42a3df9805452647c0e82673a10b0bf1e1569383"
+    },
+    "trigger_followup.json": {
+      "bytes": 38573,
+      "sha256": "28dbf32dc9f1cf7a0ab794e538ab984b67db399729bced7d9a274ddf8a6dd069"
+    }
+  },
+  "blas_threads": 1,
+  "completed_utc": "2026-10-01T22:08:56.282050+00:00",
+  "correction_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "cpu_concurrency": 1,
+  "cumulative_unique_configurations": 108,
+  "elapsed_seconds": 201.46639233408496,
+  "endpoint_summaries": 2520,
+  "failures": [],
+  "final_test_access": false,
+  "fit_seconds": 55.22355775302276,
+  "hostname": "MacBook-Pro-7.lan",
+  "local_platform": "Darwin",
+  "missing_comparisons": [],
+  "model_extractions": 0,
+  "new_configuration_fits": 36,
+  "new_transfers": 0,
+  "prior_configurations": 72,
+  "production_bank_fits": 0,
+  "repair_fits": 0,
+  "runtime": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "python": "3.11.6",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.1"
+  },
+  "status": "complete",
+  "unique_new_configurations": 36
+}

@@ -1,0 +1,53 @@
+{
+  "A10_adopted": false,
+  "LR_R0_review_triggers": 0,
+  "P_A_frozen": false,
+  "adaptation_tradeoff": {
+    "A10_B25": "Feasible with disjoint endpoints: five pairs/topic use all ten A entities/topic; three samples vary only in pairing",
+    "A10_B50": "Must be dropped under A10",
+    "A10_entities": 50,
+    "A10_possible_unordered_pairs_per_topic": 45,
+    "A15_entities": 75,
+    "A15_possible_unordered_pairs_per_topic": 105,
+    "atomic_only_controls": "Deduplicate identical fixed-layer controls by exact fitted inputs/weights, preprocessing, method/optimizer settings and layer; pairing-only repeats do not create distinct controls",
+    "extra_P10_balanced_rows": 100,
+    "extra_P10_rows": 86
+  },
+  "balanced_P10_vs_P15": {
+    "added": 378,
+    "removed": 278,
+    "shared": 422
+  },
+  "decision": "P10 does not sufficiently remove material withholding damage; do not adopt A10 as a successful capacity fix or freeze either proposal automatically",
+  "favorable_layer_selection": false,
+  "fitting": {
+    "P10_rows": 2864,
+    "P15_rows": 2778,
+    "balanced_P10": 800,
+    "balanced_P15": 700,
+    "balanced_full": 1000,
+    "cumulative_unique": 108,
+    "full_rows": 3040,
+    "new": 36
+  },
+  "material_concern": "Qwen covariance-MM L18 pooled OR boundary worsens from P15-full -0.1679987055 to P10-full -0.1937087690; fixed settings and exact inputs were preserved",
+  "method_removal": false,
+  "new_triggers_vs_full": 4,
+  "original_triggers": {
+    "cleared": 5,
+    "improved_but_persistent": 5,
+    "total": 14,
+    "worsened_and_persistent": 4
+  },
+  "remaining": [
+    "Review the persistent and new method/model/topic damage before a design freeze; count reductions are not sufficiency",
+    "Keep all six methods and fixed layers in the record; no retrospective retuning or favorable-layer selection",
+    "Specify precision/decision criteria with shared entities and conditional pointwise intervals; comparisons are dependent and not simultaneous",
+    "Decide exact A/P identities, allocated facts, B, pairing samples, folds and deduplication rules explicitly",
+    "Retain bounded representation adoption and unresolved producer-code/tokenizer/config evidence; fresh extraction requires compatibility verification",
+    "Treat v5 as the recorded E-only handoff; all current fits remain pinned to v4"
+  ],
+  "retuning": false,
+  "total_triggers_vs_full": 13,
+  "triggers_vs_P15": 11
+}
