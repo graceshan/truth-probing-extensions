@@ -1,0 +1,1202 @@
+{
+  "edison": {
+    "id": "edison",
+    "url": "https://www.nps.gov/edis/learn/historyculture/edison-biography.htm",
+    "fetch_result": "200\nhttps://www.nps.gov/edis/learn/historyculture/edison-biography.htm",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "1d4bdbdf794c599740943ea272220eba9005cbdc7a1050906762b2296a8c387a",
+    "text_sha256": "89fe9a5d7bc0764386b7383ec854ac6ae2af925d239da69ed55e67e5c3237fe1",
+    "title": "Edison Biography - Thomas Edison National Historical Park (U.S. National Park Service)",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Visible-text line 46; locate exact quoted sentence/phrase on page",
+        "excerpt": "Edison lived here until he struck out on his own at the age of sixteen.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 48; locate exact quoted sentence/phrase on page",
+        "excerpt": "Edison worked in a number of cities throughout the United States before arriving in Boston in 1868.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 49; locate exact quoted sentence/phrase on page",
+        "excerpt": "Edison moved to New York City in 1869.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 50; locate exact quoted sentence/phrase on page",
+        "excerpt": "In 1876 Edison sold all his Newark manufacturing concerns and moved his family and staff of assistants to the small village of Menlo Park, twenty-five miles southwest of New York City.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 58; locate exact quoted sentence/phrase on page",
+        "excerpt": "The couple was married in February 1886 and moved to West Orange, New Jersey where Edison had purchased an estate, Glenmont, for his bride. Thomas Edison lived here with Mina until his death.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 68; locate exact quoted sentence/phrase on page",
+        "excerpt": "Trips to the family vacation home in Fort Myers, Florida became longer.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "NPS follows childhood in Ohio/Michigan, itinerant telegraph work in US cities, Boston in 1868, New York in 1869, Newark in 1871, Menlo Park in 1876, then New York and the family home at West Orange from 1886 until death in 1931, including late Florida stays.",
+    "limitations": "Not an exhaustive residence register.",
+    "supports_universal_nonresidence": false
+  },
+  "hoffmann_shi": {
+    "id": "hoffmann_shi",
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/felix-hoffmann/",
+    "fetch_result": "200\nhttps://www.sciencehistory.org/education/scientific-biographies/felix-hoffmann/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "9ab86209d81584d01a67693bcc79f0e0cca144e575af3b0f30fcede6cded0875",
+    "text_sha256": "2a48861e5efb2400b191da57ba3267b0fbcf2fbbb99a46dca824da18e92577b9",
+    "title": "Felix Hoffmann | Science History Institute",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 71; locate by quoted text on page",
+        "excerpt": "Hoffmann was the son of a manufacturer in the town of Ludwigsburg in Swabia, Germany. He first found employment in pharmacies in various cities and towns around Germany and later studied chemistry and pharmacy at",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Science History Institute locates pharmacy employment in German towns, study in Munich and pharmaceutical research at Bayer in Elberfeld. It is a history of drug development, not a full residence chronology.",
+    "limitations": "Not an exhaustive residence register.",
+    "supports_universal_nonresidence": false
+  },
+  "hoffmann_wiki": {
+    "id": "hoffmann_wiki",
+    "url": "https://en.wikipedia.org/wiki/Felix_Hoffmann",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Felix_Hoffmann",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "bbfafbea88f51ed8faba3a1ae6f5bfd5a78265d13bb6caee2206f346cebe79d0",
+    "text_sha256": "39e01c21020dee012e6386d3e297335b08d019022f6afe9d2897c5e1936a8249",
+    "title": "Felix Hoffmann - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 132; locate by quoted text on page",
+        "excerpt": "Following the synthesis of aspirin and heroin, Hoffmann moved to the pharmaceutical marketing department where he stayed until his retirement in 1928.[2]",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 133; locate by quoted text on page",
+        "excerpt": "Hoffman was never married and died on 8 February 1946 in Switzerland. He had no known children.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Secondary account mentions retirement in 1928 and death in Switzerland; it does not document all intervening residences.",
+    "limitations": "Retirement/death summary is incomplete and is not independent proof of no US residence.",
+    "supports_universal_nonresidence": false
+  },
+  "nobel_full": {
+    "id": "nobel_full",
+    "url": "https://www.nobelprize.org/alfred-nobel/alfred-nobel-his-life-and-work/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/alfred-nobel/alfred-nobel-his-life-and-work/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "6604fc6759c793e1a9be36a0d74f9f53ee5e95e2205c3f1908e2882237994b4d",
+    "text_sha256": "935b7246da93b1b6296eff9978718e2d7eb567115049eedb14cf94c7241961bd",
+    "title": "Alfred Nobel - his life and work - NobelPrize.org",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Visible-text line 37; locate exact quoted sentence/phrase on page",
+        "excerpt": "During a two year period Alfred Nobel visited Sweden, Germany, France and the United States.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 39; locate exact quoted sentence/phrase on page",
+        "excerpt": "In the United States he visited John Ericsson, the Swedish-American engineer who had developed the screw propeller for ships.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 39; locate exact quoted sentence/phrase on page",
+        "excerpt": "In 1852 Alfred Nobel was asked to come back and work in the family enterprise which was booming because of its deliveries to the Russian army.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 46; locate exact quoted sentence/phrase on page",
+        "excerpt": "Although he lived in Paris much of his life he was constantly traveling.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Nobel institutional biography explicitly records visits to the US and John Ericsson during overseas training, then return to Russia in 1852; later homes/laboratories in several European countries.",
+    "limitations": "The US stay is called a visit; its living arrangements and duration are not specified.",
+    "supports_universal_nonresidence": false
+  },
+  "kalman": {
+    "id": "kalman",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kalman/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Kalman/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "d90f147c11d8f8d276824d66a20667ec7aba1c9e41a165e30469795e6964229d",
+    "text_sha256": "ce5ed2a44a91448ef143dc5bdabdd495dc49b72e5175bdb32b5cf493abae85c9",
+    "title": "Rudolf Kalman (1930 - 2016) - Biography - MacTutor History of Mathematics",
+    "authority": "University of St Andrews biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 22; locate by quoted text on page",
+        "excerpt": "Rudolf Kalman emigrated to the United States where he studied electrical engineering at the Massachusetts Institute of Technology. He was awarded a S.B. in 1953, and continued to undertake graduate studies there leading to a S.M. in 1954. For his doctoral work he went to",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 25; locate by quoted text on page",
+        "excerpt": "After the award of his doctorate Kalman was appointed as a Research Mathematician at the Research Institute for Advanced Studies in Baltimore, Maryland. He worked there from 1958 to 1964 and during this time he produced some results of outstanding importance. For example there are",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 33; locate by quoted text on page",
+        "excerpt": "Let us return to giving details of Kalman's career. He left the Research Institute for Advanced Studies in Baltimore, Maryland, in 1964 to take up the position of Professor at Stanford University covering engineering mechanics, electrical engineering, and mathematical system theory. In 1971 he moved",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "MacTutor records migration to the US, MIT and Columbia training, Baltimore employment, Stanford, Florida and Zurich positions, with retirement in 1992/1997.",
+    "limitations": "Professional chronology does not fully document childhood, retirement or temporary residential appointments.",
+    "supports_universal_nonresidence": false
+  },
+  "nansen": {
+    "id": "nansen",
+    "url": "https://www.nobelprize.org/prizes/peace/1922/nansen/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/peace/1922/nansen/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "62706709cfa663e69e24f40d4d7877a38c7f59331162fbe40f4394336eeef796",
+    "text_sha256": "7b7f3458abef3d310385bad6f0a2bce9f1f50633212294b687f31caf7079b314",
+    "title": "Fridtjof Nansen – Biographical - NobelPrize.org",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 56; locate by quoted text on page",
+        "excerpt": "Nansen interrupted his research in 1905 to urge the independence of Norway from Sweden and, after the dissolution of the Union, served as his country’s minister to Great Britain until May of 1908. In the next few years he led several oceanographic expeditions into polar regions, but once the world was plunged into war in 1914 and exploration was halted, he became increasingly interested in",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Nobel biography records service as Norway’s minister to Great Britain after independence until May 1908.",
+    "limitations": "Describes the posting, not a street address.",
+    "supports_universal_nonresidence": false
+  },
+  "nansen_wiki": {
+    "id": "nansen_wiki",
+    "url": "https://en.wikipedia.org/wiki/Fridtjof_Nansen",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Fridtjof_Nansen",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e363614a69ee7299fca1487ef864d583bedd09909577dc9613f4fa11316a6d1c",
+    "text_sha256": "e0b0e02f953d7730ccce67048bc9842a64d1055d5d60bc1467735f5a020c6b33",
+    "title": "Fridtjof Nansen - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 441; locate by quoted text on page",
+        "excerpt": "In April 1906 Nansen was appointed Norway's first Minister in London.[110] His main task was to work with representatives of the major European powers on an Integrity Treaty which would guarantee Norway's position.[111] Nansen was popular in England, and got",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 445; locate by quoted text on page",
+        "excerpt": "After a period of mourning, Nansen returned to London. He had been persuaded by his government to rescind his resignation until after King Edward's state visit to Norway in April 1908. His formal retirement from the diplomatic service was dated",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Secondary account specifies appointment in London in April 1906 and return to London before formal retirement in May 1908.",
+    "limitations": "Used as location/date corroboration of the institutional account, not alone.",
+    "supports_universal_nonresidence": false
+  },
+  "fleming": {
+    "id": "fleming",
+    "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "70ecb07625efb4bde9ff8981c0a3604110051a5d07f1bcd6125b7c97c742ff53",
+    "text_sha256": "a0b7b4f49556b4229b061f11e125bc20731f14af7f29aac346552307c559c557",
+    "title": "Sir Alexander Fleming – Biographical - NobelPrize.org",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Visible-text line 51; locate exact quoted sentence/phrase on page",
+        "excerpt": "He served throughout World War I as a captain in the Army Medical Corps, being mentioned in dispatches, and in 1918 he returned to St.Mary’s.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Nobel biography places Fleming in Army Medical Corps service throughout World War I and says he returned to St Mary’s in 1918.",
+    "limitations": "Does not itself name the French posting.",
+    "supports_universal_nonresidence": false
+  },
+  "fleming_memoir_p91": {
+    "id": "fleming_memoir_p91",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2385475/",
+    "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6970/2385475/df15de087538/ulstermedj00117-0008.png",
+    "title": "V. D. Allison, Personal Recollections of Sir Almroth Wright and Sir Alexander Fleming, Ulster Medical Journal 43(2), 1974, pp. 89–98",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "d9e6e7b235adb4a45238bf53fb78efd3fbd9b12db017e172ef5f630990df1a3d",
+    "response_hash_scope": "page 91 PNG image",
+    "authority": "Published medical memoir by Fleming’s colleague; Ulster Medical Society, archived by NLM",
+    "inspection_method": "Direct visual inspection of scanned pages 89–92; transcription from page 91",
+    "observations": [
+      {
+        "locator": "Printed page 91, second paragraph, beginning “Such was the physical”",
+        "excerpt": "Such was the physical and mental environment in which Fleming worked from 1906 for the rest of his life, broken only between 1914 and 1918, when Wright, Fleming and colleagues set up an Army Laboratory in Boulogne to investigate infection of war wounds.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Allison identifies a four-year interruption of Fleming’s London work for an Army laboratory in Boulogne. Together with the Nobel account of his return in 1918, this supports a residential wartime posting in France.",
+    "limitations": "A retrospective colleague memoir, not a household register; judgment treats an extended overseas work posting as residence, as stated in the pre-adjudication policy.",
+    "supports_universal_nonresidence": false
+  },
+  "wright_wiki": {
+    "id": "wright_wiki",
+    "url": "https://en.wikipedia.org/wiki/Wright_brothers",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Wright_brothers",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "fb90cb686cf7a0c648f177fa6f98f04d33409ed0e832c373764ea90dce40f4d7",
+    "text_sha256": "6bfcbcaa05db191782b3a3c1bc9f06f7d11667a8a2df1905036ff63dc9987554",
+    "title": "Wright brothers - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 492; locate by quoted text on page",
+        "excerpt": "Facing much skepticism in the French aeronautical community and outright scorn by some newspapers that called him a \"bluffeur\", Wilbur began official public demonstrations on August 8, 1908, at the Hunaudières horse racing track near the town of Le Mans, France. His first flight lasted",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 502; locate by quoted text on page",
+        "excerpt": "Deeply shocked and upset by the accident, Wilbur determined to make even more impressive flight demonstrations; in the ensuing days and weeks he set new records for altitude and duration. On September 28, Wilbur won the Commission of Aviation prize, and then on December 31,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 504; locate by quoted text on page",
+        "excerpt": "All three Wrights relocated to Pau, where Wilbur made many more public flights in nearby Pont Long. Wilbur gave rides to a procession of officers, journalists, and statesmen, including his sister Katharine on March 17, 1909. The brothers established the world's first flying school to",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Wilbur demonstrated aircraft near Le Mans in 1908; Orville and Katharine joined him in January 1909 and the three relocated to Pau before going to Rome in April.",
+    "limitations": "Demonstration/temporary accommodation does not by itself settle the meaning of joint-person residence; requested museum leads were unavailable.",
+    "supports_universal_nonresidence": false
+  },
+  "tamm": {
+    "id": "tamm",
+    "url": "https://www.nobelprize.org/prizes/physics/1958/tamm/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1958/tamm/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "b900e4511534c1f5a7b0496faefac61bd630ffb7f87da5b8215b6f55d8ef101e",
+    "text_sha256": "2c59e78a66d2b7f2e34cb504ce466d27f95557a9583863a38a41fbd39053722f",
+    "title": "Igor Y. Tamm – Biographical - NobelPrize.org",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 47; locate by quoted text on page",
+        "excerpt": "Igor Yevgenyevich Tamm was born in Vladivostok on July 8, 1895, as the son of Evgenij Tamm, an engineer, and Olga Davydova. He graduated from Moscow State University in 1918, specializing in physics, and immediately commenced an academic career in institutes of higher learning. He was progressively assistant, instructor, lecturer, and professor in charge of chairs, and he has taught",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 51; locate by quoted text on page",
+        "excerpt": "From Nobel Lectures, Physics 1942-1962, Elsevier Publishing Company, Amsterdam, 1964",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Nobel biography summarizes Tamm’s Moscow education and Soviet institutional career, including Lebedev from 1934.",
+    "limitations": "Career summary largely ends with the Nobel period, and is not a lifetime register.",
+    "supports_universal_nonresidence": false
+  },
+  "akroyd_adb": {
+    "id": "akroyd_adb",
+    "url": "https://adb.anu.edu.au/biography/stuart-herbert-akroyd-8705",
+    "fetch_result": "200\nhttps://adb.anu.edu.au/biography/stuart-herbert-akroyd-8705",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "718c7cb978bfb4da3c5e31a2e587b7d832b53aadca4d70ebf6e183b60158900b",
+    "text_sha256": "c8d13a1914fb31fdae958624d86dd1cf988c58a94c25263c1d060f2ed4ed036b",
+    "title": "Biography - Herbert Akroyd Stuart - Australian Dictionary of Biography",
+    "authority": "Australian National University, Australian Dictionary of Biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 40; locate by quoted text on page",
+        "excerpt": "Herbert Akroyd Stuart (1864-1927), mechanical engineer, was born on 28 January 1864 at Halifax, Yorkshire, England, son of Charles Stuart, machinists' modelmaker, and his wife Ann, née Akroyd. He attended Newbury Grammar School, Berkshire, and the City and Guilds Technical",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 43; locate by quoted text on page",
+        "excerpt": "Having migrated to Western Australia in 1900, he joined his brother Charles who helped to form the engineering firm Saunders & Stuart; interested in gas producers, Herbert designed a highly successful unit operating on the downdraft system, using wood as",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 45; locate by quoted text on page",
+        "excerpt": "A courteous and gentle man who never married, Stuart was somewhat embittered by lack of recognition of his work. He died of throat cancer on 19 February 1927 at his home Akroydon, Claremont, Perth, and was buried in the cemetery",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "ANU biography documents English education and engineering, migration to Western Australia in 1900, and death at his home in Perth in 1927.",
+    "limitations": "Substantial career narrative but sparse on travel and interim living arrangements; no explicit exhaustive residence claim.",
+    "supports_universal_nonresidence": false
+  },
+  "farnsworth": {
+    "id": "farnsworth",
+    "url": "https://www.invent.org/inductees/philo-taylor-farnsworth",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/philo-taylor-farnsworth",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7b7c10605d7fe43e5ee80016467c27f8dfebf7b8c2f9a525a7f55456c37cf276",
+    "text_sha256": "c73550c6772d7b8a255444fe74be4e4636736569559823cf8bdcc0f789a4b6f9",
+    "title": "NIHF Inductee Philo Farnsworth Invented the Television System",
+    "authority": "National Inventors Hall of Fame",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 1; locate by quoted text on page",
+        "excerpt": "NIHF Inductee Philo Farnsworth Invented the Television System",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 91; locate by quoted text on page",
+        "excerpt": "Philo Taylor Farnsworth",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 100; locate by quoted text on page",
+        "excerpt": "Philo Taylor Farnsworth's electronic inventions made possible today's TV industry, the TV shots from the moon, and satellite pictures. Born in Beaver, Utah, Farnsworth, while still in high school, delved",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 101; locate by quoted text on page",
+        "excerpt": "In 1926 Farnsworth joined the Crocker Research Laboratories in San Francisco. At the age of 21 he produced the first all-electric television image. Crocker Research Laboratories was reorganized as Television",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "NIHF page title uses Philo Farnsworth; the entry heading and text use Philo Taylor Farnsworth, linking both names to the same electronic television inventor.",
+    "limitations": "Supports the identity linkage; this short profile is not a full residence history.",
+    "supports_universal_nonresidence": false
+  },
+  "farnsworth_wiki": {
+    "id": "farnsworth_wiki",
+    "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Philo_Farnsworth",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "5efdc0f773385c5041c6c3d8b7f5de5bcb2c440bd8112d8b4dba877d5eed4c55",
+    "text_sha256": "e9046271f4a765342ea185e4ff2b70b6b19414d64596ee62d91b0ac7a82c9290",
+    "title": "Philo Farnsworth - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 183; locate by quoted text on page",
+        "excerpt": "In 1931, David Sarnoff of RCA offered to buy Farnsworth's patents for $100,000, with the stipulation that he become an employee of RCA, but Farnsworth refused.[7] In June of that year, Farnsworth joined the Philco",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 186; locate by quoted text on page",
+        "excerpt": "After sailing to Europe in 1934, Farnsworth secured an agreement with Goerz-Bosch-Fernseh in Germany.[26] Some image dissector cameras were used to broadcast the 1936 Olympic Games in Berlin.[43]",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 193; locate by quoted text on page",
+        "excerpt": "In 1967, Farnsworth and his family moved back to Utah to continue his fusion research at Brigham Young University, which presented him with an honorary doctorate. The university also offered him office space and an",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Secondary biography describes Philadelphia and later Utah moves, but also a European trip and German business agreement in 1934.",
+    "limitations": "Business travel does not establish or disprove residence in Germany.",
+    "supports_universal_nonresidence": false
+  },
+  "walker": {
+    "id": "walker",
+    "url": "https://heritage.stockton.gov.uk/articles/people/john-walker-inventor-of-the-friction-match/",
+    "fetch_result": "200\nhttps://heritage.stockton.gov.uk/articles/people/john-walker-inventor-of-the-friction-match/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a9c9c44877432518b4791b28ae09f8b549b1aa79e316ef31ffed94b0eddd74df",
+    "text_sha256": "6d980a4aad6b05611d91baeb21a4f7905abe73364776dc64ca6492365212480e",
+    "title": "John Walker - Inventor of the Friction Match | Stockton Heritage",
+    "authority": "Stockton-on-Tees local heritage biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 36; locate by quoted text on page",
+        "excerpt": "About the age of fifteen John Walker was apprenticed to Mr. Watson Alcock a surgeon who was physician to the Marquis of Londonderry. Originally the surgery was at the corner of Ramsgate but later moved to 25 Bridge Road. There is not much detail of",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 37; locate by quoted text on page",
+        "excerpt": "John Walker's father died in 1812 but his mother and two sisters moved to a cottage in Cleveland Row overlooking the River and this is where John joined them on his return to Stockton. In 1819 John opened a shop as a \"chymist and druggist\"",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 40; locate by quoted text on page",
+        "excerpt": "John Walker continued to trade a chemist and eventually bought a house in the most desirable part of the town, The Square, where Municipal now stands. He was accompanied by his sisters Jane and Mary. He continued to trade as a chemist until he retired",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Stockton heritage account follows apprenticeship, London/Durham/York training, return to Stockton, home and shop there, retirement in 1858 and death in 1859.",
+    "limitations": "The source explicitly says there is not much detail about his early professional period; no exhaustive travel/residence reconstruction.",
+    "supports_universal_nonresidence": false
+  },
+  "link": {
+    "id": "link",
+    "url": "https://www.invent.org/inductees/edwin-link",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/edwin-link",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7798fc437281e5b53ed936861bcd63215bf26374dc7c52239e68e1cfb029735d",
+    "text_sha256": "05c8245041c6f65c0037440b5b9a8eef7abba3507312deb804025abee90fada8",
+    "title": "NIHF Inductee Edwin Link Invented the Airplane Flight Simulator",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 100; locate by quoted text on page",
+        "excerpt": "Edwin A. Link had an impact on aerospace and hydrospace few will match. His contributions to aviation are unparalleled. He invented the first successful flight simulator, which redefined how pilots were trained. He spent the second half of his life",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 101; locate by quoted text on page",
+        "excerpt": "A native of Huntington, Indiana, Link became a skilled aviator in the 1920s at the same time that he worked in his father's organ factory. He realized there needed to be a way to train pilots effectively and safely on",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 102; locate by quoted text on page",
+        "excerpt": "Besides aviation, underwater exploration intrigued Link. He designed and developed numerous devices to aid scientific research, including Johnson-Sea-Link Class submersibles. Through this work, he created access to another ten percent of the earth's surface.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "NIHF summarizes Link’s aviation and undersea careers, including work in his father’s organ factory.",
+    "limitations": "Invention-focused account, not residential history.",
+    "supports_universal_nonresidence": false
+  },
+  "edwin_wiki": {
+    "id": "edwin_wiki",
+    "url": "https://en.wikipedia.org/wiki/Edwin_Link",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Edwin_Link",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "301cc9bc7fabcae715ae1f555fa9e7b32663eea0cee2f0326ad7ba3a3c8152f4",
+    "text_sha256": "c6682aeb28d1f6e1a767f7f61b5967d53c979d6f09a8331afffb035eedfab2c3",
+    "title": "Edwin Albert Link - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 140; locate by quoted text on page",
+        "excerpt": "Together with his wife Marion Clayton Link, whom he had married in 1931, Edwin Link managed the very successful Link Aviation, Inc.[2][5] He contributed a great deal to the Binghamton, New York area, where he",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 148; locate by quoted text on page",
+        "excerpt": "After Link sold his company to General Precision in 1954, he turned his attention to underwater archaeology and research.[2] Link worked at developing equipment for deeper, longer lasting and more secure diving. To this end",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 159; locate by quoted text on page",
+        "excerpt": "Edwin Link died in his sleep on September 7, 1981, in Binghamton, New York,[1] where he had been undergoing treatment for cancer.[2]",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Secondary account locates company work in Binghamton, underwater projects in the Mediterranean and death in Binghamton.",
+    "limitations": "Foreign projects and corporate locations cannot delimit every residence.",
+    "supports_universal_nonresidence": false
+  },
+  "morse_wiki": {
+    "id": "morse_wiki",
+    "url": "https://en.wikipedia.org/wiki/Samuel_Morse",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Samuel_Morse",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "655bb6408f9d643e30d7a0a94461f13fb1f3344b2a66a19094e4fc938e0b79d1",
+    "text_sha256": "1cd4ca9b7371bcff4c53c1c38db02796768fe69e04adabad38e3371582cc8af0",
+    "title": "Samuel Morse - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 254; locate by quoted text on page",
+        "excerpt": "Morse expressed some of his Calvinist beliefs in his painting, Landing of the Pilgrims, through the depiction of simple clothing as well as the people's austere facial features. His image captured the psychology of the Federalists; Calvinists from England brought",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 266; locate by quoted text on page",
+        "excerpt": "In 1826, he helped found the National Academy of Design in New York City. He served as the academy's president from 1826 to 1845 and again from 1861 to 1862. Forty-nine of his paintings were exhibited there.[7] From 1830 to",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 299; locate by quoted text on page",
+        "excerpt": "Morse traveled to Washington, D.C. in 1838 seeking federal sponsorship for a telegraph line but was not successful. He went to Europe, seeking both sponsorship and patents, but in London discovered that Cooke and Wheatstone had already established priority. After",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Secondary account documents an English study stay, 1830–32 European study/travel, and later European patent efforts.",
+    "limitations": "LOC chronology requests were blocked; the inspected source does not reconstruct all German travel/stays.",
+    "supports_universal_nonresidence": false
+  },
+  "townes": {
+    "id": "townes",
+    "url": "https://www.nobelprize.org/prizes/physics/1964/townes/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1964/townes/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "143baa65d96e843766ce8c04e2804c15091bf3221a0618e520a6f8502d1e7a21",
+    "text_sha256": "ca71ea22dc747c02a82aab8766c9d6a6b9a3235ea5dd6c0477ef695fcfd2b41b",
+    "title": "Charles H. Townes – Biographical - NobelPrize.org",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 50; locate by quoted text on page",
+        "excerpt": "Charles Hard Townes was born in Greenville, South Carolina, on July 28, 1915, the son of Henry Keith Townes, an attorney, and Ellen (Hard) Townes. He attended the",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 54; locate by quoted text on page",
+        "excerpt": "Having joined the faculty at Columbia University as Associate Professor of Physics in 1948, Townes was appointed Professor in 1950. He served as Executive Director of the Columbia",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 57; locate by quoted text on page",
+        "excerpt": "During 1955 and 1956, Townes was a Guggenheim Fellow and a Fulbright Lecturer, first at the University of Paris and then at the University of Tokyo. He was",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 58; locate by quoted text on page",
+        "excerpt": "In addition to the Nobel Prize, Townes has received the Templeton Prize, for contributions to the understanding of religion, and a number of other prizes as well as",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 61; locate by quoted text on page",
+        "excerpt": "* This autobiography was provided by the Laureate in March 2006.",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 62; locate by quoted text on page",
+        "excerpt": "Charles H. Townes died on 27 January 2015.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Nobel autobiographical account covers US education and work, Paris/Tokyo fellowships and Berkeley residence; updated in 2006 with death notice in 2015.",
+    "limitations": "Work chronology is not a full record of residences or travel, including the final years.",
+    "supports_universal_nonresidence": false
+  },
+  "kirlian": {
+    "id": "kirlian",
+    "url": "https://en.wikipedia.org/wiki/Semyon_Kirlian",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Semyon_Kirlian",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "19d0faddc5e6c5be8e3647ff174cb32cc34b9fa1cb601db3bd960476ca4dbcfd",
+    "text_sha256": "bd42bf3d3c3e0729fb5d2fdaeaf581680c3d40325cbca22b2879599f20fa79e1",
+    "title": "Semyon Kirlian - Wikipedia",
+    "authority": "low-confidence secondary lead only",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 113; locate by quoted text on page",
+        "excerpt": "Kirlian was born in 1898 Yekaterinodar, Russian Empire (now Krasnodar, Russia) in an Armenian family. He possessed an early interest in, and aptitude for, work with electricity. Just before the Russian Revolution of 1917, Kirlian",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 130; locate by quoted text on page",
+        "excerpt": "It was not until the early 1960s, however, that the Kirlians' efforts attracted widespread recognition and official support, once popular journalists wrote a series of newspaper and magazine articles about Kirlian photography. The Kirlians were",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 135; locate by quoted text on page",
+        "excerpt": "He died in 1978 in Krasnodar, USSR.[citation needed]",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Inspected secondary lead describes Krasnodar work and an apartment/laboratory there.",
+    "limitations": "Relevant sections carry missing-citation warnings. Insufficient credible residence evidence; no supported-false inference from this lead.",
+    "supports_universal_nonresidence": false
+  },
+  "scott": {
+    "id": "scott",
+    "url": "https://www.firstsounds.org/research/scott.php",
+    "fetch_result": "200\nhttps://www.firstsounds.org/research/scott.php",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "033f05728f3164342109efe42e968e18e810b8039740c21413e40c0a72286c20",
+    "text_sha256": "8d0fe364e616f66b08b5c2cf6149ee0171ced217442530a15785eafede5171ff",
+    "title": "Publications :: FirstSounds.ORG",
+    "authority": "Specialist sound-history research project working with original archival records",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 34; locate by quoted text on page",
+        "excerpt": "Édouard-Léon Scott de Martinville invented sound recording when he conceived of a machine that would do for the ear what the camera did for the eye. His \"phonautograph\" inscribed airborne sounds onto paper, over time,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 35; locate by quoted text on page",
+        "excerpt": "Scott de Martinville first imagined an apparatus to gather and fix airborne sounds, patterned after the human ear, while editing Professor Longet’s Traité de Physiologie. In 1853 or 1854 (he cites both years) he began",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 38; locate by quoted text on page",
+        "excerpt": "In 2008 First Sounds located and played back a Scott de Martinville recording made 17 years before Edison invented the phonograph. The editors of The New York Times considered this development (and sound) so significant",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "First Sounds documents Scott’s Paris recording experiments in the 1850s and archival provenance of the recordings.",
+    "limitations": "This evidence concerns recordings, not his entire residence history.",
+    "supports_universal_nonresidence": false
+  },
+  "zuse_math": {
+    "id": "zuse_math",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zuse/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Zuse/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "9aa9b3e6bfeb3ecf01244edab570466435e6d1c6d0d6a3a7945ae83bec158f34",
+    "text_sha256": "0c003b7d5fd55a1cd54a85925f3c117aa73881cb5e5d0eacfde596290b69c703",
+    "title": "Konrad Zuse (1910 - 1995) - Biography - MacTutor History of Mathematics",
+    "authority": "University of St Andrews biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 22; locate by quoted text on page",
+        "excerpt": "Konrad Zuse was brought up in Braunsberg, East Prussia where he attended the Humanistisches Gymnasium. He entered the Technische Hochschule of Berlin- Charlottenburg in 1927 where he took courses in civil engineering. It was these",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 31; locate by quoted text on page",
+        "excerpt": "Some of Zuse's computers were destroyed in bombing raids near the end of the war although the Z3 was reconstructed in 1960 for display in a museum in Munich. Zuse began work on his Z4",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 33; locate by quoted text on page",
+        "excerpt": "Finally the Z4 computer was taken to Switzerland where it was installed in the ETH in Zürich in 1950. It remained operational there until 1955 when it was moved to a French aerodynamical research institute",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "St Andrews documents childhood in Braunsberg, East Prussia, later German work, and movements of the Z4 computer into Switzerland and a French institute.",
+    "limitations": "Machine location is not person residence; historical/current geography and the slash-country proposition remain unspecified.",
+    "supports_universal_nonresidence": false
+  },
+  "maddox": {
+    "id": "maddox",
+    "url": "https://en.wikipedia.org/wiki/Richard_Leach_Maddox",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Richard_Leach_Maddox",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "c8f81461232f33319c548c3a89e30e9f089f3af1d383c193615f2ed437cfe7df",
+    "text_sha256": "5345aac466a9717de33f33fcc13aee0335bf159ea335f9f4fc323beed1fe64ad",
+    "title": "Richard Leach Maddox - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 142; locate by quoted text on page",
+        "excerpt": "Maddox and his first wife, Amelia, were married in Constantinople in 1849. They lived from circa 1860 in the Woolston area of Southampton - an area where many medical men were located, due to the vicinity of the recently built",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 143; locate by quoted text on page",
+        "excerpt": "In 1875, Maddox married his second wife, Agnes. In this same year they left for Corsica, and then lived for a time in Bordighera. Maddox's son by this marriage, Walter, was born in Southampton in 1880. Prior to that date,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 151; locate by quoted text on page",
+        "excerpt": "From 1886, Maddox lived (according to his daughter) in \"a most retired manner\" at the house called 'Greenbank' in Portswood, Southampton, dying there on 11 May 1902.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Secondary account records Constantinople marriage, Southampton, Corsica, Bordighera, London and later Portswood residence.",
+    "limitations": "Missing citations and incomplete early/middle-life history; inaccessible institutional lead provided no corroboration.",
+    "supports_universal_nonresidence": false
+  },
+  "argand_dhs2": {
+    "id": "argand_dhs2",
+    "url": "https://hls-dhs-dss.ch/fr/articles/025832/",
+    "fetch_result": "200\nhttps://hls-dhs-dss.ch/fr/articles/025832/2001-10-11/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "ce3ae854a3bc0993878e0691e784ea22af52acc47d09dbbf410c163bd3f01ac6",
+    "text_sha256": "ce4b34e6180748dca58f460a5f02d5771bcc481f82e4d619fafdb9570a316280",
+    "title": "Argand, Ami",
+    "authority": "Swiss Historical Dictionary (René Sigrist)",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 43; locate by quoted text on page",
+        "excerpt": "5.7.1750 à Genève, 14.10.1803 à Genève, prot., bourgeois de Genève. Fils de Jean-Louis, horloger, et de Madeleine Gaudy. 1789 Isaline Marcet, fille d'Isaac, agronome. Etudes à Genève, où Horace Bénédict de Saussure lui donne le goût des sciences. Cours de chimie d'Antoine Laurent de Lavoisier et d'Antoine François Fourcroy à Paris. En 1780, A. installe près de Montpellier des distilleries basées sur une méthode de",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Swiss Historical Dictionary follows study in Geneva/Paris, distilleries near Montpellier in 1780, Lyon and London in 1783, and a Versoix factory in 1787.",
+    "limitations": "Short entry; major career locations do not rule out an unrecorded US residence. French paraphrase is Codex-assisted translation.",
+    "supports_universal_nonresidence": false
+  },
+  "elsener_inventor": {
+    "id": "elsener_inventor",
+    "url": "https://en.wikipedia.org/wiki/Karl_Elsener_(inventor)",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Karl_Elsener_(inventor)",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "0861ce4650fc26e223d4d34ec2ff57f25b4fc5493322fe8f8dc83d5b87899b7f",
+    "text_sha256": "33adf0b9826648afafcaf4c83dc668a02c7adfaf08f9dad513a160ad2ffbbbdc",
+    "title": "Karl Elsener (inventor) - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 115; locate by quoted text on page",
+        "excerpt": "Elsener was born 9 October 1860 in Schwyz, Switzerland, the oldest of four children, to Balthasar Elsener (1826–1893), a hat maker, and Victoria Elsener (née Ott; 1836–1909), into a Catholic",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 119; locate by quoted text on page",
+        "excerpt": "After several years as a wandering journeyman in other European countries, he returned to his home country, and was inspired to start his own company. Apparently, some of that inspiration",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 120; locate by quoted text on page",
+        "excerpt": "In 1884, Elsener became the sole proprietor of a small factory in Ibach, which manufactured knives and surgical instruments.[3][4] He initially employed roughly 30 people. In 1891, the Swiss government",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 124; locate by quoted text on page",
+        "excerpt": "Elsener was a conservative politician who served on the Cantonal Council of Schwyz from 1912 to 1918. He briefly also served on the municipal council of Ibach in 1918.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "Secondary account describes Zug apprenticeship, European journeyman years, Ibach business from 1884 and Schwyz public service.",
+    "limitations": "Journeyman years and private movements are incompletely documented; company history fetch did not yield usable text.",
+    "supports_universal_nonresidence": false
+  },
+  "fahrenheit_wiki": {
+    "id": "fahrenheit_wiki",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "4852a35f1eb49691980a1bac4edbdfb759b0e11f17d1f0f85ed3f869075cea65",
+    "text_sha256": "898c0523137f3f1f6de6b22866793e0e05f46cc691ee1c4e776ca7f653ba7d42",
+    "title": "Daniel Gabriel Fahrenheit - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 193; locate by quoted text on page",
+        "excerpt": "to enroll in the Danzig Gymnasium.[6]: 111 But on 14 August 1701, his parents died after eating poisonous mushrooms.[7] Fahrenheit, along with two brothers and sisters, was placed under guardianship.",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 194; locate by quoted text on page",
+        "excerpt": "Upon completing his apprenticeship, Fahrenheit ran off[6]: 111 and began a period of travel through the Holy Roman Empire, Sweden, and Denmark in 1707. At the request of his guardians,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 198; locate by quoted text on page",
+        "excerpt": "In 1709, Fahrenheit returned to Danzig and took observations using his barometers and thermometers, traveled more in 1710 and returned to Danzig in 1711 to settle his parents' estate. After",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 201; locate by quoted text on page",
+        "excerpt": "In 1717 or 1718, Fahrenheit returned to Amsterdam and began selling barometers, areometers, and his mercury and alcohol-based thermometers commercially.[8]: 8 By 1721, Fahrenheit had perfected the process of crafting",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 207; locate by quoted text on page",
+        "excerpt": "From August 1736 to his death, Fahrenheit stayed in the house of Johannes Frisleven at Plein Square in The Hague in connection with an application for a patent at the",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Secondary chronology records Amsterdam apprenticeship, European itinerancy, Danzig, return to Amsterdam, and final residence at The Hague.",
+    "limitations": "US versus pre-independence North America is also temporally underspecified; neither current nationality nor the later name of the polity resolves the claim.",
+    "supports_universal_nonresidence": false
+  },
+  "maxwell": {
+    "id": "maxwell",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "ad82ad3e82c89590663dd56f3c0ed50dc312d477753f43467235ea577ce27d31",
+    "text_sha256": "443c8ad176f63a8a3feffa824a64c620e6aa8aa3b31e6c27ecff3154c8f0e20b",
+    "title": "James Clerk Maxwell (1831 - 1879) - Biography - MacTutor History of Mathematics",
+    "authority": "University of St Andrews biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 27; locate by quoted text on page",
+        "excerpt": "James, together with his family, arrived at 31 Heriot Row, the house of Isabella Wedderburn his father's sister, on 18 November 1841. He attended Edinburgh Academy where he had the nickname 'Dafty'. P G Tait,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 31; locate by quoted text on page",
+        "excerpt": "At the age of 16, in November 1847, Maxwell entered the second Mathematics class taught by Kelland, the natural philosophy (physics) class taught by Forbes and the logic class taught by William Hamilton. Tait, also",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 62; locate by quoted text on page",
+        "excerpt": "In 1860 Maxwell was appointed to the vacant chair of Natural Philosophy at King's College in London. The six years that Maxwell spent in this post were the years when he did his most important",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 68; locate by quoted text on page",
+        "excerpt": "Maxwell left King's College, London in the spring of 1865 and returned to his Scottish estate Glenlair. He made periodic trips to Cambridge and, rather reluctantly, accepted an offer from Cambridge to be the first",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 74; locate by quoted text on page",
+        "excerpt": "Maxwell returned with his wife, who was also ill, to Glenlair for the summer. His health continued to deteriorate and he suffered much pain although remained remarkably cheerful. On 8 October 1879 he returned with",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "St Andrews gives childhood and schooling in Scotland, Edinburgh/Cambridge study, Aberdeen and London posts, Glenlair, Cavendish appointment in 1871 and death in Cambridge in 1879.",
+    "limitations": "Defeasible life-history support, not a proof that every undocumented journey was impossible.",
+    "supports_universal_nonresidence": false
+  },
+  "horch_wiki": {
+    "id": "horch_wiki",
+    "url": "https://en.wikipedia.org/wiki/August_Horch",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/August_Horch",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "32c620e13dbdfa4d9a71b54e1d3596771ab38d01ae1bcd4b536baaa63a222269",
+    "text_sha256": "87778771e6e3ee98aaa9483edfc7e86540a66ee30888fe83ab3fb01504a5760a",
+    "title": "August Horch - Wikipedia",
+    "authority": "secondary encyclopedia",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 130; locate by quoted text on page",
+        "excerpt": "Horch was born in Winningen, Rhenish Prussia. His initial trade was as a blacksmith, and then was educated at Hochschule Mittweida (Mittweida Technical College). After receiving a degree in engineering, he worked in shipbuilding. Horch worked for Karl Benz from",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 135; locate by quoted text on page",
+        "excerpt": "The first Horch automobile was built in 1901. The company moved to Reichenbach in 1902 and Zwickau in 1904. Horch left the company in 1909 after a dispute, and set up in competition in Zwickau. His new firm was initially",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 138; locate by quoted text on page",
+        "excerpt": "Horch left Audi in 1920 and went to Berlin and took various jobs. He published his autobiography, I Built Cars (Ich Baute Autos) in 1937. He also served on the board of Auto Union, the successor to Audi Automobilwerke GmbH",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Secondary biography traces German engineering, Cologne/Reichenbach/Zwickau enterprises and later Berlin work.",
+    "limitations": "The entry warns it relies on a single source and does not supply a complete travel/residence chronology.",
+    "supports_universal_nonresidence": false
+  },
+  "strite_patent": {
+    "id": "strite_patent",
+    "url": "https://patents.google.com/patent/US1394450A/en",
+    "fetch_result": "200\nhttps://patents.google.com/patent/US1394450A/en",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "2aa6bbc78471bf264a54a62618c6bcc6e948ba9b26f5ba95a03bb88766a9ed43",
+    "text_sha256": "602daaef1e68969235ec20c4b5032b804d4fca0974213b64893b302191549f48",
+    "title": "US1394450A - Bread-toaster",
+    "authority": "US patent US1394450A, Google Patents transcription",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 421; locate by quoted text on page",
+        "excerpt": "citizen of the United States, residing at- Minneapolis, in the county of Hennepin and State. of Minnesota, have invented certain new and useful Improvements in Bread- Toasters, of which the following is a specification.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "The original bread-toaster patent’s description explicitly identifies the inventor as residing in Minneapolis, Minnesota.",
+    "limitations": "OCR is noisy; a dated US residence record cannot exclude residence in Italy at another time.",
+    "supports_universal_nonresidence": false
+  },
+  "claude": {
+    "id": "claude",
+    "url": "https://www.invent.org/inductees/georges-claude",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/georges-claude",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "383354c7c834121cdd4c6c455f1b24883cdffa6c8f53d19ffc8da3e9624d170b",
+    "text_sha256": "4fcd3d4993553002815beb8d82a8b6fad5843db1a330f3ad0a593796a6cbd173",
+    "title": "NIHF Inductee Georges Claude Invented Neon Tubes",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 101; locate by quoted text on page",
+        "excerpt": "Born in Paris, France, he studied at Ecole de Physique et Chinie before graduating in 1886. He used his education in chemistry and began experimenting with noble gases, trying to find practical uses for them. Having discovered that neon was sensitive to electricity and would",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 103; locate by quoted text on page",
+        "excerpt": "After his neon sign businesses had become profitable, Claude turned his attention to using the thermal difference between layers of the ocean to create electric power. During World War II, Claude collaborated with the Nazi-run Vichy government in France, and was put in prison from",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "NIHF describes French study and neon work, ocean-energy projects, Vichy collaboration and imprisonment in 1945–49.",
+    "limitations": "The international/private residence history is not covered.",
+    "supports_universal_nonresidence": false
+  },
+  "huygens": {
+    "id": "huygens",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "25d87475c2714cd118185ab93ade5508640721bde802507a7b91c7acd5038505",
+    "text_sha256": "d81ab29e1091ec8d5fd1b8b70f5093988b451bd6ba3d8e4c9e6733836a6e8fdf",
+    "title": "Christiaan Huygens (1629 - 1695) - Biography - MacTutor History of Mathematics",
+    "authority": "University of St Andrews biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Visible-text line 24; locate exact quoted sentence/phrase on page",
+        "excerpt": "Christiaan Huygens studied law and mathematics at the University of Leiden from 1645 until 1647.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 24; locate exact quoted sentence/phrase on page",
+        "excerpt": "From 1647 until 1649 he continued to study law and mathematics but now at the College of Orange at Breda.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 36; locate exact quoted sentence/phrase on page",
+        "excerpt": "After meetings were held with Roberval, Carcavi, Auzout, Frenicle de Bessy, Auzout and Buot in Colbert's library the Society moved to the Bibliothèque du Roi where Huygens took up residence.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 45; locate exact quoted sentence/phrase on page",
+        "excerpt": "However his health became even more unreliable and he became ill in 1679 and then again in 1681 when he returned to the Hague for the last time.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 46; locate exact quoted sentence/phrase on page",
+        "excerpt": "In 1689 he came to England.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible-text line 51; locate exact quoted sentence/phrase on page",
+        "excerpt": "He departed with much sadness at the thoughts of his scientific isolation in Holland.",
+        "truncated": false
+      }
+    ],
+    "paraphrase": "St Andrews traces Leiden/Breda education, Dutch work, Paris residence from 1666 interrupted by illness, final Hague return in 1681 and English visits including 1689.",
+    "limitations": "Christian is the source’s spelling of the inventor usually called Christiaan; full chronology supplies defeasible support, not an exhaustive travel log.",
+    "supports_universal_nonresidence": false
+  },
+  "biro": {
+    "id": "biro",
+    "url": "https://www.invent.org/inductees/laszlo-josef-biro",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/laszlo-josef-biro",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "95fb3286006b33ad0cb211106872eda41a34486025dcb28492fbee7ceb432d21",
+    "text_sha256": "ef4df7c97e3041cb893e824d85886f41a2498cafb3d0cc5e2dda267e1a5b5b97",
+    "title": "NIHF Inductee Laszlo Biro, Who Invented the Ballpoint Pen",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 101; locate by quoted text on page",
+        "excerpt": "A native of Budapest, Hungary, Biro was working as a journalist when he noticed a fundamental difference between two types of ink. Ink for fountain pens was easy to smudge because it needed time to dry, yet ink used in newspaper printing presses dried much",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 103; locate by quoted text on page",
+        "excerpt": "His pen came to the attention of a British clerk who thought the pen would be useful to airplane navigators because it was not dependent on pressure for ink distribution, working well at high altitudes. The British government bought Biro's patent and had the pens",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "NIHF discusses his Budapest journalism and sale/use of the pen patent by Britain.",
+    "limitations": "The profile lacks the later migration/residence chronology; sale or use of a patent abroad is not evidence about inventor residence.",
+    "supports_universal_nonresidence": false
+  },
+  "fuller": {
+    "id": "fuller",
+    "url": "https://www.bfi.org/about-fuller/biography/",
+    "fetch_result": "200\nhttps://www.bfi.org/about-fuller/biography/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "276a93dd5386596c00a510c64cfea79806e2ba0fb2eb964343892ce160514618",
+    "text_sha256": "daa3638e36669bdcd4dea9b476a4f43ea1c84aa9910a94bcbb02787aeef54684",
+    "title": "Biography – Buckminster Fuller Institute",
+    "authority": "Buckminster Fuller Institute",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 107; locate by quoted text on page",
+        "excerpt": "Fuller entered Harvard University in 1913, but he was expelled after excessively socializing and missing his midterm exams. Following his expulsion, he worked at a mill in Canada, where he took a strong interest in machinery and learned to modify and improve the manufacturing equipment.",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 124; locate by quoted text on page",
+        "excerpt": "Throughout his life, Fuller found numerous outlets for his innovative ideas. During the early 1930s he published Shelter magazine, and from 1938 until 1940 he was science and technology consultant for Fortune magazine. During the 1940s he began to teach and lecture at universities, including",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 127; locate by quoted text on page",
+        "excerpt": "He was the author of nearly 30 books, and he spent much of his life traveling the world lecturing and discussing his ideas with thousands of audiences. Some of Fuller’s many honors highlight his eclectic reputation: For example, because he sometimes expressed complex ideas in",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "BFI documents Canadian mill work, US teaching and residences, and extensive worldwide travel.",
+    "limitations": "Global travel and lecture itineraries leave temporary Scottish living arrangements unassessed.",
+    "supports_universal_nonresidence": false
+  },
+  "hyatt": {
+    "id": "hyatt",
+    "url": "https://www.invent.org/inductees/john-wesley-hyatt",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/john-wesley-hyatt",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "c014229c8585fece5cb9dd8747da45434d1adb1945debc6259308ada3c08de37",
+    "text_sha256": "d053619cd5b625f61639e44637074d00d6fe649ad4c39a76f5f56181a1bc39d9",
+    "title": "National Inventors Hall of Fame Inductee John Hyatt Invented Celluloid",
+    "authority": "institutional biography",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 100; locate by quoted text on page",
+        "excerpt": "John Hyatt invented the process for making celluloid, the first artificial plastic.",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 101; locate by quoted text on page",
+        "excerpt": "In the late 1860s, while searching for a substitute for ivory for making billiard balls, Hyatt combined nitrocellulose, camphor, and alcohol and heated the mixture under pressure to make it pliable for molding. In addition to creating this new material,",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 103; locate by quoted text on page",
+        "excerpt": "Born in Starkey, New York, Hyatt also invented the Hyatt filter, which effectively purified water while in motion. Hyatt continued inventing later in his life, developing a widely-used type of roller bearing, a sugarcane mill superior to any previously used,",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "NIHF identifies Hyatt’s celluloid work and New York birthplace but gives little residential detail.",
+    "limitations": "Birthplace and invention history cannot rule out a UK residence.",
+    "supports_universal_nonresidence": false
+  },
+  "porro_treccani": {
+    "id": "porro_treccani",
+    "url": "https://www.treccani.it/enciclopedia/ignazio-porro_(Dizionario-Biografico)/",
+    "fetch_result": "200\nhttps://www.treccani.it/enciclopedia/ignazio-porro_(Dizionario-Biografico)/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "81bbbd1cab89fd21e69c6fe824f1e99e7635a409303ab2225abb9810ac1b27cf",
+    "text_sha256": "bb44cd219ee9703a6e780410fb706551c2c43b1c996a89e17bd17c57264d9b50",
+    "title": "PORRO, Ignazio - Enciclopedia - Treccani",
+    "authority": "Treccani, Dizionario Biografico degli Italiani",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 20; locate by quoted text on page",
+        "excerpt": "Ammesso al Collegio militare di Torino, il 19 marzo 1815 entrò nelle Regie scuole d’artiglieria e genio quale cadetto e allievo. Con commissione del 18 dicembre 1817 divenne sottotenente sovranumerario e allievo",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 33; locate by quoted text on page",
+        "excerpt": "Date le difficoltà a sviluppare l’attività di produzione di strumenti scientifici nel Regno sardo, verso il 1850 Porro si trasferì in Francia, dove per un decennio raggiunse i migliori risultati. Già però",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 36; locate by quoted text on page",
+        "excerpt": "Porro presentò numerose memorie alla parigina Académie des sciences sempre accolte con interesse. Il suo obiettivo era tuttavia quello di tornare in Italia. Nell’agosto 1861 si stabilì a Firenze e tentò di",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 37; locate by quoted text on page",
+        "excerpt": "Il suo progetto era la costruzione di un grande stabilimento per strumenti di precisione, ma l’idea (di cui vi è traccia nel suo saggio Dei microscopi composti, comparso nei Rediconti del R.",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 40; locate by quoted text on page",
+        "excerpt": "Negli ultimi anni di vita, in cattiva salute e oppresso da forti difficoltà finanziarie, vendette i diritti di sfruttamento delle sue invenzioni all’allievo e poi collaboratore Angelo Salmoiraghi. Morì a Milano l’8",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Treccani’s archival biography follows military education/service in the Sardinian states, relocation to France about 1850, Florence settlement in 1861, Milan move in 1863 and death there in 1875.",
+    "limitations": "Italian paraphrase is Codex-assisted translation; archival biography is detailed but does not prove every absence universally.",
+    "supports_universal_nonresidence": false
+  },
+  "porro_fsu": {
+    "id": "porro_fsu",
+    "url": "https://micro.magnet.fsu.edu/optics/timeline/people/porro.html",
+    "fetch_result": "200\nhttps://micro.magnet.fsu.edu/optics/timeline/people/porro.html",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "15211b4ddd1c90f3633c13c1b39873577e68fc8e457e6853b3ed37a13985c9bb",
+    "text_sha256": "0223fbb299fdc0777d70451adbdf110fadca43f066a4615f0480a4d4ff82b7ba",
+    "title": "Molecular Expressions: Science, Optics and You - Timeline - Ignazio Porro",
+    "authority": "Florida State University, Molecular Expressions",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 24; locate by quoted text on page",
+        "excerpt": "Porro was the son of an Italian engineer-lieutenant and, like his father, joined the military, serving initially as a cadet in the artillery and working his way up to a major in the reserve before",
+        "truncated": true
+      },
+      {
+        "locator": "Extracted visible-text line 28; locate by quoted text on page",
+        "excerpt": "In his later years, Porro returned to Italy, where he taught tachymetry in Florence and then surveying theory in Milan. He continued to build instruments during this period and founded multiple workshops, none of which",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "FSU optical-history account corroborates Italian military service, Turin and Paris workshops, and return to Italy.",
+    "limitations": "Brief corroboration; the detailed Treccani chronology is the main residence evidence.",
+    "supports_universal_nonresidence": false
+  },
+  "franklin": {
+    "id": "franklin",
+    "url": "https://www.loc.gov/exhibits/franklin/franklin-epitaph.html",
+    "fetch_result": "200\nhttps://www.loc.gov/exhibits/franklin/franklin-epitaph.html",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "c9849b3e45a1478c0802ada476f866322236b0450664334ae572a0153c72f8e7",
+    "text_sha256": "04091bbdc4c3031ff880568d1423c801f458480c45b886bfbb479b42471e567c",
+    "title": "Epitaph - Benjamin Franklin: In His Own Words | Exhibitions - Library of Congress",
+    "authority": "Library of Congress exhibition, Portrait of Franklin",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Portrait of Franklin, #obj1, first paragraph (visible-text lines 25–28)",
+        "excerpt": "Franklin's host while in the Paris suburb of Passay where Franklin lived from 1777–1785.",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Library of Congress explicitly states that Franklin lived in the Paris suburb spelled “Passay” on the page from 1777 to 1785; item #obj1.",
+    "limitations": "Exact historical rejected status is preserved; this is a new positive adjudication outside the sample.",
+    "supports_universal_nonresidence": false
+  },
+  "simjian": {
+    "id": "simjian",
+    "url": "https://floridainvents.org/luther-george-simjian/",
+    "fetch_result": "200\nhttps://floridainvents.org/luther-george-simjian/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7c26f32838e1fdc33c85e14a40ffb0779f46199b4505ee7f1c043a637b81f8ea",
+    "text_sha256": "d811d4d6bebf90becf723474b5232fa6fe485d22d03600d2a8424c4a63218436",
+    "title": "Luther George Simjian - Florida Inventors Hall of Fame",
+    "authority": "Florida Inventors Hall of Fame",
+    "inspection_method": "Retrieved full page; inspected relevant visible text, not a search snippet",
+    "observations": [
+      {
+        "locator": "Extracted visible-text line 1; locate by quoted text on page",
+        "excerpt": "Luther George Simjian - Florida Inventors Hall of Fame",
+        "truncated": false
+      },
+      {
+        "locator": "Extracted visible-text line 121; locate by quoted text on page",
+        "excerpt": "Luther G. Simjian was a prolific inventor and pioneer in the concept of Automated Teller Machines (ATMs). He is also recognized for his many accomplishments including the development of the Optical Range Estimation Trainer used during WWII, which became the standard for simulation defense training, as well as his numerous inventions that have advanced technology throughout Florida theme parks. Simjian was born to Armenian parents in Turkey and in 1915,",
+        "truncated": true
+      }
+    ],
+    "paraphrase": "Florida Inventors Hall of Fame identifies Luther George / Luther G. Simjian, his Yale photography work, New York move and ATM-related inventions, matching the T2A identity profile.",
+    "limitations": "Institutional corroboration of the full-name biography; does not itself explicitly spell the short alias “Luther Simjian”. The short/full link remains supported by the separate T2A citation.",
+    "supports_universal_nonresidence": false
+  }
+}

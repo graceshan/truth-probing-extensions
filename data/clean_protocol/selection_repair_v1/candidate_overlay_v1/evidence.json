@@ -1,0 +1,859 @@
+{
+  "walton": {
+    "id": "walton",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Walton",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Frederick_Walton",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "2f786a317ff85a094ebfe93af4fb6ced5e820fcde33ecfc62cb55276e127dd8a",
+    "text_sha256": "5b6ff98f2ee0889c160b51341f195d84b06aaacc38a3e752aa1124a06b970c76",
+    "title": "Frederick Walton - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 121; locate by quoted opening",
+        "excerpt": "In the 1870s, Walton partnered with carpet manufacturer John Crossley to form the American Linoleum Company. They set up a factory at Linoleumville, New York to manufacture linoleum. Walton spent two years in America setting up the factory and starting the business, before returning to the United Kingdom. The America company was highly successful and profitable.[6]",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Explicit two-year American factory-startup posting; secondary biography.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "daimler_wiki": {
+    "id": "daimler_wiki",
+    "url": "https://en.wikipedia.org/wiki/Gottlieb_Daimler",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Gottlieb_Daimler",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "46ab6803a92805dcc6a5f258ce3a0a65ecc8080a7fbfa7077c61dedfbc4f1109",
+    "text_sha256": "fedabb16561e8343b0658ad543bf68c512098c2c93b695f98204ce2225978674",
+    "title": "Gottlieb Daimler - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 194; locate by quoted opening",
+        "excerpt": "Daimler enrolled at Stuttgart's School for Advanced Training in the Industrial Arts, under the tutelage of Ferdinand von Steinbeis. Daimler was studious, even taking extra Sunday morning classes. In 1853, Daimler, with Steinbeis' assistance, got work at \"the factory college\", Rollé und Schwilque (R&S) in Grafenstaden, so-called because its manager, Friedrich Messmer, had been an instructor at the University of Karlsruhe.[7] Daimler performed well, and",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 196; locate by quoted opening",
+        "excerpt": "In 1861, he resigned from R&S, visiting Paris, then went on to England, working with the country's top engineering firms, becoming knowledgeable with machine tools. He spent from autumn 1861 to summer 1863 in England, then regarded as \"the motherland of technology\",[8] at Beyer, Peacock & Company, Manchester, whose partner Beyer was from Saxony.[9] While in London, he visited the 1862 International Exhibition, where one",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Grafenstaden employment, then Paris visit and England work; exact historical France placement requires corroboration; Mercedes pages blocked.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "marconi_home": {
+    "id": "marconi_home",
+    "url": "https://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "fetch_result": "200\nhttps://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "58de2bc4ad76c1824fb3c52bff1f1dca148e5e9830ea3f64e0fdcc7de165bbce",
+    "text_sha256": "bb1a69803083037c2e081c43e089c603516b3574a81b7f3050a1e88bab12c6bb",
+    "title": "Guglielmo Marconi | Pioneer | Blue Plaques | English Heritage",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 283; locate by quoted opening",
+        "excerpt": "GUGLIELMO MARCONI 1874-1937 THE PIONEER OF WIRELESS COMMUNICATION lived here in 1896-1897",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "English Heritage inscription explicitly says lived here in 1896–1897; London plaque.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "gobel": {
+    "id": "gobel",
+    "url": "https://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "86c1622957745bd6fa09876417aaade441e7603fe7c3f1a74c8240a2bdcda973",
+    "text_sha256": "dbefea7d41f1b32e6ca9d6f427ffd448d6b836105383c7056ddb23a5c890d4e1",
+    "title": "Heinrich Göbel - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 138; locate by quoted opening",
+        "excerpt": "Heinrich Göbel (April 20, 1818 – December 4, 1893) was a German-born American precision mechanic and inventor also known by his anglicized name Henry Goebel. In 1848 he immigrated to New York City, where he resided until his death. He received American citizenship in 1865.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible text paragraph/line 152; locate by quoted opening",
+        "excerpt": "At the age of 30, Göbel migrated to New York City with his family, leaving Germany through Bremen in November 1848 on the sailing ship J.W. Andrews, arriving in New York on 31 January 1849. According to the list of passengers of the ship,[citation needed] he gave mechanic as his profession. The reasons for migration are not known.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Explicit New York immigration/residence; secondary biography with some missing citations.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "gobel_patent": {
+    "id": "gobel_patent",
+    "url": "https://patents.google.com/patent/US266358A/en",
+    "fetch_result": "200\nhttps://patents.google.com/patent/US266358A/en",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "59138f61ea0572f389b1263a307f8a2771e01bce8bc7ae03e27993f28bbd698b",
+    "text_sha256": "a33172c2e0416e9058d5d23c4bbc829b0cfa58cc44aa1adcf572c06ded69c9a0",
+    "title": "US266358A - Henry goebel - Google Patents",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 113; locate by quoted opening",
+        "excerpt": "Be it known that I, HENRY GoEBEL, of the city, county, and State of New York, have invented certain new and useful Improvements 5 in Electric Incandescent Lamps, of which the following is a specification.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Primary patent identifies Henry Goebel of New York; corroborates locality, not invention-priority claims.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "bengio_wiki": {
+    "id": "bengio_wiki",
+    "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Yoshua_Bengio",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "883dc986c9e51b8df525bf358ccffbf5d62b1d2fbd6832ddc155cf5d9d57f027",
+    "text_sha256": "4eff644501f0ba889862c91a01eeb081aff3fc8b70aa4bb8d986bb68bb07e84a",
+    "title": "Yoshua Bengio - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 166; locate by quoted opening",
+        "excerpt": "After his PhD, Bengio was a postdoctoral fellow at MIT (supervised by Michael I. Jordan) and AT&T Bell Labs.[23] Bengio has been a faculty member at the Université de Montréal since 1993, heads the MILA (Montreal Institute for Learning Algorithms) and is co-director of the Learning in Machines & Brains program at the Canadian Institute for Advanced Research.[18][23]",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Explicit postdoctoral appointments at MIT and Bell Labs; secondary account. ACM biography blocked.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "brill2": {
+    "id": "brill2",
+    "url": "https://www.invent.org/inductees/yvonne-brill",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/yvonne-brill",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "89b1c9355dfbd491ae83e73e29f4fe80b93003c0279226f8de925e0f56f953f5",
+    "text_sha256": "87f35af5652ca3a7335daba7f1c472f0193ba7db0ccbd31690b280f73ad2deb7",
+    "title": "Yvonne Brill | National Inventors Hall of Fame® Inductee",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 102; locate by quoted opening",
+        "excerpt": "Following her graduation, Brill accepted a position at Douglas Aircraft Co. in California, where she began to pursue rocket science – and during this time, it is believed she was the only woman in the U.S. working as a rocket scientist. As she grew particularly interested in rocket propulsion, Brill took graduate classes in her free time, eventually earning her master’s degree in chemistry from",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "NIHF documents California employment and University of Southern California graduate study.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "kapany2": {
+    "id": "kapany2",
+    "url": "https://en.wikipedia.org/wiki/Narinder_Singh_Kapany",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Narinder_Singh_Kapany",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dbf21ae8b9851d8d607d536c3769ddacb30ead0779b6a7ab761448d58fa64d2f",
+    "text_sha256": "ce5661f728c69d57bb7d0904e1b7dbf2522d535940d417c8acb51f3cbe8288bf",
+    "title": "Narinder Singh Kapany - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 137; locate by quoted opening",
+        "excerpt": "Kapany was born on 31 October 1926, in Moga, Punjab to Sundar Singh and Kundan Kaur. He was from a Sikh Khatri family of Sodhi clan and were landlords.[12][13] The family claims to be descended from Guru Amar Das, the third guru of the Sikhs, through the guru's son Mohari.[note 1][14] In c.1760, the family shifted to Nizamabad in Uttar Pradesh.[14] He completed his schooling",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 138; locate by quoted opening",
+        "excerpt": "At Imperial College, Kapany worked with Harold Hopkins on transmission through fibers, achieving good image transmission through a large bundle of optical fibers for the first time in 1953.[17][18][19] Optical fibers had been tried for image transmission before, but Hopkins and Kapany's technique allowed much better image quality than could previously be achieved. This, combined with the almost-simultaneous development of optical cladding by Dutch scientist",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Secondary biography documents move to Imperial College London in 1952 and PhD in 1955.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "ericsson2": {
+    "id": "ericsson2",
+    "url": "https://en.wikipedia.org/wiki/John_Ericsson",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/John_Ericsson",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "48adc7f2e239c17ef21c44123a8f1c1386497f7bcf83d8827c96d07a2e9eb68a",
+    "text_sha256": "a7d0930de353a5bbcdc03825945afc266120704b8e5de16ec4486651fc3f6683",
+    "title": "John Ericsson - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 179; locate by quoted opening",
+        "excerpt": "When Ericsson arrived from England and settled in New York City, he was persuaded by Samuel Risley of Greenwich Village to give his work to the Phoenix Foundry. There he met industrialist and iron / steel foundry owner Cornelius H. DeLamater (1821–1889), and soon a mutual attachment developed between the two. Rarely thereafter did Ericsson or DeLamater enter upon a business venture without first consulting",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Explicit settlement in New York City in secondary biography; institutional NIHF career account and prior Nobel evidence also corroborate US work.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "kwolek3": {
+    "id": "kwolek3",
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/stephanie-l-kwolek/",
+    "fetch_result": "200\nhttps://www.sciencehistory.org/education/scientific-biographies/stephanie-l-kwolek/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dcdaab1b05bceee2d14372b3ae0e9d9a8b26dea49509034c6f170e4cb1f0948a",
+    "text_sha256": "efb588f4e7df8e30e36ba80785e1fd19706b996b4591519c3bc2abfd90db7e61",
+    "title": "Stephanie L. Kwolek | Science History Institute",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 74; locate by quoted opening",
+        "excerpt": "In 1965 Stephanie Kwolek (1923–2014) looked into a thin, cloudy liquid and discovered something new—something five times stronger than steel. Her research, conducted over a decades-long career at the DuPont Chemical Company, yielded synthetic fibers that would help to define the material world as we know and interact with it today. She was, above all, a creator. She made difficult choices throughout her life that",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 83; locate by quoted opening",
+        "excerpt": "There was a strict division between programs for men and women at the Carnegie Institute of Technology (today, Carnegie Mellon University) when Kwolek arrived on campus: women could not enroll, for instance, in the College of Engineering. Instead, they had to enroll in either the Fine Arts College or the Margaret Morrison College for Women. Kwolek chose the latter.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Institutional biography identifies Stephanie Kwolek; does not establish that the source surname-only entity denotes her.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "theremin": {
+    "id": "theremin",
+    "url": "https://en.wikipedia.org/wiki/Leon_Theremin",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Leon_Theremin",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "9d81a83efece40f0399e8e6ece88f80dabdf62b4bb0dd0e93fc820720aad15c2",
+    "text_sha256": "61b6ad6d4c9f8e1f15e217f8980656ba726ca4cc8488c502205081ae700822e1",
+    "title": "Leon Theremin - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 179; locate by quoted opening",
+        "excerpt": "On 24 May 1924 Theremin married 20-year-old Katia (Yekaterina Pavlovna) Konstantinova, and they lived together in his parents' apartment on Marat street.[17] In 1925 Theremin went to Germany to sell both the radio watchman and Termenvox patents to the German firm Goldberg and Sons. According to Glinsky, this was the Soviet's \"decoy for capitalists\" to obtain both Western profits from sales and technical knowledge.[18]",
+        "truncated": false
+      },
+      {
+        "locator": "Visible text paragraph/line 184; locate by quoted opening",
+        "excerpt": "After being sent on a lengthy tour of Europe starting 1927–including London, Paris, and towns in Germany[14][20] – during which he demonstrated his invention to full audiences, Theremin went to the United States arriving on 30 December 1927 with his first wife Katia.[21] He performed the theremin with the New York Philharmonic in 1928. He patented his invention in the United States in 1928[22][23] and",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Patent sales and European demonstration tour; residential character of German stay not settled.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "goodyear2": {
+    "id": "goodyear2",
+    "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Charles_Goodyear",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e617fa5b983d9c7a2635aae6dcd16586d8505076e4fd6d0a7104780b71424899",
+    "text_sha256": "a969995ebd6c3aef7b858fc1eb67b5ce61a56b175db7c1fb5c46a9a4e3270a6b",
+    "title": "Charles Goodyear - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 192; locate by quoted opening",
+        "excerpt": "In 1852, Goodyear went to Europe, a trip that he had long planned, and saw Thomas Hancock, then in the employ of Charles Macintosh & Company. Hancock claimed to have invented vulcanization independently, and received a British patent, initiated in 1843, but finalized in 1844. In 1855, in the last of three patent disputes with fellow British rubber pioneer, Stephen Moulton, Hancock's patent was challenged",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 194; locate by quoted opening",
+        "excerpt": "In 1855, Goodyear was sent to debtor's prison in both England and France, both relating to debts he had incurred demonstrating uses of vulcanization at the Exposition Universelle. These would be his last of many incarcerations in debtor's prison. He was inducted into the Legion of Honour while imprisoned.[17]",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "European trip and claimed English/French imprisonment; duration and residence interpretation unclear, with citation gaps.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "torricelli": {
+    "id": "torricelli",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Torricelli/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Torricelli/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "1f2a74ca390418b2b49718043c71115136db552f581ca16504410bd78d0ed47a",
+    "text_sha256": "6cfb0614e0fda8f687c61d37ba3b048f6f3b7c0ccd87c53b27bf86acf9883fd4",
+    "title": "Evangelista Torricelli (1608 - 1647) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 23; locate by quoted opening",
+        "excerpt": "Torricelli entered a Jesuit College in 1624 and studied mathematics and philosophy there until 1626. It is not entirely clear at which College he studied, with most historians believing that he attended the Jesuit College in Faenza, while some believe that he entered the Collegio Romano in Rome. What is undoubtedly the case is that after study at the Jesuit College he was then in",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Roman education/history, not an adjudication of contemporary polity versus present-day territory.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "lippershey": {
+    "id": "lippershey",
+    "url": "https://en.wikipedia.org/wiki/Hans_Lipperhey",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Hans_Lipperhey",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "21b5a7b421a45feb79b74122ae477da59ccdd3480d6bc9ee4dd2d20708ba8530",
+    "text_sha256": "0c502c9e545354a42e3da3a86c20953f1ab81ae789b05d138b356726d906f0ff",
+    "title": "Hans Lipperhey - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 139; locate by quoted opening",
+        "excerpt": "Lipperhey was born in Wesel, now in western Germany, around 1570. He settled in Middelburg, the capital of the province of Zeeland, now in the Netherlands, in 1594, married the same year and became a citizen of Zeeland in 1602. During that time he became a master lens grinder and spectacle maker and established a shop. He remained in Middelburg until his death, in September",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Early-modern European settlement; exact anachronistic US claim remains semantically unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "archimedes": {
+    "id": "archimedes",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e745d909db995490057ad05fffd795c342d6d82df27855491c0f63f699140a07",
+    "text_sha256": "90ba742039170d1e3544ad98787249e352f7d7cadf9c6b8ef6c0ecfa86a3a067",
+    "title": "Archimedes (287 BC - 212 BC) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 22; locate by quoted opening",
+        "excerpt": "Archimedes' father was Phidias, an astronomer. We know nothing else about Phidias other than this one fact and we only know this since Archimedes gives us this information in one of his works, The Sandreckoner. A friend of Archimedes called Heracleides wrote a biography of him but sadly this work is lost. How our knowledge of Archimedes would be transformed if this lost work were",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 23; locate by quoted opening",
+        "excerpt": "Archimedes was a native of Syracuse, Sicily. It is reported by some authors that he visited Egypt and there invented a device now known as Archimedes' screw. This is a pump, still used in many parts of the world. It is highly likely that, when he was a young man, Archimedes studied with the successors of Euclid in Alexandria. Certainly he was completely familiar with",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Lost biography and Syracuse/Sicily context; Ancient Greece political/cultural/territorial reading unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "galileo": {
+    "id": "galileo",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galileo/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Galileo/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "c016e8f3d2576d803045024557cd854f6c4339c341a8e19612d578e2faa1beaa",
+    "text_sha256": "f7c8829f64241dcbcc941fe4a2275b42435d14749b0329735e529382955aea2c",
+    "title": "Galileo Galilei (1564 - 1642) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 22; locate by quoted opening",
+        "excerpt": "Galileo Galilei's parents were Vincenzo Galilei and Guilia Ammannati. Vincenzo, who was born in Florence in 1520, was a teacher of music and a fine lute player. After studying music in Venice he carried out experiments on strings to support his musical theories. Guilia, who was born in Pescia, married Vincenzo in 1563 and they made their home in the countryside near Pisa. Galileo was",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 23; locate by quoted opening",
+        "excerpt": "In 1572, when Galileo was eight years old, his family returned to Florence, his father's home town. However, Galileo remained in Pisa and lived for two years with Muzio Tedaldi who was related to Galileo's mother by marriage. When he reached the age of ten, Galileo left Pisa to join his family in Florence and there he was tutored by Jacopo Borghini. Once he was",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Childhood in Pisa/Florence; no temporal-country semantics imposed.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "newton": {
+    "id": "newton",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "511999a10317b3318540241538bf783db9774e2b6920ddeba3c656cf0e63d346",
+    "text_sha256": "db0df9ce6c44a3c349c13cbcf07b442ad15ef629f3e944f8c009f3cce8d39cd9",
+    "title": "Isaac Newton (1643 - 1727) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 22; locate by quoted opening",
+        "excerpt": "Isaac Newton's life can be divided into three quite distinct periods. The first is his boyhood days from 1643 up to his appointment to a chair in 1669. The second period from 1669 to 1687 was the highly productive period in which he was Lucasian professor at Cambridge. The third period (nearly as long as the other two combined) saw Newton as a highly paid",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 23; locate by quoted opening",
+        "excerpt": "Isaac Newton was born in the manor house of Woolsthorpe, near Grantham in Lincolnshire. Although by the calendar in use at the time of his birth he was born on Christmas Day 1642, we give the date of 4 January 1643 in this biography which is the \"corrected\" Gregorian calendar date bringing it into line with our present calendar. (The Gregorian calendar was not adopted",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "17th/18th-century Cambridge/London chronology; no automatic false judgment solely because US state did not yet exist.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "basov": {
+    "id": "basov",
+    "url": "https://www.nobelprize.org/prizes/physics/1964/basov/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1964/basov/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "571abdaa0a97a85e2c7650bc7a7fca7856651df99ad7edd6d72f1c869811ecc8",
+    "text_sha256": "cb78081d8516ae7c3c12c1f0fd4a4652a91b4b806c356d487f7f89e0952c3569",
+    "title": "Nicolay G. Basov – Biographical - NobelPrize.org",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 49; locate by quoted opening",
+        "excerpt": "After finishing secondary school in 1941 in Voronezh Basov was called up for military service and directed to the Kuibyshev Military Medical Academy. In 1943 he left the Academy with the qualification of a military doctor’s assistant. He served in the Soviet Army and took part in the Second World War in the area of the First Ukrainian Front. In December 1945, he was demobilized",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 50; locate by quoted opening",
+        "excerpt": "From 1950 to 1953 he was a postgraduate student of the Moscow Institute of Physical Engineers. At that time, Basov was working on his thesis at the P.N. Lebedev Physical Institute of the Academy of Sciences, U.S.S.R., under the guidance of Professor M.A. Leontovich and Professor A.M. Prochorov.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Explicit Soviet-era Moscow residential study and work. No successor-state mapping required.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "curie": {
+    "id": "curie",
+    "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "be1c5ff04c2d3104af36d3abad932713074ebe84ce8f607ba760fc2acad15bc8",
+    "text_sha256": "082aed2a0966d5a24355885cc0d275f6b37e45249ffcde8f055d889ea6690dd6",
+    "title": "Marie Curie – Biographical - NobelPrize.org",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 51; locate by quoted opening",
+        "excerpt": "Marie Curie, née Maria Sklodowska, was born in Warsaw on November 7, 1867, the daughter of a secondary-school teacher. She received a general education in local schools and some scientific training from her father. She became involved in a students’ revolutionary organization and found it prudent to leave Warsaw, then in the part of Poland dominated by Russia, for Cracow, which at that time was",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Warsaw under Russian domination, Cracow under Austrian rule and Paris study illustrate both slash and historical geography issues.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "sundback": {
+    "id": "sundback",
+    "url": "https://www.invent.org/inductees/gideon-sundback",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/gideon-sundback",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a720e6d3c33a14416dcfffb3705fec88322ddccb58578d072868944df3d8925f",
+    "text_sha256": "03ce28819da785c6992a0996412185290c3a464139b2350db6d38e4014551b4c",
+    "title": "NIHF Inductee Gideon Sundback Invented the Modern Day Zipper",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 100; locate by quoted opening",
+        "excerpt": "Swedish-born engineer Gideon Sundback improved on Whitcomb Judson's work, making the zipper practical and commercially successful. Today, thousands of miles of zipper are manufactured daily.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Short institutional profile; Swedish birth is not complete residence evidence and does not define slash semantics.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "telkes": {
+    "id": "telkes",
+    "url": "https://www.invent.org/inductees/maria-telkes",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/maria-telkes",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "0083eca6bfb5d7f1436dd04e2e1161cc19156ec4c956dbf584d1ecba1ddcec0a",
+    "text_sha256": "a9e7a71be54fe2eefbcf483340f5a6c212ccf9ed3137c1d1cc4824dbda748faa",
+    "title": "NIHF Inductee Maria Telkes Invented Solar Power Storage",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 101; locate by quoted opening",
+        "excerpt": "Originally from Hungary, Telkes came to the U.S. in 1925, working initially as a biophysicist at the Cleveland Clinic Foundation and then a research engineer at Westinghouse. Later, she joined MIT where she focused on the practical uses and applications of solar energy. At MIT, she worked on the Dover Sun House, which employed a method using sodium sulphates to store energy from the sun.",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 102; locate by quoted opening",
+        "excerpt": "Telkes was born in Budapest, Hungary where she attended the University of Budapest earning a B.A. and Ph.D. in physical chemistry. Among her honors are the Society of Women Engineer's Achievement Award and the Charles Greely Abbot Award from the International Solar Energy Society.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Hungarian education and US appointments documented; does not define slash proposition.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "adler": {
+    "id": "adler",
+    "url": "https://www.invent.org/inductees/robert-adler",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/robert-adler",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "d8939269d708ffe283cf8ceb3feef96c9792aa55b803d236149541f692c0cbfa",
+    "text_sha256": "58cd0a054d56703b9c6887f4376691787c71af4162f030f7dde110429651153a",
+    "title": "NIHF Inductee Robert Adler, Who Invented the Remote Control",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 101; locate by quoted opening",
+        "excerpt": "Born in Vienna, Austria, in 1913, Adler received a Ph.D. in Physics from the University of Vienna in 1937. He joined Zenith Electronics' U.S. research division in 1941 and specialized in military communications equipment during World War II. After the war, he focused on television technology. He invented the gated-beam vacuum tube, which substantially reduced sound interference, and led a team that invented a special",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Vienna education and US Zenith appointment documented; slash semantics remain unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "neumann": {
+    "id": "neumann",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "6181071efe796ac63add45b983c66fc3c9490ac294b47103d65bcb20de39597c",
+    "text_sha256": "4131f311dd0705f6f468b8b324aafc5c832b4a52986b4818eddea7a507a8d2dc",
+    "title": "John von Neumann (1903 - 1957) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 22; locate by quoted opening",
+        "excerpt": "John von Neumann was born János von Neumann. He was called Jancsi as a child, a diminutive form of János, then later he was called Johnny in the United States. His father, Max Neumann, was a top banker and he was brought up in a extended family, living in Budapest where as a child he learnt languages from the German and French governesses that were",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 35; locate by quoted opening",
+        "excerpt": "Veblen invited von Neumann to Princeton to lecture on quantum theory in 1929. Replying to Veblen that he would come after attending to some personal matters, von Neumann went to Budapest where he married his fiancée Marietta Kovesi before setting out for the United States. In 1930 von Neumann became a visiting lecturer at Princeton University, being appointed professor there in 1931.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Budapest home and Princeton appointment documented; slash semantics not specified.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "geiger": {
+    "id": "geiger",
+    "url": "https://en.wikipedia.org/wiki/Hans_Geiger",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Hans_Geiger",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a9ca17b69cce7def630ac43fff9fe658ee1828de3e062fbdf7bccc641a89b428",
+    "text_sha256": "e9cde51618b23edba0bd644ffe2756aa733b385b97d14171e2e53d493b5448b2",
+    "title": "Hans Geiger - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 188; locate by quoted opening",
+        "excerpt": "After graduating, Geiger received a fellowship to the University of Manchester, where he worked as an assistant to Arthur Schuster. In 1907, after Schuster's retirement, Geiger began to work with his successor, Ernest Rutherford, and in 1908, along with Ernest Marsden, conducted the famous Geiger–Marsden experiment (also known as the \"gold foil experiment\"). This process allowed them to count alpha particles[6][7][8][5] and led Rutherford to",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Manchester research documented; not evidence for Austria/US slash statement.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "bell2": {
+    "id": "bell2",
+    "url": "https://www.invent.org/inductees/alexander-graham-bell",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/alexander-graham-bell",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "ad29a71dd74f803d8a5db4dadf6bd4796668f3313913613884bfb15944bad04f",
+    "text_sha256": "17d357f6a518ee4cf689d8c335819c3b439ce8836104cc02c3c49a6b13bf9f0a",
+    "title": "Alexander Graham Bell │ The National Inventors Hall of Fame",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 104; locate by quoted opening",
+        "excerpt": "Alexander Graham Bell's invention of the telephone grew out of his research on improving the telegraph. Born in Edinburgh, Scotland, he spent one year at a private school, two years at Edinburgh's Royal High School, and attended lectures at Edinburgh University and at University College in London, but he was largely family-trained and self-taught.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Schooling and Scottish background; no independent semantics for three-country slash list.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "starley": {
+    "id": "starley",
+    "url": "https://en.wikipedia.org/wiki/James_Starley",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/James_Starley",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7659a8c7a6980bd7e38dfee3851ee3c1e04acef606f60f9f5d7f7c0deb11ed25",
+    "text_sha256": "90734bb343539d345aa5b7e6e2574adc6e41f295f8c769951bb2807481edd71a",
+    "title": "James Starley - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 109; locate by quoted opening",
+        "excerpt": "Starley's employer, John Penn, bought a rare and expensive sewing machine. Starley mended it when it broke down and improved the mechanism. Penn knew Josiah Turner, a partner of Newton, Wilson and Company, the makers of the machine, and in 1859 Starley joined its factory in Holborn. Turner and Starley started their own Coventry Sewing Machine Company in Coventry around 1861.[2] Turner's nephew brought a",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "English employment history; no slash operator inferred and no automatic negative judgment.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "pfleumer": {
+    "id": "pfleumer",
+    "url": "https://en.wikipedia.org/wiki/Fritz_Pfleumer",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Fritz_Pfleumer",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "6dba998979c8ba6ffc4ee334124bbb64fafa26b6841b08b9ce58093543841ca0",
+    "text_sha256": "d68a0a1fb4d896cc0a9fd437dfd0a8b9a8006b56e2329faa987e8050eeae18b7",
+    "title": "Fritz Pfleumer - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 93; locate by quoted opening",
+        "excerpt": "Pfleumer was born on 20 March 1881, in Salzburg, to Robert and Minna Pfleumer (née Hünich). His father Robert (1848–1934) was born in Greiz, and his mother Minna (1846–1932) was born in Freiberg. Fritz had five siblings – Mimi, Hans, Hermann, Otto, and Mizi. Hans emigrated to the US.[2]",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Text distinguishes Fritz from brother Hans, who emigrated to US; do not transfer a relative’s residence.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "sikorsky2": {
+    "id": "sikorsky2",
+    "url": "https://www.invent.org/inductees/igor-i-sikorsky",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/igor-i-sikorsky",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "f9ef85a9c126c266b84f89a38b4d1f9df479782601017fb66e0e586532d78100",
+    "text_sha256": "6745c36a9c6ae0f6171604aac630ffd006deb229a5440d22528c2c4e7dcf60ff",
+    "title": "NIHF Inductee Igor Sikorsky Invented the Production Helicopter",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 100; locate by quoted opening",
+        "excerpt": "Igor I. Sikorsky designed the world's first successful multimotor airplane and the world's first true production helicopter. Born in Kiev, Sikorsky built model aircraft and helicopters as a schoolboy. He was educated in Russia and Paris, and achieved international recognition in 1913 when he designed and flew the first multimotor airplane. After the Russian Revolution he immigrated to the United States and reestablished himself as",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Kiev birth and US immigration; historical territory and slash semantics unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "berliner": {
+    "id": "berliner",
+    "url": "https://www.invent.org/inductees/emile-berliner",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/emile-berliner",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "772b7965344a833895ca8bfe216f6303a90f178a03683e4e575e2fd3d6c2ea38",
+    "text_sha256": "5bcd3cab280a1d6135f3a1556c23146e96b87f4f89dc432e660690d0b7030be9",
+    "title": "NIHF Inductee Emile Berliner Invented the Microphone and Gramophone",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 100; locate by quoted opening",
+        "excerpt": "Emile Berliner invented the microphone that became part of the first Bell telephones, and his gramophone was the first record player to use disks. Born in Hanover, Germany, Berliner studied part time at the Cooper Institute (now Cooper Union) while assisting in a chemical laboratory. Berliner was one of many who explored ways of improving the original telephone.",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "German birthplace and Cooper Institute study; birthplace not residence and slash meaning unspecified.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "fessenden": {
+    "id": "fessenden",
+    "url": "https://www.invent.org/inductees/reginald-fessenden",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/reginald-fessenden",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7f71b27f0e3bf56790a193af58e13ca650261de74998f4da4fe638967ba4ac6b",
+    "text_sha256": "72c8a978a48964c28ee50881d990564622a78690c183eed19b94cfdda3e5011c",
+    "title": "NIHF Inductee Reginald Fessenden Invented the AM Radio",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 102; locate by quoted opening",
+        "excerpt": "Born in East Bolton, Quebec, Canada, Fessenden was well-educated when he was young. When he was eighteen, he became headmaster at a school in Bermuda. His work subsequently took him back to the U.S. to work with Thomas Edison and to help George Westinghouse light the 1892 Columbian Exposition in Chicago. He then investigated wireless radio communication with the U.S. Weather Bureau. Fessenden held over",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Canadian origin, Bermuda and US work; no slash proposition interpretation imposed.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "lamarr": {
+    "id": "lamarr",
+    "url": "https://www.invent.org/inductees/hedy-lamarr",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/hedy-lamarr",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e7d666a43f0f54c2950820b30895d0f52631c6f11a111a5767527969f68470a2",
+    "text_sha256": "81c8c986994a42798ee11f94172df5d1e49aa0cda524737b8219a7532e617c4c",
+    "title": "Hedy Lamarr │ The National Inventors Hall of Fame",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 108; locate by quoted opening",
+        "excerpt": "Born in Austria, Lamarr had at one time been married to a munitions manufacturer, giving her the foundation for her knowledge of weapons systems, including torpedo control systems. Lamarr and Antheil's frequency hopping reduced the risk of detection or jamming of radio-controlled torpedoes. Multiple radio frequencies were used to broadcast a radio signal, switching frequencies at split-second intervals in a seemingly random manner that would",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Austrian birth alone does not establish a complete residence list; slash claim unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "babbage": {
+    "id": "babbage",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "33dc10c5c3b075bb0e71a9ac2c6cd1daf3e3f4a6f4792cfaeb3d0a64533ab326",
+    "text_sha256": "a9f73a1e561bae239d64f04ba8f50b1ad02ff07f5b61cd4d44c96f8dec0de186",
+    "title": "Charles Babbage (1791 - 1871) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 24; locate by quoted opening",
+        "excerpt": "However, a nephew wrote to The Times a week after the obituary [18] appeared, saying that Babbage was born on 26 December 1791. There was little evidence to prove which was right until Hyman (see [8]) in 1975 found that Babbage's birth had been registered in St Mary's Newington, London on 6 January 1792. Babbage's father was Benjamin Babbage, a banker, and his mother was",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "London family home is documented, but missing slash/country semantics are not resolved by a birthplace.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "leonardo2": {
+    "id": "leonardo2",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leonardo/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Leonardo/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a8d8ed7fe5ea9e2785ef56b91c460212448e220fc7e1adb1bdd899b978b24a23",
+    "text_sha256": "eb62eaf64c87bd8da684c2ef9f7fe07b7b5cd7d92b07f7c0ac19bdec0018988a",
+    "title": "Leonardo da Vinci (1452 - 1519) - Biography - MacTutor History of Mathematics",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 22; locate by quoted opening",
+        "excerpt": "Leonardo da Vinci was educated in his father's house receiving the usual elementary education of reading, writing and arithmetic. In 1467 he became an apprentice learning painting, sculpture and acquiring technical and mechanical skills. He was accepted into the painters' guild in Florence in 1472 but he continued to work as an apprentice until 1477. From that time he worked for himself in Florence as",
+        "truncated": true
+      },
+      {
+        "locator": "Visible text paragraph/line 31; locate by quoted opening",
+        "excerpt": "In 1499 the French armies entered Milan and the Duke was defeated. Some months later Leonardo left Milan together with Pacioli. He travelled to Mantua, Venice and finally reached Florence. Although he was under constant pressure to paint, mathematical studies kept him away from his painting activity much of the time. He was for a time employed by Cesare Borgia as a",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Florentine work and European movements; Poland/France operator remains undefined.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "lumiere": {
+    "id": "lumiere",
+    "url": "https://www.institut-lumiere.org/musee/les-freres-lumiere-et-leurs-inventions.html",
+    "fetch_result": "200\nhttps://www.institut-lumiere.org/musee-lumiere-fr#histoire",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a09fc84516884919239908c482625f6b7da976c22f8fad371665cba15fd8027b",
+    "text_sha256": "9511996a9c2475571a3a1d51b8bc4959e5b7958cc29d5c13901895cbba82e222",
+    "title": "Musée Lumière | Institut Lumière",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 161; locate by quoted opening",
+        "excerpt": "Le musée donne, bien sûr, la part belle au Cinématographe, plus célèbre invention des frères Lumière. Il la replace dans la longue histoire des images animées, depuis les lanternes magiques jusqu'au prototype mis au point par Louis pour ses premiers essais de films sur papier en 1894. Grâce à a collection d'appareils anciens rassemblée par le docteur Paul Génard et acquise en 2003, l'exposition présente",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Museum documents the brothers’ apparatus and Paris exhibition, not both persons’ residences.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "page2": {
+    "id": "page2",
+    "url": "https://en.wikipedia.org/wiki/Larry_Page",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Larry_Page",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "b8a1b0398c43bebc1e3f553d70a1b61f57b7b8107d920a86e157a1305e67811a",
+    "text_sha256": "7d207341ed29fe11eb81fbfe436ed26a4cb80112fc3df32367e066ebdde609e8",
+    "title": "Larry Page - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 252; locate by quoted opening",
+        "excerpt": "Page attended Okemos Montessori School (now called Montessori Radmoor) in Okemos, Michigan, from ages two to seven (1975 to 1979). He attended East Lansing High School, graduating in 1991. In summer school, he attended Interlochen Center for the Arts at Interlochen, Michigan, playing flute but mainly saxophone for two summers.",
+        "truncated": false
+      },
+      {
+        "locator": "Visible text paragraph/line 253; locate by quoted opening",
+        "excerpt": "Page received a Bachelor of Science in Engineering with a major in computer engineering with honors from the University of Michigan in 1995[33][34] and a Master of Science in computer science from Stanford University in 1998.[35]",
+        "truncated": false
+      }
+    ],
+    "scope_and_limitations": "Michigan childhood schooling and Stanford study support US residence independently for Page.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "brin2": {
+    "id": "brin2",
+    "url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Sergey_Brin",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "2c315462a6e2d7f1030dd98177f8ecaaaf1eb5f97540317e8a42cdb2c6fa7744",
+    "text_sha256": "8eac9e32c4e0be891753df77e92570d40a1dafb4f1017e5cd627c5a7407b2f75",
+    "title": "Sergey Brin - Wikipedia",
+    "observations": [
+      {
+        "locator": "Visible text paragraph/line 221; locate by quoted opening",
+        "excerpt": "Born into a Russian-Jewish family in Moscow, Soviet Union, Brin immigrated to the United States at the age of six. He earned his bachelor's degree at the University of Maryland, College Park, following in his father's and grandfather's[4][5] footsteps by studying mathematics as well as computer science. After graduation, in 1993, he enrolled in Stanford University to pursue a PhD in computer science. There, Brin",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Immigration to US at six, Maryland education and Stanford study support Brin’s US residence.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "inspection": "Actual retrieved text inspected; not search snippets"
+  },
+  "t2b:porro_treccani": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "porro_treccani",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "PORRO, Ignazio - Enciclopedia - Treccani",
+    "url": "https://www.treccani.it/enciclopedia/ignazio-porro_(Dizionario-Biografico)/",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "t2b:huygens": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "huygens",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "Christiaan Huygens (1629 - 1695) - Biography - MacTutor History of Mathematics",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "t2b:edison": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "edison",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "Edison Biography - Thomas Edison National Historical Park (U.S. National Park Service)",
+    "url": "https://www.nps.gov/edis/learn/historyculture/edison-biography.htm",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "t2b:maxwell": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "maxwell",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "James Clerk Maxwell (1831 - 1879) - Biography - MacTutor History of Mathematics",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "t2b:fahrenheit_wiki": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "fahrenheit_wiki",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "Daniel Gabriel Fahrenheit - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "t2b:wright_wiki": {
+    "existing_package": "../source_review_v1/evidence.json",
+    "existing_id": "wright_wiki",
+    "file_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "title": "Wright brothers - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wright_brothers",
+    "reuse": "Preserved T2B inspected evidence; no change to its adjudications"
+  },
+  "wright_home": {
+    "id": "wright_home",
+    "url": "https://en.wikipedia.org/wiki/Wright_brothers",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Wright_brothers",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "fb90cb686cf7a0c648f177fa6f98f04d33409ed0e832c373764ea90dce40f4d7",
+    "text_sha256": "6bfcbcaa05db191782b3a3c1bc9f06f7d11667a8a2df1905036ff63dc9987554",
+    "title": "Wright brothers - Wikipedia",
+    "observations": [
+      {
+        "locator": "Early life, visible-text line 308",
+        "excerpt": "Because of their father's position as a bishop in the Church of the United Brethren in Christ, he traveled often and the Wrights frequently moved – twelve times before finally returning permanently to Dayton in 1884. In elementary school, Orville was given to mischief and was once expelled.[23] In 1878, when the family lived in Cedar Rapids, Iowa, their father brought home a toy helicopter for his two younger sons. The device was based on an invention of French aeronautical",
+        "truncated": true
+      }
+    ],
+    "scope_and_limitations": "Family returning permanently to Dayton and living in Cedar Rapids includes both brothers. Reinspection of already retrieved source; family residence supports both-person US claim, not French residence.",
+    "reviewer_method": "Codex-assisted external review, not human verification"
+  }
+}

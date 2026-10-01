@@ -1,0 +1,57 @@
+{
+  "sample_denominator_contribution": 0,
+  "reviewer_method": "Codex-assisted external review; not human verification",
+  "review_date": "2026-10-01",
+  "franklin_france": {
+    "historical_registry": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5/registry.csv",
+    "historical_registry_sha256": "1c1ff7b5b3c369c72d7f90a090d0f1e120c5126850dfd4a6af7323c02ef5095f",
+    "historical_record_unchanged": {
+      "topic": "inventors",
+      "split": "validation",
+      "entity_id": "entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385",
+      "entity": "Benjamin Franklin",
+      "candidate_object": "France",
+      "candidate_rank": "1",
+      "ranking_hash": "014fc93dc3c0e249059c33f8ee492f00e3cb92a6afcc6322aa40449261abcab9",
+      "fact_id": "fact_49c7c4369a56220424ffb4d35bab8ec46e341f69329209a10d008b109a4383c4",
+      "statement": "Benjamin Franklin lived in France.",
+      "proposition_key": "[\"inventors\",\"Benjamin Franklin\",\"France\"]",
+      "source_classification": "unverified_negative",
+      "validation_status": "rejected_true_or_ambiguous",
+      "evidence_source": "Library of Congress",
+      "evidence_note": "Candidate is true, not false. Library of Congress records Benjamin Franklin living at Passy, France from 1777 to 1785.",
+      "reviewer_or_method": "manual_external_review_v1",
+      "validation_version": "manual_external_review_v1"
+    },
+    "new_judgment": "supported_true",
+    "evidence_ids": [
+      "franklin"
+    ],
+    "reasoning": "Library of Congress explicitly says Franklin lived in the Paris suburb from 1777–1785. This establishes residence in France, not just a visit. The historical rejected_true_or_ambiguous judgment is preserved; this new adjudication is outside the 30-row sample.",
+    "recommendation": "Keep this historical candidate ineligible as a false negative. No source-row pair is invented for a generated candidate."
+  },
+  "alias_corroborations": [
+    {
+      "names": [
+        "Luther George Simjian",
+        "Luther Simjian"
+      ],
+      "evidence_ids": [
+        "simjian"
+      ],
+      "new_status": "institutional_biographical_corroboration",
+      "reasoning": "Florida Inventors Hall of Fame independently corroborates the full-name person and matching Yale/ATM career. It does not itself spell the short alias; the T2A short/full linkage remains an independently preserved citation. No T2A identity decision or partition changes."
+    },
+    {
+      "names": [
+        "Philo Farnsworth",
+        "Philo Taylor Farnsworth"
+      ],
+      "evidence_ids": [
+        "farnsworth"
+      ],
+      "new_status": "institutional_alias_corroboration",
+      "reasoning": "NIHF page title uses the short name and entry heading/body the full name for the same television inventor. Confirms the T2A linkage without rewriting its evidence."
+    }
+  ]
+}

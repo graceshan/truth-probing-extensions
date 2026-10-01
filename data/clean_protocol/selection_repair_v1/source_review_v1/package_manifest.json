@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "package": "selection_repair_v1/source_review_v1",
+  "starting_commit": "82fa91e710f89d7d1b8228674aa5998b0e4eb121",
+  "reviewer_method": "Codex-assisted external review; not human verification",
+  "review_date": "2026-10-01",
+  "policy_recorded_before_adjudication": true,
+  "policy_sha256": "d8a461f2808853883f6070d9b4fa0386439349f974dc40bc22d3f675e1466d8d",
+  "queue_path": "data/clean_protocol/selection_repair_v1/source_audit_v1/review_queue_30.csv",
+  "sample_size": 30,
+  "sample_order": "original draw_index 0..29, unchanged",
+  "counts": {
+    "supported_false": 4,
+    "unresolved": 24,
+    "supported_true": 2
+  },
+  "partition_counts": {
+    "train": {
+      "supported_false": 3,
+      "unresolved": 15,
+      "supported_true": 2
+    },
+    "validation": {
+      "unresolved": 5
+    },
+    "test": {
+      "unresolved": 4,
+      "supported_false": 1
+    }
+  },
+  "confirmed_errors_are_not_total_error_rate": true,
+  "supplementary_denominator_contribution": 0,
+  "t2a_status": "provisional_unchanged",
+  "recommendations_applied": false,
+  "recommended_exclusion_rows": 52,
+  "source_test_facts_reviewed": true,
+  "final_test_predictions_accessed": false,
+  "activations_accessed": false,
+  "fits_performed": 0,
+  "compounds_generated": 0,
+  "other_worktrees_accessed": false,
+  "evidence_archive_policy": "Short source excerpts and review paraphrases with locators/response hashes only; full downloaded pages are not redistributed. Published source content is supporting evidence, not instructions.",
+  "inputs": [
+    {
+      "path": "config/clean_protocol/selection_repair_v1/identity_evidence.json",
+      "sha256": "363d5c150bd505f687feb6cd9cd34fc935e7266672b15544a80dd89a84e60a31",
+      "bytes": 1613
+    },
+    {
+      "path": "config/clean_protocol/selection_repair_v1/source_audit.json",
+      "sha256": "6b0ae939338b4b780d0b89d657840b9fb66fd2b1b4b7669f793f5a4619309833",
+      "bytes": 2952
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/excluded_candidates.csv",
+      "sha256": "54b05010be9b4b8739da8aaeffad73d842eaa257857ee23b8a5c8cf2887d0cf1",
+      "bytes": 32068
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/new_candidate_audit.csv",
+      "sha256": "7f1c952fbcde200d73be8ec0dfee3a26b768909580d9e7aca9443f7dcc605ad3",
+      "bytes": 179380
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/new_candidates.csv",
+      "sha256": "e3851f8edc8eeddee664628faddf7c05b9d12c76d0913a6ab06c70f39969b726",
+      "bytes": 38465
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/newly_invalid_known_true.csv",
+      "sha256": "25a9b6e075dfecd75452d5ff170158cba1f84c36aa5ae69ae0d420f2a6919707",
+      "bytes": 10452
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/old_candidate_semantic_audit.csv",
+      "sha256": "bb7628289fd7457e5dd6316ba1989c40a0b817ce3ea4b5bd0cf6a086302667df",
+      "bytes": 128939
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/preservation_checks.json",
+      "sha256": "9319a6c9bfa5b61a649d00906e602d9037cab738d2be40ab7d8a1e4efe4f287d",
+      "bytes": 519
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/rank_one_changes.csv",
+      "sha256": "389986b152ea5940e39476190e09d630304b61b0997b1667d2fe235a7d801917",
+      "bytes": 4266
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/slash_values.csv",
+      "sha256": "29f10fe28fc3f2ff9f9d04c612c65cbe192e387c919a89fce3a5d127fbc36220",
+      "bytes": 439
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/source_objects.csv",
+      "sha256": "62021b43dfbb1803c48a01968a58aac396d109792661aa8a70d505665008cefd",
+      "bytes": 62568
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/source_semantic_conflicts.csv",
+      "sha256": "4fad0206b4db9ee888d35a61c02023b27412f61bd078a18bdf4d8c13fcf82337",
+      "bytes": 1608
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/summary.json",
+      "sha256": "7a1b85277af476ac5e454b56985e788e90a1237345d6c1e2941fd20f423eefbd",
+      "bytes": 4065
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_single_country_v1/verification.json",
+      "sha256": "8ee4ab311b0b931450128c52b8ac72f3aae5a150bf8ab3766e1ba8db922c0f76",
+      "bytes": 450
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/all_previously_supported.csv",
+      "sha256": "6ddc9ad51752371d3d9926e94040bc4f6dce15ef939a206302924c4bfbfb090e",
+      "bytes": 89252
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/counts.csv",
+      "sha256": "6106e7a7fdc95692cc2f94a766140065a5d61356861dd96104bd5bc60ed13ca0",
+      "bytes": 227
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/metadata.json",
+      "sha256": "2cc588830ad44b3a1e07d1ed915f41e34c91bfe671d4ed24a93ab591c19583af",
+      "bytes": 2655
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/nonoverlap_slash_exclusions.csv",
+      "sha256": "90a83449d3c45a2194e66559c54e8f6805d8665894c23dd70885b702dba21595",
+      "bytes": 3074
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/preservation_checks.json",
+      "sha256": "f41497e8a8c6271cf443387a8a59ab40716779cb1f95565f2682602def17ca7d",
+      "bytes": 375
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/source_label_inconsistencies.csv",
+      "sha256": "50421ab03814f14924ab3f08081bc6f86c7ae5c68263d01a3cedf5c0c2fb37e7",
+      "bytes": 5235
+    },
+    {
+      "path": "data/clean_protocol/audits/inventor_source_consistency_v1/verification.json",
+      "sha256": "e9ec99efe0143dc4f764fa00ae79e62047bb30a41e2cdf8cf9202371ef1e70e1",
+      "bytes": 433
+    },
+    {
+      "path": "data/clean_protocol/entity_partitions/README.md",
+      "sha256": "de4e479f286ff1585d1d3dd6fc3e5e04e409c4a026dd03b3030dc16d56599e76",
+      "bytes": 2056
+    },
+    {
+      "path": "data/clean_protocol/entity_partitions/counts.csv",
+      "sha256": "a2812e53c88a1b3bd4298308e879ab8070df09fa1e408fe72eae729cade08b90",
+      "bytes": 510
+    },
+    {
+      "path": "data/clean_protocol/entity_partitions/manifest.csv",
+      "sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+      "bytes": 154259
+    },
+    {
+      "path": "data/clean_protocol/entity_partitions/metadata.json",
+      "sha256": "d4eeccdfc46e9e85d4d583790fe2d22442d04a69c619e63b35dcdb878241dacb",
+      "bytes": 5643
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/admitted_rows.csv",
+      "sha256": "0408a0a74e443651996fc9dbc801094ca6159e85c37f50ebac563c09d5936d4b",
+      "bytes": 3438788
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/audit_manifest.json",
+      "sha256": "8584c47034543544869607faec5958df54b7c6591244a10fc4996eab18b68fb6",
+      "bytes": 23566
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/counts.csv",
+      "sha256": "97285ca4658246eeb384028c38829862057d5a885703e2829bf82da0353010d2",
+      "bytes": 8010
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/excluded_rows.csv",
+      "sha256": "b456239f5d9f4512626b7d2aacc38216fd43f87590a585e67ec305e81ceb0067",
+      "bytes": 19428
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/review_queue_30.csv",
+      "sha256": "80beee377153c5def67da56cff5414ecc48dd428d7453f64295c70f5bd0b2a14",
+      "bytes": 20114
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/review_sampling_frame.csv",
+      "sha256": "c678737c44330f3c2aeef0aa78213dd05240f5f7bcf15e278c4e44eb16863814",
+      "bytes": 106579
+    },
+    {
+      "path": "data/clean_protocol/selection_repair_v1/source_audit_v1/row_manifest.csv",
+      "sha256": "05513d782fcef6836e1641a60f651c7d2d5fa9ff4aa280cf177c5b9eb9f53d4f",
+      "bytes": 3457876
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_batch_001/metadata.json",
+      "sha256": "06541aa30b8b7c71f3b018711d2980937166cc6d0ff599cd548116827ed2881f",
+      "bytes": 2402
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_batch_001/review_batch.csv",
+      "sha256": "325d064c91e824e9e78167844a09e17db09beb6a8252f3a487ee6981691edabb",
+      "bytes": 22132
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_batch_001/summary.csv",
+      "sha256": "8f75ec4e8f8fbfd4d9986f95a86a2b91b74f3c8fa290a80babb37a8a7967c0dd",
+      "bytes": 294
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_single_country_001/metadata.json",
+      "sha256": "1296003c5fae39d34d197a8e54095bfd8c754495e2e86d42e96303e2e9c0f827",
+      "bytes": 2413
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_single_country_001/review_batch.csv",
+      "sha256": "d84ab5303a1e35c29d37edd0c714acb006de4976b77975721d1e70ab82e488b0",
+      "bytes": 3529
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_single_country_001/summary.csv",
+      "sha256": "67ac7d207cc29949f2dc40c8f313841c0171e3939baea888866b2e13b78c8f1e",
+      "bytes": 194
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_001/metadata.json",
+      "sha256": "2bf8a543a107a489ba1383166bbfa29010ab93319796923b14a74814342040f9",
+      "bytes": 1397
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_001/review_batch.csv",
+      "sha256": "90eeeaf93de54ba2a5230b6ff415dd8af975e9e73c86a46682e217997424e093",
+      "bytes": 3791
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_001/summary.csv",
+      "sha256": "4df697f13373a7b9e807e7a053478207590e454b4b55ee9622f453224684696f",
+      "bytes": 195
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_002/metadata.json",
+      "sha256": "ab499e2855aec10c3302cf5618bc4bce3c2b1820e25ccdf9c193a5e1535c3081",
+      "bytes": 1456
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_002/review_batch.csv",
+      "sha256": "eb9f07ea818b7f343e6d36fef225605a7e0006b042f0ddfa338ec1be89672ad1",
+      "bytes": 393
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_002/summary.csv",
+      "sha256": "a0ac8c66090633fcbd06a7ce3063eabf68719811c4e997400ded069d0de593cf",
+      "bytes": 193
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v1/changes.csv",
+      "sha256": "73f775cd4c4153a3df897cb5af100cba9f4a37e8ba5ab7844ecb094e01978b96",
+      "bytes": 3360
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v1/import_provenance.json",
+      "sha256": "9ff1dd8189904015ea57a77ffa6872809a129523410aca081a6954a45653d468",
+      "bytes": 557
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v1/reviews.json",
+      "sha256": "0f2537a15786c698f3361f3ed043ce5be1bf314806d999095580a4e2fa0f978e",
+      "bytes": 6150
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v1/verification.json",
+      "sha256": "45f543e566439a8150ad1a4a81cf158d5b0d3f19ccee65d2f6d6601111cd2fca",
+      "bytes": 2088
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v2/changes.csv",
+      "sha256": "fcd64f6e2ec6513116410fa2a6f41c8b2eed544ca41e01c46cc60c71fcbfe07c",
+      "bytes": 20564
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v2/import_provenance.json",
+      "sha256": "811b8c985aa4f7b3dba1479934d23393e6c8889f6f5d2a77661f3cd6f6abcdc5",
+      "bytes": 10033
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v2/reviews.json",
+      "sha256": "e1df854a4e5eab8ae85b8d7c170f32c1c071804a65d4ba0f916ce1e644ba728b",
+      "bytes": 31186
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_batch_001_manual_external_review_v2/verification.json",
+      "sha256": "753c5334abfd3a4859f2c8e327bcb6cb3e332227070f46216eb72a19957f191c",
+      "bytes": 1803
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_001_manual_external_review_v1/changes.csv",
+      "sha256": "dcfd7f8c1c789dc1b91b6d8d930c7b050e0d8205823533f6938f882538f467f1",
+      "bytes": 7744
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_001_manual_external_review_v1/provenance.json",
+      "sha256": "1982ff8edb560986e90951dcd0ffbff18c57834d0a2a8522cb54e546ccf02dce",
+      "bytes": 8417
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_001_manual_external_review_v1/reviews.json",
+      "sha256": "5222e3b4ca9622da1de80c42c10dba92c27f00b9507c180b4b308b2a184ac38d",
+      "bytes": 9929
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_001_manual_external_review_v1/verification.json",
+      "sha256": "87d9a10f0b05d8350d08ecc569369954b86b708425fe32df0c7daf2dc9bc1b4c",
+      "bytes": 4476
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_002_manual_external_review_v1/changes.csv",
+      "sha256": "b19e4999a5e978ee37b562c5b34017682138e5bc900b2f3405517d39a5c6b793",
+      "bytes": 581
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_002_manual_external_review_v1/coverage.csv",
+      "sha256": "7a7d1f28fcd3be7e7130de19b9cb2dff39f6956aad0fb61c4907299ef364cda7",
+      "bytes": 370
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_002_manual_external_review_v1/provenance.json",
+      "sha256": "d45bb4f802592bc238cecf66a42ba03558990f247faaeba0315be9c0bb406bb3",
+      "bytes": 1232
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_002_manual_external_review_v1/reviews.json",
+      "sha256": "5945bcdbab7f01b86b2d75c4a3e80c1808dfbc62f85114d98c79e87b8a4918cd",
+      "bytes": 561
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/review_imports/validation_inventors_source_consistency_002_manual_external_review_v1/verification.json",
+      "sha256": "2206326f1d44b7cdba97e3d9935205cb63433beb7124b67340389d9a84e083c5",
+      "bytes": 2852
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/train/metadata.json",
+      "sha256": "1aac59159afa31d1d112d296a7fd303f380c2000aebcb29aaec943477e7cbe9f",
+      "bytes": 2997
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/train/registry.csv",
+      "sha256": "8cddcfa746b7ac4552225f82019ea7ce6cc01a857a5900ac22b441866c976c25",
+      "bytes": 23106201
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation/metadata.json",
+      "sha256": "3bb5dd139552dd73fbaedc3e795fe9a586d5f48c5d170a8fa71b00e8210fc0b9",
+      "bytes": 3009
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation/registry.csv",
+      "sha256": "e9efe56d668510d0f4d61860772e3a611d4cf89f1f5c87435c060f1f5c7a95b4",
+      "bytes": 3715524
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v4/metadata.json",
+      "sha256": "40f3dd471c0073adf531f18dc6e7db61608c81e48e6d165f988f823f9eaa3569",
+      "bytes": 3358
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v4/registry.csv",
+      "sha256": "95558b93430be6c8d093c705e252e31a6cbaf8587f65c44ef88c09cdff2f41d8",
+      "bytes": 3732432
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5/metadata.json",
+      "sha256": "b03ec1603e88891fe88d8bfa299d4fbbb05222c35e0a9482aefb4147efd41571",
+      "bytes": 3358
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5/registry.csv",
+      "sha256": "1c1ff7b5b3c369c72d7f90a090d0f1e120c5126850dfd4a6af7323c02ef5095f",
+      "bytes": 3732681
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_single_country_v3/metadata.json",
+      "sha256": "e6e175af8ec904db7dec2afd614ffa1935cc108f63ebed8bcfac92a95d1b1eb9",
+      "bytes": 3358
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_single_country_v3/registry.csv",
+      "sha256": "47c7e9e2fda6cf2b4c9ab37fca924f621d7a28bffc9e49fc1e0605b42e2ba201",
+      "bytes": 3726822
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_manual_external_review_v1/metadata.json",
+      "sha256": "cbb650fb03a784008e4af98b1b6a510257b711200f90c9108cd936f0b66cadc1",
+      "bytes": 3072
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_manual_external_review_v1/registry.csv",
+      "sha256": "39ea624e12c6dc129a65fec3339c3a6e9d65d8b95149842d7e689ce108f2d76a",
+      "bytes": 3716695
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_manual_external_review_v2/metadata.json",
+      "sha256": "37b80fc679e1f6943b418f15d897d398a4ec7577e4482776968b57757561e96a",
+      "bytes": 3073
+    },
+    {
+      "path": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_manual_external_review_v2/registry.csv",
+      "sha256": "b64e409e21adea0000633df924a4edca443d79d00bfb0420fbc41ce86073fa0f",
+      "bytes": 3729892
+    },
+    {
+      "path": "data/tiu_datasets/animal_class.csv",
+      "sha256": "598ed996dd00dd6cddcf125fafad48ad7c4d827a91dfbd8202473354fdba0d97",
+      "bytes": 4303
+    },
+    {
+      "path": "data/tiu_datasets/cities.csv",
+      "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+      "bytes": 95041
+    },
+    {
+      "path": "data/tiu_datasets/element_symb.csv",
+      "sha256": "2aa8da5696a1f0f0c4630b7a75949cf47e81254728be13c0f4e835ed6129a5a6",
+      "bytes": 5458
+    },
+    {
+      "path": "data/tiu_datasets/inventors.csv",
+      "sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c",
+      "bytes": 14884
+    },
+    {
+      "path": "data/tiu_datasets/neg_animal_class.csv",
+      "sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+      "bytes": 4959
+    },
+    {
+      "path": "data/tiu_datasets/neg_cities.csv",
+      "sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+      "bytes": 101025
+    },
+    {
+      "path": "data/tiu_datasets/neg_element_symb.csv",
+      "sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+      "bytes": 7318
+    },
+    {
+      "path": "data/tiu_datasets/neg_inventors.csv",
+      "sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+      "bytes": 17726
+    },
+    {
+      "path": "data/tiu_datasets/neg_sp_en_trans.csv",
+      "sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+      "bytes": 18063
+    },
+    {
+      "path": "data/tiu_datasets/sp_en_trans.csv",
+      "sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+      "bytes": 15231
+    },
+    {
+      "path": "docs/selection_repair_t2a_source_audit.md",
+      "sha256": "e7ea9dabde1c94f6046569e8d1fc573a288ae5a5e8593612852207438afeb90a",
+      "bytes": 9051
+    },
+    {
+      "path": "scripts/46_audit_selection_repair_sources.py",
+      "sha256": "12242433a100aa880c4c1f7b03b7ebd93653911acd88143b447b244b802b5be2",
+      "bytes": 561
+    },
+    {
+      "path": "src/inventor_country_semantics.py",
+      "sha256": "ec1e23515968ad5efd880f3965f28b18995b567852717cabd6610a97db6d1349",
+      "bytes": 1329
+    },
+    {
+      "path": "src/selection_repair_source_audit.py",
+      "sha256": "12f3336acefc9ea5224525e58b83d3c6a0a12524296dd3c8e59e1185cdbb2d30",
+      "bytes": 16764
+    },
+    {
+      "path": "tests/test_selection_repair_source_audit.py",
+      "sha256": "24c2fc732eb1a27717d8297860467416113a65cee4ce5cf7bedec98cc092bda0",
+      "bytes": 9215
+    }
+  ],
+  "files": {
+    "evidence.json": {
+      "sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+      "bytes": 77440
+    },
+    "proposed_rule_changes.json": {
+      "sha256": "779d582acb3f0ae6ec4bbecd0ca78a9a2007bc08907fc454f03a2f2927e87fd3",
+      "bytes": 2326
+    },
+    "recommended_exclusions.csv": {
+      "sha256": "3d524ce4332b2f25db1842f2ed7088acd8dbf811a136b2560d7339bc25b6368e",
+      "bytes": 20995
+    },
+    "retrieval_log.json": {
+      "sha256": "ff24724b4b4a9cd5bc6fb5b85179b80776d1d731963b1935404633ee36de6773",
+      "bytes": 55256
+    },
+    "review_policy.md": {
+      "sha256": "d8a461f2808853883f6070d9b4fa0386439349f974dc40bc22d3f675e1466d8d",
+      "bytes": 2970
+    },
+    "review_report.md": {
+      "sha256": "c3039ad29bfe58766147cfce5cf6890086e7b68556764c652369b1df57b3f6b9",
+      "bytes": 28404
+    },
+    "reviews.json": {
+      "sha256": "e2f442f8a30586743d5092f1c19f8a5b2a7c24227c94805d2774885187b312be",
+      "bytes": 46936
+    },
+    "supplementary_reviews.json": {
+      "sha256": "c9e759dfba4f04e56851a26e249e59c75875d75dce6cdadcd383e177e3ef2494",
+      "bytes": 2905
+    },
+    "test_validation.py": {
+      "sha256": "042a544fadd0d2161ff0d960ca85732754a91ce48e6d6096f09e98eb21e66449",
+      "bytes": 4095
+    },
+    "validate.py": {
+      "sha256": "35f1fc74696c7427bd31d28277e6deef31708f47f395d9213cda2028447d8a8d",
+      "bytes": 7934
+    }
+  }
+}
