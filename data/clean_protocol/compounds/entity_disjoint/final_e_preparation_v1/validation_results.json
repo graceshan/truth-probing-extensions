@@ -1,0 +1,45 @@
+{
+  "deterministic_regeneration": {
+    "all_saved_bytes_match": true,
+    "command": "python scripts/54_prepare_final_e_benchmark.py",
+    "exit_code": 0
+  },
+  "extraction_launched": false,
+  "final_evaluation_enabled": false,
+  "historical_audit_regeneration": {
+    "command": "python scripts/53_audit_final_partition_facts.py",
+    "exit_code": 0
+  },
+  "non_E_inputs_changed": false,
+  "preservation": {
+    "command": "python scripts/check_selection_repair_local_preservation.py --root \"$PWD\"",
+    "exit_code": 0,
+    "matched": 13,
+    "mismatched": 0,
+    "missing": 0
+  },
+  "report_sha256": "9fbd4de98fe19ca7cb46e1900d3ba5c92eafa6e7badc72cfc69b75759087b60c",
+  "reviewed_base": "bb8bc51a864a5702f06ef23f923e11af97710c09",
+  "schema_version": 1,
+  "subtests_passed": 85,
+  "test_command": "python -m pytest tests/test_final_e_preparation.py tests/test_final_partition_fact_audit.py tests/test_tc_topup_audit.py tests/test_capacity_pilot_audit.py tests/test_capacity_pilot_projection.py tests/test_selection_repair_candidate_overlay.py tests/test_selection_repair_source_closure.py tests/test_selection_repair_source_audit.py tests/test_validated_negatives.py tests/test_inventor_country_semantics.py tests/test_clean_compounds.py tests/test_validation_compound_benchmark.py -q",
+  "test_exit_code": 0,
+  "tests_passed": 148,
+  "verified_artifact_sha256": {
+    "admitted_atomic_E.csv": "da3d3b9fe71c079ede3ca09b9c10a899438a0b74ee8aa6d9e71069a00387641b",
+    "bare_compounds.csv": "9f87e3b4579d84da16467a540f8d4ede3346e4dbf36a8fff037742cc353cb711",
+    "condition_index.csv": "c5b122d848541846f809f72849acc5d68b84f4b3192e80dce832f0f47ab51acb",
+    "configuration.json": "3d094128fd848c0a888f3ad434096b021fa914fec40b0577ee679721c78d395a",
+    "constituent_evidence.json": "b852ac789ab846185c892370a9e05419c8de2a53d9a68ab339abc1ddd60db9cf",
+    "counts.csv": "bbbe0fe7a730eb415f01cb896bc88e6a4402bcbe6dcdd4b801694d9e812e72d9",
+    "entity_degrees.csv": "31b5352c4b883f350fd62a6ca10d5de09b57f52dda38aef9806c1e5cf7485ee7",
+    "extraction_bindings.csv": "37a4b00cde29b04a1dbd89bb3ba75d9f97bba14940d1236d0bfe46465fa3e61e",
+    "extraction_texts.csv": "126e76e1fafa66927a0dff31e78d2f6e662e485c339fa75e0da572e8a75fb4a5",
+    "isolated_facts.json": "7c5d29c079afdc109b08684cd65f8672a0677d6d600b143b76017d955a74a962",
+    "manifest.json": "ee6cd5ea8ab3aac3933366e6e8fe868cfcd59b51257bde9c4b6730fd0033a440",
+    "non_E_preservation.json": "1e89685ab732747779bc56704f3da820515cf216b3b8c85681cd448c0f75564a",
+    "pair_hash_order.json": "ffed50ad437dc680c75157a1678bc40aadeda3270793425ffc4ea0fe94a4e1ba",
+    "pairs.csv": "d656a4025e46b50276f2d78e71ffe21bf286c775c5f8c2f3f80ea041760c4c1c",
+    "wording_compounds.csv": "643eb20073f5230b528563e69e339cb6a4f927c52eb26d5d0ebb8f89e745ea57"
+  }
+}

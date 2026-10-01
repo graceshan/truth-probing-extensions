@@ -1,0 +1,6 @@
+topic,entities,pairs,bare_rows,or_both_rows,at_least_one_rows,isolated_facts,admitted_atomic_rows
+animal_class,16,32,512,256,256,32,64
+cities,146,292,4672,2336,2336,292,590
+element_symb,18,36,576,288,288,36,72
+inventors,11,22,352,176,176,22,110
+sp_en_trans,34,68,1088,544,544,68,138
