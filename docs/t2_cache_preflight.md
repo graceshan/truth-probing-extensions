@@ -12,7 +12,23 @@ The reuse contract is the final section of
 source-file hash, statement hash, exact sidecar, and representation must bind.
 Matching filenames or row counts alone is insufficient.
 
-## Result of this preflight
+## Physical verification follow-up — 2026-10-01
+
+**All four physical cache identities now pass.** The dated follow-up is
+[`followup.md`](../results/t2_cache_physical_followup_20261001T183553Z/followup.md),
+with complete actual measurements in its sibling `compatibility.json` and
+independent receipt checks in `session_validation.json`. Local macOS host
+`MacBook-Pro-7.lan` authenticated to the expected remote `ef7f7534c328`.
+Tensor sizes, SHA-256 hashes, NPY shapes/dtypes/order, stable reads, and live
+companion identities all match. The checker code is unchanged.
+
+The original pending reports are preserved. The sections below document that
+initial preflight; their pending physical status is superseded only by the dated
+follow-up. Producer-code and tokenizer/config limitations remain unresolved,
+and source-audit approval and representation adoption remain pending. No final
+selection, source corrections, fitting, or extraction is authorized by this result.
+
+## Initial preflight result (preserved)
 
 All four caches pass **local original-source and recorded representation checks**.
 **Physical tensor verification is pending:** the specified Runpod connection

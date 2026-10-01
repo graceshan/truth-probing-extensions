@@ -1,0 +1,140 @@
+{
+  "validated_utc": "2026-10-01T18:38:35.175932+00:00",
+  "checker_completed_utc": "2026-10-01T18:36:28.140426+00:00",
+  "checkout": "/Users/apple/projects/truth-probing-t1-score-rebuild",
+  "branch": "t2-cache-preflight-20261001",
+  "reviewed_ancestor_and_run_head": "ff10b8e4c5dd185d7dda3579f6d0f98f4af76ae5",
+  "tracked_tree_clean_before_run": true,
+  "fetch_and_ff_only_pull": "successful; already up to date; no divergence",
+  "local_host": {
+    "hostname": "MacBook-Pro-7.lan",
+    "system": "Darwin",
+    "macos_version": "12.6",
+    "build": "21G115"
+  },
+  "ssh": {
+    "target": "root@69.30.85.22",
+    "port": 22114,
+    "identity_file": "/Users/apple/.ssh/id_ed25519",
+    "agent_and_public_key_fingerprint": "SHA256:Rqvir9k8055r/CRJ/2NjmBRmXFWHAE9/ry6QaxtUqbM",
+    "agent_access": "sandbox socket access denied; successful outside sandbox with existing loaded key",
+    "strict_host_key_checking": true,
+    "batch_mode": true,
+    "identities_only": true,
+    "hostname_check": "successful one-shot SSH hostname command before checker; exit 0",
+    "remote_hostname": "ef7f7534c328",
+    "persistent_shell": false
+  },
+  "external_output_root": "/Users/apple/projects/t2-cache-physical-followup-20261001T183553Z",
+  "python": "/tmp/clean-extraction-venv/bin/python (3.11.6)",
+  "checker_code_unchanged": true,
+  "historical_reports_unchanged": {
+    "compatibility.json": {
+      "bytes": 36167,
+      "sha256": "2ec79a5a7182544685fb7788bf5959092f4ea230264c9168fcf2c56f61bc490b"
+    },
+    "compatibility.md": {
+      "bytes": 3429,
+      "sha256": "18c5748dde3cab132f26a029ce08412f9339b929dedd191d9b77dacd92ab05f6"
+    }
+  },
+  "checker_report_files": {
+    "compatibility.json": {
+      "bytes": 44203,
+      "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+    },
+    "compatibility.md": {
+      "bytes": 3369,
+      "sha256": "45258d41b1f6d56488a04f0d77e1ba04f76f0a68631e7ab32e576090bf949d92"
+    }
+  },
+  "receipt_validation": {
+    "exact_original_expectations": true,
+    "local_bindings_and_input_receipts_unchanged": true,
+    "tensor_hash_size_header_stability_matches": true,
+    "companion_hash_size_stability_matches": true,
+    "companion_recheck_after_each_tensor": "enforced by unchanged verifier before verified result",
+    "companion_cache_memberships": 12,
+    "unique_companion_files": 10,
+    "report_status_consistency": true,
+    "limitations_and_non_authorization_preserved": true
+  },
+  "cache_results": {
+    "qwen/train": {
+      "status": "verified",
+      "rows": 3144,
+      "actual_bytes": 631013504,
+      "actual_sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+      "actual_shape": [
+        3144,
+        28,
+        3584
+      ],
+      "dtype": "<f2",
+      "fortran_order": false,
+      "stable_during_read": true,
+      "matching_companions": 3
+    },
+    "qwen/validation": {
+      "status": "verified",
+      "rows": 1040,
+      "actual_bytes": 208732288,
+      "actual_sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+      "actual_shape": [
+        1040,
+        28,
+        3584
+      ],
+      "dtype": "<f2",
+      "fortran_order": false,
+      "stable_during_read": true,
+      "matching_companions": 3
+    },
+    "llama/train": {
+      "status": "verified",
+      "rows": 3144,
+      "actual_bytes": 824180864,
+      "actual_sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+      "actual_shape": [
+        3144,
+        32,
+        4096
+      ],
+      "dtype": "<f2",
+      "fortran_order": false,
+      "stable_during_read": true,
+      "matching_companions": 3
+    },
+    "llama/validation": {
+      "status": "verified",
+      "rows": 1040,
+      "actual_bytes": 272629888,
+      "actual_sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+      "actual_shape": [
+        1040,
+        32,
+        4096
+      ],
+      "dtype": "<f2",
+      "fortran_order": false,
+      "stable_during_read": true,
+      "matching_companions": 3
+    }
+  },
+  "physical_identity_verification_passed": true,
+  "source_audit_approved": false,
+  "representation_contract_adopted": false,
+  "corrected_fit_authorized": false,
+  "validation_method": "Independent receipt assertions; no checker code changes, so no synthetic test rerun.",
+  "repository_report_files": {
+    "compatibility.json": {
+      "bytes": 44203,
+      "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+    },
+    "compatibility.md": {
+      "bytes": 3368,
+      "sha256": "e5ff8a0350f5d60805a3ec713a6bf120cbe97f92f58ff40751d2074456dbe054"
+    }
+  },
+  "report_copy_normalization": "compatibility.json copied verbatim; compatibility.md removes only one trailing space on the remote-status line to pass git diff --check; external checker outputs unchanged."
+}
