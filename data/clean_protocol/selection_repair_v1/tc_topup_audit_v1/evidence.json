@@ -1,0 +1,1248 @@
+{
+  "topup_animal_16": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_animal_16",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140",
+        "statement_sha256": "e6f4ea47f849880b2ab92f74afa3a263da98104997227e9f059eed1b43d4908c",
+        "topic": "animal_class"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140",
+        "statement_sha256": "df855166cd823c4c44bb90ab7de7117d187d0d93d42db65fea1b53f6995ac944",
+        "topic": "animal_class"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Scientific classification Kingdom: Animalia Phylum: Chordata Class: Mammalia ",
+        "locator": "Scientific classification infobox"
+      }
+    ],
+    "response_sha256": "384186530bca6d71bbf7e9a8696c65f1d7b5337753d2507f4f742c3362c6e6d6",
+    "retrieval_date": "2026-10-01",
+    "title": "Gazelle - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gazelle"
+  },
+  "topup_animal_17": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_animal_17",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a",
+        "statement_sha256": "068e72bec323f0b5057165e3a2e400873edf65a20096909a32b7bd6f716d7b80",
+        "topic": "animal_class"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a",
+        "statement_sha256": "86f23776c2c9a3b32926947ab4409a16d87143f6c8894cf6afdecc57bdf6b58c",
+        "topic": "animal_class"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Scientific classification Kingdom: Animalia Phylum: Chordata Class: Mammalia ",
+        "locator": "Scientific classification infobox"
+      }
+    ],
+    "response_sha256": "9abc033ac6401ebbb2e9fdd4731103df6c28d5ad5cead588f407fb058f8f00f7",
+    "retrieval_date": "2026-10-01",
+    "title": "Hedgehog - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hedgehog"
+  },
+  "topup_animal_18": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_animal_18",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e",
+        "statement_sha256": "146c05f4f77a974cf52ab1563749ffe0e90412930167ddcb84fceafbe9fcab02",
+        "topic": "animal_class"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e",
+        "statement_sha256": "13cf680dd06b375988980ca88a0ed39a033a48d02c574c5c4772f50a87dd5df9",
+        "topic": "animal_class"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Scientific classification Kingdom: Animalia Phylum: Chordata Class: Mammalia ",
+        "locator": "Scientific classification infobox"
+      }
+    ],
+    "response_sha256": "a7e1671157c1b803d4a9684100c45b8e66f9c6141c6cfb6ac91446081fea3896",
+    "retrieval_date": "2026-10-01",
+    "title": "Horse - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Horse"
+  },
+  "topup_animal_19": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_animal_19",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c",
+        "statement_sha256": "49d885f792801d8e081aa06eb3e2722716516263845013ba4afe61aafd074826",
+        "topic": "animal_class"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c",
+        "statement_sha256": "e124e9debcdfbeed50591627d201b18fcb29d4ec57f19daa767ecf6f38854939",
+        "topic": "animal_class"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Scientific classification Kingdom: Animalia Phylum: Chordata Class: Aves ",
+        "locator": "Scientific classification infobox"
+      }
+    ],
+    "response_sha256": "492067411dfc5e76513604562fd8ef32f7b81be73821ae24fb064f7aec4ab9b5",
+    "retrieval_date": "2026-10-01",
+    "title": "Eagle - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Eagle"
+  },
+  "topup_animal_20": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_animal_20",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e",
+        "statement_sha256": "814dd4043fdaf9ea7d6a626d2482ca21f23b7e448c5d70ff652035a553f806ae",
+        "topic": "animal_class"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e",
+        "statement_sha256": "97a3d90f020cef1012e3c2cda63fb7f8ca0a7ed619816d34ea5f30266ab511cf",
+        "topic": "animal_class"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Scientific classification Kingdom: Animalia Phylum: Chordata Class: Mammalia ",
+        "locator": "Scientific classification infobox"
+      }
+    ],
+    "response_sha256": "2d3404948a28bcce44442bb80476677ff1cda9b696a3545fdb0dcc81092f6530",
+    "retrieval_date": "2026-10-01",
+    "title": "Hyena - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hyena"
+  },
+  "topup_blanco": {
+    "authority": "MIT Lemelson institutional inventor biography",
+    "evidence_id": "topup_blanco",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+        "statement_sha256": "fd1fad1a8547f3741c4e19ebe4af97913a657a68981764c2e1701ac9f2ed0e32",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+        "statement_sha256": "2305472f1f1e967a72f3db7927aad26483e1a2ffb0f210f764cb2495ed02e6bf",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "In 1960, he returned to the U.S. While teaching engineering at MIT from 1960 to 1964 and at Tufts University from 1964 to 1969, he also helped the U.S. State Department develop Latin American cooperative engineering programs.",
+        "locator": "Biography; paragraph beginning Blanco then returned; whitespace normalized"
+      },
+      {
+        "excerpt": "In 1977, Blanco returned to MIT as an adjunct full professor in the Design Division of the Mechanical Engineering Department",
+        "locator": "Biography; paragraph beginning In 1977; sentence excerpt"
+      },
+      {
+        "excerpt": "He passed away on March 21, 2017 at the age of 94 in Murrieta, California.",
+        "locator": "Final biographical paragraph"
+      }
+    ],
+    "response_sha256": "fb178d818f60970ff3fecf7b562a0f303ad2b36381df387aa7ddf4d176c5c1eb",
+    "retrieval_date": "2026-10-01",
+    "title": "Ernesto Blanco | Lemelson",
+    "url": "https://lemelson.mit.edu/resources/ernesto-blanco"
+  },
+  "topup_cambridge_16": {
+    "authority": "Cambridge-hosted GLOBAL and PASSWORD Spanish–English dictionaries",
+    "evidence_id": "topup_cambridge_16",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+        "statement_sha256": "7ab9ae7c1a3355ca8f481cedf5cf9d61ef68bdc73ecce6993bd332b1c7889d89",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+        "statement_sha256": "9e3ffbe10751b60c1b764bedc50a69ad98604e3630f6e4dcd058d367641ab673",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "woman",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "wife",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "babe",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "dame",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "spouse",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      }
+    ],
+    "response_sha256": "246246c2e7c1ce393ed73fb63d6095e4a8115152c8a514d457845f8e9afbb46f",
+    "retrieval_date": "2026-10-01",
+    "title": "MUJER | translate Spanish to English - Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/mujer"
+  },
+  "topup_cambridge_17": {
+    "authority": "Cambridge-hosted GLOBAL and PASSWORD Spanish–English dictionaries",
+    "evidence_id": "topup_cambridge_17",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+        "statement_sha256": "4cb7654db80613465eb35d9801135202cde9a76f6a0c1e4d2b03486f845e91d1",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+        "statement_sha256": "d3801d1a839d53824b0b7b9010842f3e9249ffb8a8f3aafbf7ef69d0c8cdf6b6",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "to fall",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to be",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to pounce",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to turn up",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to show one’s face",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to suit",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to like",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "to make an impression",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      }
+    ],
+    "response_sha256": "5a475e91a618ea90c65099d1a7e0b1624cffaf51ac56bea68e5e77b1effa6f62",
+    "retrieval_date": "2026-10-01",
+    "title": "CAER | translate Spanish to English - Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/caer"
+  },
+  "topup_cambridge_18": {
+    "authority": "Cambridge-hosted GLOBAL and PASSWORD Spanish–English dictionaries",
+    "evidence_id": "topup_cambridge_18",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+        "statement_sha256": "fff4d0407b9af03dc90a667346d3b77f99d31442d4b1e2bb998b39e65db9948a",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+        "statement_sha256": "e1bf405b5fdbc07cf807b86a9ef7e751157fd5947e1e0caff7240be6f9690614",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "red",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      }
+    ],
+    "response_sha256": "0de5f9bca80be5fa61b5258990c9a9f4b3fb43881eee2786b16748dee26da6eb",
+    "retrieval_date": "2026-10-01",
+    "title": "ROJO | translate Spanish to English - Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/rojo"
+  },
+  "topup_cambridge_19": {
+    "authority": "Cambridge-hosted GLOBAL and PASSWORD Spanish–English dictionaries",
+    "evidence_id": "topup_cambridge_19",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+        "statement_sha256": "1c2c63b450434b2cfebe778adc022770be3fc320684ba5d11cb7f9d13146a892",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+        "statement_sha256": "1f5b6a563ed87bbe3a4c29b4823568189e11594c0db55619cfeae6c087af1148",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "hello",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "hallo",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "hullo",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "hi",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      }
+    ],
+    "response_sha256": "a956ee7ea519fed39b63347c55414615838ba3033ffe9d2dd5095880d201880c",
+    "retrieval_date": "2026-10-01",
+    "title": "HOLA | translate Spanish to English - Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/hola"
+  },
+  "topup_cambridge_20": {
+    "authority": "Cambridge-hosted GLOBAL and PASSWORD Spanish–English dictionaries",
+    "evidence_id": "topup_cambridge_20",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+        "statement_sha256": "73e2f38ec1eb1d325cffdaefb39ed1cbd52187f92d78caf2663f5f6cd35e0d90",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+        "statement_sha256": "af4ed6772016e63ffe3242279c008452294acafe1d8a01994d5eee7a5fad1909",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "paper",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "document",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "part",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "role",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "performance",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      },
+      {
+        "excerpt": "share",
+        "locator": "GLOBAL/PASSWORD Spanish→English entry translation gloss; exact text"
+      }
+    ],
+    "response_sha256": "4d3f2d931ffb37447c0b04ab7452e5d0bf45d2d452245cdd3417f70c54c761a4",
+    "retrieval_date": "2026-10-01",
+    "title": "PAPEL | translate Spanish to English - Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/papel"
+  },
+  "topup_city_16": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_city_16",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f",
+        "statement_sha256": "f95ecd48b77e0e53836d6ad63d588d0bc5fe831a197503db0dffb1ddfd7d9235",
+        "topic": "cities"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f",
+        "statement_sha256": "1fd5b52f833fdf39a69eabc455d340f39b725744702d126fecff522736618572",
+        "topic": "cities"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Agadir ( Arabic : أكادير or أڭادير , romanized : ʾagādīr , pronounced [ ʔaɡaːdiːr ] ; Tachelhit : ⴰⴳⴰⴷⵉⵔ ) is a major city in Morocco , on the shore of the Atlantic Ocean near the foot of the Atlas Mountains , just north of the point where the Souss River flows into the ocean, and 509 kilometres (316 mi) south of Casablanca .",
+        "locator": "Lead paragraph; initial 65 words"
+      }
+    ],
+    "response_sha256": "34743b9b12d16ec147008e09e51783ac6c3949ab717e9d8578ddc19f43d35dd4",
+    "retrieval_date": "2026-10-01",
+    "title": "Agadir - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Agadir"
+  },
+  "topup_city_17": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_city_17",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f",
+        "statement_sha256": "2fcf83dbb46822e1f6e85bc024c63afb377e8645cd84a705dc22d39b12407f94",
+        "topic": "cities"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f",
+        "statement_sha256": "105945a54533528da6486331f92a8a0a034b6edfe597fe0f01ad958a9e9bc242",
+        "topic": "cities"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Kawaguchi ( 川口市 , Kawaguchi-shi [ b ] ) is a city located in southeastern Saitama Prefecture , Japan. As of 1 April 2025 [ update ] , the city had an estimated population of 595,011 in 293,582 households and a population density of 9605 persons per km 2 . [ 3 ] The total area of the city is 61.95 square kilometres (23.92 sq",
+        "locator": "Lead paragraph; initial 65 words"
+      }
+    ],
+    "response_sha256": "7ba6800b2e6372b7bb3d985ab0345f03d50e6aae458e58b6b4c57f6b8ce2cc4f",
+    "retrieval_date": "2026-10-01",
+    "title": "Kawaguchi, Saitama - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kawaguchi,_Saitama"
+  },
+  "topup_city_18": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_city_18",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2",
+        "statement_sha256": "add54615a14184899c5723bfae173a407f71809d42f9969960bed6a83ff81892",
+        "topic": "cities"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2",
+        "statement_sha256": "fe913024a76884020fbee8c087e80e50983a4cf4412d47006616ae5f5391764b",
+        "topic": "cities"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Ankara [ b ] is the capital city of Turkey . Located in the central part of Anatolia , the city has a population of over 5.3 million residents in its urban center, [ c ] out of 6 million residents in Ankara Province . [ d ] [ 5 ] [ 4 ] Ankara is Turkey's second-largest city by population after Istanbul .",
+        "locator": "Lead paragraph; initial 65 words"
+      }
+    ],
+    "response_sha256": "94eb1c7d1b75fd3de147f7fc58fcf5bea47b5aaede117b2bbf62329bd95ce92b",
+    "retrieval_date": "2026-10-01",
+    "title": "Ankara - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ankara"
+  },
+  "topup_city_19": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_city_19",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb",
+        "statement_sha256": "8b9192ef364b0839a0d753015fa2721608356d6ecc61de60b07bdee2e29425a9",
+        "topic": "cities"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb",
+        "statement_sha256": "37cd666274ec62efcd96faa991ca36d35ae7b35b10b6b9d4a80b7b4728778545",
+        "topic": "cities"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Helsinki , [ a ] until about 1930 known in English by its Swedish name of Helsingfors , [ 11 ] [ b ] is the capital and most populous city in Finland . It is on the shore of the Gulf of Finland and is the seat of southern Finland's Uusimaa region. About 694,000 people live in the municipality, with 1.3 million in the",
+        "locator": "Lead paragraph; initial 65 words"
+      }
+    ],
+    "response_sha256": "c64812e30cffece0e2378ba16fc59158f04d3dc9b89695854e9db9e01b0a7a7c",
+    "retrieval_date": "2026-10-01",
+    "title": "Helsinki - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Helsinki"
+  },
+  "topup_city_20": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_city_20",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b",
+        "statement_sha256": "bfbe88ce18335f7f4b391e48c041b7f2f2419f2bc6f3e3b32e4c9520e17d44d4",
+        "topic": "cities"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b",
+        "statement_sha256": "ba0d0373084e67120effa3d88f1018c889a7718c640a42842569f3ef60ea9c4b",
+        "topic": "cities"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Yiwu is a county-level city under the jurisdiction of Jinhua , in central Zhejiang province, China . It is best known for hosting the Yiwu International Trade City , the world's largest wholesale market for small commodities.",
+        "locator": "Lead paragraph; initial 65 words"
+      }
+    ],
+    "response_sha256": "d52e6f5ed8409e0ebbc5a4505acd8df4322f070f518d2ec4900f9d6d7e383681",
+    "retrieval_date": "2026-10-01",
+    "title": "Yiwu - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yiwu"
+  },
+  "topup_copeman_career": {
+    "authority": "Marsha J. Davenport manuscript, edited by grandson Kent L. Copeman; cites family interviews and local reporting",
+    "evidence_id": "topup_copeman_career",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "6d79513900062f1d47228d83d20e4a00f705905ac81b6217d657a49cc43a8f31",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "4587b211b22770ffeab2dfef762dbc850da92470a6b28f12fe2a4c43ccd6d303",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "It was in Washington state that Lloyd married his sweetheart of school days, Hazel Berger, (whom he had followed out west), in September of 1904.",
+        "locator": "Davenport manuscript edited by Kent Copeman; early employment paragraph; whitespace normalized"
+      },
+      {
+        "excerpt": "In various states, the Lloyd G. Copeman family moved back to Michigan settling in Flint.",
+        "locator": "Paragraph beginning In various states; original wording retained"
+      }
+    ],
+    "response_sha256": "2fdcdaad25ad04eba648614114cecd885c6cff7ba7dfcc3928fd4d7a623d428a",
+    "retrieval_date": "2026-10-01",
+    "title": "LloydCopeman.com - prolific U.S. inventor",
+    "url": "https://www.lloydcopeman.com/biography/bio1.html"
+  },
+  "topup_copeman_early": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_copeman_early",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "6d79513900062f1d47228d83d20e4a00f705905ac81b6217d657a49cc43a8f31",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "4587b211b22770ffeab2dfef762dbc850da92470a6b28f12fe2a4c43ccd6d303",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Copeman was raised by his Canadian parents, Caroline Estelle (née Groff) and John Wesley Copeman, on a farm in Hadley Township, Michigan which was later incorporated into Farmers Creek, Michigan",
+        "locator": "Early life; sentence excerpt"
+      },
+      {
+        "excerpt": "Copeman began his career as an apprentice at the Baldwin Locomotive Works in Philadelphia.",
+        "locator": "Career; opening"
+      }
+    ],
+    "package_sha256": "037d2335a7f7284dbb7801cdfa3709745d3d87f33f04deb26713a2321315bf39",
+    "response_sha256": "6b50c8100c44f82636ce7dd675d1f86eb4ed6d54bbc4cd4de54677c78c7aa142",
+    "retrieval_date": "2026-10-01",
+    "reused_preliminary_lead_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/retrieval_log.json",
+    "title": "Lloyd Groff Copeman - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lloyd_Groff_Copeman"
+  },
+  "topup_copeman_family": {
+    "authority": "Family archive; anonymous biographical account; corroborative, not an independent institutional authority",
+    "evidence_id": "topup_copeman_family",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "6d79513900062f1d47228d83d20e4a00f705905ac81b6217d657a49cc43a8f31",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+        "statement_sha256": "4587b211b22770ffeab2dfef762dbc850da92470a6b28f12fe2a4c43ccd6d303",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "For various financial and personal reasons, Lloyd resigned from the Laboratories in 1936. From then on, he worked largely from the laboratory in the basement of his home in Farmers Creek.",
+        "locator": "Biography 2; paragraph beginning For various; whitespace normalized"
+      },
+      {
+        "excerpt": "Lloyd Copeman kept on inventing nearly until his death in 1956.",
+        "locator": "Biography 2; final paragraph"
+      }
+    ],
+    "response_sha256": "bac8fe7ba933dcca1ac30f897bd5c6e3135788089504a710b0bb1d88d8af34ae",
+    "retrieval_date": "2026-10-01",
+    "title": "LloydCopeman.com - prolific U.S. inventor",
+    "url": "https://www.lloydcopeman.com/biography/bio2.html"
+  },
+  "topup_element_16": {
+    "authority": "NIH NCBI PubChem reference table",
+    "evidence_id": "topup_element_16",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497",
+        "statement_sha256": "11eaa80b507e7d45b098c70bd15e2dce5362460d422e47f671d61f632206f4b4",
+        "topic": "element_symb"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497",
+        "statement_sha256": "3d076f5a6e01e00349fb2a6c38e8eba409fbd1ff7254fbbd347cc9030c3f5a0a",
+        "topic": "element_symb"
+      }
+    ],
+    "limitations": "Reused previously recovered full periodic table; new row-specific excerpts, not a new retrieval.",
+    "observations": [
+      {
+        "excerpt": "Thulium: Tm; Neon: Ne",
+        "locator": "Table.Row Name/Symbol columns; normalized key/value excerpt"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "response_sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321",
+    "retrieval_date": "2026-10-01",
+    "reused_response_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json",
+    "title": "PubChem periodic table JSON",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON"
+  },
+  "topup_element_17": {
+    "authority": "NIH NCBI PubChem reference table",
+    "evidence_id": "topup_element_17",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068",
+        "statement_sha256": "19a0eae624ee8381cce2a19e820e2217b15ef10cd81cf1e39d849c96420f607a",
+        "topic": "element_symb"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068",
+        "statement_sha256": "860dbef6633e8acf478242171a91ab260bcd374c9f48ade27607c0ba2f1d27bd",
+        "topic": "element_symb"
+      }
+    ],
+    "limitations": "Reused previously recovered full periodic table; new row-specific excerpts, not a new retrieval.",
+    "observations": [
+      {
+        "excerpt": "Praseodymium: Pr; Scandium: Sc",
+        "locator": "Table.Row Name/Symbol columns; normalized key/value excerpt"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "response_sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321",
+    "retrieval_date": "2026-10-01",
+    "reused_response_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json",
+    "title": "PubChem periodic table JSON",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON"
+  },
+  "topup_element_18": {
+    "authority": "NIH NCBI PubChem reference table",
+    "evidence_id": "topup_element_18",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7",
+        "statement_sha256": "f88485632577951b354700a8599e48d1b9cc9f707e4c95bd1c26d8a022f26ac0",
+        "topic": "element_symb"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7",
+        "statement_sha256": "32389a8ef21f2be5dac3674bbf87f2de873d30a35d528d40a62a55705f7759e8",
+        "topic": "element_symb"
+      }
+    ],
+    "limitations": "Reused previously recovered full periodic table; new row-specific excerpts, not a new retrieval.",
+    "observations": [
+      {
+        "excerpt": "Tellurium: Te; Oxygen: O",
+        "locator": "Table.Row Name/Symbol columns; normalized key/value excerpt"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "response_sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321",
+    "retrieval_date": "2026-10-01",
+    "reused_response_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json",
+    "title": "PubChem periodic table JSON",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON"
+  },
+  "topup_element_19": {
+    "authority": "NIH NCBI PubChem reference table",
+    "evidence_id": "topup_element_19",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c",
+        "statement_sha256": "25855ef9ae2e126b04e6701e9043164fb87207bc65e3e314c4156a8c667ff06d",
+        "topic": "element_symb"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c",
+        "statement_sha256": "1a664da1ec953740372a0cb8c3b0b64f057a46d30cf310b3c62fa703a13e91d6",
+        "topic": "element_symb"
+      }
+    ],
+    "limitations": "Reused previously recovered full periodic table; new row-specific excerpts, not a new retrieval.",
+    "observations": [
+      {
+        "excerpt": "Chromium: Cr; Ruthenium: Ru",
+        "locator": "Table.Row Name/Symbol columns; normalized key/value excerpt"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "response_sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321",
+    "retrieval_date": "2026-10-01",
+    "reused_response_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json",
+    "title": "PubChem periodic table JSON",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON"
+  },
+  "topup_element_20": {
+    "authority": "NIH NCBI PubChem reference table",
+    "evidence_id": "topup_element_20",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3",
+        "statement_sha256": "528962e31b6d6bab8b504dec12e988478a7cbb78ae8e170510e09b07e217857b",
+        "topic": "element_symb"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3",
+        "statement_sha256": "66011739589fff893cb83bc685abd1dffc9725a0fe8bc04829c9e51a6d9e5b01",
+        "topic": "element_symb"
+      }
+    ],
+    "limitations": "Reused previously recovered full periodic table; new row-specific excerpts, not a new retrieval.",
+    "observations": [
+      {
+        "excerpt": "Sulfur: S; Cesium: Cs",
+        "locator": "Table.Row Name/Symbol columns; normalized key/value excerpt"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "response_sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321",
+    "retrieval_date": "2026-10-01",
+    "reused_response_from": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json",
+    "title": "PubChem periodic table JSON",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON"
+  },
+  "topup_fleming_life": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_fleming_life",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+        "statement_sha256": "210777e9b1e77298e5935d4736270196d5d3d3f431397ede9fbf9aebcb747579",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+        "statement_sha256": "1ec5206178bfcc1e0f0e41ad67b75dc75791c2e76365286b2cb6887eb0ee2ac7",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Fleming went to Loudoun Moor School and Darvel School, and earned a two-year scholarship to Kilmarnock Academy before moving to London, where he attended the Royal Polytechnic Institution.",
+        "locator": "Early life and education; citation markers omitted"
+      },
+      {
+        "excerpt": "In 1918 he returned to St Mary’s Hospital, where he was elected Professor of Bacteriology of the University of London in 1928.",
+        "locator": "Research; normalized punctuation"
+      },
+      {
+        "excerpt": "On 11 March 1955, Fleming died at his home in London of a heart attack.",
+        "locator": "Personal life; citation marker omitted"
+      }
+    ],
+    "response_sha256": "9f73dfb1decfd8fa541577077f130d97b543a4d14e783d229a885e87dd596ed0",
+    "retrieval_date": "2026-10-01",
+    "title": "Alexander Fleming - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  "topup_fleming_memoir": {
+    "authority": "Published medical memoir by Fleming’s colleague; Ulster Medical Society, archived by NLM",
+    "evidence_id": "topup_fleming_memoir",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+        "statement_sha256": "210777e9b1e77298e5935d4736270196d5d3d3f431397ede9fbf9aebcb747579",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+        "statement_sha256": "1ec5206178bfcc1e0f0e41ad67b75dc75791c2e76365286b2cb6887eb0ee2ac7",
+        "topic": "inventors"
+      }
+    ],
+    "id": "fleming_memoir_p91",
+    "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6970/2385475/df15de087538/ulstermedj00117-0008.png",
+    "inspection_method": "Direct visual inspection of scanned pages 89–92; transcription from page 91",
+    "limitations": "A retrospective colleague memoir, not a household register; judgment treats an extended overseas work posting as residence, as stated in the pre-adjudication policy.",
+    "observations": [
+      {
+        "excerpt": "Such was the physical and mental environment in which Fleming worked from 1906 for the rest of his life, broken only between 1914 and 1918, when Wright, Fleming and colleagues set up an Army Laboratory in Boulogne to investigate infection of war wounds.",
+        "locator": "Printed page 91, second paragraph, beginning “Such was the physical”",
+        "truncated": false
+      }
+    ],
+    "original_evidence_id": "fleming_memoir_p91",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "paraphrase": "Allison identifies a four-year interruption of Fleming’s London work for an Army laboratory in Boulogne. Together with the Nobel account of his return in 1918, this supports a residential wartime posting in France.",
+    "response_hash_scope": "page 91 PNG image",
+    "response_sha256": "d9e6e7b235adb4a45238bf53fb78efd3fbd9b12db017e172ef5f630990df1a3d",
+    "retrieval_date": "2026-10-01",
+    "reused_from": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json",
+    "supports_universal_nonresidence": false,
+    "title": "V. D. Allison, Personal Recollections of Sir Almroth Wright and Sir Alexander Fleming, Ulster Medical Journal 43(2), 1974, pp. 89–98",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2385475/"
+  },
+  "topup_giffard": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_giffard",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+        "statement_sha256": "f7b3eb99cb3c787306a3f07a805730ab9abad5a524c21ce421bb5d1f9b383976",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "unresolved",
+        "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+        "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Il naît le 8 février 1825 à Paris et fait ses études au collège Bourbon.",
+        "locator": "Biographie, opening; whitespace normalized"
+      },
+      {
+        "excerpt": "En 1869, il construit un ballon de 12 000 m3 à Londres.",
+        "locator": "Biographie; normalized typography"
+      },
+      {
+        "excerpt": "Il construit un ballon captif de 25 000 m3 pour l’exposition universelle de Paris de 1878, capable d’emporter 40 passagers.",
+        "locator": "Biographie; normalized typography"
+      }
+    ],
+    "response_sha256": "f76ca87db4548c2fd9f2e9be566d02b7177f0d62e268691b4f849a3d6ff9e093",
+    "retrieval_date": "2026-10-01",
+    "title": "Henri Giffard — Wikipédia",
+    "url": "https://fr.wikipedia.org/wiki/Henri_Giffard"
+  },
+  "topup_slavyanov": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_slavyanov",
+    "fact_bindings": [
+      {
+        "judgment": "unresolved",
+        "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+        "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+        "statement_sha256": "277fe1131fc266b013c733c843faaec1272eba5b34c6235f2892d01e298b1c3e",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "From 1872, he studied at the St. Petersburg Mining Institute.",
+        "locator": "Early life; excerpt"
+      },
+      {
+        "excerpt": "Between 1881 and 1883, he worked at the Omutninsk factories. Then he moved to Perm. From December 1883 until the end of his life, he worked at the Perm cannon factories, where he made most of his inventions.",
+        "locator": "Early life; employment sequence"
+      }
+    ],
+    "response_sha256": "f87effcd27d937a79925c18e50673bd163ddbb4c4bf0d5c12594d92cf5f77fa2",
+    "retrieval_date": "2026-10-01",
+    "title": "Nikolay Slavyanov - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nikolay_Slavyanov"
+  },
+  "topup_spanishdict_16": {
+    "authority": "SpanishDictionary.com editorial bilingual dictionary",
+    "evidence_id": "topup_spanishdict_16",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+        "statement_sha256": "7ab9ae7c1a3355ca8f481cedf5cf9d61ef68bdc73ecce6993bd332b1c7889d89",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+        "statement_sha256": "9e3ffbe10751b60c1b764bedc50a69ad98604e3630f6e4dcd058d367641ab673",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "1. (adult female) a. woman",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "2. (via marriage) a. wife",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      }
+    ],
+    "response_sha256": "eb095883e3497675e04a363a34551a660a6ea8d609576901319b481a917a229c",
+    "retrieval_date": "2026-10-01",
+    "title": "Mujer | Spanish to English Translation - SpanishDictionary.com",
+    "url": "https://www.spanishdict.com/translate/mujer"
+  },
+  "topup_spanishdict_17": {
+    "authority": "SpanishDictionary.com editorial bilingual dictionary",
+    "evidence_id": "topup_spanishdict_17",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+        "statement_sha256": "4cb7654db80613465eb35d9801135202cde9a76f6a0c1e4d2b03486f845e91d1",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+        "statement_sha256": "d3801d1a839d53824b0b7b9010842f3e9249ffb8a8f3aafbf7ef69d0c8cdf6b6",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "1. (to drop) a. to fall",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "8. (to be located)",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "19. (to fall downward)",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      }
+    ],
+    "response_sha256": "5e51dc481567d458212a7bdaf56d539ed01994cb10c83e53b88e4cb5cf920cdd",
+    "retrieval_date": "2026-10-01",
+    "title": "Caer | Spanish to English Translation - SpanishDictionary.com",
+    "url": "https://www.spanishdict.com/translate/caer"
+  },
+  "topup_spanishdict_18": {
+    "authority": "SpanishDictionary.com editorial bilingual dictionary",
+    "evidence_id": "topup_spanishdict_18",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+        "statement_sha256": "fff4d0407b9af03dc90a667346d3b77f99d31442d4b1e2bb998b39e65db9948a",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+        "statement_sha256": "e1bf405b5fdbc07cf807b86a9ef7e751157fd5947e1e0caff7240be6f9690614",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "1. (color) a. red",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "4.",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "(politics) a. red",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      }
+    ],
+    "response_sha256": "1ba3ae85f8836b40da965685ccaad2311d30154994e42a7c20ff0604b4148332",
+    "retrieval_date": "2026-10-01",
+    "title": "Rojo | Spanish to English Translation - SpanishDictionary.com",
+    "url": "https://www.spanishdict.com/translate/rojo"
+  },
+  "topup_spanishdict_19": {
+    "authority": "SpanishDictionary.com editorial bilingual dictionary",
+    "evidence_id": "topup_spanishdict_19",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+        "statement_sha256": "1c2c63b450434b2cfebe778adc022770be3fc320684ba5d11cb7f9d13146a892",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+        "statement_sha256": "1f5b6a563ed87bbe3a4c29b4823568189e11594c0db55619cfeae6c087af1148",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "1. (general) a. hello",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "b. hi",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      }
+    ],
+    "response_sha256": "6c786aa699ceefc3a4f3c1c5dd9327447522f6455a1c1c78102722251132a1d0",
+    "retrieval_date": "2026-10-01",
+    "title": "Hola | Spanish to English Translation - SpanishDictionary.com",
+    "url": "https://www.spanishdict.com/translate/hola"
+  },
+  "topup_spanishdict_20": {
+    "authority": "SpanishDictionary.com editorial bilingual dictionary",
+    "evidence_id": "topup_spanishdict_20",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+        "statement_sha256": "73e2f38ec1eb1d325cffdaefb39ed1cbd52187f92d78caf2663f5f6cd35e0d90",
+        "topic": "sp_en_trans"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+        "statement_sha256": "af4ed6772016e63ffe3242279c008452294acafe1d8a01994d5eee7a5fad1909",
+        "topic": "sp_en_trans"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "1. (material) a. paper",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "2. (legal document) a. document",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "3. (drama) a. role",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      },
+      {
+        "excerpt": "4. (position) a. role",
+        "locator": "Numbered dictionary sense (not corpus examples); extract"
+      }
+    ],
+    "response_sha256": "ef65190169ec439cb9761ee599d033c40e89858d21fa1eebcbf7962692acbf11",
+    "retrieval_date": "2026-10-01",
+    "title": "Papel | Spanish to English Translation - SpanishDictionary.com",
+    "url": "https://www.spanishdict.com/translate/papel"
+  },
+  "topup_strauss": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_strauss",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+        "statement_sha256": "86e5cbcde536ce6c03be6108c6069744b6f2e08d6f4a8d58d8c8d7b90814592e",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "supported_false",
+        "person_key": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+        "statement_sha256": "47aeb3d9255383d42e5aae37b637b14a6edd2a2774595195d053bb09f492c519",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "Levi’s sister Fanny and her husband David Stern moved to St. Louis, Missouri, while Levi went to live in Louisville, Kentucky, and sold his brothers’ supplies there.",
+        "locator": "Business career; citation markers omitted; normalized punctuation"
+      },
+      {
+        "excerpt": "He made tents and later jeans while he lived with Fanny’s growing family.",
+        "locator": "Business career; San Francisco paragraph"
+      },
+      {
+        "excerpt": "Levi Strauss was never married, and died on September 26, 1902 in San Francisco.",
+        "locator": "Death; opening"
+      }
+    ],
+    "response_sha256": "35b4052495202eaee3d7374409a1d1983f88760f838061c1897c446d9165089b",
+    "retrieval_date": "2026-10-01",
+    "title": "Levi Strauss - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Levi_Strauss"
+  },
+  "topup_walton_home": {
+    "authority": "reference encyclopedia",
+    "evidence_id": "topup_walton_home",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+        "statement_sha256": "984026d652dd6fc60f24c4875b2fe80735b612a74a4b8923abb936d9ee4e5859",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "unresolved",
+        "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+        "statement_sha256": "aee315468583d19a4ad4b4fd71651bc16a2f3f718d4cfd167d2b957f2d740559",
+        "topic": "inventors"
+      }
+    ],
+    "limitations": "Defeasible Codex-assisted factual adjudication; not human certification.",
+    "observations": [
+      {
+        "excerpt": "In 1868, Walton moved to the Cwmllecoediog Estate near Aberangell, which was owned by his father. In 1870, he built a new house there, Plas Cwmllecoediog",
+        "locator": "Personal life; excerpt; normalized whitespace"
+      },
+      {
+        "excerpt": "Walton died in May 1928, aged 94.",
+        "locator": "Personal life"
+      }
+    ],
+    "response_sha256": "2f786a317ff85a094ebfe93af4fb6ced5e820fcde33ecfc62cb55276e127dd8a",
+    "retrieval_date": "2026-10-01",
+    "title": "Frederick Walton - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Walton"
+  },
+  "topup_walton_recovered": {
+    "authority": "Secondary biographical reference",
+    "error": "",
+    "evidence_id": "topup_walton_recovered",
+    "fact_bindings": [
+      {
+        "judgment": "supported_true",
+        "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+        "statement_sha256": "984026d652dd6fc60f24c4875b2fe80735b612a74a4b8923abb936d9ee4e5859",
+        "topic": "inventors"
+      },
+      {
+        "judgment": "unresolved",
+        "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+        "statement_sha256": "aee315468583d19a4ad4b4fd71651bc16a2f3f718d4cfd167d2b957f2d740559",
+        "topic": "inventors"
+      }
+    ],
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Frederick_Walton",
+    "id": "walton",
+    "inspection": "Actual retrieved text inspected; not search snippets",
+    "limitations": "Explicit two-year American factory-startup posting; secondary biography.",
+    "observations": [
+      {
+        "excerpt": "In the 1870s, Walton partnered with carpet manufacturer John Crossley to form the American Linoleum Company. They set up a factory at Linoleumville, New York to manufacture linoleum. Walton spent two years in America setting up the factory and starting the business, before returning to the United Kingdom. The America company was highly successful and profitable.[6]",
+        "locator": "Visible text paragraph/line 121; locate by quoted opening",
+        "truncated": false
+      }
+    ],
+    "original_evidence_id": "walton",
+    "package_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "response_sha256": "2f786a317ff85a094ebfe93af4fb6ced5e820fcde33ecfc62cb55276e127dd8a",
+    "retrieval_date": "2026-10-01",
+    "reused_from": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/evidence.json",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "scope_and_limitations": "Explicit two-year American factory-startup posting; secondary biography.",
+    "text_sha256": "5b6ff98f2ee0889c160b51341f195d84b06aaacc38a3e752aa1124a06b970c76",
+    "title": "Frederick Walton - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Walton"
+  }
+}

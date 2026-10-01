@@ -1,0 +1,6 @@
+topic,previous_completed,new_attempted,new_completed,new_unresolved,new_rejected,cumulative_attempted,cumulative_unresolved,cumulative_rejected,usable_entities,possible_unordered_pairs,planned_control_cap,remaining_successful_topups,overlap_A15,overlap_prospective_P15
+animal_class,15,5,5,0,0,20,0,0,20,190,100,0,15,5
+cities,15,5,5,0,0,20,0,0,20,190,100,0,15,5
+element_symb,15,5,5,0,0,20,0,0,20,190,100,0,15,5
+inventors,16,7,4,3,0,31,11,0,20,190,100,0,15,5
+sp_en_trans,15,5,5,0,0,20,0,0,20,190,100,0,15,5

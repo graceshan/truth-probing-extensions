@@ -1,0 +1,59 @@
+{
+  "actions": {
+    "inventors:155": {
+      "judgment": "unresolved",
+      "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+      "rank": 24,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "inventors:380": {
+      "judgment": "unresolved",
+      "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+      "rank": 29,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "neg_inventors:155": {
+      "judgment": "unresolved",
+      "person_key": "entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454",
+      "rank": 24,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "02066bc27b9f9b948f0b4e272d8b03dba4ec9b6864e72247c16eff4b2a084e36",
+      "status": "quarantined",
+      "topic": "inventors"
+    },
+    "neg_inventors:380": {
+      "judgment": "unresolved",
+      "person_key": "entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036",
+      "rank": 29,
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "d397afb2aa2855f774a95dac799f2ac1865875d6c21ec1e30dff7d50867f988d",
+      "status": "quarantined",
+      "topic": "inventors"
+    }
+  },
+  "admitted_by_split": {
+    "test": 1002,
+    "train": 3040,
+    "validation": 1012
+  },
+  "base": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3",
+  "confirmed_label_errors": 0,
+  "eligibility_column": "tc_current_eligible",
+  "judgment_source": "data/clean_protocol/selection_repair_v1/tc_topup_audit_v1/reviews.json",
+  "outputs": {
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/admitted_rows.csv": "96feaddb5dfba9fa841c9ad9a56eaacdd66a5fa97b7cb82f8247facaa21b7b0e",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/excluded_rows.csv": "43d78b7e59b91f9bb3bb96445b448d005b2bf5cd0dc2284480f86147cd909830",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/fact_inventory.csv": "8c852a44e78aa8b1177ab718e02484d4a06450568217cc4517dd70456f941323",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/quarantined_rows.csv": "96b2fc7a6dfbc15bb558fcb31435246e794e29f1ee25a53bae81a1391c85e10b",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/row_manifest.csv": "5abd23062bd93ed33d1f316bf2a2669dc8689db4130b3fe839ab4b7a9135b9dd",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/source_fact_eligibility.csv": "64d3d64fa8b22ad899724861283f9c155531e08a9e52a5af78b5a254ba233d51",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/status_changes.csv": "74a47d06f0ba25d0267e46db10e6eaf9e24d6e6215c39cfce6f773617bf5365c"
+  },
+  "status_column": "tc_successor_status"
+}

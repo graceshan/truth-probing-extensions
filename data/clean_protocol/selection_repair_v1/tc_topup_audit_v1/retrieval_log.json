@@ -1,0 +1,437 @@
+[
+  {
+    "cache_name": "animal16.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_animal_16"
+    ],
+    "http_status": 200,
+    "response_sha256": "384186530bca6d71bbf7e9a8696c65f1d7b5337753d2507f4f742c3362c6e6d6",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Gazelle"
+  },
+  {
+    "cache_name": "animal17.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_animal_17"
+    ],
+    "http_status": 200,
+    "response_sha256": "9abc033ac6401ebbb2e9fdd4731103df6c28d5ad5cead588f407fb058f8f00f7",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Hedgehog"
+  },
+  {
+    "cache_name": "animal18.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_animal_18"
+    ],
+    "http_status": 200,
+    "response_sha256": "a7e1671157c1b803d4a9684100c45b8e66f9c6141c6cfb6ac91446081fea3896",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Horse"
+  },
+  {
+    "cache_name": "animal19.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_animal_19"
+    ],
+    "http_status": 200,
+    "response_sha256": "492067411dfc5e76513604562fd8ef32f7b81be73821ae24fb064f7aec4ab9b5",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Eagle"
+  },
+  {
+    "cache_name": "animal20.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_animal_20"
+    ],
+    "http_status": 200,
+    "response_sha256": "2d3404948a28bcce44442bb80476677ff1cda9b696a3545fdb0dcc81092f6530",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Hyena"
+  },
+  {
+    "cache_name": "blanco.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 404,
+    "response_sha256": "f35a3eb237695678395c025091bb7439264ef2b0fcccee25c2ca7d5dada0bece",
+    "retrieval_date": "2026-10-01",
+    "url": "https://news.mit.edu/2012/obit-blanco"
+  },
+  {
+    "cache_name": "blanco_bing.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "02ee5061dce67d714e97788979fac2eb42b7156c4b5f0ae369f9f3024d592d2b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.bing.com/search?q=Ernesto+Blanco+MIT+obituary"
+  },
+  {
+    "cache_name": "blanco_full.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 404,
+    "response_sha256": "8d5c1c88c40c993ed02b9292055ff5de2baa101f1241acc69b963c7da2845731",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Ernesto_Blanco_(inventor)"
+  },
+  {
+    "cache_name": "blanco_lemelson.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_blanco"
+    ],
+    "http_status": 200,
+    "response_sha256": "fb178d818f60970ff3fecf7b562a0f303ad2b36381df387aa7ddf4d176c5c1eb",
+    "retrieval_date": "2026-10-01",
+    "url": "https://lemelson.mit.edu/resources/ernesto-blanco"
+  },
+  {
+    "cache_name": "blanco_mit.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 404,
+    "response_sha256": "d1b32993343da20174c037189d11adffb318b59e0a50525f1e4eb537b9196cd9",
+    "retrieval_date": "2026-10-01",
+    "url": "https://news.mit.edu/2006/blanco"
+  },
+  {
+    "cache_name": "blanco_mit_search.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "dc70216ed44d23fca2803ca7a966c1e30bfd1ebbe3029b57339742195015f371",
+    "retrieval_date": "2026-10-01",
+    "url": "https://news.mit.edu/search?search_api_fulltext=%22Blanco%22"
+  },
+  {
+    "cache_name": "blanco_query.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "c750b4f9bc817a22b3e5a026b02a2921712ceb761658be63c00718e1b446e5a2",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.bing.com/search?q=%22Ernesto+Blanco%22"
+  },
+  {
+    "cache_name": "blanco_search.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "fda42635f14907404ce4ba3bd87b1d7723ed921a2b5c9ccc2188f47e224c216b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://news.mit.edu/search?search_api_fulltext=Ernesto%20Blanco"
+  },
+  {
+    "cache_name": "blanco_search2.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "02df3251806d9ca9460ff17e2b8431c912b3aef711d2f9e58518f2758ffdb275",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.google.com/search?q=Ernesto+Blanco+MIT+obituary"
+  },
+  {
+    "cache_name": "blanco_wiki.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 404,
+    "response_sha256": "a7ab62aeabd2fbf1867c6e6e855084f5b25acdaefaf395480bbfddc5b98968f2",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Ernesto_Blanco"
+  },
+  {
+    "cache_name": "city16.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_city_16"
+    ],
+    "http_status": 200,
+    "response_sha256": "34743b9b12d16ec147008e09e51783ac6c3949ab717e9d8578ddc19f43d35dd4",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Agadir"
+  },
+  {
+    "cache_name": "city17.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_city_17"
+    ],
+    "http_status": 200,
+    "response_sha256": "7ba6800b2e6372b7bb3d985ab0345f03d50e6aae458e58b6b4c57f6b8ce2cc4f",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Kawaguchi,_Saitama"
+  },
+  {
+    "cache_name": "city18.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_city_18"
+    ],
+    "http_status": 200,
+    "response_sha256": "94eb1c7d1b75fd3de147f7fc58fcf5bea47b5aaede117b2bbf62329bd95ce92b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Ankara"
+  },
+  {
+    "cache_name": "city19.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_city_19"
+    ],
+    "http_status": 200,
+    "response_sha256": "c64812e30cffece0e2378ba16fc59158f04d3dc9b89695854e9db9e01b0a7a7c",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Helsinki"
+  },
+  {
+    "cache_name": "city20.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_city_20"
+    ],
+    "http_status": 200,
+    "response_sha256": "d52e6f5ed8409e0ebbc5a4505acd8df4322f070f518d2ec4900f9d6d7e383681",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Yiwu"
+  },
+  {
+    "cache_name": "copeman_bio.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "1b946a44838a308849828075aa6b7d1bbb64ec332eeca312b8bb57b3b5384c09",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.lloydcopeman.com/biography.html"
+  },
+  {
+    "cache_name": "copeman_bio1.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_copeman_career"
+    ],
+    "http_status": 200,
+    "response_sha256": "2fdcdaad25ad04eba648614114cecd885c6cff7ba7dfcc3928fd4d7a623d428a",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.lloydcopeman.com/biography/bio1.html"
+  },
+  {
+    "cache_name": "copeman_bio2.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_copeman_family"
+    ],
+    "http_status": 200,
+    "response_sha256": "bac8fe7ba933dcca1ac30f897bd5c6e3135788089504a710b0bb1d88d8af34ae",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.lloydcopeman.com/biography/bio2.html"
+  },
+  {
+    "cache_name": "copeman_full.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "ce6527a6a524dc6ff3e7b620227f3c8163dae5dd71a847154376627fd3581b9f",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.lloydcopeman.com/biography/"
+  },
+  {
+    "cache_name": "es16.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_cambridge_16"
+    ],
+    "http_status": 200,
+    "response_sha256": "246246c2e7c1ce393ed73fb63d6095e4a8115152c8a514d457845f8e9afbb46f",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/mujer"
+  },
+  {
+    "cache_name": "es17.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 520,
+    "response_sha256": "b59e493586b4118c563aaa751e04a7f7bc1c9741d241e0c1d3ba9405c323c570",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/caer"
+  },
+  {
+    "cache_name": "es17_retry.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_cambridge_17"
+    ],
+    "http_status": 200,
+    "response_sha256": "5a475e91a618ea90c65099d1a7e0b1624cffaf51ac56bea68e5e77b1effa6f62",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/caer"
+  },
+  {
+    "cache_name": "es18.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_cambridge_18"
+    ],
+    "http_status": 200,
+    "response_sha256": "0de5f9bca80be5fa61b5258990c9a9f4b3fb43881eee2786b16748dee26da6eb",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/rojo"
+  },
+  {
+    "cache_name": "es19.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_cambridge_19"
+    ],
+    "http_status": 200,
+    "response_sha256": "a956ee7ea519fed39b63347c55414615838ba3033ffe9d2dd5095880d201880c",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/hola"
+  },
+  {
+    "cache_name": "es20.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_cambridge_20"
+    ],
+    "http_status": 200,
+    "response_sha256": "4d3f2d931ffb37447c0b04ab7452e5d0bf45d2d452245cdd3417f70c54c761a4",
+    "retrieval_date": "2026-10-01",
+    "url": "https://dictionary.cambridge.org/dictionary/spanish-english/papel"
+  },
+  {
+    "cache_name": "fleming_wiki.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_fleming_life"
+    ],
+    "http_status": 200,
+    "response_sha256": "9f73dfb1decfd8fa541577077f130d97b543a4d14e783d229a885e87dd596ed0",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  {
+    "cache_name": "giffard_fr.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_giffard"
+    ],
+    "http_status": 200,
+    "response_sha256": "f76ca87db4548c2fd9f2e9be566d02b7177f0d62e268691b4f849a3d6ff9e093",
+    "retrieval_date": "2026-10-01",
+    "url": "https://fr.wikipedia.org/wiki/Henri_Giffard"
+  },
+  {
+    "cache_name": "giffard_search.html",
+    "disposition": "failed_or_unhelpful_discovery_not_evidence",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "fbbe2ea8c27d378f9901f2ebf025c386830963fd13604096c96848042f91091b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.google.com/search?q=Henri+Giffard+biography+residence"
+  },
+  {
+    "cache_name": "sd16.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_spanishdict_16"
+    ],
+    "http_status": 200,
+    "response_sha256": "eb095883e3497675e04a363a34551a660a6ea8d609576901319b481a917a229c",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.spanishdict.com/translate/mujer"
+  },
+  {
+    "cache_name": "sd17.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_spanishdict_17"
+    ],
+    "http_status": 200,
+    "response_sha256": "5e51dc481567d458212a7bdaf56d539ed01994cb10c83e53b88e4cb5cf920cdd",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.spanishdict.com/translate/caer"
+  },
+  {
+    "cache_name": "sd18.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_spanishdict_18"
+    ],
+    "http_status": 200,
+    "response_sha256": "1ba3ae85f8836b40da965685ccaad2311d30154994e42a7c20ff0604b4148332",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.spanishdict.com/translate/rojo"
+  },
+  {
+    "cache_name": "sd19.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_spanishdict_19"
+    ],
+    "http_status": 200,
+    "response_sha256": "6c786aa699ceefc3a4f3c1c5dd9327447522f6455a1c1c78102722251132a1d0",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.spanishdict.com/translate/hola"
+  },
+  {
+    "cache_name": "sd20.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_spanishdict_20"
+    ],
+    "http_status": 200,
+    "response_sha256": "ef65190169ec439cb9761ee599d033c40e89858d21fa1eebcbf7962692acbf11",
+    "retrieval_date": "2026-10-01",
+    "url": "https://www.spanishdict.com/translate/papel"
+  },
+  {
+    "cache_name": "slavyanov.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_slavyanov"
+    ],
+    "http_status": 200,
+    "response_sha256": "f87effcd27d937a79925c18e50673bd163ddbb4c4bf0d5c12594d92cf5f77fa2",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Nikolay_Slavyanov"
+  },
+  {
+    "cache_name": "strauss.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_strauss"
+    ],
+    "http_status": 200,
+    "response_sha256": "35b4052495202eaee3d7374409a1d1983f88760f838061c1897c446d9165089b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Levi_Strauss"
+  },
+  {
+    "cache_name": "torvalds.html",
+    "disposition": "preliminary_unadjudicated_lead_beyond_stop_not_counted",
+    "evidence_ids": [],
+    "http_status": 200,
+    "response_sha256": "0f3eff78c51481f83507a173e4b60865e155073b0e6e61516cdcf25b01dddd0b",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+  },
+  {
+    "cache_name": "walton_wiki.html",
+    "disposition": "inspected_for_recorded_judgment",
+    "evidence_ids": [
+      "topup_walton_home",
+      "topup_walton_recovered"
+    ],
+    "http_status": 200,
+    "response_sha256": "2f786a317ff85a094ebfe93af4fb6ced5e820fcde33ecfc62cb55276e127dd8a",
+    "retrieval_date": "2026-10-01",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Walton"
+  }
+]
