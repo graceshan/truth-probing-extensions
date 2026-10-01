@@ -1,0 +1,59 @@
+{
+  "atomic_weight_sha256": "8346b6794bdd8d268510eb2f9946c648cc239f2b4345163b9235941e041011fe",
+  "compound_schedule_sha256": "2df6efd46435d29640435c04850d72851d723338e961825a060f7f2217f769be",
+  "compound_weight_sha256": "39b4f2ac2d47f09c4fd77a1dba7f145297a1032e0c3f13528f831eefcbdbc636",
+  "graph_bootstrap_support": [
+    {
+      "positive_weight_pairs_max": 28,
+      "positive_weight_pairs_median": 13.0,
+      "positive_weight_pairs_min": 3,
+      "retained_pairs": 32,
+      "topic": "animal_class",
+      "zero_edge_replicates": 0
+    },
+    {
+      "positive_weight_pairs_max": 157,
+      "positive_weight_pairs_median": 119.0,
+      "positive_weight_pairs_min": 86,
+      "retained_pairs": 298,
+      "topic": "cities",
+      "zero_edge_replicates": 0
+    },
+    {
+      "positive_weight_pairs_max": 29,
+      "positive_weight_pairs_median": 14.0,
+      "positive_weight_pairs_min": 4,
+      "retained_pairs": 36,
+      "topic": "element_symb",
+      "zero_edge_replicates": 0
+    },
+    {
+      "positive_weight_pairs_max": 35,
+      "positive_weight_pairs_median": 20.0,
+      "positive_weight_pairs_min": 7,
+      "retained_pairs": 49,
+      "topic": "inventors",
+      "zero_edge_replicates": 0
+    },
+    {
+      "positive_weight_pairs_max": 49,
+      "positive_weight_pairs_median": 27.0,
+      "positive_weight_pairs_min": 12,
+      "retained_pairs": 68,
+      "topic": "sp_en_trans",
+      "zero_edge_replicates": 0
+    }
+  ],
+  "options": {
+    "atomic": "topic-stratified person multinomial n-of-n; all source variants receive same multiplicity",
+    "compound": "topic-stratified entity multinomial n-of-n; each existing pair has endpoint product m_i*m_j; same weight for all surface/truth variants",
+    "interval": "95% pointwise percentile, linear quantiles",
+    "invalid_policy": "retain NaN and report counts; no redraw, imputation or topic-dropping; macro is ordinary mean, never nanmean",
+    "minimum_valid": 1800,
+    "pairing": "one deterministic schedule shared across models, methods and cohorts",
+    "replicates": 2000,
+    "rng": "PCG64",
+    "seed": 1729
+  },
+  "shared_across_all_methods_models_cohorts": true
+}
