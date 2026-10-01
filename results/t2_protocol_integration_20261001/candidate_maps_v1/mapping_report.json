@@ -1,0 +1,432 @@
+{
+  "P_A_reserved": false,
+  "admission_column": "candidate_status",
+  "alternate_method_export_offsets_used": false,
+  "bindings": {
+    "candidate_manifest": {
+      "bytes": 3759511,
+      "sha256": "cdfd06cfbea6ff0cac63348a6aa77c1ba439224019dc6ffee4ef1d80b7f494b6"
+    },
+    "mapping_lock": {
+      "bytes": 883,
+      "sha256": "7530ffbf10d5fac2b998dfaa4be898c38685e397831d166ba194d72c18566ffe"
+    },
+    "original_manifest": {
+      "bytes": 3457876,
+      "sha256": "05513d782fcef6836e1641a60f651c7d2d5fa9ff4aa280cf177c5b9eb9f53d4f"
+    },
+    "overlay_receipt": {
+      "bytes": 19465,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/candidate_receipt.json",
+      "sha256": "dbed0a5f7e233627c8fd5d4fb558f126729248ee63e6807755a57dc73806e8d5"
+    },
+    "physical_receipt": {
+      "bytes": 44203,
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/compatibility.json",
+      "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+    },
+    "restored_inventory": {
+      "bytes": 138070,
+      "sha256": "836aeb833ba32ea65a3068823971a66280b71bdd81e448492e5baaa410e5c744"
+    },
+    "reviewed_objective_commit": "5429211251ead82cbc78ab650918ca967d92e09e",
+    "reviewed_overlay_commit": "b8e27508f20bab896a46f448081f43ed32d919c4",
+    "session_receipt": {
+      "bytes": 4840,
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/session_validation.json",
+      "sha256": "4943b186dc70ce5c0c06043eb18f7186666454b622a4e70f362b5f90043afe8b"
+    }
+  },
+  "cache_coverage": {
+    "llama/train": {
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_groups": [],
+      "duplicate_statement_rows": 0,
+      "exact_coverage": true,
+      "expected_rows_from_candidate_manifest": 3048,
+      "issue_counts": {},
+      "issues": [],
+      "mapped_person_keys": 899,
+      "mapped_rows": 3048,
+      "original_partition_rows": 3144,
+      "partition_candidate_status_counts": {
+        "admitted": 3048,
+        "excluded": 24,
+        "quarantined": 72
+      },
+      "sidecar_identity": {
+        "bytes": 524156,
+        "sha256": "13a57d6c727003b168bf10d3249a1fa644a75e119acc1c5d436e4b52516b4433"
+      },
+      "sidecar_rows": 3144,
+      "tensor_identity": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      }
+    },
+    "llama/validation": {
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_groups": [
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:119",
+              "tensor_row_index": 618
+            },
+            {
+              "source_row_id": "sp_en_trans:337",
+              "tensor_row_index": 664
+            }
+          ],
+          "statement_sha256": "13120d638e02d956c463d24044d7e35c89922d9258c516d273efe2c7c0be88b9"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:119",
+              "tensor_row_index": 691
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:337",
+              "tensor_row_index": 737
+            }
+          ],
+          "statement_sha256": "1f9247e9250005aec3f0d845110e600b7cc9e3c631e3a6107c00cdb14f0b2a26"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:202",
+              "tensor_row_index": 708
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:334",
+              "tensor_row_index": 735
+            }
+          ],
+          "statement_sha256": "72625ca33eb8513b5ab2949596d1a688500e3e2f13dc53b74ef59cfad7ab44f0"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:95",
+              "tensor_row_index": 685
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:329",
+              "tensor_row_index": 733
+            }
+          ],
+          "statement_sha256": "a894ea57218e076f80fa4c54676a624b9e5669b7bbf85ca22a08c4abedd75c82"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:95",
+              "tensor_row_index": 612
+            },
+            {
+              "source_row_id": "sp_en_trans:329",
+              "tensor_row_index": 660
+            }
+          ],
+          "statement_sha256": "a998b2c8af9b4488c07a1f9a529c0195d69843d24da75aa1593e6a6b66e15a8d"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:202",
+              "tensor_row_index": 635
+            },
+            {
+              "source_row_id": "sp_en_trans:334",
+              "tensor_row_index": 662
+            }
+          ],
+          "statement_sha256": "e13790212be849040736ea50227367646fade6ee59f2c781622be98072340e1d"
+        }
+      ],
+      "duplicate_statement_rows": 12,
+      "exact_coverage": true,
+      "expected_rows_from_candidate_manifest": 1012,
+      "issue_counts": {},
+      "issues": [],
+      "mapped_person_keys": 294,
+      "mapped_rows": 1012,
+      "original_partition_rows": 1040,
+      "partition_candidate_status_counts": {
+        "admitted": 1012,
+        "excluded": 4,
+        "quarantined": 24
+      },
+      "sidecar_identity": {
+        "bytes": 178763,
+        "sha256": "fec53b8c3f05f0c427a683be29bf96c16985f2d05eb716728459a3f9566266fa"
+      },
+      "sidecar_rows": 1040,
+      "tensor_identity": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      }
+    },
+    "qwen/train": {
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_groups": [],
+      "duplicate_statement_rows": 0,
+      "exact_coverage": true,
+      "expected_rows_from_candidate_manifest": 3048,
+      "issue_counts": {},
+      "issues": [],
+      "mapped_person_keys": 899,
+      "mapped_rows": 3048,
+      "original_partition_rows": 3144,
+      "partition_candidate_status_counts": {
+        "admitted": 3048,
+        "excluded": 24,
+        "quarantined": 72
+      },
+      "sidecar_identity": {
+        "bytes": 480382,
+        "sha256": "790a03584aa4823902a0c1940e9cd59e8055f99d403d883c32afe60e6422851b"
+      },
+      "sidecar_rows": 3144,
+      "tensor_identity": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      }
+    },
+    "qwen/validation": {
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_groups": [
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:119",
+              "tensor_row_index": 618
+            },
+            {
+              "source_row_id": "sp_en_trans:337",
+              "tensor_row_index": 664
+            }
+          ],
+          "statement_sha256": "13120d638e02d956c463d24044d7e35c89922d9258c516d273efe2c7c0be88b9"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:119",
+              "tensor_row_index": 691
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:337",
+              "tensor_row_index": 737
+            }
+          ],
+          "statement_sha256": "1f9247e9250005aec3f0d845110e600b7cc9e3c631e3a6107c00cdb14f0b2a26"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:202",
+              "tensor_row_index": 708
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:334",
+              "tensor_row_index": 735
+            }
+          ],
+          "statement_sha256": "72625ca33eb8513b5ab2949596d1a688500e3e2f13dc53b74ef59cfad7ab44f0"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "neg_sp_en_trans:95",
+              "tensor_row_index": 685
+            },
+            {
+              "source_row_id": "neg_sp_en_trans:329",
+              "tensor_row_index": 733
+            }
+          ],
+          "statement_sha256": "a894ea57218e076f80fa4c54676a624b9e5669b7bbf85ca22a08c4abedd75c82"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:95",
+              "tensor_row_index": 612
+            },
+            {
+              "source_row_id": "sp_en_trans:329",
+              "tensor_row_index": 660
+            }
+          ],
+          "statement_sha256": "a998b2c8af9b4488c07a1f9a529c0195d69843d24da75aa1593e6a6b66e15a8d"
+        },
+        {
+          "distinct_source_rows": [
+            {
+              "source_row_id": "sp_en_trans:202",
+              "tensor_row_index": 635
+            },
+            {
+              "source_row_id": "sp_en_trans:334",
+              "tensor_row_index": 662
+            }
+          ],
+          "statement_sha256": "e13790212be849040736ea50227367646fade6ee59f2c781622be98072340e1d"
+        }
+      ],
+      "duplicate_statement_rows": 12,
+      "exact_coverage": true,
+      "expected_rows_from_candidate_manifest": 1012,
+      "issue_counts": {},
+      "issues": [],
+      "mapped_person_keys": 294,
+      "mapped_rows": 1012,
+      "original_partition_rows": 1040,
+      "partition_candidate_status_counts": {
+        "admitted": 1012,
+        "excluded": 4,
+        "quarantined": 24
+      },
+      "sidecar_identity": {
+        "bytes": 164187,
+        "sha256": "379fc4d2b25f3ee254d1e3757dae7ea83ae36dd90df4006039713294fe1a5497"
+      },
+      "sidecar_rows": 1040,
+      "tensor_identity": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      }
+    }
+  },
+  "code_sha256": {
+    "scripts/48_map_selection_repair_candidates.py": "de4b25c004550102ee55bb52b424a998a2f13338c8926daaa97531406c0284b3",
+    "src/selection_repair_candidate_mapping.py": "22c2f2d1e1b024b7259994265eaf4a3abf01b37edd763e8916d5d890c38a4c34"
+  },
+  "correction_overlay_adopted": false,
+  "excluded_scope": "E has no cache mapping; no tensor/SSH/model/fit/prediction access",
+  "final_row_map": false,
+  "historical_status_used_for_admission": false,
+  "metadata_alignment_passed": true,
+  "outputs": {
+    "llama_train.provisional.csv": {
+      "bytes": 1403567,
+      "sha256": "8358c4867e6f34f08cbf52201471aca15e91f948f6ec02d6c7c04e424ec29cb2"
+    },
+    "llama_validation.provisional.csv": {
+      "bytes": 447399,
+      "sha256": "57234ad82a5dbf68c2a0fd86d7b8e1128ac867fc42cbd7cba80d7339972eb0d6"
+    },
+    "qwen_train.provisional.csv": {
+      "bytes": 1403567,
+      "sha256": "8358c4867e6f34f08cbf52201471aca15e91f948f6ec02d6c7c04e424ec29cb2"
+    },
+    "qwen_validation.provisional.csv": {
+      "bytes": 447399,
+      "sha256": "57234ad82a5dbf68c2a0fd86d7b8e1128ac867fc42cbd7cba80d7339972eb0d6"
+    },
+    "representation_proposal.json": {
+      "bytes": 24087,
+      "sha256": "7c59d51abfaeb0408cfe30c41b0a44b9dc6311b4940ffd18d25125b760caa5b3"
+    }
+  },
+  "production_usable": false,
+  "representation_adopted": false,
+  "saved_physical_receipt_time_utc": "2026-10-01T18:36:28.140426+00:00",
+  "schema_version": 1,
+  "status": "provisional_not_for_production"
+}

@@ -160,10 +160,40 @@ def test_deterministic_build_and_no_overwrite(tmp_path):
         assert path.read_text() == 'corrupt'
 
 
-def test_unrelated_13_files_preserved():
-    baseline = c.load(ROOT / c.PACKAGE / 'preservation_baseline.json')['unrelated_untracked_sha256']
-    assert len(baseline) == 13
-    assert all(c.sha((ROOT / p).read_bytes()) == digest for p, digest in baseline.items())
+def test_unrelated_13_files_preserved(tmp_path):
+    # Portable behavior test: mac 1's historical files are deliberately untracked.
+    # The original baseline remains evidence, not a checkout dependency.
+    baseline = {}
+    for index in range(13):
+        relative = f'unrelated/fixture_{index}.txt'
+        path = tmp_path / relative
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(f'synthetic unrelated content {index}\n')
+        baseline[relative] = c.sha(path.read_bytes())
+    (tmp_path / c.PACKAGE).mkdir(parents=True)
+    outputs = {'row_manifest.csv': b'synthetic_fixture_only\n'}
+    with patch.object(c, 'build', return_value=(outputs, {'synthetic': True})):
+        c.run(tmp_path)
+        c.run(tmp_path, check_only=True)
+    assert all(c.sha((tmp_path / p).read_bytes()) == digest for p, digest in baseline.items())
+
+
+def test_historical_preservation_evidence_is_retained():
+    baseline = c.load(ROOT / c.PACKAGE / 'preservation_baseline.json')
+    assert baseline['baseline_head'] == '68f861cac10d0e631fc215e1f09210f6d5e9ca90'
+    assert len(baseline['unrelated_untracked_sha256']) == 13
+    # c.build / validate_inputs still hash every tracked historical input, including
+    # preservation_baseline.json. Actual mac 1 files require an explicit local check.
+
+
+def test_explicit_local_preservation_diagnostics(tmp_path):
+    from scripts.check_selection_repair_local_preservation import check_preservation
+    (tmp_path / 'good.txt').write_bytes(b'good')
+    (tmp_path / 'changed.txt').write_bytes(b'changed')
+    baseline = {'good.txt': c.sha(b'good'), 'changed.txt': c.sha(b'original'),
+                'missing.txt': c.sha(b'missing')}
+    result = check_preservation(tmp_path, baseline)
+    assert result == {'matched': ['good.txt'], 'missing': ['missing.txt'], 'mismatched': ['changed.txt']}
 
 
 def test_source_only_imports():
