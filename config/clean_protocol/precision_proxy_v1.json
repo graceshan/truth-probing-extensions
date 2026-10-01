@@ -1,0 +1,309 @@
+{
+  "E_metadata": {
+    "admitted_atomic_E.csv": {
+      "blob": "977a269a3f91ec2dc91b4b36cf223cb2191605c5",
+      "bytes": 775220,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/admitted_atomic_E.csv",
+      "sha256": "da3d3b9fe71c079ede3ca09b9c10a899438a0b74ee8aa6d9e71069a00387641b"
+    },
+    "configuration.json": {
+      "blob": "6e558aa6450291f5facf3dc9afb274f8e4169dc3",
+      "bytes": 17246,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/configuration.json",
+      "sha256": "642fecc0b4138474c06c9f2a4c679d5b294893ef046935e2f187e238ebb980bf"
+    },
+    "counts.csv": {
+      "blob": "3e6dedeb22479c4ccfdffb9a571ab40e22721a09",
+      "bytes": 321,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/counts.csv",
+      "sha256": "d9b94d988acf3e1506a4f402acefd3885cd1e981f93f4b6236b89f986147a3b9"
+    },
+    "entity_degrees.csv": {
+      "blob": "2d557532fd8ad87ea06c638692f1988725ddaee2",
+      "bytes": 34866,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/entity_degrees.csv",
+      "sha256": "31b5352c4b883f350fd62a6ca10d5de09b57f52dda38aef9806c1e5cf7485ee7"
+    },
+    "manifest.json": {
+      "blob": "425b7c2894b08e81769858358ee55ff98d8266e0",
+      "bytes": 20978,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/manifest.json",
+      "sha256": "59060b68c24b1da13cfe78d62c04f3858076cc7ed389f323f32d31aa2ba1d3a9"
+    },
+    "pairs.csv": {
+      "blob": "4be132ecb8bd179b38f3420f5a09c03c45dcaf9c",
+      "bytes": 167384,
+      "path": "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/pairs.csv",
+      "sha256": "d656a4025e46b50276f2d78e71ffe21bf286c775c5f8c2f3f80ea041760c4c1c"
+    }
+  },
+  "E_metadata_commit": "c71b9a16b35f65d6e7f70952ab5f6747b7211399",
+  "P_A_frozen": false,
+  "analysis_id": "selection_repair_precision_proxy_v1",
+  "bootstrap": {
+    "atomic": "topic-stratified person multinomial n-of-n; all source variants receive same multiplicity",
+    "compound": "topic-stratified entity multinomial n-of-n; each existing pair has endpoint product m_i*m_j; same weight for all surface/truth variants",
+    "interval": "95% pointwise percentile, linear quantiles",
+    "invalid_policy": "retain NaN and report counts; no redraw, imputation or topic-dropping; macro is ordinary mean, never nanmean",
+    "minimum_valid": 1800,
+    "pairing": "one deterministic schedule shared across models, methods and cohorts",
+    "replicates": 2000,
+    "rng": "PCG64",
+    "seed": 1729
+  },
+  "cohorts": [
+    "P15",
+    "P10"
+  ],
+  "contrast_direction": "method minus raw LR within the same cohort/model/layer",
+  "contrasts": [
+    "r0",
+    "difference_of_means"
+  ],
+  "endpoints": [
+    {
+      "id": "or_mixed_vs_ff_auroc",
+      "kind": "bare",
+      "negative": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "and_auroc",
+      "kind": "bare",
+      "negative": [
+        "TF",
+        "FT",
+        "FF"
+      ],
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ],
+      "role": "retention"
+    },
+    {
+      "id": "atomic_auroc",
+      "kind": "atomic",
+      "role": "retention"
+    }
+  ],
+  "expected_atomic_E_rows": 974,
+  "expected_compound_E_entities": {
+    "animal_class": 16,
+    "cities": 146,
+    "element_symb": 18,
+    "inventors": 11,
+    "sp_en_trans": 34
+  },
+  "fit_provenance": "v4; no fits or fit relabeling in this analysis",
+  "inputs": {
+    "P10": {
+      "artifacts": {
+        "atomic_D_rows.csv": {
+          "bytes": 117328,
+          "sha256": "763f9aa6e6e64c9f6287dbcdb57800d824b25c665325ed28e82332fe2373a7a4"
+        },
+        "bare_D_rows.csv": {
+          "bytes": 6729841,
+          "sha256": "1ed2d50833a354e896cc99b6f94a6228207a2f39818524a6d2a93291f624c4b3"
+        },
+        "binding.json": {
+          "bytes": 2074,
+          "sha256": "eb05228cf307cf05879a899a16e5cb455a65e9952b887a8f1681d12004df5331"
+        },
+        "fits.json": {
+          "bytes": 176640,
+          "sha256": "e84c9a759ae0fb0e2864e36fcb004c78f07b36604e9e6bff4283dd7d5e8c3609"
+        },
+        "fits/llama_L15_difference_of_means_P10/fit.json": {
+          "bytes": 3835,
+          "sha256": "6ec51928759c83224a823463fa9bca173125ff47de1400913acece0a4a3139d0"
+        },
+        "fits/llama_L15_l2_logistic_P10/fit.json": {
+          "bytes": 4591,
+          "sha256": "fe55a37104a4ca6d3fbb69b2a6f715271751b35c7f2cfd2c521c99de3b5f1184"
+        },
+        "fits/llama_L15_r0_P10/fit.json": {
+          "bytes": 4682,
+          "sha256": "fefc8e0df5a4aa1ee9cd58d44c6ff21010f2e2450de143a032cb205d92b2d2c9"
+        },
+        "fits/qwen_L17_difference_of_means_P10/fit.json": {
+          "bytes": 3845,
+          "sha256": "688f0dc897e0b3ddcb331fe789ffb68af464177338156a7cb9a136d137f71bc6"
+        },
+        "fits/qwen_L17_l2_logistic_P10/fit.json": {
+          "bytes": 4598,
+          "sha256": "0c71167592025ac6727047f8a75364f51ccae00397cb0ca2762e353186036935"
+        },
+        "fits/qwen_L17_r0_P10/fit.json": {
+          "bytes": 4691,
+          "sha256": "7f4ad60bcc2768d96512827a25d7da0179e100101b4871a2a60f7e256a51a57c"
+        },
+        "scores/llama_L15_difference_of_means_P10.npz": {
+          "bytes": 67723,
+          "sha256": "9c02af4550c0a0842821fc11d2420691fc300db1dcd4c934a6a8db124bc08f93"
+        },
+        "scores/llama_L15_l2_logistic_P10.npz": {
+          "bytes": 67752,
+          "sha256": "3638eb481bc4f56400dfd9f4ef7c427c8e4d407b5d9216da3991dd74838f6ce6"
+        },
+        "scores/llama_L15_r0_P10.npz": {
+          "bytes": 67890,
+          "sha256": "a71e1eb2d6bd17669f2d1a41f3e432c08a5d556d193b515b75d469560be921f4"
+        },
+        "scores/qwen_L17_difference_of_means_P10.npz": {
+          "bytes": 66157,
+          "sha256": "ae357233688a57a203e4d13ef76e90a42187f44675949914f35a2b7bd8e0d810"
+        },
+        "scores/qwen_L17_l2_logistic_P10.npz": {
+          "bytes": 67811,
+          "sha256": "e5f5d75c230e4015acac55f2c2c81c60beb103ca8ee93e1333c3aa9aa3c2a5c2"
+        },
+        "scores/qwen_L17_r0_P10.npz": {
+          "bytes": 67659,
+          "sha256": "17307c0242104e11f2356f885a8fe226a83c85af0c3b787d95df52611ba7ca81"
+        }
+      },
+      "completion": {
+        "bytes": 20524,
+        "path": "results/t2_capacity_pilot_p10_v2_20261001/completion.json",
+        "sha256": "5bcbae3661401721403fa03d98d1c557c73acb9a94f90dce1f5c40a6590cd690"
+      },
+      "external_manifest": {
+        "bytes": 643,
+        "path": "results/t2_capacity_pilot_p10_v2_20261001/external_artifacts.json",
+        "sha256": "3fa71d8c7d946cda5fa6dde25db11aa25db582be61ae7447673b8344301f1165"
+      },
+      "root": "/Users/apple/projects/t2-capacity-pilot-p10-v2-20261001"
+    },
+    "P15": {
+      "artifacts": {
+        "atomic_D_rows.csv": {
+          "bytes": 117328,
+          "sha256": "763f9aa6e6e64c9f6287dbcdb57800d824b25c665325ed28e82332fe2373a7a4"
+        },
+        "bare_D_rows.csv": {
+          "bytes": 6729841,
+          "sha256": "1ed2d50833a354e896cc99b6f94a6228207a2f39818524a6d2a93291f624c4b3"
+        },
+        "binding.json": {
+          "bytes": 1547,
+          "sha256": "cb16e3fe12e8a671b70d736fd7b88e59351bba760bae62833177c673278be720"
+        },
+        "fits.json": {
+          "bytes": 355730,
+          "sha256": "048b2ba2c81f0b255094819d7617771503160b38eddf87c3c81ad4d27350a57c"
+        },
+        "fits/llama_L15_difference_of_means_P15/fit.json": {
+          "bytes": 3813,
+          "sha256": "2c6e2ed10003d97cacb80786ae878ff6dfd7ee51799f08791a58d7bfb1b363d5"
+        },
+        "fits/llama_L15_l2_logistic_P15/fit.json": {
+          "bytes": 4568,
+          "sha256": "e51bcae5dbf417eab47d66e4029388256c796e231b93dbd4de0455017fc469c2"
+        },
+        "fits/llama_L15_r0_P15/fit.json": {
+          "bytes": 4660,
+          "sha256": "4371bfa15af5d03b72d989c22011c1a4788a3f934d27c8f13034d5c5adcc618f"
+        },
+        "fits/qwen_L17_difference_of_means_P15/fit.json": {
+          "bytes": 3821,
+          "sha256": "3b70229e4c608e2e40c6666e33af8fb6d22023bfbf131c508e9a7d5c69f85df4"
+        },
+        "fits/qwen_L17_l2_logistic_P15/fit.json": {
+          "bytes": 4577,
+          "sha256": "62d6edceca710f1c8d3bcd345aea5d58f8f3f8367b36b621617241ad057fe7f7"
+        },
+        "fits/qwen_L17_r0_P15/fit.json": {
+          "bytes": 4670,
+          "sha256": "5dd78d53fd81792681a97455fd218c6c57cf19d9a700c7d4f7b2deca003ebfdd"
+        },
+        "scores/llama_L15_difference_of_means_P15.npz": {
+          "bytes": 67738,
+          "sha256": "f2b68c2bf2921ee457b982a5f81fe34426849e05796a20d5f91d626d9cf7ba2f"
+        },
+        "scores/llama_L15_l2_logistic_P15.npz": {
+          "bytes": 67726,
+          "sha256": "83deeb253761827f1bd8ed34c7171c644eb48032e009325559ac8995dcf0bee7"
+        },
+        "scores/llama_L15_r0_P15.npz": {
+          "bytes": 67939,
+          "sha256": "71647fa359f8857c4587b5446ba068a5e886661fc7429fc18a9ed0dc5245f987"
+        },
+        "scores/qwen_L17_difference_of_means_P15.npz": {
+          "bytes": 66205,
+          "sha256": "17458b3470c15ec468b24c702863fe077a8ea28fab9d45a5454568d1d8afa146"
+        },
+        "scores/qwen_L17_l2_logistic_P15.npz": {
+          "bytes": 67856,
+          "sha256": "13ce21a5e1942f75bdf20e56a41e978d106e1781a5da7c089486b2be98379b35"
+        },
+        "scores/qwen_L17_r0_P15.npz": {
+          "bytes": 67710,
+          "sha256": "58b9d929a6bd55bc494d10c42da2686309c5f88f862e25c7a666af6ef2fbdf7b"
+        }
+      },
+      "completion": {
+        "bytes": 38262,
+        "path": "results/t2_capacity_pilot_v1_20261001/completion.json",
+        "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+      },
+      "external_manifest": {
+        "bytes": 1948,
+        "path": "results/t2_capacity_pilot_v1_20261001/external_artifacts.json",
+        "sha256": "4c355cb48ec9086dc34294cda93322a089a45dc67f0fe2a436c4cbbcb36120ee"
+      },
+      "root": "/Users/apple/projects/t2-capacity-pilot-v1-20261001"
+    }
+  },
+  "limitations": [
+    "Surrogates do not estimate repair-minus-selection or clean-control-minus-selection; those production fits do not exist.",
+    "Conditional on saved heads; excludes training, A-pairing and selection variability.",
+    "Pointwise comparisons are dependent, not simultaneous intervals.",
+    "Historical producer-code conflict, missing standalone tokenizer/config bytes and no independent extraction replay remain.",
+    "Bare AND only; no new AND wording inference.",
+    "P/A remains unfrozen; no direction decision or production authorization."
+  ],
+  "models": {
+    "llama": 15,
+    "qwen": 17
+  },
+  "practical_margins": {
+    "clean_control_minus_selection": 0.02,
+    "repair_minus_selection": 0.02
+  },
+  "predeclared_before_contrast_computation": true,
+  "projection": {
+    "atomic_rule": "Derive E persons from admitted_atomic_E.csv independently. Require equal D/E per-topic person counts for aggregate proxy. Per-topic centered deviations scale sqrt(n_D_persons/n_E_persons). For pooled proxy, multiply each topic row weight by admitted_E_rows/admitted_D_rows (in point and bootstrap AUC); retain each D person cluster and original class/variant composition. Equal-topic macro averages all five topic draws. Different E person row/label profiles and distributions remain unmodeled. Unsupported aggregate if person counts differ.",
+    "compound_rule": "Per-topic only when both retained D and proposed E have all degree=4. Scale centered paired D bootstrap deviations by sqrt(n_D_entities/n_E_entities); preserve D contrast center. Different exact graphs still require exchangeable entity/edge effects and first-order 1/n variance; graph topology and score transport are unverified.",
+    "compound_unsupported": "Any non-degree-four D/E topic is unsupported. Compound pooled and macro projections are unsupported if any topic is unsupported; never omit that topic. No missing-pair scores are invented. No pooled compound projection is defined in v1 even if all topics pass.",
+    "half_width": "(ci_high-ci_low)/2; also report max distance from D proxy center to either limit",
+    "name": "conditional_entity_count_precision_proxy_v1",
+    "no_E_effect_claim": true,
+    "no_power_calculation": true,
+    "refresh": "Actual B=25 D results require a later precision refresh before any design freeze",
+    "scope": "Approximate uncertainty transport of saved D surrogate contrasts only, never E scores, E performance or exact power"
+  },
+  "reference": "l2_logistic",
+  "reviewed_start": "20562da8bd238a39478aef908f9339f77f61fe46",
+  "schema_version": 1,
+  "scopes": [
+    "pooled",
+    "topic",
+    "topic_macro"
+  ],
+  "topics": [
+    "animal_class",
+    "cities",
+    "element_symb",
+    "inventors",
+    "sp_en_trans"
+  ]
+}
