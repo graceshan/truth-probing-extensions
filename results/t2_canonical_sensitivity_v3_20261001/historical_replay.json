@@ -1,0 +1,50 @@
+{
+  "llama": {
+    "checks": [
+      {
+        "endpoint": "atomic_D",
+        "full_auroc": 0.9999223372781065,
+        "recorded_auroc": 0.9999223372781065,
+        "rows": 1040,
+        "verified": true
+      },
+      {
+        "file": "llama31_replication_v1/analysis/scores/scores.csv",
+        "matched_rows": 13100,
+        "maximum_absolute_error": 2.4868995751603507e-14,
+        "verified": true
+      }
+    ],
+    "probe_sha256": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a"
+  },
+  "qwen": {
+    "checks": [
+      {
+        "endpoint": "atomic_D",
+        "full_auroc": 0.9996523668639054,
+        "recorded_auroc": 0.9996523668639054,
+        "rows": 1040,
+        "verified": true
+      },
+      {
+        "file": "pinned_transfer_qwen25_v1/scoring/row_scores.csv",
+        "matched_rows": 8384,
+        "maximum_absolute_error": 2.4868995751603507e-14,
+        "verified": true
+      },
+      {
+        "file": "priority2_input_controls_v1/scoring/condition_scores.csv",
+        "matched_rows": 4192,
+        "maximum_absolute_error": 2.042810365310288e-14,
+        "verified": true
+      },
+      {
+        "file": "priority2_input_controls_v1/scoring/isolated_scores.csv",
+        "matched_rows": 524,
+        "maximum_absolute_error": 1.9539925233402755e-14,
+        "verified": true
+      }
+    ],
+    "probe_sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119"
+  }
+}

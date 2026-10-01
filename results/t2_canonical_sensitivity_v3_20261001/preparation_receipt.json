@@ -1,0 +1,71 @@
+{
+  "P_A_frozen": false,
+  "adoption_sha256": "521359408db36fb0680bab3ed872aa37712f35c3d9707ba07c719bd3ed7e1e80",
+  "artifacts": {
+    "atomic_D_eligibility.csv": {
+      "bytes": 120722,
+      "sha256": "472269e1b10f760da3c17a134a88af1dded36da86e17386486e369d9309aa025"
+    },
+    "development_fact_eligibility.csv": {
+      "bytes": 279839,
+      "sha256": "f66131e690ee0abe121143d91e5a6af03a124960ad9f2eedf704a4c017edb78a"
+    },
+    "development_pair_eligibility.csv": {
+      "bytes": 287246,
+      "sha256": "8ce4cb59601f828bf4ff416a874009e84511352e5bca3efee384cf4f8fad763e"
+    },
+    "endpoint_declaration.json": {
+      "bytes": 5640,
+      "sha256": "7496c96197c031aaf94e4b6e8f1a1ea4eb8d2ec458f2f04752aeea0c76d224a5"
+    },
+    "export_request.json": {
+      "bytes": 489790,
+      "sha256": "b1399aaf36cca8f0bd6bd81b1b898772965e1d50afa8a707ded1478c4ffdd7ce"
+    },
+    "input_inventory.json": {
+      "bytes": 9173,
+      "sha256": "3e8f3567a1481d33683d43753aa1652c31d6c035dd3f8f1a64d4c59cab3f35c0"
+    },
+    "llama_train.mapping_v3.csv": {
+      "bytes": 1464573,
+      "sha256": "ffdc8f2dbbfd8a212e4ac2781c69046a723c5e4fbaa5ccb8b4949e6602ada6a5"
+    },
+    "llama_validation.mapping_v3.csv": {
+      "bytes": 467609,
+      "sha256": "39ce52082c38804db89e994cf11911fd71bcd4554f746277a19505c65d3fe88f"
+    },
+    "physical_export_binding.json": {
+      "bytes": 18445,
+      "sha256": "5e015f905e5d203f4b39da1fd88bd9d8770a51c4f129a465936d6483330c7653"
+    },
+    "qwen_train.mapping_v3.csv": {
+      "bytes": 1464573,
+      "sha256": "ffdc8f2dbbfd8a212e4ac2781c69046a723c5e4fbaa5ccb8b4949e6602ada6a5"
+    },
+    "qwen_validation.mapping_v3.csv": {
+      "bytes": 467609,
+      "sha256": "39ce52082c38804db89e994cf11911fd71bcd4554f746277a19505c65d3fe88f"
+    },
+    "sampler_bindings.json": {
+      "bytes": 9239,
+      "sha256": "0ec6c9e193f030e6d68d5a1db7844e02bb8d1ac9ae11688b74ff166981fe4ad8"
+    }
+  },
+  "authoritative_admission": "audit_successor_status",
+  "correction_commit": "2ffbe79cdb22eb772c1b842ab9f0e9d8d11a8e8c",
+  "production_usable": false,
+  "projected_fact_eligibility": "current_eligible",
+  "quarantined_ids_absent": [
+    "inventors:157",
+    "inventors:23",
+    "neg_inventors:157",
+    "neg_inventors:23"
+  ],
+  "schema_version": 3,
+  "source_sha256": {
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_canonical_sensitivity_v3.py": "95cebadf3d60db6329aa9633c5a86001f22f5bc6203de4f9fffd25c6c288058a",
+    "src/selection_repair_sensitivity_v3.py": "9ef4625a13de170eff04f7d24ab6268919f1ba5a5dfe899126b54bef40fe4c1e"
+  },
+  "stage": "v3_frozen_before_fitting_and_scoring"
+}
