@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "decision_id": "selection_repair_v2_bounded_canonical_sensitivity_20261001",
+  "authority": "Explicit user instruction in this session; acceptance for bounded analysis, not human factual verification",
+  "recorded_utc": "2026-10-01T19:57:03.066213+00:00",
+  "reviewed_start": "455016040208d0304b4b7547bb96dc626c979ac5",
+  "reviewed_source_commit": "827f01460802afde5dd82da424159f284812623c",
+  "merge_commit": "ed117ab11e68009e4af848c9194d14421d34848d",
+  "correction_overlay": "candidate_overlay_v2",
+  "admission_column": "successor_status",
+  "correction_adopted_for_scope": true,
+  "recorded_representation_adopted_for_scope": true,
+  "scope": "Two corrected full-outer-training canonical raw-feature LR development sensitivities within the verified existing Qwen/Llama caches",
+  "production_bank_adopted": false,
+  "P_A_reservation": false,
+  "repair_fit_authorized": false,
+  "new_extraction_authorized": false,
+  "final_test_prediction_authorized": false,
+  "historical_execution_independently_replayed": false,
+  "future_fresh_extraction_requires_separate_compatibility_verification": true,
+  "limitations": [
+    "Conservative nonadmission is accepted; remaining retained source labels are not represented as human factual verification.",
+    "Historical pinned_atomic_probes.py working-file versus recorded producer/Git hash conflict remains unresolved.",
+    "Recorded Llama clean_compounds.py and llama_replication_probes.py hashes differ from this checkout.",
+    "Standalone historical tokenizer/model config bytes are absent; embedded identities agree, but no live tokenizer/model replay establishes historical execution."
+  ],
+  "bindings": {
+    "closure_receipt": {
+      "path": "data/clean_protocol/selection_repair_v1/source_closure_v1/closure_receipt.json",
+      "bytes": 23112,
+      "sha256": "4cd70c1f35e1183116b7d1b63b99df780c5269ab8b0bdcbe5d8f5f79b2ac5f47"
+    },
+    "v2_manifest": {
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2/row_manifest.csv",
+      "bytes": 4021167,
+      "sha256": "54889e51fd4bea08c7e93fd7889b1ac4df5cce2dfbddd89ca049a88284d8b13f"
+    },
+    "v2_admitted_identities": {
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2/admitted_identities.csv",
+      "bytes": 1911617,
+      "sha256": "29bca733cb46334e6a6761660bca68d03f006e4354209d270096e14d069c0513"
+    },
+    "v1_mapping_report": {
+      "path": "results/t2_protocol_integration_20261001/candidate_maps_v1/mapping_report.json",
+      "bytes": 13613,
+      "sha256": "daa70ed0fc0a1d6f845b9944a67b58606932de69a8282594dda393a8f131688d"
+    },
+    "representation_proposal": {
+      "path": "results/t2_protocol_integration_20261001/candidate_maps_v1/representation_proposal.json",
+      "bytes": 24087,
+      "sha256": "7c59d51abfaeb0408cfe30c41b0a44b9dc6311b4940ffd18d25125b760caa5b3"
+    },
+    "physical_receipt": {
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/compatibility.json",
+      "bytes": 44203,
+      "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+    },
+    "physical_session": {
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/session_validation.json",
+      "bytes": 4840,
+      "sha256": "4943b186dc70ce5c0c06043eb18f7186666454b622a4e70f362b5f90043afe8b"
+    },
+    "qwen_spec": {
+      "path": "config/clean_protocol/pinned_qwen25_lr_transfer_v1.json",
+      "bytes": 9401,
+      "sha256": "2a20d4170be37e704b80ace8c2d7f65ae21c668ebeedeeb9fda07d53cfa316b5"
+    },
+    "qwen_controls_spec": {
+      "path": "config/clean_protocol/priority2_input_controls_v1.json",
+      "bytes": 19094,
+      "sha256": "d72b0e3a8853ee5adf5bb205e12a40cb647fae175d965010b29407c0209e9c42"
+    },
+    "llama_spec": {
+      "path": "config/clean_protocol/llama31_transfer_v1.json",
+      "bytes": 16793,
+      "sha256": "fec9cb7e23404c6596d88e8821cd2da42e4756f63a1afc2915fac2ca1a8dbb52"
+    }
+  }
+}

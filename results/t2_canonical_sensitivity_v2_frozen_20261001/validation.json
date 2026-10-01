@@ -1,0 +1,69 @@
+{
+  "frozen_metadata_reproduction": "11 artifacts byte-identical to original and external preserved copy",
+  "runtime": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "python": "3.11.6",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.1"
+  },
+  "seconds": 13.7,
+  "source_sha256": {
+    "src/selection_repair_cache_export_remote.py": "d7111011c89becaaa125bca04000d610dead970c90fe0d4b93260fa6b6ff0f01",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_sensitivity_hold.py": "0a0c006f302765eb55989b70748f302b3a3c9fc054d7bc40fdf169f11c01546a",
+    "src/selection_repair_sensitivity_inputs.py": "7330c770620ada28bfcb17d04d7611d9104c6c07292d12e9cd1350c2614e870f",
+    "src/selection_repair_sensitivity_verification.py": "730e6e268a52e0ebc6d1cd6644460c283f6abc9308c70ab1ea2d328e74dbfc64",
+    "tests/test_selection_repair_sensitivity.py": "e37e14dfd44f7e36846aaa205ee42b4b392a3cc7b8729c70602b63fa10f2b752"
+  },
+  "status": "passed",
+  "subtests_passed": 17,
+  "synthetic_canonical_gradient_max_absolute_error": 5.468839270328374e-11,
+  "synthetic_fit": {
+    "convergence_warning": false,
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 13,
+    "finite": true,
+    "gradient_infinity_norm": 1.6244741762846786e-05,
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 13,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 13,
+    "objective": 0.4432141604516924,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "valid_for_scoring": true
+  },
+  "synthetic_only_fitting": true,
+  "synthetic_repeat_max_parameter_difference": 0.0,
+  "test_command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_selection_repair_sensitivity.py tests/test_selection_repair_source_closure.py tests/test_selection_repair_candidate_overlay.py tests/test_selection_repair_source_audit.py data/clean_protocol/selection_repair_v1/source_review_v1/test_validation.py tests/test_selection_repair_candidate_mapping.py tests/test_selection_repair_objectives.py tests/test_t2_cache_preflight.py",
+  "tests_passed": 160,
+  "validators": [
+    {
+      "command": "scripts/48_close_selection_repair_sources.py --check-only",
+      "exit_code": 0
+    },
+    {
+      "command": "scripts/47_build_selection_repair_candidate.py --check-only",
+      "exit_code": 0
+    },
+    {
+      "command": "scripts/46_audit_selection_repair_sources.py",
+      "exit_code": 0
+    },
+    {
+      "command": "data/clean_protocol/selection_repair_v1/source_review_v1/validate.py",
+      "exit_code": 0
+    }
+  ],
+  "warnings": [
+    "Expected RuntimeWarning from deliberately injected NaN coefficients in flagged-fit test"
+  ]
+}

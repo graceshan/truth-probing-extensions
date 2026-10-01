@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "analysis_id": "corrected_full_outer_training_canonical_lr_sensitivity_v1",
+  "adoption_path": "config/clean_protocol/selection_repair_adoption_v2.json",
+  "adoption_sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a",
+  "models": {
+    "qwen": {
+      "layer": 17,
+      "C": 1.0,
+      "width": 3584,
+      "layers": 28
+    },
+    "llama": {
+      "layer": 15,
+      "C": 10.0,
+      "width": 4096,
+      "layers": 32
+    }
+  },
+  "fit_policy": "unchanged src.clean_atomic_probes.fit_converged_probe; raw float64 features; preprocessing none; all successor-admitted outer-train rows; fixed layer/C; one BLAS thread",
+  "fit_source_pin": {
+    "path": "src/clean_atomic_probes.py",
+    "bytes": 20837,
+    "sha256": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb"
+  },
+  "endpoints": [
+    {
+      "condition": "atomic_D",
+      "metric": "atomic_auroc",
+      "operator": null,
+      "positive": null,
+      "negative": null
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_auroc",
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ],
+      "negative": [
+        "TF",
+        "FT",
+        "FF"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_auroc",
+      "operator": "OR",
+      "positive": [
+        "TT",
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_tt_vs_mixed_auroc",
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ],
+      "negative": [
+        "TF",
+        "FT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_mixed_vs_ff_auroc",
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "metric": "or_auroc",
+      "operator": "OR",
+      "positive": [
+        "TT",
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "metric": "or_mixed_vs_ff_auroc",
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    },
+    {
+      "condition": "isolated_external_minmax_v1",
+      "metric": "and_auroc",
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ],
+      "negative": [
+        "TF",
+        "FT",
+        "FF"
+      ]
+    },
+    {
+      "condition": "isolated_external_minmax_v1",
+      "metric": "or_auroc",
+      "operator": "OR",
+      "positive": [
+        "TT",
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    },
+    {
+      "condition": "isolated_external_minmax_v1",
+      "metric": "and_tt_vs_mixed_auroc",
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ],
+      "negative": [
+        "TF",
+        "FT"
+      ]
+    },
+    {
+      "condition": "isolated_external_minmax_v1",
+      "metric": "or_mixed_vs_ff_auroc",
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ],
+      "negative": [
+        "FF"
+      ]
+    }
+  ],
+  "scopes": [
+    "pooled",
+    "topic",
+    "topic_macro"
+  ],
+  "topics": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "element_symb",
+    "animal_class"
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "minimum_valid": 1800,
+    "seed": 1729,
+    "rng": "numpy.random.Generator(PCG64)",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads"
+  },
+  "eligibility_policy": {
+    "atomic_D": "successor_status admitted, exact authoritative sidecar identity",
+    "facts": "exact topic/entity/statement/truth and fact ID; admitted source affirmatives or exact accepted historical registry evidence retained as eligible by pinned candidate fact inventory; restricted source claims never overridden by registry evidence",
+    "compound_group": "retain all 16 variants iff every exact constituent fact passes; same pair set for raw/or-both/minmax; preserve original identities and person keys",
+    "coverage_comparison": "historical full old coverage versus historical retained; corrected versus historical on identical retained examples",
+    "evidence_limit": "retained source-label-only evidence is allowed by accepted conservative correction; not independently audited truth"
+  },
+  "refresh": {
+    "summary_scopes": [
+      "pooled",
+      "topic_macro"
+    ],
+    "absolute_auroc_movement_threshold": 0.002,
+    "comparison": "corrected_retained minus historical_retained; separately flag historical retained-minus-full coverage movement",
+    "rankings": "all model rankings within each summary endpoint; all condition rankings for the same summary metric/model; AND-versus-OR ordering; chance-level side at AUROC 0.5",
+    "interpretation": "also flag paired contrast CI sign category changes for AND-minus-OR and condition comparisons",
+    "action": "identify downstream analyses; do not launch refresh"
+  },
+  "prohibitions": [
+    "final-test access",
+    "new model extraction",
+    "production bank fitting",
+    "A/P reservation",
+    "repair fitting",
+    "new layer/C selection"
+  ]
+}

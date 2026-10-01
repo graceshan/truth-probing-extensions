@@ -1,0 +1,37 @@
+{
+  "authority": "Latest user notification in this session; supersedes authorization for dependent v2 fitting",
+  "blocked_operations": [
+    "dependent fitting",
+    "v2 results finalized as current corrected results"
+  ],
+  "existing_v2_outputs_policy": "Preserve exact bytes and provenance; historical preparation only, not current corrected membership",
+  "frozen_adoption_sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a",
+  "frozen_preparation_receipt_sha256": "000b028808e42296127d754e31fdf92f56e92b8de984bea7f17903440ff375c1",
+  "newly_unresolved_source_negatives": [
+    "inventors:23",
+    "inventors:157"
+  ],
+  "notification_date": "2026-10-01",
+  "paired_negations_require_quarantine": true,
+  "permitted_operations": [
+    "independent cache verification",
+    "sensitivity implementation",
+    "synthetic tests"
+  ],
+  "real_fits_started": 0,
+  "real_scores_computed": 0,
+  "reported_commit_incorporated": false,
+  "reported_review_commit": "9bbb2d2",
+  "resume_requirements": [
+    "Explicit reviewed correction commit; normal versioned integration, not latest-branch merge",
+    "New adoption/version bindings and manifest-derived ordered memberships",
+    "Refresh mappings and score-independent atomic/constituent/pair eligibility; quarantine both named source negatives and their paired negations",
+    "Rebind exact original row/layer indices of verified exports to successor membership; reject stale or mixed inputs",
+    "New versioned endpoint declaration and preparation before any fitting; preserve v2 artifacts",
+    "Reviewed successor evaluator entry point; no command-line bypass of this hold"
+  ],
+  "schema_version": 1,
+  "status": "pending_reviewed_successor",
+  "successor_commit": null,
+  "successor_membership_counts": null
+}
