@@ -1,0 +1,27 @@
+{
+  "cache_status": {
+    "llama_train": "verified",
+    "llama_transfer": "verified",
+    "llama_validation": "verified",
+    "qwen_controls": "verified",
+    "qwen_raw": "verified",
+    "qwen_train": "verified",
+    "qwen_validation": "verified"
+  },
+  "completed_utc": "2026-10-01T20:25:46.135929+00:00",
+  "expected_export_bytes": 264008576,
+  "export_request_sha256": "b1399aaf36cca8f0bd6bd81b1b898772965e1d50afa8a707ded1478c4ffdd7ce",
+  "final_test_access": false,
+  "free_bytes_before": 620279705600,
+  "interactive_shell": false,
+  "local_platform": "Darwin",
+  "model_extraction": false,
+  "preparation_receipt_sha256": "000b028808e42296127d754e31fdf92f56e92b8de984bea7f17903440ff375c1",
+  "remote_hostname": "ef7f7534c328",
+  "remote_program_sha256": "d7111011c89becaaa125bca04000d610dead970c90fe0d4b93260fa6b6ff0f01",
+  "remote_receipt": {
+    "bytes": 498390,
+    "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+  },
+  "status": "complete"
+}

@@ -1,0 +1,72 @@
+{
+  "C": 1.0,
+  "class_counts": {
+    "0": 1522,
+    "1": 1522
+  },
+  "convergence_warning": false,
+  "final_converged": true,
+  "final_convergence_status": "converged",
+  "final_max_iter": 2000,
+  "final_n_iter": 49,
+  "finite": true,
+  "gradient_infinity_norm": 4.8182667794598665e-05,
+  "historical_probe_sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119",
+  "initial_convergence_warning": false,
+  "initial_max_iter": 2000,
+  "initial_n_iter": 49,
+  "initial_warning_messages": "[]",
+  "library_warnings": [
+    "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+  ],
+  "n_iter": 49,
+  "objective": 0.0015611256068531552,
+  "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+  "optimization_policy": {
+    "initial_max_iter": 2000,
+    "retry_failure": "raise RuntimeError; do not score or accept the fit",
+    "retry_initialization": "from scratch with identical train data and parameters except max_iter",
+    "retry_max_iter": 10000,
+    "retry_trigger": "sklearn.exceptions.ConvergenceWarning only"
+  },
+  "original_tensor_indices_sha256": "f58de8203eae963f0d06b6d41050dd85f0ea853e9e8d10104581493449f91e7f",
+  "preprocessing": "none",
+  "probe_configuration": {
+    "class_weight": null,
+    "fit_intercept": true,
+    "max_iter": 2000,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "tol": 0.0001
+  },
+  "raw_gradient_target_met": true,
+  "retry_needed": false,
+  "saved_layer_index": 17,
+  "selected_export_indices_sha256": "e39182400d0722c64d8e8525dc0cf754e6a410a51178ce8375203e119edd5a19",
+  "source_export": {
+    "bytes": 21848192,
+    "dtype": "<f2",
+    "fortran_order": false,
+    "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+    "shape": [
+      3048,
+      3584
+    ]
+  },
+  "source_tensor": {
+    "bytes": 631013504,
+    "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+    "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+    "shape": [
+      3144,
+      28,
+      3584
+    ]
+  },
+  "training_membership": {
+    "bytes": 1464573,
+    "sha256": "ffdc8f2dbbfd8a212e4ac2781c69046a723c5e4fbaa5ccb8b4949e6602ada6a5"
+  },
+  "training_rows": 3044,
+  "valid_for_scoring": true
+}

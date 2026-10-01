@@ -1,0 +1,158 @@
+{
+  "actual_fitting_counts": {
+    "llama": 0,
+    "qwen": 0
+  },
+  "admission_column": "successor_status",
+  "adoption": {
+    "bytes": 3955,
+    "sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a"
+  },
+  "auroc_results": null,
+  "automatic_refresh_launched": false,
+  "branch": "t2-canonical-sensitivity-20261001",
+  "closure_receipt_sha256": "4cd70c1f35e1183116b7d1b63b99df780c5269ab8b0bdcbe5d8f5f79b2ac5f47",
+  "config": {
+    "bytes": 5402,
+    "sha256": "1b391bdd7b0a070a1782fca18144e0dd29af66f1a2c781fa87f28d2248942334"
+  },
+  "current_corrected_membership": false,
+  "endpoint_status": "All 11 endpoints per model not computed: reviewed successor correction and updated memberships/adoption are pending",
+  "external_artifact_root": "/Users/apple/projects/t2-canonical-sensitivity-artifacts-20261001",
+  "external_full_receipts": {
+    "export_receipt.json": {
+      "bytes": 498390,
+      "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+    },
+    "staging_receipt.json": {
+      "bytes": 983,
+      "sha256": "af81dcaed2ef7c1d081273e4c74cf1e300d7edc219d83cf80b418092f6e149b9"
+    }
+  },
+  "frozen_eligibility": {
+    "eligible_facts": 510,
+    "original_atomic_D_rows": 1040,
+    "original_facts": 524,
+    "original_pairs": 524,
+    "retained_atomic_D_rows": 1012,
+    "retained_pairs": 483
+  },
+  "frozen_mapping_coverage": {
+    "llama_train": {
+      "ambiguous": 0,
+      "duplicate_source_row_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_manifest_rows": 3048,
+      "mapped_rows": 3048,
+      "mapping": {
+        "bytes": 1452335,
+        "sha256": "780242365eedbf46ee04f02bdee8bc59fb0251223d4a1e820bc80b294f2b3e8e"
+      },
+      "mismatched": 0,
+      "missing": 0
+    },
+    "llama_validation": {
+      "ambiguous": 0,
+      "duplicate_source_row_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_manifest_rows": 1012,
+      "mapped_rows": 1012,
+      "mapping": {
+        "bytes": 463591,
+        "sha256": "9bf9c096e9457185e202f6b41b3e0914848f3132eee21fc29f696538f069f653"
+      },
+      "mismatched": 0,
+      "missing": 0
+    },
+    "qwen_train": {
+      "ambiguous": 0,
+      "duplicate_source_row_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_manifest_rows": 3048,
+      "mapped_rows": 3048,
+      "mapping": {
+        "bytes": 1452335,
+        "sha256": "780242365eedbf46ee04f02bdee8bc59fb0251223d4a1e820bc80b294f2b3e8e"
+      },
+      "mismatched": 0,
+      "missing": 0
+    },
+    "qwen_validation": {
+      "ambiguous": 0,
+      "duplicate_source_row_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_manifest_rows": 1012,
+      "mapped_rows": 1012,
+      "mapping": {
+        "bytes": 463591,
+        "sha256": "9bf9c096e9457185e202f6b41b3e0914848f3132eee21fc29f696538f069f653"
+      },
+      "mismatched": 0,
+      "missing": 0
+    }
+  },
+  "frozen_prepared_root": "/Users/apple/projects/t2-canonical-sensitivity-artifacts-20261001/prepared_v2_frozen",
+  "historical_pending_records_unchanged": true,
+  "hold": {
+    "bytes": 1788,
+    "sha256": "a7925e697049c315015d21fb9e93905e2d0b158162c8cbce690554b45d4fe7b7"
+  },
+  "later_source_review_commit_incorporated": false,
+  "local_hostname": "MacBook-Pro-7.lan",
+  "local_platform": "Darwin",
+  "merge_commit": "ed117ab11e68009e4af848c9194d14421d34848d",
+  "merge_parents": [
+    "455016040208d0304b4b7547bb96dc626c979ac5",
+    "827f01460802afde5dd82da424159f284812623c"
+  ],
+  "missing_cache_dependencies": [],
+  "missing_current_analysis_dependencies": [
+    "Explicitly reviewed successor correction commit",
+    "Successor adoption, manifest-derived mappings, atomic/fact/pair eligibility and export-index bindings"
+  ],
+  "ordered_admission_equal": true,
+  "ordered_admitted_identity_sha256": "29bca733cb46334e6a6761660bca68d03f006e4354209d270096e14d069c0513",
+  "physical_identity_passed_independently": true,
+  "preserved_limitations": [
+    "Conservative nonadmission is accepted; remaining retained source labels are not represented as human factual verification.",
+    "Historical pinned_atomic_probes.py working-file versus recorded producer/Git hash conflict remains unresolved.",
+    "Recorded Llama clean_compounds.py and llama_replication_probes.py hashes differ from this checkout.",
+    "Standalone historical tokenizer/model config bytes are absent; embedded identities agree, but no live tokenizer/model replay establishes historical execution."
+  ],
+  "prohibited_operations_performed": {
+    "final_test_predictions": 0,
+    "new_extraction": 0,
+    "production_bank_fits": 0,
+    "repair_fits": 0,
+    "reservations": 0
+  },
+  "real_fits_started": 0,
+  "real_scores_computed": 0,
+  "recorded_utc": "2026-10-01T20:34:35.398668+00:00",
+  "refresh_trigger_status": "not_assessed_no_real_sensitivity",
+  "reported_affected_rows_in_frozen_v2": [
+    {
+      "form": "affirmative",
+      "label": "0",
+      "paired_source_row_id": "neg_inventors:23",
+      "source_row_id": "inventors:23",
+      "source_row_sha256": "3a5c003981d53614d141e45f48513e7d96f2334ebf2b4f569dd1e3d058e91e20",
+      "split": "train",
+      "statement_sha256": "b9a84f71b7e34f20906d0c786d03fec664241155d7362119bbbbef29bc67ac14",
+      "successor_status": "admitted"
+    },
+    {
+      "form": "affirmative",
+      "label": "0",
+      "paired_source_row_id": "neg_inventors:157",
+      "source_row_id": "inventors:157",
+      "source_row_sha256": "6fbd22321dcfdd5e2332c0e0762e4a6c107c3a318210038e2e2451e1715af40b",
+      "split": "train",
+      "statement_sha256": "87844d73d1bc8759331614861dba43b6da92bdadadc5d1837c28c291163bafa8",
+      "successor_status": "admitted"
+    }
+  ],
+  "status": "historical_v2_preparation_fitting_held",
+  "uncertainty_results": null,
+  "worktree": "/Users/apple/projects/truth-probing-t1-score-rebuild"
+}

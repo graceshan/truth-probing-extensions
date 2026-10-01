@@ -1,0 +1,462 @@
+{
+  "activation_values_inspected": false,
+  "adoption_sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a",
+  "caches": {
+    "llama_train": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/extraction_manifest.json": {
+          "bytes": 5809,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/extraction_manifest.json",
+          "sha256": "8d0c20e6960c0dab2f3f7db702c9399ca76bf916c02857bb7c5c3d429624d6b0",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/metadata.csv": {
+          "bytes": 524156,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/metadata.csv",
+          "sha256": "13a57d6c727003b168bf10d3249a1fa644a75e119acc1c5d436e4b52516b4433",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/progress.json": {
+          "bytes": 950688,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/progress.json",
+          "sha256": "b700b45f46a09b1c9766f8341d1b41d720ac5797c0d821059aaa43506ca60f1d",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 24969344,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+        "shape": [
+          3048,
+          4096
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "b3e5d5e19bab329ab065322506a5972c10d93e87f81ef2ba58c487ded76ed38c",
+      "row_identity_sha256": "c1eaf7edf73add95a13cedfc65c19752661574d5ecde5dafbff4153eeaad3131",
+      "saved_layer_index": 15,
+      "source": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "llama_transfer": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/extraction_manifest.json": {
+          "bytes": 10836,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/extraction_manifest.json",
+          "sha256": "08f320e61818d0540369b79829f23a175ba7cbfbb86b6c7dfae61af1fa0c0458",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/metadata.csv": {
+          "bytes": 3484857,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/metadata.csv",
+          "sha256": "d4e611040adab42366764bd34590dd9d08ac3a5b358ecd49d4e10247d7381e40",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/progress.json": {
+          "bytes": 5252118,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/progress.json",
+          "sha256": "ab391f74f1b981b8b2f9d71b57c502eec49dfcf90183d2353be971c1eacd9354",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 107315328,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "e88aab912e1293db0202406087a71d3f4978230a3808fcdaecafe342dc391244",
+        "shape": [
+          13100,
+          4096
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "349f30a944b3f96e126a0c2f72cda9a7441bca432bd29e2b52be3de59c89bfd0",
+      "row_identity_sha256": "ce0a64301c1674dd25467f20ed7a45ab8de977907f507a6ed8e0e6023ea95620",
+      "saved_layer_index": 15,
+      "source": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "llama_validation": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/extraction_manifest.json": {
+          "bytes": 5814,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/extraction_manifest.json",
+          "sha256": "b2929d03ac621408985e18ca162f119fd02a327d59a9d8b6be1e0f6684d2f7c3",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/metadata.csv": {
+          "bytes": 178763,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/metadata.csv",
+          "sha256": "fec53b8c3f05f0c427a683be29bf96c16985f2d05eb716728459a3f9566266fa",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/progress.json": {
+          "bytes": 313176,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/progress.json",
+          "sha256": "85bfdf3aee8b56e4f3ae76dd375397c3e7ada0cf1610a6c0cea217d2548d22c7",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 8519808,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "d581d39304495fabeada6cdd33308ee59fd1be2cb950eeb3bf7d8cc3ab26d7f6",
+        "shape": [
+          1040,
+          4096
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "c01a43fea475f02d42f842304ceadc510c66e97d11f585c1926ff960122baf43",
+      "row_identity_sha256": "11b8952551e3da95ef1f6ab95454639f5a3b07e4df66b0e1618afa2a98148d66",
+      "saved_layer_index": 15,
+      "source": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "qwen_controls": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+          "bytes": 119217,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json",
+          "sha256": "9f190177eb15cf838519d653a01f59526a73506de3a9e3e0955dd1bee5dd3d58",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/metadata.csv": {
+          "bytes": 2818153,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/metadata.csv",
+          "sha256": "ec6f4ca22e252e2a9228490d9d9f2fa81c19dd9f8b91c3d69a13792a5585258c",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/progress.json": {
+          "bytes": 3973558,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/progress.json",
+          "sha256": "095e02996abcf33c7b9de833d5f39dc59b38f91945069fb5df62902e5d421b9a",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 33804416,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "3500b8fb49c474e17218a97b613ddf732eb46135020be55c4edec3d703a4f3ff",
+        "shape": [
+          4716,
+          3584
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "c48e7415cb8635d29865c501a1505130602d646b8f0f10cdfa53f94651941832",
+      "row_identity_sha256": "5b0d3f7fabdd52a9436befa1ebaf8a2d8c091d9c8b5b19571aee630f7061c837",
+      "saved_layer_index": 17,
+      "source": {
+        "bytes": 2629222528,
+        "header": {
+          "computed_file_bytes": 2629222528,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            13100,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "93829ed9b8d206541d6e7148af78822e393e545237bc052714acacfe07cd0f30",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "qwen_raw": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+          "bytes": 58835,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json",
+          "sha256": "c7c01d961f08a7277b9eabe29854d7d0ff96f6e12a754fd0cfde3b737240c558",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv": {
+          "bytes": 7277404,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv",
+          "sha256": "96e96515e780086065694155e3061bdfe6f4bb80af062a63c2deecd6bfad6f94",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/progress.json": {
+          "bytes": 2538408,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/progress.json",
+          "sha256": "5839ca4e968992f4353d9a0c31cdc80cca8a4e1d733afce209cb80379f1b6bc9",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 60096640,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "f4bc8236da52fbbac7f6ad9b51bfe380739fb1002143fd25784976c19f96aadc",
+        "shape": [
+          8384,
+          3584
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "e001884bd41c0fc13af2c6e7291ffe1d02dfce5516213d7c1b46fbf5683c1d3a",
+      "row_identity_sha256": "802a57b00726c0e94f9e313fa6b4253b1015e52d7600aa444e32b8729f3e3c50",
+      "saved_layer_index": 17,
+      "source": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "qwen_train": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json": {
+          "bytes": 635,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json",
+          "sha256": "ed926a31056342314d00589867f856eb702ab4befedc7c054f43924510aaff2b",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+          "bytes": 10292,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json",
+          "sha256": "1a2a6e2141028127d4eff616ac07900f3d0a7bafc06ac7a617f2e53e0a63453a",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv": {
+          "bytes": 480382,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv",
+          "sha256": "790a03584aa4823902a0c1940e9cd59e8055f99d403d883c32afe60e6422851b",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 21848192,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+        "shape": [
+          3048,
+          3584
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "b3e5d5e19bab329ab065322506a5972c10d93e87f81ef2ba58c487ded76ed38c",
+      "row_identity_sha256": "c1eaf7edf73add95a13cedfc65c19752661574d5ecde5dafbff4153eeaad3131",
+      "saved_layer_index": 17,
+      "source": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    },
+    "qwen_validation": {
+      "companions": {
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json": {
+          "bytes": 635,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json",
+          "sha256": "ed926a31056342314d00589867f856eb702ab4befedc7c054f43924510aaff2b",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+          "bytes": 10292,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json",
+          "sha256": "1a2a6e2141028127d4eff616ac07900f3d0a7bafc06ac7a617f2e53e0a63453a",
+          "stable_during_read": true
+        },
+        "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv": {
+          "bytes": 164187,
+          "header": null,
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv",
+          "sha256": "379fc4d2b25f3ee254d1e3757dae7ea83ae36dd90df4006039713294fe1a5497",
+          "stable_during_read": true
+        }
+      },
+      "export": {
+        "bytes": 7454848,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "9c3ec06b366eb994f94d249cc0ed0d94e115ffe4b2c178817c39138eae5a0e9e",
+        "shape": [
+          1040,
+          3584
+        ]
+      },
+      "local_export_stable": true,
+      "original_row_indices_sha256": "c01a43fea475f02d42f842304ceadc510c66e97d11f585c1926ff960122baf43",
+      "row_identity_sha256": "11b8952551e3da95ef1f6ab95454639f5a3b07e4df66b0e1618afa2a98148d66",
+      "saved_layer_index": 17,
+      "source": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      },
+      "source_stable_through_export": true,
+      "status": "verified"
+    }
+  },
+  "current_corrected_fit_authorized": false,
+  "export_receipt": {
+    "bytes": 498390,
+    "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+  },
+  "export_request": {
+    "bytes": 489790,
+    "sha256": "b1399aaf36cca8f0bd6bd81b1b898772965e1d50afa8a707ded1478c4ffdd7ce"
+  },
+  "local_platform": "Darwin",
+  "physical_identity_only": true,
+  "preparation_receipt": {
+    "bytes": 2030,
+    "sha256": "000b028808e42296127d754e31fdf92f56e92b8de984bea7f17903440ff375c1"
+  },
+  "real_fits": 0,
+  "remote_hostname": "ef7f7534c328",
+  "staging_receipt": {
+    "bytes": 983,
+    "sha256": "af81dcaed2ef7c1d081273e4c74cf1e300d7edc219d83cf80b418092f6e149b9"
+  },
+  "status": "verified"
+}

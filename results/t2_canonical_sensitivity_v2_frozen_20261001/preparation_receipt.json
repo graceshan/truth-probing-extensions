@@ -1,0 +1,53 @@
+{
+  "adoption_sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a",
+  "artifacts": {
+    "atomic_D_eligibility.csv": {
+      "bytes": 120708,
+      "sha256": "7c771b1fff88e647c5981d1b3f22726433a29f9f159d016cd6503888dad7e251"
+    },
+    "development_fact_eligibility.csv": {
+      "bytes": 279831,
+      "sha256": "65cb1d6792aadacccad722e22ba3e7065ed900922ece0cfe4bb86726e6b46821"
+    },
+    "development_pair_eligibility.csv": {
+      "bytes": 287238,
+      "sha256": "c6587e1efce9fab24310bb0f57612ff83affccf1f26d239f908737d426211b2d"
+    },
+    "endpoint_declaration.json": {
+      "bytes": 5402,
+      "sha256": "5e6e372a2a3a418a8b685a6d82dab5bab5d7bee934f3b6dc438e313f7c1d225d"
+    },
+    "export_request.json": {
+      "bytes": 489790,
+      "sha256": "b1399aaf36cca8f0bd6bd81b1b898772965e1d50afa8a707ded1478c4ffdd7ce"
+    },
+    "input_inventory.json": {
+      "bytes": 8382,
+      "sha256": "e677303697f57d580091e0a26d1f971c37f812936b10cee7b01e15b5f39af65e"
+    },
+    "llama_train.mapping_v2.csv": {
+      "bytes": 1452335,
+      "sha256": "780242365eedbf46ee04f02bdee8bc59fb0251223d4a1e820bc80b294f2b3e8e"
+    },
+    "llama_validation.mapping_v2.csv": {
+      "bytes": 463591,
+      "sha256": "9bf9c096e9457185e202f6b41b3e0914848f3132eee21fc29f696538f069f653"
+    },
+    "qwen_train.mapping_v2.csv": {
+      "bytes": 1452335,
+      "sha256": "780242365eedbf46ee04f02bdee8bc59fb0251223d4a1e820bc80b294f2b3e8e"
+    },
+    "qwen_validation.mapping_v2.csv": {
+      "bytes": 463591,
+      "sha256": "9bf9c096e9457185e202f6b41b3e0914848f3132eee21fc29f696538f069f653"
+    }
+  },
+  "corrected_full_training_reference_only": true,
+  "ordered_admission_equal": true,
+  "production_usable": false,
+  "source_sha256": {
+    "src/selection_repair_cache_export_remote.py": "d7111011c89becaaa125bca04000d610dead970c90fe0d4b93260fa6b6ff0f01",
+    "src/selection_repair_sensitivity_inputs.py": "7330c770620ada28bfcb17d04d7611d9104c6c07292d12e9cd1350c2614e870f"
+  },
+  "stage": "frozen_before_fitting_and_scoring"
+}

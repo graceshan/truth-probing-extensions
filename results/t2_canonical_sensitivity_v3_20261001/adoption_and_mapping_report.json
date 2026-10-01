@@ -1,0 +1,114 @@
+{
+  "P_A_frozen": false,
+  "actual_fitting_counts": {
+    "llama": 3044,
+    "qwen": 3044
+  },
+  "adoption_sha256": "521359408db36fb0680bab3ed872aa37712f35c3d9707ba07c719bd3ed7e1e80",
+  "branch": "t2-canonical-sensitivity-20261001",
+  "broader_refresh_started": false,
+  "checkpoint_commit": "2f663b9",
+  "correction_commit": "2ffbe79cdb22eb772c1b842ab9f0e9d8d11a8e8c",
+  "correction_overlay": "candidate_overlay_v3",
+  "correction_receipt_sha256": "33b67ce128bad956ba82a128ac2e7863deefefd3af9c4a9d26685da0caaa9c39",
+  "endpoint_summaries": 154,
+  "external_prepared_root": "/Users/apple/projects/t2-canonical-sensitivity-v3-20261001/prepared",
+  "external_scores_root": "/Users/apple/projects/t2-canonical-sensitivity-v3-20261001/scores",
+  "local_hostname": "MacBook-Pro-7.lan",
+  "local_platform": "Darwin",
+  "manifest_sha256": "56a3ad10e47bcc207201d27d56c748841d761c433b7f54bd2b9639eaf0905bb0",
+  "mapping_coverage": {
+    "llama_train": {
+      "ambiguous": 0,
+      "duplicate_source_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_rows": 3044,
+      "mapping": {
+        "bytes": 1464573,
+        "sha256": "ffdc8f2dbbfd8a212e4ac2781c69046a723c5e4fbaa5ccb8b4949e6602ada6a5"
+      },
+      "mismatched": 0,
+      "missing": 0,
+      "ordered_original_tensor_indices_sha256": "f58de8203eae963f0d06b6d41050dd85f0ea853e9e8d10104581493449f91e7f",
+      "ordered_selected_export_indices_sha256": "e39182400d0722c64d8e8525dc0cf754e6a410a51178ce8375203e119edd5a19",
+      "ordered_source_ids_sha256": "ebfd9dacfe8840a0c69ce520491ee5629d7645f2865174564c5be710f739358d",
+      "rows": 3044
+    },
+    "llama_validation": {
+      "ambiguous": 0,
+      "duplicate_source_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_rows": 1012,
+      "mapping": {
+        "bytes": 467609,
+        "sha256": "39ce52082c38804db89e994cf11911fd71bcd4554f746277a19505c65d3fe88f"
+      },
+      "mismatched": 0,
+      "missing": 0,
+      "ordered_original_tensor_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "ordered_selected_export_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "ordered_source_ids_sha256": "f0dd3897124592cdd219025552f4c7d12ecd5f3ad8f0ec59e0c17c84d585f745",
+      "rows": 1012
+    },
+    "qwen_train": {
+      "ambiguous": 0,
+      "duplicate_source_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_rows": 3044,
+      "mapping": {
+        "bytes": 1464573,
+        "sha256": "ffdc8f2dbbfd8a212e4ac2781c69046a723c5e4fbaa5ccb8b4949e6602ada6a5"
+      },
+      "mismatched": 0,
+      "missing": 0,
+      "ordered_original_tensor_indices_sha256": "f58de8203eae963f0d06b6d41050dd85f0ea853e9e8d10104581493449f91e7f",
+      "ordered_selected_export_indices_sha256": "e39182400d0722c64d8e8525dc0cf754e6a410a51178ce8375203e119edd5a19",
+      "ordered_source_ids_sha256": "ebfd9dacfe8840a0c69ce520491ee5629d7645f2865174564c5be710f739358d",
+      "rows": 3044
+    },
+    "qwen_validation": {
+      "ambiguous": 0,
+      "duplicate_source_or_tensor_indices": 0,
+      "exact_statement_duplicates_preserved": true,
+      "expected_rows": 1012,
+      "mapping": {
+        "bytes": 467609,
+        "sha256": "39ce52082c38804db89e994cf11911fd71bcd4554f746277a19505c65d3fe88f"
+      },
+      "mismatched": 0,
+      "missing": 0,
+      "ordered_original_tensor_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "ordered_selected_export_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "ordered_source_ids_sha256": "f0dd3897124592cdd219025552f4c7d12ecd5f3ad8f0ec59e0c17c84d585f745",
+      "rows": 1012
+    }
+  },
+  "merge_commit": "fd346987db8942ecc9e36ffe05f0ef8c6fd2a30b",
+  "missing_endpoints": [],
+  "physical_identity_verified_independently": true,
+  "preparation_receipt": {
+    "bytes": 2706,
+    "sha256": "c145c444ea498442078fe7e9bababfd63d89dc6b6a93aaba4aa0fed9afabf2c3"
+  },
+  "projected_fact_eligibility": "current_eligible",
+  "projection_receipt_sha256": "5b3881be82515ac383433c2f305ca9ac6092f6f85314359341c56b2ea62983da",
+  "quarantined_ids_absent": [
+    "inventors:157",
+    "inventors:23",
+    "neg_inventors:157",
+    "neg_inventors:23"
+  ],
+  "recorded_utc": "2026-10-01T20:52:02.044189+00:00",
+  "refresh_trigger_counts": {
+    "evaluation_coverage_auroc": 16,
+    "ranking_or_contrast_interpretation_changed": 4,
+    "training_cleanup_auroc": 21
+  },
+  "sensitivity_receipt": {
+    "bytes": 9459,
+    "sha256": "7d020fdcd61b163aeb390719600838d79571b2e14162ddcb6dd380b74a1c6155"
+  },
+  "status": "complete_bounded_v3_canonical_sensitivity",
+  "status_column": "audit_successor_status",
+  "v2_fits_or_scores_reused": false
+}

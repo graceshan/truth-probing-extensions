@@ -1,0 +1,342 @@
+{
+  "affected_downstream": [
+    "Canonical raw LR compound transfer tables/figures and critical boundaries",
+    "Priority-2 raw versus or-both and isolated min/max comparisons",
+    "Qwen/Llama canonical-reference comparisons and conclusions",
+    "Method comparisons reusing the canonical LR baseline or historical development eligibility"
+  ],
+  "automatic_refresh_launched": false,
+  "triggered": true,
+  "triggers": [
+    {
+      "endpoint": "llama/raw_reference/and_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.014735656917671425,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.0032313282380794783,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.004295583655660518,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.01123092820818039,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.0022115639402650045,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/and_tt_vs_mixed_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.02207776620415025,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_mixed_vs_ff_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.006701451847279549,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/raw_reference/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.015680656886483346,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.016649591993907364,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.008262042068488795,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.004310327658400226,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": -0.010915645401197716,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": -0.008055416549902716,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.010668174070661007,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "llama/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.006446972969081921,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.019035402440749416,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.01393841702603038,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.002381677749185962,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": -0.005511159616277794,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.01650992259957962,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.021811127908016648,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.01801761369676036,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.0031567376761740817,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_tt_vs_mixed_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.01899950276266782,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_tt_vs_mixed_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.012573786509176732,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/and_tt_vs_mixed_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": -0.008762193993243628,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_mixed_vs_ff_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.01362151665959388,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_mixed_vs_ff_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.023361174184729827,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/raw_reference/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.021961951549872794,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.04829846242214586,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.013780578453129522,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.02270754169944067,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.004652736428408688,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/pooled",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.044550428867199066,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/pooled",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.01150720008396866,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "training_cleanup_auroc",
+      "movement": 0.024520650267127908,
+      "threshold": 0.002
+    },
+    {
+      "endpoint": "qwen/or_explicit_or_both_v1/or_mixed_vs_ff_auroc/topic_macro",
+      "kind": "evaluation_coverage_auroc",
+      "movement": 0.0036395419089783054,
+      "threshold": 0.002
+    },
+    {
+      "corrected_ci": {
+        "ci_high": 0.00010140308995089079,
+        "ci_low": 0.0,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "corrected_difference": 2.4773658844123858e-05,
+      "historical_ci": {
+        "ci_high": 6.080807170838476e-05,
+        "ci_low": -0.0002660393035475578,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "historical_difference": -2.8788297011472785e-05,
+      "interpretation_changed": false,
+      "kind": "ranking_or_contrast_interpretation_changed",
+      "left": "llama/atomic_D/atomic_auroc/topic_macro",
+      "ranking_changed": true,
+      "right": "qwen/atomic_D/atomic_auroc/topic_macro"
+    },
+    {
+      "corrected_ci": {
+        "ci_high": 0.054443927873726414,
+        "ci_low": 0.002599687179957347,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "corrected_difference": 0.0297465683924788,
+      "historical_ci": {
+        "ci_high": 0.04972499138148022,
+        "ci_low": -0.0017011485211921279,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "historical_difference": 0.026777682252787205,
+      "interpretation_changed": true,
+      "kind": "ranking_or_contrast_interpretation_changed",
+      "left": "llama/raw_reference/or_auroc/topic_macro",
+      "ranking_changed": false,
+      "right": "llama/or_explicit_or_both_v1/or_auroc/topic_macro"
+    },
+    {
+      "corrected_ci": {
+        "ci_high": -0.0034264277821489885,
+        "ci_low": -0.06359114392194572,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "corrected_difference": -0.032347514788499954,
+      "historical_ci": {
+        "ci_high": 0.0003377582384648086,
+        "ci_low": -0.05365807014156384,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "historical_difference": -0.025560829299919985,
+      "interpretation_changed": true,
+      "kind": "ranking_or_contrast_interpretation_changed",
+      "left": "llama/raw_reference/or_auroc/topic_macro",
+      "ranking_changed": false,
+      "right": "qwen/raw_reference/or_auroc/topic_macro"
+    },
+    {
+      "corrected_ci": {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "corrected_difference": 0.0,
+      "historical_ci": {
+        "ci_high": 0.0,
+        "ci_low": -8.829993992173768e-05,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      },
+      "historical_difference": -1.1430743269813526e-05,
+      "interpretation_changed": false,
+      "kind": "ranking_or_contrast_interpretation_changed",
+      "left": "qwen/isolated_external_minmax_v1/and_auroc/pooled",
+      "ranking_changed": true,
+      "right": "qwen/isolated_external_minmax_v1/or_auroc/pooled"
+    }
+  ]
+}

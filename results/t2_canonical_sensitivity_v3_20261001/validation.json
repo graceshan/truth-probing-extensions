@@ -1,0 +1,38 @@
+{
+  "additional_validator_tests": 2,
+  "expected_warning": "Deliberately injected NaN coefficients in flagged-fit synthetic regression",
+  "independent_validation": {
+    "activation_arrays_loaded": 0,
+    "all_intervals_recomputed": true,
+    "all_result_and_external_artifact_hashes_match": true,
+    "current_membership_and_refresh_thresholds_match": true,
+    "endpoint_summaries_checked": 154,
+    "independent_auroc_implementation": "sklearn.metrics.roc_auc_score",
+    "maximum_absolute_auroc_difference": 2.220446049250313e-16,
+    "real_fits_performed": 0,
+    "sensitivity_receipt": {
+      "bytes": 9459,
+      "sha256": "7d020fdcd61b163aeb390719600838d79571b2e14162ddcb6dd380b74a1c6155"
+    },
+    "status": "passed",
+    "validator_source_sha256": "a6271b59e3114ed40cb140efbc2c750069f72d553c672ab8548893db6d31745e"
+  },
+  "integrated_seconds": 34.15,
+  "integrated_subtests": 29,
+  "integrated_tests": 192,
+  "source_sha256": {
+    "src/selection_repair_canonical_sensitivity_v3.py": "95cebadf3d60db6329aa9633c5a86001f22f5bc6203de4f9fffd25c6c288058a",
+    "src/selection_repair_sensitivity_v3.py": "9ef4625a13de170eff04f7d24ab6268919f1ba5a5dfe899126b54bef40fe4c1e",
+    "src/selection_repair_sensitivity_v3_validation.py": "a6271b59e3114ed40cb140efbc2c750069f72d553c672ab8548893db6d31745e",
+    "tests/test_selection_repair_sensitivity_v3.py": "1005c2ce7e854833100e18279da51b8a6e7ef55209995ff70718e50871e26ecc",
+    "tests/test_selection_repair_sensitivity_v3_validation.py": "ea845cb3dce02ae69eb377d67fe6a18d4e7f828bf6e04e1bf1d09bca7cd8a2ef"
+  },
+  "status": "passed",
+  "validators_passed": [
+    "scripts/50_project_capacity_pilot_corrections.py",
+    "scripts/49_build_capacity_pilot_audit.py",
+    "scripts/48_close_selection_repair_sources.py --check-only",
+    "scripts/47_build_selection_repair_candidate.py --check-only",
+    "data/clean_protocol/selection_repair_v1/source_review_v1/validate.py"
+  ]
+}
