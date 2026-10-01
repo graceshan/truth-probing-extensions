@@ -1,0 +1,24 @@
+{
+  "registry_version": "validated-negative-registry-v2",
+  "split": "train",
+  "negative_candidate_seed": 0,
+  "ranking_version": "negative-candidate-v1",
+  "ranking_algorithm": "ascending SHA256(compact UTF-8 JSON [negative-candidate-v1, seed, topic, entity_id, exact object]); exact object tie-break; 1-based rank",
+  "candidate_pool": "all recorded true objects of usable entities in same topic/shared split, minus all entity known-true objects",
+  "source_audit_files": {
+    "metadata.json": "769560e956ab732dc01bc9b67e17f8b4f5baba6091df0979c75bea15d76300f6",
+    "entity_knowledge.csv": "1795fd86974bea9489ca6da4bdba66d38813176f818909c36fe5ac6a58f5ddd7",
+    "candidate_audit.csv": "07bba49fb46e4c3af43ec646dd27f0734d742a7784225ff5e8d903cc7e2e0dce"
+  },
+  "source_audit_sha256": "4317b8bb6c7abaa53d4320021adc8905e86b9654fbc17a4de50bb02328b6dddf",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "entity_manifest_metadata_sha256": "d4eeccdfc46e9e85d4d583790fe2d22442d04a69c619e63b35dcdb878241dacb",
+  "validation_version": "negative-validation-v1",
+  "compound_usable_entities": 800,
+  "test_candidates_processed": 0,
+  "scores_used": false,
+  "inventor_country_semantics": "inventor-single-country-v1",
+  "inventor_candidate_pool": "single country components of same-split usable true objects; exclude all known-true components",
+  "inventor_source_sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c"
+}

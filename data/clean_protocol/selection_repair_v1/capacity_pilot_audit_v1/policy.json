@@ -1,0 +1,26 @@
+{
+  "status": "pilot_proposal_not_final_reservation",
+  "A_sizes": [
+    15,
+    10
+  ],
+  "nested": true,
+  "TC_target_per_topic": 20,
+  "TC_may_overlap": [
+    "A",
+    "P"
+  ],
+  "TC_excludes": [
+    "validation",
+    "test"
+  ],
+  "reservation_seed": 20261002,
+  "sampler_seed": 0,
+  "sampler": "src.atomic_probe_methods.balanced_burger_indices",
+  "source_order": "v2 row_manifest.csv original order; no sorting before balanced sampling; per-topic affirmative and negated source row indices must align",
+  "factual_policy": "True affirmative + independently adjudicated false affirmative bound to the identical entity/person. Negations do not fill either slot. Source labels are proposals, never independent verification. Residence uses established homes or residential study/employment; not nationality, visits, company exports, patents or modern-border substitutions. Supported false requires a sustained life chronology; absence from a partial list remains unresolved. Judgments are defeasible, not human certification.",
+  "negative_pipeline": "Recovered validated_negatives.initialize using inventor-single-country-v1, seed 0; first candidate when no admitted source false; all proposals frozen before new judgments",
+  "spanish_policy": "Exact same-word Spanish→English claims. Review full senses/idioms, relevant dialect, spelling/diacritics; positive means a valid sense, not sole sense. No D/E facts transferred.",
+  "P_exclusion": "Remove every original train row for all proposed A person keys, including all aliases, labels, affirmatives and negations. Prospective admitted P is this original-source remainder intersected with v2 admitted membership.",
+  "extra_retrievals": "Inventor ranks 24 and 26 have preliminary retrieved references retained as unadjudicated top-up leads; these do not enter A or completed-pair counts. Fact judgments followed the fixed order through rank 23."
+}
