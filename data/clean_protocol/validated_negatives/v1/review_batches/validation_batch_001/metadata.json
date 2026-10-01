@@ -1,0 +1,62 @@
+{
+  "batch_sha256": "325d064c91e824e9e78167844a09e17db09beb6a8252f3a487ee6981691edabb",
+  "batch_version": "validation-negative-review-batch-v1",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "factual_judgments_added": false,
+  "model_or_probe_outputs_used": false,
+  "negative_candidate_seed": 0,
+  "next_batch_rule": "accepted entities disappear; unreviewed stays; rejection advances exactly one rank or exhausts queue",
+  "previous_batch_sha256": null,
+  "ranking_version": "negative-candidate-v1",
+  "registry_modified": false,
+  "registry_sha256": "e9efe56d668510d0f4d61860772e3a611d4cf89f1f5c87435c060f1f5c7a95b4",
+  "registry_version": "validated-negative-registry-v1",
+  "row_count": 87,
+  "selection_rule": "one lowest-ranked unverified candidate per entity without any accepted negative",
+  "source_audit_sha256": "4317b8bb6c7abaa53d4320021adc8905e86b9654fbc17a4de50bb02328b6dddf",
+  "split": "validation",
+  "summary": [
+    {
+      "compound_usable_validation_entities": 16,
+      "entities_with_accepted_negative": 13,
+      "entities_without_accepted_negative": 3,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 3,
+      "topic": "animal_class"
+    },
+    {
+      "compound_usable_validation_entities": 149,
+      "entities_with_accepted_negative": 125,
+      "entities_without_accepted_negative": 24,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 24,
+      "topic": "cities"
+    },
+    {
+      "compound_usable_validation_entities": 18,
+      "entities_with_accepted_negative": 5,
+      "entities_without_accepted_negative": 13,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 13,
+      "topic": "element_symb"
+    },
+    {
+      "compound_usable_validation_entities": 45,
+      "entities_with_accepted_negative": 32,
+      "entities_without_accepted_negative": 13,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 13,
+      "topic": "inventors"
+    },
+    {
+      "compound_usable_validation_entities": 34,
+      "entities_with_accepted_negative": 0,
+      "entities_without_accepted_negative": 34,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 34,
+      "topic": "sp_en_trans"
+    }
+  ],
+  "test_candidates_exported": 0
+}

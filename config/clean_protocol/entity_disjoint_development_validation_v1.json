@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "protocol": "entity_disjoint",
+  "evaluation_phase": "development",
+  "split": "validation",
+  "protocol_config": "config/clean_protocol/generalization_protocols.json",
+  "negative_config": "config/clean_protocol/validated_negatives_inventor_single_country.json",
+  "registry_dir": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5",
+  "registry_sha256": "1c1ff7b5b3c369c72d7f90a090d0f1e120c5126850dfd4a6af7323c02ef5095f",
+  "source_dir": "data/tiu_datasets",
+  "pair_sampling_seed": 0,
+  "pair_sampling_algorithm": "validation-degree4-ring-v1",
+  "target_average_degree": 4,
+  "generation_seed": 0,
+  "template_version": "clean-binary-v1",
+  "pairs_per_topic": {"cities": 298, "sp_en_trans": 68, "inventors": 90, "element_symb": 36, "animal_class": 32},
+  "output_dir": "data/clean_protocol/compounds/entity_disjoint/development_validation_v1"
+}

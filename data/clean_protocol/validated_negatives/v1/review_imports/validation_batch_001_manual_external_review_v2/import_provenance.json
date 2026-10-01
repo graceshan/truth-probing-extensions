@@ -1,0 +1,288 @@
+{
+  "batch_sha256": "325d064c91e824e9e78167844a09e17db09beb6a8252f3a487ee6981691edabb",
+  "city_source_external_comparisons": [
+    {
+      "comparison": "exact_match",
+      "entity": "Zaozhuang",
+      "evidence_source": "Wikidata geographic record for Zaozhuang",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Acapulco de Juarez",
+      "evidence_source": "Government of Acapulco de Juárez, Guerrero",
+      "externally_verified_country": "Mexico",
+      "source_recorded_true_country": "Mexico"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Quetta",
+      "evidence_source": "Government of Balochistan",
+      "externally_verified_country": "Pakistan",
+      "source_recorded_true_country": "Pakistan"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Teresina",
+      "evidence_source": "Brazilian federal government / IBGE",
+      "externally_verified_country": "Brazil",
+      "source_recorded_true_country": "Brazil"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Soweto",
+      "evidence_source": "Soweto/Johannesburg geographic record",
+      "externally_verified_country": "South Africa",
+      "source_recorded_true_country": "South Africa"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Nay Pyi Taw",
+      "evidence_source": "Myanmar Ministry of Hotels and Tourism",
+      "externally_verified_country": "Myanmar",
+      "source_recorded_true_country": "Myanmar"
+    },
+    {
+      "comparison": "country_name_wording_difference",
+      "entity": "Uskudar",
+      "evidence_source": "Turkish government / Üsküdar district",
+      "externally_verified_country": "Türkiye",
+      "source_recorded_true_country": "Turkey"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Taicang",
+      "evidence_source": "Taicang/Jiangsu geographic record",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Qinhuangdao",
+      "evidence_source": "Qinhuangdao/Hebei geographic record",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Jinan",
+      "evidence_source": "Jinan Municipal Government",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Maturin",
+      "evidence_source": "Maturín/Monagas geographic record",
+      "externally_verified_country": "Venezuela",
+      "source_recorded_true_country": "Venezuela"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Foshan",
+      "evidence_source": "Guangdong Foreign Affairs Office",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Wanxian",
+      "evidence_source": "historical Wanxian, present-day Wanzhou, Chongqing",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Erbil",
+      "evidence_source": "Erbil/Kurdistan Region geographic record",
+      "externally_verified_country": "Iraq",
+      "source_recorded_true_country": "Iraq"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Laibin",
+      "evidence_source": "Laibin/Guangxi geographic record",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Ibague",
+      "evidence_source": "Government of Tolima / Ibagué municipality",
+      "externally_verified_country": "Colombia",
+      "source_recorded_true_country": "Colombia"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Qom",
+      "evidence_source": "Qom/Iran geographic record",
+      "externally_verified_country": "Iran",
+      "source_recorded_true_country": "Iran"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Johor Bahru",
+      "evidence_source": "Johor Bahru City Council / Tourism Johor",
+      "externally_verified_country": "Malaysia",
+      "source_recorded_true_country": "Malaysia"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Beirut",
+      "evidence_source": "Lebanese Directorate General of Local Administrations",
+      "externally_verified_country": "Lebanon",
+      "source_recorded_true_country": "Lebanon"
+    },
+    {
+      "comparison": "country_name_wording_difference",
+      "entity": "Abu Dhabi",
+      "evidence_source": "Official UAE Government",
+      "externally_verified_country": "United Arab Emirates",
+      "source_recorded_true_country": "the United Arab Emirates"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Beijing",
+      "evidence_source": "Beijing Municipal Government",
+      "externally_verified_country": "China",
+      "source_recorded_true_country": "China"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Frankfurt am Main",
+      "evidence_source": "Official City of Frankfurt portal",
+      "externally_verified_country": "Germany",
+      "source_recorded_true_country": "Germany"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Himeji",
+      "evidence_source": "Himeji Municipal Government",
+      "externally_verified_country": "Japan",
+      "source_recorded_true_country": "Japan"
+    },
+    {
+      "comparison": "exact_match",
+      "entity": "Caracas",
+      "evidence_source": "Caracas/Venezuela geographic record",
+      "externally_verified_country": "Venezuela",
+      "source_recorded_true_country": "Venezuela"
+    }
+  ],
+  "compounds_generated": false,
+  "external_city_review_results": {
+    "Abu Dhabi": {
+      "evidence_source": "Official UAE Government",
+      "externally_verified_country": "United Arab Emirates"
+    },
+    "Acapulco de Juarez": {
+      "evidence_source": "Government of Acapulco de Juárez, Guerrero",
+      "externally_verified_country": "Mexico"
+    },
+    "Beijing": {
+      "evidence_source": "Beijing Municipal Government",
+      "externally_verified_country": "China"
+    },
+    "Beirut": {
+      "evidence_source": "Lebanese Directorate General of Local Administrations",
+      "externally_verified_country": "Lebanon"
+    },
+    "Caracas": {
+      "evidence_source": "Caracas/Venezuela geographic record",
+      "externally_verified_country": "Venezuela"
+    },
+    "Erbil": {
+      "evidence_source": "Erbil/Kurdistan Region geographic record",
+      "externally_verified_country": "Iraq"
+    },
+    "Foshan": {
+      "evidence_source": "Guangdong Foreign Affairs Office",
+      "externally_verified_country": "China"
+    },
+    "Frankfurt am Main": {
+      "evidence_source": "Official City of Frankfurt portal",
+      "externally_verified_country": "Germany"
+    },
+    "Himeji": {
+      "evidence_source": "Himeji Municipal Government",
+      "externally_verified_country": "Japan"
+    },
+    "Ibague": {
+      "evidence_source": "Government of Tolima / Ibagué municipality",
+      "externally_verified_country": "Colombia"
+    },
+    "Jinan": {
+      "evidence_source": "Jinan Municipal Government",
+      "externally_verified_country": "China"
+    },
+    "Johor Bahru": {
+      "evidence_source": "Johor Bahru City Council / Tourism Johor",
+      "externally_verified_country": "Malaysia"
+    },
+    "Laibin": {
+      "evidence_source": "Laibin/Guangxi geographic record",
+      "externally_verified_country": "China"
+    },
+    "Maturin": {
+      "evidence_source": "Maturín/Monagas geographic record",
+      "externally_verified_country": "Venezuela"
+    },
+    "Nay Pyi Taw": {
+      "evidence_source": "Myanmar Ministry of Hotels and Tourism",
+      "externally_verified_country": "Myanmar"
+    },
+    "Qinhuangdao": {
+      "evidence_source": "Qinhuangdao/Hebei geographic record",
+      "externally_verified_country": "China"
+    },
+    "Qom": {
+      "evidence_source": "Qom/Iran geographic record",
+      "externally_verified_country": "Iran"
+    },
+    "Quetta": {
+      "evidence_source": "Government of Balochistan",
+      "externally_verified_country": "Pakistan"
+    },
+    "Soweto": {
+      "evidence_source": "Soweto/Johannesburg geographic record",
+      "externally_verified_country": "South Africa"
+    },
+    "Taicang": {
+      "evidence_source": "Taicang/Jiangsu geographic record",
+      "externally_verified_country": "China"
+    },
+    "Teresina": {
+      "evidence_source": "Brazilian federal government / IBGE",
+      "externally_verified_country": "Brazil"
+    },
+    "Uskudar": {
+      "evidence_source": "Turkish government / Üsküdar district",
+      "externally_verified_country": "Türkiye"
+    },
+    "Wanxian": {
+      "evidence_source": "historical Wanxian, present-day Wanzhou, Chongqing",
+      "externally_verified_country": "China"
+    },
+    "Zaozhuang": {
+      "evidence_source": "Wikidata geographic record for Zaozhuang",
+      "externally_verified_country": "China"
+    }
+  },
+  "import_version": "validation_batch_001_manual_external_review_v2",
+  "input_registry_sha256": "39ea624e12c6dc129a65fec3339c3a6e9d65d8b95149842d7e689ce108f2d76a",
+  "model_or_probe_outputs_used": false,
+  "next_review_batch_generated": false,
+  "review_origin": "User-supplied completed external city and Cambridge dictionary review",
+  "reviewer_or_method": "manual_external_review_v1",
+  "scope": {
+    "cities": 24,
+    "sp_en_trans": 34
+  },
+  "source_recorded_values_are_external_evidence": false,
+  "spanish_external_evidence": "User-supplied confirmation of separate Cambridge Spanish-English Dictionary review of all 34 candidates; no source gloss corrections required.",
+  "split": "validation",
+  "test_candidates_accessed": false,
+  "validation_version": "manual_external_review_v1",
+  "web_research_performed_during_import": false
+}

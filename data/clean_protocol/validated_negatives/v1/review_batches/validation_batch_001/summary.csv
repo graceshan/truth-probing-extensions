@@ -1,0 +1,6 @@
+topic,compound_usable_validation_entities,entities_with_accepted_negative,entities_without_accepted_negative,review_batch_candidates,entities_without_unverified_candidate
+animal_class,16,13,3,3,0
+cities,149,125,24,24,0
+element_symb,18,5,13,13,0
+inventors,45,32,13,13,0
+sp_en_trans,34,0,34,34,0

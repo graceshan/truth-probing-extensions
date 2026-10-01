@@ -1,0 +1,16 @@
+{
+  "batch_sha256": "325d064c91e824e9e78167844a09e17db09beb6a8252f3a487ee6981691edabb",
+  "compounds_generated": false,
+  "model_or_probe_outputs_used": false,
+  "review_origin": "User-supplied completed factual review for validation_batch_001",
+  "reviewed_candidates": 16,
+  "reviewer_or_method": "manual_external_review_v1",
+  "scope": {
+    "animal_class": 3,
+    "element_symb": 13
+  },
+  "split": "validation",
+  "test_candidates_accessed": false,
+  "validation_version": "manual_external_review_v1",
+  "web_research_performed_during_import": false
+}

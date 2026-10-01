@@ -1,0 +1,2 @@
+topic,entity,entity_id,fact_id,candidate_object,candidate_rank,old_status,new_status,evidence_source,evidence_note
+inventors,Benjamin Franklin,entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385,fact_bb4662203d302715fb02a9713c30b0dfbc0242a612ad5cf1cf00dc377218f26c,Russia,2,unverified,externally_validated_false,Library of Congress / Smithsonian Institution,"Authoritative biographical chronology documents Franklin's residences in the American colonies/United States, England, and France; no Russian residence is present. Candidate Russia is therefore false."

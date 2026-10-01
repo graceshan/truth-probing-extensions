@@ -1,0 +1,12 @@
+{
+  "compounds_generated": false,
+  "luther_simjian_included": true,
+  "manual_inventor_judgments_imported": false,
+  "prior_74_manual_judgments_unchanged": true,
+  "registry_rows_changed": 0,
+  "test_candidate_queues_accessed": false,
+  "unresolved_validation_inventors": 14,
+  "v3_registry_sha256": "47c7e9e2fda6cf2b4c9ab37fca924f621d7a28bffc9e49fc1e0605b42e2ba201",
+  "v3_truth_consistency_verified": true,
+  "v4_needed": false
+}

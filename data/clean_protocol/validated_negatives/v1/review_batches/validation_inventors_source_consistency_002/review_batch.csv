@@ -1,0 +1,2 @@
+topic,entity_id,entity,candidate_rank,candidate_object,statement,known_true_objects,source_classification,fact_id,validation_status
+inventors,entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385,Benjamin Franklin,2,Russia,Benjamin Franklin lived in Russia.,"[""the U.S""]",unverified_negative,fact_bb4662203d302715fb02a9713c30b0dfbc0242a612ad5cf1cf00dc377218f26c,unverified

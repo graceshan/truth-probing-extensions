@@ -1,0 +1,10 @@
+raw_object,true_source_rows,false_source_rows,validation_candidates,source_splits
+Austria/the U.S,2,2,0,"[""train""]"
+Canada/the U.S,1,0,0,"[""train""]"
+Germany/the U.S,1,0,0,"[""train""]"
+Hungary/the U.S,1,1,0,"[""train"", ""validation""]"
+Poland/France,1,2,0,"[""train""]"
+Poland/Germany,1,0,44,"[""validation""]"
+Sweden/the U.S,1,1,0,"[""train""]"
+Turkey/the U.S,2,0,44,"[""train"", ""validation""]"
+Ukraine/the U.S,1,1,0,"[""train""]"

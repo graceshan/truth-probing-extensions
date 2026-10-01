@@ -1,0 +1,14 @@
+{
+  "config": "config/clean_protocol/validated_negatives_inventor_single_country.json",
+  "config_sha256": "bb2b8991f8713afe10a2efd0a3e0150fac9bb6c2990251019102b32ea6118a1e",
+  "input_registry": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v4",
+  "manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "negative_candidate_seed": 0,
+  "output_registry": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5",
+  "ranking_version": "negative-candidate-v1",
+  "review_batch": "data/clean_protocol/validated_negatives/v1/review_batches/validation_inventors_source_consistency_002",
+  "review_batch_sha256": "eb9f07ea818b7f343e6d36fef225605a7e0006b042f0ddfa338ec1be89672ad1",
+  "source_access_note": "Existing loader hashes mixed-source bytes and filters split membership before interpreting test propositions. No test candidate queue is opened or exported.",
+  "source_audit_sha256": "4317b8bb6c7abaa53d4320021adc8905e86b9654fbc17a4de50bb02328b6dddf",
+  "status_and_evidence_authority": "Completed manual external review supplied by user; evidence source and note imported verbatim."
+}

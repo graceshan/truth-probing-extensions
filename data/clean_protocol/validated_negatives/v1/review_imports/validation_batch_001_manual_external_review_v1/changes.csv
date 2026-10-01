@@ -1,0 +1,17 @@
+topic,entity,fact_id,before_status,after_status,candidate_rank,evidence_source,evidence_note
+animal_class,tortoise,fact_604fb6ac4337a8971c963b23a1a4f297fe9e4041a9b2f492a103bae605042451,unverified,externally_validated_false,1,Animal Diversity Web,Authoritative class: tortoise = Reptilia.
+animal_class,giraffe,fact_85912957ccbadca1cda34fae20f2d00b70c4cecdcfb15ab7b85c69f5c652e083,unverified,externally_validated_false,1,Animal Diversity Web,Authoritative class: giraffe = Mammalia.
+animal_class,gecko,fact_e51f167d033dba2f549d653692bb18679ea25ccfd940762cb704a0e3719e2924,unverified,externally_validated_false,1,Animal Diversity Web,Authoritative class: gecko = Reptilia.
+element_symb,Hydrogen,fact_6534085d12fe81c498a2f5bec9ef9be9725f22dfd2fd8af7ffa638a0920e1e8a,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Hydrogen = H.
+element_symb,Scandium,fact_403e4b25b67f849061525a4a50721a7b8d5658111bebb18f6eca3fe9ac9962cb,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Scandium = Sc.
+element_symb,Erbium,fact_8b1719fbf1888c9d44a98d07669d79699905afde0c30a781a1c999368860cf33,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Erbium = Er.
+element_symb,Holmium,fact_fa35accdccc5c1d8c9a9360756c6425fa2e8b7b839688b79f2cb86d9ae78455f,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Holmium = Ho.
+element_symb,Iridium,fact_9e2535e1995a2a8a55a641b2b91616ade12456aa7432e8aa55c642aa296d66a0,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Iridium = Ir.
+element_symb,Zirconium,fact_4d7ce302dea36d615582db4a778c060bb57b889c6de10155bf697088e72d8286,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Zirconium = Zr.
+element_symb,Magnesium,fact_9405e85f22d90708d5d0372afc815e3eb52c360f563d979c344e32aa936397c2,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Magnesium = Mg.
+element_symb,Antimony,fact_4d1df4d6f8f5ef70de2fae84014157efb6d57e95a028e6f590c0b9d78e663e4c,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Antimony = Sb.
+element_symb,Rhenium,fact_4e5eb911ba59bc48213530b710f5acf0cb2108de44daf7b43a6461abd2a5577b,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Rhenium = Re.
+element_symb,Iodine,fact_d9add7e26398926899885611535e8162eb8a33feeb4491eaac55b88a4c06e514,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Iodine = I.
+element_symb,Bismuth,fact_8f4d23cc9586c1686fa2dfea9b4ae4c13265c45902340c4e2dbe69fe606ca181,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Bismuth = Bi.
+element_symb,Neon,fact_5cc3767e65c8913d2c57e6d3ac55f74af71f20ceb9c0a6c218e8f59ef6e68536,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Neon = Ne.
+element_symb,Carbon,fact_56fd91b3d1000853660f28604b623b3a4117a0faa6e22ad56120c63bca283cf8,unverified,externally_validated_false,1,IUPAC Periodic Table of the Elements,Correct official symbol: Carbon = C.

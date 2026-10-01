@@ -1,0 +1,11 @@
+{
+  "all_exported_candidates_rank_one_single_country_unverified": true,
+  "all_unresolved_inventors_covered": true,
+  "compounds_generated": false,
+  "manual_inventor_judgments_imported": false,
+  "protected_existing_files_hashes_and_mtimes_unchanged": 333,
+  "review_batch_rows": 14,
+  "test_candidate_queues_accessed": false,
+  "v3_unchanged": true,
+  "v4_needed": false
+}

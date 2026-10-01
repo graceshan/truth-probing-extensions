@@ -1,0 +1,8 @@
+topic,split,entity_id,entity,raw_object,country_components,slash_valued,source_label,source_statement,source_file,source_row,overlap_components
+inventors,train,entity_986fc708fc57f55e7487354b74a66a1423f5982c4c522af79f4d8504949ada5f,Igor Sikorsky,the U.S,"[""the U.S""]",False,0,Igor Sikorsky lived in the U.S.,inventors.csv,89,"[""the U.S""]"
+inventors,train,entity_8a396930a529b3032ff0f5d55f707dafb399d479b9c46fec9205fb5d270165df,Gideon Sundback,the U.S,"[""the U.S""]",False,0,Gideon Sundback lived in the U.S.,inventors.csv,104,"[""the U.S""]"
+inventors,train,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,Robert Moog,Austria/the U.S,"[""Austria"", ""the U.S""]",True,0,Robert Moog lived in Austria/the U.S.,inventors.csv,106,"[""the U.S""]"
+inventors,train,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,Maria Telkes,Hungary,"[""Hungary""]",False,0,Maria Telkes lived in Hungary.,inventors.csv,190,"[""Hungary""]"
+inventors,train,entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d,Hedy Lamarr,the U.S,"[""the U.S""]",False,0,Hedy Lamarr lived in the U.S.,inventors.csv,261,"[""the U.S""]"
+inventors,train,entity_2be0fc771238e340785e2bca198cd06b6ae95d0012efb440143d89101fcabb21,Mary Phelps Jacob,Ukraine/the U.S,"[""Ukraine"", ""the U.S""]",True,0,Mary Phelps Jacob lived in Ukraine/the U.S.,inventors.csv,396,"[""the U.S""]"
+inventors,validation,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,Luther Simjian,the U.S,"[""the U.S""]",False,0,Luther Simjian lived in the U.S.,inventors.csv,397,"[""the U.S""]"

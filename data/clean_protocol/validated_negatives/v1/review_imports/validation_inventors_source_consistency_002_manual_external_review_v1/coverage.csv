@@ -1,0 +1,6 @@
+topic,split,compound_usable_entities,entities_with_accepted_negative,entities_without_accepted_negative,entities_selected_source_supported_false,entities_selected_externally_validated_false
+cities,validation,149,149,0,125,24
+sp_en_trans,validation,34,34,0,0,34
+inventors,validation,45,45,0,31,14
+element_symb,validation,18,18,0,5,13
+animal_class,validation,16,16,0,13,3

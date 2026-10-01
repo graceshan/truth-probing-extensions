@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "protocol_version": "clean-generalization-v1",
+  "entity_manifest": "data/clean_protocol/entity_partitions/manifest.csv",
+  "entity_manifest_metadata": "data/clean_protocol/entity_partitions/metadata.json",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "final_evaluation_enabled": false,
+  "pair_id_version": "pair-v1",
+  "topics": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "element_symb",
+    "animal_class"
+  ],
+  "protocols": {
+    "new_pairings": {
+      "claim": "pair-disjoint",
+      "scientific_question": "Does the method generalize to new combinations of facts/entities that may already have appeared individually in training?",
+      "evaluation_entity_overlap_with_atomic_fitting": true,
+      "evaluation_pairs_disjoint_from": [
+        "compound_fitting",
+        "calibration"
+      ],
+      "evaluation_entities_disjoint_from": [],
+      "pair_variant_grouping": "one_pair_one_compound_role",
+      "exposure": {
+        "atomic_probe_fitting": {
+          "unit": "atomic_entity",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "layer_C_selection": {
+          "unit": "atomic_entity",
+          "topics": "all",
+          "entity_splits": [
+            "validation"
+          ]
+        },
+        "compound_fitting": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "calibration": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "evaluation": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits_by_phase": {
+            "development": [
+              "train"
+            ],
+            "final": [
+              "train"
+            ]
+          }
+        }
+      }
+    },
+    "entity_disjoint": {
+      "claim": "entity-disjoint",
+      "scientific_question": "Does the atomic-trained readout generalize to compounds composed entirely of entities not used in atomic fitting?",
+      "evaluation_entity_overlap_with_atomic_fitting": false,
+      "evaluation_pairs_disjoint_from": [
+        "compound_fitting",
+        "calibration"
+      ],
+      "evaluation_entities_disjoint_from": [
+        "atomic_probe_fitting",
+        "compound_fitting",
+        "calibration"
+      ],
+      "pair_variant_grouping": "one_pair_one_compound_role",
+      "exposure": {
+        "atomic_probe_fitting": {
+          "unit": "atomic_entity",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "layer_C_selection": {
+          "unit": "atomic_entity",
+          "topics": "all",
+          "entity_splits": [
+            "validation"
+          ]
+        },
+        "compound_fitting": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "calibration": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "evaluation": {
+          "unit": "compound_pair",
+          "topics": "all",
+          "entity_splits_by_phase": {
+            "development": [
+              "validation"
+            ],
+            "final": [
+              "test"
+            ]
+          }
+        }
+      }
+    },
+    "strict_leave_one_topic_out": {
+      "claim": "strict-leave-one-topic-out",
+      "scientific_question": "Does a readout learned without examples from one semantic domain transfer to compounds in that domain?",
+      "evaluation_entity_overlap_with_atomic_fitting": false,
+      "evaluation_pairs_disjoint_from": [
+        "compound_fitting",
+        "calibration"
+      ],
+      "evaluation_entities_disjoint_from": [
+        "atomic_probe_fitting",
+        "compound_fitting",
+        "calibration"
+      ],
+      "pair_variant_grouping": "one_pair_one_compound_role",
+      "exposure": {
+        "atomic_probe_fitting": {
+          "unit": "atomic_entity",
+          "topics": "non_heldout",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "layer_C_selection": {
+          "unit": "atomic_entity",
+          "topics": "non_heldout",
+          "entity_splits": [
+            "validation"
+          ]
+        },
+        "compound_fitting": {
+          "unit": "compound_pair",
+          "topics": "non_heldout",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "calibration": {
+          "unit": "compound_pair",
+          "topics": "non_heldout",
+          "entity_splits": [
+            "train"
+          ]
+        },
+        "evaluation": {
+          "unit": "compound_pair",
+          "topics": "heldout",
+          "entity_splits_by_phase": {
+            "development": [
+              "validation"
+            ],
+            "final": [
+              "test"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "regimes": {
+    "new_pairings": {
+      "protocol": "new_pairings",
+      "heldout_topic": null
+    },
+    "entity_disjoint": {
+      "protocol": "entity_disjoint",
+      "heldout_topic": null
+    },
+    "holdout_cities": {
+      "protocol": "strict_leave_one_topic_out",
+      "heldout_topic": "cities"
+    },
+    "holdout_sp_en_trans": {
+      "protocol": "strict_leave_one_topic_out",
+      "heldout_topic": "sp_en_trans"
+    },
+    "holdout_inventors": {
+      "protocol": "strict_leave_one_topic_out",
+      "heldout_topic": "inventors"
+    },
+    "holdout_element_symb": {
+      "protocol": "strict_leave_one_topic_out",
+      "heldout_topic": "element_symb"
+    },
+    "holdout_animal_class": {
+      "protocol": "strict_leave_one_topic_out",
+      "heldout_topic": "animal_class"
+    }
+  }
+}

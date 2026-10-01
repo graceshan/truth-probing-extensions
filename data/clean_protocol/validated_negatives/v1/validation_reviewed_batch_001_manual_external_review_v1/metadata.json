@@ -1,0 +1,86 @@
+{
+  "candidate_pool": "all recorded true objects of usable entities in same topic/shared split, minus all entity known-true objects",
+  "compound_usable_entities": 262,
+  "entity_manifest_metadata_sha256": "d4eeccdfc46e9e85d4d583790fe2d22442d04a69c619e63b35dcdb878241dacb",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "negative_candidate_seed": 0,
+  "parent_registry_sha256": "e9efe56d668510d0f4d61860772e3a611d4cf89f1f5c87435c060f1f5c7a95b4",
+  "ranking_algorithm": "ascending SHA256(compact UTF-8 JSON [negative-candidate-v1, seed, topic, entity_id, exact object]); exact object tie-break; 1-based rank",
+  "ranking_version": "negative-candidate-v1",
+  "registry_sha256": "39ea624e12c6dc129a65fec3339c3a6e9d65d8b95149842d7e689ce108f2d76a",
+  "registry_version": "validated-negative-registry-v1",
+  "row_count": 8735,
+  "scores_used": false,
+  "source_audit_files": {
+    "candidate_audit.csv": "07bba49fb46e4c3af43ec646dd27f0734d742a7784225ff5e8d903cc7e2e0dce",
+    "entity_knowledge.csv": "1795fd86974bea9489ca6da4bdba66d38813176f818909c36fe5ac6a58f5ddd7",
+    "metadata.json": "769560e956ab732dc01bc9b67e17f8b4f5baba6091df0979c75bea15d76300f6"
+  },
+  "source_audit_sha256": "4317b8bb6c7abaa53d4320021adc8905e86b9654fbc17a4de50bb02328b6dddf",
+  "split": "validation",
+  "summary": [
+    {
+      "available_entities": 125,
+      "candidates": 6854,
+      "entities": 149,
+      "externally_validated_false": 0,
+      "rejected_true_or_ambiguous": 0,
+      "source_supported_false": 125,
+      "split": "validation",
+      "topic": "cities",
+      "unavailable_entities": 24,
+      "unverified": 6729
+    },
+    {
+      "available_entities": 0,
+      "candidates": 1122,
+      "entities": 34,
+      "externally_validated_false": 0,
+      "rejected_true_or_ambiguous": 0,
+      "source_supported_false": 0,
+      "split": "validation",
+      "topic": "sp_en_trans",
+      "unavailable_entities": 34,
+      "unverified": 1122
+    },
+    {
+      "available_entities": 32,
+      "candidates": 405,
+      "entities": 45,
+      "externally_validated_false": 0,
+      "rejected_true_or_ambiguous": 0,
+      "source_supported_false": 32,
+      "split": "validation",
+      "topic": "inventors",
+      "unavailable_entities": 13,
+      "unverified": 373
+    },
+    {
+      "available_entities": 18,
+      "candidates": 306,
+      "entities": 18,
+      "externally_validated_false": 13,
+      "rejected_true_or_ambiguous": 0,
+      "source_supported_false": 5,
+      "split": "validation",
+      "topic": "element_symb",
+      "unavailable_entities": 0,
+      "unverified": 288
+    },
+    {
+      "available_entities": 16,
+      "candidates": 48,
+      "entities": 16,
+      "externally_validated_false": 3,
+      "rejected_true_or_ambiguous": 0,
+      "source_supported_false": 13,
+      "split": "validation",
+      "topic": "animal_class",
+      "unavailable_entities": 0,
+      "unverified": 32
+    }
+  ],
+  "test_candidates_processed": 0,
+  "validation_version": "negative-validation-v1"
+}

@@ -1,0 +1,328 @@
+topic,split,entity_id,entity,raw_object,country_components,slash_valued,source_label,source_statement,source_file,source_row
+inventors,train,entity_d5b03a7e6d3a16457dfeb5a86eaad06a648cd0bb52652957c2f19bfcee5cf0ad,Edwin Herbert Hall,the U.S,"[""the U.S""]",False,1,Edwin Herbert Hall lived in the U.S.,inventors.csv,1
+inventors,train,entity_6c5d95e799d90a3d7db71d03712fb1d717c1a3a0ccd283472f029026ec4ea607,Emile Berliner,Russia,"[""Russia""]",False,0,Emile Berliner lived in Russia.,inventors.csv,2
+inventors,train,entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2,Frederick Walton,the U.S,"[""the U.S""]",False,0,Frederick Walton lived in the U.S.,inventors.csv,3
+inventors,train,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,Gustaf Dalén,Sweden,"[""Sweden""]",False,1,Gustaf Dalén lived in Sweden.,inventors.csv,5
+inventors,validation,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,Evangelista Torricelli,the U.S,"[""the U.S""]",False,0,Evangelista Torricelli lived in the U.S.,inventors.csv,6
+inventors,train,entity_7e0ab0ff563776483cbc566dbbe21e92e12861a2f82ac15c3dc3168cd1aa1e6b,George Pullman,the U.K,"[""the U.K""]",False,0,George Pullman lived in the U.K.,inventors.csv,7
+inventors,train,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,Marvin Camras,France,"[""France""]",False,0,Marvin Camras lived in France.,inventors.csv,8
+inventors,train,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,William Sturgeon,the U.K,"[""the U.K""]",False,1,William Sturgeon lived in the U.K.,inventors.csv,9
+inventors,train,entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2,Frederick Walton,the U.K,"[""the U.K""]",False,1,Frederick Walton lived in the U.K.,inventors.csv,10
+inventors,train,entity_8a396930a529b3032ff0f5d55f707dafb399d479b9c46fec9205fb5d270165df,Gideon Sundback,Sweden/the U.S,"[""Sweden"", ""the U.S""]",True,1,Gideon Sundback lived in Sweden/the U.S.,inventors.csv,12
+inventors,train,entity_5072e2006427b892d26836ed6763295a988a5730656386442ae299ddd741af05,John Shepherd-Barron,Scotland,"[""Scotland""]",False,1,John Shepherd-Barron lived in Scotland.,inventors.csv,13
+inventors,train,entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741,Edwin Link,the U.K,"[""the U.K""]",False,0,Edwin Link lived in the U.K.,inventors.csv,14
+inventors,train,entity_62464b85d554a9c03b3ee3a506a4c7d2d43f61695557f6c7e6e1313327f90ee5,Chester Carlson,the U.K,"[""the U.K""]",False,0,Chester Carlson lived in the U.K.,inventors.csv,15
+inventors,validation,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,Joseph Glidden,the U.S,"[""the U.S""]",False,1,Joseph Glidden lived in the U.S.,inventors.csv,17
+inventors,train,entity_bbd060324b6bef852462f9f01104e43b2f2d77bd47d9aaafe755dd7cb56eac8d,Rudolf Diesel,the U.S,"[""the U.S""]",False,0,Rudolf Diesel lived in the U.S.,inventors.csv,18
+inventors,validation,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,Charles Wheatstone,France,"[""France""]",False,0,Charles Wheatstone lived in France.,inventors.csv,19
+inventors,train,entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e,Lloyd Groff Copeman,the U.S,"[""the U.S""]",False,1,Lloyd Groff Copeman lived in the U.S.,inventors.csv,22
+inventors,train,entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d,Herbert Saffir,the U.K,"[""the U.K""]",False,0,Herbert Saffir lived in the U.K.,inventors.csv,24
+inventors,train,entity_aafe1f1db38e64c59c92ed312e738d4fc29d7c6c1f9f0cf808ba0d278cc297f1,August Horch,Russia,"[""Russia""]",False,0,August Horch lived in Russia.,inventors.csv,25
+inventors,train,entity_d326429a9e19909e428d59f450bd05175d3c81ec92af6b4fa24a57be924b6380,Joseph Marie Jacquard,the Netherlands,"[""the Netherlands""]",False,0,Joseph Marie Jacquard lived in the Netherlands.,inventors.csv,26
+inventors,train,entity_0c8f2bad35c77e5b5d67057706b25eedef411d8f3d4f42fb6a83f1aff23ebc41,David Edward Hughes,the U.S,"[""the U.S""]",False,1,David Edward Hughes lived in the U.S.,inventors.csv,27
+inventors,train,entity_ab7e3d36099ec6493a4414c6b6c8761c961ea60f870a0c3f612ba5d6635417f3,Yoshua Bengio,Canada,"[""Canada""]",False,1,Yoshua Bengio lived in Canada.,inventors.csv,28
+inventors,train,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,Ferdinand Carré,the U.S,"[""the U.S""]",False,0,Ferdinand Carré lived in the U.S.,inventors.csv,29
+inventors,train,entity_ea4e11aa4084638dcd6fd6bed1b54e387d4f4ddd40af06cb4d6464bbddf4dccf,Rudolf Kálmán,Hungary,"[""Hungary""]",False,1,Rudolf Kálmán lived in Hungary.,inventors.csv,30
+inventors,train,entity_9d1b5c1a2f5e9b47c7ad18c00c460d0f2b20385792c19a5a14576d8999d03562,Charles Fritts,the U.S,"[""the U.S""]",False,1,Charles Fritts lived in the U.S.,inventors.csv,31
+inventors,train,entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c,Narinder Singh Kapany,India,"[""India""]",False,1,Narinder Singh Kapany lived in India.,inventors.csv,32
+inventors,train,entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf,Archimedes,Ancient Greece,"[""Ancient Greece""]",False,1,Archimedes lived in Ancient Greece.,inventors.csv,33
+inventors,train,entity_f7a815593f2680dbab6896fcd5764e4a22238bd070d6c79d22b6e96526d6377a,Gottlieb Daimler,France,"[""France""]",False,0,Gottlieb Daimler lived in France.,inventors.csv,34
+inventors,train,entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc,Arthur Fry,the U.S,"[""the U.S""]",False,1,Arthur Fry lived in the U.S.,inventors.csv,36
+inventors,train,entity_3686b4dee6c7632b4965f13bd49ffc8b2f169160f4d426d83697e8aa99e8df07,Fridtjof Nansen,the U.K,"[""the U.K""]",False,0,Fridtjof Nansen lived in the U.K.,inventors.csv,37
+inventors,validation,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,Semyon Kirlian,Russia,"[""Russia""]",False,1,Semyon Kirlian lived in Russia.,inventors.csv,38
+inventors,train,entity_d555076aae9c496b1c8fbf94ec9e5351c5204ca20cad98f9e8e4191dc14874e7,Paul Gottlieb Nipkow,Denmark,"[""Denmark""]",False,0,Paul Gottlieb Nipkow lived in Denmark.,inventors.csv,40
+inventors,train,entity_e71a928e187e1b2b74b50f6ede0a620d79ca94ef0fd86fcf1d1244c11c188286,Edwin H. Land,Sweden,"[""Sweden""]",False,0,Edwin H. Land lived in Sweden.,inventors.csv,41
+inventors,validation,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,Lester Wire,the U.S,"[""the U.S""]",False,1,Lester Wire lived in the U.S.,inventors.csv,42
+inventors,validation,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,László Bíró,Hungary,"[""Hungary""]",False,1,László Bíró lived in Hungary.,inventors.csv,43
+inventors,validation,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,Galileo Galilei,Italy,"[""Italy""]",False,1,Galileo Galilei lived in Italy.,inventors.csv,45
+inventors,train,entity_28e64e5d291b3a8c94c8a3d51f62aaeffe7501d40011b5f855fd4796a2f273a9,John Atanasoff,the U.S,"[""the U.S""]",False,1,John Atanasoff lived in the U.S.,inventors.csv,46
+inventors,validation,entity_3c4bb8b1972ad5b0ebf3ee26a975d216cdb1489989f696fe3b2baafa97e42385,Benjamin Franklin,the U.S,"[""the U.S""]",False,1,Benjamin Franklin lived in the U.S.,inventors.csv,47
+inventors,train,entity_3bd09da47a502837d3f4306d23e848f902c10d926e41c511c543001ff57ddc2c,Sir Sandford Fleming,Canada,"[""Canada""]",False,1,Sir Sandford Fleming lived in Canada.,inventors.csv,48
+inventors,train,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,Robert Moog,the U.S,"[""the U.S""]",False,1,Robert Moog lived in the U.S.,inventors.csv,49
+inventors,validation,entity_b7e637d260e38ad137565106168f84be27450dd4d166c82509057d0af2e8deb4,George Washington Carver,the U.S,"[""the U.S""]",False,1,George Washington Carver lived in the U.S.,inventors.csv,50
+inventors,train,entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8,James Clerk Maxwell,the U.S,"[""the U.S""]",False,0,James Clerk Maxwell lived in the U.S.,inventors.csv,51
+inventors,validation,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,Hans Lippershey,the U.S,"[""the U.S""]",False,0,Hans Lippershey lived in the U.S.,inventors.csv,52
+inventors,train,entity_3686b4dee6c7632b4965f13bd49ffc8b2f169160f4d426d83697e8aa99e8df07,Fridtjof Nansen,Norway,"[""Norway""]",False,1,Fridtjof Nansen lived in Norway.,inventors.csv,53
+inventors,train,entity_3bd09da47a502837d3f4306d23e848f902c10d926e41c511c543001ff57ddc2c,Sir Sandford Fleming,the U.S,"[""the U.S""]",False,0,Sir Sandford Fleming lived in the U.S.,inventors.csv,54
+inventors,validation,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,Willis Carrier,the U.S,"[""the U.S""]",False,1,Willis Carrier lived in the U.S.,inventors.csv,55
+inventors,train,entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318,Joseph-Armand Bombardier,Canada,"[""Canada""]",False,1,Joseph-Armand Bombardier lived in Canada.,inventors.csv,56
+inventors,train,entity_52d0ee65d4fbe9e3c31c068d095c5b3e2f5ec45652100b1fc3bd69ca8dc18bf1,Earle Dickson,the U.S,"[""the U.S""]",False,1,Earle Dickson lived in the U.S.,inventors.csv,57
+inventors,train,entity_e74efbc0fb645d09fdde0b60fe0c6c1c14c2cec3a35dc4f54819f689bb993a96,Luther George Simjian,Turkey/the U.S,"[""Turkey"", ""the U.S""]",True,1,Luther George Simjian lived in Turkey/the U.S.,inventors.csv,58
+inventors,train,entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d,Herbert Saffir,the U.S,"[""the U.S""]",False,1,Herbert Saffir lived in the U.S.,inventors.csv,59
+inventors,train,entity_1b0f1f2bb5a919012ce64b1229b4eb31e552caa4f9f09251d317353ea8e55d2e,Wallace Carothers,the U.S,"[""the U.S""]",False,1,Wallace Carothers lived in the U.S.,inventors.csv,61
+inventors,train,entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1,John Wesley Hyatt,the U.S,"[""the U.S""]",False,1,John Wesley Hyatt lived in the U.S.,inventors.csv,62
+inventors,validation,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,James Dyson,the U.K,"[""the U.K""]",False,1,James Dyson lived in the U.K.,inventors.csv,63
+inventors,train,entity_43e3b285d0d18ae99b1d74d3e43e51d39fa5a97f1c46373a5d52aedb640ed5d6,Candace Pert,the U.S,"[""the U.S""]",False,1,Candace Pert lived in the U.S.,inventors.csv,64
+inventors,train,entity_13d46f662918ef3345308e025bf5b93f2d9d0af70dbe06be668fd2d89bcd8e1c,Walter Hunt,the U.S,"[""the U.S""]",False,1,Walter Hunt lived in the U.S.,inventors.csv,66
+inventors,validation,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,Samuel Morse,Germany,"[""Germany""]",False,0,Samuel Morse lived in Germany.,inventors.csv,67
+inventors,train,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,Yvonne Brill,Canada,"[""Canada""]",False,1,Yvonne Brill lived in Canada.,inventors.csv,68
+inventors,validation,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,Guglielmo Marconi,the U.K,"[""the U.K""]",False,0,Guglielmo Marconi lived in the U.K.,inventors.csv,69
+inventors,train,entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160,Shinya Yamanaka,Germany,"[""Germany""]",False,0,Shinya Yamanaka lived in Germany.,inventors.csv,70
+inventors,train,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,Carl Sontheimer,Switzerland,"[""Switzerland""]",False,0,Carl Sontheimer lived in Switzerland.,inventors.csv,71
+inventors,train,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,Sergey Brin and Larry Page,the U.K,"[""the U.K""]",False,0,Sergey Brin and Larry Page lived in the U.K.,inventors.csv,72
+inventors,train,entity_a8c2048444a6cb3f7bad34aa9d534b6563e9a4433e169894789bc864aebcc2f8,Percy Spencer,the U.S,"[""the U.S""]",False,1,Percy Spencer lived in the U.S.,inventors.csv,73
+inventors,train,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,Henry Bessemer,the U.K,"[""the U.K""]",False,1,Henry Bessemer lived in the U.K.,inventors.csv,74
+inventors,train,entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84,Ruth Handler,the Netherlands,"[""the Netherlands""]",False,0,Ruth Handler lived in the Netherlands.,inventors.csv,75
+inventors,train,entity_169a162e881247a3c05dca46687f0c4875f66586a1419bbc034f0bafa3f46689,Thomas Wedgwood,the U.K,"[""the U.K""]",False,1,Thomas Wedgwood lived in the U.K.,inventors.csv,78
+inventors,train,entity_9a5cc522c464ad73e9e4dcacbada81be0e38165fea30ffd9b18b518212b9e133,Frank Bunker Gilbreth,the U.S,"[""the U.S""]",False,1,Frank Bunker Gilbreth lived in the U.S.,inventors.csv,79
+inventors,validation,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,Josephine Cochrane,Germany,"[""Germany""]",False,0,Josephine Cochrane lived in Germany.,inventors.csv,81
+inventors,train,entity_78f19d21d14dd9d6073f64b47abb97c98cba199e992f02388171b73ed96795eb,Godfrey Hounsfield,Denmark,"[""Denmark""]",False,0,Godfrey Hounsfield lived in Denmark.,inventors.csv,82
+inventors,train,entity_2893aa6253722d064f89b95bfdab30ec1a3b479197fef9e96abef5ae6a4fb1da,Antoine Lavoisier,France,"[""France""]",False,1,Antoine Lavoisier lived in France.,inventors.csv,83
+inventors,train,entity_b7e5f40dbeee41816987957715c25f05ec657b6579e9968d73e05ebb2fef08b6,Carlos Glidden,Scotland,"[""Scotland""]",False,0,Carlos Glidden lived in Scotland.,inventors.csv,84
+inventors,train,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,Maria Telkes,Hungary/the U.S,"[""Hungary"", ""the U.S""]",True,1,Maria Telkes lived in Hungary/the U.S.,inventors.csv,85
+inventors,train,entity_6cb2622cfb8458598335845ef19e7d9d3ea0f0f4d6a549c8b7df8ffbed209a2c,Robert Adler,Austria/the U.S,"[""Austria"", ""the U.S""]",True,1,Robert Adler lived in Austria/the U.S.,inventors.csv,86
+inventors,train,entity_9f6356c71983dc7f2df1a26508666518aa54985f0480a3fd3d36dcb5a1db5520,James Watt,the U.S,"[""the U.S""]",False,0,James Watt lived in the U.S.,inventors.csv,87
+inventors,train,entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741,Edwin Link,the U.S,"[""the U.S""]",False,1,Edwin Link lived in the U.S.,inventors.csv,88
+inventors,train,entity_986fc708fc57f55e7487354b74a66a1423f5982c4c522af79f4d8504949ada5f,Igor Sikorsky,the U.S,"[""the U.S""]",False,0,Igor Sikorsky lived in the U.S.,inventors.csv,89
+inventors,validation,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,Sir Humphry Davy,the U.K,"[""the U.K""]",False,1,Sir Humphry Davy lived in the U.K.,inventors.csv,90
+inventors,train,entity_e71a928e187e1b2b74b50f6ede0a620d79ca94ef0fd86fcf1d1244c11c188286,Edwin H. Land,the U.S,"[""the U.S""]",False,1,Edwin H. Land lived in the U.S.,inventors.csv,92
+inventors,train,entity_5af84507344c54756347766a5575d9c6f362f41b920ef3da3683237067d289e9,Cai Lun,Italy,"[""Italy""]",False,0,Cai Lun lived in Italy.,inventors.csv,93
+inventors,train,entity_9240a6a1cd754b779e934a1c8d1b230b9a491b0438f9c36687c95a2bdfe524b9,Mary Walton,France,"[""France""]",False,0,Mary Walton lived in France.,inventors.csv,94
+inventors,train,entity_0edcb780d202bbbb53ad8f9a8824ee9dc5360ac6493105ee3ed61beb98780d4d,Joseph Aspdin,Switzerland,"[""Switzerland""]",False,0,Joseph Aspdin lived in Switzerland.,inventors.csv,95
+inventors,train,entity_9f6356c71983dc7f2df1a26508666518aa54985f0480a3fd3d36dcb5a1db5520,James Watt,Scotland,"[""Scotland""]",False,1,James Watt lived in Scotland.,inventors.csv,96
+inventors,validation,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,Jean-Bernard-Léon Foucault,France,"[""France""]",False,1,Jean-Bernard-Léon Foucault lived in France.,inventors.csv,98
+inventors,train,entity_cf647d3f529b9389aadce3ebd5162e75620bf231b5310d91f0e408331772ef45,Gordon Gould,the U.S,"[""the U.S""]",False,1,Gordon Gould lived in the U.S.,inventors.csv,99
+inventors,train,entity_de925a2cf4221588d42d9104d38842b823a038fc5657c17ac00ed4283d0bd78f,Leonardo da Vinci,Poland/France,"[""Poland"", ""France""]",True,0,Leonardo da Vinci lived in Poland/France.,inventors.csv,100
+inventors,train,entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7,Ernesto Blanco,the U.S,"[""the U.S""]",False,1,Ernesto Blanco lived in the U.S.,inventors.csv,101
+inventors,train,entity_8a396930a529b3032ff0f5d55f707dafb399d479b9c46fec9205fb5d270165df,Gideon Sundback,the U.S,"[""the U.S""]",False,0,Gideon Sundback lived in the U.S.,inventors.csv,104
+inventors,validation,entity_46171df26c0b4200b2c874d1c88a82182381d3773b5d3e76ce4306583dccbde3,Ruth Benerito,the U.S,"[""the U.S""]",False,1,Ruth Benerito lived in the U.S.,inventors.csv,105
+inventors,train,entity_50c92eee31e85106ca5ee01e1c82382f5d7d0928d9c6a11bcba052ce3e522af9,Robert Moog,Austria/the U.S,"[""Austria"", ""the U.S""]",True,0,Robert Moog lived in Austria/the U.S.,inventors.csv,106
+inventors,train,entity_e74efbc0fb645d09fdde0b60fe0c6c1c14c2cec3a35dc4f54819f689bb993a96,Luther George Simjian,Norway,"[""Norway""]",False,0,Luther George Simjian lived in Norway.,inventors.csv,107
+inventors,validation,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,Ralph H. Baer,the U.S,"[""the U.S""]",False,1,Ralph H. Baer lived in the U.S.,inventors.csv,108
+inventors,validation,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,John Gorrie,Italy,"[""Italy""]",False,0,John Gorrie lived in Italy.,inventors.csv,109
+inventors,train,entity_e633e8a2e08c99d3102240879f8e8a2ff048f0fa22c9a9d0870dfd4aec3b1828,Michael Faraday,the U.K,"[""the U.K""]",False,1,Michael Faraday lived in the U.K.,inventors.csv,110
+inventors,train,entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e,Lloyd Groff Copeman,Germany,"[""Germany""]",False,0,Lloyd Groff Copeman lived in Germany.,inventors.csv,111
+inventors,train,entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625,Philo Farnsworth,Germany,"[""Germany""]",False,0,Philo Farnsworth lived in Germany.,inventors.csv,112
+inventors,train,entity_dbb029820d24da086e2bbc3f3c81704f835e658cf3757b0e2a2d1c86278b71ff,Alan Turing,the U.K,"[""the U.K""]",False,1,Alan Turing lived in the U.K.,inventors.csv,113
+inventors,train,entity_22fca1680f3177f5c3e9de140f55d138cd8e36f58ae1dde075f2ff61b7f2e480,Édouard-Léon Scott de Martinville,France,"[""France""]",False,1,Édouard-Léon Scott de Martinville lived in France.,inventors.csv,115
+inventors,train,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,Zhores Alferov,the U.K,"[""the U.K""]",False,0,Zhores Alferov lived in the U.K.,inventors.csv,116
+inventors,train,entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8,Leon Theremin,Russia,"[""Russia""]",False,1,Leon Theremin lived in Russia.,inventors.csv,117
+inventors,train,entity_bbd060324b6bef852462f9f01104e43b2f2d77bd47d9aaafe755dd7cb56eac8d,Rudolf Diesel,Germany,"[""Germany""]",False,1,Rudolf Diesel lived in Germany.,inventors.csv,118
+inventors,validation,entity_2f4ce36c38b11fdfd5c8a834eb613b9304e173ee66cdda793eb89b512bccf3fe,László Bíró,the U.S,"[""the U.S""]",False,0,László Bíró lived in the U.S.,inventors.csv,120
+inventors,train,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,Valdemar Poulsen,Denmark,"[""Denmark""]",False,1,Valdemar Poulsen lived in Denmark.,inventors.csv,121
+inventors,train,entity_831706aa554f0314dbd07966ce512cb26a0462830465b7342bac1be64ef5548f,James Murray Spangler,the U.K,"[""the U.K""]",False,0,James Murray Spangler lived in the U.K.,inventors.csv,122
+inventors,train,entity_0edcb780d202bbbb53ad8f9a8824ee9dc5360ac6493105ee3ed61beb98780d4d,Joseph Aspdin,the U.K,"[""the U.K""]",False,1,Joseph Aspdin lived in the U.K.,inventors.csv,123
+inventors,validation,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,Hans Berger,the U.S,"[""the U.S""]",False,0,Hans Berger lived in the U.S.,inventors.csv,124
+inventors,train,entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625,Philo Farnsworth,the U.S,"[""the U.S""]",False,1,Philo Farnsworth lived in the U.S.,inventors.csv,125
+inventors,validation,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,Ralph Benjamin,Italy,"[""Italy""]",False,0,Ralph Benjamin lived in Italy.,inventors.csv,126
+inventors,train,entity_a491edf53867176b1c07858e2ce118a98dfa8d041f67b2ef69bd3c99e208f8e5,Florence Parpart,the U.K,"[""the U.K""]",False,0,Florence Parpart lived in the U.K.,inventors.csv,127
+inventors,train,entity_68d55da7ce3fe99b98754c7aa9a94c1ae2d32f2a6ed7d6a65e1df8efe2b42549,Marvin Camras,the U.S,"[""the U.S""]",False,1,Marvin Camras lived in the U.S.,inventors.csv,128
+inventors,validation,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,Charles Babbage,the U.K,"[""the U.K""]",False,1,Charles Babbage lived in the U.K.,inventors.csv,129
+inventors,train,entity_1aba4271a8b0d7e7550f171355209a793bacce1ad71f0849f79a99b8eb169129,Charles Francis Richter,France,"[""France""]",False,0,Charles Francis Richter lived in France.,inventors.csv,130
+inventors,train,entity_7e1ac3ec55a6dd8156614391e664c58d64ef348f6824841ad3e8f5b7d14a23e9,Ami Argand,Switzerland,"[""Switzerland""]",False,1,Ami Argand lived in Switzerland.,inventors.csv,131
+inventors,train,entity_a8c3b12a0b65406bf3b6ab33cbf21c386fe6a79acd6d89aede0221667c862a5c,Kwolek,the U.S,"[""the U.S""]",False,0,Kwolek lived in the U.S.,inventors.csv,132
+inventors,validation,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,Richard Gatling,the U.K,"[""the U.K""]",False,0,Richard Gatling lived in the U.K.,inventors.csv,133
+inventors,validation,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,Luther Simjian,Turkey/the U.S,"[""Turkey"", ""the U.S""]",True,1,Luther Simjian lived in Turkey/the U.S.,inventors.csv,134
+inventors,train,entity_a2d9f017e0a0d61da45e06ba11ac94c7b18213d3f06f06442d83bd9d99f76cfa,Joseph Bramah,the U.K,"[""the U.K""]",False,1,Joseph Bramah lived in the U.K.,inventors.csv,135
+inventors,train,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,Hans Geiger,Austria/the U.S,"[""Austria"", ""the U.S""]",True,0,Hans Geiger lived in Austria/the U.S.,inventors.csv,136
+inventors,validation,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,Charles Macintosh,the U.K,"[""the U.K""]",False,1,Charles Macintosh lived in the U.K.,inventors.csv,139
+inventors,train,entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c,Narinder Singh Kapany,the U.K,"[""the U.K""]",False,0,Narinder Singh Kapany lived in the U.K.,inventors.csv,140
+inventors,train,entity_5e5c11a74bf355507521edf353e8d8064ab27f399dcaedbc24345f9a09aff777,Bette Nesmith Graham,the U.S,"[""the U.S""]",False,1,Bette Nesmith Graham lived in the U.S.,inventors.csv,141
+inventors,train,entity_22fca1680f3177f5c3e9de140f55d138cd8e36f58ae1dde075f2ff61b7f2e480,Édouard-Léon Scott de Martinville,the U.K,"[""the U.K""]",False,0,Édouard-Léon Scott de Martinville lived in the U.K.,inventors.csv,142
+inventors,train,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,Orville and Wilbur Wright,the U.S,"[""the U.S""]",False,1,Orville and Wilbur Wright lived in the U.S.,inventors.csv,143
+inventors,train,entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017,Hans Oersted,the U.S,"[""the U.S""]",False,0,Hans Oersted lived in the U.S.,inventors.csv,145
+inventors,train,entity_f7bd87a154822f93994b302c9dc2a677c2fe16ee8d5815bf27f36f2050ea9043,Charles Cros,the U.S,"[""the U.S""]",False,0,Charles Cros lived in the U.S.,inventors.csv,146
+inventors,validation,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,R. Buckminster Fuller,Scotland,"[""Scotland""]",False,0,R. Buckminster Fuller lived in Scotland.,inventors.csv,147
+inventors,validation,entity_417f275f5195f76d44ba237527339a3328dea19320e594059d895c65bb6beb8e,Willis Carrier,Italy,"[""Italy""]",False,0,Willis Carrier lived in Italy.,inventors.csv,148
+inventors,train,entity_f7bd87a154822f93994b302c9dc2a677c2fe16ee8d5815bf27f36f2050ea9043,Charles Cros,France,"[""France""]",False,1,Charles Cros lived in France.,inventors.csv,149
+inventors,train,entity_a774531c552cd2f20be901def0de3ef9e970a544a0087c0f45a6f78c4b0a3c03,Thomas Savery,the U.K,"[""the U.K""]",False,1,Thomas Savery lived in the U.K.,inventors.csv,150
+inventors,train,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,Bartolomeo Cristofori,Italy,"[""Italy""]",False,1,Bartolomeo Cristofori lived in Italy.,inventors.csv,151
+inventors,train,entity_8af019edb6e647b0ddc1fa39bc74197ee810cb4f81163f3bf3bc32263ba834db,Louis Pasteur,France,"[""France""]",False,1,Louis Pasteur lived in France.,inventors.csv,152
+inventors,train,entity_6c538714f9589781a35a32ac7de0ca2d87e13f3e096c469b5a1ee164600b2705,Frederick G. Creed,Sweden,"[""Sweden""]",False,0,Frederick G. Creed lived in Sweden.,inventors.csv,153
+inventors,train,entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74,Alexander Fleming,France,"[""France""]",False,0,Alexander Fleming lived in France.,inventors.csv,154
+inventors,train,entity_a491edf53867176b1c07858e2ce118a98dfa8d041f67b2ef69bd3c99e208f8e5,Florence Parpart,the U.S,"[""the U.S""]",False,1,Florence Parpart lived in the U.S.,inventors.csv,155
+inventors,train,entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454,Henri Giffard,the U.S,"[""the U.S""]",False,0,Henri Giffard lived in the U.S.,inventors.csv,156
+inventors,train,entity_d555076aae9c496b1c8fbf94ec9e5351c5204ca20cad98f9e8e4191dc14874e7,Paul Gottlieb Nipkow,Germany,"[""Germany""]",False,1,Paul Gottlieb Nipkow lived in Germany.,inventors.csv,157
+inventors,train,entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632,Hippolyte Mège-Mouriès,the U.S,"[""the U.S""]",False,0,Hippolyte Mège-Mouriès lived in the U.S.,inventors.csv,158
+inventors,validation,entity_3b84b24b14891f82b1da3c25eaab1187b2490ea6e85241bc54ab599d475cbeda,Josephine Cochrane,the U.S,"[""the U.S""]",False,1,Josephine Cochrane lived in the U.S.,inventors.csv,159
+inventors,train,entity_9fd14c2fd47da547890e7c03b37b712421463c575791d659796129d32ed3de9c,Mary Anderson,the U.S,"[""the U.S""]",False,1,Mary Anderson lived in the U.S.,inventors.csv,160
+inventors,validation,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,Otis Boykin,France,"[""France""]",False,0,Otis Boykin lived in France.,inventors.csv,161
+inventors,validation,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,Jack Kilby,the U.S,"[""the U.S""]",False,1,Jack Kilby lived in the U.S.,inventors.csv,163
+inventors,train,entity_5e9a51e451360ddad4b64f7e0ee5aa612bf0999c4e510d6783ed9afe5ab944fa,Samuel Fox,the U.K,"[""the U.K""]",False,1,Samuel Fox lived in the U.K.,inventors.csv,164
+inventors,validation,entity_46aec3c21230b9313b4424b000071b0776d84a2619e400a6c37896964827c06b,Hans Berger,Germany,"[""Germany""]",False,1,Hans Berger lived in Germany.,inventors.csv,165
+inventors,validation,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,André-Jacques Garnerin,France,"[""France""]",False,1,André-Jacques Garnerin lived in France.,inventors.csv,167
+inventors,train,entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74,Alexander Fleming,the U.K,"[""the U.K""]",False,1,Alexander Fleming lived in the U.K.,inventors.csv,168
+inventors,train,entity_d27e81df65d0f8aae07dc2193a2a832bdc791f40f614bf984b3cab2bdbe11646,Hans Goldschmidt,the Netherlands,"[""the Netherlands""]",False,0,Hans Goldschmidt lived in the Netherlands.,inventors.csv,169
+inventors,train,entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb,Garrett Morgan,the U.S,"[""the U.S""]",False,1,Garrett Morgan lived in the U.S.,inventors.csv,171
+inventors,train,entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366,Richard Trevithick,the U.S,"[""the U.S""]",False,0,Richard Trevithick lived in the U.S.,inventors.csv,172
+inventors,train,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,Georges Claude,Italy,"[""Italy""]",False,0,Georges Claude lived in Italy.,inventors.csv,173
+inventors,train,entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c,William Kelly,the U.S,"[""the U.S""]",False,1,William Kelly lived in the U.S.,inventors.csv,175
+inventors,train,entity_169a162e881247a3c05dca46687f0c4875f66586a1419bbc034f0bafa3f46689,Thomas Wedgwood,Finland,"[""Finland""]",False,0,Thomas Wedgwood lived in Finland.,inventors.csv,176
+inventors,train,entity_4ecc56e0a9ee2220278cb1920f177a6a4bbaa42d6355395afe9d2845355c0e1c,Nils Bohlin,Germany,"[""Germany""]",False,0,Nils Bohlin lived in Germany.,inventors.csv,177
+inventors,validation,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,Albert Ghiorso,the U.S,"[""the U.S""]",False,1,Albert Ghiorso lived in the U.S.,inventors.csv,178
+inventors,train,entity_286d104c7c6961210bb320b1e924a0bd426bed45228d66ae0be58dee17a8cadd,George de Mestral,Switzerland,"[""Switzerland""]",False,1,George de Mestral lived in Switzerland.,inventors.csv,179
+inventors,train,entity_b7e5f40dbeee41816987957715c25f05ec657b6579e9968d73e05ebb2fef08b6,Carlos Glidden,the U.S,"[""the U.S""]",False,1,Carlos Glidden lived in the U.S.,inventors.csv,180
+inventors,train,entity_c6978e8a9fadc39d34b9be8dc1d9c156c0c8d061bdb2ed2ebe28abdfc66e974d,John Logie Baird,Japan,"[""Japan""]",False,0,John Logie Baird lived in Japan.,inventors.csv,182
+inventors,train,entity_d6fe1351fd22178cfda129b2ed29de0890584483146a6e930d5210754d74ee91,Edouard Benedictus,the U.S,"[""the U.S""]",False,0,Edouard Benedictus lived in the U.S.,inventors.csv,183
+inventors,train,entity_eb706b022ce9473cc6017b0f2a167a8aa1c393a0ec1572d1fb6c3f40fe2b3276,Giovanni Caselli,the U.S,"[""the U.S""]",False,0,Giovanni Caselli lived in the U.S.,inventors.csv,186
+inventors,validation,entity_7f45b9113135b5be824569052cce980466d22fdf1336a3b8256c6eec63afb84d,John Gorrie,the U.S,"[""the U.S""]",False,1,John Gorrie lived in the U.S.,inventors.csv,187
+inventors,train,entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c,Robert Chesebrough,the U.S,"[""the U.S""]",False,1,Robert Chesebrough lived in the U.S.,inventors.csv,188
+inventors,train,entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a,Maria Telkes,Hungary,"[""Hungary""]",False,0,Maria Telkes lived in Hungary.,inventors.csv,190
+inventors,train,entity_62464b85d554a9c03b3ee3a506a4c7d2d43f61695557f6c7e6e1313327f90ee5,Chester Carlson,the U.S,"[""the U.S""]",False,1,Chester Carlson lived in the U.S.,inventors.csv,192
+inventors,train,entity_7e0ab0ff563776483cbc566dbbe21e92e12861a2f82ac15c3dc3168cd1aa1e6b,George Pullman,the U.S,"[""the U.S""]",False,1,George Pullman lived in the U.S.,inventors.csv,193
+inventors,validation,entity_27385cc0c8e95174d7486c65707ce7b6df069bde547881d258a01acf5ce16b29,John Bardeen,the U.S,"[""the U.S""]",False,1,John Bardeen lived in the U.S.,inventors.csv,195
+inventors,train,entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad,Orville and Wilbur Wright,France,"[""France""]",False,0,Orville and Wilbur Wright lived in France.,inventors.csv,196
+inventors,train,entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf,Archimedes,the U.S,"[""the U.S""]",False,0,Archimedes lived in the U.S.,inventors.csv,197
+inventors,validation,entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92,Hans Lippershey,the Netherlands,"[""the Netherlands""]",False,1,Hans Lippershey lived in the Netherlands.,inventors.csv,200
+inventors,train,entity_ceb47734883118ca624ed7051a8610023bb06792d4559ee7ace536e62cab7d39,Carl Elsener,the U.S,"[""the U.S""]",False,0,Carl Elsener lived in the U.S.,inventors.csv,201
+inventors,validation,entity_f8decc90c08060f8c1a0b2ee0493c561480c571c5854a5cdfe3ace18b85a664e,Heinrich Hertz,Germany,"[""Germany""]",False,1,Heinrich Hertz lived in Germany.,inventors.csv,203
+inventors,train,entity_de925a2cf4221588d42d9104d38842b823a038fc5657c17ac00ed4283d0bd78f,Leonardo da Vinci,Italy,"[""Italy""]",False,1,Leonardo da Vinci lived in Italy.,inventors.csv,204
+inventors,train,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,Wilhelm Conrad Röntgen,the U.S,"[""the U.S""]",False,0,Wilhelm Conrad Röntgen lived in the U.S.,inventors.csv,206
+inventors,validation,entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390,Guglielmo Marconi,Italy,"[""Italy""]",False,1,Guglielmo Marconi lived in Italy.,inventors.csv,207
+inventors,train,entity_745fcae09c2f7949e4a47e3fc90e36f571af5286f21c644b22ea13661bbe5626,Christian Huygens,the Netherlands,"[""the Netherlands""]",False,1,Christian Huygens lived in the Netherlands.,inventors.csv,208
+inventors,train,entity_6cb2622cfb8458598335845ef19e7d9d3ea0f0f4d6a549c8b7df8ffbed209a2c,Robert Adler,the U.K,"[""the U.K""]",False,0,Robert Adler lived in the U.K.,inventors.csv,209
+inventors,train,entity_ed509071c1145375acc32adb69779c63056787175d3569540299db81bc677d80,John Walker,the U.S,"[""the U.S""]",False,0,John Walker lived in the U.S.,inventors.csv,210
+inventors,validation,entity_cdbb5141199a0db8adec1540cc4ee2a12702a78916f3beded1be4aff5a034209,James West,the U.S,"[""the U.S""]",False,1,James West lived in the U.S.,inventors.csv,212
+inventors,train,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,Charles Townes,Russia,"[""Russia""]",False,0,Charles Townes lived in Russia.,inventors.csv,213
+inventors,validation,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,John Ambrose Fleming,the U.K,"[""the U.K""]",False,1,John Ambrose Fleming lived in the U.K.,inventors.csv,215
+inventors,train,entity_f7a815593f2680dbab6896fcd5764e4a22238bd070d6c79d22b6e96526d6377a,Gottlieb Daimler,Germany,"[""Germany""]",False,1,Gottlieb Daimler lived in Germany.,inventors.csv,216
+inventors,train,entity_77f2eab973dc937f3fdbacafb9e691fd47a734618a1635f8686f71745fdb643d,Frederick McKinley Jones,Japan,"[""Japan""]",False,0,Frederick McKinley Jones lived in Japan.,inventors.csv,217
+inventors,train,entity_32ca924a1a4c3c943a2e48ae03d15f82a3fa5a9b9f15036ad4a01e18b6eb9cee,William Sturgeon,Germany,"[""Germany""]",False,0,William Sturgeon lived in Germany.,inventors.csv,218
+inventors,train,entity_24e9b16a61afee3daacd4ed55cc1655295d4ddf85e9c02dd6e7b5d83c75261bf,Igor Tamm,the U.S,"[""the U.S""]",False,0,Igor Tamm lived in the U.S.,inventors.csv,219
+inventors,train,entity_4d8d21dee789ab3055d0a461e8d745a132bde7d16666eacee6a4cb365eff29fb,Frank Julian Sprague,the U.S,"[""the U.S""]",False,1,Frank Julian Sprague lived in the U.S.,inventors.csv,220
+inventors,train,entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c,William Kelly,France,"[""France""]",False,0,William Kelly lived in France.,inventors.csv,222
+inventors,train,entity_8af019edb6e647b0ddc1fa39bc74197ee810cb4f81163f3bf3bc32263ba834db,Louis Pasteur,the U.S,"[""the U.S""]",False,0,Louis Pasteur lived in the U.S.,inventors.csv,224
+inventors,train,entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4,Thomas Edison,the U.S,"[""the U.S""]",False,1,Thomas Edison lived in the U.S.,inventors.csv,225
+inventors,validation,entity_0eb198a8c4cff8941d67e38d9f8a8feb44119a48c647a80737a4ecf8a0c564ee,Joseph Glidden,Germany,"[""Germany""]",False,0,Joseph Glidden lived in Germany.,inventors.csv,226
+inventors,train,entity_02037e7a37cc7ff0c61436dc6d273f65ddee800a5e40dee7964578119c086b9a,Tim Berners-Lee,Germany,"[""Germany""]",False,0,Tim Berners-Lee lived in Germany.,inventors.csv,227
+inventors,validation,entity_a58eabb760af6eee224a4bfb91fa1210dfa0639a5eaf485faade90f9891ac7b7,Ralph Benjamin,the U.K,"[""the U.K""]",False,1,Ralph Benjamin lived in the U.K.,inventors.csv,229
+inventors,train,entity_0d0dde3507f35b7e3fb7ba54ac99e4a74894162c0102be276715d517afb30501,George Devol,the U.S,"[""the U.S""]",False,1,George Devol lived in the U.S.,inventors.csv,230
+inventors,train,entity_24e9b16a61afee3daacd4ed55cc1655295d4ddf85e9c02dd6e7b5d83c75261bf,Igor Tamm,Russia,"[""Russia""]",False,1,Igor Tamm lived in Russia.,inventors.csv,231
+inventors,validation,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,Heinrich Göbel,the U.S,"[""the U.S""]",False,0,Heinrich Göbel lived in the U.S.,inventors.csv,234
+inventors,train,entity_ab7e3d36099ec6493a4414c6b6c8761c961ea60f870a0c3f612ba5d6635417f3,Yoshua Bengio,the U.S,"[""the U.S""]",False,0,Yoshua Bengio lived in the U.S.,inventors.csv,235
+inventors,train,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,Marie Curie,Poland/France,"[""Poland"", ""France""]",True,1,Marie Curie lived in Poland/France.,inventors.csv,237
+inventors,train,entity_2be0fc771238e340785e2bca198cd06b6ae95d0012efb440143d89101fcabb21,Mary Phelps Jacob,the U.S,"[""the U.S""]",False,1,Mary Phelps Jacob lived in the U.S.,inventors.csv,238
+inventors,train,entity_482e5a3e48b682ff44d0f93444fe316d11312bc7e460fbe9664dd083e0223ff1,Valdemar Poulsen,Scotland,"[""Scotland""]",False,0,Valdemar Poulsen lived in Scotland.,inventors.csv,239
+inventors,train,entity_d7ad661bd43eb5968863bc1b7dbd91dda7337fc8b5db8454fa177d3a820c9e23,John Harrison,the U.K,"[""the U.K""]",False,1,John Harrison lived in the U.K.,inventors.csv,240
+inventors,train,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,James Starley,Sweden/the U.S,"[""Sweden"", ""the U.S""]",True,0,James Starley lived in Sweden/the U.S.,inventors.csv,242
+inventors,validation,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,Charles Tellier,the U.K,"[""the U.K""]",False,0,Charles Tellier lived in the U.K.,inventors.csv,243
+inventors,train,entity_47f207f41c3392664823e5f117c29b60e81354bd3b408b297782b55faf5c4f74,Clyde Tombaugh,the U.S,"[""the U.S""]",False,1,Clyde Tombaugh lived in the U.S.,inventors.csv,245
+inventors,train,entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229,Nicolas Appert,Russia,"[""Russia""]",False,0,Nicolas Appert lived in Russia.,inventors.csv,246
+inventors,train,entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e,Felix Hoffmann,the U.S,"[""the U.S""]",False,0,Felix Hoffmann lived in the U.S.,inventors.csv,247
+inventors,validation,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,Joseph Henry,the U.S,"[""the U.S""]",False,1,Joseph Henry lived in the U.S.,inventors.csv,248
+inventors,train,entity_1aba4271a8b0d7e7550f171355209a793bacce1ad71f0849f79a99b8eb169129,Charles Francis Richter,the U.S,"[""the U.S""]",False,1,Charles Francis Richter lived in the U.S.,inventors.csv,251
+inventors,train,entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017,Hans Oersted,Denmark,"[""Denmark""]",False,1,Hans Oersted lived in Denmark.,inventors.csv,252
+inventors,train,entity_4ecc56e0a9ee2220278cb1920f177a6a4bbaa42d6355395afe9d2845355c0e1c,Nils Bohlin,Sweden,"[""Sweden""]",False,1,Nils Bohlin lived in Sweden.,inventors.csv,253
+inventors,validation,entity_71bc6b785c53039152fa928881dea6e1b62dd760c5f92460306f0a6f054f2b52,Otis Boykin,the U.S,"[""the U.S""]",False,1,Otis Boykin lived in the U.S.,inventors.csv,256
+inventors,train,entity_d7755c24c57984f0e5402622c6fcf0d1addc6901382f97082aab6ca96fd59482,Alessandro Volta,Italy,"[""Italy""]",False,1,Alessandro Volta lived in Italy.,inventors.csv,258
+inventors,train,entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84,Ruth Handler,the U.S,"[""the U.S""]",False,1,Ruth Handler lived in the U.S.,inventors.csv,259
+inventors,train,entity_dac68bee4212e2666cac88dba321be73dc769c3cba810ab7f586fde9052e268b,Georges Claude,France,"[""France""]",False,1,Georges Claude lived in France.,inventors.csv,260
+inventors,train,entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d,Hedy Lamarr,the U.S,"[""the U.S""]",False,0,Hedy Lamarr lived in the U.S.,inventors.csv,261
+inventors,validation,entity_f0a40cd33a5e9fa6ff9110254ce2329508b8ae2e4c2afd669f4fa6c8c60e437f,John Ambrose Fleming,the U.S,"[""the U.S""]",False,0,John Ambrose Fleming lived in the U.S.,inventors.csv,263
+inventors,train,entity_cf647d3f529b9389aadce3ebd5162e75620bf231b5310d91f0e408331772ef45,Gordon Gould,Canada,"[""Canada""]",False,0,Gordon Gould lived in Canada.,inventors.csv,267
+inventors,train,entity_1a2f2aa449e7c761fc5276e83390842585b202b75823fdf281c5c6b70478d851,Christopher Cockerell,the U.K,"[""the U.K""]",False,1,Christopher Cockerell lived in the U.K.,inventors.csv,268
+inventors,train,entity_193f4e1b01adb117c03ef2f4ca937cfac4b60ba1d3f21baa64e811cccb638d06,Sir Charles Parsons,the U.K,"[""the U.K""]",False,1,Sir Charles Parsons lived in the U.K.,inventors.csv,269
+inventors,validation,entity_e652771a320786ae7fcb44b875abb50e5ec3a459a02a47c288b1afbf320f1efd,Henry Ford,the U.S,"[""the U.S""]",False,1,Henry Ford lived in the U.S.,inventors.csv,270
+inventors,train,entity_ea4e11aa4084638dcd6fd6bed1b54e387d4f4ddd40af06cb4d6464bbddf4dccf,Rudolf Kálmán,the U.K,"[""the U.K""]",False,0,Rudolf Kálmán lived in the U.K.,inventors.csv,271
+inventors,train,entity_18960ced1c71b828be2e3df0ed61cf4ae7829ba1c2588d8630339fc5b7a73472,Joseph Swan,the U.K,"[""the U.K""]",False,1,Joseph Swan lived in the U.K.,inventors.csv,272
+inventors,validation,entity_2b5e3955c8d70cc6299ec95f127c4de1b95ff62e6416016db6833e44410c4314,Richard Gatling,the U.S,"[""the U.S""]",False,1,Richard Gatling lived in the U.S.,inventors.csv,273
+inventors,validation,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,Ferdinand von Zeppelin,Germany,"[""Germany""]",False,1,Ferdinand von Zeppelin lived in Germany.,inventors.csv,274
+inventors,train,entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479,Karl Benz,Germany,"[""Germany""]",False,1,Karl Benz lived in Germany.,inventors.csv,275
+inventors,train,entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0,James Starley,the U.K,"[""the U.K""]",False,1,James Starley lived in the U.K.,inventors.csv,276
+inventors,train,entity_aafe1f1db38e64c59c92ed312e738d4fc29d7c6c1f9f0cf808ba0d278cc297f1,August Horch,Germany,"[""Germany""]",False,1,August Horch lived in Germany.,inventors.csv,277
+inventors,validation,entity_f249d194d83bf9f9f8e4af5ad5b4725f6080ed869483c7b3d6eae3b119b9e2e0,Charles Macintosh,the U.S,"[""the U.S""]",False,0,Charles Macintosh lived in the U.S.,inventors.csv,278
+inventors,validation,entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e,Heinrich Göbel,Germany,"[""Germany""]",False,1,Heinrich Göbel lived in Germany.,inventors.csv,279
+inventors,train,entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c,Marie Curie,Hungary,"[""Hungary""]",False,0,Marie Curie lived in Hungary.,inventors.csv,280
+inventors,train,entity_986fc708fc57f55e7487354b74a66a1423f5982c4c522af79f4d8504949ada5f,Igor Sikorsky,Ukraine/the U.S,"[""Ukraine"", ""the U.S""]",True,1,Igor Sikorsky lived in Ukraine/the U.S.,inventors.csv,281
+inventors,train,entity_1eab845712f1a4026efd4c41f2e2b5ad7c2ad14c5117ba92383fd229c9b8377e,Gustaf Dalén,Germany,"[""Germany""]",False,0,Gustaf Dalén lived in Germany.,inventors.csv,282
+inventors,train,entity_596720bc49c1137882ecf47fef1fe779befb6eaf6b68f072c3dd3e0900b440de,Eli Whitney,the U.S,"[""the U.S""]",False,1,Eli Whitney lived in the U.S.,inventors.csv,283
+inventors,train,entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632,Hippolyte Mège-Mouriès,France,"[""France""]",False,1,Hippolyte Mège-Mouriès lived in France.,inventors.csv,284
+inventors,validation,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,Ada Lovelace,the U.S,"[""the U.S""]",False,0,Ada Lovelace lived in the U.S.,inventors.csv,285
+inventors,train,entity_162096dd276925d4e85761141810e74e189ffc69d29b292beddb349e673d35eb,Spencer Silver,the U.S,"[""the U.S""]",False,1,Spencer Silver lived in the U.S.,inventors.csv,286
+inventors,train,entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8,Leon Theremin,Germany,"[""Germany""]",False,0,Leon Theremin lived in Germany.,inventors.csv,287
+inventors,train,entity_6c5d95e799d90a3d7db71d03712fb1d717c1a3a0ccd283472f029026ec4ea607,Emile Berliner,Germany/the U.S,"[""Germany"", ""the U.S""]",True,1,Emile Berliner lived in Germany/the U.S.,inventors.csv,288
+inventors,validation,entity_8818821c303ebaee995a998da2f8f5184faa7c32e9548ed2242b8a9bd9f2cd3e,Charles Wheatstone,the U.K,"[""the U.K""]",False,1,Charles Wheatstone lived in the U.K.,inventors.csv,289
+inventors,train,entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d,Biruté Galdikas,France,"[""France""]",False,0,Biruté Galdikas lived in France.,inventors.csv,290
+inventors,train,entity_5e9a51e451360ddad4b64f7e0ee5aa612bf0999c4e510d6783ed9afe5ab944fa,Samuel Fox,France,"[""France""]",False,0,Samuel Fox lived in France.,inventors.csv,291
+inventors,train,entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d,Biruté Galdikas,Canada,"[""Canada""]",False,1,Biruté Galdikas lived in Canada.,inventors.csv,293
+inventors,train,entity_a194566f08ad5b17675d15fc2f7c357060a41e14fce3074cd8b7a12544ce2f39,Daisuke Inoue,Japan,"[""Japan""]",False,1,Daisuke Inoue lived in Japan.,inventors.csv,294
+inventors,validation,entity_f964b69b76681a3f0fb0df8bb2e67c63d44e427b95272e593c1a64e22442c4bd,Albert Ghiorso,the U.K,"[""the U.K""]",False,0,Albert Ghiorso lived in the U.K.,inventors.csv,295
+inventors,train,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,Karl Landsteiner,Austria,"[""Austria""]",False,1,Karl Landsteiner lived in Austria.,inventors.csv,296
+inventors,validation,entity_3471ed3c6c0915f3c08a85c1bd8fe1ad6fd5b1f599ac9b886a7ca5b4eb860ffe,Joseph Henry,the U.K,"[""the U.K""]",False,0,Joseph Henry lived in the U.K.,inventors.csv,297
+inventors,validation,entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac,Galileo Galilei,the U.S,"[""the U.S""]",False,0,Galileo Galilei lived in the U.S.,inventors.csv,298
+inventors,train,entity_7f5fe6fb86bf747d53506321a81af7d51f9b13fe9a2c9b0f503315750cb1e75c,Linus Torvalds,Finland,"[""Finland""]",False,1,Linus Torvalds lived in Finland.,inventors.csv,299
+inventors,train,entity_7e1ac3ec55a6dd8156614391e664c58d64ef348f6824841ad3e8f5b7d14a23e9,Ami Argand,the U.S,"[""the U.S""]",False,0,Ami Argand lived in the U.S.,inventors.csv,300
+inventors,validation,entity_3c8e904620f782e5e995c990d06ee6fdfde2e275d1ea6050c67fa1fb1d63b2d0,André-Jacques Garnerin,the Netherlands,"[""the Netherlands""]",False,0,André-Jacques Garnerin lived in the Netherlands.,inventors.csv,301
+inventors,train,entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd,Levi Strauss,the U.S,"[""the U.S""]",False,1,Levi Strauss lived in the U.S.,inventors.csv,302
+inventors,train,entity_d7755c24c57984f0e5402622c6fcf0d1addc6901382f97082aab6ca96fd59482,Alessandro Volta,the U.S,"[""the U.S""]",False,0,Alessandro Volta lived in the U.S.,inventors.csv,303
+inventors,train,entity_d6fe1351fd22178cfda129b2ed29de0890584483146a6e930d5210754d74ee91,Edouard Benedictus,France,"[""France""]",False,1,Edouard Benedictus lived in France.,inventors.csv,304
+inventors,train,entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc,Arthur Fry,France,"[""France""]",False,0,Arthur Fry lived in France.,inventors.csv,305
+inventors,train,entity_32cd536dc933504c11fed6dbba34afe89cd0552403f90f9abeb4a48f27c8f880,Charles Townes,the U.S,"[""the U.S""]",False,1,Charles Townes lived in the U.S.,inventors.csv,306
+inventors,validation,entity_b6fb097d878ac7342b2e225c8cdeb5fede6b75a16fa2c5267dc5ba662fbf1035,Ralph H. Baer,France,"[""France""]",False,0,Ralph H. Baer lived in France.,inventors.csv,307
+inventors,train,entity_648cc769ef46f12124cad6cfbb5560de64cd5a5e8c61ed5a2384b9f66103c5cb,Reginald Fessenden,Canada/the U.S,"[""Canada"", ""the U.S""]",True,1,Reginald Fessenden lived in Canada/the U.S.,inventors.csv,308
+inventors,train,entity_2893aa6253722d064f89b95bfdab30ec1a3b479197fef9e96abef5ae6a4fb1da,Antoine Lavoisier,Austria,"[""Austria""]",False,0,Antoine Lavoisier lived in Austria.,inventors.csv,309
+inventors,train,entity_241aa31960ce752aa41aff5636de469e2790ce7461e15ad0c3ee430f3d04c1ec,Karl Landsteiner,the U.K,"[""the U.K""]",False,0,Karl Landsteiner lived in the U.K.,inventors.csv,311
+inventors,train,entity_648cc769ef46f12124cad6cfbb5560de64cd5a5e8c61ed5a2384b9f66103c5cb,Reginald Fessenden,the U.K,"[""the U.K""]",False,0,Reginald Fessenden lived in the U.K.,inventors.csv,312
+inventors,train,entity_5072e2006427b892d26836ed6763295a988a5730656386442ae299ddd741af05,John Shepherd-Barron,the U.S,"[""the U.S""]",False,0,John Shepherd-Barron lived in the U.S.,inventors.csv,313
+inventors,train,entity_9a5cc522c464ad73e9e4dcacbada81be0e38165fea30ffd9b18b518212b9e133,Frank Bunker Gilbreth,Russia,"[""Russia""]",False,0,Frank Bunker Gilbreth lived in Russia.,inventors.csv,314
+inventors,train,entity_a194566f08ad5b17675d15fc2f7c357060a41e14fce3074cd8b7a12544ce2f39,Daisuke Inoue,the U.S,"[""the U.S""]",False,0,Daisuke Inoue lived in the U.S.,inventors.csv,315
+inventors,train,entity_02037e7a37cc7ff0c61436dc6d273f65ddee800a5e40dee7964578119c086b9a,Tim Berners-Lee,the U.K,"[""the U.K""]",False,1,Tim Berners-Lee lived in the U.K.,inventors.csv,317
+inventors,train,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,Charles Francis Jenkins,the U.S,"[""the U.S""]",False,1,Charles Francis Jenkins lived in the U.S.,inventors.csv,318
+inventors,validation,entity_4dce103e107687e2284e09458d41c768ae88022d938580f00e2fedb13d278fa2,Jean-Bernard-Léon Foucault,the U.S,"[""the U.S""]",False,0,Jean-Bernard-Léon Foucault lived in the U.S.,inventors.csv,319
+inventors,train,entity_58bb472918f68fec5bc72248fe17ff5687238d3c4cb8b64e07af31794ede403f,Wilhelm Conrad Röntgen,Germany,"[""Germany""]",False,1,Wilhelm Conrad Röntgen lived in Germany.,inventors.csv,320
+inventors,train,entity_745fcae09c2f7949e4a47e3fc90e36f571af5286f21c644b22ea13661bbe5626,Christian Huygens,Scotland,"[""Scotland""]",False,0,Christian Huygens lived in Scotland.,inventors.csv,321
+inventors,validation,entity_bc0220be2bdd8b82a606837c21221687afe5fcf787f7a6b111c0fe09f43276c9,Ada Lovelace,the U.K,"[""the U.K""]",False,1,Ada Lovelace lived in the U.K.,inventors.csv,322
+inventors,train,entity_ce2d336e72d3c673fc2e5481f3f854fea1f26de9d65f998d4d94e207a2f8f516,Philo Taylor Farnsworth,the U.S,"[""the U.S""]",False,1,Philo Taylor Farnsworth lived in the U.S.,inventors.csv,323
+inventors,train,entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7,Sergey Brin and Larry Page,the U.S,"[""the U.S""]",False,1,Sergey Brin and Larry Page lived in the U.S.,inventors.csv,324
+inventors,train,entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe,Hans Geiger,Germany,"[""Germany""]",False,1,Hans Geiger lived in Germany.,inventors.csv,325
+inventors,validation,entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446,Evangelista Torricelli,Italy,"[""Italy""]",False,1,Evangelista Torricelli lived in Italy.,inventors.csv,326
+inventors,validation,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,Daniel Fahrenheit,the U.S,"[""the U.S""]",False,0,Daniel Fahrenheit lived in the U.S.,inventors.csv,328
+inventors,train,entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160,Shinya Yamanaka,Japan,"[""Japan""]",False,1,Shinya Yamanaka lived in Japan.,inventors.csv,329
+inventors,train,entity_eb706b022ce9473cc6017b0f2a167a8aa1c393a0ec1572d1fb6c3f40fe2b3276,Giovanni Caselli,Italy,"[""Italy""]",False,1,Giovanni Caselli lived in Italy.,inventors.csv,330
+inventors,train,entity_2a1e667a5e632b81776f99a1c00c92c007ac583adb05c5c87739075510b708eb,Charles Francis Jenkins,Germany,"[""Germany""]",False,0,Charles Francis Jenkins lived in Germany.,inventors.csv,331
+inventors,train,entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d,Hedy Lamarr,Austria/the U.S,"[""Austria"", ""the U.S""]",True,1,Hedy Lamarr lived in Austria/the U.S.,inventors.csv,332
+inventors,train,entity_77f2eab973dc937f3fdbacafb9e691fd47a734618a1635f8686f71745fdb643d,Frederick McKinley Jones,the U.S,"[""the U.S""]",False,1,Frederick McKinley Jones lived in the U.S.,inventors.csv,333
+inventors,train,entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de,Konrad Zuse,Germany,"[""Germany""]",False,1,Konrad Zuse lived in Germany.,inventors.csv,336
+inventors,train,entity_3e4cf8e87cf9f813e3888cff3c888819d0427f39cfe75e7112cb168ef287deba,Jacob Perkins,the U.S,"[""the U.S""]",False,1,Jacob Perkins lived in the U.S.,inventors.csv,337
+inventors,validation,entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755,Charles Babbage,Hungary/the U.S,"[""Hungary"", ""the U.S""]",True,0,Charles Babbage lived in Hungary/the U.S.,inventors.csv,340
+inventors,validation,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,Hans von Ohain,Germany,"[""Germany""]",False,1,Hans von Ohain lived in Germany.,inventors.csv,341
+inventors,train,entity_1a2f2aa449e7c761fc5276e83390842585b202b75823fdf281c5c6b70478d851,Christopher Cockerell,France,"[""France""]",False,0,Christopher Cockerell lived in France.,inventors.csv,343
+inventors,validation,entity_c6eb7c66779bfacd9b7cf8ba339ed489f4e55062e1e3e26be20a92d67e2d676a,R. Buckminster Fuller,the U.S,"[""the U.S""]",False,1,R. Buckminster Fuller lived in the U.S.,inventors.csv,344
+inventors,validation,entity_139d3e2e593fa0f3f759a2512acdc431129eebca5b5f4acb837f03333e8beaf4,Thomas Tompion,the U.K,"[""the U.K""]",False,1,Thomas Tompion lived in the U.K.,inventors.csv,345
+inventors,train,entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229,Nicolas Appert,France,"[""France""]",False,1,Nicolas Appert lived in France.,inventors.csv,347
+inventors,train,entity_1b0f1f2bb5a919012ce64b1229b4eb31e552caa4f9f09251d317353ea8e55d2e,Wallace Carothers,Denmark,"[""Denmark""]",False,0,Wallace Carothers lived in Denmark.,inventors.csv,348
+inventors,train,entity_9dec60ca8cd521ca2f8dfd23591c5056042417fbff2c86962b679015f9de9ef6,Carl Sontheimer,the U.S,"[""the U.S""]",False,1,Carl Sontheimer lived in the U.S.,inventors.csv,349
+inventors,train,entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479,Karl Benz,the U.S,"[""the U.S""]",False,0,Karl Benz lived in the U.S.,inventors.csv,350
+inventors,train,entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de,Konrad Zuse,Poland/France,"[""Poland"", ""France""]",True,0,Konrad Zuse lived in Poland/France.,inventors.csv,351
+inventors,train,entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8,James Clerk Maxwell,the U.K,"[""the U.K""]",False,1,James Clerk Maxwell lived in the U.K.,inventors.csv,352
+inventors,train,entity_672f7cfa7ff4e5ed1aeb347c9825809f55f8ec8b1ee5ee5f9deb9bf5b81eb610,Nikola Tesla,Germany,"[""Germany""]",False,0,Nikola Tesla lived in Germany.,inventors.csv,353
+inventors,train,entity_831706aa554f0314dbd07966ce512cb26a0462830465b7342bac1be64ef5548f,James Murray Spangler,the U.S,"[""the U.S""]",False,1,James Murray Spangler lived in the U.S.,inventors.csv,354
+inventors,train,entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1,John Wesley Hyatt,the U.K,"[""the U.K""]",False,0,John Wesley Hyatt lived in the U.K.,inventors.csv,355
+inventors,train,entity_d27e81df65d0f8aae07dc2193a2a832bdc791f40f614bf984b3cab2bdbe11646,Hans Goldschmidt,Germany,"[""Germany""]",False,1,Hans Goldschmidt lived in Germany.,inventors.csv,356
+inventors,train,entity_ceb47734883118ca624ed7051a8610023bb06792d4559ee7ace536e62cab7d39,Carl Elsener,Switzerland,"[""Switzerland""]",False,1,Carl Elsener lived in Switzerland.,inventors.csv,357
+inventors,validation,entity_0ee34ff2c7e6084ac680e9f355836188aa17b6b1784f1c9351fcea08cbe9e07f,Charles Tellier,France,"[""France""]",False,1,Charles Tellier lived in France.,inventors.csv,359
+inventors,train,entity_286d104c7c6961210bb320b1e924a0bd426bed45228d66ae0be58dee17a8cadd,George de Mestral,Canada,"[""Canada""]",False,0,George de Mestral lived in Canada.,inventors.csv,361
+inventors,train,entity_193f4e1b01adb117c03ef2f4ca937cfac4b60ba1d3f21baa64e811cccb638d06,Sir Charles Parsons,the U.S,"[""the U.S""]",False,0,Sir Charles Parsons lived in the U.S.,inventors.csv,362
+inventors,train,entity_10382cd4e31dce56a2a3062d9805698584bdac124aec30425c8a4d5a6784f597,Henry Bessemer,the U.S,"[""the U.S""]",False,0,Henry Bessemer lived in the U.S.,inventors.csv,363
+inventors,validation,entity_3cc10d1cb884b9de43eb4ca32027d5275292c1cef31085d9fb2280f18e382bf6,James Dyson,Canada,"[""Canada""]",False,0,James Dyson lived in Canada.,inventors.csv,364
+inventors,validation,entity_aec8754dc4cdffe2afc82a85a14d93c643c5dc8b966b86964fa5a2887abeb83d,Jack Kilby,the U.K,"[""the U.K""]",False,0,Jack Kilby lived in the U.K.,inventors.csv,365
+inventors,train,entity_d326429a9e19909e428d59f450bd05175d3c81ec92af6b4fa24a57be924b6380,Joseph Marie Jacquard,France,"[""France""]",False,1,Joseph Marie Jacquard lived in France.,inventors.csv,366
+inventors,validation,entity_b62dadf04b8257cddafb6664198b81d8cdc9597de046402994a7dde2fe8bfa19,Sir Humphry Davy,the U.S,"[""the U.S""]",False,0,Sir Humphry Davy lived in the U.S.,inventors.csv,368
+inventors,train,entity_03a350a0ce7415f7e8672d344046f2e276f263693add65c1b1a43c9740f9af16,Bartolomeo Cristofori,the U.S,"[""the U.S""]",False,0,Bartolomeo Cristofori lived in the U.S.,inventors.csv,371
+inventors,train,entity_9240a6a1cd754b779e934a1c8d1b230b9a491b0438f9c36687c95a2bdfe524b9,Mary Walton,the U.S,"[""the U.S""]",False,1,Mary Walton lived in the U.S.,inventors.csv,372
+inventors,train,entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e,Felix Hoffmann,Germany,"[""Germany""]",False,1,Felix Hoffmann lived in Germany.,inventors.csv,373
+inventors,validation,entity_56d3f85265980f42817410504d35f1babf3acd2cecfb4ae9b9de4f78af7bff96,Lester Wire,the U.K,"[""the U.K""]",False,0,Lester Wire lived in the U.K.,inventors.csv,374
+inventors,train,entity_6c538714f9589781a35a32ac7de0ca2d87e13f3e096c469b5a1ee164600b2705,Frederick G. Creed,Canada,"[""Canada""]",False,1,Frederick G. Creed lived in Canada.,inventors.csv,375
+inventors,validation,entity_ce16964913ec67021826414115d9f0ba8433c02eb56061629a63e4079dd1063b,Hans von Ohain,Canada,"[""Canada""]",False,0,Hans von Ohain lived in Canada.,inventors.csv,376
+inventors,train,entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d,Yvonne Brill,the U.S,"[""the U.S""]",False,0,Yvonne Brill lived in the U.S.,inventors.csv,378
+inventors,train,entity_81a29955ba4bdce0115c355dade1f76cbee0875e6fb95fe71bcc57d1fec349ec,Pierre Curie,France,"[""France""]",False,1,Pierre Curie lived in France.,inventors.csv,379
+inventors,train,entity_a156cfb5b11123b77d020d78ec914d1d4d8d3996b8e52b94780b86fac48cc036,Nikolay Slavyanov,Russia,"[""Russia""]",False,1,Nikolay Slavyanov lived in Russia.,inventors.csv,381
+inventors,validation,entity_b7e2c4e013cdd42301473e08b120cf95051567dfbe59d6a00cd3f3399bba3c27,Dr. Robert Gallo,the U.S,"[""the U.S""]",False,1,Dr. Robert Gallo lived in the U.S.,inventors.csv,382
+inventors,validation,entity_d6584b250484b911f63edeaea00bb5b278b657a74db0366fe4f86017072b9554,Samuel Morse,the U.S,"[""the U.S""]",False,1,Samuel Morse lived in the U.S.,inventors.csv,384
+inventors,validation,entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c,Daniel Fahrenheit,Poland/Germany,"[""Poland"", ""Germany""]",True,1,Daniel Fahrenheit lived in Poland/Germany.,inventors.csv,385
+inventors,train,entity_c6978e8a9fadc39d34b9be8dc1d9c156c0c8d061bdb2ed2ebe28abdfc66e974d,John Logie Baird,Scotland,"[""Scotland""]",False,1,John Logie Baird lived in Scotland.,inventors.csv,386
+inventors,train,entity_f6f34f4580e9afcc5ced5bd21f545c4a4c0d66aa7fa66673fff7f1010b3f9454,Henri Giffard,France,"[""France""]",False,1,Henri Giffard lived in France.,inventors.csv,387
+inventors,train,entity_bfbdda92901afedb931b6aad6b8ddfa98f210d0b07c5bfb64b13d1dafa6a4b4e,Eugene Polley,the U.S,"[""the U.S""]",False,1,Eugene Polley lived in the U.S.,inventors.csv,388
+inventors,train,entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f,Zhores Alferov,Russia,"[""Russia""]",False,1,Zhores Alferov lived in Russia.,inventors.csv,389
+inventors,train,entity_1c08972b7a7e540fb698af9bfde88a4655008f24ea2ebbf23e1b89e26c198fe3,Ferdinand Carré,France,"[""France""]",False,1,Ferdinand Carré lived in France.,inventors.csv,390
+inventors,train,entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366,Richard Trevithick,the U.K,"[""the U.K""]",False,1,Richard Trevithick lived in the U.K.,inventors.csv,391
+inventors,train,entity_ed509071c1145375acc32adb69779c63056787175d3569540299db81bc677d80,John Walker,the U.K,"[""the U.K""]",False,1,John Walker lived in the U.K.,inventors.csv,393
+inventors,validation,entity_71ea87aa3d8cb80f916869fb07b5fe9f451020f2c6d7c598f507d5f8d9c64b12,Semyon Kirlian,the U.K,"[""the U.K""]",False,0,Semyon Kirlian lived in the U.K.,inventors.csv,394
+inventors,train,entity_2be0fc771238e340785e2bca198cd06b6ae95d0012efb440143d89101fcabb21,Mary Phelps Jacob,Ukraine/the U.S,"[""Ukraine"", ""the U.S""]",True,0,Mary Phelps Jacob lived in Ukraine/the U.S.,inventors.csv,396
+inventors,validation,entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9,Luther Simjian,the U.S,"[""the U.S""]",False,0,Luther Simjian lived in the U.S.,inventors.csv,397
+inventors,train,entity_cbe3537738418842574d11e96d67ebfb5e4bfe3b269ec9ec49e47e865905e20f,Benjamin Rubin,the U.S,"[""the U.S""]",False,1,Benjamin Rubin lived in the U.S.,inventors.csv,398
+inventors,train,entity_78f19d21d14dd9d6073f64b47abb97c98cba199e992f02388171b73ed96795eb,Godfrey Hounsfield,the U.K,"[""the U.K""]",False,1,Godfrey Hounsfield lived in the U.K.,inventors.csv,400
+inventors,validation,entity_830b1885955d1ea7c20a80a16076e78e9caedbc946e0a201b2c7e653a6ddb955,Ferdinand von Zeppelin,France,"[""France""]",False,0,Ferdinand von Zeppelin lived in France.,inventors.csv,403
+inventors,train,entity_b3cc7cae44884fe2e0525e0fad6ecda297cf7f6e46c279ae04a46b3e4dcc0e95,Auguste and Louis Lumière,France,"[""France""]",False,1,Auguste and Louis Lumière lived in France.,inventors.csv,404
+inventors,train,entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4,Thomas Edison,the U.K,"[""the U.K""]",False,0,Thomas Edison lived in the U.K.,inventors.csv,405
+inventors,train,entity_5af84507344c54756347766a5575d9c6f362f41b920ef3da3683237067d289e9,Cai Lun,China,"[""China""]",False,1,Cai Lun lived in China.,inventors.csv,406

@@ -11,6 +11,7 @@ from pathlib import Path
 from types import MappingProxyType
 
 from src.data import ENTITY_PATTERNS
+from src.inventor_country_semantics import eligible_country_pool, eligible_false_country
 from src.entity_partitions import (
     SPLITS, TOPICS, TRUE_OBJECT_PATTERNS, canonical_json, csv_bytes, entity_id, sha256,
 )
@@ -122,11 +123,14 @@ def unordered_pair_id(manifest, left_id, right_id, split):
     return stable_id("pair", [a.topic, [a.entity_id, b.entity_id]])
 
 
-def sample_pairs(manifest, topic, split, count, seed):
+def sample_pairs(manifest, topic, split, count, seed, *, eligible_entity_ids=None):
     """Hash-rank unique unordered candidates; no rejection loop or split assignment."""
     check(type(count) is int and count >= 0, "pair count must be a nonnegative integer")
     check(type(seed) is int, "pair-sampling seed must be an integer")
     entities = manifest.eligible(topic, split)
+    if eligible_entity_ids is not None:
+        check(set(eligible_entity_ids) <= {e.entity_id for e in entities}, "ineligible pair sampling entity")
+        entities = [e for e in entities if e.entity_id in eligible_entity_ids]
     capacity = len(entities) * (len(entities) - 1) // 2
     check(count <= capacity,
           f"{topic}/{split}: requested {count} pairs, capacity {capacity} from {len(entities)} usable entities")
@@ -155,12 +159,24 @@ def render_binary(first, second, operator):
 
 
 class CompoundGenerator:
-    def __init__(self, manifest, source_dir, split, generation_seed, template_version):
+    def __init__(self, manifest, source_dir, split, generation_seed, template_version, *, negative_registry=None):
         check(split in SPLITS, "unknown requested split")
         check(type(generation_seed) is int, "generation seed must be an integer")
         check(template_version == TEMPLATE_VERSION, "unsupported template version")
         self.manifest, self.source_dir, self.split = manifest, Path(source_dir), split
         self.seed, self.template_version = generation_seed, template_version
+        self.negative_registry = negative_registry
+        self.unavailable_entities = {}
+        self.inventor_semantics_applied = False
+        if negative_registry is not None:
+            from src.validated_negatives import ValidatedNegativeRegistry, development_only
+            development_only(split)
+            check(isinstance(negative_registry, ValidatedNegativeRegistry), "verified negative registry required")
+            check(negative_registry.manifest.digest == manifest.digest and negative_registry.split == split,
+                  "negative registry manifest/split mismatch")
+            self.unavailable_entities = {identity: "no accepted negative" for topic in TOPICS
+                                         for identity, available in negative_registry.availability(topic).items()
+                                         if not available}
         self._facts, self.source_hashes = {}, {}
 
     def _load_facts(self, topic):
@@ -187,9 +203,23 @@ class CompoundGenerator:
         check(all(len(v) == 1 for v in objects.values()), "usable entity lacks a unique true object")
         correct = {e: next(iter(v)) for e, v in objects.items()}
         pool = sorted(set(correct.values()))
+        if topic == "inventors":
+            self.inventor_semantics_applied = any("/" in value or " ".join(value.split()) != value for value in pool)
         facts = {}
         for entity, record in eligible.items():
-            candidates = [obj for obj in pool if obj != correct[entity]]
+            if self.negative_registry is not None:
+                statement = true_statements[entity]
+                fid = stable_id("fact", [topic, record.entity_id, statement, True])
+                facts[(record.entity_id, True)] = Fact(fid, statement, True)
+                negative = self.negative_registry.selected(record.entity_id)
+                if negative is not None:
+                    if topic == "inventors":
+                        check(eligible_false_country(negative["candidate_object"], objects[entity]),
+                              "unsafe inventor negative: slash value or known-true country overlap; rebuild registry")
+                    facts[(record.entity_id, False)] = Fact(negative["fact_id"], negative["statement"], False)
+                continue
+            candidates = ([obj for obj in eligible_country_pool(correct.values()) if eligible_false_country(obj, objects[entity])]
+                          if topic == "inventors" else [obj for obj in pool if obj != correct[entity]])
             check(bool(candidates), f"{topic}/{self.split}: no distinct within-split wrong object")
             wrong = min(candidates, key=lambda obj: (
                 sha256(canonical_json(["wrong-object-v1", self.seed, topic, record.entity_id, obj])), obj))
@@ -210,6 +240,8 @@ class CompoundGenerator:
         operator = operator.upper()
         label = boolean_truth(operator, (truth_a, truth_b))
         facts = self._load_facts(a.topic)
+        check((a.entity_id, truth_a) in facts and (b.entity_id, truth_b) in facts,
+              "entity unavailable: no accepted validated negative for requested false constituent")
         fa, fb = facts[(a.entity_id, truth_a)], facts[(b.entity_id, truth_b)]
         first, second = ((a, fa), (b, fb)) if ordering == "AB" else ((b, fb), (a, fa))
         statement = render_binary(first[1].statement, second[1].statement, operator)
@@ -267,11 +299,20 @@ def build_generation(config, base_dir):
     check(bool(requested) and set(requested) <= set(TOPICS), "invalid pairs_per_topic")
     base = Path(base_dir)
     manifest = EntityManifest(base / config["entity_manifest"], base / config["entity_manifest_metadata"])
+    registry = None
+    if "validated_negatives" in config:
+        from src.validated_negatives import development_only, load_registry
+        development_only(config["split"])
+        options = config["validated_negatives"]
+        check(set(options) == {"config", "registry_dir"}, "validated mode requires config and registry_dir")
+        negative_config = json.loads((base / options["config"]).read_text())
+        registry = load_registry(negative_config, base, config["split"], base / options["registry_dir"])
     generator = CompoundGenerator(manifest, base / config["source_dir"], config["split"],
-                                  config["generation_seed"], config["template_version"])
+                                  config["generation_seed"], config["template_version"], negative_registry=registry)
     # Check and sample every requested topic before loading facts or generating rows.
     pairs = {topic: sample_pairs(manifest, topic, config["split"], requested[topic],
-                                 config["pair_sampling_seed"])
+                                 config["pair_sampling_seed"], eligible_entity_ids=None if registry is None else
+                                 {identity for identity, available in registry.availability(topic).items() if available})
              for topic in sorted(requested)}
     rows = [row for topic in sorted(pairs) for a, b in pairs[topic]
             for row in generator.standard_r1_pair(a, b)]
@@ -294,6 +335,15 @@ def build_generation(config, base_dir):
                               "pair_capacity", "canonical_surface_alignment", "boolean_labels",
                               "sixteen_variants_per_pair", "unique_example_ids", "requested_counts"],
     }
+    if generator.inventor_semantics_applied:
+        from src.inventor_country_semantics import SEMANTICS_VERSION
+        metadata["inventor_country_semantics"] = SEMANTICS_VERSION
+    if registry is not None:
+        metadata.update({"false_fact_algorithm": "lowest candidate rank with accepted registry status only",
+                         "false_object_pool": registry.provenance["candidate_pool"],
+                         "validated_negatives": {**registry.provenance, "registry_sha256": registry.digest,
+                                                 "unavailable_entities": generator.unavailable_entities}})
+        metadata["assertions_passed"].append("accepted_registry_negatives_only")
     return {"compounds.csv": output,
             "metadata.json": (json.dumps(metadata, ensure_ascii=False, sort_keys=True, indent=2)
                               + "\n").encode("utf-8")}

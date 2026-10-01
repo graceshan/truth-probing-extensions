@@ -1,0 +1,34 @@
+{
+  "batch_sha256": "90eeeaf93de54ba2a5230b6ff415dd8af975e9e73c86a46682e217997424e093",
+  "batch_version": "validation-negative-review-batch-v1",
+  "entity_manifest_sha256": "2e19ef83083be999a8d1e4dfa6bad009154ebb6353e5497342ab8fb766c9e68b",
+  "entity_manifest_version": 1,
+  "entity_scope": "all eligible",
+  "factual_judgments_added": false,
+  "model_or_probe_outputs_used": false,
+  "negative_candidate_seed": 0,
+  "next_batch_rule": "accepted entities disappear; unreviewed stays; rejection advances exactly one rank or exhausts queue",
+  "previous_batch_sha256": null,
+  "ranking_version": "negative-candidate-v1",
+  "registry_modified": false,
+  "registry_sha256": "47c7e9e2fda6cf2b4c9ab37fca924f621d7a28bffc9e49fc1e0605b42e2ba201",
+  "registry_version": "validated-negative-registry-v2",
+  "row_count": 14,
+  "selection_rule": "one lowest-ranked unverified candidate per entity without any accepted negative",
+  "source_audit_sha256": "4317b8bb6c7abaa53d4320021adc8905e86b9654fbc17a4de50bb02328b6dddf",
+  "split": "validation",
+  "summary": [
+    {
+      "compound_usable_validation_entities": 45,
+      "entities_with_accepted_negative": 31,
+      "entities_without_accepted_negative": 14,
+      "entities_without_unverified_candidate": 0,
+      "review_batch_candidates": 14,
+      "topic": "inventors"
+    }
+  ],
+  "test_candidates_exported": 0,
+  "topic_scope": [
+    "inventors"
+  ]
+}

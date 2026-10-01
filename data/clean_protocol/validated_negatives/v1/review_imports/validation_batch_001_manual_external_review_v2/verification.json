@@ -1,0 +1,52 @@
+{
+  "activation_file_sizes_and_mtimes_unchanged": 58,
+  "additional_rows_changed": 58,
+  "all_inventor_registry_rows_unchanged": true,
+  "batch_001_manually_accepted_rows": 74,
+  "batch_001_unresolved_rows": 13,
+  "batch_001_unresolved_topics": [
+    "inventors"
+  ],
+  "candidate_ranks_entity_ids_fact_ids_and_queues_unchanged": true,
+  "changed_by_topic": {
+    "cities": 24,
+    "sp_en_trans": 34
+  },
+  "changed_fields": [
+    "validation_status",
+    "evidence_source",
+    "evidence_note",
+    "reviewer_or_method",
+    "validation_version"
+  ],
+  "compounds_generated": false,
+  "country_name_wording_differences": [
+    {
+      "comparison": "country_name_wording_difference",
+      "entity": "Uskudar",
+      "evidence_source": "Turkish government / Üsküdar district",
+      "externally_verified_country": "Türkiye",
+      "source_recorded_true_country": "Turkey"
+    },
+    {
+      "comparison": "country_name_wording_difference",
+      "entity": "Abu Dhabi",
+      "evidence_source": "Official UAE Government",
+      "externally_verified_country": "United Arab Emirates",
+      "source_recorded_true_country": "the United Arab Emirates"
+    }
+  ],
+  "input_registry_sha256": "39ea624e12c6dc129a65fec3339c3a6e9d65d8b95149842d7e689ce108f2d76a",
+  "model_or_probe_outputs_used": false,
+  "next_review_batch_generated": false,
+  "output_registry_sha256": "b64e409e21adea0000633df924a4edca443d79d00bfb0420fbc41ce86073fa0f",
+  "prior_accepted_rows_preserved_exactly": 16,
+  "protected_file_hashes_and_mtimes_unchanged": 304,
+  "registry_validation_passed": true,
+  "source_and_external_evidence_distinguished": true,
+  "split": "validation",
+  "test_candidates_accessed": false,
+  "total_registry_rows": 8735,
+  "unrelated_registry_rows_unchanged": 8677,
+  "unresolved_country_mismatches": []
+}

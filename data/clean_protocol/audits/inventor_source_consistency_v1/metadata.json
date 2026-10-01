@@ -1,0 +1,80 @@
+{
+  "audit_version": "inventor-source-consistency-v1",
+  "cohort": "all previously source_supported_false inventor candidates in supplied non-test registries",
+  "compounds_generated": false,
+  "demoted_entities": [
+    {
+      "entity": "Gideon Sundback",
+      "fact_id": "fact_323af28cfc715e31ab8ce42b5cfd95347ea1b757560d43a563e62cb2843cfec7",
+      "split": "train"
+    },
+    {
+      "entity": "Hedy Lamarr",
+      "fact_id": "fact_babafa41196d9374c46fd2ddd2a72601481e3fc81cd151e18a8c64d029e6c28c",
+      "split": "train"
+    },
+    {
+      "entity": "Igor Sikorsky",
+      "fact_id": "fact_27886d2e111bbd268b439842529eabc114c74bc82549d53a15f1d7596f510331",
+      "split": "train"
+    },
+    {
+      "entity": "Maria Telkes",
+      "fact_id": "fact_eacd0fb2391746682998cc676880d2284fcd993dc313b78334756a57b11a8388",
+      "split": "train"
+    },
+    {
+      "entity": "Mary Phelps Jacob",
+      "fact_id": "fact_fdcddb43ad2f2f8e5917e269444f2a6456bdd9ec0e2c71d673a8548124dbe2ed",
+      "split": "train"
+    },
+    {
+      "entity": "Robert Moog",
+      "fact_id": "fact_19ae04e81cc55aa0c9f717483600f337e1bf109a4d1c7252064f810302d70ad8",
+      "split": "train"
+    },
+    {
+      "entity": "Luther Simjian",
+      "fact_id": "fact_7109d001b7354bd49e98927621b69df69ed26aba3afc98a2c611a96b81f92927",
+      "split": "validation"
+    }
+  ],
+  "luther_is_only_non_test_case": false,
+  "manual_inventor_reviews_imported": false,
+  "precedence": [
+    "any_known_true_component_overlap",
+    "exact_raw_false_source_proposition",
+    "unverified"
+  ],
+  "raw_source_labels_preserved": true,
+  "registry_hashes": {
+    "train": "8cddcfa746b7ac4552225f82019ea7ce6cc01a857a5900ac22b441866c976c25",
+    "validation": "b64e409e21adea0000633df924a4edca443d79d00bfb0420fbc41ce86073fa0f"
+  },
+  "summaries": [
+    {
+      "additional_slash_only_exclusions": 4,
+      "demoted_known_true_overlap": 6,
+      "eligible_source_supported_false_remaining": 95,
+      "previously_source_supported_false": 105,
+      "source_supported_false_after_truth_check": 99,
+      "split": "train"
+    },
+    {
+      "additional_slash_only_exclusions": 0,
+      "demoted_known_true_overlap": 1,
+      "eligible_source_supported_false_remaining": 31,
+      "previously_source_supported_false": 32,
+      "source_supported_false_after_truth_check": 31,
+      "split": "validation"
+    }
+  ],
+  "test_candidate_queues_accessed": false,
+  "totals": {
+    "additional_slash_only_exclusions": 4,
+    "demoted_known_true_overlap": 7,
+    "eligible_source_supported_false_remaining": 126,
+    "previously_source_supported_false": 137,
+    "source_supported_false_after_truth_check": 130
+  }
+}

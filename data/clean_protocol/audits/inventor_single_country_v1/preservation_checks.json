@@ -1,0 +1,13 @@
+{
+  "all_74_manual_judgments_identical": true,
+  "all_8330_noninventor_rows_identical": true,
+  "compounds_generated": false,
+  "inventor_candidates_all_single_country_and_no_known_true_overlap": true,
+  "manual_inventor_reviews_imported": false,
+  "protected_file_hashes_and_mtimes_unchanged": 307,
+  "registry_and_audit_deterministically_reproduced": true,
+  "review_batch_all_rank_one_unverified": true,
+  "review_batch_only_original_13_inventors": true,
+  "review_batch_rows": 13,
+  "test_facts_inspected": false
+}

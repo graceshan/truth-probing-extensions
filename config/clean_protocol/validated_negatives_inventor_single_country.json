@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "negative_candidate_seed": 0,
+  "ranking_version": "negative-candidate-v1",
+  "registry_version": "validated-negative-registry-v2",
+  "validation_version": "negative-validation-v1",
+  "entity_manifest": "data/clean_protocol/entity_partitions/manifest.csv",
+  "entity_manifest_metadata": "data/clean_protocol/entity_partitions/metadata.json",
+  "source_audit_dir": "data/clean_protocol/audits/source_negatives_v1",
+  "source_audit_files": {
+    "metadata.json": "769560e956ab732dc01bc9b67e17f8b4f5baba6091df0979c75bea15d76300f6",
+    "entity_knowledge.csv": "1795fd86974bea9489ca6da4bdba66d38813176f818909c36fe5ac6a58f5ddd7",
+    "candidate_audit.csv": "07bba49fb46e4c3af43ec646dd27f0734d742a7784225ff5e8d903cc7e2e0dce"
+  },
+  "output_dir": "data/clean_protocol/validated_negatives/v1",
+  "inventor_country_semantics": "inventor-single-country-v1",
+  "inventor_source_file": "data/tiu_datasets/inventors.csv"
+}

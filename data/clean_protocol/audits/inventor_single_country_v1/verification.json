@@ -1,0 +1,14 @@
+{
+  "additional_newly_unavailable_entities": [
+    {
+      "entity": "Luther Simjian",
+      "entity_id": "entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9"
+    }
+  ],
+  "all_noninventor_registry_rows_unchanged": true,
+  "compounds_generated": false,
+  "manual_inventor_judgments_imported": 0,
+  "prior_74_fact_ids_ranks_statuses_and_all_fields_unchanged": true,
+  "review_batch_entities": 13,
+  "test_facts_accessed": false
+}

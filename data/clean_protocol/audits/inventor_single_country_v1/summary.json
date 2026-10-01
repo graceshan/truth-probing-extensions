@@ -1,0 +1,129 @@
+{
+  "added_single_country_candidates": 88,
+  "compounds_generated": false,
+  "excluded_candidates": 90,
+  "inventor_source_sha256": "6990771f01efcbae18bfa3960facbe36c39199f850f407540548a9c04339084c",
+  "manual_inventor_judgments_imported": false,
+  "new_candidate_count": 403,
+  "new_registry_sha256": "47c7e9e2fda6cf2b4c9ab37fca924f621d7a28bffc9e49fc1e0605b42e2ba201",
+  "newly_invalid_known_true": 27,
+  "newly_unavailable_entities": [
+    {
+      "entity": "Luther Simjian",
+      "entity_id": "entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9"
+    }
+  ],
+  "old_candidate_count": 405,
+  "old_registry_sha256": "b64e409e21adea0000633df924a4edca443d79d00bfb0420fbc41ce86073fa0f",
+  "rank_one_changes": 17,
+  "removed_previously_accepted_candidates": [
+    {
+      "candidate_components": "[\"the U.S\"]",
+      "eligible_single_country_negative": false,
+      "entity": "Luther Simjian",
+      "entity_id": "entity_ad0f76b68a06b055bd0a3410070ce3c38668ff488c51ba531d80d9fcc2a179e9",
+      "excluded": true,
+      "exclusion_reasons": "[\"known_true_overlap\"]",
+      "fact_id": "fact_7109d001b7354bd49e98927621b69df69ed26aba3afc98a2c611a96b81f92927",
+      "known_true_components": "[\"Turkey\", \"the U.S\"]",
+      "old_candidate_rank": 2,
+      "old_source_classification": "supported_false",
+      "old_validation_status": "source_supported_false",
+      "overlap_components": "[\"the U.S\"]",
+      "raw_candidate_object": "the U.S",
+      "raw_known_true_objects": "[\"Turkey/the U.S\"]",
+      "semantic_classification": "invalid_known_true",
+      "split": "validation",
+      "topic": "inventors"
+    }
+  ],
+  "scope": "train/validation atomic source values; validation v2 registry candidates; no test facts",
+  "semantic_version": "inventor-single-country-v1",
+  "slash_values": [
+    {
+      "false_source_rows": 2,
+      "raw_object": "Austria/the U.S",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 2,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 0,
+      "raw_object": "Canada/the U.S",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 0,
+      "raw_object": "Germany/the U.S",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 1,
+      "raw_object": "Hungary/the U.S",
+      "source_splits": "[\"train\", \"validation\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 2,
+      "raw_object": "Poland/France",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 0,
+      "raw_object": "Poland/Germany",
+      "source_splits": "[\"validation\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 44
+    },
+    {
+      "false_source_rows": 1,
+      "raw_object": "Sweden/the U.S",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    },
+    {
+      "false_source_rows": 0,
+      "raw_object": "Turkey/the U.S",
+      "source_splits": "[\"train\", \"validation\"]",
+      "true_source_rows": 2,
+      "validation_candidates": 44
+    },
+    {
+      "false_source_rows": 1,
+      "raw_object": "Ukraine/the U.S",
+      "source_splits": "[\"train\"]",
+      "true_source_rows": 1,
+      "validation_candidates": 0
+    }
+  ],
+  "source_semantic_conflicts": 7,
+  "specific_exclusions": [
+    {
+      "candidate": "Turkey/the U.S",
+      "classification": "invalid_known_true",
+      "entity": "Henry Ford",
+      "excluded": true
+    },
+    {
+      "candidate": "Turkey/the U.S",
+      "classification": "unverified_negative",
+      "entity": "Hans von Ohain",
+      "excluded": true
+    },
+    {
+      "candidate": "Poland/Germany",
+      "classification": "unverified_negative",
+      "entity": "George Washington Carver",
+      "excluded": true
+    }
+  ],
+  "test_candidate_objects_inspected": 0
+}
