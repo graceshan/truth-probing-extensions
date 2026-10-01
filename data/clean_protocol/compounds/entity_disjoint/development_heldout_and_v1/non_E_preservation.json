@@ -1,0 +1,46 @@
+{
+  "A10_proposal.json": {
+    "sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "unchanged": true
+  },
+  "A15_proposal.json": {
+    "sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "unchanged": true
+  },
+  "P10_admitted_membership": {
+    "semantic_sha256": "4093c5e51f933046f1617983eccbc002898ebfacfc2d8a78043891eeea9b1fb4",
+    "unchanged": true
+  },
+  "P10_balanced_exposure": {
+    "semantic_sha256": "51d5965e1ccb714b27516fcdf5073b5ac45c9ff441bee6763fa459dba96b1eaf",
+    "unchanged": true
+  },
+  "P15_admitted_membership": {
+    "semantic_sha256": "d9fd47fe02f3331d7a73f164b1d9fa888b59cf9e8b12ce9f0e80017bd0359adf",
+    "unchanged": true
+  },
+  "P15_balanced_exposure": {
+    "semantic_sha256": "822232f9a3f771304c9268071f5fc6a760753200514b3b7e029b049e8c46145a",
+    "unchanged": true
+  },
+  "TC_completed_pairs.json": {
+    "sha256": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+    "unchanged": true
+  },
+  "outer_training_reference.csv": {
+    "sha256": "58f64f586832417dac66cd98e0ebbcafff712b9bd1e7a9326fba1a1aea02e603",
+    "unchanged": true
+  },
+  "train": {
+    "semantic_sha256": "ab18dbb0d3cfc2a18071e64ce70c471b1a2c05031e23b79f577f6435f218e55c",
+    "unchanged": true
+  },
+  "train_balanced_exposure": {
+    "semantic_sha256": "10d8a0ef121d532facf01f6b1bee0f0a6a756464b125599a7661e5e4992a1eac",
+    "unchanged": true
+  },
+  "validation": {
+    "semantic_sha256": "e94a6f9d55e4275b6b52b705e5b76ee1336ba084aad73a0cb83b21f79c7481f4",
+    "unchanged": true
+  }
+}

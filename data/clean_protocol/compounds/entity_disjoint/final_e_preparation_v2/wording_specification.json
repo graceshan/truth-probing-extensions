@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "condition_id": "and_both_following_v1",
+  "operator": "AND",
+  "prefix": "Both of the following are true: ",
+  "renderer": "\"Both of the following are true: \" + first + \" \" + second",
+  "provenance": {
+    "plan": "October plan",
+    "section": "9",
+    "quotation": "Both of the following are true: A. B.",
+    "authority": "User-supplied Section 9 quotation and explicit exact renderer in this task"
+  },
+  "constituents": "Complete audited constituent sentences in existing AB or BA surface order; preserve capitalization, punctuation and exact text.",
+  "held_out_from_compound_fitting": true,
+  "held_out_from_selection": true,
+  "final_evaluation_enabled": false,
+  "P_A_frozen": false
+}

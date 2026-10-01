@@ -1,0 +1,33 @@
+{
+  "P_A_frozen": false,
+  "extraction_launched": false,
+  "final_evaluation_enabled": false,
+  "historical_E_v1": {
+    "command": "python scripts/54_prepare_final_e_benchmark.py",
+    "exit_code": 0,
+    "saved_bytes_match": true
+  },
+  "manifest_sha256": {
+    "data/clean_protocol/compounds/entity_disjoint/development_heldout_and_v1/manifest.json": "ce8a5b447356349b0bdecd7be33424fc6a966a9208b25e913fc8838b9cf1d035",
+    "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/manifest.json": "59060b68c24b1da13cfe78d62c04f3858076cc7ed389f323f32d31aa2ba1d3a9"
+  },
+  "non_E_memberships_or_samplers_changed": false,
+  "preservation": {
+    "command": "python scripts/check_selection_repair_local_preservation.py --root \"$PWD\"",
+    "exit_code": 0,
+    "matched": 13,
+    "mismatched": 0,
+    "missing": 0
+  },
+  "regeneration": {
+    "command": "python scripts/58_prepare_heldout_and_wording.py",
+    "exit_code": 0,
+    "saved_bytes_match": true
+  },
+  "report_sha256": "391ee8a9e5c6d169306f70d9592c086a42836d66951b248cca28e7e0b3462c0a",
+  "schema_version": 1,
+  "subtests_passed": 50,
+  "test_command": "python -m pytest tests/test_heldout_and_wording.py tests/test_final_e_preparation.py tests/test_final_partition_fact_audit.py tests/test_clean_compounds.py tests/test_validation_compound_benchmark.py -q",
+  "test_exit_code": 0,
+  "tests_passed": 49
+}

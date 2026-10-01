@@ -1,0 +1,40 @@
+{
+  "activations_read": false,
+  "files": {
+    "D_constituent_map.csv": {
+      "authoritative_path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/constituent_map.csv",
+      "authority": "results/t2_canonical_sensitivity_v4_20261001/input_inventory.json",
+      "bytes": 1785830,
+      "sha256": "d48b27c488fec895812e0d2d260af98ce2d19471bde9461260e6e85e9c0ab4cc",
+      "source": "/Users/apple/truth-probing-backups/20261001T164224Z/restore_t1_staging_20261001T164224Z_kgkt5sy7/files/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/constituent_map.csv"
+    },
+    "D_isolated_facts.csv": {
+      "authoritative_path": "/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/isolated_facts.csv",
+      "authority": "results/t2_canonical_sensitivity_v4_20261001/input_inventory.json",
+      "bytes": 157524,
+      "sha256": "48f454b588222c3829bf0eecdf018f1f7d0acf9c532d6c3da60fd2896792b30a",
+      "source": "/Users/apple/truth-probing-backups/20261001T164224Z/restore_t1_staging_20261001T164224Z_kgkt5sy7/files/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/isolated_facts.csv"
+    },
+    "D_original_metadata.csv": {
+      "authoritative_path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv",
+      "authority": "results/t2_canonical_sensitivity_v4_20261001/input_inventory.json",
+      "bytes": 7277404,
+      "sha256": "96e96515e780086065694155e3061bdfe6f4bb80af062a63c2deecd6bfad6f94",
+      "source": "/Users/apple/truth-probing-backups/20261001T164224Z/restore_t1_staging_20261001T164224Z_kgkt5sy7/files/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv"
+    },
+    "development_fact_eligibility.csv": {
+      "authority": "results/t2_canonical_sensitivity_v4_20261001/preparation_receipt.json",
+      "bytes": 279842,
+      "sha256": "4c04a3dbaab5ebbef960787925c7690c2ca04f753fde947dc34264e80ce02f3d",
+      "source": "/Users/apple/projects/t2-canonical-sensitivity-v4-20261001/prepared/development_fact_eligibility.csv"
+    },
+    "development_pair_eligibility.csv": {
+      "authority": "results/t2_canonical_sensitivity_v4_20261001/preparation_receipt.json",
+      "bytes": 287249,
+      "sha256": "66eb04134b44e156435e4521a89abd74e81a42beaa81fbf91ec89660f342ea6b",
+      "source": "/Users/apple/projects/t2-canonical-sensitivity-v4-20261001/prepared/development_pair_eligibility.csv"
+    }
+  },
+  "metadata_only": true,
+  "predictions_read": false
+}
