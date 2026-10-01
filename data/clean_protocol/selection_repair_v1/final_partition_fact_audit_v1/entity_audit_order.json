@@ -1,0 +1,3382 @@
+[
+  {
+    "entity": "raccoon",
+    "entity_id": "entity_13dbeb5620bc7c2e30ca183d8f02462339a4e4795d7b8e6c29940d59e119d408",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_13dbeb5620bc7c2e30ca183d8f02462339a4e4795d7b8e6c29940d59e119d408",
+    "positive_source_id": "animal_class:3",
+    "positive_statement": "The raccoon is a mammal.",
+    "positive_statement_sha256": "015f3c094cc8e70b4eeddaa220099bfce02a38c1e1648aa19bd5e9be4a8aaed7",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "sparrow",
+    "entity_id": "entity_22cb332d026cbd05486ad774a4e83a4c9285d4c27a637fe16990c962f914ca74",
+    "known_true_objects": [
+      "bird"
+    ],
+    "person_key": "entity_22cb332d026cbd05486ad774a4e83a4c9285d4c27a637fe16990c962f914ca74",
+    "positive_source_id": "animal_class:158",
+    "positive_statement": "The sparrow is a bird.",
+    "positive_statement_sha256": "c5560f34633c45611bc84d5c0876c523119734e180ad5baf9f070c3005a1df0f",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "goldfish",
+    "entity_id": "entity_2f41b95a84fffda5247dc8f878ade85a62e98902d2fdc8bf02cb51da3cd89f7b",
+    "known_true_objects": [
+      "fish"
+    ],
+    "person_key": "entity_2f41b95a84fffda5247dc8f878ade85a62e98902d2fdc8bf02cb51da3cd89f7b",
+    "positive_source_id": "animal_class:93",
+    "positive_statement": "The goldfish is a fish.",
+    "positive_statement_sha256": "de02997c99b8598b12215f1d44eeb4fdfe85c4117359842d456707105004cf3d",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "lion",
+    "entity_id": "entity_5d80399abfae6906d20a7e5c5c47e01cd21173dd6593026f3ef47c100f0e7e84",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_5d80399abfae6906d20a7e5c5c47e01cd21173dd6593026f3ef47c100f0e7e84",
+    "positive_source_id": "animal_class:19",
+    "positive_statement": "The lion is a mammal.",
+    "positive_statement_sha256": "4df89ca70a39214c0120bd6de95661da4102aaee6918913f10aacac305a0e77b",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "goat",
+    "entity_id": "entity_72421257e0aa571e560bd817c9d908c0168ccf6d61809b851ec9e14eced5ac46",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_72421257e0aa571e560bd817c9d908c0168ccf6d61809b851ec9e14eced5ac46",
+    "positive_source_id": "animal_class:159",
+    "positive_statement": "The goat is a mammal.",
+    "positive_statement_sha256": "e0317462ed1ae37b37a9052380f0f9170ade3dc1141d0091b8462b65423e5046",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "penguin",
+    "entity_id": "entity_83829389b3aaabbb5deeadaebde825dc2afaff80585fe3a07a2309c678753cda",
+    "known_true_objects": [
+      "bird"
+    ],
+    "person_key": "entity_83829389b3aaabbb5deeadaebde825dc2afaff80585fe3a07a2309c678753cda",
+    "positive_source_id": "animal_class:21",
+    "positive_statement": "The penguin is a bird.",
+    "positive_statement_sha256": "fd273220ebc9d303c737cd189c54b4a28064d03abbd16cb44b7c86686529c58a",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "otter",
+    "entity_id": "entity_a6006e723f6ee47ef3d70ba87ae3775fdbce6066a1aaad6b78808ad0dda6f5d1",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_a6006e723f6ee47ef3d70ba87ae3775fdbce6066a1aaad6b78808ad0dda6f5d1",
+    "positive_source_id": "animal_class:129",
+    "positive_statement": "The otter is a mammal.",
+    "positive_statement_sha256": "045cbd055d9f55c5e9d212a35d19526a6413a422fb8d5a180de0b9af13bccd3c",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "chicken",
+    "entity_id": "entity_b1babcfc1be02497546518e515f44be6c3a290282570c2eec738d6c34a702f49",
+    "known_true_objects": [
+      "bird"
+    ],
+    "person_key": "entity_b1babcfc1be02497546518e515f44be6c3a290282570c2eec738d6c34a702f49",
+    "positive_source_id": "animal_class:23",
+    "positive_statement": "The chicken is a bird.",
+    "positive_statement_sha256": "8b676b4bda68504d8d96c2e4704a06e964511c07de45ab1f0e150a7243f3e775",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "tiger",
+    "entity_id": "entity_ba9dd4abfe076fd81cca294e27b2301970d98c760a333d20ff20d376451b0b43",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_ba9dd4abfe076fd81cca294e27b2301970d98c760a333d20ff20d376451b0b43",
+    "positive_source_id": "animal_class:141",
+    "positive_statement": "The tiger is a mammal.",
+    "positive_statement_sha256": "38993a1355649fa08d04ebb6c09a21e7bf3b8826d22ff0fb94c81d865cb3dc07",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "skunk",
+    "entity_id": "entity_bda459cffbfe04b6738942b9a3003a45cc910dac616119ca02631c375136e818",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_bda459cffbfe04b6738942b9a3003a45cc910dac616119ca02631c375136e818",
+    "positive_source_id": "animal_class:53",
+    "positive_statement": "The skunk is a mammal.",
+    "positive_statement_sha256": "abcb98a24f89e89b59eee9f5d99f74fb6bd691c775f48dcbb1c5306a227a0675",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "elephant",
+    "entity_id": "entity_beb08a31b82a3300a7021476d4ad421412c77c6fc9b89104cae73c41c6c3ab6d",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_beb08a31b82a3300a7021476d4ad421412c77c6fc9b89104cae73c41c6c3ab6d",
+    "positive_source_id": "animal_class:67",
+    "positive_statement": "The elephant is a mammal.",
+    "positive_statement_sha256": "f1df08f7a34ee8d5208e01e71f91edec147397ffa23a62e0406f4d3c472f6f36",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "bee",
+    "entity_id": "entity_d48171c3e635c529386752f9f90a9a68371123f0c706474d51e3078832bb5bdd",
+    "known_true_objects": [
+      "insect"
+    ],
+    "person_key": "entity_d48171c3e635c529386752f9f90a9a68371123f0c706474d51e3078832bb5bdd",
+    "positive_source_id": "animal_class:88",
+    "positive_statement": "The bee is a insect.",
+    "positive_statement_sha256": "f0e4200a94d0a95cbf911a43020f4c141ca98a7b9fea04c0908787e8d81dfd80",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "porcupine",
+    "entity_id": "entity_e3a2a4b576e6e77841ba50fc358288128a2811a2dab716d3e67af7c5931db96b",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_e3a2a4b576e6e77841ba50fc358288128a2811a2dab716d3e67af7c5931db96b",
+    "positive_source_id": "animal_class:44",
+    "positive_statement": "The porcupine is a mammal.",
+    "positive_statement_sha256": "24fad76645d35903443bfe28164672a00f190d345689875544e0b059cdfda722",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "vulture",
+    "entity_id": "entity_ec9d1ec0b40ac324795594cc0ffb3174fa93056dca871630bd97b979f7b32b41",
+    "known_true_objects": [
+      "bird"
+    ],
+    "person_key": "entity_ec9d1ec0b40ac324795594cc0ffb3174fa93056dca871630bd97b979f7b32b41",
+    "positive_source_id": "animal_class:134",
+    "positive_statement": "The vulture is a bird.",
+    "positive_statement_sha256": "dc711977c9cec16bdbe73b00d8bfcc0941f35ad54b9df4b81e63baa0f0ddfb31",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "wolverine",
+    "entity_id": "entity_f4d4024c7a52ae4d594ecf54e15b1043fff23e44e062e8e12e64fd0ae9c192cd",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_f4d4024c7a52ae4d594ecf54e15b1043fff23e44e062e8e12e64fd0ae9c192cd",
+    "positive_source_id": "animal_class:92",
+    "positive_statement": "The wolverine is a mammal.",
+    "positive_statement_sha256": "a096df7249853cc483834c3198f323c4be9022804c571be335bdce9e31986adc",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "bat",
+    "entity_id": "entity_f91d308a463c268f594aabf26af70c8094bb08c36eb99344c24d9b8712d9a93d",
+    "known_true_objects": [
+      "mammal"
+    ],
+    "person_key": "entity_f91d308a463c268f594aabf26af70c8094bb08c36eb99344c24d9b8712d9a93d",
+    "positive_source_id": "animal_class:62",
+    "positive_statement": "The bat is a mammal.",
+    "positive_statement_sha256": "984c4249560296387156c7d6bb8c8b509a77968e4e7e2bb823419a249e4cb3f3",
+    "split": "test",
+    "topic": "animal_class"
+  },
+  {
+    "entity": "Santo Domingo Este",
+    "entity_id": "entity_00a8ba76adcf09799c2ec245854d4112c147da403f9c45b08d036821dd8a3aca",
+    "known_true_objects": [
+      "the Dominican Republic"
+    ],
+    "person_key": "entity_00a8ba76adcf09799c2ec245854d4112c147da403f9c45b08d036821dd8a3aca",
+    "positive_source_id": "cities:266",
+    "positive_statement": "The city of Santo Domingo Este is in the Dominican Republic.",
+    "positive_statement_sha256": "aebae2f9438a5c770f3a7e513c58b6d62625391f4304074f8d8b2aaeb157da6f",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Hachioji",
+    "entity_id": "entity_0102dcbf27419ef7f8cc2c206643a5cc8800b3fd834b3f9da208367fa6a119a8",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_0102dcbf27419ef7f8cc2c206643a5cc8800b3fd834b3f9da208367fa6a119a8",
+    "positive_source_id": "cities:940",
+    "positive_statement": "The city of Hachioji is in Japan.",
+    "positive_statement_sha256": "41b1066d148ed9e71c5bc4a6ea72de32244c761211d786c15cd33fd1ef982c2e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Naucalpan de Juarez",
+    "entity_id": "entity_014da50add13874c2d22c00629c4655c9f958d8b3b64bb3b786c21e3d5b8e4d7",
+    "known_true_objects": [
+      "Mexico"
+    ],
+    "person_key": "entity_014da50add13874c2d22c00629c4655c9f958d8b3b64bb3b786c21e3d5b8e4d7",
+    "positive_source_id": "cities:148",
+    "positive_statement": "The city of Naucalpan de Juarez is in Mexico.",
+    "positive_statement_sha256": "d3267689cd0c232278ecd1e360cdd11f6fe919da55f93f0bee3f95a4f77ff4e9",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kagoshima",
+    "entity_id": "entity_0272571426c0b3122c9a50c1373fafe7d51b10508cce64a8efa269161c196261",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_0272571426c0b3122c9a50c1373fafe7d51b10508cce64a8efa269161c196261",
+    "positive_source_id": "cities:412",
+    "positive_statement": "The city of Kagoshima is in Japan.",
+    "positive_statement_sha256": "7824dd9a0674321c05e2e236a3fb54a6a6665a11a7650f2128740013b8c0d414",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bloemfontein",
+    "entity_id": "entity_05ae3cc36aa8475f8849bb1460abed55a39c7efad0bc98ed60f56aae7ffbd289",
+    "known_true_objects": [
+      "South Africa"
+    ],
+    "person_key": "entity_05ae3cc36aa8475f8849bb1460abed55a39c7efad0bc98ed60f56aae7ffbd289",
+    "positive_source_id": "cities:1084",
+    "positive_statement": "The city of Bloemfontein is in South Africa.",
+    "positive_statement_sha256": "579ee232eda0f19f925497668ea8d0fe4dff127f979edf070b0db4b71b427508",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Shivaji Nagar",
+    "entity_id": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+    "positive_source_id": "cities:874",
+    "positive_statement": "The city of Shivaji Nagar is in India.",
+    "positive_statement_sha256": "b1f904f0c3ff745f5350440cafbbe244f0fca2c35dab2e681b406e6d5e3aaf4e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ipoh",
+    "entity_id": "entity_064e7483f1349aeb7f8f5c457e07499091eed4f9d3ca0d122d6bb8942554c32c",
+    "known_true_objects": [
+      "Malaysia"
+    ],
+    "person_key": "entity_064e7483f1349aeb7f8f5c457e07499091eed4f9d3ca0d122d6bb8942554c32c",
+    "positive_source_id": "cities:1448",
+    "positive_statement": "The city of Ipoh is in Malaysia.",
+    "positive_statement_sha256": "2d43c6e79b3fc12e1617f5f57c9a09da9fc54b4bf67130500a760dd0bd3f9199",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Daqing",
+    "entity_id": "entity_0891659f318d304c5f14bdc4d1d6bfd09fe1db8853ff7b81e96f63790fce68f7",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_0891659f318d304c5f14bdc4d1d6bfd09fe1db8853ff7b81e96f63790fce68f7",
+    "positive_source_id": "cities:1312",
+    "positive_statement": "The city of Daqing is in China.",
+    "positive_statement_sha256": "187712e8329c67a01fb6417ccc1dd6ab1a6e68e7ff1d46f3a31ff0007777843a",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Mississauga",
+    "entity_id": "entity_0bb07ce123981964f1ef4b1bd399c502c27d6488c02134bebba90f1dad4e0622",
+    "known_true_objects": [
+      "Canada"
+    ],
+    "person_key": "entity_0bb07ce123981964f1ef4b1bd399c502c27d6488c02134bebba90f1dad4e0622",
+    "positive_source_id": "cities:486",
+    "positive_statement": "The city of Mississauga is in Canada.",
+    "positive_statement_sha256": "b1eb2aa6ad960c820437d18b57ec6846be9ceffbb02e0ee17a0807f2e2e4feae",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ho Chi Minh City",
+    "entity_id": "entity_0d994af6e50a32879f6d9b8ef43be92a4a6be52001453e15ef8774240eac9aff",
+    "known_true_objects": [
+      "Vietnam"
+    ],
+    "person_key": "entity_0d994af6e50a32879f6d9b8ef43be92a4a6be52001453e15ef8774240eac9aff",
+    "positive_source_id": "cities:1006",
+    "positive_statement": "The city of Ho Chi Minh City is in Vietnam.",
+    "positive_statement_sha256": "8210eed0753f7387fe3c8b7d699203933e3442b76705cf601f8d202798d55429",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Al Fayyum",
+    "entity_id": "entity_0ecc790cdb99c179ddfef69dc9cb7104d15415f58e02625d8012dd59ca11d3f8",
+    "known_true_objects": [
+      "Egypt"
+    ],
+    "person_key": "entity_0ecc790cdb99c179ddfef69dc9cb7104d15415f58e02625d8012dd59ca11d3f8",
+    "positive_source_id": "cities:268",
+    "positive_statement": "The city of Al Fayyum is in Egypt.",
+    "positive_statement_sha256": "30c9e7b1eb8f8b119326a8e1710fbc89aac75ebe63d1b164a402ee2d3d35ec74",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Beira",
+    "entity_id": "entity_1028e8fbf015538ac7937a8b3617e1cbcf04513c5611636c568de2d60ccd0bae",
+    "known_true_objects": [
+      "Mozambique"
+    ],
+    "person_key": "entity_1028e8fbf015538ac7937a8b3617e1cbcf04513c5611636c568de2d60ccd0bae",
+    "positive_source_id": "cities:146",
+    "positive_statement": "The city of Beira is in Mozambique.",
+    "positive_statement_sha256": "3c198354edbd228ed858adde31230c32e4a50dad4379161931aad14ebf29c2ae",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Rahim Yar Khan",
+    "entity_id": "entity_10df09431612737fbb0a0fb6518f1097d6fee8d1feb13e2ad863cfa6b9432b04",
+    "known_true_objects": [
+      "Pakistan"
+    ],
+    "person_key": "entity_10df09431612737fbb0a0fb6518f1097d6fee8d1feb13e2ad863cfa6b9432b04",
+    "positive_source_id": "cities:330",
+    "positive_statement": "The city of Rahim Yar Khan is in Pakistan.",
+    "positive_statement_sha256": "8f717d6d7ba5a67dab9b43e81a7101f30784edbaaf85d3bc980a59930a92bd2a",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Madurai",
+    "entity_id": "entity_12d70ce3b3b984d3354fab430e8b79dd2951fbd58144341783d549ef11a79c1c",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_12d70ce3b3b984d3354fab430e8b79dd2951fbd58144341783d549ef11a79c1c",
+    "positive_source_id": "cities:1072",
+    "positive_statement": "The city of Madurai is in India.",
+    "positive_statement_sha256": "dcfea901a9a7e4ce80c99b2ed3971166018edcc84edee4254a0ec2836294024f",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bengaluru",
+    "entity_id": "entity_175f2ce8474b4d17b8750706dd515e17e570a3f6448797e2e1b20151b61937c1",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_175f2ce8474b4d17b8750706dd515e17e570a3f6448797e2e1b20151b61937c1",
+    "positive_source_id": "cities:872",
+    "positive_statement": "The city of Bengaluru is in India.",
+    "positive_statement_sha256": "696948acfb8d750bce06397f7acfef8fe3df6d88c181369dbc9ab9d2887d6ced",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ribeirao Preto",
+    "entity_id": "entity_17ac821794667b295531889576a04535dc4b5699c298abf5f9e7f13e9a61a5f1",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_17ac821794667b295531889576a04535dc4b5699c298abf5f9e7f13e9a61a5f1",
+    "positive_source_id": "cities:1092",
+    "positive_statement": "The city of Ribeirao Preto is in Brazil.",
+    "positive_statement_sha256": "6e4684e52da2c4edd43c835892f4deaf2ef4d9134cea3fd03885581a1a4fef11",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Shangyu",
+    "entity_id": "entity_17bd9a602b66aeea5bef7a09eede94ada573f8a5eae40dced92690872a56640c",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_17bd9a602b66aeea5bef7a09eede94ada573f8a5eae40dced92690872a56640c",
+    "positive_source_id": "cities:1224",
+    "positive_statement": "The city of Shangyu is in China.",
+    "positive_statement_sha256": "fc025d6d7e5fa9be50dc9d9e46930fc9c803fcb2bcfd2cf29c413cdf28aa1e4c",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Changshu",
+    "entity_id": "entity_18a9505992d4f50abd995e4f2ac941e0f94a5e956b63883bc63f0a3630dc4597",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_18a9505992d4f50abd995e4f2ac941e0f94a5e956b63883bc63f0a3630dc4597",
+    "positive_source_id": "cities:772",
+    "positive_statement": "The city of Changshu is in China.",
+    "positive_statement_sha256": "1c5010eb62eacd942c10abf1a8efa3e9040f986ed45ce0893bec2d8f13d4c742",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tolyatti",
+    "entity_id": "entity_1916a24abfc41d2b25c2dd978e99ec01698073a5b0bba1564131cbeab1f7f522",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_1916a24abfc41d2b25c2dd978e99ec01698073a5b0bba1564131cbeab1f7f522",
+    "positive_source_id": "cities:442",
+    "positive_statement": "The city of Tolyatti is in Russia.",
+    "positive_statement_sha256": "c5a9d701ee2105cc85fac11eaea3e290f6a8aebe2019eb2c4ef9aade42eb763d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Battagram",
+    "entity_id": "entity_1950a397b780c04c6103f7416040402d84d6ac2139f282177bc1f034f5d99612",
+    "known_true_objects": [
+      "Pakistan"
+    ],
+    "person_key": "entity_1950a397b780c04c6103f7416040402d84d6ac2139f282177bc1f034f5d99612",
+    "positive_source_id": "cities:882",
+    "positive_statement": "The city of Battagram is in Pakistan.",
+    "positive_statement_sha256": "4df381df697fb8aa95a62087fd975c2d69af1c610ecf416b30cc68f400f6d3da",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Copenhagen",
+    "entity_id": "entity_195ff6352973a8be1e2fb4906efb48ff088d064b2e2b6143741e74726dfd79a1",
+    "known_true_objects": [
+      "Denmark"
+    ],
+    "person_key": "entity_195ff6352973a8be1e2fb4906efb48ff088d064b2e2b6143741e74726dfd79a1",
+    "positive_source_id": "cities:1466",
+    "positive_statement": "The city of Copenhagen is in Denmark.",
+    "positive_statement_sha256": "30b0108fa06e4c63b301eb150827b16d085320f294de7140c7bbb4683196fbc4",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Chattogram",
+    "entity_id": "entity_1aeeebb7b2e64fdcd666004a4701a715c9db78840316a3ddd48c16305166c2f6",
+    "known_true_objects": [
+      "Bangladesh"
+    ],
+    "person_key": "entity_1aeeebb7b2e64fdcd666004a4701a715c9db78840316a3ddd48c16305166c2f6",
+    "positive_source_id": "cities:506",
+    "positive_statement": "The city of Chattogram is in Bangladesh.",
+    "positive_statement_sha256": "8260594c86143eea9941a7ce3f0e08ca2ab8181106890d4786319119d8d3864c",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Chizhou",
+    "entity_id": "entity_1bc7a607a0896fcdb25ff05ef0785d4e00022a5053ee2f74f15a4b7e3f74b5df",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_1bc7a607a0896fcdb25ff05ef0785d4e00022a5053ee2f74f15a4b7e3f74b5df",
+    "positive_source_id": "cities:984",
+    "positive_statement": "The city of Chizhou is in China.",
+    "positive_statement_sha256": "29ecb988c3519a75b189b9ba5d1d6464f3fe0ea9633137deb8fbc746daccd420",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Hiroshima",
+    "entity_id": "entity_1cb7db179fd4d66bfb8caedf10c12c41e7fd30500e6ef5047c95e025dd3d25a8",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_1cb7db179fd4d66bfb8caedf10c12c41e7fd30500e6ef5047c95e025dd3d25a8",
+    "positive_source_id": "cities:1324",
+    "positive_statement": "The city of Hiroshima is in Japan.",
+    "positive_statement_sha256": "9c92b21f9a345c296ee746433b75ea00e0ea26c426cce1ce7fba76ecead18cba",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Pasig City",
+    "entity_id": "entity_1db19a8e4aab19230bc8ed59288c23cfd93a088e2faf860077344dfd9336a76f",
+    "known_true_objects": [
+      "the Philippines"
+    ],
+    "person_key": "entity_1db19a8e4aab19230bc8ed59288c23cfd93a088e2faf860077344dfd9336a76f",
+    "positive_source_id": "cities:384",
+    "positive_statement": "The city of Pasig City is in the Philippines.",
+    "positive_statement_sha256": "40d023aa917cfced91f1b8080c5f7028d2a63e53ce567f1e33c66066f2a187e0",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Karachi",
+    "entity_id": "entity_207341c8e436e522630992c55fad93db3c62f78e9401a38ea6d430e6d69fe5b4",
+    "known_true_objects": [
+      "Pakistan"
+    ],
+    "person_key": "entity_207341c8e436e522630992c55fad93db3c62f78e9401a38ea6d430e6d69fe5b4",
+    "positive_source_id": "cities:1432",
+    "positive_statement": "The city of Karachi is in Pakistan.",
+    "positive_statement_sha256": "d8f98752fc09ebbd05ffc4150d9289c17fef7fa380cbab9a35e1792f7b393604",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Macapa",
+    "entity_id": "entity_22ae29c396d00735f2a00c7a0253e26e1b715474ea418d2ec9c6d5dd3a578c8b",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_22ae29c396d00735f2a00c7a0253e26e1b715474ea418d2ec9c6d5dd3a578c8b",
+    "positive_source_id": "cities:108",
+    "positive_statement": "The city of Macapa is in Brazil.",
+    "positive_statement_sha256": "ac91e4e7d5c6ddad344cc5f753ae489777eeac6dcb2aa7430a9a8a77968fe374",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zagreb",
+    "entity_id": "entity_22e46b68b178813d9fa60be9ed473f49cd1027e184ae77d4ba270edcc5cafaa8",
+    "known_true_objects": [
+      "Croatia"
+    ],
+    "person_key": "entity_22e46b68b178813d9fa60be9ed473f49cd1027e184ae77d4ba270edcc5cafaa8",
+    "positive_source_id": "cities:610",
+    "positive_statement": "The city of Zagreb is in Croatia.",
+    "positive_statement_sha256": "65e328f20943fe33ccb683c1e7f778067eca31fcc2906a3f79cba786fae2a4e9",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Pietermaritzburg",
+    "entity_id": "entity_25c5cd1c0e07fece92b71386f1a82acb87629a5fbd1086ca012883a7e3057483",
+    "known_true_objects": [
+      "South Africa"
+    ],
+    "person_key": "entity_25c5cd1c0e07fece92b71386f1a82acb87629a5fbd1086ca012883a7e3057483",
+    "positive_source_id": "cities:1208",
+    "positive_statement": "The city of Pietermaritzburg is in South Africa.",
+    "positive_statement_sha256": "22b451b55f1cf73d9557130bcc61678aaf8a677121e0f253cb1cbab49e5bfeaf",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zhabei",
+    "entity_id": "entity_27bbe6ef48bc99a24cf506d4e2ece7cec400d849482ffc2366428d82cc5296b1",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_27bbe6ef48bc99a24cf506d4e2ece7cec400d849482ffc2366428d82cc5296b1",
+    "positive_source_id": "cities:70",
+    "positive_statement": "The city of Zhabei is in China.",
+    "positive_statement_sha256": "05b5ad3be6765b1e96063aa7a2b4c9ea0be444cabf1f288213f02a79c83f7cf4",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Khulna",
+    "entity_id": "entity_2853de349bcca46b38f6fe237b76ee55c3627ec854a659ae37c00c72f7fd318d",
+    "known_true_objects": [
+      "Bangladesh"
+    ],
+    "person_key": "entity_2853de349bcca46b38f6fe237b76ee55c3627ec854a659ae37c00c72f7fd318d",
+    "positive_source_id": "cities:672",
+    "positive_statement": "The city of Khulna is in Bangladesh.",
+    "positive_statement_sha256": "075afdef179205030fae7f3daeb6cb7da885c88655f6f31479a76b7b07b63aa5",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Xiaogan",
+    "entity_id": "entity_286ff57dd7e1e296637f24aec0e4fbf554796cfa4ff1ed1f9723098131b040c8",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_286ff57dd7e1e296637f24aec0e4fbf554796cfa4ff1ed1f9723098131b040c8",
+    "positive_source_id": "cities:1216",
+    "positive_statement": "The city of Xiaogan is in China.",
+    "positive_statement_sha256": "6e68fc2094ebe904224838c2a8b097d1c4b6e7f270225076b7e1c4bd76d6b2a8",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bhayandar",
+    "entity_id": "entity_28c04097dfb46f5e8d72bda8cf534561ae589d557a97009fbe9251e5662491c0",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_28c04097dfb46f5e8d72bda8cf534561ae589d557a97009fbe9251e5662491c0",
+    "positive_source_id": "cities:262",
+    "positive_statement": "The city of Bhayandar is in India.",
+    "positive_statement_sha256": "a74696df3d3cd120756a31a01311d70bc392f030c11c35f77d7e30adb6f9a577",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Orumiyeh",
+    "entity_id": "entity_2940f88edcf4be851ea3e5310ba015a8b581845d7615eed381a56f61b17ff3b3",
+    "known_true_objects": [
+      "Iran"
+    ],
+    "person_key": "entity_2940f88edcf4be851ea3e5310ba015a8b581845d7615eed381a56f61b17ff3b3",
+    "positive_source_id": "cities:304",
+    "positive_statement": "The city of Orumiyeh is in Iran.",
+    "positive_statement_sha256": "825d7d01dc8120073587d5a43e502873f9352d5cf10d8e403c61d0bdf3771d79",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Warri",
+    "entity_id": "entity_2b1371ebb8b529472687e8616b90b4a29afa52f1cc1d0514eb746718cdd8c36f",
+    "known_true_objects": [
+      "Nigeria"
+    ],
+    "person_key": "entity_2b1371ebb8b529472687e8616b90b4a29afa52f1cc1d0514eb746718cdd8c36f",
+    "positive_source_id": "cities:408",
+    "positive_statement": "The city of Warri is in Nigeria.",
+    "positive_statement_sha256": "c26af31f64a2ed2a68055db758ac47e4d7e235463dc7f97d8a67adf8927f3868",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Visakhapatnam",
+    "entity_id": "entity_2b3ed331b56ff38842edba2d0a1addd2e54a84dd1a7c24da05d036ccf1e8791f",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_2b3ed331b56ff38842edba2d0a1addd2e54a84dd1a7c24da05d036ccf1e8791f",
+    "positive_source_id": "cities:1142",
+    "positive_statement": "The city of Visakhapatnam is in India.",
+    "positive_statement_sha256": "23dd92348c362347a8a73022b7f5d0bec4b824c900f638c76db51b143190e8df",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zunyi",
+    "entity_id": "entity_2bc441fe33cf90653e35334d73ef77508ef248b48928413c796dc1acfeef2286",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_2bc441fe33cf90653e35334d73ef77508ef248b48928413c796dc1acfeef2286",
+    "positive_source_id": "cities:570",
+    "positive_statement": "The city of Zunyi is in China.",
+    "positive_statement_sha256": "129a0ba7cef85bbc43538b0c919efdcf6848c751bb775ac23756c05700aebfe3",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Omsk",
+    "entity_id": "entity_2f64c8c51eee3d2eccbbe4bc44aeff1d4e9a1ef658d80585ceb42234a7f4f9e8",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_2f64c8c51eee3d2eccbbe4bc44aeff1d4e9a1ef658d80585ceb42234a7f4f9e8",
+    "positive_source_id": "cities:428",
+    "positive_statement": "The city of Omsk is in Russia.",
+    "positive_statement_sha256": "262b8523bd9cf59aad067c8538e961a27b8617d29f15d46808973c4abda7e995",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Dhanbad",
+    "entity_id": "entity_354dee94e4f11f829585b190946c3ff7df3dc89ba31c606f9b1389b9c512cbeb",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_354dee94e4f11f829585b190946c3ff7df3dc89ba31c606f9b1389b9c512cbeb",
+    "positive_source_id": "cities:1146",
+    "positive_statement": "The city of Dhanbad is in India.",
+    "positive_statement_sha256": "9e32051ed9b105dd7654093676030d1d42a374dc2150be05ac1d4be750074178",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Asyut",
+    "entity_id": "entity_359a189eee4a5d6f36c098152a39237be3f2e17f2f230fe589da2b64ba8206e6",
+    "known_true_objects": [
+      "Egypt"
+    ],
+    "person_key": "entity_359a189eee4a5d6f36c098152a39237be3f2e17f2f230fe589da2b64ba8206e6",
+    "positive_source_id": "cities:790",
+    "positive_statement": "The city of Asyut is in Egypt.",
+    "positive_statement_sha256": "0940efcc95385073f8b5dbc1289535df3718186fee9c57ad1de4f8a678e47fae",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "San Miguel de Tucuman",
+    "entity_id": "entity_397fa18b72a9de7d4d03a18e36bf84ac71f917d26b06bd2766173c86f256f80c",
+    "known_true_objects": [
+      "Argentina"
+    ],
+    "person_key": "entity_397fa18b72a9de7d4d03a18e36bf84ac71f917d26b06bd2766173c86f256f80c",
+    "positive_source_id": "cities:696",
+    "positive_statement": "The city of San Miguel de Tucuman is in Argentina.",
+    "positive_statement_sha256": "2d38d23091f8557d40c2f0dd2c708deaee63c8a3bf8ee58efd5fb2e9abcfee3e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Vilnius",
+    "entity_id": "entity_3a08b08e9596da5092febb2e531ded60602f6464d9e12f62bccbc793d3088a73",
+    "known_true_objects": [
+      "Lithuania"
+    ],
+    "person_key": "entity_3a08b08e9596da5092febb2e531ded60602f6464d9e12f62bccbc793d3088a73",
+    "positive_source_id": "cities:256",
+    "positive_statement": "The city of Vilnius is in Lithuania.",
+    "positive_statement_sha256": "f8897b47663feaef8caa4e659f5a7097c028c1d88bf30f15051212e6deb10cc3",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ya'an",
+    "entity_id": "entity_3b8b78ddbf4a21cd2b2aa385a9c83e044cfcc8fb99a4ca40785d7771eb834ab3",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_3b8b78ddbf4a21cd2b2aa385a9c83e044cfcc8fb99a4ca40785d7771eb834ab3",
+    "positive_source_id": "cities:474",
+    "positive_statement": "The city of Ya'an is in China.",
+    "positive_statement_sha256": "000a4822e19805baa5b87fdc2005257ddbdd300a03c2040c1910723bf1083a60",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Niigata",
+    "entity_id": "entity_3b91e78d999fd2164477e1dfb5d28a19fc9e92f9d79cf1399eaf2ffecb8cc6f1",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_3b91e78d999fd2164477e1dfb5d28a19fc9e92f9d79cf1399eaf2ffecb8cc6f1",
+    "positive_source_id": "cities:54",
+    "positive_statement": "The city of Niigata is in Japan.",
+    "positive_statement_sha256": "1213baf1c29d8da1c01e592369926f45934663bcf216b74b5ede803f439bf4e5",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Homs",
+    "entity_id": "entity_3d0a634426a3422f6387a3ad2adbf49b0c5896dabc7347c792c6a55cae04e1a8",
+    "known_true_objects": [
+      "Syria"
+    ],
+    "person_key": "entity_3d0a634426a3422f6387a3ad2adbf49b0c5896dabc7347c792c6a55cae04e1a8",
+    "positive_source_id": "cities:1198",
+    "positive_statement": "The city of Homs is in Syria.",
+    "positive_statement_sha256": "9e8603966b57c218786310d4621726d0b27fffd081771f826f4f2cd3b9d2acf2",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Jaboatao",
+    "entity_id": "entity_3e9b92a97736c8b52bd54a64c265df4fd7087ee4a612c54c9ee1cba5decac816",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_3e9b92a97736c8b52bd54a64c265df4fd7087ee4a612c54c9ee1cba5decac816",
+    "positive_source_id": "cities:812",
+    "positive_statement": "The city of Jaboatao is in Brazil.",
+    "positive_statement_sha256": "17bcf55b1660d400a9f6f18bcb028d78669b7a6b803bca32140524212b35f6da",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Jiaxing",
+    "entity_id": "entity_3ea8a31cd5fabad4f7beb390e760ead3a40c2d5272d1c028aeae88a36f9d15bf",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_3ea8a31cd5fabad4f7beb390e760ead3a40c2d5272d1c028aeae88a36f9d15bf",
+    "positive_source_id": "cities:20",
+    "positive_statement": "The city of Jiaxing is in China.",
+    "positive_statement_sha256": "c971ea9c3f1434120675337019c4c75be9e992878d878b1f3c5b718191437ccc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Brazzaville",
+    "entity_id": "entity_436da74789962bc12417c0e4810501a6c955f868965c36e36035a39dda54ad17",
+    "known_true_objects": [
+      "the Republic of the Congo"
+    ],
+    "person_key": "entity_436da74789962bc12417c0e4810501a6c955f868965c36e36035a39dda54ad17",
+    "positive_source_id": "cities:1028",
+    "positive_statement": "The city of Brazzaville is in the Republic of the Congo.",
+    "positive_statement_sha256": "4780a464e22fa4a3d5b585a5f721f9b7ef07332b2c9d845cc01c8be354fdfec5",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Perm",
+    "entity_id": "entity_466c6b79f3532c615640ed79579c4c3cb5a261a67b24e3ee826c55480498f43e",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_466c6b79f3532c615640ed79579c4c3cb5a261a67b24e3ee826c55480498f43e",
+    "positive_source_id": "cities:102",
+    "positive_statement": "The city of Perm is in Russia.",
+    "positive_statement_sha256": "d3059868e6699e708f4692ef6208c224c9dcdeed036b77ee9c5beb1f01124e70",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Jakarta",
+    "entity_id": "entity_474e3a559f4a975093c24af665e0ae995b8899c0251163599b4d151b1bf3b94e",
+    "known_true_objects": [
+      "Indonesia"
+    ],
+    "person_key": "entity_474e3a559f4a975093c24af665e0ae995b8899c0251163599b4d151b1bf3b94e",
+    "positive_source_id": "cities:1390",
+    "positive_statement": "The city of Jakarta is in Indonesia.",
+    "positive_statement_sha256": "1fe589a772325394483fdbd14acd140f505c985527c2183cadf712a681c881bc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Buraydah",
+    "entity_id": "entity_4d86fb31d48035480860b08b8951e946cafeec2886e66e056e4807b51376b5f2",
+    "known_true_objects": [
+      "Saudi Arabia"
+    ],
+    "person_key": "entity_4d86fb31d48035480860b08b8951e946cafeec2886e66e056e4807b51376b5f2",
+    "positive_source_id": "cities:1192",
+    "positive_statement": "The city of Buraydah is in Saudi Arabia.",
+    "positive_statement_sha256": "fcc73cb1af388252262ff0e2796b40dd34c4f053433b10b1adc161859aacb279",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bhubaneswar",
+    "entity_id": "entity_4ec97c5bef97e5a051a32a953e1349310b7aa363c858eb57cb87120da2d7f41b",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_4ec97c5bef97e5a051a32a953e1349310b7aa363c858eb57cb87120da2d7f41b",
+    "positive_source_id": "cities:152",
+    "positive_statement": "The city of Bhubaneswar is in India.",
+    "positive_statement_sha256": "f0a5b8c8fdf311a20fcc4ae5b94321bcd65417ca147103d6dcf2bc96aaa86a4d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Dombivli",
+    "entity_id": "entity_4f1b71d20075d1750e3450a3f9deac14add5d160faef51ed2dd9d7640b010594",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_4f1b71d20075d1750e3450a3f9deac14add5d160faef51ed2dd9d7640b010594",
+    "positive_source_id": "cities:918",
+    "positive_statement": "The city of Dombivli is in India.",
+    "positive_statement_sha256": "633c3b1db79db48bf3fecf4a785b52c9c3ea1312830779beb679d0eccef79b8b",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kolhapur",
+    "entity_id": "entity_4f855f7b284918c66c83ed455750e319d7a09db18673c35ca252b07badce452b",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_4f855f7b284918c66c83ed455750e319d7a09db18673c35ca252b07badce452b",
+    "positive_source_id": "cities:1272",
+    "positive_statement": "The city of Kolhapur is in India.",
+    "positive_statement_sha256": "e902a285da847d751af816b2a125e3b06cccd0702b1ba46a12f1665a112e3d1f",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Abobo",
+    "entity_id": "entity_508a7a25e4d752915f28c5aa7c09e8593ab7eeb5ffb0f06662cccdf13ec20309",
+    "known_true_objects": [
+      "Côte d'Ivoire"
+    ],
+    "person_key": "entity_508a7a25e4d752915f28c5aa7c09e8593ab7eeb5ffb0f06662cccdf13ec20309",
+    "positive_source_id": "cities:452",
+    "positive_statement": "The city of Abobo is in Côte d'Ivoire.",
+    "positive_statement_sha256": "332e1db13f7b178fd924772ed93c13fa5cd134cb19228443e85363a43e5bf3cc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Lilongwe",
+    "entity_id": "entity_50d37ac2b3cfadc7a366263324c1aef96924b265b839441c961f100d1e92a0a9",
+    "known_true_objects": [
+      "Malawi"
+    ],
+    "person_key": "entity_50d37ac2b3cfadc7a366263324c1aef96924b265b839441c961f100d1e92a0a9",
+    "positive_source_id": "cities:716",
+    "positive_statement": "The city of Lilongwe is in Malawi.",
+    "positive_statement_sha256": "b0a4c0283b1120ab58653ebd8375feb07409184601fda108f7e600f30cb0565b",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bayannur",
+    "entity_id": "entity_51d69b0568f9d78b4bd166af53b616d7e82d804e92f457df8fbe2787d95e0955",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_51d69b0568f9d78b4bd166af53b616d7e82d804e92f457df8fbe2787d95e0955",
+    "positive_source_id": "cities:776",
+    "positive_statement": "The city of Bayannur is in China.",
+    "positive_statement_sha256": "a5c2c66b545d05f3d90bb26b3dbc6146efe4056a4ee4ce7dbc2a42a8e38ba93c",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Aktobe",
+    "entity_id": "entity_51fd610b90ccb7cd682b7969ab7727853a3472684d498db124d9865bd78bafb0",
+    "known_true_objects": [
+      "Kazakhstan"
+    ],
+    "person_key": "entity_51fd610b90ccb7cd682b7969ab7727853a3472684d498db124d9865bd78bafb0",
+    "positive_source_id": "cities:1032",
+    "positive_statement": "The city of Aktobe is in Kazakhstan.",
+    "positive_statement_sha256": "d62d4bb61741449e0a6a47402a269a37858d1c370d97e4669f366faaf8b6b2d8",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Nova Iguacu",
+    "entity_id": "entity_54e3ddb56051a7c86d611ce1edd7a6f7564c33bacf553350cd09e55eae3492eb",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_54e3ddb56051a7c86d611ce1edd7a6f7564c33bacf553350cd09e55eae3492eb",
+    "positive_source_id": "cities:934",
+    "positive_statement": "The city of Nova Iguacu is in Brazil.",
+    "positive_statement_sha256": "0d3c3bf8d9d8be6de411a0cc140374203efde605fb42bd68ba22d4fe0ea503ed",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Yongzhou",
+    "entity_id": "entity_5538c326c13704cd0eb94831f176d4b7d760742c1fe12850717492f2d63be07b",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_5538c326c13704cd0eb94831f176d4b7d760742c1fe12850717492f2d63be07b",
+    "positive_source_id": "cities:14",
+    "positive_statement": "The city of Yongzhou is in China.",
+    "positive_statement_sha256": "ae346de1bd1992055ec2723b6a5a96224a4c65632f1710f8f1775605eae90f48",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bouake",
+    "entity_id": "entity_5c45399a80e6bd586ec09c746acdb723709b7f2b4634c91ec9b12fef540c6d9a",
+    "known_true_objects": [
+      "Côte d'Ivoire"
+    ],
+    "person_key": "entity_5c45399a80e6bd586ec09c746acdb723709b7f2b4634c91ec9b12fef540c6d9a",
+    "positive_source_id": "cities:450",
+    "positive_statement": "The city of Bouake is in Côte d'Ivoire.",
+    "positive_statement_sha256": "62453ff2b781adea5d1f1c303bfda2eb9c2cf92bcdefe8cc23035ab3efbb98e9",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Huangshi",
+    "entity_id": "entity_5c6e5546bcca15fb556c9f1afa1e9597755a9fb538cc7f1ade117110d1ec060a",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_5c6e5546bcca15fb556c9f1afa1e9597755a9fb538cc7f1ade117110d1ec060a",
+    "positive_source_id": "cities:1046",
+    "positive_statement": "The city of Huangshi is in China.",
+    "positive_statement_sha256": "38540e49fdafd97e1084001178a41f1ce0652af7ae76988ee76bcbdd5232aa54",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Asmara",
+    "entity_id": "entity_6079ff443f472db615d98455273544ec92d4e2f185fed5516d6dffb2909dbd9d",
+    "known_true_objects": [
+      "Eritrea"
+    ],
+    "person_key": "entity_6079ff443f472db615d98455273544ec92d4e2f185fed5516d6dffb2909dbd9d",
+    "positive_source_id": "cities:98",
+    "positive_statement": "The city of Asmara is in Eritrea.",
+    "positive_statement_sha256": "e4579e1389afe41f3a0047fc766dc3c80b5c9c0a2ecbd207a9da387e7ab07304",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Cimahi",
+    "entity_id": "entity_647445fb6411e2864c575d822c914a458b4c9652598fc69ac794aba13025d55f",
+    "known_true_objects": [
+      "Indonesia"
+    ],
+    "person_key": "entity_647445fb6411e2864c575d822c914a458b4c9652598fc69ac794aba13025d55f",
+    "positive_source_id": "cities:730",
+    "positive_statement": "The city of Cimahi is in Indonesia.",
+    "positive_statement_sha256": "84b549fabed91b172056daaf04929fbc368f563af1b65f75cbedd447b44d7598",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Anqing",
+    "entity_id": "entity_66864f2676721c8c18ebf2cee648d7acc2a8f705eaf584fafeaa053bf0e408ef",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_66864f2676721c8c18ebf2cee648d7acc2a8f705eaf584fafeaa053bf0e408ef",
+    "positive_source_id": "cities:24",
+    "positive_statement": "The city of Anqing is in China.",
+    "positive_statement_sha256": "a46825e9b74a71bdb22fb003c05ca934003e6cc6b79437ad6b4d9fe540d7aa82",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Malatya",
+    "entity_id": "entity_66b1530c85c5473a05cc68e27cd169c45472d6e8ff47522d2a32a0757fe1b3fa",
+    "known_true_objects": [
+      "Turkey"
+    ],
+    "person_key": "entity_66b1530c85c5473a05cc68e27cd169c45472d6e8ff47522d2a32a0757fe1b3fa",
+    "positive_source_id": "cities:742",
+    "positive_statement": "The city of Malatya is in Turkey.",
+    "positive_statement_sha256": "1fe2c61f26124707631dd5dfb989af5f1217db73439289eeba327b52b5f18864",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Vadodara",
+    "entity_id": "entity_67a83c354e28551529e8800244be09a595328e41ad42dd27990bd10ddbb4516e",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_67a83c354e28551529e8800244be09a595328e41ad42dd27990bd10ddbb4516e",
+    "positive_source_id": "cities:658",
+    "positive_statement": "The city of Vadodara is in India.",
+    "positive_statement_sha256": "783e4ba102b1c88d03b8fccee56d940130098321ec83d469ae54c284c8c398bd",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zaporizhzhya",
+    "entity_id": "entity_67c55f75f6edef8e73844e1e6a60ff1c019c55db743ef14a30d22d219990e1da",
+    "known_true_objects": [
+      "Ukraine"
+    ],
+    "person_key": "entity_67c55f75f6edef8e73844e1e6a60ff1c019c55db743ef14a30d22d219990e1da",
+    "positive_source_id": "cities:400",
+    "positive_statement": "The city of Zaporizhzhya is in Ukraine.",
+    "positive_statement_sha256": "bcba4d1365d42e86dbdb4b14022f583c3d9d7a3e4ed582a26427b046651382db",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kemerovo",
+    "entity_id": "entity_69d7ba622623c948cab04ca2333d3a862669e141f86df66f8db78047a2b4d407",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_69d7ba622623c948cab04ca2333d3a862669e141f86df66f8db78047a2b4d407",
+    "positive_source_id": "cities:398",
+    "positive_statement": "The city of Kemerovo is in Russia.",
+    "positive_statement_sha256": "e4b29a08a3eb299d6c6985994a91c268c295526a6367a8bdd337af8aeb0c8e89",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ludhiana",
+    "entity_id": "entity_6c371e2ed1eff4dadcce4c6fd622d24ad7cb4bb7a3f7a2cc51f3b493546a1d0e",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_6c371e2ed1eff4dadcce4c6fd622d24ad7cb4bb7a3f7a2cc51f3b493546a1d0e",
+    "positive_source_id": "cities:1166",
+    "positive_statement": "The city of Ludhiana is in India.",
+    "positive_statement_sha256": "4ce7e4d66459391698c3211d72bd21f513666bfe4f5a590a29d09f38b0ed3bf8",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kumasi",
+    "entity_id": "entity_6c59fefff6a9856c919c1cbf680c619cbe68119e2a64a6396add91bc898c1791",
+    "known_true_objects": [
+      "Ghana"
+    ],
+    "person_key": "entity_6c59fefff6a9856c919c1cbf680c619cbe68119e2a64a6396add91bc898c1791",
+    "positive_source_id": "cities:156",
+    "positive_statement": "The city of Kumasi is in Ghana.",
+    "positive_statement_sha256": "1e4b8755fd1b6abcce8f83e3b11873ae3c505056a749afc1aea967e681f1befc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Quebec",
+    "entity_id": "entity_700b6afd6caec7872273e05a00fb109f5191bb8aaa96b5684c84d48ea8120504",
+    "known_true_objects": [
+      "Canada"
+    ],
+    "person_key": "entity_700b6afd6caec7872273e05a00fb109f5191bb8aaa96b5684c84d48ea8120504",
+    "positive_source_id": "cities:1412",
+    "positive_statement": "The city of Quebec is in Canada.",
+    "positive_statement_sha256": "ea511a6868a334401db6c41332b4235c4c8b5c002536d0703311663e0ec5d808",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Xining",
+    "entity_id": "entity_72606ce6433eb493ce0ad71e771b950600d355cd2c922277824041ad8a5accea",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_72606ce6433eb493ce0ad71e771b950600d355cd2c922277824041ad8a5accea",
+    "positive_source_id": "cities:1292",
+    "positive_statement": "The city of Xining is in China.",
+    "positive_statement_sha256": "dfda78165190c05e4cfb29383487722ff76019e0af4d6eeeeb65b4b9a6f25f0d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Krasnodar",
+    "entity_id": "entity_727ea1c6f478c4804d2ffd90e2af7249763f91695aff2150a49f5802b4d30a93",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_727ea1c6f478c4804d2ffd90e2af7249763f91695aff2150a49f5802b4d30a93",
+    "positive_source_id": "cities:0",
+    "positive_statement": "The city of Krasnodar is in Russia.",
+    "positive_statement_sha256": "6bc01ba150e39f6d373aa7a7a8418b5c842aa31f2ae9d184a84c271c0cb3df6b",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Al Hudaydah",
+    "entity_id": "entity_74fc120449a9b156b904022bf6224abb969b429c30a3f3b2a5049e25063e9741",
+    "known_true_objects": [
+      "Yemen"
+    ],
+    "person_key": "entity_74fc120449a9b156b904022bf6224abb969b429c30a3f3b2a5049e25063e9741",
+    "positive_source_id": "cities:1008",
+    "positive_statement": "The city of Al Hudaydah is in Yemen.",
+    "positive_statement_sha256": "90cc16d7502f00b46bf86a4e880d073313b25b596d096e75138bc3a5f32d3fa1",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tembisa",
+    "entity_id": "entity_754ab18cfdfa12c8793f04531dd744559002e35f9e3dd1b909975a0a440cf95e",
+    "known_true_objects": [
+      "South Africa"
+    ],
+    "person_key": "entity_754ab18cfdfa12c8793f04531dd744559002e35f9e3dd1b909975a0a440cf95e",
+    "positive_source_id": "cities:466",
+    "positive_statement": "The city of Tembisa is in South Africa.",
+    "positive_statement_sha256": "06e57e24c6eb657dee1a4ccb48c81abbc251212b3686f74a410376cc7da772e7",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ar Raqqah",
+    "entity_id": "entity_764490a7ae95aa310cfcc4e35bbb9cec2b5bfa797a13097cda8308b6cc14e6a5",
+    "known_true_objects": [
+      "Syria"
+    ],
+    "person_key": "entity_764490a7ae95aa310cfcc4e35bbb9cec2b5bfa797a13097cda8308b6cc14e6a5",
+    "positive_source_id": "cities:638",
+    "positive_statement": "The city of Ar Raqqah is in Syria.",
+    "positive_statement_sha256": "ae2442ade11688c7b04072ee4301cb1cca787f7ec1f9e12a0a338c0c1aee6f75",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Nuernberg",
+    "entity_id": "entity_767913c6309a911011aaf5fd07d64e573dbc6dd08acc7771dad9158b058e8f2a",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_767913c6309a911011aaf5fd07d64e573dbc6dd08acc7771dad9158b058e8f2a",
+    "positive_source_id": "cities:908",
+    "positive_statement": "The city of Nuernberg is in Germany.",
+    "positive_statement_sha256": "c9a4106be4b9c58c57bea8010b34379adc19e616aa2f4bfb10925b3273853812",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Maoming",
+    "entity_id": "entity_769587cbf756c044a00f523f6ada9e1186967b08efd7fd9469c1c26caedeef18",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_769587cbf756c044a00f523f6ada9e1186967b08efd7fd9469c1c26caedeef18",
+    "positive_source_id": "cities:682",
+    "positive_statement": "The city of Maoming is in China.",
+    "positive_statement_sha256": "6efc83111dffa40982f1d986d57ec08d53f867fae7bd9ca00415998a5231d1a3",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Yekaterinburg",
+    "entity_id": "entity_7ae07b499b598c201dbe755407727be3fbb01054fc6e889a6f946a93780d1fd0",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_7ae07b499b598c201dbe755407727be3fbb01054fc6e889a6f946a93780d1fd0",
+    "positive_source_id": "cities:1278",
+    "positive_statement": "The city of Yekaterinburg is in Russia.",
+    "positive_statement_sha256": "32622d2075ca38ceae73f6fd0a633e72b9e4605d821f760b6e35d52804361b7e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Asansol",
+    "entity_id": "entity_7aff1731daefa5c0ec98ea47a75a70952f4f14f12a97a0b2ba4c102211eddf05",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_7aff1731daefa5c0ec98ea47a75a70952f4f14f12a97a0b2ba4c102211eddf05",
+    "positive_source_id": "cities:1040",
+    "positive_statement": "The city of Asansol is in India.",
+    "positive_statement_sha256": "2787b61eed4baab5cc78fb639ada8756f55ee3a98a810b51f91458ac61085d19",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Varanasi",
+    "entity_id": "entity_7d1c850ceb9b9d5ca7f9d8d3f8fc09238dcf71aec4abfc769a518bcb9ec5fc27",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_7d1c850ceb9b9d5ca7f9d8d3f8fc09238dcf71aec4abfc769a518bcb9ec5fc27",
+    "positive_source_id": "cities:1482",
+    "positive_statement": "The city of Varanasi is in India.",
+    "positive_statement_sha256": "e1b0df7935620b2234a21c65eb0e8512996eaa8998148c5f83d992bc2db9f699",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Luzhou",
+    "entity_id": "entity_7e3fde4b8be0ca6f6556803cd0a0863a9040a213a80b370357d81ea820193f10",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_7e3fde4b8be0ca6f6556803cd0a0863a9040a213a80b370357d81ea820193f10",
+    "positive_source_id": "cities:1302",
+    "positive_statement": "The city of Luzhou is in China.",
+    "positive_statement_sha256": "96a58215ddbcede0ddfc6f7d6c0419d97a266d1b20c3d29239ecea42adaf8294",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Libreville",
+    "entity_id": "entity_8095c939d7ca09ed9b0d499fe4b71e474817a1961dc688fe61b5c31e3b431aaa",
+    "known_true_objects": [
+      "Gabon"
+    ],
+    "person_key": "entity_8095c939d7ca09ed9b0d499fe4b71e474817a1961dc688fe61b5c31e3b431aaa",
+    "positive_source_id": "cities:294",
+    "positive_statement": "The city of Libreville is in Gabon.",
+    "positive_statement_sha256": "420e01a6599e91eaeb60b9900167727dd26409cb5c81ece545d17196c972dd2e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Deyang",
+    "entity_id": "entity_8549419b1769a2edddb39ace13adb7008d365cce540d560eaf15125d34488877",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_8549419b1769a2edddb39ace13adb7008d365cce540d560eaf15125d34488877",
+    "positive_source_id": "cities:602",
+    "positive_statement": "The city of Deyang is in China.",
+    "positive_statement_sha256": "7d666b09cd533ebd9471811dee9b48e30508e33ab344ed9c5ed2749ed8fb7769",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Suwon",
+    "entity_id": "entity_877a05291b74a715bdbbfa2691429e16584148977b6f4397359a1b5e4ddf87fb",
+    "known_true_objects": [
+      "South Korea"
+    ],
+    "person_key": "entity_877a05291b74a715bdbbfa2691429e16584148977b6f4397359a1b5e4ddf87fb",
+    "positive_source_id": "cities:126",
+    "positive_statement": "The city of Suwon is in South Korea.",
+    "positive_statement_sha256": "1854b1083019c428c840b7402cead92e1015e873bcdd746930c042f087ed60d1",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Santiago de los Caballeros",
+    "entity_id": "entity_89004ee02bfccd8411c65570640fd3884d6f1123cb84e39495e1b9e0030e1b34",
+    "known_true_objects": [
+      "the Dominican Republic"
+    ],
+    "person_key": "entity_89004ee02bfccd8411c65570640fd3884d6f1123cb84e39495e1b9e0030e1b34",
+    "positive_source_id": "cities:296",
+    "positive_statement": "The city of Santiago de los Caballeros is in the Dominican Republic.",
+    "positive_statement_sha256": "8550b4ffe63b17ac29a922b190adaec545ded37afedbc29f5e8f5307f48c0207",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Anyang",
+    "entity_id": "entity_8c13c49d7c8433403143c08c6863281b29d433e382c967c0b5042571fef12cfe",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_8c13c49d7c8433403143c08c6863281b29d433e382c967c0b5042571fef12cfe",
+    "positive_source_id": "cities:646",
+    "positive_statement": "The city of Anyang is in China.",
+    "positive_statement_sha256": "2364607b3f92cd31337a57159ba55cb3371ffe0d54f396cd2999f9d6dc8e2dd0",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Basrah",
+    "entity_id": "entity_8cb9f52c757d97af886485fe597991e08bc3a00026e16f96ecd32e4865818163",
+    "known_true_objects": [
+      "Iraq"
+    ],
+    "person_key": "entity_8cb9f52c757d97af886485fe597991e08bc3a00026e16f96ecd32e4865818163",
+    "positive_source_id": "cities:140",
+    "positive_statement": "The city of Basrah is in Iraq.",
+    "positive_statement_sha256": "e84595ec520d585aba0827af0b5172e7f8cf8268e61e7ce8d2cf383080623798",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Lubumbashi",
+    "entity_id": "entity_9031f8da65a21f341aea1c31645400ca80a46d80396a3ef61d771776cf056717",
+    "known_true_objects": [
+      "the Democratic Republic of the Congo"
+    ],
+    "person_key": "entity_9031f8da65a21f341aea1c31645400ca80a46d80396a3ef61d771776cf056717",
+    "positive_source_id": "cities:694",
+    "positive_statement": "The city of Lubumbashi is in the Democratic Republic of the Congo.",
+    "positive_statement_sha256": "208be68bd825813ce607f3c3d688cdbbbee820b6df0e3d9da4eae1ed50acb58c",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bucharest",
+    "entity_id": "entity_903c8c44aec87a2f5e555094a033775bd3b3864d61884cc9625532f001f853da",
+    "known_true_objects": [
+      "Romania"
+    ],
+    "person_key": "entity_903c8c44aec87a2f5e555094a033775bd3b3864d61884cc9625532f001f853da",
+    "positive_source_id": "cities:374",
+    "positive_statement": "The city of Bucharest is in Romania.",
+    "positive_statement_sha256": "a7660f0fd57c66422c6d6eb0275494c60375a085159f706f1f2e21e8d1314db0",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Arak",
+    "entity_id": "entity_90cecd1297a2bd2b4f6d4ec984411f10c8da3a2b233f8203a4abdabe4b47d3f3",
+    "known_true_objects": [
+      "Iran"
+    ],
+    "person_key": "entity_90cecd1297a2bd2b4f6d4ec984411f10c8da3a2b233f8203a4abdabe4b47d3f3",
+    "positive_source_id": "cities:1340",
+    "positive_statement": "The city of Arak is in Iran.",
+    "positive_statement_sha256": "ddf9a270c6bd9cadfb1d0baea680efa895a4a0fa0a1c17fcdc7761a3f301a220",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Mianzhu, Deyang, Sichuan",
+    "entity_id": "entity_920806d78a2a04c9a711172010f1cb4cdce268aefa39e017fa4778f9cf5859b4",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_920806d78a2a04c9a711172010f1cb4cdce268aefa39e017fa4778f9cf5859b4",
+    "positive_source_id": "cities:272",
+    "positive_statement": "The city of Mianzhu, Deyang, Sichuan is in China.",
+    "positive_statement_sha256": "834ea8c5f93c211996098c7d42687977abfa0dd1a2d86798af1c3491c1621ac9",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Nouakchott",
+    "entity_id": "entity_927e5f8fb798dfd00d26ab9ac8a90963d8dc05c41b3b1e05bdeb441a9b4877c2",
+    "known_true_objects": [
+      "Mauritania"
+    ],
+    "person_key": "entity_927e5f8fb798dfd00d26ab9ac8a90963d8dc05c41b3b1e05bdeb441a9b4877c2",
+    "positive_source_id": "cities:760",
+    "positive_statement": "The city of Nouakchott is in Mauritania.",
+    "positive_statement_sha256": "20c1ccad80c4601f88d7ddb1bba02b33d37dc20e435a370e612fafffd8157abb",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "General Santos",
+    "entity_id": "entity_9344da85bd6b943eea28309c9af370f53d036b9e68c37743f1e0c310b01041b1",
+    "known_true_objects": [
+      "the Philippines"
+    ],
+    "person_key": "entity_9344da85bd6b943eea28309c9af370f53d036b9e68c37743f1e0c310b01041b1",
+    "positive_source_id": "cities:560",
+    "positive_statement": "The city of General Santos is in the Philippines.",
+    "positive_statement_sha256": "dd29bbd7c75d009ea894f1e736b71fe9c0fbf6e80d7d197701f62e6bd3b50221",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Thuan An",
+    "entity_id": "entity_9443176b85008b47e2ece9026988d373c6908aa97214fc66c8b6437047f489d7",
+    "known_true_objects": [
+      "Vietnam"
+    ],
+    "person_key": "entity_9443176b85008b47e2ece9026988d373c6908aa97214fc66c8b6437047f489d7",
+    "positive_source_id": "cities:1202",
+    "positive_statement": "The city of Thuan An is in Vietnam.",
+    "positive_statement_sha256": "43650db83dd24f1a00bd92d7527554649c64139cd74d1118760f3ed10b77e036",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tomsk",
+    "entity_id": "entity_947ce7a4274fc517244cbfa1c78b69b37aa2092c19e60269ad10f991f38bc682",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_947ce7a4274fc517244cbfa1c78b69b37aa2092c19e60269ad10f991f38bc682",
+    "positive_source_id": "cities:1100",
+    "positive_statement": "The city of Tomsk is in Russia.",
+    "positive_statement_sha256": "674fbe3cfbae6f47574691e34810d3ec7613a28fd3e295020b2ebc709fde4314",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Namangan",
+    "entity_id": "entity_94e58db2415e654a3e6553d61d321e1220cd5c3ab4d7291a8d3097bd2a043a8b",
+    "known_true_objects": [
+      "Uzbekistan"
+    ],
+    "person_key": "entity_94e58db2415e654a3e6553d61d321e1220cd5c3ab4d7291a8d3097bd2a043a8b",
+    "positive_source_id": "cities:866",
+    "positive_statement": "The city of Namangan is in Uzbekistan.",
+    "positive_statement_sha256": "8fb8d90bcf8badc835bd8179fcbaa507cffe3342cf978034d2ca5028a68b14e4",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kampung Baru Subang",
+    "entity_id": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+    "known_true_objects": [
+      "Malaysia"
+    ],
+    "person_key": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+    "positive_source_id": "cities:246",
+    "positive_statement": "The city of Kampung Baru Subang is in Malaysia.",
+    "positive_statement_sha256": "122b9abb05dee5cbdf2e387c972223fbdf403b70b439064c44bb3432684934d9",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tokyo",
+    "entity_id": "entity_95b0d697f569f983fd05ce7c2144860e0a4a5dad9e5b5cd867b6accaa5e683f5",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_95b0d697f569f983fd05ce7c2144860e0a4a5dad9e5b5cd867b6accaa5e683f5",
+    "positive_source_id": "cities:34",
+    "positive_statement": "The city of Tokyo is in Japan.",
+    "positive_statement_sha256": "f7a8b668e4110c5838934e621ad6d4b233458a748146804cff6c7321f4c56288",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Salta",
+    "entity_id": "entity_95e88f843b45b005850edb4ae355a74dc08a656f7b2f141cf7ed93f1cac08860",
+    "known_true_objects": [
+      "Argentina"
+    ],
+    "person_key": "entity_95e88f843b45b005850edb4ae355a74dc08a656f7b2f141cf7ed93f1cac08860",
+    "positive_source_id": "cities:1418",
+    "positive_statement": "The city of Salta is in Argentina.",
+    "positive_statement_sha256": "f5eec11694c5c407427fbdfe1ad99413e29d4070c5425fb861ef0ad3760fe2aa",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Dar es Salaam",
+    "entity_id": "entity_97cab5139911774db82f5bba85cf6a18275c728ff1655a3ea23954219ec3825b",
+    "known_true_objects": [
+      "Tanzania"
+    ],
+    "person_key": "entity_97cab5139911774db82f5bba85cf6a18275c728ff1655a3ea23954219ec3825b",
+    "positive_source_id": "cities:530",
+    "positive_statement": "The city of Dar es Salaam is in Tanzania.",
+    "positive_statement_sha256": "5844c4ce438529379e7439c7df86ce96c77059f175d3186ee9fcd29be4eb57db",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Korla",
+    "entity_id": "entity_987b1729b159f3eb70ab4b1ccad8f7a6a4e07b504bbfe0a517b01bf0ed24a0a8",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_987b1729b159f3eb70ab4b1ccad8f7a6a4e07b504bbfe0a517b01bf0ed24a0a8",
+    "positive_source_id": "cities:674",
+    "positive_statement": "The city of Korla is in China.",
+    "positive_statement_sha256": "3763a76532b93134f6f01c6a442d7dab42d7d6af8a0931485ad8f953bab2c611",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Rio de Janeiro",
+    "entity_id": "entity_9f264886d2a9894a3b76c4c59447977823da23ac1f532d5f6efbfc58f5579672",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_9f264886d2a9894a3b76c4c59447977823da23ac1f532d5f6efbfc58f5579672",
+    "positive_source_id": "cities:1090",
+    "positive_statement": "The city of Rio de Janeiro is in Brazil.",
+    "positive_statement_sha256": "5014669112dca155d4c8b79f7a60be4e5d6c4314b4801ed0b0a1247b8ebf19ec",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Sokoto",
+    "entity_id": "entity_a2ba89b45fdd785cf34025c6427a0746f18e7d294ac6514c392b1b38d0ee3e06",
+    "known_true_objects": [
+      "Nigeria"
+    ],
+    "person_key": "entity_a2ba89b45fdd785cf34025c6427a0746f18e7d294ac6514c392b1b38d0ee3e06",
+    "positive_source_id": "cities:86",
+    "positive_statement": "The city of Sokoto is in Nigeria.",
+    "positive_statement_sha256": "eb216d2ae9da32368400f40aac63f5f3c32449c3a46ac8e9dbbb87fb1ac67540",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Muzaffarabad",
+    "entity_id": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+    "known_true_objects": [
+      "Pakistan"
+    ],
+    "person_key": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+    "positive_source_id": "cities:1266",
+    "positive_statement": "The city of Muzaffarabad is in Pakistan.",
+    "positive_statement_sha256": "ad6c9666beff67c8c5291237ab686220dcae3750eead9fc547dcba6656b96afc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kharkiv",
+    "entity_id": "entity_a5ffea2114c1c410aa05be4eddaa17fbcc6b902419ed6f85e5efbd4e39998552",
+    "known_true_objects": [
+      "Ukraine"
+    ],
+    "person_key": "entity_a5ffea2114c1c410aa05be4eddaa17fbcc6b902419ed6f85e5efbd4e39998552",
+    "positive_source_id": "cities:740",
+    "positive_statement": "The city of Kharkiv is in Ukraine.",
+    "positive_statement_sha256": "febb36bceff6c7f3b860734c0045933d881723b47a81e863a855e690c30b24c6",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tiruppur",
+    "entity_id": "entity_a7c9970c5ee45d9888bcb3c06164cb7aad7977bf2c65b735e4d50635661a5924",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_a7c9970c5ee45d9888bcb3c06164cb7aad7977bf2c65b735e4d50635661a5924",
+    "positive_source_id": "cities:1036",
+    "positive_statement": "The city of Tiruppur is in India.",
+    "positive_statement_sha256": "5c4649d0ceed18d6d598bc01e8bef435fc94cdfc109cf8cce7409e2f59a8c444",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Riga",
+    "entity_id": "entity_ac41d6fb86a376fd8c0239d187b32e322ed1b5124576c549eec173c26d4603d4",
+    "known_true_objects": [
+      "Latvia"
+    ],
+    "person_key": "entity_ac41d6fb86a376fd8c0239d187b32e322ed1b5124576c549eec173c26d4603d4",
+    "positive_source_id": "cities:912",
+    "positive_statement": "The city of Riga is in Latvia.",
+    "positive_statement_sha256": "003085c8e667d89bec57b7c52e2063d19e3ae0bb7abf789bcf644d8be250676c",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Leipzig",
+    "entity_id": "entity_ad51f804bd24f38b52defe95dbfe3c3ce32adb9f74bdb26ae75b57bca62d7bc3",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_ad51f804bd24f38b52defe95dbfe3c3ce32adb9f74bdb26ae75b57bca62d7bc3",
+    "positive_source_id": "cities:606",
+    "positive_statement": "The city of Leipzig is in Germany.",
+    "positive_statement_sha256": "dfb6897c8280f55c5b7ecd2be2f2afb2b4ba5891b28fa28db86e27ec25b398fc",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zigong",
+    "entity_id": "entity_adf2598b0ae0eee0896c9a432a6c17873b5a9ac585d88ca2376451363181352c",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_adf2598b0ae0eee0896c9a432a6c17873b5a9ac585d88ca2376451363181352c",
+    "positive_source_id": "cities:818",
+    "positive_statement": "The city of Zigong is in China.",
+    "positive_statement_sha256": "a1ffc8e2c2a855cefb5732014d35f7e01ab0b085e2645ce4f6a1d1cef8e0b182",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Novosibirsk",
+    "entity_id": "entity_b03056fef13c0318b81d44be281e165c6ad7404e24c69bd35a17e2ba796f5867",
+    "known_true_objects": [
+      "Russia"
+    ],
+    "person_key": "entity_b03056fef13c0318b81d44be281e165c6ad7404e24c69bd35a17e2ba796f5867",
+    "positive_source_id": "cities:524",
+    "positive_statement": "The city of Novosibirsk is in Russia.",
+    "positive_statement_sha256": "9e604fc6666676945466d3560a75870a83401d53394efd1df04f0cfdcc584e11",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Guatemala City",
+    "entity_id": "entity_b1055c6ab3c21b6d10500ea25889245613c46b072852d20884fb2157d015dbe1",
+    "known_true_objects": [
+      "Guatemala"
+    ],
+    "person_key": "entity_b1055c6ab3c21b6d10500ea25889245613c46b072852d20884fb2157d015dbe1",
+    "positive_source_id": "cities:30",
+    "positive_statement": "The city of Guatemala City is in Guatemala.",
+    "positive_statement_sha256": "779ff0e44a6a8c6bd6b90b21d8a5fd6b2563db2f22776b53e23c117fb56d76bb",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Bareilly",
+    "entity_id": "entity_b214e746ba19b19c9abda8a89f1ebdf3fe4e09f0e2499f2499098ab64f507032",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_b214e746ba19b19c9abda8a89f1ebdf3fe4e09f0e2499f2499098ab64f507032",
+    "positive_source_id": "cities:264",
+    "positive_statement": "The city of Bareilly is in India.",
+    "positive_statement_sha256": "6e62cafb041f2e10d1c71a946c20389bb19d603f70e68e1ff586af538d0bd6b5",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Seoul",
+    "entity_id": "entity_b33156fa0090572744cc0c6d6b4945a3f7fc13a99b7e93f8808d750ee7037684",
+    "known_true_objects": [
+      "South Korea"
+    ],
+    "person_key": "entity_b33156fa0090572744cc0c6d6b4945a3f7fc13a99b7e93f8808d750ee7037684",
+    "positive_source_id": "cities:626",
+    "positive_statement": "The city of Seoul is in South Korea.",
+    "positive_statement_sha256": "5512d36584b842f77fb152f0e642af47cd622fbf226a13ac4c11459ce29924b8",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Semarang",
+    "entity_id": "entity_b4146c7150070412958ee48d011e1f0af0bff12d81f559feaf224019f17ac20e",
+    "known_true_objects": [
+      "Indonesia"
+    ],
+    "person_key": "entity_b4146c7150070412958ee48d011e1f0af0bff12d81f559feaf224019f17ac20e",
+    "positive_source_id": "cities:670",
+    "positive_statement": "The city of Semarang is in Indonesia.",
+    "positive_statement_sha256": "14594dc891e321f29ad7a3964f774835f373a0a26b3935f74e4e8e8437bfd6b4",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Lanzhou",
+    "entity_id": "entity_b48a8217df9ba44c7ad0ffa2d9ae616f55107c95284413f5642fac69141f9e04",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_b48a8217df9ba44c7ad0ffa2d9ae616f55107c95284413f5642fac69141f9e04",
+    "positive_source_id": "cities:1304",
+    "positive_statement": "The city of Lanzhou is in China.",
+    "positive_statement_sha256": "1e8092e74877e786eea9140694ae615d294ba72e30bb183a5cb19066494385e1",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ghaziabad",
+    "entity_id": "entity_b791b4738b432262352ba586e39e4ddb3e9d057eabe0c8cf1b9726e553d8a990",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_b791b4738b432262352ba586e39e4ddb3e9d057eabe0c8cf1b9726e553d8a990",
+    "positive_source_id": "cities:418",
+    "positive_statement": "The city of Ghaziabad is in India.",
+    "positive_statement_sha256": "e147da98b77d5fd80ea937e924658d72db7cc53a2b774f90b261465f8aad8b91",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Hanoi",
+    "entity_id": "entity_b8cd6ed7e00d068cbeb61f2b7195869bc5f007db14498c8000fa23d940d9f047",
+    "known_true_objects": [
+      "Vietnam"
+    ],
+    "person_key": "entity_b8cd6ed7e00d068cbeb61f2b7195869bc5f007db14498c8000fa23d940d9f047",
+    "positive_source_id": "cities:216",
+    "positive_statement": "The city of Hanoi is in Vietnam.",
+    "positive_statement_sha256": "ebc165d3c42c3e470769b1b668e67876cd3819b124c03b0117eaabf778eedfd1",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Cheongju-si",
+    "entity_id": "entity_baae5bd805669ba054ec6e4b88fe0c0a453b286b1cf65e52d8bc7efc4c11ee35",
+    "known_true_objects": [
+      "South Korea"
+    ],
+    "person_key": "entity_baae5bd805669ba054ec6e4b88fe0c0a453b286b1cf65e52d8bc7efc4c11ee35",
+    "positive_source_id": "cities:416",
+    "positive_statement": "The city of Cheongju-si is in South Korea.",
+    "positive_statement_sha256": "e94e035c6ca46f4ebd0a855390d82c2e5c1b191e8f3f224383a178488fe318e8",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Antananarivo",
+    "entity_id": "entity_c39b7491f88df021b19e85a20ad1fd057ed5745238532fcde9da8653a09a6b4c",
+    "known_true_objects": [
+      "Madagascar"
+    ],
+    "person_key": "entity_c39b7491f88df021b19e85a20ad1fd057ed5745238532fcde9da8653a09a6b4c",
+    "positive_source_id": "cities:948",
+    "positive_statement": "The city of Antananarivo is in Madagascar.",
+    "positive_statement_sha256": "c7dfbdfca52f5fc7e9731df1d7346d9450e9269cae0314e160930a2ec91c0855",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Shah Alam",
+    "entity_id": "entity_c52235a9431cd12cfe797e5ceedaf27332d846bdd70289cde2646cf7952dc032",
+    "known_true_objects": [
+      "Malaysia"
+    ],
+    "person_key": "entity_c52235a9431cd12cfe797e5ceedaf27332d846bdd70289cde2646cf7952dc032",
+    "positive_source_id": "cities:656",
+    "positive_statement": "The city of Shah Alam is in Malaysia.",
+    "positive_statement_sha256": "08ae96a5733882d32c7c91d7dfefbf7687813d4ab0020b6688f5440c12e72853",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Baotou",
+    "entity_id": "entity_c6496239fcbae52760b673b4b83632e2d524b8721572c90f2ef5f38ead05cef3",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_c6496239fcbae52760b673b4b83632e2d524b8721572c90f2ef5f38ead05cef3",
+    "positive_source_id": "cities:234",
+    "positive_statement": "The city of Baotou is in China.",
+    "positive_statement_sha256": "494413bebe5faafd4beb2f2cf9cf68677517232e7997ad05b3f212cafa7f458b",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Balikpapan",
+    "entity_id": "entity_caab6e6e0c031b13d0cc68423ae4849d2c7914ea38cace94cea2e0ecf8925fe8",
+    "known_true_objects": [
+      "Indonesia"
+    ],
+    "person_key": "entity_caab6e6e0c031b13d0cc68423ae4849d2c7914ea38cace94cea2e0ecf8925fe8",
+    "positive_source_id": "cities:332",
+    "positive_statement": "The city of Balikpapan is in Indonesia.",
+    "positive_statement_sha256": "b5f7479c7cad2efd702a5dd339e08f85e9eb0acc0ffeb94fcaca540a60554617",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kleinzschocher",
+    "entity_id": "entity_d1f317c9d000d0e74b77d4f86d0d59c37ec8122e815ec039408d30a2a41db6d3",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_d1f317c9d000d0e74b77d4f86d0d59c37ec8122e815ec039408d30a2a41db6d3",
+    "positive_source_id": "cities:1132",
+    "positive_statement": "The city of Kleinzschocher is in Germany.",
+    "positive_statement_sha256": "54b864274e3cb657803dd1b6a6706b7410eb75d143c2a0ec4dee2d15dcc0d068",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Coimbatore",
+    "entity_id": "entity_d2df033e4cb4c48236c6ad9dacd59073ab3a48a30daeabeb4b0c202a85e16787",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_d2df033e4cb4c48236c6ad9dacd59073ab3a48a30daeabeb4b0c202a85e16787",
+    "positive_source_id": "cities:1334",
+    "positive_statement": "The city of Coimbatore is in India.",
+    "positive_statement_sha256": "0b61f9dbee8b73cae01fff485b770cb28bb69e2fdadbcbdcd9f5f71ecc85198b",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Maiduguri",
+    "entity_id": "entity_d5c48505c11de98eb6b953c3d7f33dc44c84a16cf71fe951e4b133bfa451d60f",
+    "known_true_objects": [
+      "Nigeria"
+    ],
+    "person_key": "entity_d5c48505c11de98eb6b953c3d7f33dc44c84a16cf71fe951e4b133bfa451d60f",
+    "positive_source_id": "cities:1452",
+    "positive_statement": "The city of Maiduguri is in Nigeria.",
+    "positive_statement_sha256": "17b21029988e6593eb036f680eb10c22e06ae733061963bb557b03c53896829f",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Aracaju",
+    "entity_id": "entity_da1cbb496ec58331e562744126ccfa63998278b338af0218aba5116366ecbaad",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_da1cbb496ec58331e562744126ccfa63998278b338af0218aba5116366ecbaad",
+    "positive_source_id": "cities:814",
+    "positive_statement": "The city of Aracaju is in Brazil.",
+    "positive_statement_sha256": "a6ac7299618bd4cca0ee5109a50d95cbd70f9c746be4f59c7faa9291c509e79e",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Sarajevo",
+    "entity_id": "entity_da5886acf146594b8f47f6528fe8dff8977e275636cf345db8f26951e7b85445",
+    "known_true_objects": [
+      "Bosnia and Herzegovina"
+    ],
+    "person_key": "entity_da5886acf146594b8f47f6528fe8dff8977e275636cf345db8f26951e7b85445",
+    "positive_source_id": "cities:342",
+    "positive_statement": "The city of Sarajevo is in Bosnia and Herzegovina.",
+    "positive_statement_sha256": "9798455b0903580aa2e8151be4708b304613c0f83ea8eb4a2a2bfe3ff4bac6e2",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Wuzhou",
+    "entity_id": "entity_db31dc5b3ce9fe46bfad20f987fdad5629eecbfd4f3c187d6f055ebd4f477ce5",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_db31dc5b3ce9fe46bfad20f987fdad5629eecbfd4f3c187d6f055ebd4f477ce5",
+    "positive_source_id": "cities:1014",
+    "positive_statement": "The city of Wuzhou is in China.",
+    "positive_statement_sha256": "fb8f9d3f65abdeed72be33de0a00650ce1eef9285bcf5da6310892163323f5db",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Oklahoma City",
+    "entity_id": "entity_dbd7e84d4a68117b658904080939d1aa177853070c49f9f629c7205bae6d4d70",
+    "known_true_objects": [
+      "the United States"
+    ],
+    "person_key": "entity_dbd7e84d4a68117b658904080939d1aa177853070c49f9f629c7205bae6d4d70",
+    "positive_source_id": "cities:1106",
+    "positive_statement": "The city of Oklahoma City is in the United States.",
+    "positive_statement_sha256": "204305f67b7947ac3830ff8ef7767529bd603cd1f0c034935ca32b6fdb738255",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Eskisehir",
+    "entity_id": "entity_dc1428d832c89a0aee80e71a8e38b056f06a4755a69717928e5755271b459134",
+    "known_true_objects": [
+      "Turkey"
+    ],
+    "person_key": "entity_dc1428d832c89a0aee80e71a8e38b056f06a4755a69717928e5755271b459134",
+    "positive_source_id": "cities:284",
+    "positive_statement": "The city of Eskisehir is in Turkey.",
+    "positive_statement_sha256": "83066023fad102bc17fcbdc3d322bd93316c52a854c02eaa2880b75942e25f19",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Warangal",
+    "entity_id": "entity_dd1bd51e727c4e09df8c16c4e28bd32f76edc19020c4c721e9ee03b550624ae0",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_dd1bd51e727c4e09df8c16c4e28bd32f76edc19020c4c721e9ee03b550624ae0",
+    "positive_source_id": "cities:40",
+    "positive_statement": "The city of Warangal is in India.",
+    "positive_statement_sha256": "d83a2500c04518d9a7a421798e4e08cc1235d480b5b7ac581215178cffd0eb11",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Nyala",
+    "entity_id": "entity_df5dc1c6001c1731f35ee939a73c60f3b1025ae2ad52fe92f2acdc305b937b10",
+    "known_true_objects": [
+      "Sudan"
+    ],
+    "person_key": "entity_df5dc1c6001c1731f35ee939a73c60f3b1025ae2ad52fe92f2acdc305b937b10",
+    "positive_source_id": "cities:282",
+    "positive_statement": "The city of Nyala is in Sudan.",
+    "positive_statement_sha256": "374ddc1211736b6b296dc61d2b655986a04eb842e6f455158ca7eb7956797899",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Xiamen",
+    "entity_id": "entity_df7a72b48c8b66b1afe5b01863485310d6a02244e9e9a1c1f305743bab0e40a3",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_df7a72b48c8b66b1afe5b01863485310d6a02244e9e9a1c1f305743bab0e40a3",
+    "positive_source_id": "cities:678",
+    "positive_statement": "The city of Xiamen is in China.",
+    "positive_statement_sha256": "096726370ee2960037e50926a293b2be0b2c358ce8207c6a06a5b57b24632579",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Oyo",
+    "entity_id": "entity_e0234a5fb28cbc6680a77c97af4cb10328fdfe15e7de8bb67c19e39091cd056e",
+    "known_true_objects": [
+      "Nigeria"
+    ],
+    "person_key": "entity_e0234a5fb28cbc6680a77c97af4cb10328fdfe15e7de8bb67c19e39091cd056e",
+    "positive_source_id": "cities:382",
+    "positive_statement": "The city of Oyo is in Nigeria.",
+    "positive_statement_sha256": "5b27119c12279e16679efcf7e4d3890b09b68c137d68f19258feb168a6979bc4",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Porto Velho",
+    "entity_id": "entity_e477a9988ab3155cb7fb4cf3b86e996aa4dde39729e36ca41e3632d5acba1482",
+    "known_true_objects": [
+      "Brazil"
+    ],
+    "person_key": "entity_e477a9988ab3155cb7fb4cf3b86e996aa4dde39729e36ca41e3632d5acba1482",
+    "positive_source_id": "cities:182",
+    "positive_statement": "The city of Porto Velho is in Brazil.",
+    "positive_statement_sha256": "d9b59cbb7f7236d12f294bb9ac38bdadde25e494fdf9bc643f7765b7be7d7e13",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Tangerang",
+    "entity_id": "entity_e597c8c130125f1ac3ff827438fce263c561414a7f2104d61e9264e2d42a9044",
+    "known_true_objects": [
+      "Indonesia"
+    ],
+    "person_key": "entity_e597c8c130125f1ac3ff827438fce263c561414a7f2104d61e9264e2d42a9044",
+    "positive_source_id": "cities:1494",
+    "positive_statement": "The city of Tangerang is in Indonesia.",
+    "positive_statement_sha256": "4aedbde9ee06882ec8dbd21635b78fad1b86b0497217cc39b0e5c32e6b45652d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Gaziantep",
+    "entity_id": "entity_e68e12df518d70f585f131c4688621cb9f67e24627bdd06fc91e784f248ab35a",
+    "known_true_objects": [
+      "Turkey"
+    ],
+    "person_key": "entity_e68e12df518d70f585f131c4688621cb9f67e24627bdd06fc91e784f248ab35a",
+    "positive_source_id": "cities:1284",
+    "positive_statement": "The city of Gaziantep is in Turkey.",
+    "positive_statement_sha256": "06a1e83f91db93d5c9646c3652453711d240b524e6be4f6abcd192bc94df89d3",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Cangzhou",
+    "entity_id": "entity_e876bfa48684caf7b28ba29e153a6b421056bbb7c8a0917071245ab8084a05d3",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_e876bfa48684caf7b28ba29e153a6b421056bbb7c8a0917071245ab8084a05d3",
+    "positive_source_id": "cities:988",
+    "positive_statement": "The city of Cangzhou is in China.",
+    "positive_statement_sha256": "e113f729ff04f8d0633221209dbf57777dad3b035ece3c009aad0b42ccb044ac",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Munich",
+    "entity_id": "entity_eb6ae9db22ce5d80ee0e1236464733b7fafeaa4c6de794b486a100e01fa88ff6",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_eb6ae9db22ce5d80ee0e1236464733b7fafeaa4c6de794b486a100e01fa88ff6",
+    "positive_source_id": "cities:586",
+    "positive_statement": "The city of Munich is in Germany.",
+    "positive_statement_sha256": "1149b8245448f4acddeedf60c1ae76da352c4616deda869ce536b321131ecdee",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Huaihua",
+    "entity_id": "entity_ec54fffb9194d82ba2c64198f46bf7d35c9ed6974ba9e1bd5c639989fd87c70c",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_ec54fffb9194d82ba2c64198f46bf7d35c9ed6974ba9e1bd5c639989fd87c70c",
+    "positive_source_id": "cities:22",
+    "positive_statement": "The city of Huaihua is in China.",
+    "positive_statement_sha256": "a43680ccdcf53480d6b32ea9a512ef90a89d69b98ede3e51c0c5212fcf7ebedf",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Guigang",
+    "entity_id": "entity_ece3c82cf20f35a2092de9d346eb015e039dfe50c83385a0f412df1130993211",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_ece3c82cf20f35a2092de9d346eb015e039dfe50c83385a0f412df1130993211",
+    "positive_source_id": "cities:1250",
+    "positive_statement": "The city of Guigang is in China.",
+    "positive_statement_sha256": "95bfb9db8806cd097d089d7ad112249623378d46b63b010dc517eab5380950ea",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Zhangjiagang",
+    "entity_id": "entity_ed60373081bad01fd201e5ccaac21680c25201a5f1182bd04bfb0ac6e20288f2",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_ed60373081bad01fd201e5ccaac21680c25201a5f1182bd04bfb0ac6e20288f2",
+    "positive_source_id": "cities:796",
+    "positive_statement": "The city of Zhangjiagang is in China.",
+    "positive_statement_sha256": "94de93dae86f689950ec4068a65f357651c68bc76931b31de636556a9d7d1b5d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Ciudad Nezahualcoyotl",
+    "entity_id": "entity_ee756c15ed16cfa1a62f2d1633cf788033a2de1a43f8c351c5247e51596789db",
+    "known_true_objects": [
+      "Mexico"
+    ],
+    "person_key": "entity_ee756c15ed16cfa1a62f2d1633cf788033a2de1a43f8c351c5247e51596789db",
+    "positive_source_id": "cities:240",
+    "positive_statement": "The city of Ciudad Nezahualcoyotl is in Mexico.",
+    "positive_statement_sha256": "c6670ad62e31988525230d24da9cf14521743250c689eba93a9c3a3c78341187",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Thiruvananthapuram",
+    "entity_id": "entity_f0ce3881fa596d22e7aabf99a6e67e41ed07fdc5de550a732d1701587b0f479f",
+    "known_true_objects": [
+      "India"
+    ],
+    "person_key": "entity_f0ce3881fa596d22e7aabf99a6e67e41ed07fdc5de550a732d1701587b0f479f",
+    "positive_source_id": "cities:1070",
+    "positive_statement": "The city of Thiruvananthapuram is in India.",
+    "positive_statement_sha256": "5e80bfcadbee95d0ca6b764e2eb1b23074f36804e6358d61047745091da95133",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kaifeng",
+    "entity_id": "entity_f7d8c4233cc2c1fa46f6af8eef712fc46292a1e7cad821e69e13370d00d5313d",
+    "known_true_objects": [
+      "China"
+    ],
+    "person_key": "entity_f7d8c4233cc2c1fa46f6af8eef712fc46292a1e7cad821e69e13370d00d5313d",
+    "positive_source_id": "cities:510",
+    "positive_statement": "The city of Kaifeng is in China.",
+    "positive_statement_sha256": "941187476703ce0a33987bd120bd021b8ff95eb30c3126ca52a76df743b3cab5",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Benin City",
+    "entity_id": "entity_f7e3152701c3848089a45bbf3c80c7a6dc79b1a48d7d82d7637d479c9ab1e4c7",
+    "known_true_objects": [
+      "Nigeria"
+    ],
+    "person_key": "entity_f7e3152701c3848089a45bbf3c80c7a6dc79b1a48d7d82d7637d479c9ab1e4c7",
+    "positive_source_id": "cities:564",
+    "positive_statement": "The city of Benin City is in Nigeria.",
+    "positive_statement_sha256": "5c4bdae38bf562bad8f6a3584f8de43e89eb59da9a3ab72dc1d8216c641eef6d",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kyiv",
+    "entity_id": "entity_ff706163f2bd4abc3d16c0f1dacbf73b8937229d68049991d498f969a9e49476",
+    "known_true_objects": [
+      "Ukraine"
+    ],
+    "person_key": "entity_ff706163f2bd4abc3d16c0f1dacbf73b8937229d68049991d498f969a9e49476",
+    "positive_source_id": "cities:746",
+    "positive_statement": "The city of Kyiv is in Ukraine.",
+    "positive_statement_sha256": "1f3cd8c54feeed1708decacf27468d74b50c5b4abe08899e31a1425b5918223f",
+    "split": "test",
+    "topic": "cities"
+  },
+  {
+    "entity": "Niobium",
+    "entity_id": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+    "known_true_objects": [
+      "Nb"
+    ],
+    "person_key": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+    "positive_source_id": "element_symb:69",
+    "positive_statement": "Niobium has the symbol Nb.",
+    "positive_statement_sha256": "2c2a3e719bee43a7285be057ee51ade4393dfa3933d9e61c5fd569c022174855",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Lanthanum",
+    "entity_id": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+    "known_true_objects": [
+      "La"
+    ],
+    "person_key": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+    "positive_source_id": "element_symb:132",
+    "positive_statement": "Lanthanum has the symbol La.",
+    "positive_statement_sha256": "00f83d88f06d5c222ee4c9b1704c0b40a98fe896d0c04d195c37de2e51ff9e65",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Zinc",
+    "entity_id": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+    "known_true_objects": [
+      "Zn"
+    ],
+    "person_key": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+    "positive_source_id": "element_symb:94",
+    "positive_statement": "Zinc has the symbol Zn.",
+    "positive_statement_sha256": "943688558320e33f7c26c8a69ab858a63ec64751313f2d92fc6e9719128da9c9",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Vanadium",
+    "entity_id": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+    "known_true_objects": [
+      "V"
+    ],
+    "person_key": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+    "positive_source_id": "element_symb:120",
+    "positive_statement": "Vanadium has the symbol V.",
+    "positive_statement_sha256": "37e87898e609919e780410384150ba752c899f37e89907b3b68a2395bd419538",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Platinum",
+    "entity_id": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+    "known_true_objects": [
+      "Pt"
+    ],
+    "person_key": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+    "positive_source_id": "element_symb:169",
+    "positive_statement": "Platinum has the symbol Pt.",
+    "positive_statement_sha256": "e9938d46f7131f4e5b90051ab15ebfc5240a8c9764aca06da6d04ffb80bca998",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Europium",
+    "entity_id": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+    "known_true_objects": [
+      "Eu"
+    ],
+    "person_key": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+    "positive_source_id": "element_symb:16",
+    "positive_statement": "Europium has the symbol Eu.",
+    "positive_statement_sha256": "cf3738855f04fbc2c24368818d20fa1f9ae9ee775b93cdd9ce5831b0dbd6ce67",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Bromine",
+    "entity_id": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+    "known_true_objects": [
+      "Br"
+    ],
+    "person_key": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+    "positive_source_id": "element_symb:47",
+    "positive_statement": "Bromine has the symbol Br.",
+    "positive_statement_sha256": "f6ea823071bdeed515393998046a52732320b2fd44967fa72dff6ad0e17d08c8",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Hafnium",
+    "entity_id": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+    "known_true_objects": [
+      "Hf"
+    ],
+    "person_key": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+    "positive_source_id": "element_symb:31",
+    "positive_statement": "Hafnium has the symbol Hf.",
+    "positive_statement_sha256": "23f3ef4b651026fde3c5a1f09cc523691181156dbe59314aacc5986f4a971258",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Astatine",
+    "entity_id": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+    "known_true_objects": [
+      "At"
+    ],
+    "person_key": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+    "positive_source_id": "element_symb:112",
+    "positive_statement": "Astatine has the symbol At.",
+    "positive_statement_sha256": "a5f95a591a436a903d79542f86155dbf0737106f954625d94b7dd0516a165387",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Beryllium",
+    "entity_id": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+    "known_true_objects": [
+      "Be"
+    ],
+    "person_key": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+    "positive_source_id": "element_symb:3",
+    "positive_statement": "Beryllium has the symbol Be.",
+    "positive_statement_sha256": "593b15101f44bfbf7a61ea189a25709a591b85736e93acc8dea3aa680b2fd942",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Manganese",
+    "entity_id": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+    "known_true_objects": [
+      "Mn"
+    ],
+    "person_key": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+    "positive_source_id": "element_symb:179",
+    "positive_statement": "Manganese has the symbol Mn.",
+    "positive_statement_sha256": "84a024309adb146c80b30dd4d9710958eafaafedf82bca30bafb553457cefd58",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Silicon",
+    "entity_id": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+    "known_true_objects": [
+      "Si"
+    ],
+    "person_key": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+    "positive_source_id": "element_symb:130",
+    "positive_statement": "Silicon has the symbol Si.",
+    "positive_statement_sha256": "223dc34519e73146a20b30f1421f670d1b1f7316e122be63b98aff165360b2da",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Rubidium",
+    "entity_id": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+    "known_true_objects": [
+      "Rb"
+    ],
+    "person_key": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+    "positive_source_id": "element_symb:8",
+    "positive_statement": "Rubidium has the symbol Rb.",
+    "positive_statement_sha256": "00472aeb4c1866fe0b69e58bd35e4fbb7c2df5f3eb3763aca6e6a3e87b0d4a9e",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Sodium",
+    "entity_id": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+    "known_true_objects": [
+      "Na"
+    ],
+    "person_key": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+    "positive_source_id": "element_symb:90",
+    "positive_statement": "Sodium has the symbol Na.",
+    "positive_statement_sha256": "2b14b080b7be417a24e8437a52b65cd13a3a66d919f411e6a1c4dc4b8c594635",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Chlorine",
+    "entity_id": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+    "known_true_objects": [
+      "Cl"
+    ],
+    "person_key": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+    "positive_source_id": "element_symb:17",
+    "positive_statement": "Chlorine has the symbol Cl.",
+    "positive_statement_sha256": "822a66bb2e6c0744a38d64f42a389e3789fada3df5122dbd5451e19dfe2099ef",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Ruthenium",
+    "entity_id": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+    "known_true_objects": [
+      "Ru"
+    ],
+    "person_key": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+    "positive_source_id": "element_symb:96",
+    "positive_statement": "Ruthenium has the symbol Ru.",
+    "positive_statement_sha256": "efee435e7ea7e796226189fbe7bbd865ce3073c91d7c5db3019b7ed2523a821f",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Cobalt",
+    "entity_id": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+    "known_true_objects": [
+      "Co"
+    ],
+    "person_key": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+    "positive_source_id": "element_symb:87",
+    "positive_statement": "Cobalt has the symbol Co.",
+    "positive_statement_sha256": "408a00b04d4e212d79eda2b893f83556a954e75a0bf163a6d22acdbddb2231d7",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "Copper",
+    "entity_id": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+    "known_true_objects": [
+      "Cu"
+    ],
+    "person_key": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+    "positive_source_id": "element_symb:141",
+    "positive_statement": "Copper has the symbol Cu.",
+    "positive_statement_sha256": "ce6d821cbb365a9fe610428cfc9a27e1adc5f3a65adc9df8c0c13601e78b2e89",
+    "split": "test",
+    "topic": "element_symb"
+  },
+  {
+    "entity": "George Antheil",
+    "entity_id": "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470",
+    "positive_source_id": "inventors:220",
+    "positive_statement": "George Antheil lived in the U.S.",
+    "positive_statement_sha256": "e3b7c76a12520e276bc4bfa07ec388e19cafb3b01867a73608b80ba10d18e84b",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Elihu Thomson",
+    "entity_id": "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8",
+    "positive_source_id": "inventors:376",
+    "positive_statement": "Elihu Thomson lived in the U.S.",
+    "positive_statement_sha256": "0c26368982b24a468d6ea682e6027a5a6ea365f18ae7d46f0a1445b0979352de",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Richard Leach Maddox",
+    "entity_id": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+    "positive_source_id": "inventors:75",
+    "positive_statement": "Richard Leach Maddox lived in the U.K.",
+    "positive_statement_sha256": "98b8689a7738b46c0178aab476d6b844a7d19491deca35bf5fa909641506f083",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "James Hargreaves",
+    "entity_id": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+    "positive_source_id": "inventors:333",
+    "positive_statement": "James Hargreaves lived in the U.K.",
+    "positive_statement_sha256": "9234b6a43c81f28f3c66203ad0208870c8b93b0831e5bf74d99ca9225069ac98",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alec Jeffreys",
+    "entity_id": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+    "positive_source_id": "inventors:253",
+    "positive_statement": "Alec Jeffreys lived in the U.K.",
+    "positive_statement_sha256": "4299035111519f7fa39077487a67b499cceed8c54b29073cfe38244c190fc141",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "William Congreve",
+    "entity_id": "entity_18ad3069ce11efe10ebf672d7cec4279db394f98243d5fe6e4e8f0a6b2de5ae8",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_18ad3069ce11efe10ebf672d7cec4279db394f98243d5fe6e4e8f0a6b2de5ae8",
+    "positive_source_id": "inventors:180",
+    "positive_statement": "William Congreve lived in the U.K.",
+    "positive_statement_sha256": "236c69646065bcb93e8fa4a195055ec89d2f7858878925463c829abbecee576e",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Nikolai Basov",
+    "entity_id": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+    "known_true_objects": [
+      "the Soviet Union"
+    ],
+    "person_key": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+    "positive_source_id": "inventors:204",
+    "positive_statement": "Nikolai Basov lived in the Soviet Union.",
+    "positive_statement_sha256": "42c8fc7b5b37435deb501baf658cf026edc363806a082286adf4106ca2b4f402",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Philipp Reis",
+    "entity_id": "entity_1bb74b89af2e86a5d7050d0ad9e745a5b7ccc538ec38224bd163057fc9254634",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_1bb74b89af2e86a5d7050d0ad9e745a5b7ccc538ec38224bd163057fc9254634",
+    "positive_source_id": "inventors:231",
+    "positive_statement": "Philipp Reis lived in Germany.",
+    "positive_statement_sha256": "752442ac0a145d0938780da203bb21d66af333d3d88804962d55d5c78d935285",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alva J. Fisher",
+    "entity_id": "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50",
+    "positive_source_id": "inventors:222",
+    "positive_statement": "Alva J. Fisher lived in the U.S.",
+    "positive_statement_sha256": "f0f502453887944c56423f462ad96b3f869e980f77bf0fe2ffb2263807a3ac32",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Sir Isaac Newton",
+    "entity_id": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+    "positive_source_id": "inventors:173",
+    "positive_statement": "Sir Isaac Newton lived in the U.K.",
+    "positive_statement_sha256": "c47658f35364d89d79bdb7fdac5c12369409da20f1b030347f62c9d5119e5a0a",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Johannes Gutenberg",
+    "entity_id": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+    "positive_source_id": "inventors:197",
+    "positive_statement": "Johannes Gutenberg lived in Germany.",
+    "positive_statement_sha256": "af997731204e764e40e311265bff3d892bf167c40abb50c1aeeaa424203fd44c",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "George Cayley",
+    "entity_id": "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a",
+    "positive_source_id": "inventors:193",
+    "positive_statement": "George Cayley lived in the U.K.",
+    "positive_statement_sha256": "7a578a53b7339c90e88239cfe7d7fcba762b8f1f0daba4bfb0c62cb673448137",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Yoshiro Nakamatsu",
+    "entity_id": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+    "known_true_objects": [
+      "Japan"
+    ],
+    "person_key": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+    "positive_source_id": "inventors:400",
+    "positive_statement": "Yoshiro Nakamatsu lived in Japan.",
+    "positive_statement_sha256": "ad169995e187617e177aee3ac0220486b942456af683d854ea3d2f1243522558",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Charles Strite",
+    "entity_id": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+    "positive_source_id": "inventors:256",
+    "positive_statement": "Charles Strite lived in the U.S.",
+    "positive_statement_sha256": "ef1e7b49fb90bd6c1ace71901cfbb65d96b4da232eb4e910015ddae28e08633d",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "David Schwarz",
+    "entity_id": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+    "known_true_objects": [
+      "Croatia"
+    ],
+    "person_key": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+    "positive_source_id": "inventors:334",
+    "positive_statement": "David Schwarz lived in Croatia.",
+    "positive_statement_sha256": "863273fe99543f79e131acaeecefa886b26edf09f7f17e3fe9b17f0a9b1f8c3a",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Joseph Engelberger",
+    "entity_id": "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d",
+    "positive_source_id": "inventors:309",
+    "positive_statement": "Joseph Engelberger lived in the U.S.",
+    "positive_statement_sha256": "44c42590a958cd92533b5ee1bea1898ad8ac517a21f4aa157c45d62768d0c296",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Elisha Gray",
+    "entity_id": "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319",
+    "positive_source_id": "inventors:113",
+    "positive_statement": "Elisha Gray lived in the U.S.",
+    "positive_statement_sha256": "abc69d959f74ae4969e1b7cc5c6576ecad454dfb20d0474a30a432492f806356",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Elisha Otis",
+    "entity_id": "entity_557111cf6d48f03511acae5ea8f877eee0dba05801d13fe461321720b601bedf",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_557111cf6d48f03511acae5ea8f877eee0dba05801d13fe461321720b601bedf",
+    "positive_source_id": "inventors:118",
+    "positive_statement": "Elisha Otis lived in the U.S.",
+    "positive_statement_sha256": "37486290e57b02ea69a68d27cd948614207c54f3925361d4db9940506e70c4bf",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Sir Frank Whittle",
+    "entity_id": "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff",
+    "positive_source_id": "inventors:213",
+    "positive_statement": "Sir Frank Whittle lived in the U.K.",
+    "positive_statement_sha256": "b131f0cbac47f93f8497877a7f8833ffb3b74251b428b8ebf82663b458b8a9fa",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Arthur Pitney",
+    "entity_id": "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b",
+    "positive_source_id": "inventors:184",
+    "positive_statement": "Arthur Pitney lived in the U.S.",
+    "positive_statement_sha256": "48e1ca9acf259e3c34e5f0174d209c6e2967a9bc683ecf88026c46219851028b",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Ernest Swinton",
+    "entity_id": "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd",
+    "positive_source_id": "inventors:96",
+    "positive_statement": "Ernest Swinton lived in the U.K.",
+    "positive_statement_sha256": "34fc0d08acfdb9535007eaa4cf90ed2afb19d3b68caf8b693a9ca1d12c84a752",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Benjamin Holt",
+    "entity_id": "entity_645d6ab9925dff098eb2a1cf55074b8d86bc6825b4fa5a3174f78eef30828a54",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_645d6ab9925dff098eb2a1cf55074b8d86bc6825b4fa5a3174f78eef30828a54",
+    "positive_source_id": "inventors:79",
+    "positive_statement": "Benjamin Holt lived in the U.S.",
+    "positive_statement_sha256": "1ba1836f62ef8c6b646e1aadf07beb4860074475a5f3d52e044772267032a859",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Carl Wilhelm Siemens",
+    "entity_id": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+    "positive_source_id": "inventors:227",
+    "positive_statement": "Carl Wilhelm Siemens lived in Germany.",
+    "positive_statement_sha256": "6b27db4a04d764bae2bd7056f20661150e2944ce5a2c3ffc6f486fb267dea156",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Robert Noyce",
+    "entity_id": "entity_6b178cbbe90158395262c64300d94c4265265ebe3c5cbb5fa615dd1a51b5ec0f",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_6b178cbbe90158395262c64300d94c4265265ebe3c5cbb5fa615dd1a51b5ec0f",
+    "positive_source_id": "inventors:249",
+    "positive_statement": "Robert Noyce lived in the U.S.",
+    "positive_statement_sha256": "1887fb1a451d112d79c2f6f55243b070256d51847def611df0915a340871ae56",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Willem Einthoven",
+    "entity_id": "entity_753a7ed471068e8a1e6e9467ed404ec2a91c3c88d4fe35b91ad1bc20c2e91ab0",
+    "known_true_objects": [
+      "the Netherlands"
+    ],
+    "person_key": "entity_753a7ed471068e8a1e6e9467ed404ec2a91c3c88d4fe35b91ad1bc20c2e91ab0",
+    "positive_source_id": "inventors:398",
+    "positive_statement": "Willem Einthoven lived in the Netherlands.",
+    "positive_statement_sha256": "9c7548424ec5c4a90cb2197891bcd75d9e220f9bd5cf193a5ebec42e657b03a8",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Boyd Dunlop",
+    "entity_id": "entity_8a43b7608a38c9ca7941dbe9f36a2ac9bbcc893d6586fc6c2c18cc6c3f0033fd",
+    "known_true_objects": [
+      "Scotland"
+    ],
+    "person_key": "entity_8a43b7608a38c9ca7941dbe9f36a2ac9bbcc893d6586fc6c2c18cc6c3f0033fd",
+    "positive_source_id": "inventors:338",
+    "positive_statement": "John Boyd Dunlop lived in Scotland.",
+    "positive_statement_sha256": "b7a1e87c4395cbc281d77199726b8a9a379c6b3c381af2b45d40e0b3b9acdc66",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Samuel Colt",
+    "entity_id": "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89",
+    "positive_source_id": "inventors:369",
+    "positive_statement": "Samuel Colt lived in the U.S.",
+    "positive_statement_sha256": "6296c61ca9752cd3cc338c0363fc9f639133b7fb212a5428082fca08dfe823b1",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Clarence Birdseye",
+    "entity_id": "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c",
+    "positive_source_id": "inventors:10",
+    "positive_statement": "Clarence Birdseye lived in the U.S.",
+    "positive_statement_sha256": "39be1e7ea3ce68e87e083278f3e6fea9bab8d1587ae96f3e6f84176d3e1e9974",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Edmund Cartwright",
+    "entity_id": "entity_90f0367590ec4107a17e667f3faea0fdeb629e70ae2783a3de3a7b2bf60b246f",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_90f0367590ec4107a17e667f3faea0fdeb629e70ae2783a3de3a7b2bf60b246f",
+    "positive_source_id": "inventors:232",
+    "positive_statement": "Edmund Cartwright lived in the U.K.",
+    "positive_statement_sha256": "cea2e12ac124e48ec14b90fdec08ec229c75109ed5edb9bf501ca1519cc51776",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Grace Hopper",
+    "entity_id": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+    "positive_source_id": "inventors:291",
+    "positive_statement": "Grace Hopper lived in the U.S.",
+    "positive_statement_sha256": "323d18fd20f2ba81f601a8ead6a75312776b5ea9f2fb33ef8789f8983d042411",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alfred Nobel",
+    "entity_id": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+    "known_true_objects": [
+      "Sweden"
+    ],
+    "person_key": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+    "positive_source_id": "inventors:261",
+    "positive_statement": "Alfred Nobel lived in Sweden.",
+    "positive_statement_sha256": "423b3af022fbb8ea9be14b254a1477ab9ac36b3fa0daa4408c9fa3c7a793c1ef",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Ericsson",
+    "entity_id": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+    "known_true_objects": [
+      "Sweden"
+    ],
+    "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+    "positive_source_id": "inventors:264",
+    "positive_statement": "John Ericsson lived in Sweden.",
+    "positive_statement_sha256": "4bf2aa08ed3fea93b6553b9e99b7200f5b2a5ec25c6af55cd2de82aba366c7b6",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Ignazio Porro",
+    "entity_id": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+    "known_true_objects": [
+      "Italy"
+    ],
+    "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+    "positive_source_id": "inventors:38",
+    "positive_statement": "Ignazio Porro lived in Italy.",
+    "positive_statement_sha256": "89979953ecff0f6840b3c7d279b5f61180b7ecf76a9c2145f108373a3d023206",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Herbert Akroyd Stuart",
+    "entity_id": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+    "known_true_objects": [
+      "England"
+    ],
+    "person_key": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+    "positive_source_id": "inventors:22",
+    "positive_statement": "Herbert Akroyd Stuart lived in England.",
+    "positive_statement_sha256": "9f2e81f4c5e7d51bfbae3a757460ee0fa93a2c837063f010a0dc79bfbdc8f96a",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Fritz Pfleumer",
+    "entity_id": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+    "known_true_objects": [
+      "Germany"
+    ],
+    "person_key": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+    "positive_source_id": "inventors:34",
+    "positive_statement": "Fritz Pfleumer lived in Germany.",
+    "positive_statement_sha256": "1995eac2cfc27fe146001c87e4bc0281f56b4ea8685aaab41473d44b8e6ed293",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "George Eastman",
+    "entity_id": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+    "positive_source_id": "inventors:198",
+    "positive_statement": "George Eastman lived in the U.S.",
+    "positive_statement_sha256": "90a919f73f1ee134d8bbb9342d00fbcf74fe1d9eb5aca265b53d8f6f922bfb25",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Callcott Horsley",
+    "entity_id": "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f",
+    "positive_source_id": "inventors:161",
+    "positive_statement": "John Callcott Horsley lived in the U.K.",
+    "positive_statement_sha256": "527b028acbd0949ac0b86ed464a225e21ac1f7bcc6f827340610c7162d4371b3",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John T. Parsons",
+    "entity_id": "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd",
+    "positive_source_id": "inventors:254",
+    "positive_statement": "John T. Parsons lived in the U.S.",
+    "positive_statement_sha256": "e0d7fd68d3d56a5277aae8a5f0dd15a78627a4619100acefb8f8a586c4c78347",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Vint Cerf",
+    "entity_id": "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307",
+    "positive_source_id": "inventors:357",
+    "positive_statement": "Vint Cerf lived in the U.S.",
+    "positive_statement_sha256": "75bfb20d6f013937c8ac77986d7f4fe8fb221c5ae3e9ca0a9c78b9298888c687",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Kay",
+    "entity_id": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+    "known_true_objects": [
+      "the U.K"
+    ],
+    "person_key": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+    "positive_source_id": "inventors:315",
+    "positive_statement": "John Kay lived in the U.K.",
+    "positive_statement_sha256": "e85dfd6b32ed5223ee5ce455860aeda4473d6ff50e274dc87f99ba5ac79b28ca",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Whitcomb Judson",
+    "entity_id": "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512",
+    "positive_source_id": "inventors:15",
+    "positive_statement": "Whitcomb Judson lived in the U.S.",
+    "positive_statement_sha256": "a73a63d97a648142c40ec583f451b7ee23545fe9021ebeea8abe901ab3d6978c",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Charles Goodyear",
+    "entity_id": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+    "known_true_objects": [
+      "the U.S"
+    ],
+    "person_key": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+    "positive_source_id": "inventors:20",
+    "positive_statement": "Charles Goodyear lived in the U.S.",
+    "positive_statement_sha256": "905d3ac4a71ec27c6f4d1068a4db7de2456249c19bd6db4e513b2c2180929265",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Blaise Pascal",
+    "entity_id": "entity_ffdef3c8c4a763624da99add59d94d942d40881f696c99eb6e8b3b124e28aeef",
+    "known_true_objects": [
+      "France"
+    ],
+    "person_key": "entity_ffdef3c8c4a763624da99add59d94d942d40881f696c99eb6e8b3b124e28aeef",
+    "positive_source_id": "inventors:394",
+    "positive_statement": "Blaise Pascal lived in France.",
+    "positive_statement_sha256": "847f6347baf126f7b4c44196cd72161cb11b5ba1f4e2b3edf0aec7e720b5c3b4",
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "entity": "diez",
+    "entity_id": "entity_025ba7c9b755b080fcfe268ea82d2cf28be3145d18615d3ccffd8fc08c46c744",
+    "known_true_objects": [
+      "ten"
+    ],
+    "person_key": "entity_025ba7c9b755b080fcfe268ea82d2cf28be3145d18615d3ccffd8fc08c46c744",
+    "positive_source_id": "sp_en_trans:176",
+    "positive_statement": "The Spanish word 'diez' means 'ten'.",
+    "positive_statement_sha256": "e3d454b0d121685a1305ed797bbad9de6a61b92fef37a49f78206bea5d95e79e",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "demasiado",
+    "entity_id": "entity_0a8f5acf1e1c2b656708809c44a1ae81866a51452d29e8c3fd56f9f6a5dd6829",
+    "known_true_objects": [
+      "too"
+    ],
+    "person_key": "entity_0a8f5acf1e1c2b656708809c44a1ae81866a51452d29e8c3fd56f9f6a5dd6829",
+    "positive_source_id": "sp_en_trans:48",
+    "positive_statement": "The Spanish word 'demasiado' means 'too'.",
+    "positive_statement_sha256": "05edbc8badf523dda9ccf0e5d55ad96b796aeecb626f0a480363a97ce662cbc6",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "primero",
+    "entity_id": "entity_1012062cd342ab6c49e1931037e278765f0d32f112f49989fbcc4ce2a6c88564",
+    "known_true_objects": [
+      "first"
+    ],
+    "person_key": "entity_1012062cd342ab6c49e1931037e278765f0d32f112f49989fbcc4ce2a6c88564",
+    "positive_source_id": "sp_en_trans:63",
+    "positive_statement": "The Spanish word 'primero' means 'first'.",
+    "positive_statement_sha256": "4a35f0d4a6f9111fe7418f7fcd90342a8ccad9a78c348e0977ae40defb6f51ff",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "coche",
+    "entity_id": "entity_15a54c3c6f97588a319a8d7ab4b08b22641dc47cdeb321466c590e943ac50102",
+    "known_true_objects": [
+      "car"
+    ],
+    "person_key": "entity_15a54c3c6f97588a319a8d7ab4b08b22641dc47cdeb321466c590e943ac50102",
+    "positive_source_id": "sp_en_trans:107",
+    "positive_statement": "The Spanish word 'coche' means 'car'.",
+    "positive_statement_sha256": "6491b01369ae6270f7eb38076534aece8fddb09fc9adf3c7ca8757d38d6d51b3",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "norte",
+    "entity_id": "entity_2391280fc83c8fb3bfe2787ab55558e4bf3eacb5aa8115f5ce548de54c85c63a",
+    "known_true_objects": [
+      "north"
+    ],
+    "person_key": "entity_2391280fc83c8fb3bfe2787ab55558e4bf3eacb5aa8115f5ce548de54c85c63a",
+    "positive_source_id": "sp_en_trans:88",
+    "positive_statement": "The Spanish word 'norte' means 'north'.",
+    "positive_statement_sha256": "27247d05f7aa8209441536c071b6319f5bc975b313a7267cc084f244c659aa8d",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "soldado",
+    "entity_id": "entity_24b658bcedf407e93aeea002549945eb0fe1036d2639b74c0dfac29abe283737",
+    "known_true_objects": [
+      "soldier"
+    ],
+    "person_key": "entity_24b658bcedf407e93aeea002549945eb0fe1036d2639b74c0dfac29abe283737",
+    "positive_source_id": "sp_en_trans:262",
+    "positive_statement": "The Spanish word 'soldado' means 'soldier'.",
+    "positive_statement_sha256": "42ad407d51e9b68784c6b685373a90fcc6eee1a3e174df3d79d2dea4336add6d",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "huevo",
+    "entity_id": "entity_24c2cc83cf4e81eab96b477cea9dbeca7a82ffb651087d2a5823784cc6fa3b94",
+    "known_true_objects": [
+      "egg"
+    ],
+    "person_key": "entity_24c2cc83cf4e81eab96b477cea9dbeca7a82ffb651087d2a5823784cc6fa3b94",
+    "positive_source_id": "sp_en_trans:186",
+    "positive_statement": "The Spanish word 'huevo' means 'egg'.",
+    "positive_statement_sha256": "c8880feb4afb0d4169694868f57d4dbc7cc7bc239ad546f9636278290d0d6b29",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "dibujar",
+    "entity_id": "entity_279e7725a689aabef2a8bedb02d6ed0aba7f4e4980dbb690803016ac3af18161",
+    "known_true_objects": [
+      "to draw"
+    ],
+    "person_key": "entity_279e7725a689aabef2a8bedb02d6ed0aba7f4e4980dbb690803016ac3af18161",
+    "positive_source_id": "sp_en_trans:82",
+    "positive_statement": "The Spanish word 'dibujar' means 'to draw'.",
+    "positive_statement_sha256": "7487863cc5868bae5b1701e6b6321a00945e9504935283c1d513e4df008225cf",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "belleza",
+    "entity_id": "entity_2b5d0bd4ec0b5bd6356405f839f26a975edd14ab01c7446dd6f66e0db733f0ff",
+    "known_true_objects": [
+      "beauty"
+    ],
+    "person_key": "entity_2b5d0bd4ec0b5bd6356405f839f26a975edd14ab01c7446dd6f66e0db733f0ff",
+    "positive_source_id": "sp_en_trans:162",
+    "positive_statement": "The Spanish word 'belleza' means 'beauty'.",
+    "positive_statement_sha256": "804a29a406fb22f47d3d0993fc447ca78ca680a832d9728f45ce29b2823cc9c6",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "vender",
+    "entity_id": "entity_4eb4679ac0d02258d22464cca2e834ba250850501cb8f279f3c795a8ed13ac07",
+    "known_true_objects": [
+      "to sell"
+    ],
+    "person_key": "entity_4eb4679ac0d02258d22464cca2e834ba250850501cb8f279f3c795a8ed13ac07",
+    "positive_source_id": "sp_en_trans:315",
+    "positive_statement": "The Spanish word 'vender' means 'to sell'.",
+    "positive_statement_sha256": "0928c815d304988ff40de80b736212743ed7b978b21126f1195740fd10200e18",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "palabra",
+    "entity_id": "entity_5005162cda9d7bdaf2d3c5f342fd8294a6dec97a96e6d20011ab3ba703dba813",
+    "known_true_objects": [
+      "word"
+    ],
+    "person_key": "entity_5005162cda9d7bdaf2d3c5f342fd8294a6dec97a96e6d20011ab3ba703dba813",
+    "positive_source_id": "sp_en_trans:4",
+    "positive_statement": "The Spanish word 'palabra' means 'word'.",
+    "positive_statement_sha256": "1c424ab1d7d87e71824565ce868cef4db026da7f051c0e75a2b99db9080f84a9",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "herramienta",
+    "entity_id": "entity_517aa746b408ea3dfe7e8c64a2f30bebdc189de0d223bd5d62774afc54b51eca",
+    "known_true_objects": [
+      "tool"
+    ],
+    "person_key": "entity_517aa746b408ea3dfe7e8c64a2f30bebdc189de0d223bd5d62774afc54b51eca",
+    "positive_source_id": "sp_en_trans:311",
+    "positive_statement": "The Spanish word 'herramienta' means 'tool'.",
+    "positive_statement_sha256": "fe53d66a7b62174742c6438ee55f5ddb75349dadeefb9cb83c04ea4110fe4809",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "brazo",
+    "entity_id": "entity_5e9c7657733cd57028cb4c4a8a08c5f3d0b40f86824fb51072295aa116e3aa0f",
+    "known_true_objects": [
+      "arm"
+    ],
+    "person_key": "entity_5e9c7657733cd57028cb4c4a8a08c5f3d0b40f86824fb51072295aa116e3aa0f",
+    "positive_source_id": "sp_en_trans:192",
+    "positive_statement": "The Spanish word 'brazo' means 'arm'.",
+    "positive_statement_sha256": "bff087c936cc5860cd480266ccf814688d4172a430268a23741297aa473e787e",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "miedo",
+    "entity_id": "entity_634d967fd976964be80ae3e464a13fd63ec3addc6ecbd1155bcd9fbc1914092b",
+    "known_true_objects": [
+      "fear"
+    ],
+    "person_key": "entity_634d967fd976964be80ae3e464a13fd63ec3addc6ecbd1155bcd9fbc1914092b",
+    "positive_source_id": "sp_en_trans:281",
+    "positive_statement": "The Spanish word 'miedo' means 'fear'.",
+    "positive_statement_sha256": "d2ba741fe2657d53024e439d039de21c79b561df5dbca4d16ad4b64030534ba8",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "imaginar",
+    "entity_id": "entity_64d48fb213f38633fbdb06a6958178479734555b3e3a30d7e0a929720ec3fb3b",
+    "known_true_objects": [
+      "to imagine"
+    ],
+    "person_key": "entity_64d48fb213f38633fbdb06a6958178479734555b3e3a30d7e0a929720ec3fb3b",
+    "positive_source_id": "sp_en_trans:271",
+    "positive_statement": "The Spanish word 'imaginar' means 'to imagine'.",
+    "positive_statement_sha256": "bcc9ed19e81045fcdf64c4195a6aec2d98c0623d84dd329501308f918a69d4d7",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "noche",
+    "entity_id": "entity_6ebe4759f181dcce3cabd6645e4329d44e1008be580eefa47fe664efea99068f",
+    "known_true_objects": [
+      "night"
+    ],
+    "person_key": "entity_6ebe4759f181dcce3cabd6645e4329d44e1008be580eefa47fe664efea99068f",
+    "positive_source_id": "sp_en_trans:86",
+    "positive_statement": "The Spanish word 'noche' means 'night'.",
+    "positive_statement_sha256": "361fddfbbf4fad7cad645b21e112f3ae0bfd161826876a04694fbd195d541b65",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "comer",
+    "entity_id": "entity_702226a9f2eb7a9ba42c838244d9e5346f90fa5a125377a97fadc8e49867b79b",
+    "known_true_objects": [
+      "to eat"
+    ],
+    "person_key": "entity_702226a9f2eb7a9ba42c838244d9e5346f90fa5a125377a97fadc8e49867b79b",
+    "positive_source_id": "sp_en_trans:92",
+    "positive_statement": "The Spanish word 'comer' means 'to eat'.",
+    "positive_statement_sha256": "ac3a49d7c3a220881beb9b8ce8548f72f1b96dada5e045a8e62822baed25803f",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "hablar",
+    "entity_id": "entity_75d0a785025e551472c9f1cec33ed21dfafab9c5b8e5bd998d23dbcde58bb565",
+    "known_true_objects": [
+      "to speak"
+    ],
+    "person_key": "entity_75d0a785025e551472c9f1cec33ed21dfafab9c5b8e5bd998d23dbcde58bb565",
+    "positive_source_id": "sp_en_trans:188",
+    "positive_statement": "The Spanish word 'hablar' means 'to speak'.",
+    "positive_statement_sha256": "d41c14ba603c01ac6fe70d1c0181fb6c07501ef83875a22da1cc5428cb3e1aed",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "mezclar",
+    "entity_id": "entity_7e594cd8ddafceb9af04c74ea623e12e78af45db45c9269f0be4ec9bd0722050",
+    "known_true_objects": [
+      "to mix"
+    ],
+    "person_key": "entity_7e594cd8ddafceb9af04c74ea623e12e78af45db45c9269f0be4ec9bd0722050",
+    "positive_source_id": "sp_en_trans:216",
+    "positive_statement": "The Spanish word 'mezclar' means 'to mix'.",
+    "positive_statement_sha256": "08bd168dbdea80fd4ea46b183c5e8e99d50f95f59f12542aac146933664bb2db",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "tierra",
+    "entity_id": "entity_838b37e3396c1f3b647cb6702af3137f742bcd8023124f339e8f9655364a8225",
+    "known_true_objects": [
+      "land"
+    ],
+    "person_key": "entity_838b37e3396c1f3b647cb6702af3137f742bcd8023124f339e8f9655364a8225",
+    "positive_source_id": "sp_en_trans:23",
+    "positive_statement": "The Spanish word 'tierra' means 'land'.",
+    "positive_statement_sha256": "380e526c29b8ad73c1d9a3c4e791e846a6b59c6bd00f877f7d38c2d649d50fed",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "calamar",
+    "entity_id": "entity_839ed11c23700a4419d6427a8068887637177576416f9bac9b26163d8edbe86d",
+    "known_true_objects": [
+      "squid"
+    ],
+    "person_key": "entity_839ed11c23700a4419d6427a8068887637177576416f9bac9b26163d8edbe86d",
+    "positive_source_id": "sp_en_trans:341",
+    "positive_statement": "The Spanish word 'calamar' means 'squid'.",
+    "positive_statement_sha256": "5cea4eb6c367d90d262d41cf5df83e4d91d0ed5d55d4bd261ce804446ed0dbce",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "hermana",
+    "entity_id": "entity_865f8b8c59d51c85cfa6cc595ed4bad1fd75606f8888aef2301555d483fc6599",
+    "known_true_objects": [
+      "sister"
+    ],
+    "person_key": "entity_865f8b8c59d51c85cfa6cc595ed4bad1fd75606f8888aef2301555d483fc6599",
+    "positive_source_id": "sp_en_trans:305",
+    "positive_statement": "The Spanish word 'hermana' means 'sister'.",
+    "positive_statement_sha256": "8b3690d8ea5f007f3760a1235ce6edd83f677695b06c6287ee5306e439de8608",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "resultado",
+    "entity_id": "entity_88456f3c03d30eeaf2b1de15e01452b5f1bbe11b120fde41bdd19ff161fee17c",
+    "known_true_objects": [
+      "result"
+    ],
+    "person_key": "entity_88456f3c03d30eeaf2b1de15e01452b5f1bbe11b120fde41bdd19ff161fee17c",
+    "positive_source_id": "sp_en_trans:247",
+    "positive_statement": "The Spanish word 'resultado' means 'result'.",
+    "positive_statement_sha256": "e42e31427bb67f997318a89a3db7bd601132f2072f2277834879d1dfb30362ae",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "suficiente",
+    "entity_id": "entity_8b6a1979de0cd9274402a56753ece95d514a01dc2f7b9bd8006022d3d5a8d48e",
+    "known_true_objects": [
+      "enough"
+    ],
+    "person_key": "entity_8b6a1979de0cd9274402a56753ece95d514a01dc2f7b9bd8006022d3d5a8d48e",
+    "positive_source_id": "sp_en_trans:109",
+    "positive_statement": "The Spanish word 'suficiente' means 'enough'.",
+    "positive_statement_sha256": "2e35b13a5213dac7a673a2fcc679457c41255acc4db2bee573b8d5fbc2d00118",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "oscuro",
+    "entity_id": "entity_aea4a2928719dd5151096c110feb8f3f872f5df4df5cf9f163ce21a0348f56a5",
+    "known_true_objects": [
+      "dark"
+    ],
+    "person_key": "entity_aea4a2928719dd5151096c110feb8f3f872f5df4df5cf9f163ce21a0348f56a5",
+    "positive_source_id": "sp_en_trans:160",
+    "positive_statement": "The Spanish word 'oscuro' means 'dark'.",
+    "positive_statement_sha256": "e6d62edf806b7de7b6670a07ade47cc81eaa6611d94944ee61e4590bf697bc44",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "plata",
+    "entity_id": "entity_b69eae8b5599ad5b244440921db841ce32d1268b28dfe14d7cb9f65654d421a5",
+    "known_true_objects": [
+      "silver"
+    ],
+    "person_key": "entity_b69eae8b5599ad5b244440921db841ce32d1268b28dfe14d7cb9f65654d421a5",
+    "positive_source_id": "sp_en_trans:302",
+    "positive_statement": "The Spanish word 'plata' means 'silver'.",
+    "positive_statement_sha256": "bb69f607732361402add6010758b0f69e318d9f9a85f08de3c36ef59a9b8eec2",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "prueba",
+    "entity_id": "entity_b79eaf955c84a0db6d43c2ea26e969476336166cee2f0390c58dbd80afdafb84",
+    "known_true_objects": [
+      "test"
+    ],
+    "person_key": "entity_b79eaf955c84a0db6d43c2ea26e969476336166cee2f0390c58dbd80afdafb84",
+    "positive_source_id": "sp_en_trans:147",
+    "positive_statement": "The Spanish word 'prueba' means 'test'.",
+    "positive_statement_sha256": "df28c66089d481169eabdbd4815c7d178880a9d6a571436531148767a99d89f4",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "negro",
+    "entity_id": "entity_b8108b1f4be5376b9cc2031088d544672883f8f185cc829bbb6c27ddb01c49cd",
+    "known_true_objects": [
+      "black"
+    ],
+    "person_key": "entity_b8108b1f4be5376b9cc2031088d544672883f8f185cc829bbb6c27ddb01c49cd",
+    "positive_source_id": "sp_en_trans:123",
+    "positive_statement": "The Spanish word 'negro' means 'black'.",
+    "positive_statement_sha256": "75ad7e8e0e385e7bc287836e27b4472a04a9966666c4051260956d3df0294923",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "listo",
+    "entity_id": "entity_bfa2fee3ef1d2f37d2b9ea9c83d8f4451c290231ab1aef31395f94c47770d715",
+    "known_true_objects": [
+      "ready"
+    ],
+    "person_key": "entity_bfa2fee3ef1d2f37d2b9ea9c83d8f4451c290231ab1aef31395f94c47770d715",
+    "positive_source_id": "sp_en_trans:113",
+    "positive_statement": "The Spanish word 'listo' means 'ready'.",
+    "positive_statement_sha256": "463ed07340093bb6adb6c816b827c811345704fd1bee6a4a9d42871d3e5c2100",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "lista",
+    "entity_id": "entity_d7a147fa16de22e133b10d275a3508a4a607e9cbd5b2c67eae312d224edd89f2",
+    "known_true_objects": [
+      "list"
+    ],
+    "person_key": "entity_d7a147fa16de22e133b10d275a3508a4a607e9cbd5b2c67eae312d224edd89f2",
+    "positive_source_id": "sp_en_trans:115",
+    "positive_statement": "The Spanish word 'lista' means 'list'.",
+    "positive_statement_sha256": "e06da2d88dc2c8c74e77850b858a6a1c338627a669dbef1593020858230f67f3",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "madre",
+    "entity_id": "entity_d896e86a3902d233787ef583816a68ac9aafec8b4ffb561038e461bd5013fbf6",
+    "known_true_objects": [
+      "mother"
+    ],
+    "person_key": "entity_d896e86a3902d233787ef583816a68ac9aafec8b4ffb561038e461bd5013fbf6",
+    "positive_source_id": "sp_en_trans:29",
+    "positive_statement": "The Spanish word 'madre' means 'mother'.",
+    "positive_statement_sha256": "c29fe3af2d1ed38a020e47a7c177aa5bade70faf7b4910274fd69b00627b8c18",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "parecer",
+    "entity_id": "entity_df73c957cb552342ce208e83f24fb8561d7af835cfe33354ab1f037cc9271042",
+    "known_true_objects": [
+      "to seem"
+    ],
+    "person_key": "entity_df73c957cb552342ce208e83f24fb8561d7af835cfe33354ab1f037cc9271042",
+    "positive_source_id": "sp_en_trans:99",
+    "positive_statement": "The Spanish word 'parecer' means 'to seem'.",
+    "positive_statement_sha256": "747c4c952d680e1b1efddc7d7dcfd0223236fb9dae9b6daf4c304df11d114267",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "moderno",
+    "entity_id": "entity_edef7c4cce0f33d69ea525d89caa40f21f74fd630f1611ba29e431412fab63fa",
+    "known_true_objects": [
+      "modern"
+    ],
+    "person_key": "entity_edef7c4cce0f33d69ea525d89caa40f21f74fd630f1611ba29e431412fab63fa",
+    "positive_source_id": "sp_en_trans:264",
+    "positive_statement": "The Spanish word 'moderno' means 'modern'.",
+    "positive_statement_sha256": "c8fcde462d69db586b6c65261393b6b7b16afe47470a614b2cfb817083dc2a70",
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "entity": "ver",
+    "entity_id": "entity_f27dc054598b1f6bd174c5e2a1efec1421646c222c4fb5b946332c49295035ae",
+    "known_true_objects": [
+      "to see"
+    ],
+    "person_key": "entity_f27dc054598b1f6bd174c5e2a1efec1421646c222c4fb5b946332c49295035ae",
+    "positive_source_id": "sp_en_trans:57",
+    "positive_statement": "The Spanish word 'ver' means 'to see'.",
+    "positive_statement_sha256": "9be60337b0d6479c478178e57d97674d488e7e2f5c4b63deb8f25a1ec97ce224",
+    "split": "test",
+    "topic": "sp_en_trans"
+  }
+]

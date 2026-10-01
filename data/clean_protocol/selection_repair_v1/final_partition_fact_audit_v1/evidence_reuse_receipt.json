@@ -1,0 +1,576 @@
+{
+  "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+        "judgment": "supported_true",
+        "person_key": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+        "statement_sha256": "2c2a3e719bee43a7285be057ee51ade4393dfa3933d9e61c5fd569c022174855",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+        "judgment": "supported_false",
+        "person_key": "entity_02870af2512ca928147e6ccb99d7d584de9c2b69f659da2f747566353e2c00c0",
+        "statement_sha256": "fdf1206baa845a93605ff0bd7d805982ee48bdf3ae1f577973f208548da714de",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61_reuse_maddox": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+        "judgment": "supported_true",
+        "person_key": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+        "statement_sha256": "98b8689a7738b46c0178aab476d6b844a7d19491deca35bf5fa909641506f083",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+        "judgment": "unresolved",
+        "person_key": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+        "statement_sha256": "c807ece3b680404b06495acca54599f262035a1b623e8577a2c86194a5c9a777",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "maddox",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+        "judgment": "supported_true",
+        "person_key": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+        "statement_sha256": "00f83d88f06d5c222ee4c9b1704c0b40a98fe896d0c04d195c37de2e51ff9e65",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+        "judgment": "supported_false",
+        "person_key": "entity_1897a81fcf47eb0eb99d96e66d1b6b5ba5f59897dbd61456fc313eaf7c1134a5",
+        "statement_sha256": "5587f6df29936004ba624cd7efc0f3606edbdd504b103fac0036b27bfe064696",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+        "judgment": "supported_true",
+        "person_key": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+        "statement_sha256": "943688558320e33f7c26c8a69ab858a63ec64751313f2d92fc6e9719128da9c9",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+        "judgment": "supported_false",
+        "person_key": "entity_287d673c970523b8e0007d1252a9fa388caf8b9457a1d674736c990401625a06",
+        "statement_sha256": "a9b19a627ffd47d467290a007bafa95142688d5fd4f363299735337a63b6bfd2",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+        "judgment": "supported_true",
+        "person_key": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+        "statement_sha256": "37e87898e609919e780410384150ba752c899f37e89907b3b68a2395bd419538",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+        "judgment": "supported_false",
+        "person_key": "entity_3021c5bb3b075f8174619a1895a90d82045d277f7f35ec0d910f1c776fb0e006",
+        "statement_sha256": "6471be0c7b2b6c710fef113a261924741187cf5e2689121752af40e6cfbd1bd4",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+        "judgment": "supported_true",
+        "person_key": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+        "statement_sha256": "e9938d46f7131f4e5b90051ab15ebfc5240a8c9764aca06da6d04ffb80bca998",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+        "judgment": "supported_false",
+        "person_key": "entity_3172821bf6b53a9499933e9de803ccc3dbb9e1762a35a8a6eebd7f764c615edc",
+        "statement_sha256": "1fdd965c8bd803e3428556ff42dff4e2fcd1dbb4c8ca0069694a05af27af4a0a",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+        "judgment": "supported_true",
+        "person_key": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+        "statement_sha256": "cf3738855f04fbc2c24368818d20fa1f9ae9ee775b93cdd9ce5831b0dbd6ce67",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+        "judgment": "supported_false",
+        "person_key": "entity_318b830c83e61a7b6959fec33d8c4063fbd792e0ec0f84cf660c0d422b8a578e",
+        "statement_sha256": "fce911df0595f35b0ba78d03be3eaa9952042808f51545d4ac37a21624992db1",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+        "judgment": "supported_true",
+        "person_key": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+        "statement_sha256": "f6ea823071bdeed515393998046a52732320b2fd44967fa72dff6ad0e17d08c8",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+        "judgment": "supported_false",
+        "person_key": "entity_3be983c2b9534b240848210981415096910cbf16368577a8b69bd6869aed5dc2",
+        "statement_sha256": "f4c2b8e18fee6019940c902b5aa0e6e59b7364465e6cea208c96e6f7ba153f1b",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca_reuse_strite_patent": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+        "judgment": "supported_true",
+        "person_key": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+        "statement_sha256": "ef1e7b49fb90bd6c1ace71901cfbb65d96b4da232eb4e910015ddae28e08633d",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+        "judgment": "unresolved",
+        "person_key": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+        "statement_sha256": "0d6cc9719832a0998c2e4feae3c8cb6bd6e34331802c061a06e2a7aed835c4e9",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "strite_patent",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+        "judgment": "supported_true",
+        "person_key": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+        "statement_sha256": "23f3ef4b651026fde3c5a1f09cc523691181156dbe59314aacc5986f4a971258",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+        "judgment": "supported_false",
+        "person_key": "entity_4d5fd687ba9084730dbac9c8d33cc3e8b17c84a4c3d46f3e5fd3d71e9827b874",
+        "statement_sha256": "c36338cb8f9e0f199c7a8c858aca2b092c025c2fc248ef3fac504144298959d0",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+        "judgment": "supported_true",
+        "person_key": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+        "statement_sha256": "a5f95a591a436a903d79542f86155dbf0737106f954625d94b7dd0516a165387",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+        "judgment": "supported_false",
+        "person_key": "entity_5952ba0499d37cd58ccbffce01f4f074cd73ad116e1b22c2a1c6f62cdd377ace",
+        "statement_sha256": "b912e30a0ff0abd6d3d2a3fb3fdd19825072b58fe3a2afe64c376eb4d316cd65",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+        "judgment": "supported_true",
+        "person_key": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+        "statement_sha256": "593b15101f44bfbf7a61ea189a25709a591b85736e93acc8dea3aa680b2fd942",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+        "judgment": "supported_false",
+        "person_key": "entity_68db2d31c0379c656a5518479bed68d282daf164cf33f311e932ba2680eb83cb",
+        "statement_sha256": "603e08b7ff16b44a54066fd876fcf76d32abc0dcb479fd079fa7717e2fe40582",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+        "judgment": "supported_true",
+        "person_key": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+        "statement_sha256": "84a024309adb146c80b30dd4d9710958eafaafedf82bca30bafb553457cefd58",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+        "judgment": "supported_false",
+        "person_key": "entity_69e50b9c64e1fd238b245aff37907cc5d63da11a129d9af1e9e0e9b689e2c520",
+        "statement_sha256": "124eab4898e7bde4c48fe11f2931eec05d23f578fc1c9a7e0b9b89d7b71b2bae",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+        "judgment": "supported_true",
+        "person_key": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+        "statement_sha256": "223dc34519e73146a20b30f1421f670d1b1f7316e122be63b98aff165360b2da",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+        "judgment": "supported_false",
+        "person_key": "entity_7ccdf21118f9d80b2abe9680ff4aa223e91a11653d6ab81bf2818bf6f93208fe",
+        "statement_sha256": "ba6ef2517bead1f6ecc2dd010e8398ff78eb8f9204ff6658304d2e4173b757c2",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+        "judgment": "supported_true",
+        "person_key": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+        "statement_sha256": "00472aeb4c1866fe0b69e58bd35e4fbb7c2df5f3eb3763aca6e6a3e87b0d4a9e",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+        "judgment": "supported_false",
+        "person_key": "entity_8453bcb3a171940f5c5b06b765ec2ea49f404a0037a935863df06d15c473c3ce",
+        "statement_sha256": "6389dfa9596c09083e4560127a74c33f47648e6aae60ea4e025641c666f3c2f2",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87_reuse_nobel_full": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+        "judgment": "supported_true",
+        "person_key": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+        "statement_sha256": "423b3af022fbb8ea9be14b254a1477ab9ac36b3fa0daa4408c9fa3c7a793c1ef",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+        "judgment": "unresolved",
+        "person_key": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+        "statement_sha256": "d5295d7c1ae38c5d524340bc07b5778b3d809c787c6d2151a776043fb9dc899c",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "nobel_full",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6_reuse_ericsson_archive": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "judgment": "supported_true",
+        "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "statement_sha256": "4bf2aa08ed3fea93b6553b9e99b7200f5b2a5ec25c6af55cd2de82aba366c7b6",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "judgment": "supported_true",
+        "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "statement_sha256": "7976d49558b73a4315b51758051e51d2d72861aa57a2fec3ea791515ebc2f660",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "judgment": "supported_false",
+        "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+        "statement_sha256": "61ac490b233bebd2ef5f6a36ce3c82d35c134d8b1845fe1d75cdbad9ad5256c0",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "ericsson_archive",
+    "package_sha256": "ce162ce5272de6defcc17f9cb42813d68cc1f4bd83caf8890345f0b6dea6730f",
+    "path": "data/clean_protocol/selection_repair_v1/source_closure_v1/evidence.json"
+  },
+  "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39_reuse_porro_fsu": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "judgment": "supported_true",
+        "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "statement_sha256": "89979953ecff0f6840b3c7d279b5f61180b7ecf76a9c2145f108373a3d023206",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "judgment": "supported_false",
+        "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "statement_sha256": "177b89f35a0fd782f1d96769e279884ed6445159252dbbb4f7c84481f48407e2",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "porro_fsu",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39_reuse_porro_treccani": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "judgment": "supported_true",
+        "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "statement_sha256": "89979953ecff0f6840b3c7d279b5f61180b7ecf76a9c2145f108373a3d023206",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "judgment": "supported_false",
+        "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+        "statement_sha256": "177b89f35a0fd782f1d96769e279884ed6445159252dbbb4f7c84481f48407e2",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "porro_treccani",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+        "judgment": "supported_true",
+        "person_key": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+        "statement_sha256": "2b14b080b7be417a24e8437a52b65cd13a3a66d919f411e6a1c4dc4b8c594635",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+        "judgment": "supported_false",
+        "person_key": "entity_ab4e34beb8b76532fdfaf80faa8238237575777c5bca74b619aae732882872a0",
+        "statement_sha256": "512bcd19397aeec5f1eec68ad67e129ac0b786b56ef4a74a42db64ccb0eec8f5",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff_reuse_akroyd_adb": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+        "judgment": "supported_true",
+        "person_key": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+        "statement_sha256": "9f2e81f4c5e7d51bfbae3a757460ee0fa93a2c837063f010a0dc79bfbdc8f96a",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+        "judgment": "unresolved",
+        "person_key": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+        "statement_sha256": "7c9f9d8322019008962f5c71bf5c1f3ff63574623226c18bcbf57b5f28f2ecdf",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "akroyd_adb",
+    "package_sha256": "7e85cd2a6b4f6d1f791826dc0a7023c53eff2f1f7c1a923325326aa9da18af4d",
+    "path": "data/clean_protocol/selection_repair_v1/source_review_v1/evidence.json"
+  },
+  "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a_reuse_pfleumer": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+        "judgment": "supported_true",
+        "person_key": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+        "statement_sha256": "1995eac2cfc27fe146001c87e4bc0281f56b4ea8685aaab41473d44b8e6ed293",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+        "judgment": "unresolved",
+        "person_key": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+        "statement_sha256": "ab158ed1129701199d381eafc74dc585015010343492373c45c74c4d70d702bb",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "pfleumer",
+    "package_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/evidence.json"
+  },
+  "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+        "judgment": "supported_true",
+        "person_key": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+        "statement_sha256": "822a66bb2e6c0744a38d64f42a389e3789fada3df5122dbd5451e19dfe2099ef",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+        "judgment": "supported_false",
+        "person_key": "entity_c856fcd70242c3316c3ec3d8d6e6eeebac3da7e7a771f9474f67ad9486b72986",
+        "statement_sha256": "1e65472e8a46d5c4371275518bcf8f672da61867da6f6116766838f08d729625",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+        "judgment": "supported_true",
+        "person_key": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+        "statement_sha256": "efee435e7ea7e796226189fbe7bbd865ce3073c91d7c5db3019b7ed2523a821f",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+        "judgment": "supported_false",
+        "person_key": "entity_ccae23d97ac14d365c3f178d3e6308c6ae577b7196e1d58acc4101aad396f4bb",
+        "statement_sha256": "177e7383ed90f2037ff0bbfcafafcba6dec805d724beb3903142eaf1190f1ee2",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+        "judgment": "supported_true",
+        "person_key": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+        "statement_sha256": "408a00b04d4e212d79eda2b893f83556a954e75a0bf163a6d22acdbddb2231d7",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+        "judgment": "supported_false",
+        "person_key": "entity_d59e54cedb4301ace364129df55d9266b3a6900ca5a092a593a5d7905c07fbdf",
+        "statement_sha256": "5aeaaf85894e2728b810879562fd3e3416754cf1ce5726c108f0af4a6d99a19c",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1_reuse_pubchem_periodic_table": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+        "judgment": "supported_true",
+        "person_key": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+        "statement_sha256": "ce6d821cbb365a9fe610428cfc9a27e1adc5f3a65adc9df8c0c13601e78b2e89",
+        "topic": "element_symb"
+      },
+      {
+        "entity_id": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+        "judgment": "supported_false",
+        "person_key": "entity_db4ec023a62036519020e477848507716a1e6a2b708690414b314d8af02c0aa1",
+        "statement_sha256": "6b694cc9ddd7ca47e41d4904313e83cea3b4bf7edc6120081c16042320c18a9b",
+        "topic": "element_symb"
+      }
+    ],
+    "original_evidence_id": "pubchem_periodic_table",
+    "package_sha256": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_audit_v1/evidence.json"
+  },
+  "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30_reuse_goodyear2": {
+    "bound_facts": [
+      {
+        "entity_id": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+        "judgment": "supported_true",
+        "person_key": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+        "statement_sha256": "905d3ac4a71ec27c6f4d1068a4db7de2456249c19bd6db4e513b2c2180929265",
+        "topic": "inventors"
+      },
+      {
+        "entity_id": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+        "judgment": "unresolved",
+        "person_key": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+        "statement_sha256": "6768659a4b48e75f01fd0c305573bc42c31869c515d53a1e5a2d156768f3a6af",
+        "topic": "inventors"
+      }
+    ],
+    "original_evidence_id": "goodyear2",
+    "package_sha256": "3d3a6970d12e182b3ec016ccb32578b597e2f8653ac209ba8b828145ece153d9",
+    "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/evidence.json"
+  }
+}

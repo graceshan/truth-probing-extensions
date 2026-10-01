@@ -1,0 +1,1349 @@
+[
+  {
+    "entity": "Shivaji Nagar",
+    "entity_id": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The retrieved page identifies Shivajinagar in Bengaluru, but the source gives no coordinates or municipality to distinguish several Shivaji Nagar localities. Exact entity binding remains unresolved; do not silently choose the Bengaluru namesake.",
+        "source_row_id": "cities:874",
+        "statement": "The city of Shivaji Nagar is in India.",
+        "statement_sha256": "b1f904f0c3ff745f5350440cafbbe244f0fca2c35dab2e681b406e6d5e3aaf4e"
+      },
+      {
+        "candidate_object": "Ukraine",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50_reference"
+        ],
+        "fact_id": "fact_236aa26f51a6b8c2e501a44ca809438d3476a03f6ffb8f1512a10442e0e3e5cb",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "034ef8f2e63a656df4248825f39aba32d9d2d695b13df621224896fe18c8c370",
+        "reasoning": "The retrieved page identifies Shivajinagar in Bengaluru, but the source gives no coordinates or municipality to distinguish several Shivaji Nagar localities. Exact entity binding remains unresolved; do not silently choose the Bengaluru namesake.",
+        "statement": "The city of Shivaji Nagar is in Ukraine.",
+        "statement_sha256": "0ce1840d8cd5012486730acfc82b628b27bf456973fb7442b90f3d4781e154a5"
+      }
+    ],
+    "identity_note": "Exact stored locality Shivaji Nagar; reference title Shivajinagar, Bengaluru - Wikipedia. Original spelling and entity ID retained.",
+    "person_key": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "cities"
+  },
+  {
+    "entity": "Kampung Baru Subang",
+    "entity_id": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference identifies Subang township in Malaysia but does not bind the exact Kampung Baru Subang locality. A nearby place cannot supply the positive or negative fact for this exact entity.",
+        "source_row_id": "cities:246",
+        "statement": "The city of Kampung Baru Subang is in Malaysia.",
+        "statement_sha256": "122b9abb05dee5cbdf2e387c972223fbdf403b70b439064c44bb3432684934d9"
+      },
+      {
+        "candidate_object": "Pakistan",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763_reference"
+        ],
+        "fact_id": "fact_b59183ee2270e0607e017812d78f19757fe2b83ed769ac6305c6b34e24c3e937",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "00faf41bb5628191f32d4dbad34e0b6cf5295adaa3f3b31fec76025cbbea08c5",
+        "reasoning": "The reference identifies Subang township in Malaysia but does not bind the exact Kampung Baru Subang locality. A nearby place cannot supply the positive or negative fact for this exact entity.",
+        "statement": "The city of Kampung Baru Subang is in Pakistan.",
+        "statement_sha256": "b430b5fcd291dc7dc64567a8f54c5ac9d079b524217b20a4ed119020201d7722"
+      }
+    ],
+    "identity_note": "Exact stored locality Kampung Baru Subang; reference title Subang, Selangor - Wikipedia. Original spelling and entity ID retained.",
+    "person_key": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "cities"
+  },
+  {
+    "entity": "Muzaffarabad",
+    "entity_id": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference describes Muzaffarabad in Pakistan-administered disputed Kashmir. The bare source wording in Pakistan does not specify administration versus sovereignty; do not silently resolve that ambiguity.",
+        "source_row_id": "cities:1266",
+        "statement": "The city of Muzaffarabad is in Pakistan.",
+        "statement_sha256": "ad6c9666beff67c8c5291237ab686220dcae3750eead9fc547dcba6656b96afc"
+      },
+      {
+        "candidate_object": "Eritrea",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca_reference"
+        ],
+        "fact_id": "fact_9f68985db6c13bc424179fbeffa5eda316d5e7a36db19d6a272c8b36b09c5a72",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0302aebab30c1408a470a725ce958e028ef2bbe63b2a1f2660b7a6b5fb47cf9f",
+        "reasoning": "The exact identified city is in the Kashmir region, geographically distinct from Eritrea; this negative does not resolve the positive sovereignty/administration ambiguity.",
+        "statement": "The city of Muzaffarabad is in Eritrea.",
+        "statement_sha256": "fb53f1bcb078171cab829ab3a3819ab9695707ced4c9261e69edae67756477f0"
+      }
+    ],
+    "identity_note": "Exact stored locality Muzaffarabad; reference title Muzaffarabad - Wikipedia. Original spelling and entity ID retained.",
+    "person_key": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "cities"
+  },
+  {
+    "entity": "George Antheil",
+    "entity_id": "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:220",
+        "statement": "George Antheil lived in the U.S.",
+        "statement_sha256": "e3b7c76a12520e276bc4bfa07ec388e19cafb3b01867a73608b80ba10d18e84b"
+      },
+      {
+        "candidate_object": "Scotland",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470_reference"
+        ],
+        "fact_id": "fact_a89ec827a0cbe03b077fdbb11d5b9c1ca3c644c1cc0adb3dc493302d5cb7262a",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "44d6e6ebacbe1abdac909234a9fde6b9a45650991bc450326943f279774ca50b",
+        "reasoning": "Paris/Berlin and US homes are explicit, but touring itineraries and interim living arrangements do not close the Scottish nonresidence question.",
+        "statement": "George Antheil lived in Scotland.",
+        "statement_sha256": "ed800922982a84154a545efec5033d9a9597a93d302ea67a470aad9037c6b20a"
+      }
+    ],
+    "person_key": "entity_01d07358e572f919b1bcd6bfd7b8ce65d0ec24dac817e32f2f07ab89ffd79470",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Elihu Thomson",
+    "entity_id": "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:376",
+        "statement": "Elihu Thomson lived in the U.S.",
+        "statement_sha256": "0c26368982b24a468d6ea682e6027a5a6ea365f18ae7d46f0a1445b0979352de"
+      },
+      {
+        "candidate_object": "Italy",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8_reference"
+        ],
+        "fact_id": "fact_9da64f93a06dfb9665ec1fb96839711632424ddd5abc0c0b76fde59505cccd1c",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "040d329f8b92ac55253826b7ae17276262384d54e63ad0752c3aa47df45e0e30",
+        "reasoning": "Philadelphia upbringing/teaching and final Swampscott home are documented; international company activity and intermediate travel/residences remain incompletely accounted for.",
+        "statement": "Elihu Thomson lived in Italy.",
+        "statement_sha256": "de79ba3ca9624d8c9c48adddd8385a5dbb60efcc902a8b00e038fc3a3e9e7ea7"
+      }
+    ],
+    "person_key": "entity_05e148cd1318fda34ebac3b15c1ae66f01ba64eaa8de6f92d3c2089e02d9a1d8",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Richard Leach Maddox",
+    "entity_id": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61_reference",
+          "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61_reuse_maddox"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:75",
+        "statement": "Richard Leach Maddox lived in the U.K.",
+        "statement_sha256": "98b8689a7738b46c0178aab476d6b844a7d19491deca35bf5fa909641506f083"
+      },
+      {
+        "candidate_object": "Scotland",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61_reference",
+          "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61_reuse_maddox"
+        ],
+        "fact_id": "fact_f494687dc3f75d9f74b38e94ca8a134ea7d39dc5349aa9bd80c059ad8e40cd5d",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "1cc7c6f5051c293667af0580ca24ee9b587cf17a27618ba8ee7a43cc3ee941e1",
+        "reasoning": "Reuse the reviewed account: Southampton, Corsica, Bordighera and London are named, but early/middle-life gaps remain; they do not establish no Scottish residence.",
+        "statement": "Richard Leach Maddox lived in Scotland.",
+        "statement_sha256": "c807ece3b680404b06495acca54599f262035a1b623e8577a2c86194a5c9a777"
+      }
+    ],
+    "person_key": "entity_07bd40d9106e48382c7ca3441bc338d00611dc568902c9bbd277b8cbd0d62b61",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "James Hargreaves",
+    "entity_id": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:333",
+        "statement": "James Hargreaves lived in the U.K.",
+        "statement_sha256": "9234b6a43c81f28f3c66203ad0208870c8b93b0831e5bf74d99ca9225069ac98"
+      },
+      {
+        "candidate_object": "Sweden",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7_reference"
+        ],
+        "fact_id": "fact_5e7afd23216b5bd1a5ef2e20f17fa0e1c78eb4dc652fe1e5ead090403e8033ba",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "083cc23598e98f563cb2b71387c183d1061bbea3f622de67cb8e06acc82cf457",
+        "reasoning": "Lancashire childhood, weaving/family home, then Nottingham move and residence adjacent to the Hockley mill until death in 1778 support no Swedish residential phase. This does not settle the historical U.K. wording of the positive.",
+        "statement": "James Hargreaves lived in Sweden.",
+        "statement_sha256": "6eaeffffd123cba14b3500363ed59e5b8c2b681e486fec0ec256c7e79169716c"
+      }
+    ],
+    "person_key": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alec Jeffreys",
+    "entity_id": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:253",
+        "statement": "Alec Jeffreys lived in the U.K.",
+        "statement_sha256": "4299035111519f7fa39077487a67b499cceed8c54b29073cfe38244c190fc141"
+      },
+      {
+        "candidate_object": "France",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b_reference"
+        ],
+        "fact_id": "fact_15682c80586258a0811009a7379b933d96e4ef0c42b1e649928e592deffcdf86",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "03691169c9ffeb00d88b9973a6115c071dc9d0199cc628655e5ec03f7363f430",
+        "reasoning": "Oxford/Luton childhood, Oxford study, Amsterdam fellowship and Leicester appointment are documented; later private residence and overseas intervals are not exhaustive enough to establish no French residence.",
+        "statement": "Alec Jeffreys lived in France.",
+        "statement_sha256": "9a479eccd26401a2147b6ee03914373f37b3aa748af3b9857ce49f1ed3bc49f0"
+      }
+    ],
+    "person_key": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Nikolai Basov",
+    "entity_id": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:204",
+        "statement": "Nikolai Basov lived in the Soviet Union.",
+        "statement_sha256": "42c8fc7b5b37435deb501baf658cf026edc363806a082286adf4106ca2b4f402"
+      },
+      {
+        "candidate_object": "the U.S",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7_reference"
+        ],
+        "fact_id": "fact_8c1f25a6f453d945c6716c187e58af87c7c068747086abfce664190b93fb60ab",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "12398e1f7a888e2455c2d60bb16851113163cb1f01b9bc7d80b8a71a0e315f61",
+        "reasoning": "Soviet study and Lebedev career establish the positive; the biography does not bound all US visits or possible residential postings. No false label inferred from Soviet nationality.",
+        "statement": "Nikolai Basov lived in the U.S.",
+        "statement_sha256": "5555deffea37bdf63745dd15811e39208949c63ed53ec5f2ba8f3837f196c046"
+      }
+    ],
+    "person_key": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alva J. Fisher",
+    "entity_id": "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Primary patent US966677A names Alva J. Fisher of the city of Chicago, Cook County, Illinois, with washing-machine invention and Hurley assignment, binding the exact inventor and US address.",
+        "source_row_id": "inventors:222",
+        "statement": "Alva J. Fisher lived in the U.S.",
+        "statement_sha256": "f0f502453887944c56423f462ad96b3f869e980f77bf0fe2ffb2263807a3ac32"
+      },
+      {
+        "candidate_object": "Germany",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50_reference"
+        ],
+        "fact_id": "fact_ce24fd89efba854d33150d957215bcb05bcb097937b5a61b161d277e2ae5f080",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "16ab67612771a945a569370bc1584b036925c02b037b24b9e8551ce9c61ea53e",
+        "reasoning": "The primary patent supplies Chicago identity/address but no full residential chronology, so it cannot verify nonresidence in Germany.",
+        "statement": "Alva J. Fisher lived in Germany.",
+        "statement_sha256": "3e3060749451e6f424e3388fb35f0cca8dbd085bd36ce9763e08eb862b347911"
+      }
+    ],
+    "person_key": "entity_2a5cfe8c8f0fcdedb0a83f91056cd5c3620b4e2ae024c37b5e3cdc4c47b90a50",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Sir Isaac Newton",
+    "entity_id": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:173",
+        "statement": "Sir Isaac Newton lived in the U.K.",
+        "statement_sha256": "c47658f35364d89d79bdb7fdac5c12369409da20f1b030347f62c9d5119e5a0a"
+      },
+      {
+        "candidate_object": "the Soviet Union",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b_reference"
+        ],
+        "fact_id": "fact_769ea15ab80b664f078ce7b48ef879f723129dda31434cedbdeb4dfa04d794b9",
+        "judgment": "supported_false",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "16191bc2fdf3201652f851efc0e6f029ac1195f32f5444a18e533881b480614c",
+        "reasoning": "Lincolnshire childhood/home, Cambridge student and fellowship residence, London Mint career and final Kensington residence through 1727 support no residential phase in Soviet territory, independently of the USSR not yet existing.",
+        "statement": "Sir Isaac Newton lived in the Soviet Union.",
+        "statement_sha256": "a7b0111ba838ae38b550521a03bbef4f1c291be3d87b36744407024ac8d05860"
+      }
+    ],
+    "person_key": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Johannes Gutenberg",
+    "entity_id": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:197",
+        "statement": "Johannes Gutenberg lived in Germany.",
+        "statement_sha256": "af997731204e764e40e311265bff3d892bf167c40abb50c1aeeaa424203fd44c"
+      },
+      {
+        "candidate_object": "the Soviet Union",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2_reference"
+        ],
+        "fact_id": "fact_f0f39e81869fb41cc79211a1236d742c83099e9cd7071451ff355c4c25539815",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "03467b8330183d6761bb3e58a5f9cd77957668013025397bdc475da32b6f31fa",
+        "reasoning": "The biography explicitly notes missing youth documents and a four-year gap. Neither modern German-border substitution nor anachronism alone resolves the candidate pair.",
+        "statement": "Johannes Gutenberg lived in the Soviet Union.",
+        "statement_sha256": "77a4f46217c4a599caa0a68ae434f75f182cde92363ccb551afe2a8a3ca07edd"
+      }
+    ],
+    "person_key": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "George Cayley",
+    "entity_id": "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:193",
+        "statement": "George Cayley lived in the U.K.",
+        "statement_sha256": "7a578a53b7339c90e88239cfe7d7fcba762b8f1f0daba4bfb0c62cb673448137"
+      },
+      {
+        "candidate_object": "Italy",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a_reference"
+        ],
+        "fact_id": "fact_38697c3c25db6679dbf1bb5dd27fde3ee5ef330580776678d35aa45224f146de",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "2d020b76350eb273fb414a493c7ac5f92da28c5d1b95f2e8e328ec235d2b53a1",
+        "reasoning": "Brompton estate and engineering work establish a UK home; the short account does not close all travel or residence intervals for Italy.",
+        "statement": "George Cayley lived in Italy.",
+        "statement_sha256": "851ed60334c4674246023f1a02dafbc2f5ed17a819c8eae507f9de69d4a5dac4"
+      }
+    ],
+    "person_key": "entity_34e24c84fad36c3963fb4c8e95ffc262bde1e56bd82232a311969e8cb7c7bc9a",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Yoshiro Nakamatsu",
+    "entity_id": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:400",
+        "statement": "Yoshiro Nakamatsu lived in Japan.",
+        "statement_sha256": "ad169995e187617e177aee3ac0220486b942456af683d854ea3d2f1243522558"
+      },
+      {
+        "candidate_object": "the U.S",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be_reference"
+        ],
+        "fact_id": "fact_ed2679f13187c3c32660b52d7e4da1f149930a6f47109aee91e5fd2f3a670170",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "18511118a2557cf1d14d0769e98e37485eb0bd42bc4a03eb4ec6c7ef6a35ba98",
+        "reasoning": "Tokyo study and political career support Japan; US awards/visits and licensing arrangements lack the residence chronology needed to prove the US affirmative false.",
+        "statement": "Yoshiro Nakamatsu lived in the U.S.",
+        "statement_sha256": "84a614b214b9b0b55b276b589ba94c802a71ad5c57d3ddb6cacf6f2b743b33db"
+      }
+    ],
+    "person_key": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Charles Strite",
+    "entity_id": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca_reference",
+          "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca_reuse_strite_patent"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "Reuse the primary reviewed patent’s explicit Minneapolis residence; secondary birth-place inconsistency supplies no factual basis.",
+        "source_row_id": "inventors:256",
+        "statement": "Charles Strite lived in the U.S.",
+        "statement_sha256": "ef1e7b49fb90bd6c1ace71901cfbb65d96b4da232eb4e910015ddae28e08633d"
+      },
+      {
+        "candidate_object": "Croatia",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca_reference",
+          "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca_reuse_strite_patent"
+        ],
+        "fact_id": "fact_244c2b45b7477d213c7f623315d229b4f908bf77630a7871a0597997e9cb8fdd",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "1bd3a47d7f48295add0505fd69fed2cc60864fa373d1273c551eea3800ab5bda",
+        "reasoning": "Reuse the patent residence record for the US positive; manufacturing milestones and inconsistent secondary birth information do not close lifelong Croatian nonresidence.",
+        "statement": "Charles Strite lived in Croatia.",
+        "statement_sha256": "0d6cc9719832a0998c2e4feae3c8cb6bd6e34331802c061a06e2a7aed835c4e9"
+      }
+    ],
+    "person_key": "entity_4a1c5db18d247ac90d229adff5e02cc5961eac52bbf3fa43d18cc8650e5065ca",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "David Schwarz",
+    "entity_id": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:334",
+        "statement": "David Schwarz lived in Croatia.",
+        "statement_sha256": "863273fe99543f79e131acaeecefa886b26edf09f7f17e3fe9b17f0a9b1f8c3a"
+      },
+      {
+        "candidate_object": "the Netherlands",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030_reference"
+        ],
+        "fact_id": "fact_9e618fbf089794374cabe48f472d4ac5983556664ac9c630c8358a68af43326e",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "067901cfda71a326ec3290a0db3c919e5a14e1b3d62476cad3560862b0566f66",
+        "reasoning": "Documented Zagreb residence was in the Kingdom of Croatia-Slavonia, not automatically the modern country. Frequent 1892–1896 travel and unclear Russian departure also leave Netherlands nonresidence unresolved.",
+        "statement": "David Schwarz lived in the Netherlands.",
+        "statement_sha256": "1a86296a3f5cc3991745396490effaf42ca7ee0d3f1f7e694bb54296bfa89d1c"
+      }
+    ],
+    "person_key": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Joseph Engelberger",
+    "entity_id": "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:309",
+        "statement": "Joseph Engelberger lived in the U.S.",
+        "statement_sha256": "44c42590a958cd92533b5ee1bea1898ad8ac517a21f4aa157c45d62768d0c296"
+      },
+      {
+        "candidate_object": "Germany",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d_reference"
+        ],
+        "fact_id": "fact_fc721a14ef0625265e4eca0f1d3f46a720abfb4f9f70db051bf15828c37cc235",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "178ed74db6025e6c0a22959d87589cd1a017a1efed8c36ef0d1bcafee9322ed0",
+        "reasoning": "Connecticut upbringing and New York study support US residence; international consulting and late private life are not a complete Germany residence history.",
+        "statement": "Joseph Engelberger lived in Germany.",
+        "statement_sha256": "68c897d3507270b392da1119230d0a10edc96144b03a971d80141b6dac531be0"
+      }
+    ],
+    "person_key": "entity_4e545dc0dc1a46cdd31b6e6bed2af6c4155ddd07aeb4585c2b00c65f7d9b888d",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Elisha Gray",
+    "entity_id": "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:113",
+        "statement": "Elisha Gray lived in the U.S.",
+        "statement_sha256": "abc69d959f74ae4969e1b7cc5c6576ecad454dfb20d0474a30a432492f806356"
+      },
+      {
+        "candidate_object": "Germany",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319_reference"
+        ],
+        "fact_id": "fact_79a6326bd857e1846fc079ad20e975feac500e81b4c72b0fb513c56378ef7dc0",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0d61af23e176edb4f5f71c1a51985e144dabcae50ddd3ba3c12cf0c50c6b0f15",
+        "reasoning": "Ohio/Illinois/Boston work and homes are known; the account primarily follows inventions and does not close all overseas residential intervals.",
+        "statement": "Elisha Gray lived in Germany.",
+        "statement_sha256": "91d76a53878bc87962b23b8b6bc4d110701aaac037366cf3e8a497d57d7a8ade"
+      }
+    ],
+    "person_key": "entity_5492029bf834cf8f4e6b60ccd764029e515163c9cecca9de259008865dde9319",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Sir Frank Whittle",
+    "entity_id": "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:213",
+        "statement": "Sir Frank Whittle lived in the U.K.",
+        "statement_sha256": "b131f0cbac47f93f8497877a7f8833ffb3b74251b428b8ebf82663b458b8a9fa"
+      },
+      {
+        "candidate_object": "Scotland",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff_reference"
+        ],
+        "fact_id": "fact_a781cb0967dc06fbad769e46782847f8a923bff3482db4fc3b3e431172448c00",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0c77fd4faba7923f66addd80082b51a2fb36b18096468bf5aad64f58e03f8f07",
+        "reasoning": "UK schooling/work and later US home are explicit, but extensive travel and varied postings do not rule out a Scottish residential interval.",
+        "statement": "Sir Frank Whittle lived in Scotland.",
+        "statement_sha256": "8ce9ab6af862ff2e6affa071b5873dc09ac9bd587ad615f59a171545c91961d1"
+      }
+    ],
+    "person_key": "entity_5b73caad10602aaaa77b89fc62bbbce56ff665d093913c478eb6ed716ae092ff",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Arthur Pitney",
+    "entity_id": "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:184",
+        "statement": "Arthur Pitney lived in the U.S.",
+        "statement_sha256": "48e1ca9acf259e3c34e5f0174d209c6e2967a9bc683ecf88026c46219851028b"
+      },
+      {
+        "candidate_object": "the Netherlands",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b_reference"
+        ],
+        "fact_id": "fact_0d62b23ab62e2bf26681f02df2172ce97acdbcf3709cbd61eacd779e21b494c7",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "02242efc3862c41a839d4094596d3267f56daeee134893111762cd4920a4b4ab",
+        "reasoning": "Chicago move is explicit; early life and post-1924 interval through 1933 are too sparse to establish no Netherlands residence.",
+        "statement": "Arthur Pitney lived in the Netherlands.",
+        "statement_sha256": "1fb7994dfce67f9999045b0463f645b5d04dc3f11385eea40436df9aabfef613"
+      }
+    ],
+    "person_key": "entity_5eed5dde8c9e8aab41f557c837d528b92bc72247ee4a5cfcd9f52d665ce6f65b",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Ernest Swinton",
+    "entity_id": "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:96",
+        "statement": "Ernest Swinton lived in the U.K.",
+        "statement_sha256": "34fc0d08acfdb9535007eaa4cf90ed2afb19d3b68caf8b693a9ca1d12c84a752"
+      },
+      {
+        "candidate_object": "Japan",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd_reference"
+        ],
+        "fact_id": "fact_dc910b024522252e0571de0903a76b6d03667ab62e6f902d9b4d3339ba88f4e8",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "05b281660b424e0d7f693c38cefa571e7f4b465456f7420248bb6519001781e2",
+        "reasoning": "English schooling, Indian/South African service and Oxford appointment support the positive; Russo-Japanese War history work and overseas postings are insufficiently specified for Japan nonresidence.",
+        "statement": "Ernest Swinton lived in Japan.",
+        "statement_sha256": "1f97fc0fa791e2160116f883723ca32086ef8c351e8cff456c2d63af1107ddc7"
+      }
+    ],
+    "person_key": "entity_60bcf3ce5cae19d7fa737f223ae4ae9c2e8513a09029cc4d6901bfe17d73eacd",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Carl Wilhelm Siemens",
+    "entity_id": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:227",
+        "statement": "Carl Wilhelm Siemens lived in Germany.",
+        "statement_sha256": "6b27db4a04d764bae2bd7056f20661150e2944ce5a2c3ffc6f486fb267dea156"
+      },
+      {
+        "candidate_object": "Sweden",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c_reference"
+        ],
+        "fact_id": "fact_56abd98e90d730e2e39ccd7870050b37ab6ef20d3a645632decbbe9f809962b9",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "04588c71cbefa57d605fb63f3bd09caba577b926c92aeae30bfd0d26e00db71d",
+        "reasoning": "Magdeburg/Göttingen study predates German unification and subsequent home was England; no explicit post-1871 German residence is established. The personal travel chronology also does not resolve Sweden.",
+        "statement": "Carl Wilhelm Siemens lived in Sweden.",
+        "statement_sha256": "3fcd8ef4830f1ef733175c233fdb645cad2b1e10c31d93e864fd6d25be6677c6"
+      }
+    ],
+    "person_key": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Samuel Colt",
+    "entity_id": "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:369",
+        "statement": "Samuel Colt lived in the U.S.",
+        "statement_sha256": "6296c61ca9752cd3cc338c0363fc9f639133b7fb212a5428082fca08dfe823b1"
+      },
+      {
+        "candidate_object": "England",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89_reference"
+        ],
+        "fact_id": "fact_cb9d10f404eafd0b6635579f3799f9092867ba8c9cecc47452c6a9d2e8b6bc72",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "3093491367bdf7f77d03f488974093dc51d36f2083f3df859459261e1b5db910",
+        "reasoning": "US family/home and manufacturing are explicit, but English factory development and repeated European trips require residence detail; visits or company ownership alone neither prove nor disprove English residence.",
+        "statement": "Samuel Colt lived in England.",
+        "statement_sha256": "e7c73c4a56c60c80df5f6143ac9ef0e3f32884e6b12175a2c146353265e580cc"
+      }
+    ],
+    "person_key": "entity_8d9c1ded6080353358ac23185ca2f08095a971445106bf2a674fcc5f5d87fa89",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Clarence Birdseye",
+    "entity_id": "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:10",
+        "statement": "Clarence Birdseye lived in the U.S.",
+        "statement_sha256": "39be1e7ea3ce68e87e083278f3e6fea9bab8d1587ae96f3e6f84176d3e1e9974"
+      },
+      {
+        "candidate_object": "the U.K",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c_reference"
+        ],
+        "fact_id": "fact_76872c2b4a2f84ff04731ba9403231ed1178bcbb40a75dd6f3e2b516c67d46f3",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "4033b14f8badf9e8e628c91209390af7e1e20851abd16d7e892d734331ed873c",
+        "reasoning": "US childhood and Labrador work are explicit. Later overseas work and the scope of historic British/Canadian jurisdictions are not enough to verify bare U.K. nonresidence.",
+        "statement": "Clarence Birdseye lived in the U.K.",
+        "statement_sha256": "d1f292fd0a322db1b16c19a42937f91ae18afebfef354f8d70fb59fd9f9f9b1b"
+      }
+    ],
+    "person_key": "entity_8fc3f97aa00689ec7f8c5a7e7e116f7a6a36f3b0a878f6af737f32d15059c13c",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Grace Hopper",
+    "entity_id": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:291",
+        "statement": "Grace Hopper lived in the U.S.",
+        "statement_sha256": "323d18fd20f2ba81f601a8ead6a75312776b5ea9f2fb33ef8789f8983d042411"
+      },
+      {
+        "candidate_object": "the U.K",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b_reference"
+        ],
+        "fact_id": "fact_5100c1eed7b7bd24b14dc42f7a98760984b9b2cb8c2b2748d2ce8ab58d8eb92a",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "02e33f2b666c0980a1bbf5fc64c6467b87787e96114e47e127003e16331ac182",
+        "reasoning": "US study, appointments and final Arlington home support US residence; wide lecturing/consulting travel is not bounded enough to close UK nonresidence.",
+        "statement": "Grace Hopper lived in the U.K.",
+        "statement_sha256": "97bb8798f636c8644ef01a4950ef342d28a7e7ed511634f9e211a8bd22c1030d"
+      }
+    ],
+    "person_key": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Alfred Nobel",
+    "entity_id": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87_reference",
+          "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87_reuse_nobel_full"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:261",
+        "statement": "Alfred Nobel lived in Sweden.",
+        "statement_sha256": "423b3af022fbb8ea9be14b254a1477ab9ac36b3fa0daa4408c9fa3c7a793c1ef"
+      },
+      {
+        "candidate_object": "the Netherlands",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87_reference",
+          "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87_reuse_nobel_full"
+        ],
+        "fact_id": "fact_00178337381f51612d3a179e57f88650511596406c5c0f9662e19dfe2e2de061",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "111d312298100b4723e41783b6af748df6205c37da9df462ae4b5666dbae99c5",
+        "reasoning": "Reuse institutional biography: frequent international travel, laboratories and visits have incomplete living arrangements. Do not infer no Netherlands residence from omitted country names.",
+        "statement": "Alfred Nobel lived in the Netherlands.",
+        "statement_sha256": "d5295d7c1ae38c5d524340bc07b5778b3d809c787c6d2151a776043fb9dc899c"
+      }
+    ],
+    "person_key": "entity_a1b4fe0f5759be0f36ef3df5c28d4bbaa44c960fd7e4120fd39b9edbbac1ce87",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Herbert Akroyd Stuart",
+    "entity_id": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff_reference",
+          "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff_reuse_akroyd_adb"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:22",
+        "statement": "Herbert Akroyd Stuart lived in England.",
+        "statement_sha256": "9f2e81f4c5e7d51bfbae3a757460ee0fa93a2c837063f010a0dc79bfbdc8f96a"
+      },
+      {
+        "candidate_object": "the Soviet Union",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff_reference",
+          "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff_reuse_akroyd_adb"
+        ],
+        "fact_id": "fact_063b2b6f13daddd7e380cc0643ce8ffb081a2ddcd763301312f577b350ceff48",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "1c5fe6f7016074934434fb977dd567896b0b960905317ce3ba127b85256327fc",
+        "reasoning": "Reuse ANU evidence and its explicit limitation: English education and Western Australian migration/home are supported, but travel and interim arrangements are sparse. Do not manufacture a negative from the new country name.",
+        "statement": "Herbert Akroyd Stuart lived in the Soviet Union.",
+        "statement_sha256": "7c9f9d8322019008962f5c71bf5c1f3ff63574623226c18bcbf57b5f28f2ecdf"
+      }
+    ],
+    "person_key": "entity_ac665df8f8e29f711f918e0cd0ddf67f81b649acd6733f999b9574bb5901aeff",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Fritz Pfleumer",
+    "entity_id": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a_reference",
+          "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a_reuse_pfleumer"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "German biography explicitly says Fritz Pfleumer lived in Dresden-Gruna from 1923 until 1945. His brother Hans’s US emigration is not transferred.",
+        "source_row_id": "inventors:34",
+        "statement": "Fritz Pfleumer lived in Germany.",
+        "statement_sha256": "1995eac2cfc27fe146001c87e4bc0281f56b4ea8685aaab41473d44b8e6ed293"
+      },
+      {
+        "candidate_object": "the Netherlands",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a_reference",
+          "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a_reuse_pfleumer"
+        ],
+        "fact_id": "fact_49fb9069dc62a078c777e0d15544ffb9942a211fdb00ce6a614122a0f97b1c6b",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "00c30d062f6086281d2b8c8b98adef2d84812e642af1ca93aae5ccafe156791e",
+        "reasoning": "German account explicitly gives Dresden home from 1923 to death. Earlier Netherlands Lignostone business/patent arrangements are not sufficiently residentially specified to establish no Dutch residence.",
+        "statement": "Fritz Pfleumer lived in the Netherlands.",
+        "statement_sha256": "ab158ed1129701199d381eafc74dc585015010343492373c45c74c4d70d702bb"
+      }
+    ],
+    "person_key": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "George Eastman",
+    "entity_id": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:198",
+        "statement": "George Eastman lived in the U.S.",
+        "statement_sha256": "90a919f73f1ee134d8bbb9342d00fbcf74fe1d9eb5aca265b53d8f6f922bfb25"
+      },
+      {
+        "candidate_object": "the U.K",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86_reference"
+        ],
+        "fact_id": "fact_65bbe05b697d0b0179678ba3baf5da45cd7135c04e884c2ccb5e5f68e1d1a920",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "042cf66918cd1ddf03cab1a09687fcaf2b76adc2e0257f3fd26d0fcafc6aba6b",
+        "reasoning": "Rochester homes and company work are supported; UK factory/philanthropy and overseas trips do not give sufficient living-arrangement detail to establish no UK residence.",
+        "statement": "George Eastman lived in the U.K.",
+        "statement_sha256": "8cc3156538e7c3910d11faae6b695ff3757d2ebf460c1f5edeb51813b217d227"
+      }
+    ],
+    "person_key": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Callcott Horsley",
+    "entity_id": "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:161",
+        "statement": "John Callcott Horsley lived in the U.K.",
+        "statement_sha256": "527b028acbd0949ac0b86ed464a225e21ac1f7bcc6f827340610c7162d4371b3"
+      },
+      {
+        "candidate_object": "Italy",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f_reference"
+        ],
+        "fact_id": "fact_3f9265d3d2cd8601c5942f2044c7296a827f72518acd54e3a59e1e7fe23cf348",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "0710f296adad433651ece73d68e151a66bef27cf555d59c62efa53297cb08481",
+        "reasoning": "London/Cranbrook homes are documented; the account does not cover all artistic travel or later residential intervals to establish no Italian residence.",
+        "statement": "John Callcott Horsley lived in Italy.",
+        "statement_sha256": "efd128b96ea5d55203cb0223606c433e1ee070b7cdffae718956e459be7cec74"
+      }
+    ],
+    "person_key": "entity_be2707e43b11172cbaba9811a7d6ec2822e6461f79e5b06c79e76934d1a96f6f",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John T. Parsons",
+    "entity_id": "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd_reference",
+          "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd_institutional"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:254",
+        "statement": "John T. Parsons lived in the U.S.",
+        "statement_sha256": "e0d7fd68d3d56a5277aae8a5f0dd15a78627a4619100acefb8f8a586c4c78347"
+      },
+      {
+        "candidate_object": "Japan",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd_reference",
+          "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd_institutional"
+        ],
+        "fact_id": "fact_9472365d5edd38cb15927e8dd2ea2bb73736f1b254dd6b05679a3f34646dabfa",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "12d3bec2b502a80fa55688c69b5c9ef08397bfd8ee624c2d5d5917564dd2c2f8",
+        "reasoning": "US industrial work and institutional career evidence do not provide a comprehensive Japanese travel/posting chronology.",
+        "statement": "John T. Parsons lived in Japan.",
+        "statement_sha256": "96aaa903f93999fbc3a376063818b34e7137c22ce7194954e15e4bdcd9f27924"
+      }
+    ],
+    "person_key": "entity_c0e4e77a1b31909283134d1d97c2b275003b40dac13fdbfe9f7b96596f2db1cd",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Vint Cerf",
+    "entity_id": "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:357",
+        "statement": "Vint Cerf lived in the U.S.",
+        "statement_sha256": "75bfb20d6f013937c8ac77986d7f4fe8fb221c5ae3e9ca0a9c78b9298888c687"
+      },
+      {
+        "candidate_object": "England",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307_reference"
+        ],
+        "fact_id": "fact_54abcc7276f3a6794e79b0209a893b9f9d5826c57b63801de243dbbd1c44f2bd",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "375abb8fddd74c3ef982681c4fa750adb6d50fc19f097c3b6da471e3275ab297",
+        "reasoning": "US schooling and employment are explicit; international Internet work and appointments lack a complete England residence chronology.",
+        "statement": "Vint Cerf lived in England.",
+        "statement_sha256": "feeea932f61ee9333b39626108754185ad18a1bbc52dacda6ec1bab8e54e4fbc"
+      }
+    ],
+    "person_key": "entity_c151b5563afb28d02b4244f9a357599e40eb17cf7d4be11b6aaeb852bb738307",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "John Kay",
+    "entity_id": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e_reference"
+        ],
+        "judgment": "unresolved",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The documented home/study/work predates or belongs to a different named historical polity; bare source wording is unresolved under v4’s conservative historical-country standard. Preserve label 1, quarantine exact source pair; no modern-border substitution.",
+        "source_row_id": "inventors:315",
+        "statement": "John Kay lived in the U.K.",
+        "statement_sha256": "e85dfd6b32ed5223ee5ce455860aeda4473d6ff50e274dc87f99ba5ac79b28ca"
+      },
+      {
+        "candidate_object": "Croatia",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e_reference"
+        ],
+        "fact_id": "fact_07fa19c17b12d2eb099c6e40dcf41488ece787962db7e9dd4b411f94911b998f",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "17f7cc9c28b5dd4059a18a47ceef8571563a0e4d88a4af60d36d27ad3da59660",
+        "reasoning": "The flying-shuttle inventor is distinct from the spinning-frame namesake. English/French life predates modern U.K. and the late-life record is incomplete; neither positive wording nor Croatia nonresidence is resolved.",
+        "statement": "John Kay lived in Croatia.",
+        "statement_sha256": "3219f529b099964dfe76e136e9c7355cae03a1cc8c5a36d00eb85929c1574483"
+      }
+    ],
+    "person_key": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Whitcomb Judson",
+    "entity_id": "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512_reference"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:15",
+        "statement": "Whitcomb Judson lived in the U.S.",
+        "statement_sha256": "a73a63d97a648142c40ec583f451b7ee23545fe9021ebeea8abe901ab3d6978c"
+      },
+      {
+        "candidate_object": "England",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512_reference"
+        ],
+        "fact_id": "fact_962cade9cd8d8899cb89859cdf568849c9c5dfa7bb3896adcf24eab23021be62",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "2f7e68ac08af5f824f1facae7db0b9a1cf92b07be382d421f0091e846b1e8136",
+        "reasoning": "US city-directory and education evidence supports residence; the traveling-agent years are not bounded enough to establish no England residence.",
+        "statement": "Whitcomb Judson lived in England.",
+        "statement_sha256": "0c245f5889d0805aacfd37487f3e20fba602b7bb04003f0efd2405ed435c5460"
+      }
+    ],
+    "person_key": "entity_e5caef54f791d34a1753ebb9e041c552bf6342d26ace2d9edb76f79fa77ee512",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  },
+  {
+    "entity": "Charles Goodyear",
+    "entity_id": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+    "facts": [
+      {
+        "evidence_ids": [
+          "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30_reference",
+          "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30_reuse_goodyear2"
+        ],
+        "judgment": "supported_true",
+        "label": 1,
+        "origin": "source",
+        "reasoning": "The reference records actual residential schooling/work, settlement or home, rather than nationality alone; exact named inventor is retained.",
+        "source_row_id": "inventors:20",
+        "statement": "Charles Goodyear lived in the U.S.",
+        "statement_sha256": "905d3ac4a71ec27c6f4d1068a4db7de2456249c19bd6db4e513b2c2180929265"
+      },
+      {
+        "candidate_object": "Germany",
+        "candidate_rank": 1,
+        "evidence_ids": [
+          "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30_reference",
+          "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30_reuse_goodyear2"
+        ],
+        "fact_id": "fact_e1a79f26fd11519def298536e57d8abac615f4699517cc6a95feba8c0bada673",
+        "judgment": "unresolved",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "ranking_hash": "13f6e09ec170275acc66bec1b6cc68696a0bb5c36631d2d75732f32e37b8ce20",
+        "reasoning": "Recovered European trip and imprisonment evidence leaves duration and locations incompletely specified. US home is supported, but nonresidence in Germany is not independently established.",
+        "statement": "Charles Goodyear lived in Germany.",
+        "statement_sha256": "6768659a4b48e75f01fd0c305573bc42c31869c515d53a1e5a2d156768f3a6af"
+      }
+    ],
+    "person_key": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+    "reviewer_method": "Codex-assisted score-blind external factual audit, not human verification",
+    "split": "test",
+    "status": "unresolved",
+    "topic": "inventors"
+  }
+]

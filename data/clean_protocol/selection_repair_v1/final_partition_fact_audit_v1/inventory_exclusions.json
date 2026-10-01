@@ -1,0 +1,1136 @@
+[
+  {
+    "eligible_for_audit": false,
+    "entity": "Alexander Graham Bell",
+    "entity_id": "entity_2a5f40010a936ed24a03e6d176c168288aebd4c0993b4531eb66af7c53ed4a70",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "True",
+    "person_key": "entity_2a5f40010a936ed24a03e6d176c168288aebd4c0993b4531eb66af7c53ed4a70",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "1",
+        "paired_source_row_id": "neg_inventors:136",
+        "source_row_id": "inventors:136",
+        "statement": "Alexander Graham Bell lived in Scotland/Canada/the U.S.",
+        "statement_sha256": "2c109ea542c4e03b3b0a33c76aa1e989d28ce97dff01daad0d001341e1d24a45",
+        "tc_successor_status": "quarantined"
+      },
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_inventors:248",
+        "source_row_id": "inventors:248",
+        "statement": "Alexander Graham Bell lived in Germany.",
+        "statement_sha256": "a91e74a834262ef2f0ca9fe49f663356104a649074aa3285629167d9cdb03394",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "0",
+        "paired_source_row_id": "inventors:136",
+        "source_row_id": "neg_inventors:136",
+        "statement": "Alexander Graham Bell did not live in Scotland/Canada/the U.S.",
+        "statement_sha256": "f4e807ccaf68d21a16435d2c21cec3fa967c9cef15d2caa0960e3260cd228d22",
+        "tc_successor_status": "quarantined"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "inventors:248",
+        "source_row_id": "neg_inventors:248",
+        "statement": "Alexander Graham Bell did not live in Germany.",
+        "statement_sha256": "f7dec9db4c11cd0ade1884e6f133d547809da0d9100da25ced1c426c2e96790c",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "John von Neumann",
+    "entity_id": "entity_7a3f336fce755f6a6584be12260d797bb574f76bf79078bb244ce05edb813a6b",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "True",
+    "person_key": "entity_7a3f336fce755f6a6584be12260d797bb574f76bf79078bb244ce05edb813a6b",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "1",
+        "paired_source_row_id": "neg_inventors:102",
+        "source_row_id": "inventors:102",
+        "statement": "John von Neumann lived in Hungary/the U.S.",
+        "statement_sha256": "7242aed8f2f9a941b763fe1808f542bf82ee071fc9ae3924d75015afeaadeafa",
+        "tc_successor_status": "quarantined"
+      },
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_inventors:341",
+        "source_row_id": "inventors:341",
+        "statement": "John von Neumann lived in the U.S.",
+        "statement_sha256": "529ccb3d84bb0516a351f687cc1e6ff2af26b264fd3580622fca7bcdc81692c7",
+        "tc_successor_status": "excluded"
+      },
+      {
+        "form": "negated",
+        "label": "0",
+        "paired_source_row_id": "inventors:102",
+        "source_row_id": "neg_inventors:102",
+        "statement": "John von Neumann did not live in Hungary/the U.S.",
+        "statement_sha256": "f1be64fd319e085e708211cc663db9c42b2dcc173597b0e7dfb8c1bb28e77eb4",
+        "tc_successor_status": "quarantined"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "inventors:341",
+        "source_row_id": "neg_inventors:341",
+        "statement": "John von Neumann did not live in the U.S.",
+        "statement_sha256": "081d1d9032b121290e7501083fb141807d77d986bb8619266e1a24a42c54a8b7",
+        "tc_successor_status": "excluded"
+      }
+    ],
+    "split": "test",
+    "topic": "inventors"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "oro",
+    "entity_id": "entity_13d1406bc3a1864043b8c3a6a8a8f8089cf811f60ff2ed5e481bc17e3435296b",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_13d1406bc3a1864043b8c3a6a8a8f8089cf811f60ff2ed5e481bc17e3435296b",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:149",
+        "source_row_id": "sp_en_trans:149",
+        "statement": "The Spanish word 'oro' means 'story'.",
+        "statement_sha256": "899ae90ba67fa4ef058b307b1b3b0cf19fe56a5616502761f31d04a7dc678a26",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:149",
+        "source_row_id": "neg_sp_en_trans:149",
+        "statement": "The Spanish word 'oro' does not mean 'story'.",
+        "statement_sha256": "d8a798e404754a7fa51f09e27778363bff484679c2a2483d05990ac043708d8e",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "usar",
+    "entity_id": "entity_1a469aa5da656fa08d9584620a867dcdf5085d236286985e9bc594cf47e2fead",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_1a469aa5da656fa08d9584620a867dcdf5085d236286985e9bc594cf47e2fead",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:51",
+        "source_row_id": "sp_en_trans:51",
+        "statement": "The Spanish word 'usar' means 'to fight'.",
+        "statement_sha256": "95e5187587c99c8a8ecc962158541979a8d0c98141b7ba496fa035d395c4f975",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:51",
+        "source_row_id": "neg_sp_en_trans:51",
+        "statement": "The Spanish word 'usar' does not mean 'to fight'.",
+        "statement_sha256": "dc2c577172c390a577916ebc924ec0a120334456e7a0bb3710b08ed1e25d7702",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "medir",
+    "entity_id": "entity_1e19c854d8f3092480b9d94639e5168cfe3ecd2e7a7b015409d69904d20eb869",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_1e19c854d8f3092480b9d94639e5168cfe3ecd2e7a7b015409d69904d20eb869",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:122",
+        "source_row_id": "sp_en_trans:122",
+        "statement": "The Spanish word 'medir' means 'to carry'.",
+        "statement_sha256": "93d72494fa6392535e5bb586dd6ce66178c49c720e2db1e51aa9482b30389616",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:122",
+        "source_row_id": "neg_sp_en_trans:122",
+        "statement": "The Spanish word 'medir' does not mean 'to carry'.",
+        "statement_sha256": "7fa81bc293405e252882e8abe9fc082e8e1910c5e14c7869ed031b7c6d77daba",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "cola",
+    "entity_id": "entity_2a6628d1d69206a1aefbeb0e9c1acfab53d781a6b2e9f921d0a734da96081361",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_2a6628d1d69206a1aefbeb0e9c1acfab53d781a6b2e9f921d0a734da96081361",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:168",
+        "source_row_id": "sp_en_trans:168",
+        "statement": "The Spanish word 'cola' means 'name'.",
+        "statement_sha256": "c06cab31a50cc1c667de67cecbc60a5acb64d3d68e2cfa79dc8e65f61739fafd",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:168",
+        "source_row_id": "neg_sp_en_trans:168",
+        "statement": "The Spanish word 'cola' does not mean 'name'.",
+        "statement_sha256": "c8a53740a954811330fcee476fafb185fa805f3841d955d27fda228519b85da7",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "granja",
+    "entity_id": "entity_3978932a7dcb8f9b4b56e02c534498a48741344f2f2ce14524a34c96f4c76d31",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_3978932a7dcb8f9b4b56e02c534498a48741344f2f2ce14524a34c96f4c76d31",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:79",
+        "source_row_id": "sp_en_trans:79",
+        "statement": "The Spanish word 'granja' means 'woman'.",
+        "statement_sha256": "5a3a891b15c908011563e0795204186e1cc4cb54c6939e1dba55cb8e8fb10e57",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:79",
+        "source_row_id": "neg_sp_en_trans:79",
+        "statement": "The Spanish word 'granja' does not mean 'woman'.",
+        "statement_sha256": "54d4c53bcece712af750c36c56bcb2601dfdac239f966321a2c137b53af40048",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "sentir",
+    "entity_id": "entity_3bfe3c1706812ec1e6c6bd3676c8449110b3bbd852f467d90145e05123d814d9",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_3bfe3c1706812ec1e6c6bd3676c8449110b3bbd852f467d90145e05123d814d9",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:116",
+        "source_row_id": "sp_en_trans:116",
+        "statement": "The Spanish word 'sentir' means 'to build'.",
+        "statement_sha256": "a129b92d4882ff86e5c8f6b7783ce028d7e2ef4a0661eb34a34e037440f232fb",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:116",
+        "source_row_id": "neg_sp_en_trans:116",
+        "statement": "The Spanish word 'sentir' does not mean 'to build'.",
+        "statement_sha256": "a84b13776b2dc137472a54e62e8a29b2957790823f7772235c3b36af65e30b9d",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "piso",
+    "entity_id": "entity_3f0a6635401500c5e5d488c4c61b1aa4ffbe7a247f0ae0e583a8ae8c24e1f4d4",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_3f0a6635401500c5e5d488c4c61b1aa4ffbe7a247f0ae0e583a8ae8c24e1f4d4",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:246",
+        "source_row_id": "sp_en_trans:246",
+        "statement": "The Spanish word 'piso' means 'set'.",
+        "statement_sha256": "2fe1ad5c00abcdf794010ac5c5327258024e8028b7ec90a4a28c1df27574609e",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:246",
+        "source_row_id": "neg_sp_en_trans:246",
+        "statement": "The Spanish word 'piso' does not mean 'set'.",
+        "statement_sha256": "6b155b211a9eed6048db22c29b2a26c4b799d8929c68dc917548cff97967b697",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "seguro",
+    "entity_id": "entity_4104c7352283aded3a9d44e182573f31a8848235ad1f922c6da3fc5bfc5856ab",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_4104c7352283aded3a9d44e182573f31a8848235ad1f922c6da3fc5bfc5856ab",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:249",
+        "source_row_id": "sp_en_trans:249",
+        "statement": "The Spanish word 'seguro' means 'danger'.",
+        "statement_sha256": "8cf121120b3283ae151d52b9f9b8274e66632edabd6bd03ae0c2f92a959bf61b",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:249",
+        "source_row_id": "neg_sp_en_trans:249",
+        "statement": "The Spanish word 'seguro' does not mean 'danger'.",
+        "statement_sha256": "719207a45047d3c632a5733c699569bfb061ba1a8025bb7ef46d3202573c2906",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "hacer",
+    "entity_id": "entity_43d4f84e42747a93bac127b5e7a849d9803afb07a1afbc3874d5a74317cfeb9f",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_43d4f84e42747a93bac127b5e7a849d9803afb07a1afbc3874d5a74317cfeb9f",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:10",
+        "source_row_id": "sp_en_trans:10",
+        "statement": "The Spanish word 'hacer' means 'lost'.",
+        "statement_sha256": "d254219f4fcf71e92b8fce4ecaaee9c5dbd8c11290829156d506f3bf064cf0bd",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:55",
+        "source_row_id": "sp_en_trans:55",
+        "statement": "The Spanish word 'hacer' means 'neck'.",
+        "statement_sha256": "64e784a64bca193aa6e64f9b5daa20a3e7f0f1a5c06114272072a7f22ed5d492",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:10",
+        "source_row_id": "neg_sp_en_trans:10",
+        "statement": "The Spanish word 'hacer' does not mean 'lost'.",
+        "statement_sha256": "b20e48a5faa7ec521eaac9f65fa1ca9e313f175e3600b9362689c05073a28680",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:55",
+        "source_row_id": "neg_sp_en_trans:55",
+        "statement": "The Spanish word 'hacer' does not mean 'neck'.",
+        "statement_sha256": "8b07423940f7dc3f44f0dad0c228796cec2b91604b808d9aeee7269ac706240c",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "saber",
+    "entity_id": "entity_43d6972dcc0188d735fd3d8565d46260924ee26bd394898f7f82fff421a048e1",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_43d6972dcc0188d735fd3d8565d46260924ee26bd394898f7f82fff421a048e1",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:61",
+        "source_row_id": "sp_en_trans:61",
+        "statement": "The Spanish word 'saber' means 'happy'.",
+        "statement_sha256": "82fb53b96c63ef76a8e1283f67b0821a0503135c31d1ad685a8fdc52b301836e",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:61",
+        "source_row_id": "neg_sp_en_trans:61",
+        "statement": "The Spanish word 'saber' does not mean 'happy'.",
+        "statement_sha256": "8d9c8ab09b5343ac9cf7ef9ad1be5a46c551ec2cd8a7f20140d8c17058f7385e",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "rueda",
+    "entity_id": "entity_4e0180fbe9baa9c08700097e5e01c4510963d891ad56a2e5b34a4d286fa80a74",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_4e0180fbe9baa9c08700097e5e01c4510963d891ad56a2e5b34a4d286fa80a74",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:138",
+        "source_row_id": "sp_en_trans:138",
+        "statement": "The Spanish word 'rueda' means 'sister'.",
+        "statement_sha256": "2df4418e3e34451f7cf1c990aafa6c01154e5b5fb2f1be50f3e99c70c18b625d",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:138",
+        "source_row_id": "neg_sp_en_trans:138",
+        "statement": "The Spanish word 'rueda' does not mean 'sister'.",
+        "statement_sha256": "a3b16d2d48719e28b5cf3fe7df3945b740aebd6f8b635e4ce71d49348fb47f52",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "vestido",
+    "entity_id": "entity_50f3ec853eedcd1fa960fb5cd4c5817aaf62d1052f7728a51d95df20ab774344",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_50f3ec853eedcd1fa960fb5cd4c5817aaf62d1052f7728a51d95df20ab774344",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:230",
+        "source_row_id": "sp_en_trans:230",
+        "statement": "The Spanish word 'vestido' means 'example'.",
+        "statement_sha256": "e3fef5756e52e40d770cea9a5a21381a9ba46cb031583a2e39c1e9a840924944",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:230",
+        "source_row_id": "neg_sp_en_trans:230",
+        "statement": "The Spanish word 'vestido' does not mean 'example'.",
+        "statement_sha256": "8734b92b735edba78e46cc61968ed41143a46e02c30ab08468c911581c50a8cc",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "pie",
+    "entity_id": "entity_536e7a3c78580c2b106dda471ed6274f5fca098c159eae7931e82cd8a4faa84d",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_536e7a3c78580c2b106dda471ed6274f5fca098c159eae7931e82cd8a4faa84d",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:144",
+        "source_row_id": "sp_en_trans:144",
+        "statement": "The Spanish word 'pie' means 'lake'.",
+        "statement_sha256": "fadec5e2ad382754e7d7a1451d24bbe6ad19be926bbb161e3a2fadc7665256c6",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:144",
+        "source_row_id": "neg_sp_en_trans:144",
+        "statement": "The Spanish word 'pie' does not mean 'lake'.",
+        "statement_sha256": "17e0addd3e0aee7bc5a8dcfc19cd3e16c0819bedc7a6dc445000d0b6b05ae205",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "conjunto",
+    "entity_id": "entity_56d5b8ff3ae080134c57409bab42cff15bd3b5ff615b51f013cd3727483fbc64",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_56d5b8ff3ae080134c57409bab42cff15bd3b5ff615b51f013cd3727483fbc64",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:13",
+        "source_row_id": "sp_en_trans:13",
+        "statement": "The Spanish word 'conjunto' means 'son'.",
+        "statement_sha256": "84df89006a5c1ca9a40835fcc3ef2211650d26598d280b5e07007e647d9b358a",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:13",
+        "source_row_id": "neg_sp_en_trans:13",
+        "statement": "The Spanish word 'conjunto' does not mean 'son'.",
+        "statement_sha256": "267dc78649a014ea19c6549ccb8df6dbf14cce469d6a0f59dbc295b617b88125",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "siglo",
+    "entity_id": "entity_5928f33fb1c46f73b788644d1a1683a2f9bb5ad70ed642cec40230d1e7bc45a0",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_5928f33fb1c46f73b788644d1a1683a2f9bb5ad70ed642cec40230d1e7bc45a0",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:251",
+        "source_row_id": "sp_en_trans:251",
+        "statement": "The Spanish word 'siglo' means 'large'.",
+        "statement_sha256": "7d5e4db1c0e8440734574e9b8f1fd9faadf5f731e5f03f043a915bce5b4fc2ba",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:251",
+        "source_row_id": "neg_sp_en_trans:251",
+        "statement": "The Spanish word 'siglo' does not mean 'large'.",
+        "statement_sha256": "a615e0006af073cd68d16f8655b4a4afd55e2d04bdaa9fcc46a83ae546e34704",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "tarjeta",
+    "entity_id": "entity_5f8662ef9758ac351a13e50d6042f5e3b4368f0e66248846fe1bf9a2dec2b864",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_5f8662ef9758ac351a13e50d6042f5e3b4368f0e66248846fe1bf9a2dec2b864",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:309",
+        "source_row_id": "sp_en_trans:309",
+        "statement": "The Spanish word 'tarjeta' means 'bear'.",
+        "statement_sha256": "a622139be243b35d726f9ec6691cef842984071bd65f2b5bcdb8917911fd9fa1",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:309",
+        "source_row_id": "neg_sp_en_trans:309",
+        "statement": "The Spanish word 'tarjeta' does not mean 'bear'.",
+        "statement_sha256": "321d143ae92f5c00829511e295139d024c4ade61a082ea85163def8e9e37e8a0",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "vidrio",
+    "entity_id": "entity_62a3a60f1e8ce632e7cd6883484d7853917cf7b4685ede6a49a0f7f4ae463c32",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_62a3a60f1e8ce632e7cd6883484d7853917cf7b4685ede6a49a0f7f4ae463c32",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:201",
+        "source_row_id": "sp_en_trans:201",
+        "statement": "The Spanish word 'vidrio' means 'to hear'.",
+        "statement_sha256": "ab39da7f48fbbad3d1d900e238149cdaa89d558edd909040af6eeb340920fe84",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:201",
+        "source_row_id": "neg_sp_en_trans:201",
+        "statement": "The Spanish word 'vidrio' does not mean 'to hear'.",
+        "statement_sha256": "20b06ebb5b42c5ca0d98d63e8008d376a3afa8d3207c3ec0fbf8ff4cffcfad1f",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "valle",
+    "entity_id": "entity_76f1325601166de9984228675e0a2c20be64ea11621d8f44860142d23b2bb75c",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_76f1325601166de9984228675e0a2c20be64ea11621d8f44860142d23b2bb75c",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:313",
+        "source_row_id": "sp_en_trans:313",
+        "statement": "The Spanish word 'valle' means 'face'.",
+        "statement_sha256": "1dee9bc44d50e7c0a495782a96b81d7ad36f941c45d827240590b29bc9e7d465",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:313",
+        "source_row_id": "neg_sp_en_trans:313",
+        "statement": "The Spanish word 'valle' does not mean 'face'.",
+        "statement_sha256": "78cedf771101048eb5dde74bc6afdb3a56fd7c91c72cbfd9d950d644e8bfc94d",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "mariposa",
+    "entity_id": "entity_79228168015df7bb75c67db5978546b76893bfb519fe7d687cce351d732cdcd6",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_79228168015df7bb75c67db5978546b76893bfb519fe7d687cce351d732cdcd6",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:346",
+        "source_row_id": "sp_en_trans:346",
+        "statement": "The Spanish word 'mariposa' means 'rose'.",
+        "statement_sha256": "2f2f74f42b7ed0b45112201d25c5d418ce66244ea85026e2e6c306189f6ff0db",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:346",
+        "source_row_id": "neg_sp_en_trans:346",
+        "statement": "The Spanish word 'mariposa' does not mean 'rose'.",
+        "statement_sha256": "27e6ae29d63f4c491cdcfbf4037d0bc90f9ab0b172574792ff920bcea65f0702",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "o",
+    "entity_id": "entity_82c20ea2e182a46506303980f7e045d64c67680ce2e37dd2bd4602c4c3c100d8",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_82c20ea2e182a46506303980f7e045d64c67680ce2e37dd2bd4602c4c3c100d8",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:6",
+        "source_row_id": "sp_en_trans:6",
+        "statement": "The Spanish word 'o' means 'octopus'.",
+        "statement_sha256": "9ba269294d80741a8895562e82c21952927f85ef088f4d588c4059999bd5a810",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:6",
+        "source_row_id": "neg_sp_en_trans:6",
+        "statement": "The Spanish word 'o' does not mean 'octopus'.",
+        "statement_sha256": "c023da80577537c7bfc9485e697310e473423a5e4e4e8218144253682e19462f",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "rama",
+    "entity_id": "entity_883c5480182a6b978c0ea31ec98a7aa382a2d95b154cd6077e128fd2c580ea3d",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_883c5480182a6b978c0ea31ec98a7aa382a2d95b154cd6077e128fd2c580ea3d",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:303",
+        "source_row_id": "sp_en_trans:303",
+        "statement": "The Spanish word 'rama' means 'back'.",
+        "statement_sha256": "10c5da34008d7372fdb202568a3c140007aebcf50e3d73a6cda33446697d3d98",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:303",
+        "source_row_id": "neg_sp_en_trans:303",
+        "statement": "The Spanish word 'rama' does not mean 'back'.",
+        "statement_sha256": "9284f789f1469281034e9a5562b558a37354784c32b558f35bbb37d4b8691556",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "oeste",
+    "entity_id": "entity_93c91fb19ca6f6f3081a61d374eccb63b4bca9d74303a7f681a55f7b27ee100f",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_93c91fb19ca6f6f3081a61d374eccb63b4bca9d74303a7f681a55f7b27ee100f",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:172",
+        "source_row_id": "sp_en_trans:172",
+        "statement": "The Spanish word 'oeste' means 'moment'.",
+        "statement_sha256": "4599692d90de8ee05a9b9cdece4eff3367e1ab9eb96abfa4bcbb1f74ab49bb9d",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:172",
+        "source_row_id": "neg_sp_en_trans:172",
+        "statement": "The Spanish word 'oeste' does not mean 'moment'.",
+        "statement_sha256": "ef020fd04aca8f71852cc2c8aac2011eda4bf96084af44261bfbf3f5b946d0fa",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "viaje",
+    "entity_id": "entity_a47233f8cbe7c08b06cbaadcca6f5efbfa0e9486d20802d43043a4832ab7a12d",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_a47233f8cbe7c08b06cbaadcca6f5efbfa0e9486d20802d43043a4832ab7a12d",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:208",
+        "source_row_id": "sp_en_trans:208",
+        "statement": "The Spanish word 'viaje' means 'system'.",
+        "statement_sha256": "c4db8522937b47798d87f682c8d77283fd63c171c120ed965a5d919fce2fbe0c",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:208",
+        "source_row_id": "neg_sp_en_trans:208",
+        "statement": "The Spanish word 'viaje' does not mean 'system'.",
+        "statement_sha256": "3a5bdcf812a598d637bb11a1b825222f24ca8683becc609f791e272bf43a20f9",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "directo",
+    "entity_id": "entity_a6d3ad141379c2ba12b0e9930d5c2d384f88c70fd63cd2789f65d2fe955372be",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_a6d3ad141379c2ba12b0e9930d5c2d384f88c70fd63cd2789f65d2fe955372be",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:121",
+        "source_row_id": "sp_en_trans:121",
+        "statement": "The Spanish word 'directo' means 'to eat'.",
+        "statement_sha256": "9993de31703fb8cd16368889e71468b81d4477045709a73d0c74796dcb9a50f2",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:121",
+        "source_row_id": "neg_sp_en_trans:121",
+        "statement": "The Spanish word 'directo' does not mean 'to eat'.",
+        "statement_sha256": "78cb50cf65445be11e7455ea88387cd951d75a5c7e369902fd700ea18aaa3b40",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "derecho",
+    "entity_id": "entity_a6e3a4b6d43445219909cca15d9d7c66dcaf37cc1d0fa5464a5c0bcc6b730092",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_a6e3a4b6d43445219909cca15d9d7c66dcaf37cc1d0fa5464a5c0bcc6b730092",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:46",
+        "source_row_id": "sp_en_trans:46",
+        "statement": "The Spanish word 'derecho' means 'summer'.",
+        "statement_sha256": "93c440d3d1343dac74264b82795f5958af242313923161700f5c86497738f4f4",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:46",
+        "source_row_id": "neg_sp_en_trans:46",
+        "statement": "The Spanish word 'derecho' does not mean 'summer'.",
+        "statement_sha256": "0e08ffbb8906895c4d5b18b7709e622d2962f10474983142ef87b51453a8f1b1",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "lobo",
+    "entity_id": "entity_c233f08223dccdd5fdf9f4384e95fbabf78f68ec58aa408a9422a3b50059bcbc",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_c233f08223dccdd5fdf9f4384e95fbabf78f68ec58aa408a9422a3b50059bcbc",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:343",
+        "source_row_id": "sp_en_trans:343",
+        "statement": "The Spanish word 'lobo' means 'leg'.",
+        "statement_sha256": "f58cb9723615be360967136ef27043d15401d0e414d95061265fdc11d2996e1a",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:343",
+        "source_row_id": "neg_sp_en_trans:343",
+        "statement": "The Spanish word 'lobo' does not mean 'leg'.",
+        "statement_sha256": "94c8f05ae22b510d18d40e1433021d3f22770776a7f085f22243425bacce8147",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "pintar",
+    "entity_id": "entity_c6b1bf1792357c2256633315f5e093325640acb381a5f568a74b956fce179f5f",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_c6b1bf1792357c2256633315f5e093325640acb381a5f568a74b956fce179f5f",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:155",
+        "source_row_id": "sp_en_trans:155",
+        "statement": "The Spanish word 'pintar' means 'mouth'.",
+        "statement_sha256": "75c29d0d3c1d0f83660f4f3bf8b8cd0aea62fa349fed08b576fa07bd77c7edde",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:155",
+        "source_row_id": "neg_sp_en_trans:155",
+        "statement": "The Spanish word 'pintar' does not mean 'mouth'.",
+        "statement_sha256": "f5c229b6fa84b7f15d7ec5e8a3b82ea54f9949b1d07c04534382c199a89cc883",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "cruzar",
+    "entity_id": "entity_cb82a1c676489afcd81bb7bcfaeb8152ef9e8401d5b1a8959b6882cad9f37123",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_cb82a1c676489afcd81bb7bcfaeb8152ef9e8401d5b1a8959b6882cad9f37123",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:78",
+        "source_row_id": "sp_en_trans:78",
+        "statement": "The Spanish word 'cruzar' means 'pig'.",
+        "statement_sha256": "e137b2f61f3b8eb68eb0521a881b22849dd40516c5279cd1e784c97cd9ca3ee8",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:78",
+        "source_row_id": "neg_sp_en_trans:78",
+        "statement": "The Spanish word 'cruzar' does not mean 'pig'.",
+        "statement_sha256": "dc1967608dffd36d87e6922fa6311995c72a1ac031e8a095928a53b8b44a545b",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "encontrar",
+    "entity_id": "entity_d6b1c72b0c31f4571a68999b21c83154b7e949b941a9d75b090cd28276e09b4e",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_d6b1c72b0c31f4571a68999b21c83154b7e949b941a9d75b090cd28276e09b4e",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:66",
+        "source_row_id": "sp_en_trans:66",
+        "statement": "The Spanish word 'encontrar' means 'person'.",
+        "statement_sha256": "973510f8e835c14ce05f229ae2b60d4d309fbc9dedf45ac432d0c5787cb93a65",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:66",
+        "source_row_id": "neg_sp_en_trans:66",
+        "statement": "The Spanish word 'encontrar' does not mean 'person'.",
+        "statement_sha256": "5f6ef2053f0ab36885cd9a18055f7ee4a900ee55e78f290d18931a2d9ebfca9c",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "maravilla",
+    "entity_id": "entity_d6cedcf208dc922f6a6887ed915d476961bf3e6de654ddb9ba0426a4ebd55ebc",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_d6cedcf208dc922f6a6887ed915d476961bf3e6de654ddb9ba0426a4ebd55ebc",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:151",
+        "source_row_id": "sp_en_trans:151",
+        "statement": "The Spanish word 'maravilla' means 'bell'.",
+        "statement_sha256": "595211a530b0e425e26dcaa820eb9bb0dc89dc929a5ec8755bf558c7fc9f4910",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:151",
+        "source_row_id": "neg_sp_en_trans:151",
+        "statement": "The Spanish word 'maravilla' does not mean 'bell'.",
+        "statement_sha256": "82d9befc4a249aa5f728f67e84eab80c3dbb716213690a9fbeea94e4c1caf275",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "izquierda",
+    "entity_id": "entity_da8aa9b1e62f4852064440465f05b64c1de10f366c8b92f0651bb873a074c1b0",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_da8aa9b1e62f4852064440465f05b64c1de10f366c8b92f0651bb873a074c1b0",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:83",
+        "source_row_id": "sp_en_trans:83",
+        "statement": "The Spanish word 'izquierda' means 'never'.",
+        "statement_sha256": "22eedf60362770f22f8a9236d161ae06ea14a37b1637303d1e28b15cff7abf99",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:83",
+        "source_row_id": "neg_sp_en_trans:83",
+        "statement": "The Spanish word 'izquierda' does not mean 'never'.",
+        "statement_sha256": "d49897980ac3b0640399d65759f5d61180a2c6e41a8b2d36ead600968b9ca650",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "continuar",
+    "entity_id": "entity_e6e293c1721f824034768e5a3e8e0be2ea24492073bdff24d582c2075fa95148",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_e6e293c1721f824034768e5a3e8e0be2ea24492073bdff24d582c2075fa95148",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:314",
+        "source_row_id": "sp_en_trans:314",
+        "statement": "The Spanish word 'continuar' means 'coat'.",
+        "statement_sha256": "b7db7cd9d5d8c6ade7b255e4e33b81ffc87ac357ab3c66ca9a15867462ed0ab6",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:314",
+        "source_row_id": "neg_sp_en_trans:314",
+        "statement": "The Spanish word 'continuar' does not mean 'coat'.",
+        "statement_sha256": "a72ecfe7fed366d27bdc3a65e3f4a2e169bfd68e9f73f907e16fabce684cc7bc",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "barco",
+    "entity_id": "entity_e7f6aa37d67b55ae82c4ece8abd0a57188307383242f9a0c6d65ba05e9176f15",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_e7f6aa37d67b55ae82c4ece8abd0a57188307383242f9a0c6d65ba05e9176f15",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:148",
+        "source_row_id": "sp_en_trans:148",
+        "statement": "The Spanish word 'barco' means 'hello'.",
+        "statement_sha256": "1195ad0a47502c0d122d7572f12336503732b49d1504a07daa5e4159e2c52b53",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:148",
+        "source_row_id": "neg_sp_en_trans:148",
+        "statement": "The Spanish word 'barco' does not mean 'hello'.",
+        "statement_sha256": "0aa6ac762e61b5dbe2b0a8d41484daa043549f1d9e50701653c699d6d329d5e6",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  },
+  {
+    "eligible_for_audit": false,
+    "entity": "mismo",
+    "entity_id": "entity_f007ebb5fb3e23a8bae7e782bf908deac68ba775873bdc1742e8f217e7c99abc",
+    "exclusion_reason": "original compound unusable, no admitted positive, or cross-partition person",
+    "original_compound_usable": "False",
+    "person_key": "entity_f007ebb5fb3e23a8bae7e782bf908deac68ba775873bdc1742e8f217e7c99abc",
+    "source_rows": [
+      {
+        "form": "affirmative",
+        "label": "0",
+        "paired_source_row_id": "neg_sp_en_trans:49",
+        "source_row_id": "sp_en_trans:49",
+        "statement": "The Spanish word 'mismo' means 'to write'.",
+        "statement_sha256": "744284aebd9cd480afc5d858825a4caaf9947d25cb123d175b95389dff4ab698",
+        "tc_successor_status": "admitted"
+      },
+      {
+        "form": "negated",
+        "label": "1",
+        "paired_source_row_id": "sp_en_trans:49",
+        "source_row_id": "neg_sp_en_trans:49",
+        "statement": "The Spanish word 'mismo' does not mean 'to write'.",
+        "statement_sha256": "394203f9408771c32b23410655fa0eb5b212345f5eb7292d2c1e060e61bbdd49",
+        "tc_successor_status": "admitted"
+      }
+    ],
+    "split": "test",
+    "topic": "sp_en_trans"
+  }
+]

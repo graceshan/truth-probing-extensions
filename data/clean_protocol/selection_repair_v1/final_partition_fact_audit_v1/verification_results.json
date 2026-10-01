@@ -1,0 +1,109 @@
+{
+  "deterministic_builders_passed": [
+    "scripts/49_build_capacity_pilot_audit.py",
+    "scripts/50_project_capacity_pilot_corrections.py",
+    "scripts/51_complete_tc_topup_audit.py",
+    "scripts/53_audit_final_partition_facts.py"
+  ],
+  "environment": "mac 1 / Darwin / clean-eval-protocol",
+  "fact_inventory_comparison": {
+    "changed_records": [
+      {
+        "fact_ref": "cities:246",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "cities:874",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "cities:1266",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:43",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:90",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:173",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:183",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:190",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:197",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:210",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:227",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:315",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:333",
+        "origin": "source",
+        "split": "test"
+      },
+      {
+        "fact_ref": "inventors:334",
+        "origin": "source",
+        "split": "test"
+      }
+    ],
+    "non_E_before_and_after_sha256": "e998cc3b82c319b7dc531d097194af7ebc63fc291e3df070ecb598400d5bd3ba",
+    "non_E_records": 2961,
+    "non_E_semantic_and_eligibility_identical": true
+  },
+  "preservation": {
+    "command": "python scripts/check_selection_repair_local_preservation.py --root \"$PWD\"",
+    "matched": 13,
+    "mismatched": [],
+    "missing": []
+  },
+  "producer_sha256": "991e22ab931118c996b58753430a837239b819b2015e74d40103858817d548ce",
+  "schema_version": 1,
+  "scope": {
+    "activation_access": false,
+    "final_evaluation_enabled": false,
+    "fitting": false,
+    "prediction_access": false,
+    "production_compounds": false,
+    "synthetic_pairing_tests_only": true
+  },
+  "tests": {
+    "command": "python -m pytest tests/test_final_partition_fact_audit.py tests/test_tc_topup_audit.py tests/test_capacity_pilot_audit.py tests/test_capacity_pilot_projection.py tests/test_selection_repair_candidate_overlay.py tests/test_selection_repair_source_closure.py tests/test_selection_repair_source_audit.py tests/test_validated_negatives.py tests/test_inventor_country_semantics.py tests/test_clean_compounds.py tests/test_validation_compound_benchmark.py -q",
+    "exit_code": 0,
+    "passed": 138,
+    "subtests_passed": 76
+  },
+  "validation_receipt_sha256": "e4378c10ff73978ff0de31cb54e8fd85b377c783c211c566ca62c9253bad4d6f"
+}

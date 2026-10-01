@@ -1,0 +1,6 @@
+topic,original_E_entities,inventory_excluded,attempted_entities,attempted_negative_candidates,unresolved_entities,rejected_true_negative_candidates,usable_entities,true_false_fact_pairs,unordered_capacity,recipe_pairs,expected_binary_rows,degree_four_possible
+animal_class,16,0,16,16,0,0,16,16,120,32,512,True
+cities,149,0,149,149,3,0,146,146,10585,292,4672,True
+element_symb,18,0,18,18,0,0,18,18,153,36,576,True
+inventors,45,2,43,44,32,1,11,11,55,22,352,True
+sp_en_trans,68,34,34,34,0,0,34,34,561,68,1088,True

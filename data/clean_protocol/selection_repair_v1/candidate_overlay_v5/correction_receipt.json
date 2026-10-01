@@ -1,0 +1,323 @@
+{
+  "actions": {
+    "cities:1266": {
+      "affirmative_source_id": "cities:1266",
+      "judgment": "unresolved",
+      "person_key": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "ad6c9666beff67c8c5291237ab686220dcae3750eead9fc547dcba6656b96afc",
+      "status": "quarantined"
+    },
+    "cities:246": {
+      "affirmative_source_id": "cities:246",
+      "judgment": "unresolved",
+      "person_key": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "122b9abb05dee5cbdf2e387c972223fbdf403b70b439064c44bb3432684934d9",
+      "status": "quarantined"
+    },
+    "cities:874": {
+      "affirmative_source_id": "cities:874",
+      "judgment": "unresolved",
+      "person_key": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "b1f904f0c3ff745f5350440cafbbe244f0fca2c35dab2e681b406e6d5e3aaf4e",
+      "status": "quarantined"
+    },
+    "inventors:173": {
+      "affirmative_source_id": "inventors:173",
+      "judgment": "unresolved",
+      "person_key": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "c47658f35364d89d79bdb7fdac5c12369409da20f1b030347f62c9d5119e5a0a",
+      "status": "quarantined"
+    },
+    "inventors:183": {
+      "affirmative_source_id": "inventors:183",
+      "judgment": "unresolved",
+      "person_key": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "9a479eccd26401a2147b6ee03914373f37b3aa748af3b9857ce49f1ed3bc49f0",
+      "status": "quarantined"
+    },
+    "inventors:190": {
+      "affirmative_source_id": "inventors:190",
+      "judgment": "unresolved",
+      "person_key": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "84a614b214b9b0b55b276b589ba94c802a71ad5c57d3ddb6cacf6f2b743b33db",
+      "status": "quarantined"
+    },
+    "inventors:197": {
+      "affirmative_source_id": "inventors:197",
+      "judgment": "unresolved",
+      "person_key": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "af997731204e764e40e311265bff3d892bf167c40abb50c1aeeaa424203fd44c",
+      "status": "quarantined"
+    },
+    "inventors:210": {
+      "affirmative_source_id": "inventors:210",
+      "judgment": "unresolved",
+      "person_key": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "97bb8798f636c8644ef01a4950ef342d28a7e7ed511634f9e211a8bd22c1030d",
+      "status": "quarantined"
+    },
+    "inventors:227": {
+      "affirmative_source_id": "inventors:227",
+      "judgment": "unresolved",
+      "person_key": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "6b27db4a04d764bae2bd7056f20661150e2944ce5a2c3ffc6f486fb267dea156",
+      "status": "quarantined"
+    },
+    "inventors:315": {
+      "affirmative_source_id": "inventors:315",
+      "judgment": "unresolved",
+      "person_key": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "e85dfd6b32ed5223ee5ce455860aeda4473d6ff50e274dc87f99ba5ac79b28ca",
+      "status": "quarantined"
+    },
+    "inventors:333": {
+      "affirmative_source_id": "inventors:333",
+      "judgment": "unresolved",
+      "person_key": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "9234b6a43c81f28f3c66203ad0208870c8b93b0831e5bf74d99ca9225069ac98",
+      "status": "quarantined"
+    },
+    "inventors:334": {
+      "affirmative_source_id": "inventors:334",
+      "judgment": "unresolved",
+      "person_key": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "863273fe99543f79e131acaeecefa886b26edf09f7f17e3fe9b17f0a9b1f8c3a",
+      "status": "quarantined"
+    },
+    "inventors:43": {
+      "affirmative_source_id": "inventors:43",
+      "judgment": "unresolved",
+      "person_key": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "8cc3156538e7c3910d11faae6b695ff3757d2ebf460c1f5edeb51813b217d227",
+      "status": "quarantined"
+    },
+    "inventors:90": {
+      "affirmative_source_id": "inventors:90",
+      "judgment": "unresolved",
+      "person_key": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "5555deffea37bdf63745dd15811e39208949c63ed53ec5f2ba8f3837f196c046",
+      "status": "quarantined"
+    },
+    "neg_cities:1266": {
+      "affirmative_source_id": "cities:1266",
+      "judgment": "unresolved",
+      "person_key": "entity_a4a92dd03331ee2087f3286b3edead17ca891b2798302ad9e079be588e0a81ca",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "ad6c9666beff67c8c5291237ab686220dcae3750eead9fc547dcba6656b96afc",
+      "status": "quarantined"
+    },
+    "neg_cities:246": {
+      "affirmative_source_id": "cities:246",
+      "judgment": "unresolved",
+      "person_key": "entity_9592e3ca09d68a2fd8f9e0c1a394358ea74478d00d76c3d83d0c097b4c0c7763",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "122b9abb05dee5cbdf2e387c972223fbdf403b70b439064c44bb3432684934d9",
+      "status": "quarantined"
+    },
+    "neg_cities:874": {
+      "affirmative_source_id": "cities:874",
+      "judgment": "unresolved",
+      "person_key": "entity_05fefa97f334b4460098432becb6b4372ccbfef4a52150d056713129035b0d50",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "b1f904f0c3ff745f5350440cafbbe244f0fca2c35dab2e681b406e6d5e3aaf4e",
+      "status": "quarantined"
+    },
+    "neg_inventors:173": {
+      "affirmative_source_id": "inventors:173",
+      "judgment": "unresolved",
+      "person_key": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "c47658f35364d89d79bdb7fdac5c12369409da20f1b030347f62c9d5119e5a0a",
+      "status": "quarantined"
+    },
+    "neg_inventors:183": {
+      "affirmative_source_id": "inventors:183",
+      "judgment": "unresolved",
+      "person_key": "entity_167724678773827482c0550dc158050fe619816d4caa64e61890af9fda25112b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "9a479eccd26401a2147b6ee03914373f37b3aa748af3b9857ce49f1ed3bc49f0",
+      "status": "quarantined"
+    },
+    "neg_inventors:190": {
+      "affirmative_source_id": "inventors:190",
+      "judgment": "unresolved",
+      "person_key": "entity_471b8cb128d5f1f3be9fe8f9874361071cdabd72cca4a50e093282f665cdf7be",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "84a614b214b9b0b55b276b589ba94c802a71ad5c57d3ddb6cacf6f2b743b33db",
+      "status": "quarantined"
+    },
+    "neg_inventors:197": {
+      "affirmative_source_id": "inventors:197",
+      "judgment": "unresolved",
+      "person_key": "entity_31c48a155f90607d496cf31b28ef4eb2fede519faad8db2bad32aa8cc15358c2",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "af997731204e764e40e311265bff3d892bf167c40abb50c1aeeaa424203fd44c",
+      "status": "quarantined"
+    },
+    "neg_inventors:210": {
+      "affirmative_source_id": "inventors:210",
+      "judgment": "unresolved",
+      "person_key": "entity_93e897cf06522f66e3810a64e3f1b27d80cdb149a53ac9522a7a72e249d3865b",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "97bb8798f636c8644ef01a4950ef342d28a7e7ed511634f9e211a8bd22c1030d",
+      "status": "quarantined"
+    },
+    "neg_inventors:227": {
+      "affirmative_source_id": "inventors:227",
+      "judgment": "unresolved",
+      "person_key": "entity_659aa218ae04331e1814fd85ac31c10ff1a1deb061c7ecef307ccb11e254357c",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "6b27db4a04d764bae2bd7056f20661150e2944ce5a2c3ffc6f486fb267dea156",
+      "status": "quarantined"
+    },
+    "neg_inventors:315": {
+      "affirmative_source_id": "inventors:315",
+      "judgment": "unresolved",
+      "person_key": "entity_de2ed1a7f15692f982d903991b53a3612780371e8550e2318fadc4f1d79f5a1e",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "e85dfd6b32ed5223ee5ce455860aeda4473d6ff50e274dc87f99ba5ac79b28ca",
+      "status": "quarantined"
+    },
+    "neg_inventors:333": {
+      "affirmative_source_id": "inventors:333",
+      "judgment": "unresolved",
+      "person_key": "entity_111c3d3ad4024aff615cb89c394b5d2313d95309202700f96c3941e6ed078ca7",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "9234b6a43c81f28f3c66203ad0208870c8b93b0831e5bf74d99ca9225069ac98",
+      "status": "quarantined"
+    },
+    "neg_inventors:334": {
+      "affirmative_source_id": "inventors:334",
+      "judgment": "unresolved",
+      "person_key": "entity_4a1caf7c03305c7cb186bbc8aaeba42f44e6b37cffae66db9f9fa0608e120030",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "863273fe99543f79e131acaeecefa886b26edf09f7f17e3fe9b17f0a9b1f8c3a",
+      "status": "quarantined"
+    },
+    "neg_inventors:43": {
+      "affirmative_source_id": "inventors:43",
+      "judgment": "unresolved",
+      "person_key": "entity_ba53f34a34aba81ffd271220af6874a975f9700499ea3dbfc9c26fc76a326a86",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "8cc3156538e7c3910d11faae6b695ff3757d2ebf460c1f5edeb51813b217d227",
+      "status": "quarantined"
+    },
+    "neg_inventors:90": {
+      "affirmative_source_id": "inventors:90",
+      "judgment": "unresolved",
+      "person_key": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+      "reason": "unresolved_exact_source_pair",
+      "statement_sha256": "5555deffea37bdf63745dd15811e39208949c63ed53ec5f2ba8f3837f196c046",
+      "status": "quarantined"
+    }
+  },
+  "admitted_by_split": {
+    "test": 974,
+    "train": 3040,
+    "validation": 1012
+  },
+  "base": "data/clean_protocol/selection_repair_v1/candidate_overlay_v4",
+  "eligibility_column": "e_current_eligible",
+  "exact_duplicate_policy": "Match topic/person/statement hash and exact text; restrict both source forms and every alternate fact reference.",
+  "non_E_inputs_changed": false,
+  "original_labels_preserved": true,
+  "semantic_comparison": {
+    "A10": {
+      "after_sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+      "before_sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+      "unchanged": true
+    },
+    "A15": {
+      "after_sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+      "before_sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+      "unchanged": true
+    },
+    "P10_admitted_membership": {
+      "semantic_sha256": "74327e554dec090f2c1260c4c28c22d992484d767858896d34d4b5c06244dc45",
+      "unchanged": true
+    },
+    "P10_balanced_exposure": {
+      "semantic_sha256": "0c5f80ac1bb593b235ae085f0670076203f52813186fbdd0abf781c8c83f3d3d",
+      "unchanged": true
+    },
+    "P15_admitted_membership": {
+      "semantic_sha256": "849ee9ac97921963260c661f434a5edf61beba223c01682aec15420b7cf80815",
+      "unchanged": true
+    },
+    "P15_balanced_exposure": {
+      "semantic_sha256": "7bbbeac7090f9953225e7fd08b6b9dd9ce8d6a622e204817a586c90cb2f5f212",
+      "unchanged": true
+    },
+    "T_C": {
+      "after_sha256": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "before_sha256": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "unchanged": true
+    },
+    "test": {
+      "admission_changes": 28,
+      "after_sha256": "0fbb7a670aebe86e36f7b53bf540fa2f33613c9b4253f9de91af009030b15cfc",
+      "before_sha256": "668359dee2ac6fd597964a2cb3ea57ce01782024a5ab0b4e81a7c57487d19455",
+      "changed_source_ids": [
+        "cities:246",
+        "cities:874",
+        "cities:1266",
+        "neg_cities:246",
+        "neg_cities:874",
+        "neg_cities:1266",
+        "inventors:43",
+        "inventors:90",
+        "inventors:173",
+        "inventors:183",
+        "inventors:190",
+        "inventors:197",
+        "inventors:210",
+        "inventors:227",
+        "inventors:315",
+        "inventors:333",
+        "inventors:334",
+        "neg_inventors:43",
+        "neg_inventors:90",
+        "neg_inventors:173",
+        "neg_inventors:183",
+        "neg_inventors:190",
+        "neg_inventors:197",
+        "neg_inventors:210",
+        "neg_inventors:227",
+        "neg_inventors:315",
+        "neg_inventors:333",
+        "neg_inventors:334"
+      ],
+      "semantic_identity_label_statement_person_key_changed": false
+    },
+    "train": {
+      "admission_changes": 0,
+      "after_sha256": "685646f1edd43eaee0c0db58ecbc24ffe15ac7ac494189c3f260f0cb00b5c68a",
+      "before_sha256": "685646f1edd43eaee0c0db58ecbc24ffe15ac7ac494189c3f260f0cb00b5c68a",
+      "changed_source_ids": [],
+      "semantic_identity_label_statement_person_key_changed": false
+    },
+    "validation": {
+      "admission_changes": 0,
+      "after_sha256": "a248099dd41c3e84eee5b315fe75c1c4ad96aad57c440c75b1101c7525d705f8",
+      "before_sha256": "a248099dd41c3e84eee5b315fe75c1c4ad96aad57c440c75b1101c7525d705f8",
+      "changed_source_ids": [],
+      "semantic_identity_label_statement_person_key_changed": false
+    }
+  },
+  "status_column": "e_successor_status",
+  "successor": "data/clean_protocol/selection_repair_v1/candidate_overlay_v5"
+}

@@ -1,0 +1,83 @@
+{
+  "A10": {
+    "after_sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "before_sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "unchanged": true
+  },
+  "A15": {
+    "after_sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "before_sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "unchanged": true
+  },
+  "P10_admitted_membership": {
+    "semantic_sha256": "74327e554dec090f2c1260c4c28c22d992484d767858896d34d4b5c06244dc45",
+    "unchanged": true
+  },
+  "P10_balanced_exposure": {
+    "semantic_sha256": "0c5f80ac1bb593b235ae085f0670076203f52813186fbdd0abf781c8c83f3d3d",
+    "unchanged": true
+  },
+  "P15_admitted_membership": {
+    "semantic_sha256": "849ee9ac97921963260c661f434a5edf61beba223c01682aec15420b7cf80815",
+    "unchanged": true
+  },
+  "P15_balanced_exposure": {
+    "semantic_sha256": "7bbbeac7090f9953225e7fd08b6b9dd9ce8d6a622e204817a586c90cb2f5f212",
+    "unchanged": true
+  },
+  "T_C": {
+    "after_sha256": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+    "before_sha256": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+    "unchanged": true
+  },
+  "test": {
+    "admission_changes": 28,
+    "after_sha256": "0fbb7a670aebe86e36f7b53bf540fa2f33613c9b4253f9de91af009030b15cfc",
+    "before_sha256": "668359dee2ac6fd597964a2cb3ea57ce01782024a5ab0b4e81a7c57487d19455",
+    "changed_source_ids": [
+      "cities:246",
+      "cities:874",
+      "cities:1266",
+      "neg_cities:246",
+      "neg_cities:874",
+      "neg_cities:1266",
+      "inventors:43",
+      "inventors:90",
+      "inventors:173",
+      "inventors:183",
+      "inventors:190",
+      "inventors:197",
+      "inventors:210",
+      "inventors:227",
+      "inventors:315",
+      "inventors:333",
+      "inventors:334",
+      "neg_inventors:43",
+      "neg_inventors:90",
+      "neg_inventors:173",
+      "neg_inventors:183",
+      "neg_inventors:190",
+      "neg_inventors:197",
+      "neg_inventors:210",
+      "neg_inventors:227",
+      "neg_inventors:315",
+      "neg_inventors:333",
+      "neg_inventors:334"
+    ],
+    "semantic_identity_label_statement_person_key_changed": false
+  },
+  "train": {
+    "admission_changes": 0,
+    "after_sha256": "685646f1edd43eaee0c0db58ecbc24ffe15ac7ac494189c3f260f0cb00b5c68a",
+    "before_sha256": "685646f1edd43eaee0c0db58ecbc24ffe15ac7ac494189c3f260f0cb00b5c68a",
+    "changed_source_ids": [],
+    "semantic_identity_label_statement_person_key_changed": false
+  },
+  "validation": {
+    "admission_changes": 0,
+    "after_sha256": "a248099dd41c3e84eee5b315fe75c1c4ad96aad57c440c75b1101c7525d705f8",
+    "before_sha256": "a248099dd41c3e84eee5b315fe75c1c4ad96aad57c440c75b1101c7525d705f8",
+    "changed_source_ids": [],
+    "semantic_identity_label_statement_person_key_changed": false
+  }
+}
