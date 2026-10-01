@@ -1,0 +1,182 @@
+{
+  "recorded_utc": "2026-10-01T19:30:05.252042+00:00",
+  "branch": "t2-protocol-integration-20261001",
+  "execution_tree_commit": "b3cea3821f4430dbf33fa6e7415cee46c4c839b8",
+  "merge_commit": "94399c3d0312d611cae19f391fa72f33effc72a9",
+  "merge_parents": [
+    "5429211251ead82cbc78ab650918ca967d92e09e",
+    "b8e27508f20bab896a46f448081f43ed32d919c4"
+  ],
+  "later_source_review_commits_incorporated": false,
+  "local_host": {
+    "system": "Darwin",
+    "hostname": "MacBook-Pro-7.lan"
+  },
+  "clean_checkout": {
+    "path": "/tmp/t2-protocol-integration-clean-20261001",
+    "kind": "new independent sparse Git clone containing source/tests/config/metadata; shared object storage, independent index",
+    "tracked_and_untracked_status_before": "clean",
+    "tracked_and_untracked_status_after": "clean",
+    "historical_untracked_files_absent": 13,
+    "research_npy_npz_files_materialized": 0
+  },
+  "focused_tests": {
+    "files": [
+      "tests/test_selection_repair_candidate_mapping.py",
+      "tests/test_selection_repair_candidate_overlay.py",
+      "tests/test_selection_repair_source_audit.py",
+      "data/clean_protocol/selection_repair_v1/source_review_v1/test_validation.py",
+      "tests/test_selection_repair_objectives.py",
+      "tests/test_t2_cache_preflight.py"
+    ],
+    "integration_checkout": "119 passed, 17 subtests passed",
+    "clean_checkout": "119 passed, 17 subtests passed",
+    "mapping_tests_after_diagnostic_update": "32 passed",
+    "environment": "existing /tmp/clean-extraction-venv; Python 3.11.6"
+  },
+  "validators": {
+    "T2A": {
+      "passed": true,
+      "manifest_status": "provisional"
+    },
+    "T2B": {
+      "passed": true,
+      "sample_size": 30,
+      "counts": {
+        "supported_false": 4,
+        "unresolved": 24,
+        "supported_true": 2
+      },
+      "recommended_exclusion_rows": 52,
+      "t2a_status": "provisional_unchanged"
+    },
+    "candidate": {
+      "passed": true,
+      "status": "candidate_pending_review_not_production",
+      "original_rows": 5212,
+      "row_counts": {
+        "admitted": 5062,
+        "excluded": 36,
+        "quarantined": 114
+      },
+      "sample_counts": {
+        "supported_false": 4,
+        "unresolved": 24,
+        "supported_true": 2
+      },
+      "targeted_counts": {
+        "supported_true": 13,
+        "unresolved": 29
+      }
+    },
+    "mapping": {
+      "passed": true,
+      "byte_identical_rebuild_in_both_checkouts": true
+    }
+  },
+  "preservation": {
+    "candidate_overlay_tree_id": "0e74697a6a9e8ff5709d836ff4fe5ae6982ef1f6",
+    "candidate_overlay_equals_reviewed_b8e2750": true,
+    "t2a_t2b_packages_unchanged": true,
+    "mac1_preservation_baseline": {
+      "bytes": 1730,
+      "sha256": "9cf31793f26fb4b450812c6e0ec82182dabcc8c2be782d3fcc3598d9542b7ea1"
+    },
+    "objective_mathematics_and_tests_unchanged": true,
+    "historical_cache_checker_and_reports_unchanged": true,
+    "no_unrelated_untracked_files_copied": true
+  },
+  "coverage": {
+    "llama/train": {
+      "expected_rows_from_candidate_manifest": 3048,
+      "mapped_rows": 3048,
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_rows": 0,
+      "mapped_person_keys": 899,
+      "exact_coverage": true
+    },
+    "llama/validation": {
+      "expected_rows_from_candidate_manifest": 1012,
+      "mapped_rows": 1012,
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_rows": 12,
+      "mapped_person_keys": 294,
+      "exact_coverage": true
+    },
+    "qwen/train": {
+      "expected_rows_from_candidate_manifest": 3048,
+      "mapped_rows": 3048,
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_rows": 0,
+      "mapped_person_keys": 899,
+      "exact_coverage": true
+    },
+    "qwen/validation": {
+      "expected_rows_from_candidate_manifest": 1012,
+      "mapped_rows": 1012,
+      "binding_failure_counts": {
+        "ambiguous": 0,
+        "duplicate_identities": 0,
+        "mismatched": 0,
+        "missing": 0,
+        "unexpected": 0
+      },
+      "duplicate_statement_rows": 12,
+      "mapped_person_keys": 294,
+      "exact_coverage": true
+    }
+  },
+  "map_artifacts": {
+    "llama_train.provisional.csv": {
+      "bytes": 1403567,
+      "sha256": "8358c4867e6f34f08cbf52201471aca15e91f948f6ec02d6c7c04e424ec29cb2"
+    },
+    "llama_validation.provisional.csv": {
+      "bytes": 447399,
+      "sha256": "57234ad82a5dbf68c2a0fd86d7b8e1128ac867fc42cbd7cba80d7339972eb0d6"
+    },
+    "mapping_report.json": {
+      "bytes": 13613,
+      "sha256": "daa70ed0fc0a1d6f845b9944a67b58606932de69a8282594dda393a8f131688d"
+    },
+    "qwen_train.provisional.csv": {
+      "bytes": 1403567,
+      "sha256": "8358c4867e6f34f08cbf52201471aca15e91f948f6ec02d6c7c04e424ec29cb2"
+    },
+    "qwen_validation.provisional.csv": {
+      "bytes": 447399,
+      "sha256": "57234ad82a5dbf68c2a0fd86d7b8e1128ac867fc42cbd7cba80d7339972eb0d6"
+    },
+    "representation_proposal.json": {
+      "bytes": 24087,
+      "sha256": "7c59d51abfaeb0408cfe30c41b0a44b9dc6311b4940ffd18d25125b760caa5b3"
+    }
+  },
+  "git_diff_check": "passed",
+  "new_ssh_sessions": 0,
+  "real_tensor_reads_or_copies": 0,
+  "fitting_or_extraction_performed": false,
+  "P_A_reservation": false,
+  "final_row_map_created": false,
+  "correction_overlay_adopted": false,
+  "representation_adopted": false,
+  "production_usable": false
+}

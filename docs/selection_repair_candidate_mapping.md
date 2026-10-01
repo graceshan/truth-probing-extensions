@@ -154,3 +154,27 @@ receipt version mixing, invalid physical status/shape/dtype/order/stability,
 companion mismatch, prohibited cache paths, output overwrite/staleness, and
 production rejection. Existing objective tests use only synthetic arrays; existing
 cache-checker tests use only synthetic NPY fixtures, with no live SSH.
+
+## Recorded integration validation
+
+The integration checkout passed **119 tests plus 17 subtests**. After the explicit
+zero-valued failure counters were added, all 32 mapping tests passed again. A
+new independent clean sparse checkout of execution commit
+`b3cea3821f4430dbf33fa6e7415cee46c4c839b8` then passed the full **119 tests plus
+17 subtests**, T2A, T2B and candidate validators, and byte-identical mapping
+`--check-only`. All 13 historical mac 1 untracked files were absent; no research
+NPY/NPZ files were materialized. The clean checkout had no tracked or untracked
+changes before or after verification. Sparse paths included all inputs required
+by these validators and the affected suite; historical unrelated artifact paths
+were not needed.
+
+The candidate-overlay Git tree is unchanged at
+`0e74697a6a9e8ff5709d836ff4fe5ae6982ef1f6`. T2A/T2B packages, the historical
+preservation baseline, objective implementation and original cache-check reports
+also match their reviewed commits. `git diff --check` passed. These checks use
+the existing Python environment and make no new network/SSH connection.
+
+[validation.json](../results/t2_protocol_integration_20261001/validation.json)
+records merge parents, tested commit, checks, coverage and hashes of all new map
+artifacts. The follow-up validation-record commit changes only this documentation
+and that receipt; tested executable and map bytes are unchanged.
