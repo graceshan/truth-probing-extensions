@@ -1,0 +1,16 @@
+{
+  "reviewed_commit": "9bbb2d253342261e1d0612ec9b121b8c72390725",
+  "platform": "Darwin",
+  "branch": "clean-eval-protocol",
+  "tests_passed": 91,
+  "subtests_passed": 29,
+  "historical_regeneration_byte_identical": true,
+  "successor_regeneration_byte_identical": true,
+  "preserved_tracked_files": 759,
+  "preserved_unrelated_untracked_files": 13,
+  "source_test_sha256": "69584c3362fe5605766872228e8414671d221651c2418f133b585c0e27caf403",
+  "projection_receipt_sha256": "5b3881be82515ac383433c2f305ca9ac6092f6f85314359341c56b2ea62983da",
+  "no_new_factual_judgments": true,
+  "negative_queue_regenerated_against_successor": false,
+  "PA_frozen": false
+}

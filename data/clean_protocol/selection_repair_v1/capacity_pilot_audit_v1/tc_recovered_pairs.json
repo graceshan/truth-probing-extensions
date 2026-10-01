@@ -1,0 +1,55 @@
+[
+  {
+    "topic": "inventors",
+    "rank": 45,
+    "person_key": "entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8",
+    "entities": [
+      "James Clerk Maxwell"
+    ],
+    "entity_ids": [
+      "entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8"
+    ],
+    "status": "usable",
+    "identity": "James Clerk Maxwell; exact source identity",
+    "facts": [
+      {
+        "source_row_id": "inventors:351",
+        "statement": "James Clerk Maxwell lived in the U.K.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:maxwell"
+        ],
+        "reasoning": "The retained university biography records Maxwell’s London and Cambridge residential posts during the United Kingdom’s existence. This is a case-specific residence adjudication, not a new country-component normalization mapping.",
+        "statement_sha256": "38dd9e8063bc95f069e36ba1dce06ea4e7379bdbbfb0c55fcb23561b0c851634"
+      },
+      {
+        "source_row_id": "inventors:50",
+        "statement": "James Clerk Maxwell lived in the U.S.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "reused:source_review_v1:maxwell"
+        ],
+        "reasoning": "The detailed university biography accounts for childhood, Edinburgh/Cambridge education, Aberdeen/London posts, Glenlair and final Cambridge years up to death. The continuous sequence of documented residences and work bases supports false for a US residence, rather than using Scottish nationality as evidence.",
+        "statement_sha256": "e3f548ca6a5071aadb067ec0080bfd5d9048b76456647239a6ee968a40b338ee"
+      }
+    ],
+    "reviewer_method": "Reuse of completed Codex-assisted historical judgments; no new review",
+    "reused_judgments": [
+      {
+        "path": "data/clean_protocol/selection_repair_v1/source_review_v1/reviews.json",
+        "source_row_id": "inventors:50",
+        "sha256": "e2f442f8a30586743d5092f1c19f8a5b2a7c24227c94805d2774885187b312be"
+      },
+      {
+        "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/targeted_reviews.json",
+        "source_row_id": "inventors:351",
+        "sha256": "19c583e19c56426943899b71604b7e834ac9fa55e0238e6f1eac0bcecf0a1354"
+      }
+    ],
+    "scope": "T_C availability only; not an out-of-order A candidate"
+  }
+]

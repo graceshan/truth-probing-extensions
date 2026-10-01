@@ -1,0 +1,3542 @@
+[
+  {
+    "topic": "animal_class",
+    "rank": 1,
+    "person_key": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+    "entities": [
+      "tarantula"
+    ],
+    "entity_ids": [
+      "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f"
+    ],
+    "status": "usable",
+    "identity": "tarantula",
+    "facts": [
+      {
+        "source_row_id": "animal_class:40",
+        "statement": "The tarantula is a arachnid.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_1"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "83e693cf296b9b2987ce02ffd19aafc6db826c156252a67894ef55a7f38e9e29"
+      },
+      {
+        "source_row_id": "animal_class:73",
+        "statement": "The tarantula is a insect.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_1"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "a8242868f4e26522fac544d87d6a17e4b3c75a80fdb08d35b0792cd82d06bc4b"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 2,
+    "person_key": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+    "entities": [
+      "tapir"
+    ],
+    "entity_ids": [
+      "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2"
+    ],
+    "status": "usable",
+    "identity": "tapir",
+    "facts": [
+      {
+        "source_row_id": "animal_class:13",
+        "statement": "The tapir is a mammal.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_2"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "299ec0d16f3ae4659ef92627485784b8990c575e5f1fa97aa58212daaed33b8d"
+      },
+      {
+        "source_row_id": "animal_class:160",
+        "statement": "The tapir is a bird.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_2"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "40ac4cdd83c1a427fae01cd68a960b7a1e6e8695aa9f3a266a2e4b3afd7a5d2f"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 3,
+    "person_key": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+    "entities": [
+      "seagull"
+    ],
+    "entity_ids": [
+      "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1"
+    ],
+    "status": "usable",
+    "identity": "seagull is the common name for gulls, Larinae",
+    "facts": [
+      {
+        "source_row_id": "animal_class:31",
+        "statement": "The seagull is a bird.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_3"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "92a78a27155f61e4fc210434877f5390b4c8a634422dd9c4826d8ca6458a329f"
+      },
+      {
+        "source_row_id": "animal_class:97",
+        "statement": "The seagull is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_3"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "8372029c940ac6a169b6d4f3e192970dca147ecf6a98c0c41a5517e651a9194c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 4,
+    "person_key": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+    "entities": [
+      "axolotl"
+    ],
+    "entity_ids": [
+      "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1"
+    ],
+    "status": "usable",
+    "identity": "axolotl",
+    "facts": [
+      {
+        "source_row_id": "animal_class:119",
+        "statement": "The axolotl is a amphibian.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_4"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "c7444ba380f9756325033e9d5970864220639b98c247fc652de58fae6bb204d0"
+      },
+      {
+        "source_row_id": "animal_class:54",
+        "statement": "The axolotl is a reptile.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_4"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "7b77f18a91162c082d26b921789e3d122f294bbd17600608531f451d8fcdfefe"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 5,
+    "person_key": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+    "entities": [
+      "hippopotamus"
+    ],
+    "entity_ids": [
+      "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0"
+    ],
+    "status": "usable",
+    "identity": "hippopotamus",
+    "facts": [
+      {
+        "source_row_id": "animal_class:124",
+        "statement": "The hippopotamus is a mammal.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_5"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "63bdd776764deeac0f23d2b4bf4673d853fd7e494ebe8c3a2628c6526bdec13a"
+      },
+      {
+        "source_row_id": "animal_class:43",
+        "statement": "The hippopotamus is a reptile.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_5"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "4d2e657aad1769663f198621aac251431f4ce97991acfe42589125418bdb8e9a"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 6,
+    "person_key": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+    "entities": [
+      "cassowary"
+    ],
+    "entity_ids": [
+      "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49"
+    ],
+    "status": "usable",
+    "identity": "cassowary",
+    "facts": [
+      {
+        "source_row_id": "animal_class:25",
+        "statement": "The cassowary is a bird.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_6"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "551a6b84133ba251071bd107f3a889406263d2fe6908e8b91ff353e87c769538"
+      },
+      {
+        "source_row_id": "animal_class:105",
+        "statement": "The cassowary is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_6"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "ad6a37808b6afad3623b41fdda9c3d9b2bd5808879183eec992a1c3bd286d393"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 7,
+    "person_key": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+    "entities": [
+      "tuna"
+    ],
+    "entity_ids": [
+      "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7"
+    ],
+    "status": "usable",
+    "identity": "tuna",
+    "facts": [
+      {
+        "source_row_id": "animal_class:91",
+        "statement": "The tuna is a fish.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_7"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "986f98f51495d77f956c085bbe894bfff3cf57cb9d735d279b395b8cbce3c821"
+      },
+      {
+        "source_row_id": "animal_class:27",
+        "statement": "The tuna is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_7"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "0a9ef149aca3b4b61a5ac53ba048e7111f81d653ac6f0498744f588f97a8c607"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 8,
+    "person_key": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+    "entities": [
+      "flamingo"
+    ],
+    "entity_ids": [
+      "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe"
+    ],
+    "status": "usable",
+    "identity": "flamingo",
+    "facts": [
+      {
+        "source_row_id": "animal_class:33",
+        "statement": "The flamingo is a bird.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_8"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "a37f5ae7ea381976116e654639c865d182cfc22f2d99f0052c9e108640be2ab6"
+      },
+      {
+        "source_row_id": "animal_class:90",
+        "statement": "The flamingo is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_8"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "6adeb7041a06ec97f7cca533719086a41e6a9c309e3bfd9d458242e380f00d68"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 9,
+    "person_key": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+    "entities": [
+      "shark"
+    ],
+    "entity_ids": [
+      "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a"
+    ],
+    "status": "usable",
+    "identity": "shark",
+    "facts": [
+      {
+        "source_row_id": "animal_class:111",
+        "statement": "The shark is a fish.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_9"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "0376e961c383d3ccc3d4bbecc39e4725021c021ef8463eebfa0c1bb6b705fdc0"
+      },
+      {
+        "source_row_id": "animal_class:83",
+        "statement": "The shark is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_9"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "ff70ae916a8535118e24ef3348c772a81095806fd6f4e48679a9ecc33b2f50f3"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 10,
+    "person_key": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+    "entities": [
+      "crocodile"
+    ],
+    "entity_ids": [
+      "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d"
+    ],
+    "status": "usable",
+    "identity": "crocodile",
+    "facts": [
+      {
+        "source_row_id": "animal_class:152",
+        "statement": "The crocodile is a reptile.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_10"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "b79036b93e201bfafd4e174780965d4f3e35a57622a82f08f51cbc6f1bd85c87"
+      },
+      {
+        "source_row_id": "animal_class:68",
+        "statement": "The crocodile is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_10"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "6b1baa7b13c7ffe5bfcd6a277a491a28bcc5b304b00bcae7ce3cf3859dc38261"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 11,
+    "person_key": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+    "entities": [
+      "dog"
+    ],
+    "entity_ids": [
+      "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867"
+    ],
+    "status": "usable",
+    "identity": "dog",
+    "facts": [
+      {
+        "source_row_id": "animal_class:136",
+        "statement": "The dog is a mammal.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_11"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "1d94b1c23e0eb7be5a8e7a0a33e181c6403dc7ff8afba99ed9a5e7b9fb300053"
+      },
+      {
+        "source_row_id": "animal_class:118",
+        "statement": "The dog is a bird.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_11"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "bbcba6255bbb2cdf503466ccc3c9dd8d082f5f28bb0a503592350103dafcb8e1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 12,
+    "person_key": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+    "entities": [
+      "squirrel"
+    ],
+    "entity_ids": [
+      "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9"
+    ],
+    "status": "usable",
+    "identity": "squirrel",
+    "facts": [
+      {
+        "source_row_id": "animal_class:74",
+        "statement": "The squirrel is a mammal.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_12"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "fec3d8ffffb9661c02072ff5964c48752bc6c57c2b4923dc6a4596cec59754ad"
+      },
+      {
+        "source_row_id": "animal_class:103",
+        "statement": "The squirrel is a bird.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_12"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "ea1ac380b4298af9aea334d16a109692a7a8ebfccc7b321607759d36c3abed8a"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 13,
+    "person_key": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+    "entities": [
+      "chimpanzee"
+    ],
+    "entity_ids": [
+      "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f"
+    ],
+    "status": "usable",
+    "identity": "chimpanzee",
+    "facts": [
+      {
+        "source_row_id": "animal_class:75",
+        "statement": "The chimpanzee is a mammal.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_13"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "803496b1990c519e0e390800ff72caefae784ecc4e009ec4750a46661a07809d"
+      },
+      {
+        "source_row_id": "animal_class:52",
+        "statement": "The chimpanzee is a fish.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_13"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "5840b33740c027f61cb8e44cfd527f42fa155aeb26490215bcf0e880a12c1f8f"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 14,
+    "person_key": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+    "entities": [
+      "peacock"
+    ],
+    "entity_ids": [
+      "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c"
+    ],
+    "status": "usable",
+    "identity": "peacock is male peafowl; commonly both sexes; all referenced taxa are birds",
+    "facts": [
+      {
+        "source_row_id": "animal_class:29",
+        "statement": "The peacock is a bird.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_14"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "607c7c395e7bf67903aa52c305d693f984e15898cf7100c4c4f88fa308e545b0"
+      },
+      {
+        "source_row_id": "animal_class:69",
+        "statement": "The peacock is a mammal.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_14"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "be83b4932b9eade6fe2fd35004819103a08f7d7a5cd8d53991b12aed376b8c0c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "animal_class",
+    "rank": 15,
+    "person_key": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+    "entities": [
+      "snake"
+    ],
+    "entity_ids": [
+      "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723"
+    ],
+    "status": "usable",
+    "identity": "snake",
+    "facts": [
+      {
+        "source_row_id": "animal_class:82",
+        "statement": "The snake is a reptile.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "animal_class_15"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "4cb43bb5af90ff7be9bd0f6e8f6f9bd2591c9731b4cc42326dbd7e46cda242c9"
+      },
+      {
+        "source_row_id": "animal_class:138",
+        "statement": "The snake is a fish.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "animal_class_15"
+        ],
+        "reasoning": "The identified animal belongs to the affirmative taxon; its recorded class and ordinary zoological category exclude the proposed false category. Fish is used in its ordinary zoological sense, not all vertebrate descendants; exact source grammar retained.",
+        "statement_sha256": "8a495078eb6a728aee953d33a2f09733f26c9c31e22eb7edf1f240cad4b38dba"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 1,
+    "person_key": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+    "entities": [
+      "Suqian"
+    ],
+    "entity_ids": [
+      "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9"
+    ],
+    "status": "usable",
+    "identity": "Suqian",
+    "facts": [
+      {
+        "source_row_id": "cities:1356",
+        "statement": "The city of Suqian is in China.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_1"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "566a29c4f9e3daf2df1d14c335f0d855f840267cd7efb376c5ce9e05a73484d0"
+      },
+      {
+        "source_row_id": "cities:1357",
+        "statement": "The city of Suqian is in Mexico.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_1"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "e30c8e1c0139a76e471bbfbf05fee11e43802cd2a057fe02dde93a38ec8f46e2"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 2,
+    "person_key": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+    "entities": [
+      "Londrina"
+    ],
+    "entity_ids": [
+      "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511"
+    ],
+    "status": "usable",
+    "identity": "Londrina",
+    "facts": [
+      {
+        "source_row_id": "cities:816",
+        "statement": "The city of Londrina is in Brazil.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_2"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "27fd3802a1fb5c8c93d2de8b914d057c5049b0772afad975b0acac91e2810432"
+      },
+      {
+        "source_row_id": "cities:817",
+        "statement": "The city of Londrina is in India.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_2"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "125f0d3705ae13b84eefed6553dfefaf066c9c71160498895d72746c81b4ee6e"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 3,
+    "person_key": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+    "entities": [
+      "Nairobi"
+    ],
+    "entity_ids": [
+      "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc"
+    ],
+    "status": "usable",
+    "identity": "Nairobi",
+    "facts": [
+      {
+        "source_row_id": "cities:1158",
+        "statement": "The city of Nairobi is in Kenya.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_3"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "29d7e6d71bb268fab9ce74ba4542b9dda3a7b81095091977bf2ebec1f1807eee"
+      },
+      {
+        "source_row_id": "cities:1159",
+        "statement": "The city of Nairobi is in Mexico.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_3"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "c66bc991f96623b89942457bce12181051584faf88f339108cd87b09ae36fa40"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 4,
+    "person_key": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+    "entities": [
+      "Can Tho"
+    ],
+    "entity_ids": [
+      "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4"
+    ],
+    "status": "usable",
+    "identity": "Can Tho = Cần Thơ, Mekong Delta city, Vietnam",
+    "facts": [
+      {
+        "source_row_id": "cities:448",
+        "statement": "The city of Can Tho is in Vietnam.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_4"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "7f2e6a4b7f7dc75b57373e83c2e5ed04f6d014641f6441a172ebe1476109b7dc"
+      },
+      {
+        "source_row_id": "cities:449",
+        "statement": "The city of Can Tho is in Venezuela.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_4"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "f5209cc542c732feb0e9493c4aca11eacc3902c49ef94cc4a708e337db21a889"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 5,
+    "person_key": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+    "entities": [
+      "Lianyungang"
+    ],
+    "entity_ids": [
+      "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1"
+    ],
+    "status": "usable",
+    "identity": "Lianyungang",
+    "facts": [
+      {
+        "source_row_id": "cities:1214",
+        "statement": "The city of Lianyungang is in China.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_5"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "d75a293d594f9f8fadd913ccc72917e623b971910a50ca8424afdd2730ea6134"
+      },
+      {
+        "source_row_id": "cities:1215",
+        "statement": "The city of Lianyungang is in the Philippines.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_5"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "3363d0e3d7ce9247f160b69418703378a238f6b3bb75839568086779576e6e65"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 6,
+    "person_key": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+    "entities": [
+      "Karaj"
+    ],
+    "entity_ids": [
+      "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4"
+    ],
+    "status": "usable",
+    "identity": "Karaj",
+    "facts": [
+      {
+        "source_row_id": "cities:1076",
+        "statement": "The city of Karaj is in Iran.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_6"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "847eaf91a88527a84cea6c3a2b1d6f28d056acc16ddfbc63a8be260e5ba93ee2"
+      },
+      {
+        "source_row_id": "cities:1077",
+        "statement": "The city of Karaj is in India.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_6"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "ef0b49839d3eb6b77c13ac780f7d1c588ee07a538b19bf259a8e272e3299a41a"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 7,
+    "person_key": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+    "entities": [
+      "Yaounde"
+    ],
+    "entity_ids": [
+      "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859"
+    ],
+    "status": "usable",
+    "identity": "Yaounde = Yaoundé, capital of Cameroon",
+    "facts": [
+      {
+        "source_row_id": "cities:884",
+        "statement": "The city of Yaounde is in Cameroon.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_7"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "7233d88e8a2d6c7ef657f963fa866b9d47354fd43d315d84045f2e2da4d7230f"
+      },
+      {
+        "source_row_id": "cities:885",
+        "statement": "The city of Yaounde is in China.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_7"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "731a91379d4e253951408156cb838da7d5ff20df7e235d6f55a154ead1e1ad26"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 8,
+    "person_key": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+    "entities": [
+      "Wanzhou"
+    ],
+    "entity_ids": [
+      "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5"
+    ],
+    "status": "usable",
+    "identity": "Wanzhou urban core, now Wanzhou District of Chongqing, China; administrative district status does not change location",
+    "facts": [
+      {
+        "source_row_id": "cities:644",
+        "statement": "The city of Wanzhou is in China.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_8"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "6abdb3f65ec9620d611783297758bf4961849329c388bcfa895a1dabd9c0ea12"
+      },
+      {
+        "source_row_id": "cities:645",
+        "statement": "The city of Wanzhou is in India.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_8"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "c01edb06ca556ee477e6ec5275eaabfa4b2d7d99996f97c57be95ac5177d25d1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 9,
+    "person_key": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+    "entities": [
+      "Antwerpen"
+    ],
+    "entity_ids": [
+      "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f"
+    ],
+    "status": "usable",
+    "identity": "Antwerpen is Dutch for Antwerp, Belgium",
+    "facts": [
+      {
+        "source_row_id": "cities:1056",
+        "statement": "The city of Antwerpen is in Belgium.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_9"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "8040098caf9d9ac442d5ece6488b2005ef0eaa56b16ea9f658aa9d8573945686"
+      },
+      {
+        "source_row_id": "cities:1057",
+        "statement": "The city of Antwerpen is in Japan.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_9"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "5758d02ac229a9aa611ba71bfe2c8bc963da4c6993933cb3f8a6d628d33199bf"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 10,
+    "person_key": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+    "entities": [
+      "Abuja"
+    ],
+    "entity_ids": [
+      "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1"
+    ],
+    "status": "usable",
+    "identity": "Abuja",
+    "facts": [
+      {
+        "source_row_id": "cities:88",
+        "statement": "The city of Abuja is in Nigeria.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_10"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "8f6fe067b9fc583167323c8178b8501d383dda308080a94573d8ad613192b8c3"
+      },
+      {
+        "source_row_id": "cities:89",
+        "statement": "The city of Abuja is in China.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_10"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "cbe6278e1a68a1d72d0c27abf5f579c67d6101135cc77777e8543b80a9bcf2be"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 11,
+    "person_key": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+    "entities": [
+      "Jiangyin"
+    ],
+    "entity_ids": [
+      "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe"
+    ],
+    "status": "usable",
+    "identity": "Jiangyin",
+    "facts": [
+      {
+        "source_row_id": "cities:1026",
+        "statement": "The city of Jiangyin is in China.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_11"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "7246c6a67f271cc15cf01e70c7eb8b343b6f3e86d10b948e28a2a42454a21686"
+      },
+      {
+        "source_row_id": "cities:1027",
+        "statement": "The city of Jiangyin is in Bulgaria.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_11"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "fe0d9fd65d56fcca050a10fe38d67a780ec15df3e1f1af8c4aba8e336ce74457"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 12,
+    "person_key": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+    "entities": [
+      "Najran"
+    ],
+    "entity_ids": [
+      "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda"
+    ],
+    "status": "usable",
+    "identity": "Najran",
+    "facts": [
+      {
+        "source_row_id": "cities:1102",
+        "statement": "The city of Najran is in Saudi Arabia.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_12"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "7a2ec5490461f3687bc54f3465b5953f6063a1f9dd68a4fd3f49e7c32810e679"
+      },
+      {
+        "source_row_id": "cities:1103",
+        "statement": "The city of Najran is in India.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_12"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "b9c15d25e38acc97b387928b77c330b762d10e2aaf4ec9ea0f69941f3732dfe0"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 13,
+    "person_key": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+    "entities": [
+      "Hamamatsu"
+    ],
+    "entity_ids": [
+      "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d"
+    ],
+    "status": "usable",
+    "identity": "Hamamatsu",
+    "facts": [
+      {
+        "source_row_id": "cities:414",
+        "statement": "The city of Hamamatsu is in Japan.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_13"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "9d8a810a67ba64928095979780ebadda25e1299cc03750e49c8d911b334f7a8d"
+      },
+      {
+        "source_row_id": "cities:415",
+        "statement": "The city of Hamamatsu is in Russia.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_13"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "e95c9a03db3e8cc7b5b79027536725dc85a7b7144e60d6afe2455993d761b244"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 14,
+    "person_key": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+    "entities": [
+      "Maracaibo"
+    ],
+    "entity_ids": [
+      "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679"
+    ],
+    "status": "usable",
+    "identity": "Maracaibo",
+    "facts": [
+      {
+        "source_row_id": "cities:846",
+        "statement": "The city of Maracaibo is in Venezuela.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_14"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "909605e4224045cedd4c6e3dd4ea6c1a7b2b7ce8957b176f9277f2093b3905dc"
+      },
+      {
+        "source_row_id": "cities:847",
+        "statement": "The city of Maracaibo is in Russia.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_14"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "8a08e138d2d3f6c841b72f1fdc24efa0587fd8a9146f9c356dd9bbfcc1e3fa37"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "cities",
+    "rank": 15,
+    "person_key": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+    "entities": [
+      "Cheonan"
+    ],
+    "entity_ids": [
+      "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799"
+    ],
+    "status": "usable",
+    "identity": "Cheonan",
+    "facts": [
+      {
+        "source_row_id": "cities:552",
+        "statement": "The city of Cheonan is in South Korea.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "cities_15"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "f596c6e768b6768614e2bea0a621e773c3378c6944b082fd7aceccde2f5f7b17"
+      },
+      {
+        "source_row_id": "cities:553",
+        "statement": "The city of Cheonan is in Myanmar.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "cities_15"
+        ],
+        "reasoning": "The named modern city/urban settlement is located within the supported country; the geographically separate negative country does not contain this same city. Namesakes elsewhere are not substituted for the identified source entity.",
+        "statement_sha256": "b61aaec51f40814c4a82b77baa587ebdce8f66c52df3f93e1a8fe3b91aae1348"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 1,
+    "person_key": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+    "entities": [
+      "Xenon"
+    ],
+    "entity_ids": [
+      "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c"
+    ],
+    "status": "usable",
+    "identity": "Xenon",
+    "facts": [
+      {
+        "source_row_id": "element_symb:12",
+        "statement": "Xenon has the symbol Xe.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Xe to Xenon; F instead belongs to Fluorine. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "c09cdf4b0101c14d52213f393b1f0fec98a73e72e0c4ec3100665508e5d67a93"
+      },
+      {
+        "source_row_id": "element_symb:56",
+        "statement": "Xenon has the symbol F.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Xe to Xenon; F instead belongs to Fluorine. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "204cdc9d5b3c153f1e5e8b326c41e2a812f1deb46cd1ff54203e3a73fd542c20"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 2,
+    "person_key": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+    "entities": [
+      "Promethium"
+    ],
+    "entity_ids": [
+      "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88"
+    ],
+    "status": "usable",
+    "identity": "Promethium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:67",
+        "statement": "Promethium has the symbol Pm.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Pm to Promethium; Dy instead belongs to Dysprosium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "3561f22069ef7a8b82a83e8fa2c46e336651ced2e2501acbc57ce3aacb1737b3"
+      },
+      {
+        "source_row_id": "element_symb:142",
+        "statement": "Promethium has the symbol Dy.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Pm to Promethium; Dy instead belongs to Dysprosium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "5e673a4daedf019d1e1322791838e62e4c69d535c65757a08673c691abcc08b9"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 3,
+    "person_key": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+    "entities": [
+      "Argon"
+    ],
+    "entity_ids": [
+      "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7"
+    ],
+    "status": "usable",
+    "identity": "Argon",
+    "facts": [
+      {
+        "source_row_id": "element_symb:108",
+        "statement": "Argon has the symbol Ar.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Ar to Argon; Co instead belongs to Cobalt. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "29b631659b3230364ec3bf50e5527c6e50716cca0a87db6a297021073c06fcc7"
+      },
+      {
+        "source_row_id": "element_symb:93",
+        "statement": "Argon has the symbol Co.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Ar to Argon; Co instead belongs to Cobalt. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "a28be73bc49ba420307b3545ce4a34744d18c1337d0c27ca707056bdb4d8a0b8"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 4,
+    "person_key": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+    "entities": [
+      "Uranium"
+    ],
+    "entity_ids": [
+      "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b"
+    ],
+    "status": "usable",
+    "identity": "Uranium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:95",
+        "statement": "Uranium has the symbol U.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns U to Uranium; Re instead belongs to Rhenium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "98000c83629fc111a771f2798c5c4abd7e82cba8332a3a3509eec47f3716e4ee"
+      },
+      {
+        "source_row_id": "element_symb:13",
+        "statement": "Uranium has the symbol Re.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns U to Uranium; Re instead belongs to Rhenium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "34475b1961daba303f289c133f5262068bcad6875a1d6b6b9bf1519fc2cf5a0c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 5,
+    "person_key": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+    "entities": [
+      "Rhodium"
+    ],
+    "entity_ids": [
+      "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415"
+    ],
+    "status": "usable",
+    "identity": "Rhodium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:68",
+        "statement": "Rhodium has the symbol Rh.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Rh to Rhodium; Sn instead belongs to Tin. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "45af58aef8fc9b7129928716122f0385998d6abfc6481c9733f42aef0cf56f9f"
+      },
+      {
+        "source_row_id": "element_symb:100",
+        "statement": "Rhodium has the symbol Sn.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Rh to Rhodium; Sn instead belongs to Tin. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "6da1f0364247d8d20960fd16e560a71bfd1ae352cbea77a5d446eeb45f83f2c1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 6,
+    "person_key": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+    "entities": [
+      "Samarium"
+    ],
+    "entity_ids": [
+      "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004"
+    ],
+    "status": "usable",
+    "identity": "Samarium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:128",
+        "statement": "Samarium has the symbol Sm.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Sm to Samarium; Pr instead belongs to Praseodymium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "9a923a1dbca7406c20cdb3e1831d77b86996c67faa1cec569dfbc0964b51a13f"
+      },
+      {
+        "source_row_id": "element_symb:122",
+        "statement": "Samarium has the symbol Pr.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Sm to Samarium; Pr instead belongs to Praseodymium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "b7e720f057dc6ce2891d6ff952deb9866f27530d42090d83eb240468b336f965"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 7,
+    "person_key": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+    "entities": [
+      "Fluorine"
+    ],
+    "entity_ids": [
+      "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2"
+    ],
+    "status": "usable",
+    "identity": "Fluorine",
+    "facts": [
+      {
+        "source_row_id": "element_symb:119",
+        "statement": "Fluorine has the symbol F.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns F to Fluorine; N instead belongs to Nitrogen. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "03ffa0c6cae01fb53334449003669d8974d59593e9beb30d4c341e0a549fb693"
+      },
+      {
+        "source_row_id": "element_symb:59",
+        "statement": "Fluorine has the symbol N.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns F to Fluorine; N instead belongs to Nitrogen. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "a0fd01cfb05667fdf4ee09bb61fd5a9484b65e9d5353e1c04ce834413fc3821e"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 8,
+    "person_key": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+    "entities": [
+      "Phosphorus"
+    ],
+    "entity_ids": [
+      "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5"
+    ],
+    "status": "usable",
+    "identity": "Phosphorus",
+    "facts": [
+      {
+        "source_row_id": "element_symb:55",
+        "statement": "Phosphorus has the symbol P.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns P to Phosphorus; Zn instead belongs to Zinc. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "8c378561dc2bd8c01b7894f6c051670110c215d8a12571180c614f79bb82a9aa"
+      },
+      {
+        "source_row_id": "element_symb:58",
+        "statement": "Phosphorus has the symbol Zn.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns P to Phosphorus; Zn instead belongs to Zinc. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "cf61b4e63d242299bf647eec5151d4d35e8e4658307264cd9eee1bc89a9943a1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 9,
+    "person_key": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+    "entities": [
+      "Lutetium"
+    ],
+    "entity_ids": [
+      "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a"
+    ],
+    "status": "usable",
+    "identity": "Lutetium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:57",
+        "statement": "Lutetium has the symbol Lu.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Lu to Lutetium; Be instead belongs to Beryllium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "174de7dccdb14c48072fd703b88301d8b3022635cf81add13e9d1adb2e00f4d8"
+      },
+      {
+        "source_row_id": "element_symb:104",
+        "statement": "Lutetium has the symbol Be.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Lu to Lutetium; Be instead belongs to Beryllium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "fd465c527bbf881161c3c63bd1252b31081f5668fcc41f70ae76ffb21e4d858e"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 10,
+    "person_key": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+    "entities": [
+      "Yttrium"
+    ],
+    "entity_ids": [
+      "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8"
+    ],
+    "status": "usable",
+    "identity": "Yttrium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:115",
+        "statement": "Yttrium has the symbol Y.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Y to Yttrium; U instead belongs to Uranium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "ceb219c52fe78e4efe38900321b48d4b547e1c1fa11122429db0da5a59be4ea2"
+      },
+      {
+        "source_row_id": "element_symb:4",
+        "statement": "Yttrium has the symbol U.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Y to Yttrium; U instead belongs to Uranium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "3d859424a45ff12986168f701ec0224030f290ddc6c56901fdc0cce5fd4e83ab"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 11,
+    "person_key": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+    "entities": [
+      "Iron"
+    ],
+    "entity_ids": [
+      "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12"
+    ],
+    "status": "usable",
+    "identity": "Iron",
+    "facts": [
+      {
+        "source_row_id": "element_symb:144",
+        "statement": "Iron has the symbol Fe.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Fe to Iron; Tl instead belongs to Thallium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "98c316cb71f6e29cda22b93939873e7ce037ccb41b506e78fed5f8830787827b"
+      },
+      {
+        "source_row_id": "element_symb:74",
+        "statement": "Iron has the symbol Tl.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Fe to Iron; Tl instead belongs to Thallium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "e7f879dbccedac34e6c74fc5bd1e97e09a7d2661e9d9361b55b1323e9698f184"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 12,
+    "person_key": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+    "entities": [
+      "Neodymium"
+    ],
+    "entity_ids": [
+      "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5"
+    ],
+    "status": "usable",
+    "identity": "Neodymium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:156",
+        "statement": "Neodymium has the symbol Nd.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Nd to Neodymium; Ac instead belongs to Actinium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "d2e84b8207b8f1a79a740b8039f3c460be7883f4ca3ad063a980369d8dd4b202"
+      },
+      {
+        "source_row_id": "element_symb:118",
+        "statement": "Neodymium has the symbol Ac.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Nd to Neodymium; Ac instead belongs to Actinium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "4b53cf3787191ecb70e47efdef79ba7a2cd18c137142c70eeb68ea962b1c4c31"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 13,
+    "person_key": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+    "entities": [
+      "Indium"
+    ],
+    "entity_ids": [
+      "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8"
+    ],
+    "status": "usable",
+    "identity": "Indium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:78",
+        "statement": "Indium has the symbol In.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns In to Indium; As instead belongs to Arsenic. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "e0685a4ec8377d48ae37cc3c6fe21b29e9ca7708d41094c70244186fef68e15a"
+      },
+      {
+        "source_row_id": "element_symb:14",
+        "statement": "Indium has the symbol As.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns In to Indium; As instead belongs to Arsenic. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "3efd8b600d8bd3a846fb9833de8ce302068b9983d750a9c0367b82a6679039d6"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 14,
+    "person_key": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+    "entities": [
+      "Tin"
+    ],
+    "entity_ids": [
+      "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655"
+    ],
+    "status": "usable",
+    "identity": "Tin",
+    "facts": [
+      {
+        "source_row_id": "element_symb:175",
+        "statement": "Tin has the symbol Sn.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Sn to Tin; Be instead belongs to Beryllium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "b1ce3f45ea4f4a656f05ad99d71228aa0de07a972a4bcc83e61a23fe5310a33a"
+      },
+      {
+        "source_row_id": "element_symb:126",
+        "statement": "Tin has the symbol Be.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Sn to Tin; Be instead belongs to Beryllium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "d007cf55f2bccde19e80abf43951a5340f0d3d14bde7fda484755ce7f3f85115"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "element_symb",
+    "rank": 15,
+    "person_key": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+    "entities": [
+      "Dysprosium"
+    ],
+    "entity_ids": [
+      "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410"
+    ],
+    "status": "usable",
+    "identity": "Dysprosium",
+    "facts": [
+      {
+        "source_row_id": "element_symb:159",
+        "statement": "Dysprosium has the symbol Dy.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Dy to Dysprosium; U instead belongs to Uranium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "b51061e6c9057be380201f2a65f127a7689654d1b2b57ced6eef715993ff7581"
+      },
+      {
+        "source_row_id": "element_symb:52",
+        "statement": "Dysprosium has the symbol U.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "pubchem_periodic_table"
+        ],
+        "reasoning": "PubChem assigns Dy to Dysprosium; U instead belongs to Uranium. Exact case-sensitive modern chemical symbol binding excludes the false affirmative.",
+        "statement_sha256": "25ce4ca12f2cf8d13042fb6605387b7f9ed0098dd7fd5dfe6b9cc83470502afe"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "inventors",
+    "rank": 1,
+    "person_key": "entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de",
+    "entities": [
+      "Konrad Zuse"
+    ],
+    "entity_ids": [
+      "entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de"
+    ],
+    "status": "unresolved",
+    "identity": "Konrad Zuse",
+    "facts": [
+      {
+        "source_row_id": "inventors:335",
+        "statement": "Konrad Zuse lived in Germany.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:zuse_math",
+          "inventors_1"
+        ],
+        "reasoning": "Berlin engineering study and work in the family apartment substantiate Germany.",
+        "statement_sha256": "0beca6243c28ea8db954cca39fdcd7b8593f14ae47893edd9026156fd646fda3"
+      },
+      {
+        "statement": "Konrad Zuse lived in the Netherlands.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_b7a98e9f19c5cfc50d490365bd97313eb3ff32f7fd09f6c392ab621ff9899964",
+        "candidate_rank": 1,
+        "ranking_hash": "0e0e4ff978594c0c11902806dd5818e0d9d10a9ff5ffac63856ef8e0cb5f92a0",
+        "entity_id": "entity_005bd39dc25ca26e5ff39422f7fbac2dda089fcb38a2fe11f5df2b2c356c19de",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "reused:source_review_v1:zuse_math",
+          "inventors_1"
+        ],
+        "reasoning": "The pipeline Netherlands claim is unresolved. German career locations and death in Hünfeld do not sufficiently close later residential gaps; machine exports to Switzerland or France are not personal moves.",
+        "statement_sha256": "afc6d314d69eca8defadfd16ab9a46a94cd57e55581282f9f89a4f01b9e172f4"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 2,
+    "person_key": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+    "entities": [
+      "Richard Trevithick"
+    ],
+    "entity_ids": [
+      "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366"
+    ],
+    "status": "usable",
+    "identity": "Richard Trevithick",
+    "facts": [
+      {
+        "source_row_id": "inventors:390",
+        "statement": "Richard Trevithick lived in the U.K.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_2"
+        ],
+        "reasoning": "UK homes in Cornwall, London and final lodging in Dartford are explicit.",
+        "statement_sha256": "530a61a1207a3bc75d2b66387716398eaa25d1c4c3953bc65ca1f3846c1a1933"
+      },
+      {
+        "source_row_id": "inventors:171",
+        "statement": "Richard Trevithick lived in the U.S.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_2"
+        ],
+        "reasoning": "The biography traces childhood and working homes in Cornwall/London, departure for Peru in 1816, Peru/Costa Rica travels and the direct return to Falmouth in 1827, then Dartford lodging through death. It explicitly distinguishes Stephenson’s New York passage from Trevithick’s direct journey. This sustained chronology supports false for US residence, not an inference from British nationality.",
+        "statement_sha256": "9696cdb66cd9c0dbac2b64fb4b2f9817c45b4e5b250cdc9f0494686f49564e34"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 3,
+    "person_key": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+    "entities": [
+      "Zhores Alferov"
+    ],
+    "entity_ids": [
+      "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f"
+    ],
+    "status": "usable",
+    "identity": "Zhores Alferov",
+    "facts": [
+      {
+        "source_row_id": "inventors:388",
+        "statement": "Zhores Alferov lived in Russia.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_3",
+          "inventors_3_later"
+        ],
+        "reasoning": "Ioffe/Leningrad and later Saint Petersburg posts continue into the Russian Federation; Russia support does not depend only on Soviet childhood geography.",
+        "statement_sha256": "9d0479473079b2ec43bb9a1a7835185dd3df0ec2db69b8fd7f87374ed15ec6ce"
+      },
+      {
+        "source_row_id": "inventors:115",
+        "statement": "Zhores Alferov lived in the U.K.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_3",
+          "inventors_3_later"
+        ],
+        "reasoning": "Autobiography traces Soviet upbringing and education, Ioffe work, a six-month Illinois posting and return; the UK episode is explicitly a short 1967 trip with sightseeing followed by wedding in Leningrad. Later biography continues Saint Petersburg academic/parliamentary life through death. Taken together, this supports no UK home/posting rather than equating a visit with residence.",
+        "statement_sha256": "17fb109a080d441bdf2adec1a2a58622ad629cbde39a2d2ef071802d0018db30"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 4,
+    "person_key": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+    "entities": [
+      "William Kelly"
+    ],
+    "entity_ids": [
+      "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c"
+    ],
+    "status": "usable",
+    "identity": "William Kelly",
+    "facts": [
+      {
+        "source_row_id": "inventors:174",
+        "statement": "William Kelly lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_4"
+        ],
+        "reasoning": "Pittsburgh education, move to Eddyville and later Louisville working life establish US residence; identity is steel-process inventor William Kelly, not namesakes.",
+        "statement_sha256": "45c6a80dad8ca1d98c4fe391fabc1be11662205eccb414ce068d5a34c5945beb"
+      },
+      {
+        "source_row_id": "inventors:221",
+        "statement": "William Kelly lived in France.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_4"
+        ],
+        "reasoning": "Biography traces Pittsburgh study/business, move to Kentucky in the 1840s and says he worked in Louisville for the rest of his life until his death there. This positive residential/career chronology supports false for France; French or British steel technology is not personal residence.",
+        "statement_sha256": "69f7e320ead1567dbc81beffe12e92874eed7cfc9eec4ee97c88b9675869125f"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 5,
+    "person_key": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+    "entities": [
+      "Ruth Handler"
+    ],
+    "entity_ids": [
+      "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84"
+    ],
+    "status": "usable",
+    "identity": "Ruth Handler",
+    "facts": [
+      {
+        "source_row_id": "inventors:258",
+        "statement": "Ruth Handler lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_5"
+        ],
+        "reasoning": "Raised with Sarah until 19 in Denver, then Los Angeles employment and return to California after marriage support US residence.",
+        "statement_sha256": "604113f71c33b836e52c017b8e5f4f5e927965765980e8839f42594bae1588dd"
+      },
+      {
+        "source_row_id": "inventors:74",
+        "statement": "Ruth Handler lived in the Netherlands.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_5"
+        ],
+        "reasoning": "The biography traces Denver childhood, Los Angeles career/home, the expressly described 1956 European trip and return to the US, later business and illness through California death. This supports a US home trajectory with European travel, not Dutch residence. Secondary life-history support is defeasible.",
+        "statement_sha256": "d33a4c9726834558c1a969dc04d8fb5ef0637f6bccc638c69f9c54fc84649c00"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 6,
+    "person_key": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+    "entities": [
+      "Karl Benz"
+    ],
+    "entity_ids": [
+      "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479"
+    ],
+    "status": "usable",
+    "identity": "Karl Benz",
+    "facts": [
+      {
+        "source_row_id": "inventors:274",
+        "statement": "Karl Benz lived in Germany.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_6"
+        ],
+        "reasoning": "Mannheim and the 1906–1929 Ladenburg home establish Germany after unification; no reliance on modern mapping of the Baden birthplace.",
+        "statement_sha256": "9572a313ac16d88758ac546b04a70020decf201368718f6db9c697be3302d130"
+      },
+      {
+        "source_row_id": "inventors:349",
+        "statement": "Karl Benz lived in the U.S.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_6"
+        ],
+        "reasoning": "Chronology names Karlsruhe education, Mannheim/Pforzheim work, a short Vienna job, return to the Mannheim business and the explicit final Ladenburg home until death. US sales and subsidiaries do not locate Benz personally there. This supports false for US residence.",
+        "statement_sha256": "b68c19726b1062a0c0afcf4b999fbb8561c1be51c9ec4014c6f4747aa5264134"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 7,
+    "person_key": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+    "entities": [
+      "Shinya Yamanaka"
+    ],
+    "entity_ids": [
+      "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160"
+    ],
+    "status": "usable",
+    "identity": "Shinya Yamanaka",
+    "facts": [
+      {
+        "source_row_id": "inventors:328",
+        "statement": "Shinya Yamanaka lived in Japan.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_7",
+          "inventors_7_cv"
+        ],
+        "reasoning": "Osaka schooling, hospital residency, graduate training and Kyoto professorship establish Japan.",
+        "statement_sha256": "db1c9bcea5db5102d95146b58045de3772020dc5a19071f0574b3814a8611374"
+      },
+      {
+        "source_row_id": "inventors:69",
+        "statement": "Shinya Yamanaka lived in Germany.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_7",
+          "inventors_7_cv"
+        ],
+        "reasoning": "First-person biography plus current institutional CV trace Japan education, 1993–1996 San Francisco postdoctoral work, return to Osaka, Nara and Kyoto, and concurrent later Gladstone affiliation through current Kyoto emeritus role. The complete educational/appointment sequence supports false for Germany; German awards do not imply residential work. Living-person judgment is bounded to retrieval date.",
+        "statement_sha256": "95505070bed4c6e8ad92b7f2c2e629443cc253f2a67bee82e132363a584a06f1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 8,
+    "person_key": "entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1",
+    "entities": [
+      "John Wesley Hyatt"
+    ],
+    "entity_ids": [
+      "entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1"
+    ],
+    "status": "unresolved",
+    "identity": "John Wesley Hyatt",
+    "facts": [
+      {
+        "source_row_id": "inventors:61",
+        "statement": "John Wesley Hyatt lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:hyatt",
+          "inventors_8"
+        ],
+        "reasoning": "Albany/Newark business work substantiates US residence, supplementing the recovered NIHF profile.",
+        "statement_sha256": "18df020fdb3605cc4fa4f956d19768b32dc260dde2bbef5710e3fbe6098b03a3"
+      },
+      {
+        "statement": "John Wesley Hyatt lived in France.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_a3dbf0d166cf39d10131dc9b7e72e931ba51d7ace41d71774370b0c836ca1c78",
+        "candidate_rank": 1,
+        "ranking_hash": "00c18ca913e82f63375e0f95a74642652ad2ca460efb736d7d31da7da1643d3a",
+        "entity_id": "entity_1a1adc1f2e2ac0fac17c2ec4efcc91f3204f4d3abdb02c508e8d30ecccd2eca1",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "reused:source_review_v1:hyatt",
+          "inventors_8"
+        ],
+        "reasoning": "The recovered review already found an incomplete residential history for the UK claim. New text still does not close the late-life and overseas intervals needed for the pipeline France claim; retain unresolved, not a label-derived negative.",
+        "statement_sha256": "0c1e4791852c2f0a19629f08bf9f72fd326a479764b24ee746a254fce24ff466"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 9,
+    "person_key": "entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e",
+    "entities": [
+      "Felix Hoffmann"
+    ],
+    "entity_ids": [
+      "entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e"
+    ],
+    "status": "unresolved",
+    "identity": "Felix Hoffmann",
+    "facts": [
+      {
+        "source_row_id": "inventors:372",
+        "statement": "Felix Hoffmann lived in Germany.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:hoffmann_shi",
+          "reused:source_review_v1:hoffmann_wiki"
+        ],
+        "reasoning": "Recovered Science History Institute evidence documents German pharmacy employment and Munich study.",
+        "statement_sha256": "a0300313eafaa2bdb98a43376a572737373c43fb41adce84ee96748b43bdaf0b"
+      },
+      {
+        "statement": "Felix Hoffmann lived in Canada.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_c3cb2dc7833c335fb8b1d6c6d308ea333376e904f1bf8b4fdc32810877c134c8",
+        "candidate_rank": 1,
+        "ranking_hash": "01ee2a557a31fb071da8cc54af39817fe6333e5d16706cb345692bef4caa0c1c",
+        "entity_id": "entity_c31120bc3d1f106ef87ecf7713c451f3ff17e63b15000adccd97a2269609870e",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "reused:source_review_v1:hoffmann_shi",
+          "reused:source_review_v1:hoffmann_wiki"
+        ],
+        "reasoning": "Retirement 1928 to Swiss death 1946 remains insufficiently described, as in the recovered US-claim review. The distinct pipeline Canada claim is likewise unresolved; changing the proposed country cannot fill the evidence gap.",
+        "statement_sha256": "d3939267dc744e96dbabed5e00544d5fe93d89dda44f1a64d0066a2c24098c33"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 10,
+    "person_key": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+    "entities": [
+      "Hans Geiger"
+    ],
+    "entity_ids": [
+      "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe"
+    ],
+    "status": "usable",
+    "identity": "Hans Geiger",
+    "facts": [
+      {
+        "source_row_id": "inventors:324",
+        "statement": "Hans Geiger lived in Germany.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:candidate_overlay_v1:geiger",
+          "inventors_10"
+        ],
+        "reasoning": "Erlangen study and later Charlottenburg, Kiel, Tübingen and Berlin posts support Germany; no inference from prewar Poland borders.",
+        "statement_sha256": "7657f5d1d25115d7e0ed958ccba943046ea6da4ab19452e15eb51da8d6dc211d"
+      },
+      {
+        "statement": "Hans Geiger lived in India.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_80086035e71df73260b6d749811cb16d49303a6030de4e81e639ce61f704ccbe",
+        "candidate_rank": 1,
+        "ranking_hash": "03f5489ea049fefa2fec883e7df85c6d247f7d997dc0176a2e3284863a782b61",
+        "entity_id": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "reused:candidate_overlay_v1:geiger",
+          "inventors_10"
+        ],
+        "reasoning": "Biography traces Erlangen through 1906, Manchester until 1912, German research/military service then Kiel, Tübingen and Berlin/Potsdam until 1945 displacement and death. This sustained chronology supports false for India; his father’s Indology does not transfer residence to Hans.",
+        "statement_sha256": "df22344e6344d662b925592bc5c7d2e9add894b58ddace1eac1b8a94401ff521"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 11,
+    "person_key": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+    "entities": [
+      "Hans Oersted"
+    ],
+    "entity_ids": [
+      "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017"
+    ],
+    "status": "usable",
+    "identity": "Hans Oersted",
+    "facts": [
+      {
+        "source_row_id": "inventors:251",
+        "statement": "Hans Oersted lived in Denmark.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_11"
+        ],
+        "reasoning": "Hans Oersted is Hans Christian Ørsted, the Danish physicist; Copenhagen study, professorship and family home establish Denmark.",
+        "statement_sha256": "e3d228fb5d39fdd1f7f7831454a29eb3cbd30b3e23ceeb4d53596469d813f425"
+      },
+      {
+        "source_row_id": "inventors:144",
+        "statement": "Hans Oersted lived in the U.S.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_11"
+        ],
+        "reasoning": "Chronology covers Rudkøbing childhood, Copenhagen education, European scientific travels, Copenhagen professorship/family home from 1806 and subsequent institutions until death in 1851. American society memberships are remote honors, not relocation. This supports false for US residence.",
+        "statement_sha256": "cefe7dd88644ab825abedff4322ce5ce9c0d956a4e1fc545d270f639d0cd5741"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 12,
+    "person_key": "entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d",
+    "entities": [
+      "Herbert Saffir"
+    ],
+    "entity_ids": [
+      "entity_d7cc8ea4e29294ff2f5424209d056df11ab57c68a360b1037573c49bd287dd7d"
+    ],
+    "status": "unresolved",
+    "identity": "Herbert Saffir",
+    "facts": [
+      {
+        "source_row_id": "inventors:58",
+        "statement": "Herbert Saffir lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_12"
+        ],
+        "reasoning": "Georgia Tech education and Dade County employment substantiate US residence.",
+        "statement_sha256": "b03bf068a1317133819de230c583e573702a1ed59b7028efcf0286761e665f1c"
+      },
+      {
+        "source_row_id": "inventors:23",
+        "statement": "Herbert Saffir lived in the U.K.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "inventors_12"
+        ],
+        "reasoning": "The account expressly mentions extensive travel and leaves the 1940–1947 interval and overseas work arrangements incompletely specified; it does not support false for UK residence. This is unresolved factual coverage, not an established source-label error.",
+        "statement_sha256": "b9a84f71b7e34f20906d0c786d03fec664241155d7362119bbbbef29bc67ac14"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 13,
+    "person_key": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+    "entities": [
+      "Thomas Edison"
+    ],
+    "entity_ids": [
+      "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4"
+    ],
+    "status": "usable",
+    "identity": "Thomas Edison",
+    "facts": [
+      {
+        "source_row_id": "inventors:224",
+        "statement": "Thomas Edison lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:edison"
+        ],
+        "reasoning": "Reuse the completed NPS-supported US affirmative review in candidate_overlay_v1/targeted_reviews.json.",
+        "statement_sha256": "7f81a72ea82af1f5bc56c49c64caa682c11a8f37b827b50ce9504a941e87d608"
+      },
+      {
+        "source_row_id": "inventors:404",
+        "statement": "Thomas Edison lived in the U.K.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "reused:source_review_v1:edison"
+        ],
+        "reasoning": "Reuse source_review_v1/reviews.json draw 0: NPS traces childhood, itinerant work and successive homes through Glenmont until death; UK claim supported false. No new adjudication or redraw of the historical sample.",
+        "statement_sha256": "a6e5ae0540b39b6fec80921523a807df67e9657a2ab73e67c9e109a117052c5a"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof.",
+    "reused_judgments": [
+      {
+        "path": "data/clean_protocol/selection_repair_v1/source_review_v1/reviews.json",
+        "source_row_id": "inventors:404",
+        "sha256": "e2f442f8a30586743d5092f1c19f8a5b2a7c24227c94805d2774885187b312be"
+      },
+      {
+        "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/targeted_reviews.json",
+        "source_row_id": "inventors:224",
+        "sha256": "19c583e19c56426943899b71604b7e834ac9fa55e0238e6f1eac0bcecf0a1354"
+      }
+    ]
+  },
+  {
+    "topic": "inventors",
+    "rank": 14,
+    "person_key": "entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741",
+    "entities": [
+      "Edwin Link"
+    ],
+    "entity_ids": [
+      "entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741"
+    ],
+    "status": "unresolved",
+    "identity": "Edwin Link",
+    "facts": [
+      {
+        "source_row_id": "inventors:87",
+        "statement": "Edwin Link lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:link",
+          "reused:source_review_v1:edwin_wiki"
+        ],
+        "reasoning": "Recovered NIHF and biography support Binghamton home/work.",
+        "statement_sha256": "bcffa746f817fb6b428f9a8c470c540da36ad21fc58c937664904984c200a31b"
+      },
+      {
+        "statement": "Edwin Link lived in Switzerland.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_aa895095bca2afa23fc3d895402919bdbc4e1ae46e6efa9e8b4bd1a875676409",
+        "candidate_rank": 1,
+        "ranking_hash": "108ad7af8e59efaabefcc336b065ee0a0751ba4a3773bfa92317cac8a21ccaea",
+        "entity_id": "entity_84f6c22223e9e25b06fbfdfc0b5a44936c0d1d900314a06d362121f7675ae741",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "reused:source_review_v1:link",
+          "reused:source_review_v1:edwin_wiki"
+        ],
+        "reasoning": "Overseas project schedules and living arrangements remain incomplete in the recovered review. The pipeline Switzerland claim is not accepted merely because the earlier unresolved claim named the UK.",
+        "statement_sha256": "2f5df633ed201a2efeb677e2a9a09bfeead88beea6fb3b269f7f7f9c58458d3c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 15,
+    "person_key": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+    "entities": [
+      "Leon Theremin"
+    ],
+    "entity_ids": [
+      "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8"
+    ],
+    "status": "usable",
+    "identity": "Leon Theremin",
+    "facts": [
+      {
+        "source_row_id": "inventors:116",
+        "statement": "Leon Theremin lived in Russia.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:candidate_overlay_v1:theremin",
+          "inventors_15"
+        ],
+        "reasoning": "Theremin’s biography identifies Leon/Lev Sergeyevich Termen and his Russian homes/study and Moscow life through 1993, including the Russian Federation period.",
+        "statement_sha256": "e31a1ba7ba483a674bf2ddc7b14d38cf2f42f09ace7ca090c1fd16b021535606"
+      },
+      {
+        "statement": "Leon Theremin lived in Japan.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_22c9697b24b9be78550455d3e8ca1b12044e252e177213f5ad99e8b68eda4f84",
+        "candidate_rank": 1,
+        "ranking_hash": "076256d0d6420626444e4f82e096d95a754ad75048122684f11665417f3f6c39",
+        "entity_id": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "reused:candidate_overlay_v1:theremin",
+          "inventors_15"
+        ],
+        "reasoning": "The extended chronology covers Russian study/service, European tour, 1927–1938 US residence, return and imprisonment, Soviet research/teaching, then first renewed foreign visits after 51 years in 1989, 1991 and early 1993 before Moscow death. It supports false for Japan. The separate historical Germany-tour claim remains quarantined and unresolved.",
+        "statement_sha256": "3830969ec8c525d5527f2d5f78313b96c4fc0b03aff49b012321291c6b6d343b"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 16,
+    "person_key": "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318",
+    "entities": [
+      "Joseph-Armand Bombardier"
+    ],
+    "entity_ids": [
+      "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318"
+    ],
+    "status": "usable",
+    "identity": "Joseph-Armand Bombardier",
+    "facts": [
+      {
+        "source_row_id": "inventors:55",
+        "statement": "Joseph-Armand Bombardier lived in Canada.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_16_museum"
+        ],
+        "reasoning": "Museum biography traces Quebec schooling, Montreal work and return to Valcourt in 1926, hence Canadian residence.",
+        "statement_sha256": "1dc74310f00ae330cbd011b22485d6d14ec0b46d548a746815ddf71b073302df"
+      },
+      {
+        "statement": "Joseph-Armand Bombardier lived in Switzerland.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_a251a229bcbd90ddd7c01c78b10d13278ce0a2496ce298a6ebc9a3a6d487865b",
+        "candidate_rank": 1,
+        "ranking_hash": "0888080a1b2f431d6fb7aa520c12496d2d2d9fb42e36b2e9f3526b679b66597b",
+        "entity_id": "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_16_museum"
+        ],
+        "reasoning": "Detailed museum chronology covers childhood, Quebec apprenticeship, Montreal employment, Valcourt garage, wartime Montreal production and explicit return to Valcourt, continued local experimental work and community/family life through 1964 death. This sustains false for Switzerland; export of machines to the Alps is not personal residence.",
+        "statement_sha256": "262c593784a15f58b29ed7f70664d0a1c7255f407aa42a6e657da371e05470b6"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 17,
+    "person_key": "person_36252372c959143c714bebcea02058b6ece7591e1ad9f988832c4ff55e39edeb",
+    "entities": [
+      "Philo Farnsworth",
+      "Philo Taylor Farnsworth"
+    ],
+    "entity_ids": [
+      "entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625",
+      "entity_ce2d336e72d3c673fc2e5481f3f854fea1f26de9d65f998d4d94e207a2f8f516"
+    ],
+    "status": "unresolved",
+    "identity": "Philo Farnsworth",
+    "facts": [
+      {
+        "source_row_id": "inventors:124",
+        "statement": "Philo Farnsworth lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "reused:source_review_v1:farnsworth_wiki",
+          "reused:source_review_v1:farnsworth"
+        ],
+        "reasoning": "Recovered NIHF and biography plus reviewed alias evidence bind Philo Farnsworth and Philo Taylor Farnsworth to the same US-resident person.",
+        "statement_sha256": "1bfa574cc21e34b918bab18456cb8bc228d520343ebf78f8c4e11ce0794ffe40"
+      },
+      {
+        "statement": "Philo Farnsworth lived in France.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_db21146a5c8e1183c1db812a67ab134f8c736095d3369083d31025f24e1b10f0",
+        "candidate_rank": 1,
+        "ranking_hash": "089d3c8dc7a7e7e2acd7e5682fdd8371b5b4b0792aecc4d5d0a4ee34ed4ea2b6",
+        "entity_id": "entity_1f57d9991e70f587c2192a87350da1cadb6fdf1bfc6e637c4917357cb6d82625",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "reused:source_review_v1:farnsworth_wiki",
+          "reused:source_review_v1:farnsworth"
+        ],
+        "reasoning": "The documented 1934 European journey has incompletely specified duration/itinerary. The new pipeline France proposition remains unresolved, while historical Germany quarantine is preserved. Alias aggregation does not manufacture negative evidence.",
+        "statement_sha256": "e859502c31608ba1306e1aec9b4d304b93bfbc7da487368117a3dc91356ee7ae"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof.",
+    "identity_evidence": {
+      "path": "config/clean_protocol/selection_repair_v1/identity_evidence.json",
+      "key": "farnsworth",
+      "sha256": "363d5c150bd505f687feb6cd9cd34fc935e7266672b15544a80dd89a84e60a31"
+    }
+  },
+  {
+    "topic": "inventors",
+    "rank": 18,
+    "person_key": "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb",
+    "entities": [
+      "Garrett Morgan"
+    ],
+    "entity_ids": [
+      "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb"
+    ],
+    "status": "usable",
+    "identity": "Garrett Morgan",
+    "facts": [
+      {
+        "source_row_id": "inventors:170",
+        "statement": "Garrett Morgan lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_18_case",
+          "inventors_18"
+        ],
+        "reasoning": "Case Western biography documents Kentucky childhood, Cincinnati work and Cleveland settlement in 1895.",
+        "statement_sha256": "eb1f658bcf03faf261b4369eb00fe067a0801bf075f35fc6380c9bfc0eecd2f2"
+      },
+      {
+        "statement": "Garrett Morgan lived in the Netherlands.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_22ab4dcee8ba1f48f2f6ea33369f4c21536b3977c4b0835b8ae4cc86d808d0cd",
+        "candidate_rank": 1,
+        "ranking_hash": "056bbef2f4d18fa114739b274b6f1ed24b537a1fb796cd65e07f8bfa87f066c9",
+        "entity_id": "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_18_case",
+          "inventors_18"
+        ],
+        "reasoning": "Institutional and extended biographies follow the move to Cleveland in 1895, successive local businesses, Ohio farm in 1923, later blindness and continued inventing until Cleveland death. They support a sustained US home chronology rather than Netherlands residence; this is defeasible biography-based support.",
+        "statement_sha256": "fb9d9a4d51c3aa26ef3510d02a8841bc744047614afef393316aa8c39ca0657c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 19,
+    "person_key": "entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632",
+    "entities": [
+      "Hippolyte Mège-Mouriès"
+    ],
+    "entity_ids": [
+      "entity_ed74407dfa7b1ab4cb8cd821fe9172cf89e2f444ae3bfcf55fe351d2f59f0632"
+    ],
+    "status": "unresolved",
+    "identity": "Hippolyte Mège-Mouriès",
+    "facts": [
+      {
+        "source_row_id": "inventors:283",
+        "statement": "Hippolyte Mège-Mouriès lived in France.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_19"
+        ],
+        "reasoning": "Paris pharmacy employment from 1838 and Vincennes work support France; preserve Mège-Mouriès spelling.",
+        "statement_sha256": "40b134914dbf32d7acdb1361d23c247fbb80e63f1e4926bd953c6978ae1aced4"
+      },
+      {
+        "source_row_id": "inventors:157",
+        "statement": "Hippolyte Mège-Mouriès lived in the U.S.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "inventors_19"
+        ],
+        "reasoning": "Patents and business diffusion abroad do not establish personal travel arrangements, and the narrative does not close all early/late residence intervals sufficiently to establish false for the admitted US claim. Retain unresolved without proposing a binary source-label correction.",
+        "statement_sha256": "87844d73d1bc8759331614861dba43b6da92bdadadc5d1837c28c291163bafa8"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 20,
+    "person_key": "entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c",
+    "entities": [
+      "Robert Chesebrough"
+    ],
+    "entity_ids": [
+      "entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c"
+    ],
+    "status": "unresolved",
+    "identity": "Robert Chesebrough",
+    "facts": [
+      {
+        "source_row_id": "inventors:187",
+        "statement": "Robert Chesebrough lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_20"
+        ],
+        "reasoning": "Raised in New York and final New Jersey house establish US residence despite London birth.",
+        "statement_sha256": "7861e8cf4e90214ba964cb7ca203af9a68f914a124d0f5ae941bd189b4e5da03"
+      },
+      {
+        "statement": "Robert Chesebrough lived in India.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_7040702628c55a58bd2cf48a818c7dd7110549e045d22b2c45fb2942563193ec",
+        "candidate_rank": 1,
+        "ranking_hash": "0c5f4c92f4c37759269da25d7e3d37cacf912a0595052bcffe4723dc6e6a065a",
+        "entity_id": "entity_cb4b5b08ecb0d3f8fe0880e5249fa86b7c9bdcdcdb631db60f1e9a8125271b7c",
+        "judgment": "unresolved",
+        "evidence_ids": [
+          "inventors_20"
+        ],
+        "reasoning": "Business and patent milestones leave substantial gaps before death at 96; the pipeline India claim remains unresolved. An American company and US home at death do not suffice for lifelong nonresidence.",
+        "statement_sha256": "6c9b2c548ea98bf2102e23ae62652865f6944000c02b879b18c6c89271a6678d"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 21,
+    "person_key": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+    "entities": [
+      "Nicolas Appert"
+    ],
+    "entity_ids": [
+      "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229"
+    ],
+    "status": "usable",
+    "identity": "Nicolas Appert",
+    "facts": [
+      {
+        "source_row_id": "inventors:346",
+        "statement": "Nicolas Appert lived in France.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_21"
+        ],
+        "reasoning": "Paris confectioner/chef from 1784–1795 and subsequent Massy/Paris factories establish France.",
+        "statement_sha256": "cb0b7975e57a7fd6160af1182566aff5c5efd8226f7b99b17f1bc4252aeacb75"
+      },
+      {
+        "source_row_id": "inventors:245",
+        "statement": "Nicolas Appert lived in Russia.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_21"
+        ],
+        "reasoning": "Chronology traces family inn, brewery, thirteen years as chef in Zweibrücken, return to Paris in 1784, Massy/Paris factory sequence until 1836 retirement and 1841 death. Saint Petersburg is specifically a destination for canned exports, not a personal posting. The sustained chronology supports false for Russia.",
+        "statement_sha256": "aa63ceb4265548b0f556a1acc5e1cb87c7ce3b7d62c95fba7ea542d1d252af76"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 22,
+    "person_key": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+    "entities": [
+      "Arthur Fry"
+    ],
+    "entity_ids": [
+      "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc"
+    ],
+    "status": "usable",
+    "identity": "Arthur Fry",
+    "facts": [
+      {
+        "source_row_id": "inventors:35",
+        "statement": "Arthur Fry lived in the U.S.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_22"
+        ],
+        "reasoning": "The biography explicitly identifies homes in Iowa, Kansas City and current Saint Paul, with Minnesota education/work.",
+        "statement_sha256": "4d3fccc0948120849c8d0334c3656133f097e416004e9a63b3a136afba147612"
+      },
+      {
+        "source_row_id": "inventors:304",
+        "statement": "Arthur Fry lived in France.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_22"
+        ],
+        "reasoning": "The account traces childhood homes, Minnesota university/3M career from 1953 to retirement in the early 1990s and current Saint Paul residence. This continuous home/career outline supports false for France; worldwide Post-it sales are not personal residence. Secondary, living-person judgment bounded to retrieval date; no claim of a universal proof.",
+        "statement_sha256": "187143539612ca62d8d5c0efbb29048db352310b4263f15ea19c8c7c1e774479"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "inventors",
+    "rank": 23,
+    "person_key": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+    "entities": [
+      "Biruté Galdikas"
+    ],
+    "entity_ids": [
+      "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d"
+    ],
+    "status": "usable",
+    "identity": "Biruté Galdikas",
+    "facts": [
+      {
+        "source_row_id": "inventors:292",
+        "statement": "Biruté Galdikas lived in Canada.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "inventors_23"
+        ],
+        "reasoning": "Biruté/Birutė Galdikas is the orangutan researcher; childhood moves to Quebec and Toronto and later Vancouver study establish Canada.",
+        "statement_sha256": "4a6c6dedd642fffa516b49f74e421550de35f0067e403a50db968a35f140b09b"
+      },
+      {
+        "source_row_id": "inventors:289",
+        "statement": "Biruté Galdikas lived in France.",
+        "label": 0,
+        "origin": "source",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "inventors_23"
+        ],
+        "reasoning": "Life narrative traces German birth, Canada from age two, 1964 UCLA move, Borneo from 1971 for over forty years, Canadian/Indonesian academic roles and later Los Angeles death. This sustained residential sequence supports false for France; French-language features or foreign screenings do not indicate residence.",
+        "statement_sha256": "8019ffeac54b19bbf115cd176367bcbbf351a3814067a1a1d7100136e4c44fec"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01",
+    "limitations": "Residence negatives rely on a sustained biographical chronology and explicit treatment of overseas episodes; not nationality or a bare absence from a country list. Defeasible support, no universal nonresidence proof."
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 1,
+    "person_key": "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0",
+    "entities": [
+      "voz"
+    ],
+    "entity_ids": [
+      "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0"
+    ],
+    "status": "usable",
+    "identity": "voz",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:184",
+        "statement": "The Spanish word 'voz' means 'voice'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_1"
+        ],
+        "reasoning": "Voice, shout/cry, opinion, word and grammatical voice; no timepiece sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "825d9b12b1718440839897f322215e144f39cbe1cb289041f2ee7ba5c238fb4a"
+      },
+      {
+        "statement": "The Spanish word 'voz' means 'clock'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_ad8a42f272e8241d2613dc0fb6905b454225c8bbf7687ca9b1b0f87d607ecbd5",
+        "candidate_rank": 1,
+        "ranking_hash": "0062f02f387eeffd935b25daabea95032d01eacac628ac46c43b6830b8fee0a2",
+        "entity_id": "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_1"
+        ],
+        "reasoning": "Voice, shout/cry, opinion, word and grammatical voice; no timepiece sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "8402d320e4b363c20c88e0d18354703fced35157fed1d3ca0d7ae0b5fad69b4c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 2,
+    "person_key": "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100",
+    "entities": [
+      "boca"
+    ],
+    "entity_ids": [
+      "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100"
+    ],
+    "status": "usable",
+    "identity": "boca",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:211",
+        "statement": "The Spanish word 'boca' means 'mouth'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_2"
+        ],
+        "reasoning": "Mouth, opening/entrance and muzzle; no wind sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "a853fa2343dd79de75a3939ba36acc396f3d489cfb9411b1ecc512f6e64fe64f"
+      },
+      {
+        "statement": "The Spanish word 'boca' means 'wind'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_f9a6b7a76b4a83c6a7f535aabee3a0646d57594c97d3cc982bb37e0c26545798",
+        "candidate_rank": 1,
+        "ranking_hash": "01d6a346f98e0d033f72a96c0f40e5dbee1de0c5de8818f38ae3257932e8a770",
+        "entity_id": "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_2"
+        ],
+        "reasoning": "Mouth, opening/entrance and muzzle; no wind sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "38e0a803b8d4199da357d1c5a06742c63d0e7482fb74c147c2196571acf5b947"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 3,
+    "person_key": "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06",
+    "entities": [
+      "toro"
+    ],
+    "entity_ids": [
+      "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06"
+    ],
+    "status": "usable",
+    "identity": "toro",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:333",
+        "statement": "The Spanish word 'toro' means 'bull'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_3"
+        ],
+        "reasoning": "Bull and bull idioms; noun, not the reading verb. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "daf75f7bde125244d194414aa064f390d4060c64db8ab4605cc592ac44486d1e"
+      },
+      {
+        "statement": "The Spanish word 'toro' means 'to read'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_f7c71fec54c87f76e93373ef1f750187517cecedcfd21ba80793ebceef13d65e",
+        "candidate_rank": 1,
+        "ranking_hash": "00f824f05f58e9503ce274cbee97be50c07bb1c6afa66e9a7cd3139e03d876fa",
+        "entity_id": "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_3"
+        ],
+        "reasoning": "Bull and bull idioms; noun, not the reading verb. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "ddba1689b0ddc2d635746404277050300c71a1f141fb1e8de113be0c4e5b1917"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 4,
+    "person_key": "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa",
+    "entities": [
+      "escribir"
+    ],
+    "entity_ids": [
+      "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa"
+    ],
+    "status": "usable",
+    "identity": "escribir",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:53",
+        "statement": "The Spanish word 'escribir' means 'to write'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_4"
+        ],
+        "reasoning": "Writing, composing and communicating in writing; not sand. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "99dbc975dee45100bba21a51e9876040e8a9dd3c405087de3d57f75937b2ea7e"
+      },
+      {
+        "statement": "The Spanish word 'escribir' means 'sand'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_3f5f6f48927cc8b099c71a0e48a00b07966a771a5b70f66277db15b2a87823f0",
+        "candidate_rank": 1,
+        "ranking_hash": "01405e58996efb7385680112c343a94b7aaf64299fc66a1006fc656e3607c0aa",
+        "entity_id": "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_4"
+        ],
+        "reasoning": "Writing, composing and communicating in writing; not sand. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "eb9ffb5cdd019e867a7dcbdace11203dd38c593ea0a68d4414c48fd39aa298c6"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 5,
+    "person_key": "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa",
+    "entities": [
+      "pensar"
+    ],
+    "entity_ids": [
+      "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa"
+    ],
+    "status": "usable",
+    "identity": "pensar",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:43",
+        "statement": "The Spanish word 'pensar' means 'to think'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_5"
+        ],
+        "reasoning": "Think, decide, intend/mean; not free. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "231db30ae21cd6d99429fcfeb300cae6dcf111675993ce8fe3d56749383efaf9"
+      },
+      {
+        "statement": "The Spanish word 'pensar' means 'free'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_e07de0a2601a79db6f873b3395e2652cb541df8202906010ed538a34c1000b8b",
+        "candidate_rank": 1,
+        "ranking_hash": "01b9d12d4b1433ca03a2d21b68db01c8ad95f95f9050e4b417f3191bde4bb6fa",
+        "entity_id": "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_5"
+        ],
+        "reasoning": "Think, decide, intend/mean; not free. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "b0593fff15cee9a297bfdf49fa15b3d3b18274acdec58e6338a1df4f651f8ea4"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 6,
+    "person_key": "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d",
+    "entities": [
+      "arena"
+    ],
+    "entity_ids": [
+      "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d"
+    ],
+    "status": "usable",
+    "identity": "arena",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:254",
+        "statement": "The Spanish word 'arena' means 'sand'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_6"
+        ],
+        "reasoning": "Sand, mineral dust, bladder stone and arena; no force sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "f3db9a2ed8a5bfc03e537cb65f2457819e7e5244aafae8d72583d625b4afc765"
+      },
+      {
+        "statement": "The Spanish word 'arena' means 'force'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_cbfd0ef3965b1528ddc8f80dd4fc7e74f4f8ab095c98e41c34f1f17c1d581543",
+        "candidate_rank": 1,
+        "ranking_hash": "009533081bc22dc0cc8fe3f0f432810b74c58ec8d62f077cc937c8993aba1a11",
+        "entity_id": "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_6"
+        ],
+        "reasoning": "Sand, mineral dust, bladder stone and arena; no force sense. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "60985f788cc8d68f9361ab3bd26002203eff808518c9d1a112938e14be807aa8"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 7,
+    "person_key": "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9",
+    "entities": [
+      "fuerza"
+    ],
+    "entity_ids": [
+      "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9"
+    ],
+    "status": "usable",
+    "identity": "fuerza",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:139",
+        "statement": "The Spanish word 'fuerza' means 'force'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_7"
+        ],
+        "reasoning": "Strength, force, power, willpower, intensity; not the colour red. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "186819c5b6216436cb4e22da9bafd349e9ec5c2397ce9aed6d896c5340e3151f"
+      },
+      {
+        "statement": "The Spanish word 'fuerza' means 'red'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_d11dfc9bfe34f4cf5006c458f22637defbb74e1ff326e53d6d110d2b062db017",
+        "candidate_rank": 1,
+        "ranking_hash": "029f6ed096f6aa23de86d742ff961d454454f241ee045beb2ee3fc1f0f8d21b3",
+        "entity_id": "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_7"
+        ],
+        "reasoning": "Strength, force, power, willpower, intensity; not the colour red. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "c6b19f415b0d1ae3569d17530f97bcca7df7f3b0f2bbf16bfd27c7d32a5d08d1"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 8,
+    "person_key": "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d",
+    "entities": [
+      "hueso"
+    ],
+    "entity_ids": [
+      "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d"
+    ],
+    "status": "usable",
+    "identity": "hueso",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:270",
+        "statement": "The Spanish word 'hueso' means 'bone'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_8"
+        ],
+        "reasoning": "Bone and fruit pit/stone/kernel; not the throwing verb. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "0a329ec691d7ff205422ee6f4913bcfc4184c1bd58f2a74cd557234e47d38813"
+      },
+      {
+        "statement": "The Spanish word 'hueso' means 'to throw'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_74b9fcdffad8ff172385ece0270052788f557e954e8efd7a11371802db0000c8",
+        "candidate_rank": 1,
+        "ranking_hash": "006f989069a82dc80c5b0e664a12444dc46d3ad1e1ee09d5fd3e908111598a3c",
+        "entity_id": "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_8"
+        ],
+        "reasoning": "Bone and fruit pit/stone/kernel; not the throwing verb. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "168c35a0d019ec9b5927571ca2b5f667a917dad0d1c6e9d645b495215e69fccf"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 9,
+    "person_key": "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3",
+    "entities": [
+      "enviar"
+    ],
+    "entity_ids": [
+      "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3"
+    ],
+    "status": "usable",
+    "identity": "enviar",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:284",
+        "statement": "The Spanish word 'enviar' means 'to send'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_9"
+        ],
+        "reasoning": "Send, dispatch, ship and refer; not anatomical neck. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "dd024e5f9cd762d362445790445987e8edb8858d988c46a55c76ee8b053a2ac0"
+      },
+      {
+        "statement": "The Spanish word 'enviar' means 'neck'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_8c3fec2b52966d0e49ff66b82a7494f4d2387bb5a85f5d1c7047fe243f17d821",
+        "candidate_rank": 1,
+        "ranking_hash": "0214ea0663a63b8d0ba0a484cb94a21b824869958a89eaaee101e5e32ac18037",
+        "entity_id": "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_9"
+        ],
+        "reasoning": "Send, dispatch, ship and refer; not anatomical neck. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "d5e71a971ec4754a396930a920f8ccc7fb0819a5d55f94f8f0c43905b6071e0b"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 10,
+    "person_key": "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b",
+    "entities": [
+      "cuerpo"
+    ],
+    "entity_ids": [
+      "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b"
+    ],
+    "status": "usable",
+    "identity": "cuerpo",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:118",
+        "statement": "The Spanish word 'cuerpo' means 'body'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_10"
+        ],
+        "reasoning": "Body, corpse, torso, group/corps, section and racing length; not enemy. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "d9aca4c76cb2fa41c0a2cb5779b246e5c0e2168d9c2224421f6857cdd73a3d5d"
+      },
+      {
+        "statement": "The Spanish word 'cuerpo' means 'enemy'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_2800e23fd4ee87766ecf29c77ea0a3161fcd2608ff312f805e88fe347c754c2c",
+        "candidate_rank": 1,
+        "ranking_hash": "006d62f75349fea42b081ec2e6d9b6b3c9d816d3965df3846e1d39d3903f3319",
+        "entity_id": "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_10"
+        ],
+        "reasoning": "Body, corpse, torso, group/corps, section and racing length; not enemy. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "efd3f224d40eea732ea09f50d8403635ce8d6ceaccf866ba8f3b9048824c043c"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 11,
+    "person_key": "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455",
+    "entities": [
+      "bueno"
+    ],
+    "entity_ids": [
+      "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455"
+    ],
+    "status": "usable",
+    "identity": "bueno",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:39",
+        "statement": "The Spanish word 'bueno' means 'good'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_11_alt"
+        ],
+        "reasoning": "Good (beneficial, useful, quality, virtuous, delicious); colloquial hot; ok/well/so and Mexican telephone hello. Clock in a phrase example translates reloj, not bueno. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "6bf2bed769878117ef13b739385e75319bce9e5fecabefc6db5ab4f8322fc001"
+      },
+      {
+        "statement": "The Spanish word 'bueno' means 'clock'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_78255db45b338dbc10bb60417f0add805088bd58351bd604b3f363729cea3fec",
+        "candidate_rank": 1,
+        "ranking_hash": "019b5591e4cea876ee96d18cdc840b5e6c931e113762e5fa56be37ed2a95ccf6",
+        "entity_id": "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_11_alt"
+        ],
+        "reasoning": "Good (beneficial, useful, quality, virtuous, delicious); colloquial hot; ok/well/so and Mexican telephone hello. Clock in a phrase example translates reloj, not bueno. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "19cddf71bf768b78238a398640367e825c6d41e97e5dd7aa2f69fca353467820"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 12,
+    "person_key": "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e",
+    "entities": [
+      "problema"
+    ],
+    "entity_ids": [
+      "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e"
+    ],
+    "status": "usable",
+    "identity": "problema",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:132",
+        "statement": "The Spanish word 'problema' means 'problem'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_12"
+        ],
+        "reasoning": "Problem, trouble, question, difficulty; not red. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "0bf88ce3313be1cf1f657929c582f410a4e8db66b3b77a4d3a1ef2384f9c8baa"
+      },
+      {
+        "statement": "The Spanish word 'problema' means 'red'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_0d84148be86f5be23d7c0f7ba097c2dfb4e6f4c54584621adc8a4794998c213b",
+        "candidate_rank": 1,
+        "ranking_hash": "04e64b9e0a6c39aea1ff001119368fddf34e76cc88843e7ab72f9dedb5a044ce",
+        "entity_id": "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_12"
+        ],
+        "reasoning": "Problem, trouble, question, difficulty; not red. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "4504c1336dc8416462609ea26f9609d23e24a41b2e9f82c44e15ba0d70f5464b"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 13,
+    "person_key": "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b",
+    "entities": [
+      "viejo"
+    ],
+    "entity_ids": [
+      "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b"
+    ],
+    "status": "usable",
+    "identity": "viejo",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:47",
+        "statement": "The Spanish word 'viejo' means 'old'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_13_alt"
+        ],
+        "reasoning": "Old/worn; old person, pal, parent, Latin American spouse and plural parents/elderly; not force. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "80acb06bf680293704fad9af42b15f09ce73e55181e1016230a6c2a36157b632"
+      },
+      {
+        "statement": "The Spanish word 'viejo' means 'force'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_2269b519cd925769c6a1621777e0f6552c09114c396ebbf51b8df671c16902a0",
+        "candidate_rank": 1,
+        "ranking_hash": "00233bac4af50b2cf3a1b871292e1b4e325cce37ac58287b5febec8ae54aca1c",
+        "entity_id": "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_13_alt"
+        ],
+        "reasoning": "Old/worn; old person, pal, parent, Latin American spouse and plural parents/elderly; not force. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "7ed2869a09b0c9f4876bf1528f4053344b04328c5f98495f19962aaccc98c513"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 14,
+    "person_key": "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c",
+    "entities": [
+      "uno"
+    ],
+    "entity_ids": [
+      "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c"
+    ],
+    "status": "usable",
+    "identity": "uno",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:1",
+        "statement": "The Spanish word 'uno' means 'one'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_14"
+        ],
+        "reasoning": "One, indefinite a/an, some/several, about, generalizing one/you; not sand. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "15df8b7bf9fc0f3a931af9a28a48e1a33bf87f850e7d42a90ab54c1f5c0585b3"
+      },
+      {
+        "statement": "The Spanish word 'uno' means 'sand'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_19fcd846ccdb275a0ad0c068b262d0c94afecf73a1cf6336a0d712d3881e9cd7",
+        "candidate_rank": 1,
+        "ranking_hash": "024eeec1c6c6acd2eb9aed9305a2a725ca471086244f499b4cd49c209668bd7e",
+        "entity_id": "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_14"
+        ],
+        "reasoning": "One, indefinite a/an, some/several, about, generalizing one/you; not sand. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "2dbadb3615ba79f48977557bb4dfdfef760d3ca689e7e108f5b42636194139a0"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  },
+  {
+    "topic": "sp_en_trans",
+    "rank": 15,
+    "person_key": "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0",
+    "entities": [
+      "grupo"
+    ],
+    "entity_ids": [
+      "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0"
+    ],
+    "status": "usable",
+    "identity": "grupo",
+    "facts": [
+      {
+        "source_row_id": "sp_en_trans:104",
+        "statement": "The Spanish word 'grupo' means 'group'.",
+        "label": 1,
+        "origin": "source",
+        "judgment": "supported_true",
+        "evidence_ids": [
+          "spanish_15_alt"
+        ],
+        "reasoning": "Group/team, cluster/clump, band, mechanical unit and Southern Cone trick; not to pay. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "5ddc7362e8d6ea3840ef891d5dc45f5279e784fc8476831960ed972e3146034b"
+      },
+      {
+        "statement": "The Spanish word 'grupo' means 'to pay'.",
+        "label": 0,
+        "origin": "recovered_negative_pipeline",
+        "fact_id": "fact_ac30cbb3fa7f70706981df2fbe8d11317c587a77328452f2b308a2a516f36572",
+        "candidate_rank": 1,
+        "ranking_hash": "01cc59ecdfe1d501fb462b5a27ce17947328af0e5b287cf397548ee2101dc19d",
+        "entity_id": "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0",
+        "judgment": "supported_false",
+        "evidence_ids": [
+          "spanish_15_alt"
+        ],
+        "reasoning": "Group/team, cluster/clump, band, mechanical unit and Southern Cone trick; not to pay. Exact unaccented headword preserved; Spanish→English direction (not reverse inference). The positive is a valid sense, not an exclusive gloss. Other senses, compounds and regional senses where listed do not license the proposed negative. Ordinary dictionary translation, not arbitrary metaphor or proper names.",
+        "statement_sha256": "5d0650317d53dbe462785c737731db8e71c250878cccf3412483716116ebd514"
+      }
+    ],
+    "reviewer_method": "Codex-assisted external review; not human verification",
+    "review_date": "2026-10-01"
+  }
+]

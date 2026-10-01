@@ -1,0 +1,42 @@
+{
+  "checks": [
+    "all historical bytes",
+    "all review identity/hash bindings",
+    "exact-claim paired quarantine",
+    "current fitting membership exclusion",
+    "registry/source/audited fact eligibility propagation",
+    "unchanged A15/A10/T_C facts",
+    "nested proposals",
+    "deterministic actual sampler",
+    "no candidate/negative queue regeneration"
+  ],
+  "code_sha256": "f6ac2820a1c572a62edadc562042f48f3fad57d3575528ec5ffdf330a59598b8",
+  "input_lock_sha256": "f7c7265b622664855c70890697550e603d4fd9b02cefcb18d61169fe13473c9d",
+  "outputs": {
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/admitted_rows.csv": "5e252f044823717e9d34a734d0ec0e8f9c7bd0227a513383504474f5345f484c",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/correction_receipt.json": "33b67ce128bad956ba82a128ac2e7863deefefd3af9c4a9d26685da0caaa9c39",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/excluded_rows.csv": "933cc1670a72e274c33fc05fb64d02d773fee4628ba306373e1fe04ad41417f1",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/fact_inventory.csv": "f019a26f38d46f8181cc46dca838f58083a3c1b90b2aa5c57f7eae36653c19bd",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/quarantined_rows.csv": "5340c72cb178a12ead82c18fb2c046c239258e7ac105d1fe412af9f3b3d2fa28",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/row_manifest.csv": "56a3ad10e47bcc207201d27d56c748841d761c433b7f54bd2b9639eaf0905bb0",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/source_fact_eligibility.csv": "10613156d0c4a0485ccaddb3a2ec2e5ed9f3a86934c13217b36ca0499379c5ed",
+    "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/status_changes.csv": "c4ad70ea7800679293586e132b083cf17f009462ac7b40a5923ee67447791fd4",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/A10_proposal.json": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/A15_proposal.json": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P10_admitted_membership.csv": "fd1249dbca67028d72128286acdf3dd282ec8fda36b4cde11986865337f0f455",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P10_balanced_exposure.csv": "55c4c7cda2f202a334dfdead1eef108d80e81666bcbb37e08c7db215678d0b01",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P10_excluded_source_variants.csv": "e40aafd327ae8dfa7e81b1764c8e0b8389a989ab9f44c13a2370cfad8ddd5a87",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P15_admitted_membership.csv": "dc65d8298d7fc7032a402b69b8a393868719be19b0e0e9e72aeb9b55484c7fcf",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P15_balanced_exposure.csv": "fbf09edea9d12166066f6a67b5cc20f9c164e58084b3aaf3194b49222c350904",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/P15_excluded_source_variants.csv": "3537203220e6a167f3bb17fca2dca5573a8997152f693f401841cc6cc2d9b25a",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/TC_completed_pairs.json": "7d5818b0a8b84877426a7de91e841a90f8b5858c27730a3e4ab389f4a498f307",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/TC_topup_review_queue.csv": "ef84a37becfad0b6ef25bb5b3afe62912d57116cb4f1901181c45978490335d2",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/audited_fact_eligibility.csv": "cbd1f25b2753f23985c1dbd5d89bd8bdf07959011d22f2fd9956d05b382fcaa3",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/balanced_membership_changes.json": "4d1eb17cfc17bfd18c2d58e3bd55379d96017e2197d4d86b2db3e898463f4bb3",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/corrected_outer_training.csv": "a3ca9de6ae3d732278fe93a6915ce488b05364bd89454673ba5bff1503ef8929",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/corrected_outer_training_balanced.csv": "4764fd223c8eede7337618bb3e11ef55056bc3bd2ad25e138f3caf058079ce63",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/exposure_counts.csv": "90f5e3071bc6fa5d191d9bd91696775761599f663197eb3383f485fbc3111c00",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/recommendation.json": "0e3011f9cf791acfc3eb827be233f2f9187e7a683d27b23e8211a354846492be",
+    "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/review_outcome_audit.json": "95d1cf81b49a88c89de752ab0565e2d66206a9020b5e5e734046a8bb44782f14"
+  }
+}

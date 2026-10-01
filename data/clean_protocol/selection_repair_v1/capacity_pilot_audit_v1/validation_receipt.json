@@ -1,0 +1,54 @@
+{
+  "checks": [
+    "historical bytes",
+    "fixed seed/order/eligibility",
+    "pipeline ranks and provenance",
+    "exact fact/entity bindings",
+    "completed evidence coverage",
+    "paired source variants",
+    "person-level P/A and outer disjointness",
+    "nested fallback",
+    "actual balanced sampler",
+    "reused judgment bindings",
+    "T_C overlap without A expansion"
+  ],
+  "code": {
+    "src/atomic_probe_methods.py": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+    "src/capacity_pilot_audit.py": "0cffbdb93dee9e2adefb2687a8fdcbbfe4b9c3f2f2d2eb77e83b64988c77339d",
+    "src/validated_negatives.py": "17b0a83ba3e7b3f08307a423b49001b95b93e0f103d07aff32d897ffa6292017"
+  },
+  "inputs": {
+    "candidate_order.json": "9033f684d326ad504961bf331dfa33151dc934b307873a3abd6561bdc5e09e4e",
+    "correction_proposals.json": "78cb3cbef1bd3c37c4d910ee45a8d9189de28c97cde3c78811dc1aadd9eca041",
+    "evidence.json": "c4f98b848e44b5e825cc1054cf017e95d2bfbda1b70c360c5f2ef4783261bfd5",
+    "negative_pipeline_provenance.json": "b1d8e43862e668327d3498192032ec925901063e2de3bde0f3b3519d79f1c788",
+    "negative_proposals.json": "6413be5ba787b546a3c4b4c10a26ac06f01b6ad00011145d1c851cab35559921",
+    "policy.json": "9cf3875203fa636e186569dfcea41232e6daf2ff1184c71363098bc42308275b",
+    "pre_judgment_receipt.json": "554b6c709d9498a4ee3f8deaa2b157491f57ab8de4e70bbef3b71c3747368d25",
+    "pre_review_lock.json": "a7f8468db81a1b2d6387e4813908132690c92ce6dce32c14a1f42c8390dd5ca1",
+    "retrieval_log.json": "037d2335a7f7284dbb7801cdfa3709745d3d87f33f04deb26713a2321315bf39",
+    "reviews.json": "2794da7117bd655117ead90d828f3ce48423f9f00cd292c77325941e2a211d99",
+    "tc_recovered_pairs.json": "459809b5c3c35f9a98dc162e7c41f98c95fa3c9c5ace7dcead1b04d381012b48"
+  },
+  "outputs": {
+    "A10_proposal.json": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "A15_proposal.json": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "P10_admitted_membership.csv": "3dfee96bb7da2c31abb1776556f7902206d05c67c27a07486561a73a1959b30b",
+    "P10_balanced_exposure.csv": "0b2c3d0a3b33556e77c702f45e071c81be95c7f7d9deac73d4b3884683442ac1",
+    "P10_excluded_source_variants.csv": "2ad68ab519ecc0320fdaec50cbe4f7d07e44cc89bbc9e5c1b9d0d4b5a82828d1",
+    "P10_original_source_remainder.csv": "9907b18af266a6d1fe12a7abeda0f5cd719654e0db42d4128c2679997a93a32f",
+    "P15_admitted_membership.csv": "3652356187f97a3e9a1d57f3f4b9c0abbb2f9f2666ac5bb98b51f5f68186c14d",
+    "P15_balanced_exposure.csv": "1203338e8026f99471ac50cf0c8d2281d7bf3f6c4e320089d9b9b2e2f202f628",
+    "P15_excluded_source_variants.csv": "6e2d9bff51168fbc3e3d877557e8eca99064c9e42a33e8496a730103774c39eb",
+    "P15_original_source_remainder.csv": "edbb079f0d7ee9b72e28bb3c13beaff4a70cb839b8ba90a4eac70103f726e6bf",
+    "TC_completed_pairs.json": "7d5818b0a8b84877426a7de91e841a90f8b5858c27730a3e4ab389f4a498f307",
+    "TC_topup_review_queue.csv": "51b0cd799d2bf81f37dd3f1f9ec78f125ba7e49227dcec9a157bf2fa46ecb4a0",
+    "exposure_counts.csv": "9430e32aeffe7db619e39ec8bec5db51eeaca1d55fc1c97a6a9c53442ae9ae40",
+    "original_outer_training_balanced_exposure.csv": "d27d7ee7dd21704ec9cd8c8e8346e5d9a7c3cf9e1c5f93ccafb567705e109ac9",
+    "outer_training_reference.csv": "58f64f586832417dac66cd98e0ebbcafff712b9bd1e7a9326fba1a1aea02e603",
+    "summary.json": "4d6f012e6f99f0b4f133bf307b329f3e2ac5173864d6b765879f822c58fc7649",
+    "v2_admitted_training_balanced_exposure.csv": "22a01523ff22f685e76bd4c8dc00b1cad7eaff343a04850b7f248cd3354fb48d",
+    "v2_admitted_training_reference.csv": "3d67d1a09db0bb545e1463b32ad97f7d985557c2e99b5763f9d5d505a6944bdd"
+  },
+  "status": "fact_audit_validation_passed_not_production_approval"
+}

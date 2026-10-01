@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-01T19:55:31.978837+00:00",
+  "files": {
+    "candidate_order.json": "9033f684d326ad504961bf331dfa33151dc934b307873a3abd6561bdc5e09e4e",
+    "negative_proposals.json": "6413be5ba787b546a3c4b4c10a26ac06f01b6ad00011145d1c851cab35559921",
+    "negative_pipeline_provenance.json": "b1d8e43862e668327d3498192032ec925901063e2de3bde0f3b3519d79f1c788",
+    "pre_review_lock.json": "a7f8468db81a1b2d6387e4813908132690c92ce6dce32c14a1f42c8390dd5ca1"
+  },
+  "fact_selection": "lowest row_index admitted positive and lowest row_index admitted false affirmative; if false unavailable use first recovered single-country pipeline candidate; no status-based negative redraw; unresolved candidates remain recorded",
+  "evidence_standard": "Actual inspected reference text required for both claims. Ordinary city/taxonomic/symbol uniqueness supports exclusion; residence requires sustained biographical chronology, not nationality or absent mention. Spanish full senses/dialect/spelling/direction inspected."
+}

@@ -1,0 +1,393 @@
+{
+  "A10_keys": 50,
+  "A15_keys": 75,
+  "A_membership_unchanged": true,
+  "admitted_by_split": {
+    "test": 1002,
+    "train": 3044,
+    "validation": 1012
+  },
+  "changed_source_ids": [
+    "inventors:157",
+    "inventors:23",
+    "neg_inventors:157",
+    "neg_inventors:23"
+  ],
+  "confirmed_new_label_errors": 0,
+  "correction_base": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3",
+  "correction_base_must_advance_before_fitting": true,
+  "current_membership_totals": {
+    "P10_admitted_membership": 2868,
+    "P10_balanced_exposure": 800,
+    "P15_admitted_membership": 2782,
+    "P15_balanced_exposure": 700,
+    "corrected_outer_training": 3044,
+    "corrected_outer_training_balanced": 1000
+  },
+  "exposure_counts": [
+    {
+      "affirmative": 100,
+      "entities": 52,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 52,
+      "rows": 200,
+      "scenario": "corrected_outer_training",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 900,
+      "entities": 450,
+      "label_0": 900,
+      "label_1": 900,
+      "negated": 900,
+      "person_keys": 450,
+      "rows": 1800,
+      "scenario": "corrected_outer_training",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 114,
+      "entities": 57,
+      "label_0": 114,
+      "label_1": 114,
+      "negated": 114,
+      "person_keys": 57,
+      "rows": 228,
+      "scenario": "corrected_outer_training",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 196,
+      "entities": 133,
+      "label_0": 196,
+      "label_1": 196,
+      "negated": 196,
+      "person_keys": 132,
+      "rows": 392,
+      "scenario": "corrected_outer_training",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 212,
+      "entities": 208,
+      "label_0": 212,
+      "label_1": 212,
+      "negated": 212,
+      "person_keys": 208,
+      "rows": 424,
+      "scenario": "corrected_outer_training",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative": 100,
+      "entities": 52,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 52,
+      "rows": 200,
+      "scenario": "corrected_outer_training_balanced",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 100,
+      "entities": 94,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 94,
+      "rows": 200,
+      "scenario": "corrected_outer_training_balanced",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 100,
+      "entities": 54,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 54,
+      "rows": 200,
+      "scenario": "corrected_outer_training_balanced",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 100,
+      "entities": 78,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 78,
+      "rows": 200,
+      "scenario": "corrected_outer_training_balanced",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 100,
+      "entities": 100,
+      "label_0": 100,
+      "label_1": 100,
+      "negated": 100,
+      "person_keys": 100,
+      "rows": 200,
+      "scenario": "corrected_outer_training_balanced",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative": 70,
+      "entities": 37,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 37,
+      "rows": 140,
+      "scenario": "P15_admitted_membership",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 870,
+      "entities": 435,
+      "label_0": 870,
+      "label_1": 870,
+      "negated": 870,
+      "person_keys": 435,
+      "rows": 1740,
+      "scenario": "P15_admitted_membership",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 84,
+      "entities": 42,
+      "label_0": 84,
+      "label_1": 84,
+      "negated": 84,
+      "person_keys": 42,
+      "rows": 168,
+      "scenario": "P15_admitted_membership",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 170,
+      "entities": 118,
+      "label_0": 170,
+      "label_1": 170,
+      "negated": 170,
+      "person_keys": 117,
+      "rows": 340,
+      "scenario": "P15_admitted_membership",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 197,
+      "entities": 193,
+      "label_0": 197,
+      "label_1": 197,
+      "negated": 197,
+      "person_keys": 193,
+      "rows": 394,
+      "scenario": "P15_admitted_membership",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative": 70,
+      "entities": 37,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 37,
+      "rows": 140,
+      "scenario": "P15_balanced_exposure",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 70,
+      "entities": 68,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 68,
+      "rows": 140,
+      "scenario": "P15_balanced_exposure",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 70,
+      "entities": 42,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 42,
+      "rows": 140,
+      "scenario": "P15_balanced_exposure",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 70,
+      "entities": 61,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 61,
+      "rows": 140,
+      "scenario": "P15_balanced_exposure",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 70,
+      "entities": 69,
+      "label_0": 70,
+      "label_1": 70,
+      "negated": 70,
+      "person_keys": 69,
+      "rows": 140,
+      "scenario": "P15_balanced_exposure",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative": 80,
+      "entities": 42,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 42,
+      "rows": 160,
+      "scenario": "P10_admitted_membership",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 880,
+      "entities": 440,
+      "label_0": 880,
+      "label_1": 880,
+      "negated": 880,
+      "person_keys": 440,
+      "rows": 1760,
+      "scenario": "P10_admitted_membership",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 94,
+      "entities": 47,
+      "label_0": 94,
+      "label_1": 94,
+      "negated": 94,
+      "person_keys": 47,
+      "rows": 188,
+      "scenario": "P10_admitted_membership",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 178,
+      "entities": 123,
+      "label_0": 178,
+      "label_1": 178,
+      "negated": 178,
+      "person_keys": 122,
+      "rows": 356,
+      "scenario": "P10_admitted_membership",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 202,
+      "entities": 198,
+      "label_0": 202,
+      "label_1": 202,
+      "negated": 202,
+      "person_keys": 198,
+      "rows": 404,
+      "scenario": "P10_admitted_membership",
+      "topic": "sp_en_trans"
+    },
+    {
+      "affirmative": 80,
+      "entities": 42,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 42,
+      "rows": 160,
+      "scenario": "P10_balanced_exposure",
+      "topic": "animal_class"
+    },
+    {
+      "affirmative": 80,
+      "entities": 74,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 74,
+      "rows": 160,
+      "scenario": "P10_balanced_exposure",
+      "topic": "cities"
+    },
+    {
+      "affirmative": 80,
+      "entities": 46,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 46,
+      "rows": 160,
+      "scenario": "P10_balanced_exposure",
+      "topic": "element_symb"
+    },
+    {
+      "affirmative": 80,
+      "entities": 67,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 67,
+      "rows": 160,
+      "scenario": "P10_balanced_exposure",
+      "topic": "inventors"
+    },
+    {
+      "affirmative": 80,
+      "entities": 79,
+      "label_0": 80,
+      "label_1": 80,
+      "negated": 80,
+      "person_keys": 79,
+      "rows": 160,
+      "scenario": "P10_balanced_exposure",
+      "topic": "sp_en_trans"
+    }
+  ],
+  "negative_queue_regenerated": false,
+  "preserved_historical_hashes": {
+    "A10_proposal.json": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee",
+    "A15_proposal.json": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6",
+    "TC_completed_pairs.json": "7d5818b0a8b84877426a7de91e841a90f8b5858c27730a3e4ab389f4a498f307",
+    "candidate_order.json": "9033f684d326ad504961bf331dfa33151dc934b307873a3abd6561bdc5e09e4e",
+    "negative_pipeline_provenance.json": "b1d8e43862e668327d3498192032ec925901063e2de3bde0f3b3519d79f1c788",
+    "negative_proposals.json": "6413be5ba787b546a3c4b4c10a26ac06f01b6ad00011145d1c851cab35559921",
+    "outer_training_reference.csv": "58f64f586832417dac66cd98e0ebbcafff712b9bd1e7a9326fba1a1aea02e603",
+    "reviews.json": "2794da7117bd655117ead90d828f3ce48423f9f00cd292c77325941e2a211d99"
+  },
+  "recommendation": "Use candidate_overlay_v3 and this successor projection before any future authorized fitting. Unresolved source claims and paired negations are quarantined, not relabeled or confirmed wrong. Historical v1 projections remain references only. P/A stays unfrozen; no fitting authorization.",
+  "reviewed_facts": 166,
+  "reviewed_outcomes": 83,
+  "sampler": {
+    "function": "balanced_burger_indices",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "seed": 0
+  },
+  "status": "successor_capacity_projection_not_final_PA",
+  "status_column": "audit_successor_status",
+  "unresolved_generated_candidates": [
+    "fact_b7a98e9f19c5cfc50d490365bd97313eb3ff32f7fd09f6c392ab621ff9899964",
+    "fact_a3dbf0d166cf39d10131dc9b7e72e931ba51d7ace41d71774370b0c836ca1c78",
+    "fact_c3cb2dc7833c335fb8b1d6c6d308ea333376e904f1bf8b4fdc32810877c134c8",
+    "fact_aa895095bca2afa23fc3d895402919bdbc4e1ae46e6efa9e8b4bd1a875676409",
+    "fact_db21146a5c8e1183c1db812a67ab134f8c736095d3369083d31025f24e1b10f0",
+    "fact_7040702628c55a58bd2cf48a818c7dd7110549e045d22b2c45fb2942563193ec"
+  ],
+  "unresolved_source_facts": [
+    "inventors:23",
+    "inventors:157"
+  ]
+}
