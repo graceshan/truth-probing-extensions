@@ -1,0 +1,371 @@
+{
+  "status": "complete_with_evidence_gaps",
+  "result_stage": "DEVELOPMENT, pre-label/alias-cleanup; historical definitions; no correction overlay",
+  "runtime": {
+    "python": "3.11.6",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6"
+  },
+  "recovery_commit": "21996d9ba5b6b217a07a06d33c3d56db908c3b41",
+  "inventory_files_verified": 253,
+  "benchmark_rows": 8384,
+  "benchmark_pairs": 524,
+  "metrics": 3990,
+  "surface_diagnostics": 1380,
+  "atomic_aggregates": 170,
+  "bootstrap": {
+    "macro_requires_all_topics": true,
+    "method": "topic_stratified_endpoint",
+    "minimum_valid": 1800,
+    "normalize_topic_weights": false,
+    "order": "sorted_topics_entities_pairs",
+    "pair_weight": "m_i*m_j",
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729,
+    "undefined": "retain_invalid_no_redraw_no_imputation"
+  },
+  "comparisons": [
+    {
+      "family": "qwen_lr",
+      "metrics": 217,
+      "saved_metrics": 217,
+      "differences": 0,
+      "absolute_tolerance": 1e-12,
+      "max_table_absolute_difference": 0.0,
+      "roundoff_cells_within_tolerance": 0,
+      "max_draw_absolute_difference": 0.0,
+      "draw_values_compared": 434000,
+      "saved_draw_id_binding": "hash-verified companion bootstrap_summary.csv order; object metric_ids not deserialized",
+      "schedule_sha256": "60e1de0274d56a3707782735d50aabe25c264aa37dd54fa66c228ad295ca920f",
+      "schedule_and_pair_weights_verified": true,
+      "minimum_effective_replicates": 2000,
+      "maximum_effective_replicates": 2000
+    },
+    {
+      "family": "methods",
+      "metrics": 2814,
+      "saved_metrics": 2814,
+      "differences": 0,
+      "absolute_tolerance": 1e-12,
+      "max_table_absolute_difference": 0.0,
+      "roundoff_cells_within_tolerance": 0,
+      "max_draw_absolute_difference": 0.0,
+      "draw_values_compared": 5628000,
+      "saved_draw_id_binding": "non-object metric_ids array",
+      "schedule_sha256": "60e1de0274d56a3707782735d50aabe25c264aa37dd54fa66c228ad295ca920f",
+      "schedule_and_pair_weights_verified": true,
+      "minimum_effective_replicates": 2000,
+      "maximum_effective_replicates": 2000
+    },
+    {
+      "family": "controls",
+      "metrics": 539,
+      "saved_metrics": 539,
+      "differences": 0,
+      "absolute_tolerance": 1e-12,
+      "max_table_absolute_difference": 0.0,
+      "roundoff_cells_within_tolerance": 0,
+      "max_draw_absolute_difference": 0.0,
+      "draw_values_compared": 1078000,
+      "saved_draw_id_binding": "non-object metric_ids array",
+      "schedule_sha256": "60e1de0274d56a3707782735d50aabe25c264aa37dd54fa66c228ad295ca920f",
+      "schedule_and_pair_weights_verified": true,
+      "minimum_effective_replicates": 2000,
+      "maximum_effective_replicates": 2000
+    },
+    {
+      "family": "llama",
+      "metrics": 420,
+      "saved_metrics": 420,
+      "differences": 0,
+      "absolute_tolerance": 1e-12,
+      "max_table_absolute_difference": 0.0,
+      "roundoff_cells_within_tolerance": 0,
+      "max_draw_absolute_difference": 0.0,
+      "draw_values_compared": 840000,
+      "saved_draw_id_binding": "non-object metric_ids array",
+      "schedule_sha256": "60e1de0274d56a3707782735d50aabe25c264aa37dd54fa66c228ad295ca920f",
+      "schedule_and_pair_weights_verified": true,
+      "minimum_effective_replicates": 2000,
+      "maximum_effective_replicates": 2000
+    }
+  ],
+  "metric_discrepancies": 0,
+  "source_hash_differences": 7,
+  "historical_pinned_conflict": "unresolved",
+  "evidence_gaps": [
+    "Atomic validation row scores are not packaged. Values are hash-verified structured saved aggregates cross-checked against validation_metrics.csv; no atomic CI is reconstructed.",
+    "Activation tensors excluded; upstream extraction/fitting checks cannot be repeated.",
+    "Recovered code/registry preservation by mac 1 is separate from this score package.",
+    "Historical source hash conflicts remain unresolved; byte-level score verification is not proof of upstream execution provenance."
+  ],
+  "invariants": {
+    "backup_unchanged": true,
+    "model_fitting": false,
+    "activation_arrays_opened": false,
+    "final_test_inspected": false,
+    "correction_overlay_applied": false
+  },
+  "rebuild_code": {
+    "src/t1_score_package.py": {
+      "sha256": "4966e20b3b879db4f03f4060f48b47b9349fb4e307db5084def39af8a4d9b21b",
+      "bytes": 20463
+    },
+    "src/t1_score_rebuild.py": {
+      "sha256": "fc16f53e872c580abdc17f15b5e228c1f411a342f5cce6defd41f4f3ac2b6f61",
+      "bytes": 25302
+    },
+    "scripts/46_rebuild_t1_development_results.py": {
+      "sha256": "4cff9e8f7d62058e7112738dfb1c61980b2016e485532b8223867ee278af673b",
+      "bytes": 283
+    },
+    "src/clean_transfer_statistics.py": {
+      "sha256": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+      "bytes": 9453
+    },
+    "src/clean_transfer_evaluation.py": {
+      "sha256": "2c8643011ccf0d93a4e17d143d0e8389394eca4f771a1c3d031a89ce2966e479",
+      "bytes": 13949
+    },
+    "src/pinned_method_evaluation.py": {
+      "sha256": "f54b7126ef5dc088ccc0958ddcee71087e3adf760d930cb7b48644befe163e05",
+      "bytes": 11935
+    },
+    "src/priority2_evaluation.py": {
+      "sha256": "886c24430415170853cdc5be2780175b295671711d11d73de78eec4a3a8babcd",
+      "bytes": 13128
+    },
+    "src/llama_replication_evaluation.py": {
+      "sha256": "1cdf1fb1ee6b8df27d5c5bce1cd5e328dc77c2c73276071930367fe5d35147dd",
+      "bytes": 10581
+    },
+    "src/priority2_input_controls.py": {
+      "sha256": "df4c46219b217f2d0258fa0c7975d3bb6e689e7416024f4c66dd0596b52f6534",
+      "bytes": 11921
+    }
+  },
+  "source_provenance_differences": [
+    {
+      "source": "qwen_lr/scoring_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "qwen_lr/evaluation_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "methods/scoring_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "methods/evaluation_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "controls/scoring_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "controls/evaluation_manifest/provenance/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    },
+    {
+      "source": "llama/analysis_spec/source_sha256",
+      "path": "src/clean_compounds.py",
+      "recorded_sha256": "b46510ed12f922d229e0dc8d5ad7cee905fe9dd2d67f19eca0891e32b63f49e1",
+      "checkout_sha256": "7f4c5643db07775c8f7bf5ae1b8ed3b81ed4dc0238d23a2d830178bacf8ae846"
+    }
+  ],
+  "pinned_atomic_probes_historical_conflict": {
+    "current_sha256": "6d1991fc639e2d664420122990cbb68653519184745cb24a812364af3d1e0466",
+    "git_sha256": "0eef476667172ae8455bccdefc5d1ef7dde3a4549f88aaa7d4e80ac36f052918",
+    "git_verification": "matches",
+    "recorded_sha256": "0eef476667172ae8455bccdefc5d1ef7dde3a4549f88aaa7d4e80ac36f052918",
+    "checkout_sha256": "6d1991fc639e2d664420122990cbb68653519184745cb24a812364af3d1e0466",
+    "status": "unresolved",
+    "interpretation": "Recorded working-file hash differs from recorded producer/Git hash. Matching restored score bytes does not resolve which code executed."
+  },
+  "unavailable_upstream_records": [
+    {
+      "reference": "qwen_lr/inputs/atomic/files/train/activations.npy",
+      "expected": {
+        "bytes": 631013504,
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "qwen_lr/inputs/atomic/files/validation/activations.npy",
+      "expected": {
+        "bytes": 208732288,
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "qwen_lr/inputs/compound/files/activations.npy",
+      "expected": {
+        "bytes": 1682702464,
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "controls/inputs/extraction/files/activations.npy",
+      "expected": {
+        "bytes": 2629222528,
+        "sha256": "93829ed9b8d206541d6e7148af78822e393e545237bc052714acacfe07cd0f30"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "llama/inputs/atomic/cache_files/train/activations.npy",
+      "expected": {
+        "bytes": 824180864,
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "llama/inputs/atomic/cache_files/validation/activations.npy",
+      "expected": {
+        "bytes": 272629888,
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    },
+    {
+      "reference": "llama/inputs/atomic/pin/files/config.json",
+      "expected": {
+        "bytes": 855,
+        "sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "not present in supplied score package; not required to evaluate finalized scores"
+    },
+    {
+      "reference": "llama/inputs/atomic/pin/files/tokenizer.json",
+      "expected": {
+        "bytes": 9085657,
+        "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "not present in supplied score package; not required to evaluate finalized scores"
+    },
+    {
+      "reference": "llama/inputs/atomic/pin/files/tokenizer_config.json",
+      "expected": {
+        "bytes": 55351,
+        "sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "not present in supplied score package; not required to evaluate finalized scores"
+    },
+    {
+      "reference": "llama/inputs/transfer/activations.npy",
+      "expected": {
+        "bytes": 4532994176,
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0"
+      },
+      "matching_archive_paths": [],
+      "status": "upstream_bytes_unavailable",
+      "reason": "excluded activation tensor"
+    }
+  ],
+  "tests": {
+    "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_t1_score_rebuild.py",
+    "passed": 15
+  },
+  "full_output_directory": "/Users/apple/projects/t1-development-results-20261001",
+  "output_receipts": {
+    "metrics.json": {
+      "bytes": 4027887,
+      "sha256": "a722f6c3ab9497eac5ba48df983e71d1be608acdb91d176a4b7bf64f790b7eca"
+    },
+    "atomic_validation.json": {
+      "bytes": 90093,
+      "sha256": "ad879d934fd3a505678aff2187bf38238e561d81cf4527a7d34e08defc0b9239"
+    },
+    "bootstrap_schedule.npz": {
+      "bytes": 799030,
+      "sha256": "d0a5457a6cfdd99c9edcd6690f0bb7ac79a53f64e444263fc31247fbc8d45477"
+    },
+    "methods_bootstrap_draws.npz": {
+      "bytes": 27164745,
+      "sha256": "a1c54ab0c107384cd1223890c468bfd3c77493c28d887ee16155641c209716a2"
+    },
+    "summary.md": {
+      "bytes": 14450,
+      "sha256": "c636e45e2ea61d0fa1d0c76313b6ba39e85a9376f7d063146ce71f23c2873e64"
+    },
+    "llama_bootstrap_draws.npz": {
+      "bytes": 3197061,
+      "sha256": "17b8fa094ad1cdcdc8c7847e42435bf0bb8f2782eea08eb4a4c0bc2dbe874e46"
+    },
+    "metrics.csv": {
+      "bytes": 1508161,
+      "sha256": "87a0ef538bc68aac56431ea998a18b2386ee94ba3bd28d9aca3ff87ab77d4f87"
+    },
+    "atomic_validation.csv": {
+      "bytes": 56449,
+      "sha256": "781f688c228ef68055af93bf4cb3cdbe961f51744485fbbff7743c153862f2e6"
+    },
+    "qwen_lr_bootstrap_draws.npz": {
+      "bytes": 2724545,
+      "sha256": "1360dfc7454629bc504b21bf11a7f2b02c56c808332c79d2517e5800ead9bcfe"
+    },
+    "controls_bootstrap_draws.npz": {
+      "bytes": 4904905,
+      "sha256": "56925218330c141c00ac35953fcd4e33b708738d585745df2532edde5ae027a5"
+    },
+    "surface_diagnostics.json": {
+      "bytes": 878382,
+      "sha256": "b6b6e0e546bbfbfc8b40be8e6c729dcb9be2fd4b974c006372974d3055106477"
+    },
+    "verification.json": {
+      "bytes": 63798,
+      "sha256": "63db4919a7250c3a786bb56d79b073ac37f243e4ad5e7002f0744e1a19acd175"
+    },
+    "discrepancies.json": {
+      "bytes": 34527,
+      "sha256": "262095f760395c22284054075767fa6327ae0f1bb65c6385571564c81ef55d5f"
+    },
+    "surface_diagnostics.csv": {
+      "bytes": 422810,
+      "sha256": "70f149526cbd38886375186b625de6f25d7db89bfad5f04f88dd33aeb4983174"
+    },
+    "input_hashes.json": {
+      "bytes": 204954,
+      "sha256": "2492e08a1bba2e987f6a22bc43b8b98a71f6d4fa2b81da5ca60bc3830bca6e02"
+    }
+  },
+  "rebuild_command": "/tmp/clean-extraction-venv/bin/python -B scripts/46_rebuild_t1_development_results.py --repo-root /Users/apple/projects/truth-probing-t1-score-rebuild --payload-root /Users/apple/truth-probing-backups/20261001T164224Z/restore_t1_staging_20261001T164224Z_kgkt5sy7 --output-root /Users/apple/projects/t1-development-results-20261001"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "provisional_not_for_production",
+  "reviewed_objective_commit": "5429211251ead82cbc78ab650918ca967d92e09e",
+  "reviewed_overlay_commit": "b8e27508f20bab896a46f448081f43ed32d919c4",
+  "overlay_receipt": {
+    "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v1/candidate_receipt.json",
+    "bytes": 19465,
+    "sha256": "dbed0a5f7e233627c8fd5d4fb558f126729248ee63e6807755a57dc73806e8d5"
+  },
+  "physical_receipt": {
+    "path": "results/t2_cache_physical_followup_20261001T183553Z/compatibility.json",
+    "bytes": 44203,
+    "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+  },
+  "session_receipt": {
+    "path": "results/t2_cache_physical_followup_20261001T183553Z/session_validation.json",
+    "bytes": 4840,
+    "sha256": "4943b186dc70ce5c0c06043eb18f7186666454b622a4e70f362b5f90043afe8b"
+  }
+}
