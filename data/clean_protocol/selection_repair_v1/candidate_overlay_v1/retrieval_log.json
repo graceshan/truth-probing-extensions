@@ -1,0 +1,477 @@
+[
+  {
+    "id": "adler",
+    "url": "https://www.invent.org/inductees/robert-adler",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/robert-adler",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "d8939269d708ffe283cf8ceb3feef96c9792aa55b803d236149541f692c0cbfa",
+    "text_sha256": "58cd0a054d56703b9c6887f4376691787c71af4162f030f7dde110429651153a"
+  },
+  {
+    "id": "archimedes",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e745d909db995490057ad05fffd795c342d6d82df27855491c0f63f699140a07",
+    "text_sha256": "90ba742039170d1e3544ad98787249e352f7d7cadf9c6b8ef6c0ecfa86a3a067"
+  },
+  {
+    "id": "babbage",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "33dc10c5c3b075bb0e71a9ac2c6cd1daf3e3f4a6f4792cfaeb3d0a64533ab326",
+    "text_sha256": "a9f73a1e561bae239d64f04ba8f50b1ad02ff07f5b61cd4d44c96f8dec0de186"
+  },
+  {
+    "id": "basov",
+    "url": "https://www.nobelprize.org/prizes/physics/1964/basov/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1964/basov/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "571abdaa0a97a85e2c7650bc7a7fca7856651df99ad7edd6d72f1c869811ecc8",
+    "text_sha256": "cb78081d8516ae7c3c12c1f0fd4a4652a91b4b806c356d487f7f89e0952c3569"
+  },
+  {
+    "id": "bell",
+    "url": "https://www.nps.gov/people/alexander-graham-bell.htm",
+    "fetch_result": "404\nhttps://www.nps.gov/people/alexander-graham-bell.htm",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "84558944d36a4e9fb35822f1caa66561e9a96e2289598f5980cb966df4c25d06",
+    "text_sha256": "a4bfa2a6b3b27827e5784e15438973828465e929cebb11e0322602553b6f8f6c"
+  },
+  {
+    "id": "bell2",
+    "url": "https://www.invent.org/inductees/alexander-graham-bell",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/alexander-graham-bell",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "ad29a71dd74f803d8a5db4dadf6bd4796668f3313913613884bfb15944bad04f",
+    "text_sha256": "17d357f6a518ee4cf689d8c335819c3b439ce8836104cc02c3c49a6b13bf9f0a"
+  },
+  {
+    "id": "bengio",
+    "url": "https://yoshuabengio.org/biography/",
+    "fetch_result": "404\nhttps://yoshuabengio.org/biography/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "045491e79152319ada1e50c2089e7216aa57517c0d3b74a183ff41a3c71697f1",
+    "text_sha256": "1ecc774ade156be5c92995d0eb5d06e73785a32b7c09d86662af837313fb330d"
+  },
+  {
+    "id": "bengio2",
+    "url": "https://yoshuabengio.org/",
+    "fetch_result": "200\nhttps://yoshuabengio.org/en",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "71ef1caf3e69c96571fa8a1fc9d886896a39b5bdd12948fa758d67c92cfd1e62",
+    "text_sha256": "a62db5c67bd8740a18b64e3bae692579dde614f5f6edf351865d1d37538023bc"
+  },
+  {
+    "id": "bengio_acm",
+    "url": "https://amturing.acm.org/award_winners/bengio_3406375.cfm",
+    "fetch_result": "403\nhttps://amturing.acm.org/award_winners/bengio_3406375.cfm",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "de5c89aa3e828fb4178eaca00e912089472dc3cee693c12a88653e93641b7b96",
+    "text_sha256": "4f1df5ddd3c80486d41cf2d372eacca73727f3c7be80b17b900ee34eb896eb35"
+  },
+  {
+    "id": "bengio_wiki",
+    "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Yoshua_Bengio",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "883dc986c9e51b8df525bf358ccffbf5d62b1d2fbd6832ddc155cf5d9d57f027",
+    "text_sha256": "4eff644501f0ba889862c91a01eeb081aff3fc8b70aa4bb8d986bb68bb07e84a"
+  },
+  {
+    "id": "berliner",
+    "url": "https://www.invent.org/inductees/emile-berliner",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/emile-berliner",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "772b7965344a833895ca8bfe216f6303a90f178a03683e4e575e2fd3d6c2ea38",
+    "text_sha256": "5bcd3cab280a1d6135f3a1556c23146e96b87f4f89dc432e660690d0b7030be9"
+  },
+  {
+    "id": "brill",
+    "url": "https://www.invent.org/inductees/yvonne-c-brill",
+    "fetch_result": "404\nhttps://www.invent.org/inductees/yvonne-c-brill",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "64eca9c957071491a7bd10d8145de83b6c198a4f9f17eedd5682f9d5e7694bb2",
+    "text_sha256": "2aa10531bf058a1039afd3c85f48be9d8c21f6fa8d453ef0ccfe4fe3c8d4564c"
+  },
+  {
+    "id": "brill2",
+    "url": "https://www.invent.org/inductees/yvonne-brill",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/yvonne-brill",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "89b1c9355dfbd491ae83e73e29f4fe80b93003c0279226f8de925e0f56f953f5",
+    "text_sha256": "87f35af5652ca3a7335daba7f1c472f0193ba7db0ccbd31690b280f73ad2deb7"
+  },
+  {
+    "id": "brin",
+    "url": "https://www.britannica.com/money/Sergey-Brin",
+    "fetch_result": "403\nhttps://www.britannica.com/money/Sergey-Brin",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dd8828ca7a583de3ffdbdee71d75d5eb0dfe9936946c921b2e6720b83501e4a5",
+    "text_sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad"
+  },
+  {
+    "id": "brin2",
+    "url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Sergey_Brin",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "2c315462a6e2d7f1030dd98177f8ecaaaf1eb5f97540317e8a42cdb2c6fa7744",
+    "text_sha256": "8eac9e32c4e0be891753df77e92570d40a1dafb4f1017e5cd627c5a7407b2f75"
+  },
+  {
+    "id": "curie",
+    "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "be1c5ff04c2d3104af36d3abad932713074ebe84ce8f607ba760fc2acad15bc8",
+    "text_sha256": "082aed2a0966d5a24355885cc0d275f6b37e45249ffcde8f055d889ea6690dd6"
+  },
+  {
+    "id": "daimler",
+    "url": "https://group.mercedes-benz.com/company/tradition/company-history/1834-1900.html",
+    "fetch_result": "403\nhttps://group.mercedes-benz.com/company/tradition/company-history/1834-1900.html",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "19bae2e0053860056a35dea3cfe00c41a5f04eaa8601fa77d0c4ea21f4e3da3f",
+    "text_sha256": "27946ae3ec3c1db932bd34961690d87011be74e33646264439b99919d3fb79ed"
+  },
+  {
+    "id": "daimler2",
+    "url": "https://group.mercedes-benz.com/company/tradition/founders-pioneers/gottlieb-daimler.html",
+    "fetch_result": "403\nhttps://group.mercedes-benz.com/company/tradition/founders-pioneers/gottlieb-daimler.html",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "15bb01d64136b55603ae6d9b2300267ba2b19b9bfb002e5f302f838a1326a928",
+    "text_sha256": "d5c2b842e5a10b764b55ad0cca72857232529a891d5813e8fb64381974cb66c9"
+  },
+  {
+    "id": "daimler_wiki",
+    "url": "https://en.wikipedia.org/wiki/Gottlieb_Daimler",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Gottlieb_Daimler",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "46ab6803a92805dcc6a5f258ce3a0a65ecc8080a7fbfa7077c61dedfbc4f1109",
+    "text_sha256": "fedabb16561e8343b0658ad543bf68c512098c2c93b695f98204ce2225978674"
+  },
+  {
+    "id": "ericsson",
+    "url": "https://www.invent.org/inductees/john-ericsson",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/john-ericsson",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "d8127adb9ca3b2af17b17000bf3dbdb26394a6109e63a8903aa6e9ab3951156a",
+    "text_sha256": "f9cfcbdd14b0c54fbaf9892f0633bc88a249e9c56cfca64fd89ead9a2302fc60"
+  },
+  {
+    "id": "ericsson2",
+    "url": "https://en.wikipedia.org/wiki/John_Ericsson",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/John_Ericsson",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "48adc7f2e239c17ef21c44123a8f1c1386497f7bcf83d8827c96d07a2e9eb68a",
+    "text_sha256": "a7d0930de353a5bbcdc03825945afc266120704b8e5de16ec4486651fc3f6683"
+  },
+  {
+    "id": "fessenden",
+    "url": "https://www.invent.org/inductees/reginald-fessenden",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/reginald-fessenden",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7f71b27f0e3bf56790a193af58e13ca650261de74998f4da4fe638967ba4ac6b",
+    "text_sha256": "72c8a978a48964c28ee50881d990564622a78690c183eed19b94cfdda3e5011c"
+  },
+  {
+    "id": "galileo",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galileo/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Galileo/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "c016e8f3d2576d803045024557cd854f6c4339c341a8e19612d578e2faa1beaa",
+    "text_sha256": "f7c8829f64241dcbcc941fe4a2275b42435d14749b0329735e529382955aea2c"
+  },
+  {
+    "id": "geiger",
+    "url": "https://en.wikipedia.org/wiki/Hans_Geiger",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Hans_Geiger",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a9ca17b69cce7def630ac43fff9fe658ee1828de3e062fbdf7bccc641a89b428",
+    "text_sha256": "e9cde51618b23edba0bd644ffe2756aa733b385b97d14171e2e53d493b5448b2"
+  },
+  {
+    "id": "gobel",
+    "url": "https://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "86c1622957745bd6fa09876417aaade441e7603fe7c3f1a74c8240a2bdcda973",
+    "text_sha256": "dbefea7d41f1b32e6ca9d6f427ffd448d6b836105383c7056ddb23a5c890d4e1"
+  },
+  {
+    "id": "gobel_patent",
+    "url": "https://patents.google.com/patent/US266358A/en",
+    "fetch_result": "200\nhttps://patents.google.com/patent/US266358A/en",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "59138f61ea0572f389b1263a307f8a2771e01bce8bc7ae03e27993f28bbd698b",
+    "text_sha256": "a33172c2e0416e9058d5d23c4bbc829b0cfa58cc44aa1adcf572c06ded69c9a0"
+  },
+  {
+    "id": "goodyear",
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/charles-goodyear/",
+    "fetch_result": "404\nhttps://www.sciencehistory.org/education/scientific-biographies/charles-goodyear/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "161047dd382e2a912586d20987b6d294a0b98cd225f3dce3fcf0849588a5a3de",
+    "text_sha256": "61c682bff676c75da3977dc6f9d39408062dd6ba88938f79382633e322a322a8"
+  },
+  {
+    "id": "goodyear2",
+    "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Charles_Goodyear",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e617fa5b983d9c7a2635aae6dcd16586d8505076e4fd6d0a7104780b71424899",
+    "text_sha256": "a969995ebd6c3aef7b858fc1eb67b5ce61a56b175db7c1fb5c46a9a4e3270a6b"
+  },
+  {
+    "id": "kapany",
+    "url": "https://news.ucsc.edu/2020/12/kapany.html",
+    "fetch_result": "404\nhttps://news.ucsc.edu/2020/12/kapany/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "4bc455c52c211ad86b29975717650d220454833ccb277bf4d350ef0d550637b0",
+    "text_sha256": "9119eb7c498a6af70b645f407ff8c5743d1287233ebd093286777ec2a2bbe07f"
+  },
+  {
+    "id": "kapany2",
+    "url": "https://en.wikipedia.org/wiki/Narinder_Singh_Kapany",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Narinder_Singh_Kapany",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dbf21ae8b9851d8d607d536c3769ddacb30ead0779b6a7ab761448d58fa64d2f",
+    "text_sha256": "ce5661f728c69d57bb7d0904e1b7dbf2522d535940d417c8acb51f3cbe8288bf"
+  },
+  {
+    "id": "kwolek",
+    "url": "https://www.invent.org/inductees/stephanie-l-kwolek",
+    "fetch_result": "404\nhttps://www.invent.org/inductees/stephanie-l-kwolek",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "3ab78aad4fd83dbf9fbfd7c2ac763e02004931e3ffaf552ccb7569942c372050",
+    "text_sha256": "2aa10531bf058a1039afd3c85f48be9d8c21f6fa8d453ef0ccfe4fe3c8d4564c"
+  },
+  {
+    "id": "kwolek2",
+    "url": "https://www.invent.org/inductees/stephanie-kwolek",
+    "fetch_result": "404\nhttps://www.invent.org/inductees/stephanie-kwolek",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "168e162b23a16a772ae72c2ff28147b5c12062615be9df59ea33dc9facd6e313",
+    "text_sha256": "2aa10531bf058a1039afd3c85f48be9d8c21f6fa8d453ef0ccfe4fe3c8d4564c"
+  },
+  {
+    "id": "kwolek3",
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/stephanie-l-kwolek/",
+    "fetch_result": "200\nhttps://www.sciencehistory.org/education/scientific-biographies/stephanie-l-kwolek/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "dcdaab1b05bceee2d14372b3ae0e9d9a8b26dea49509034c6f170e4cb1f0948a",
+    "text_sha256": "efb588f4e7df8e30e36ba80785e1fd19706b996b4591519c3bc2abfd90db7e61"
+  },
+  {
+    "id": "lamarr",
+    "url": "https://www.invent.org/inductees/hedy-lamarr",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/hedy-lamarr",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "e7d666a43f0f54c2950820b30895d0f52631c6f11a111a5767527969f68470a2",
+    "text_sha256": "81c8c986994a42798ee11f94172df5d1e49aa0cda524737b8219a7532e617c4c"
+  },
+  {
+    "id": "leonardo",
+    "url": "https://www.chateau-closluce.com/en/leonardo-da-vinci",
+    "fetch_result": "000\nhttps://www.chateau-closluce.com/en/leonardo-da-vinci",
+    "error": "curl: (28) Connection timed out after 40005 milliseconds\n",
+    "retrieval_date": "2026-10-01"
+  },
+  {
+    "id": "leonardo2",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leonardo/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Leonardo/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a8d8ed7fe5ea9e2785ef56b91c460212448e220fc7e1adb1bdd899b978b24a23",
+    "text_sha256": "eb62eaf64c87bd8da684c2ef9f7fe07b7b5cd7d92b07f7c0ac19bdec0018988a"
+  },
+  {
+    "id": "lippershey",
+    "url": "https://en.wikipedia.org/wiki/Hans_Lipperhey",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Hans_Lipperhey",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "21b5a7b421a45feb79b74122ae477da59ccdd3480d6bc9ee4dd2d20708ba8530",
+    "text_sha256": "0c502c9e545354a42e3da3a86c20953f1ab81ae789b05d138b356726d906f0ff"
+  },
+  {
+    "id": "lumiere",
+    "url": "https://www.institut-lumiere.org/musee/les-freres-lumiere-et-leurs-inventions.html",
+    "fetch_result": "200\nhttps://www.institut-lumiere.org/musee-lumiere-fr#histoire",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a09fc84516884919239908c482625f6b7da976c22f8fad371665cba15fd8027b",
+    "text_sha256": "9511996a9c2475571a3a1d51b8bc4959e5b7958cc29d5c13901895cbba82e222"
+  },
+  {
+    "id": "marconi",
+    "url": "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+    "fetch_result": "200\nhttps://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "14a1a087fcc830cad83fba2cecfe0fceead98c9da6ee4fbb43b2c7bba7fc8664",
+    "text_sha256": "73e5cd3379378a8b201dee2bd4820e17d2f42759ad29125fcd4d6df5998c34f1"
+  },
+  {
+    "id": "marconi_home",
+    "url": "https://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "fetch_result": "200\nhttps://www.english-heritage.org.uk/visit/blue-plaques/guglielmo-marconi/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "58de2bc4ad76c1824fb3c52bff1f1dca148e5e9830ea3f64e0fdcc7de165bbce",
+    "text_sha256": "bb1a69803083037c2e081c43e089c603516b3574a81b7f3050a1e88bab12c6bb"
+  },
+  {
+    "id": "neumann",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "6181071efe796ac63add45b983c66fc3c9490ac294b47103d65bcb20de39597c",
+    "text_sha256": "4131f311dd0705f6f468b8b324aafc5c832b4a52986b4818eddea7a507a8d2dc"
+  },
+  {
+    "id": "newton",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "511999a10317b3318540241538bf783db9774e2b6920ddeba3c656cf0e63d346",
+    "text_sha256": "db0df9ce6c44a3c349c13cbcf07b442ad15ef629f3e944f8c009f3cce8d39cd9"
+  },
+  {
+    "id": "page",
+    "url": "https://www.britannica.com/money/Larry-Page",
+    "fetch_result": "403\nhttps://www.britannica.com/money/Larry-Page",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "5bde961ddb0c6d9ab92c3ba06780f809178150f53a8f0b0d3925026311779a02",
+    "text_sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad"
+  },
+  {
+    "id": "page2",
+    "url": "https://en.wikipedia.org/wiki/Larry_Page",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Larry_Page",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "b8a1b0398c43bebc1e3f553d70a1b61f57b7b8107d920a86e157a1305e67811a",
+    "text_sha256": "7d207341ed29fe11eb81fbfe436ed26a4cb80112fc3df32367e066ebdde609e8"
+  },
+  {
+    "id": "pfleumer",
+    "url": "https://en.wikipedia.org/wiki/Fritz_Pfleumer",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Fritz_Pfleumer",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "6dba998979c8ba6ffc4ee334124bbb64fafa26b6841b08b9ce58093543841ca0",
+    "text_sha256": "d68a0a1fb4d896cc0a9fd437dfd0a8b9a8006b56e2329faa987e8050eeae18b7"
+  },
+  {
+    "id": "sikorsky",
+    "url": "https://www.invent.org/inductees/igor-sikorsky",
+    "fetch_result": "404\nhttps://www.invent.org/inductees/igor-sikorsky",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "b50e99404da04a5c3d9a17209b1dd5b515edc7071c80ab82581857643bde6ecc",
+    "text_sha256": "2aa10531bf058a1039afd3c85f48be9d8c21f6fa8d453ef0ccfe4fe3c8d4564c"
+  },
+  {
+    "id": "sikorsky2",
+    "url": "https://www.invent.org/inductees/igor-i-sikorsky",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/igor-i-sikorsky",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "f9ef85a9c126c266b84f89a38b4d1f9df479782601017fb66e0e586532d78100",
+    "text_sha256": "6745c36a9c6ae0f6171604aac630ffd006deb229a5440d22528c2c4e7dcf60ff"
+  },
+  {
+    "id": "starley",
+    "url": "https://en.wikipedia.org/wiki/James_Starley",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/James_Starley",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "7659a8c7a6980bd7e38dfee3851ee3c1e04acef606f60f9f5d7f7c0deb11ed25",
+    "text_sha256": "90734bb343539d345aa5b7e6e2574adc6e41f295f8c769951bb2807481edd71a"
+  },
+  {
+    "id": "sundback",
+    "url": "https://www.invent.org/inductees/gideon-sundback",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/gideon-sundback",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "a720e6d3c33a14416dcfffb3705fec88322ddccb58578d072868944df3d8925f",
+    "text_sha256": "03ce28819da785c6992a0996412185290c3a464139b2350db6d38e4014551b4c"
+  },
+  {
+    "id": "telkes",
+    "url": "https://www.invent.org/inductees/maria-telkes",
+    "fetch_result": "200\nhttps://www.invent.org/inductees/maria-telkes",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "0083eca6bfb5d7f1436dd04e2e1161cc19156ec4c956dbf584d1ecba1ddcec0a",
+    "text_sha256": "a9e7a71be54fe2eefbcf483340f5a6c212ccf9ed3137c1d1cc4824dbda748faa"
+  },
+  {
+    "id": "theremin",
+    "url": "https://en.wikipedia.org/wiki/Leon_Theremin",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Leon_Theremin",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "9d81a83efece40f0399e8e6ece88f80dabdf62b4bb0dd0e93fc820720aad15c2",
+    "text_sha256": "61b6ad6d4c9f8e1f15e217f8980656ba726ca4cc8488c502205081ae700822e1"
+  },
+  {
+    "id": "torricelli",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Torricelli/",
+    "fetch_result": "200\nhttps://mathshistory.st-andrews.ac.uk/Biographies/Torricelli/",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "1f2a74ca390418b2b49718043c71115136db552f581ca16504410bd78d0ed47a",
+    "text_sha256": "6cfb0614e0fda8f687c61d37ba3b048f6f3b7c0ccd87c53b27bf86acf9883fd4"
+  },
+  {
+    "id": "walton",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Walton",
+    "fetch_result": "200\nhttps://en.wikipedia.org/wiki/Frederick_Walton",
+    "error": "",
+    "retrieval_date": "2026-10-01",
+    "response_sha256": "2f786a317ff85a094ebfe93af4fb6ced5e820fcde33ecfc62cb55276e127dd8a",
+    "text_sha256": "5b6ff98f2ee0889c160b51341f195d84b06aaacc38a3e752aa1124a06b970c76"
+  }
+]

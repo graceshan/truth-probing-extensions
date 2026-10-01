@@ -1,0 +1,719 @@
+[
+  {
+    "source_row_id": "inventors:2",
+    "paired_source_row_id": "neg_inventors:2",
+    "statement_sha256": "288de7a606aa10b0b5750aa5e84b4f5f8aa149d892e5299db4f1e65a5fe37703",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_8e5f5f10d41f09992da14b6097cd0280ce6c4594a46b0cb3e504167b53de4cd2",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "walton"
+    ],
+    "reasoning": "An explicit two-year US factory establishment/work posting supports residence under the existing residential-employment rule, not merely factory ownership. Secondary-source-only finding requires review.",
+    "limitations": "Explicit two-year American factory-startup posting; secondary biography.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:5",
+    "paired_source_row_id": "neg_inventors:5",
+    "statement_sha256": "15a0dbbbd2cc204c45e86aa8eb2da81d54b19e681b44722d960f9e76e76de1c5",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_35f728f3f0a77b7c337e548cfa838a5cb505e0c69c3136176fc27c4f76645446",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "torricelli"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Roman education/history, not an adjudication of contemporary polity versus present-day territory.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:11",
+    "paired_source_row_id": "neg_inventors:11",
+    "statement_sha256": "99f835173876ab6817ce40272792a3349098889092e7007701e117929c65ebf4",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_8a396930a529b3032ff0f5d55f707dafb399d479b9c46fec9205fb5d270165df",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "sundback"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Short institutional profile; Swedish birth is not complete residence evidence and does not define slash semantics.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:32",
+    "paired_source_row_id": "neg_inventors:32",
+    "statement_sha256": "d4e074c941d54b589e8a99ba7af591b6c101e23d93bd08daedaf599f1b99ba43",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "archimedes"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Lost biography and Syracuse/Sicily context; Ancient Greece political/cultural/territorial reading unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:33",
+    "paired_source_row_id": "neg_inventors:33",
+    "statement_sha256": "b321c07f035c4ef0013c8ddf92a27aca0c1881022fc70e008e4ab93288342ae2",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_f7a815593f2680dbab6896fcd5764e4a22238bd070d6c79d22b6e96526d6377a",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "daimler_wiki"
+    ],
+    "reasoning": "The inspected account provides a foreign employment/travel lead but insufficient corroboration of the exact country or residential character. No duration cutoff or omission-based falsity inference is applied.",
+    "limitations": "Grafenstaden employment, then Paris visit and England work; exact historical France placement requires corroboration; Mercedes pages blocked.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:38",
+    "paired_source_row_id": "neg_inventors:38",
+    "statement_sha256": "89979953ecff0f6840b3c7d279b5f61180b7ecf76a9c2145f108373a3d023206",
+    "split": "test",
+    "original_label": "1",
+    "person_key": "entity_a5264623dfa90c588f02618a32829788d9249453cc53ca3a36aaf62874d8bf39",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "t2b:porro_treccani"
+    ],
+    "reasoning": "Treccani explicitly documents Florence settlement in 1861 and Milan from 1863. This supports Italy after unification, without projecting modern borders onto his earlier life.",
+    "limitations": "Preserved T2B inspected evidence; no change to its adjudications",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:51",
+    "paired_source_row_id": "neg_inventors:51",
+    "statement_sha256": "b15b0d385e244cb3d6ab520f587ff232a38e42f6da39232c55b504fa8c95b00f",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_19acb9901c43e657053cbfb0fda6ee21c0992ea2adc7d3e0b7d3d90c6d3c4d92",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "lippershey"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Early-modern European settlement; exact anachronistic US claim remains semantically unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:68",
+    "paired_source_row_id": "neg_inventors:68",
+    "statement_sha256": "61330d96a80fbc6459f5aad1a9d4607e3ac3e0ba5d94798b2370679faa992d8d",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_239e749eb7c4db0d69ebf9c5847b3001dd62656dc4aaf27d22ea171b98565390",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "marconi_home"
+    ],
+    "reasoning": "English Heritage explicitly records Marconi living at this London address in 1896–1897. UK residence is directly supported.",
+    "limitations": "English Heritage inscription explicitly says lived here in 1896–1897; London plaque.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:71",
+    "paired_source_row_id": "neg_inventors:71",
+    "statement_sha256": "b58916579e3633328a79c6e44238e18e4cb4e64e33c9b2a978082a346f7e89ff",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "brin2",
+      "page2"
+    ],
+    "reasoning": "The evidence does not establish the exact joint-person claim. Do not infer both people’s residence from one person, a shared invention, or missing UK mentions.",
+    "limitations": "Immigration to US at six, Maryland education and Stanford study support Brin’s US residence.; Michigan childhood schooling and Stanford study support US residence independently for Page.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:84",
+    "paired_source_row_id": "neg_inventors:84",
+    "statement_sha256": "4b7bb12852f2ebabcc84b7e197892889820f7d237f9700051513d42363ad2c07",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_573ce46cace191b18125f537a867017b12f7e0fdf36535efe0e36ae6ef0bd69a",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "telkes"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Hungarian education and US appointments documented; does not define slash proposition.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:85",
+    "paired_source_row_id": "neg_inventors:85",
+    "statement_sha256": "58b3ba2907f3052e6d97e0fb791860309dc040e1485b325be5a73ed080c022de",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_6cb2622cfb8458598335845ef19e7d9d3ea0f0f4d6a549c8b7df8ffbed209a2c",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "adler"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Vienna education and US Zenith appointment documented; slash semantics remain unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:99",
+    "paired_source_row_id": "neg_inventors:99",
+    "statement_sha256": "0895325f7f5d834ce98d3c99fe23f30705692633803ff943022382c87e59c206",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_de925a2cf4221588d42d9104d38842b823a038fc5657c17ac00ed4283d0bd78f",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "leonardo2"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Florentine work and European movements; Poland/France operator remains undefined.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:102",
+    "paired_source_row_id": "neg_inventors:102",
+    "statement_sha256": "7242aed8f2f9a941b763fe1808f542bf82ee071fc9ae3924d75015afeaadeafa",
+    "split": "test",
+    "original_label": "1",
+    "person_key": "entity_7a3f336fce755f6a6584be12260d797bb574f76bf79078bb244ce05edb813a6b",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "neumann"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Budapest home and Princeton appointment documented; slash semantics not specified.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:131",
+    "paired_source_row_id": "neg_inventors:131",
+    "statement_sha256": "17853abebe825346c959a78513e8041dae4e59ff163cf2fe7c977b7ad9b56cbd",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_a8c3b12a0b65406bf3b6ab33cbf21c386fe6a79acd6d89aede0221667c862a5c",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "kwolek3"
+    ],
+    "reasoning": "The institutional biography concerns Stephanie Kwolek, but the original source entity is only Kwolek and has no accepted true counterpart. Identity cannot be proven by normalized surname alone. Quarantine pending an explicit identity audit.",
+    "limitations": "Institutional biography identifies Stephanie Kwolek; does not establish that the source surname-only entity denotes her.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:135",
+    "paired_source_row_id": "neg_inventors:135",
+    "statement_sha256": "c92b1539763414f034e10ab8a22a607b23f0616d4d999ec197d0b167caec0e1a",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "geiger"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Manchester research documented; not evidence for Austria/US slash statement.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:136",
+    "paired_source_row_id": "neg_inventors:136",
+    "statement_sha256": "2c109ea542c4e03b3b0a33c76aa1e989d28ce97dff01daad0d001341e1d24a45",
+    "split": "test",
+    "original_label": "1",
+    "person_key": "entity_2a5f40010a936ed24a03e6d176c168288aebd4c0993b4531eb66af7c53ed4a70",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "bell2"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Schooling and Scottish background; no independent semantics for three-country slash list.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:139",
+    "paired_source_row_id": "neg_inventors:139",
+    "statement_sha256": "9abca5922e769687733af30f95eb3070450e1273af14309c4626530ef5dcc358",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_93cb0a94bca9f578a305514ae91b08e5b92b349e0c7a24dfae92939e9931c52c",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "kapany2"
+    ],
+    "reasoning": "Going to Imperial College London for doctoral study in 1952–55 is a residential study posting under existing semantics. Secondary source; institutional lead unavailable.",
+    "limitations": "Secondary biography documents move to Imperial College London in 1952 and PhD in 1955.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:142",
+    "paired_source_row_id": "neg_inventors:142",
+    "statement_sha256": "e85b0ddc3498ff9023bd33aba6c95b06a398c25ce1322f744e64823e6da76f76",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_dcd9fb13a7009b2b33137585ed649a77b51878248c0d2924d140684e880e81ad",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "wright_home"
+    ],
+    "reasoning": "The inspected family history places both brothers in US childhood homes, including permanent return to Dayton in 1884. Both persons are supported independently of the French demonstrations.",
+    "limitations": "Family returning permanently to Dayton and living in Cedar Rapids includes both brothers. Reinspection of already retrieved source; family residence supports both-person US claim, not French residence.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:196",
+    "paired_source_row_id": "neg_inventors:196",
+    "statement_sha256": "0ea80d2ddcf832dda7a97df29e7f6d02ce5ae140da3d29c0d40c85b0208396ee",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_bc7088b1bf444dd3458609231f2d4834562e21cb877b1e09322ca1084a0acfdf",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "archimedes"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Lost biography and Syracuse/Sicily context; Ancient Greece political/cultural/territorial reading unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:204",
+    "paired_source_row_id": "neg_inventors:204",
+    "statement_sha256": "42c8fc7b5b37435deb501baf658cf026edc363806a082286adf4106ca2b4f402",
+    "split": "test",
+    "original_label": "1",
+    "person_key": "entity_1b9da2fab3c222e58415cfbcb99e68fdf03d6eef2df668d7c213982049bf93e7",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "basov"
+    ],
+    "reasoning": "Nobel documents Moscow study/employment during the Soviet Union, the actual named historical polity; no Russia/USSR successor mapping is used.",
+    "limitations": "Explicit Soviet-era Moscow residential study and work. No successor-state mapping required.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:207",
+    "paired_source_row_id": "neg_inventors:207",
+    "statement_sha256": "a3e3ccc9506f081b42552ceb78c214cc04e025fb1a50e74067907ae65ef6c444",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_745fcae09c2f7949e4a47e3fc90e36f571af5286f21c644b22ea13661bbe5626",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "t2b:huygens"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Preserved T2B inspected evidence; no change to its adjudications",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:224",
+    "paired_source_row_id": "neg_inventors:224",
+    "statement_sha256": "7f81a72ea82af1f5bc56c49c64caa682c11a8f37b827b50ce9504a941e87d608",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "t2b:edison"
+    ],
+    "reasoning": "NPS records US homes throughout Edison’s adult life, including West Orange until death.",
+    "limitations": "Preserved T2B inspected evidence; no change to its adjudications",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:233",
+    "paired_source_row_id": "neg_inventors:233",
+    "statement_sha256": "41471d77caf75da3efd236b8d9800c08733cf1c7c3b9eefaaaf2eeb6bbb87b39",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_90cef7a60c34c52e26ddf9adbe58d2a30fe44b106c42b19e9f0f71312c23f78e",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "gobel",
+      "gobel_patent"
+    ],
+    "reasoning": "Secondary biography explicitly reports immigration and residence in New York. The contemporary Henry Goebel patent corroborates New York location; the biography explicitly links Heinrich Göbel and Henry Goebel. No new person-key merger.",
+    "limitations": "Explicit New York immigration/residence; secondary biography with some missing citations.; Primary patent identifies Henry Goebel of New York; corroborates locality, not invention-priority claims.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:234",
+    "paired_source_row_id": "neg_inventors:234",
+    "statement_sha256": "c96b4bb13d67ee570e06bb0965db43c020564c89b475d62f1bcda90352dabb2a",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_ab7e3d36099ec6493a4414c6b6c8761c961ea60f870a0c3f612ba5d6635417f3",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "bengio_wiki"
+    ],
+    "reasoning": "MIT and Bell Labs postdoctoral fellowships are residential research appointments under existing policy; no remote-posting qualification reported. Secondary source; independent institutional corroboration remains desirable.",
+    "limitations": "Explicit postdoctoral appointments at MIT and Bell Labs; secondary account. ACM biography blocked.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:236",
+    "paired_source_row_id": "neg_inventors:236",
+    "statement_sha256": "96d4d9ee01f7c6e9fe79517a941e92b22ec03138311ec3bd2ea7e130326eb5dd",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_882915c7772d249b9401ecea518f3697c49e490d3c7a3a13f2004611873bd60c",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "curie"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Warsaw under Russian domination, Cracow under Austrian rule and Paris study illustrate both slash and historical geography issues.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:240",
+    "paired_source_row_id": "neg_inventors:240",
+    "statement_sha256": "40b76eef5cd7b11188a8b62b4718e6b03d9e32afd9330e8764bc91bd7f595357",
+    "split": "test",
+    "original_label": "0",
+    "person_key": "entity_a404eb3dfb795cafbbe4b654fb01c6aafdf0cd9a26b5a73cdc26fc5ea8eb7cc6",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "ericsson2"
+    ],
+    "reasoning": "Explicit settlement in New York City establishes US residence; this is not inferred solely from work on a US ship.",
+    "limitations": "Explicit settlement in New York City in secondary biography; institutional NIHF career account and prior Nobel evidence also corroborate US work.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:241",
+    "paired_source_row_id": "neg_inventors:241",
+    "statement_sha256": "51d245758845737fdcd613aff84f7a2a69fb97c688d97d5fcb186e359fe42226",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_4cdb26140c9bec6b4662202c8a0132d97d578e2829ff902943cb7c1e6640c2b0",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "starley"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "English employment history; no slash operator inferred and no automatic negative judgment.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:243",
+    "paired_source_row_id": "neg_inventors:243",
+    "statement_sha256": "7ffce4ae7230854e08cd6ea43c15d474b66fa236f74325d98ff994bbe6b97b84",
+    "split": "test",
+    "original_label": "0",
+    "person_key": "entity_b815eef735473ab08e990b79b9f306ccfefe4530db89e2cfd8b0c827ced4ba8a",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "pfleumer"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Text distinguishes Fritz from brother Hans, who emigrated to US; do not transfer a relative’s residence.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:280",
+    "paired_source_row_id": "neg_inventors:280",
+    "statement_sha256": "73e4d74aea58d71e4bd101d765b8b226fa8538c2845840488cbe91affb017f4d",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_986fc708fc57f55e7487354b74a66a1423f5982c4c522af79f4d8504949ada5f",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "sikorsky2"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Kiev birth and US immigration; historical territory and slash semantics unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:286",
+    "paired_source_row_id": "neg_inventors:286",
+    "statement_sha256": "387dcaa93e178009296005af9e9533a40415c4832d38baccfb2efce28cadbc01",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "theremin"
+    ],
+    "reasoning": "The inspected account provides a foreign employment/travel lead but insufficient corroboration of the exact country or residential character. No duration cutoff or omission-based falsity inference is applied.",
+    "limitations": "Patent sales and European demonstration tour; residential character of German stay not settled.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:287",
+    "paired_source_row_id": "neg_inventors:287",
+    "statement_sha256": "de9d596e177ae27a4fbf0bba6735d1b55719872bddffcd63cc7afe2eae3018c7",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_6c5d95e799d90a3d7db71d03712fb1d717c1a3a0ccd283472f029026ec4ea607",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "berliner"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "German birthplace and Cooper Institute study; birthplace not residence and slash meaning unspecified.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:297",
+    "paired_source_row_id": "neg_inventors:297",
+    "statement_sha256": "303c4f8bdbd075dd2a96492bf1b6527a2b5aa891d8cbfc43b0c13ae3aff43612",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_87ba9c4ed3f45b1d99791fb916d4b7698f19b8c62d09092ce1e5955702e160ac",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "galileo"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "Childhood in Pisa/Florence; no temporal-country semantics imposed.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:307",
+    "paired_source_row_id": "neg_inventors:307",
+    "statement_sha256": "eaa3478325458a85b6a7702e75a7e8e7295799a51243ea46f592f5a4d19014e0",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_648cc769ef46f12124cad6cfbb5560de64cd5a5e8c61ed5a2384b9f66103c5cb",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "fessenden"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Canadian origin, Bermuda and US work; no slash proposition interpretation imposed.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:323",
+    "paired_source_row_id": "neg_inventors:323",
+    "statement_sha256": "508ce8375fefa9a9860f40f047c0bdd0a90e46ed17f04309578183970fb7095d",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_41472b2ae00c9cff39bf7e83730e55af2cec6ee0f293c1c14f1a8bed73f7d3d7",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "brin2",
+      "page2"
+    ],
+    "reasoning": "Brin’s childhood immigration/US schooling and Page’s Michigan childhood/Stanford education separately support both members living in US. No claim of simultaneous co-residence is needed for this distributive reading; both satisfy it.",
+    "limitations": "Immigration to US at six, Maryland education and Stanford study support Brin’s US residence.; Michigan childhood schooling and Stanford study support US residence independently for Page.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:331",
+    "paired_source_row_id": "neg_inventors:331",
+    "statement_sha256": "31169e70f5933a77317275feb0c40629fb1bed2af6c6ec881dd3fb625dbcb4f7",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_90a14bae3aac15575997558329b131666d87880cd2c46cc6fd0aa8021143cd7d",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "lamarr"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Austrian birth alone does not establish a complete residence list; slash claim unresolved.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:339",
+    "paired_source_row_id": "neg_inventors:339",
+    "statement_sha256": "8815e9c854ad4a5a8fccc546b17e26a729fe48903fd8e2968c9e0cbbb1b4b723",
+    "split": "validation",
+    "original_label": "0",
+    "person_key": "entity_0f7effc2038320c802c7fd8063cac3266e6cec92edc3397ab81e5c21098b2755",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "babbage"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "London family home is documented, but missing slash/country semantics are not resolved by a birthplace.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:351",
+    "paired_source_row_id": "neg_inventors:351",
+    "statement_sha256": "38dd9e8063bc95f069e36ba1dce06ea4e7379bdbbfb0c55fcb23561b0c851634",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "t2b:maxwell"
+    ],
+    "reasoning": "The retained university biography records Maxwell’s London and Cambridge residential posts during the United Kingdom’s existence. This is a case-specific residence adjudication, not a new country-component normalization mapping.",
+    "limitations": "Preserved T2B inspected evidence; no change to its adjudications",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:377",
+    "paired_source_row_id": "neg_inventors:377",
+    "statement_sha256": "3d47ebe71450d252d45ce03025ac18a2c345f5546debfddd25234471cdca5a9b",
+    "split": "train",
+    "original_label": "0",
+    "person_key": "entity_c0dab4156befcb542c7978c88760a3b485168555fb6e7e26fedeacaa5161b82d",
+    "judgment": "supported_true",
+    "evidence_ids": [
+      "brill2"
+    ],
+    "reasoning": "NIHF records California employment after graduation and simultaneous USC graduate study, supporting a residential employment/study period in the US.",
+    "limitations": "NIHF documents California employment and University of Southern California graduate study.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:382",
+    "paired_source_row_id": "neg_inventors:382",
+    "statement_sha256": "37a14faf3342a985594e4c9c1597512d689cc54e69b7cbc41c38ad289c61fe02",
+    "split": "test",
+    "original_label": "0",
+    "person_key": "entity_e9e7cd581512c2b34d173cd1a04a4c4bf5e7270d036bd5d9a9e49edfe1b93b30",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "goodyear2"
+    ],
+    "reasoning": "The inspected account provides a foreign employment/travel lead but insufficient corroboration of the exact country or residential character. No duration cutoff or omission-based falsity inference is applied.",
+    "limitations": "European trip and claimed English/French imprisonment; duration and residence interpretation unclear, with citation gaps.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:384",
+    "paired_source_row_id": "neg_inventors:384",
+    "statement_sha256": "0637f3e8a9971436f723a4f6c1279bd567cc97984110b0c5503a9ff0dfeb53a5",
+    "split": "validation",
+    "original_label": "1",
+    "person_key": "entity_b4d1b9ea82f2f6918da2be88084d26ff850bfc4fbb369e1f98756dfd0dd58d7c",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "t2b:fahrenheit_wiki"
+    ],
+    "reasoning": "The inspected evidence does not resolve the source slash-list proposition. No AND/OR meaning is assigned, and residence in one component is not enough to relabel the whole claim. Quarantine both original forms.",
+    "limitations": "Preserved T2B inspected evidence; no change to its adjudications",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:401",
+    "paired_source_row_id": "neg_inventors:401",
+    "statement_sha256": "2f6cb6e6008fd57eef3672582f59d1efd5b62f61e12d5744a178eaa126555e52",
+    "split": "test",
+    "original_label": "0",
+    "person_key": "entity_3137202013025a52e0220c273eceb2c11fd35f4c66ec7d28d23e9c10031fb33b",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "newton"
+    ],
+    "reasoning": "Historical polity, culture or present-day territory interpretations are not fixed by the original country semantics. The biography is recorded, but no convenient geographic/temporal reading or anachronism-only false judgment is imposed.",
+    "limitations": "17th/18th-century Cambridge/London chronology; no automatic false judgment solely because US state did not yet exist.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  },
+  {
+    "source_row_id": "inventors:403",
+    "paired_source_row_id": "neg_inventors:403",
+    "statement_sha256": "54f2f8d7cb9f6c3c827076c94549e37408857381f9e47d9a5bf27e04cbc64183",
+    "split": "train",
+    "original_label": "1",
+    "person_key": "entity_b3cc7cae44884fe2e0525e0fad6ecda297cf7f6e46c279ae04a46b3e4dcc0e95",
+    "judgment": "unresolved",
+    "evidence_ids": [
+      "lumiere"
+    ],
+    "reasoning": "The evidence does not establish the exact joint-person claim. Do not infer both people’s residence from one person, a shared invention, or missing UK mentions.",
+    "limitations": "Museum documents the brothers’ apparatus and Paris exhibition, not both persons’ residences.",
+    "reviewer_method": "Codex-assisted external review, not human verification",
+    "review_date": "2026-10-01",
+    "sample_denominator_contribution": 0
+  }
+]

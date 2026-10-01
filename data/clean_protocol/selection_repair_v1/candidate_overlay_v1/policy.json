@@ -1,0 +1,41 @@
+{
+  "version": "t2c-candidate-overlay-v1",
+  "status": "candidate_pending_review_not_production",
+  "base_commit": "68f861cac10d0e631fc215e1f09210f6d5e9ca90",
+  "semantics": "T2B review_policy.md unchanged; no duration cutoff, geographic containment/succession mapping, slash truth operator, nationality or negative inference from country nonmembership.",
+  "posting_leads": {
+    "inventors:2": "Frederick Walton: possible US manufacturing/residential interval; lead only",
+    "inventors:33": "Gottlieb Daimler: possible French technical employment; lead only",
+    "inventors:68": "Guglielmo Marconi: possible British employment/residence; lead only",
+    "inventors:131": "Kwolek: incomplete subject name and possible US work; identity unresolved lead",
+    "inventors:139": "Narinder Singh Kapany: possible UK residential study/employment; lead only",
+    "inventors:233": "Heinrich Göbel: possible US emigration; lead only",
+    "inventors:234": "Yoshua Bengio: possible US postdoctoral appointment; lead only",
+    "inventors:240": "John Ericsson: T2B Nobel evidence explicitly locates the visited engineer in US; residence follow-up",
+    "inventors:286": "Leon Theremin: possible German stay during foreign tour; visit/residence unresolved lead",
+    "inventors:377": "Yvonne Brill: possible US technical employment/residence; lead only",
+    "inventors:382": "Charles Goodyear: possible British working/residential interval; lead only"
+  },
+  "geography_watchlist": [
+    "Archimedes",
+    "Evangelista Torricelli",
+    "Hans Lippershey",
+    "Galileo Galilei",
+    "Sir Isaac Newton"
+  ],
+  "geography_rule": "Flag retained US false claims for this fixed pre-US watchlist; dates/polity meaning need review, not an automatic false classification. Explicit Ancient Greece/Soviet Union objects and all slash objects separately inventoried on either affirmative label. This is a bounded sentinel screen, not a census of every historical border ambiguity.",
+  "reused_positive_support_entities": [
+    "Thomas Edison",
+    "James Clerk Maxwell",
+    "Christian Huygens",
+    "Ignazio Porro"
+  ],
+  "screening": "Enumerate all retained inventor false affirmatives after mandatory carries. Link exact subjects to existing T2B reviews/evidence and named residence leads. Every other row gets screened_no_trigger_in_bounded_material, substantive_residence_screen_incomplete=true; this is NOT supported_false. No keyword/name normalization establishes residence or identity.",
+  "queue_order": "original affirmative source row_index ascending; all triggers on a row deduplicated",
+  "carry_policy": "T2A excluded rows remain non-admitted. Simjian rows classified quarantined in candidate while T2A reasons remain unchanged. T2B 2 error pairs excluded, 24 unresolved pairs quarantined, regardless of follow-up evidence. Exclusion priority over quarantine for other overlapping reasons; Simjian entire-person quarantine retains all historical reasons.",
+  "target_policy": "Targeted unresolved claims quarantined with negations. supported_true on label0 or supported_false on label1 excluded; agreeing resolved label retained unless historical carry prevents readmission. No labels or splits altered.",
+  "capacity": "Affirmative facts only; distinguish source-label availability, previously externally reviewed registry negatives, newly adjudicated facts, and fully audited positive+negative person-key pairs. Legacy source_supported_false is source-label support, not independent factual audit. Exact entity/statement matches only; ambiguous/quarantined inventor subjects do not acquire legacy generated-fact capacity.",
+  "adaptation": "Report hypothetical 10/15/20 entity upper bounds by existing partition, without selecting/reserving entities or assigning A/P/T_C. Fully audited pair counts are a conservative lower bound; positive-entity counts are a provisional ceiling requiring negative and positive review. Spanish false-only source entities do not establish true+false capacity.",
+  "franklin": "Separate ineligible historical Franklin/France candidate; not an original source pair or sample error.",
+  "no_experiments": true
+}

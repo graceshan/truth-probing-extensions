@@ -1,0 +1,14 @@
+{
+  "policy_sha256": "9e857bc36476361eae4a5fdf049b8772967d8946ca563b145598c83a9b919d35",
+  "queue_sha256": "faf552af968fa37b1ed8844b78bce599a11b597c0be7a9eded3f935f03c2fe3c",
+  "screening_sha256": "5c6f97c479cefdb684a0e1e622fbf0633490a99a898a061ed21930d5e396cc50",
+  "queue_count": 42,
+  "false_screen_count": 140,
+  "timing": "Written before T2C external source retrieval/adjudication",
+  "input_hashes": {
+    "data/clean_protocol/selection_repair_v1/source_audit_v1/row_manifest.csv": "05513d782fcef6836e1641a60f651c7d2d5fa9ff4aa280cf177c5b9eb9f53d4f",
+    "data/clean_protocol/selection_repair_v1/source_review_v1/reviews.json": "e2f442f8a30586743d5092f1c19f8a5b2a7c24227c94805d2774885187b312be",
+    "data/clean_protocol/selection_repair_v1/source_review_v1/recommended_exclusions.csv": "3d524ce4332b2f25db1842f2ed7088acd8dbf811a136b2560d7339bc25b6368e",
+    "data/clean_protocol/selection_repair_v1/source_review_v1/review_policy.md": "d8a461f2808853883f6070d9b4fa0386439349f974dc40bc22d3f675e1466d8d"
+  }
+}
