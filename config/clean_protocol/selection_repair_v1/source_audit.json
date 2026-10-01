@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "protocol": "selection_repair_v1",
+  "audit_version": "source_audit_v1",
+  "base_commit": "21996d9ba5b6b217a07a06d33c3d56db908c3b41",
+  "source_dir": "data/tiu_datasets",
+  "partition_dir": "data/clean_protocol/entity_partitions",
+  "output_dir": "data/clean_protocol/selection_repair_v1/source_audit_v1",
+  "country_component_mapping": {
+    "Ancient Greece": "Ancient Greece",
+    "Austria": "Austria",
+    "Canada": "Canada",
+    "China": "China",
+    "Croatia": "Croatia",
+    "Denmark": "Denmark",
+    "England": "England",
+    "Finland": "Finland",
+    "France": "France",
+    "Germany": "Germany",
+    "Hungary": "Hungary",
+    "India": "India",
+    "Italy": "Italy",
+    "Japan": "Japan",
+    "Norway": "Norway",
+    "Poland": "Poland",
+    "Russia": "Russia",
+    "Scotland": "Scotland",
+    "Sweden": "Sweden",
+    "Switzerland": "Switzerland",
+    "Turkey": "Turkey",
+    "Ukraine": "Ukraine",
+    "the Netherlands": "Netherlands",
+    "the Soviet Union": "Soviet Union",
+    "the U.K": "United Kingdom",
+    "the U.S": "United States",
+    "the U.S.": "United States",
+    "United States": "United States",
+    "USA": "United States",
+    "the U.K.": "United Kingdom",
+    "United Kingdom": "United Kingdom"
+  },
+  "country_policy": "Split slash lists, trim whitespace, apply explicit case-sensitive mapping. No geographic containment, historical succession, or nationality inference. Unknown components fail closed. Any overlap excludes both source forms provisionally; nonoverlap is not proof of falsity.",
+  "alias_groups": [
+    {
+      "names": [
+        "Luther George Simjian",
+        "Luther Simjian"
+      ],
+      "evidence_id": "simjian",
+      "status": "confirmed"
+    },
+    {
+      "names": [
+        "Philo Farnsworth",
+        "Philo Taylor Farnsworth"
+      ],
+      "evidence_id": "farnsworth",
+      "status": "confirmed"
+    }
+  ],
+  "sampling": {
+    "size": 30,
+    "seed": 20261001,
+    "rng": "numpy.random.Generator(PCG64)",
+    "stable_order": [
+      "dataset",
+      "row_index"
+    ],
+    "algorithm": "choice(frame_size, size=30, replace=False); preserve draw order"
+  },
+  "positive_country_evidence": [],
+  "unresolved_facts": [
+    {
+      "subject": "Benjamin Franklin / France",
+      "status": "unresolved_not_positive_evidence",
+      "historical_review_status": "rejected_true_or_ambiguous",
+      "historical_registry": "data/clean_protocol/validated_negatives/v1/validation_reviewed_batch_001_inventor_manual_external_review_v5/registry.csv",
+      "note": "Rejection and Library of Congress citation in imported review are preserved, not promoted into positive evidence. Residence support needs independent factual review; this is a generated historical candidate, not necessarily an original source false row."
+    }
+  ],
+  "policy": "Exclusion overlay only; never relabel or reassign partitions. All manifests remain provisional until pending factual reviews pass."
+}

@@ -1,0 +1,26 @@
+{
+  "simjian": {
+    "status": "confirmed_identity",
+    "source_type": "encyclopedia_biography",
+    "url": "https://en.wikipedia.org/wiki/Luther_Simjian",
+    "retrieved_date": "2026-10-01",
+    "observed_revision": "1339843883",
+    "response_sha256": "b108895c4ae945b2d85bd6e8d8e281be51c7c3c275100fb8b39b313f3f4c74d1",
+    "page_title": "Luther Simjian",
+    "excerpt": "Luther George Simjian (January 28, 1905 – October 23, 1997) was an Armenian-American inventor and entrepreneur.",
+    "decision": "Page title uses the short name; biography identifies the full name as the same person. This supports identity only, not a complete residence history.",
+    "limitation": "Single secondary source; no independent primary biographical corroboration in this audit."
+  },
+  "farnsworth": {
+    "status": "confirmed_identity",
+    "source_type": "encyclopedia_biography",
+    "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+    "retrieved_date": "2026-10-01",
+    "observed_revision": "1372255204",
+    "response_sha256": "5efdc0f773385c5041c6c3d8b7f5de5bcb2c440bd8112d8b4dba877d5eed4c55",
+    "page_title": "Philo Farnsworth",
+    "excerpt": "Philo Taylor Farnsworth (August 19, 1906 – March 11, 1971) was an American inventor who was granted the first patent for the television by the United States government.",
+    "decision": "Page title uses the short name; biography identifies the full name as the same person. This supports identity only, not a complete residence history.",
+    "limitation": "Single secondary source; no independent primary biographical corroboration in this audit."
+  }
+}
