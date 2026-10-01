@@ -1,0 +1,209 @@
+{
+  "P_A_frozen": false,
+  "additional_configurations": 36,
+  "adoption_sha256": "bea2bb1b69c5801767ce010640c9866be2d5288c1b49239c9e911e61f361da0f",
+  "analysis_id": "nested_P10_capacity_fallback_v2",
+  "authority": "Explicit user authorization for exactly 36 nested P10 configurations and matched comparisons with completed full/P15 fits; P/A remains unfrozen",
+  "bindings": {
+    "A10": {
+      "bytes": 98208,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/A10_proposal.json",
+      "sha256": "560b63a5651d044b00cb10438f2f48c3cd80f5afbd5bd1ef4a88e77bec30b8ee"
+    },
+    "A15": {
+      "bytes": 147559,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/A15_proposal.json",
+      "sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6"
+    },
+    "E_only_handoff": {
+      "bytes": 2934,
+      "path": "docs/selection_repair_v5_e_only_handoff_20261001.md",
+      "sha256": "7eecb8bde2755b03c1f6051fc7bb41e7bf32f94d2f1f03f966c3673c550b711a"
+    },
+    "P10": {
+      "bytes": 2275942,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/P10_admitted_membership.csv",
+      "sha256": "6731cc0f53eeef4a929651cce6612034aa452c6bd0abe23a630b9d5b9277ef58"
+    },
+    "P10_sample": {
+      "bytes": 616476,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/P10_balanced_exposure.csv",
+      "sha256": "c6164903384ae96486e87414c0d436f1799f08a0670c8f38aee4f1853a30e5d2"
+    },
+    "prior_binding": {
+      "bytes": 1547,
+      "path": "results/t2_capacity_pilot_v1_20261001/binding.json",
+      "sha256": "cb16e3fe12e8a671b70d736fd7b88e59351bba760bae62833177c673278be720"
+    },
+    "prior_completion": {
+      "bytes": 38262,
+      "path": "results/t2_capacity_pilot_v1_20261001/completion.json",
+      "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+    },
+    "prior_config": {
+      "bytes": 3559,
+      "path": "config/clean_protocol/capacity_pilot_v1.json",
+      "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+    },
+    "prior_external": {
+      "bytes": 1948,
+      "path": "results/t2_capacity_pilot_v1_20261001/external_artifacts.json",
+      "sha256": "4c355cb48ec9086dc34294cda93322a089a45dc67f0fe2a436c4cbbcb36120ee"
+    },
+    "v4_adoption": {
+      "bytes": 7581,
+      "path": "config/clean_protocol/selection_repair_adoption_v4.json",
+      "sha256": "bea2bb1b69c5801767ce010640c9866be2d5288c1b49239c9e911e61f361da0f"
+    }
+  },
+  "bootstrap": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "burger_t_g": "unchanged seed=0 paired balanced sampler, P10=800,160/topic; same dataset-centered OLS and raw inference as v1",
+  "cohorts": [
+    "P10"
+  ],
+  "comparisons": [
+    "P10_minus_full",
+    "P10_minus_P15"
+  ],
+  "correction_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "cumulative_configurations": 108,
+  "difference_of_means": "unchanged unit true-minus-false means on all cohort rows",
+  "endpoints": [
+    {
+      "condition": "atomic_D",
+      "metric": "atomic_auroc",
+      "negative": null,
+      "operator": null,
+      "positive": null
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_auroc",
+      "negative": [
+        "TF",
+        "FT",
+        "FF"
+      ],
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_auroc",
+      "negative": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive": [
+        "TT",
+        "TF",
+        "FT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "and_tt_vs_mixed_auroc",
+      "negative": [
+        "TF",
+        "FT"
+      ],
+      "operator": "AND",
+      "positive": [
+        "TT"
+      ]
+    },
+    {
+      "condition": "raw_reference",
+      "metric": "or_mixed_vs_ff_auroc",
+      "negative": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive": [
+        "TF",
+        "FT"
+      ]
+    }
+  ],
+  "fit_policy": "float64, single process, one BLAS thread, serial configurations, per-fit checkpoint; every fitted transform uses its own fitting cohort",
+  "forbidden": [
+    "full/P15 refits",
+    "P20 fits",
+    "A/P freeze",
+    "production bank",
+    "compound control",
+    "repair fit",
+    "model extraction",
+    "remote transfer",
+    "final-test access"
+  ],
+  "full_role": "A-exposed diagnostic; never primary P-only bank",
+  "limitations": [
+    "Historical producer-code conflicts remain",
+    "Standalone historical tokenizer/model config bytes absent",
+    "No independent replay of extraction",
+    "Fresh extraction requires separate compatibility verification"
+  ],
+  "mass_mean_covariance": "unchanged within-class covariance / n; spectral pseudoinverse absolute cutoff 1e-3, rtol=0, no shrinkage",
+  "methods": [
+    "l2_logistic",
+    "difference_of_means",
+    "mass_mean_covariance",
+    "burger_t_g",
+    "ttpd",
+    "r0"
+  ],
+  "models": {
+    "llama": {
+      "C": 10.0,
+      "layers": [
+        10,
+        15,
+        20
+      ]
+    },
+    "qwen": {
+      "C": 1.0,
+      "layers": [
+        17,
+        18,
+        22
+      ]
+    }
+  },
+  "r0": "verified selection_repair_objectives mean BCE + .001 sum(w^2); cohort-only population scaling; unpenalized intercept; 2000 then warm retry10000 total",
+  "raw_lr": "historical canonical raw LR; Qwen C=1, Llama C=10; no standardization",
+  "review_drop_thresholds": {
+    "atomic_auroc": 0.005,
+    "or_mixed_vs_ff_auroc": 0.05
+  },
+  "reviewed_start": "de776f1c86e4ddc464f79feac391704cbbaf0dc0",
+  "schema_version": 2,
+  "scopes": [
+    "pooled",
+    "topic",
+    "topic_macro"
+  ],
+  "topics": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "element_symb",
+    "animal_class"
+  ],
+  "trigger_policy": "strict drops on identical v4-eligible D; pooled, macro and per-topic flagged separately; pointwise intervals; no automatic membership changes",
+  "ttpd": "same balanced sampler; unregularized polarity LR and two-coordinate truth LR; 100 then cold10000 warning retry; raw projections",
+  "v5_handoff": {
+    "commit": "bb8bc51a864a5702f06ef23f923e11af97710c09",
+    "scope": "user-reported E-only preservation; not merged or adopted as training version; all fits remain v4"
+  }
+}
