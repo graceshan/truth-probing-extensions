@@ -1,0 +1,46 @@
+{
+  "status": "awaiting_review_not_production_default",
+  "recommended_overlay": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2",
+  "corroborated_excluded_pairs": [
+    "inventors:68",
+    "inventors:139",
+    "inventors:233",
+    "inventors:240",
+    "inventors:377"
+  ],
+  "unresolved_quarantined_pairs": [
+    "inventors:2",
+    "inventors:234"
+  ],
+  "admission_membership_changed": false,
+  "admitted_counts": {
+    "train": 3048,
+    "validation": 1012,
+    "test": 1002
+  },
+  "adoption_decision_pending": "Owner review/acceptance of evidence and conservative quarantine treatment; no automatic default promotion. Unresolved claims can remain quarantined.",
+  "experimental_readiness_pending": "Review exact same-entity positive/negative A/T_C facts in outer train; approve role/budget plan before use.",
+  "role_policy": {
+    "T_C_may_overlap": [
+      "P",
+      "A"
+    ],
+    "T_C_excludes": [
+      "D",
+      "E"
+    ],
+    "T_C_twenty_per_topic_scope": "outer_train",
+    "extra_T_C_facts_may_come_from_P_without_enlarging_A": true,
+    "reservation_pilot_per_topic": 15,
+    "fallback_per_topic": 10,
+    "twenty_per_topic_requires": "deliberate B=50 commitment",
+    "entities_selected_or_reserved": false
+  },
+  "preserved_spanish_D_reviewed_negatives": 34,
+  "limitations": [
+    "Bounded seven-claim corroboration, not an exhaustive residence or inventor-label audit.",
+    "Unavailable sources and discovery engines limit corroboration; absence is not evidence of falsity.",
+    "Codex-assisted review, not human verification.",
+    "Earlier 30-case sample and 42-case queue remain unchanged."
+  ]
+}
