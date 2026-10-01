@@ -1,0 +1,16 @@
+{
+  "activation_loads": 0,
+  "artifact_hashes_verified": true,
+  "completion": {
+    "bytes": 38262,
+    "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+  },
+  "exact_memberships_and_samplers_verified": true,
+  "failures": [],
+  "intervals_recomputed": true,
+  "maximum_independent_auroc_error": 2.220446049250313e-16,
+  "real_fits": 0,
+  "status": "passed",
+  "summaries_checked": 1260,
+  "unique_configurations": 72
+}

@@ -1,0 +1,24 @@
+{
+  "A_membership_changed": false,
+  "P10_effectiveness_established": false,
+  "P10_fits_performed": 0,
+  "P_A_frozen": false,
+  "additional_P10_rows": 86,
+  "balanced_P10": 800,
+  "balanced_P15": 700,
+  "decision": "Do not freeze P15 yet; recommend a separately authorized nested-P10 comparison as the next capacity decision input",
+  "possible_within_topic_A10_pairs": 45,
+  "possible_within_topic_A15_pairs": 105,
+  "prospective_P10_rows": 2864,
+  "prospective_P15_rows": 2778,
+  "reason": "Large matched Qwen covariance-MM boundary losses at L17/L18 exceed the prespecified threshold with paired intervals excluding that threshold; a Llama TTPD inventor atomic loss and other topic losses also trigger review. LR and R0 stability does not establish capacity for the whole proposed method bank.",
+  "remaining_requirements": [
+    "Review method-specific and per-topic losses; do not tune covariance cutoff from these outcomes",
+    "Decide and record whether to authorize nested P10; do not infer that it fixes the observed loss",
+    "Set acceptable precision and decision rules: pointwise conditional intervals are not a multiplicity-controlled design acceptance test",
+    "Freeze exact P/A identities, balanced sampler identities, fact allocations, B and fold/pair rules only after review",
+    "Pin model representation, zero-based layers, numeric precision, all method settings and library versions; preserve cohort-local preprocessing",
+    "Resolve or explicitly retain producer/tokenizer/config limitations; fresh extraction needs independent compatibility verification",
+    "Keep every full-training A-exposed diagnostic outside the eventual primary P-only bank"
+  ]
+}

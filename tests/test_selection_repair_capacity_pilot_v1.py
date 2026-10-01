@@ -92,3 +92,35 @@ def test_stream_export_truncation_rejected():
     from src import selection_repair_capacity_export_v2 as v2
     with pytest.raises(ValueError,match='truncated'):
         v2.stream_select(io.BytesIO(b'abc'),[(0,5,'a')],{'a':io.BytesIO()},2)
+
+@pytest.mark.parametrize('mutation',['none','test_row','wrong_layer','wrong_hash'])
+def test_single_pass_export_complete_synthetic_source(tmp_path,monkeypatch,mutation):
+    import io,hashlib,copy
+    from src import selection_repair_capacity_export_v2 as v2
+    monkeypatch.setattr(v2,'ROOT',tmp_path)
+    directory=tmp_path/v2.DIRECTORIES['llama_transfer'];directory.mkdir(parents=True)
+    tensor=np.arange(4*32*3,dtype=np.float16).reshape(4,32,3)
+    np.save(directory/'activations.npy',tensor)
+    metadata='example_id,split,condition_id,evaluation_phase\n'
+    metadata+='a,validation,raw_reference,development\n'
+    metadata+='b,validation,raw_reference,development\n'
+    metadata+='c,'+('test' if mutation=='test_row' else 'validation')+',raw_reference,development\n'
+    metadata+='d,validation,raw_reference,development\n'
+    (directory/'metadata.csv').write_text(metadata)
+    for name in ('extraction_manifest.json','progress.json'):(directory/name).write_text('{}')
+    pin=lambda p:dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())
+    spec=dict(path=str(directory/'activations.npy'),**pin(directory/'activations.npy'),shape=[4,32,3],row_indices=[0,2],row_identity_sha256='synthetic',
+              companions={str(directory/n):pin(directory/n) for n in ('metadata.csv','extraction_manifest.json','progress.json')})
+    jobs={f'llama_transfer_L{layer}':dict(spec,layer=layer) for layer in [10,20]}
+    if mutation=='wrong_layer':jobs['llama_transfer_L20']['layer']=21
+    if mutation=='wrong_hash':
+        for job in jobs.values():job['sha256']='0'*64
+    if mutation!='none':
+        with pytest.raises(ValueError):v2.export_source('llama_transfer',jobs)
+        return
+    result=v2.export_source('llama_transfer',jobs)
+    for layer in [10,20]:
+        data,record=result[f'llama_transfer_L{layer}']
+        np.testing.assert_array_equal(np.load(io.BytesIO(data),allow_pickle=False),tensor[[0,2],layer])
+        assert record['export']['sha256']==hashlib.sha256(data).hexdigest()
+        assert record['original_row_indices']==[0,2] and record['source_stable_through_export']

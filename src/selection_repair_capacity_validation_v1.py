@@ -53,7 +53,7 @@ def validate(root,prepared,output):
         if d['condition']=='atomic_D':mask=np.ones(len(frame),bool);labels=frame.label.to_numpy();score_key='atomic'
         else:
             mask=((raw.operator==d['operator'])&raw.cell.isin(d['positive']+d['negative'])).to_numpy();labels=raw.cell.isin(d['positive']).to_numpy(int);score_key='bare'
-        if r['scope']=='topic':mask &= frame.topic.to_numpy()==r['topic']
+        if r['scope']=='topic':mask = mask & (frame.topic.to_numpy()==r['topic'])
         observed=[]
         for cohort in ('full','P15'):
             with np.load(output/'scores'/f"{r['model']}_L{r['layer']}_{r['method']}_{cohort}.npz",allow_pickle=False) as archive:scores=archive[score_key]

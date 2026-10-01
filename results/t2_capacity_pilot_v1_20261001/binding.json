@@ -1,0 +1,29 @@
+{
+  "canonical_receipt": {
+    "bytes": 9458,
+    "sha256": "255d2267d4ffa20ac3fadfd72c0283fc86f6fe6da7676f36d7ec64e2a0c2d629"
+  },
+  "config": {
+    "bytes": 3559,
+    "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+  },
+  "export_receipt": {
+    "bytes": 675969,
+    "sha256": "abbee007b278acb6a509f4f0f883d1657637458c6e5065d66fb0eb1e49b95a33"
+  },
+  "preparation": {
+    "bytes": 2798,
+    "sha256": "e2d00649af5035165d23f51c2579d30c5d5fadd188c0f9a4e50af1ce16c83a14"
+  },
+  "source_sha256": {
+    "src/atomic_probe_methods.py": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+    "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+    "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_capacity_export_v2.py": "807487c4353f445e7dd00663103c18bb8ae991d2a6be016a474c597452d0d80f",
+    "src/selection_repair_capacity_methods_v1.py": "8f3d070ef5e5587a50e200524c4c6a1f213a0be751d7badf968afdb3cad1f894",
+    "src/selection_repair_capacity_pilot_v1.py": "674e93fd2b5a89ed6847f87f21339a05ad50126684f8381e162b9821c9aadacd",
+    "src/selection_repair_capacity_staging_v1.py": "3d85e4ce8014c374f3cd7075783ca61e5462eafe4ff920566c1faf571350771b",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+  }
+}

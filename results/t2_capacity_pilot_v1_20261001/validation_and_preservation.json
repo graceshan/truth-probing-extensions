@@ -1,0 +1,22 @@
+{
+  "A15_A10_byte_identical": true,
+  "base_merge_commit": "40147cfb3861df6944a47fb112c539c89ac6bb6d",
+  "exact_merged_correction": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "historical_outputs_preserved": true,
+  "note": "Only task files added after the normal merge; the later independent-validator fix affects only this task file. No mac1 local untracked preservation files required.",
+  "previous_tracked_files_modified_or_deleted": [],
+  "reviewed_start": "4cae65c7dfc825f774226007a81994f5a08776c9",
+  "source_projection_validator": "passed byte-identical tc_topup_audit.build and earlier projection/audit validators",
+  "tests": {
+    "cache_alignment": 66,
+    "integrated": 153,
+    "integrated_subtests": 60,
+    "new_complete_export_cases": 4,
+    "new_stream_cases": 6,
+    "new_validator_cases": 2
+  },
+  "v3_receipt": {
+    "bytes": 9459,
+    "sha256": "7d020fdcd61b163aeb390719600838d79571b2e14162ddcb6dd380b74a1c6155"
+  }
+}

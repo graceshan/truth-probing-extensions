@@ -1,0 +1,45 @@
+{
+  "aborted_export": {
+    "files": {
+      "export_request.json": {
+        "bytes": 661514,
+        "sha256": "48a804edf42d61d7e6c4d901b4d89a902a941ca69abd25f4b2af8c4a80686631"
+      },
+      "row_bindings.json": {
+        "bytes": 48767627,
+        "sha256": "33cc47153317c82e5e9b6dda4845fba96fbb7fdce8fc569d3f33c069e3ba0d3a"
+      },
+      "selected_layers.tar": {
+        "bytes": 49807360,
+        "sha256": "3ff47bd0ca20fdea3f167b4aab4a91809b401a0ceb1487e596419eb14bd3ee7f"
+      },
+      "transfer_failure.json": {
+        "bytes": 40,
+        "sha256": "c17e9fd657a760f8ee268023813c8147a620e4c0da1a6d74818f4a93ef013459"
+      }
+    },
+    "reason": "Intentionally terminated task exporter waiting on remote per-row FUSE reads; no identity mismatch or authentication failure",
+    "root": "/Users/apple/projects/t2-capacity-pilot-exports-v1-20261001"
+  },
+  "artifacts": {
+    "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/export_receipt.json": {
+      "bytes": 675969,
+      "sha256": "abbee007b278acb6a509f4f0f883d1657637458c6e5065d66fb0eb1e49b95a33"
+    },
+    "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/export_request.json": {
+      "bytes": 661514,
+      "sha256": "48a804edf42d61d7e6c4d901b4d89a902a941ca69abd25f4b2af8c4a80686631"
+    },
+    "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/row_bindings.json": {
+      "bytes": 48767627,
+      "sha256": "33cc47153317c82e5e9b6dda4845fba96fbb7fdce8fc569d3f33c069e3ba0d3a"
+    },
+    "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/selected_layers.tar": {
+      "bytes": 362577920,
+      "sha256": "91058b6b3911ae83015b4d026f02873a48c88a12c516b76bb052359846a419d0"
+    }
+  },
+  "pilot_root": "/Users/apple/projects/t2-capacity-pilot-v1-20261001",
+  "prepared_root": "/Users/apple/projects/t2-canonical-sensitivity-v4-20261001/prepared",
+  "verified_export_root": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001"
+}

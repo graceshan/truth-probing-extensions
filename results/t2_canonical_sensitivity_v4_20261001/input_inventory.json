@@ -1,0 +1,146 @@
+{
+  "admission_column": "tc_successor_status",
+  "adoption_sha256": "bea2bb1b69c5801767ce010640c9866be2d5288c1b49239c9e911e61f361da0f",
+  "closure_receipt_sha256": "4cd70c1f35e1183116b7d1b63b99df780c5269ab8b0bdcbe5d8f5f79b2ac5f47",
+  "config_sha256": "bdfb0449c0154e90533407195cd34f5923d3266e20921c0e0ace3283adecc2c0",
+  "correction_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "correction_receipt_sha256": "07656e6e4a13aecd3387f30445203158d0b1f5436709a419b399fd0b4a0285ea",
+  "eligible_facts": 510,
+  "expected_rows": {
+    "llama_train": 3040,
+    "llama_validation": 1012,
+    "qwen_train": 3040,
+    "qwen_validation": 1012
+  },
+  "metadata_inputs": {
+    "/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/selected_probe.npz": {
+      "archive_path": "files/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/selected_probe.npz",
+      "bytes": 28822,
+      "sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119"
+    },
+    "/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/selection.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/selection.json",
+      "bytes": 8549,
+      "sha256": "eea1877dfaf792fc6f62dd424fc943ab395ec8b6254a11d498e18bd02991bb3b"
+    },
+    "/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/validation_metrics.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/validation_metrics.csv",
+      "bytes": 31765,
+      "sha256": "52e516eb5f5fa6794b3489d94e0e31c27dbd34a081e44a6d97d044e0b92b03c7"
+    },
+    "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv",
+      "bytes": 480382,
+      "sha256": "790a03584aa4823902a0c1940e9cd59e8055f99d403d883c32afe60e6422851b"
+    },
+    "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv",
+      "bytes": 164187,
+      "sha256": "379fc4d2b25f3ee254d1e3757dae7ea83ae36dd90df4006039713294fe1a5497"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/metadata.csv",
+      "bytes": 524156,
+      "sha256": "13a57d6c727003b168bf10d3249a1fa644a75e119acc1c5d436e4b52516b4433"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/metadata.csv",
+      "bytes": 178763,
+      "sha256": "fec53b8c3f05f0c427a683be29bf96c16985f2d05eb716728459a3f9566266fa"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/probe/selected_probe.npz": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/probe/selected_probe.npz",
+      "bytes": 32733,
+      "sha256": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/probe/selection.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/probe/selection.json",
+      "bytes": 9587,
+      "sha256": "1dc5be64fcc3fc3b48bf8489f6b5c64fbe40b48c5d2104cd8d7313c9b7c0eef9"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/probe/validation_metrics.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/probe/validation_metrics.csv",
+      "bytes": 33410,
+      "sha256": "237163d2c314711857828ec70ad41ba057dc25d1e8aa3da343fda688adef1607"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/extraction_manifest.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/extraction_manifest.json",
+      "bytes": 10836,
+      "sha256": "08f320e61818d0540369b79829f23a175ba7cbfbb86b6c7dfae61af1fa0c0458"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/metadata.csv",
+      "bytes": 3484857,
+      "sha256": "d4e611040adab42366764bd34590dd9d08ac3a5b358ecd49d4e10247d7381e40"
+    },
+    "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/progress.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/progress.json",
+      "bytes": 5252118,
+      "sha256": "ab391f74f1b981b8b2f9d71b57c502eec49dfcf90183d2353be971c1eacd9354"
+    },
+    "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json",
+      "bytes": 58835,
+      "sha256": "c7c01d961f08a7277b9eabe29854d7d0ff96f6e12a754fd0cfde3b737240c558"
+    },
+    "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv",
+      "bytes": 7277404,
+      "sha256": "96e96515e780086065694155e3061bdfe6f4bb80af062a63c2deecd6bfad6f94"
+    },
+    "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/progress.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/progress.json",
+      "bytes": 2538408,
+      "sha256": "5839ca4e968992f4353d9a0c31cdc80cca8a4e1d733afce209cb80379f1b6bc9"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json",
+      "bytes": 119217,
+      "sha256": "9f190177eb15cf838519d653a01f59526a73506de3a9e3e0955dd1bee5dd3d58"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/metadata.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/metadata.csv",
+      "bytes": 2818153,
+      "sha256": "ec6f4ca22e252e2a9228490d9d9f2fa81c19dd9f8b91c3d69a13792a5585258c"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/progress.json": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/acts/qwen25_a09a354_bs1_bf16_v1/progress.json",
+      "bytes": 3973558,
+      "sha256": "095e02996abcf33c7b9de833d5f39dc59b38f91945069fb5df62902e5d421b9a"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/constituent_map.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/constituent_map.csv",
+      "bytes": 1785830,
+      "sha256": "d48b27c488fec895812e0d2d260af98ce2d19471bde9461260e6e85e9c0ab4cc"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/isolated_facts.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/isolated_facts.csv",
+      "bytes": 157524,
+      "sha256": "48f454b588222c3829bf0eecdf018f1f7d0acf9c532d6c3da60fd2896792b30a"
+    },
+    "/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/or_explicit_or_both_v1.csv": {
+      "archive_path": "files/workspace/truth-probing-artifacts/priority2_input_controls_v1/data/or_explicit_or_both_v1.csv",
+      "bytes": 3560437,
+      "sha256": "8f21595f4386b2f73ea182761d4033510db072c622214ef2ad78cd9f99f038be"
+    }
+  },
+  "missing_dependencies": [],
+  "ordered_admitted_identity_scope": "current corrected outer train; full identity hashes bound by mapping artifacts",
+  "ordered_admitted_identity_sha256": "a949de3e7dfd331e9b68c33c63018648c626ecf73d5029c9578424ee180dd520",
+  "original_atomic_D_rows": 1040,
+  "original_facts": 524,
+  "original_pairs": 524,
+  "parent_preparation_receipt": {
+    "bytes": 2030,
+    "sha256": "000b028808e42296127d754e31fdf92f56e92b8de984bea7f17903440ff375c1"
+  },
+  "parent_prepared_root": "/Users/apple/projects/t2-canonical-sensitivity-artifacts-20261001/prepared_v2_frozen",
+  "physical_export_root": "/Users/apple/projects/t2-canonical-sensitivity-artifacts-20261001",
+  "physical_sources_need_current_verification": false,
+  "projected_fact_eligibility": "tc_current_eligible",
+  "projection_receipt_sha256": "9c73e5a1177966923436b00758c8a19636bc90c9d87dbc00232bc3e39cdfcb18",
+  "retained_atomic_D_rows": 1012,
+  "retained_pairs": 483,
+  "selected_export_bytes_estimate": 264008576,
+  "source_tensor_bytes": 10781475712
+}
