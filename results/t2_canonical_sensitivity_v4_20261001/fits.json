@@ -1,0 +1,146 @@
+{
+  "llama": {
+    "C": 10.0,
+    "class_counts": {
+      "0": 1520,
+      "1": 1520
+    },
+    "convergence_warning": false,
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 23,
+    "finite": true,
+    "gradient_infinity_norm": 9.756682605254323e-05,
+    "historical_probe_sha256": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 23,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 23,
+    "objective": 0.004873943105739232,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "optimization_policy": {
+      "initial_max_iter": 2000,
+      "retry_failure": "raise RuntimeError; do not score or accept the fit",
+      "retry_initialization": "from scratch with identical train data and parameters except max_iter",
+      "retry_max_iter": 10000,
+      "retry_trigger": "sklearn.exceptions.ConvergenceWarning only"
+    },
+    "original_tensor_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+    "preprocessing": "none",
+    "probe_configuration": {
+      "class_weight": null,
+      "fit_intercept": true,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "tol": 0.0001
+    },
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "saved_layer_index": 15,
+    "selected_export_indices_sha256": "6484be9ec76d67be8f28476610ed76aa72dbd6129c1f32ab56fc7e581f3a980d",
+    "source_export": {
+      "bytes": 24969344,
+      "dtype": "<f2",
+      "fortran_order": false,
+      "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+      "shape": [
+        3048,
+        4096
+      ]
+    },
+    "source_tensor": {
+      "bytes": 824180864,
+      "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+      "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+      "shape": [
+        3144,
+        32,
+        4096
+      ]
+    },
+    "training_membership": {
+      "bytes": 1462634,
+      "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+    },
+    "training_rows": 3040,
+    "valid_for_scoring": true
+  },
+  "qwen": {
+    "C": 1.0,
+    "class_counts": {
+      "0": 1520,
+      "1": 1520
+    },
+    "convergence_warning": false,
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 53,
+    "finite": true,
+    "gradient_infinity_norm": 7.188634513570796e-05,
+    "historical_probe_sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 53,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 53,
+    "objective": 0.001548210412430649,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "optimization_policy": {
+      "initial_max_iter": 2000,
+      "retry_failure": "raise RuntimeError; do not score or accept the fit",
+      "retry_initialization": "from scratch with identical train data and parameters except max_iter",
+      "retry_max_iter": 10000,
+      "retry_trigger": "sklearn.exceptions.ConvergenceWarning only"
+    },
+    "original_tensor_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+    "preprocessing": "none",
+    "probe_configuration": {
+      "class_weight": null,
+      "fit_intercept": true,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "tol": 0.0001
+    },
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "saved_layer_index": 17,
+    "selected_export_indices_sha256": "6484be9ec76d67be8f28476610ed76aa72dbd6129c1f32ab56fc7e581f3a980d",
+    "source_export": {
+      "bytes": 21848192,
+      "dtype": "<f2",
+      "fortran_order": false,
+      "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+      "shape": [
+        3048,
+        3584
+      ]
+    },
+    "source_tensor": {
+      "bytes": 631013504,
+      "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+      "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+      "shape": [
+        3144,
+        28,
+        3584
+      ]
+    },
+    "training_membership": {
+      "bytes": 1462634,
+      "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+    },
+    "training_rows": 3040,
+    "valid_for_scoring": true
+  }
+}

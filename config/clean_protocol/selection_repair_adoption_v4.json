@@ -1,0 +1,158 @@
+{
+  "P_A_frozen": false,
+  "P_A_reservation": false,
+  "admission_column": "tc_successor_status",
+  "authority": "Explicit user instruction adopting reviewed v4 for bounded within-cache canonical development refresh and the 72-configuration full-versus-P15 pilot",
+  "bindings": {
+    "closure_receipt": {
+      "bytes": 23112,
+      "path": "data/clean_protocol/selection_repair_v1/source_closure_v1/closure_receipt.json",
+      "sha256": "4cd70c1f35e1183116b7d1b63b99df780c5269ab8b0bdcbe5d8f5f79b2ac5f47"
+    },
+    "llama_spec": {
+      "bytes": 16793,
+      "path": "config/clean_protocol/llama31_transfer_v1.json",
+      "sha256": "fec9cb7e23404c6596d88e8821cd2da42e4756f63a1afc2915fac2ca1a8dbb52"
+    },
+    "numerical_helpers": {
+      "bytes": 26761,
+      "path": "src/selection_repair_canonical_sensitivity.py",
+      "sha256": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46"
+    },
+    "physical_receipt": {
+      "bytes": 44203,
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/compatibility.json",
+      "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+    },
+    "physical_session": {
+      "bytes": 4840,
+      "path": "results/t2_cache_physical_followup_20261001T183553Z/session_validation.json",
+      "sha256": "4943b186dc70ce5c0c06043eb18f7186666454b622a4e70f362b5f90043afe8b"
+    },
+    "prior_adoption": {
+      "bytes": 3955,
+      "path": "config/clean_protocol/selection_repair_adoption_v2.json",
+      "sha256": "419eaea47afd0979883231106a9ba666620b6d32d3fe09c1795c016aa730283a"
+    },
+    "prior_hold": {
+      "bytes": 1788,
+      "path": "config/clean_protocol/canonical_sensitivity_correction_hold_20261001.json",
+      "sha256": "a7925e697049c315015d21fb9e93905e2d0b158162c8cbce690554b45d4fe7b7"
+    },
+    "prior_v3_adoption": {
+      "bytes": 6323,
+      "path": "config/clean_protocol/selection_repair_adoption_v3.json",
+      "sha256": "521359408db36fb0680bab3ed872aa37712f35c3d9707ba07c719bd3ed7e1e80"
+    },
+    "projection_code": {
+      "bytes": 17793,
+      "path": "src/capacity_pilot_projection.py",
+      "sha256": "f6ac2820a1c572a62edadc562042f48f3fad57d3575528ec5ffdf330a59598b8"
+    },
+    "qwen_controls_spec": {
+      "bytes": 19094,
+      "path": "config/clean_protocol/priority2_input_controls_v1.json",
+      "sha256": "d72b0e3a8853ee5adf5bb205e12a40cb647fae175d965010b29407c0209e9c42"
+    },
+    "qwen_spec": {
+      "bytes": 9401,
+      "path": "config/clean_protocol/pinned_qwen25_lr_transfer_v1.json",
+      "sha256": "2a20d4170be37e704b80ace8c2d7f65ae21c668ebeedeeb9fda07d53cfa316b5"
+    },
+    "representation_proposal": {
+      "bytes": 24087,
+      "path": "results/t2_protocol_integration_20261001/candidate_maps_v1/representation_proposal.json",
+      "sha256": "7c59d51abfaeb0408cfe30c41b0a44b9dc6311b4940ffd18d25125b760caa5b3"
+    },
+    "source_export_code": {
+      "bytes": 7553,
+      "path": "src/selection_repair_cache_export_remote.py",
+      "sha256": "d7111011c89becaaa125bca04000d610dead970c90fe0d4b93260fa6b6ff0f01"
+    },
+    "tc_projection_code": {
+      "bytes": 25387,
+      "path": "src/tc_topup_audit.py",
+      "sha256": "de8b8c9158a81164dc6380b1d99b5a0e06eff4370f0b5570d82d7db5d4c06e9c"
+    },
+    "v1_mapping_report": {
+      "bytes": 13613,
+      "path": "results/t2_protocol_integration_20261001/candidate_maps_v1/mapping_report.json",
+      "sha256": "daa70ed0fc0a1d6f845b9944a67b58606932de69a8282594dda393a8f131688d"
+    },
+    "v2_admitted_identities": {
+      "bytes": 1911617,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2/admitted_identities.csv",
+      "sha256": "29bca733cb46334e6a6761660bca68d03f006e4354209d270096e14d069c0513"
+    },
+    "v2_manifest": {
+      "bytes": 4021167,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v2/row_manifest.csv",
+      "sha256": "54889e51fd4bea08c7e93fd7889b1ac4df5cce2dfbddd89ca049a88284d8b13f"
+    },
+    "v3_correction_receipt": {
+      "bytes": 1648,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/correction_receipt.json",
+      "sha256": "33b67ce128bad956ba82a128ac2e7863deefefd3af9c4a9d26685da0caaa9c39"
+    },
+    "v3_fact_inventory": {
+      "bytes": 1578442,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/fact_inventory.csv",
+      "sha256": "f019a26f38d46f8181cc46dca838f58083a3c1b90b2aa5c57f7eae36653c19bd"
+    },
+    "v3_manifest": {
+      "bytes": 4079597,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v3/row_manifest.csv",
+      "sha256": "56a3ad10e47bcc207201d27d56c748841d761c433b7f54bd2b9639eaf0905bb0"
+    },
+    "v3_projection_receipt": {
+      "bytes": 4724,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v2/projection_receipt.json",
+      "sha256": "5b3881be82515ac383433c2f305ca9ac6092f6f85314359341c56b2ea62983da"
+    },
+    "v4_correction_receipt": {
+      "bytes": 3020,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/correction_receipt.json",
+      "sha256": "07656e6e4a13aecd3387f30445203158d0b1f5436709a419b399fd0b4a0285ea"
+    },
+    "v4_fact_inventory": {
+      "bytes": 1706048,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/fact_inventory.csv",
+      "sha256": "8c852a44e78aa8b1177ab718e02484d4a06450568217cc4517dd70456f941323"
+    },
+    "v4_manifest": {
+      "bytes": 4137910,
+      "path": "data/clean_protocol/selection_repair_v1/candidate_overlay_v4/row_manifest.csv",
+      "sha256": "5abd23062bd93ed33d1f316bf2a2669dc8689db4130b3fe839ab4b7a9135b9dd"
+    },
+    "v4_projection_receipt": {
+      "bytes": 6530,
+      "path": "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/projection_receipt.json",
+      "sha256": "9c73e5a1177966923436b00758c8a19636bc90c9d87dbc00232bc3e39cdfcb18"
+    }
+  },
+  "correction_adopted_for_scope": true,
+  "correction_overlay": "candidate_overlay_v4",
+  "decision_id": "selection_repair_v4_capacity_pilot_20261001",
+  "fact_eligibility_column": "tc_current_eligible",
+  "final_test_prediction_authorized": false,
+  "future_fresh_extraction_requires_separate_compatibility_verification": true,
+  "historical_execution_independently_replayed": false,
+  "limitations": [
+    "Conservative nonadmission is accepted; remaining retained source labels are not represented as human factual verification.",
+    "Historical pinned_atomic_probes.py working-file versus recorded producer/Git hash conflict remains unresolved.",
+    "Recorded Llama clean_compounds.py and llama_replication_probes.py hashes differ from this checkout.",
+    "Standalone historical tokenizer/model config bytes are absent; embedded identities agree, but no live tokenizer/model replay establishes historical execution."
+  ],
+  "merge_commit": "40147cfb3861df6944a47fb112c539c89ac6bb6d",
+  "new_extraction_authorized": false,
+  "prior_artifacts": "All v2 and v3 artifacts retained unchanged; v3 is its own checkpoint",
+  "production_bank_adopted": false,
+  "projection": "capacity_pilot_projection_v3",
+  "recorded_representation_adopted_for_scope": true,
+  "recorded_utc": "2026-10-01T21:15:35.157180+00:00",
+  "repair_fit_authorized": false,
+  "reviewed_source_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "reviewed_start": "4cae65c7dfc825f774226007a81994f5a08776c9",
+  "schema_version": 4,
+  "scope": "Bounded within-cache canonical development refresh plus prespecified full-versus-P15 capacity pilot; full fits are A-exposed diagnostics excluded from the primary P-only bank"
+}

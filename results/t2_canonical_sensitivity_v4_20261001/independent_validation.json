@@ -1,0 +1,16 @@
+{
+  "activation_arrays_loaded": 0,
+  "all_intervals_recomputed": true,
+  "all_result_and_external_artifact_hashes_match": true,
+  "current_membership_and_refresh_thresholds_match": true,
+  "endpoint_summaries_checked": 154,
+  "independent_auroc_implementation": "sklearn.metrics.roc_auc_score",
+  "maximum_absolute_auroc_difference": 2.220446049250313e-16,
+  "real_fits_performed": 0,
+  "sensitivity_receipt": {
+    "bytes": 9458,
+    "sha256": "255d2267d4ffa20ac3fadfd72c0283fc86f6fe6da7676f36d7ec64e2a0c2d629"
+  },
+  "status": "passed",
+  "validator_source_sha256": "dfc7b5c384640d0965ce11ef1d25fa200754194af2ccef5648e4d7be0d8959b8"
+}

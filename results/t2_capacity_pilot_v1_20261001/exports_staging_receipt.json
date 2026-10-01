@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-10-01T21:32:25.685430+00:00",
+  "expected_export_bytes": 361883136,
+  "export_request_sha256": "48a804edf42d61d7e6c4d901b4d89a902a941ca69abd25f4b2af8c4a80686631",
+  "final_test_access": false,
+  "free_bytes_before": 613122215936,
+  "interactive_shell": false,
+  "local_hostname": "MacBook-Pro-7.lan",
+  "local_platform": "Darwin",
+  "model_extraction": false,
+  "remote_program_sha256": "807487c4353f445e7dd00663103c18bb8ae991d2a6be016a474c597452d0d80f",
+  "remote_receipt": {
+    "bytes": 675969,
+    "sha256": "abbee007b278acb6a509f4f0f883d1657637458c6e5065d66fb0eb1e49b95a33"
+  },
+  "row_bindings": {
+    "bytes": 48767627,
+    "sha256": "33cc47153317c82e5e9b6dda4845fba96fbb7fdce8fc569d3f33c069e3ba0d3a"
+  }
+}

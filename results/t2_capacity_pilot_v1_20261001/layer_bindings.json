@@ -1,0 +1,662 @@
+{
+  "llama_L10": {
+    "atomic": {
+      "export": {
+        "bytes": 8290432,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "687fa8e5cb92c5fedaf7abb6f8b2231648bf8b101782256ccd5b7b4bde8386e9",
+        "shape": [
+          1012,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "dc65f5cff67fd9357a3e56129aefd68ab0744c95c7e00392805c1b6d50b1fb5d",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 63307904,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "3c1110363b62580568474444bd4c31ca096cdce244e879bf3894b786cd0c7ba7",
+        "shape": [
+          7728,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "4498094d0848215bd8cb372896333f010fedadc2b3203a75dad2a3d556a11a9e",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "42bdf296d63eadb1e958826fd734d059d0cabb9cdda4c99596333c74292da40e",
+      "source": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 24903808,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+        "shape": [
+          3040,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      }
+    }
+  },
+  "llama_L15": {
+    "atomic": {
+      "export": {
+        "bytes": 8519808,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "d581d39304495fabeada6cdd33308ee59fd1be2cb950eeb3bf7d8cc3ab26d7f6",
+        "shape": [
+          1040,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "deea08e7d1cb63eacf0c4cf37ca0f80061ab4f12ae61840fdf22e98af2488242",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 107315328,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "e88aab912e1293db0202406087a71d3f4978230a3808fcdaecafe342dc391244",
+        "shape": [
+          13100,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "9710367bf233e9719bd4f62aaa08000b8e8bae1c5d318c389783adc0aeed2b44",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "42bdf296d63eadb1e958826fd734d059d0cabb9cdda4c99596333c74292da40e",
+      "source": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 24969344,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+        "shape": [
+          3048,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      }
+    }
+  },
+  "llama_L20": {
+    "atomic": {
+      "export": {
+        "bytes": 8290432,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "bd0bdc3c14c8f9bd197369017ea4a0bd485faffd0f6f8408158f61c59c3314d9",
+        "shape": [
+          1012,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "8404a7f6a7fa4aa5dbe2cc0a85ce52c98644010d5c9dc4e29155ff2c08ec73ce",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 63307904,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "9770eedb1c75ff1fb714786df3fcc7ce0e40de67f37d9281a4db4669afc738e1",
+        "shape": [
+          7728,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "46760bf2ddcfbc1df98f3ac44cfc614635cde2343960c3704711d5efd2927403",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "42bdf296d63eadb1e958826fd734d059d0cabb9cdda4c99596333c74292da40e",
+      "source": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 24903808,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+        "shape": [
+          3040,
+          4096
+        ]
+      },
+      "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      }
+    }
+  },
+  "qwen_L17": {
+    "atomic": {
+      "export": {
+        "bytes": 7454848,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "9c3ec06b366eb994f94d249cc0ed0d94e115ffe4b2c178817c39138eae5a0e9e",
+        "shape": [
+          1040,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "234a1e84fa6019780ab4422c053df3b9032c3301b39974fd8d14110e8fafc515",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 60096640,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "f4bc8236da52fbbac7f6ad9b51bfe380739fb1002143fd25784976c19f96aadc",
+        "shape": [
+          8384,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "7f4e182fa6833ceac9b3c98ac3ab2da271253ae13c33888a70f4eae15022f3c5",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "2ba2806d7391522c3dfaba187fdf9ccebd0fcde21b2393a35fb0897ce4beb11b",
+      "source": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 21848192,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+        "shape": [
+          3048,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      }
+    }
+  },
+  "qwen_L18": {
+    "atomic": {
+      "export": {
+        "bytes": 7254144,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "25d286d32f2fe30dcc4fb9db369bd981b4a2eb4a1e6056d3c473455cf54fd90e",
+        "shape": [
+          1012,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "2271b67db6a7b10adbc5eba462090008d8baa97639ac55494bd6eb81784338e5",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 55394432,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "33ec69f294d3376ea3763365d010d9754085bd595b350f761c454377a3d817a4",
+        "shape": [
+          7728,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "750ad5cd22c0ff8c90df04f3c8ed82e19e84516a3657f10c7ee89b2a707f2f4b",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "2ba2806d7391522c3dfaba187fdf9ccebd0fcde21b2393a35fb0897ce4beb11b",
+      "source": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 21790848,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+        "shape": [
+          3040,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      }
+    }
+  },
+  "qwen_L22": {
+    "atomic": {
+      "export": {
+        "bytes": 7254144,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "0ebc731b89808700826870fed7147530b66ffd3f09d75d02c0888689b18ee76f",
+        "shape": [
+          1012,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "36bc0d4e51947e791bd0dcd7efbbbdd2bf375391c42f54d69bad14638eb7e8e1",
+      "original_row_indices_sha256": "1e1abe987437051f200b64e8f9b0841ddd37c397be0a33377b42fd46da9ac7fd",
+      "row_binding_sha256": "8914d4a00474c72e7306b4327ea6a7e79de8ff2a2c8fc6692cf6989a09ccd2ba",
+      "source": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      }
+    },
+    "bare": {
+      "export": {
+        "bytes": 55394432,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "d1999126407844bd12700b52c4889907e978673792207470d11b397e21c00217",
+        "shape": [
+          7728,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "71507786a60710828d6340ecca50974018ee19d5f0e2453c6a23bdd52d643688",
+      "original_row_indices_sha256": "e98e839fb18ba1d961d7514bde051af02c8cc4e43093a7c86a586e7e5c37d28e",
+      "row_binding_sha256": "2ba2806d7391522c3dfaba187fdf9ccebd0fcde21b2393a35fb0897ce4beb11b",
+      "source": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      }
+    },
+    "train": {
+      "export": {
+        "bytes": 21790848,
+        "dtype": "<f2",
+        "fortran_order": false,
+        "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+        "shape": [
+          3040,
+          3584
+        ]
+      },
+      "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+      "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+      "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+      "source": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      }
+    }
+  }
+}

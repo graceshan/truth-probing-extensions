@@ -1,0 +1,93 @@
+{
+  "A15_A10_byte_identical": true,
+  "P_A_frozen": false,
+  "actual_pilot_balanced": {
+    "P15": 700,
+    "full": 1000
+  },
+  "admission_column": "tc_successor_status",
+  "adoption": {
+    "bytes": 7581,
+    "sha256": "bea2bb1b69c5801767ce010640c9866be2d5288c1b49239c9e911e61f361da0f"
+  },
+  "all_v3_restrictions_preserved": true,
+  "canonical_preparation": {
+    "bytes": 2798,
+    "sha256": "e2d00649af5035165d23f51c2579d30c5d5fadd188c0f9a4e50af1ce16c83a14"
+  },
+  "correction_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "correction_receipt": {
+    "bytes": 3020,
+    "sha256": "07656e6e4a13aecd3387f30445203158d0b1f5436709a419b399fd0b4a0285ea"
+  },
+  "expected_projection_rows": {
+    "D": 1012,
+    "P10": 2864,
+    "P15": 2778,
+    "full": 3040
+  },
+  "fact_eligibility": "tc_current_eligible",
+  "manifest": {
+    "bytes": 4137910,
+    "sha256": "5abd23062bd93ed33d1f316bf2a2669dc8689db4130b3fe839ab4b7a9135b9dd"
+  },
+  "mapping_coverage": {
+    "llama_train": {
+      "mapping": {
+        "bytes": 1462634,
+        "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+      },
+      "rows": 3040
+    },
+    "llama_validation": {
+      "mapping": {
+        "bytes": 467606,
+        "sha256": "f7f10e6970258fdc94945f12bc242d4a18b28b9c9acfca6716edaf20077c78f9"
+      },
+      "rows": 1012
+    },
+    "qwen_train": {
+      "mapping": {
+        "bytes": 1462634,
+        "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+      },
+      "rows": 3040
+    },
+    "qwen_validation": {
+      "mapping": {
+        "bytes": 467606,
+        "sha256": "f7f10e6970258fdc94945f12bc242d4a18b28b9c9acfca6716edaf20077c78f9"
+      },
+      "rows": 1012
+    }
+  },
+  "mapping_errors": {
+    "ambiguous": 0,
+    "duplicate": 0,
+    "mismatched": 0,
+    "missing": 0
+  },
+  "note": "Canonical mapping_status remains bounded_canonical_sensitivity_only in preserved preparation. The pilot adapter separately revalidates identities, cohorts and row/layer exports under the broader explicit v4 pilot adoption; no canonical or prior map is rewritten.",
+  "overlay": "candidate_overlay_v4",
+  "pilot_row_bindings": {
+    "bytes": 48767627,
+    "sha256": "33cc47153317c82e5e9b6dda4845fba96fbb7fdce8fc569d3f33c069e3ba0d3a"
+  },
+  "production_usable": false,
+  "projection_receipt": {
+    "bytes": 6530,
+    "sha256": "9c73e5a1177966923436b00758c8a19636bc90c9d87dbc00232bc3e39cdfcb18"
+  },
+  "quarantined_ids_absent": [
+    "inventors:23",
+    "inventors:157",
+    "neg_inventors:23",
+    "neg_inventors:157",
+    "inventors:155",
+    "inventors:380",
+    "neg_inventors:155",
+    "neg_inventors:380"
+  ],
+  "schema_version": 1,
+  "scope": "Separately versioned pilot rebinding of v4 canonical identity maps to fixed full/P15 cohorts and additional layers; not production admission"
+}
