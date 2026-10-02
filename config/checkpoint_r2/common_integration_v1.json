@@ -1,0 +1,193 @@
+{
+  "S_atom_all": {
+    "canonical_ID_implementation": "src/checkpoint_r2_selection_v1.py:candidate_id",
+    "compound_inputs_forbidden": true,
+    "difference": "Supersedes only mac1 S_atom_all choice wording prospectively; choice and permutation need not select the same ID for the same seed. No research scores used to resolve this.",
+    "eligibility": "same exact shared atomic retention bank as S_all; valid fit and five defined atomic topic endpoints; pooled atomic D >= reduced LR - .005",
+    "ranking": [
+      "max pooled atomic D",
+      "within 1e-12 of pooled maximum, max equal-topic atomic D",
+      "within 1e-12 of macro maximum, lexically sorted canonical IDs, fresh PCG64(20261005) per model, permutation, first entry"
+    ],
+    "seed": 20261005,
+    "tie_method": "permutation_first",
+    "tolerance": 1e-12
+  },
+  "adapter": {
+    "alignment": "exact ordered composite keys and ordered metadata binding hash per score block; never reorder or text-match scores",
+    "full_TC_separate": true,
+    "identity": "group plus original example_id; preserve distinct uses across groups",
+    "input": "data/checkpoint_r2_v1/compound_bindings.csv",
+    "score_use_this_task": "synthetic only",
+    "selection_group": "constituent_source_validation",
+    "selector_role": "T_C_source_validation",
+    "truth_policy": "CSV literals 0/1 only, or native Boolean/integer 0/1; reject other strings/values; no bool(string)"
+  },
+  "adopted_memberships": {
+    "A15": 75,
+    "P15": 2778,
+    "TC": 100,
+    "atomic_D": 1012,
+    "balanced": 700,
+    "compound_D_pairs": 483,
+    "outer_train": 3040
+  },
+  "bindings": {
+    "config/checkpoint_r2/protocol_v1.json": {
+      "bytes": 13325,
+      "sha256": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661"
+    },
+    "config/clean_protocol/checkpoint_r2_cpu_preflight_v1.json": {
+      "bytes": 6625,
+      "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+    },
+    "data/checkpoint_r2_v1/B25_unused_entities.json": {
+      "bytes": 6303,
+      "sha256": "b674b92e501ce8fd0cd8a5329c54ecd08c2199db7828032efb5e41d148e6ad8e"
+    },
+    "data/checkpoint_r2_v1/behavior_isolated_bindings.json": {
+      "bytes": 36803,
+      "sha256": "022676f1017fdb26d802c3105bd51b31545c964eff1fcd6c54fc6500cdd51831"
+    },
+    "data/checkpoint_r2_v1/behavior_pairs.json": {
+      "bytes": 3753,
+      "sha256": "d3cb2c230dd39f1a1c75a54bbc350ca96e6cac19e0ef4f95410d48d565e8eb5c"
+    },
+    "data/checkpoint_r2_v1/bridge_identities.json": {
+      "bytes": 66790,
+      "sha256": "c5aedcb0df806541f5a624cea7ee40807bd3d436fd6751d78337c47aa4bc97b7"
+    },
+    "data/checkpoint_r2_v1/compound_bindings.csv": {
+      "bytes": 14081414,
+      "sha256": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f"
+    },
+    "data/checkpoint_r2_v1/constituent_split.csv": {
+      "bytes": 9562,
+      "sha256": "343689ed3a5ca2aeee71c123c8a735444698614dfab448729ab5528af64f9ff8"
+    },
+    "data/checkpoint_r2_v1/entities.json": {
+      "bytes": 48949,
+      "sha256": "e64ccfa01f8d77cea0c78e1ecf878489aaedd560d5857c958067b2582c746130"
+    },
+    "data/checkpoint_r2_v1/extraction_inventory.csv": {
+      "bytes": 25129282,
+      "sha256": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52"
+    },
+    "data/checkpoint_r2_v1/facts.json": {
+      "bytes": 654145,
+      "sha256": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500"
+    },
+    "data/checkpoint_r2_v1/manifest.json": {
+      "bytes": 6702,
+      "sha256": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca"
+    },
+    "data/checkpoint_r2_v1/memberships.json": {
+      "bytes": 5972452,
+      "sha256": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6"
+    },
+    "data/checkpoint_r2_v1/pair_groups.json": {
+      "bytes": 136965,
+      "sha256": "47c0501e421b2d51bd80e4deaf921f32397a223354d0fa8fb6c6ebb61117721b"
+    },
+    "data/checkpoint_r2_v1/pairs.json": {
+      "bytes": 620122,
+      "sha256": "e1fbc9c066e68a93cbda892e4c261caabd2e5576cea6fd9d626cb7c82bbae189"
+    },
+    "data/checkpoint_r2_v1/resource_estimates.json": {
+      "bytes": 2558,
+      "sha256": "02a6144e334be10af268ef6cb60b59f31d7c35dace88fa575c75e5cdd98f52ac"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/bank_candidates.csv": {
+      "bytes": 63615,
+      "sha256": "c8e5064214f4c4753b3c138f5a541d94ae732c041cf0be911893aafae2d2ea31"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/conditional_reuse.json": {
+      "bytes": 90135,
+      "sha256": "16dd6da0b155389dfb32466e9239f75e4a93d9c537d96ef8ba1b25746c46f4b1"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/delivery_manifest.json": {
+      "bytes": 4512,
+      "sha256": "81e7b757ebb9a536fc5e69db3f3d9f4e9ddc74eb32757a698bd6d35c353d3c3f"
+    },
+    "results/checkpoint_r2_preflight_v1/bridge_receipt.json": {
+      "bytes": 3904,
+      "sha256": "29907a3841fbebedff41e50001084b3602716306f125be3a06868af2000574a8"
+    },
+    "results/checkpoint_r2_preflight_v1/exposure_manifest.json": {
+      "bytes": 4431,
+      "sha256": "20c3b291cd57d929c0ac395f5fb010761009d6d12a37d59709ecbea33ecddaf9"
+    },
+    "results/checkpoint_r2_preflight_v1/preservation.json": {
+      "bytes": 2030,
+      "sha256": "036b4f62f6e40aac75e8baaa9c74d9fc2b5fab22c1cf2110922967fbfb42ab63"
+    },
+    "results/checkpoint_r2_preflight_v1/remote_preflight.json": {
+      "bytes": 3461,
+      "sha256": "fd38454aff5b222091405a83d2c859fe410555e7ef29f72a938d3f3568a7c0e7"
+    },
+    "src/checkpoint_r2_bridge.py": {
+      "bytes": 3281,
+      "sha256": "b84b14c6b4ee9ed8dcff596429cd47538151c60c7c5e68b6736d8a056c1efa76"
+    },
+    "src/checkpoint_r2_cpu_preflight_v1.py": {
+      "bytes": 11133,
+      "sha256": "4b38c6f02cd29ba8c6d04e4efd1d53c2dcc3881e75b7097b2725efcc2c534db5"
+    },
+    "src/checkpoint_r2_inputs.py": {
+      "bytes": 22391,
+      "sha256": "8007da49d57ce2d48faadf7c163256712b288b2fea548759c2f54dcbbd227096"
+    },
+    "src/checkpoint_r2_selection_v1.py": {
+      "bytes": 10980,
+      "sha256": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc"
+    },
+    "src/selection_repair_objectives.py": {
+      "bytes": 13435,
+      "sha256": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+    }
+  },
+  "bridge": {
+    "compatibility": "unverified",
+    "criteria_preserved_from": "config/checkpoint_r2/protocol_v1.json:bridge",
+    "new_remote_checks": false,
+    "remaining": [
+      "bounded frozen-ID-only extraction producer wiring/review",
+      "GPU-enabled runtime and actual pinned model/tokenizer availability; previous remote observation had no GPU, Torch2.8 versus recorded2.11 and no Transformers",
+      "Llama tokenizer inventory",
+      "storage quota/durable output and actual GPU timing",
+      "all-layer token/position/mask/state/frozen-head comparison, repeatability and padding/batch invariance",
+      "unknown historical producer/tokenizer execution remains unverifiable; identical tensor hashes are not compatibility",
+      "early review and separate production authorization"
+    ],
+    "tolerances_relaxed": false
+  },
+  "historical_status_policy": "Mac1 adoption/freeze is authoritative for checkpoint membership; earlier mac2 unfrozen/pending-common-SHA flags are preserved preparation snapshots, not rewritten. Historical fits remain v4; 36 P15 matches remain conditional, none newly admitted.",
+  "normal_merge_commit": "70f5ef8b159c077fb1339390d3bf9c2d0d1281ad",
+  "ordered_v4_v5_equivalence_hashes": {
+    "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+    "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+    "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+    "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+    "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+    "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+  },
+  "schema_version": 1,
+  "scope": "integration and metadata/synthetic-score validation only; no real research selection, fitting, extraction or behavior",
+  "source_commits": {
+    "mac1": "7dd63105c75b894b602fb93754e53eede4483a63",
+    "mac2": "a8082bd7bb6a321690e615b078c9651a6c6a2d49"
+  },
+  "source_trees": {
+    "7dd63105c75b894b602fb93754e53eede4483a63": "58c7b960480d8971279022fb3ceec57d83c45d97",
+    "a8082bd7bb6a321690e615b078c9651a6c6a2d49": "156cff7d0bd6ce800642ea1805d486c92fc6e193"
+  },
+  "status": {
+    "A15_adopted": true,
+    "P_A_frozen_for_checkpoint": true,
+    "final_evaluation_enabled": false,
+    "mac2_preparation_code_integrated": true,
+    "production_execution_enabled": false,
+    "representation_reuse_verified": false
+  },
+  "unchanged_selectors": "S_all/R_all retain separately specified PCG64(20261008) choice and prior tie stages; original R0 retains exact-tie lower-layer rule; constituent worst-of-six/mean/lower-layer unchanged."
+}
