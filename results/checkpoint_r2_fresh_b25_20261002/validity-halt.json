@@ -1,0 +1,19 @@
+{
+  "action": "halt dependent B25 execution on persistent frozen bank validity failures",
+  "elapsed_at_halt": "06:47",
+  "failures": [
+    "qwen/P15/L02/l2_logistic/C=1",
+    "qwen/P15/L01/l2_logistic/C=0.1",
+    "qwen/P15/L01/l2_logistic/C=1",
+    "qwen/P15/L02/l2_logistic/C=0.1"
+  ],
+  "peak_memory_status": "interrupted before final in-process peak receipt; measured resident memory at halt is not claimed as peak",
+  "peak_rss_bytes": null,
+  "pid": 33950,
+  "policy": "raw LR warning-only cold retry did not apply; no gradient threshold or objective or solver rule changed",
+  "process_at_halt": "33950 2874512 06:47 /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python -B -m src.checkpoint_r2_fresh_b25 run --expected-commit b25581ca9c22d93c8c988c93c0c5491219d6cfec --output /Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-results-20261002/run-b25581c",
+  "producer_sha": "b25581ca9c22d93c8c988c93c0c5491219d6cfec",
+  "resident_memory_bytes_at_halt": 2943500288,
+  "signal": "SIGINT",
+  "timestamp_utc": "2026-10-02T22:10:06Z"
+}

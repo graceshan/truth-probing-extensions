@@ -1,0 +1,17 @@
+{
+  "candidate_identities": 600,
+  "external_artifact_hashes_rechecked": 226,
+  "failed_fits": 4,
+  "fold_identities": 900,
+  "frozen_code_and_configuration_hashes_unchanged": true,
+  "git_diff_check": "passed",
+  "inventory_status_counts_reconciled": true,
+  "no_active_task_fitting_process": true,
+  "no_procedure_lock_or_evaluations": true,
+  "producer_sha": "b25581ca9c22d93c8c988c93c0c5491219d6cfec",
+  "published_fits": 72,
+  "scope": "delivery integrity and accounting only; no fitting or new scientific results",
+  "status": "passed",
+  "timestamp_utc": "2026-10-02T22:33:36.692791+00:00",
+  "valid_fits": 68
+}

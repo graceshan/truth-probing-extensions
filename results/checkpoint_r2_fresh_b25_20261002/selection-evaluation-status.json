@@ -1,0 +1,82 @@
+{
+  "E_evaluation": false,
+  "eligibility_exclusions": "not evaluated; failed candidates explicitly invalid",
+  "fallbacks": "not invoked; no selectors or final refits ran",
+  "panels": {
+    "LR_only_selection": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "R_all_seeds_11_23_37": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "S_all_seeds_11_23_37": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "S_atom_all": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "actual_B25_precision_refresh": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "atomic_AND_retention": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "atomic_selected_R0": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "fixed_D_selected_procedure_layer_C_clean": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "fixed_layer_selection_repair": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "full_allocation_refits": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "matched_atomic_only_fixed_and_R_all": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "paired_shared_bootstrap_intervals": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "pooled_macro_per_topic_atomic_AND_OR_OR_boundary": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "post_hoc_D_bank_oracle": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "primary_R_all_minus_S_all_per_seed_and_three_metric_average": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "repair_at_S_all_layer": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "same_layer_R0": {
+      "numerical_result": null,
+      "status": "unrun"
+    },
+    "three_held_out_wordings": {
+      "numerical_result": null,
+      "status": "unrun"
+    }
+  },
+  "reason": "incomplete 600-candidate bank and four failed frozen raw-LR gradient checks",
+  "status": "blocked_before_selection",
+  "wording_arrays_unread_and_unscored": true
+}

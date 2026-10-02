@@ -1,0 +1,13 @@
+{
+  "configuration_sha256": "c3c7cc923185847002ff7f741fc8a0cafe7728d5d76451b91f14728c281314cb",
+  "external_manifest": {
+    "bytes": 40002,
+    "sha256": "ac0d068c4fb5bd412416765756faf691c8b8fccce183bae6f8d78a5dfb7e5877"
+  },
+  "external_results": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-results-20261002/run-b25581c",
+  "external_review": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-results-20261002/halt-review-b25581c",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "no_fit_restart_or_numerical_changes": true,
+  "producer_sha": "b25581ca9c22d93c8c988c93c0c5491219d6cfec",
+  "status": "blocked_not_scientific_completion"
+}
