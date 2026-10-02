@@ -1,0 +1,20 @@
+{
+  "full_suite": {
+    "passed": 166,
+    "seconds": 18.41,
+    "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_bridge_runner.py tests/test_checkpoint_r2_common_v1.py tests/test_checkpoint_r2_inputs.py tests/test_checkpoint_r2_selection_v1.py tests/test_clean_atomic_extraction.py tests/test_pinned_compound_extraction.py"
+  },
+  "final_runner_regression": {
+    "passed": 33,
+    "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_bridge_runner.py",
+    "seconds": 1.0
+  },
+  "metadata_dry_run": "passed final receipt; cmp against successful /tmp replay byte-identical",
+  "common_validator": "passed; common_validation.json",
+  "real_model_inference": false,
+  "real_activations_read": false,
+  "production_execution_enabled": false,
+  "historical_fit_adoption_enabled": false,
+  "final_evaluation_enabled": false,
+  "CLI_refinement": "macOS /tmp symlink accepted for metadata-only receipts; real-run durable-path gate retained"
+}

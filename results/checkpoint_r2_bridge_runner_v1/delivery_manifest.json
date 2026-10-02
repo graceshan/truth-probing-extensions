@@ -1,0 +1,76 @@
+{
+  "base_commit": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+  "branch": "checkpoint-r2-bridge-runner-20261002",
+  "config_sha256": "3312a3eed3349dcfb6920bdb5822b7ffab74332a00f31634ef3231130d500231",
+  "files": {
+    "config/checkpoint_r2/bridge_runner_v1.json": {
+      "sha256": "3312a3eed3349dcfb6920bdb5822b7ffab74332a00f31634ef3231130d500231",
+      "bytes": 11141
+    },
+    "docs/checkpoint_r2/bridge_runner_v1.md": {
+      "sha256": "fe0e002183e41377c9bcc04dd63b46c20eca75cb0fc73ab77037673d1c129e56",
+      "bytes": 16445
+    },
+    "scripts/checkpoint_r2_bridge_readiness.py": {
+      "sha256": "59fe5747c9d91260462ed60a555294b97853033d6a9f9cfbfebada2e69abed1c",
+      "bytes": 5350
+    },
+    "src/checkpoint_r2_bridge_runner.py": {
+      "sha256": "39ecc631918684eee0fe48d6884d7e3ac4a90018a1be0b9fa7bba98369a618ad",
+      "bytes": 25397
+    },
+    "src/checkpoint_r2_bridge_backend.py": {
+      "sha256": "d418543519e837ab563420f594543564a287fbcc7a5acf755eba6ceb02883d51",
+      "bytes": 9932
+    },
+    "tests/test_checkpoint_r2_bridge_runner.py": {
+      "sha256": "d96478ff682589bde0c0a0437bedd65ec287fe98f3a7bcfaa164e20257f17920",
+      "bytes": 13280
+    },
+    "results/checkpoint_r2_bridge_runner_v1/common_validation.json": {
+      "sha256": "e1d4213044c27f5e0bd0d77a789be7469c3fb8db9c303b9ebf65c6a5638e2154",
+      "bytes": 14804
+    },
+    "results/checkpoint_r2_bridge_runner_v1/handoff.json": {
+      "sha256": "036ccdffc20c0dc88a5826e53f759c67739cb671745085dbb2b2f279e3d3ce12",
+      "bytes": 1727
+    },
+    "results/checkpoint_r2_bridge_runner_v1/metadata_dry_run.json": {
+      "sha256": "ca02f7c5c63eeb61fb938b5299357ddfff3f280b0137c903dd6ecda7c9baba03",
+      "bytes": 4033
+    },
+    "results/checkpoint_r2_bridge_runner_v1/metadata_dry_run_final.json": {
+      "sha256": "6125c99613fde1d2964ca6bd4f9016373634e3532330e19e69c011f970a7ceac",
+      "bytes": 4641
+    },
+    "results/checkpoint_r2_bridge_runner_v1/preservation.json": {
+      "sha256": "623ec1f5e342ca8edd01549e82d7cfd5c19d779195a50bc2f985a66601921bf0",
+      "bytes": 1970
+    },
+    "results/checkpoint_r2_bridge_runner_v1/readiness.json": {
+      "sha256": "8e5252d9d38ee7d9e885098b8652a5559d2bf7c94768b56cb8e345d213685234",
+      "bytes": 1256
+    },
+    "results/checkpoint_r2_bridge_runner_v1/readiness_attempt1_source.py.txt": {
+      "sha256": "4a3fefca10d20529697ebb1f590d4f678b333d5a2ed44f9c7b4da238847613e5",
+      "bytes": 5122
+    },
+    "results/checkpoint_r2_bridge_runner_v1/readiness_attempt2_source.py.txt": {
+      "sha256": "5b17052b1a53e1932908a7ab90dadea264211bf343aedbc180da796c15c8eea2",
+      "bytes": 5347
+    },
+    "results/checkpoint_r2_bridge_runner_v1/readiness_retry.json": {
+      "sha256": "5f20e660345a845f89dda6a1dcbb78f256a314e379dcab7be449079535ad4078",
+      "bytes": 10436
+    },
+    "results/checkpoint_r2_bridge_runner_v1/validation.json": {
+      "sha256": "39f1eba144b637b38fa703ed60063cc7d2301474091abe6a586590dbb896229c",
+      "bytes": 1057
+    }
+  },
+  "historical_files_modified": false,
+  "real_inference_executed": false,
+  "production_execution_enabled": false,
+  "historical_fit_adoption_enabled": false,
+  "final_evaluation_enabled": false
+}

@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "common_commit": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+  "frozen_sha256": {
+    "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+    "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+    "data/checkpoint_r2_v1/bridge_identities.json": "c5aedcb0df806541f5a624cea7ee40807bd3d436fd6751d78337c47aa4bc97b7",
+    "results/checkpoint_r2_preflight_v1/historical_bridge_bindings.json": "a6cd7f34a92158a7117dd4e161e69137e3fd8bae48e782bf46887afd2b592711",
+    "src/checkpoint_r2_bridge.py": "b84b14c6b4ee9ed8dcff596429cd47538151c60c7c5e68b6736d8a056c1efa76",
+    "results/checkpoint_r2_preflight_v1/qwen_tokens/receipt.json": "8bcd0c75a27b795c8e4de7ef2782e7c352ba5f0425c6b10e2fa11f6e70dcf1eb"
+  },
+  "historical_file_sha256": {
+    "atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv": "790a03584aa4823902a0c1940e9cd59e8055f99d403d883c32afe60e6422851b",
+    "atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": "1a2a6e2141028127d4eff616ac07900f3d0a7bafc06ac7a617f2e53e0a63453a",
+    "atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv": "379fc4d2b25f3ee254d1e3757dae7ea83ae36dd90df4006039713294fe1a5497",
+    "pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv": "96e96515e780086065694155e3061bdfe6f4bb80af062a63c2deecd6bfad6f94",
+    "pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json": "c7c01d961f08a7277b9eabe29854d7d0ff96f6e12a754fd0cfde3b737240c558",
+    "atomic_probe_selection/qwen25_7b/selected_probe.npz": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119",
+    "llama31_replication_v1/atomic/train/metadata.csv": "13a57d6c727003b168bf10d3249a1fa644a75e119acc1c5d436e4b52516b4433",
+    "llama31_replication_v1/atomic/train/extraction_manifest.json": "8d0c20e6960c0dab2f3f7db702c9399ca76bf916c02857bb7c5c3d429624d6b0",
+    "llama31_replication_v1/atomic/validation/metadata.csv": "fec53b8c3f05f0c427a683be29bf96c16985f2d05eb716728459a3f9566266fa",
+    "llama31_replication_v1/atomic/validation/extraction_manifest.json": "b2929d03ac621408985e18ca162f119fd02a327d59a9d8b6be1e0f6684d2f7c3",
+    "llama31_replication_v1/transfer/metadata.csv": "d4e611040adab42366764bd34590dd9d08ac3a5b358ecd49d4e10247d7381e40",
+    "llama31_replication_v1/transfer/extraction_manifest.json": "08f320e61818d0540369b79829f23a175ba7cbfbb86b6c7dfae61af1fa0c0458",
+    "llama31_replication_v1/probe/selected_probe.npz": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a"
+  },
+  "tensors": {
+    "atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy": {
+      "model": "qwen",
+      "shape": [
+        3144,
+        28,
+        3584
+      ],
+      "dtype": "float16",
+      "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+      "receipt_path": "atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json",
+      "receipt_sha256": "ed926a31056342314d00589867f856eb702ab4befedc7c054f43924510aaff2b",
+      "metadata_path": "atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv",
+      "metadata_sha256": "790a03584aa4823902a0c1940e9cd59e8055f99d403d883c32afe60e6422851b"
+    },
+    "atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy": {
+      "model": "qwen",
+      "shape": [
+        1040,
+        28,
+        3584
+      ],
+      "dtype": "float16",
+      "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+      "receipt_path": "atomic_repair/qwen25_a09a354_bs1_bf16_v1/completion.json",
+      "receipt_sha256": "ed926a31056342314d00589867f856eb702ab4befedc7c054f43924510aaff2b",
+      "metadata_path": "atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv",
+      "metadata_sha256": "379fc4d2b25f3ee254d1e3757dae7ea83ae36dd90df4006039713294fe1a5497"
+    },
+    "pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy": {
+      "model": "qwen",
+      "shape": [
+        8384,
+        28,
+        3584
+      ],
+      "dtype": "float16",
+      "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+      "receipt_path": "pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/progress.json",
+      "receipt_sha256": "5839ca4e968992f4353d9a0c31cdc80cca8a4e1d733afce209cb80379f1b6bc9",
+      "metadata_path": "pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv",
+      "metadata_sha256": "96e96515e780086065694155e3061bdfe6f4bb80af062a63c2deecd6bfad6f94"
+    },
+    "llama31_replication_v1/atomic/train/activations.npy": {
+      "model": "llama",
+      "shape": [
+        3144,
+        32,
+        4096
+      ],
+      "dtype": "float16",
+      "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+      "receipt_path": "llama31_replication_v1/atomic/train/progress.json",
+      "receipt_sha256": "b700b45f46a09b1c9766f8341d1b41d720ac5797c0d821059aaa43506ca60f1d",
+      "metadata_path": "llama31_replication_v1/atomic/train/metadata.csv",
+      "metadata_sha256": "13a57d6c727003b168bf10d3249a1fa644a75e119acc1c5d436e4b52516b4433"
+    },
+    "llama31_replication_v1/atomic/validation/activations.npy": {
+      "model": "llama",
+      "shape": [
+        1040,
+        32,
+        4096
+      ],
+      "dtype": "float16",
+      "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+      "receipt_path": "llama31_replication_v1/atomic/validation/progress.json",
+      "receipt_sha256": "85bfdf3aee8b56e4f3ae76dd375397c3e7ada0cf1610a6c0cea217d2548d22c7",
+      "metadata_path": "llama31_replication_v1/atomic/validation/metadata.csv",
+      "metadata_sha256": "fec53b8c3f05f0c427a683be29bf96c16985f2d05eb716728459a3f9566266fa"
+    },
+    "llama31_replication_v1/transfer/activations.npy": {
+      "model": "llama",
+      "shape": [
+        17292,
+        32,
+        4096
+      ],
+      "dtype": "float16",
+      "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+      "receipt_path": "llama31_replication_v1/transfer/progress.json",
+      "receipt_sha256": "ab391f74f1b981b8b2f9d71b57c502eec49dfcf90183d2353be971c1eacd9354",
+      "metadata_path": "llama31_replication_v1/transfer/metadata.csv",
+      "metadata_sha256": "d4e611040adab42366764bd34590dd9d08ac3a5b358ecd49d4e10247d7381e40"
+    }
+  },
+  "models": {
+    "qwen": {
+      "layers": 28,
+      "width": 3584,
+      "fixed_layer": 17,
+      "fixed_C": 1,
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "probe": {
+        "path": "atomic_probe_selection/qwen25_7b/selected_probe.npz",
+        "sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119",
+        "saved_layer": 17,
+        "C": 1,
+        "role": "historical frozen canonical head for compatibility diagnostics only; no accuracy/AUROC or new fit"
+      },
+      "preprocessing": {
+        "operation": "identity",
+        "normalization": "none",
+        "reason": "frozen historical raw canonical LR, not checkpoint P standardization"
+      },
+      "tokenizer_hash_provenance": "historical config/tokenizer config, locally pinned snapshot tokenizer.json",
+      "tokenizer_class": "Qwen2Tokenizer",
+      "tokenizer_backend_sha256": "e360e6f6266884e6667874f3a7d158ca20c4639e2e1dc80427e1edc2c69a38c7"
+    },
+    "llama": {
+      "layers": 32,
+      "width": 4096,
+      "fixed_layer": 15,
+      "fixed_C": 10,
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "probe": {
+        "path": "llama31_replication_v1/probe/selected_probe.npz",
+        "sha256": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a",
+        "saved_layer": 15,
+        "C": 10,
+        "role": "historical frozen canonical head for compatibility diagnostics only; no accuracy/AUROC or new fit"
+      },
+      "preprocessing": {
+        "operation": "identity",
+        "normalization": "none",
+        "reason": "frozen historical raw canonical LR, not checkpoint P standardization"
+      },
+      "tokenizer_hash_provenance": "historical pin.files",
+      "tokenizer_class": "TokenizersBackend",
+      "tokenizer_backend_sha256": "b47fcb7017102fb3594326d69acc6b74872032ed15def90890d49d61ea94d220"
+    }
+  },
+  "stages": [
+    "calibration_baseline",
+    "calibration_repeat",
+    "calibration_right_padding",
+    "calibration_left_padding",
+    "independent"
+  ],
+  "calibration_batch_size": 2,
+  "independent_batch_size": 1,
+  "caps": {
+    "active_seconds": 7200,
+    "gpu_seconds_per_model": 3600,
+    "setup_timeout_seconds": 1800
+  },
+  "fresh_execution": {
+    "python": "3.12.3",
+    "torch": "2.11.0",
+    "transformers": "5.12.1",
+    "numpy": "2.4.6",
+    "cuda": "12.8",
+    "gpu_name": "NVIDIA A40",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "compute_dtype": "bfloat16",
+    "saved_dtype": "float16",
+    "attention": "sdpa",
+    "float32_matmul_precision": "highest",
+    "allow_tf32": false,
+    "deterministic_algorithms": false,
+    "sdpa_flash_enabled": true,
+    "sdpa_mem_efficient_enabled": true,
+    "sdpa_math_enabled": true,
+    "use_cache": false,
+    "output_hidden_states": true,
+    "logits_to_keep": 1,
+    "add_special_tokens": true,
+    "truncation": false,
+    "chat_template": false,
+    "readout": "last real token",
+    "position_ids": "attention_mask.cumsum(-1)-1; padded positions0",
+    "seed": 0
+  },
+  "execution_note": "Explicit baseline settings follow recorded Qwen execution; using them for Llama is a declared fresh configuration, not proof of unknown historical flags. No runtime fallback or setting search. Seed0 controls fresh diagnostic reproducibility only.",
+  "historical_evidence": {
+    "tokens_available": false,
+    "execution_verified": false,
+    "reuse_permitted": false,
+    "policy": "No flag can promote missing history; a reviewed successor evidence contract is required."
+  },
+  "production_execution_enabled": false,
+  "historical_fit_adoption_enabled": false,
+  "final_evaluation_enabled": false,
+  "real_inference_authorized_by_this_task": false,
+  "output_policy": "new external durable directory; no resume/overwrite; incremental atomic immutable receipts and arrays; stop on calibration failure"
+}

@@ -1,0 +1,262 @@
+{
+  "code_sha256": "5b17052b1a53e1932908a7ab90dadea264211bf343aedbc180da796c15c8eea2",
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "IdentitiesOnly=yes",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "-p",
+    "22114",
+    "-i",
+    "/Users/apple/.ssh/id_ed25519",
+    "root@69.30.85.22",
+    "python -"
+  ],
+  "downloads": false,
+  "inference_executed": false,
+  "local_host": "MacBook-Pro-7.lan",
+  "local_system": "Darwin",
+  "remote": {
+    "artifacts": {
+      "/workspace/truth-probing-artifacts/atomic_probe_selection/qwen25_7b/selected_probe.npz": {
+        "bytes": 28822,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+        "bytes": 10292,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy": {
+        "bytes": 631013504,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/metadata.csv": {
+        "bytes": 480382,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy": {
+        "bytes": 208732288,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/metadata.csv": {
+        "bytes": 164187,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy": {
+        "bytes": 824180864,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/extraction_manifest.json": {
+        "bytes": 5809,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/metadata.csv": {
+        "bytes": 524156,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy": {
+        "bytes": 272629888,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/extraction_manifest.json": {
+        "bytes": 5814,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/metadata.csv": {
+        "bytes": 178763,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/probe/selected_probe.npz": {
+        "bytes": 32733,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy": {
+        "bytes": 4532994176,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/extraction_manifest.json": {
+        "bytes": 10836,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/metadata.csv": {
+        "bytes": 3484857,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy": {
+        "bytes": 1682702464,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/extraction_manifest.json": {
+        "bytes": 58835,
+        "present": true
+      },
+      "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/metadata.csv": {
+        "bytes": 7277404,
+        "present": true
+      }
+    },
+    "cuda": {
+      "compiled_cuda": "12.8",
+      "cudnn": 91002,
+      "device_count": 0,
+      "devices": [],
+      "visible": false
+    },
+    "hostname": "ef7f7534c328",
+    "nvidia_devices": [],
+    "nvidia_driver": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  570.195.03  Release Build  (dvs-builder@U22-I3-H04-03-1)  Sat Sep 20 00:47:16 UTC 2025\nGCC version:  gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04.2) \n"
+    },
+    "nvidia_smi": {
+      "unavailable": "[Errno 2] No such file or directory: 'nvidia-smi'"
+    },
+    "pinned_models": {
+      "llama": {
+        "availability": "present_in_searched_roots",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "searched_cache_roots": [
+          "/root/.cache/huggingface/hub",
+          "/workspace/.cache/huggingface/hub",
+          "/workspace/huggingface/hub"
+        ],
+        "snapshots": [
+          {
+            "config_tokenizer": {
+              "config.json": {
+                "expected_sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer.json": {
+                "expected_sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer_config.json": {
+                "expected_sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "path": "/workspace/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+            "weight_index_bytes": 0,
+            "weight_index_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+            "weight_index_present": true,
+            "weights": {}
+          }
+        ]
+      },
+      "qwen": {
+        "availability": "present_in_searched_roots",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "searched_cache_roots": [
+          "/root/.cache/huggingface/hub",
+          "/workspace/.cache/huggingface/hub",
+          "/workspace/huggingface/hub"
+        ],
+        "snapshots": [
+          {
+            "config_tokenizer": {
+              "config.json": {
+                "expected_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer.json": {
+                "expected_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer_config.json": {
+                "expected_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "path": "/workspace/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+            "weight_index_bytes": 0,
+            "weight_index_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+            "weight_index_present": true,
+            "weights": {}
+          },
+          {
+            "config_tokenizer": {
+              "config.json": {
+                "expected_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer.json": {
+                "expected_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              "tokenizer_config.json": {
+                "expected_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+                "matches": false,
+                "present": true,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "path": "/workspace/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+            "weight_index_bytes": 0,
+            "weight_index_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+            "weight_index_present": true,
+            "weights": {}
+          }
+        ]
+      }
+    },
+    "python": "3.12.3",
+    "storage": {
+      "filesystem": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "Filesystem                           Type             1K-blocks  Used     Available Use% Mounted on\n87ab380c-697a-4dea-88ef-11b6f39f73e0 fuse.geesefs 1099511627776     0 1099511627776   0% /workspace\n"
+      },
+      "free_bytes": 1125899906842624,
+      "mount": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "87ab380c-697a-4dea-88ef-11b6f39f73e0 fuse.geesefs rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other\n"
+      },
+      "path": "/workspace",
+      "practical_quota_verified": false,
+      "quota": {
+        "unavailable": "[Errno 2] No such file or directory: 'quota'"
+      },
+      "readiness_note": "Read-only stat/access indicators only; virtual free space does not establish account quota, durable allocation or a successful write. No write probe performed.",
+      "total_bytes": 1125899906842624,
+      "write_access_flag": true
+    },
+    "system": "Linux",
+    "versions": {
+      "huggingface-hub": null,
+      "numpy": "2.1.2",
+      "safetensors": null,
+      "tokenizers": null,
+      "torch": "2.8.0+cu128",
+      "transformers": null
+    }
+  },
+  "remote_writes": false,
+  "returncode": 0,
+  "setup_seconds": 5.581624707672745,
+  "stderr": "",
+  "stdout_on_failure": null
+}

@@ -1,0 +1,30 @@
+{
+  "code_sha256": "4a3fefca10d20529697ebb1f590d4f678b333d5a2ed44f9c7b4da238847613e5",
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "IdentitiesOnly=yes",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "-p",
+    "22114",
+    "-i",
+    "/Users/apple/.ssh/id_ed25519",
+    "root@69.30.85.22",
+    "python -"
+  ],
+  "downloads": false,
+  "inference_executed": false,
+  "local_host": "MacBook-Pro-7.lan",
+  "local_system": "Darwin",
+  "remote": null,
+  "remote_writes": false,
+  "returncode": 1,
+  "setup_seconds": 5.358435207977891,
+  "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 34, in <module>\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+  "stdout_on_failure": ""
+}

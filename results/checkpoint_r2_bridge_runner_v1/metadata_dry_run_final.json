@@ -1,0 +1,100 @@
+{
+  "caps": {
+    "active_seconds": 7200,
+    "gpu_seconds_per_model": 3600,
+    "setup_timeout_seconds": 1800
+  },
+  "common_commit": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+  "counts": {
+    "calibration": 10,
+    "independent": 180
+  },
+  "final_evaluation_enabled": false,
+  "frozen_sha256": {
+    "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+    "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+    "data/checkpoint_r2_v1/bridge_identities.json": "c5aedcb0df806541f5a624cea7ee40807bd3d436fd6751d78337c47aa4bc97b7",
+    "results/checkpoint_r2_preflight_v1/historical_bridge_bindings.json": "a6cd7f34a92158a7117dd4e161e69137e3fd8bae48e782bf46887afd2b592711",
+    "results/checkpoint_r2_preflight_v1/qwen_tokens/receipt.json": "8bcd0c75a27b795c8e4de7ef2782e7c352ba5f0425c6b10e2fa11f6e70dcf1eb",
+    "src/checkpoint_r2_bridge.py": "b84b14c6b4ee9ed8dcff596429cd47538151c60c7c5e68b6736d8a056c1efa76"
+  },
+  "historical_execution_verified": false,
+  "historical_fit_adoption_enabled": false,
+  "historical_tokens": "missing, never copied from fresh",
+  "mode": "metadata_only",
+  "models": {
+    "llama": {
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "fixed_C": 10,
+      "fixed_layer": 15,
+      "layers": 32,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "preprocessing": {
+        "normalization": "none",
+        "operation": "identity",
+        "reason": "frozen historical raw canonical LR, not checkpoint P standardization"
+      },
+      "probe": {
+        "C": 10,
+        "path": "llama31_replication_v1/probe/selected_probe.npz",
+        "role": "historical frozen canonical head for compatibility diagnostics only; no accuracy/AUROC or new fit",
+        "saved_layer": 15,
+        "sha256": "be3a8923b95c8630599398474d09ca342148a952c7f9116bd48d3914d5419c6a"
+      },
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "tokenizer_backend_sha256": "b47fcb7017102fb3594326d69acc6b74872032ed15def90890d49d61ea94d220",
+      "tokenizer_class": "TokenizersBackend",
+      "tokenizer_hash_provenance": "historical pin.files",
+      "width": 4096
+    },
+    "qwen": {
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "fixed_C": 1,
+      "fixed_layer": 17,
+      "layers": 28,
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "preprocessing": {
+        "normalization": "none",
+        "operation": "identity",
+        "reason": "frozen historical raw canonical LR, not checkpoint P standardization"
+      },
+      "probe": {
+        "C": 1,
+        "path": "atomic_probe_selection/qwen25_7b/selected_probe.npz",
+        "role": "historical frozen canonical head for compatibility diagnostics only; no accuracy/AUROC or new fit",
+        "saved_layer": 17,
+        "sha256": "b9d955ea3c45479c0ea9414892805f1a28e2a827bfbf0cd11181dbbf3029d119"
+      },
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "tokenizer_backend_sha256": "e360e6f6266884e6667874f3a7d158ca20c4639e2e1dc80427e1edc2c69a38c7",
+      "tokenizer_class": "Qwen2Tokenizer",
+      "tokenizer_hash_provenance": "historical config/tokenizer config, locally pinned snapshot tokenizer.json",
+      "width": 3584
+    }
+  },
+  "production_execution_enabled": false,
+  "real_inference_executed": false,
+  "runner_config_sha256": "3312a3eed3349dcfb6920bdb5822b7ffab74332a00f31634ef3231130d500231",
+  "storage_note": "190 historical saved rows + 220 fresh saved rows + 220 fresh compute-as-float32 rows per model; metadata/header/event overhead extra; reserve >=1GiB durable output plus weights/cache.",
+  "storage_payload_bytes": {
+    "llama": 222822400,
+    "qwen": 170598400
+  },
+  "validation": {
+    "historical_hashes_verified": 13,
+    "metadata_files": 6,
+    "ordered_bindings": 380,
+    "tensor_values_read": false
+  },
+  "verified_reuse": false
+}

@@ -1,0 +1,43 @@
+{
+  "successful_readiness_receipt": "readiness_retry.json",
+  "initial_failed_probe_preserved": "readiness.json + readiness_attempt1_source.py.txt",
+  "observation_receipt_mtime_utc": "2026-10-02T02:47:18.146493+00:00",
+  "local_context": {
+    "os": "Darwin",
+    "hostname": "MacBook-Pro-7.lan",
+    "original_root": "/Users/apple/projects/truth-probing-extensions",
+    "original_head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+    "worktree": "/Users/apple/projects/checkpoint-r2-bridge-runner-20261002",
+    "branch": "checkpoint-r2-bridge-runner-20261002",
+    "starting_head": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+    "fetch": "completed without pull"
+  },
+  "remote_host": "ef7f7534c328",
+  "ready_for_inference": false,
+  "recoverable_runtime_prerequisites": [
+    "GPU visibility/VRAM",
+    "pinned Torch2.11.0/Transformers5.12.1/NumPy2.4.6/CUDA12.8/cuDNN91900 runtime",
+    "valid pinned model/tokenizer snapshots; observed searched cache files are zero-byte",
+    "verified durable POSIX output and practical quota"
+  ],
+  "historical_evidence_gaps": [
+    "no historical per-input tokens/masks/positions",
+    "unknown historical execution settings",
+    "recorded producer-code provenance conflicts unresolved"
+  ],
+  "readiness_does_not_verify_tensor_contents": true,
+  "storage_payload_bytes": {
+    "qwen": 170598400,
+    "llama": 222822400,
+    "total": 393420800
+  },
+  "output_reserve_bytes": 1073741824,
+  "stopping_limits": {
+    "active_seconds": 7200,
+    "GPU_seconds_per_model": 3600,
+    "accounting": "conservative full backend lifetime including setup and host work",
+    "setup_timeout_seconds": 1800,
+    "supervisor_poll_seconds": 0.1
+  },
+  "no_inference_or_remote_mutations": true
+}

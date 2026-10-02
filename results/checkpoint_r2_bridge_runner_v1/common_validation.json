@@ -1,0 +1,428 @@
+{
+  "E_scoring_enabled": false,
+  "SSH_performed": false,
+  "adapter": {
+    "blocks": [
+      {
+        "group": "constituent_source_validation",
+        "metadata_sha256": "547b862ead124e2a7db078e14466e9619405c94133cccdf870de53d8f873ff0e",
+        "operator": "AND",
+        "role": "T_C_source_validation"
+      },
+      {
+        "group": "constituent_source_validation",
+        "metadata_sha256": "2836775af74015f1121af086161f5ca5884acc34bcd54733ae2a23bd569279a9",
+        "operator": "OR",
+        "role": "T_C_source_validation"
+      },
+      {
+        "group": "constituent_source_fit",
+        "metadata_sha256": "c50706aec4bfa7f7d917509b3963da9198db25a58822917dd7144a87bf9c50af",
+        "operator": "AND",
+        "role": "T_C_source_fit"
+      },
+      {
+        "group": "constituent_source_fit",
+        "metadata_sha256": "460bb7fae120f485d1b8bf9724021efaed4d4f6b531023589afd898c5a80bf62",
+        "operator": "OR",
+        "role": "T_C_source_fit"
+      },
+      {
+        "group": "TC_control_and_final_refit",
+        "metadata_sha256": "dbfba3fa26e91896315ec8e53b1ea8a99f0ddddea7656ed401be83cc0481ec59",
+        "operator": "AND",
+        "role": "full_T_C_refit"
+      },
+      {
+        "group": "TC_control_and_final_refit",
+        "metadata_sha256": "9d5af773edbf35a76a853bb7053a366a99880a9e61ebfdcfa7cde11640682de2",
+        "operator": "OR",
+        "role": "full_T_C_refit"
+      },
+      {
+        "group": "D_bare",
+        "metadata_sha256": "fe6fd801169389013ffdaf92df297f79a3b021f26fd52e5f81373c92db4c34a7",
+        "operator": "AND",
+        "role": "D_evaluation"
+      },
+      {
+        "group": "D_bare",
+        "metadata_sha256": "d0765fffbbcfc444cfba518dd62759ff22e2f78cd69ef51da9a828ce9193d956",
+        "operator": "OR",
+        "role": "D_evaluation"
+      },
+      {
+        "group": "B25_11",
+        "metadata_sha256": "7466bc9c8e2c146d55d61c8ab39589debffbf5d1c29b9eab84a917bd82bf6307",
+        "operator": "AND",
+        "role": "B25_11"
+      },
+      {
+        "group": "B25_11",
+        "metadata_sha256": "fb0bafb0532df02cc0860d07eb362abecf6a5bcc1bd1bdc76e1ee9f9749a5d1f",
+        "operator": "OR",
+        "role": "B25_11"
+      },
+      {
+        "group": "B25_23",
+        "metadata_sha256": "dbff1b4c40c5dc885a10399d740b9f28f7c9db08899be3266ec0d708278b73bf",
+        "operator": "AND",
+        "role": "B25_23"
+      },
+      {
+        "group": "B25_23",
+        "metadata_sha256": "3ac1dcdc173daed9322bb723b810f1e84e6bb4504370d353dd51005f7e513aaf",
+        "operator": "OR",
+        "role": "B25_23"
+      },
+      {
+        "group": "B25_37",
+        "metadata_sha256": "a993ac9b0428d44ab6384f4bfd2bc8a3e9ab890bddb832844dd324eadbb06950",
+        "operator": "AND",
+        "role": "B25_37"
+      },
+      {
+        "group": "B25_37",
+        "metadata_sha256": "dbe1844403987a3f601207a7ecaae73ec738c126be977456b0aab32ddc7b05cd",
+        "operator": "OR",
+        "role": "B25_37"
+      }
+    ],
+    "groups": {
+      "B25_11": 400,
+      "B25_23": 400,
+      "B25_37": 400,
+      "D_bare": 7728,
+      "TC_control_and_final_refit": 8000,
+      "constituent_source_fit": 8000,
+      "constituent_source_validation": 480
+    },
+    "repeated_example_occurrences": 5184,
+    "rows": 25408,
+    "unique_group_example_bindings": 25408
+  },
+  "adoption_status": {
+    "A15_adopted": true,
+    "P_A_frozen_for_checkpoint": true,
+    "final_evaluation_enabled": false,
+    "mac2_preparation_code_integrated": true,
+    "production_execution_enabled": false,
+    "representation_reuse_verified": false
+  },
+  "bridge": {
+    "compatibility": "unverified",
+    "criteria_preserved_from": "config/checkpoint_r2/protocol_v1.json:bridge",
+    "new_remote_checks": false,
+    "remaining": [
+      "bounded frozen-ID-only extraction producer wiring/review",
+      "GPU-enabled runtime and actual pinned model/tokenizer availability; previous remote observation had no GPU, Torch2.8 versus recorded2.11 and no Transformers",
+      "Llama tokenizer inventory",
+      "storage quota/durable output and actual GPU timing",
+      "all-layer token/position/mask/state/frozen-head comparison, repeatability and padding/batch invariance",
+      "unknown historical producer/tokenizer execution remains unverifiable; identical tensor hashes are not compatibility",
+      "early review and separate production authorization"
+    ],
+    "tolerances_relaxed": false
+  },
+  "contract_sha256": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+  "environment": {
+    "branch": "checkpoint-r2-bridge-runner-20261002",
+    "hostname": "MacBook-Pro-7.lan",
+    "repository": "/Users/apple/projects/checkpoint-r2-bridge-runner-20261002",
+    "system": "Darwin",
+    "validation_parent_head": "a693f0cec29c9d896787ed5dd696aea3053ee5c3"
+  },
+  "fitting_performed": false,
+  "generated_utc": "2026-10-02T02:53:27.553960+00:00",
+  "implementation_sha256": {
+    "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+    "scripts/68_validate_checkpoint_r2_common.py": "5bac3af027e270f05f15727bbc8352fe4a974d629628aae71f1cb0b8bbe5db9a",
+    "src/checkpoint_r2_common_v1.py": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9",
+    "tests/test_checkpoint_r2_common_v1.py": "bd900ef5e049d9d9f001f894a27198eac5eca31f13044d1d215b44772d0cebbe"
+  },
+  "memberships": {
+    "conditional_P15_reuse_matches": 36,
+    "counts": {
+      "A15": 75,
+      "P15": 2778,
+      "TC": 100,
+      "atomic_D": 1012,
+      "balanced": 700,
+      "compound_D_pairs": 483,
+      "outer_train": 3040
+    },
+    "historical_fit_provenance": "v4",
+    "historical_fits_newly_admitted": 0,
+    "ordered_v4_v5_equivalence_hashes": {
+      "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+      "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+      "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+      "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+    },
+    "upstream_metadata_rebuilt": true
+  },
+  "optional_local_preservation": {
+    "all_preserved": true,
+    "files_checked": 14,
+    "root_read_only": "/Users/apple/projects/truth-probing-extensions",
+    "sha256": {
+      "config/clean_protocol/compound_transfer.json": "90b30b7ee2e319489676ada9060872e723c400ae9a90c53244a12ee41c14cb41",
+      "docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx": "f4d9e1b3305bdd4c2507c869734f4efa2da09001d57e99a722e9d31a1e4ba983",
+      "docs/clean_compound_transfer.md": "d90475248fe32c65f3ae84499167c26edf8fb6a86e3331dd9eba9810c106f6c4",
+      "paper_figure_results.zip": "c28df097e798d245ff22bfa84cff6e18bccd934c8e4be3c730e49982e1f4ea9b",
+      "paper_round2_checks.zip": "add535f691f0028fc23ac131ddce9ad1be7f50207c2c829b4ba8ea7e9b54681a",
+      "scripts/32_evaluate_clean_compound_transfer.py": "11b2badf6b601d34547128df40b00dcb01c6f0dc14aa32159887c344cc1f8ef1",
+      "src/compound_transfer.py": "7a051cc394cfd4898606e88d5fc81442045b917c17701fef0f33e99b55259fea",
+      "src/transfer_bootstrap.py": "8cdabdfea19db1db3813a0895df41fee0219a90af168920928740f4dc019e42c",
+      "src/transfer_figures.py": "e53f3a917be48fc95d91ececc5cfd4279ea2a2a568a789a65e8d7fde4293450e",
+      "src/transfer_frozen.py": "04f80109a55f7bf44ab85c192065d18071f560dfce41d854dadd5e2f79209e1e",
+      "src/transfer_integrity.py": "80eda3ac4026e0a730e29259986b7787d5f814bc854cb2d297d07ba497c8c7d6",
+      "src/transfer_metrics.py": "2556203dedad4c78cd4aebb4c73e3e7feded5e22892cae63d92780bc3c060155",
+      "tests/test_compound_transfer.py": "7afb2724af1df73cc59e5b62cd1ca3bea7597e326f672d63a590e5fbd419212c",
+      "tests/transfer_fixtures.py": "48f679c24eb6932d2170aa3d32d071c7981e68bc2709ab3c71b178d64bfd0318"
+    }
+  },
+  "preparation": {
+    "bank_candidates": 600,
+    "conditional_P15_reuse_matches": 36,
+    "external_fit_files_rechecked": false,
+    "historical_provenance": "v4",
+    "per_model": {
+      "llama": 320,
+      "qwen": 280
+    },
+    "repair_fold_fits_before_refits_controls": 900,
+    "reuse_adopted": 0,
+    "status": "metadata inventory only; bridge/runtime gates still pending"
+  },
+  "preservation": {
+    "all_original_bytes_preserved": true,
+    "merge_parents": [
+      "7dd63105c75b894b602fb93754e53eede4483a63",
+      "a8082bd7bb6a321690e615b078c9651a6c6a2d49"
+    ],
+    "normal_merge_commit": "70f5ef8b159c077fb1339390d3bf9c2d0d1281ad",
+    "ordered_path_blob_sha256": "cadbcf88b0ab303fa53344852d495ec5fcd97efaa75d524d4014b5a9ab3b2a35",
+    "preserved_union_files": 1149,
+    "source_commits": {
+      "mac1": "7dd63105c75b894b602fb93754e53eede4483a63",
+      "mac2": "a8082bd7bb6a321690e615b078c9651a6c6a2d49"
+    },
+    "source_file_counts": {
+      "7dd63105c75b894b602fb93754e53eede4483a63": 1128,
+      "a8082bd7bb6a321690e615b078c9651a6c6a2d49": 1002
+    },
+    "source_trees": {
+      "7dd63105c75b894b602fb93754e53eede4483a63": "58c7b960480d8971279022fb3ceec57d83c45d97",
+      "a8082bd7bb6a321690e615b078c9651a6c6a2d49": "156cff7d0bd6ce800642ea1805d486c92fc6e193"
+    }
+  },
+  "production_execution_enabled": false,
+  "real_scores_read": false,
+  "schema_version": 1,
+  "source_commits": {
+    "mac1": "7dd63105c75b894b602fb93754e53eede4483a63",
+    "mac2": "a8082bd7bb6a321690e615b078c9651a6c6a2d49"
+  },
+  "status": "passed_integration_metadata_and_synthetic_validation",
+  "synthetic_only_results": {
+    "AND": {
+      "metadata_sha256": "547b862ead124e2a7db078e14466e9619405c94133cccdf870de53d8f873ff0e",
+      "minimum_tie_layers": [
+        0,
+        1
+      ],
+      "note": "perfect synthetic labels-as-scores fixture; not research performance",
+      "rows": 240,
+      "selected_layer": 0,
+      "status": "selected"
+    },
+    "OR": {
+      "metadata_sha256": "2836775af74015f1121af086161f5ca5884acc34bcd54733ae2a23bd569279a9",
+      "minimum_tie_layers": [
+        0,
+        1
+      ],
+      "note": "perfect synthetic labels-as-scores fixture; not research performance",
+      "rows": 240,
+      "selected_layer": 0,
+      "status": "selected"
+    },
+    "llama": {
+      "best_macro_among_pooled_ties": 0.8,
+      "best_pooled": 0.8,
+      "compound_inputs_used": false,
+      "eligibility": [
+        {
+          "candidate_id": "llama/P15/L00/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "llama/P15/L01/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "llama/P15/L02/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "llama/P15/L03/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "llama/P15/L04/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "llama/P15/L05/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        }
+      ],
+      "eligible_ids": [
+        "llama/P15/L00/r0",
+        "llama/P15/L01/r0",
+        "llama/P15/L02/r0",
+        "llama/P15/L03/r0",
+        "llama/P15/L04/r0",
+        "llama/P15/L05/r0"
+      ],
+      "macro_tie_ids": [
+        "llama/P15/L00/r0",
+        "llama/P15/L01/r0",
+        "llama/P15/L02/r0",
+        "llama/P15/L03/r0",
+        "llama/P15/L04/r0",
+        "llama/P15/L05/r0"
+      ],
+      "model": "llama",
+      "pooled_tie_ids": [
+        "llama/P15/L00/r0",
+        "llama/P15/L01/r0",
+        "llama/P15/L02/r0",
+        "llama/P15/L03/r0",
+        "llama/P15/L04/r0",
+        "llama/P15/L05/r0"
+      ],
+      "randomized_tie_order": [
+        "llama/P15/L05/r0",
+        "llama/P15/L03/r0",
+        "llama/P15/L00/r0",
+        "llama/P15/L01/r0",
+        "llama/P15/L04/r0",
+        "llama/P15/L02/r0"
+      ],
+      "seed": 20261005,
+      "selected_id": "llama/P15/L05/r0",
+      "selector": "S_atom_all",
+      "status": "selected",
+      "tolerance": 1e-12
+    },
+    "qwen": {
+      "best_macro_among_pooled_ties": 0.8,
+      "best_pooled": 0.8,
+      "compound_inputs_used": false,
+      "eligibility": [
+        {
+          "candidate_id": "qwen/P15/L00/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "qwen/P15/L01/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "qwen/P15/L02/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "qwen/P15/L03/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "qwen/P15/L04/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        },
+        {
+          "candidate_id": "qwen/P15/L05/r0",
+          "eligible": true,
+          "macro_atomic_auc": 0.8,
+          "pooled_atomic_auc": 0.8,
+          "reasons": []
+        }
+      ],
+      "eligible_ids": [
+        "qwen/P15/L00/r0",
+        "qwen/P15/L01/r0",
+        "qwen/P15/L02/r0",
+        "qwen/P15/L03/r0",
+        "qwen/P15/L04/r0",
+        "qwen/P15/L05/r0"
+      ],
+      "macro_tie_ids": [
+        "qwen/P15/L00/r0",
+        "qwen/P15/L01/r0",
+        "qwen/P15/L02/r0",
+        "qwen/P15/L03/r0",
+        "qwen/P15/L04/r0",
+        "qwen/P15/L05/r0"
+      ],
+      "model": "qwen",
+      "pooled_tie_ids": [
+        "qwen/P15/L00/r0",
+        "qwen/P15/L01/r0",
+        "qwen/P15/L02/r0",
+        "qwen/P15/L03/r0",
+        "qwen/P15/L04/r0",
+        "qwen/P15/L05/r0"
+      ],
+      "randomized_tie_order": [
+        "qwen/P15/L05/r0",
+        "qwen/P15/L03/r0",
+        "qwen/P15/L00/r0",
+        "qwen/P15/L01/r0",
+        "qwen/P15/L04/r0",
+        "qwen/P15/L02/r0"
+      ],
+      "seed": 20261005,
+      "selected_id": "qwen/P15/L05/r0",
+      "selector": "S_atom_all",
+      "status": "selected",
+      "tolerance": 1e-12
+    }
+  }
+}
