@@ -1,0 +1,20 @@
+{
+  "configuration_sha256": "c3c7cc923185847002ff7f741fc8a0cafe7728d5d76451b91f14728c281314cb",
+  "hostname": "MacBook-Pro-7.lan",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "log_sha256": "34fb4532697337728a2777d3642f5a087e04028e96c8f74baf74740aba541db6",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "real_fits_started": false,
+  "scope": "frozen-metadata and synthetic fitting/statistics only; no real research fits",
+  "seconds": 7.375,
+  "source_hashes": {
+    "src/checkpoint_r2_b25_adapter.py": "82b571a97256e00f96882b691c543cf592459edcc2c6bcf04990728d5521db40",
+    "src/checkpoint_r2_b25_selection.py": "c1ca1338c1f34677b6ae4cb9b641b8beaa79164444d908a4d3b46f8d02e45368",
+    "src/checkpoint_r2_b25_statistics.py": "1027f8669b925e75ceb53750060c88e07f6b80cc0de01cfb8e9ca23b2a2f588a",
+    "src/checkpoint_r2_b25_store.py": "5faea66a85159d1fa8260655342208fdcd4805e2f6c67ca5c60814e1b84d3d1f",
+    "src/checkpoint_r2_fresh_b25.py": "4607f408d31ffcb73f30b2304c192240ffcce0b2884a1efa19ee83649e84a1f2",
+    "tests/test_checkpoint_r2_fresh_b25.py": "fd1bc484512af34addfd1f205ac7625d91ff323ce1d880984c017abc255897b5"
+  },
+  "status": "passed",
+  "tests": 23
+}

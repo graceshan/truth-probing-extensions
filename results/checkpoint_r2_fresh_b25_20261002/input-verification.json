@@ -1,0 +1,20 @@
+{
+  "artifacts_verified": 742,
+  "base_sha": "098a79fcb03114c0809f91dc192c446b3ba392d0",
+  "completion": {
+    "bytes": 119260,
+    "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+  },
+  "historical_fits_eligible": false,
+  "host": "MacBook-Pro-7.lan",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "macOS": "macOS-12.6-arm64-arm-64bit",
+  "physical_replication": "independent CPU review/re-execution on actual host; no second physical-machine replication",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "recoverability_root": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb",
+  "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "seconds": 57.45164579106495,
+  "status": "verified_fresh_features_and_recoverability_artifacts"
+}

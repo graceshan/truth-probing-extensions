@@ -1,0 +1,229 @@
+{
+  "B25_seeds": [
+    11,
+    23,
+    37
+  ],
+  "E_evaluation": false,
+  "bank_candidates": 600,
+  "base_sha": "098a79fcb03114c0809f91dc192c446b3ba392d0",
+  "blas_threads": 1,
+  "bootstrap": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "code_paths": [
+    "src/atomic_probe_methods.py",
+    "src/checkpoint_r2_b25_adapter.py",
+    "src/checkpoint_r2_b25_selection.py",
+    "src/checkpoint_r2_b25_statistics.py",
+    "src/checkpoint_r2_b25_store.py",
+    "src/checkpoint_r2_common_v1.py",
+    "src/checkpoint_r2_fresh_adapter.py",
+    "src/checkpoint_r2_fresh_b25.py",
+    "src/checkpoint_r2_fresh_recoverability.py",
+    "src/checkpoint_r2_fresh_store.py",
+    "src/checkpoint_r2_full_inputs.py",
+    "src/checkpoint_r2_selection_v1.py",
+    "src/clean_atomic_probes.py",
+    "src/clean_transfer_statistics.py",
+    "src/selection_repair_canonical_sensitivity.py",
+    "src/selection_repair_capacity_methods_v1.py",
+    "src/selection_repair_objectives.py",
+    "src/selection_repair_precision_proxy_v1.py",
+    "tests/test_checkpoint_r2_fresh_b25.py",
+    "tests/test_checkpoint_r2_fresh_recoverability.py"
+  ],
+  "dedup": "compound full refit: model/layer/seed plus exact exposure/settings; isolated: model/layer/canonical sorted fact set; C_clean: exact accepted model/layer head; never deduplicate logical observations",
+  "exact_fresh_bank_reuses": 62,
+  "excluded": [
+    "constituent_fitting",
+    "behavior_chat",
+    "interventions",
+    "new_budgets",
+    "allocation_search",
+    "objective_tuning",
+    "E"
+  ],
+  "final_tie_clarification": "S_atom_all uses common-integration PCG64 permutation; S_all/R_all use PCG64 choice, sorted canonical IDs and fresh RNG per model/seed/arm",
+  "folds": 5,
+  "frozen_hashes": {
+    "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+    "config/checkpoint_r2/fresh_recoverability_v1.json": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+    "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+    "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+    "config/clean_protocol/capacity_pilot_v1.json": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e",
+    "config/clean_protocol/checkpoint_r2_cpu_preflight_v1.json": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa",
+    "data/checkpoint_r2_v1/compound_bindings.csv": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f",
+    "data/checkpoint_r2_v1/entities.json": "e64ccfa01f8d77cea0c78e1ecf878489aaedd560d5857c958067b2582c746130",
+    "data/checkpoint_r2_v1/extraction_inventory.csv": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+    "data/checkpoint_r2_v1/facts.json": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500",
+    "data/checkpoint_r2_v1/manifest.json": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca",
+    "data/checkpoint_r2_v1/memberships.json": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6",
+    "data/checkpoint_r2_v1/pair_groups.json": "47c0501e421b2d51bd80e4deaf921f32397a223354d0fa8fb6c6ebb61117721b",
+    "data/checkpoint_r2_v1/pairs.json": "e1fbc9c066e68a93cbda892e4c261caabd2e5576cea6fd9d626cb7c82bbae189",
+    "docs/checkpoint_r2/approved_revision_2.txt": "c3d6fe1296b03857d881f242b8b8f4e2f5f09b205b8ef79f398bb0dc93a61648",
+    "docs/checkpoint_r2/common_integration_v1.md": "f8e2b28be27d1f1e06fd261c9a334fb22093db11bd7e71403e75eaafbfcae2c7",
+    "docs/checkpoint_r2/fresh_recoverability_v1.md": "c8af82bdd75a6c9ab5c88c9e6d2420c4d87fc12fa89d34d98678a8ac716ffb07",
+    "docs/checkpoint_r2/inherited_october_revision_4.txt": "dcb700f7a76eda02480c18e9a941f70c24cb3b3ac549fa823318d95d249e5178",
+    "docs/checkpoint_r2/protocol_amendment.md": "6dd9dac2678940d9ab13c4564a2120ab199e521c3e3eb19b712d81c820f5b9ad",
+    "docs/checkpoint_r2_cpu_preflight_v1.md": "50dc2865cff8a27a4d34b4385644d104b1acbbabf678f0cbf6e0f788c079cfa3",
+    "docs/selection_repair_objectives.md": "2f9fb1097f2b0122b4707a6018b3ea0527949d02d41ea576ec3e73e6adede890",
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/bank_candidates.csv": "c8e5064214f4c4753b3c138f5a541d94ae732c041cf0be911893aafae2d2ea31",
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/planned_repair_folds.csv": "f45d0df024e4c1d035f7b6a7b10c7836f1c1590fa4389c86190a5465f50ecb96",
+    "results/checkpoint_r2_fresh_b25_20261002/input-verification.json": "28db87fb86dd8623966b35af05ee294a40c015c49b02229d9255ac4424783401",
+    "results/checkpoint_r2_fresh_recoverability_20261002/completion.json": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+    "results/checkpoint_r2_fresh_recoverability_20261002/delivery.json": "40784dcce6fabc4372e8e24cb0559c063145ea5a87257c6744075c86af51b377",
+    "results/checkpoint_r2_fresh_recoverability_20261002/result-audit.json": "0a9df9c3006200d6bb58fd0ed1ff084575b78250d10f7d9ad67056e4e5aa3e84",
+    "results/t2_precision_proxy_v1_20261001/support.json": "c7f8375d3f1b55fff886b499b2b5873c22addd4a94e260a121aa466f9fcb4bca",
+    "src/atomic_probe_methods.py": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+    "src/checkpoint_r2_common_v1.py": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9",
+    "src/checkpoint_r2_fresh_adapter.py": "54905ef131ef1965597f702f2b0cc8b00b025a1fbd117ec08f6650388c3470a5",
+    "src/checkpoint_r2_fresh_recoverability.py": "96df8e41ff0273448f8696d9d8bf0d6cf333e5ae9eb8bde016783c86ac35d33d",
+    "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+    "src/checkpoint_r2_full_inputs.py": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a",
+    "src/checkpoint_r2_selection_v1.py": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc",
+    "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+    "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_capacity_methods_v1.py": "8f3d070ef5e5587a50e200524c4c6a1f213a0be751d7badf968afdb3cad1f894",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357",
+    "src/selection_repair_precision_proxy_v1.py": "ed34400e58eac2b1b990c62a83a798bb49a09c2140722f620ae59a99f5b47d1e",
+    "tests/test_checkpoint_r2_fresh_recoverability.py": "cd6b96d87db76a5b30e497a0218c209195bc3c4fcd74edfe633a000c7750c388"
+  },
+  "historical_reuse": false,
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "local_packages": {
+    "matplotlib": "3.8.2",
+    "numpy": "1.26.2",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.3.2",
+    "scipy": "1.11.4",
+    "threadpoolctl": "3.2.0"
+  },
+  "max_atomic_adaptation_controls": 12,
+  "max_equal_boundary_sensitivity_refits": 6,
+  "max_primary_repair_refits": 18,
+  "metrics": {
+    "AND_retention": 0.02,
+    "atomic_retention": 0.005,
+    "constituent_absolute_target": 0.9,
+    "constituent_loss_margin": 0.05,
+    "constituent_success": "all six endpoints in sourceD, transferred targetD and target-trained same-layer targetD; upper paired loss bound<.05; pointwise not simultaneous",
+    "contrasts": [
+      "R_all-S_all",
+      "S_all-S_atom_all",
+      "repair-atomic_only",
+      "repair-same_layer_R0",
+      "C_clean-selection",
+      "retention",
+      "cross-model difference of repair effects"
+    ],
+    "control_lower_bound": 0.9,
+    "control_selection_margin": 0.02,
+    "primary": "B25 pooled OR TF/FT versus FF; repair-minus-selection separately each model",
+    "repair_selection_margin": 0.02,
+    "required_controls": [
+      "S_fixed/R_fixed",
+      "LR-only selector",
+      "repair at S_all layer",
+      "R0 fixed/R_all/atomic-selected",
+      "atomic adaptation fixed/R_all",
+      "eligible bank oracle",
+      "C_clean canonical/D-selected/S_all/R_all/S_atom_all layers"
+    ],
+    "sufficiency": "exploratory D only; both gap upper bounds below margins, strong control lower bound and retention; D-selected control optimistic",
+    "wording_excluded_from_fitting_and_selection": true,
+    "wordings": [
+      "and_both_following_v1",
+      "or_explicit_or_both_v1",
+      "or_at_least_one_v1"
+    ]
+  },
+  "models": {
+    "llama": {
+      "fixed_C": 10,
+      "fixed_layer": 15,
+      "layers": 32,
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "width": 4096
+    },
+    "qwen": {
+      "fixed_C": 1,
+      "fixed_layer": 17,
+      "layers": 28,
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "width": 3584
+    }
+  },
+  "new_bank_fits": 538,
+  "objectives": {
+    "C_clean_and_constituent": "mean relevant TC block BCE + penalty",
+    "R0": "mean P BCE + penalty",
+    "atomic_adaptation": "0.5 mean P BCE + 0.5 mean same 100 isolated fact BCE + penalty",
+    "implementation": "src/selection_repair_objectives.py",
+    "intercept": "unpenalized",
+    "penalty": 0.001,
+    "repair": "0.5 mean P BCE + 0.5 mean allocated compound BCE + penalty",
+    "solver": "reviewed L-BFGS-B float64; 2000 initial, 10000 total warm retry; finite and success and gradient infinity norm <=1e-4; failed fits explicit, no silent layer removal",
+    "specification": "docs/selection_repair_objectives.md",
+    "standardization": "P-only population std ddof=0 floor1e-6 constant coordinates masked; shared by every raw arm"
+  },
+  "persistent_fit_failure": "blocks complete primary comparison; all 600 candidates and 900 folds remain reported; no silent restriction",
+  "precision_policy": "actual B25 native D paired intervals/half-widths; inherited degree-four per-topic count transport where supported; compound pooled/macro/inventors projection unsupported; no E predictions/power claims",
+  "precision_support": "results/t2_precision_proxy_v1_20261001/support.json",
+  "procedure_layer_controls": "layer of returned procedure head; chosen-before-fallback layer/refit kept in trace",
+  "processes": 1,
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "refit_retention_policy": "CV-selected R_all and equal-boundary R_all sensitivity recheck final refit and return reduced LR on failure; raw fixed and S-layer full-refit controls expose their retention without concealing their scores",
+  "repair_fold_fits": 900,
+  "schema": "r2-fresh-b25-v1",
+  "selectors": {
+    "C_clean": "D OR-boundary selected plus canonical and procedure layers; D-selected optimistic/descriptive",
+    "R0": "max atomic D, exact ties lower saved layer",
+    "R_all": "mean five entity-disjoint fold OR TF/FT vs FF AUROCs; never pooled OOF scores; refit all25 pairs",
+    "S_all": "pooled allocated A OR TF/FT vs FF AUROC",
+    "S_atom_all": {
+      "eligibility": "atomic D AUROC >= reduced LR - .005; no compound/AND gate",
+      "once_per_model": true,
+      "ranking": [
+        "max pooled atomic D",
+        "within1e-12 max equal-topic macro atomic D",
+        "within1e-12 PCG64(20261005) choice sorted canonical IDs freshly per model"
+      ]
+    },
+    "constituent": {
+      "aggregation": "within-topic AUROC then equal mean across all five topics separately per endpoint",
+      "composition": "min frozen logits AND, max OR; Boolean combination at probability>=.5; no target sign/threshold/calibration",
+      "endpoints": [
+        "head1 marginal",
+        "head2 marginal",
+        "head1 | head2 false",
+        "head1 | head2 true",
+        "head2 | head1 false",
+        "head2 | head1 true"
+      ],
+      "ranking": [
+        "max minimum six macro endpoints",
+        "within1e-12 max mean six macro endpoints",
+        "within1e-12 lower layer"
+      ],
+      "source_only": true,
+      "source_refit": "same fixed TC pairs as C_clean; cross-operator matched layer references"
+    },
+    "retention_fallback": "eligibility >= reduced LR atomic D -.005; repair mean folds; recheck chosen refit; failure returns reduced LR; empty eligible set returns reduced LR with explicit failure",
+    "separation": "positive P score SD normalization; (mixed mean - FF mean)/sqrt((mixed population variance+FF population variance)/2+1e-8); degenerate flagged",
+    "shared_ties": [
+      "within1e-12 primary",
+      "within1e-12 atomic D AUROC (repair mean folds)",
+      "within1e-12 continuous OR standardized separation (repair mean folds)",
+      "fresh PCG64(20261008) choice sorted canonical tied IDs per model/sample/arm"
+    ]
+  },
+  "wording_lock": "only read wording arrays after all fitting and selectors/refits are immutable",
+  "wording_selection": false
+}
