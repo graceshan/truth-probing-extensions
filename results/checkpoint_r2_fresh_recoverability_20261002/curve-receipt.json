@@ -1,0 +1,9 @@
+{
+  "parsed_svg_elements_attributes_text_unchanged": true,
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "scope": "report rendering only; accepted numerical outputs unchanged; full 0-1 AUROC axis avoids clipping low curves in original archived figure; table line endings normalized to LF with all parsed fields unchanged",
+  "script_sha256": "726d0c948375c1d8cd398bfa29b7df86ede238bc11361d6bbedca37aef10bfd8",
+  "svg_sha256": "031d61f1b4d7e8ffdbd6a5262426e4c57034ac4f50d8550c547d584ce2f7b7d1",
+  "svg_trailing_whitespace_trimmed": true,
+  "table_sha256": "886cab75b92ef0af94767877530474bd9bf083b4fbed2f79dfa9f56c81da4c27"
+}

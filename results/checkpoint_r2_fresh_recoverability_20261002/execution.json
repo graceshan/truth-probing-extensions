@@ -1,0 +1,327 @@
+{
+  "acceptance": {
+    "delivery_sha256": "6b7169232e7d31adcf69abde2c0007eecd3fe7224f21c940f805d045b4ceeaa2",
+    "files_verified": 1174,
+    "handoff": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized",
+    "historical_compatibility": "unverified; no historical parameters/statistics/conditional matches admitted",
+    "hostname": "MacBook-Pro-7.lan",
+    "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+    "listed_bytes": 16919772945,
+    "manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+    "memberships": {
+      "conditional_P15_reuse_matches": 36,
+      "counts": {
+        "A15": 75,
+        "P15": 2778,
+        "TC": 100,
+        "atomic_D": 1012,
+        "balanced": 700,
+        "compound_D_pairs": 483,
+        "outer_train": 3040
+      },
+      "historical_fit_provenance": "v4",
+      "historical_fits_newly_admitted": 0,
+      "ordered_v4_v5_equivalence_hashes": {
+        "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+        "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+        "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+        "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+        "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+        "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+      },
+      "rebuild_manifest_runtime_annotation": {
+        "all_frozen_data_output_bytes_identical": true,
+        "all_other_manifest_fields_identical": true,
+        "frozen_numpy": "2.4.6",
+        "local_numpy": "1.26.2"
+      },
+      "upstream_metadata_rebuilt": true
+    },
+    "models": {
+      "llama": {
+        "all_tokens_bindings_layer_conventions_verified": true,
+        "all_values_finite": true,
+        "dtype": "float16",
+        "index_sha256": "161dadcf22e96c981554786f43533f94e55f6d1b1b3c677e07cb3d5a39eb7395",
+        "layers": 32,
+        "ordered_logical_bindings": 41490,
+        "representation_provenance_verified": true,
+        "runtime_origin_sha256": "d05ae05c40b9562cd1847eec0e27318048339ac968368d41fe7ad911459c390f",
+        "shards": 113,
+        "unique_texts": 35843,
+        "width": 4096
+      },
+      "qwen": {
+        "all_tokens_bindings_layer_conventions_verified": true,
+        "all_values_finite": true,
+        "dtype": "float16",
+        "index_sha256": "6e54fa38d94bdc181ea7f87e0ab5b36d3344c20c166615b33f217eff17776f9e",
+        "layers": 28,
+        "ordered_logical_bindings": 41490,
+        "representation_provenance_verified": true,
+        "runtime_origin_sha256": "bbef6a72b1742dc7650320dec465da75fa5e636c274eddf9077e2732effbeca9",
+        "shards": 113,
+        "unique_texts": 35843,
+        "width": 3584
+      }
+    },
+    "output": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output",
+    "platform": "macOS-12.6-arm64-arm-64bit",
+    "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+    "replication": "independent review/re-execution on actual host; not a second physical-machine replication",
+    "reviewed_producer_commit": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+    "seconds": 57.087810167111456,
+    "status": "independently_accepted_full_fresh_raw",
+    "verify_output": {
+      "scientific_evaluation": false,
+      "status": "full_output_hashes_and_coverage_verified"
+    }
+  },
+  "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+  "adapter": {
+    "TC_D_person_separation": true,
+    "all_A_variants_excluded": true,
+    "distinct_text_rows": {
+      "D_bare": 7728,
+      "P15": 2778,
+      "TC_control_and_final_refit": 8000,
+      "atomic_D": 1006
+    },
+    "fresh_representation_only": true,
+    "group_rows": {
+      "D_bare": 7728,
+      "P15": 2778,
+      "TC_control_and_final_refit": 8000,
+      "atomic_D": 1012
+    },
+    "historical_matches_admitted": 0,
+    "memberships": {
+      "conditional_P15_reuse_matches": 36,
+      "counts": {
+        "A15": 75,
+        "P15": 2778,
+        "TC": 100,
+        "atomic_D": 1012,
+        "balanced": 700,
+        "compound_D_pairs": 483,
+        "outer_train": 3040
+      },
+      "historical_fit_provenance": "v4",
+      "historical_fits_newly_admitted": 0,
+      "ordered_v4_v5_equivalence_hashes": {
+        "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+        "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+        "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+        "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+        "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+        "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+      },
+      "upstream_metadata_rebuilt": false
+    },
+    "ordered_row_bindings": {
+      "D_bare": "be4f99bdce622e52bc8cee75471ebefcbcbddca89b6da89e30e6af6cce007e0b",
+      "P15": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "TC_control_and_final_refit": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "atomic_D": "f41cb58a32d239c7c39dd034f6734cbfe8c3db30e966af36d2ebe4d904c92cf1"
+    },
+    "source_rows": {
+      "D_bare": "b2352d4cfbe3cda232da07e57a2286c58459ac14f7c8048c97f0d6633e6956db",
+      "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "TC_control_and_final_refit": "e8b3bfbc8755ac9888becaa89992f100c2132fa9a574d48e742d1d5e51dd94b7",
+      "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98"
+    }
+  },
+  "code_hashes": {
+    "src/checkpoint_r2_common_v1.py": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9",
+    "src/checkpoint_r2_fresh_adapter.py": "54905ef131ef1965597f702f2b0cc8b00b025a1fbd117ec08f6650388c3470a5",
+    "src/checkpoint_r2_fresh_recoverability.py": "96df8e41ff0273448f8696d9d8bf0d6cf333e5ae9eb8bde016783c86ac35d33d",
+    "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+    "src/checkpoint_r2_full_inputs.py": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a",
+    "src/checkpoint_r2_selection_v1.py": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc",
+    "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+    "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357",
+    "tests/test_checkpoint_r2_fresh_recoverability.py": "cd6b96d87db76a5b30e497a0218c209195bc3c4fcd74edfe633a000c7750c388"
+  },
+  "config": {
+    "C_clean_selector": {
+      "final_tie": "protocol shared PCG64 choice over sorted head IDs; fresh per model/arm",
+      "primary": "pooled D OR mixed-versus-FF AUROC",
+      "secondary": "pooled atomic D AUROC",
+      "tertiary": "positive P score SD normalization; (mixed mean - FF mean)/sqrt((mixed population variance+FF population variance)/2+1e-8); degenerate flagged",
+      "tie_seed": 20261008,
+      "tie_tolerance": 1e-12
+    },
+    "R0_selector": "max atomic D, exact ties lower saved layer",
+    "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+    "base_commit": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+    "blas_threads": 1,
+    "bootstrap": {
+      "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+      "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+      "minimum_valid": 1800,
+      "replicates": 2000,
+      "rng": "numpy.random.Generator(PCG64)",
+      "seed": 1729
+    },
+    "excluded": [
+      "remaining_atomic_bank",
+      "S_atom_all",
+      "B25_selection_repair",
+      "constituent_fitting",
+      "wording_evaluation",
+      "behavior_chat",
+      "E"
+    ],
+    "frozen_hashes": {
+      "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+      "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+      "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+      "config/clean_protocol/capacity_pilot_v1.json": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e",
+      "config/clean_protocol/checkpoint_r2_cpu_preflight_v1.json": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa",
+      "data/checkpoint_r2_v1/compound_bindings.csv": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f",
+      "data/checkpoint_r2_v1/entities.json": "e64ccfa01f8d77cea0c78e1ecf878489aaedd560d5857c958067b2582c746130",
+      "data/checkpoint_r2_v1/extraction_inventory.csv": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+      "data/checkpoint_r2_v1/manifest.json": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca",
+      "data/checkpoint_r2_v1/memberships.json": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6",
+      "src/checkpoint_r2_common_v1.py": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9",
+      "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+      "src/checkpoint_r2_full_inputs.py": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a",
+      "src/checkpoint_r2_selection_v1.py": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc",
+      "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+      "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+      "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+      "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+    },
+    "historical_reuse": false,
+    "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+    "local_packages": {
+      "matplotlib": "3.8.2",
+      "numpy": "1.26.2",
+      "pandas": "3.0.3",
+      "scikit-learn": "1.3.2",
+      "scipy": "1.11.4",
+      "threadpoolctl": "3.2.0"
+    },
+    "models": {
+      "llama": {
+        "C": 10.0,
+        "canonical_layer": 15,
+        "layers": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "width": 4096
+      },
+      "qwen": {
+        "C": 1.0,
+        "canonical_layer": 17,
+        "layers": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "width": 3584
+      }
+    },
+    "objectives": {
+      "C_clean_and_constituent": "mean relevant TC block BCE + penalty",
+      "R0": "mean P BCE + penalty",
+      "atomic_adaptation": "0.5 mean P BCE + 0.5 mean same 100 isolated fact BCE + penalty",
+      "implementation": "src/selection_repair_objectives.py",
+      "intercept": "unpenalized",
+      "penalty": 0.001,
+      "repair": "0.5 mean P BCE + 0.5 mean allocated compound BCE + penalty",
+      "solver": "reviewed L-BFGS-B float64; 2000 initial, 10000 total warm retry; finite and success and gradient infinity norm <=1e-4; failed fits explicit, no silent layer removal",
+      "specification": "docs/selection_repair_objectives.md",
+      "standardization": "P-only population std ddof=0 floor1e-6 constant coordinates masked; shared by every raw arm"
+    },
+    "planned_fits": 122,
+    "processes": 1,
+    "record_code_paths": [
+      "src/selection_repair_objectives.py",
+      "src/selection_repair_canonical_sensitivity.py",
+      "src/clean_atomic_probes.py",
+      "src/clean_transfer_statistics.py",
+      "src/checkpoint_r2_selection_v1.py",
+      "src/checkpoint_r2_common_v1.py",
+      "src/checkpoint_r2_full_inputs.py",
+      "src/checkpoint_r2_fresh_store.py",
+      "src/checkpoint_r2_fresh_adapter.py",
+      "src/checkpoint_r2_fresh_recoverability.py",
+      "tests/test_checkpoint_r2_fresh_recoverability.py"
+    ],
+    "retention_margins": {
+      "AND": 0.02,
+      "atomic": 0.005
+    },
+    "schema": "r2-fresh-recoverability-v1",
+    "scope": "explicitly authorized bounded CPU fresh stage only",
+    "wording_in_fit_selection_evaluation": false
+  },
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "host": "MacBook-Pro-7.lan",
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]"
+}

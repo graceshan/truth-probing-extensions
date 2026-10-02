@@ -1,0 +1,5118 @@
+{
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "records": [
+    {
+      "family": "R0",
+      "feature_float64_sha256": "81e16324de4dd7980d769a8b80808a5f31f8cedb367991fb71decf3735cb3223",
+      "fit_rows": 2778,
+      "fit_seconds": 5.08118754113093,
+      "id": "qwen_R0_L00",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 663,
+            "gradient_infinity_norm": 8.72579194918671e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 602,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.6230101842406123,
+            "relative_objective_change": 1.224080031780872e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "297faed60a455748421e210b3e2270d2ca235e6ae20d68bfd1345c104d6012f3"
+      },
+      "saved_layer": 0,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "bf8fc41be8f471ed89e295040a56287bba374b7f9ef8e66fee51fcde486ff58b",
+      "fit_rows": 8000,
+      "fit_seconds": 13.065443917177618,
+      "id": "qwen_C_clean_L00",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 588,
+            "gradient_infinity_norm": 8.421491590532092e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 537,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.25655202728402304,
+            "relative_objective_change": 4.93477922414165e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "ca7caef07a78fc8009401d7b32f8734702c7426d3b5e2c5172408cfc55bfac65"
+      },
+      "saved_layer": 0,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "1580ad9d71fa596683f246ae36dd9c8dc2251a24f2def3c966ca549cc7db10d6",
+      "fit_rows": 2778,
+      "fit_seconds": 5.463900624774396,
+      "id": "qwen_R0_L01",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 707,
+            "gradient_infinity_norm": 9.433233235804091e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 643,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.5989623496287559,
+            "relative_objective_change": 7.219276387804285e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "45e19fbe8693cb085f0e23dc55c0a97ae199de56646c3f44ed8f173be7431e55"
+      },
+      "saved_layer": 1,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "e04ded1c9bc2d0c12274883ab39dacbc1826d328c682898502317b7ab6478eee",
+      "fit_rows": 8000,
+      "fit_seconds": 13.19407912530005,
+      "id": "qwen_C_clean_L01",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 593,
+            "gradient_infinity_norm": 9.82760973821148e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 553,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.2307996753399471,
+            "relative_objective_change": 1.497363733560242e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "40a79e55163f353ca52e476f2b22fb6149aeb35725086275059d76f0862fc341"
+      },
+      "saved_layer": 1,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "474d8201bb8216965fd7b1bd3d1ea239a75f8e6080ddccbcda360aa3fce13d24",
+      "fit_rows": 2778,
+      "fit_seconds": 5.033291874919087,
+      "id": "qwen_R0_L02",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 654,
+            "gradient_infinity_norm": 9.843125787161637e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 585,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.5746804465980221,
+            "relative_objective_change": 6.852052436556733e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "91c96be8015fe835c2fd36d50688553930c89cc22adc7259c135d8b89e77401a"
+      },
+      "saved_layer": 2,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "70c15bfbad0085ccd40eb34ffeea43b9b69b7b7d5a4d43c77ab8cd09a618d117",
+      "fit_rows": 8000,
+      "fit_seconds": 12.62178587494418,
+      "id": "qwen_C_clean_L02",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 563,
+            "gradient_infinity_norm": 9.652125682188593e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 522,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.21832614240283535,
+            "relative_objective_change": 1.5030177377695075e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "8127f67d4bd1bf6f68619a68d17b0df0758b67ec997060ec246c2f7c23863b95"
+      },
+      "saved_layer": 2,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "2091ef73c0f8db5945166c66a36ae4f2c9aa85ca8ccec677bbbcd9c731679e99",
+      "fit_rows": 2778,
+      "fit_seconds": 4.833885709289461,
+      "id": "qwen_R0_L03",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 614,
+            "gradient_infinity_norm": 9.667931388701354e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 572,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.499204732048773,
+            "relative_objective_change": 1.451944094954527e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "2bade5ab3a897d2744e44b702b85c143e74b8aaafa51c671f156c60b82d8ff72"
+      },
+      "saved_layer": 3,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "5b0f933c21a6a1748aa5f5007aab8125110957fcef5d362a42fa3abc757eff89",
+      "fit_rows": 8000,
+      "fit_seconds": 12.673833915963769,
+      "id": "qwen_C_clean_L03",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 560,
+            "gradient_infinity_norm": 9.425499172946179e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 526,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.20773170311837158,
+            "relative_objective_change": 8.609632115574861e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "7c35c162574329d7a6d0134f73652342254349a812bd5444b0f3ea89bc674311"
+      },
+      "saved_layer": 3,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "ef946ad208d5ef4ead385fd706e35c2c4751c1eca1191e71cf63fc1ce830d875",
+      "fit_rows": 2778,
+      "fit_seconds": 4.403528292197734,
+      "id": "qwen_R0_L04",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 561,
+            "gradient_infinity_norm": 9.775695529920796e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 516,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.4161280076103958,
+            "relative_objective_change": 1.750265686828456e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "3502737cc20994f9f0daf7550e1d5943e94655e72c1a6ebd69a855e0d86256c9"
+      },
+      "saved_layer": 4,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "57cbaf2e702a77b033dedff6a0a31955a4aae86d3d1f3d02e59d3ee16260b5d1",
+      "fit_rows": 8000,
+      "fit_seconds": 12.263502291869372,
+      "id": "qwen_C_clean_L04",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 547,
+            "gradient_infinity_norm": 8.183555433242235e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 501,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.175400541385013,
+            "relative_objective_change": 8.765869632942902e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "1ebcb2e51e203cd1ff8b92d8e8b09b6b05449ff3536258e0ba01e1f59120a8fb"
+      },
+      "saved_layer": 4,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "5575313f16127c1167c7cb21cb6f30178b1b5b6f5653533b969dbf4fdd0a2e44",
+      "fit_rows": 2778,
+      "fit_seconds": 4.249699000269175,
+      "id": "qwen_R0_L05",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 547,
+            "gradient_infinity_norm": 9.652218233914718e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 495,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.38020878208140657,
+            "relative_objective_change": 1.2509574548458247e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "e16ee696567fff38eed9296d4f55c87010bd51f7ede8b5e4df9b5cbbc54f0d23"
+      },
+      "saved_layer": 5,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "64b77484c4f622b07ca67f8ed69902a6b7e0f27e114fb0d4c98a52f2257fe14b",
+      "fit_rows": 8000,
+      "fit_seconds": 11.70265958365053,
+      "id": "qwen_C_clean_L05",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 519,
+            "gradient_infinity_norm": 9.173597483833312e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 483,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.1598040970001527,
+            "relative_objective_change": 2.22763713253471e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "3ac449b70ec755a7f74825cffea9824e0d349c707f69960ea53bfd3a13b59be2"
+      },
+      "saved_layer": 5,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "f132ef5ed73b3ede3acae5c30c3a4f68a3d377003e5ad7245b428e1d8ca13ec0",
+      "fit_rows": 2778,
+      "fit_seconds": 3.2960885423235595,
+      "id": "qwen_R0_L06",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 419,
+            "gradient_infinity_norm": 9.481221242854489e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 382,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.19900331771619328,
+            "relative_objective_change": 2.2769145929801837e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "8613a5fb4db3283a6a6d3c835afbd868901fca9d3622a6f82cc4467bcf40159e"
+      },
+      "saved_layer": 6,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "fe8b07ab3af79f216c85d9ea39b659c94719a5b92e9210e30c0ee4731a293fc9",
+      "fit_rows": 8000,
+      "fit_seconds": 10.983172125183046,
+      "id": "qwen_C_clean_L06",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 490,
+            "gradient_infinity_norm": 8.081347977059824e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 450,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.1257152165386572,
+            "relative_objective_change": 1.697844420611716e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "ca7697274c676286d3e99d185e2bb71c01726c8d4c404b72818b2db76e291689"
+      },
+      "saved_layer": 6,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "288fae9e309d6f96957966c8862cdd35d433f05599cee70d50f9203f1423838c",
+      "fit_rows": 2778,
+      "fit_seconds": 2.5771255418658257,
+      "id": "qwen_R0_L07",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 325,
+            "gradient_infinity_norm": 9.898020240296977e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 293,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.1343393638518801,
+            "relative_objective_change": 3.873288312861156e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "acf9ffdd676b129d8ab1d570398c4c70df72c4b1f6acc0809d23e01612ed4fe7"
+      },
+      "saved_layer": 7,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "19585e9188822c98382568188dde60cf1c5da7acde03757628281d463169c86a",
+      "fit_rows": 8000,
+      "fit_seconds": 9.164896584115922,
+      "id": "qwen_C_clean_L07",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 406,
+            "gradient_infinity_norm": 9.316599517079479e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 365,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.10464281968907843,
+            "relative_objective_change": 4.882362853453337e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "b9755900f975b7b52142daee0a9e74009ae041048443c11d74e09c3d8cc75826"
+      },
+      "saved_layer": 7,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "72bacc10137f93eea0cb65d25c73d4a1d791eab54058a22ecc20ffaa9838cbb0",
+      "fit_rows": 2778,
+      "fit_seconds": 2.0281651662662625,
+      "id": "qwen_R0_L08",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 247,
+            "gradient_infinity_norm": 9.722246524477163e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 231,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.07996224037976075,
+            "relative_objective_change": 7.038554733634905e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "5c1531e7f1ddb72a9b385f132ac2f3853f7ec08c2231ce61634e243a6c700beb"
+      },
+      "saved_layer": 8,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "d12b29865b8be97764edf86e08ceb3ea6446158d82e22d099ebe3aa6e11e84f8",
+      "fit_rows": 8000,
+      "fit_seconds": 9.340398708358407,
+      "id": "qwen_C_clean_L08",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 413,
+            "gradient_infinity_norm": 7.994968404098992e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 374,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.10507649918454545,
+            "relative_objective_change": 2.5926343225068926e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "429ca4a9a84babaef466465940bfe271c98e4305b3122b23299e4df7f9dc6a91"
+      },
+      "saved_layer": 8,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "3587fc35eeca606164c04bd4f6e342d351c4777a5653bc346e97868166af8266",
+      "fit_rows": 2778,
+      "fit_seconds": 1.081607083324343,
+      "id": "qwen_R0_L09",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 122,
+            "gradient_infinity_norm": 9.273054176773834e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 114,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.02643421724960028,
+            "relative_objective_change": 1.762080511811398e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "0b64581216379dc603528c80076f9f2fb9ef06a9bf1a9fb1f8a918301eb01e23"
+      },
+      "saved_layer": 9,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "4db36c8ad361dad16c134181cf799e83bed2e4cccd9b9de2ad05aae2bd3c0b1f",
+      "fit_rows": 8000,
+      "fit_seconds": 6.374957459047437,
+      "id": "qwen_C_clean_L09",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 269,
+            "gradient_infinity_norm": 8.891354341659412e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 249,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.055142445883754915,
+            "relative_objective_change": 3.6664706198896724e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "c6ef57505de12cc56ad54ec4456ecb03881a52bc18d57b896a8a56646d3cc122"
+      },
+      "saved_layer": 9,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "6c4c7f8f725c125f0133921dbef98e89ce78cede440cdc2c08d0bf2197e37015",
+      "fit_rows": 2778,
+      "fit_seconds": 0.8265145416371524,
+      "id": "qwen_R0_L10",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 88,
+            "gradient_infinity_norm": 9.825708773248223e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 83,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.015022470924504932,
+            "relative_objective_change": 4.4500357089753e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "23d688acddbe858fc424535224be3329d31c896f322101ee28b2033df4914775"
+      },
+      "saved_layer": 10,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "315eb2afafff980fe510927164118e0ec76478413af3b50c5660aaacad7c1868",
+      "fit_rows": 8000,
+      "fit_seconds": 6.048528041690588,
+      "id": "qwen_C_clean_L10",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 258,
+            "gradient_infinity_norm": 9.592758013879916e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 233,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.056432109658597795,
+            "relative_objective_change": 7.463038649707654e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "bec0c839a48c41fff960081e39932e51c34a6d27cf218ec688a0a24462c97aed"
+      },
+      "saved_layer": 10,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "58f3d798a5118f79a2cc029206602cc1863a1529f4cb96a45d72e30ffdf9a507",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5062258341349661,
+      "id": "qwen_R0_L11",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 47,
+            "gradient_infinity_norm": 9.54604694863486e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 42,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.007028315208640893,
+            "relative_objective_change": 5.473943919705182e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "d679b9bdd7bd4df43053f181a8c0048f810bf2e50522c0b09824711a9a5d40bd"
+      },
+      "saved_layer": 11,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "a8892d6cfd05f81cab42bd3a09888cb7236185e15c4390c757f53c15c8ccc4a3",
+      "fit_rows": 8000,
+      "fit_seconds": 5.207121166400611,
+      "id": "qwen_C_clean_L11",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 219,
+            "gradient_infinity_norm": 9.017495706660009e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 195,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.04648240215390134,
+            "relative_objective_change": 4.1872601969084045e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "3fcc1e40f7ec2f140ff2c4487cfc94dd06d647a96ae04f25380553812a048bb4"
+      },
+      "saved_layer": 11,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "3d45026918719c82910b42ff987aae8b4991f8c10b3bb1c5ae4b31ec225b8f04",
+      "fit_rows": 2778,
+      "fit_seconds": 0.45125854201614857,
+      "id": "qwen_R0_L12",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 39,
+            "gradient_infinity_norm": 7.816877798978284e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 36,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.005571400263417902,
+            "relative_objective_change": 1.030298215348377e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "485b5ad27d6b290fe3f2e9b416b7132b1c135b2860eaae0c0caba1ac2605a0ee"
+      },
+      "saved_layer": 12,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "cf2dd9cddc8cbcdc2a01943f9762574155916b1ac0154296f084efa5d59c3ee1",
+      "fit_rows": 8000,
+      "fit_seconds": 4.9539303332567215,
+      "id": "qwen_C_clean_L12",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 205,
+            "gradient_infinity_norm": 7.541536266094905e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 185,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.036066782846875756,
+            "relative_objective_change": 7.812231077597431e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "434854f020114fc4b227f3c69590dce3925d5a9d88c6827e7e635225f7ff2b40"
+      },
+      "saved_layer": 12,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "0443f324ad48b206dd5658df9e540408cc51c39af25a499951890072ee541f34",
+      "fit_rows": 2778,
+      "fit_seconds": 0.4080664999783039,
+      "id": "qwen_R0_L13",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 33,
+            "gradient_infinity_norm": 9.504635911625144e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 31,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.00484533559175108,
+            "relative_objective_change": 4.482535046085659e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "33667657d6f6ffa6a99519a00ee3724af91b6d488354feec543acd121a07dbea"
+      },
+      "saved_layer": 13,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "7eeefefe6ba229a6f608649af8477fd34164b568071b44244e6cd9d40fde9a14",
+      "fit_rows": 8000,
+      "fit_seconds": 4.520119457971305,
+      "id": "qwen_C_clean_L13",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 183,
+            "gradient_infinity_norm": 9.596395490163513e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 167,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.034215395833508605,
+            "relative_objective_change": 1.1838206396344586e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "e03df6295a0fbb5baeb9d218ca973e9477dee5ee124401791a8518958f6eb4fe"
+      },
+      "saved_layer": 13,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "75be6b3a6e4a8a9d795a7a5a758fdcb4f4e1e51ac66540b576cf1a402174497f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.37687366688624024,
+      "id": "qwen_R0_L14",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 29,
+            "gradient_infinity_norm": 9.726478661847634e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 27,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0036360689253154303,
+            "relative_objective_change": 1.9059944762494455e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "d5f18a4da3d9d3e56eb628c86c24798c2294e86bc9d91d70471ab776b39b7267"
+      },
+      "saved_layer": 14,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "03b4b06c46d1bf612bff02807c104b99c24d41075f01dda92ed6484b43a8516b",
+      "fit_rows": 8000,
+      "fit_seconds": 4.90444766683504,
+      "id": "qwen_C_clean_L14",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 204,
+            "gradient_infinity_norm": 8.098468569102087e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 182,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.033805723738225824,
+            "relative_objective_change": 6.519219456491143e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "ec2695f93258fbc49dabd842be7eb026b88346ed7ef082b6b922a6b88a9af0b0"
+      },
+      "saved_layer": 14,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "f66f740403a84c647c08d22971c0ebc6c667fdd26166522f1f884f2d47799da8",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3993875002488494,
+      "id": "qwen_R0_L15",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 32,
+            "gradient_infinity_norm": 8.353467912163969e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 30,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0031007593742949525,
+            "relative_objective_change": 1.1085005644467186e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "139106669d05faba8877518703359059b23aac7e9e0e9913458d04de0d6730d8"
+      },
+      "saved_layer": 15,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "a3f1cdba23a53728a38db43ab2bc5986dbc0a382a3e9d03b1b54061d0c187aa0",
+      "fit_rows": 8000,
+      "fit_seconds": 4.466134416870773,
+      "id": "qwen_C_clean_L15",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 181,
+            "gradient_infinity_norm": 9.819380709392977e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 164,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.03114524547982522,
+            "relative_objective_change": 1.2099526367735647e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "20ae4aaf277607c77ddb50eea8afe457d7b1730a2317ba8e950c3940807ee6fe"
+      },
+      "saved_layer": 15,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "eab4cc27712c802c07d8fae445efe777a676cd7530ed5127ee941856c43cc99e",
+      "fit_rows": 2778,
+      "fit_seconds": 0.38599162455648184,
+      "id": "qwen_R0_L16",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 30,
+            "gradient_infinity_norm": 6.579558818829048e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 28,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0024891310257813,
+            "relative_objective_change": 8.948590526550344e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "8dbd91da535a8d137e2212466068b2c534870aa46b0aa6031c7f29147ed2ccfb"
+      },
+      "saved_layer": 16,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "30bb2d4f299a993a7b6725ec82f4267ec13c4745dc02f84f197d83447a3ff39e",
+      "fit_rows": 8000,
+      "fit_seconds": 3.775174458976835,
+      "id": "qwen_C_clean_L16",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 150,
+            "gradient_infinity_norm": 9.121499983606667e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 135,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.023845443388111162,
+            "relative_objective_change": 3.088518651047506e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "5e139b039da0709943c77b7031fbcf1842c91646db108c535f2a9ca62a6f79d6"
+      },
+      "saved_layer": 16,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "4794314c0e6d6c2cec8505ffcf291e05560aa57c4aa6474c6924fc5590685090",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3195251659490168,
+      "id": "qwen_R0_L17",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 21,
+            "gradient_infinity_norm": 9.950336654981506e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 20,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.002023399943120418,
+            "relative_objective_change": 2.227228732819362e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "efa8c1c60ab7556758b6209e12249d3178fc3acc500e02bf9bf3a5b15c1b6b60"
+      },
+      "saved_layer": 17,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "ba10a66e8a3cb5f911eb4db7525e68bfa755e355fef1141e8c7648b40b88b6b1",
+      "fit_rows": 8000,
+      "fit_seconds": 3.6515132091008127,
+      "id": "qwen_C_clean_L17",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 144,
+            "gradient_infinity_norm": 8.839133012101103e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 131,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.021811115266916873,
+            "relative_objective_change": 5.635763272518468e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "65f80814b371b1ef9bb40359486652209404a43641b62ef762fc3b3174521312"
+      },
+      "saved_layer": 17,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "reduced_LR",
+      "feature_float64_sha256": "4794314c0e6d6c2cec8505ffcf291e05560aa57c4aa6474c6924fc5590685090",
+      "fit_rows": 2778,
+      "fit_seconds": 1.6051871669478714,
+      "id": "qwen_reduced_LR_L17",
+      "model": "qwen",
+      "optimizer": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 334,
+        "finite": true,
+        "gradient_infinity_norm": 4.834574648752112e-07,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 334,
+        "initial_warning_messages": "[]",
+        "library_warnings": [],
+        "n_iter": 334,
+        "objective": 0.0013569779698548719,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2"
+      },
+      "saved_layer": 17,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "f3c3fe0145d4b0a6bf2095cf137817a7f3b77b92c03b58110010a61c6772b483",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3226832910440862,
+      "id": "qwen_R0_L18",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 22,
+            "gradient_infinity_norm": 9.689085658054357e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 20,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0018459331167508916,
+            "relative_objective_change": 3.704104490708914e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "79b80bee12f91f0bd9d060df138f7d19eae503c2de06cb97b28c59e6bd4b01b4"
+      },
+      "saved_layer": 18,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "b09f03fbd6e93dfbf02cdcb14fedb36c21bd2f951cb455c46eb0bb7983119656",
+      "fit_rows": 8000,
+      "fit_seconds": 3.2056763749569654,
+      "id": "qwen_C_clean_L18",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 123,
+            "gradient_infinity_norm": 8.090576701013031e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 110,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.015017861013397563,
+            "relative_objective_change": 1.92836678218275e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "5dd235bb7b405a29605103145176369c75b220dbd1edd6e14178f0223523cae1"
+      },
+      "saved_layer": 18,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "b9a5a5817d660c6435c6f64e5c640d70b25d2304c1114606d5293c97ce9760ff",
+      "fit_rows": 2778,
+      "fit_seconds": 0.35649704234674573,
+      "id": "qwen_R0_L19",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 27,
+            "gradient_infinity_norm": 9.363298607496174e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 24,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0020643230738264574,
+            "relative_objective_change": 5.503435753349091e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "dee27b646c310420d834014148a9d28df896614fefb45128c9f6d621e47d2e67"
+      },
+      "saved_layer": 19,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "3c174bb30022fef983bcb11975eb8da1b374bb48eb19896701bda7f9084dad88",
+      "fit_rows": 8000,
+      "fit_seconds": 3.184798958245665,
+      "id": "qwen_C_clean_L19",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 119,
+            "gradient_infinity_norm": 7.023961652851409e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 110,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.015312062621844836,
+            "relative_objective_change": 2.669306908445121e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "e32ba596a684dbd29a92e2205cc8ac3d9031884151d1692cea9be9ae5d07ae75"
+      },
+      "saved_layer": 19,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "128017a3b04fab122ac2397ab9c22972c20758b50fa9394d064ad8fd764c0476",
+      "fit_rows": 2778,
+      "fit_seconds": 0.35702445916831493,
+      "id": "qwen_R0_L20",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 27,
+            "gradient_infinity_norm": 6.826943679746279e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 24,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0022780173030477664,
+            "relative_objective_change": 1.1010246624931514e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "6c835b1603d4dca2e26db72094f1d2053a2ec5057413d390196173d699a1c58f"
+      },
+      "saved_layer": 20,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "9e0ce82124c9dfa584e029bfa844dc845ccb78c48ba0c26712c588ee36282259",
+      "fit_rows": 8000,
+      "fit_seconds": 3.1081807501614094,
+      "id": "qwen_C_clean_L20",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 115,
+            "gradient_infinity_norm": 9.982625970977822e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 108,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.01603695516190875,
+            "relative_objective_change": 2.8831903886999966e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "d7d67ef2f674379e09edd875e4935ede82f65e29f1ac81fb39edd39d480a36ac"
+      },
+      "saved_layer": 20,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "19bb31b9323f235822bc48fe98b6de24055e4750b229b7ac2106b17bc3717c19",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3558722920715809,
+      "id": "qwen_R0_L21",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 26,
+            "gradient_infinity_norm": 9.66572105282446e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 25,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0026040626292407405,
+            "relative_objective_change": 2.417158873044582e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "13efc7e9219dd30bebc6815f6b47526eb1c9b69301ac956d2a38ce046b8cae71"
+      },
+      "saved_layer": 21,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "2abc279d5d0c6504fca1e5f47d136e8c09b0582b87a61b72c8bca90f1850bf8e",
+      "fit_rows": 8000,
+      "fit_seconds": 3.167389457579702,
+      "id": "qwen_C_clean_L21",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 119,
+            "gradient_infinity_norm": 7.677217975178879e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 107,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.016876471538323924,
+            "relative_objective_change": 1.1813235413840606e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "bd7721ab87a241338d2d659c26b506e709c11e6a5ea875ecbfe2e5d17dd5ffe2"
+      },
+      "saved_layer": 21,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "a8b295a75f777f1d56f43172137b21750f122e5c7ae78f8209d5b3e7d70f8f63",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3695805827155709,
+      "id": "qwen_R0_L22",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 28,
+            "gradient_infinity_norm": 9.579416792858441e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 26,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.002869593185435621,
+            "relative_objective_change": 2.647713749317918e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "79a42e3037949dd404de1d62548d0da1cb15c586b85395f093a421fe76324701"
+      },
+      "saved_layer": 22,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "7455a4e0eec9f55443c7c8b6bb2f62ef68e877825ca701ce50b089cb83c75f87",
+      "fit_rows": 8000,
+      "fit_seconds": 3.165812167339027,
+      "id": "qwen_C_clean_L22",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 118,
+            "gradient_infinity_norm": 9.201473927358896e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 110,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0176113365775298,
+            "relative_objective_change": 8.40635282550739e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "5782fa0f325ffaedd7baea069a79a3d3e2824b1fb00e83faf46a700ac2656633"
+      },
+      "saved_layer": 22,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "44730199cdc0b228925cc598ffcf9ecaff4865135262b879eb8e479a79c1c74e",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3991006249561906,
+      "id": "qwen_R0_L23",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 31,
+            "gradient_infinity_norm": 7.513508344576155e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 29,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.003182458235018756,
+            "relative_objective_change": 7.414522044638713e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "de9d2c2dcdb9fb54ec67ea4f7840101bf5413a7f2e4aca1d9e4c1946bb005674"
+      },
+      "saved_layer": 23,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "136761609b1d12ba6c7653ab0e49155aa30a9341c342c1ead4c5bd1340efca37",
+      "fit_rows": 8000,
+      "fit_seconds": 3.0952384998090565,
+      "id": "qwen_C_clean_L23",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 115,
+            "gradient_infinity_norm": 8.640376949215411e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 105,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.018401195819901524,
+            "relative_objective_change": 2.1716813608102514e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "bb29e0cd4c1b712b05acac7ed27dfaac56490af4a12dda4e8d0acd069e3be7ce"
+      },
+      "saved_layer": 23,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "96c9312ee8773d69d6d11f18fab888147d80b8238cd99015f651f7eb569a0267",
+      "fit_rows": 2778,
+      "fit_seconds": 0.3767523751594126,
+      "id": "qwen_R0_L24",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 29,
+            "gradient_infinity_norm": 8.520488365479427e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 27,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.003527100829328797,
+            "relative_objective_change": 1.3434387670808751e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "7c3ffcd1eb42df4403c76b92ee9162b80b778de6ea5f2e3b71c2454c4ae8a5c1"
+      },
+      "saved_layer": 24,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "524656925412eb8a298927a1d215db77f9ebd8c24bed6c57d94c5f6e0ef9f934",
+      "fit_rows": 8000,
+      "fit_seconds": 3.0454725828021765,
+      "id": "qwen_C_clean_L24",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 115,
+            "gradient_infinity_norm": 9.637985917991445e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 104,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.01906427141974956,
+            "relative_objective_change": 1.4246936784374775e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "d1ad5a6524baa93aa7dfddfc404bfe7081d11de66fe25734adb168c4fb81e1cd"
+      },
+      "saved_layer": 24,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "8e92893c481de7ebcc96c476ea74c1d4f0e2a1a6595ce0ac249642fc6ed8eb24",
+      "fit_rows": 2778,
+      "fit_seconds": 0.43528195889666677,
+      "id": "qwen_R0_L25",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 37,
+            "gradient_infinity_norm": 7.655544697588727e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 34,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.003545655442242797,
+            "relative_objective_change": 6.857413094726698e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "215a6a6f2f83cc48018b95287d8b424354b91da048238f171c33942b3b1611f8"
+      },
+      "saved_layer": 25,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "c7954b0c3e6ca3b3643fbefc2abd7616ce0cc339ce4a94def9a8af4ba42c9d93",
+      "fit_rows": 8000,
+      "fit_seconds": 3.1861714157275856,
+      "id": "qwen_C_clean_L25",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 122,
+            "gradient_infinity_norm": 6.52986057566165e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 109,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.018727455059639145,
+            "relative_objective_change": 1.4875114161885805e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "beee1e845a376b0b3897ca91efaf121f01ac28b4a180b3899a2960e1752051a0"
+      },
+      "saved_layer": 25,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "e1985b14b7e1122484952421cae8091286163e99d60d457b3bf8bdc8807b417f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.40641166688874364,
+      "id": "qwen_R0_L26",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 33,
+            "gradient_infinity_norm": 8.394209528631477e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 31,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0037547275110151844,
+            "relative_objective_change": 2.0952890676801273e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "fbaa0b58b1e632c56ebabe7d6cc32519733896a314f70f270a553910da47d4ac"
+      },
+      "saved_layer": 26,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "68414178c9173eb813b37df70d239f8c8093f378a23fa097ae5813fcfdb373b3",
+      "fit_rows": 8000,
+      "fit_seconds": 2.8478720830753446,
+      "id": "qwen_C_clean_L26",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 107,
+            "gradient_infinity_norm": 8.332338471871025e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 95,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.019050977966148373,
+            "relative_objective_change": 2.8689118507299605e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "6f7743c0a1f933b4693cf580593653dbc618f219d3e5d5a600609756a17209a7"
+      },
+      "saved_layer": 26,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "17e6eb18dfea89a9eef95bdcbae0f52b15de0c60af31f39e9cb945bc4d0ff447",
+      "fit_rows": 2778,
+      "fit_seconds": 0.4234986659139395,
+      "id": "qwen_R0_L27",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 36,
+            "gradient_infinity_norm": 8.698333371727906e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 32,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004734835740949887,
+            "relative_objective_change": 7.238815228845057e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "876e5c61d06ce9c69c135107a1a1f991d9dcc31f941149e032e6becb3e3744f9"
+      },
+      "saved_layer": 27,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "1c31847a9327db06bc8acf5706f6f3c443a2fe2f63a5115fd2e1bf917e49dfec",
+      "fit_rows": 8000,
+      "fit_seconds": 3.112930499948561,
+      "id": "qwen_C_clean_L27",
+      "model": "qwen",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 116,
+            "gradient_infinity_norm": 8.39338168312902e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 104,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.019718218145713853,
+            "relative_objective_change": 1.4940641143296185e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 29244,
+        "sha256": "6d44aa43ee5070864eae4079775a31e921875b8bd2132000fb0362609d3f857f"
+      },
+      "saved_layer": 27,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "27e384eac1f25c9e9583dec679faec9bce0d6406fd0c1af655832a335218f5c5",
+      "fit_rows": 2778,
+      "fit_seconds": 6.7027227082289755,
+      "id": "llama_R0_L00",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 757,
+            "gradient_infinity_norm": 8.930617729088927e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 681,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.6510229796219271,
+            "relative_objective_change": 1.035508823132858e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "ceb73b5d918e2f45a1182c95334d1c22c9bcf5ddc0744edd64a7964b89edfa49"
+      },
+      "saved_layer": 0,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "50d3309bedacda5c5669818a5c00e41ca430adac31fe1b424ab4f0589169fc13",
+      "fit_rows": 8000,
+      "fit_seconds": 19.244367375038564,
+      "id": "llama_C_clean_L00",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 757,
+            "gradient_infinity_norm": 9.181142736813317e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 691,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.2620541808817419,
+            "relative_objective_change": 5.155304910742231e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "3e7ac78edca65b7d2cb81860974d4372a287bf2f71d209664e3ced1a8ddfe8dc"
+      },
+      "saved_layer": 0,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "b8d23c09e8d910f8d95016ef5888333923674591ddf34f31e09bce884be5c872",
+      "fit_rows": 2778,
+      "fit_seconds": 6.45654624979943,
+      "id": "llama_R0_L01",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 722,
+            "gradient_infinity_norm": 9.861821777564714e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 663,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.5917667673735312,
+            "relative_objective_change": 1.6020031257113487e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "c54a511d6d28dee5aa30d80974d02e92bcef46042fff5669d459a2ea66108299"
+      },
+      "saved_layer": 1,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "a6d742b803570361d890a9d3bafd443bccf70a07321ba7add43c8e427a25a7e9",
+      "fit_rows": 8000,
+      "fit_seconds": 18.745653917081654,
+      "id": "llama_C_clean_L01",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 740,
+            "gradient_infinity_norm": 8.824558429647948e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 688,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.25801892687905376,
+            "relative_objective_change": 1.0006260792172483e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "80ab5b5dceeb7745c039df87b035420cc105065708fce8fc836886af9522e9e6"
+      },
+      "saved_layer": 1,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "e73d898b9fcaf7387aa3ced9dde248b0ae192fe8c8f1c1251201b31931b7c240",
+      "fit_rows": 2778,
+      "fit_seconds": 6.199990790802985,
+      "id": "llama_R0_L02",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 693,
+            "gradient_infinity_norm": 9.851987621291395e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 634,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.5087457369241293,
+            "relative_objective_change": 1.3352437955305163e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "9eb0a0ecff0eca2908e25249724cc2a7fe34395278d2fd5d9246f3cb6efdae81"
+      },
+      "saved_layer": 2,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "294c602a76dd2db8b1ab46939f541ec56d8a84e23742209b91f4fd61eb44e160",
+      "fit_rows": 8000,
+      "fit_seconds": 17.501490334048867,
+      "id": "llama_C_clean_L02",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 689,
+            "gradient_infinity_norm": 8.366403303092079e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 635,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.21750028711757047,
+            "relative_objective_change": 9.639698617114334e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "97be0313d8ec400c9b46efc1ad6f13d491e7188eb477a3f01346838ad85a0805"
+      },
+      "saved_layer": 2,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "984efb0bf1d4af0791e2c72da1078be41dca16af1478e93a5c69e66077555fe8",
+      "fit_rows": 2778,
+      "fit_seconds": 5.4763011247850955,
+      "id": "llama_R0_L03",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 608,
+            "gradient_infinity_norm": 8.76437144215106e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 563,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.31306147918552185,
+            "relative_objective_change": 9.221721464225396e-08,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "b1d1c8c9f815266847ad94d87d5719139a9b55b57c86829f7e13cf512e196787"
+      },
+      "saved_layer": 3,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "b2d8765286d38d9814c0cfabe5974900b4939103359f7db6b351548baaf843f7",
+      "fit_rows": 8000,
+      "fit_seconds": 13.817854541819543,
+      "id": "llama_C_clean_L03",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 538,
+            "gradient_infinity_norm": 9.377500811406366e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 501,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.166030802824079,
+            "relative_objective_change": 2.5566499201046256e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "4ab983ee10324163c5c01a3b960850cfe3afe0383288f2c70c0236980110eef8"
+      },
+      "saved_layer": 3,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "7594399515fe79c1530f751276050c7303f413bbd04011b2b7e3c5b642b25df7",
+      "fit_rows": 2778,
+      "fit_seconds": 3.2505102497525513,
+      "id": "llama_R0_L04",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 350,
+            "gradient_infinity_norm": 9.645111709671964e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 324,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.10922970406102785,
+            "relative_objective_change": 2.457314442622094e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "cf1220e66c1e483ea2830122116c8879eda542f934642da3e98b38994bb712cd"
+      },
+      "saved_layer": 4,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "60c9f90bee953a675aa21e4e6e9a7a30502e88456d7e5dd21aa6f7b16be55fb7",
+      "fit_rows": 8000,
+      "fit_seconds": 12.756760166026652,
+      "id": "llama_C_clean_L04",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 493,
+            "gradient_infinity_norm": 9.82568038240564e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 449,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.12594136887391774,
+            "relative_objective_change": 2.516925556583782e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "400c462b79adab80c5d4714c6de1e2078f804fa08ea933ba10b507a82ccb2ef6"
+      },
+      "saved_layer": 4,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "11be8ddff1b52edcb046edd212a769ce9a814e7671d97106a7c6f6d004cdac4c",
+      "fit_rows": 2778,
+      "fit_seconds": 2.5749952076002955,
+      "id": "llama_R0_L05",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 275,
+            "gradient_infinity_norm": 9.288394768197308e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 250,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.07267549102726728,
+            "relative_objective_change": 6.542045548618702e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "9abc95efabc3ffdfb3d03ff760ce369dc641af6aafb5a5637cc0870e31e715d9"
+      },
+      "saved_layer": 5,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "bb7731a2d5b3e12c84f3561a0d1634c537d703c487a2015abb87c8639818bdf7",
+      "fit_rows": 8000,
+      "fit_seconds": 11.928175040986389,
+      "id": "llama_C_clean_L05",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 455,
+            "gradient_infinity_norm": 9.539682505961429e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 412,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.09792746983519042,
+            "relative_objective_change": 2.050759433797067e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "93e16857e5c80156f246b845bd8fe92c293efe0734462b78c15d8397bdb0a1b7"
+      },
+      "saved_layer": 5,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "570a6ff0fc35780e26cfd5ab21d0cdd0c509757ac756ab61de8058c11ea75750",
+      "fit_rows": 2778,
+      "fit_seconds": 2.0457825418561697,
+      "id": "llama_R0_L06",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 208,
+            "gradient_infinity_norm": 9.340661847409558e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 192,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.05178938374086263,
+            "relative_objective_change": 4.943983466648705e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "3a9a0f235bfa94667d2a5ca2e26230e3dad423123856d039279f5d975144d6b9"
+      },
+      "saved_layer": 6,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "d790a493befb73d322623a00a7fc8f6386f55680321531c3f224d34365a5865d",
+      "fit_rows": 8000,
+      "fit_seconds": 9.971910916734487,
+      "id": "llama_C_clean_L06",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 379,
+            "gradient_infinity_norm": 6.781263698280031e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 343,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.07638264362151417,
+            "relative_objective_change": 2.1468727665063803e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "91e2bc9b2f537497a490b31268bf090db621e533489f557e6405f7914cbb8774"
+      },
+      "saved_layer": 6,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "40000c67d5cc1c61022e34882a90d00f3b23dc526664d1ec5cfc022ceb32b841",
+      "fit_rows": 2778,
+      "fit_seconds": 1.3524225829169154,
+      "id": "llama_R0_L07",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 131,
+            "gradient_infinity_norm": 9.512881639363698e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 120,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0246083243787365,
+            "relative_objective_change": 2.3576856364553034e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "5dc2c124a6bec71406d6876e99d8d7b903113dc3f2b38d6683d079369d846db0"
+      },
+      "saved_layer": 7,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "161849fb6538af15b64c02c5acfc57515447aca83b77393448c08cdc671fae62",
+      "fit_rows": 8000,
+      "fit_seconds": 7.675987832713872,
+      "id": "llama_C_clean_L07",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 284,
+            "gradient_infinity_norm": 9.235937203066287e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 255,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.048196251201237245,
+            "relative_objective_change": 3.2085490578315223e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "92169030952d97a81db78b742258123b39c05f8052f257f20eb6084c66b86a6c"
+      },
+      "saved_layer": 7,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "df55bd80b187fa28094594148269affa9c4dfa28e25d18aed747951fb6b9e714",
+      "fit_rows": 2778,
+      "fit_seconds": 1.1153308749198914,
+      "id": "llama_R0_L08",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 68,
+            "gradient_infinity_norm": 8.951359894249549e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 64,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.009397538707681168,
+            "relative_objective_change": 3.119362496703873e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f964e4cc91bfe105c7100b9420ea89451942b8e9ecbedabf9d2f474c6fbd8fec"
+      },
+      "saved_layer": 8,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "3e374c631b3129b390a542f15113a28b702bb884a4870b026a4b4d0df2e6015a",
+      "fit_rows": 8000,
+      "fit_seconds": 5.856960708275437,
+      "id": "llama_C_clean_L08",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 202,
+            "gradient_infinity_norm": 9.240622689528385e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 181,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.02900569771162866,
+            "relative_objective_change": 9.762855959355443e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "a18cc0aeaa9bf6b31d7ac9c97e99be1ee80d8b27d206793d86a9b1d047fca5ac"
+      },
+      "saved_layer": 8,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "111738bdedc34f717efd9fac2832e1305a054ee41238a60eff250148d80975c8",
+      "fit_rows": 2778,
+      "fit_seconds": 0.509870917070657,
+      "id": "llama_R0_L09",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 32,
+            "gradient_infinity_norm": 8.978200635208942e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 30,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004013609540373004,
+            "relative_objective_change": 9.070319111283316e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "fc93272c756ee3651e5e87b4bbddd982a287c47228e3b34e3e487f5dd9882356"
+      },
+      "saved_layer": 9,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "5c24bb9fae2d8fe9b10a909d6503bc983167bb273b0785f49a8bfb41bb4799a7",
+      "fit_rows": 8000,
+      "fit_seconds": 4.268103874754161,
+      "id": "llama_C_clean_L09",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 142,
+            "gradient_infinity_norm": 7.078468530823523e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 129,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.01775877015760547,
+            "relative_objective_change": 3.9625577170909754e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "e9061c673e3b94a31bb5aac8cab9df82efe77901b405a014fcb99ace20463b31"
+      },
+      "saved_layer": 9,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "b4d191ae5016215a88fc752736526298978b43f5e7e867a86c7eab7489efde12",
+      "fit_rows": 2778,
+      "fit_seconds": 0.47208220791071653,
+      "id": "llama_R0_L10",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 28,
+            "gradient_infinity_norm": 7.492785909381099e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 27,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0027369265026886977,
+            "relative_objective_change": 2.8518329686853718e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "5a45aa016d07b83d71add4ffe480b5ebaf533c432f328f3815a10a0270fc26f4"
+      },
+      "saved_layer": 10,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "26bb5c369c59d593a234a9b3636181b44ab88453835699349c2b1fa4c294206b",
+      "fit_rows": 8000,
+      "fit_seconds": 3.6792036672122777,
+      "id": "llama_C_clean_L10",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 123,
+            "gradient_infinity_norm": 7.473826050378665e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 109,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.013609301571440318,
+            "relative_objective_change": 7.851593640546134e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "8eafbe3bf4f3add6ab16d9e17deffa172c5dc18305e689c8a2e74b42eef5651b"
+      },
+      "saved_layer": 10,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "fa7d00d8a8c0ce3ec9b82399147e7a18a20f43ef81eaf1f6d912f58780300391",
+      "fit_rows": 2778,
+      "fit_seconds": 0.44792970828711987,
+      "id": "llama_R0_L11",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 25,
+            "gradient_infinity_norm": 7.117504876012122e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 24,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0025126413201059885,
+            "relative_objective_change": 1.5073937072307333e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "5bada466e42b53f00a5315d2b42bd0bacbe48a849ebb54f83454cccb16efdc3f"
+      },
+      "saved_layer": 11,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "d7aa117b900c1b537374102e5ef898e5577c00f466f1518ca1bfe48967e58ab5",
+      "fit_rows": 8000,
+      "fit_seconds": 3.2674174159765244,
+      "id": "llama_C_clean_L11",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 107,
+            "gradient_infinity_norm": 6.649384400044073e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 93,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.013103186926021991,
+            "relative_objective_change": 1.103061946261183e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "7315a1a3dc37bdc57a3747919d7786ba54446d07b52532017f55dca597104bf4"
+      },
+      "saved_layer": 11,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "1027e3bf419919d75631775fefa5317795b0bb502e8ec09c531fb18d9680902f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.43627299973741174,
+      "id": "llama_R0_L12",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 25,
+            "gradient_infinity_norm": 9.909220899703784e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 23,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0017277716525468695,
+            "relative_objective_change": 2.3569668657413704e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "364bbae8529cb50931d941f3df3ca9ed3cb776738ae57604152ba51769cb6f00"
+      },
+      "saved_layer": 12,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "dc32535236a38974dde595b6199d9264ccad034f13d74e5cd23508f44cfcd9b3",
+      "fit_rows": 8000,
+      "fit_seconds": 2.694885749835521,
+      "id": "llama_C_clean_L12",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 81,
+            "gradient_infinity_norm": 8.15605356118162e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 72,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.008820451767991788,
+            "relative_objective_change": 2.9019281939952207e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d4f131c33238af6ad65354c2531487cccf4c057a44e307f2e6356cb864ecacd8"
+      },
+      "saved_layer": 12,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "638cfa75ec9fd4cdf0c7f72eadd773172ca1299b1a8d4670a13f2cf8404fe48b",
+      "fit_rows": 2778,
+      "fit_seconds": 0.44043283397331834,
+      "id": "llama_R0_L13",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 25,
+            "gradient_infinity_norm": 8.705884356011367e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 24,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0019027687942325547,
+            "relative_objective_change": 2.25216756550167e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "c8d99780ae7de20a58dea1402f5c7fd2d269c1d673c21f0f5a6445ad6d322dfd"
+      },
+      "saved_layer": 13,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "6fecd0047a837011a5a9fdd3fb2a43abb9f4d55cdc6a3ae9cacc8e00eb45dd18",
+      "fit_rows": 8000,
+      "fit_seconds": 2.6821346669457853,
+      "id": "llama_C_clean_L13",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 82,
+            "gradient_infinity_norm": 8.339513731203443e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 72,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.00855161721252138,
+            "relative_objective_change": 2.4853794455756417e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "9ad151e9a7bee3d626e3f3c484130489d3d14f4754e2e1f056dfdd06a445a505"
+      },
+      "saved_layer": 13,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "0a0332742902d2bbbb54d39465c3b9aed5cc973902d95c1757d7f11707826df2",
+      "fit_rows": 2778,
+      "fit_seconds": 0.4857664997689426,
+      "id": "llama_R0_L14",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 31,
+            "gradient_infinity_norm": 5.995181168752062e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 28,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0020613506820817648,
+            "relative_objective_change": 1.8495688159584755e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "a078cb8e45ee467c871a195948a6aa5e6554475dea4d29149d19d3f4f30982a6"
+      },
+      "saved_layer": 14,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "e52c2a38e5adfea36fb4d0883e565af3202cb9fecdac58d79e8154d4c89c3fb5",
+      "fit_rows": 8000,
+      "fit_seconds": 2.752218750305474,
+      "id": "llama_C_clean_L14",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 85,
+            "gradient_infinity_norm": 7.526954560906674e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 75,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.009011876266097153,
+            "relative_objective_change": 3.658829819539605e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d3c52e204fb0c7f2d51805aef4eef15ba21e4997c0ef59829e7d049556399e94"
+      },
+      "saved_layer": 14,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "3127addce51371b324554c8bbe392deffeddf7ac6f60ad2bc15bf511d6478b6f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.48029437521472573,
+      "id": "llama_R0_L15",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 31,
+            "gradient_infinity_norm": 8.01142144922279e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 27,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.002352076192487209,
+            "relative_objective_change": 1.4909186996565817e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "5e874a0871b67871a595bfb0204cb0bcd79553c8f7c76a665411dc796bc89c7d"
+      },
+      "saved_layer": 15,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "68ea180e118c2d6e72238a7523a7793081c880e963416b244db2d70f74d9ef2f",
+      "fit_rows": 8000,
+      "fit_seconds": 3.2226792499423027,
+      "id": "llama_C_clean_L15",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 103,
+            "gradient_infinity_norm": 8.486617082838529e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 94,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.010505553892112884,
+            "relative_objective_change": 7.722391344184426e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "eeced667d9401300deaa6e7662dcf0fe1c390948810cf50969424a9f6bb0e0d7"
+      },
+      "saved_layer": 15,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "reduced_LR",
+      "feature_float64_sha256": "3127addce51371b324554c8bbe392deffeddf7ac6f60ad2bc15bf511d6478b6f",
+      "fit_rows": 2778,
+      "fit_seconds": 1.0970523748546839,
+      "id": "llama_reduced_LR_L15",
+      "model": "llama",
+      "optimizer": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 204,
+        "finite": true,
+        "gradient_infinity_norm": 2.08025525683518e-07,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 204,
+        "initial_warning_messages": "[]",
+        "library_warnings": [],
+        "n_iter": 204,
+        "objective": 0.003798463719947201,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "parameters": {
+        "bytes": 33288,
+        "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2"
+      },
+      "saved_layer": 15,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "cfd4b96d908fa0333c66cd280e89ed2dc636f00ba90d0ef0de3b92038b05910c",
+      "fit_rows": 2778,
+      "fit_seconds": 0.500743250362575,
+      "id": "llama_R0_L16",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 32,
+            "gradient_infinity_norm": 9.556476376536524e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 30,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0026980965296426298,
+            "relative_objective_change": 1.4876762824751755e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "6239d4c9dbf3d2d69e21c17aecd6054962abe2bc881fb9c92239da40539f81b2"
+      },
+      "saved_layer": 16,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "deec58efbf065f19094e300c6742d357dba2698b68de32916384757698fea046",
+      "fit_rows": 8000,
+      "fit_seconds": 3.0038704578764737,
+      "id": "llama_C_clean_L16",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 92,
+            "gradient_infinity_norm": 9.836659035407288e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 84,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.012320009390577718,
+            "relative_objective_change": 3.007789938220054e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "09611b8a3b07e640a3fcf5b8453180573fc060056b0fd2ef433c6d593544a8cc"
+      },
+      "saved_layer": 16,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "1383c1e94bb2aa833335155894d25616ee39bbb1855cea21703e603161a7ac5d",
+      "fit_rows": 2778,
+      "fit_seconds": 0.564686041790992,
+      "id": "llama_R0_L17",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 35,
+            "gradient_infinity_norm": 9.781797050198172e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 32,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0029631996586339214,
+            "relative_objective_change": 6.168871485859144e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "780fbe0611df1ce8b96e0b1f4a80801b05e72b1b255e952108b68cd95ea3cc60"
+      },
+      "saved_layer": 17,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "fe9fa32ceca47ececc5ff3e8b5f38d87d32a80a94d3efd2c9d490f3d9ffe4f49",
+      "fit_rows": 8000,
+      "fit_seconds": 3.38171595800668,
+      "id": "llama_C_clean_L17",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 108,
+            "gradient_infinity_norm": 9.362523508825138e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 96,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.014243994967911117,
+            "relative_objective_change": 1.7855777842464698e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "53825b8fd196abd4da41412a25153c2cb0225aa89827970119ca943a31043976"
+      },
+      "saved_layer": 17,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "d5f53d7efa1da2f12375a52930b4de5257cf7a4d5c03d4a0d4e3254a18b2704a",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5995975001715124,
+      "id": "llama_R0_L18",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 39,
+            "gradient_infinity_norm": 9.511216671852949e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 35,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0031046701175034565,
+            "relative_objective_change": 1.0641308107646203e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "8d6a3a6857569213feb180494f65195584557f6568839845afe956652a37d9d7"
+      },
+      "saved_layer": 18,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "323a49927fc2b4defb6d173cd0bf3b252528405bbfc1a1e4756ed81a07b09438",
+      "fit_rows": 8000,
+      "fit_seconds": 3.5479355417191982,
+      "id": "llama_C_clean_L18",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 115,
+            "gradient_infinity_norm": 8.471572826499261e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 105,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.015785137545509233,
+            "relative_objective_change": 1.9915714219963243e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "0842ce7dc9e72b8fd470776dfac04af14d195f7c65928b1ac71134551048de60"
+      },
+      "saved_layer": 18,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "94101bbd631599c32a88493871de2b8a2d02e035e92413e4e86f5a3db9365ab3",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5347920418716967,
+      "id": "llama_R0_L19",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 36,
+            "gradient_infinity_norm": 9.666364692492488e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 34,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0032880583895739703,
+            "relative_objective_change": 2.32305671856569e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "b5e9ea6aeae1f45072ebcf7a2a7dac29f20c8bcdf493fa2d02716d70b9960e9a"
+      },
+      "saved_layer": 19,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "24d9fd166ce5ff562ac6580e57aefbe8ae9ec961b8e28ee0db3d6c6776942df9",
+      "fit_rows": 8000,
+      "fit_seconds": 3.5096495831385255,
+      "id": "llama_C_clean_L19",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 117,
+            "gradient_infinity_norm": 9.129222660657008e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 103,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.01697078319355147,
+            "relative_objective_change": 1.5470111970374012e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "9597a44fa078be7852ae804ba746fc5fb4a2cc77077144e3f9c43ba19883cad1"
+      },
+      "saved_layer": 19,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "6098700a6e5c127335ed36ecdbd8861388f33cf27ab68d372f78d92ed6172c0a",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5736964577808976,
+      "id": "llama_R0_L20",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 41,
+            "gradient_infinity_norm": 8.351579006282913e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 38,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0033899165870503777,
+            "relative_objective_change": 9.931445187971039e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "06b7c4b1fd809e660e8fc08540b55c9c96554c5b3c16ad4cc51a3c6034beede7"
+      },
+      "saved_layer": 20,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "08d953a138ef5db8e8856206f9dc0da5f36edc4cfaa1fe47c14717e40aaec7cd",
+      "fit_rows": 8000,
+      "fit_seconds": 4.1213633748702705,
+      "id": "llama_C_clean_L20",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 141,
+            "gradient_infinity_norm": 9.524128845116792e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 127,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.01825139078477101,
+            "relative_objective_change": 9.6638937293822e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d7fcf39aacc4fd6f2cc464f10cbd9798b7d503b101906bc0b2ed4a53c4c8c85b"
+      },
+      "saved_layer": 20,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "3d9f0010651a4735dc8f240022ca63620089b34465b5d2ef459a531566e859f1",
+      "fit_rows": 2778,
+      "fit_seconds": 0.590311334002763,
+      "id": "llama_R0_L21",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 43,
+            "gradient_infinity_norm": 8.908076805620667e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 39,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.003596703660296521,
+            "relative_objective_change": 1.1944354032043542e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "8e0d9816f3c792c269cf7176adf3243f6f19bbcfd07db904f0ee90d8099cd9d4"
+      },
+      "saved_layer": 21,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "9c6a96c577a9ac552158712b0cb85452584853dc09cbbfce9ef2e39ab82a2718",
+      "fit_rows": 8000,
+      "fit_seconds": 3.59529758291319,
+      "id": "llama_C_clean_L21",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 118,
+            "gradient_infinity_norm": 9.43087137479228e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 109,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.019001268353613918,
+            "relative_objective_change": 2.2917498719993157e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d3b8ec2ebf24c76409de4b040ca1b0c42b49ab10c0053bfc296baeb6ee4016ab"
+      },
+      "saved_layer": 21,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "abbacaf390b502f1927b56e29e8692bda5bf4eacccae30b386cd609aaed67165",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5643788343295455,
+      "id": "llama_R0_L22",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 39,
+            "gradient_infinity_norm": 9.715131460772193e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 37,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0038132146291061327,
+            "relative_objective_change": 7.512236420556626e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f7e13397eb044b56aa29117c755e74beeaac6f6780cde08b3919bcc021f671e1"
+      },
+      "saved_layer": 22,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "cce2c130d33c7a3ea9840bfa1a0a9f7c01eeb78ff98c3ec6305c189b2215dcf7",
+      "fit_rows": 8000,
+      "fit_seconds": 3.974534749984741,
+      "id": "llama_C_clean_L22",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 134,
+            "gradient_infinity_norm": 9.524902555300188e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 122,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.019890956732148968,
+            "relative_objective_change": 7.352666808735364e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f6842f44d6f2457f7875f0e3092bfe9d957dcc5fa93757ad8f8a9a3496a5b9eb"
+      },
+      "saved_layer": 22,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "9f623bb7d15240f0ad2ea0e0d2648cec262d9c6be57071b6df7e70fbdf29cb1f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5550829577259719,
+      "id": "llama_R0_L23",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 38,
+            "gradient_infinity_norm": 9.995996997646094e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 36,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004008028983465963,
+            "relative_objective_change": 1.7267604117046816e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "40b25622855bbb44072b4f6296fe55c2049d3920c618e75492cdaeb695310a14"
+      },
+      "saved_layer": 23,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "8336b5b13d0f8a542efc4aa6171f3f5d444477262d4146267053743026806adb",
+      "fit_rows": 8000,
+      "fit_seconds": 3.675453333184123,
+      "id": "llama_C_clean_L23",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 122,
+            "gradient_infinity_norm": 7.981744282829617e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 111,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.020276362836764907,
+            "relative_objective_change": 1.7556942513187457e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "65f9f5cf37bafda82ca6188f4a8f7e2b13b6ac20b3a3bd64b31c60555ea68e34"
+      },
+      "saved_layer": 23,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "a4ab97e1e6d76bfba180cf517454b0b1cdc0905f0108d06f181cc66d31054a8a",
+      "fit_rows": 2778,
+      "fit_seconds": 0.5937956660054624,
+      "id": "llama_R0_L24",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 42,
+            "gradient_infinity_norm": 9.203995486883968e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 41,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004375384979749285,
+            "relative_objective_change": 4.9869512926880785e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "147ecb77375b56b3b226a58859b36ffd954b915542db2894e47b5538c37fc8be"
+      },
+      "saved_layer": 24,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "0814b58b59bddb00c470f2040f671e768c1d2621efd673edd588f8667a3bccf4",
+      "fit_rows": 8000,
+      "fit_seconds": 3.9453514171764255,
+      "id": "llama_C_clean_L24",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 127,
+            "gradient_infinity_norm": 9.752102648133086e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 116,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.021089665469768502,
+            "relative_objective_change": 1.1085657589705866e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f46a5c5157b14759e2f03720667b627937676583a80d2c1cfa4cceb4c9d99a22"
+      },
+      "saved_layer": 24,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "4811c45480788e19c15574c6bdb19944121affe81ef473385493570a968c2d0f",
+      "fit_rows": 2778,
+      "fit_seconds": 0.6350919581018388,
+      "id": "llama_R0_L25",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 46,
+            "gradient_infinity_norm": 8.62791277619119e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 43,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004464236111290578,
+            "relative_objective_change": 4.718155084459073e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "29874c98ba39f2f2b741b188dbff55e0603aa68a4d99341b57234ecebf4a95c7"
+      },
+      "saved_layer": 25,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "adc3d6dcbe72f1bcdcaa8ecc319e84f96eb66339413279cf8b963b755bfe3b9e",
+      "fit_rows": 8000,
+      "fit_seconds": 4.071777916979045,
+      "id": "llama_C_clean_L25",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 140,
+            "gradient_infinity_norm": 8.03478203361399e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 126,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.020906473398476268,
+            "relative_objective_change": 1.1560919030845218e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "a3f919cf951a6be0c82bc8a9f02b1d7ec97ac473d5a0cc71221e33d3d501f3b7"
+      },
+      "saved_layer": 25,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "3e536f31ebc7b1e27ab0067a869a8c516a89985520106f643d867c2324a61e47",
+      "fit_rows": 2778,
+      "fit_seconds": 0.583132709376514,
+      "id": "llama_R0_L26",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 41,
+            "gradient_infinity_norm": 9.362496823968141e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 39,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.00459869465197381,
+            "relative_objective_change": 6.145191613467216e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f8dd7e0280f8398317a085953136f90472e3432592d64f69d5f269511bd1e7c8"
+      },
+      "saved_layer": 26,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "3aa90ca2c2e53a31b366d0bc44256bb4cd8607231e7f067b16bcf53478402c40",
+      "fit_rows": 8000,
+      "fit_seconds": 3.534450499806553,
+      "id": "llama_C_clean_L26",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 115,
+            "gradient_infinity_norm": 7.339928665703048e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 106,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.020834940800979317,
+            "relative_objective_change": 2.56042839263948e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "37b9f23dfe19f27fe6a42daeaebf30f511693c2111c43a98792699eb03c268e7"
+      },
+      "saved_layer": 26,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "79234c4408c8f7364eb9e301fc00b57cb95326a479860d81d05e7d73a69e724c",
+      "fit_rows": 2778,
+      "fit_seconds": 0.6253762086853385,
+      "id": "llama_R0_L27",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 46,
+            "gradient_infinity_norm": 9.00275223451288e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 43,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004716502244946576,
+            "relative_objective_change": 3.0858352465489014e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d7215101657064644bdfbc3536232a8cba0bbbca40c7576f2ec5917e3450757c"
+      },
+      "saved_layer": 27,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "b640ba2d8ec167913db4443785721ba774b7ede7bc62576af6b86dbcb94620b6",
+      "fit_rows": 8000,
+      "fit_seconds": 4.008342874702066,
+      "id": "llama_C_clean_L27",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 130,
+            "gradient_infinity_norm": 8.754405129048621e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 115,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.02166019350751756,
+            "relative_objective_change": 2.278680709417308e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "f9dfe95cc700b75bed2184aa716458cc528a67ebf7da0ac9f22a33d252f31f72"
+      },
+      "saved_layer": 27,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "6eaab641847f8b9ed6d87e33141f186b8084e2dcb7d797304504be205f85337d",
+      "fit_rows": 2778,
+      "fit_seconds": 0.6667448752559721,
+      "id": "llama_R0_L28",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 49,
+            "gradient_infinity_norm": 9.531226486277037e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 47,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.004782637316369731,
+            "relative_objective_change": 4.529907766644484e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "ac7b2e7835b45c2c1bbbdff86c1a7c9a6f60dc1bf371795c3ac8a5eb1362cec4"
+      },
+      "saved_layer": 28,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "c1942f882443961ce658b42a82bbc92d5d10b99b5f310b15282740b0f7e38190",
+      "fit_rows": 8000,
+      "fit_seconds": 3.9662902080453932,
+      "id": "llama_C_clean_L28",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 123,
+            "gradient_infinity_norm": 8.81556056702137e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 110,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.021652782370253143,
+            "relative_objective_change": 1.0850495507606917e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "7e836827752d367c4b556e2de6e5e2cbc98690062cbf0d58abf8c0204c537016"
+      },
+      "saved_layer": 28,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "f4946de571d014a4ec6a32717225039e02c2c0a835e17863d3b970bf2a7a0b5b",
+      "fit_rows": 2778,
+      "fit_seconds": 0.7020458746701479,
+      "id": "llama_R0_L29",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 50,
+            "gradient_infinity_norm": 9.204882888917966e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 46,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.005052076654302351,
+            "relative_objective_change": 3.149453762148549e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "08e3c03784ea7adfa28e0941cd212cc895a948220c9525ec950367d4ff22a833"
+      },
+      "saved_layer": 29,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "6af8bae61e0b9633baba99ae902c5dac92874945e4d3d33aa76794e585f0be74",
+      "fit_rows": 8000,
+      "fit_seconds": 3.693913666997105,
+      "id": "llama_C_clean_L29",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 119,
+            "gradient_infinity_norm": 8.91882355441733e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 113,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.022023069201885646,
+            "relative_objective_change": 1.4487636346774413e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "9c8d0a1aeb73749a7568aa367b4757b7079b122bcbccf542343413978571acd5"
+      },
+      "saved_layer": 29,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "1b17b8473e2e28a53372f4dd1a5c83aa684b03f9156cc08400e01967de85e683",
+      "fit_rows": 2778,
+      "fit_seconds": 0.6630208343267441,
+      "id": "llama_R0_L30",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 49,
+            "gradient_infinity_norm": 9.311488858303532e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 46,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.005174596572364357,
+            "relative_objective_change": 3.122253647560788e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "1a255254538d0d6e999f6f30c0520d6ac719265ea1be42924d5522a553fb8c36"
+      },
+      "saved_layer": 30,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "d213f348890528cb1a9065e43e47dd91ee15f1cf89db16c8c0242dfc6e1c2834",
+      "fit_rows": 8000,
+      "fit_seconds": 3.4882165831513703,
+      "id": "llama_C_clean_L30",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 111,
+            "gradient_infinity_norm": 8.831535434635017e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 105,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.022694783813270017,
+            "relative_objective_change": 1.8709844826596267e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "ca9f03ec2497e3efcf89858910cc6334adfc036c0ddcde6a75450df47820dd68"
+      },
+      "saved_layer": 30,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "R0",
+      "feature_float64_sha256": "a20959eea5357295271e39be74decccd3e9c81691a6813890e4fe65c8aee3915",
+      "fit_rows": 2778,
+      "fit_seconds": 1.0640794169157743,
+      "id": "llama_R0_L31",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 95,
+            "gradient_infinity_norm": 9.363097071706391e-05,
+            "initial_objective": 0.6931471805599408,
+            "iterations": 89,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.006124906526714669,
+            "relative_objective_change": 1.9977379458911357e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "cf332af22e377f3040008381057731e926b56bab154d3fae490c4df72cc5c032"
+      },
+      "saved_layer": 31,
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "training_group": "P15",
+      "valid_for_scoring": true
+    },
+    {
+      "family": "C_clean",
+      "feature_float64_sha256": "128423808ab7b273eac592fc6a84c396bff09b75e14008bc80aa5b09a550efd0",
+      "fit_rows": 8000,
+      "fit_seconds": 4.287962417118251,
+      "id": "llama_C_clean_L31",
+      "model": "llama",
+      "optimizer": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 138,
+            "gradient_infinity_norm": 9.022164030175921e-05,
+            "initial_objective": 0.6931471805599226,
+            "iterations": 130,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.027148328176965466,
+            "relative_objective_change": 1.5240027841437187e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+          }
+        ],
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged"
+      },
+      "parameters": {
+        "bytes": 33340,
+        "sha256": "d55e637b7c46139ca52c1e379531cf4d33008759b031170cc0fc1678b920aaeb"
+      },
+      "saved_layer": 31,
+      "training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "training_group": "TC_control_and_final_refit",
+      "valid_for_scoring": true
+    }
+  ]
+}

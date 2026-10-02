@@ -1,0 +1,28 @@
+{
+  "all_2000_draw_integer_schedules_verified": true,
+  "all_metric_percentile_intervals_verified": true,
+  "all_saved_head_training_feature_hashes_verified": true,
+  "artifacts_verified": 742,
+  "audit_script_sha256": "c036ccf3829acb6a115d9b2f6724527388fcfa2969f91c39294e3b151a5a54e1",
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "draw_ids": [
+    0,
+    1,
+    17,
+    1729,
+    1999
+  ],
+  "fit_failures": [],
+  "hostname": "MacBook-Pro-7.lan",
+  "independent_sklearn_bootstrap_draw_checks": 14640,
+  "paired_contrast_checks": 5544,
+  "point_metric_checks": 3416,
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "retention_margins_verified": true,
+  "saved_P15_preprocessing_layers_verified": 60,
+  "scope": "read-only CPU result re-execution; no new fits",
+  "score_vectors_exactly_recomputed": 366,
+  "seconds": 190.04454766586423,
+  "selectors_verified": true,
+  "status": "independent_result_audit_passed"
+}

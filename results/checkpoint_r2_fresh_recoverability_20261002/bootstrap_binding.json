@@ -1,0 +1,31 @@
+{
+  "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+  "artifact": {
+    "bytes": 34960514,
+    "sha256": "9381e525593900ef4806371b51c7bd248c0534bc4648f4765104b80d2954c0ad"
+  },
+  "atomic_weights_sha256": "8346b6794bdd8d268510eb2f9946c648cc239f2b4345163b9235941e041011fe",
+  "code_hashes": {
+    "src/checkpoint_r2_common_v1.py": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9",
+    "src/checkpoint_r2_fresh_adapter.py": "54905ef131ef1965597f702f2b0cc8b00b025a1fbd117ec08f6650388c3470a5",
+    "src/checkpoint_r2_fresh_recoverability.py": "96df8e41ff0273448f8696d9d8bf0d6cf333e5ae9eb8bde016783c86ac35d33d",
+    "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+    "src/checkpoint_r2_full_inputs.py": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a",
+    "src/checkpoint_r2_selection_v1.py": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc",
+    "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+    "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357",
+    "tests/test_checkpoint_r2_fresh_recoverability.py": "cd6b96d87db76a5b30e497a0218c209195bc3c4fcd74edfe633a000c7750c388"
+  },
+  "compound_schedule_sha256": "a4088e5a5b24bcd358e4402cca472ab1578ebaa7b8481925af259729aa50ce93",
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "minimum_valid": 1800,
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "replicates": 2000,
+  "seed": 1729,
+  "shared_across_heads_and_models": true,
+  "undefined": "no redraw, imputation or surviving-topic macro; pointwise conditional intervals"
+}

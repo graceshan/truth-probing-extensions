@@ -1,0 +1,90 @@
+{
+  "committed_table_scope": "every saved layer, pooled/equal-topic macro/per-topic; all paired contrasts",
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "contrast_rows": 5544,
+  "external_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+  "external_results": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb",
+  "failures": [],
+  "files": {
+    "acceptance.json": {
+      "bytes": 3433,
+      "sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476"
+    },
+    "adapter-validation-final.json": {
+      "bytes": 2200,
+      "sha256": "ba5f8b999f9e6dd026127c4ac2afe520e1d2f11a01d768e04ff1da48f5fba9e3"
+    },
+    "all-layer-metrics.csv": {
+      "bytes": 407092,
+      "sha256": "886cab75b92ef0af94767877530474bd9bf083b4fbed2f79dfa9f56c81da4c27"
+    },
+    "all_layer_curves.svg": {
+      "bytes": 137632,
+      "sha256": "031d61f1b4d7e8ffdbd6a5262426e4c57034ac4f50d8550c547d584ce2f7b7d1"
+    },
+    "bootstrap_binding.json": {
+      "bytes": 2202,
+      "sha256": "e3c65345760e0c98b9913fd95e882391d2c0fcbbc519d64aa20cb4a75bba2bae"
+    },
+    "completion.json": {
+      "bytes": 119260,
+      "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+    },
+    "curve-receipt.json": {
+      "bytes": 642,
+      "sha256": "b0351ef7d7585d284552107044e2bed1fdd6a56241de5512abe9ace1288737d8"
+    },
+    "exact-metadata-rebuild.json": {
+      "bytes": 1208,
+      "sha256": "c1bc21e349022e0c6ad94ab2a1a0b67e654e052c223878580591f8c6654854d7"
+    },
+    "execution.json": {
+      "bytes": 14126,
+      "sha256": "49477209765567e0549fff54f1ee71a961d17f7d6018e85d596bab4ae8fa45b9"
+    },
+    "fit-summary.json": {
+      "bytes": 184301,
+      "sha256": "1780546baaa357d8da992c188dfb6ad68376099c66f44ada33f021e038855de7"
+    },
+    "fixed-selected-metrics.csv": {
+      "bytes": 40074,
+      "sha256": "b0b39ddd3e26bb08d9f51e2c7f9234f1da2e5ce78b0ebfdf80f1134638a2d1b2"
+    },
+    "implementation-tests.json": {
+      "bytes": 973,
+      "sha256": "2a40e8a98fff95054c71e5f02a1f74e078e149e4598f29f66681e3b5b6d600a1"
+    },
+    "paired-contrasts.csv": {
+      "bytes": 971281,
+      "sha256": "457e0a2182d54025fa8a8f20a0802b251fe79538038fdaf74a10244b15871bfa"
+    },
+    "report.md": {
+      "bytes": 13637,
+      "sha256": "6c2e8426419b6b79e4607a7ef8b00aec396ba5c82adb99650eb867549ba78410"
+    },
+    "representation-identity.json": {
+      "bytes": 10781,
+      "sha256": "534f654996461fd0d9e0ac17f3e96f2ab50e10afb018bdf78d1d8c876f6957df"
+    },
+    "result-audit.json": {
+      "bytes": 983,
+      "sha256": "0a9df9c3006200d6bb58fd0ed1ff084575b78250d10f7d9ad67056e4e5aa3e84"
+    },
+    "selected.json": {
+      "bytes": 4742,
+      "sha256": "245c307ac0d53521f19758c16d40bd3929211f24c19df2e3278f50e0ddb79d28"
+    },
+    "threadpools.json": {
+      "bytes": 2623,
+      "sha256": "03efd6b353e0ee395fc79d50f8939361f5588536cd99bf894a3642ed587f3246"
+    }
+  },
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "metric_rows": 3416,
+  "planned_fits": 122,
+  "producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "retries": [],
+  "status": "completed_independently_audited",
+  "valid_fits": 122
+}
