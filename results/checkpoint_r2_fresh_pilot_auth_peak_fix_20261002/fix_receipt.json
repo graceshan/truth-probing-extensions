@@ -1,0 +1,32 @@
+{
+  "authentication_fix": "original absolute HF_TOKEN_PATH preserved across fresh HF_HOME; environment credentials inherited; tracing disabled; no credential copies",
+  "branch": "checkpoint-r2-fresh-pilot-20261002",
+  "execution_status": "local_fixes_complete_pending_new_GPU_connection",
+  "frozen_contract_sha256": "c64b523a4a56e2f1c5e1dc77036ec2f97a7547e17c4d488088809dc307cdfe00",
+  "frozen_manifest_sha256": "e5356a32544acb643784f995be0ae0f493478ae97f94825d5bbe50bc859546f0",
+  "local_platform": "macOS-12.6-arm64-arm-64bit",
+  "macos": "12.6",
+  "metadata_receipt_byte_identical_to_parent": true,
+  "next_execution": "exact pushed successor commit; already authorized bounded pilot; no pull or merge",
+  "numerical_tolerances_changed": false,
+  "original_DOCX_and_13_unrelated_files_preserved": true,
+  "parent_commit": "ac89d894ebdc0c596bf364cde2177aa0264a0a7b",
+  "peak_memory_fix": "one CUDA reset before model loading; no reset after loading or during pilot execution",
+  "permitted_parent_mutations": [
+    "docs/checkpoint_r2/fresh_pilot_v1.md",
+    "scripts/checkpoint_r2_fresh_gpu_setup.sh",
+    "src/checkpoint_r2_fresh_backend.py"
+  ],
+  "preserved_parent_file_count": 1185,
+  "preserved_parent_ordered_blob_sha256": "d5e400340c0ced4ec5f35f5b4d4cc826e8dc83e6bf7ac4aba07e2c3a7d55390f",
+  "protected_access_fix": "authenticated force-download of pinned Llama config.json before either model weights; frozen config checksum and non-secret outcome receipt",
+  "real_inference_executed": false,
+  "regression_tests": {
+    "new_focused_cases": 9,
+    "pinned_hub_0_34_4_auth_cases_passed": 8,
+    "scope": "mocked protected network requests, actual wrapper/Hub credential resolution and synthetic GPU allocation peaks; no real model downloads or GPU inference",
+    "seconds": 27.53,
+    "total_passed": 210
+  },
+  "research_design_changed": false
+}

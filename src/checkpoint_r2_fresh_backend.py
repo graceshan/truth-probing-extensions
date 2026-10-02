@@ -60,19 +60,52 @@ def runtime_receipt(lock):
 
 def prepare_snapshots(config, cache, output):
     """Download only the two exact snapshots into a new cache; hash every resolved file."""
-    from huggingface_hub import HfApi, hf_hub_download
+    from huggingface_hub import HfApi, get_token, hf_hub_download
     require(not cache.exists(), 'fresh cache must not exist; preserve old snapshots')
     cache.mkdir(parents=True)
     receipt = {}
-    # Verify access/revision for both before any download; one API observation per model.
-    infos = {m: HfApi().model_info(s['model_id'], revision=s['revision'])
+    # Resolve credentials in memory only. The wrapper preserves the original token
+    # file path across HF_HOME isolation; an existing HF_TOKEN also remains available.
+    token = get_token()
+    require(bool(token), 'Hugging Face authentication required; use the secure terminal procedure in the handoff')
+    api = HfApi(token=token)
+    infos = {m: api.model_info(s['model_id'], revision=s['revision'])
              for m, s in config['models'].items()}
+    for model, spec in config['models'].items():
+        require(infos[model].sha == spec['revision'], 'remote resolved revision mismatch')
+    # Public model_info is not proof of gated download access. Force an actual
+    # authenticated protected-file request before either model's large weights.
+    llama = config['models']['llama']
+    access_started = time.monotonic()
+    try:
+        protected = Path(hf_hub_download(llama['model_id'], 'config.json', revision=llama['revision'],
+                                        cache_dir=str(cache), token=token, force_download=True))
+    except Exception as exc:
+        # Never persist response headers, URLs or arbitrary authentication errors.
+        response = getattr(exc, 'response', None)
+        status = getattr(response, 'status_code', None)
+        write_json(output / 'llama-protected-file-access.json', dict(
+            model_id=llama['model_id'], revision=llama['revision'], filename='config.json',
+            authenticated_token_resolved=True, protected_file_access_verified=False,
+            error_type=type(exc).__name__, http_status=status if isinstance(status, int) else None,
+            access_seconds=time.monotonic() - access_started))
+        raise PermissionError('Pinned Llama protected-file access failed; complete the secure authentication '
+                              'procedure in the handoff before reviewed execution') from None
+    require(protected.parent.name == llama['revision'] and protected.stat().st_size > 0,
+            'protected file resolved snapshot/size')
+    require(file_hash(protected) == llama['files_sha256']['config.json'], 'protected config pin mismatch')
+    write_json(output / 'llama-protected-file-access.json', dict(
+        model_id=llama['model_id'], revision=llama['revision'], filename='config.json',
+        authenticated_token_resolved=True, protected_file_access_verified=True,
+        method='authenticated hf_hub_download(force_download=True)',
+        resolved_snapshot_revision=protected.parent.name, sha256=file_hash(protected),
+        bytes=protected.stat().st_size, access_seconds=time.monotonic() - access_started))
     for model in ('qwen', 'llama'):
         spec = config['models'][model]
         require(infos[model].sha == spec['revision'], 'remote resolved revision mismatch')
         started = time.monotonic()
         def fetch(name):
-            return Path(hf_hub_download(spec['model_id'], name, revision=spec['revision'], cache_dir=str(cache)))
+            return Path(hf_hub_download(spec['model_id'], name, revision=spec['revision'], cache_dir=str(cache), token=token))
         index = fetch('model.safetensors.index.json')
         files = set(json.loads(index.read_text())['weight_map'].values()) | set(spec['files_sha256'])
         files.add('model.safetensors.index.json')
@@ -97,6 +130,9 @@ class FreshBackend:
         from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
         self.torch, self.spec, self.settings = torch, spec, settings
         torch.cuda.set_device(0)
+        # Start the single per-model interval BEFORE loading, including transient
+        # allocations during from_pretrained/device transfer; never reset afterward.
+        torch.cuda.reset_peak_memory_stats(0)
         torch.manual_seed(settings['seed'])
         torch.cuda.manual_seed_all(settings['seed'])
         torch.set_float32_matmul_precision('highest')
@@ -138,8 +174,8 @@ class FreshBackend:
                                               flash_sdpa=torch.backends.cuda.flash_sdp_enabled(),
                                               memory_efficient_sdpa=torch.backends.cuda.mem_efficient_sdp_enabled(),
                                               math_sdpa=torch.backends.cuda.math_sdp_enabled()),
-                            settings=settings, max_position_embeddings=cfg.max_position_embeddings)
-        torch.cuda.reset_peak_memory_stats()
+                            settings=settings, max_position_embeddings=cfg.max_position_embeddings,
+                            peak_memory_tracking='one reset before model loading; load and execution share the same peak interval')
 
     def forward(self, rows, batch_size):
         torch = self.torch

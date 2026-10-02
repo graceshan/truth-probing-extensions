@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # GPU host only. New checkout/root, no existing artifact or environment mutation.
+# Keep credentials out of shell traces, even if invoked with bash -x.
+set +x
 set -euo pipefail
 if [[ $# -lt 2 || $# -gt 3 ]]; then
     echo 'Usage: checkpoint_r2_fresh_gpu_setup.sh NEW_ABSOLUTE_ROOT EXACT_PUSHED_COMMIT [HOURLY_PRICE]' >&2
@@ -26,16 +28,18 @@ python3.12 -m venv "$pilot_root/venv"
 "$pilot_root/venv/bin/python" -m pip freeze --all > "$pilot_root/installed-runtime.freeze.txt"
 "$pilot_root/venv/bin/python" -m pip check > "$pilot_root/pip-check.txt"
 date -u +%Y-%m-%dT%H:%M:%SZ > "$pilot_root/provision-completed-utc.txt"
-# HF_TOKEN may be supplied in the environment for gated Llama; never echo/store it.
+# Preserve authentication before isolating HF_HOME. Only the original credential
+# FILE PATH is captured here; the token stays in that external file or HF_TOKEN.
+# Do not copy credentials into pilot/cache directories or research receipts.
+export HF_TOKEN_PATH="$("$pilot_root/venv/bin/python" -c 'from huggingface_hub.constants import HF_TOKEN_PATH; from pathlib import Path; print(Path(HF_TOKEN_PATH).expanduser().resolve())')"
+# HF_TOKEN (or its legacy environment alias) remains inherited and is never echoed.
 # All Hugging Face downloads and incidental hub/Xet metadata use this fresh root.
 export HF_HOME="$pilot_root/hf-home"
 export HF_HUB_DISABLE_XET=1
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
 export TOKENIZERS_PARALLELISM=false
-pilot_price_args=()
+pilot_run_args=(run --output "$pilot_root/pilot" --cache "$pilot_root/model-cache" --expected-commit "$pilot_commit")
 if [[ $# == 3 ]]; then
-    pilot_price_args=(--hourly-price "$3")
+    pilot_run_args+=(--hourly-price "$3")
 fi
-"$pilot_root/venv/bin/python" -B -m src.checkpoint_r2_fresh_pilot run \
-    --output "$pilot_root/pilot" --cache "$pilot_root/model-cache" \
-    --expected-commit "$pilot_commit" "${pilot_price_args[@]}"
+"$pilot_root/venv/bin/python" -B -m src.checkpoint_r2_fresh_pilot "${pilot_run_args[@]}"

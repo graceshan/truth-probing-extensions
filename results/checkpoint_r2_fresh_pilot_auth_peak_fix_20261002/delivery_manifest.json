@@ -1,0 +1,38 @@
+{
+  "files": {
+    "docs/checkpoint_r2/fresh_pilot_v1.md": {
+      "bytes": 17353,
+      "sha256": "72a285dbaa7e570ab4f88deb990317cd40b6b3f8271fefd4c9c15cfd3adc5144"
+    },
+    "results/checkpoint_r2_fresh_pilot_auth_peak_fix_20261002/fix_receipt.json": {
+      "bytes": 1862,
+      "sha256": "a00ad1d205a5f63da63d6b6f6bfc2a9e8ebb61dffbb34ef06bc7cd42ae7fa98b"
+    },
+    "results/checkpoint_r2_fresh_pilot_auth_peak_fix_20261002/local_tests.xml": {
+      "bytes": 27595,
+      "sha256": "875dd900f269d73aa1960f18ae5681e5a88bda5cb34e7fc22f73747b06401a21"
+    },
+    "results/checkpoint_r2_fresh_pilot_auth_peak_fix_20261002/metadata_validation.json": {
+      "bytes": 1761,
+      "sha256": "ed546022b0f577f3193582f1d0aa9d4c7967706e26064a8eb29d80dcaffc27c2"
+    },
+    "results/checkpoint_r2_fresh_pilot_auth_peak_fix_20261002/pinned_hub_auth_tests.xml": {
+      "bytes": 1452,
+      "sha256": "d0611f388076583914ffc973cd6dcf2b61a7194e8e6d50a3fad9452f3ecf0362"
+    },
+    "scripts/checkpoint_r2_fresh_gpu_setup.sh": {
+      "bytes": 2504,
+      "sha256": "7ca5761b3622d7528351c9ccb1cea5ce8be3057946c78527c599a25f93545a6b"
+    },
+    "src/checkpoint_r2_fresh_backend.py": {
+      "bytes": 15858,
+      "sha256": "385d2da7affcaba647c45ec0297fc7e22ef94c2308e4ea50058bfd8e074e419c"
+    },
+    "tests/test_checkpoint_r2_fresh_runtime_fixes.py": {
+      "bytes": 11986,
+      "sha256": "7528af4224b4c1369866bd6eafd74665d415ec5edb7f54f28d32a9346c591b29"
+    }
+  },
+  "parent_commit": "ac89d894ebdc0c596bf364cde2177aa0264a0a7b",
+  "self_reference_excluded": true
+}

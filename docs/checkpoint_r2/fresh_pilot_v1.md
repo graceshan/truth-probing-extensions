@@ -95,7 +95,16 @@ inference the worker verifies actual package pins and saves exact Python,
 Torch build, CUDA/cuDNN, driver, GPU name/UUID/VRAM/capability, attention policy,
 actual execution flags, implementation hashes, tokenizer backend hash and token
 policy. Resolved model/tokenizer files and every safetensors shard/index are
-hashed and recorded. Both model revisions/access are checked before downloads:
+hashed and recorded. Both revisions are checked by model metadata; authenticated
+access is separately established by force-downloading Llama's protected
+`config.json` at its pinned revision, checking its resolved snapshot and frozen
+hash, and publishing `llama-protected-file-access.json` **before either model's
+large weight download**. Public `model_info` success alone cannot pass this gate.
+The receipt contains only model/file identity, checksum, size, timing and outcome;
+a denied request retains error type/HTTP status without server text or headers.
+The authentication gate is regression-tested against pinned Hub **0.34.4**.
+
+Pinned model identities:
 
 | Model | Revision |
 | --- | --- |
@@ -104,8 +113,35 @@ hashed and recorded. Both model revisions/access are checked before downloads:
 
 The cache and output are new external directories. No old snapshots are repaired
 or overwritten. Llama gated access uses the operator's existing authorization;
-a token is never included in logs or receipts. Set HF_TOKEN via the host's secure
-authentication mechanism if needed.
+a token is never included in logs, command arguments or receipts. Before assigning
+the new `HF_HOME`, the wrapper resolves and exports the **original absolute
+`HF_TOKEN_PATH`**. Existing active-token files stay in their external credential
+location; inherited `HF_TOKEN` (or the legacy environment alias) continues to
+work. Credentials are not copied to output/cache directories or Git. The wrapper
+disables shell tracing before handling authentication, including when invoked
+with `bash -x`.
+
+If no authorized credential is available, use this exact procedure in an
+interactive **Bash terminal on the GPU host, before the first pilot attempt**.
+Use a read token for the Hugging Face account already approved for the gated
+Llama repository; model access approval must be granted before execution.
+Replace `PILOT_COMMIT` with this delivery's exact pushed successor SHA and use a
+new root whose durable parent exists:
+
+```bash
+set +x
+IFS= read -r -s -p 'HF read token with approved Llama access: ' HF_TOKEN
+printf '\n'
+export HF_TOKEN
+bash scripts/checkpoint_r2_fresh_gpu_setup.sh /durable/r2-fresh-run-20261002 PILOT_COMMIT
+unset HF_TOKEN
+```
+
+The token is entered at the hidden prompt, stays in process environment memory,
+and is never typed into a command or saved by this procedure. Do not paste it
+into chat, supply `--token`, or enable shell tracing. After a failed campaign,
+inspect its retained accounting and authentication outcome before any reviewed
+retry; this procedure does not reset execution limits.
 
 The writer publishes immutable NPY/rows/tokens/receipt files using fsynced
 partials, exclusive hard links and directory fsync. A new downstream loader
@@ -129,7 +165,10 @@ Per-batch forward/transfer durations and per-shard writing/check durations are
 reported separately; end-to-end rates, mean, sample standard deviation and the
 three observed rates are retained. Warm-ups, setup/download and repeated timing
 inputs are separate from unique observation count. Peak allocated/reserved VRAM
-covers loading and pilot execution. An eight-row `transfer-ready/` shard per
+covers loading and pilot execution. CUDA peak tracking resets **once per model,
+immediately after selecting cuda:0 and before any model loading**; it never
+resets after loading. Transient device-transfer/loading peaks remain visible
+through warm-up, calibration, verification and timing. An eight-row `transfer-ready/` shard per
 model carries real values and independently supplied receipt checksum for mac 2.
 
 Qwen and Llama run sequentially. The independent process-group watchdog enforces
@@ -171,9 +210,15 @@ GPU throughput is fabricated.
 
 ## Current status and execution commands
 
-Local implementation and focused/regression tests pass. The local receipts in
-`results/checkpoint_r2_fresh_pilot_v1_20261002/` describe local metadata and
-synthetic validation only. No new GPU SSH connection was supplied. The old
+Local implementation and focused/regression tests pass. The initial receipts in
+`results/checkpoint_r2_fresh_pilot_v1_20261002/` remain the preserved **ac89d894**
+delivery snapshot, including its original per-file hashes. The focused
+successor starts exactly at `ac89d894ebdc0c596bf364cde2177aa0264a0a7b`; it changes
+only authentication/access gating, loading-peak tracking, the setup wrapper and
+handoff, with regression coverage. Frozen contract/input bytes, tolerances and
+research design are unchanged. Current fix/test/preservation receipts are in
+`results/checkpoint_r2_fresh_pilot_auth_peak_fix_20261002/`. These receipts
+describe local metadata and synthetic validation only. No new GPU SSH connection was supplied. The old
 address was not contacted or assumed to have acquired a GPU.
 
 | Model | Unique pilot inputs | GPU/runtime | Accepted policy | Real correctness / throughput / VRAM / bytes / projected cost |
@@ -194,7 +239,8 @@ cd /Users/apple/projects/checkpoint-r2-fresh-pilot-20261002
 /tmp/clean-extraction-venv/bin/python -B -m src.checkpoint_r2_fresh_pilot dry-run \
   --output /private/tmp/r2-fresh-review-new.json
 /tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider \
-  tests/test_checkpoint_r2_fresh_pilot.py tests/test_checkpoint_r2_bridge_runner.py \
+  tests/test_checkpoint_r2_fresh_pilot.py tests/test_checkpoint_r2_fresh_runtime_fixes.py \
+  tests/test_checkpoint_r2_bridge_runner.py \
   tests/test_checkpoint_r2_common_v1.py tests/test_checkpoint_r2_inputs.py \
   tests/test_checkpoint_r2_selection_v1.py tests/test_clean_atomic_extraction.py \
   tests/test_pinned_compound_extraction.py
