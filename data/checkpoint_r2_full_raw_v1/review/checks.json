@@ -1,0 +1,481 @@
+{
+  "archive": {
+    "existing_handoff_preserved": true,
+    "extraction": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-review-evidence-20261002/handoff-completed",
+    "files": 144,
+    "identity": {
+      "bytes": 4334176,
+      "sha256": "d85fcbb5bf960575bf8251abb861aa049d5e0e12a728ad1d3f60aab79137e43d"
+    },
+    "inspected_members": 202,
+    "paths": "unique, relative, under handoff-completed, regular files/directories only; no links or special members"
+  },
+  "audit_script_external_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-review-evidence-20261002/recompute.py",
+  "audit_script_sha256": "f95082522610c66458e666287f92934ee78c72f3d50f997a9fb37b534722fae4",
+  "complete_audit_receipt_external_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-review-evidence-20261002/review-receipt.json",
+  "complete_audit_receipt_sha256": "863000565c87e60a50911f4a552aef432243f5f2268404e5f354f0eb9d7e7fe0",
+  "contract": {
+    "calibration_rows": 80,
+    "calibration_train_only": true,
+    "deterministic_rebuild": true,
+    "distinct_rows": 320,
+    "frozen_numerical_acceptance": {
+      "hard_relative_rms_ceiling": 0.01,
+      "hard_scaled_max_ceiling": 0.1,
+      "max_floor_scale": 1e-05,
+      "multiplier": 3.0,
+      "procedure": "per batch/layer, maxabs and RMS limits = max(3 * calibration error, specified floor * calibration reference RMS); relative RMS limit = max(3 * calibration relative RMS,1e-6). Require every layer in computation AND stored FP16; independent verification also obeys hard ceilings. Train-only 80-row calibration; immutable lock before any of 240 verification inputs. Factor3 allows modest sample/kernel variation; floors avoid zero-estimate bitwise requirement; hard ceilings prevent calibration admitting large errors. These are fresh numerical engineering limits, not historical/research equivalence. No widening; any independent batching failure selects batch1; batch1 repeat failure stops with specific correctness issue.",
+      "rms_floor_scale": 1e-06
+    },
+    "full_raw_logical_bindings": 41490,
+    "full_raw_unique_inputs": 35843,
+    "manifest_sha256": "e5356a32544acb643784f995be0ae0f493478ae97f94825d5bbe50bc859546f0",
+    "sha256": "c64b523a4a56e2f1c5e1dc77036ec2f97a7547e17c4d488088809dc307cdfe00",
+    "verification_rows": 240
+  },
+  "inventory": {
+    "checksum_manifest": {
+      "bytes": 21359,
+      "sha256": "694af40a6cf0ac76fbf51cff3e055d15447f680f2a18ccdd7b74c968af8a936a"
+    },
+    "extra_pilot_files": {
+      "artifact-inventory.json": {
+        "bytes": 22446,
+        "sha256": "5a9c87899398916300db81a454a2ceececc13d6df7531ea6bc50ded702ede01b"
+      },
+      "budget.json": {
+        "bytes": 509,
+        "sha256": "b5695fc23155b0ee8c392d4b9e15ec042545c066cdd4ff46c95d6417c9fdea24"
+      },
+      "completion.json": {
+        "bytes": 43219,
+        "sha256": "be240726828e30230dc8d2b1251cc3552325b2c2e8f6f5b4872673ad4a54c1b3"
+      },
+      "supervisor-exit.json": {
+        "bytes": 731,
+        "sha256": "4669babe3e78e41ec12f03cee3545bbc1e0c6ef1b947eabba8615e51b3797732"
+      }
+    },
+    "handoff_files_verified": 143,
+    "omitted_tensor_files": [
+      "llama/calibration-b1/0000/activations.npy",
+      "llama/calibration-b2/0000/activations.npy",
+      "llama/calibration-b4/0000/activations.npy",
+      "llama/calibration-b8/0000/activations.npy",
+      "llama/calibration-reference/0000/activations.npy",
+      "llama/timing-0/0000/activations.npy",
+      "llama/timing-1/0000/activations.npy",
+      "llama/timing-2/0000/activations.npy",
+      "llama/verification-b1/0000/activations.npy",
+      "llama/verification-reference/0000/activations.npy",
+      "llama/warmup-0/0000/activations.npy",
+      "llama/warmup-1/0000/activations.npy",
+      "llama/warmup-2/0000/activations.npy",
+      "qwen/calibration-b1/0000/activations.npy",
+      "qwen/calibration-b2/0000/activations.npy",
+      "qwen/calibration-b4/0000/activations.npy",
+      "qwen/calibration-b8/0000/activations.npy",
+      "qwen/calibration-reference/0000/activations.npy",
+      "qwen/timing-0/0000/activations.npy",
+      "qwen/timing-1/0000/activations.npy",
+      "qwen/timing-2/0000/activations.npy",
+      "qwen/verification-b1/0000/activations.npy",
+      "qwen/verification-reference/0000/activations.npy",
+      "qwen/warmup-0/0000/activations.npy",
+      "qwen/warmup-1/0000/activations.npy",
+      "qwen/warmup-2/0000/activations.npy"
+    ],
+    "omitted_tensors": "recorded identities/sizes only; not directly inspected",
+    "pilot_entries_directly_verified": 127,
+    "pilot_inventory_entries": 153,
+    "preserved_setup_files_verified": 17,
+    "previous_handoff_pointer": {
+      "earlier_mac_receipt": {
+        "bytes": 3019,
+        "sha256": "d3b559c927566c8933c6b9c6257daf147b112c044f307fabfba0b283bc2fa4f8"
+      },
+      "matches": "pending-authentication-status and earlier initial handoff Mac verification receipt",
+      "note": "Historical previous-handoff pointer; differs from current volume setup manifest, which has its own verified Mac receipt",
+      "sha256": "a1b4458f5dee5e51e76bee1ca453fa08f38f6939c32c8b48c6f709909865e8d4"
+    },
+    "recomputed_retained_pilot_bytes": 879240876,
+    "recorded_inventory_bytes": 879173971,
+    "setup_checksum_manifest": {
+      "bytes": 2338,
+      "sha256": "0310e5fa48720a083df4091fff80e205941b815e84999efb053ef0ef28cfd9d8"
+    }
+  },
+  "local": {
+    "actual_sys_executable": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "execution": "CPU only; no torch import, SSH or GPU execution",
+    "hostname": "MacBook-Pro-7.lan",
+    "interpreter_realpath": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "invoked_interpreter_path": "/private/tmp/clean-extraction-venv/bin/python",
+    "machine": "arm64",
+    "numpy": "1.26.2",
+    "platform": "macOS-12.6-arm64-arm-64bit",
+    "prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+    "replication": "independent review/re-execution on MacBook-Pro-7.lan; no second physical-machine replication claimed"
+  },
+  "models": {
+    "llama": {
+      "all_stage_receipts_checked": 14,
+      "excluded_batches": {
+        "2": {
+          "computation": {
+            "relative_rms": 0.0133378958272693,
+            "scaled_max_absolute": 0.6296068389044385
+          },
+          "stored_fp16": {
+            "relative_rms": 0.0133378958272693,
+            "scaled_max_absolute": 0.6296068389044385
+          }
+        },
+        "4": {
+          "computation": {
+            "relative_rms": 0.017015538152305155,
+            "scaled_max_absolute": 1.5873650952956566
+          },
+          "stored_fp16": {
+            "relative_rms": 0.017015538152305155,
+            "scaled_max_absolute": 1.5873650952956566
+          }
+        },
+        "8": {
+          "computation": {
+            "relative_rms": 0.01640514758958072,
+            "scaled_max_absolute": 2.1842642587304715
+          },
+          "stored_fp16": {
+            "relative_rms": 0.01640514758958072,
+            "scaled_max_absolute": 2.1842642587304715
+          }
+        }
+      },
+      "locked_calibration_sha256": "8bd884c38443f5b1d17d959ba25cda97931cca707d4a7e96376bab6740c165cd",
+      "model_spec": {
+        "files_sha256": {
+          "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+          "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+          "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+        },
+        "layers": 32,
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "width": 4096
+      },
+      "recorded_backend_identity": {
+        "actual_flags": {
+          "deterministic_algorithms": false,
+          "flash_sdpa": false,
+          "math_sdpa": true,
+          "matmul_precision": "highest",
+          "memory_efficient_sdpa": false,
+          "tf32_cudnn": false,
+          "tf32_matmul": false
+        },
+        "device": "cuda:0",
+        "eval": true,
+        "max_position_embeddings": 131072,
+        "model_class": "LlamaForCausalLM",
+        "model_implementation_sha256": "31bf660a663259134324bc65da4e155951dc89c5ca46471d2325a9938e859e26",
+        "native_bos_id": 128000,
+        "native_eos_id": 128009,
+        "native_pad_id": null,
+        "padding_id": 128009,
+        "peak_memory_tracking": "one reset before model loading; load and execution share the same peak interval",
+        "settings": {
+          "add_special_tokens": true,
+          "attention": "sdpa",
+          "chat_template": false,
+          "compute_dtype": "bfloat16",
+          "deterministic_algorithms": false,
+          "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+          "logits_to_keep": 1,
+          "max_tokens": 1024,
+          "ordering": "manifest order, no sorting/bucketing",
+          "padding": "right; batch1 unpadded",
+          "positions": "mask.cumsum-1; padding positions0",
+          "readout": "last nonpadding token",
+          "sdpa_kernel": "math",
+          "seed": 0,
+          "stored_dtype": "float16",
+          "tf32": false,
+          "truncation": false,
+          "use_cache": false
+        },
+        "tokenizer_backend_sha256": "b47fcb7017102fb3594326d69acc6b74872032ed15def90890d49d61ea94d220",
+        "tokenizer_class": "PreTrainedTokenizerFast",
+        "tokenizer_implementation_sha256": "546f0bed7f7c97ef7fca2511424a6cfaa2ef39cd82941386b5429ba234d61f17"
+      },
+      "recorded_weight_and_index_identities": {
+        "model-00001-of-00004.safetensors": {
+          "bytes": 4976698672,
+          "sha256": "2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668"
+        },
+        "model-00002-of-00004.safetensors": {
+          "bytes": 4999802720,
+          "sha256": "09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15"
+        },
+        "model-00003-of-00004.safetensors": {
+          "bytes": 4915916176,
+          "sha256": "fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa"
+        },
+        "model-00004-of-00004.safetensors": {
+          "bytes": 1168138808,
+          "sha256": "92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 23950,
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b"
+        }
+      },
+      "reference_repeat_stored_tensor_hashes_agree": true,
+      "snapshot_receipt": {
+        "bytes": 5072,
+        "sha256": "30b9b9fa87d533c2f954374ce042d01a78eec495b0f256a92a00625c5315da26"
+      },
+      "transferred_shard": {
+        "all_values_finite": true,
+        "dtype": "float16",
+        "payload_sha256": "bf833afcde295bd1d52028aed89f677378e27cc8a28f446be48c8041b832fe59",
+        "receipt": {
+          "bytes": 3000,
+          "sha256": "4b689a7af62999ce062b3a1752546f3097b06ed3fffc9793bfecbd71c4fe5c58"
+        },
+        "shape": [
+          8,
+          32,
+          4096
+        ],
+        "source_rows_and_token_semantics_verified": true
+      },
+      "verification": "reported computation/stored FP16 errors zero on 240 independent rows; fixed limits/ceilings passed"
+    },
+    "qwen": {
+      "all_stage_receipts_checked": 14,
+      "excluded_batches": {
+        "2": {
+          "computation": {
+            "relative_rms": 0.022149052969680606,
+            "scaled_max_absolute": 1.7330539203251083
+          },
+          "stored_fp16": {
+            "relative_rms": 0.022149052969680606,
+            "scaled_max_absolute": 1.7330539203251083
+          }
+        },
+        "4": {
+          "computation": {
+            "relative_rms": 0.024390497461187346,
+            "scaled_max_absolute": 1.387055522804371
+          },
+          "stored_fp16": {
+            "relative_rms": 0.024390497461187346,
+            "scaled_max_absolute": 1.387055522804371
+          }
+        },
+        "8": {
+          "computation": {
+            "relative_rms": 0.023877324904557615,
+            "scaled_max_absolute": 1.1045357129373439
+          },
+          "stored_fp16": {
+            "relative_rms": 0.023877324904557615,
+            "scaled_max_absolute": 1.1045357129373439
+          }
+        }
+      },
+      "locked_calibration_sha256": "a6cb154829ef413751c65b3fa362eccc5064819491a94008039e1904f762a3f2",
+      "model_spec": {
+        "files_sha256": {
+          "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+          "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        "layers": 28,
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "width": 3584
+      },
+      "recorded_backend_identity": {
+        "actual_flags": {
+          "deterministic_algorithms": false,
+          "flash_sdpa": false,
+          "math_sdpa": true,
+          "matmul_precision": "highest",
+          "memory_efficient_sdpa": false,
+          "tf32_cudnn": false,
+          "tf32_matmul": false
+        },
+        "device": "cuda:0",
+        "eval": true,
+        "max_position_embeddings": 32768,
+        "model_class": "Qwen2ForCausalLM",
+        "model_implementation_sha256": "a59fa06524227361fb401baf4d177124a27aec146bc01ec931235a9abbab17cb",
+        "native_bos_id": null,
+        "native_eos_id": 151645,
+        "native_pad_id": 151643,
+        "padding_id": 151643,
+        "peak_memory_tracking": "one reset before model loading; load and execution share the same peak interval",
+        "settings": {
+          "add_special_tokens": true,
+          "attention": "sdpa",
+          "chat_template": false,
+          "compute_dtype": "bfloat16",
+          "deterministic_algorithms": false,
+          "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+          "logits_to_keep": 1,
+          "max_tokens": 1024,
+          "ordering": "manifest order, no sorting/bucketing",
+          "padding": "right; batch1 unpadded",
+          "positions": "mask.cumsum-1; padding positions0",
+          "readout": "last nonpadding token",
+          "sdpa_kernel": "math",
+          "seed": 0,
+          "stored_dtype": "float16",
+          "tf32": false,
+          "truncation": false,
+          "use_cache": false
+        },
+        "tokenizer_backend_sha256": "f884026e05f6dfffe68b72d580b588006d98b3bc0a128bb1ac425c76f7fc438c",
+        "tokenizer_class": "Qwen2TokenizerFast",
+        "tokenizer_implementation_sha256": "1025a3b86526283bd86a447f0fe2d991d09775b32d3fdcc233c9e447b0611049"
+      },
+      "recorded_weight_and_index_identities": {
+        "model-00001-of-00004.safetensors": {
+          "bytes": 3945441440,
+          "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+        },
+        "model-00002-of-00004.safetensors": {
+          "bytes": 3864726352,
+          "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+        },
+        "model-00003-of-00004.safetensors": {
+          "bytes": 3864726424,
+          "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+        },
+        "model-00004-of-00004.safetensors": {
+          "bytes": 3556377672,
+          "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 27752,
+          "sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028"
+        }
+      },
+      "reference_repeat_stored_tensor_hashes_agree": true,
+      "snapshot_receipt": {
+        "bytes": 5960,
+        "sha256": "47097ca13cf16c62a9c07be0b5edf161f421db7b0a4ee488119cfa9969d80bfa"
+      },
+      "transferred_shard": {
+        "all_values_finite": true,
+        "dtype": "float16",
+        "payload_sha256": "e1fd98418502317a8edf57e9cc5a9ab09d78ac91202d4d346768ba12b256341f",
+        "receipt": {
+          "bytes": 3103,
+          "sha256": "26045d8e5715b379c672aa3ba76f76ceaa1f19e1f888b807ccad894c6318a597"
+        },
+        "shape": [
+          8,
+          28,
+          3584
+        ],
+        "source_rows_and_token_semantics_verified": true
+      },
+      "verification": "reported computation/stored FP16 errors zero on 240 independent rows; fixed limits/ceilings passed"
+    }
+  },
+  "observed_utc": "2026-10-02T17:14:03.230890+00:00",
+  "reported_runtime": {
+    "attention": "sdpa",
+    "compute_capability": [
+      8,
+      6
+    ],
+    "compute_dtype": "bfloat16",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "device": "cuda:0",
+    "driver": "NVIDIA A40, GPU-ecedb300-055c-e9bf-bd05-ca9b84f55ef9, 595.91.07, 46068 MiB",
+    "executable": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/venv/bin/python",
+    "gpu": "NVIDIA A40",
+    "gpu_total_bytes": 47699722240,
+    "hostname": "33b0f62a1fb7",
+    "packages": {
+      "huggingface-hub": "0.34.4",
+      "numpy": "2.1.3",
+      "safetensors": "0.6.2",
+      "tokenizers": "0.22.1",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "sdpa_kernel": "math (flash and memory-efficient disabled)",
+    "stored_dtype": "float16",
+    "torch_build": "2.8.0+cu128",
+    "transformers": "4.56.2"
+  },
+  "reviewed_code_commit": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+  "scope": {
+    "blockers_to_completed_handoff": [],
+    "chronology": "exact runner publishes immutable calibration lock before verification and rechecks hash afterward; final lock/policy hashes agree; archive timestamps do not independently prove ordering",
+    "direct_features": "only transferred eight-row FP16 shards per model",
+    "full_extraction_prerequisites": [
+      "separate full-extraction authorization",
+      "usable full storage quota/allocation meeting retained-copy plan"
+    ],
+    "full_pilot": "consistency checks of reported per-layer metrics, receipt identities, counts, source bindings, token packets and byte/time arithmetic; no full tensors or weights inspected, no fresh inference",
+    "numerical_conclusion": "evidence supports complete fresh raw extraction at batch 1 only, subject to separate authorization and verified usable full quota/storage plan"
+  },
+  "script": {
+    "checksum_scope": "Computed and pinned after reading; no independently supplied script SHA was present. Script is outside the archive/checksum manifest.",
+    "command": [
+      "bash",
+      "/Users/apple/projects/checkpoint-r2-fresh-pilot-handoff-20261002-3f9747f-volume/verify-handoff-shards.sh",
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-pilot-review-20261002",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/r2-review-evidence-20261002/handoff-completed"
+    ],
+    "exit_code": 0,
+    "identity": {
+      "bytes": 740,
+      "sha256": "00a025e313e87aefbf3c93fe01c3718a2fdf8fd48c73c6fe160e998276f6ee31"
+    },
+    "inspected": true,
+    "stdout": [
+      {
+        "payload_sha256": "e1fd98418502317a8edf57e9cc5a9ab09d78ac91202d4d346768ba12b256341f",
+        "receipt": {
+          "bytes": 3103,
+          "sha256": "26045d8e5715b379c672aa3ba76f76ceaa1f19e1f888b807ccad894c6318a597"
+        },
+        "rows": 8,
+        "shape": [
+          8,
+          28,
+          3584
+        ]
+      },
+      {
+        "payload_sha256": "bf833afcde295bd1d52028aed89f677378e27cc8a28f446be48c8041b832fe59",
+        "receipt": {
+          "bytes": 3000,
+          "sha256": "4b689a7af62999ce062b3a1752546f3097b06ed3fffc9793bfecbd71c4fe5c58"
+        },
+        "rows": 8,
+        "shape": [
+          8,
+          32,
+          4096
+        ]
+      }
+    ]
+  },
+  "status": "PASS_WITH_SCOPE_LIMITATIONS"
+}

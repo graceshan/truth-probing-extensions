@@ -1,0 +1,182 @@
+{
+  "attention": "sdpa",
+  "backend": {
+    "actual_flags": {
+      "deterministic_algorithms": false,
+      "flash_sdpa": false,
+      "math_sdpa": true,
+      "matmul_precision": "highest",
+      "memory_efficient_sdpa": false,
+      "tf32_cudnn": false,
+      "tf32_matmul": false
+    },
+    "device": "cuda:0",
+    "eval": true,
+    "max_position_embeddings": 131072,
+    "model_class": "LlamaForCausalLM",
+    "model_implementation_sha256": "31bf660a663259134324bc65da4e155951dc89c5ca46471d2325a9938e859e26",
+    "native_bos_id": 128000,
+    "native_eos_id": 128009,
+    "native_pad_id": null,
+    "padding_id": 128009,
+    "peak_memory_tracking": "one reset before model loading; load and execution share the same peak interval",
+    "settings": {
+      "add_special_tokens": true,
+      "attention": "sdpa",
+      "chat_template": false,
+      "compute_dtype": "bfloat16",
+      "deterministic_algorithms": false,
+      "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+      "logits_to_keep": 1,
+      "max_tokens": 1024,
+      "ordering": "manifest order, no sorting/bucketing",
+      "padding": "right; batch1 unpadded",
+      "positions": "mask.cumsum-1; padding positions0",
+      "readout": "last nonpadding token",
+      "sdpa_kernel": "math",
+      "seed": 0,
+      "stored_dtype": "float16",
+      "tf32": false,
+      "truncation": false,
+      "use_cache": false
+    },
+    "tokenizer_backend_sha256": "b47fcb7017102fb3594326d69acc6b74872032ed15def90890d49d61ea94d220",
+    "tokenizer_class": "PreTrainedTokenizerFast",
+    "tokenizer_implementation_sha256": "546f0bed7f7c97ef7fca2511424a6cfaa2ef39cd82941386b5429ba234d61f17"
+  },
+  "compute_capability": [
+    8,
+    6
+  ],
+  "compute_dtype": "bfloat16",
+  "contract_sha256": "c64b523a4a56e2f1c5e1dc77036ec2f97a7547e17c4d488088809dc307cdfe00",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "device": "cuda:0",
+  "driver": "NVIDIA A40, GPU-ecedb300-055c-e9bf-bd05-ca9b84f55ef9, 595.91.07, 46068 MiB",
+  "executable": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/venv/bin/python",
+  "gpu": "NVIDIA A40",
+  "gpu_total_bytes": 47699722240,
+  "hostname": "33b0f62a1fb7",
+  "manifest_sha256": "e5356a32544acb643784f995be0ae0f493478ae97f94825d5bbe50bc859546f0",
+  "model_snapshot": {
+    "download_and_hash_seconds": 360.8991468330496,
+    "downloaded_bytes": 16069722189,
+    "files": {
+      "config.json": {
+        "bytes": 855,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/config.json",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/0bb6fd75b3ad2fe988565929f329945262c2814e",
+        "sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e"
+      },
+      "model-00001-of-00004.safetensors": {
+        "bytes": 4976698672,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00001-of-00004.safetensors",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668",
+        "sha256": "2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668"
+      },
+      "model-00002-of-00004.safetensors": {
+        "bytes": 4999802720,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00002-of-00004.safetensors",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15",
+        "sha256": "09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15"
+      },
+      "model-00003-of-00004.safetensors": {
+        "bytes": 4915916176,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00003-of-00004.safetensors",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa",
+        "sha256": "fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa"
+      },
+      "model-00004-of-00004.safetensors": {
+        "bytes": 1168138808,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00004-of-00004.safetensors",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b",
+        "sha256": "92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 23950,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model.safetensors.index.json",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/0fd8120f1c6acddc268ebc2583058efaf699a771",
+        "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b"
+      },
+      "tokenizer.json": {
+        "bytes": 9085657,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/tokenizer.json",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+        "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4"
+      },
+      "tokenizer_config.json": {
+        "bytes": 55351,
+        "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/tokenizer_config.json",
+        "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/db88166e2bc4c799fd5d1ae643b75e84d03ee70e",
+        "sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      }
+    },
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "snapshot": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "tokenizer_revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+  },
+  "packages": {
+    "huggingface-hub": "0.34.4",
+    "numpy": "2.1.3",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.1",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.56.2"
+  },
+  "pip_freeze": [
+    "certifi==2026.7.22",
+    "charset-normalizer==3.5.2",
+    "filelock==3.32.3",
+    "fsspec==2026.7.0",
+    "hf-xet==1.6.0",
+    "huggingface-hub==0.34.4",
+    "idna==3.20",
+    "Jinja2==3.1.6",
+    "MarkupSafe==3.0.3",
+    "mpmath==1.3.0",
+    "networkx==3.6.1",
+    "numpy==2.1.3",
+    "nvidia-cublas-cu12==12.8.4.1",
+    "nvidia-cuda-cupti-cu12==12.8.90",
+    "nvidia-cuda-nvrtc-cu12==12.8.93",
+    "nvidia-cuda-runtime-cu12==12.8.90",
+    "nvidia-cudnn-cu12==9.10.2.21",
+    "nvidia-cufft-cu12==11.3.3.83",
+    "nvidia-cufile-cu12==1.13.1.3",
+    "nvidia-curand-cu12==10.3.9.90",
+    "nvidia-cusolver-cu12==11.7.3.90",
+    "nvidia-cusparse-cu12==12.5.8.93",
+    "nvidia-cusparselt-cu12==0.7.1",
+    "nvidia-nccl-cu12==2.27.3",
+    "nvidia-nvjitlink-cu12==12.8.93",
+    "nvidia-nvtx-cu12==12.8.90",
+    "packaging==26.3",
+    "pandas==2.3.3",
+    "pip==25.2",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2026.4",
+    "PyYAML==6.0.3",
+    "regex==2026.9.29",
+    "requests==2.34.2",
+    "safetensors==0.6.2",
+    "setuptools==78.1.0",
+    "six==1.17.0",
+    "sympy==1.14.0",
+    "tokenizers==0.22.1",
+    "torch==2.8.0+cu128",
+    "tqdm==4.70.1",
+    "transformers==4.56.2",
+    "triton==3.4.0",
+    "typing_extensions==4.16.0",
+    "tzdata==2026.4",
+    "urllib3==2.8.0"
+  ],
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "sdpa_kernel": "math (flash and memory-efficient disabled)",
+  "stored_dtype": "float16",
+  "torch_build": "2.8.0+cu128",
+  "transformers": "4.56.2"
+}

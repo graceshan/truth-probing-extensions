@@ -1,0 +1,58 @@
+{
+  "download_and_hash_seconds": 360.8991468330496,
+  "downloaded_bytes": 16069722189,
+  "files": {
+    "config.json": {
+      "bytes": 855,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/config.json",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/0bb6fd75b3ad2fe988565929f329945262c2814e",
+      "sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e"
+    },
+    "model-00001-of-00004.safetensors": {
+      "bytes": 4976698672,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00001-of-00004.safetensors",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668",
+      "sha256": "2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668"
+    },
+    "model-00002-of-00004.safetensors": {
+      "bytes": 4999802720,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00002-of-00004.safetensors",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15",
+      "sha256": "09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15"
+    },
+    "model-00003-of-00004.safetensors": {
+      "bytes": 4915916176,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00003-of-00004.safetensors",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa",
+      "sha256": "fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa"
+    },
+    "model-00004-of-00004.safetensors": {
+      "bytes": 1168138808,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model-00004-of-00004.safetensors",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b",
+      "sha256": "92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 23950,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/model.safetensors.index.json",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/0fd8120f1c6acddc268ebc2583058efaf699a771",
+      "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b"
+    },
+    "tokenizer.json": {
+      "bytes": 9085657,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/tokenizer.json",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+      "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4"
+    },
+    "tokenizer_config.json": {
+      "bytes": 55351,
+      "path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/tokenizer_config.json",
+      "resolved_path": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/blobs/db88166e2bc4c799fd5d1ae643b75e84d03ee70e",
+      "sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+    }
+  },
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "snapshot": "/workspace/checkpoint-r2-fresh-pilot-20261002-3f9747f-volume/runtime/model-cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+  "tokenizer_revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+}

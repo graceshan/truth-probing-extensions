@@ -1,0 +1,43 @@
+{
+  "additional_storage_planning_bytes": 40779800576,
+  "cached_weights_bytes": 31312510114,
+  "contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+  "excluded_workloads": {
+    "behavior": 2000,
+    "chat": 11578
+  },
+  "fp16_payload_bytes": {
+    "llama": 9396027392,
+    "qwen": 7193833472
+  },
+  "full_run_launched": false,
+  "group_counts": {
+    "B25_11": 400,
+    "B25_23": 400,
+    "B25_37": 400,
+    "D_bare": 7728,
+    "D_isolated": 500,
+    "P15": 2778,
+    "TC_control_and_final_refit": 8000,
+    "TC_isolated": 200,
+    "and_both_following_v1": 3864,
+    "atomic_D": 1012,
+    "constituent_source_fit": 8000,
+    "constituent_source_validation": 480,
+    "or_at_least_one_v1": 3864,
+    "or_explicit_or_both_v1": 3864
+  },
+  "limits": {
+    "model_seconds": 5400,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 12600
+  },
+  "logical_bindings": 41490,
+  "manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "ordered_bindings_sha256": "6ba239baaf2012478ead44da2de540b25af4ae5a3cfb76dbd0067a9c13d01f9d",
+  "ordered_ids_sha256": "3a7af2d21d7a3eea2798dbb083e1c0f197dc915d6f588a9b84f8b61e8b5239b5",
+  "shards_per_model": 113,
+  "status": "metadata_verified_no_inference",
+  "storage_estimate_status": "planning allowance only; CPU full-token plan and actual simultaneous allocation required",
+  "unique_texts": 35843
+}

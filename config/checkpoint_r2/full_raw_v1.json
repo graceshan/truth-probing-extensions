@@ -1,0 +1,131 @@
+{
+  "E": false,
+  "base_commit": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+  "batch_size": 1,
+  "behavior": false,
+  "cache_policy": "offline only; missing/corrupt cache aborts; no automatic download",
+  "chat": false,
+  "evidence_sha256": {
+    "data/checkpoint_r2_full_raw_v1/pilot/host-runtime.json": "322eb7ed4544a967c3799859d051d4ac3a3c89a97cd05d9076433639473d46dd",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama-snapshot.json": "30b9b9fa87d533c2f954374ce042d01a78eec495b0f256a92a00625c5315da26",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/accepted-policy.json": "701e7e7449066511b240e9437558e093fc071e4583eaf5313f87f28409ccbb86",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/runtime-before-inference.json": "4a188d82afa8fdaf6cb7a92e313d1ac8ab590fd4f098423b44fa227b905d36da",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen-snapshot.json": "47097ca13cf16c62a9c07be0b5edf161f421db7b0a4ee488119cfa9969d80bfa",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/accepted-policy.json": "2bffed8cd72461a449411f7d71fb94cea3a234c3e688c2aa95f8c512e44bf89d",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/runtime-before-inference.json": "6fbee45b6c8ee0d4acf7ccf3455698096d0a5c29f7c6360daf562b31299f0b43"
+  },
+  "execution": {
+    "add_special_tokens": true,
+    "attention": "sdpa",
+    "chat_template": false,
+    "compute_dtype": "bfloat16",
+    "deterministic_algorithms": false,
+    "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+    "logits_to_keep": 1,
+    "max_tokens": 1024,
+    "ordering": "manifest order, no sorting/bucketing",
+    "padding": "right; batch1 unpadded",
+    "positions": "mask.cumsum-1; padding positions0",
+    "readout": "last nonpadding token",
+    "sdpa_kernel": "math",
+    "seed": 0,
+    "stored_dtype": "float16",
+    "tf32": false,
+    "truncation": false,
+    "use_cache": false
+  },
+  "execution_limits": {
+    "model_seconds": 5400,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 12600
+  },
+  "expected_logical_bindings": 41490,
+  "expected_unique_texts": 35843,
+  "manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "models": {
+    "llama": {
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "layers": 32,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "width": 4096
+    },
+    "qwen": {
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "layers": 28,
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "width": 3584
+    }
+  },
+  "padding": "none",
+  "pilot_handoff_manifest_sha256": "694af40a6cf0ac76fbf51cff3e055d15447f680f2a18ccdd7b74c968af8a936a",
+  "preparation_hostname": "MacBook-Pro-7.lan",
+  "preserved_sha256": {
+    "config/checkpoint_r2/fresh_pilot_v1.json": "c64b523a4a56e2f1c5e1dc77036ec2f97a7547e17c4d488088809dc307cdfe00",
+    "src/checkpoint_r2_fresh_backend.py": "385d2da7affcaba647c45ec0297fc7e22ef94c2308e4ea50058bfd8e074e419c",
+    "src/checkpoint_r2_fresh_inputs.py": "2d46f522b9cddd0321a0f11d35ce671c308d95519fc46963252cf0c4065ce676",
+    "src/checkpoint_r2_fresh_pilot.py": "5cd32a955f678fb613f991d39c6959777f528fc30442a8bc208070c55c41910c",
+    "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5"
+  },
+  "production_authorized": false,
+  "raw_groups": [
+    "P15",
+    "atomic_D",
+    "TC_isolated",
+    "D_isolated",
+    "B25_11",
+    "B25_23",
+    "B25_37",
+    "TC_control_and_final_refit",
+    "constituent_source_fit",
+    "constituent_source_validation",
+    "D_bare",
+    "and_both_following_v1",
+    "or_explicit_or_both_v1",
+    "or_at_least_one_v1"
+  ],
+  "research_fitting": false,
+  "review_commit": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+  "review_sha256": {
+    "data/checkpoint_r2_full_raw_v1/review/arithmetic.json": "d9b7f4dcd1dab25eb33a2c6c376a1cbe65d10ffa1ed833bfb532e9781fbd7d89",
+    "data/checkpoint_r2_full_raw_v1/review/checks.json": "7cc3f88ae2e9b1be7529d7748e4899add4627eb2ccb65aff2547b267d8f61583",
+    "data/checkpoint_r2_full_raw_v1/review/dry-run.json": "ed546022b0f577f3193582f1d0aa9d4c7967706e26064a8eb29d80dcaffc27c2",
+    "data/checkpoint_r2_full_raw_v1/review/report.md": "2f3f354ad412ed3fe5f9c2525405a8cd0b03db659a801f244ad40c0fd7fb4e1c"
+  },
+  "runtime_lock": {
+    "packages": {
+      "huggingface-hub": "0.34.4",
+      "numpy": "2.1.3",
+      "safetensors": "0.6.2",
+      "tokenizers": "0.22.1",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "python_series": "3.12"
+  },
+  "schema": "r2-full-raw-contract-v1",
+  "scope": "complete frozen raw features only; review preparation, no authorized production execution",
+  "shard_rows": 320,
+  "small_shard_receipt_sha256": {
+    "llama": "4b689a7af62999ce062b3a1752546f3097b06ed3fffc9793bfecbd71c4fe5c58",
+    "qwen": "26045d8e5715b379c672aa3ba76f76ceaa1f19e1f888b807ccad894c6318a597"
+  },
+  "storage": {
+    "global_receipt_reserve_bytes": 16777216,
+    "metadata_planning_reserve_per_copy_bytes": 1073741824,
+    "per_shard_commit_reserve_bytes": 4096,
+    "per_shard_receipt_reserve_bytes": 65536,
+    "safety_margin_bytes": 5368709120
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "accepted_review_commit": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+  "actual_capacity_procedure": "First-use storage-check hashes the offline cache, reconstructs full CPU-token metadata sizes, scans all retained unique inodes, then writes/fsyncs/hashes readback of the entire computed additional reservation while every retained file coexists. Second copy plus temporary shard and margin are included. The unchanged pilot storage probe also verifies actual publication/recovery operations.",
+  "actual_full_usable_capacity_verified": false,
+  "additional_storage_planning_bytes": 40779800576,
+  "additional_unreconciled_until_restart": [
+    "retained runtime/environment",
+    "checkouts",
+    "retained copied handoffs",
+    "other actual volume files"
+  ],
+  "cached_weights_counted_once_bytes": 31312510114,
+  "combined_complete_fp16_payload_bytes": 16589860864,
+  "complete_copy_count": 2,
+  "known_existing_plus_new_planning_bytes": 72971551566,
+  "known_existing_weights_plus_pilot_bytes": 32191750990,
+  "mean_projected_raw_gpu_hours": {
+    "combined": 1.6068288275810887,
+    "llama": 0.790497024709909,
+    "qwen": 0.8163318028711796
+  },
+  "metadata_planning_reserve_per_copy_bytes": 1073741824,
+  "new_weight_download_bytes": 0,
+  "overhead_note": "Runtime/cache/storage first-use checks and complete copy/transfer are billed separately from the full worker caps; price unavailable: billed instance-hours times actual hourly price.",
+  "proposed_execution_limits_seconds": {
+    "combined": 12600,
+    "non_model_setup_phase": 1800,
+    "per_model": 5400
+  },
+  "resume_credit": "Only reopened hash-verified completed primary files count; partial/quarantine bytes remain retained usage.",
+  "retained_pilot_bytes": 879240876,
+  "review_estimated_total_bytes": 70896541628.7875,
+  "safety_margin_bytes": 5368709120,
+  "schema": "r2-full-raw-storage-planning-v1",
+  "temporary_download_weight_bytes": 0,
+  "temporary_shard_planning_bytes": 83886080
+}

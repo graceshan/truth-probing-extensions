@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "llama": {
+      "passed": true,
+      "payload_sha256": "bf833afcde295bd1d52028aed89f677378e27cc8a28f446be48c8041b832fe59",
+      "receipt_sha256": "4b689a7af62999ce062b3a1752546f3097b06ed3fffc9793bfecbd71c4fe5c58",
+      "shape": [
+        8,
+        32,
+        4096
+      ]
+    },
+    "qwen": {
+      "passed": true,
+      "payload_sha256": "e1fd98418502317a8edf57e9cc5a9ab09d78ac91202d4d346768ba12b256341f",
+      "receipt_sha256": "26045d8e5715b379c672aa3ba76f76ceaa1f19e1f888b807ccad894c6318a597",
+      "shape": [
+        8,
+        28,
+        3584
+      ]
+    }
+  },
+  "contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+  "hostname": "MacBook-Pro-7.lan",
+  "independent_mac2": false,
+  "platform": "Darwin",
+  "schema": "r2-full-raw-mac2-v1"
+}

@@ -1,0 +1,50 @@
+{
+  "cpu_environment": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "path": "/private/tmp/r2-full-raw-prep-venv",
+    "pytest": "8.3.5",
+    "python": "3.11.6",
+    "torch_installed": false
+  },
+  "exact_review_commit": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+  "exclusions": "Two actual_tiny_bf16_architecture tests need Torch. No local model inference or new GPU test was attempted.",
+  "focused_coverage": [
+    "complete reconstructed counts and binding order",
+    "dedup with every retained binding",
+    "E and scientific workloads excluded",
+    "offline pinned snapshot integrity",
+    "published corruption rejection",
+    "quarantine and interruption recovery",
+    "sequential model recovery without recomputing valid shards",
+    "watchdog and cumulative failure accounting",
+    "complete portable loader audit and extra-shard rejection"
+  ],
+  "inference": false,
+  "input_rebuild_provenance": {
+    "initial_failure": "Frozen manifest producer recorded numpy_version 2.4.6; CPU validation initially used 2.1.3. The only rebuilt manifest difference was that provenance value.",
+    "resolution": "Revalidated input byte rebuild with isolated CPU-only NumPy 2.4.6 at /private/tmp/r2-input-rebuild-libs; 18 passed. Frozen files and GPU NumPy 2.1.3 were unchanged."
+  },
+  "platform": "Darwin",
+  "schema": "r2-full-raw-local-validation-v1",
+  "suites": [
+    {
+      "command": "/private/tmp/r2-full-raw-prep-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_full_raw.py tests/test_checkpoint_r2_fresh_pilot.py -k 'not actual_tiny_bf16_architecture'",
+      "deselected": 2,
+      "passed": 68,
+      "seconds": 12.96
+    },
+    {
+      "command": "PYTHONPATH=/private/tmp/r2-input-rebuild-libs /private/tmp/r2-full-raw-prep-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_inputs.py",
+      "passed": 18,
+      "seconds": 7.53
+    },
+    {
+      "command": "/private/tmp/r2-full-raw-prep-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_fresh_runtime_fixes.py",
+      "passed": 9,
+      "seconds": 6.0
+    }
+  ],
+  "tests_deselected": 2,
+  "tests_passed": 95
+}

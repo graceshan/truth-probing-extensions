@@ -1,0 +1,101 @@
+{
+  "base_commit": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+  "branch": "checkpoint-r2-full-raw-prep-20261002",
+  "code_commit": "The commit containing this immutable manifest; use git rev-parse HEAD and the delivered exact SHA. The manifest cannot self-pin its enclosing Git commit.",
+  "files": {
+    "config/checkpoint_r2/full_raw_v1.json": {
+      "bytes": 5928,
+      "sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/host-runtime.json": {
+      "bytes": 2169,
+      "sha256": "322eb7ed4544a967c3799859d051d4ac3a3c89a97cd05d9076433639473d46dd"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/llama-snapshot.json": {
+      "bytes": 5072,
+      "sha256": "30b9b9fa87d533c2f954374ce042d01a78eec495b0f256a92a00625c5315da26"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/accepted-policy.json": {
+      "bytes": 14538,
+      "sha256": "701e7e7449066511b240e9437558e093fc071e4583eaf5313f87f28409ccbb86"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/runtime-before-inference.json": {
+      "bytes": 9214,
+      "sha256": "4a188d82afa8fdaf6cb7a92e313d1ac8ab590fd4f098423b44fa227b905d36da"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen-snapshot.json": {
+      "bytes": 5960,
+      "sha256": "47097ca13cf16c62a9c07be0b5edf161f421db7b0a4ee488119cfa9969d80bfa"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/accepted-policy.json": {
+      "bytes": 12846,
+      "sha256": "2bffed8cd72461a449411f7d71fb94cea3a234c3e688c2aa95f8c512e44bf89d"
+    },
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/runtime-before-inference.json": {
+      "bytes": 10120,
+      "sha256": "6fbee45b6c8ee0d4acf7ccf3455698096d0a5c29f7c6360daf562b31299f0b43"
+    },
+    "data/checkpoint_r2_full_raw_v1/review/arithmetic.json": {
+      "bytes": 11591,
+      "sha256": "d9b7f4dcd1dab25eb33a2c6c376a1cbe65d10ffa1ed833bfb532e9781fbd7d89"
+    },
+    "data/checkpoint_r2_full_raw_v1/review/checks.json": {
+      "bytes": 20338,
+      "sha256": "7cc3f88ae2e9b1be7529d7748e4899add4627eb2ccb65aff2547b267d8f61583"
+    },
+    "data/checkpoint_r2_full_raw_v1/review/dry-run.json": {
+      "bytes": 1761,
+      "sha256": "ed546022b0f577f3193582f1d0aa9d4c7967706e26064a8eb29d80dcaffc27c2"
+    },
+    "data/checkpoint_r2_full_raw_v1/review/report.md": {
+      "bytes": 8291,
+      "sha256": "2f3f354ad412ed3fe5f9c2525405a8cd0b03db659a801f244ad40c0fd7fb4e1c"
+    },
+    "docs/checkpoint_r2/full_raw_v1.md": {
+      "bytes": 14645,
+      "sha256": "a9e191a7b468735a30d9cf6c2e837ba7d6673de53ef473aa19a1e5e0b7d448a0"
+    },
+    "results/checkpoint_r2_full_raw_prep_20261002/loader-recheck.json": {
+      "bytes": 810,
+      "sha256": "66a71343672960eefa3454ff8c268238aacba844dfa629fb2acaad3a32b8ec31"
+    },
+    "results/checkpoint_r2_full_raw_prep_20261002/metadata-dry-run.json": {
+      "bytes": 1403,
+      "sha256": "beb4da702ba3f7c4b3b5a767acdd8a21c0556265e16f325d7d24be952ddce7d0"
+    },
+    "results/checkpoint_r2_full_raw_prep_20261002/preservation.json": {
+      "bytes": 2645,
+      "sha256": "67be3a277020f7bb178115b604090b39b36c859621897d3a294e045d52fb4ee6"
+    },
+    "results/checkpoint_r2_full_raw_prep_20261002/storage-reconciliation.json": {
+      "bytes": 1969,
+      "sha256": "d098d97a2088c1365af74237b6995e0af401123aca9ec48d123fb477d4b55a12"
+    },
+    "results/checkpoint_r2_full_raw_prep_20261002/validation.json": {
+      "bytes": 2168,
+      "sha256": "8f715e1f412e822fd5f260663f974884a224be63467aeb01302c8408746e654b"
+    },
+    "src/checkpoint_r2_full_inputs.py": {
+      "bytes": 6517,
+      "sha256": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a"
+    },
+    "src/checkpoint_r2_full_raw.py": {
+      "bytes": 25045,
+      "sha256": "5f3b18b266adc040ad0734d7fffa7efe53ff4d970520156862b4bbae2f52645a"
+    },
+    "src/checkpoint_r2_full_support.py": {
+      "bytes": 13876,
+      "sha256": "ff364bc31add4623aaf65a4e3a049f3c6af2796b7e7a9690a185b582352bfde4"
+    },
+    "tests/test_checkpoint_r2_full_raw.py": {
+      "bytes": 20750,
+      "sha256": "f8030e12df0346e789834b85c5002da7536a44a66b97d9d93682e097f1843f73"
+    }
+  },
+  "full_extraction_launched": false,
+  "large_tensors_in_git": false,
+  "pod_contacted": false,
+  "review_commit": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+  "schema": "r2-full-raw-delivery-v1",
+  "self_hash_excluded": true
+}
