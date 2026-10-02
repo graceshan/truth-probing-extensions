@@ -1,0 +1,650 @@
+[
+  {
+    "configuration": "llama_L10_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31770,
+      "sha256": "c79f6f0acbca76e9905bb2c471a6f1ea9888997aac37b4e0c866f9d040607ab7"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31778,
+      "sha256": "c1e2c7cecd38f749f52345eac12bfd454997fb3b66d40a0ef98caeb4cf06eb51"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 92152,
+      "sha256": "93299be12d9bb23c6ddff95f9b1259bc26dd48f8a35732d780ebdd70273592ca"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 100672,
+      "sha256": "bbc92d5a1f773b26f79af2e194266837ef3f94c8e876b5f563798285041b9e50"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 124297,
+      "sha256": "55807b751cf7607c11ff998de78f946b199532ad567aef78780b213e8f895592"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 132872,
+      "sha256": "ad6b3b57792a9824c2d358f65299a0e0dd4ed0394f90fb39d474b39eb4ab6b9b"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 232443,
+      "sha256": "305eac3524102895945d98f2948b14098c1b2a1f6f245e9feead883a6651bc72"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 230372,
+      "sha256": "b12bb68f3f7541630c0cd7d01408d77a633c76b7ab5af678ec0ed8ee1223721a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 267859,
+      "sha256": "00f98bca9ffe677a418984b49a50c988b8a6a520071c2cf0fff78991d3774542"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 265424,
+      "sha256": "1bce8e499d4844dd6891ee11536d05a9f0258907311c1260d3e439a4f2b8c622"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 145873,
+      "sha256": "77d7c0c9bc2dd6b88556ec502ab74e652b504532219215656c1d714939ab4ca6"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L10_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 149088,
+      "sha256": "370fc93f88bad905bc160d340d08e445215cbd0f853726c04b0247ae1b77c753"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31778,
+      "sha256": "179f694d965049f0551a8447ff458d1e35d2f4eca5c40f2c2a54002031016a10"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31761,
+      "sha256": "1a1ef99790de05573ee9968a57d5fe0867b397fa27beb5a3f8fb216c40530b27"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 92549,
+      "sha256": "baca4b9b0f0ac7fe1892a9b4d8a00ddd657f3531512bb9957e865e9e0555708f"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 100936,
+      "sha256": "cf6868cc6cd4837e00fb30d75a29eab10b5a94b5e3dc53da1bda5f50ca5b5e8a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 124679,
+      "sha256": "a0bd9158d74cf3221edf1ec5fecff700ffc2135ab2730759e6d0588dbdb4fe93"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 133045,
+      "sha256": "447ecd124aa778ff7078795cf43e3e9f52885ef3f215facd1bc1bd61c0e342ae"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 233231,
+      "sha256": "3087467e3640646f845f8927123662480d4a674bff72ed7dc9e50c56899e01dd"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 230759,
+      "sha256": "127fe785b742810334fbab0d7ae6add7db84f1152f40dae147126fda43b6d0c1"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 268428,
+      "sha256": "0af5263f84a0770de25160eaa412691131aa111f5d9e00dfc3a033fd1a3d8770"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 265781,
+      "sha256": "5ad7c734aa09bd3a80ce5d814bfa60908f251674477267e5314219ad4a9fcf51"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 146019,
+      "sha256": "957601a91ec2d1fbb7d5092b0d023142ae6ab0e56d413ffd7debde9d8dd4b1ce"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L15_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 149190,
+      "sha256": "e8787f7089d4f48de9e35bb86a937f64ec7359f6f480c5c38b22d25b657123ea"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31792,
+      "sha256": "302d0f944dc875aca56ef621b55c2ba5071f2f34a8a65325061610201e6a7bb7"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 31773,
+      "sha256": "9e44b44753feb1fca9e812202f20dc7573a744650e6a2a28efed0a168697808f"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 92963,
+      "sha256": "ff3c4b249bdd0650b3b7f4dd443a8e1978064e7f282191d50b85e155759b0760"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 101402,
+      "sha256": "d3d6104def04d6643946f0ffdb79d84735c1ebb05fcc82f138fad78177b202c8"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 125094,
+      "sha256": "0e65c444ba2b32cf34c3d981e9ecebae80686a6a9df9a0540f5ff25ebd2ff081"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 133532,
+      "sha256": "e066e03484000a352076a4806c94828490f83a7c8ff05621e49527d4533e52a3"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 233808,
+      "sha256": "9cb2dde35be95ee4155a61d06c5adf77a7c8cc5c7b91323e8175a5d5e9988d09"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 231373,
+      "sha256": "d38a23a19761c907983309368387966cc660e03c3ade6e8f82ba1bdcd500568a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 269083,
+      "sha256": "85f3e18e29bff50c318020649287249e5deae7858de9ede855f9e0e705696410"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 266388,
+      "sha256": "188098fdd7c19d90df4baf87b5481fda4ec13ac6d2ae5ac4062f4fc709614d45"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 146042,
+      "sha256": "4a63ab38d8f0ee2a935f2652b2acd2f9fb30cef0ecc038000436cdb9bd069ad0"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "llama_L20_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 149440,
+      "sha256": "37cadc59f3dc38d9d1fbb60f4a3d902b9b5b4e47c26e9ce9964fbf500d5a2a38"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27876,
+      "sha256": "ff3898a09f9be83f52cc330af2d5dd8a10b5c7938e17c993db1133881861aa61"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27876,
+      "sha256": "6fb58eb31176ca1a268297445972812a07502bdfdf9012e4e12392912fba3d85"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 81970,
+      "sha256": "40b4ad8f6cb2c6908e027c71b00bf06a6f1cf2bcd53fdd149da2f20d62ad2c7a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 89642,
+      "sha256": "bcdeb3356ad51b708a10b631fa99b732cb864fcf2583a1b296b10a00cdb32056"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 109987,
+      "sha256": "d2d63903522b3261b613478f19cd4cc534b50290fed3efc74d03797a6d456a28"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 117684,
+      "sha256": "a12307ff82778b890b2c5c7cea38c0fa986b51b830aa32e1924afeb41e6e1dc0"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 208160,
+      "sha256": "13c09d603379e5ae5685706334748d6ededbdf2ac429e72520634a0dbe587348"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 205516,
+      "sha256": "fd41f0226672edd0b2c93582db689488fbd3776455c4c06396c6ac72b30d38c7"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 238810,
+      "sha256": "cf7105f1a459e9c6120d5f58ba204282b8cb09c1440cbf616de50ffb6ec73844"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 236086,
+      "sha256": "d0dad6f1c6fd827f60b97d0f01308994120058a90bb4db4ed68b661f5d9b4f82"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 128432,
+      "sha256": "60acef34e651b7671bb0df2c1d578c442159a498a22a76d83ba44a8898ca9df4"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L17_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 131445,
+      "sha256": "8633cb49175098e2ec2ebb4065f6145877423e3e46cf76b910c7e9d9926f0400"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27887,
+      "sha256": "7ad7040e4e10decd1b6d16c9c9791491619a9f90c4ec0105ab0ab8a559db1179"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27877,
+      "sha256": "ef894b7b5f7e9bc8d43e3a3e5693066daae2b85a0b54c06ca24322d0b323e01d"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 82065,
+      "sha256": "a382b4cebfadbddd2ce16cb4b138cf07a395be8e91a204521965c0cea711126f"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 89797,
+      "sha256": "2b0077a66930d95b1095b001ff6985cd8b30b3e913e09d9629e1f7dc7efc5d68"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 110116,
+      "sha256": "aedb5f56d548f37e197fb1ef77b65ea6855233752a2a1d28b69bd767f7d7f582"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 117908,
+      "sha256": "ca9fc670fe55f883fa1e137e7f980c873100a627ab09343a7907e3f8e55843bd"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 207928,
+      "sha256": "b8236de069d3fc0291a8fe65dc8510f6905c9078cbf7f8294c8ed218c50ecc63"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 205536,
+      "sha256": "bf0adea6e35c748838dc652094210bfc3356ab7ba481368808df3e308a631d01"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 238571,
+      "sha256": "e5b2c8de959ae2fdf407478810805c7373d7715909f69537dc7110e07f385cd9"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 236086,
+      "sha256": "8e9d40a5c86b5a2dc8d299b5b1f2159950b5dadd8c708c6005af7fa91685554a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 128445,
+      "sha256": "0241c718475ae433e3bb8b3fad2d4f9881db4361d449c599011d6e7096ab58b3"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L18_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 131486,
+      "sha256": "0c80e5beefb4655b6155219b54fb7ed54f25049e99a1b873c83f44f36c2495f3"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_l2_logistic_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27881,
+      "sha256": "8c164beeeb83f87c1d90a64ea879df555cddee02d8c3a6a1501536c5015f9b46"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_l2_logistic_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 27893,
+      "sha256": "39c72a3ec19d078e0f7bd70da674ffa5f400ed48f5eb30533739dbd489c2c2d8"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_difference_of_means_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 82978,
+      "sha256": "412a97c1548efd5bbda296dd44d463116431a76e7be241064609fec0b7d79342"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_difference_of_means_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 90657,
+      "sha256": "b174ecb786f615f8e873c130b428ff1bcce478271e1369c1179d43871c0252ed"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_mass_mean_covariance_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 111039,
+      "sha256": "5046dec075d1cb12bf3fbecdb815b761dddad869dbd10dbb1c917607054e1651"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_mass_mean_covariance_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 118749,
+      "sha256": "56be33f2e49a8374e270d884c55416d3b26c02edaf1e26b241e0560e986b7f87"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_burger_t_g_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 208595,
+      "sha256": "c93f4d6a83d836f33c682e80017613736b4509cf5a4e21347952e4a98ae5408a"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_burger_t_g_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 207515,
+      "sha256": "2b000edaa7d08d79466fa950779d81fa5f8551ef66e07dc22d2c84ef33ef0e74"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_ttpd_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 239333,
+      "sha256": "a0b3c53141f3383f0e64d92bfdb8e9a9a971bb39fdb5e07740bac380f5f7769c"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_ttpd_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 238019,
+      "sha256": "acf1b2cb5cbf804b1c307646fec78764049fe566e11ed5145874b6f4edfe1d6e"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_r0_full",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 129016,
+      "sha256": "3e592001043da4f3ec028bf90489ddeae465cadd161136d3a55dbc923e706096"
+    },
+    "score_replay_bitwise_equal": true
+  },
+  {
+    "configuration": "qwen_L22_r0_P15",
+    "fit_identity_verified": true,
+    "parameters": {
+      "bytes": 132006,
+      "sha256": "d67c3df565900f6d054aa0e03765f74428b7b66e6a7c932f53ea2103424857ab"
+    },
+    "score_replay_bitwise_equal": true
+  }
+]

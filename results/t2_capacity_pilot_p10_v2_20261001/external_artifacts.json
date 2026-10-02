@@ -1,0 +1,14 @@
+{
+  "completion": {
+    "bytes": 20524,
+    "sha256": "5bcbae3661401721403fa03d98d1c557c73acb9a94f90dce1f5c40a6590cd690"
+  },
+  "large_artifacts": "All parameter, score, bootstrap, full membership and D-row files remain external and are individually hash-bound in completion.json",
+  "new_transfers": 0,
+  "pilot_root": "/Users/apple/projects/t2-capacity-pilot-p10-v2-20261001",
+  "predecessor_manifest": {
+    "bytes": 1948,
+    "path": "/Users/apple/projects/truth-probing-t1-score-rebuild/results/t2_capacity_pilot_v1_20261001/external_artifacts.json",
+    "sha256": "4c355cb48ec9086dc34294cda93322a089a45dc67f0fe2a436c4cbbcb36120ee"
+  }
+}

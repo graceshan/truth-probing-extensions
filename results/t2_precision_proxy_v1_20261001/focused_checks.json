@@ -1,0 +1,9 @@
+{
+  "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -p no:cacheprovider tests/test_selection_repair_precision_proxy_v1.py -q",
+  "computed_valid_replicates": "288/288 summaries have 2000 valid, 0 undefined draws",
+  "csv_json_alignment": "336/336 exact identities; numeric error below 2e-15",
+  "focused_test_result": "passed",
+  "focused_tests": 11,
+  "independent_validation": "validation.json",
+  "initial_fixture_issue": "Four-entity synthetic graph had too few valid draws for production threshold; fixed synthetic-only threshold, leaving production code/config/results unchanged."
+}

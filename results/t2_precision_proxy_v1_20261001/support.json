@@ -1,0 +1,290 @@
+{
+  "D_atomic": {
+    "animal_class": {
+      "cluster_size_counts": {
+        "4": 16
+      },
+      "labels": {
+        "0": 32,
+        "1": 32
+      },
+      "persons": 16,
+      "persons_with_both_labels": 16,
+      "rows": 64
+    },
+    "cities": {
+      "cluster_size_counts": {
+        "4": 149
+      },
+      "labels": {
+        "0": 298,
+        "1": 298
+      },
+      "persons": 149,
+      "persons_with_both_labels": 149,
+      "rows": 596
+    },
+    "element_symb": {
+      "cluster_size_counts": {
+        "4": 18
+      },
+      "labels": {
+        "0": 36,
+        "1": 36
+      },
+      "persons": 18,
+      "persons_with_both_labels": 18,
+      "rows": 72
+    },
+    "inventors": {
+      "cluster_size_counts": {
+        "2": 19,
+        "4": 24
+      },
+      "labels": {
+        "0": 67,
+        "1": 67
+      },
+      "persons": 43,
+      "persons_with_both_labels": 43,
+      "rows": 134
+    },
+    "sp_en_trans": {
+      "cluster_size_counts": {
+        "2": 63,
+        "4": 5
+      },
+      "labels": {
+        "0": 73,
+        "1": 73
+      },
+      "persons": 68,
+      "persons_with_both_labels": 68,
+      "rows": 146
+    }
+  },
+  "D_graph": {
+    "animal_class": {
+      "all_degree_four": true,
+      "component_sizes": [
+        16
+      ],
+      "degree_counts": {
+        "4": 16
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 16,
+      "pairs": 32,
+      "triangles": 16
+    },
+    "cities": {
+      "all_degree_four": true,
+      "component_sizes": [
+        149
+      ],
+      "degree_counts": {
+        "4": 149
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 149,
+      "pairs": 298,
+      "triangles": 149
+    },
+    "element_symb": {
+      "all_degree_four": true,
+      "component_sizes": [
+        18
+      ],
+      "degree_counts": {
+        "4": 18
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 18,
+      "pairs": 36,
+      "triangles": 18
+    },
+    "inventors": {
+      "all_degree_four": false,
+      "component_sizes": [
+        16,
+        11,
+        6
+      ],
+      "degree_counts": {
+        "1": 1,
+        "2": 7,
+        "3": 17,
+        "4": 8
+      },
+      "degree_max": 4,
+      "degree_mean": 2.9696969696969697,
+      "degree_min": 1,
+      "entities": 33,
+      "pairs": 49,
+      "triangles": 19
+    },
+    "sp_en_trans": {
+      "all_degree_four": true,
+      "component_sizes": [
+        34
+      ],
+      "degree_counts": {
+        "4": 34
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 34,
+      "pairs": 68,
+      "triangles": 34
+    }
+  },
+  "E_atomic": {
+    "animal_class": {
+      "cluster_size_counts": {
+        "4": 16
+      },
+      "labels": {
+        "0": 32,
+        "1": 32
+      },
+      "persons": 16,
+      "persons_with_both_labels": 16,
+      "rows": 64
+    },
+    "cities": {
+      "cluster_size_counts": {
+        "2": 3,
+        "4": 146
+      },
+      "labels": {
+        "0": 295,
+        "1": 295
+      },
+      "persons": 149,
+      "persons_with_both_labels": 149,
+      "rows": 590
+    },
+    "element_symb": {
+      "cluster_size_counts": {
+        "4": 18
+      },
+      "labels": {
+        "0": 36,
+        "1": 36
+      },
+      "persons": 18,
+      "persons_with_both_labels": 18,
+      "rows": 72
+    },
+    "inventors": {
+      "cluster_size_counts": {
+        "2": 31,
+        "4": 12
+      },
+      "labels": {
+        "0": 55,
+        "1": 55
+      },
+      "persons": 43,
+      "persons_with_both_labels": 43,
+      "rows": 110
+    },
+    "sp_en_trans": {
+      "cluster_size_counts": {
+        "2": 67,
+        "4": 1
+      },
+      "labels": {
+        "0": 69,
+        "1": 69
+      },
+      "persons": 68,
+      "persons_with_both_labels": 68,
+      "rows": 138
+    }
+  },
+  "E_graph": {
+    "animal_class": {
+      "all_degree_four": true,
+      "component_sizes": [
+        16
+      ],
+      "degree_counts": {
+        "4": 16
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 16,
+      "pairs": 32,
+      "triangles": 16
+    },
+    "cities": {
+      "all_degree_four": true,
+      "component_sizes": [
+        146
+      ],
+      "degree_counts": {
+        "4": 146
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 146,
+      "pairs": 292,
+      "triangles": 146
+    },
+    "element_symb": {
+      "all_degree_four": true,
+      "component_sizes": [
+        18
+      ],
+      "degree_counts": {
+        "4": 18
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 18,
+      "pairs": 36,
+      "triangles": 18
+    },
+    "inventors": {
+      "all_degree_four": true,
+      "component_sizes": [
+        11
+      ],
+      "degree_counts": {
+        "4": 11
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 11,
+      "pairs": 22,
+      "triangles": 11
+    },
+    "sp_en_trans": {
+      "all_degree_four": true,
+      "component_sizes": [
+        34
+      ],
+      "degree_counts": {
+        "4": 34
+      },
+      "degree_max": 4,
+      "degree_mean": 4.0,
+      "degree_min": 4,
+      "entities": 34,
+      "pairs": 68,
+      "triangles": 34
+    }
+  }
+}

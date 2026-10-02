@@ -1,0 +1,28 @@
+{
+  "A10_A15_unchanged": true,
+  "E_only_handoff": "bb8bc51a864a5702f06ef23f923e11af97710c09",
+  "fit_version": "v4",
+  "git_diff_check": "passed",
+  "prior_completion": {
+    "bytes": 38262,
+    "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+  },
+  "prior_config": {
+    "bytes": 3559,
+    "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+  },
+  "prior_implementation": {
+    "bytes": 21449,
+    "sha256": "674e93fd2b5a89ed6847f87f21339a05ad50126684f8381e162b9821c9aadacd"
+  },
+  "prior_outputs_and_code_hashes_verified": true,
+  "prior_tracked_files_modified_or_deleted": [],
+  "prior_training_commit": "fd2d7be3b910c3fdba7ff6b2c2891eb0ab1b7992",
+  "reviewed_start": "de776f1c86e4ddc464f79feac391704cbbaf0dc0",
+  "source_projection_validator": "tc_topup_audit byte-identical reproduction passed",
+  "tests": {
+    "focused": 71,
+    "independent_validator": 5
+  },
+  "v5_merged": false
+}

@@ -1,0 +1,28 @@
+{
+  "P_A_frozen": false,
+  "atomic_approximation": "294 persons derived independently from 974 E atomic rows; pooled D topic weights reweighted to E row totals. E within-person variant composition and scores are not modeled.",
+  "ceiling": "Zero observed atomic widths reflect perfect saved-D rankings, not zero future uncertainty.",
+  "compound_approximation": "Centered D paired-bootstrap deviations scaled by sqrt(n_D/n_E) in the four degree-matched topics only; unknown E score/edge effects remain.",
+  "exact_E_power_supported": false,
+  "followup": "Actual B=25 D results and actual chosen production contrasts require a later precision refresh; separate design and membership decisions remain pending.",
+  "interval_scope": "Pointwise, conditional on saved heads; comparisons dependent, not simultaneous. Training, A-pairing and selection variability excluded.",
+  "practical_margins": {
+    "clean_control_minus_selection": 0.02,
+    "repair_minus_selection": 0.02
+  },
+  "production_contrasts_estimated": false,
+  "provenance": [
+    "v4 fit provenance unchanged",
+    "E metadata read-only at c71b9a16b35f65d6e7f70952ab5f6747b7211399",
+    "Historical producer-code conflicts remain",
+    "Standalone historical tokenizer/model config bytes absent",
+    "No independent extraction replay",
+    "Fresh extraction needs separate compatibility verification"
+  ],
+  "unsupported_E_compound_scopes": [
+    "inventors",
+    "pooled",
+    "topic_macro"
+  ],
+  "unsupported_reason": "Retained inventor D graph has 33 entities, 49 pairs, variable degrees and three components; E has 11 entities, 22 pairs and degree four. Missing-pair scores and edge covariance are unavailable. Macro cannot omit inventors; no pooled graph-transport estimator is defined."
+}

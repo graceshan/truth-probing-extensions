@@ -1,0 +1,40 @@
+{
+  "P_A_frozen": false,
+  "all_current_tracked_changes_are_new_paths": true,
+  "all_input_and_output_hashes_verified": true,
+  "approximate_records": 120,
+  "independent_draw_values_checked": 576000,
+  "max_archived_draw_error": 4.440892098500626e-16,
+  "max_independent_percentile_error": 1.734723475976807e-18,
+  "max_independent_roc_error": 8.43769498715119e-15,
+  "native_records": 168,
+  "no_fit_or_E_score_access": true,
+  "prior_draw_bindings": {
+    "P10": {
+      "metrics.json": {
+        "bytes": 3088520,
+        "sha256": "2513f6437e00b9c57344f13f4e271abf477ae022143ecfe37991011980ad5a79"
+      },
+      "scores/paired_draws.npz": {
+        "bytes": 54425058,
+        "sha256": "ad8c67a6bf761023ee32583c80a1d478f146c7bf39c2920b0a4bc2e65ad26153"
+      }
+    },
+    "P15": {
+      "metrics.json": {
+        "bytes": 1511000,
+        "sha256": "4db538205c55a4d4c189addc94b69f429ac18fbde48d8d21e02a9303aef01ea6"
+      },
+      "scores/paired_draws.npz": {
+        "bytes": 27231703,
+        "sha256": "0ae65b560a1312afd81cea2b5568be6391e1b12b315556f8219f886af6f798cb"
+      }
+    }
+  },
+  "status": "passed",
+  "unsupported_projection_records": 48,
+  "validator_code": {
+    "bytes": 9890,
+    "sha256": "67d3dbc6719e2de6c959af005aa1cc918ccda1eb15d377ac22ec579392c3eab6"
+  }
+}

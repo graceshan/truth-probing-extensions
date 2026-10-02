@@ -1,0 +1,46 @@
+{
+  "E_scores_accessed": false,
+  "P_A_frozen": false,
+  "artifacts": {
+    "bootstrap_binding.json": {
+      "bytes": 2151,
+      "sha256": "301f116ab379e9f1e9c9ad9df1baadff7f718c3b32705a41eeb1c674beaf5334"
+    },
+    "input_bindings.json": {
+      "bytes": 9064,
+      "sha256": "edc2e4e9e269fe7604daf68473645bd173d1773b8b569ca29465b12006f406af"
+    },
+    "results.csv": {
+      "bytes": 100770,
+      "sha256": "b9287cc0a07fe8f56c176e65aa72dfad50d38bcc4832d4bb65446a4ce4ccc441"
+    },
+    "results.json": {
+      "bytes": 273729,
+      "sha256": "7eb15b85f1d57ac54306725174db33a1b43ca804d98305eff9e140782df22d2b"
+    },
+    "support.json": {
+      "bytes": 5366,
+      "sha256": "c7f8375d3f1b55fff886b499b2b5873c22addd4a94e260a121aa466f9fcb4bca"
+    }
+  },
+  "contrasts": 8,
+  "correction_provenance": "v4",
+  "elapsed_seconds": 24.900963749736547,
+  "external": {
+    "/Users/apple/projects/t2-design-review-precision-v1-20261001/paired_contrast_draws.npz": {
+      "bytes": 2353410,
+      "sha256": "d789d14c3455a891c968a108d0baeb26b978ef5790496fa65f0130c5821c53da"
+    }
+  },
+  "hostname": "MacBook-Pro-7.lan",
+  "native_summaries": 168,
+  "new_fits": 0,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "projected_computed": 120,
+  "runtime": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "python": "3.11.6"
+  },
+  "status": "completed"
+}

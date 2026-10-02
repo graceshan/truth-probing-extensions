@@ -1,0 +1,6140 @@
+[
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "l2_logistic",
+      "model": "llama"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.16901283292099833,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 28,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "3163971dd3664eb874aa5aec4a0543dd5a59aef424543de8d5af2254500466c1",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 9.647913528355404e-05,
+    "id": "llama_L10_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 28,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 28,
+    "objective": 0.007993853312504292,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 31783,
+      "sha256": "2ffdc29005ab4ff198bbcde2cb9068681e313b118c3dea46134fa166601743a0"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "difference_of_means",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.027953083161264658,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "3163971dd3664eb874aa5aec4a0543dd5a59aef424543de8d5af2254500466c1",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "llama_L10_difference_of_means_P10",
+    "parameters": {
+      "bytes": 93292,
+      "sha256": "7c967c3a965dc9fd649424f423e3b9b2fb0c23da59c0f1c3d520e58ba7cd1cdf"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "mass_mean_covariance",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 469,
+    "elapsed_seconds": 9.854833959136158,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "3163971dd3664eb874aa5aec4a0543dd5a59aef424543de8d5af2254500466c1",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "llama_L10_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 125477,
+      "sha256": "7927db9bfeeb52b47732892d9cc876044ba89c1747a6bf1cd3f2b7442c2a2441"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "burger_t_g",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.016154750250279903,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "7933bdc69839a347182abfd0da4547f71d0c0080add709ab44be01c14690d224",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "llama_L10_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 216264,
+      "sha256": "2c667df68c992a92f05f8189b83edf76f245b48eb7d187690d574619dbe6dd29"
+    },
+    "partial_truth_training_alignment": 347.11375024595884,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "ttpd",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.0424176249653101,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "7933bdc69839a347182abfd0da4547f71d0c0080add709ab44be01c14690d224",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 8.81032599199929e-07,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 24,
+          "objective": 0.048993063096842315,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "llama_L10_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 256103,
+      "sha256": "7404a0c9ded10902348803e8be6f1bd61dab053d5d6b9ed38a71dce3dc4e66e2"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 6.712617485596203e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 14,
+          "objective": 6.679320572906953e-05,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 347.11375024595884,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 24,
+        "gradient_infinity_norm": 9.316467586690898e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 23,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.002834231766245357,
+        "relative_objective_change": 1.4774878006101368e-05,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 10,
+      "method": "r0",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.6027785409241915,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "3163971dd3664eb874aa5aec4a0543dd5a59aef424543de8d5af2254500466c1",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "llama_L10_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 146448,
+      "sha256": "69eea0ad9b5d40f2f592a92593395d775e5a395124a93016eb282027a7587976"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "l2_logistic",
+      "model": "llama"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.16696683410555124,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 29,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "348bc096fdc23ec01ea75fd12e6076cd41f911be8cbde60e5aef8d2eba22488a",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 6.014919273059964e-05,
+    "id": "llama_L15_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 29,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 29,
+    "objective": 0.004087602808838881,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 31792,
+      "sha256": "d725fc92ddaaae701c93545ec3adece00e8a0cba9af7bb61df9ae110f30cab1a"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "difference_of_means",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.02953437529504299,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "348bc096fdc23ec01ea75fd12e6076cd41f911be8cbde60e5aef8d2eba22488a",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "llama_L15_difference_of_means_P10",
+    "parameters": {
+      "bytes": 93693,
+      "sha256": "ca668bfe083b9122d4f6a8487849c20c3c2947339d3469278e90b7395bea76c0"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "mass_mean_covariance",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 705,
+    "elapsed_seconds": 9.755708124954253,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "348bc096fdc23ec01ea75fd12e6076cd41f911be8cbde60e5aef8d2eba22488a",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "llama_L15_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 125815,
+      "sha256": "12f6c8bf6a363d49fb9a2da4a5d80c578a6137f2cb0a958d8dd5b3aafc5cee55"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "burger_t_g",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.014117833226919174,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "adef6057692b845b4e12249aa8729aba74b579cc6aa26b7535c1c1860c466eee",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "llama_L15_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 217153,
+      "sha256": "ea73a05da3f26325be699d9e0302905efd51a41504257a8329a99fa16a749f43"
+    },
+    "partial_truth_training_alignment": 1479.5411840720985,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "ttpd",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.04304320923984051,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "adef6057692b845b4e12249aa8729aba74b579cc6aa26b7535c1c1860c466eee",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 3.86810712002545e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 17,
+          "objective": 0.10498085034486246,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "llama_L15_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 256955,
+      "sha256": "210c8c5c9d5fcb20764ba89cdcdb4020880080a9c3a7d25e2a1872dd88008d99"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 6.738797234666323e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 15,
+          "objective": 3.970649188459443e-05,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 1479.5411840720985,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 29,
+        "gradient_infinity_norm": 7.290633469719986e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 27,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.002353985394187244,
+        "relative_objective_change": 1.596404962094823e-05,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 15,
+      "method": "r0",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.6229090415872633,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "348bc096fdc23ec01ea75fd12e6076cd41f911be8cbde60e5aef8d2eba22488a",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "llama_L15_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 146493,
+      "sha256": "91a6ec9d260d50f4e7b74ae63e64e0bcce296a82181c6a5ecac17ca12ef1cf2c"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "l2_logistic",
+      "model": "llama"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.1904831249266863,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 35,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "e9a91d77fdfc303a95c63bf53e5bb58c2a9f1345b9c5500a228fd1c33fbf4cc7",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 9.489078208965558e-05,
+    "id": "llama_L20_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 35,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 35,
+    "objective": 0.0037100696572835296,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 31788,
+      "sha256": "47769212e54309c15e41cecbe8f8bf788fabe9003f356680b126ae548b2ba81f"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "difference_of_means",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.02605687500908971,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "e9a91d77fdfc303a95c63bf53e5bb58c2a9f1345b9c5500a228fd1c33fbf4cc7",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "llama_L20_difference_of_means_P10",
+    "parameters": {
+      "bytes": 94308,
+      "sha256": "7609bbb83d18ac51156283f932348d2f74f93a808612eba2c973ac88bbeb34a1"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "mass_mean_covariance",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 982,
+    "elapsed_seconds": 10.034784459043294,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "e9a91d77fdfc303a95c63bf53e5bb58c2a9f1345b9c5500a228fd1c33fbf4cc7",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "llama_L20_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 126451,
+      "sha256": "88616c999dbeced174dbe6d2a8eea8da28b76f1330102c9c3e7d780c9a808de4"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "burger_t_g",
+      "model": "llama"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.014170166570693254,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "a456370cf4aca34b38185cdab55e6a7c6eeb03fc94d41559d7ffe72965bc9f86",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "llama_L20_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 218500,
+      "sha256": "b3ad8588f410ac68e3f13e9d7cdfb22fa7a6f58ca7d4e4375fdc0e1b68346cf8"
+    },
+    "partial_truth_training_alignment": 3104.1516899445296,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "ttpd",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.04607525002211332,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "a456370cf4aca34b38185cdab55e6a7c6eeb03fc94d41559d7ffe72965bc9f86",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 3.734243930725809e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 10,
+          "objective": 0.16695085817327057,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "llama_L20_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 258135,
+      "sha256": "4fb5a0b94ab51fce1c66aaa27b5b5cff1c5d2db2456fe416bc2541170980f7c6"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 4.958719439355408e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 17,
+          "objective": 1.6831609375679452e-05,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 3104.1516899445296,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 43,
+        "gradient_infinity_norm": 8.084704837977742e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 39,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.00341084561118816,
+        "relative_objective_change": 1.0141380213537707e-05,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 10.0,
+      "cohort": "P10",
+      "layer": 20,
+      "method": "r0",
+      "model": "llama"
+    },
+    "elapsed_seconds": 0.7496861252002418,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "e9a91d77fdfc303a95c63bf53e5bb58c2a9f1345b9c5500a228fd1c33fbf4cc7",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "llama_L20_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 146571,
+      "sha256": "1e945de72a29160ee1e1e32a6c52f69de871b0172ffab5fe6a391aee1fd7e120"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "l2_logistic",
+      "model": "qwen"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.2542572501115501,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 51,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "def86ab03c76860268d506fd62d7b9fbabbcf5545e1c7b6bfe17658cf2f8ccc2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 9.76285183882677e-05,
+    "id": "qwen_L17_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 51,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 51,
+    "objective": 0.001511209439012086,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 27889,
+      "sha256": "cb74af2319057e37ddd41b30ab11b07097e8abea9294f3ad40f11b9402155822"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "difference_of_means",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.025893792044371367,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "def86ab03c76860268d506fd62d7b9fbabbcf5545e1c7b6bfe17658cf2f8ccc2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "qwen_L17_difference_of_means_P10",
+    "parameters": {
+      "bytes": 83060,
+      "sha256": "8f4ee30046310eedbd9496cc9a187d7c079e0c5390f3bab6382872f20bc02c48"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "mass_mean_covariance",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 2409,
+    "elapsed_seconds": 6.705855458974838,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "def86ab03c76860268d506fd62d7b9fbabbcf5545e1c7b6bfe17658cf2f8ccc2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "qwen_L17_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 111136,
+      "sha256": "d165062f377e917f94210b52c2ccf2de77d1aca95b6e0dba76e801a08c2dfafb"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "burger_t_g",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.011996416840702295,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "f6923465f57d34205e2be3da724f9e2ff78b14bc341b315bcc3baf791d0015e5",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "qwen_L17_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 193719,
+      "sha256": "04c74283f91b4ed50c43e5f65051f9c1ecc78308274ea2b1676379d2a78cb50b"
+    },
+    "partial_truth_training_alignment": 53752.50995459272,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "ttpd",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.037772541865706444,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "f6923465f57d34205e2be3da724f9e2ff78b14bc341b315bcc3baf791d0015e5",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 2.8197811716536954e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 31,
+          "objective": 0.08542414343073505,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "qwen_L17_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 228514,
+      "sha256": "455397f8d0c52ff15bac8eeb689ca9744c998a3a0e77ef379cff3ceb00893712"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 5.503657258825653e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 13,
+          "objective": 1.4420307043377413e-05,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 53752.50995459272,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 26,
+        "gradient_infinity_norm": 6.257238228575193e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 25,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.002196174565352406,
+        "relative_objective_change": 7.165409036821724e-06,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 17,
+      "method": "r0",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.4547769157215953,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "def86ab03c76860268d506fd62d7b9fbabbcf5545e1c7b6bfe17658cf2f8ccc2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "qwen_L17_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 128844,
+      "sha256": "594513aefab010b49133a0071dd3b234e3653578e9f07e687dda73047cd65646"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "l2_logistic",
+      "model": "qwen"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.18580654170364141,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 37,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "eb1b9b090ced86e63ae8d0411732a056f67606777f1ab8b84b084cf8d74f9ec2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 9.280723871440776e-05,
+    "id": "qwen_L18_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 37,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 37,
+    "objective": 0.001279892824472211,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 27893,
+      "sha256": "a2e9d4e7a0e8eb2ba21b30661acd24eab5fd300fcca521659082b0de54411b06"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "difference_of_means",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.0299864592961967,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "eb1b9b090ced86e63ae8d0411732a056f67606777f1ab8b84b084cf8d74f9ec2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "qwen_L18_difference_of_means_P10",
+    "parameters": {
+      "bytes": 83135,
+      "sha256": "6bb72f31fec75f2f525d1d258e29a8b6554a5233476d7052da3795b0acad9291"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "mass_mean_covariance",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 2450,
+    "elapsed_seconds": 6.818154625128955,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "eb1b9b090ced86e63ae8d0411732a056f67606777f1ab8b84b084cf8d74f9ec2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "qwen_L18_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 111164,
+      "sha256": "1021b015029977deba739ec5cdd73184eb2756e1db86371f1306440d4fcff5ee"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "burger_t_g",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.009122999850660563,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "75eb11c511b516f19cde88ad95c404e3d18c64d9373f85937ef0609bb6c907ee",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "qwen_L18_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 192875,
+      "sha256": "833035d05228fdd684d7ab52a6c647375463dbb65df50e9955b7ade3d57c0eb6"
+    },
+    "partial_truth_training_alignment": 74741.89696232417,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "ttpd",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.029797666240483522,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "75eb11c511b516f19cde88ad95c404e3d18c64d9373f85937ef0609bb6c907ee",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 6.385299865292264e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 21,
+          "objective": 0.04450893645886638,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "qwen_L18_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 227821,
+      "sha256": "b1d0cd1adfa44472c2cc858c49ba5e265020e340cd9878cf588ae12de4f4e344"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 6.432470334851854e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 10,
+          "objective": 2.01287012561617e-05,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 74741.89696232417,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 26,
+        "gradient_infinity_norm": 6.586638827822956e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 25,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.00200349949488167,
+        "relative_objective_change": 1.2300963659306677e-05,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 18,
+      "method": "r0",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.4628404160030186,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "eb1b9b090ced86e63ae8d0411732a056f67606777f1ab8b84b084cf8d74f9ec2",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "qwen_L18_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 128880,
+      "sha256": "c02eda76de0f9f49bfbe3b356ef2010c529351ad6f20b566e94dabe509a0df95"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "l2_logistic",
+      "model": "qwen"
+    },
+    "convergence_warning": false,
+    "elapsed_seconds": 0.29995004180818796,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "final_converged": true,
+    "final_convergence_status": "converged",
+    "final_max_iter": 2000,
+    "final_n_iter": 60,
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "da3ca616e88632b69009d5b44579db678afe4dfd43a1700e5395852a6ec437fd",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "gradient_infinity_norm": 8.61140488989703e-05,
+    "id": "qwen_L22_l2_logistic_P10",
+    "initial_convergence_warning": false,
+    "initial_max_iter": 2000,
+    "initial_n_iter": 60,
+    "initial_warning_messages": "[]",
+    "library_warnings": [
+      "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+    ],
+    "n_iter": 60,
+    "objective": 0.0005732034411226697,
+    "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+    "parameters": {
+      "bytes": 27885,
+      "sha256": "dafd36bbc6cec356bb1cf01352fe541b17f68b16bf0f170d7b266dc9cdd71c80"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "raw_gradient_target_met": true,
+    "retry_needed": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "difference_of_means",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.026686166878789663,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "da3ca616e88632b69009d5b44579db678afe4dfd43a1700e5395852a6ec437fd",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "unit(mean_true - mean_false)",
+    "id": "qwen_L22_difference_of_means_P10",
+    "parameters": {
+      "bytes": 84188,
+      "sha256": "2d0b804b99efc25792f4cad874bde72d41c790e35572fe8ac186ad2a2e1b506e"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "true-minus-false; no validation-dependent flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "mass_mean_covariance",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "covariance_divisor": 2864,
+    "covariance_rank_retained": 2773,
+    "elapsed_seconds": 6.904738207813352,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "da3ca616e88632b69009d5b44579db678afe4dfd43a1700e5395852a6ec437fd",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+    "id": "qwen_L22_mass_mean_covariance_P10",
+    "intercept": "none in upstream iid MM readout",
+    "parameters": {
+      "bytes": 112249,
+      "sha256": "c4d11ef768e9d12d21ce5626df2973f896ac6c7edc7a4030618184e1e72112aa"
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+    "status": "converged",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "burger_t_g",
+      "model": "qwen"
+    },
+    "convergence": "closed_form_not_iterative",
+    "elapsed_seconds": 0.008998167235404253,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite": true,
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "1da8502eb53405da7d4e08ee03616fbd73eb72a438926c5202d775045dbbd4d4",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+    "id": "qwen_L22_burger_t_g_P10",
+    "inference": "raw activation dot t_G; no validation centering",
+    "parameters": {
+      "bytes": 192832,
+      "sha256": "6cff70e2933fb7d290ab288c0adb36ad2594a475c1d40c11a2c7653e808b129d"
+    },
+    "partial_truth_training_alignment": 462818.66969956376,
+    "polarity_encoding": "negated=-1,affirmative=+1",
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "sign_orientation": "OLS truth coefficient, never flipped on validation",
+    "status": "converged",
+    "truth_encoding": "false=-1,true=+1",
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "ttpd",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.03326129214838147,
+    "exposure": [
+      {
+        "entities": 312,
+        "forms": {
+          "affirmative": 400,
+          "negated": 400
+        },
+        "labels": {
+          "0": 400,
+          "1": 400
+        },
+        "person_keys": 312,
+        "rows": 800,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 74,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 74,
+        "rows": 160,
+        "topic": "cities"
+      },
+      {
+        "entities": 46,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 46,
+        "rows": 160,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 71,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 71,
+        "rows": 160,
+        "topic": "inventors"
+      },
+      {
+        "entities": 79,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 79,
+        "rows": 160,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 800,
+    "fitting_identity": {
+      "feature_float64_sha256": "1da8502eb53405da7d4e08ee03616fbd73eb72a438926c5202d775045dbbd4d4",
+      "labels_sha256": "cb79e1e906b4387981da0591a2e6fe5959f7246c7ac6b08e488b51eb93cc2b6a",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "e2ea5d585d4cdef0d2e77345a8a1dee9e6a4e1fb142e243fcf4e9757e59764f2",
+      "ordered_ids_sha256": "4c06da21c6217cb14e703101f505df32add6ea6fe675f5a4230df006a05d57b7"
+    },
+    "head_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 9.124575751004033e-07,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 34,
+          "objective": 0.22923545695079808,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "id": "qwen_L22_ttpd_P10",
+    "inference": "raw X@t_G and X@polarity coefficient; no form inputs, intercept projection or eval centering",
+    "parameters": {
+      "bytes": 227700,
+      "sha256": "8e98158261b167430c1d5c90ccb875a40837df68f550381a212501cf21f1b07f"
+    },
+    "polarity_optimizer": {
+      "attempts": [
+        {
+          "finite": true,
+          "gradient_infinity_norm": 7.345453132409374e-05,
+          "library_converged": true,
+          "max_iter": 100,
+          "n_iter": 13,
+          "objective": 4.058898584106668e-06,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+          "warnings": [
+            "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+          ]
+        }
+      ],
+      "policy": "unregularized L-BFGS tol=1e-4; cold 10000 retry only on initial 100-iteration convergence warning",
+      "valid_for_scoring": true
+    },
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "status": "converged",
+    "truth_fit": {
+      "fit_rows": 800,
+      "formula": "solve(Z.T@Z, Z.T@(X - mean_of_training_dataset)); Z=[tau,tau*p]",
+      "inference": "raw activation dot t_G; no validation centering",
+      "partial_truth_training_alignment": 462818.66969956376,
+      "polarity_encoding": "negated=-1,affirmative=+1",
+      "sign_orientation": "OLS truth coefficient, never flipped on validation",
+      "truth_encoding": "false=-1,true=+1"
+    },
+    "valid_for_scoring": true
+  },
+  {
+    "A_exposed_diagnostic": false,
+    "P_A_frozen": false,
+    "attempts": [
+      {
+        "finite_gradient": true,
+        "finite_objective": true,
+        "finite_parameters": true,
+        "function_evaluations": 33,
+        "gradient_infinity_norm": 8.451565754451784e-05,
+        "initial_objective": 0.6931471805599485,
+        "iterations": 32,
+        "library_success": true,
+        "maximum_iterations": 2000,
+        "objective": 0.003094987433331101,
+        "relative_objective_change": 6.245442684211112e-06,
+        "status": "converged",
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ],
+    "configuration": {
+      "C": 1.0,
+      "cohort": "P10",
+      "layer": 22,
+      "method": "r0",
+      "model": "qwen"
+    },
+    "elapsed_seconds": 0.5169765828177333,
+    "exposure": [
+      {
+        "entities": 849,
+        "forms": {
+          "affirmative": 1432,
+          "negated": 1432
+        },
+        "labels": {
+          "0": 1432,
+          "1": 1432
+        },
+        "person_keys": 848,
+        "rows": 2864,
+        "topic": "all"
+      },
+      {
+        "entities": 42,
+        "forms": {
+          "affirmative": 80,
+          "negated": 80
+        },
+        "labels": {
+          "0": 80,
+          "1": 80
+        },
+        "person_keys": 42,
+        "rows": 160,
+        "topic": "animal_class"
+      },
+      {
+        "entities": 440,
+        "forms": {
+          "affirmative": 880,
+          "negated": 880
+        },
+        "labels": {
+          "0": 880,
+          "1": 880
+        },
+        "person_keys": 440,
+        "rows": 1760,
+        "topic": "cities"
+      },
+      {
+        "entities": 47,
+        "forms": {
+          "affirmative": 94,
+          "negated": 94
+        },
+        "labels": {
+          "0": 94,
+          "1": 94
+        },
+        "person_keys": 47,
+        "rows": 188,
+        "topic": "element_symb"
+      },
+      {
+        "entities": 122,
+        "forms": {
+          "affirmative": 176,
+          "negated": 176
+        },
+        "labels": {
+          "0": 176,
+          "1": 176
+        },
+        "person_keys": 121,
+        "rows": 352,
+        "topic": "inventors"
+      },
+      {
+        "entities": 198,
+        "forms": {
+          "affirmative": 202,
+          "negated": 202
+        },
+        "labels": {
+          "0": 202,
+          "1": 202
+        },
+        "person_keys": 198,
+        "rows": 404,
+        "topic": "sp_en_trans"
+      }
+    ],
+    "finite_parameters": true,
+    "fit_rows": 2864,
+    "fitting_identity": {
+      "feature_float64_sha256": "da3ca616e88632b69009d5b44579db678afe4dfd43a1700e5395852a6ec437fd",
+      "labels_sha256": "d21a7404228002129598d67820e31b82e0fbf16730111ccea36177d6d501be16",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "5e2623b6c433ba281bad848025d8fe27237b2e1d11934b924e27233a1a6af734",
+      "ordered_ids_sha256": "bfcad580088aa01f48754539d7c2d0455a0302289f162350cde90e8ee3a2753d"
+    },
+    "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+    "id": "qwen_L22_r0_P10",
+    "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+    "parameters": {
+      "bytes": 129540,
+      "sha256": "0849eb7dbb371837caf52b9fc08d34819d98ae07c396d12dfd6fca006ac118a3"
+    },
+    "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+    "preprocessing_fit_rows": 2864,
+    "preprocessing_fitting_cohort": "P10",
+    "primary_bank_eligible": false,
+    "reused_canonical": false,
+    "settings": {
+      "gradient_tolerance": 0.0001,
+      "initial_max_iterations": 2000,
+      "total_max_iterations": 10000
+    },
+    "status": "converged",
+    "valid_for_scoring": true
+  }
+]

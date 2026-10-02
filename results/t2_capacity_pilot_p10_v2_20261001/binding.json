@@ -1,0 +1,32 @@
+{
+  "config": {
+    "bytes": 6635,
+    "sha256": "c5acb06506090a763f4b0dc5ad3cfb99564b382791a901d00a6da8e9839046bd"
+  },
+  "exports_root": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001",
+  "membership": "41269c98750a31f1906cfd35341c63cd240e594efdbe9f13f3c0510fdf2d92f6",
+  "payload_root": "/Users/apple/truth-probing-backups/20261001T164224Z/restore_t1_staging_20261001T164224Z_kgkt5sy7",
+  "physical_artifact_root": "/Users/apple/projects/t2-canonical-sensitivity-artifacts-20261001",
+  "preparation": {
+    "bytes": 2798,
+    "sha256": "e2d00649af5035165d23f51c2579d30c5d5fadd188c0f9a4e50af1ce16c83a14"
+  },
+  "prepared_root": "/Users/apple/projects/t2-canonical-sensitivity-v4-20261001/prepared",
+  "prior_completion": {
+    "bytes": 38262,
+    "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+  },
+  "prior_root": "/Users/apple/projects/t2-capacity-pilot-v1-20261001",
+  "source_sha256": {
+    "src/atomic_probe_methods.py": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2",
+    "src/clean_atomic_probes.py": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb",
+    "src/clean_transfer_statistics.py": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd",
+    "src/selection_repair_canonical_sensitivity.py": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46",
+    "src/selection_repair_capacity_export_v2.py": "807487c4353f445e7dd00663103c18bb8ae991d2a6be016a474c597452d0d80f",
+    "src/selection_repair_capacity_methods_v1.py": "8f3d070ef5e5587a50e200524c4c6a1f213a0be751d7badf968afdb3cad1f894",
+    "src/selection_repair_capacity_p10_v2.py": "c62c5513e5cacb222b94944c5445bcf7da8c1f58844495a49e501cd54531afa8",
+    "src/selection_repair_capacity_pilot_v1.py": "674e93fd2b5a89ed6847f87f21339a05ad50126684f8381e162b9821c9aadacd",
+    "src/selection_repair_capacity_staging_v1.py": "3d85e4ce8014c374f3cd7075783ca61e5462eafe4ff920566c1faf571350771b",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+  }
+}
