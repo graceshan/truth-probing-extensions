@@ -1,0 +1,50 @@
+{
+  "access_enforcement": {
+    "status": "untested"
+  },
+  "credential_files_accessed": false,
+  "cross_process_lock_exclusion_and_release": {
+    "contender_after_release": 0,
+    "contender_while_held": 42,
+    "status": "passed"
+  },
+  "full_capacity_allocation": false,
+  "model_loading": false,
+  "mount": "/workspace mfs#ca-mtl-1.runpod.net:9421[/podvolumes/urjz17umkbo6/abvvcizoq2pw0g] fuse   rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other",
+  "permission_mode": {
+    "after": "0o666",
+    "before": "0o666",
+    "chmod_call": "passed",
+    "exact_mode_reporting": "unsupported",
+    "requested": "0o600"
+  },
+  "producer_commit": "7933063036f5d57c83f41b8ea46e560c1f10cd2e",
+  "schema": "r2-storage-contract-bounded-diagnostic-v1",
+  "status": "bounded_diagnostics_passed_permission_reporting_unsupported",
+  "temporary_directory": "/workspace/.r2-storage-contract-diag-ba5rxqfy",
+  "temporary_directory_removed": true,
+  "temporary_logical_bytes_before_cleanup": 27376,
+  "utc": "2026-10-02T18:15:17Z",
+  "working_detached_git_checkout": {
+    "status": "passed"
+  },
+  "writer_integrity": {
+    "receipt": {
+      "actual_write_and_readback_bytes": 4096,
+      "operations": [
+        "fsync_file",
+        "exclusive_atomic_link",
+        "fsync_directory",
+        "refuse_overwrite",
+        "remove_partial",
+        "atomic_replace",
+        "reopen_hash"
+      ],
+      "parent": "/workspace/.r2-storage-contract-diag-ba5rxqfy",
+      "power_loss_durability": "not established by process-level checks",
+      "quota_verified": "bounded reservation only; full production quota NOT established",
+      "reported_free_bytes": 261434340868096
+    },
+    "status": "passed"
+  }
+}

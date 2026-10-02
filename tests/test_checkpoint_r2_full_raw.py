@@ -11,7 +11,7 @@ import pytest
 from src.checkpoint_r2_fresh_inputs import ROOT, canonical, hash_value, text_hash
 from src.checkpoint_r2_fresh_store import pin, write_shard, load_features
 from src.checkpoint_r2_full_inputs import reconstruct
-from src.checkpoint_r2_full_support import (additional_capacity, check_review, filesystem_prerequisites,
+from src.checkpoint_r2_full_support import (additional_capacity, check_review, filesystem_prerequisites, NON_SECRET_ARTIFACT_CONTRACT,
     single_packet, token_storage_plan, verify_snapshot, volume_inventory)
 from src.checkpoint_r2_full_raw import (cap_reason, extract_model, pending_shards, plan,
     recover_budget, runtime_matches, supervise, verify_completed)
@@ -205,7 +205,10 @@ def test_storage_counting_hardlinks_and_symlinks_once(tmp_path):
 
 
 def test_filesystem_lock_git_chmod_prerequisites(tmp_path):
-    assert filesystem_prerequisites(tmp_path)==['chmod','git_init','cross_process_flock_exclusion']
+    receipt=filesystem_prerequisites(tmp_path,artifact_contract=NON_SECRET_ARTIFACT_CONTRACT)
+    assert receipt['permissions']['exact_mode_reporting']['status']=='passed'
+    assert receipt['cross_process_flock_exclusion']['status']=='passed'
+    assert receipt['git_initialization']['status']=='passed'
     assert not list(tmp_path.iterdir())
 
 

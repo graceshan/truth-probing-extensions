@@ -107,17 +107,61 @@ def volume_inventory(volume):
                 accounting='logical regular-file sizes, unique (device,inode); actual allocation test establishes usable capacity')
 
 
-def filesystem_prerequisites(volume):
+# This policy applies only to research artifacts, never tokens or private files.
+NON_SECRET_ARTIFACT_CONTRACT = 'r2-non-secret-research-artifacts-v1'
+
+
+def validate_filesystem_prerequisites(receipt):
+    require(receipt['schema']=='r2-filesystem-capabilities-v2'
+            and receipt['artifact_contract']==NON_SECRET_ARTIFACT_CONTRACT, 'non-secret filesystem contract required')
+    permissions=receipt['permissions']
+    require(permissions['chmod_call']['status']=='passed' and permissions['requested_mode']=='0o600', 'chmod capability receipt')
+    observed=int(permissions['observed_mode_after'],8)
+    require(0<=observed<=0o777 and permissions['exact_mode_reporting']['status']==
+            ('passed' if observed==0o600 else 'unsupported'), 'permission mode receipt inconsistent')
+    require(permissions['access_enforcement']['status']=='untested'
+            and permissions['owner_only_protection']['status']=='untested', 'mode bits do not prove access enforcement')
+    require(receipt['git_initialization']['status']=='passed', 'Git initialization prerequisite')
+    require(receipt['cross_process_flock_exclusion']['status']=='passed', 'filesystem lock exclusion prerequisite')
+    require(receipt['writer_and_full_capacity']['status']=='untested', 'prerequisite receipt scope')
+
+
+def filesystem_prerequisites(volume, *, artifact_contract):
+    """Report mode behavior for explicitly non-secret data; require Git and real exclusion.
+
+    A successful chmod with different reported bits is informational under this
+    contract. Errors still propagate. Nothing here certifies private-file access.
+    The unchanged storage_probe subsequently enforces writer integrity/capacity.
+    """
+    require(artifact_contract==NON_SECRET_ARTIFACT_CONTRACT, 'non-secret filesystem contract required')
+    volume=Path(volume).resolve()
+    mount=dict(volume=str(volume),device=volume.stat().st_dev,findmnt=dict(status='untested',reason='Linux-only query'))
+    if platform.system()=='Linux':
+        mount['findmnt']=dict(status='passed',reported=subprocess.check_output(
+            ['findmnt','-n','-o','TARGET,SOURCE,FSTYPE,OPTIONS','--target',str(volume)],text=True).strip())
     with tempfile.TemporaryDirectory(prefix='.r2-full-fs-',dir=volume) as directory:
-        root=Path(directory);lock=root/'lock';lock.write_bytes(b'lock');lock.chmod(0o600)
-        require(lock.stat().st_mode & 0o777==0o600,'chmod prerequisite')
+        root=Path(directory);lock=root/'lock';lock.write_bytes(b'non-secret campaign-lock diagnostic')
+        before=oct(lock.stat().st_mode & 0o777)
+        lock.chmod(0o600)  # No arbitrary errors are swallowed, including permission errors.
+        after=oct(lock.stat().st_mode & 0o777)
+        permissions=dict(requested_mode='0o600',observed_mode_before=before,observed_mode_after=after,
+            chmod_call=dict(status='passed'),exact_mode_reporting=dict(status='passed' if after=='0o600' else 'unsupported'),
+            access_enforcement=dict(status='untested'),owner_only_protection=dict(status='untested'))
         subprocess.run(['git','init','--quiet',str(root/'git')],check=True)
-        with lock.open('r') as handle:
+        # Match the real campaign's append-open lock. Only BlockingIOError counts
+        # as exclusion; an unrelated child failure must never pass this check.
+        code="import fcntl,sys; f=open(sys.argv[1],'a');\ntry: fcntl.flock(f,fcntl.LOCK_EX|fcntl.LOCK_NB)\nexcept BlockingIOError: sys.exit(42)\nsys.exit(0)"
+        with lock.open('a') as handle:
             fcntl.flock(handle,fcntl.LOCK_EX|fcntl.LOCK_NB)
-            code="import fcntl,sys; f=open(sys.argv[1]); fcntl.flock(f,fcntl.LOCK_EX|fcntl.LOCK_NB)"
-            check=subprocess.run([__import__('sys').executable,'-c',code,str(lock)],capture_output=True)
-            require(check.returncode!=0 and b'BlockingIOError' in check.stderr,'filesystem lock exclusion prerequisite')
-    return ['chmod','git_init','cross_process_flock_exclusion']
+            check=subprocess.run([__import__('sys').executable,'-c',code,str(lock)],capture_output=True,timeout=10)
+            require(check.returncode==42,'filesystem lock exclusion prerequisite')
+        released=subprocess.run([__import__('sys').executable,'-c',code,str(lock)],capture_output=True,timeout=10)
+        require(released.returncode==0,'filesystem lock release prerequisite')
+    receipt=dict(schema='r2-filesystem-capabilities-v2',artifact_contract=artifact_contract,mount_evidence=mount,
+        permissions=permissions,git_initialization=dict(status='passed'),cross_process_flock_exclusion=dict(status='passed'),
+        writer_and_full_capacity=dict(status='untested',tested_by='mandatory subsequent storage_probe'))
+    validate_filesystem_prerequisites(receipt)
+    return receipt
 
 
 def additional_capacity(plan, cfg, valid_primary_bytes=0):
@@ -132,7 +176,7 @@ def storage_check(cfg, manifest, cache, volume, destination, receipt_path):
     require(not destination.is_relative_to(Path(cache).resolve().parent) and not destination.is_relative_to(ROOT), 'preserve pilot/cache checkout')
     from src.checkpoint_r2_full_raw import valid_primary_bytes
     valid_primary_bytes_count=valid_primary_bytes(destination,cfg,manifest)
-    prerequisites=filesystem_prerequisites(volume)
+    prerequisites=filesystem_prerequisites(volume,artifact_contract=NON_SECRET_ARTIFACT_CONTRACT)
     snapshots=verify_cached_models(cfg,cache)
     plan=token_storage_plan(cfg,manifest,snapshots)
     mount=subprocess.check_output(['findmnt','-n','-o','TARGET,SOURCE,FSTYPE','--target',str(volume)],text=True).strip()
@@ -151,6 +195,7 @@ def storage_check(cfg, manifest, cache, volume, destination, receipt_path):
 
 
 def check_storage_receipt(receipt,cfg,manifest,cache,destination,snapshots):
+    validate_filesystem_prerequisites(receipt['filesystem_prerequisites'])
     require(receipt['schema']=='r2-full-raw-storage-v1' and receipt['destination']==str(Path(destination).resolve()), 'storage destination identity')
     require(receipt['manifest_sha256']==hash_value(manifest) and receipt['contract_sha256']==file_hash(ROOT/'config/checkpoint_r2/full_raw_v1.json'), 'storage plan identity')
     require(0 <= time.time()-receipt['verified_at_unix'] <= 86400, 'storage receipt older than 24 hours; repeat actual check')

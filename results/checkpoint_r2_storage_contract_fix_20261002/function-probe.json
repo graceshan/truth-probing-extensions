@@ -1,0 +1,48 @@
+{
+  "capabilities": {
+    "artifact_contract": "r2-non-secret-research-artifacts-v1",
+    "cross_process_flock_exclusion": {
+      "status": "passed"
+    },
+    "git_initialization": {
+      "status": "passed"
+    },
+    "mount_evidence": {
+      "device": 56,
+      "findmnt": {
+        "reported": "/workspace mfs#ca-mtl-1.runpod.net:9421[/podvolumes/urjz17umkbo6/abvvcizoq2pw0g] fuse   rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other",
+        "status": "passed"
+      },
+      "volume": "/workspace/.r2-storage-contract-function-gk4l2dtj"
+    },
+    "permissions": {
+      "access_enforcement": {
+        "status": "untested"
+      },
+      "chmod_call": {
+        "status": "passed"
+      },
+      "exact_mode_reporting": {
+        "status": "unsupported"
+      },
+      "observed_mode_after": "0o666",
+      "observed_mode_before": "0o666",
+      "owner_only_protection": {
+        "status": "untested"
+      },
+      "requested_mode": "0o600"
+    },
+    "schema": "r2-filesystem-capabilities-v2",
+    "writer_and_full_capacity": {
+      "status": "untested",
+      "tested_by": "mandatory subsequent storage_probe"
+    }
+  },
+  "credential_files_accessed": false,
+  "full_capacity_allocation": false,
+  "model_loading": false,
+  "schema": "r2-storage-contract-function-diagnostic-v1",
+  "source_sha256": "83af632f3977b3d5740c2a0c2e0507925f9bf3c2caa954224e9bca15b45cb222",
+  "temporary_directory_removed": true,
+  "utc": "2026-10-02T18:20:21Z"
+}

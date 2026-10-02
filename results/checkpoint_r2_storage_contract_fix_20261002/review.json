@@ -1,0 +1,35 @@
+{
+  "base_commit": "7933063036f5d57c83f41b8ea46e560c1f10cd2e",
+  "bounded_remote_diagnostics": {
+    "existing_pod_was_reachable": true,
+    "initial_temporary_logical_bytes": 27376,
+    "model_loading": false,
+    "payload_reservation_bytes": 4096,
+    "successor_helper_source_hash_confirmed": true,
+    "temporary_directories_removed": true
+  },
+  "configuration_sha256_unchanged": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+  "credential_files_inspected": false,
+  "current_mount_matches_pilot_source_target_and_filesystem": true,
+  "extraction_launched": false,
+  "failure_files_verified_unchanged": 16,
+  "failure_manifest_sha256": "90a99a36a86f25cc6d0aa2558f3fe5423eb16b9d9c96db6214df633ef74d7f51",
+  "full_campaign_caps_unchanged": {
+    "model_seconds": 5400,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 12600
+  },
+  "full_capacity_allocation": false,
+  "pinned_pilot_review_commit": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+  "private_access_enforcement": "untested; no claim",
+  "schema": "r2-storage-contract-correction-review-v1",
+  "source_sha256": "83af632f3977b3d5740c2a0c2e0507925f9bf3c2caa954224e9bca15b45cb222",
+  "tests": {
+    "command": "/private/tmp/r2-full-raw-prep-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_storage_contract.py tests/test_checkpoint_r2_full_raw.py",
+    "model_loading": false,
+    "passed": 62,
+    "platform": "Darwin",
+    "seconds": 8.51
+  },
+  "underlying_mode_emulation_cause": "unknown; successful chmod plus unchanged reported bits observed"
+}
