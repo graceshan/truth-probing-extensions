@@ -1,0 +1,312 @@
+{
+  "models": {
+    "llama": {
+      "estimated_metadata_per_full_copy_bytes": 111317829.11875,
+      "raw_payload_bytes": 9396027392,
+      "recomputed_projection_hours_by_repeat": [
+        0.7419544926030478,
+        0.8294701050498334,
+        0.800066476476846
+      ],
+      "recomputed_projection_hours_mean": 0.7904970247099091,
+      "recomputed_projection_hours_range": [
+        0.7419544926030478,
+        0.8294701050498334
+      ],
+      "recomputed_rates": [
+        13.419136871802252,
+        12.003312510329378,
+        12.444452031951908
+      ],
+      "recomputed_throughput_mean": 12.622300471361179,
+      "recomputed_throughput_sample_std": 0.7244737443035825,
+      "retained_model_bytes": 496921366,
+      "stage_metadata_and_arithmetic_checks": [
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 0.6589591049705632,
+          "output_bytes": 2119850,
+          "serialization_reopen_seconds": 0.14956853695912287,
+          "stage": "warmup-0",
+          "summed_forward_seconds": 0.35182208294281736
+        },
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 0.8952022739686072,
+          "output_bytes": 2119850,
+          "serialization_reopen_seconds": 0.1960674559813924,
+          "stage": "warmup-1",
+          "summed_forward_seconds": 0.430585531052202
+        },
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 0.8009974879678339,
+          "output_bytes": 2119850,
+          "serialization_reopen_seconds": 0.19954211899312213,
+          "stage": "warmup-2",
+          "summed_forward_seconds": 0.36453670501941815
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 7.294636039994657,
+          "output_bytes": 21231683,
+          "serialization_reopen_seconds": 0.6298543420271017,
+          "stage": "calibration-reference",
+          "summed_forward_seconds": 4.653850861242972
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 6.240041061013471,
+          "output_bytes": 21231676,
+          "serialization_reopen_seconds": 0.634307564003393,
+          "stage": "calibration-b1",
+          "summed_forward_seconds": 3.807624429173302
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 3.975197654974181,
+          "output_bytes": 21233629,
+          "serialization_reopen_seconds": 0.8625602590036578,
+          "stage": "calibration-b2",
+          "summed_forward_seconds": 2.1398475848254748
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 2.7334784810082056,
+          "output_bytes": 21235933,
+          "serialization_reopen_seconds": 0.7293043810059316,
+          "stage": "calibration-b4",
+          "summed_forward_seconds": 1.334401812928263
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 1.867478736967314,
+          "output_bytes": 21241821,
+          "serialization_reopen_seconds": 0.9218152609537356,
+          "stage": "calibration-b8",
+          "summed_forward_seconds": 0.6733141579898074
+        },
+        {
+          "inputs": 240,
+          "measured_end_to_end_seconds": 23.5407936470001,
+          "output_bytes": 63650748,
+          "serialization_reopen_seconds": 1.3182385279797018,
+          "stage": "verification-reference",
+          "summed_forward_seconds": 14.913970436318778
+        },
+        {
+          "inputs": 240,
+          "measured_end_to_end_seconds": 22.15697012800956,
+          "output_bytes": 63650741,
+          "serialization_reopen_seconds": 1.6831320770434104,
+          "stage": "verification-b1",
+          "summed_forward_seconds": 14.038969738350715
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 23.846541178994812,
+          "output_bytes": 84879906,
+          "serialization_reopen_seconds": 1.483050804992672,
+          "stage": "timing-0",
+          "summed_forward_seconds": 15.553024344728328
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 26.659307564026676,
+          "output_bytes": 84879906,
+          "serialization_reopen_seconds": 1.5442689000046812,
+          "stage": "timing-1",
+          "summed_forward_seconds": 17.205914102960378
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 25.7142700360273,
+          "output_bytes": 84879906,
+          "serialization_reopen_seconds": 1.0851676389575005,
+          "stage": "timing-2",
+          "summed_forward_seconds": 16.036242728470825
+        }
+      ],
+      "timing_seconds": [
+        23.846541178994812,
+        26.659307564026676,
+        25.7142700360273
+      ],
+      "timing_shard_output_bytes": 84879906
+    },
+    "qwen": {
+      "estimated_metadata_per_full_copy_bytes": 109372226.275,
+      "raw_payload_bytes": 7193833472,
+      "recomputed_projection_hours_by_repeat": [
+        0.9889004219714881,
+        0.6155827989406881,
+        0.8445121877013622
+      ],
+      "recomputed_projection_hours_mean": 0.8163318028711795,
+      "recomputed_projection_hours_range": [
+        0.6155827989406881,
+        0.9889004219714881
+      ],
+      "recomputed_rates": [
+        10.06814100558241,
+        16.17392316033216,
+        11.789514744587303
+      ],
+      "recomputed_throughput_mean": 12.67719297016729,
+      "recomputed_throughput_sample_std": 3.14819367327389,
+      "retained_model_bytes": 381791633,
+      "stage_metadata_and_arithmetic_checks": [
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 2.9156385239912197,
+          "output_bytes": 1627989,
+          "serialization_reopen_seconds": 0.19480693095829338,
+          "stage": "warmup-0",
+          "summed_forward_seconds": 2.527069887961261
+        },
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 0.8491655180114321,
+          "output_bytes": 1627989,
+          "serialization_reopen_seconds": 0.1957454409566708,
+          "stage": "warmup-1",
+          "summed_forward_seconds": 0.4519773040083237
+        },
+        {
+          "inputs": 8,
+          "measured_end_to_end_seconds": 0.8246022350504063,
+          "output_bytes": 1627989,
+          "serialization_reopen_seconds": 0.17059925198554993,
+          "stage": "warmup-2",
+          "summed_forward_seconds": 0.4787913248874247
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 8.16403031401569,
+          "output_bytes": 16312151,
+          "serialization_reopen_seconds": 0.6814106029924005,
+          "stage": "calibration-reference",
+          "summed_forward_seconds": 5.022758280218113
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 8.578604752023239,
+          "output_bytes": 16312144,
+          "serialization_reopen_seconds": 0.6544405710301362,
+          "stage": "calibration-b1",
+          "summed_forward_seconds": 5.33133016503416
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 4.845027425035369,
+          "output_bytes": 16314129,
+          "serialization_reopen_seconds": 0.7269885080168024,
+          "stage": "calibration-b2",
+          "summed_forward_seconds": 2.871316917007789
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 2.638466043979861,
+          "output_bytes": 16316369,
+          "serialization_reopen_seconds": 0.650190279004164,
+          "stage": "calibration-b4",
+          "summed_forward_seconds": 1.333963199169375
+        },
+        {
+          "inputs": 80,
+          "measured_end_to_end_seconds": 1.686138144985307,
+          "output_bytes": 16322257,
+          "serialization_reopen_seconds": 0.6295746590476483,
+          "stage": "calibration-b8",
+          "summed_forward_seconds": 0.7037196410819888
+        },
+        {
+          "inputs": 240,
+          "measured_end_to_end_seconds": 21.539844378014095,
+          "output_bytes": 48892213,
+          "serialization_reopen_seconds": 1.080894331971649,
+          "stage": "verification-reference",
+          "summed_forward_seconds": 14.008114049152937
+        },
+        {
+          "inputs": 240,
+          "measured_end_to_end_seconds": 22.530279593949672,
+          "output_bytes": 48892206,
+          "serialization_reopen_seconds": 1.2667780650081113,
+          "stage": "verification-b1",
+          "summed_forward_seconds": 14.507989025267307
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 31.78342454903759,
+          "output_bytes": 65201736,
+          "serialization_reopen_seconds": 1.9920393549837172,
+          "stage": "timing-0",
+          "summed_forward_seconds": 19.942090725991875
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 19.784933860995807,
+          "output_bytes": 65201736,
+          "serialization_reopen_seconds": 1.191996167995967,
+          "stage": "timing-1",
+          "summed_forward_seconds": 12.83316015067976
+        },
+        {
+          "inputs": 320,
+          "measured_end_to_end_seconds": 27.14276261004852,
+          "output_bytes": 65201736,
+          "serialization_reopen_seconds": 1.6476678949547932,
+          "stage": "timing-2",
+          "summed_forward_seconds": 17.348880186851602
+        }
+      ],
+      "timing_seconds": [
+        31.78342454903759,
+        19.784933860995807,
+        27.14276261004852
+      ],
+      "timing_shard_output_bytes": 65201736
+    }
+  },
+  "observed_utc": "2026-10-02T17:14:03.230890+00:00",
+  "projection": {
+    "download_hash_hours": 0.1648659305330754,
+    "limitations": "pilot extrapolation; observed extrema sum is not a confidence interval; 4.33 MB transfer is not sustained full-size throughput; full lengths/rate tails unmeasured; exact provider billing/price unavailable",
+    "load_integrity_hours": 0.02895202946250922,
+    "observed_range_sum": [
+      1.357537291543736,
+      1.8183705270213215
+    ],
+    "raw_hours_mean": 1.6068288275810887,
+    "small_transfer_extrapolated_hours": 0.7367981025601605,
+    "small_transfer_rate_bytes_per_second": 6254487.719813544
+  },
+  "reviewed_code_commit": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+  "status": "PASS_WITH_SCOPE_LIMITATIONS",
+  "storage": {
+    "capacity_receipt": {
+      "actual_incompressible_write_fsync_readback_bytes": 51539607552,
+      "full_100_GB_quota_independently_verified": false,
+      "no_model_inference": true,
+      "pilot_capacity_bounded_evidence": "48GiB real allocation and readback; original runner 4GiB probe remains required",
+      "sha256": "28b4940f4df4a74b68dcebc52c9dfe4027ed65b3b123b490478d04654a2a8d86",
+      "statvfs_is_shared_pool_not_pod_quota": true,
+      "total_write_hash_readback_seconds": 343.76124490302755,
+      "user_declared_volume_bytes": 100000000000,
+      "utc": "2026-10-02T16:03:04.013873+00:00",
+      "write_seconds": 270.82994661002886
+    },
+    "combined_tensor_payload_bytes": 16589860864,
+    "estimated_metadata_per_complete_copy_bytes": 220690055.39375,
+    "estimated_total_bytes": 70896541628.7875,
+    "full_quota_verified": false,
+    "metadata_estimate": "linear 320-row shard overhead extrapolation, includes NPY header; two metadata copies in total; estimate, not measured full output",
+    "reported_actual_capacity_write_readback_bytes": 51539607552,
+    "retained_pilot_bytes": 879240876,
+    "temporary_shard_bytes": 83886080,
+    "temporary_weight_bytes": 4999802720,
+    "two_complete_tensor_copies_bytes": 33179721728,
+    "weights_and_tokenizers_bytes": 31312510114
+  }
+}
