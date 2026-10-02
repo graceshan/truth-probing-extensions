@@ -1,0 +1,57 @@
+{
+  "base_commit": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+  "branch": "checkpoint-r2-fresh-pilot-20261002",
+  "calibration_count": 80,
+  "gpu_connection_supplied": false,
+  "hostname": "MacBook-Pro-7.lan",
+  "hourly_price_supplied": false,
+  "input_count_per_model": 320,
+  "local_validation": {
+    "common_validator_passed": true,
+    "diff_check_passed": true,
+    "environment": {
+      "numpy": "2.4.6",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0",
+      "transformers": "5.12.1"
+    },
+    "focused_fresh_cases": 33,
+    "scope": "synthetic fixtures and tiny BF16 Qwen/Llama architectures; not pinned GPU runtime or research results",
+    "shell_syntax_passed": true,
+    "tests_passed": 201,
+    "tests_seconds": 21.96
+  },
+  "macos": "12.6",
+  "no_historical_representation_compatibility_claim": true,
+  "no_research_result_claim": true,
+  "old_ssh_address_contacted": false,
+  "per_model": {
+    "llama": {
+      "accepted_batch_policy": null,
+      "dollar_estimate": null,
+      "gpu_runtime": null,
+      "output_shards": null,
+      "peak_vram": null,
+      "projected_gpu_hours": null,
+      "real_correctness": null,
+      "throughput": null
+    },
+    "qwen": {
+      "accepted_batch_policy": null,
+      "dollar_estimate": null,
+      "gpu_runtime": null,
+      "output_shards": null,
+      "peak_vram": null,
+      "projected_gpu_hours": null,
+      "real_correctness": null,
+      "throughput": null
+    }
+  },
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "real_inference_executed": false,
+  "recommendation": "hold complete extraction pending real bounded fresh correctness and cost evidence",
+  "remaining_blocker": "GPU-enabled SSH connection and any required authentication action",
+  "status": "implemented_tested_pending_gpu_connection",
+  "verification_count": 240,
+  "worktree": "/Users/apple/projects/checkpoint-r2-fresh-pilot-20261002"
+}

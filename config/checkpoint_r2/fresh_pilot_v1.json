@@ -1,0 +1,118 @@
+{
+  "E_scoring": false,
+  "base_commit": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+  "batch_grid": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "behavior_evaluation": false,
+  "caps": {
+    "active_seconds": 7200,
+    "budget_policy": "one persistent campaign; failures do not reset budgets; no automatic resume",
+    "gpu_seconds_per_model": 3600,
+    "setup_phase_timeout_seconds": 3600
+  },
+  "execution": {
+    "add_special_tokens": true,
+    "attention": "sdpa",
+    "chat_template": false,
+    "compute_dtype": "bfloat16",
+    "deterministic_algorithms": false,
+    "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+    "logits_to_keep": 1,
+    "max_tokens": 1024,
+    "ordering": "manifest order, no sorting/bucketing",
+    "padding": "right; batch1 unpadded",
+    "positions": "mask.cumsum-1; padding positions0",
+    "readout": "last nonpadding token",
+    "sdpa_kernel": "math",
+    "seed": 0,
+    "stored_dtype": "float16",
+    "tf32": false,
+    "truncation": false,
+    "use_cache": false
+  },
+  "frozen_sha256": {
+    "config/checkpoint_r2/bridge_runner_v1.json": "3312a3eed3349dcfb6920bdb5822b7ffab74332a00f31634ef3231130d500231",
+    "config/checkpoint_r2/common_integration_v1.json": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57",
+    "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+    "data/checkpoint_r2_v1/compound_bindings.csv": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f",
+    "data/checkpoint_r2_v1/extraction_inventory.csv": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+    "data/checkpoint_r2_v1/facts.json": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500",
+    "data/checkpoint_r2_v1/manifest.json": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca",
+    "data/checkpoint_r2_v1/memberships.json": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6",
+    "data/checkpoint_r2_v1/resource_estimates.json": "02a6144e334be10af268ef6cb60b59f31d7c35dace88fa575c75e5cdd98f52ac",
+    "src/checkpoint_r2_bridge.py": "b84b14c6b4ee9ed8dcff596429cd47538151c60c7c5e68b6736d8a056c1efa76",
+    "src/checkpoint_r2_bridge_backend.py": "d418543519e837ab563420f594543564a287fbcc7a5acf755eba6ceb02883d51",
+    "src/checkpoint_r2_bridge_runner.py": "39ecc631918684eee0fe48d6884d7e3ac4a90018a1be0b9fa7bba98369a618ad",
+    "src/checkpoint_r2_inputs.py": "8007da49d57ce2d48faadf7c163256712b288b2fea548759c2f54dcbbd227096"
+  },
+  "historical_compatibility_claim": false,
+  "historical_fit_adoption": false,
+  "manifest_sha256": "e5356a32544acb643784f995be0ae0f493478ae97f94825d5bbe50bc859546f0",
+  "models": {
+    "llama": {
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "layers": 32,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "width": 4096
+    },
+    "qwen": {
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "layers": 28,
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "width": 3584
+    }
+  },
+  "numerical_acceptance": {
+    "hard_relative_rms_ceiling": 0.01,
+    "hard_scaled_max_ceiling": 0.1,
+    "max_floor_scale": 1e-05,
+    "multiplier": 3.0,
+    "procedure": "per batch/layer, maxabs and RMS limits = max(3 * calibration error, specified floor * calibration reference RMS); relative RMS limit = max(3 * calibration relative RMS,1e-6). Require every layer in computation AND stored FP16; independent verification also obeys hard ceilings. Train-only 80-row calibration; immutable lock before any of 240 verification inputs. Factor3 allows modest sample/kernel variation; floors avoid zero-estimate bitwise requirement; hard ceilings prevent calibration admitting large errors. These are fresh numerical engineering limits, not historical/research equivalence. No widening; any independent batching failure selects batch1; batch1 repeat failure stops with specific correctness issue.",
+    "rms_floor_scale": 1e-06
+  },
+  "pilot_output_reserve_bytes": 4294967296,
+  "production_extraction": false,
+  "production_shard_rows": 320,
+  "raw_inventory": {
+    "behavior_chat_included": false,
+    "combined_fp16_bytes": 16589860864,
+    "fp16_bytes": {
+      "llama": 9396027392,
+      "qwen": 7193833472
+    },
+    "logical_bindings_per_model": 41490,
+    "unique_inputs_per_model": 35843
+  },
+  "research_design": "adopted frozen A15/B25; unchanged",
+  "research_fitting": false,
+  "runtime_lock": {
+    "packages": {
+      "huggingface-hub": "0.34.4",
+      "numpy": "2.1.3",
+      "safetensors": "0.6.2",
+      "tokenizers": "0.22.1",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "python_series": "3.12"
+  },
+  "schema": "r2-fresh-pilot-contract-v1",
+  "scope": "approved bounded fresh extraction only; successor to fresh execution requirements, not historical compatibility",
+  "timing_repeats": 3
+}

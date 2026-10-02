@@ -1,0 +1,59 @@
+{
+  "base_commit": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+  "files": {
+    "config/checkpoint_r2/fresh_pilot_v1.json": {
+      "bytes": 5725,
+      "sha256": "c64b523a4a56e2f1c5e1dc77036ec2f97a7547e17c4d488088809dc307cdfe00"
+    },
+    "data/checkpoint_r2_fresh_pilot_v1/manifest.json": {
+      "bytes": 446062,
+      "sha256": "e5356a32544acb643784f995be0ae0f493478ae97f94825d5bbe50bc859546f0"
+    },
+    "docs/checkpoint_r2/fresh_pilot_v1.md": {
+      "bytes": 14570,
+      "sha256": "f5e0b87ce4f833642e32965e44defd4e6f3bd824158fe705c5fc00b4f1be2b9a"
+    },
+    "results/checkpoint_r2_fresh_pilot_v1_20261002/execution_status.json": {
+      "bytes": 1883,
+      "sha256": "142af4151acf6845e4038dbe52045f1077dbd17c1edfe0c5baee29d0edc371c8"
+    },
+    "results/checkpoint_r2_fresh_pilot_v1_20261002/local_tests.xml": {
+      "bytes": 26249,
+      "sha256": "759bd46629d64c3a08233828e1649f44d9d6c6a204d8ad5cc8ba3520dad9b541"
+    },
+    "results/checkpoint_r2_fresh_pilot_v1_20261002/metadata_validation.json": {
+      "bytes": 1761,
+      "sha256": "ed546022b0f577f3193582f1d0aa9d4c7967706e26064a8eb29d80dcaffc27c2"
+    },
+    "results/checkpoint_r2_fresh_pilot_v1_20261002/preservation.json": {
+      "bytes": 1949,
+      "sha256": "64673b14f9bec64d90a940e4080e5bbf359f119efecdc821ef2e6efd70a073ea"
+    },
+    "scripts/checkpoint_r2_fresh_gpu_setup.sh": {
+      "bytes": 2016,
+      "sha256": "378dd08f4fce8f01efff62eae881d28a2cc70fb5387e18a1370d544a422b5928"
+    },
+    "src/checkpoint_r2_fresh_backend.py": {
+      "bytes": 13143,
+      "sha256": "281f3ee28825632e1b8ac91573fe2e985666e39485e09034b5202a0b8d1eabf5"
+    },
+    "src/checkpoint_r2_fresh_inputs.py": {
+      "bytes": 6586,
+      "sha256": "2d46f522b9cddd0321a0f11d35ce671c308d95519fc46963252cf0c4065ce676"
+    },
+    "src/checkpoint_r2_fresh_pilot.py": {
+      "bytes": 28734,
+      "sha256": "5cd32a955f678fb613f991d39c6959777f528fc30442a8bc208070c55c41910c"
+    },
+    "src/checkpoint_r2_fresh_store.py": {
+      "bytes": 7164,
+      "sha256": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5"
+    },
+    "tests/test_checkpoint_r2_fresh_pilot.py": {
+      "bytes": 14881,
+      "sha256": "37974bd4460cd0597c990f386bf4dd59ec8d89db4720a1e158225e3ae8f6b291"
+    }
+  },
+  "large_tensors_in_git": false,
+  "self_reference_excluded": true
+}
