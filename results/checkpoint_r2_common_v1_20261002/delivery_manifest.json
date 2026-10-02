@@ -1,0 +1,40 @@
+{
+  "E_scoring_enabled": false,
+  "files": {
+    "config/checkpoint_r2/common_integration_v1.json": {
+      "bytes": 8995,
+      "sha256": "895ced573ad47af73e3bceaf5dd80a0b39693ca82367d0f5264b85de71755a57"
+    },
+    "docs/checkpoint_r2/common_integration_v1.md": {
+      "bytes": 9678,
+      "sha256": "f8e2b28be27d1f1e06fd261c9a334fb22093db11bd7e71403e75eaafbfcae2c7"
+    },
+    "results/checkpoint_r2_common_v1_20261002/integration_receipt.json": {
+      "bytes": 14790,
+      "sha256": "4fefa028de9d36eb4352d023ebc9aa1c521006733d8c6e8488033533689e8290"
+    },
+    "results/checkpoint_r2_common_v1_20261002/test_results.json": {
+      "bytes": 862,
+      "sha256": "70e5b134644da1b052c9d9f5372c17d8c727a0cc6233b79537de88c06c5b637b"
+    },
+    "scripts/68_validate_checkpoint_r2_common.py": {
+      "bytes": 4575,
+      "sha256": "5bac3af027e270f05f15727bbc8352fe4a974d629628aae71f1cb0b8bbe5db9a"
+    },
+    "src/checkpoint_r2_common_v1.py": {
+      "bytes": 15814,
+      "sha256": "f3510a1b656b9f336f20c9ba11c944ebee12917326ba8295afe22121c6e2e9a9"
+    },
+    "tests/test_checkpoint_r2_common_v1.py": {
+      "bytes": 7959,
+      "sha256": "bd900ef5e049d9d9f001f894a27198eac5eca31f13044d1d215b44772d0cebbe"
+    }
+  },
+  "normal_merge_commit": "70f5ef8b159c077fb1339390d3bf9c2d0d1281ad",
+  "production_execution_enabled": false,
+  "representation_compatibility": "unverified",
+  "source_commits": {
+    "mac1": "7dd63105c75b894b602fb93754e53eede4483a63",
+    "mac2": "a8082bd7bb6a321690e615b078c9651a6c6a2d49"
+  }
+}

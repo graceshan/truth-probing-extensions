@@ -1,0 +1,16 @@
+{
+  "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_common_v1.py tests/test_checkpoint_r2_inputs.py tests/test_checkpoint_r2_selection_v1.py",
+  "data_scope": "frozen metadata and synthetic scores only",
+  "diff_check": "passed; final staged check required before commit",
+  "duration_seconds": 6.4,
+  "fitting": false,
+  "historical_experiments_rerun": false,
+  "new_integration_cases": 40,
+  "passed": 69,
+  "status": "passed",
+  "test_files_sha256": {
+    "tests/test_checkpoint_r2_common_v1.py": "bd900ef5e049d9d9f001f894a27198eac5eca31f13044d1d215b44772d0cebbe",
+    "tests/test_checkpoint_r2_inputs.py": "99306fa6909972d4b84864d8ff013adc9f5633ead6e41640a0c779661d815a50",
+    "tests/test_checkpoint_r2_selection_v1.py": "733c049284da168a0b32b7caf90807ad3059c21290ab18f015031c98ceb3f089"
+  }
+}
