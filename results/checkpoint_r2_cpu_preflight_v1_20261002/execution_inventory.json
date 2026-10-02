@@ -1,0 +1,70 @@
+{
+  "C_clean_all_layers": 60,
+  "C_clean_procedure_layer_extra_fits": 0,
+  "P_A_frozen": false,
+  "additional_bank_fits_if_all_reuse_gates_pass": 564,
+  "all_declared_core_fits_upper": 1846,
+  "bank_expected": 600,
+  "base_sha": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "bridge_receipt": null,
+  "chat_fits_max": 8,
+  "chat_status": "future Prompt1 only, no execution authorized",
+  "checkpoint_plus_chat_fits_upper": 1854,
+  "common_checkpoint_sha": null,
+  "conditional_reusable": 36,
+  "constituent_full_TC_refits_max": 16,
+  "constituent_source_fits": 240,
+  "core_count_formula": "600 bank + 60 clean + 900 folds + 18 repair refits + 12 isolated controls + 240 constituent source + 16 constituent full refits",
+  "core_fits_after_36_conditional_reuses_upper": 1810,
+  "executable_now": [
+    "synthetic selector checks",
+    "pinned objective tests",
+    "metadata inventory",
+    "bounded synthetic timings",
+    "verified canonical v4 P15-only timing diagnostics"
+  ],
+  "executable_production_candidates": 0,
+  "gates": [
+    "exact reviewed mac1 common checkpoint SHA",
+    "v5 train/D/A15/TC identity equality receipts",
+    "A15 method-damage scope amendment and explicit freeze",
+    "independent representation bridge with predeclared tolerances and cap verdict",
+    "all-layer exports with hashes, headers and row/layer bindings",
+    "seeded B25 exact pairs/facts/folds and TC source-only split/pair identities"
+  ],
+  "historical_excluded": {
+    "P10_wrong_cohort": 36,
+    "full_A_exposed": 36
+  },
+  "matched_atomic_only_refits": {
+    "at_R_all": 6,
+    "dedup_key": "model, layer, exact sample fact identities, objective, representation; same-layer arms share head",
+    "fixed": 6,
+    "maximum_distinct": 12
+  },
+  "per_model": {
+    "llama": 320,
+    "qwen": 280
+  },
+  "post_fold_repair_refits": {
+    "R_all": 6,
+    "at_S_all": 6,
+    "dedup_key": "model, selected layer, sample exact allocation, objective, preprocessing, representation",
+    "fixed": 6,
+    "maximum_distinct": 18
+  },
+  "production_started": false,
+  "repair_all_layer_full_A_refits_not_required": true,
+  "repair_fold_fits": 900,
+  "stage": "preparation_only",
+  "unimplemented_production": [
+    "v5 membership/representation gate",
+    "all-layer bank orchestration and score binding",
+    "original S_all/R_all eligibility/fallback orchestration",
+    "C_clean P-preprocessing adapter",
+    "B25 identity and fold assembler",
+    "full transfer/decision/composition evaluator",
+    "paired B25 inference and cross-model effects",
+    "behavior/chat"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "P_A_frozen": false,
+  "bank_ids_checked": 600,
+  "base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "benchmark_cases": 18,
+  "benchmark_valid": 18,
+  "common_checkpoint_sha": null,
+  "conditional_fit_files_and_parameters_verified": 36,
+  "current_code_dependencies_match_frozen_config": true,
+  "fold_ids_checked": 900,
+  "per_model": {
+    "llama": 320,
+    "qwen": 280
+  },
+  "production_executable": false,
+  "schema_rows_checked": 2426,
+  "status": "passed",
+  "timing_external": {
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_llama_l2_logistic.json": {
+      "bytes": 5403,
+      "sha256": "5a5e89e29e334bc152ce74c8c121cf1effd049626b3e93f845fd9355f2349833"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_llama_mass_mean_covariance.json": {
+      "bytes": 4801,
+      "sha256": "dca2ff1b09c16b91edd6e0ba7a0402b2fcbacd4efa1c25304b8c9b29ed3f1233"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_llama_r0.json": {
+      "bytes": 5499,
+      "sha256": "13e39456e1025fac70c87e33b6629cfef711096a6de9199a1051ccfd6a742bbf"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_qwen_l2_logistic.json": {
+      "bytes": 5410,
+      "sha256": "543d0bdf9739884f8025b35f796183e5a3e11b65eea3d33377f95b87725ff5bb"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_qwen_mass_mean_covariance.json": {
+      "bytes": 4809,
+      "sha256": "6869a13e315f34d9e92697251a3333b8c8323c4a21f70fc001cf968139b0c40d"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/historical_qwen_r0.json": {
+      "bytes": 5510,
+      "sha256": "4164c4f450fb705f69c7aa0835de953fa35ae7153cb5cb2e7e0f315e906fd119"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/small_qwen_l2_logistic.json": {
+      "bytes": 3537,
+      "sha256": "7873371b85e778ab7b735c0db24f42113b5ed08842d072f3881dc887e73c2240"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/small_qwen_mass_mean_covariance.json": {
+      "bytes": 2936,
+      "sha256": "70e0ff007daa736922269834b5420a82c10aa3e3b7ce53f6b05646ddd5e01600"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/small_qwen_r0.json": {
+      "bytes": 3635,
+      "sha256": "01dc6d2beb5925ad6f8432b48d4e2c3598d823d54274d8dbb8c94c432eaca7db"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/small_qwen_synthetic_compound_objective.json": {
+      "bytes": 3391,
+      "sha256": "74a9f03607ddf1d4bf6b2f5bfd27f89e99977d4250b778cc7af58af9f9982f3d"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/summary.json": {
+      "bytes": 80664,
+      "sha256": "4a227a417edd1a19cc0af16180d37599da1a8141ff2f8e861463143037deeb43"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_llama_l2_logistic.json": {
+      "bytes": 3554,
+      "sha256": "c350ea99cb08b2d070b38d0da15983adb9a07aa46765dad12210c957917cdc48"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_llama_mass_mean_covariance.json": {
+      "bytes": 2950,
+      "sha256": "e602bf5414250c5157a12855fef182cccddaed85763cf8da0583cc9aaed3019b"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_llama_r0.json": {
+      "bytes": 3648,
+      "sha256": "3715cc86f396845066cf0532c742bb402e12686536b2cc1d9f43c8a89a5a4f94"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_llama_synthetic_compound_objective.json": {
+      "bytes": 3400,
+      "sha256": "1349f2a82f7db850c3799eb2f9a1f75202e4f4984e648d5d378e12854efaf957"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_qwen_l2_logistic.json": {
+      "bytes": 3548,
+      "sha256": "d4e13a421e5d0952135ee5e678d6065a676c8ba40c5e71a332a826b1d9832767"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_qwen_mass_mean_covariance.json": {
+      "bytes": 2949,
+      "sha256": "8cc49e7903f20337e6dbb7e6563c6b4541ccdfa3eb4fda1eb766986f0cddb0b9"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_qwen_r0.json": {
+      "bytes": 3649,
+      "sha256": "fc45a193890fa336d33bc7e9913d40f8493903f934a5b7e92287190b24348da4"
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-timings-v1-20261002/synthetic_qwen_synthetic_compound_objective.json": {
+      "bytes": 3398,
+      "sha256": "6e717fedba03f986710c0dcd523fbb92fddf826484b3ec0b31a835586af635da"
+    }
+  }
+}

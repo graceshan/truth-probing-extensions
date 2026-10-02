@@ -1,0 +1,43 @@
+{
+  "bounds_depend_on": "All reuse/bridge gates pass; comparable hardware/software; no severe optimization tail; serial fits, layer streaming; no GPU/extraction costs; chat CPU fits are an additional shape-scaled scenario",
+  "chat_CPU_scenario_seconds": [
+    8.297591182849818,
+    82.97591182849817
+  ],
+  "convergence_tail": "10000-iteration caps can exceed these planning scenarios by orders of magnitude; stop for cost review if representative production fits exceed scenario rather than relaxing convergence or silently dropping fits",
+  "estimated_new_raw_core_fits_upper": 1810,
+  "fitting_high_seconds": 10307.739927882803,
+  "fitting_low_seconds": 1167.3222253920983,
+  "memory": {
+    "local_RAM_bytes": 34359738368,
+    "logical_CPUs": 10,
+    "measured_max_RSS_bytes": 1013432320,
+    "note": "8 GiB is a planning ceiling for streamed larger blocks, not a measured production peak; avoid all-layer/all-score materialization",
+    "planned_processes": 1,
+    "provisional_per_worker_budget_bytes": 8589934592
+  },
+  "no_production_fit_started": true,
+  "optional_Prompt1_chat_CPU_fits": 8,
+  "raw_core_scenario_hours": [
+    0.8242561737200274,
+    4.863261091078556
+  ],
+  "serial_single_BLAS_thread": true,
+  "status": "conditional_planning_scenario_not_production_runtime_measurement",
+  "total_CPU_with_chat_scenario_hours": [
+    0.8265610601597079,
+    4.886309955475362
+  ],
+  "unmeasured": [
+    "all five Cs across all layers",
+    "actual mixed TC/constituent condition numbers",
+    "actual repair A blocks and fold/refit convergence",
+    "production score output IO",
+    "all B25/transfer bootstrap tables",
+    "chat fits"
+  ],
+  "unmeasured_io_scoring_bootstrap_reserve_seconds": [
+    1800,
+    7200
+  ]
+}

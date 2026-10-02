@@ -1,0 +1,104 @@
+{
+  "P_A_frozen": false,
+  "artifacts": {
+    "config/clean_protocol/checkpoint_r2_cpu_preflight_v1.json": {
+      "bytes": 6625,
+      "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+    },
+    "docs/checkpoint_r2_cpu_preflight_v1.md": {
+      "bytes": 21877,
+      "sha256": "50dc2865cff8a27a4d34b4385644d104b1acbbabf678f0cbf6e0f788c079cfa3"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/bank_candidates.csv": {
+      "bytes": 63615,
+      "sha256": "c8e5064214f4c4753b3c138f5a541d94ae732c041cf0be911893aafae2d2ea31"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/conditional_reuse.json": {
+      "bytes": 90135,
+      "sha256": "16dd6da0b155389dfb32466e9239f75e4a93d9c537d96ef8ba1b25746c46f4b1"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/cpu_cost_assumptions.json": {
+      "bytes": 1736,
+      "sha256": "f96ee3e57104f48b1f2e6ab95a7e99b44291a6af4079cde148d18667ad5c8a50"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/cpu_cost_scenarios.csv": {
+      "bytes": 3039,
+      "sha256": "6ee2b39281e5ef584769a61d1072dfec079d0594b11bb3354680473536ea62a7"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/execution_inventory.json": {
+      "bytes": 2563,
+      "sha256": "fdd0aed7b263163b87f4acd13ec90e169508961d8e95af54cd9447c2347bbc92"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/planned_repair_folds.csv": {
+      "bytes": 88423,
+      "sha256": "f45d0df024e4c1d035f7b6a7b10c7836f1c1590fa4389c86190a5465f50ecb96"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/preparation_validation.json": {
+      "bytes": 4557,
+      "sha256": "2ebac0e700d8e79303d0a848c0db9e54d0729ad9aec97c6aac2fc321ac7cbd7d"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/result_schema.json": {
+      "bytes": 4066,
+      "sha256": "00a3795f328c9e9a19e7804fb34df289501b557a6182c7251a4f221e804e026e"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/reusable_components_and_inputs.json": {
+      "bytes": 22238,
+      "sha256": "abfbff1c8907f99f4715542303f177f2274f8369154c1ec959411d03e2ff09e3"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/timing_summary.json": {
+      "bytes": 80664,
+      "sha256": "4a227a417edd1a19cc0af16180d37599da1a8141ff2f8e861463143037deeb43"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/timings.csv": {
+      "bytes": 4256,
+      "sha256": "59c9d804039016a8e639e75f7711748a9cf3682f94434a83c2c096dce07a3a83"
+    },
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/unrun_result_templates.csv": {
+      "bytes": 597432,
+      "sha256": "05b8ff83182e7530adfe65f9a6d9ee0b70654172066017238e45950c6a30e1ac"
+    },
+    "scripts/66_checkpoint_r2_cpu_preflight.py": {
+      "bytes": 8201,
+      "sha256": "56d5d9c74e836e49feb19559778853349ddb567520cbc949eeb5c7982fe5ec8b"
+    },
+    "scripts/67_checkpoint_r2_preparation_checks.py": {
+      "bytes": 9613,
+      "sha256": "82c74ecbf206c3ca5a6a41fc7eaca793d7d3ea865379141c9c7633049b8b94fb"
+    },
+    "src/checkpoint_r2_cpu_preflight_v1.py": {
+      "bytes": 11133,
+      "sha256": "4b38c6f02cd29ba8c6d04e4efd1d53c2dcc3881e75b7097b2725efcc2c534db5"
+    },
+    "src/checkpoint_r2_result_schema_v1.py": {
+      "bytes": 8372,
+      "sha256": "44b6632b5736373fc4d4ec548c0d7811f5881ca2f74659f820184c411d95a6c7"
+    },
+    "src/checkpoint_r2_selection_v1.py": {
+      "bytes": 10980,
+      "sha256": "6293094d79c003ff36753091dd8dcdaaf2804ea6d367d171292ff65052906bfc"
+    },
+    "tests/test_checkpoint_r2_selection_v1.py": {
+      "bytes": 8683,
+      "sha256": "733c049284da168a0b32b7caf90807ad3059c21290ab18f015031c98ceb3f089"
+    }
+  },
+  "base_sha": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "branch": "checkpoint-r2-cpu-preflight-20261002",
+  "common_checkpoint_sha": null,
+  "document_read": "Supplied Revision 2 read in full; its hash is pinned in configuration",
+  "fetch_completed": true,
+  "focused_tests": {
+    "passed": 62,
+    "warning_kind": "existing sklearn penalty deprecation",
+    "warnings": 2
+  },
+  "git_diff_check": "passed",
+  "historical_tracked_files_changed": 0,
+  "hostname": "MacBook-Pro-7.lan",
+  "inventory_checks": "600 candidates, 900 folds, 36 conditional saved fits, 18 diagnostic checkpoints",
+  "moving_tip_merges": false,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "predeclared_configuration_commit": "55e489388c7021e4a7e43e939346d8e8e94f3b30",
+  "production_started": false,
+  "worktree": "/Users/apple/projects/checkpoint-r2-cpu-preflight-20261002"
+}

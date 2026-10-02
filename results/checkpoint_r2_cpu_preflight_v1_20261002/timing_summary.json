@@ -1,0 +1,2033 @@
+{
+  "base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "cases": [
+    {
+      "C": 1.0,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 158351360,
+      "case": "small:qwen:l2_logistic",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 10,
+        "finite": true,
+        "gradient_infinity_norm": 2.9239572639908062e-05,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 10,
+        "initial_warning_messages": "[]",
+        "library_warnings": [
+          "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+        ],
+        "n_iter": 10,
+        "objective": 0.3789101204477914,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 160,
+      "input_binding": {
+        "A_sha256": "ac7c4cc85f3c6a1aabdfae8dac29e98105cda2b7b153b57bb6d0e35f71b52c30",
+        "X_sha256": "1e8d231e883776826b9851e18eb9de7f6d0baae3ee1fd4b1bd350a19ac5b0118",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "438ec02683fffb3cde39acf9dc641d18f91e221f40fd84d9dc9252b6d54b6073"
+      },
+      "kind": "small",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "l2_logistic",
+      "model": "qwen",
+      "parameter_bytes": 200,
+      "params_saved": false,
+      "peak_process_rss_bytes": 159170560,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.008566292002797127,
+      "wall_total_seconds": 0.01974208327010274,
+      "width": 24
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 156090368,
+      "case": "small:qwen:r0",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 10,
+            "gradient_infinity_norm": 4.647694209263869e-05,
+            "initial_objective": 0.6931471805599453,
+            "iterations": 9,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.3619553723701793,
+            "relative_objective_change": 1.0685271554788933e-06,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+        "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "preprocessing_fit_rows": 160,
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 160,
+      "input_binding": {
+        "A_sha256": "ac7c4cc85f3c6a1aabdfae8dac29e98105cda2b7b153b57bb6d0e35f71b52c30",
+        "X_sha256": "1e8d231e883776826b9851e18eb9de7f6d0baae3ee1fd4b1bd350a19ac5b0118",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "438ec02683fffb3cde39acf9dc641d18f91e221f40fd84d9dc9252b6d54b6073"
+      },
+      "kind": "small",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "r0",
+      "model": "qwen",
+      "parameter_bytes": 1000,
+      "params_saved": false,
+      "peak_process_rss_bytes": 156811264,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.0015726671554148197,
+      "wall_total_seconds": 0.009214959107339382,
+      "width": 24
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 157532160,
+      "case": "small:qwen:mass_mean_covariance",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence": "closed_form_not_iterative",
+        "covariance_divisor": 160,
+        "covariance_rank_retained": 24,
+        "finite": true,
+        "fit_rows": 160,
+        "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+        "intercept": "none in upstream iid MM readout",
+        "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 160,
+      "input_binding": {
+        "A_sha256": "ac7c4cc85f3c6a1aabdfae8dac29e98105cda2b7b153b57bb6d0e35f71b52c30",
+        "X_sha256": "1e8d231e883776826b9851e18eb9de7f6d0baae3ee1fd4b1bd350a19ac5b0118",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "438ec02683fffb3cde39acf9dc641d18f91e221f40fd84d9dc9252b6d54b6073"
+      },
+      "kind": "small",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "mass_mean_covariance",
+      "model": "qwen",
+      "parameter_bytes": 976,
+      "params_saved": false,
+      "peak_process_rss_bytes": 158580736,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.0041021667420864105,
+      "wall_total_seconds": 0.012114416807889938,
+      "width": 24
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 64,
+      "baseline_process_peak_rss_bytes": 156352512,
+      "case": "small:qwen:synthetic_compound_objective",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 11,
+            "gradient_infinity_norm": 2.1119106623066278e-05,
+            "initial_objective": 0.6931471805599453,
+            "iterations": 10,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.3658172812849194,
+            "relative_objective_change": 2.3361547479838762e-07,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "objective": "unchanged half P + half synthetic A + .001 norm squared",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 160,
+      "input_binding": {
+        "A_sha256": "ac7c4cc85f3c6a1aabdfae8dac29e98105cda2b7b153b57bb6d0e35f71b52c30",
+        "X_sha256": "1e8d231e883776826b9851e18eb9de7f6d0baae3ee1fd4b1bd350a19ac5b0118",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "438ec02683fffb3cde39acf9dc641d18f91e221f40fd84d9dc9252b6d54b6073"
+      },
+      "kind": "small",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "synthetic_compound_objective",
+      "model": "qwen",
+      "parameter_bytes": 192,
+      "params_saved": false,
+      "peak_process_rss_bytes": 156958720,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.0016337912529706955,
+      "wall_total_seconds": 0.009129874873906374,
+      "width": 24
+    },
+    {
+      "C": 1.0,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 157696000,
+      "case": "synthetic:qwen:l2_logistic",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 9,
+        "finite": true,
+        "gradient_infinity_norm": 8.210555655345031e-05,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 9,
+        "initial_warning_messages": "[]",
+        "library_warnings": [
+          "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+        ],
+        "n_iter": 9,
+        "objective": 0.011380833298089671,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ec1bbbd61f795c1bd392434b9a563d2f2800d0b69bbd9b964836f85977e2625e",
+        "X_sha256": "0b69bdce33cb5fed9a20033420477d14fe18f0606fc14d195d47563328d110b0",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "afe39898b395f8b2a1a39da92f285a1c02e31b69da907ddd56980fcb3067a1d3"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "l2_logistic",
+      "model": "qwen",
+      "parameter_bytes": 28680,
+      "params_saved": false,
+      "peak_process_rss_bytes": 347275264,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.055449292063713074,
+      "wall_total_seconds": 0.18982658302411437,
+      "width": 3584
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 156680192,
+      "case": "synthetic:qwen:r0",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 15,
+            "gradient_infinity_norm": 4.8983078351097124e-05,
+            "initial_objective": 0.6931471805599447,
+            "iterations": 14,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.037165542065267274,
+            "relative_objective_change": 1.3553500259229356e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+        "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "preprocessing_fit_rows": 2778,
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ec1bbbd61f795c1bd392434b9a563d2f2800d0b69bbd9b964836f85977e2625e",
+        "X_sha256": "0b69bdce33cb5fed9a20033420477d14fe18f0606fc14d195d47563328d110b0",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "afe39898b395f8b2a1a39da92f285a1c02e31b69da907ddd56980fcb3067a1d3"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "r0",
+      "model": "qwen",
+      "parameter_bytes": 146960,
+      "params_saved": false,
+      "peak_process_rss_bytes": 586072064,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.41285112500190735,
+      "wall_total_seconds": 0.5356407081708312,
+      "width": 3584
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 156221440,
+      "case": "synthetic:qwen:mass_mean_covariance",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence": "closed_form_not_iterative",
+        "covariance_divisor": 2778,
+        "covariance_rank_retained": 2776,
+        "finite": true,
+        "fit_rows": 2778,
+        "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+        "intercept": "none in upstream iid MM readout",
+        "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ec1bbbd61f795c1bd392434b9a563d2f2800d0b69bbd9b964836f85977e2625e",
+        "X_sha256": "0b69bdce33cb5fed9a20033420477d14fe18f0606fc14d195d47563328d110b0",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "afe39898b395f8b2a1a39da92f285a1c02e31b69da907ddd56980fcb3067a1d3"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "mass_mean_covariance",
+      "model": "qwen",
+      "parameter_bytes": 143376,
+      "params_saved": false,
+      "peak_process_rss_bytes": 783990784,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 17.920255625154823,
+      "wall_total_seconds": 18.037957957945764,
+      "width": 3584
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 320,
+      "baseline_process_peak_rss_bytes": 156467200,
+      "case": "synthetic:qwen:synthetic_compound_objective",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 16,
+            "gradient_infinity_norm": 7.49117675958327e-05,
+            "initial_objective": 0.693147180559945,
+            "iterations": 15,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.03706766919613383,
+            "relative_objective_change": 3.777558238696188e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "objective": "unchanged half P + half synthetic A + .001 norm squared",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ec1bbbd61f795c1bd392434b9a563d2f2800d0b69bbd9b964836f85977e2625e",
+        "X_sha256": "0b69bdce33cb5fed9a20033420477d14fe18f0606fc14d195d47563328d110b0",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "afe39898b395f8b2a1a39da92f285a1c02e31b69da907ddd56980fcb3067a1d3"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "synthetic_compound_objective",
+      "model": "qwen",
+      "parameter_bytes": 28672,
+      "params_saved": false,
+      "peak_process_rss_bytes": 516685824,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.29230566695332527,
+      "wall_total_seconds": 0.4093672498129308,
+      "width": 3584
+    },
+    {
+      "C": 10.0,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 157892608,
+      "case": "synthetic:llama:l2_logistic",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 11,
+        "finite": true,
+        "gradient_infinity_norm": 3.025677232461892e-05,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 11,
+        "initial_warning_messages": "[]",
+        "library_warnings": [
+          "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+        ],
+        "n_iter": 11,
+        "objective": 0.0017616150226309566,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ce68839cbf130b4e7065e07531a6f0484e1b8aa34fa8b4b215ce21f42248da32",
+        "X_sha256": "d0d12ed72c7802633e80cb2da6fb01d69b4c56dbdd1f2ae538cf747a13323729",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "b340cabf61bc45aa4299c1fdbea2b061fbbfb2257d151d8821abc34c3a7114dd"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "l2_logistic",
+      "model": "llama",
+      "parameter_bytes": 32776,
+      "params_saved": false,
+      "peak_process_rss_bytes": 374931456,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.07656154222786427,
+      "wall_total_seconds": 0.20786291593685746,
+      "width": 4096
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 158662656,
+      "case": "synthetic:llama:r0",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 14,
+            "gradient_infinity_norm": 7.752242180888649e-05,
+            "initial_objective": 0.6931471805599447,
+            "iterations": 13,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.03341820166060237,
+            "relative_objective_change": 2.7643324887735576e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+        "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "preprocessing_fit_rows": 2778,
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ce68839cbf130b4e7065e07531a6f0484e1b8aa34fa8b4b215ce21f42248da32",
+        "X_sha256": "d0d12ed72c7802633e80cb2da6fb01d69b4c56dbdd1f2ae538cf747a13323729",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "b340cabf61bc45aa4299c1fdbea2b061fbbfb2257d151d8821abc34c3a7114dd"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "r0",
+      "model": "llama",
+      "parameter_bytes": 167952,
+      "params_saved": false,
+      "peak_process_rss_bytes": 647299072,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.5061237500049174,
+      "wall_total_seconds": 0.6384216668084264,
+      "width": 4096
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 157204480,
+      "case": "synthetic:llama:mass_mean_covariance",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence": "closed_form_not_iterative",
+        "covariance_divisor": 2778,
+        "covariance_rank_retained": 2776,
+        "finite": true,
+        "fit_rows": 2778,
+        "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+        "intercept": "none in upstream iid MM readout",
+        "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ce68839cbf130b4e7065e07531a6f0484e1b8aa34fa8b4b215ce21f42248da32",
+        "X_sha256": "d0d12ed72c7802633e80cb2da6fb01d69b4c56dbdd1f2ae538cf747a13323729",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "b340cabf61bc45aa4299c1fdbea2b061fbbfb2257d151d8821abc34c3a7114dd"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "mass_mean_covariance",
+      "model": "llama",
+      "parameter_bytes": 163856,
+      "params_saved": false,
+      "peak_process_rss_bytes": 926105600,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 28.80711037479341,
+      "wall_total_seconds": 28.938573916908354,
+      "width": 4096
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 320,
+      "baseline_process_peak_rss_bytes": 156729344,
+      "case": "synthetic:llama:synthetic_compound_objective",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 18,
+            "gradient_infinity_norm": 6.907265159770428e-05,
+            "initial_objective": 0.693147180559945,
+            "iterations": 17,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.03348809174366596,
+            "relative_objective_change": 4.32444390486425e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "objective": "unchanged half P + half synthetic A + .001 norm squared",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "A_sha256": "ce68839cbf130b4e7065e07531a6f0484e1b8aa34fa8b4b215ce21f42248da32",
+        "X_sha256": "d0d12ed72c7802633e80cb2da6fb01d69b4c56dbdd1f2ae538cf747a13323729",
+        "scope": "synthetic_diagnostic_only",
+        "seed": 20261002,
+        "y_sha256": "b340cabf61bc45aa4299c1fdbea2b061fbbfb2257d151d8821abc34c3a7114dd"
+      },
+      "kind": "synthetic",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "synthetic_compound_objective",
+      "model": "llama",
+      "parameter_bytes": 32768,
+      "params_saved": false,
+      "peak_process_rss_bytes": 567132160,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "synthetic_timing_not_research_fit",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.40501466719433665,
+      "wall_total_seconds": 0.5414119581691921,
+      "width": 4096
+    },
+    {
+      "C": 1.0,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 157024256,
+      "case": "historical:qwen:l2_logistic",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 41,
+        "finite": true,
+        "gradient_infinity_norm": 8.781197123423785e-05,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 41,
+        "initial_warning_messages": "[]",
+        "library_warnings": [
+          "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+        ],
+        "n_iter": 41,
+        "objective": 0.0014428063167807165,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 21848192,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 21848192,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+              "shape": [
+                3048,
+                3584
+              ]
+            },
+            "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 631013504,
+              "header": {
+                "computed_file_bytes": 631013504,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  28,
+                  3584
+                ],
+                "version": [
+                  2,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+              "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "l2_logistic",
+      "model": "qwen",
+      "parameter_bytes": 28680,
+      "params_saved": false,
+      "peak_process_rss_bytes": 453525504,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.2080945409834385,
+      "wall_total_seconds": 0.5139973750337958,
+      "width": 3584
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 158171136,
+      "case": "historical:qwen:r0",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 22,
+            "gradient_infinity_norm": 9.887248445467596e-05,
+            "initial_objective": 0.6931471805599447,
+            "iterations": 21,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0020266383857920076,
+            "relative_objective_change": 2.9216463799764097e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+        "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "preprocessing_fit_rows": 2778,
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 21848192,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 21848192,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+              "shape": [
+                3048,
+                3584
+              ]
+            },
+            "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 631013504,
+              "header": {
+                "computed_file_bytes": 631013504,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  28,
+                  3584
+                ],
+                "version": [
+                  2,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+              "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "r0",
+      "model": "qwen",
+      "parameter_bytes": 146960,
+      "params_saved": false,
+      "peak_process_rss_bytes": 658276352,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.43110412498936057,
+      "wall_total_seconds": 0.7322809998877347,
+      "width": 3584
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 158760960,
+      "case": "historical:qwen:mass_mean_covariance",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence": "closed_form_not_iterative",
+        "covariance_divisor": 2778,
+        "covariance_rank_retained": 2369,
+        "finite": true,
+        "fit_rows": 2778,
+        "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+        "intercept": "none in upstream iid MM readout",
+        "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 21848192,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 21848192,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+              "shape": [
+                3048,
+                3584
+              ]
+            },
+            "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 631013504,
+              "header": {
+                "computed_file_bytes": 631013504,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  28,
+                  3584
+                ],
+                "version": [
+                  2,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+              "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "mass_mean_covariance",
+      "model": "qwen",
+      "parameter_bytes": 143376,
+      "params_saved": false,
+      "peak_process_rss_bytes": 863944704,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 17,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 6.797239291947335,
+      "wall_total_seconds": 7.0621394999325275,
+      "width": 3584
+    },
+    {
+      "C": 10.0,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 154697728,
+      "case": "historical:llama:l2_logistic",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence_warning": false,
+        "final_converged": true,
+        "final_convergence_status": "converged",
+        "final_max_iter": 2000,
+        "final_n_iter": 22,
+        "finite": true,
+        "gradient_infinity_norm": 6.299293535458819e-05,
+        "initial_convergence_warning": false,
+        "initial_max_iter": 2000,
+        "initial_n_iter": 22,
+        "initial_warning_messages": "[]",
+        "library_warnings": [
+          "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+        ],
+        "n_iter": 22,
+        "objective": 0.004842195989846513,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "raw_gradient_target_met": true,
+        "retry_needed": false,
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 24969344,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 24969344,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+              "shape": [
+                3048,
+                4096
+              ]
+            },
+            "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 824180864,
+              "header": {
+                "computed_file_bytes": 824180864,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  32,
+                  4096
+                ],
+                "version": [
+                  1,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+              "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "l2_logistic",
+      "model": "llama",
+      "parameter_bytes": 32776,
+      "params_saved": false,
+      "peak_process_rss_bytes": 468156416,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.13958054082468152,
+      "wall_total_seconds": 0.44307070784270763,
+      "width": 4096
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 156729344,
+      "case": "historical:llama:r0",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "attempts": [
+          {
+            "finite_gradient": true,
+            "finite_objective": true,
+            "finite_parameters": true,
+            "function_evaluations": 31,
+            "gradient_infinity_norm": 9.413794380757651e-05,
+            "initial_objective": 0.6931471805599447,
+            "iterations": 28,
+            "library_success": true,
+            "maximum_iterations": 2000,
+            "objective": 0.0023688092155309997,
+            "relative_objective_change": 2.265526071121987e-05,
+            "status": "converged",
+            "termination_code": 0,
+            "termination_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ],
+        "full_cohort_policy": "full-cohort R0 is A-exposed diagnostic; preprocessing fitted on this cohort only",
+        "objective": "mean BCE on fitting cohort + 0.001*sum(standardized_w**2); free intercept",
+        "preprocessing": "float64; ddof=0; denominator=max(std,1e-6); zero-P-variance outputs zero",
+        "preprocessing_fit_rows": 2778,
+        "settings": {
+          "gradient_tolerance": 0.0001,
+          "initial_max_iterations": 2000,
+          "total_max_iterations": 10000
+        },
+        "status": "converged",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 24969344,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 24969344,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+              "shape": [
+                3048,
+                4096
+              ]
+            },
+            "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 824180864,
+              "header": {
+                "computed_file_bytes": 824180864,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  32,
+                  4096
+                ],
+                "version": [
+                  1,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+              "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "r0",
+      "model": "llama",
+      "parameter_bytes": 167952,
+      "params_saved": false,
+      "peak_process_rss_bytes": 711950336,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "P-only mean/population std with floor and constant mask",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 0.6382365832105279,
+      "wall_total_seconds": 0.9412430417723954,
+      "width": 4096
+    },
+    {
+      "C": null,
+      "CPU_processes": 1,
+      "D_metrics_computed": false,
+      "adaptation_rows": 0,
+      "baseline_process_peak_rss_bytes": 159694848,
+      "case": "historical:llama:mass_mean_covariance",
+      "common_checkpoint_sha": null,
+      "config": {
+        "bytes": 6625,
+        "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+      },
+      "details": {
+        "convergence": "closed_form_not_iterative",
+        "covariance_divisor": 2778,
+        "covariance_rank_retained": 699,
+        "finite": true,
+        "fit_rows": 2778,
+        "formula": "pinv(within_class_covariance, atol=1e-3, rtol=0) @ (mu1-mu0)",
+        "intercept": "none in upstream iid MM readout",
+        "sign_orientation": "PSD inverse of true-minus-false; no sign flip",
+        "valid_for_scoring": true
+      },
+      "dtype": "float64",
+      "fitting_rows": 2778,
+      "input_binding": {
+        "D_or_E_arrays_loaded": false,
+        "export": {
+          "bytes": 24969344,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7"
+        },
+        "export_receipt": {
+          "bytes": 498390,
+          "sha256": "16e136b368d35c02173e0a512a742267f0f3fc260c3293c5096526913a834da3"
+        },
+        "fitting_identity": {
+          "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+          "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+          "layer_binding": {
+            "export": {
+              "bytes": 24969344,
+              "dtype": "<f2",
+              "fortran_order": false,
+              "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+              "shape": [
+                3048,
+                4096
+              ]
+            },
+            "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+            "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+            "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+            "source": {
+              "bytes": 824180864,
+              "header": {
+                "computed_file_bytes": 824180864,
+                "dtype": "<f2",
+                "fortran_order": false,
+                "header_bytes": 128,
+                "shape": [
+                  3144,
+                  32,
+                  4096
+                ],
+                "version": [
+                  1,
+                  0
+                ]
+              },
+              "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+              "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+              "stable_during_read": true
+            }
+          },
+          "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+          "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+        },
+        "mapping": {
+          "bytes": 1462634,
+          "sha256": "c9708b6dc930dce43275fe0532e089e96f3b3eb53059e7df978a534d1cf413dd"
+        },
+        "scope": "historical_v4_P15_diagnostic_only"
+      },
+      "kind": "historical",
+      "memory_note": "Darwin ru_maxrss is bytes; fresh process per case; peak includes input loading, float64 arrays and workspaces",
+      "method": "mass_mean_covariance",
+      "model": "llama",
+      "parameter_bytes": 163856,
+      "params_saved": false,
+      "peak_process_rss_bytes": 1013432320,
+      "preparation_base": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "preprocessing": "none; covariance-MM uses cohort within-class centering and absolute pinv cutoff 1e-3",
+      "runtime": {
+        "numpy": "2.4.6",
+        "python": "3.11.6",
+        "scipy": "1.17.1",
+        "sklearn": "1.9.1"
+      },
+      "saved_layer": 15,
+      "scope": "historical_v4_P15_timing_not_production",
+      "status": "converged",
+      "threads": [
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/numpy/.dylibs/libscipy_openblas64_.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.31.188.0"
+        },
+        {
+          "architecture": "neoversen1",
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/scipy/.dylibs/libscipy_openblas.dylib",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "/private/tmp/clean-extraction-venv/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "wall_fit_including_preprocessing_seconds": 10.114523583091795,
+      "wall_total_seconds": 10.413404167164117,
+      "width": 4096
+    }
+  ],
+  "common_checkpoint_sha": null,
+  "config": {
+    "bytes": 6625,
+    "sha256": "d049f6b0cb84be8215463535fc399f486e72eebee4e81a7408135c0022cf2efa"
+  },
+  "elapsed_seconds": 84.12140337517485,
+  "hostname": "MacBook-Pro-7.lan",
+  "loader": {
+    "bytes": 11133,
+    "sha256": "4b38c6f02cd29ba8c6d04e4efd1d53c2dcc3881e75b7097b2725efcc2c534db5"
+  },
+  "production_started": false,
+  "runner": {
+    "bytes": 8201,
+    "sha256": "56d5d9c74e836e49feb19559778853349ddb567520cbc949eeb5c7982fe5ec8b"
+  }
+}
