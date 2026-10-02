@@ -1,0 +1,79 @@
+{
+  "delivery_sha256": "6b7169232e7d31adcf69abde2c0007eecd3fe7224f21c940f805d045b4ceeaa2",
+  "files_verified": 1174,
+  "handoff": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized",
+  "historical_compatibility": "unverified; no historical parameters/statistics/conditional matches admitted",
+  "hostname": "MacBook-Pro-7.lan",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "listed_bytes": 16919772945,
+  "manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "memberships": {
+    "conditional_P15_reuse_matches": 36,
+    "counts": {
+      "A15": 75,
+      "P15": 2778,
+      "TC": 100,
+      "atomic_D": 1012,
+      "balanced": 700,
+      "compound_D_pairs": 483,
+      "outer_train": 3040
+    },
+    "historical_fit_provenance": "v4",
+    "historical_fits_newly_admitted": 0,
+    "ordered_v4_v5_equivalence_hashes": {
+      "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+      "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+      "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+      "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+    },
+    "rebuild_manifest_runtime_annotation": {
+      "all_frozen_data_output_bytes_identical": true,
+      "all_other_manifest_fields_identical": true,
+      "frozen_numpy": "2.4.6",
+      "local_numpy": "1.26.2"
+    },
+    "upstream_metadata_rebuilt": true
+  },
+  "models": {
+    "llama": {
+      "all_tokens_bindings_layer_conventions_verified": true,
+      "all_values_finite": true,
+      "dtype": "float16",
+      "index_sha256": "161dadcf22e96c981554786f43533f94e55f6d1b1b3c677e07cb3d5a39eb7395",
+      "layers": 32,
+      "ordered_logical_bindings": 41490,
+      "representation_provenance_verified": true,
+      "runtime_origin_sha256": "d05ae05c40b9562cd1847eec0e27318048339ac968368d41fe7ad911459c390f",
+      "shards": 113,
+      "unique_texts": 35843,
+      "width": 4096
+    },
+    "qwen": {
+      "all_tokens_bindings_layer_conventions_verified": true,
+      "all_values_finite": true,
+      "dtype": "float16",
+      "index_sha256": "6e54fa38d94bdc181ea7f87e0ab5b36d3344c20c166615b33f217eff17776f9e",
+      "layers": 28,
+      "ordered_logical_bindings": 41490,
+      "representation_provenance_verified": true,
+      "runtime_origin_sha256": "bbef6a72b1742dc7650320dec465da75fa5e636c274eddf9077e2732effbeca9",
+      "shards": 113,
+      "unique_texts": 35843,
+      "width": 3584
+    }
+  },
+  "output": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output",
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "replication": "independent review/re-execution on actual host; not a second physical-machine replication",
+  "reviewed_producer_commit": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+  "seconds": 57.087810167111456,
+  "status": "independently_accepted_full_fresh_raw",
+  "verify_output": {
+    "scientific_evaluation": false,
+    "status": "full_output_hashes_and_coverage_verified"
+  }
+}

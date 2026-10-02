@@ -1,0 +1,55 @@
+{
+  "TC_D_person_separation": true,
+  "all_A_variants_excluded": true,
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "distinct_text_rows": {
+    "D_bare": 7728,
+    "P15": 2778,
+    "TC_control_and_final_refit": 8000,
+    "atomic_D": 1006
+  },
+  "fresh_representation_only": true,
+  "group_rows": {
+    "D_bare": 7728,
+    "P15": 2778,
+    "TC_control_and_final_refit": 8000,
+    "atomic_D": 1012
+  },
+  "historical_matches_admitted": 0,
+  "memberships": {
+    "conditional_P15_reuse_matches": 36,
+    "counts": {
+      "A15": 75,
+      "P15": 2778,
+      "TC": 100,
+      "atomic_D": 1012,
+      "balanced": 700,
+      "compound_D_pairs": 483,
+      "outer_train": 3040
+    },
+    "historical_fit_provenance": "v4",
+    "historical_fits_newly_admitted": 0,
+    "ordered_v4_v5_equivalence_hashes": {
+      "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+      "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+      "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+      "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+    },
+    "upstream_metadata_rebuilt": false
+  },
+  "ordered_row_bindings": {
+    "D_bare": "be4f99bdce622e52bc8cee75471ebefcbcbddca89b6da89e30e6af6cce007e0b",
+    "P15": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+    "TC_control_and_final_refit": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+    "atomic_D": "f41cb58a32d239c7c39dd034f6734cbfe8c3db30e966af36d2ebe4d904c92cf1"
+  },
+  "source_rows": {
+    "D_bare": "b2352d4cfbe3cda232da07e57a2286c58459ac14f7c8048c97f0d6633e6956db",
+    "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+    "TC_control_and_final_refit": "e8b3bfbc8755ac9888becaa89992f100c2132fa9a574d48e742d1d5e51dd94b7",
+    "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98"
+  },
+  "status": "fresh_adapter_validated_no_fits"
+}

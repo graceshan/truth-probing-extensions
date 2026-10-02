@@ -1,0 +1,16 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /private/tmp/clean-extraction-venv/bin/python -B -m unittest tests.test_checkpoint_r2_fresh_recoverability -v",
+  "configuration_sha256": "60066e87d1caee3213fa351af9a9f0161be438de26b9a6a07738cdc1b3315e28",
+  "hostname": "MacBook-Pro-7.lan",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "real_fits_started": false,
+  "scope": "synthetic objective/solver and paired-evaluation integration; no real research fits",
+  "seconds": 0.21,
+  "source_sha256": {
+    "src/checkpoint_r2_fresh_adapter.py": "54905ef131ef1965597f702f2b0cc8b00b025a1fbd117ec08f6650388c3470a5",
+    "src/checkpoint_r2_fresh_recoverability.py": "96df8e41ff0273448f8696d9d8bf0d6cf333e5ae9eb8bde016783c86ac35d33d",
+    "tests/test_checkpoint_r2_fresh_recoverability.py": "cd6b96d87db76a5b30e497a0218c209195bc3c4fcd74edfe633a000c7750c388"
+  },
+  "status": "passed",
+  "tests": 17
+}

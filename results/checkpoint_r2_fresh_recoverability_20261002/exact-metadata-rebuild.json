@@ -1,0 +1,31 @@
+{
+  "hostname": "MacBook-Pro-7.lan",
+  "interpreter": "/private/tmp/r2-full-raw-prep-venv/bin/python",
+  "numpy": "2.4.6",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "receipt": {
+    "conditional_P15_reuse_matches": 36,
+    "counts": {
+      "A15": 75,
+      "P15": 2778,
+      "TC": 100,
+      "atomic_D": 1012,
+      "balanced": 700,
+      "compound_D_pairs": 483,
+      "outer_train": 3040
+    },
+    "historical_fit_provenance": "v4",
+    "historical_fits_newly_admitted": 0,
+    "ordered_v4_v5_equivalence_hashes": {
+      "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+      "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+      "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+      "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+      "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+    },
+    "upstream_metadata_rebuilt": true
+  },
+  "seconds": 1.8994576246477664,
+  "status": "all_frozen_metadata_bytes_reproduced"
+}
