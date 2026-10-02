@@ -1,0 +1,148 @@
+{
+  "branch": "checkpoint-r2-integration-20261002",
+  "integrated_base_git_sha": "0147f70197e6effcd30849d66b13493d6ef0934e",
+  "original_worktree_untouched": true,
+  "config_sha256": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+  "files": {
+    "config/checkpoint_r2/protocol_v1.json": {
+      "bytes": 13325,
+      "sha256": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661"
+    },
+    "data/checkpoint_r2_v1/B25_unused_entities.json": {
+      "bytes": 6303,
+      "sha256": "b674b92e501ce8fd0cd8a5329c54ecd08c2199db7828032efb5e41d148e6ad8e"
+    },
+    "data/checkpoint_r2_v1/behavior_isolated_bindings.json": {
+      "bytes": 36803,
+      "sha256": "022676f1017fdb26d802c3105bd51b31545c964eff1fcd6c54fc6500cdd51831"
+    },
+    "data/checkpoint_r2_v1/behavior_pairs.json": {
+      "bytes": 3753,
+      "sha256": "d3cb2c230dd39f1a1c75a54bbc350ca96e6cac19e0ef4f95410d48d565e8eb5c"
+    },
+    "data/checkpoint_r2_v1/bridge_identities.json": {
+      "bytes": 66790,
+      "sha256": "c5aedcb0df806541f5a624cea7ee40807bd3d436fd6751d78337c47aa4bc97b7"
+    },
+    "data/checkpoint_r2_v1/compound_bindings.csv": {
+      "bytes": 14081414,
+      "sha256": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f"
+    },
+    "data/checkpoint_r2_v1/constituent_split.csv": {
+      "bytes": 9562,
+      "sha256": "343689ed3a5ca2aeee71c123c8a735444698614dfab448729ab5528af64f9ff8"
+    },
+    "data/checkpoint_r2_v1/entities.json": {
+      "bytes": 48949,
+      "sha256": "e64ccfa01f8d77cea0c78e1ecf878489aaedd560d5857c958067b2582c746130"
+    },
+    "data/checkpoint_r2_v1/extraction_inventory.csv": {
+      "bytes": 25129282,
+      "sha256": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52"
+    },
+    "data/checkpoint_r2_v1/facts.json": {
+      "bytes": 654145,
+      "sha256": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500"
+    },
+    "data/checkpoint_r2_v1/manifest.json": {
+      "bytes": 6702,
+      "sha256": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca"
+    },
+    "data/checkpoint_r2_v1/memberships.json": {
+      "bytes": 5972452,
+      "sha256": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6"
+    },
+    "data/checkpoint_r2_v1/pair_groups.json": {
+      "bytes": 136965,
+      "sha256": "47c0501e421b2d51bd80e4deaf921f32397a223354d0fa8fb6c6ebb61117721b"
+    },
+    "data/checkpoint_r2_v1/pairs.json": {
+      "bytes": 620122,
+      "sha256": "e1fbc9c066e68a93cbda892e4c261caabd2e5576cea6fd9d626cb7c82bbae189"
+    },
+    "data/checkpoint_r2_v1/resource_estimates.json": {
+      "bytes": 2558,
+      "sha256": "02a6144e334be10af268ef6cb60b59f31d7c35dace88fa575c75e5cdd98f52ac"
+    },
+    "docs/checkpoint_r2/approved_revision_2.txt": {
+      "bytes": 45600,
+      "sha256": "c3d6fe1296b03857d881f242b8b8f4e2f5f09b205b8ef79f398bb0dc93a61648"
+    },
+    "docs/checkpoint_r2/early_handoff.md": {
+      "bytes": 13075,
+      "sha256": "fb7d0c6dc24865e978613254ce01d513affb6f7b6036bd60abf5e7f50775ac0c"
+    },
+    "docs/checkpoint_r2/inherited_october_revision_4.txt": {
+      "bytes": 89408,
+      "sha256": "dcb700f7a76eda02480c18e9a941f70c24cb3b3ac549fa823318d95d249e5178"
+    },
+    "docs/checkpoint_r2/protocol_amendment.md": {
+      "bytes": 12334,
+      "sha256": "6dd9dac2678940d9ab13c4564a2120ab199e521c3e3eb19b712d81c820f5b9ad"
+    },
+    "results/checkpoint_r2_preflight_v1/bridge_receipt.json": {
+      "bytes": 3904,
+      "sha256": "29907a3841fbebedff41e50001084b3602716306f125be3a06868af2000574a8"
+    },
+    "results/checkpoint_r2_preflight_v1/exposure_manifest.json": {
+      "bytes": 4431,
+      "sha256": "20c3b291cd57d929c0ac395f5fb010761009d6d12a37d59709ecbea33ecddaf9"
+    },
+    "results/checkpoint_r2_preflight_v1/historical_bridge_bindings.json": {
+      "bytes": 229223,
+      "sha256": "a6cd7f34a92158a7117dd4e161e69137e3fd8bae48e782bf46887afd2b592711"
+    },
+    "results/checkpoint_r2_preflight_v1/original_worktree_snapshot.json": {
+      "bytes": 1614,
+      "sha256": "8c38441428c7e20edbe071683d9c50655fe88003e4ed9fe061fddd785fb1e77d"
+    },
+    "results/checkpoint_r2_preflight_v1/preservation.json": {
+      "bytes": 2030,
+      "sha256": "036b4f62f6e40aac75e8baaa9c74d9fc2b5fab22c1cf2110922967fbfb42ab63"
+    },
+    "results/checkpoint_r2_preflight_v1/qwen_tokens/bridge_tokens.json": {
+      "bytes": 73382,
+      "sha256": "1580b56b2b7bdada63f376d664bb81193f4599316665e0fc8bed75a05067606f"
+    },
+    "results/checkpoint_r2_preflight_v1/qwen_tokens/receipt.json": {
+      "bytes": 1964,
+      "sha256": "8bcd0c75a27b795c8e4de7ef2782e7c352ba5f0425c6b10e2fa11f6e70dcf1eb"
+    },
+    "results/checkpoint_r2_preflight_v1/qwen_tokens/token_bindings.csv": {
+      "bytes": 7023616,
+      "sha256": "c03b4e0c47c75395cdd93e4a63d7900078762791c74f00fbfdb32433d57296da"
+    },
+    "results/checkpoint_r2_preflight_v1/remote_preflight.json": {
+      "bytes": 3461,
+      "sha256": "fd38454aff5b222091405a83d2c859fe410555e7ef29f72a938d3f3568a7c0e7"
+    },
+    "results/checkpoint_r2_preflight_v1/validation.json": {
+      "bytes": 1519,
+      "sha256": "b3b074a62f0f1db3340a01aefa766a5adf0c496a79ffd099596806d53162c37d"
+    },
+    "scripts/checkpoint_r2_bind_historical_bridge.py": {
+      "bytes": 3816,
+      "sha256": "6a32e9f8149cd654a66a364e8c1ceb8fb5160c5932ef3e29233f312fe66c8aca"
+    },
+    "scripts/checkpoint_r2_remote_preflight.py": {
+      "bytes": 2859,
+      "sha256": "f46488c7570db0f9e195c748aad16cd28def21b32633c7ed9a68bbc7842a68fe"
+    },
+    "scripts/checkpoint_r2_token_inventory.py": {
+      "bytes": 4301,
+      "sha256": "9e589d6c6d57be3d46250e31bc687c34eb78b9a483007c041339389490ced9c6"
+    },
+    "src/checkpoint_r2_bridge.py": {
+      "bytes": 3281,
+      "sha256": "b84b14c6b4ee9ed8dcff596429cd47538151c60c7c5e68b6736d8a056c1efa76"
+    },
+    "src/checkpoint_r2_inputs.py": {
+      "bytes": 22391,
+      "sha256": "8007da49d57ce2d48faadf7c163256712b288b2fea548759c2f54dcbbd227096"
+    },
+    "tests/test_checkpoint_r2_inputs.py": {
+      "bytes": 5213,
+      "sha256": "99306fa6909972d4b84864d8ff013adc9f5633ead6e41640a0c779661d815a50"
+    }
+  }
+}

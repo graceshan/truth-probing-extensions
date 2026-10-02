@@ -1,0 +1,51 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "transformers_version": "5.12.1",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "native_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "native_template_default_system": "Native Qwen template inserts its own default system text for user-only input; no application-added system message or template edit",
+  "tokenizer_files": {
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "input_sha256": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+  "code_sha256": "9e589d6c6d57be3d46250e31bc687c34eb78b9a483007c041339389490ced9c6",
+  "counts": {
+    "behavior": {
+      "unique_inputs": 1900,
+      "input_tokens": 151466,
+      "max_input_tokens": 93,
+      "candidate_content_tokens": 3800,
+      "candidate_scoring_tokens_without_prefix_reuse": 306732,
+      "greedy_new_token_cap": 15200
+    },
+    "chat": {
+      "unique_inputs": 11578,
+      "input_tokens": 894898,
+      "max_input_tokens": 89
+    },
+    "raw": {
+      "unique_inputs": 35843,
+      "input_tokens": 723409,
+      "max_input_tokens": 37
+    }
+  },
+  "answer_ids": {
+    "True": [
+      2514
+    ],
+    "False": [
+      4049
+    ]
+  },
+  "native_eos_token_id": 151645,
+  "output_sha256": {
+    "token_bindings.csv": "c03b4e0c47c75395cdd93e4a63d7900078762791c74f00fbfdb32433d57296da",
+    "bridge_tokens.json": "1580b56b2b7bdada63f376d664bb81193f4599316665e0fc8bed75a05067606f"
+  },
+  "status": "offline_current_tokenization_only_not_historical_replay",
+  "llama": "pending pinned tokenizer unavailable locally and remotely"
+}

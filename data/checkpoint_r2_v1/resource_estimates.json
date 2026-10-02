@@ -1,0 +1,74 @@
+{
+  "behavior": {
+    "additional_work": "per input two candidate continuation scores plus greedy <=8 new tokens; native EOS, tokenization and actual prefix sharing pending; no behavioral outputs produced",
+    "exact_tokens": null,
+    "logical_bindings_per_model": 2000,
+    "max_new_tokens_across_two_models": 30400,
+    "planning_content_token_range": [
+      71187,
+      427120
+    ],
+    "runtime_status": "planning sensitivity only, no measured GPU throughput",
+    "seconds_at_5_20_50_inputs_per_second": {
+      "20": 95.0,
+      "5": 380.0,
+      "50": 38.0
+    },
+    "token_range_assumption": "heuristic UTF-8 bytes/6 to bytes; not guaranteed; excludes native chat framing and answer/generation tokens",
+    "token_status": "pending pinned tokenizer; no characters-as-measured-tokens claim",
+    "two_models_two_prompts_logical_combinations": 4000,
+    "unique_inputs_per_model": 1900,
+    "utf8_bytes_unique": 427120
+  },
+  "chat": {
+    "exact_tokens": null,
+    "fp16_one_to_two_layer_bytes_per_model": {
+      "llama": [
+        94846976,
+        189693952
+      ],
+      "qwen": [
+        82991104,
+        165982208
+      ]
+    },
+    "logical_bindings_per_model": 11578,
+    "planning_content_token_range": [
+      406935,
+      2441608
+    ],
+    "runtime_status": "planning sensitivity only, no measured GPU throughput",
+    "seconds_at_5_20_50_inputs_per_second": {
+      "20": 578.9,
+      "5": 2315.6,
+      "50": 231.56
+    },
+    "token_range_assumption": "heuristic UTF-8 bytes/6 to bytes; not guaranteed; excludes native chat framing and answer/generation tokens",
+    "token_status": "pending pinned tokenizer; no characters-as-measured-tokens claim",
+    "unique_inputs_per_model": 11578,
+    "utf8_bytes_unique": 2441608
+  },
+  "overlap_behavior_chat_unique_user_messages": 800,
+  "raw": {
+    "exact_tokens": null,
+    "fp16_all_layer_bytes_per_model": {
+      "llama": 9396027392,
+      "qwen": 7193833472
+    },
+    "logical_bindings_per_model": 41490,
+    "planning_content_token_range": [
+      439572,
+      2637428
+    ],
+    "runtime_status": "planning sensitivity only, no measured GPU throughput",
+    "seconds_at_5_20_50_inputs_per_second": {
+      "20": 1792.15,
+      "5": 7168.6,
+      "50": 716.86
+    },
+    "token_range_assumption": "heuristic UTF-8 bytes/6 to bytes; not guaranteed; excludes native chat framing and answer/generation tokens",
+    "token_status": "pending pinned tokenizer; no characters-as-measured-tokens claim",
+    "unique_inputs_per_model": 35843,
+    "utf8_bytes_unique": 2637428
+  }
+}

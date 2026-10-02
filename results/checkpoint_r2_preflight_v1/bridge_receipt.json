@@ -1,0 +1,75 @@
+{
+  "scope": "bounded compatibility preflight only",
+  "status": "blocked_before_extraction",
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "checks": {
+    "passed": [
+      "local macOS context",
+      "exact reviewed merge ancestry",
+      "ordered v4/v5 train/D/A15/TC and sampler equivalence",
+      "all380 model/stage/row historical metadata bindings",
+      "authenticated SSH to ef7f7534c328",
+      "six expected train/D/compound tensor files present at recorded sizes",
+      "offline Qwen token and exact True/False continuation boundary binding",
+      "synthetic strict bridge comparator checks"
+    ],
+    "failed": [
+      "GPU visibility prerequisite: CUDA false, /dev/nvidia* empty, nvidia-smi missing",
+      "fresh execution runtime prerequisite: Transformers absent; Torch2.8.0 versus recorded2.11.0"
+    ],
+    "pending": [
+      "fresh all-layer hidden comparison",
+      "frozen-head score differences",
+      "batch/padding invariance",
+      "within-configuration repeatability",
+      "cross-configuration training calibration",
+      "Llama pinned tokenizer inventory",
+      "GPU throughput and physical storage quota check"
+    ],
+    "unverifiable": [
+      "historical per-example token IDs absent in restored sidecars",
+      "historical execution provenance conflicts recorded in adoption_v4 remain unresolved",
+      "unrecorded historical Llama kernel/determinism settings"
+    ]
+  },
+  "criterion_config_sha256": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+  "bridge_identities_sha256": "c5aedcb0df806541f5a624cea7ee40807bd3d436fd6751d78337c47aa4bc97b7",
+  "historical_binding_sha256": "a6cd7f34a92158a7117dd4e161e69137e3fd8bae48e782bf46887afd2b592711",
+  "numerical_tolerances": {
+    "hidden_abs": 0,
+    "hidden_relative": 0,
+    "frozen_score_abs": 0,
+    "tokens_positions_masks_shapes": "exact"
+  },
+  "tolerance_note": "Only exact-contract acceptance is frozen. No nonzero tolerance approved. Any approximate criterion requires prior training-only cross-configuration calibration and a separately frozen amendment before independent comparison; no mismatch-driven widening.",
+  "reuse": {
+    "new_fresh_historical_mixed_representations": [],
+    "historical_results": "preserved, interpretable within their recorded cache scope; v4 fit provenance remains v4",
+    "eligible_after_future_pass": "only identical texts/layers/semantic positions within explicitly verified model/tokenizer/execution contract",
+    "not_eligible": "new A/TC/wording/chat states have no historical reuse authorization; no historical tensor certified compatible with fresh extraction in this task"
+  },
+  "timing": {
+    "GPU_seconds_qwen": 0,
+    "GPU_seconds_llama": 0,
+    "comparison_investigation_seconds": 0,
+    "setup_preflight_seconds_recorded": 5.656094084028155,
+    "additional_setup": "two preliminary read-only SSH capability checks preceded the timed receipt; no download or queue or model execution",
+    "cap_active_seconds": 7200,
+    "cap_GPU_seconds_per_model": 3600,
+    "stop_reason": "GPU/runtime prerequisites failed before extraction; cap not extended"
+  },
+  "regeneration": {
+    "trigger": "if compatibility cannot be verified after runtime restoration and bounded review",
+    "smallest_coherent_unit": "one affected model and one complete intended comparison, with every P15/preprocessing/atomicD/A/TC/compoundD/wording state under the same contract; rebuild all dependent fits",
+    "full_checkpoint_raw_unique_inputs_per_affected_model": 35843,
+    "B25_control_without_constituent_source_diagnostic_upper_bound_inputs": 31987,
+    "excludes": "E, unrelated historical families and chat unless separately selected",
+    "cost_source": "data/checkpoint_r2_v1/resource_estimates.json plus qwen_tokens/receipt.json",
+    "launch_authorized": false
+  },
+  "production_execution_enabled": false,
+  "final_evaluation_enabled": false
+}

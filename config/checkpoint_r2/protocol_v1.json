@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "checkpoint": "approved-revision-2-20261002",
+  "authority": "Explicit user approval of Revision 2 and A15 supersedes prospective language in supplied document",
+  "sources": {
+    "approved_revision_2": {
+      "source_path": "/Users/apple/projects/truth-probing-extensions/docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx",
+      "docx_sha256": "f4d9e1b3305bdd4c2507c869734f4efa2da09001d57e99a722e9d31a1e4ba983",
+      "text_path": "docs/checkpoint_r2/approved_revision_2.txt",
+      "text_sha256": "c3d6fe1296b03857d881f242b8b8f4e2f5f09b205b8ef79f398bb0dc93a61648"
+    },
+    "inherited_october_revision_4": {
+      "source_path": "/Users/apple/Downloads/Truth_Probing_Next_Steps_October_2026 (3).docx",
+      "docx_sha256": "55a5d16881e7dbb3796174e9aeb25a996f133ece630c3a169a032221c5b8d26d",
+      "text_path": "docs/checkpoint_r2/inherited_october_revision_4.txt",
+      "text_sha256": "dcb700f7a76eda02480c18e9a941f70c24cb3b3ac549fa823318d95d249e5178"
+    }
+  },
+  "base_commit": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+  "reviewed_merge_commit": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "integrated_base_commit": "0147f70197e6effcd30849d66b13493d6ef0934e",
+  "A15_adopted": true,
+  "P_A_frozen_for_checkpoint": true,
+  "allocation_search_closed": true,
+  "acknowledged_losses": "A15 accepted despite documented method-specific withholding losses, particularly covariance-MM; neither pilot declared the allocation passed its capacity gate.",
+  "production_execution_enabled": false,
+  "final_evaluation_enabled": false,
+  "mac2_checkpoint_code_integrated": false,
+  "production_prerequisites": [
+    "reviewed mac2 preparation integration",
+    "representation compatibility or separately approved coherent regeneration",
+    "early cost/convergence/C_clean review"
+  ],
+  "eligibility": {
+    "overlay": "candidate_overlay_v5",
+    "source_status": "e_successor_status",
+    "fact_eligible": "e_current_eligible",
+    "projection": "final_partition_projection_v1",
+    "historical_fit_provenance": "v4 remains v4; exact ordered equivalence is not relabeling"
+  },
+  "expected": {
+    "outer_train": 3040,
+    "P15": 2778,
+    "A15": 75,
+    "balanced": 700,
+    "atomic_D": 1012,
+    "compound_D_pairs": 483,
+    "TC": 100
+  },
+  "sampling": {
+    "rng": "numpy.random.Generator(PCG64)",
+    "topic_order": "lexicographic",
+    "entity_order": "sorted reviewed person_key",
+    "stream_policy": "fresh RNG at declared seed independently per topic and stage; no score reads",
+    "B25_seeds": [
+      11,
+      23,
+      37
+    ],
+    "B25": "permute 15 keys; first 10 paired consecutively, canonical endpoints sorted; remaining 5 retained as unused; folds fresh same-seed permutation of five pair indices, fold 0..4 one pair/topic",
+    "reservation_seed": 20261002,
+    "reservation": "historical ordering preserved; no redraw",
+    "constituent_split_seed": 20261003,
+    "constituent_split": "permute sorted 15 A15 keys within TC; first 4 validation, other 16 TC fitting",
+    "behavior_seed": 20261004,
+    "behavior": "choice without replacement of 10 sorted eligible D pair IDs/topic; sorted selected IDs",
+    "atomic_selector_tie_seed": 20261005,
+    "TC_pair_seed": 20261006,
+    "source_fit_pair_seed": 20261007,
+    "selection_repair_tie_seed": 20261008,
+    "pair_recipe": "lexicographic combinations(sorted person keys,2); choice(available,100,replace=False); sorted selected indices; control list equals final constituent refit list",
+    "implementation_details_authority": "Seeds 20261006/7/8 and per-topic RNG resets fill unspecified routine details before scores; other seeds from approved plan"
+  },
+  "bank": {
+    "models": {
+      "qwen": {
+        "layers": 28,
+        "width": 3584,
+        "fixed_layer": 17,
+        "fixed_C": 1,
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+      },
+      "llama": {
+        "layers": 32,
+        "width": 4096,
+        "fixed_layer": 15,
+        "fixed_C": 10,
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+      }
+    },
+    "LR_C": [
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "other_methods": [
+      "DoM",
+      "covariance-MM",
+      "t_G",
+      "TTPD",
+      "R0"
+    ],
+    "expected_candidates": 600,
+    "no_weak_method_or_layer_filter": true
+  },
+  "objectives": {
+    "implementation": "src/selection_repair_objectives.py",
+    "specification": "docs/selection_repair_objectives.md",
+    "penalty": 0.001,
+    "intercept": "unpenalized",
+    "R0": "mean P BCE + penalty",
+    "repair": "0.5 mean P BCE + 0.5 mean allocated compound BCE + penalty",
+    "atomic_adaptation": "0.5 mean P BCE + 0.5 mean same 100 isolated fact BCE + penalty",
+    "C_clean_and_constituent": "mean relevant TC block BCE + penalty",
+    "standardization": "P-only population std ddof=0 floor1e-6 constant coordinates masked; shared by every raw arm",
+    "solver": "reviewed L-BFGS-B float64; 2000 initial, 10000 total warm retry; finite and success and gradient infinity norm <=1e-4; failed fits explicit, no silent layer removal"
+  },
+  "selectors": {
+    "S_atom_all": {
+      "eligibility": "atomic D AUROC >= reduced LR - .005; no compound/AND gate",
+      "ranking": [
+        "max pooled atomic D",
+        "within1e-12 max equal-topic macro atomic D",
+        "within1e-12 PCG64(20261005) choice sorted canonical IDs freshly per model"
+      ],
+      "once_per_model": true
+    },
+    "S_all": "pooled allocated A OR TF/FT vs FF AUROC",
+    "R_all": "mean five entity-disjoint fold OR TF/FT vs FF AUROCs; never pooled OOF scores; refit all25 pairs",
+    "shared_ties": [
+      "within1e-12 primary",
+      "within1e-12 atomic D AUROC (repair mean folds)",
+      "within1e-12 continuous OR standardized separation (repair mean folds)",
+      "fresh PCG64(20261008) choice sorted canonical tied IDs per model/sample/arm"
+    ],
+    "separation": "positive P score SD normalization; (mixed mean - FF mean)/sqrt((mixed population variance+FF population variance)/2+1e-8); degenerate flagged",
+    "retention_fallback": "eligibility >= reduced LR atomic D -.005; repair mean folds; recheck chosen refit; failure returns reduced LR; empty eligible set returns reduced LR with explicit failure",
+    "R0": "max atomic D, exact ties lower saved layer",
+    "C_clean": "D OR-boundary selected plus canonical and procedure layers; D-selected optimistic/descriptive",
+    "constituent": {
+      "endpoints": [
+        "head1 marginal",
+        "head2 marginal",
+        "head1 | head2 false",
+        "head1 | head2 true",
+        "head2 | head1 false",
+        "head2 | head1 true"
+      ],
+      "aggregation": "within-topic AUROC then equal mean across all five topics separately per endpoint",
+      "ranking": [
+        "max minimum six macro endpoints",
+        "within1e-12 max mean six macro endpoints",
+        "within1e-12 lower layer"
+      ],
+      "source_only": true,
+      "source_refit": "same fixed TC pairs as C_clean; cross-operator matched layer references",
+      "composition": "min frozen logits AND, max OR; Boolean combination at probability>=.5; no target sign/threshold/calibration"
+    }
+  },
+  "metrics": {
+    "primary": "B25 pooled OR TF/FT versus FF; repair-minus-selection separately each model",
+    "atomic_retention": 0.005,
+    "AND_retention": 0.02,
+    "repair_selection_margin": 0.02,
+    "control_selection_margin": 0.02,
+    "control_lower_bound": 0.9,
+    "sufficiency": "exploratory D only; both gap upper bounds below margins, strong control lower bound and retention; D-selected control optimistic",
+    "constituent_absolute_target": 0.9,
+    "constituent_loss_margin": 0.05,
+    "constituent_success": "all six endpoints in sourceD, transferred targetD and target-trained same-layer targetD; upper paired loss bound<.05; pointwise not simultaneous",
+    "contrasts": [
+      "R_all-S_all",
+      "S_all-S_atom_all",
+      "repair-atomic_only",
+      "repair-same_layer_R0",
+      "C_clean-selection",
+      "retention",
+      "cross-model difference of repair effects"
+    ],
+    "required_controls": [
+      "S_fixed/R_fixed",
+      "LR-only selector",
+      "repair at S_all layer",
+      "R0 fixed/R_all/atomic-selected",
+      "atomic adaptation fixed/R_all",
+      "eligible bank oracle",
+      "C_clean canonical/D-selected/S_all/R_all/S_atom_all layers"
+    ],
+    "wordings": [
+      "and_both_following_v1",
+      "or_explicit_or_both_v1",
+      "or_at_least_one_v1"
+    ],
+    "wording_excluded_from_fitting_and_selection": true
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 1729,
+    "rng": "PCG64",
+    "unit": "topic-stratified reviewed person/entity",
+    "compound_weight": "endpoint multiplicity product",
+    "paired": "same draws across methods and models",
+    "samples": "show individually and average metrics within draw, never pool head scores",
+    "undefined": "record, no redraw/no surviving-topic macro",
+    "scope": "conditional on fits and frozen observed diagnostic mask; pointwise95%"
+  },
+  "behavior": {
+    "prompts": [
+      "Determine whether this statement is true. Interpret or inclusively: one or both parts may be true. Reply with exactly True or False.\nStatement: {statement}\nAnswer:",
+      "Evaluate the factual truth of the statement below. AND requires both parts to be true. OR requires at least one part to be true, including both. Output exactly True or False.\n{statement}"
+    ],
+    "template": "native model chat user message only, generation prefix, no extra system message",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "likelihood": "full exact continuation sequence; no added whitespace, length normalization or end-of-turn; verify prompt boundary and save candidate token IDs",
+    "ranking": "log P(True)-log P(False)",
+    "threshold": 0.5,
+    "exact_tie": "True",
+    "generation": {
+      "greedy": true,
+      "max_new_tokens": 8,
+      "stop": "native termination token",
+      "acceptance": "trim outer whitespace/remove only termination tokens; exact case True or False; all else format failure and incorrect"
+    },
+    "isolated_mask": "all four isolated likelihood decisions correct per pair/model/prompt; all16 compounds retained; no compound correctness filtering",
+    "primary": "all50 pairs; mask is secondary and population-specific",
+    "denominators": "disagreement valid canonical generation only; format failure all outputs",
+    "cutoffs": {
+      "poor_OR_mixed_both_prompts": 0.8,
+      "strong_each_OR_cell_both_prompts": 0.9,
+      "disagreement_diagnosis": 0.1,
+      "format_diagnosis": 0.05
+    }
+  },
+  "chat": {
+    "prompt": 1,
+    "sets": [
+      "P15",
+      "fixed TC control8000",
+      "behavior D800"
+    ],
+    "layers": "canonical and raw AND-source-selected deduplicated",
+    "readout": "last input token before answer",
+    "heads": [
+      "R0",
+      "C_clean"
+    ],
+    "standardization": "chat P15 only",
+    "comparison": "match head family/layer/identities/D subset to raw; no chat layer selection",
+    "status": "data inventory only; selected raw layer pending"
+  },
+  "bridge": {
+    "active_investigation_cap_seconds": 7200,
+    "GPU_cap_seconds_per_model": 3600,
+    "stop": "first applicable cap; setup/download/queue separately",
+    "evaluation_split": "train and validation only; no E",
+    "criteria": {
+      "token_ids": "exact",
+      "positions_masks_shapes": "exact",
+      "hidden_absolute_tolerance": 0.0,
+      "hidden_relative_tolerance": 0.0,
+      "frozen_score_absolute_tolerance": 0.0,
+      "policy": "exact equality only when identical deterministic execution verified; unknown historical settings unverifiable even if arrays happen to match; no approximate compatibility authorized"
+    },
+    "calibration": "disjoint train-only short/long examples; batch1 no padding repeated then batch2 right/left padding explicit positions. Cross-configuration hardware/kernel/software calibration only if both actual configurations available; one-config repeat is not compatibility. Any nonzero tolerances need a separately frozen training-only calibration amendment BEFORE independent comparisons; never widen after mismatch.",
+    "candidate_execution": {
+      "compute_dtype": "bfloat16",
+      "save_dtype": "float16",
+      "attention": "SDPA",
+      "batch_size": 1,
+      "padding": false,
+      "special_tokens": true,
+      "truncation": false,
+      "chat_template": false,
+      "use_cache": false,
+      "hook": "HF hidden_states[1:] embedding excluded, last nonpadding token; final layer post-final RMSNorm",
+      "semantic_positions": "attention_mask.cumsum(-1)-1, padded positions0",
+      "layers": "all28 Qwen/all32 Llama; saved zero-based",
+      "torch": "2.11.0",
+      "transformers": "5.12.1"
+    },
+    "unknown_historical_settings": "remain unverifiable; recorded revisions do not prove execution"
+  },
+  "stages": [
+    "local manifests and bounded bridge",
+    "early review: bridge, cost, mac2 convergence and initial C_clean viability",
+    "separately authorized production bank/B25/raw constituent",
+    "wording and behavior/matched chat",
+    "scientific review; E remains closed"
+  ],
+  "human_review": "two score-blind TC pairs/topic optional parallel human confidence check; not completed by this task; no factual reaudit performed"
+}

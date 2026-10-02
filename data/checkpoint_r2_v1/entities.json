@@ -1,0 +1,1502 @@
+[
+  {
+    "A15": true,
+    "aliases": [
+      "tarantula"
+    ],
+    "entity_ids": [
+      "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_a49379622a2395d3c2840c499842761c2932c1e64dd46fd659207026acbdc413",
+      "1": "r2fact_02fa298c349711470d69b9b775af05bc70f91c70dbb24781d6895afec60cd8c9"
+    },
+    "person_key": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "tapir"
+    ],
+    "entity_ids": [
+      "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c223bb3b7385e97f2060470c5189e3ebe43957c0bd73bd3a59162561850a40d8",
+      "1": "r2fact_c8924f7749bf7756e8f0cc93ea8f96d55d28fc15b6b4fe59cb3734c2c46da479"
+    },
+    "person_key": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "seagull"
+    ],
+    "entity_ids": [
+      "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1"
+    ],
+    "fact_ids": {
+      "0": "r2fact_6feb505e1888a076f1f795a12a0364f13650e3f342cfe698c4de74fbc62a0686",
+      "1": "r2fact_e762c9d384a192ba734fbd1a99db886bf3c0d8bde22ac8ce231c724eb454f0ce"
+    },
+    "person_key": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "axolotl"
+    ],
+    "entity_ids": [
+      "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1"
+    ],
+    "fact_ids": {
+      "0": "r2fact_b5bef271610ccfe6aed4ad4d682774617f3cb99cc1c85a517277e0499b198844",
+      "1": "r2fact_87467ba8841b5724771161da7d83de3390f56421382f47c2d5671476f9509bec"
+    },
+    "person_key": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "hippopotamus"
+    ],
+    "entity_ids": [
+      "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0"
+    ],
+    "fact_ids": {
+      "0": "r2fact_df4c692b3ce500954e3902d78b6deea94f2bfa1ae405da1888d91127127864ba",
+      "1": "r2fact_fb68ee81372d074231bb2d969c0228b68238d7ca9fd3138801164f2eb6fcaf52"
+    },
+    "person_key": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "cassowary"
+    ],
+    "entity_ids": [
+      "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49"
+    ],
+    "fact_ids": {
+      "0": "r2fact_955357f3017e8dc345a57e027f05d6452f11d07d5ec7f1e07bafb7762f619bbb",
+      "1": "r2fact_424ea6661433a3e572fccbee22b1528c07ab921c89ada05f138b564786c360d5"
+    },
+    "person_key": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "tuna"
+    ],
+    "entity_ids": [
+      "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5565537ad6ee6931e310056ce290c00226fdfa6dad385aaeb1be8d68600b7aa4",
+      "1": "r2fact_ea4fa7a4277b7537487f7a31ed5ad091ebe7c9e6e338417579478095d2b04f80"
+    },
+    "person_key": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "flamingo"
+    ],
+    "entity_ids": [
+      "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe"
+    ],
+    "fact_ids": {
+      "0": "r2fact_1c81962ff2076122318a43209b26ffbdc891c2b6c4f3173f37e2f94961876d7e",
+      "1": "r2fact_3a460b8e3f67c88f63312d7080b30955abf43bbda1d246b712ef725908f7f0a0"
+    },
+    "person_key": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "shark"
+    ],
+    "entity_ids": [
+      "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a"
+    ],
+    "fact_ids": {
+      "0": "r2fact_f04231e1cf0bb3c98e5bc822e7d91e2be2d4fb7ba640d167be323d9ad79698d7",
+      "1": "r2fact_8096ea53d41705a8fdf442d8174b571ecea6820cd632418f33e2fbcaf4f7beca"
+    },
+    "person_key": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "crocodile"
+    ],
+    "entity_ids": [
+      "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d"
+    ],
+    "fact_ids": {
+      "0": "r2fact_36ac350ec913877a2f56a3b6e5a6759e9a6151c40a719c5d3d1cee6b6f68d8e7",
+      "1": "r2fact_0ef349a4325ed16b79eb58f9ca97236957aa02d4ed6bee91c49dbb313fe318c1"
+    },
+    "person_key": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "dog"
+    ],
+    "entity_ids": [
+      "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867"
+    ],
+    "fact_ids": {
+      "0": "r2fact_a265fd52a07e826ee3e6a382e7b420b3284cd49decdbfaaf6b65f9885b1bd572",
+      "1": "r2fact_264f77bc7c5a6ed0975ef231edc198bffe1f1e7d5bbbc9643eab5c58b2a2cde0"
+    },
+    "person_key": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "squirrel"
+    ],
+    "entity_ids": [
+      "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9"
+    ],
+    "fact_ids": {
+      "0": "r2fact_0f70fee5ddaa24b3b927c30cb9351f4a01f5ac79bc894650d3ae445b6fd7cc9a",
+      "1": "r2fact_ba8783f8e52d60f28c77661d4d600ebadf5152ca2f4a83786ab744d691d9b6aa"
+    },
+    "person_key": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "chimpanzee"
+    ],
+    "entity_ids": [
+      "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_456e35694d618688812abfc7c4bc3c7ed6beb010cd6e5e3f7689dc93b249f4be",
+      "1": "r2fact_2e1c515967d5e0bc63639e4cdf35cde009b6870e44503b7f179710cbc7b8b814"
+    },
+    "person_key": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "peacock"
+    ],
+    "entity_ids": [
+      "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_fd37c670a3e622f32e48097d4dd4a82dee66c1367638507677b28be7b1a9310e",
+      "1": "r2fact_c723b7f6636daed2653d1c0691ed60d5303bcbf87e9c697aab920e830d5672df"
+    },
+    "person_key": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "snake"
+    ],
+    "entity_ids": [
+      "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723"
+    ],
+    "fact_ids": {
+      "0": "r2fact_eaf2faa5c5fa3b208d95d788a77f2f8a376dc24f332f150eb1f5e149462b84a0",
+      "1": "r2fact_89f47426e91292414c3e55938f5350bc9778f00c15ec002910f8f01141371891"
+    },
+    "person_key": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+    "topic": "animal_class"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Suqian"
+    ],
+    "entity_ids": [
+      "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9"
+    ],
+    "fact_ids": {
+      "0": "r2fact_4e7ef307c7aef6d07b2fd136063b3469120bd963b91caf4a12b3878d92d636a7",
+      "1": "r2fact_afa91b5876f5f6ce2ef2998d6df209d16a6827b7a04544e7b5fb4897c78a3252"
+    },
+    "person_key": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Londrina"
+    ],
+    "entity_ids": [
+      "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511"
+    ],
+    "fact_ids": {
+      "0": "r2fact_322239c6844f5fa184021fcc03284cfa65d6e1b2a599523306f34aedd99cdf03",
+      "1": "r2fact_3aca25d0513789086da35e1c68419cd9f255fd82a4925ebf7633f428f8540811"
+    },
+    "person_key": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Nairobi"
+    ],
+    "entity_ids": [
+      "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc"
+    ],
+    "fact_ids": {
+      "0": "r2fact_4c2c205798a8a1a4cb3254d3cb23b231916bb47c9a53aa8800cf8a024535962c",
+      "1": "r2fact_984e091fea8d7447bbe811d7e0520ac33f967b3e5370dee0b8d8823f79915818"
+    },
+    "person_key": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Can Tho"
+    ],
+    "entity_ids": [
+      "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4"
+    ],
+    "fact_ids": {
+      "0": "r2fact_a4a1a354f12da28c1cf300dd104a32fd2efd444f88077e244879b5d46bf41037",
+      "1": "r2fact_eb23fe0123bc3e30ff06baa7381397f2ab00302e639a2be78ecbc1e8ea520ec2"
+    },
+    "person_key": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Lianyungang"
+    ],
+    "entity_ids": [
+      "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1"
+    ],
+    "fact_ids": {
+      "0": "r2fact_8c66eb9d074412f1fd25ff1f1a072729e61c339e3e3e41328e4996a2128b4370",
+      "1": "r2fact_bb727dcb345178bd9bfec5c43e086821f29693ab1e620f3ede1988e1e6796bd8"
+    },
+    "person_key": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Karaj"
+    ],
+    "entity_ids": [
+      "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ee4ea4b26492fdb899c5e6f79c0d33e0f5cdd494ae235ace493afcc33f5090b1",
+      "1": "r2fact_b2ccc7fda914a618df9f1d65b1fa29ed5feec8496e2b96cf329b9c19307e82eb"
+    },
+    "person_key": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Yaounde"
+    ],
+    "entity_ids": [
+      "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859"
+    ],
+    "fact_ids": {
+      "0": "r2fact_2f877aa0bd756015ed6c4e8eb8ede914090aa883faf1ad679d21f2952e1bc434",
+      "1": "r2fact_38a52c786b89e1c5034309e7b14b4a38a78e3cc9c379ad557992cec075a4c0b8"
+    },
+    "person_key": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Wanzhou"
+    ],
+    "entity_ids": [
+      "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5"
+    ],
+    "fact_ids": {
+      "0": "r2fact_0a18a7d7710e9606486b833b09e11d47f0217dc150469972235fbb7dcd0e23a9",
+      "1": "r2fact_3540263421934627fd88951b7325f01b729d015828c7f841fc3cbbf657585e78"
+    },
+    "person_key": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Antwerpen"
+    ],
+    "entity_ids": [
+      "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_9d635b35dc7a8610ae6bc6832ff2bf6595ffead67fbbf6f2d183aa9678f9eb4b",
+      "1": "r2fact_973259729ef3b9e4504881867956d5d0cc5b67d90c0426e85393bdb14c6e39f3"
+    },
+    "person_key": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Abuja"
+    ],
+    "entity_ids": [
+      "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1"
+    ],
+    "fact_ids": {
+      "0": "r2fact_37df8298ef8209beacba1775b4c7c31d67428abe4f4bc622af9a8c5611f5d699",
+      "1": "r2fact_9136bcddb71eb8fb81a4e69e520f825220c972382a273d76b72b566d3f9d32ab"
+    },
+    "person_key": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Jiangyin"
+    ],
+    "entity_ids": [
+      "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe"
+    ],
+    "fact_ids": {
+      "0": "r2fact_473fd37f52dce7d81a44e40dba73bdc7ce958da0b13f7d2cbb506a9c870301cf",
+      "1": "r2fact_e2ec59bf6fa0e4ad2c5e0b4829b06d3850fdb9218b7c94c8b536617f4771b617"
+    },
+    "person_key": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Najran"
+    ],
+    "entity_ids": [
+      "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda"
+    ],
+    "fact_ids": {
+      "0": "r2fact_45142b576df4a83d6e16320a2cc89c7f13d36dfbe4bc3a126f2ce1e8dc1fd508",
+      "1": "r2fact_939579054bb1400045100248f4a6ff4b8ae8659144a2ef4504319ef71f273421"
+    },
+    "person_key": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Hamamatsu"
+    ],
+    "entity_ids": [
+      "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d"
+    ],
+    "fact_ids": {
+      "0": "r2fact_353c42bd5e7f1f6a3315eed39efa42410a736273bf3dfde6e7675c5c80d83f25",
+      "1": "r2fact_2fec4befb9856c3db7b3fc4c734229938e46a32dd3672d9e08539f04448b03ad"
+    },
+    "person_key": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Maracaibo"
+    ],
+    "entity_ids": [
+      "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c6bff5ff0c825af924f632175be260175bf9db85bdab98071b11165d0dba6648",
+      "1": "r2fact_7de3fec4e1d1852822b39bd7e54e82fe7d6dae5bf57158b2c300350ded5c00b1"
+    },
+    "person_key": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Cheonan"
+    ],
+    "entity_ids": [
+      "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799"
+    ],
+    "fact_ids": {
+      "0": "r2fact_339f65690d1121aadf530d2c33532fbbfa9741cee84a0bbc034c057111c376c6",
+      "1": "r2fact_b4c62a4cb4e33cab473c0231f138ac5eaded0691d150cbefbda71d285a4ced85"
+    },
+    "person_key": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+    "topic": "cities"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Xenon"
+    ],
+    "entity_ids": [
+      "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_e3cd51911b156372e8fa707aec2ad14c1faa761dbc5a624eab4a5f82e2041b6f",
+      "1": "r2fact_984ad2194a3661fbaaec5a1b85dfb52c224cc09f3e8e3f253199695ef061976b"
+    },
+    "person_key": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Promethium"
+    ],
+    "entity_ids": [
+      "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5c273be8251654a760a026ed4dc83cdd914c4e43e9797c46aa9dfd7104d9dd8b",
+      "1": "r2fact_7cb71c09cef6764a1bc0f143e87d510c8b7f449e39219c9a360d88150e9b898d"
+    },
+    "person_key": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Argon"
+    ],
+    "entity_ids": [
+      "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7"
+    ],
+    "fact_ids": {
+      "0": "r2fact_7265ad9ffbad8a558f7ddeeabd3827d4ea47f3e6010107cb6b04d784389cef6b",
+      "1": "r2fact_866d21939356f236262c16f3a2f59621c76fbd7041f34e9fab49183776e048be"
+    },
+    "person_key": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Uranium"
+    ],
+    "entity_ids": [
+      "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b"
+    ],
+    "fact_ids": {
+      "0": "r2fact_b4e1a654d06e13848398ee8635e3584f3a00f3f2b4a6817b219bc41b3bc1b04a",
+      "1": "r2fact_3c0430d81cc6b24d096f58167fe5175f097c205e739958d4c43a719d33556c2b"
+    },
+    "person_key": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Rhodium"
+    ],
+    "entity_ids": [
+      "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415"
+    ],
+    "fact_ids": {
+      "0": "r2fact_fdc8e46089ac331a5df55e2428639771cf7bb992980792639224d2661edf43c9",
+      "1": "r2fact_f0a29f044b005006bbfed4786f0bd5d7779ee7949ed8a0b18e20fb3d7688aa3b"
+    },
+    "person_key": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Samarium"
+    ],
+    "entity_ids": [
+      "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004"
+    ],
+    "fact_ids": {
+      "0": "r2fact_14175f5f91accd72d89a5cbaade9a76dcc792d79749328a825342c18412505ea",
+      "1": "r2fact_c44b19ced02211abc6623ab4755d7816ef602cee8c23caa7b804ae0135db4706"
+    },
+    "person_key": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Fluorine"
+    ],
+    "entity_ids": [
+      "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2"
+    ],
+    "fact_ids": {
+      "0": "r2fact_efe4ada7ee35d2d508505d2a3c34b6ef01b8d0851f94c392730fd1747e5ba6d8",
+      "1": "r2fact_2586b3c6ecb5b0dff36d2a526f49332ad365e69b9d12f0a5e9faad9d93d7d241"
+    },
+    "person_key": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Phosphorus"
+    ],
+    "entity_ids": [
+      "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c8f4fd34cd81c563973b6a2f03e1539fe5a12fc103f41c07403322b23a2b2463",
+      "1": "r2fact_fc870a6c2cdc2cce9c16c56ce6cf67bce6531c88bd4ceb6defcf60860c3a0892"
+    },
+    "person_key": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Lutetium"
+    ],
+    "entity_ids": [
+      "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a"
+    ],
+    "fact_ids": {
+      "0": "r2fact_1cdc75e57f679459ad32962d9c86e51081d97368f2eb49d7df1ae23f2cc05a17",
+      "1": "r2fact_e34e794e5e5f9c85aa9884940d3d414987d27eb565e72bdfbd52584b856362f9"
+    },
+    "person_key": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Yttrium"
+    ],
+    "entity_ids": [
+      "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ae339e24497a833edaa34dc9c28ffa60f712a766a601cd09412779b8d48aaa04",
+      "1": "r2fact_26d12bc19e1c66056605cd63c5462a661f925a220b3dd9445ab70da50012821b"
+    },
+    "person_key": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Iron"
+    ],
+    "entity_ids": [
+      "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12"
+    ],
+    "fact_ids": {
+      "0": "r2fact_a56b334e48aa6fe23a451aad3c46e1f1abeda1ed16f55e20b5b4cc435713637d",
+      "1": "r2fact_0ac23dfbbf730689a1c257270c62123c5c4d106e14b10d2912ca52a00928d5ca"
+    },
+    "person_key": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Neodymium"
+    ],
+    "entity_ids": [
+      "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5d2512e81b07c765004e648e482d1e2705adb2f8639b2a03bf7ac69644dabda3",
+      "1": "r2fact_7778698383426ab47714eba87a70e510f820edf9e933110b3cc9b4cdf0c434d8"
+    },
+    "person_key": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Indium"
+    ],
+    "entity_ids": [
+      "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8"
+    ],
+    "fact_ids": {
+      "0": "r2fact_b858af89abc024b36603acf40aac17b1692df8bea371d0fdd45eecbe38ba2afb",
+      "1": "r2fact_6df8f1d6f6ce53906c07cfdfc87bd1cbd9256d2010998a88f638f4a89b067012"
+    },
+    "person_key": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Tin"
+    ],
+    "entity_ids": [
+      "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655"
+    ],
+    "fact_ids": {
+      "0": "r2fact_37111f0e758f2c50a5cc4a8166400e18952d8737a4c116c5ef1e27a7b8c02a0d",
+      "1": "r2fact_53f5660a7d361479dc2ae94dfb10d4d1301ce633bf6307607eb8a3dc2b9ae008"
+    },
+    "person_key": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Dysprosium"
+    ],
+    "entity_ids": [
+      "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ff6ad23743fcca04d7247e0f7aea7af2d7158a32c86030a5ccf1cf4a3a36b300",
+      "1": "r2fact_6f99b4e82c261534ef27bdadfc1e355d50efab947aae10833ca05bf63475ecb6"
+    },
+    "person_key": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+    "topic": "element_symb"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Richard Trevithick"
+    ],
+    "entity_ids": [
+      "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366"
+    ],
+    "fact_ids": {
+      "0": "r2fact_7538abd2ab8139e4994299c2808480f75a932ef62effafcb31dd2875d142f821",
+      "1": "r2fact_9eec2fb9130401e7a759df584185904280b4316b98ee57004bcffdd84bea4070"
+    },
+    "person_key": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Zhores Alferov"
+    ],
+    "entity_ids": [
+      "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_1026e80e4c56f8ff6558005345011ac2d59f02ae9eae471402666e3410d4075e",
+      "1": "r2fact_31b7bbb2ebd0515427029dbf6358adfb74f5e5f8d0a20b1e371b17cc0f32767a"
+    },
+    "person_key": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "William Kelly"
+    ],
+    "entity_ids": [
+      "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5c517072418f5e9d0e5a9d4fd4c889c79093f44dceed22f14406686eb4da8163",
+      "1": "r2fact_3ddc9ad1141f1ecea620dfb8565591a1980e2229d19a6d5e59329eeb4ba913db"
+    },
+    "person_key": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Ruth Handler"
+    ],
+    "entity_ids": [
+      "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84"
+    ],
+    "fact_ids": {
+      "0": "r2fact_6a07c6c72e96b3f1ce95f4648809446322973c11d761b22d9a024b78f9471ef3",
+      "1": "r2fact_5e8af9026a1d6acc7485763a204a8144f2e40258d845dc8e4405b0643f94cd26"
+    },
+    "person_key": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Karl Benz"
+    ],
+    "entity_ids": [
+      "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479"
+    ],
+    "fact_ids": {
+      "0": "r2fact_459472da78ae6dc783b5ea529dc0655480b8b1abb9e08ad45c98e15807d8a11c",
+      "1": "r2fact_9b223506643c0fbb898aadac3b63a2982c19beaee30df24f291059df9e513c44"
+    },
+    "person_key": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Shinya Yamanaka"
+    ],
+    "entity_ids": [
+      "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160"
+    ],
+    "fact_ids": {
+      "0": "r2fact_abf3cb5c0cb11a243856d0fd48d41102e4a0d1e9083b7d82030ff8118f564acf",
+      "1": "r2fact_a4104a1bb358fdcf7cdcfef10822bf57b589bacd708678dded06b0e74d9a937c"
+    },
+    "person_key": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Hans Geiger"
+    ],
+    "entity_ids": [
+      "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe"
+    ],
+    "fact_ids": {
+      "0": "r2fact_8a7b7c141e5ddfc7598e3650b29d95e0ee47be795923de9214b7c4f0cf7951fa",
+      "1": "r2fact_4883dabf3f7e3f8ef186424434700d210dfef2f1d54ab84615684cd6d4e7e62a"
+    },
+    "person_key": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Hans Oersted"
+    ],
+    "entity_ids": [
+      "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017"
+    ],
+    "fact_ids": {
+      "0": "r2fact_bd1b9db2ec24106087ad888b95c518ea9c8dbbd31ec8b139c9728e9e6fd9e21b",
+      "1": "r2fact_0382e93245bc333fe87daabdeba5ff8da7f2fe6ae0a512152670685c853afcd8"
+    },
+    "person_key": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Thomas Edison"
+    ],
+    "entity_ids": [
+      "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4"
+    ],
+    "fact_ids": {
+      "0": "r2fact_6da346dc02c5abf0252cc759bd1484c3b3ee6a261a34d51884f54045e6b8b3ac",
+      "1": "r2fact_be4ee9f368916d2dc237ade33bcd8a9794c45b7abe6d4c837c2f324ac32835bf"
+    },
+    "person_key": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Leon Theremin"
+    ],
+    "entity_ids": [
+      "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5a39392f7ec5609c2afe3f2ded4ec892d07bb04f4960f10f41371163b7380164",
+      "1": "r2fact_0945ead1eea30788c7f0c6696b7c2069ce2ce5f9552c9da0de0f38148392b79d"
+    },
+    "person_key": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Joseph-Armand Bombardier"
+    ],
+    "entity_ids": [
+      "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318"
+    ],
+    "fact_ids": {
+      "0": "r2fact_d66b46abce6a9702661864816dc5a2fd2b140d9f648dbe98f315144eddd4fd29",
+      "1": "r2fact_0779e219d3600b71989470b079c87905d161efce97bb260367831efb71756169"
+    },
+    "person_key": "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Garrett Morgan"
+    ],
+    "entity_ids": [
+      "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb"
+    ],
+    "fact_ids": {
+      "0": "r2fact_b1f809e865db46ae5995d248f3cc0214a23786f10ee6ee7fe62adfbb054ff5bc",
+      "1": "r2fact_9ed80abab7a63a29cc21f95116ba5b1002298ffc817a063056fd1657a35f8aa4"
+    },
+    "person_key": "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Nicolas Appert"
+    ],
+    "entity_ids": [
+      "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c178406eaf0dd3b4aba444823496dadf442ebaea20b3a7ca090fcc0270453ff0",
+      "1": "r2fact_75c4c2e77916ab55d0e26177c9d0c6d8c27ec5d7fee3421a292f4f15158f6843"
+    },
+    "person_key": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Arthur Fry"
+    ],
+    "entity_ids": [
+      "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc"
+    ],
+    "fact_ids": {
+      "0": "r2fact_80b26fa047a0e76bffd9d5337b85db91b2ecd0194f27eb3b80e1d08916ce2a2d",
+      "1": "r2fact_4fc41665b4353b0af024adc38083937348ac318010a0bcf1bd176c77d027ba88"
+    },
+    "person_key": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "Biruté Galdikas"
+    ],
+    "entity_ids": [
+      "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ffac6e029fefada7a12aaa71a19956b264d2eba0c21fcd1452414601a114c932",
+      "1": "r2fact_3616cfd468f065376ed111959c91f5d1e9fa26b548e3759be5427c5938f23467"
+    },
+    "person_key": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+    "topic": "inventors"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "voz"
+    ],
+    "entity_ids": [
+      "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0"
+    ],
+    "fact_ids": {
+      "0": "r2fact_b455e1efbf73e74f73eb15f600a55d56906518ec7895dcc65f30c4409b0f32ea",
+      "1": "r2fact_99e3c86d27b9249fc5f78fa1e5d7353780d3bcc349f9b51f014dae5258c65b77"
+    },
+    "person_key": "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "boca"
+    ],
+    "entity_ids": [
+      "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100"
+    ],
+    "fact_ids": {
+      "0": "r2fact_6cd0a7246ba20d18c8073d841a092ac3bde2089d333d1989924e792d0c8b96b0",
+      "1": "r2fact_900d46345fa981f68aef417ea644c8f8048160b93f06a624e63f780d9276d05a"
+    },
+    "person_key": "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "toro"
+    ],
+    "entity_ids": [
+      "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06"
+    ],
+    "fact_ids": {
+      "0": "r2fact_60838bb4742f6601d120b63165c3278cb3d0934f65c7ca4320425f1591e80e67",
+      "1": "r2fact_1e96bd51929a88a236dac5db2feb62f8476176c5b26a7f00c56390fb74d02b87"
+    },
+    "person_key": "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "escribir"
+    ],
+    "entity_ids": [
+      "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa"
+    ],
+    "fact_ids": {
+      "0": "r2fact_f910254502146a941f931b4f6de14fb3220e3df7eb058ce9b912910cac7ebd24",
+      "1": "r2fact_f991d72d3310243201878f66aea6f06f43d34a14befe2b4158e3a0b33565a1f6"
+    },
+    "person_key": "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "pensar"
+    ],
+    "entity_ids": [
+      "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa"
+    ],
+    "fact_ids": {
+      "0": "r2fact_7a000b9c44ebef0d7b855901d19461980e5edbb706b67e660a876a78167cb6c0",
+      "1": "r2fact_c5cda9954ebeafe05e30fb8cc77474f6ea7421bf8b135a0084205d439bf7398d"
+    },
+    "person_key": "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "arena"
+    ],
+    "entity_ids": [
+      "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d"
+    ],
+    "fact_ids": {
+      "0": "r2fact_4bfb66b664f6dcd9737c1536c7321d4ca9a2b7b59aa92f2e2b10b8f8768f1768",
+      "1": "r2fact_6a7cdf18a1f751eaf53c4e0a11a38ab2274531edba0c1e24354530dde096cfb3"
+    },
+    "person_key": "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "fuerza"
+    ],
+    "entity_ids": [
+      "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9"
+    ],
+    "fact_ids": {
+      "0": "r2fact_325ed1a9299221fc7358787caecf30abf617537ab29c2ee1d410986cc3773f56",
+      "1": "r2fact_c529ae159c8e5de52421505d6e90fbe58e981a8a4cddb6cfc937f68e7759e7c0"
+    },
+    "person_key": "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "hueso"
+    ],
+    "entity_ids": [
+      "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d"
+    ],
+    "fact_ids": {
+      "0": "r2fact_1c76702274ba2142e9d073ef07c978a747d11a22de68e7ef8f3162265a00aab3",
+      "1": "r2fact_3ecff8b5806172aab67541c09a476518281b609b6e069729eccd203813e99df2"
+    },
+    "person_key": "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "enviar"
+    ],
+    "entity_ids": [
+      "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3"
+    ],
+    "fact_ids": {
+      "0": "r2fact_52afca4cf0df62b609369ecb9a862b8a9aa468b2ea7591bb37e328df6a2d734e",
+      "1": "r2fact_19528fed632f081c38e1a483dd762e18d17036a24d28b5e8b9aa61064eb1567e"
+    },
+    "person_key": "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "cuerpo"
+    ],
+    "entity_ids": [
+      "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b"
+    ],
+    "fact_ids": {
+      "0": "r2fact_41bc19a2f2474373e46397d8e50d1400fba2cfe3eb6631355051447b77cf107b",
+      "1": "r2fact_93add4c667d3ccd42b205fe751a7e2604c27e101004b8e659b37ff4f0a0a49bd"
+    },
+    "person_key": "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "bueno"
+    ],
+    "entity_ids": [
+      "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ed94c669d9f4b805cec4443ba0bf7674c2eba10acc6f749ec76cf0af07926f31",
+      "1": "r2fact_94a48705bb34f02b33c3e16b666e702ed3ad7868466bc94156023127c66ed321"
+    },
+    "person_key": "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "problema"
+    ],
+    "entity_ids": [
+      "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e"
+    ],
+    "fact_ids": {
+      "0": "r2fact_666568727b2ed24609dd66d16213191da3fa5ee889449d49755dc543fb79eb44",
+      "1": "r2fact_a05524a1d45814aaabc49168ca4c0e939fd043d409f9c7a4e88b18da0a6716c1"
+    },
+    "person_key": "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "viejo"
+    ],
+    "entity_ids": [
+      "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b"
+    ],
+    "fact_ids": {
+      "0": "r2fact_748545f278294ebdcee41ba1d1d31f037336f4483e0e595d732079e0e19c4dd2",
+      "1": "r2fact_6905cce8cfcb49cab473192b3a9deb5cc68a1da6f28ce08b97bce61e4d283e2b"
+    },
+    "person_key": "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "uno"
+    ],
+    "entity_ids": [
+      "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_06aa868d482b5b799c2c950d7236db6a155c886759ee3984c50dcc42e264f590",
+      "1": "r2fact_b881ebc6a9beadabfde12fd2f35a389c8f64f440b6d1354c2b9221faa4ff1108"
+    },
+    "person_key": "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": true,
+    "aliases": [
+      "grupo"
+    ],
+    "entity_ids": [
+      "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0"
+    ],
+    "fact_ids": {
+      "0": "r2fact_87b6358c0abb0110bb366d45fabdf9b69ca44dfb32e0b5a8d60f07589996d539",
+      "1": "r2fact_f4d31571b5e6716db46dd8a437de28455047e3216de81ec4ad517a37dba56d57"
+    },
+    "person_key": "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "James Clerk Maxwell"
+    ],
+    "entity_ids": [
+      "entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8"
+    ],
+    "fact_ids": {
+      "0": "r2fact_84228647b322ddf1aaa5722683773344827ee421f1f4aa030ea49103119f2a1a",
+      "1": "r2fact_d4a8ccf5e8996b7d1052dd4a8db73bcfb86f5ae93b9367f05d6054cc2c424c72"
+    },
+    "person_key": "entity_2c32b064fe12d3f3726a09b32f49e8e58eee5b3e9dac16fb2bd023c46fbc77a8",
+    "topic": "inventors"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "gazelle"
+    ],
+    "entity_ids": [
+      "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140"
+    ],
+    "fact_ids": {
+      "0": "r2fact_8b116dd176410cd0d3de8267627eabb4a13a67ba9a1695947fe7657360df2850",
+      "1": "r2fact_750c426d3baa5ddf8fa10f5c793e1f9221585f4a22e147ba8ccb2dbee64339a0"
+    },
+    "person_key": "entity_56dda79fb88a7ddd5ca98f6ae47726a0fd2ec9c3dec56fbcc53dfd80c7912140",
+    "topic": "animal_class"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "hedgehog"
+    ],
+    "entity_ids": [
+      "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a"
+    ],
+    "fact_ids": {
+      "0": "r2fact_1aa226b44c5257d62542b2d480a214254889794eb6c8ef5fe67efee189cac946",
+      "1": "r2fact_43ca3592d114329a57d953f2127b3c9d4cfc20f455d1336388580eb87351212a"
+    },
+    "person_key": "entity_e5c5d003f4f1a533abe1d9ff94cc2c0315fc9eee40b7586090e690af6292000a",
+    "topic": "animal_class"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "horse"
+    ],
+    "entity_ids": [
+      "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c64647aed6e8d1e927f5b9d8ee80631d422af3ec6c1a330eadb4fe0d4e86109b",
+      "1": "r2fact_04728b0e758e0a3b6693fd77f6877583dc133ccb723646e0bbe2467514a7e263"
+    },
+    "person_key": "entity_08b83241ed80ac7928bba3c7c361e43dec1bd2f5d921eebcf5f09bf6e9d2a27e",
+    "topic": "animal_class"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "eagle"
+    ],
+    "entity_ids": [
+      "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_6a2d81c1a1ecae527139fcdafb20b3fc41d5076442a04681a56dd9c1df040346",
+      "1": "r2fact_915c8fe19f5b1209f09e46f6da774b9f23949e6ac437e66cbe0bc835094ce691"
+    },
+    "person_key": "entity_adf418dacaaa39c3175d4588127b685a161e131f97eb4c99a46285fc5bc5bc4c",
+    "topic": "animal_class"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "hyena"
+    ],
+    "entity_ids": [
+      "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e"
+    ],
+    "fact_ids": {
+      "0": "r2fact_2c9a0abf78165d160679cfd735a53f4b951eb30ea0edbda0bac6780792a2b959",
+      "1": "r2fact_4e901e4c3683621e04bff4787a971dea8d55608e8da11ef10d800bd34828da74"
+    },
+    "person_key": "entity_ffdcfdd88f9acb8d502007d2426151ddd9bf1c410fec8c52605c3d74abb5771e",
+    "topic": "animal_class"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Agadir"
+    ],
+    "entity_ids": [
+      "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_4e88efe0173144a1a6cdd707798ee99d48465b3aca4aebdb7dc25a9162f79af8",
+      "1": "r2fact_597fd3b0eaa2e5fc1325256e0d0a3a23c0dbbe284ce8b2283d44afca3ba92c17"
+    },
+    "person_key": "entity_f52cf0c64d00cdce0343476447f2725721ba9e1d1cbbec79cc568d892f7a4c2f",
+    "topic": "cities"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Kawaguchi"
+    ],
+    "entity_ids": [
+      "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f"
+    ],
+    "fact_ids": {
+      "0": "r2fact_acf20ce42d5fb4cbc953c65e9f4151409a57872041026e1ecc19f9a11f438afa",
+      "1": "r2fact_5d5dc0beb88d0530c754dab8660ea400abc6ae4ab754c7d297c01776e34f24da"
+    },
+    "person_key": "entity_502e5caf73c7267cbf1ff23673a5f759de3276d27304e9c999f9e98a40b0865f",
+    "topic": "cities"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Ankara"
+    ],
+    "entity_ids": [
+      "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2"
+    ],
+    "fact_ids": {
+      "0": "r2fact_29a68fe41df3fcdbb2b2adc328cabe66a5d4d1c6dcd94aee6cf5b63c0e2a325f",
+      "1": "r2fact_cd6a6456d2cab1c9faf0cb4cc655a133431d82a3a45a140625a4f3900e419d42"
+    },
+    "person_key": "entity_97cb4eb3b3dd2bc5a63ecbb0bb017cde59a4f4ed02ea20cf1f320a43fb367ce2",
+    "topic": "cities"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Helsinki"
+    ],
+    "entity_ids": [
+      "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb"
+    ],
+    "fact_ids": {
+      "0": "r2fact_73783973eaa7b76fbf9cf876fbf5a93239b5d86a840c59b5575f46bcc23327e9",
+      "1": "r2fact_68cf3a503d413c75136563ef897a50119193b10cda05607c10c79d607e1effeb"
+    },
+    "person_key": "entity_3f4b7b403a2697b9d58ecad589a987ab5560c079071709c82ade9dd584641ecb",
+    "topic": "cities"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Yiwu"
+    ],
+    "entity_ids": [
+      "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b"
+    ],
+    "fact_ids": {
+      "0": "r2fact_5a53ba2a2009f89a85b6af098cce3f350e2d7f70c71963fafa730dc2058cdca1",
+      "1": "r2fact_1fe577bb905fb84e2e29ed86e30639d21834a8bbd3be6f5c339491296db40d40"
+    },
+    "person_key": "entity_117b6d8cbb1a2161155a523e46463b120f545b3129913d3cf52c482ef576f19b",
+    "topic": "cities"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Thulium"
+    ],
+    "entity_ids": [
+      "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497"
+    ],
+    "fact_ids": {
+      "0": "r2fact_33c1752bf3f39571f50be45ac84a009405bad48bc8b24ed7d0bc58f184e573f7",
+      "1": "r2fact_f2f44d5ebf3f60ab3102282a4b4ef725f20b854338b12fad63d9cdb18675813d"
+    },
+    "person_key": "entity_e135c38e252ae843c2a0bed605f9d3f8af3b923f6f078c63f68151cf924d9497",
+    "topic": "element_symb"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Praseodymium"
+    ],
+    "entity_ids": [
+      "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068"
+    ],
+    "fact_ids": {
+      "0": "r2fact_2d411070bfd99fc64f8f0eb919b79137a8507f700683297aef9bd39026166113",
+      "1": "r2fact_fecdec01d8071d4acddc158efb8104b7f982f4e439582b2eb4b91a1c4f03e095"
+    },
+    "person_key": "entity_2ede0f48c02544e6f34f75885b3179a61a450f9262c3943031ccdd4324182068",
+    "topic": "element_symb"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Tellurium"
+    ],
+    "entity_ids": [
+      "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7"
+    ],
+    "fact_ids": {
+      "0": "r2fact_c669f914d8b6a167e7e9aced9ca08fd844559ff94b907149a8d90fa9c2c22762",
+      "1": "r2fact_9c045ed74cfab363256f313c2016eb5b5b1233222c8cf497fade90611c6fc6eb"
+    },
+    "person_key": "entity_a32184e92adfa5c610c3b185fd18c824b669e0b9470adb56fc4e84e1a3688aa7",
+    "topic": "element_symb"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Chromium"
+    ],
+    "entity_ids": [
+      "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ad5a673ffee6b5aafdf6f37a6d970db998df29306625d0290bfae974ce36d45b",
+      "1": "r2fact_f9041ea398779f37b8f2d0df864f978a9aa4cd53294ed9c08bcbd11e44690c92"
+    },
+    "person_key": "entity_435af1e2802d70260b9ec942af4183f644ebe27708d5f7df2094af8668f9d99c",
+    "topic": "element_symb"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Sulfur"
+    ],
+    "entity_ids": [
+      "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3"
+    ],
+    "fact_ids": {
+      "0": "r2fact_45a34e4c463c67df023b7702ac5d0cf1f0558cd5b26054fdf8aacffb46d24616",
+      "1": "r2fact_e9489813e6bbdc2dd701ee64b6659ad593fb9f0a019a6e6b0cba46748eb5e324"
+    },
+    "person_key": "entity_57a73b88b948da70c989c8cfa4aecc92c21b62cc5583537d94e471a77d5352a3",
+    "topic": "element_symb"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Alexander Fleming"
+    ],
+    "entity_ids": [
+      "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74"
+    ],
+    "fact_ids": {
+      "0": "r2fact_3c2d1d1f36ad00ec14f4636b8a25efccfa18c77ddd9029b103f477312ac1e826",
+      "1": "r2fact_98931c23f93224dcd5b31947dee773685dc4b210ea86d0ebaf1eb79174861f51"
+    },
+    "person_key": "entity_5ee000fccf03ff05cd17993a5f87bfc74ef583ae5484394a9b2a8bc19e02aa74",
+    "topic": "inventors"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Lloyd Groff Copeman"
+    ],
+    "entity_ids": [
+      "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e"
+    ],
+    "fact_ids": {
+      "0": "r2fact_404fde74fe23eef8490fe9718f59f46f6f8c1af21682bfa58c02a6ed93f02ecf",
+      "1": "r2fact_9fb7b74f58ed3d4c721a21d72acefd748cab8d8f0ccb5123c57fe61299823203"
+    },
+    "person_key": "entity_44145d26e13dbd39447143619acda097f4be404f73915d060e4e2ca825b3081e",
+    "topic": "inventors"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Ernesto Blanco"
+    ],
+    "entity_ids": [
+      "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7"
+    ],
+    "fact_ids": {
+      "0": "r2fact_3487ac5185ec490a11c95f6ecc4b99d6184bfe7e5b32dfb6e337ada719b36ab4",
+      "1": "r2fact_d6ed6b3ae6f8dd385b35cb4bf4ddb6216511988a80a2132ea24e19da33074cdc"
+    },
+    "person_key": "entity_352a40c66a7ab8e8865895198ce0d679604b1143b51b7e5607e78b419895caf7",
+    "topic": "inventors"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "Levi Strauss"
+    ],
+    "entity_ids": [
+      "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd"
+    ],
+    "fact_ids": {
+      "0": "r2fact_a54e34a67b293a7af951a90fa5db1f00195d6b3e8f8ef1637b7524b07e969b24",
+      "1": "r2fact_6097aead427531c1f5cd5ba12c34bd1c45d232e206cb616627a4a3ed0a585ce2"
+    },
+    "person_key": "entity_d35a5a8e19014faeed54b50d21ab31d8c345f529caf8e07308d5499738670fdd",
+    "topic": "inventors"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "mujer"
+    ],
+    "entity_ids": [
+      "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab"
+    ],
+    "fact_ids": {
+      "0": "r2fact_86ee0070f559d7f8251535ad52367387f2c72fb3d64e4c20eedfc03f1216353f",
+      "1": "r2fact_79c23991ee66c90d5e0b74258ed50bb9c8a76fa7f95b8295d59870eedcaa325f"
+    },
+    "person_key": "entity_21848ecd0847bb47196a608da25359721376a7ca394a742d2928af62bb082eab",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "caer"
+    ],
+    "entity_ids": [
+      "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ee7d6dfbf5bf96a3d17a454052253f31df8c060eee20384b7315b43b27f66afc",
+      "1": "r2fact_09d7358d530db1b5a9a44e6d1be06d04c86aec48efbe51662b4b10ecb09083d5"
+    },
+    "person_key": "entity_497e94b9abab1825054ee5e66fb0b8f4713c234beef15a783c6d129016ac9703",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "rojo"
+    ],
+    "entity_ids": [
+      "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c"
+    ],
+    "fact_ids": {
+      "0": "r2fact_ef1b5ea7a4c6c7cdf4a0364de10583ff85e941b6f469726a06597756d594f3a2",
+      "1": "r2fact_58bdba7e28010687d664b6ae0afe13bcb57758305c7d527b2d5bef37c7142ab0"
+    },
+    "person_key": "entity_40138bf903ccf281d7aa33f1b3f75b4a8d323b7858d1cd26b43198496b00b50c",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "hola"
+    ],
+    "entity_ids": [
+      "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7"
+    ],
+    "fact_ids": {
+      "0": "r2fact_daff9bb5d934cbe5fc6a2bc46ccc597d9402b9c55ed352f4fc1024fdd21e2da2",
+      "1": "r2fact_7438f706163058f88c8e5dc26285f22209803c7a66c1238b3de745c518ce6167"
+    },
+    "person_key": "entity_a282438f28845fd5e79ca21b730bf0d1c195aba3853e13acee2fb580040c4ab7",
+    "topic": "sp_en_trans"
+  },
+  {
+    "A15": false,
+    "aliases": [
+      "papel"
+    ],
+    "entity_ids": [
+      "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4"
+    ],
+    "fact_ids": {
+      "0": "r2fact_e529cc4c022e8a65d6878b822b9bed334fc1398b9f91a4136a77587008efcd8b",
+      "1": "r2fact_a39305474d86389672f22077acaa7ed9760739e1b26b61287b51728101f518d3"
+    },
+    "person_key": "entity_d53c2d1c28a6494aac6516550a0b3af25864c3b9d8b690e603efd5484b3c0bf4",
+    "topic": "sp_en_trans"
+  }
+]

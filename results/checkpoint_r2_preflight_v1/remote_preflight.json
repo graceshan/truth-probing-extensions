@@ -1,0 +1,69 @@
+{
+  "recorded_utc": "2026-10-02T01:52:41.102199+00:00",
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "IdentitiesOnly=yes",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "-p",
+    "22114",
+    "-i",
+    "/Users/apple/.ssh/id_ed25519",
+    "root@69.30.85.22",
+    "python -"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"hostname\": \"ef7f7534c328\",\n  \"system\": \"Linux\",\n  \"python\": \"3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]\",\n  \"nvidia_devices\": [],\n  \"nvidia_smi\": null,\n  \"cuda_available\": false,\n  \"versions\": {\n    \"torch\": \"2.8.0+cu128\",\n    \"transformers\": null,\n    \"tokenizers\": null,\n    \"numpy\": \"2.1.2\"\n  },\n  \"workspace_free_bytes\": 1125899906842624,\n  \"hf_model_cache_roots\": [],\n  \"artifacts\": {\n    \"/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 631013504\n    },\n    \"/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 208732288\n    },\n    \"/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 1682702464\n    },\n    \"/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 824180864\n    },\n    \"/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 272629888\n    },\n    \"/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy\": {\n      \"exists\": true,\n      \"bytes\": 4532994176\n    }\n  }\n}\n",
+  "stderr": "",
+  "setup_seconds": 5.656094084028155,
+  "GPU_seconds": 0,
+  "extraction_launched": false,
+  "remote": {
+    "hostname": "ef7f7534c328",
+    "system": "Linux",
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "nvidia_devices": [],
+    "nvidia_smi": null,
+    "cuda_available": false,
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "transformers": null,
+      "tokenizers": null,
+      "numpy": "2.1.2"
+    },
+    "workspace_free_bytes": 1125899906842624,
+    "hf_model_cache_roots": [],
+    "artifacts": {
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy": {
+        "exists": true,
+        "bytes": 631013504
+      },
+      "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy": {
+        "exists": true,
+        "bytes": 208732288
+      },
+      "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy": {
+        "exists": true,
+        "bytes": 1682702464
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy": {
+        "exists": true,
+        "bytes": 824180864
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy": {
+        "exists": true,
+        "bytes": 272629888
+      },
+      "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy": {
+        "exists": true,
+        "bytes": 4532994176
+      }
+    }
+  },
+  "status": "blocked_remote_GPU_or_runtime_unavailable"
+}

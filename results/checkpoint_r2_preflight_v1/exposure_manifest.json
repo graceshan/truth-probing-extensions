@@ -1,0 +1,216 @@
+{
+  "membership_hashes": {
+    "A15": "c99bd21b7d29d6340c9d1eefd73582952c2a34035c62879e646eda6863f74f5d",
+    "P15": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+    "TC": "e8cb63bdd55939d93acdd58cadc96093f985d256f6c949896e9dd8dfd7a4a2e0",
+    "atomic_D": "590f1f4c38af63fccb6c83700934fe625b3756627ab31b4bb845c5d5d570fa98",
+    "balanced": "8e07960911aec7c84e7963f674368a802cb5cec237fd9a66edff962764d3a7a0",
+    "outer_train": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61"
+  },
+  "per_topic": {
+    "P15": {
+      "animal_class": {
+        "rows": 140,
+        "labels": {
+          "0": 70,
+          "1": 70
+        },
+        "people": 37,
+        "entity_ids": 37
+      },
+      "cities": {
+        "rows": 1740,
+        "labels": {
+          "1": 870,
+          "0": 870
+        },
+        "people": 435,
+        "entity_ids": 435
+      },
+      "element_symb": {
+        "rows": 168,
+        "labels": {
+          "1": 84,
+          "0": 84
+        },
+        "people": 42,
+        "entity_ids": 42
+      },
+      "inventors": {
+        "rows": 336,
+        "labels": {
+          "1": 168,
+          "0": 168
+        },
+        "people": 116,
+        "entity_ids": 117
+      },
+      "sp_en_trans": {
+        "rows": 394,
+        "labels": {
+          "0": 197,
+          "1": 197
+        },
+        "people": 193,
+        "entity_ids": 193
+      }
+    },
+    "atomic_D": {
+      "animal_class": {
+        "rows": 64,
+        "labels": {
+          "1": 32,
+          "0": 32
+        },
+        "people": 16,
+        "entity_ids": 16
+      },
+      "cities": {
+        "rows": 596,
+        "labels": {
+          "1": 298,
+          "0": 298
+        },
+        "people": 149,
+        "entity_ids": 149
+      },
+      "element_symb": {
+        "rows": 72,
+        "labels": {
+          "0": 36,
+          "1": 36
+        },
+        "people": 18,
+        "entity_ids": 18
+      },
+      "inventors": {
+        "rows": 134,
+        "labels": {
+          "1": 67,
+          "0": 67
+        },
+        "people": 43,
+        "entity_ids": 43
+      },
+      "sp_en_trans": {
+        "rows": 146,
+        "labels": {
+          "1": 73,
+          "0": 73
+        },
+        "people": 68,
+        "entity_ids": 68
+      }
+    },
+    "balanced": {
+      "animal_class": {
+        "rows": 140,
+        "labels": {
+          "1": 70,
+          "0": 70
+        },
+        "people": 37,
+        "entity_ids": 37
+      },
+      "cities": {
+        "rows": 140,
+        "labels": {
+          "1": 70,
+          "0": 70
+        },
+        "people": 68,
+        "entity_ids": 68
+      },
+      "element_symb": {
+        "rows": 140,
+        "labels": {
+          "1": 70,
+          "0": 70
+        },
+        "people": 42,
+        "entity_ids": 42
+      },
+      "inventors": {
+        "rows": 140,
+        "labels": {
+          "1": 70,
+          "0": 70
+        },
+        "people": 59,
+        "entity_ids": 59
+      },
+      "sp_en_trans": {
+        "rows": 140,
+        "labels": {
+          "0": 70,
+          "1": 70
+        },
+        "people": 69,
+        "entity_ids": 69
+      }
+    },
+    "outer_train": {
+      "animal_class": {
+        "rows": 200,
+        "labels": {
+          "0": 100,
+          "1": 100
+        },
+        "people": 52,
+        "entity_ids": 52
+      },
+      "cities": {
+        "rows": 1800,
+        "labels": {
+          "1": 900,
+          "0": 900
+        },
+        "people": 450,
+        "entity_ids": 450
+      },
+      "element_symb": {
+        "rows": 228,
+        "labels": {
+          "1": 114,
+          "0": 114
+        },
+        "people": 57,
+        "entity_ids": 57
+      },
+      "inventors": {
+        "rows": 388,
+        "labels": {
+          "1": 194,
+          "0": 194
+        },
+        "people": 131,
+        "entity_ids": 132
+      },
+      "sp_en_trans": {
+        "rows": 424,
+        "labels": {
+          "0": 212,
+          "1": 212
+        },
+        "people": 208,
+        "entity_ids": 208
+      }
+    }
+  },
+  "A15": 75,
+  "TC": 100,
+  "source_validation_keys": 20,
+  "source_fit_keys": 80,
+  "B25_samples": {
+    "B25_11": 25,
+    "B25_23": 25,
+    "B25_37": 25,
+    "TC_control_and_final_refit": 500,
+    "constituent_source_fit": 500,
+    "constituent_source_validation": 30
+  },
+  "A15_all_source_variants_withheld": true,
+  "no_D_E_in_fitting": true,
+  "old_fit_provenance": "v4 unchanged",
+  "representation_reuse": false
+}

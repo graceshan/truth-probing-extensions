@@ -1,0 +1,663 @@
+Truth Probing Next Steps
+Daily decisions and frozen study protocol
+Prepared for Grace  •  October 1 2026  •  Fourth revision
+The central experiment asks whether 25 compound pairs help select an existing atomic readout or whether learning a new direction adds a transferable benefit. Complete this comparison in both models, with unseen entities, wording transfer, and atomic/AND retention. Use this page each morning; Sections 11–12 give the daily tasks and result-dependent decisions.
+October 1 to 6 working checklist
+Day
+Finish these tasks
+Decision before moving on
+Oct 1
+Back up missing code, judgments and scores; check inventor aliases/labels; send Arnau the clean numbers.
+No verified backup or generator: recovery stays first; continue writing, defer dependent data jobs.
+Oct 2
+Bounded capacity pilot; prefer 15 A entities/topic if viable. Check precision; freeze P/A, R₀ pipeline, prompts and config.
+Withholding damage: try 10 and drop 50 pairs. Unfinished validity checks: mark freeze pending.
+Oct 3
+Audit final facts; run the 600-candidate bank and clean control; start B = 25. Draft Introduction.
+Weak control: debug before interpreting repair. Extract E only after its audit, evening or Oct 4 morning.
+Oct 4
+Complete two-model B = 25 table with R₀, atomic-only, retention and oracle. Draft Related Work; send partial draft.
+Locate benefit in family, selection, new facts or compound supervision. Choose lead model on D; cut optional work.
+Oct 5
+Finish 5/10-pair curves, wording and chat behavior; draft Results. Add 50 only if already feasible.
+Transfer or retention fails: narrow claim. Core late: stop optional runs, protect writing.
+Oct 6
+Check manifests, fits, caches, paired inference and one-command reproduction; lock final analysis.
+Open E only after every essential validity check passes. Otherwise move lock and reassess October.
+
+P = atomic fit; A = adaptation; D = development; E = final. R₀ uses the repair pipeline on P alone.
+Critical path: recover generator → audit and group people → freeze one P/A split → fit bank/control → development table → analysis lock → final evaluation. Final audit and drafting can overlap unattended jobs; final extraction cannot precede the audit.
+Cut in order: ternary/pooling follow-up, extra chat or topic studies, contextual/scalar decoders, then B = 50. Preserve the fair two-model comparison, R₀, atomic-only control, wording, retention and sealed E. B = 100 stays removed. The expected selection/repair crossover at 10–50 pairs is a hypothesis, not a required result.
+Already completed: the September clean development study, method comparisons, input controls and Llama replication. Verify reusable artifacts; do not rerun a completed stage just to match the calendar. All new checklist items remain pending until their evidence is saved. Target full draft Oct 8, ready Oct 11, ARR deadline Oct 12 at 23:59 AoE. [R1–R2]
+1 What the current results establish
+The September work has substantially improved the evidence: audited compound facts, entity-disjoint development evaluation, pinned extraction, multiple atomic-supervised readouts, input controls, and a Llama replication. The table records development results from the project log. Atomic validation is shown to four decimals because near-tied atomic scores motivate the selection study. [P3–P4]
+Condition
+Qwen2.5
+Llama 3.1
+Interpretation
+Atomic validation AUROC
+0.9997
+0.9999
+Selection scores, not atomic final-test performance.
+Frozen LR AND AUROC
+0.903
+0.985
+Compound transfer is stronger for AND.
+Frozen LR OR AUROC
+0.813
+0.764
+Boundary weakness persists in both models.
+OR mixed versus FF
+0.747
+0.661
+The lower boundary remains the main weakness.
+AND TT versus mixed
+0.878
+0.978
+Report this alongside the OR boundary.
+Explicit or both OR AUROC
+0.711
+0.688
+Inclusive wording does not rescue this raw-input readout.
+Isolated scores with min or max
+>0.999
+1.000
+Separate constituent evaluations supply highly accurate inputs.
+
+Canonical LR settings are Qwen2.5 saved layer 17, C = 1, and Llama saved layer 15, C = 10; saved indices are zero-based. These recorded development results precede the label and identity audit in Section 6. Preserve them as historical results; use the bounded canonical sensitivity to decide which old analyses need refreshing. All new production fits use the corrected protocol. Historical L22 and earlier L17 results use different probe or cache settings and stay separate.
+The result motivating probe selection
+Layer choice is a likely major reason the Qwen gap shrank: historical L17 already had a gap near 0.081, close to the clean 0.089, unlike the much larger historical L22 gap. This is suggestive, not an isolated causal comparison, because extraction and probe settings also changed. At atomic-selected L18, DoM reaches about 0.991 AND, 0.897 OR, and 0.846 on the OR boundary; TTPD reaches 0.992 and 0.889 overall. A gain of 0.05 over pinned LR’s 0.747 boundary would therefore be a weak target. Selection must be exhaustive and repair must be compared directly with it.
+Claims that are still open
+High isolated-constituent scores do not demonstrate that the same compound state exposes both constituent truths. The external baseline also uses two forward passes and a known parse.
+The original near-perfect compound-trained control used an exploratory pair split. Re-establish it under the clean entity split before relying on it.
+The current compound benchmark uses validation entities. It is development evidence because atomic selection and repeated analysis have already used that partition. The reserved final entities remain essential.
+Llama is a promising detailed case study only if its deficit survives the expanded atomic bank and the clean control establishes headroom. Choose the lead model on D before final lock. Qwen still receives the complete primary comparison; different outcomes are reportable under the direct effect-difference rule in Section 5.
+2 Corrected assessment of Route B
+The pooling hypothesis is stronger than a statement about the ordering of truth cells. Mixed cells lying closer to FF than TT is an unequal-separation claim, and unequal spreads matter for discrimination. A perfect, noiseless truth-count score has different implications and does not refute this hypothesis.
+Historical layer
+AND upper d prime
+AND lower d prime
+OR upper d prime
+OR lower d prime
+L22
+2.03
+0.65
+1.36
+0.32
+L17
+1.14
+0.92
+1.23
+0.74
+
+Upper means TT versus the pooled mixed cells; lower means mixed versus FF. These are the historical exploratory diagnostics discussed in the critique, not the canonical clean-protocol results. Their asymmetry supports investigating a noise-aware pooling account. They also suggest that depth changes the geometry relevant to transfer.
+What the R squared result does and does not say
+An item-level held-out R² near 0.45 leaves substantial individual-score variation unexplained. It does not, by itself, tell us whether the model predicts AUROC accurately. AUROC is the probability that a randomly drawn positive score outranks a negative score, with half credit for ties. A model can predict that probability well without predicting each item accurately.
+Cell means and spreads can be sufficient for an approximate AUROC prediction under a suitable distributional model, such as Gaussian score distributions. Without those assumptions, tails, multimodality, and other distributional features can matter too. The practical concern is therefore the ability to predict new cell distributions, including their spreads, rather than the numerical size of the item-level R² alone.
+Three constituent AND and OR is the first test
+The connectives are unchanged, so 3-way AND/OR does not require inventing a new operator rule. It does require a specified extension from two to three inputs: how the pooling signal, positional weights, length offset, and noise behave. Binary data may not identify those choices uniquely. Freeze them before observing ternary probe scores. XOR and mixed scope need additional rules and remain secondary.
+Why Route A still gets the main October allocation
+Selection and repair have direct, testable outcomes on the existing protocol and can largely reuse cached states. Route B has a plausible explanatory target, but its crucial extrapolation is still untested. The schedule decision is about the risk of predicting new distributions in the remaining time; it is not a rejection of pooling. Section 10 specifies a bounded experiment that could make Route B much stronger.
+3 Freeze the evaluation contract
+Reserve adaptation facts without exhausting small topics
+The original manifest has 908 training, 296 development and 296 final entity IDs before corrections and alias grouping. Retain outer assignments and quarantine cross-split aliases under Section 6. Reserve A inside outer training; fit atomic heads on the remaining P. Correct labels and eligibility first, then choose entities by a seeded within-topic ordering without probe scores. [P4–P7]
+Usable train entities
+Animals
+Elements
+Cities
+Spanish
+Inventors
+Before new audit
+48
+57
+450
+106
+139
+
+A balanced 25-pair sample needs ten disjoint entities/topic; 50 pairs needs twenty. Prefer 15/topic if the pilot passes: A = 75 and roughly 833 P IDs before exclusions/grouping. It allows entity subsampling at B = 25. Ten/topic preserves coverage but gives pairing-only variation. Reserve 20 only for a deliberate B = 50 commitment, not merely to keep the option open. Audit capacity before choosing.
+Check the balanced methods explicitly
+Animals reserved
+Animal affirmative rows left
+Balanced tG and TTPD rows
+10
+80
+800
+15
+70
+700
+20
+60
+600
+40
+20
+200
+
+The existing sampler takes the smallest available affirmative-row count across topics, then includes matched negations. Its original balanced total is 1,000 rows. Even the smaller reservation substantially reduces training for these methods. The table uses the present source rows and must be recomputed after label corrections. Report actual rows, entities, label counts, and sampler size for every method. [P5–P6]
+Bound the capacity pilot: Qwen layers 17, 18, 22 and Llama layers 10, 15, 20; at each fit pinned-C raw LR, the four other atomic methods, and R₀. Compare corrected full outer training with the 15-per-topic reservation first: 72 fits total. Try 10 only if needed (+36); try 20 only for a deliberate B = 50 decision (+36). Hard maximum: 144 pilot fits. This is not a complete all-layer search at each quota; fit the 600-candidate production bank once after choosing the split.
+Flag atomic AUROC losses above 0.005 or OR-boundary losses above 0.05 on D under matched settings; report all differences and uncertainty. These are review triggers, not a search for favorable repair gains. If withholding materially weakens the bank, reduce the reservation and drop B = 50. Use corrected labels on both sides; never admit A-exposed pilot candidates into the primary pool.
+Exposure rules and comparable references
+Partition
+Allowed use
+Required exclusion
+P remaining outer training
+Fit every atomic candidate and its preprocessing; supply repair atomic loss
+Exclude every A, D, and E entity from all fitted stages.
+A reserved adaptation entities
+B-pair selection, compound repair, and isolated-fact adaptation
+Exclude all source variants of these entities from P, including unused facts and negations.
+D original development entities
+Atomic eligibility and tie-breaks; disclosed development checks and control selection
+Already explored. Its labels are shared development overhead, not untouched test.
+E original final entities
+One locked atomic, compound, wording, and behavior evaluation
+Audit and extract early; no predictions or metrics before final lock.
+T_C audited outer-training subset
+Larger compound-trained diagnostic control
+May overlap P and A; exclude D/E. Its supervision is outside the equal-budget comparison.
+
+Freeze A/P, topic quotas, and maximum budget before fitting the production bank or starting the primary curves. Every budget and both models use this same split and bank. Conditional B = 50 means using an already reserved pool if runtime permits; it never means expanding A after B = 25. If A/P changes, refit the bank and preprocessing and rerun every affected budget and control. Never join results from different splits into one learning curve.
+With 20 per topic at B = 50, or 10 per topic at B = 25, every A entity is used: samples vary only in pairing. In these cases the fixed-layer atomic-only control has one distinct fit, because the isolated facts are identical. Canonically order and deduplicate fits by fact-set, layer and configuration hash. At a compound-selected layer, differences can instead come from layer choice. With 15 per topic at B = 25, samples also vary in which entities enter. Report the actual source of variability; three pairing seeds are not three new atomic-only training sets.
+Fit all 600 production-bank candidates on P, including centering, scaling, covariance or pseudoinverse estimation, and learned projections. Compatible cached states are reusable. A is new to the readouts; this makes no assertion about language-model pretraining exposure.
+Keep references comparable
+Retain canonical LR as a historical reference. Fit the bounded corrected full outer-training references for the withholding sensitivity, and reduced references on P at Qwen L17/C = 1 and Llama L15/C = 10. Use reduced references for eligibility and retention. Full-training probes saw A and remain outside the primary equal-budget bank. Report atomic AUROC to four decimals; stable performance must be demonstrated for every method.
+Record supervision and protect final data
+Each disjoint pair contributes four distinct affirmative facts and 16 binary compound variants. B = 25 therefore means 50 entities, 100 facts, and 400 dependent compound rows, not 400 independent labels. Count audits, entities, facts, rows, fitted stages, and shared D-label exposure. Audit E without predictions and preserve score-independent exclusions.
+October 2 is the target design freeze after the early mentor request. Record any unfinished audit or capacity check as pending; do not call the protocol frozen while its fitting data remain undefined. Log amendments and finish all choices before the separate October 6 final-analysis freeze.
+4 Compare selection calibration and repair
+Use the same pair samples, feature conventions, and evaluation examples for all methods. Keep the language model frozen. The primary contrast is chosen-layer repair R_all minus all-layer exhaustive frozen selection S_all at the same B-pair budget. Both use the reduced atomic fitting set P and adaptation set A. Fixed-layer cells are secondary. The canonical full-training LR probes remain historical references.
+Method
+What compound labels buy
+Question answered
+Reduced atomic LR reference
+Nothing; fitted only on P
+What is transfer before new facts or composition labels?
+Select a frozen atomic probe
+Choose among five raw LR settings, four other methods and the matched R₀ head at every layer using B pairs
+Is a suitable readout already available?
+Positive-slope calibration
+Fit an intercept or positive-slope Platt map; allow an explicit per-operator version
+Is the problem a threshold or probability mapping?
+Nonlinear scalar decoder
+Fit a small fixed decoder of the frozen scalar score
+Was useful structure retained in the scalar but missed by a monotone map?
+Compound-trained linear probe
+Fit a new direction using the same B pairs
+Does a new linear readout improve entity transfer?
+Atomic and compound joint probe
+Fit a direction with both atomic and compound losses
+Can the gain coexist with atomic retention?
+External constituent composition
+Use isolated atomic scores with min/max and Boolean decisions
+How well can separate fact readings support the task?
+
+Enumerate the pool before using compound labels
+At every saved layer retain raw-feature LR with C in {0.001, 0.01, 0.1, 1, 10}, DoM, covariance-adjusted mass mean, general-truth projection, and TTPD. Add R₀: a P-only logistic head using the repair family’s coordinate standardization, mean-loss penalty, optimizer and unpenalized intercept. The existing LR implementation records preprocessing as none; changing C does not reproduce coordinate standardization. Preserve those methods and make R₀ available to the same selector. [P8–P9]
+This gives 28 × 10 = 280 Qwen and 32 × 10 = 320 Llama candidates, 600 total before documented eligibility decisions. R₀ adds 60 CPU fits and no extraction. Fit every candidate on P only; retain all five LR C settings. Freeze other method settings, record actual fitting exposure and preserve the matched-data sensitivity. A comparison with repair must not omit the atomic-only version of its own fitting procedure.
+Do not truncate to the top five layers or hand-add L18. In the pre-repair atomic sweep, L15 and L18 tie for fifth at 0.9995599; arbitrary ordering would decide admission. A threshold of 0.999 would also exclude some strong-transfer TTPD fits. Keep the exhaustive pool. Apply the prespecified atomic-retention rule transparently during selection and publish both total and eligible candidate counts. Benchmark CPU time, especially covariance-adjusted fits; cached does not mean instantaneous.
+Layer and direction controls
+The fixed layer is Qwen L17 or Llama L15. Use the exact shared linear repair family defined below in both rows. It combines mean atomic loss on P and mean compound loss on the allocated A pairs. Compound-only fitting is a separate control; the language-model weights remain frozen.
+Layer policy
+Existing atomic readout
+New compound-trained readout
+Fixed L17 or L15
+S_fixed selects among ten P-trained candidates at this layer using B pairs; also show reduced LR
+R_fixed fits the frozen repair family at this layer using B pairs
+Chosen using B pairs
+S_all selects among all 280 Qwen or 320 Llama P-trained bank candidates
+R_all selects a repair layer using out-of-fold OR-boundary AUROC and refits on all B pairs
+
+The primary comparison is R_all versus S_all at B = 25, on final OR mixed-versus-FF AUROC, separately for each model. R_fixed, S_fixed, the reduced references, and same-layer comparisons explain that result; they do not replace either primary cell when another contrast looks stronger.
+Separate layer and method effects
+S_all changes method as well as layer. Also show an all-layer LR-only selector and S_fixed. Together with R_fixed, these distinguish depth from method-family gains. Report repair at the layer chosen by S_all as a same-layer comparison; those fits already exist in the all-layer repair run. Do not describe every all-layer gain as evidence that a new direction was needed.
+Show the zero compound budget anchor
+Show R₀ at the fixed and R_all-selected layers. The latter inherits compound-informed layer selection, although its direction uses no compound labels. At B = 0 also show R₀’s best D atomic-AUROC layer, breaking exact ties by lowest layer. Recovery explained by R₀ weakens a compound-supervision claim; R₀ beating noisy S_all alone does not prove a family effect, since it was in that bank. Compare repair with same-layer R₀ and isolated-fact adaptation.
+Preserve a meaningful atomic only adaptation control
+At each B, replace the repair objective’s compound-loss block with loss on the isolated versions of exactly those constituent facts. Disjoint pairs give 4B distinct affirmative statements, two true and two false per pair. A was excluded from atomic fitting, so these are new facts. Do not concatenate them with P under a single unweighted mean or add facts from the rest of A. Use the same block weight, preprocessing, regularization, and intercept policy as repair.
+Run this control at the fixed layer and, as a secondary same-layer control, at R_all’s selected layer. The latter inherits compound-informed layer selection and must be labeled accordingly; only its direction-fitting supervision is atomic. A gain matching compound repair would weaken the claim that composition supervision is responsible.
+Conditional scalar controls
+After the core, optionally fit positive-slope logistic calibration and a logistic decoder of z and z² on S_all’s selected score, standardized on P. Use B pairs, mean compound loss, coefficient penalty 0.001 and a free intercept. Report accuracy, log loss and Brier score; only the nonlinear decoder can improve within-operator AUROC. Per-operator fits and score combinations remain conditional diagnostics.
+Executable repair and atomic only objectives
+Fit one linear logistic head per layer, shared across AND and OR. It receives only the saved hidden state; no explicit operator indicator, constituent scores, or parse is appended. The intercept is free and unpenalized. The following values are proposed implementation defaults to freeze before the curves, not settings optimized on final results.
+LR₀ = mean loss on P + 0.001 ‖w‖²
+Lrepair = 0.5 ℓP + 0.5 ℓA compound + 0.001 ‖w‖2
+Latomic = 0.5 ℓP + 0.5 ℓA isolated + 0.001 ‖w‖2
+R₀ uses the full mean P loss plus the same penalty: set the A weight to zero and renormalize the remaining data weight to one. Leaving a half-weight P block would silently double effective regularization. Here each barred loss is mean binary cross-entropy, and the penalty applies only to w. The two adaptation objectives give equal weight to the P block and the new A block. Thus λ = 0.5 and ρ = 0.001 stay fixed across budgets, layers, models, and folds. Increasing B changes the number of facts rather than silently changing the relative data weight or penalty.
+Component
+Frozen implementation
+Features
+For R₀, repair and atomic-only heads, standardize each hidden coordinate with mean and population standard deviation fitted on P. Use a 10⁻⁶ denominator floor and set zero-variance coordinates to zero. Reuse these statistics in folds and evaluation.
+Atomic block
+Mean loss over all corrected, allowed P atomic rows, including the existing affirmative and negated forms; no additional class weighting.
+Compound block
+Equal mean over pairs, then operators, four truth cells, and two surface orders. With complete 16-row pairs, this equals the ordinary row mean. No extra balancing of true/false classes.
+Isolated block
+Equal mean over pairs and their four distinct affirmative facts. Use exactly the facts supplied to repair at that B.
+Optimization
+Deterministic full-batch L-BFGS in float64; zero initialization, initial maximum 2,000 iterations, gradient infinity-norm target 10⁻⁴. Use numerically stable logistic loss.
+Failure policy
+Log objective, relative objective change, finite weights and gradient norm. Retry flagged layers with the same objective and a warm start, up to 10,000 iterations. Preserve flagged fits for diagnosis; do not silently remove layers or treat unconverged fits as valid primary results.
+
+Persistent failure blocks the full all-layer primary comparison until resolved. If time runs out, a common-layer restricted comparison is a labeled sensitivity, with both arms restricted alike and the complete frozen bank still reported. It cannot silently replace the primary result. Do not tune loss weights to fix a result. Inside repair cross-validation, remove the held-out pairs from the A loss block entirely; P and its fixed preprocessing stay unchanged. Average each block separately. Before production, verify the implemented objective and gradients on a small numeric example and check that duplicating every row in a block leaves the objective unchanged. A library C parameter is not automatically equivalent to this mean-loss penalty.
+Selection criteria and eligibility
+Keep OR mixed-versus-FF AUROC as the primary selection objective in both arms. Mixed means TF and FT, pooled with equal weights; scores are oriented toward truth using atomic data only. Do not choose a sign or calibrate scores using final labels.
+Arm
+Primary ranking statistic
+How B pairs are used
+S_all and S_fixed
+One pooled OR-boundary AUROC over all B pairs
+Each frozen candidate has one scoring function. No folds are needed and cross-pair rankings are meaningful.
+R_all
+Mean OR-boundary AUROC across five entity-disjoint held-out folds
+Fit each layer on four folds, evaluate on the fifth, choose a layer, then refit on all B pairs. Never pool scores from independently fitted heads.
+
+At B = 5, each repair fold holds out one pair: four mixed rows and two FF rows, so its AUROC is coarse. Pooled frozen-candidate AUROC uses 4B mixed and 2B FF rows and avoids that unnecessary quantization. Folds keep all surface variants together. Prefer disjoint pairs; if entities repeat, form entity-disjoint folds before pairing.
+Resolve ties by evidence rather than candidate order
+Use this fixed ranking order: boundary AUROC, then atomic-validation AUROC on D, then continuous standardized OR separation. For repair, use the mean fold value for each statistic. Treat differences within 10⁻¹² as numerical ties; display precision must never determine ties. This uses atomic validation to resolve boundary ties while preserving the same continuous fallback in both arms.
+For separation, add 10⁻⁸ to the average of the two within-cell variances, take its square root, and divide the mixed-minus-FF mean difference by that value. First normalize each scoring function by its positive score standard deviation on P, so the floor is comparable. Use the same rule within repair folds. Flag degenerate scores. If all three statistics still tie, use a prespecified seeded random choice over a sorted tied set and report the tie, rather than automatically favoring the first candidate.
+Apply retention and report selection instability
+Require atomic-validation AUROC to fall by no more than 0.005 relative to the reduced LR reference. For repair-layer eligibility use mean fold performance; recheck the chosen refit on D. If it fails, return the reduced reference and report that fallback. Publish eligible counts, tie-set sizes at every ranking stage, selected identities, and variation across the three samples. Retain the noisy small-budget behavior in the curve rather than hiding it.
+The primary selector has no AND gate. Report overall AND AUROC retention on independent evaluation, with uncertainty; a loss above 0.02 fails the retention criterion. As a prespecified secondary sensitivity check, rerank both arms by the equal-weight average of AND TT-versus-mixed and OR mixed-versus-FF AUROC, using the same pooled or folded conventions. It uses existing scores and cannot replace the primary ranking after results are seen.
+Interpret the bank oracle descriptively
+Report the best eligible frozen candidate on D, and on E only after lock, as a post hoc bank oracle: an optimistic sample ceiling, not a deployable selector. Never use its identity to choose a method, layer, or budget. Show retention and optionally an unrestricted oracle. Exhaustive search covers the declared bank; it does not guarantee statistically efficient small-sample selection. Formal claims of exceeding the bank need simultaneous paired uncertainty across candidates; otherwise describe only the observed maximum.
+5 Budgets metrics and success criteria
+Run the primary budget before expanding the curve
+Run B = 25 first in both models; add nested B = 5 and 10, then B = 50 only if the frozen reservation and runtime permit. B = 100 is excluded. Pair/entity sampling seeds are 11, 23, and 37; the A/P reservation seed is 20261002. All methods share the split and receive identical pairs within each sample.
+Pairs
+Compound rows
+Role
+0
+0
+Reduced references; R₀ at fixed and atomic-selected layers
+5
+80
+Very low supervision
+10
+160
+Early curve
+25
+400
+Primary comparison and first complete result
+50
+800
+Conditional extension after the capacity and runtime checks
+
+Within each topic, shuffle its A entities using the recorded sampling seed, pair consecutive entities, and take a nested prefix for each budget. These budgets use 1, 2, 5, or 10 pairs per topic. Require disjoint entities within a sample. Assign all variants of a pair to the same fold. Construct five folds by a seeded round-robin ordering balanced across topics where possible; B = 5 has one pair per held-out fold.
+Freeze the primary contrast
+Primary: R_all minus S_all at B = 25 on final OR mixed-versus-FF AUROC, separately for Qwen and Llama. Fixed-layer and reference comparisons remain secondary. Disclose shared development labels and protocol choices as overhead.
+Report both boundaries, overall OR/AND, atomic and topic-macro AUROC, plus decision/probability metrics where defined. Retention tolerances relative to reduced LR are 0.02 AND and 0.005 atomic AUROC. Report paired differences and intervals; crossing a tolerance leaves retention uncertain, and a material loss is a tradeoff.
+Freeze practical tolerances
+The proposed protocol uses two separately named margins: δ_RS = 0.02 for repair minus selection and δ_CS = 0.02 for C_clean minus selection. Two AUROC points correspond to two additional correctly ranked positive-negative comparisons per hundred, with half credit for ties. This is a proposed practical judgment, not a data-validated cutoff. Confirm its scientific meaning at design freeze; document any change before E, without choosing a margin to make a result pass.
+On October 2, estimate paired interval widths on D at the planned E topic/entity counts using available matched scores; mark this as a precision proxy. Refresh it with the B = 25 D table before final lock. A half-width near 0.02 leaves little room for a positive repair gain while requiring an upper endpoint below 0.02. Do not promise a decisive sufficiency result or widen the margin to make it reachable. Freeze whether sufficiency is a well-powered decision or an exploratory classification; in either case report both effect sizes and intervals. A positive lower 95% endpoint establishes superiority; one above δ_RS establishes a gain exceeding the practical tolerance.
+Interpret selection repair and the available bank together
+Observed pattern
+Defensible conclusion
+Selection approaches a strong clean control and repair adds little
+Small-budget selection largely resolves this measured transfer problem, subject to retention and uncertainty.
+Repair beats selection but remains below the bank oracle
+Repair is a better adaptation procedure at this budget; a useful atomic-trained candidate was available.
+Repair exceeds the observed bank and generalizes with retention
+It improves on the tested atomic procedures. A population-level beyond-bank claim additionally needs simultaneous uncertainty.
+Selection and repair are similar but both weak
+The tested procedures have not resolved the transfer problem; similarity is not sufficiency.
+
+Operational rule for selection sufficiency
+For each model at B = 25, call selection sufficient on the bare-OR boundary only if E supports every criterion: paired 95% upper endpoints below δ_RS for R_all − S_all and below δ_CS for C_clean − S_all; C_clean’s boundary AUROC lower endpoint at least 0.90; and S_all atomic/AND retention supported within tolerance. Estimate the two gaps separately in paired entity-bootstrap replicates; neither can substitute for the other.
+These are bare-template criteria. Wording transfer remains a required core result: evaluate the locked methods on the held-out AND and OR templates and report gains, gaps, and retention for each. If the result fails there, limit the conclusion to the supported wording. Do not declare broad transferable sufficiency or repair from the bare-template endpoint alone.
+The 0.90 requirement is an operational standard for the word sufficient; a lower control score can still show useful headroom and support a narrower result. If the intervals are too wide, report unresolved sufficiency. Positive repair superiority and selection noninferiority can coexist when the added gain is smaller than 0.02.
+Compare the effects across models directly
+Γ = (Rall − Sall)Llama − (Rall − Sall)Qwen
+Compute Γ in the same paired entity-bootstrap replicate, using identical example weights across models and averaging over the matched adaptation samples within each replicate. Use the shared audited evaluation examples; report any model-specific missingness and resolve it before lock. A positive 95% interval for Γ supports a larger repair benefit in Llama; a negative interval supports a larger benefit in Qwen. Report the magnitude, not only its sign. Different significance outcomes alone do not establish different effects.
+Claim replicated superiority only when both model-specific repair-minus-selection intervals are positive and retention passes in both. One positive and one inconclusive leaves replication unresolved. Sufficiency can coexist with a small positive repair advantage; identical +0.01 effects cannot imply model dependence. Different absolute performance or remaining control headroom can justify different practical recommendations; name that quantity rather than claiming different repair benefits without Γ evidence.
+Choose the lead model on D once the bank and C_clean are available; Llama can lead if substantial headroom remains. Both models receive the full primary comparison. Freeze this choice before E. Neither a selector nor bank comparison establishes information outside the atomic-score span or a causal algorithm.
+6 Recover the evidence and prepare the data
+T1 Back up the missing research artifacts first
+First on October 1, copy the missing code, complete reviewed-negative registry, source evidence, and row-level scores off the active RunPod volume to durable storage. Preserve accepted and rejected judgments, not just the final CSV. Make a hash manifest and verify the copied files before rebuilding or cleaning anything. Another folder on the same ephemeral volume is not a backup.
+The benchmark metadata names scripts/27_generate_validation_compound_benchmark.py, src/validation_compound_benchmark.py, src/validated_negatives.py, the inventor-country modules, and data/clean_protocol/validated_negatives/ by hash. They are absent from the inspected repository. Preserve the 88 externally verified accepted negatives and associated review history, including the rejected judgment, before any new work.
+Retrieve the pinned Qwen, atomic-method, input-control, and Llama score packages, bindings, and manifests too. First deliverable: a verified restorable copy. Then recover the exact generator dependencies, commit the complete pipeline, and rebuild the main table and paired intervals on CPU. Allow recovery to consume October 1; the one-command rebuild may finish October 2. Correct surface-order analysis using surface labels, since canonical TF/FT pooled across orders is a different comparison.
+T2 Correct labels and identities without expanding the audit indefinitely
+Create one versioned correction/exclusion overlay across outer training, D and E before assigning A/P. The source includes Hedy Lamarr lived in the U.S. labeled false in training and Luther Simjian lived in the U.S. labeled false in D beside true multi-country statements. Their negations reverse the same wrong labels. Complementarity alone cannot detect these semantic errors. [P7]
+Apply an automated component-overlap rule to every partition, score-blind: normalize countries in accepted true multi-country records and the recovered evidence registry; flag a false affirmative whose country is included. Drop the flagged affirmative and its paired negation, recording the reason. Nonmembership in an incomplete set does not prove falsity. Review ambiguous conflicts under the adopted lived-in semantics, and quarantine unresolved facts. This is a bounded correction policy, not a new biography project for every inventor.
+Before dropping rows, save original labels and row IDs. After the automated pass, hand-check a simple random sample of 30 retained inventor false affirmatives, seed 20261001, across all partitions; report partition counts, evidence and residual errors. Zero errors in 30 still permits a one-sided 95% error-rate upper bound near 9.5%. Any error triggers targeted review of its failure pattern and an updated rule, followed by revalidation. Do not claim that this sample certifies every negative.
+Person level exclusions and the new data contract
+Merge aliases before freezing A/P: Luther George Simjian is in train and Luther Simjian in D; Philo Farnsworth and Philo Taylor Farnsworth are both in train. Give inventor identities a reviewed person-level key. Use normalized names to flag candidates, not as proof of identity or proof that no other aliases exist. Keep an alias map with evidence. Quarantine a person spanning outer splits from all partitions; do not move explored D/E facts into training. Group same-train aliases before reservation, pairing, folds and bootstrap. [P10]
+Introduce a new manifest-driven protocol version, for example selection_repair_v1. The legacy code hard-codes 3,144 training rows, 1,040 validation rows and 1,000 balanced rows. These are historical expectations, not valid new counts. Derive admitted IDs and expected counts from the corrected manifests; retain strict assertions rather than removing them. [P9]
+Assert that no A, D or E person/entity appears in any P-fitted stage, including preprocessing and covariance estimation. T_C may overlap P/A but not D/E.
+Bind every activation row to its exact statement hash, source row ID, model, token position and saved layer. Reuse unchanged statement states by an explicit index map; changed text needs extraction.
+Record actual balanced-sampler rows, unique people/entities, labels, preprocessing version, correction version and source hashes. Reject stale sidecars or mixed versions.
+Keep the historical numbers. Do one corrected full-training canonical LR sensitivity per model, at its existing layer/C, and rescore the existing Section 1 endpoints from cached states. If any predeclared summary AUROC moves by more than 0.002, or an interpretation/ranking changes, refresh the affected downstream analyses. Otherwise retain labeled historical results with the sensitivity note. All new production fits still use the corrected data regardless of this trigger; do not assume a small row count makes an error harmless.
+Audit new facts and queue all required states
+Inventory accepted compound negatives by topic. Spanish had only one source-supported false among 13,374 candidates and all 34 development entities needed review. A reservation of 10–20 per topic likely needs about 10–20 Spanish checks plus uncovered facts elsewhere; count the actual workload from the registry. Reserve 1–2 hours initially for A and a separate block for atomic inconsistencies. Translation ambiguity can invalidate an apparently obvious negative.
+Freeze A after the capacity pilot and identity audit, excluding every source variant of its entities from P. Audit E on October 2–3 while GPU work runs; approximately 90 final checks remains an estimate to verify. Target at least 20 audited usable T_C entities per topic, including Spanish; audit additional P facts for this control without enlarging A. Do not enlarge A merely to accommodate that control. Retain accepted and rejected judgments; never replace the recovered reviewed generator with the old unverified wrong-object generator.
+Done when every compound constituent has a valid truth judgment, the correction policy is consistent across partitions, person/entity intersections across P/A/D/E are empty, and all 16 variants have correct labels. Publish post-audit counts for pairs, rows, entities, facts, and per-method fitting data, with stable hashes.
+Queue extraction after each audit
+States
+Models and partitions
+Use
+Bare AND and OR
+Both models; A, T_C control pairs, and E
+Repair, clean positive control, and locked final transfer. Save all layers.
+Isolated A facts
+Both models; reserved A
+Weighted atomic-only adaptation. Reuse compatible source-row states where possible.
+Both of the following are true A B
+Both models; D and E
+Held-out AND wording and retention.
+At least one of the following is true A B
+Llama D/E; Qwen E and any missing D
+Held-out inclusive OR wording; earlier Llama replication omitted this condition.
+Existing or both wording
+Both models; verify D/E coverage
+Reuse only compatible caches; complete missing cells.
+
+The extraction manifest records the exact punctuated strings: “Both of the following are true: A. B.” and “At least one of the following is true: A. B.” Keep these wordings out of A fitting and selection. Record each model × partition × template cell, model/tokenizer revision, semantic position, and pinned A40 extraction settings.
+Queue A and T_C after their audits. E extraction must wait for the recovered generator, completed final-fact audit and frozen E manifest: plan October 3 evening or October 4 morning, not October 2. Check E states only for dimensions, alignment, and numerical validity until the final freeze. Do not open probe or behavioral final predictions, metrics, or plots early. Likelihood evaluation uses native chat templates separately from these raw-state caches.
+7 Establish clean decoding and behavior controls
+T3 Rebuild the compound trained positive control
+Define C_clean as a larger compound-only linear control fitted on audited outer-training entities T_C, which may overlap P and A but excludes D/E. This diagnostic is outside the equal-B comparison. Freeze T_C from fact eligibility, then sample up to 500 unique unordered pairs, equally by topic; within-training entity reuse is allowed and its counts are reported. If a topic has fewer than 100 eligible pairs, cap every topic at the smallest available count. Do not reserve extra A entities for this purpose.
+Capacity target: at least 20 audited usable entities per topic gives 190 possible unordered pairs/topic, enough for the 100/topic cap with a buffer. Fifteen gives 105; ten gives only 45, shrinking the control to 225 total pairs. With A = 15/topic, audit any extra T_C facts from P, especially Spanish. Freeze and report actual T_C coverage before fitting. A smaller or weak control can show headroom but cannot satisfy the operational sufficiency requirement by lowering its threshold.
+Use mixed AND/OR with all 16 variants, the Section 4 P-standardization and optimizer, and mean compound loss plus 0.001 times the squared weight norm. Fit at every layer. Select its layer by D OR-boundary AUROC, then D atomic AUROC and continuous separation for ties; freeze before E. Also show the fixed-layer control. Report actual entities, facts, pairs, both boundaries, topic results, and atomic return transfer. Its larger supervision and D-based layer choice are disclosed.
+Reason: the old near-perfect control used a pair split and does not establish clean entity transfer. If the new control is weak, check labels, row alignment, convergence, and layer coverage before attempting a large repair study. A credible control need not reach 0.99; it must establish what headroom exists. Aim to finish by October 3, allowing October 1 for recovery.
+T4 Measure behavior in each model chat template
+Freeze two concise truth-judgment prompts by October 2, with inclusive OR instructions. Render each through that model’s native chat template with its generation prefix; record the model and tokenizer revisions, template, system text if used, answer strings, and scoring rule. Do not use raw statements for the main behavior comparison. The raw probing regime remains a separate experimental condition.
+Score complete True and False continuation log likelihoods on the full D benchmark for both models and both prompts. Normalize across these two complete continuations, use a fixed 0.5 decision threshold, and do not use token-length normalization. Pilot throughput without changing prompts based on correctness. Apply the same locked policy to E only after the final freeze.
+Generate answers on a prespecified topic-stratified 50-pair D subset with every truth pattern and order; entity reuse is allowed and reported. Freeze decoding and a strict parser; count format failures as failures and report them. Use the analogous E subset after lock. For each prompt report cellwise accuracy, true-response rate, and likelihood-versus-generation disagreement. Within-cell AUROC is undefined because labels are constant.
+From the same complete-continuation log-likelihood margin, log P(True) minus log P(False), compute overall OR AUROC, OR mixed-versus-FF AUROC, and the corresponding AND discrimination metrics. This needs no new extraction. Good ranking with poor thresholded accuracy suggests a decision/calibration issue; weak ranking indicates poor discrimination in that prompted output measure. Villuri, Shaik, and Doboli report this distinction in logical verification; their result motivates the diagnostic without establishing its outcome here. [R9]
+Behavior decisions and input scope
+Freeze behavior thresholds before scoring
+Use descriptive thresholds: OR mixed-cell accuracy below 0.80 under both prompts is poor fixed-threshold performance; at least 0.90 in every OR truth cell under both prompts is robust prompted accuracy. Show entity-bootstrap intervals; crossing a threshold leaves the category uncertain. More than 10% generation-versus-likelihood disagreement or 5% format failures triggers the discordant branch. Inspect margin AUROC before attributing poor decisions to poor discrimination. These cutoffs do not establish the presence or absence of an internal logical computation.
+Observed pattern per model
+Effect on the paper
+Required qualification
+Robust OR competence in chat; weak raw probe boundary
+Frame the result as a transfer or readout failure under the raw probing regime
+Prompted competence does not prove what the raw state computes.
+Poor OR mixed accuracy under both prompts
+Soften repair language to supervised recovery of ground-truth labels; report a behavioral limitation as well
+Do not claim that a fully correct judgment was already present but merely read out badly.
+Prompt-sensitive, intermediate, uncertain, or generation-discordant behavior
+Make the competence claim conditional on the prompt and measurement
+Do not choose the best prompt after scoring or generalize across both models.
+
+Poor behavior alone does not show that the probe tracks the model’s own judgment. As a labeled diagnostic, compare paired probe–behavior agreement on behavioral errors and successes, and score correspondence within truth cells, with uncertainty. Raw-state scores and chat judgments come from different inputs; even aligned errors support only a qualified association without a matched-format study. A trained readout never repairs the frozen language model’s behavior.
+Matched chat probing remains in the next tier
+The main study can target the raw-statement probing regime used in relevant prior work. State that scope plainly. Without matched chat probes, do not claim the failure persists across input regimes. Behavioral and probe conclusions are made separately for each model. [R3–R4]
+If the main queue has capacity, use one frozen prompt on the model selected for the detailed case study. If Llama leads the explanation, prioritize Llama rather than a Qwen-only follow-up. Extract atomic and compound states in the same native chat format before an answer, refit on P, preserve A/D/E exclusions, and read equivalent semantic positions. Add the second model or prompt only after the core paper is secure.
+If this optional condition removes the gap, retain the raw result and narrow its interpretation. Prefix states at the end of A or the connective cannot see B in a causal model; they are constituent controls. Done when the essential behavior results follow the frozen decision rule and the paper distinguishes prompted competence, raw-state transfer, and supervised readout adaptation.
+8 Run the main extension and its diagnostic
+T5 Fit the selection and repair learning curves
+After the label and capacity checks, fit the 280-candidate Qwen and 320-candidate Llama banks on P. Complete the B = 25 layer/readout matrix, retention, and atomic-only control in both models before expanding the curve. Keep the exact Section 4 objectives fixed. Add B = 5 and 10, then the conditional B = 50. Log all development-informed amendments before the final freeze; E stays unscored until lock.
+Benchmark representative layers and both models before launching every repair fold; record seconds per fit, convergence, memory, and planned CPU parallelism. Across 60 layers, three samples, and five folds, B = 25 alone requires 900 fold fits before refits and controls. Adding B = 5 and 10 gives 2,700; adding B = 50 gives 3,600. Add up to 180 all-B refits per budget for same-layer reporting; count unique atomic-only fits rather than multiplying identical fact sets by three. The bank adds 600 fits and C_clean adds 60, plus the bounded pilot. Cached states remove GPU forward passes, not optimization cost. Cut the largest budget and optional diagnostics before weakening the candidate bank.
+Reason: these comparisons locate the benefit. Calibration tests probability mapping; scalar decoding tests retained one-dimensional structure; selection tests available atomic directions; a new direction tests learned readout changes. Atomic return transfer tests whether the change remains useful outside the adaptation task.
+First deliverable: one D table per model at B = 25 with S_all, R_all, R₀ at fixed and repair-chosen layers, atomic-only adaptation at those layers, the descriptive bank oracle, C_clean, and reduced LR. Show S_fixed/R_fixed as secondary rows. Include OR boundary, AND/atomic retention, topic-macro scores, three-sample variability, paired intervals, actual P/A counts, eligible candidates, and runtime. Then complete the frozen smaller budgets and B = 50 if capacity permits. Show selected identities, tie sizes, failed fits, and the descriptive crossover or its absence.
+T6 Decode constituents from the same compound state
+Once the core comparison and draft are secure, optionally train two small linear heads on the same whole-compound state: one predicts the first surface constituent’s truth and one predicts the second’s. Use the same pair budgets and splits. Compose their scores with min/max for AND/OR and evaluate their thresholded Boolean decisions. The connective and parse are supplied explicitly, just as for the isolated baseline.
+Compare the frozen scalar, direct compound head, contextual two-head composition, and isolated two-pass composition. Report each constituent head’s AUROC and the resulting compound boundary metrics. Count both heads’ parameters and the two constituent targets; those targets are derived from the audited facts but still provide a different supervision structure.
+Reason: this is the most useful additional diagnostic if repair succeeds. It tests whether the final compound state retains separately decodable facts that the atomic scalar does not expose. It connects the failure to a concrete representational question without requiring a causal intervention.
+Done when: the same-state comparison generalizes to new entities and its added supervision is explicit. Success supports availability of constituent information, not proof of the model’s internal causal algorithm. Failure of linear heads does not establish absence of information. Li et al. already study constituent decoding and interventions for conjunctions, so the added value here must involve the OR boundary, generalization, or supervision efficiency. [R5]
+9 Generalization and uncertainty
+T7 Test the strongest remaining alternative explanations
+Unseen entities, wording transfer, and atomic/AND retention are Essential. Train on bare AND/OR and evaluate the locked methods on the T2 wording conditions: “Both of the following are true: A. B.”, “At least one of the following is true: A. B.”, and or-both. Exclude these from B-pair fitting and selection. Prior OR results informed the project; those templates are held out from adaptation, not unseen by the researcher. Report every planned condition, including losses.
+Add strict topic transfer if the core results are ready. Start with two prespecified diagnostic holdouts, cities and inventors, to test different fact types; name this a two-topic study. Expand to all five only if the remaining time supports it. For every held-out topic, refit atomic probes, select layers, build candidate pools, train repairs, and calibrate using the other topics only. A compound-only holdout answers a narrower question.
+Entity transfer can still share objects, relation templates, and negative-generation conventions. Scope the main conclusion to these audited benchmarks. If making a broader compositional claim, add a cheap lexical baseline under the same P/A exposure and B budget, and a small independently audited alternative-falsity condition. A negation-realized control is one option; atomic training already includes false affirmatives and negation. Freeze the lexical feature family and its fitting/selection rule before E. These checks are secondary unless the broader claim depends on them.
+Separate evaluation uncertainty from fitting variability
+Continue the topic-stratified endpoint bootstrap used in the clean protocol: resample canonical person/entity keys within topics and weight a pair by the product of its endpoint multiplicities. Keep every variant, method and model paired within a replicate, using the same sampled endpoint multiplicities for Γ. Publish the implementation, seed, replicate count, and target population. Ordinary independent-row intervals would exaggerate precision because rows share facts and entities.
+The bootstrap conditions on fitted probes. Show all three adaptation samples or their range; changing random_state for an otherwise identical deterministic fit is not a new replicate. Keep the primary P/A split fixed. Any alternate atomic split is a separately labeled sensitivity and cannot enter the primary curve.
+For a summary across the three training samples, average their metric values rather than pooling their prediction rows. In each paired endpoint-bootstrap replicate, compute the metric for each fit and then average. This interval still conditions on the three observed fits; show their individual results to expose training variability.
+Freeze one primary comparison
+Use R_all minus S_all at 25 pairs on the OR mixed-versus-FF boundary as the primary contrast, separately for each model. Fixed-layer comparisons, canonical-LR gains, and best-method results are descriptive context. Use Γ for the direct cross-model effect comparison in Section 5; different significance labels are not evidence of interaction. Report the whole crossover curve; use simultaneous uncertainty bands before treating the first significant crossing as confirmatory. Do not treat the post hoc evaluation oracle as a method selected without labels.
+Report pooled, topic-macro, and per-topic results with entity counts. Pooled gains can reflect cross-topic score alignment; city-dominated gains are not consistent domain transfer. E has only 16 animal and 18 element entities before exclusions. Three adaptation samples do not cover all atomic-training or dataset uncertainty. Report retention tradeoffs; never redesign from E.
+10 A bounded predictive study for Route B
+T8 remains optional, capped at four focused hours for the binary diagnosis and prediction specification. A linear weighted sum is only a baseline: with balanced constituent marginals, its mixed-cell mean lies at the TT/FF midpoint regardless of recency weights. Connective gain and offset cannot move that relative midpoint. Use a nonlinear pooling candidate capable of the proposed geometry.
+Check the clean geometry before extrapolating
+At canonical Qwen L17, compute the mixed-cell position separately for raw AND, raw OR, and juxtaposition: subtract the FF mean from the mixed mean, then divide by the TT-minus-FF mean difference. Use equal TF/FT weights and endpoint-bootstrap intervals. Historical L17 was about 0.49 and clean juxtaposition about 0.53; neither supplies the uncomputed clean AND/OR values. If their positions are near 0.5, focus on operator gain and score spreads rather than claiming strongly minimum-like pooling at L17.
+Compare shared and operator specific pooling
+gβ(x1, …, xn) = −1β log 1ni = 1nexp(−βxi)
+Allow β to have either sign: zero is the arithmetic-mean limit, large positive β approaches the minimum, and large negative β approaches the maximum. Fit separate β values for AND and OR, and compare a restricted shared-β model. Both retain connective-specific positive gain and offset. Standardize isolated inputs on P and use stable log-sum-exp. Each fitted rule extends to three inputs without a new arity parameter.
+Evaluate three equal-weight candidates: β = 0, a fitted signed β shared across operators, and separate signed β values. Fit on A binary compounds and compare held-out D predictive negative log likelihood under the same connective-specific Gaussian residual family, equally weighting operators and cells. Choose the lower loss; exact ties favor β = 0, then shared β. Report paired entity-bootstrap differences; an unresolved difference does not establish equality. Recency weights remain secondary with a frozen arity-extension rule.
+Predict distributions as well as means
+Transform isolated scores through the selected pooling rule and binary-fitted residual model. Holding residual noise fixed across arity is a substantive assumption. Bootstrap binary training entities and refit the parameters to propagate uncertainty into ternary means, spreads, and boundary predictions; report competing-model predictions if the binary choice is unresolved. Check D residual shape and parameter identification first. The four-hour cap decides readiness; it does not promise a completed validated study. Freeze predictions before ternary scores. A failed prediction rejects this pooling-and-noise specification, not every pooling account.
+Test all eight truth patterns
+Use three-constituent AND and OR with all truth patterns and, if feasible, all six surface orders. Fit and evaluate on disjoint entities. Report TTT versus the exactly-two-true cells for AND, exactly-one-true versus FFF for OR, and full AUROC with explicit cell weights. Balanced truth cells imply a 7-to-1 label ratio and an 87.5% majority-accuracy baseline. Keep final ternary scores sealed until the locked evaluation.
+Set a boundary prediction tolerance before scoring, for example 0.05 AUROC, and require useful precision relative to competing models. A wide interval covering everything is not success. If predictions fail, separate mean, spread, and positional errors. XOR and mixed scope remain later tests; the October paper does not depend on T8.
+11 Daily tasks and decisions for October 1 to 6
+Use the earliest unfinished dependency as the starting point, even if the calendar has moved on. Save a brief end-of-day record: completed evidence, failed checks, decision, next job and remaining runtime. Time boxes below are focused hands-on estimates; unattended extraction/fitting is additional. Recent stages took one to two days with verification, so missed gates move the schedule rather than compressing validity checks.
+Thursday October 1 Recover and identify blockers
+First 2–4 hours, allowing the whole day: copy the generator, reviewed-negative registry, factual evidence and row scores off RunPod; verify hashes and a restore. Locate missing modules before rebuilding. Reuse the completed September results only after their bindings check out.
+Next 60–90 minutes if recovery allows: inventory alias groups, component-overlap label exclusions, compound-usable entities and available T_C facts. Save the correction policy and pending review list; estimate A/E audit work from actual uncovered facts.
+Today: send Arnau the Section 14 message with Section 1’s numbers and the proposed primary contrast. Spend 30–45 minutes making the paper outline and placing existing figures, even if jobs are blocked.
+Evidence to save: verified backup manifest, recovery status, alias/exclusion inventory, mentor request and paper outline. Reason: lost judgments or a leaking entity split would invalidate every downstream comparison.
+Decision: if recovery is incomplete, make it October 2’s first task; do not regenerate unaudited substitutes. If aliases or labels remain unresolved, quarantine affected identities/facts and recompute capacity before P/A. If Arnau questions the contribution, discuss the proposed table before investing in optional experiments.
+Friday October 2 Choose one feasible protocol
+2–3 hours: apply score-blind corrections and person keys across all partitions, complete the 30-row inventor spot audit, audit proposed A facts, and build the new manifest contract. Start E audit only with the recovered generator and fixed semantics.
+1–2 hours hands-on plus CPU: run the bounded full-versus-15 pilot and canonical sensitivity. Use 10 only if needed; consider 20 only for a deliberate 50-pair commitment. Benchmark R₀ and repair; verify loss gradients, row-duplication invariance and convergence logging.
+60–90 minutes: estimate dev interval precision; freeze P/A, pool, objective, tie-breaks, margins, prompts, seeds, maximum budget and sufficiency status. Start the production bank only after P/A is fixed. Draft Data and Methods for 60 minutes.
+Evidence to save: corrected manifests, actual sampler counts, all pilot differences, precision estimate, exact config and pending-items list. Reason: the same bank must support every B, and both arms must include the same atomic fitting family.
+Decision: acceptable 15-per-topic damage → use 15; unacceptable → try 10 and disclose pairing-only variability at B = 25. If even 10 undermines the bank, revise scope with Arnau before production. Interval half-width near 0.02 → expect unresolved sufficiency and emphasize effect sizes; do not inflate margins. Unfinished validity work → provisional config, no claimed design freeze.
+October 3 and 4 Establish the decisive development result
+Saturday October 3 Finish audits and establish headroom
+2–3 hours: finish E fact review, about 90 checks subject to inventory; freeze its score-independent exclusions. Audit extra T_C facts to target 20 usable entities/topic. Verify A/T_C states and the new manifest-driven row alignment.
+1–2 hours hands-on: finish the 600-candidate bank and clean control. Check actual exposures, retention, eligibility and convergence. Queue B = 25 folds in both models; run full-D chat likelihoods and the fixed generation subsets when GPU capacity is available.
+Queue audited E bare and wording states only after its manifest is complete, October 3 evening or October 4 morning. Save all layers and check integrity without scoring. Write Introduction for 45–60 minutes while jobs run.
+Evidence to save: audited E/T_C manifests, extraction inventory, bank/control D table, fit-runtime forecast and Introduction. Reason: the control establishes recoverable performance; complete caches remove work from final lock.
+Decision: R₀ or another atomic candidate removes most of the deficit → focus on reliable selection and the family/layer explanation. C_clean shows headroom → proceed with the comparison. Weak control → check labels, alignment, capacity and convergence first; do not call two weak arms sufficient. If audits slip, move E extraction; do not open partial final results to decide what to keep.
+Sunday October 4 Make the contribution decision
+2–3 hours hands-on plus CPU: complete both-model B = 25, three adaptation samples, fixed/chosen-layer cells, same-layer R₀ and weighted atomic-only controls. Build the Section 8 D table with counts, oracle, control, retention and paired intervals.
+60–90 minutes: write Related Work using the verified sources, and draft the result that the D table actually supports. Send Arnau the partial draft, clean table and a concrete proposed headline. Choose the lead diagnostic model on D.
+30–60 minutes: review remaining runtime and wording/behavior coverage. Finish delayed E extraction and integrity checks without opening scores. Queue B = 5/10 if the primary comparison is valid.
+Evidence to save: complete D table, selected identities/tie sets, distinct control-fit counts, interpretation memo, partial draft and updated critical path.
+Decision: repair adds beyond same-layer R₀ and atomic-only with retention → prioritize the supervision-efficiency result. Atomic-only matches it → new facts may explain the gain. R₀ matches it → a new compound-trained direction is not demonstrated. Selection trails the oracle → selection noise remains relevant. Use Γ to discuss differing repair benefits across models; different significance statuses do not suffice. Incomplete core or weak contribution → cut all optional work and discuss a narrower paper or later cycle.
+October 5 and 6 Finish the core and lock the analysis
+Monday October 5 Test generalization and write the result
+1–2 hours hands-on plus CPU: finish the nested 5/10-pair curves with the same P/A and bank. Run 50 only if already reserved and the core is complete; never expand A mid-curve. Save every planned sample, including poor ones.
+1–2 hours: evaluate D wording, atomic/AND retention, chat accuracy and output-margin AUROC under both prompts. Finish paired precision estimates using the actual B = 25 results. Confirm all E template caches exist.
+2 hours: draft Results, main captions and limitations. Send any substantive protocol amendment to Arnau before lock. Add a contextual or pooling diagnostic only if the entire core and writing are secure; the four-hour Route B cap is a maximum, not a commitment.
+Evidence to save: core curves, wording/retention table, behavior interpretation, precision decision and Results draft. Reason: a bare-template gain without transfer or retention supports a narrower claim.
+Decision: wording gain fails → limit the claim to supported templates and still report failures. Atomic/AND loss breaches tolerance → report a tradeoff, not unqualified repair. Poor behavior accuracy but good margin ranking → distinguish thresholding from discrimination. Both poor → soften the ground-truth recovery claim under that prompt regime. Work late → cancel 50 and optional diagnostics; protect the core and writing.
+Tuesday October 6 Freeze before any final scoring
+2–3 hours: audit P/A/D/E person exclusions, hashes, actual sampler sizes, preprocessing versions, all-layer convergence, fixed comparison definitions and extraction completeness. Check that the shared evaluation examples support paired Γ.
+1–2 hours: run the CPU table rebuild on D and verify the paired bootstrap, including metric averaging across samples. Freeze every method, selected layer, budget, prompt, template, margin, figure rule and sufficiency status. Record exclusions, amendments and pending mentor advice.
+60–90 minutes: complete the Methods and Results scaffolding, freeze the lead-model choice, and make a final evaluation run manifest. Keep E predictions and metrics closed until the signed/dated lock record is saved.
+Evidence to save: immutable analysis config, code/manifest hashes, successful D reproduction and final run queue. Reason: E should answer the chosen question rather than supply new design decisions.
+Decision: every essential gate passes → schedule locked E scoring for October 7. Unresolved labels, leakage, alignment or convergence → fix before opening E and reassess the deadline. Persistently failed layers cannot silently shrink only R_all. Missing optional runs → label them unrun; they do not block lock. Missing core wording or retention → no broad transfer claim and no claim that the full planned study is complete.
+Stop adding experimental requirements after this revision. Reopen the design only for a concrete validity failure or an essential mentor objection; log its effect on the schedule. Do not use another review round to enlarge the October study.
+12 Daily tasks and decisions for October 7 to 12
+Wednesday October 7 Evaluate once and choose supported claims
+2–3 hours hands-on plus scoring: execute the locked E protocol, including wording, retention and native-chat behavior. Build paired Δ = R_all − S_all, C_clean − S_all and Γ intervals; preserve shared examples and averaging across the three observed fits.
+2–3 hours: regenerate final tables/figures and finish Results and Discussion. Map every headline sentence to a specific final comparison; report sample variability separately from evaluation intervals.
+Decision: positive repair Δ in both models with retention supports replicated benefit. Γ supports a difference only if its own interval does. Sufficiency requires both separate gap criteria, the strong control and retention; wide intervals mean unresolved. A failed hypothesis changes the paper, not the frozen procedure. A genuine coding/data bug permits a documented correction applied consistently to every affected arm, with the initial output retained and the rerun disclosed.
+Thursday October 8 Deliver a complete draft
+3–4 hours: finish Abstract, Discussion, limitations and appendix; check that new-entity and wording results appear in the main evidence. Include actual fitting counts and preprocessing exposure. Send Arnau the complete draft and a short list of remaining claim/submission questions.
+60–90 minutes: verify paper tables against score artifacts, prepare the anonymous reproduction package and ask for priority feedback by October 10 if feasible.
+Decision: coherent supported contribution → continue to submission preparation. Primary effects inconclusive → report estimates and uncertainty, and discuss whether the narrower result is sufficient. A missing essential experiment or unsupported central claim → decide with Arnau whether to defer; do not fill the gap with an untested mechanism.
+Friday October 9 Reproduce and audit the paper
+2–3 hours: run the saved-score reproduction command from the release snapshot; verify row counts, label/preprocessing versions, figures, citations, author anonymization and cache instructions. Resolve concrete discrepancies.
+2 hours: edit the argument for clarity and remove claims stronger than the comparisons support. Confirm how alias exclusions, the 30-row audit and historical sensitivity are reported.
+Decision: all numbers reproduce → stop optional testing. A mismatch in provenance or a table → fix and regenerate the affected outputs. A new scientific question → put it in limitations or later work unless it invalidates the current claim; do not launch an unplanned extension to strengthen a weak result.
+October 10 to 12 Prepare and submit
+Saturday October 10 Resolve mentor feedback and author decisions
+2–3 hours: incorporate priority feedback, tighten claims and captions, and check the venue’s live formatting, anonymization and disclosure rules. Confirm submission scope and author agreement.
+60–90 minutes: complete metadata and reviewer-registration obligations. Verify the live deadline with all authors; use the earlier October 12 registration date while the two official pages differ.
+Decision: wording or presentation concern → revise now. A validity objection → fix if feasible and rerun affected outputs consistently; otherwise defer submission or remove the unsupported claim. An optional extension request → schedule after submission. Author disagreement about the central claim → resolve before submission rather than relying on the clock.
+Sunday October 11 Finish early
+2 hours: build and inspect the final paper PDF page by page, including equations, appendix, references and links. Verify anonymity and supplementary artifacts; archive the exact code and score manifest.
+With author approval, submit the paper and required files early. Check the uploaded preview and record the receipt. Keep a short list of any remaining administrative items.
+Decision: complete, reviewed package → finish today. Upload/formatting failure → use the buffer for that concrete issue. Missing scientific validity → the buffer is not permission to submit an unsupported claim.
+Monday October 12 Keep the buffer administrative
+Confirm successful submission, file versions and all-author reviewer registration. Resolve portal problems before the 23:59 AoE deadline; save the final PDF hash, receipt and repository snapshot.
+Decision: receipt and files verified → close the submission package. A technical problem → follow the venue’s current support process promptly. Do not replace the frozen study with unreviewed last-day experiments.
+Working dates and later work
+The official NAACL call lists October 12 for submission and all-author reviewer registration; ARR lists October 14 for registration. Use October 12 and verify the live instructions. NAACL commitment is separate, December 23, 2026. The ARR author-response window is currently November 24–30. These dates were checked October 1. [R1–R2]
+Keep submitted artifacts immutable. Record later extensions separately, including Route B distributional prediction, matched chat and contextual decoding. The experiment record should distinguish what was submitted from what was learned afterward.
+13 Decision gates and fallback plans
+Gate
+Evidence needed
+Action
+October 2
+Design
+Corrected identities/labels, feasible P/A, R₀, exact config and precision check
+Freeze only when fitting data and procedures are defined.
+October 3
+Validity
+Audited data, verified caches, complete bank and clean control
+Debug missing headroom; keep E unscored.
+October 4
+Contribution
+Both-model B = 25 table, controls, retention and partial draft
+Choose lead model on D; cut scope or discuss a later cycle.
+October 6
+Final freeze
+Complete core, converged fits, verified manifests and reproduction
+Lock before E; delay if essential validity remains unresolved.
+October 10
+Submission
+Supported contribution, final evidence, complete paper and author agreement
+Proceed only with a defensible, complete submission.
+
+Keep crossover descriptive unless jointly supported
+The hypothesis is early selection gains at 5–10 pairs and a repair crossover within 10–50. The descriptive crossover is the first tested budget where mean R_all exceeds S_all and remains higher at larger completed budgets. Report adjacent-budget bounds, per-sample curves, and missing budgets. Locating it statistically requires simultaneous curve bands; B = 25 anchors inference.
+If selection matches repair
+Apply the Section 5 sufficiency rule: small upper bounds on repair-minus-selection and control-minus-selection, a successful C_clean, and retained atomic/AND performance. Report the oracle gap and selection stability. If both arms are weak or uncertainty is wide, call the question unresolved. The contribution must measure a reliable limited-supervision selection procedure beyond known layer sensitivity. [R6]
+If a repaired direction wins
+Center R_all versus S_all and place both against the bank oracle and C_clean. Repair below the oracle is an adaptation-efficiency result; exceeding observed bank scores is a narrower claim than information outside their span. Report practical magnitude, entity/wording transfer, and retention. Use same-layer R₀ and weighted atomic-only controls to locate the benefit. Use Γ for differing repair effects and apply the behavior rules.
+If scalar decoding or prompting resolves the gap
+A scalar decoder must generalize to new entities and wording before supporting nonlinear information recovery. If matched prompting removes the gap, show the exact change, retain the raw-regime result, and narrow broader composition-failure claims.
+If no route produces a complete new result
+The September work remains a replication and evaluation foundation. Discuss a narrower paper or later cycle with Arnau; extra controls alone do not establish a new contribution. Do not fill the gap with an untested pooling explanation.
+14 Turn the results into a paper
+T9 Draft around the decision the experiments resolve
+Start the introduction with the precise problem: a readout with near-perfect atomic validation can have poor discrimination at a compound truth boundary. Explain why aggregate AND/OR AUROC and atomic validation leave that failure hard to diagnose. Then state the new result the study actually supports: selection sufficiency, a generalizing repair, or a sharply characterized dependence on input regime.
+Paper component
+Evidence to include
+Purpose
+Problem and related work
+Bao on logical transfer; Bürger on tG/TTPD; recent constituent and layer studies
+Locate the unresolved question without claiming the original AND/OR gap as new.
+Data and evaluation
+Audited facts, A/P separation, complete truth cells, exposure table
+Make leakage and label validity assessable.
+Baseline results
+Two-model raw-regime boundaries, behavior, and exhaustive atomic pool
+Establish the phenomenon and its stated input scope.
+Main extension
+Selection versus repair crossover; 2 by 2 layer controls; oracle; retention
+Identify what added supervision accomplishes beyond selection.
+Generalization and analysis
+New entities, wording, selected topics; optional contextual heads or ternary prediction
+Separate interpolation from transferable findings.
+Limitations and appendix
+Prompt scope, topic count, label overhead, fixed-probe uncertainty, full configurations
+State what the study does not establish and support reproduction.
+
+Build a small set of decisive figures
+A boundary figure showing TT, TF, FT, and FF score distributions, split by operator and model, with surface-order diagnostics distinguished from canonical cells.
+The main learning curve: exhaustive selection and repair versus pair budget, with reduced LR, labeled canonical LR, R₀, weighted atomic-only adaptation, C_clean, and the descriptive bank oracle. Include actual training counts, fixed-layer controls, retention, and only a supported descriptive crossover interval.
+A generalization table for the locked methods on new entities and held-out wording, with paired changes and topic-macro metrics. Add topic transfer only at its actual scope.
+Keep the core paper readable within the venue’s current format. Put full candidate pools, per-topic details, implementation checks, and secondary explorations in the appendix. The intended main-track claim should survive removal of every optional experiment. [R1]
+Ask Arnau before the design freeze
+On October 1, send the short update below and the central comparison; if recovery interrupts the day, send it early October 2 before the target design freeze. Ask whether the result could support an October paper and which control would change that judgment. Share the proposed capacity-based A/P split, expanded atomic bank, and exact B = 25 contrast. Do not wait for final curves or a complete paper.
+Request a quick steer by October 2 if feasible. If no response arrives, proceed with reversible audits, caching, and the provisional protocol, recording feedback as pending. Silence is not endorsement. Revisit the contribution at the October 4 pilot checkpoint and record substantive changes before the October 6 lock and planned October 7 final scoring.
+Short message to send
+Hey Arnau! Since the writeup, I’ve rebuilt the compound evaluation with audited negatives and entity splits, compared five probe methods, and added Llama. In the clean dev runs, the AND–OR gaps are .089 for Qwen2.5 and .222 for Llama; atomic AUROC is .9997/.9999. Much of the smaller Qwen gap seems related to layer choice: historical L17 was already around .081. Some stronger atomic readouts help, so I want to compare selecting across methods/layers with learning a new readout using the same 25 compound pairs. I’m first fixing a few label/alias issues and holding the adaptation facts out of probe training. I’ll include the repair family’s P-only head and an isolated-fact control, then test new entities, wording and retention. Does that sound like a sufficient October contribution, and is there a control that would change your view? Could you give me a quick steer by Oct 2 if possible?
+Attach the Section 1 development table and identify its numbers as pre-correction. This is a draft for Grace to send; the data cleanup and new adaptation study are planned work, not completed results.
+Use later checkpoints for evidence and presentation
+On October 4, send the Introduction, Related Work outline, Data and Methods, and pilot figures. Ask whether the observed evidence supports the proposed contribution and whether any validity issue needs action before lock. On October 8, send the complete draft and ask about claims, interpretation, and remaining submission blockers. Include the actual crossover evidence; the expected 10–50-pair range is still only a hypothesis.
+Keep an experiment record while writing
+Field
+Required content
+Question and decision
+Hypothesis, primary contrast, and which project decision the run changes
+Data and supervision
+Label-policy version; P/A/D/E and T_C hashes; actual method rows and entities; exclusions; pairs, facts, judgments, and development overhead
+Model and method
+Revision, input regime, semantic position, layer, candidate pool, preprocessing, and fitted parameters
+Evaluation
+Prespecified metrics, cell weights, calibration, sampling seeds, bootstrap, and final-test access status
+Outcome
+Saved score paths, tables, failed checks, interpretation, limitations, and next action
+
+15 Reproducibility submission and later work
+T10 Make the released results reconstructible
+Choose one authoritative code branch and commit. Preserve the historical main-branch results with their protocol labels; update the current README so old and clean numbers cannot be confused.
+Include the missing generator modules, reviewed-negative registry, factual sources, configuration files, and source-data attribution. Check redistribution terms before packaging third-party data and choose an appropriate repository license.
+Release row-level probe scores and compact manifests where permitted. For large external activation files, supply stable filenames, hashes, dimensions, model revisions, and retrieval or regeneration instructions.
+Provide one CPU command to reproduce every manuscript table and figure from saved scores. Provide a separate, pinned GPU extraction path with environment versions, model/tokenizer revisions, dtype, padding, special tokens, chat settings, semantic token positions, and layer indexing.
+Check the anonymous package, paper metadata, author list, submission forms, reviewer obligations, disclosure requirements, limitations, and responsible research checklist against the current ARR instructions. Resolve author and service eligibility questions before the final day.
+Reason: the contribution is an empirical distinction among closely related protocols. A reader must be able to tell which state, data split, direction, and label budget produced each number. Exact rerun provenance supports that distinction; it is not itself evidence of a cognitive mechanism.
+What to cut when time is short
+Pressure
+Cut or narrow
+Keep
+Compute queue slips
+Ternary extraction; chat expansion; third family
+Exhaustive two-model study, wording transfer, retention, and final evaluation
+Fact audit takes longer
+Extra diagnostic facts or broad topic extension
+Consistent label policy, fixed primary A/P split, and independent final audit
+Implementation expands
+Contextual diagnostic; extra decoders; chat probing
+Exhaustive selection, fair repair-layer choice, and retention
+Writing is behind on Oct 6
+All optional experiments
+October 8 complete draft and a clear supported claim
+Final evidence is inconclusive
+Small-budget or universal mechanism claims
+Full curves, uncertainty, and the actual scope of the result
+
+Next research after the deadline
+If the October result centers on selection, study what distinguishes successful directions with similar atomic validation. If repair wins, test whether it transfers across arity and operator without new labels. Develop Route B’s distributional predictions across 3-way AND/OR before XOR or nested scope. A causal intervention study should predict effects on model behavior, include control directions and strengths, and address operator-dependent novelty beyond the conjunction interventions already studied by Li et al. [R5]
+16 Sources
+Project evidence
+[P1] Original project writeup with Arnau’s comments, supplied as Neel_Writeup_arnau_c_comments(2).docx. [P2] Truth Probing NAACL Plan v2, September 23, 2026. [P3] Truth extensions log, including the completed September decision work. The canonical development numbers in this plan come from the log and its linked configurations; historical diagnostics are labeled separately.
+[P4] Repository snapshot reviewed on clean-eval-protocol at 7a8561c
+[P5] Entity partition counts before the new label audit
+[P6] Balanced general truth and TTPD sampler
+[P7] Admitted atomic rows containing the inventor label inconsistencies
+[P8] Existing five-value LR regularization grid
+[P9] Pinned method suite with historical row-count assertions
+[P10] Entity manifest showing inventor name aliases and outer splits
+Official dates and closely related work
+[R1] NAACL 2027 Main Conference Call for Papers
+[R2] ACL Rolling Review Dates and Venues
+[R3] Bao et al. 2025  Probing the Geometry of Truth
+[R4] Bürger et al. 2024  Truth is Universal
+[R5] Li et al. 2026  Propositional compositionality in neural language models
+[R6] Poulis Crovella and Terzi 2026  Testing the Limits of Truth Directions in LLMs
+[R7] Marks and Tegmark  The Geometry of Truth
+[R8] Azaria and Mitchell 2023  The Internal State of an LLM Knows When It Is Lying
+[R9] Villuri Shaik and Doboli 2026  When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models
+R6’s record and abstract were verified: April 4, 2026 submission, September 11 revision, with layer/task/prompt dependence relevant here. R9’s title, authors, submission record and abstract were verified October 1; it is an arXiv preprint submitted September 4, 2026. Its logical-verification setup is related context for comparing output-margin discrimination with thresholded behavior, not evidence that the same explanation holds in this study.
+Use the original sources for the atomic datasets as well as Bürger’s curation. Check the cited paper versions and exact comparison claims while drafting. Official dates were checked on October 1, 2026; the registration discrepancy is noted in the schedule.
+17 Fourth revision record
+This revision makes the daily checklist the execution interface and keeps the detailed protocol as reference. The earlier revisions established the new-fact split, exhaustive selection, explicit objectives, separate control headroom and repair gaps, and the primary 25-pair comparison. Those provisions remain. The changes below supersede conflicting older counts, dates and rules.
+Change
+Current decision
+Reason
+Match preprocessing
+Add P-only R₀ at every layer; 280 Qwen and 320 Llama candidates. Show same-layer R₀.
+Separate the repair fitting family from the contribution of compound supervision.
+Compare model effects
+Compute paired Γ, the difference between model-specific repair benefits.
+Overlapping sufficiency/superiority categories or different significance labels do not prove interaction.
+Bound reservation pilots
+Prefer 15/topic if feasible; 10 fallback; 20 only for deliberate B = 50. At most 144 pilot fits.
+Preserve small-topic coverage without repeated complete bank searches.
+Count distinct controls
+One fixed-layer atomic-only fit when all A facts are identical; report pairing versus entity variation.
+Pairing seeds do not create new isolated training facts.
+Fix identity and labels
+Reviewed person keys, cross-split quarantine, component-overlap exclusions and a fixed 30-row audit.
+Prevent alias leakage and semantic label errors without an unbounded factual review.
+Preserve data integrity
+New manifest-derived counts and bindings; bounded canonical sensitivity for old results.
+Hard-coded historical counts cannot survive exclusions and withholding.
+Handle numerical failures
+10⁻⁴ gradient target, logged same-objective retries; no silent asymmetric layer removal.
+A solver failure must not weaken the primary search or masquerade as evidence.
+Check feasible conclusions
+Dev precision check; retain both 0.02 margins and 0.90 control rule unless prospectively justified otherwise.
+Effect sizes and uncertainty remain useful when sufficiency is underpowered.
+Make daily choices explicit
+One-page checklist, daily outputs and if/then rules, audit-before-E-extraction, mentor update with clean numbers.
+Protect the critical path and finish the paper without expanding scope.
+
+Verified the Poulis and Villuri bibliographic records and the claims used here. Wording transfer, unseen entities, atomic/AND retention, behavior, the corrected Route B reasoning and the separation of fitting variability from evaluation uncertainty remain in place. Freeze after the stated implementation checks; new experiments require a concrete validity need or an explicit scope decision.

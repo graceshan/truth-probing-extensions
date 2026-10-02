@@ -1,0 +1,30 @@
+{
+  "focused_tests": {
+    "passed": 86,
+    "subtests": 10,
+    "seconds": 29.54,
+    "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_inputs.py tests/test_selection_repair_capacity_p10_v2.py tests/test_selection_repair_capacity_p10_validation_v2.py tests/test_selection_repair_precision_proxy_v1.py tests/test_heldout_and_wording.py tests/test_selection_repair_objectives.py"
+  },
+  "deterministic_regeneration": "passed: two in-memory builds, committed-package equality and standalone replay",
+  "existing_validators": {
+    "python -B -m src.heldout_and_preparation": "passed: original D/E packages byte reproducible, E scoring false",
+    "python -B -m src.final_partition_fact_audit": "passed: v5 projection and evidence reproducible; non-E unchanged"
+  },
+  "local": {
+    "system": "Darwin",
+    "hostname": "MacBook-Pro-7.lan",
+    "worktree": "/private/tmp/checkpoint-r2-integration-20261002",
+    "branch": "checkpoint-r2-integration-20261002",
+    "base": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+    "merge": "0147f70197e6effcd30849d66b13493d6ef0934e"
+  },
+  "production_fits": 0,
+  "activations_extracted": 0,
+  "predictions_read": 0,
+  "final_fact_binding_regression": {
+    "passed": 18,
+    "seconds": 4.14,
+    "command": "/tmp/clean-extraction-venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_checkpoint_r2_inputs.py"
+  },
+  "offline_Qwen_token_regeneration": "byte identical receipt, bindings and bridge token arrays"
+}
