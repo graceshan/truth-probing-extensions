@@ -1,0 +1,2198 @@
+[
+  {
+    "candidate_id": "llama/P15/L10/l2_logistic/C=10",
+    "fit_binding": {
+      "bytes": 4567,
+      "sha256": "61c294fbeade63298796561ac3229623ded0f2e1dca48725c30424db3204e4dd"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "614627315d1826f97af9e343dce17fbcb262f385ca81636cf1aa312f9546b53d",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 31778,
+      "sha256": "c1e2c7cecd38f749f52345eac12bfd454997fb3b66d40a0ef98caeb4cf06eb51"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L10/difference_of_means",
+    "fit_binding": {
+      "bytes": 3813,
+      "sha256": "db352288275102c9abb316291c238f3b30a7fe41206489470787872e23dfeda6"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "614627315d1826f97af9e343dce17fbcb262f385ca81636cf1aa312f9546b53d",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 100672,
+      "sha256": "bbc92d5a1f773b26f79af2e194266837ef3f94c8e876b5f563798285041b9e50"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L10/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3959,
+      "sha256": "862298174bf8802746b624bddf75ba56d9603e2b5075e059e031542cd663d3ea"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "614627315d1826f97af9e343dce17fbcb262f385ca81636cf1aa312f9546b53d",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 132872,
+      "sha256": "ad6b3b57792a9824c2d358f65299a0e0dd4ed0394f90fb39d474b39eb4ab6b9b"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L10/burger_t_g",
+    "fit_binding": {
+      "bytes": 4034,
+      "sha256": "9f0f6922ff0cf921097aed69838458540079e93d9461828c9bd3c076935db56b"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "88c17c3951ac961f37e2363164d7255fa42b7369444d02f7682ed0784fef742a",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 230372,
+      "sha256": "b12bb68f3f7541630c0cd7d01408d77a633c76b7ab5af678ec0ed8ee1223721a"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L10/ttpd",
+    "fit_binding": {
+      "bytes": 5969,
+      "sha256": "4f296e617ce351a23f8d55c8817f5ba80e4a92cd10c0fad45bfc5a74c3ac8436"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "88c17c3951ac961f37e2363164d7255fa42b7369444d02f7682ed0784fef742a",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 265424,
+      "sha256": "1bce8e499d4844dd6891ee11536d05a9f0258907311c1260d3e439a4f2b8c622"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L10/r0",
+    "fit_binding": {
+      "bytes": 4661,
+      "sha256": "f962b4e30fd03cceb2d6cbaa965cf84777441300747edf4f71ab0fbfbde5f515"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "614627315d1826f97af9e343dce17fbcb262f385ca81636cf1aa312f9546b53d",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "17311a3c2f392b8ddd26525e8f4fdd18f531e31227f2896c99834a72dc9274fc",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L10_r0_P15",
+    "parameter_binding": {
+      "bytes": 149088,
+      "sha256": "370fc93f88bad905bc160d340d08e445215cbd0f853726c04b0247ae1b77c753"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L10_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/l2_logistic/C=10",
+    "fit_binding": {
+      "bytes": 4568,
+      "sha256": "e51bcae5dbf417eab47d66e4029388256c796e231b93dbd4de0455017fc469c2"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 31761,
+      "sha256": "1a1ef99790de05573ee9968a57d5fe0867b397fa27beb5a3f8fb216c40530b27"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/difference_of_means",
+    "fit_binding": {
+      "bytes": 3813,
+      "sha256": "2c6e2ed10003d97cacb80786ae878ff6dfd7ee51799f08791a58d7bfb1b363d5"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 100936,
+      "sha256": "cf6868cc6cd4837e00fb30d75a29eab10b5a94b5e3dc53da1bda5f50ca5b5e8a"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3959,
+      "sha256": "a82d43d677aea88d17bac435733bb0f9a0635160396192e40fad6eeaed23e2cb"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 133045,
+      "sha256": "447ecd124aa778ff7078795cf43e3e9f52885ef3f215facd1bc1bd61c0e342ae"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/burger_t_g",
+    "fit_binding": {
+      "bytes": 4035,
+      "sha256": "a83189fe2d09c0158260c72ce632a568723102153d00f79d367902354ec9055c"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "bffb014aae51da1861547cea9d45eae5b4291e90d2b171fc3fda22f2227acd1e",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 230759,
+      "sha256": "127fe785b742810334fbab0d7ae6add7db84f1152f40dae147126fda43b6d0c1"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/ttpd",
+    "fit_binding": {
+      "bytes": 5973,
+      "sha256": "7e90f75e1f69f43b08dff63219c27f8b2aa6408f02a58d352dce05df842608af"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "bffb014aae51da1861547cea9d45eae5b4291e90d2b171fc3fda22f2227acd1e",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 265781,
+      "sha256": "5ad7c734aa09bd3a80ce5d814bfa60908f251674477267e5314219ad4a9fcf51"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L15/r0",
+    "fit_binding": {
+      "bytes": 4660,
+      "sha256": "4371bfa15af5d03b72d989c22011c1a4788a3f934d27c8f13034d5c5adcc618f"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "1179aa1a4865be42662c8b9457f83758b99ccfdc46f87d40d3ca1919be42ea97",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24969344,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "47afd95a1ba77d268453a68e85c8dda02d96c58cd4f6dde8e057b33c640235c7",
+          "shape": [
+            3048,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "bf6ddd3b6805f7329cf44a1a77ecf5d543f03ab7a8c8e13404190b72c07194d1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L15_r0_P15",
+    "parameter_binding": {
+      "bytes": 149190,
+      "sha256": "e8787f7089d4f48de9e35bb86a937f64ec7359f6f480c5c38b22d25b657123ea"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L15_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/l2_logistic/C=10",
+    "fit_binding": {
+      "bytes": 4568,
+      "sha256": "aeb15467acd029eb9ec1768396e7b1028e2737e81426581d1761dd72f655e4be"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "323c7a00542428a318a63040b58c12ce5d74f87ae4280f3bbf5cc7986536295a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 31773,
+      "sha256": "9e44b44753feb1fca9e812202f20dc7573a744650e6a2a28efed0a168697808f"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/difference_of_means",
+    "fit_binding": {
+      "bytes": 3814,
+      "sha256": "a2008162c9ce37ee2dbc43e68a736402ce7d4e1f63bace02611e613efe96e3db"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "323c7a00542428a318a63040b58c12ce5d74f87ae4280f3bbf5cc7986536295a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 101402,
+      "sha256": "d3d6104def04d6643946f0ffdb79d84735c1ebb05fcc82f138fad78177b202c8"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3958,
+      "sha256": "781e89b9d8dee202480be95756cb020cdafc78ac7b257dfa14e6e5eb196018e0"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "323c7a00542428a318a63040b58c12ce5d74f87ae4280f3bbf5cc7986536295a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 133532,
+      "sha256": "e066e03484000a352076a4806c94828490f83a7c8ff05621e49527d4533e52a3"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/burger_t_g",
+    "fit_binding": {
+      "bytes": 4034,
+      "sha256": "45a14db9f3ba8c7762bbd2122d2d3ab528b692fed7199fb1101ae206fe189303"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "6e24073af81b326cd7f4dce13a8185bfdc66ff89cd21da16072742aa9f43a320",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 231373,
+      "sha256": "d38a23a19761c907983309368387966cc660e03c3ade6e8f82ba1bdcd500568a"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/ttpd",
+    "fit_binding": {
+      "bytes": 5971,
+      "sha256": "0b08bb705fc51dadba3899300f1d17d7a9349ff31f056bd06348ba82467e066a"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "6e24073af81b326cd7f4dce13a8185bfdc66ff89cd21da16072742aa9f43a320",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 266388,
+      "sha256": "188098fdd7c19d90df4baf87b5481fda4ec13ac6d2ae5ac4062f4fc709614d45"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "llama/P15/L20/r0",
+    "fit_binding": {
+      "bytes": 4661,
+      "sha256": "b61699868c0155c51c2b4590fab19887beb258297f5e168646ee93300253db52"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "323c7a00542428a318a63040b58c12ce5d74f87ae4280f3bbf5cc7986536295a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 24903808,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c",
+          "shape": [
+            3040,
+            4096
+          ]
+        },
+        "materialized_float64_sha256": "aa7c5c234c79171d13843c651c98597fd9f48d38148d281939bf6d1ffabb22b1",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 824180864,
+          "header": {
+            "computed_file_bytes": 824180864,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              32,
+              4096
+            ],
+            "version": [
+              1,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+          "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "llama_L20_r0_P15",
+    "parameter_binding": {
+      "bytes": 149440,
+      "sha256": "37cadc59f3dc38d9d1fbb60f4a3d902b9b5b4e47c26e9ce9964fbf500d5a2a38"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/llama_L20_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/l2_logistic/C=1",
+    "fit_binding": {
+      "bytes": 4577,
+      "sha256": "62d6edceca710f1c8d3bcd345aea5d58f8f3f8367b36b621617241ad057fe7f7"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 27876,
+      "sha256": "6fb58eb31176ca1a268297445972812a07502bdfdf9012e4e12392912fba3d85"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/difference_of_means",
+    "fit_binding": {
+      "bytes": 3821,
+      "sha256": "3b70229e4c608e2e40c6666e33af8fb6d22023bfbf131c508e9a7d5c69f85df4"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 89642,
+      "sha256": "bcdeb3356ad51b708a10b631fa99b732cb864fcf2583a1b296b10a00cdb32056"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3969,
+      "sha256": "602f975ff462f8290eb7130bc37a4cf3c736f284042019cff1a739a2892ab87b"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 117684,
+      "sha256": "a12307ff82778b890b2c5c7cea38c0fa986b51b830aa32e1924afeb41e6e1dc0"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/burger_t_g",
+    "fit_binding": {
+      "bytes": 4042,
+      "sha256": "ea99b665c594926ed852b1788739c3320853cef4ccab2c443a0066e1040b0254"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "f02b82b259c838730e0b6a068ae977294749f498b69e71e0b4c0f9a16068b6bd",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 205516,
+      "sha256": "fd41f0226672edd0b2c93582db689488fbd3776455c4c06396c6ac72b30d38c7"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/ttpd",
+    "fit_binding": {
+      "bytes": 5981,
+      "sha256": "1acc4480318e6dcab99e52ac115045b29fe4fffdcb02893358d3ed9e30fd7acf"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "f02b82b259c838730e0b6a068ae977294749f498b69e71e0b4c0f9a16068b6bd",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 236086,
+      "sha256": "d0dad6f1c6fd827f60b97d0f01308994120058a90bb4db4ed68b661f5d9b4f82"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L17/r0",
+    "fit_binding": {
+      "bytes": 4670,
+      "sha256": "5dd78d53fd81792681a97455fd218c6c57cf19d9a700c7d4f7b2deca003ebfdd"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "a6e795380134f83822765c280d02fcbccbd3ca43db19fd155a5276e687d47d0a",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21848192,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "29ef8a7d0bbd0d1b713281ff7d0b427f03f17dfa86f59c803a7a162e9dd4bbef",
+          "shape": [
+            3048,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "de7cec090f23373b91f7a02c06ab9f4b102dcb6a6b91a508a5ee8443f7c5cb9e",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L17_r0_P15",
+    "parameter_binding": {
+      "bytes": 131445,
+      "sha256": "8633cb49175098e2ec2ebb4065f6145877423e3e46cf76b910c7e9d9926f0400"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L17_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/l2_logistic/C=1",
+    "fit_binding": {
+      "bytes": 4577,
+      "sha256": "e323bc0ec01b3dd0b8d24c145c46f4bc823e2c41ddb3e346c6f00a944dab715f"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "00b04f610bb0b072e3ee924d4e1226deb7a9e36a0d6987948992fd38c311f18f",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 27877,
+      "sha256": "ef894b7b5f7e9bc8d43e3a3e5693066daae2b85a0b54c06ca24322d0b323e01d"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/difference_of_means",
+    "fit_binding": {
+      "bytes": 3822,
+      "sha256": "69e0245dd947a6317c3df9cae9ffaec458f94cfa70540d86f97e4430f6077104"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "00b04f610bb0b072e3ee924d4e1226deb7a9e36a0d6987948992fd38c311f18f",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 89797,
+      "sha256": "2b0077a66930d95b1095b001ff6985cd8b30b3e913e09d9629e1f7dc7efc5d68"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3967,
+      "sha256": "5ede3e63c75b6659cdbcb18d88af2a45163c74f3cb99d055120afcd936e233cf"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "00b04f610bb0b072e3ee924d4e1226deb7a9e36a0d6987948992fd38c311f18f",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 117908,
+      "sha256": "ca9fc670fe55f883fa1e137e7f980c873100a627ab09343a7907e3f8e55843bd"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/burger_t_g",
+    "fit_binding": {
+      "bytes": 4043,
+      "sha256": "70f0ca4df276dc32eec51eb0c6d253fdd2826ff25cb27e2e68735161ba44fe79"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "990975360b87f9f77dabaaaac9b2dd4708850ca02fab64aa40ffaffd863501b8",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 205536,
+      "sha256": "bf0adea6e35c748838dc652094210bfc3356ab7ba481368808df3e308a631d01"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/ttpd",
+    "fit_binding": {
+      "bytes": 5981,
+      "sha256": "12fa32a99cd120a6ad61f8043226f1de824bf768d7eee532a422a5a6f0bf5dfa"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "990975360b87f9f77dabaaaac9b2dd4708850ca02fab64aa40ffaffd863501b8",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 236086,
+      "sha256": "8e9d40a5c86b5a2dc8d299b5b1f2159950b5dadd8c708c6005af7fa91685554a"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L18/r0",
+    "fit_binding": {
+      "bytes": 4668,
+      "sha256": "1dc2489838e82098d39ce2d8f4e24e97d70d1e05ac6b49e043d7affd6547be15"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "00b04f610bb0b072e3ee924d4e1226deb7a9e36a0d6987948992fd38c311f18f",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "1cc93c0d5c5c0c02cb7de85a97b8582f7fda7b18a3d93dffa2cbbd4449fcca56",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L18_r0_P15",
+    "parameter_binding": {
+      "bytes": 131486,
+      "sha256": "0c80e5beefb4655b6155219b54fb7ed54f25049e99a1b873c83f44f36c2495f3"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L18_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/l2_logistic/C=1",
+    "fit_binding": {
+      "bytes": 4577,
+      "sha256": "17c2068ecffa76dd83617e763dad0a8cffd5b938ab249e0442674d0c4b0a2308"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_l2_logistic_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "4c5c430688ddcbdd6e3d68044a3bc6f83b4c718801af97010b7e0aa1e70a3bd4",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_l2_logistic_P15",
+    "parameter_binding": {
+      "bytes": 27893,
+      "sha256": "39c72a3ec19d078e0f7bd70da674ffa5f400ed48f5eb30533739dbd489c2c2d8"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_l2_logistic_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/difference_of_means",
+    "fit_binding": {
+      "bytes": 3822,
+      "sha256": "e440e42a1af013a07a12a0d07a99e0fc125aa8d75773d8ea726a8a1a4dff950d"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_difference_of_means_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "4c5c430688ddcbdd6e3d68044a3bc6f83b4c718801af97010b7e0aa1e70a3bd4",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_difference_of_means_P15",
+    "parameter_binding": {
+      "bytes": 90657,
+      "sha256": "b174ecb786f615f8e873c130b428ff1bcce478271e1369c1179d43871c0252ed"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_difference_of_means_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/mass_mean_covariance",
+    "fit_binding": {
+      "bytes": 3968,
+      "sha256": "e248a93f91485405cb4118568b544adc594b0d297f946b28180fcd6e9797503a"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_mass_mean_covariance_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "4c5c430688ddcbdd6e3d68044a3bc6f83b4c718801af97010b7e0aa1e70a3bd4",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_mass_mean_covariance_P15",
+    "parameter_binding": {
+      "bytes": 118749,
+      "sha256": "56be33f2e49a8374e270d884c55416d3b26c02edaf1e26b241e0560e986b7f87"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_mass_mean_covariance_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/burger_t_g",
+    "fit_binding": {
+      "bytes": 4043,
+      "sha256": "9a46da650fcba98c0aba405b5a3ca2703e7bf5b4fd32f0300a50d460aca04f19"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_burger_t_g_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "bdc19783fd5cfae87d88b00e733d57eae7f824186afb398537f3a2d26657b2e2",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_burger_t_g_P15",
+    "parameter_binding": {
+      "bytes": 207515,
+      "sha256": "2b000edaa7d08d79466fa950779d81fa5f8551ef66e07dc22d2c84ef33ef0e74"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_burger_t_g_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/ttpd",
+    "fit_binding": {
+      "bytes": 5982,
+      "sha256": "ce4e8fbd311d679184c37473ad71f9cca305b5d079a353a29abba74a8415329b"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_ttpd_P15/fit.json",
+    "fit_rows": 700,
+    "fitting_identity": {
+      "feature_float64_sha256": "bdc19783fd5cfae87d88b00e733d57eae7f824186afb398537f3a2d26657b2e2",
+      "labels_sha256": "32a39f112055cd431195b1693cd8ff6e8893251546c96ec7033e4329a4651f03",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "cb36066c0608d4da17f6a5cd5474f3cb273db463097809d0fafba3d2290f62e3",
+      "ordered_ids_sha256": "8a5993997e823fca94337492c5d34f808034671aa3c07b2cc71c5943833cf9c0"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_ttpd_P15",
+    "parameter_binding": {
+      "bytes": 238019,
+      "sha256": "acf1b2cb5cbf804b1c307646fec78764049fe566e11ed5145874b6f4edfe1d6e"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_ttpd_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  },
+  {
+    "candidate_id": "qwen/P15/L22/r0",
+    "fit_binding": {
+      "bytes": 4668,
+      "sha256": "76a237f498675c32eed60e16f8d9e433d0de42f51b52aeedb7ff6d315f70a3d7"
+    },
+    "fit_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_r0_P15/fit.json",
+    "fit_rows": 2778,
+    "fitting_identity": {
+      "feature_float64_sha256": "4c5c430688ddcbdd6e3d68044a3bc6f83b4c718801af97010b7e0aa1e70a3bd4",
+      "labels_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "layer_binding": {
+        "export": {
+          "bytes": 21790848,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636",
+          "shape": [
+            3040,
+            3584
+          ]
+        },
+        "materialized_float64_sha256": "662187100898ef94412c7b6c9fc0c370825a62796d809d5305e14e62bd8dbd10",
+        "original_row_indices_sha256": "83ab798b5c1817be0388da1aab9614b200bb1113fe65fd8fc5c6feff5887759b",
+        "row_binding_sha256": "8886301b929cbd404b8d8341863d4ca5e8b784c20c0be349467bf3173010047b",
+        "source": {
+          "bytes": 631013504,
+          "header": {
+            "computed_file_bytes": 631013504,
+            "dtype": "<f2",
+            "fortran_order": false,
+            "header_bytes": 128,
+            "shape": [
+              3144,
+              28,
+              3584
+            ],
+            "version": [
+              2,
+              0
+            ]
+          },
+          "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+          "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+          "stable_during_read": true
+        }
+      },
+      "membership_sha256": "db99e676fd57ffabfbf1cdda848b85271786cf69e691de8bbfc6bd9953a62ffb",
+      "ordered_ids_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66"
+    },
+    "historical_correction": "v4",
+    "historical_id": "qwen_L22_r0_P15",
+    "parameter_binding": {
+      "bytes": 132006,
+      "sha256": "d67c3df565900f6d054aa0e03765f74428b7b66e6a7c932f53ea2103424857ab"
+    },
+    "parameter_path": "/Users/apple/projects/t2-capacity-pilot-v1-20261001/fits/qwen_L22_r0_P15/parameters.npz",
+    "preprocessing_cohort": "P15",
+    "production_adopted": false,
+    "reuse_status": "conditional_match_pending_exact_v5_membership_and_representation"
+  }
+]

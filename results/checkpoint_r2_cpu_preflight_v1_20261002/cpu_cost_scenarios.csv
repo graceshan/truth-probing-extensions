@@ -1,0 +1,15 @@
+model,family,fits,low_seconds,high_seconds,assumption
+llama,additional_bank,302,336.00793697638437,2634.9851785185747,36 historical matches accepted total; unmeasured C/layer spread: high is 3x max current synthetic/historical timing; DoM/t_G/TTPD supplemented by prior pilot costs
+llama,repair_folds,480,194.4070402532816,1944.070402532816,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+llama,repair_refits_upper,9,3.7392606556140793,37.39260655614079,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+llama,isolated_controls_upper,6,2.25751880991343,22.575188099134298,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+llama,C_clean,32,58.81517829441869,588.151782944187,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+llama,constituent_source,128,117.63035658883739,1176.303565888374,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+llama,constituent_full_refits_upper,8,7.351897286802337,73.51897286802337,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,additional_bank,262,210.76639380212873,1467.2758032283746,36 historical matches accepted total; unmeasured C/layer spread: high is 3x max current synthetic/historical timing; DoM/t_G/TTPD supplemented by prior pilot costs
+qwen,repair_folds,420,122.76838012039661,1227.6838012039661,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,repair_refits_upper,9,2.6986851795348645,26.986851795348645,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,isolated_controls_upper,6,1.629288010635901,16.292880106359007,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,C_clean,28,34.76145572268422,347.6145572268422,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,constituent_source,112,69.52291144536844,695.2291144536844,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"
+qwen,constituent_full_refits_upper,8,4.965922246097746,49.65922246097746,"Dense float64 row-cost scaling from fresh diagnostics; 1x–10x conditioning/iteration sensitivity, not actual TC/B25 timing or guaranteed bound"

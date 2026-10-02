@@ -1,0 +1,662 @@
+{
+  "additional_local_export_headers": [
+    {
+      "binding": {
+        "bytes": 24903808,
+        "sha256": "5484cd9a5bf82260d6b7cef9b31802e464aaf3f8b25186abcb1db3d6a11ae82a"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_train_L10",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_train_L10.npy",
+      "shape": [
+        3040,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 24903808,
+        "sha256": "ab859d36931b5ceb5023b40716826e7ea77c9227adae2a7f9a23afade68fc76c"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_train_L20",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_train_L20.npy",
+      "shape": [
+        3040,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 824180864,
+        "header": {
+          "computed_file_bytes": 824180864,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/train/activations.npy",
+        "sha256": "af7a0b6295bdbe63094ac7b5f627dcfd1f17e11bafbab274f4fd4da9ce50f22a",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 63307904,
+        "sha256": "3c1110363b62580568474444bd4c31ca096cdce244e879bf3894b786cd0c7ba7"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_transfer_L10",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_transfer_L10.npy",
+      "shape": [
+        7728,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 63307904,
+        "sha256": "9770eedb1c75ff1fb714786df3fcc7ce0e40de67f37d9281a4db4669afc738e1"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_transfer_L20",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_transfer_L20.npy",
+      "shape": [
+        7728,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 4532994176,
+        "header": {
+          "computed_file_bytes": 4532994176,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            17292,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/transfer/activations.npy",
+        "sha256": "802d89fe2dba0272a7d622854444b37418113da1805de1341096905084a993b0",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 8290432,
+        "sha256": "687fa8e5cb92c5fedaf7abb6f8b2231648bf8b101782256ccd5b7b4bde8386e9"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_validation_L10",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_validation_L10.npy",
+      "shape": [
+        1012,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 8290432,
+        "sha256": "bd0bdc3c14c8f9bd197369017ea4a0bd485faffd0f6f8408158f61c59c3314d9"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "llama_validation_L20",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/llama_validation_L20.npy",
+      "shape": [
+        1012,
+        4096
+      ],
+      "source_tensor": {
+        "bytes": 272629888,
+        "header": {
+          "computed_file_bytes": 272629888,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            32,
+            4096
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/llama31_replication_v1/atomic/validation/activations.npy",
+        "sha256": "7cbfd58bc53af5806926f4ced8725237cdc74cafd653d5e20e30c9dc46a6bb4f",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 55394432,
+        "sha256": "33ec69f294d3376ea3763365d010d9754085bd595b350f761c454377a3d817a4"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_raw_L18",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_raw_L18.npy",
+      "shape": [
+        7728,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 55394432,
+        "sha256": "d1999126407844bd12700b52c4889907e978673792207470d11b397e21c00217"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_raw_L22",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_raw_L22.npy",
+      "shape": [
+        7728,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 1682702464,
+        "header": {
+          "computed_file_bytes": 1682702464,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            8384,
+            28,
+            3584
+          ],
+          "version": [
+            1,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/pinned_compound_qwen2_5/qwen2_5_7b_a09a354_bs1_bf16_v1/activations.npy",
+        "sha256": "ed9f6a642f35ec185b6f6b63c4bc4a7dafb754012e967274560bc8aef43d07ac",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 21790848,
+        "sha256": "550799eaf1b7b75a0adc0f0646c5f3f0d2f017409c3d7377b624cb93724728ac"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_train_L18",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_train_L18.npy",
+      "shape": [
+        3040,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 21790848,
+        "sha256": "7161bc22b2aabde1add75323de0b087ae836e7b035bf25fd080573b96e03a636"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_train_L22",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_train_L22.npy",
+      "shape": [
+        3040,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 631013504,
+        "header": {
+          "computed_file_bytes": 631013504,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            3144,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/train/activations.npy",
+        "sha256": "1fa45a5e821bf3030260766658944b2ea38d7afe68b7a41486712652486c1b11",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 7254144,
+        "sha256": "25d286d32f2fe30dcc4fb9db369bd981b4a2eb4a1e6056d3c473455cf54fd90e"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_validation_L18",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_validation_L18.npy",
+      "shape": [
+        1012,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      },
+      "values_used": false
+    },
+    {
+      "binding": {
+        "bytes": 7254144,
+        "sha256": "0ebc731b89808700826870fed7147530b66ffd3f09d75d02c0888689b18ee76f"
+      },
+      "dtype": "<f2",
+      "header_and_hash_verified": true,
+      "key": "qwen_validation_L22",
+      "path": "/Users/apple/projects/t2-capacity-pilot-exports-v2-20261001/qwen_validation_L22.npy",
+      "shape": [
+        1012,
+        3584
+      ],
+      "source_tensor": {
+        "bytes": 208732288,
+        "header": {
+          "computed_file_bytes": 208732288,
+          "dtype": "<f2",
+          "fortran_order": false,
+          "header_bytes": 128,
+          "shape": [
+            1040,
+            28,
+            3584
+          ],
+          "version": [
+            2,
+            0
+          ]
+        },
+        "path": "/workspace/truth-probing-artifacts/atomic_repair/qwen25_a09a354_bs1_bf16_v1/validation/activations.npy",
+        "sha256": "574a4bff7706383d615b304bb62512a402f422a09502e118173085030bd354ab",
+        "stable_during_read": true
+      },
+      "values_used": false
+    }
+  ],
+  "base_sha": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+  "common_checkpoint_sha": null,
+  "components": [
+    {
+      "code": {
+        "src/selection_repair_objectives.py": {
+          "bytes": 13435,
+          "sha256": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+        }
+      },
+      "component": "shared_objective",
+      "inputs": {
+        "config/clean_protocol/capacity_pilot_v1.json": {
+          "bytes": 3559,
+          "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+        }
+      },
+      "reuse_limit": "Unchanged R0/compound/isolated objectives, P-only population preprocessing, unpenalized intercept, .001 weight penalty, 2000 then warm retry to 10000 total; production membership assembly still required."
+    },
+    {
+      "code": {
+        "src/atomic_probe_methods.py": {
+          "bytes": 10457,
+          "sha256": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2"
+        },
+        "src/clean_atomic_probes.py": {
+          "bytes": 20837,
+          "sha256": "ad38fe7cbae511288b14cffcd61f9d65e3f4b1489c68142f01be456f54110aeb"
+        },
+        "src/selection_repair_canonical_sensitivity.py": {
+          "bytes": 26761,
+          "sha256": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46"
+        },
+        "src/selection_repair_capacity_methods_v1.py": {
+          "bytes": 5833,
+          "sha256": "8f3d070ef5e5587a50e200524c4c6a1f213a0be751d7badf968afdb3cad1f894"
+        }
+      },
+      "component": "raw_LR_and_methods",
+      "inputs": {
+        "config/clean_protocol/capacity_pilot_v1.json": {
+          "bytes": 3559,
+          "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+        }
+      },
+      "reuse_limit": "Canonical raw LR cold warning retry; all five C values planned. DoM full P; covariance fixed absolute pinv1e-3; t_G/TTPD exact balanced P sampler, raw inference. No cutoff or setting changes."
+    },
+    {
+      "code": {
+        "src/capacity_pilot_projection.py": {
+          "bytes": 17793,
+          "sha256": "f6ac2820a1c572a62edadc562042f48f3fad57d3575528ec5ffdf330a59598b8"
+        },
+        "src/selection_repair_capacity_pilot_v1.py": {
+          "bytes": 21449,
+          "sha256": "674e93fd2b5a89ed6847f87f21339a05ad50126684f8381e162b9821c9aadacd"
+        }
+      },
+      "component": "v4_membership_and_sampler",
+      "inputs": {
+        "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/A15_proposal.json": {
+          "bytes": 147559,
+          "sha256": "43df1f3e77fd1aca8d9a2b35b506c52c1411e85ee3b28689a81d8e159f29bbe6"
+        },
+        "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/P15_admitted_membership.csv": {
+          "bytes": 2209984,
+          "sha256": "10e3ec13283ae6512bbaf33ba4f8a65662327d4b995e02896f9b484244a91967"
+        },
+        "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/P15_balanced_exposure.csv": {
+          "bytes": 539678,
+          "sha256": "6bac05b491f00b8d3b72b69c7e68114fa502a64919a93e1eb6402a54bda3356b"
+        },
+        "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/corrected_outer_training.csv": {
+          "bytes": 2410952,
+          "sha256": "4bf87d05cecdc10b73fc8bfde2d92a9859ded74d90c86ac700fb3feb9c7aa6b0"
+        },
+        "data/clean_protocol/selection_repair_v1/capacity_pilot_projection_v3/projection_receipt.json": {
+          "bytes": 6530,
+          "sha256": "9c73e5a1177966923436b00758c8a19636bc90c9d87dbc00232bc3e39cdfcb18"
+        }
+      },
+      "reuse_limit": "2778 P15 rows/700 balanced; exclude all 75 A persons and every source variant. These are historical v4 identities pending exact v5 equality and checkpoint freeze."
+    },
+    {
+      "code": {
+        "src/selection_repair_sensitivity_v4.py": {
+          "bytes": 16211,
+          "sha256": "65da5cf709f2b4615a08b4d8e0fc292bca51f4b9e292a1d229463f368d350e3d"
+        }
+      },
+      "component": "cache_maps",
+      "inputs": {
+        "results/t2_cache_physical_followup_20261001T183553Z/compatibility.json": {
+          "bytes": 44203,
+          "sha256": "2f27109e4382974cff28df829ee5c9ad8b93da10fac81fb5c9e2d48aea17992b"
+        },
+        "results/t2_canonical_sensitivity_v4_20261001/input_inventory.json": {
+          "bytes": 9173,
+          "sha256": "c20c93bc3c95befe9beb5dcec7c11fafadf88dd8fcc5e0fabce94bd3a85fe135"
+        },
+        "results/t2_canonical_sensitivity_v4_20261001/physical_export_binding.json": {
+          "bytes": 18445,
+          "sha256": "5e015f905e5d203f4b39da1fd88bd9d8770a51c4f129a465936d6483330c7653"
+        },
+        "results/t2_canonical_sensitivity_v4_20261001/preparation_receipt.json": {
+          "bytes": 2798,
+          "sha256": "e2d00649af5035165d23f51c2579d30c5d5fadd188c0f9a4e50af1ce16c83a14"
+        }
+      },
+      "reuse_limit": "Original tensor-row/source-row/hash/statement bindings; canonical Qwen17/Llama15 and two additional pilot layers per model. Physical identity is not fresh representation compatibility."
+    },
+    {
+      "code": {
+        "src/clean_transfer_statistics.py": {
+          "bytes": 9453,
+          "sha256": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd"
+        },
+        "src/selection_repair_canonical_sensitivity.py": {
+          "bytes": 26761,
+          "sha256": "6b904b421dc68f118791911f6c3a19ab8170d3b88e36ea5f2358cb33347f8c46"
+        }
+      },
+      "component": "bootstrap",
+      "inputs": {
+        "config/clean_protocol/capacity_pilot_v1.json": {
+          "bytes": 3559,
+          "sha256": "86c5fae97e4954c3d8add4aacedcce640b848bc96ccbe9649fa1507a2ff4c20e"
+        },
+        "results/t2_capacity_pilot_v1_20261001/bootstrap_binding.json": {
+          "bytes": 195,
+          "sha256": "a21f1546d893e3c22a12128b61f3f1b6cf2d84559b4fd717d4a33aa822254d93"
+        }
+      },
+      "reuse_limit": "Seed1729/2000 shared topic-stratified endpoint products and whole-person multiplicities; interval validity1800; cannot pool scores across sample heads. B25 actual inference orchestration pending."
+    },
+    {
+      "code": {
+        "src/selection_repair_capacity_pilot_v1.py": {
+          "bytes": 21449,
+          "sha256": "674e93fd2b5a89ed6847f87f21339a05ad50126684f8381e162b9821c9aadacd"
+        }
+      },
+      "component": "saved_P15_fits",
+      "inputs": {
+        "results/t2_capacity_pilot_v1_20261001/completion.json": {
+          "bytes": 38262,
+          "sha256": "9512909590dc8e6b2b34303424b8e4009ad1c3b78341c3b94887f607c46eb964"
+        },
+        "results/t2_capacity_pilot_v1_20261001/fits.json": {
+          "bytes": 355730,
+          "sha256": "048b2ba2c81f0b255094819d7617771503160b38eddf87c3c81ad4d27350a57c"
+        },
+        "results/t2_capacity_pilot_v1_20261001/layer_bindings.json": {
+          "bytes": 21518,
+          "sha256": "b4c6cc7dbba6aa062832a2292e5f3003fa5bb47178c1840340679e071bc663b4"
+        }
+      },
+      "reuse_limit": "36 exact candidate identities and parameter files verified; conditional reuse only; original v4 metadata and primary_bank_eligible=false flags retained."
+    },
+    {
+      "code": {
+        "src/selection_repair_capacity_p10_v2.py": {
+          "bytes": 23589,
+          "sha256": "c62c5513e5cacb222b94944c5445bcf7da8c1f58844495a49e501cd54531afa8"
+        }
+      },
+      "component": "historical_full_P10",
+      "inputs": {
+        "results/t2_capacity_pilot_p10_v2_20261001/binding.json": {
+          "bytes": 2074,
+          "sha256": "eb05228cf307cf05879a899a16e5cb455a65e9952b887a8f1681d12004df5331"
+        },
+        "results/t2_capacity_pilot_p10_v2_20261001/completion.json": {
+          "bytes": 20524,
+          "sha256": "5bcbae3661401721403fa03d98d1c557c73acb9a94f90dce1f5c40a6590cd690"
+        }
+      },
+      "reuse_limit": "72 excluded configurations: 36 full/A-exposed, 36 P10/wrong cohort. Two canonical full LR fits already included in full count, not additional fits."
+    },
+    {
+      "code": {
+        "src/selection_repair_precision_proxy_v1.py": {
+          "bytes": 21934,
+          "sha256": "ed34400e58eac2b1b990c62a83a798bb49a09c2140722f620ae59a99f5b47d1e"
+        }
+      },
+      "component": "saved_D_precision",
+      "inputs": {
+        "config/clean_protocol/precision_proxy_v1.json": {
+          "bytes": 12891,
+          "sha256": "a5dfe794d68c2490bfa6fa35d383f98559c4d8cc8e4122e5c0ab7f7b90d21dfb"
+        },
+        "results/t2_precision_proxy_v1_20261001/completion.json": {
+          "bytes": 1349,
+          "sha256": "fb742681f3b602a741f867f59f74d88cf816744324a7a9fa7810910495fe3b2c"
+        }
+      },
+      "reuse_limit": "Surrogate precision only; actual B25 contrast refresh still required. No new research D metrics computed in this task."
+    }
+  ],
+  "local_canonical_P15_verified_by": "timing_summary.json: six historical case input receipts and exact materialized fitting hashes",
+  "local_layers": {
+    "llama": [
+      10,
+      15,
+      20
+    ],
+    "qwen": [
+      17,
+      18,
+      22
+    ]
+  },
+  "missing_accepted_inputs": [
+    "mac1 exact reviewed common checkpoint SHA",
+    "recorded v5 train/D/A15/TC equality and membership freeze",
+    "bridge tolerances, calibration and independent comparison verdict",
+    "complete compatible 28/32-layer P/D exports",
+    "B25 seeds11/23/37 exact allocated facts/pairs and entity-disjoint folds",
+    "T_C 100 pairs/topic plus source16/validation4 entity splits and exact pair lists",
+    "compatible A/TC/source-validation states and all wording states",
+    "Prompt1 chat P15/TC/pilotD and behavior inputs"
+  ],
+  "no_D_research_metrics": true,
+  "no_large_transfers": true,
+  "production_ready": false
+}
