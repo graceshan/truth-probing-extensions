@@ -77,7 +77,7 @@ def prepare(args,cfg):
             threadpools=threadpool_info(),cap_seconds=10800,cap_is_runtime_estimate=False)
         publish_json(out/'preparation.json',metadata)
         adapter.unchanged()
-    print(json.dumps(metadata,indent=2))
+    print(json.dumps({k:metadata[k] for k in ('status','cpu_producer','supplement_extraction_producer','raw_export_pin','runtime_seconds','process_peak_rss','all600_candidates_unrun')},indent=2))
 
 
 def identity(args,cfg):

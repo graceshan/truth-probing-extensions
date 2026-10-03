@@ -36,6 +36,8 @@ class FrozenB25:
         name=self.lock['procedures'][model][str(seed)][arm]
         fitpath=self.fits[name];self.verify(fitpath);fit=read(fitpath)
         require(fit['valid_for_scoring'] and fit['model']==model,'frozen head valid/model')
+        self.verify(fitpath.parent/'parameters.npz')
+        require(pin(fitpath.parent/'parameters.npz')==fit['parameters'],'frozen repair/reference parameter pin')
         folder=self.evaluations[name];self.verify(folder/'score_binding.json');binding=read(folder/'score_binding.json')
         require(binding['producer_sha']==self.delivery['producer_sha'] and binding['fit_id']==name and
                 binding['lock_sha256']==sha(self.root/'locked.json') and

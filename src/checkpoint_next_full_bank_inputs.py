@@ -132,6 +132,9 @@ class FullTrainingAdapter(B25Adapter):
         self.bindings['outer_train']=[dict(group='outer_train',logical_id=r['source_row_id'],text_id='text_'+r['statement_sha256'],
             text_row=texts.get('text_'+r['statement_sha256']),source_metadata_sha256=hash_value(r)) for r in train]
         self.rows['outer_train']=train
+        self.receipt['group_rows']['outer_train']=3040
+        self.receipt['original_P15_all_A_variants_excluded']=self.receipt.pop('all_A_variants_excluded')
+        self.receipt['original_P15_balanced_binding_sha256']=self.receipt.pop('balanced_binding_sha256')
         d={r['person_key'] for r in self.rows['atomic_D']}|{r[k] for r in self.rows['D_bare'] for k in ('person_a','person_b')}
         require(not d & {r['person_key'] for r in train},'D/training entity overlap')
         require(all(set(self.allocations[s]['people']) <= {r['person_key'] for r in train} for s in SEEDS),'A restored exposure')
