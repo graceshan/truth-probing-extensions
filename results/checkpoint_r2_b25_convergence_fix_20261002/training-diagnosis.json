@@ -1,0 +1,142 @@
+{
+  "failures": [
+    {
+      "C": 0.1,
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=0.1",
+      "convergence_warning": false,
+      "feature_float64_sha256": "1580ad9d71fa596683f246ae36dd9c8dc2251a24f2def3c966ca549cc7db10d6",
+      "gradient_infinity_norm": 0.000335508513846723,
+      "iterations": 118,
+      "label_int64_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "library_converged": true,
+      "objective": 0.6841179945289726,
+      "ordered_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "original_optimizer_message": null,
+      "required_maximum": 0.0001,
+      "rows": 2778,
+      "source_fit": {
+        "bytes": 2100,
+        "sha256": "cebbfc8828295bb1889079453ca18a7cc5d3b517e0b53b6bdc4e87c9466cce3f"
+      },
+      "source_parameters": {
+        "bytes": 29192,
+        "sha256": "c4a838525b9c93eb15690bfd5560bf91050d14a515c8ca44f893bd20af8bd8df"
+      },
+      "termination_evidence": "original receipts do not retain SciPy termination code/message; specific stopping reason unknown",
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a"
+    },
+    {
+      "C": 1.0,
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=1",
+      "convergence_warning": false,
+      "feature_float64_sha256": "1580ad9d71fa596683f246ae36dd9c8dc2251a24f2def3c966ca549cc7db10d6",
+      "gradient_infinity_norm": 0.00015809270829964369,
+      "iterations": 537,
+      "label_int64_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "library_converged": true,
+      "objective": 0.6723668740040762,
+      "ordered_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "original_optimizer_message": null,
+      "required_maximum": 0.0001,
+      "rows": 2778,
+      "source_fit": {
+        "bytes": 2098,
+        "sha256": "538f39eb13eb2c9a78f867a513d7e2d2b3436f7596535f30ca3d5db35294ee49"
+      },
+      "source_parameters": {
+        "bytes": 29192,
+        "sha256": "55a52db78b5be5f084703645cca4ca42c4d3e56612d22d1c88119c596beff648"
+      },
+      "termination_evidence": "original receipts do not retain SciPy termination code/message; specific stopping reason unknown",
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a"
+    },
+    {
+      "C": 0.1,
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=0.1",
+      "convergence_warning": false,
+      "feature_float64_sha256": "474d8201bb8216965fd7b1bd3d1ea239a75f8e6080ddccbcda360aa3fce13d24",
+      "gradient_infinity_norm": 0.0002259840184617968,
+      "iterations": 430,
+      "label_int64_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "library_converged": true,
+      "objective": 0.6805201377405498,
+      "ordered_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "original_optimizer_message": null,
+      "required_maximum": 0.0001,
+      "rows": 2778,
+      "source_fit": {
+        "bytes": 2100,
+        "sha256": "1d313f14a9b00a491d4bc0b7e93df9ed01da7f219cc12637835b7b724c982018"
+      },
+      "source_parameters": {
+        "bytes": 29192,
+        "sha256": "6ef1a42148c19da38a982cf89b1628e1c74ae2371eee0e6ae12b486cc23ddceb"
+      },
+      "termination_evidence": "original receipts do not retain SciPy termination code/message; specific stopping reason unknown",
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a"
+    },
+    {
+      "C": 1.0,
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=1",
+      "convergence_warning": false,
+      "feature_float64_sha256": "474d8201bb8216965fd7b1bd3d1ea239a75f8e6080ddccbcda360aa3fce13d24",
+      "gradient_infinity_norm": 0.00020199397623376134,
+      "iterations": 1329,
+      "label_int64_sha256": "785cf6fc47cc4480afdb1e55e752f45c567219efa898d0ecacc81ef1cfd374aa",
+      "library_converged": true,
+      "objective": 0.6613008452651588,
+      "ordered_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "original_optimizer_message": null,
+      "required_maximum": 0.0001,
+      "rows": 2778,
+      "source_fit": {
+        "bytes": 2100,
+        "sha256": "0631f0f870770f380c00757b97def0b98c71832c8d4cdc27c2a5681770541d87"
+      },
+      "source_parameters": {
+        "bytes": 29192,
+        "sha256": "8a500e5434806972fc52d5057ec221983705e4f05e53df1f670dd2b4e6404417"
+      },
+      "termination_evidence": "original receipts do not retain SciPy termination code/message; specific stopping reason unknown",
+      "training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a"
+    }
+  ],
+  "host": "MacBook-Pro-7.lan",
+  "installed_scipy_defaults": {
+    "ftol": 2.220446049250313e-09,
+    "maxcor": 10,
+    "maxfun": 15000,
+    "maxls": 20
+  },
+  "installed_sklearn_options": {
+    "gtol": 0.0001,
+    "maxiter": "raw=2000; TTPD=100",
+    "other_options": "SciPy installed defaults"
+  },
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "original_delivery_sha": "60e651370e5c08635f151822073a8b9c01e092ca",
+  "original_external_files_verified": 226,
+  "original_manifest": {
+    "bytes": 40002,
+    "sha256": "ac0d068c4fb5bd412416765756faf691c8b8fccce183bae6f8d78a5dfb7e5877"
+  },
+  "original_producer": "b25581ca9c22d93c8c988c93c0c5491219d6cfec",
+  "pinned_library_sources": {
+    "/opt/homebrew/lib/python3.11/site-packages/scipy/optimize/_lbfgsb_py.py": {
+      "bytes": 19097,
+      "sha256": "4345959040526bb7341f35835f09f5547f76e6068fb069521c087f4cc6839472"
+    },
+    "/opt/homebrew/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py": {
+      "bytes": 26048,
+      "sha256": "9e78dcf127e215b45b788fabe7d9cb3b2936bfec2dcb1353b2801f87a507e6b9"
+    },
+    "/opt/homebrew/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py": {
+      "bytes": 82280,
+      "sha256": "7e8ea42479fedbc9bf217ae190de59acba59af9de56509d23a554d10f7458532"
+    }
+  },
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "scope": "Only P15 arrays/labels read for diagnosis. No D/A/wording performance guided settings.",
+  "status": "original_four_failures_reproduced_training_only",
+  "stopping_distinction": "SciPy has both projected-gradient and relative-loss successful termination tests; sklearn absence of convergence warning does not imply independent mean-loss gradient acceptance. Actual original stopping messages were not retained."
+}
