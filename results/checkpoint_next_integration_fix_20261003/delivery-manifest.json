@@ -1,0 +1,37 @@
+{
+  "E_access": false,
+  "base": "0a256d96b0fbf41f7ce678693da15cf230685778",
+  "branch": "checkpoint-next-integration-fix-20261003",
+  "delivery": "Exact documentation delivery SHA is in external review README and delivery.json; cannot self-hash this tracked manifest",
+  "executable_files_and_validation_sha256": {
+    "config/checkpoint_next/integration_fix_v1.json": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+    "config/checkpoint_next/integration_receipts.schema.json": "bfc80095f947dba24c6fb594594740bb8bead4690b2d26fd3c4ae5bab5b6baa8",
+    "results/checkpoint_next_integration_fix_20261003/final-focused-tests.txt": "d2109daf7fa856e2c4ea8383e81987eeabeceea476f5726df303c7c501cc2e22",
+    "results/checkpoint_next_integration_fix_20261003/final-validation.json": "87444f19ccdd5662bb6e7d8436432c9cc9b424fc22c746453a8bf12b400834a4",
+    "results/checkpoint_next_integration_fix_20261003/focused-tests.txt": "0e4829852a77ac3f2ff79988a046ab07fe755aca16c175a759de1755e1517d72",
+    "results/checkpoint_next_integration_fix_20261003/metadata.json": "dfaa6c2f1bab69d575cea5608ec3f8445fadf42ad2f61fa3f2e4b312d968d7c4",
+    "results/checkpoint_next_integration_fix_20261003/scientific-input-hashes.json": "072c254ce5f5cce76a0493c51447861533e3867590bb23c3dcfdfb04ae897637",
+    "results/checkpoint_next_integration_fix_20261003/validation.json": "f77dd070f41241904f0bd0139564087d5f59527049a2734bac1d284e1d37db74",
+    "scripts/checkpoint_next_authorization_template.py": "2f2124da06fdb11e4e07f4f2a23ea6f933e7b49ee0d67b5d58688983b0623552",
+    "scripts/checkpoint_next_chat_fit.py": "7978d24825607917ac2924e6f82c2457d12cb2c9894dc2ba75b88b4a0d94d7d0",
+    "scripts/checkpoint_next_report.py": "ff4ac2214ff7531712da3071c7cfdb15a71370f3e4f27e6f2cdd20628a52c149",
+    "scripts/checkpoint_next_storage.py": "5cfbdbdc12ecea6b8e9ca280d67d702c117406c2837d0bb0e20b92779a543c81",
+    "src/checkpoint_next_chat.py": "855a74effbe8bfec5deed691c316b88deaa9a5dd377eea16a84f78f0a12c1964",
+    "src/checkpoint_next_measurement.py": "0f10ce7e8cb2c608a629fc5a28108601e27c703db515583344e23f3664912754",
+    "src/checkpoint_next_missing.py": "3189af33f5849536ff04835d8de4f5d12a15e8c4d64735f612eb0317f7a8c321",
+    "src/checkpoint_next_reporting.py": "8052f47cdfd0f875ae4dea4383ab963a9ce5bec161066a0d70ccb62054816af5",
+    "src/checkpoint_next_runner.py": "260a060466690d5752208a6ffe8a70697ff674ecdf8ba13f95938187ed0032b1",
+    "tests/test_checkpoint_next_integration.py": "eb7484e95d95490d14a98fa14c3c0c31f99a79ef65a68577bb741d7b54cb9b34"
+  },
+  "integration_merge": "5ef04a7b45d4985fd41bc777e630474fd5ae68a2",
+  "integration_parents": [
+    "f63a9a9348892b81c0ab60261033a2b8600f26a2",
+    "bca07a055c70f7debb6389cf68feb6d2ab7c543f"
+  ],
+  "preparation_only": true,
+  "producer": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+  "push_attempted": false,
+  "real_inference": false,
+  "research_fitting": false,
+  "tests_passed": 27
+}
