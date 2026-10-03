@@ -1,0 +1,217 @@
+Truth Probing Next Steps Before the Research Decision
+Grace Shan   |   Revision 2   |   Work block for October 3 to 5 2026
+Complete a bounded explanation and robustness checkpoint before choosing the next research direction. The core work is saved-score diagnosis, the frozen behavior panel with its matched chat controls, and a fresh full-training atomic-bank sensitivity check. Then stop and review the evidence. Keep E closed and preserve the completed B25 experiment.
+The working paper focus is the limits and repairability of atomic-to-compound readout transfer. Repair is the empirical anchor; constituent transfer shows what a weak global readout does not establish about available information. Neither finding yet explains internal use of that information. Revision 2 incorporates both follow-up reviews through focused reporting and interpretation changes. The three core tasks, inputs and execution scope remain unchanged; no new experiment is reported as completed.
+Starting evidence that determines the priorities
+Bare OR boundary on D
+Qwen
+Llama
+Compound-informed selection S_all
+.8503
+.8373
+Mixed-loss repair R_all
+.9726
+.9905
+Repair gain and paired 95 percent interval
+.1223 [.1038, .1388]
+.1532 [.1266, .1780]
+Equal-topic macro repair gain
+.1275
+.1720
+
+Repair retains atomic and AND AUROC at pooled and macro scope, and its gain is positive in all five topics in each model; all ten topic intervals exclude zero pointwise. It also beats matched isolated-fact and layer controls. The unrestricted and eligible bank maxima coincide at .8600 and .8481, so the existing eligibility filter does not create this finite-bank gap. Oracle comparisons remain descriptive. [1, 2a, 2b]
+Constituent truth is strongly decodable from a whole bare compound state and transfers across AND and OR, especially in Llama. Wording exposes distinct weaknesses. For repaired “or both” scores, Llama is .8882 pooled but .9692 macro, with every topic between .9416 and .9935. Qwen is .8829 pooled and .9181 macro. Separately, Qwen constituent AUROC falls under some wording, while Llama can retain high ranking with Boolean balanced accuracy .6078. [1–3]
+Required task
+Question answered
+Lead
+1 Saved-score diagnosis
+What kind of wording failure occurs?
+mac 2
+2 Behavior and matched chat
+How do probes relate to actual judgments?
+mac 1
+3 Full-training atomic bank
+How much does A15 withholding matter?
+mac 2
+4 Decision packet
+Which claim and one follow-up are justified?
+Both sessions
+
+B25 means 25 structured pair blocks, 50 entities, 100 facts and 400 dependent compound rows per sample, alongside atomic training. Seeds 11, 23 and 37 stay visible. It is one tested positive budget, not an established minimum-label or learning-curve result.
+1 Diagnose saved scores before fitting a correction
+Use existing saved predictions on development D. No new model inference, probe fitting, threshold search or corrected D score is needed. Analyze the locked R_all heads for all three samples, the corresponding S_all comparison, and the selected constituent heads in both transfer directions. Use the three existing wording variants; do not search new wordings or layers.
+Decompose global ranking across and within topics
+For each model, sample and OR wording, form a five by five matrix. Entry i,j is AUROC comparing mixed TF/FT positives from topic i with FF negatives from topic j, using the same head’s scores. Report the bare matrix, wording matrix and paired difference. Diagonal cells are within-topic discrimination; off-diagonal cells expose cross-topic comparability.
+Reconstruct pooled AUROC exactly as the weighted sum of matrix cells, with weight n_positive_i × n_negative_j divided by total positives × total negatives, counting ties as one half. Report diagonal and off-diagonal contributions and their masses. Equal-topic macro AUROC is the unweighted diagonal mean; it is not the within-topic contribution to pooled AUROC. Reproduce the published pooled and macro values before interpreting the decomposition.
+Compute each sample separately, then average metrics or matrix entries; never concatenate different heads’ scores. Reuse paired entity draws and recalculate cell weights within each draw. A zero-mass cell has undefined cell AUROC but contributes zero to pooled AUROC. If total positive or negative mass is zero, pooled AUROC is undefined. An undefined diagonal makes the fixed five-topic macro undefined; do not average only surviving topics. Record undefined counts without redrawing. The 25 cells are dependent descriptive diagnostics.
+Separate shifts ordering and composition
+Diagnostic
+Required output
+Interpretation limit
+Matched wording changes
+Bare-to-wording score deltas by topic, truth cell, surface order and head; mean, median and dispersion
+Compare identical fact and order bindings
+Label and conditional changes
+Delta summaries by label and other-constituent truth, with matched score plots and rank changes
+Conditional deltas alone do not establish interference
+Frozen decisions
+Per-head confusion counts, joint correctness and Boolean accuracy by cell/order; balanced accuracy only with both classes
+Keep the original zero-logit rule and all denominators
+External composition
+Individual-head and min/max AUROCs on the same support, by topic and pooled
+High individual ranking does not ensure comparable head scales
+
+Under s_wording = a × s_bare + b with a > 0, score deltas can differ by label or truth condition even though ranking is unchanged. Conditional deltas identify a question, not interference. Changed ordering or within-topic AUROC supports a problem beyond simple positive affine change. Positive scaling alone preserves signs and cannot fix zero-logit Boolean decisions; relative scales can alter min/max ranking.
+A cross-topic decomposition explains residual wording loss, not the original repair advantage: repair already improves macro and within-topic discrimination. Poor off-diagonal cells alone do not prove additive offsets; interpret them with matched score changes and truth-cell results.
+Completion and stopping rule
+Deliver the exact decomposition, matched-delta and confusion tables, a few selected plots, and a short conclusion distinguishing cross-topic misalignment, within-topic ordering loss and threshold failure. More than one may occur. Stop after this descriptive report; do not fit a D-specific “fix.” The report selects a hypothesis for the later decision, not a new winning procedure.
+2 Measure behavior and complete the matched chat controls
+mac 1 prepares the runner locally, runs inference on the GPU through the Mac session, and returns verified outputs. Preserve the frozen 50 D pairs, ten per topic, both prompts, all cells and orders: 800 compounds plus 200 isolated-fact bindings before deduplication. Do not replace pairs using scores. [4]
+Keep the two behavioral measurements distinct
+Keep both approved prompts, the native chat template and generation prefix, with no extra system message. Score full exact True and False continuations without added whitespace, length normalization or end-of-turn tokens. Save token IDs and verify the prompt boundary. Rank by log P(True) minus log P(False); decide at zero, with ties True.
+Generate greedily with at most eight new tokens and native termination. Accept exact True or False after trimming outer whitespace and removing termination tokens. Other outputs remain format failures and incorrect in primary generation accuracy, but report formatting separately from valid factual errors. Forced-choice likelihood is not the probability of producing a valid answer.
+The full sample is primary. The secondary mask retains a pair only when all four isolated likelihood decisions are correct for that model/prompt, keeping all 16 compounds. Report coverage and empty topics. Retain isolated-fact margins, including label-signed distributions, to distinguish barely correct from confident decisions without changing the mask. Do not filter on compound correctness; different masks describe different populations.
+Behavior output
+What to report
+By model and prompt
+Likelihood/generation accuracy, True-response rate, format failures and disagreement with explicit denominators
+By operator cell and order
+TT, TF, FT and FF; pooled, topic and macro summaries where defined
+Ranking and uncertainty
+AND/OR and OR-boundary AUROC; paired entity intervals; no within-cell truth AUROC
+Coverage
+All-pair and isolated-correct results, explicit counts and undefined endpoints
+
+The headline probe–behavior table must use the same 50 pairs and row identities; retain full-D probe results separately. For readouts with existing frozen decision rules, count both correct, probe-only wrong, behavior-only wrong and both wrong, split by cell/order. For generation, flag format failures separately. Do not invent a threshold for an AUROC-only arm or retune any rule on D.
+Prompt 1 chat controls are part of this bounded panel
+Extract the last input state before the answer for chat P15, the fixed 8,000-row T_C control and the same 800 D compounds. Fit only R0 and C_clean with chat-P15 preprocessing at saved zero-based Qwen layers 17 and 18 and Llama layers 15 and 12: canonical plus raw AND-source-selected layers, deduplicated. This is eight planned heads, not a new chat bank. Match raw/chat head family, layer, fitting identities and D support; no chat-driven layer selection.
+Both prompts together require at most 4,000 model/prompt/input combinations before text reuse, each needing scoring and generation. Prompt 1 chat extraction adds 23,156 logical bindings across both models before deduplication and verified overlap with behavior passes. Saving two layers reduces storage, not forward-pass work. Benchmark this workload separately from raw extraction.
+Keep chat preprocessing on the original P15; full-bank sensitivity must not alter this exposure. Chat R0/C_clean establish only these Prompt 1 readouts, not prompted constituent availability or causal use. Weakness at two layers does not prove absence. A later failure-to-use claim needs prospective constituent validation in the same prompted regime.
+3 Restore the full atomic training pool as a sensitivity check
+Make this a required robustness panel for the next discussion. It directly addresses the largest remaining alternative explanation for the repair advantage and avoids reopening the A allocation search. It is an advantaged diagnostic reference with additional atomic exposure, including A identities; it does not replace the original equal-protocol B25 comparison.
+Freeze the comparison before fitting
+Restore the 3,040 admitted corrected outer-training bindings, compared with 2,778 in P15: 262 additional row bindings, not necessarily 262 missing texts. Keep D, A15, B25 samples, all existing repair heads, methods, layer ranges, hyperparameters and convergence rules fixed. Do not use historical tensors to fill gaps; their compatibility remains unverified.
+First map every required statement to the accepted fresh inventory by exact text/token bindings and representation hashes. Reuse verified matches. If any unique raw texts are absent, mac 1 extracts only that bounded missing inventory under the accepted fresh contract, with recorded quota, runtime and transfer checks. No new fact generation, label changes, E inputs or reservation redraw is needed.
+Refit the same 600-candidate atomic bank: five LR C values plus DoM, covariance-MM, t_G, TTPD and R0 at every saved layer. Retain each method’s existing preprocessing and objective conventions. For standardized procedures, fit preprocessing on full admitted train; regenerate and verify the deterministic full-training balanced sampler for t_G/TTPD, expected 1,000 rows rather than 700. Preserve raw LR’s existing C scaling. This tests the full-training procedure, including its preprocessing and sampling changes, rather than isolating a single row-addition mechanism.
+Keep selection and optimistic references separate
+Select S_full using the same allocated B25 labels and tie rules for each seed; also report the full-bank atomic-only selector. Hold eligibility to the original fresh reduced-LR atomic D reference minus .005, so the primary sensitivity comparison has a common gate. Report the full-training canonical LR separately. Compute both eligible and unrestricted D bank maxima descriptively, without using them to change S_full or repair.
+A identities now occur in full-bank atomic training and in the selection sample. Record that exposure explicitly: this is not selection on unseen training entities. D still remains entity-disjoint from fitting. Neither the selected candidate nor the D oracle can be advertised as a replacement equal-exposure treatment.
+Required contrast or report
+Purpose
+Frozen R_all minus S_full
+Does repair still add value after restoring atomic exposure?
+S_full minus S_atom_full
+What do compound labels add to selection within the full bank?
+Frozen R_all minus S_atom_full
+Does the tested full-training atomic-only selector reach current repair?
+S_full minus original S_all
+How much does the practical bank improve?
+Full and P15 eligible/unrestricted maxima
+Does bank capacity change, separately from selection?
+Atomic and AND retention; OR and boundary
+Avoid trading away other endpoints to close one gap
+Each sample, pooled, macro and five topics
+Locate model or topic dependence; keep paired draws
+
+S_atom_full is the already-planned full-bank atomic-only selector, chosen once per model. Both added paired contrasts use existing fits. Compare each seed’s S_full/R_all with that same selector and average differences inside shared draws. Freeze heads before wording scores; reuse 2,000 paired entity draws. Oracle intervals remain fixed-winner and conditional. Account for all 600 candidates; failures block a complete-bank claim without silent method removal or relaxed validity.
+4 Keep the objective ablation conditional and the claims precise
+The three core tasks are sufficient to reach the next direction decision. Add the following six-fit ablation before that decision only if the intended claim is that the atomic-loss term specifically preserves atomic performance. Otherwise record it as deferred and describe the result as controlled compound-supervised repair, without claiming a new loss mechanism.
+Matched deletion ablation at fixed layers
+Use saved zero-based Qwen L17 and Llama L15, with each of seeds 11, 23 and 37. Reuse the same B25 examples, P15-fitted preprocessing, free intercept, penalty, initialization policy and frozen optimizer acceptance as R_fixed. Drop only the atomic term from the mixed objective. Do not rescale the compound term or retune the regularization.
+Objective
+Frozen loss
+Existing fixed-layer repair
+0.5 mean atomic BCE + 0.5 mean compound BCE + .001 squared weight norm
+Proposed matched compound-only ablation
+0.5 mean compound BCE + .001 squared weight norm
+
+Report compound discrimination and atomic/AND retention relative to the same fresh reduced LR, plus paired differences against R_fixed. Keep the .005 atomic and .02 AND margins, and show pooled and macro scopes, each seed and topic. Do not select a new layer or the best seed. C_clean remains a larger-supervision reference and cannot substitute for this matched-budget ablation.
+This is a matched deletion ablation, not a search for the strongest standalone compound-only head. Its algebraically equivalent unit-weight compound objective would have penalty .002; keep the actual fit on the frozen .5 loss scale. If the deletion loses retention while R_fixed retains it, adding the atomic block helps under this fixed objective. If both retain, necessity is unsupported; if bounds are wide, leave it unresolved. No result rules out a differently selected or regularized compound-only procedure.
+A short contribution check belongs in the decision packet
+Prepare a one-page related-work matrix, verified against the papers themselves: atomic-to-AND/OR transfer; constituent decoding and conjunction interventions; prompt dependence; and separate versus jointly learned truth directions. The reviewers supplied Bao, Li/Patil/Rawlins, Poulis and Ying as starting references. Check exact claims and publication versions before writing novelty language. This is a bounded positioning task, not a broad literature project.
+The proposed scientific claim is that strong atomic truth discrimination can coexist with poor compound transfer; under the tested reduced-P protocol, structured compound supervision learns a better retained readout, while constituent decoding shows that a global transfer failure need not imply absent constituent truth information. The controls support this claim. Identify its exact advance over the closest papers, rather than counting experimental components. Do not claim that every atomic procedure fails, repair uses the measured constituent directions, or B25 establishes sample efficiency.
+Defer these expansions until the decision
+Defer calibration searches, target-D thresholds, joint constituent retraining, budget curves, fresh A, reservation sweeps, broad prompt searches, a full chat bank, ternary/pooling and interventions. Later calibration must declare bare-only, labeled target-wording or unlabeled paired-wording training exposure; bare-source calibration need not anticipate unseen wording. Causal work needs prompted constituent validation, editability and sham/reverse controls against generic True steering. Predict AND effects when the other truth is true and OR effects when it is false.
+5 Execute in an order that avoids duplicated work
+Keep mac 1 and mac 2 as session labels. The reported runs used the same physical Mac, so serialize heavy CPU fitting and auditing by default. Remote GPU work can overlap one local CPU job. Parallel session work is useful for preparation and read-only review, not a reason to launch competing fits on the same host.
+Target date in New York
+mac 1
+mac 2
+Dependency
+October 3
+Prepare frozen behavior/chat runner and bounded missing-raw extraction support
+Finish saved-score diagnosis; prepare full-bank input inventory and runner
+Independent local preparation
+October 4
+Run reviewed behavior/chat GPU workload and any missing raw inputs; transfer verified outputs
+Fit full-training bank after input verification; then analyze and audit
+GPU may overlap one CPU fitting job
+October 5
+Finish chat CPU fits when the CPU slot is free; review bank outputs
+Review behavior/chat; assemble synthesis and optional six-fit ablation if included
+Hold scientific decision with complete or explicitly limited packet
+
+These are target days, not automatic completion or permission to open E. If GPU work is delayed, finish diagnosis and full-bank preparation locally; record which scientific decision remains unresolved. The small missing-raw job can run before the larger chat extraction to unblock mac 2. Avoid adding a separate GPU session if verified existing texts already cover full train.
+Git and data handoff
+Fetch origin first. Create isolated successor branches or worktrees from exact reviewed constituent delivery 0a256d96b0fbf41f7ce678693da15cf230685778, which contains the completed B25 lineage. Do not pull a moving branch into an active or completed run. Share inputs through an exact reviewed common preparation commit; merge only reviewed delivered SHAs when assembling the checkpoint. Preserve historical worktrees and the 13 unrelated files.
+Freeze the new task inventories, objective contracts, selectors, reporting endpoints and cap values in code/configuration before their runs. Leave completed R2 manifests and original reports unchanged. Existing authorization for earlier experiments is not evidence that a new panel has run. This document is a draft plan; later execution prompts should name the reviewed code and the bounded task.
+Runtime and stop rules
+Proposed ceilings for this new block are three hours for the full-bank CPU worker and two active GPU hours per model for missing raw inputs plus behavior/chat, with setup accounted separately and capped at 30 minutes per phase. These are stopping limits, not measured forecasts. Before launch, benchmark tokenization, scoring, generation and chat extraction on fixed training inputs and report expected work, storage and quota. If the forecast does not fit, present a smaller concrete scope or revised cap before starting.
+Use the accepted batch-1 unpadded fresh runtime and exact cached model snapshots, with its reviewed numerical and shard contracts. Verify current GPU, storage and pins after any restart. Do not inherit obsolete candidate runtime pins or earlier experiment caps. A hash/binding mismatch, missing coverage, optimizer failure, quota failure or cap hit stops the affected task without silent method removal or altered tolerances.
+The Pod can remain stopped during preparation. A later GPU prompt should supply detailed connection, preflight, launch, resume, transfer and stop instructions. Do not assume an old SSH endpoint still identifies the active Pod. Keep credentials out of reports. Independent audit means separate reconstruction, not a claim of second-machine replication.
+6 Make one research decision from the completed packet
+The checkpoint ends when diagnosis, full-training sensitivity, behavior and the named matched chat controls have reviewed results, or when a documented blocker explicitly narrows the decision. The aim is to choose the strongest claim and at most one explanatory follow-up. Do not respond to every interesting pattern by opening a new experiment.
+Interpret the full training and score results
+Use the retained .02 development margin, separately by model at pooled and macro scope. “Reaches current repair” means the upper paired bound on R_all minus the comparator is below .02 with supported atomic/AND retention. A robust gap has a lower bound above .02. Crossing bounds remain unresolved; these are pointwise criteria, not equality or simultaneous guarantees.
+Observed pattern
+Decision it supports
+S_atom_full reaches current R_all
+The tested full-training atomic-only selector reaches the existing reduced-P repair performance on D
+S_full reaches R_all; S_atom_full has a robust gap
+Compound labels help choose the readout if the direct selector contrast also supports improvement
+Frozen R_all remains ahead of both full-bank selectors
+Learning the readout retains an advantage against these stronger training comparators
+Full-bank oracle approaches R_all but selectors trail
+Available bank headroom and practical selection differ; the oracle is descriptive
+
+Selection-label benefit also requires a positive lower bound for paired S_full minus S_atom_full. Full-training repair is not fitted; no comparison establishes its value. S_full uses compound labels, so reaching R_all cannot show they are unnecessary. A near comparator alone does not satisfy the older complete sufficiency rule. Narrow model/topic-dependent conclusions.
+For wording, strong within-topic ranking with weak pooled or frozen decisions motivates a prospective alignment or threshold-transfer question. Within-topic ranking loss instead calls for a specific ordering diagnosis. Neither warrants a D-fitted correction.
+Use behavior to choose the explanatory question
+Keep descriptive cutoffs separate for likelihood and generation: mixed-cell OR accuracy below .80 under both prompts is poor; at least .90 in every OR truth cell under both is strong. Show TF/FT separately and uncertainty around cutoffs. More than 10 percent disagreement among valid generated answers or 5 percent format failure triggers measurement diagnosis. These organize interpretation, not experimental success. [4]
+Behavior pattern
+Next interpretation or action
+Strong isolated and compound judgments
+Focus on tested readout/input-regime limitations. A causal study of successful use remains possible
+Strong isolated judgments but weak compounds
+A compound-judgment problem is plausible; validate constituent information in the same prompted regime before a failure-to-use claim
+Weak isolated judgments
+Knowledge or elicitation remains an explanation; diagnose it before attributing errors to composition
+Strong output-margin AUROC but weak forced-choice accuracy
+Inspect answer bias and threshold dependence before a composition or failure-to-use claim; no D threshold fit
+Large prompt or answer-format dependence
+Narrow the measurement claim and resolve the specific elicitation issue before mechanistic interpretation
+
+Default to a focused empirical paper and at most one consequential follow-up. Strong behavior does not rule out causal preparation. Uncertain 50-pair results remain informative; formatting failure is not itself a factual error.
+7 Deliver the checkpoint and lock the next step
+Required review packet
+A short synthesis answering four questions: does frozen repair remain ahead after full atomic exposure; which wording failures concern ranking, comparability or thresholds; how do explicit judgments relate; and what one remaining experiment would materially change the explanation?
+The saved-score matrices, exact pooled reconstruction, within-topic and macro summaries, matched wording deltas, confusion counts and composition diagnostics.
+Full-bank inventory and exposure hashes, selectors, failures, all paired contrasts including S_full minus S_atom_full and frozen R_all minus S_atom_full, retention and wording results.
+Both prompts’ behavior on the same 50-pair probe support, isolated margins and mask coverage, format failures, joint error counts, likelihood/generation disagreement and matched Prompt 1 raw/chat comparisons.
+The optional B25 ablation result, or an explicit deferred status and removal of any claim that the atomic-loss term is necessary.
+One concise related-work matrix; exact code/configuration and artifact hashes; input/output coverage; independent reconstruction checks; actual runtime and resource use.
+Decision record
+Record one chosen research direction, its supporting rows and figures, the remaining alternative explanation, one next experiment or a decision to stop adding experiments, the exact exposure contract, endpoints, cap and stopping rule, and work deferred. Keep the original B25 and constituent results visible. Do not select the best adaptation seed, prompt or topic as the headline after inspecting this packet.
+If a calibration study is chosen, freeze its training information and independent evaluation before fitting. If prompted constituent validation or an intervention is chosen, write a separate design at that point. If no consequential ambiguity remains for the scoped empirical claim, move to claim and analysis lock rather than filling optional experiment slots.
+Final E remains a later checkpoint
+Do not extract, inspect predictions or score E during this work block. After the scientific decision and any single chosen follow-up, freeze the procedures, all three samples, wordings, metrics, exclusions, claim scope and handling of failures before final E evaluation. The prepared E data are not 7,200 independent observations, and inventor coverage is limited. E confirmation should test the locked claim, not select among new methods.
+Evidence and source anchors
+The two rounds of October 3 feedback informed this revision. Macro/topic values and unrestricted bank maxima were checked against committed tables; external arrays were not rerun. The references anchor the evidence. Successor code must retain accepted fresh runtime and convergence fixes.
+[1] Completed B25 report and controlled comparisons
+[2] B25 metrics including wording and topic results
+[2a] Paired contrasts and retention
+[2b] Complete atomic bank metrics
+[3] Constituent transfer and fixed decision report
+[4] Frozen scientific protocol and behavior definitions
+[5] Approved checkpoint narrative with behavior and chat scope
+Source [4] retains historical setup fields. Use its frozen scientific definitions together with reviewed successor runtime, tie-rule and optimizer contracts; do not treat obsolete setup fields as fresh execution instructions.
