@@ -1,0 +1,261 @@
+{
+  "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "peak_rss_bytes": 1137131520,
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "records": [
+    {
+      "C": 0.1,
+      "after": {
+        "before": {
+          "finite": true,
+          "gradient_infinity_norm": 0.000335508513846723,
+          "objective": 0.6841179945289726,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features"
+        },
+        "finite": true,
+        "function_evaluations": 4,
+        "gradient_infinity_norm": 3.1142806524242324e-05,
+        "library_success": true,
+        "maximum_iterations": 9882,
+        "n_iter": 1,
+        "objective": 0.6841179915232808,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "warm_continuation",
+        "settings": {
+          "ftol": 0.0,
+          "gtol": 0.0001,
+          "maxcor": 10,
+          "maxfun": 50000,
+          "maxls": 50
+        },
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "warm_start_sha256": "928f3e84076780dd366528508722af917bc0e9f6f61535a1b2442c89b7288cc0"
+      },
+      "before": {
+        "finite": true,
+        "gradient_infinity_norm": 0.000335508513846723,
+        "library_success": true,
+        "n_iter": 118,
+        "objective": 0.6841179945289726,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "original_saved_attempt",
+        "termination_code": null,
+        "termination_message": "not retained in original receipt"
+      },
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=0.1",
+      "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+      "folder": "continued/06cf37f224f899be0b126423",
+      "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "65f7237e3335e16139d61957f1f256622b5f9e19f92008a631c2d243ec1953b7"
+      },
+      "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "receipt": {
+        "bytes": 4015,
+        "sha256": "76b62a5cb35bb6f478ea4ad1d8c439da9f3b9c854282d48ad6e521b5dbb46441"
+      },
+      "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+      "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "seconds": 0.10598608432337642,
+      "total_iterations": 119,
+      "training_feature_sha256": "1580ad9d71fa596683f246ae36dd9c8dc2251a24f2def3c966ca549cc7db10d6",
+      "training_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "valid_for_scoring": true
+    },
+    {
+      "C": 1.0,
+      "after": {
+        "before": {
+          "finite": true,
+          "gradient_infinity_norm": 0.00015809270829964369,
+          "objective": 0.6723668740040762,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features"
+        },
+        "finite": true,
+        "function_evaluations": 4,
+        "gradient_infinity_norm": 2.0720360123906842e-05,
+        "library_success": true,
+        "maximum_iterations": 9463,
+        "n_iter": 1,
+        "objective": 0.6723668732656236,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "warm_continuation",
+        "settings": {
+          "ftol": 0.0,
+          "gtol": 0.0001,
+          "maxcor": 10,
+          "maxfun": 50000,
+          "maxls": 50
+        },
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "warm_start_sha256": "ff757f54b9b3cf177da1cb5ad4b8bbd024fa6a550843e481cd8d4e2b6d236360"
+      },
+      "before": {
+        "finite": true,
+        "gradient_infinity_norm": 0.00015809270829964369,
+        "library_success": true,
+        "n_iter": 537,
+        "objective": 0.6723668740040762,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "original_saved_attempt",
+        "termination_code": null,
+        "termination_message": "not retained in original receipt"
+      },
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=1",
+      "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+      "folder": "continued/c08ab2a6717c7c825f695ace",
+      "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "559d4c9d91782bf3942a55756d3a76a06d77d66d163bc0e3999f317c4811cbfe"
+      },
+      "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "receipt": {
+        "bytes": 4018,
+        "sha256": "8877a2dae8a7861a79a0577766ef8c5ac85c520d1461f3f7bca26c2c3e7fec5e"
+      },
+      "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+      "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "seconds": 0.1052150409668684,
+      "total_iterations": 538,
+      "training_feature_sha256": "1580ad9d71fa596683f246ae36dd9c8dc2251a24f2def3c966ca549cc7db10d6",
+      "training_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "valid_for_scoring": true
+    },
+    {
+      "C": 0.1,
+      "after": {
+        "before": {
+          "finite": true,
+          "gradient_infinity_norm": 0.0002259840184617968,
+          "objective": 0.6805201377405498,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features"
+        },
+        "finite": true,
+        "function_evaluations": 4,
+        "gradient_infinity_norm": 2.0985957455810683e-05,
+        "library_success": true,
+        "maximum_iterations": 9570,
+        "n_iter": 1,
+        "objective": 0.6805201366413869,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "warm_continuation",
+        "settings": {
+          "ftol": 0.0,
+          "gtol": 0.0001,
+          "maxcor": 10,
+          "maxfun": 50000,
+          "maxls": 50
+        },
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "warm_start_sha256": "d65d7b9d4802a22595bbd2f1a32530d2090859e1b48cc2dc5eeb725ec17aabf7"
+      },
+      "before": {
+        "finite": true,
+        "gradient_infinity_norm": 0.0002259840184617968,
+        "library_success": true,
+        "n_iter": 430,
+        "objective": 0.6805201377405498,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "original_saved_attempt",
+        "termination_code": null,
+        "termination_message": "not retained in original receipt"
+      },
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=0.1",
+      "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+      "folder": "continued/2c43b3b34734cffb262953c6",
+      "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "9fc315b094c2cb784b25637c5548b6ea4bee65fad60c94cc565894c2904357e5"
+      },
+      "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "receipt": {
+        "bytes": 4018,
+        "sha256": "403c7dfa4c16b2e9a2fe73ed252816db3fdc330a30c05a5509ddea69a7dedb5f"
+      },
+      "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+      "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "seconds": 0.11194787500426173,
+      "total_iterations": 431,
+      "training_feature_sha256": "474d8201bb8216965fd7b1bd3d1ea239a75f8e6080ddccbcda360aa3fce13d24",
+      "training_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "valid_for_scoring": true
+    },
+    {
+      "C": 1.0,
+      "after": {
+        "before": {
+          "finite": true,
+          "gradient_infinity_norm": 0.00020199397623376134,
+          "objective": 0.6613008452651588,
+          "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features"
+        },
+        "finite": true,
+        "function_evaluations": 4,
+        "gradient_infinity_norm": 1.780793916230454e-05,
+        "library_success": true,
+        "maximum_iterations": 8671,
+        "n_iter": 1,
+        "objective": 0.6613008443764293,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "warm_continuation",
+        "settings": {
+          "ftol": 0.0,
+          "gtol": 0.0001,
+          "maxcor": 10,
+          "maxfun": 50000,
+          "maxls": 50
+        },
+        "termination_code": 0,
+        "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "warm_start_sha256": "27e58c13a6b77fb3657cda46e75cf13a046d4b743271f754a434bf77990b395e"
+      },
+      "before": {
+        "finite": true,
+        "gradient_infinity_norm": 0.00020199397623376134,
+        "library_success": true,
+        "n_iter": 1329,
+        "objective": 0.6613008452651588,
+        "objective_definition": "mean BCE + sum(w**2)/(2*C*n); intercept unpenalized; raw features",
+        "phase": "original_saved_attempt",
+        "termination_code": null,
+        "termination_message": "not retained in original receipt"
+      },
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=1",
+      "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+      "folder": "continued/c167146a62d357309cbf3fc4",
+      "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "ded47b1b0f65a0e8bda62619719e0cfe60dcd91f783dfdaa4d98531a75538df8"
+      },
+      "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "receipt": {
+        "bytes": 4023,
+        "sha256": "925aa597430367c182482ea5298d0a9a2441ce53aa2ea0ff3241a88e8774ce14"
+      },
+      "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+      "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "seconds": 0.10612458316609263,
+      "total_iterations": 1330,
+      "training_feature_sha256": "474d8201bb8216965fd7b1bd3d1ea239a75f8e6080ddccbcda360aa3fce13d24",
+      "training_source_rows_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+      "valid_for_scoring": true
+    }
+  ],
+  "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "scope": "training-only; no validation/wording/selection",
+  "status": "passed"
+}

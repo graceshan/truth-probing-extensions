@@ -1,0 +1,71 @@
+{
+  "gate_completion": {
+    "bytes": 11736,
+    "sha256": "1251bcbafe657c3ffc3675c7e653d1b9088ef72c685df108b23e3b35d23e46df"
+  },
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "records": [
+    {
+      "after_gradient": 3.1142806524242324e-05,
+      "after_objective": 0.6841179915232808,
+      "before_gradient": 0.000335508513846723,
+      "before_objective": 0.6841179945289726,
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=0.1",
+      "continuation_iterations": 1,
+      "initial_iterations": 118,
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "65f7237e3335e16139d61957f1f256622b5f9e19f92008a631c2d243ec1953b7"
+      },
+      "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "total_iterations": 119
+    },
+    {
+      "after_gradient": 2.0720360123906842e-05,
+      "after_objective": 0.6723668732656236,
+      "before_gradient": 0.00015809270829964369,
+      "before_objective": 0.6723668740040762,
+      "candidate_id": "qwen/P15/L01/l2_logistic/C=1",
+      "continuation_iterations": 1,
+      "initial_iterations": 537,
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "559d4c9d91782bf3942a55756d3a76a06d77d66d163bc0e3999f317c4811cbfe"
+      },
+      "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "total_iterations": 538
+    },
+    {
+      "after_gradient": 2.0985957455810683e-05,
+      "after_objective": 0.6805201366413869,
+      "before_gradient": 0.0002259840184617968,
+      "before_objective": 0.6805201377405498,
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=0.1",
+      "continuation_iterations": 1,
+      "initial_iterations": 430,
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "9fc315b094c2cb784b25637c5548b6ea4bee65fad60c94cc565894c2904357e5"
+      },
+      "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "total_iterations": 431
+    },
+    {
+      "after_gradient": 1.780793916230454e-05,
+      "after_objective": 0.6613008443764293,
+      "before_gradient": 0.00020199397623376134,
+      "before_objective": 0.6613008452651588,
+      "candidate_id": "qwen/P15/L02/l2_logistic/C=1",
+      "continuation_iterations": 1,
+      "initial_iterations": 1329,
+      "parameters": {
+        "bytes": 29192,
+        "sha256": "ded47b1b0f65a0e8bda62619719e0cfe60dcd91f783dfdaa4d98531a75538df8"
+      },
+      "termination_message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "total_iterations": 1330
+    }
+  ],
+  "scope": "independent direct NumPy/SciPy training objective/gradient reconstruction; no D/A/wording scoring",
+  "status": "passed_all_four_training_only"
+}

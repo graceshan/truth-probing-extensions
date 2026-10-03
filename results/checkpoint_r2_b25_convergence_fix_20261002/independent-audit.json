@@ -1,0 +1,93 @@
+{
+  "audit_script_sha256": "77c0150baba71f4f3c61c1ab499da3d1091e5e5e4b42408cbdb8dd6d08d48ffe",
+  "completion_identity": {
+    "bytes": 807353,
+    "sha256": "4ccb67607f82388a3c9c79e254b976ba9176d57b1dd66fb51dbd21f707f98578"
+  },
+  "completion_status": "completed",
+  "counts": {
+    "heldout_fold_checks": 900,
+    "imports_verified": 68,
+    "locked_score_vectors_recomputed": 320,
+    "locked_sklearn_point_checks": 4928,
+    "principal_bootstrap_head_draws": 18000,
+    "recoverability_reuses_verified": 69,
+    "score_vectors_exactly_recomputed": 9246,
+    "sklearn_point_checks": 43148,
+    "source_feature_hashes_verified": 1531
+  },
+  "failures": [],
+  "fit_receipts_audited": 1541,
+  "hostname": "MacBook-Pro-7.lan",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "principal_contrasts": [
+    {
+      "ci_high": 0.15357083888940087,
+      "ci_low": 0.10930931798707265,
+      "model": "qwen",
+      "point": 0.13249660292598442,
+      "seed": "11",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.13185880981891931,
+      "ci_low": 0.08814640831186955,
+      "model": "qwen",
+      "point": 0.11066584793967993,
+      "seed": "23",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.14362387204919286,
+      "ci_low": 0.10164444960470967,
+      "model": "qwen",
+      "point": 0.12379816450839942,
+      "seed": "37",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.13878744795882597,
+      "ci_low": 0.10375414103479624,
+      "model": "qwen",
+      "point": 0.12232020512468793,
+      "seed": "mean_11_23_37",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.17301061790915917,
+      "ci_low": 0.12341200962775342,
+      "model": "llama",
+      "point": 0.14929068665903666,
+      "seed": "11",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.17876756849311565,
+      "ci_low": 0.12692892543781684,
+      "model": "llama",
+      "point": 0.1536318686264676,
+      "seed": "23",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.18237499937474927,
+      "ci_low": 0.12918710065699737,
+      "model": "llama",
+      "point": 0.1567781807114781,
+      "seed": "37",
+      "valid_draws": 2000
+    },
+    {
+      "ci_high": 0.17803056231966424,
+      "ci_low": 0.12657766659747338,
+      "model": "llama",
+      "point": 0.15323357866566079,
+      "seed": "mean_11_23_37",
+      "valid_draws": 2000
+    }
+  ],
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "scope": "independent NumPy training gradients and score reconstruction; sklearn point AUROCs; completed-only paired principal bootstrap metrics/contrasts; no refitting",
+  "seconds": 624.1248480407521,
+  "status": "passed_independent_successor_audit"
+}

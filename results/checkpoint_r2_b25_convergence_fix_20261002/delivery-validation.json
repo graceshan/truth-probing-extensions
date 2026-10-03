@@ -1,0 +1,121 @@
+{
+  "committed_receipt_table_report_identities": {
+    "accounting.json": {
+      "bytes": 863,
+      "sha256": "381b035938ef3dc7ccdecc5c48f4d1963393b0f77c6e601b980ea2356ed2afb4"
+    },
+    "all-layer-bank-metrics.csv": {
+      "bytes": 1649778,
+      "sha256": "5d313e1498ce408a72567fe377f4f99b8e8a3e5b30a0b0d7f6c2c6e4ed0d1261"
+    },
+    "bootstrap_binding.json": {
+      "bytes": 1104,
+      "sha256": "63bd12b3dce6ca3e6d66735c486e609e409a94cc13901b2e0eb0e6705aa2ed40"
+    },
+    "candidate-inventory.csv": {
+      "bytes": 176935,
+      "sha256": "8bc5162aa1bee11e0f3e89327d54069fe300113b64a004ffb82197bbf37a0dde"
+    },
+    "completion.json": {
+      "bytes": 807353,
+      "sha256": "4ccb67607f82388a3c9c79e254b976ba9176d57b1dd66fb51dbd21f707f98578"
+    },
+    "continuation-gate.json": {
+      "bytes": 11736,
+      "sha256": "1251bcbafe657c3ffc3675c7e653d1b9088ef72c685df108b23e3b35d23e46df"
+    },
+    "contrasts.csv": {
+      "bytes": 3182966,
+      "sha256": "8a3a00052fa2eb22c732711611101d4ded29233ad062226f412eb4aeb6694a96"
+    },
+    "delivery.json": {
+      "bytes": 885,
+      "sha256": "5ed8ef8066d416976e2429511ef8281b0141d63c18da721592c7cc449edee1f8"
+    },
+    "execution.json": {
+      "bytes": 20385,
+      "sha256": "f0fed42c35f964e336b3e6ba283847aa69cd0b8cb92ed1267ea481b535e82e78"
+    },
+    "fit-inventory.csv": {
+      "bytes": 1410667,
+      "sha256": "c84fe85c066ed5644a5b9d9ecf9d049fd45b9faca4728fa3373b2a8ad247409c"
+    },
+    "fold-inventory.csv": {
+      "bytes": 192053,
+      "sha256": "88a15bffd5328740ceae9c0307099bd1aa00ba930eabc740e3402c4cb9d50748"
+    },
+    "gate-independent-audit.json": {
+      "bytes": 2672,
+      "sha256": "adf78c7b53742bb1a46d058a81590280313b140b0460b8c6b648fb9075aaf553"
+    },
+    "independent-audit.json": {
+      "bytes": 2707,
+      "sha256": "a8c58c2cfd06e6039639455df6a83bbab6752d7fae56c77c418204d25a9f1955"
+    },
+    "locked.json": {
+      "bytes": 1863463,
+      "sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385"
+    },
+    "metrics.csv": {
+      "bytes": 2323726,
+      "sha256": "3d337604885b92e9bacd7b5a999b8191c9e234b0265531eafec16fac87b10077"
+    },
+    "optimizer-attempts.csv": {
+      "bytes": 356831,
+      "sha256": "3b1cf5c8c311453949690f24fd74bc52b5d3ce36bfbe92d1b8d7ea6166ff2a76"
+    },
+    "pre-fit-validation.json": {
+      "bytes": 1830,
+      "sha256": "23e765445e865d31acbfa8835f987c46547833481e48f9535379e32b0429dd95"
+    },
+    "precision.csv": {
+      "bytes": 461453,
+      "sha256": "36bed37ad448f02168b3c12822effc8129478abf73136257370bcaacf6635153"
+    },
+    "report.md": {
+      "bytes": 14704,
+      "sha256": "dd1b69385509ed25c5f09a24337204d58875f84d6d1ca879fcc2772f7466682c"
+    },
+    "sufficiency.json": {
+      "bytes": 1578,
+      "sha256": "4b3954f4a461f97d30d48ccb21b4d60a6245127493f9aa3228c25cea69a17257"
+    },
+    "threads.json": {
+      "bytes": 1476,
+      "sha256": "b81f985512bda6be72d29c8b1551eb82e64948801099c8c50abb7d44890b5c1a"
+    },
+    "training-diagnosis.json": {
+      "bytes": 6583,
+      "sha256": "db24ba4b0b399c1bf3a8630ed9b832163dad7336ccb5729ab598f2a897533156"
+    }
+  },
+  "counts": {
+    "candidate-inventory.csv": {
+      "continued_original_failure_passed": 4,
+      "exact_recoverability_reuse": 59,
+      "imported_valid_without_refit": 26,
+      "new_successor_fit": 511
+    },
+    "fit-inventory.csv": {
+      "continued_original_failure_passed": 4,
+      "exact_recoverability_reuse": 69,
+      "imported_valid_without_refit": 68,
+      "interrupted_original_fold_rerun": 1,
+      "new_successor_fit": 1399
+    },
+    "fold-inventory.csv": {
+      "imported_valid_without_refit": 42,
+      "interrupted_original_fold_rerun": 1,
+      "new_successor_fit": 857
+    }
+  },
+  "head_score_bootstrap_arrays_outside_Git": true,
+  "independent_principal_contrasts_verified": 8,
+  "numerical_source_hashes_match_prefit_freeze": true,
+  "original_external_files_rehashed": 226,
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "scientific_configuration_and_source_hashes_unchanged": true,
+  "status": "passed",
+  "successor_external_files_rehashed": 4916,
+  "timestamp_utc": "2026-10-03T02:12:41.729632+00:00"
+}

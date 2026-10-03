@@ -1,0 +1,40 @@
+{
+  "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "pid": 48305,
+  "pools": [
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.23.dev"
+    },
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.21.dev"
+    },
+    {
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ],
+  "processes": 1,
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445"
+}

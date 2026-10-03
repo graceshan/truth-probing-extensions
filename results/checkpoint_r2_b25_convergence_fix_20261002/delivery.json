@@ -1,0 +1,15 @@
+{
+  "external_gate": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/gate-5e1bf47",
+  "external_manifest": {
+    "bytes": 868308,
+    "sha256": "c462744880b449f8381a30aad8680e2db237f9999ae3c62f318497ffc7c30637"
+  },
+  "external_results": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47",
+  "external_review": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/delivery-review-5e1bf47",
+  "large_heads_scores_bootstrap_arrays_external": true,
+  "original_delivery": "results/checkpoint_r2_fresh_b25_20261002/delivery.json",
+  "original_delivery_sha": "60e651370e5c08635f151822073a8b9c01e092ca",
+  "original_producer_sha": "b25581ca9c22d93c8c988c93c0c5491219d6cfec",
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "status": "completed"
+}

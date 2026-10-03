@@ -1,0 +1,20 @@
+{
+  "binding_sha256": "a5ca4b6ec6d29c8edb34aa6ae5a54af3ef1c4990a72089e8e9aab1ae6a43d5b8",
+  "compound_schedule_sha256": "a4088e5a5b24bcd358e4402cca472ab1578ebaa7b8481925af259729aa50ce93",
+  "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "replicates": 2000,
+  "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "reuse_D_schedule_exact": true,
+  "seed": 1729,
+  "shared_across_heads_models_seeds": true,
+  "undefined_policy": "no redraw/imputation/topic-dropping; ordinary all-five mean",
+  "weights": {
+    "bytes": 81329332,
+    "sha256": "35f54b4dd47584b16d12c22caff6c723ce1de71c0b5ed8355422bfd7e63329b0"
+  },
+  "wording_endpoint_multiplicities_bound_to_bare": true
+}

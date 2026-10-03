@@ -1,0 +1,38 @@
+{
+  "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "records": [
+    {
+      "C_clean_atomic_retention": false,
+      "all_components_met_on_D": false,
+      "criteria": {
+        "control_gap_upper_below_02": false,
+        "control_lower_at_least_90": true,
+        "repair_gap_upper_below_02": false,
+        "selection_AND_retention": true,
+        "selection_atomic_retention": true
+      },
+      "joint_control_sufficiency_claim": false,
+      "model": "qwen",
+      "scope": "exploratory optimistic development operational criteria only; no E/sufficiency lock"
+    },
+    {
+      "C_clean_atomic_retention": false,
+      "all_components_met_on_D": false,
+      "criteria": {
+        "control_gap_upper_below_02": false,
+        "control_lower_at_least_90": true,
+        "repair_gap_upper_below_02": false,
+        "selection_AND_retention": true,
+        "selection_atomic_retention": true
+      },
+      "joint_control_sufficiency_claim": false,
+      "model": "llama",
+      "scope": "exploratory optimistic development operational criteria only; no E/sufficiency lock"
+    }
+  ],
+  "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+  "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445"
+}
