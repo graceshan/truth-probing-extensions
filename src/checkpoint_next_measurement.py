@@ -143,7 +143,11 @@ class ChatBackend:
             eos_token_id=self.termination_ids,pad_token_id=self.raw.pad_id,
             bos_token_id=self.tokenizer.bos_token_id)
         with self.torch.inference_mode():
-            values=self.model.generate(**self.arguments(packet['prompt_ids']),generation_config=cfg)
+            arguments=self.arguments(packet['prompt_ids'])
+            # GenerationMixin grows the mask, but retains explicit positions unchanged.
+            # Pinned Qwen/Llama derive positions from the growing mask when omitted.
+            arguments.pop('position_ids')
+            values=self.model.generate(**arguments,generation_config=cfg)
         self.torch.cuda.synchronize()
         require(values[0,:len(packet['prompt_ids'])].tolist()==packet['prompt_ids'],'generation prompt changed')
         return parse_generation(self.tokenizer,values[0,len(packet['prompt_ids']):].tolist(),self.termination_ids)
@@ -178,5 +182,50 @@ class ChatBackend:
             for h in handles:
                 h.remove()
 
+    def preflight_checks(self, packet, likelihood, generation, atol=0.05):
+        """Independent prefix indexing and manual greedy oracle; training inputs only.
+
+        Absolute log-probability tolerance is prospective for BF16 full vs prefix
+        kernels. Token choices/positions must match exactly; no tolerance relaxation.
+        """
+        torch=self.torch
+        prefix_terms={}
+        with torch.inference_mode():
+            for answer, continuation in packet['candidates'].items():
+                prefix=list(packet['prompt_ids']);terms=[]
+                for token in continuation:
+                    out=self.model(**self.arguments(prefix),use_cache=False,return_dict=True,logits_to_keep=1)
+                    terms.append(float(torch.log_softmax(out.logits[0,-1].float(),dim=-1)[token].item()))
+                    prefix.append(token)
+                expected=likelihood[answer.lower()]['token_logprobs']
+                require(len(expected)==len(terms) and all(abs(a-b)<=atol for a,b in zip(expected,terms)),
+                        'causal prefix/full likelihood disagreement')
+                prefix_terms[answer]=terms
+            prefix=list(packet['prompt_ids']);manual=[]
+            for _ in range(8):
+                out=self.model(**self.arguments(prefix),use_cache=False,return_dict=True,logits_to_keep=1)
+                token=int(out.logits[0,-1].argmax().item());manual.append(token);prefix.append(token)
+                if token in self.termination_ids:break
+        trace=[]
+        original=self.model.prepare_inputs_for_generation
+        def checked(*args,**kwargs):
+            prepared=original(*args,**kwargs)
+            ids=prepared['input_ids'];mask=prepared['attention_mask'];positions=prepared['position_ids']
+            n=ids.shape[-1]
+            require(mask.shape[-1]==positions.shape[-1]==n and
+                    positions[0].tolist()==list(range(n)), 'growing generation positions/mask')
+            trace.append(dict(input_length=n,mask_length=mask.shape[-1],positions=positions[0].tolist()))
+            return prepared
+        self.model.prepare_inputs_for_generation=checked
+        try:checked_generation=self.generate(packet)
+        finally:self.model.prepare_inputs_for_generation=original
+        require(manual==generation['token_ids']==checked_generation['token_ids'], 'manual greedy sequence disagreement')
+        require(len(trace)==len(manual) and [r['input_length'] for r in trace]==
+                list(range(len(packet['prompt_ids']),len(packet['prompt_ids'])+len(manual))), 'decoding trace coverage')
+        return dict(causal_prefix_token_logprobs=prefix_terms,absolute_tolerance=atol,
+                    manual_greedy_ids=manual,prepared_steps=trace,independent_checks_passed=True)
+
     def close(self):
+        # Release the alias before the reviewed backend frees the model/cache.
+        del self.model
         self.raw.close()

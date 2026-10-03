@@ -19,8 +19,10 @@ from src.checkpoint_r2_full_support import filesystem_prerequisites, NON_SECRET_
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output',required=True);p.add_argument('--model',required=True,choices=['qwen','llama'])
-    p.add_argument('--authorization',required=True);p.add_argument('--preflight',required=True)
-    args=p.parse_args();x=frozen();a=authorized(args,'storage_preflight',x)
+    p.add_argument('--authorization',required=True);p.add_argument('--preflight',required=True);p.add_argument('--campaign',required=True)
+    args=p.parse_args();x=frozen()
+    auth_args=argparse.Namespace(**vars(args));auth_args.output=args.campaign
+    a=authorized(auth_args,'storage_preflight',x)
     require(sha(args.preflight)==a['preflight_sha256'],'storage preflight receipt mismatch')
     pre=json.loads(Path(args.preflight).read_text())
     require(pre['identity']==identity(args.model,x) and pre['new_paths_measured'],'unverified new-path preflight')

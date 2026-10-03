@@ -1,0 +1,20 @@
+{
+  "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+  "data/checkpoint_r2_v1/behavior_isolated_bindings.json": "022676f1017fdb26d802c3105bd51b31545c964eff1fcd6c54fc6500cdd51831",
+  "data/checkpoint_r2_v1/behavior_pairs.json": "d3cb2c230dd39f1a1c75a54bbc350ca96e6cac19e0ef4f95410d48d565e8eb5c",
+  "data/checkpoint_r2_v1/compound_bindings.csv": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f",
+  "data/checkpoint_r2_v1/extraction_inventory.csv": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+  "data/checkpoint_r2_v1/facts.json": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500",
+  "data/checkpoint_r2_v1/manifest.json": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca",
+  "data/checkpoint_r2_v1/memberships.json": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6",
+  "docs/checkpoint_next/Truth_Probing_Next_Decision_Checkpoint_2026-10-03.docx": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+  "results/checkpoint_r2_b25_convergence_fix_20261002/completion.json": "4ccb67607f82388a3c9c79e254b976ba9176d57b1dd66fb51dbd21f707f98578",
+  "results/checkpoint_r2_b25_convergence_fix_20261002/independent-audit.json": "a8c58c2cfd06e6039639455df6a83bbab6752d7fae56c77c418204d25a9f1955",
+  "results/checkpoint_r2_fresh_constituents_20261003/completion-summary.json": "407c840a61e2b5df00f6cc81a8837e8638d5abcba63835f35f18238faa995fa2",
+  "results/checkpoint_r2_fresh_constituents_20261003/independent-audit.json": "78e34f5095319d9ed273cdc819a883db7f2798e4a1c55942af725ccdd186ec10",
+  "results/checkpoint_r2_fresh_constituents_20261003/locked-selection.json": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8",
+  "src/checkpoint_r2_fresh_backend.py": "385d2da7affcaba647c45ec0297fc7e22ef94c2308e4ea50058bfd8e074e419c",
+  "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+  "src/checkpoint_r2_full_support.py": "83af632f3977b3d5740c2a0c2e0507925f9bf3c2caa954224e9bca15b45cb222",
+  "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+}

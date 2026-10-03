@@ -195,7 +195,7 @@ def report(x, physical_records, prompt, options=None):
             topic_pair_coverage={t:len({r['pair_id'] for r in rows if r['topic']==t}) for t in TOPICS},
             accuracy=summaries(rows,w,options),accuracy_intervals=acc,ranking=aucs(rows,w,options))
     return dict(prompt=prompt,scope='frozen 50 pairs only; full-D probes reported separately',populations=populations,
-        isolated_margins=margin_summaries(allrows),bootstrap=dict(options,schedule_sha256=schedule,
+        isolated_rates=isolated_rates(allrows),isolated_margins=margin_summaries(allrows),bootstrap=dict(options,schedule_sha256=schedule,
             unit='topic-stratified entity; endpoint multiplicity products',mask='fixed observed mask; no redraw',
             interval='pointwise conditional, undefined draws retained'),
         diagnosis='Interpret strong output-margin AUROC with weak decisions separately from valid factual errors and formatting failures; no D threshold fitting')
@@ -224,3 +224,84 @@ def probe_behavior_comparison(x, behavior_rows, probe, options=None):
         matched_behavior_ranking=aucs(behavior_rows,weights,options),joint=joint_errors(behavior_rows,sub),
         paired_entity_schedule_sha256=schedule,
         interpretation='Output-margin ranking and zero-margin decisions are distinct; formatting is not a factual error')
+
+
+def isolated_rates(rows):
+    isolated=[r for r in rows if r['group']=='behavior_isolated']
+    require(len(isolated)==200 and len({r['fact_id'] for r in isolated})==150,'isolated logical support')
+    return [dict(topic=t,weighting='logical bindings; no fact deduplication',
+                 unique_facts=len({r['fact_id'] for r in rs}),**rates(rs))
+            for t in ('all',)+TOPICS
+            for rs in [[r for r in isolated if t=='all' or r['topic']==t]]]
+
+
+def verified_chat_heads(x, directory, producer_sha, raw_heads):
+    """Load exactly eight successful chat heads; enforce frozen identity and score axes.
+
+    raw_heads are the reviewed raw export metadata plus full-D scores. They must
+    carry original P15 fitting identities and frozen decision-rule provenance.
+    """
+    import json
+    import numpy as np
+    from pathlib import Path
+    from src.checkpoint_next_inventory import sha
+    root=Path(directory);completion=json.loads((root/'completion.json').read_text())
+    expected={h['id']:h for h in x['heads']}
+    require(len(raw_heads)==8 and {r['id'] for r in raw_heads}==set(expected),'eight exact raw comparator identities')
+    raw={r['id']:r for r in raw_heads}
+    require(completion['status']=='completed' and completion['producer_commit']==producer_sha and
+        len(completion['heads'])==8 and {h['id'] for h in completion['heads']}==set(expected),'eight chat completion identities')
+    output=[]
+    groups={g:[r for r in x['bindings'] if r['role']=='chat' and r['group']==g]
+            for g in ('P15','TC_control_and_final_refit','behavior_D')}
+    for item in completion['heads']:
+        head=expected[item['id']];folder=root/head['id'];receipt=json.loads((folder/'receipt.json').read_text())
+        require(sha(folder/'receipt.json')==item['receipt_sha256'],'chat receipt hash')
+        require(receipt['producer_commit']==producer_sha and receipt['status']=='converged' and
+                receipt['prediction_usable'] is True,'failed/wrong producer chat fit')
+        for key,value in head.items():require(receipt['head'][key]==value,'frozen chat head identity: '+key)
+        require(receipt['preprocessing_source']=='original chat-P15 only' and receipt['objective']==head['objective'],'chat objective/preprocessing')
+        require(receipt['head']['P15_identities_sha256']==digest([r['logical_id'] for r in groups['P15']]),'chat P15 identities')
+        for filename,key in [('parameters.npz','parameters_sha256'),('scores.npz','scores_sha256'),('fit-status.json','fit_status_sha256')]:
+            require(sha(folder/filename)==receipt[key],'chat artifact hash: '+filename)
+        status=json.loads((folder/'fit-status.json').read_text())
+        require(all(receipt[k]==v for k,v in status.items()),'fit status receipt mismatch')
+        require(receipt['verification']['identity']['producer_commit']==producer_sha and
+                receipt['verification']['identity']['inventory_sha256']==digest(x) and
+                receipt['verification']['model']==head['model'] and receipt['verification']['status']=='verified','chat extraction provenance')
+        identities={g:[r['logical_id'] for r in rs] for g,rs in groups.items()}
+        require(receipt['score_identities']==identities,'chat exact logical score order')
+        match=match_raw_chat(raw[head['id']],receipt['head'])
+        require(raw[head['id']]['decision_rule']==head['decision_rule'] and raw[head['id']]['frozen_rule_source_sha256'], 'frozen matching decision rule')
+        with np.load(folder/'scores.npz',allow_pickle=False) as scores:
+            require(set(scores.files)==set(groups),'chat score groups')
+            for g in groups:require(scores[g].shape==(len(groups[g]),) and np.isfinite(scores[g]).all(),'chat score axes/finite')
+            d=scores['behavior_D'].tolist()
+        require(len(d)==800 and digest(identities['behavior_D'])==head['D_support_sha256'],'chat 800 frozen support')
+        output.append(dict(receipt['head'],head_id=head['id'],logical_ids=identities['behavior_D'],scores=d,
+            frozen_rule_source_sha256=raw[head['id']]['frozen_rule_source_sha256'],match=match,receipt_sha256=item['receipt_sha256']))
+    return output
+
+
+def chat_behavior_comparison(behavior_rows, chat, raw):
+    """Chat has only 800 D scores. Full-D raw remains a separate report arm."""
+    require(len(behavior_rows)==800 and len({r['pair_id'] for r in behavior_rows})==50 and
+            all(r['prompt']==1 for r in behavior_rows),'chat Prompt 1 support')
+    match=match_raw_chat(raw,chat)
+    ids=[r['logical_id'] for r in behavior_rows]
+    require(len(chat['logical_ids'])==800 and set(chat['logical_ids'])==set(ids),'chat support')
+    import csv
+    from src.checkpoint_next_inventory import ROOT
+    with (ROOT/'data/checkpoint_r2_v1/compound_bindings.csv').open() as f:
+        full=[r['example_id'] for r in csv.DictReader(f) if r['group']=='D_bare']
+    require(len(raw['logical_ids'])==len(raw['scores'])==len(set(raw['logical_ids']))==7728 and
+            set(raw['logical_ids'])==set(full),'raw full-D coverage')
+    rv=dict(zip(raw['logical_ids'],raw['scores']));cv=dict(zip(chat['logical_ids'],chat['scores']))
+    require(all(math.isfinite(float(v)) for v in rv.values()),'raw finite scores')
+    raw_sub=dict(raw,logical_ids=ids,scores=[rv[i] for i in ids])
+    return dict(head=chat['head_id'],matching=match,rows=800,pairs=50,
+        raw_ranking=aucs([dict(r,margin=rv[r['logical_id']]) for r in behavior_rows]),
+        chat_ranking=aucs([dict(r,margin=cv[r['logical_id']]) for r in behavior_rows]),
+        raw_joint=joint_errors(behavior_rows,raw_sub),chat_joint=joint_errors(behavior_rows,chat),
+        full_D_chat_status='not collected; no full-D chat estimate',
+        interpretation='Named Prompt 1 readouts only; no prompted constituent availability or causal use')

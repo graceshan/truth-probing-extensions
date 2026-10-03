@@ -1,0 +1,161 @@
+{
+  "behavior": {
+    "behavior_pairs": 50,
+    "behavior_unique_inputs_per_model": 1900,
+    "chat_unique_inputs_per_model": 11578,
+    "compounds": 800,
+    "deduplication": "exact prompt index/user UTF-8 content; preserve every logical binding; token/representation equality separately required",
+    "exact_prompted_text_overlap_per_model": 800,
+    "fp16_chat_payload_bytes": {
+      "llama": 189693952,
+      "qwen": 165982208
+    },
+    "group_counts": {
+      "P15": 2778,
+      "TC_control_and_final_refit": 8000,
+      "behavior_D": 800,
+      "behavior_compound": 1600,
+      "behavior_isolated": 400
+    },
+    "isolated_bindings": 200,
+    "isolated_unique_facts": 150,
+    "logical_behavior_all_models": 4000,
+    "logical_behavior_per_model": 2000,
+    "logical_chat_all_models": 23156,
+    "logical_chat_per_model": 11578,
+    "preflight_inputs_per_model": 40,
+    "runtime_storage_quota_forecast": "unmeasured",
+    "union_unique_inputs_per_model": 12678,
+    "verified_token_hidden_overlap": "pending real training preflight; no numerical reuse presumed"
+  },
+  "behavior_inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+  "heads": [
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "id": "qwen/R0/L17",
+      "layer": 17,
+      "model": "qwen",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "id": "qwen/C_clean/L17",
+      "layer": 17,
+      "model": "qwen",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "id": "qwen/R0/L18",
+      "layer": 18,
+      "model": "qwen",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "id": "qwen/C_clean/L18",
+      "layer": 18,
+      "model": "qwen",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "id": "llama/R0/L15",
+      "layer": 15,
+      "model": "llama",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "id": "llama/C_clean/L15",
+      "layer": 15,
+      "model": "llama",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "id": "llama/R0/L12",
+      "layer": 12,
+      "model": "llama",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "id": "llama/C_clean/L12",
+      "layer": 12,
+      "model": "llama",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15"
+    }
+  ],
+  "missing_raw": {
+    "P15": 2778,
+    "additional_bindings": 262,
+    "additional_reused_bindings": 131,
+    "coverage_rows": 6080,
+    "execution_status": "not executed",
+    "forecast": "unmeasured; payload is exact, metadata/reserves are allowances",
+    "missing_bindings": 131,
+    "model_input_combinations": 262,
+    "outer_train": 3040,
+    "payload_bytes": {
+      "llama": 34340864,
+      "qwen": 26292224
+    },
+    "peak_cuda_bytes": null,
+    "queue_sha256": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f",
+    "runtime_seconds": null,
+    "shared_cap_seconds_per_model": 7200,
+    "storage_quota": null,
+    "token_binding": "pending pinned offline tokenizer",
+    "unique_texts_per_model": 131
+  },
+  "training_preflight_inputs": 40
+}

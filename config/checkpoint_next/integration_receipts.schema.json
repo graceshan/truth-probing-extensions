@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Successor extraction acceptance receipt (actual output only)",
+  "type": "object",
+  "required": ["verification", "completion_sha256", "ledger", "active_seconds", "status"],
+  "properties": {
+    "status": {"const": "accepted"},
+    "completion_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "active_seconds": {"type": "number", "minimum": 0},
+    "ledger": {"type": "array", "minItems": 1},
+    "verification": {
+      "type": "object",
+      "required": ["identity", "queue_sha256", "unique_texts", "bindings", "receipts", "token_plan_sha256", "token_audit_sha256", "status"],
+      "properties": {
+        "queue_sha256": {"const": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"},
+        "unique_texts": {"const": 131},
+        "bindings": {"const": 131},
+        "status": {"const": "loader_verified"},
+        "receipts": {"type": "array", "minItems": 131, "maxItems": 131}
+      }
+    }
+  },
+  "description": "Documentation schema; executable acceptance also reopens all reviewed shards and independently binds native tokens, completion evidence and settled shared-ledger attempts. A hand-filled receipt is insufficient."
+}

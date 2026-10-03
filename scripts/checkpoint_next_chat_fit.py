@@ -36,7 +36,7 @@ def main():
             publish_json(output/'halt.json',dict(status='chat CPU cap hit',fits_retained=True));raise
         return
     import numpy as np
-    from src.checkpoint_next_chat import prepare_blocks,fit_prepared
+    from src.checkpoint_next_chat import prepare_blocks,fit_prepared,preserve_fit
     from src.checkpoint_r2_fresh_store import publish
     raw=json.loads(Path(a.raw_matches).read_text())
     require(len(raw)==8 and len({r['id'] for r in raw})==8,'exactly eight raw matches required')
@@ -60,17 +60,14 @@ def main():
             features={g:np.stack([physical[r['job_id']][layer_index] for r in rs]).astype(np.float64) for g,rs in groups.items()}
             pre,block=prepare_blocks(head,groups['P15'],features['P15'],groups['TC_control_and_final_refit'],features['TC_control_and_final_refit'])
             start=time.monotonic();fit=fit_prepared(head,pre,block,auth,producer())
-            folder=output/head['id'];folder.mkdir(parents=True,exist_ok=False)
-            publish(folder/'parameters.npz',lambda f:np.savez(f,weights=fit.weights,intercept=fit.intercept,
-                mean=pre.mean,population_std=pre.population_std,denominator=pre.denominator,constant_mask=pre.constant_mask))
+            folder=output/head['id']
+            receipt=preserve_fit(folder,fit,pre,dict(head=metadata,producer_commit=producer(),
+                verification=verification,objective=head['objective'],seconds=time.monotonic()-start,
+                preprocessing_source='original chat-P15 only'))
             publish(folder/'scores.npz',lambda f:np.savez(f,**{g:fit.decision_function(v) for g,v in features.items()}))
-            attempts=[]
-            for attempt in fit.attempts:
-                row=asdict(attempt);row.pop('initial_parameters');row.pop('final_parameters');attempts.append(row)
-            receipt=dict(head=metadata,producer_commit=producer(),verification=verification,objective=head['objective'],
-                attempts=attempts,status=fit.status,seconds=time.monotonic()-start,
-                preprocessing_source='original chat-P15 only',parameters_sha256=sha(folder/'parameters.npz'),
-                scores_sha256=sha(folder/'scores.npz'),score_identities={g:[r['logical_id'] for r in rs] for g,rs in groups.items()})
+            receipt.update(scores_sha256=sha(folder/'scores.npz'),
+                fit_status_sha256=sha(folder/'fit-status.json'),
+                score_identities={g:[r['logical_id'] for r in rs] for g,rs in groups.items()})
             publish_json(folder/'receipt.json',receipt);artifacts.append(dict(id=head['id'],receipt_sha256=sha(folder/'receipt.json')))
         del physical
     require(len(artifacts)==8,'eight valid fits required')

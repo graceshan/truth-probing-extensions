@@ -38,5 +38,30 @@ def fit_prepared(head, pre, block, authorization, producer_sha):
     # r0 API is the existing single-block mean-BCE + .001 penalty objective;
     # passing fixed TC here implements existing C_clean, never the mixed repair loss.
     fit=fit_readout('r0',block,pre)
-    require(fit.converged,'optimizer failure blocks affected chat task')
     return fit
+
+
+def preserve_fit(folder, fit, pre, metadata):
+    """Publish diagnostics and parameters before rejecting a flagged optimizer result."""
+    from dataclasses import asdict
+    from pathlib import Path
+    import numpy as np
+    from src.checkpoint_r2_fresh_store import publish
+    from src.checkpoint_next_store import publish_json
+    from src.checkpoint_next_inventory import sha
+    folder=Path(folder);folder.mkdir(parents=True,exist_ok=False)
+    publish(folder/'parameters.npz',lambda f:np.savez(f,weights=fit.weights,intercept=fit.intercept,
+        mean=pre.mean,population_std=pre.population_std,denominator=pre.denominator,constant_mask=pre.constant_mask))
+    def serial(value):
+        if isinstance(value,np.ndarray):return value.tolist()
+        if isinstance(value,np.generic):return value.item()
+        if isinstance(value,dict):return {k:serial(v) for k,v in value.items()}
+        if isinstance(value,(tuple,list)):return [serial(v) for v in value]
+        if isinstance(value,float) and not np.isfinite(value):return repr(value)
+        return value
+    receipt=dict(metadata,status=fit.status,prediction_usable=bool(fit.converged),
+                 parameters_sha256=sha(folder/'parameters.npz'),
+                 attempts=[serial(asdict(a)) for a in fit.attempts])
+    publish_json(folder/'fit-status.json',receipt)
+    require(fit.converged,'optimizer failure preserved; affected chat task stopped')
+    return receipt

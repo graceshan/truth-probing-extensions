@@ -1,0 +1,16 @@
+{
+  "E": false,
+  "causal_prefix_logprob_absolute_tolerance": 0.05,
+  "evidence_sha256": {
+    "results/checkpoint_next_score_diagnosis_20261003/additional-262-bindings.csv": "d67a16ac30de6597a8019a4205c3ce66cfae294be905226f7d21101ab8b2661e",
+    "results/checkpoint_next_score_diagnosis_20261003/coverage-summary.json": "9e5cae803fcf72419e265248229b50728171e17f97302b081c0a4b46978cde70",
+    "results/checkpoint_next_score_diagnosis_20261003/full-training-coverage.csv": "70b022d8cc6d66153553d4b2d8d2107245925d3e3864495fc21f8f57b1206222",
+    "results/checkpoint_next_score_diagnosis_20261003/input-verification.json": "759c1d81e70fb14284e2fe05ebf5ff4d5e3b941d366cc4eae89ec160de89f9cb",
+    "results/checkpoint_next_score_diagnosis_20261003/missing-input-queue.json": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+  },
+  "generation_steps": 8,
+  "preparation_only": true,
+  "schema": "checkpoint-next-integration-v1",
+  "setup_seconds": 1800,
+  "shared_model_seconds": 7200
+}
