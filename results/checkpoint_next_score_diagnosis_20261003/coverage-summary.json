@@ -1,0 +1,71 @@
+{
+  "A_exposure": "Full training restores all admitted A15 person variants. Selection A identities overlap atomic fitting; D remains entity-disjoint.",
+  "P15_bindings": 2778,
+  "P15_ordered_membership_sha256": "b5ca7b2a1c5226704e60590b9fd36d4b293bb42d351cbf0b44608d2ba7bace8d",
+  "additional_bindings": 262,
+  "additional_ordered_membership_sha256": "040293b89b4d255708a15ec171ae5435a48635cb6ba549ed0ea3b393ac8a7f97",
+  "additional_reused_bindings": 131,
+  "additional_unique_texts": 262,
+  "feature_tensors_loaded": 0,
+  "full_bank_fit_authorized": false,
+  "full_unique_texts": 3040,
+  "historical_tensors_used": 0,
+  "later_required_contrasts": [
+    "Frozen R_all minus S_full",
+    "S_full minus S_atom_full",
+    "Frozen R_all minus S_atom_full",
+    "S_full minus original S_all"
+  ],
+  "later_required_reports": [
+    "600 accounted candidates and failures",
+    "eligible and unrestricted full/P15 bank references; fixed-winner conditional intervals",
+    "common reduced-P LR atomic eligibility gate minus .005",
+    "full canonical LR and atomic-only selector",
+    "atomic and AND retention, OR and boundary",
+    "each sample, pooled, fixed five-topic macro and every topic, all frozen wordings",
+    "full preprocessing and deterministic 1000-row t_G/TTPD sampler; A identity exposure"
+  ],
+  "metadata_only": true,
+  "missing_bindings": 131,
+  "missing_model_input_combinations": 262,
+  "missing_queue_pin": {
+    "bytes": 159340,
+    "sha256": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+  },
+  "missing_unique_texts_per_model": 131,
+  "opaque_fresh_feature_files_rehashed": 226,
+  "outer_training_ordered_membership_sha256": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61",
+  "preprocessing": "Later standardized procedures use full admitted 3040-row population mean/std, constant mask and denominator=1 for constant features. Raw LR keeps existing C scaling; DoM/covariance-MM/t_G/TTPD keep their existing raw objectives. t_G/TTPD use this exact 1000-row balanced exposure; no preprocessing or fitting executed here.",
+  "sampler": "RandomState(0), original BURGER_TOPICS order; same sampled row indices for affirmative/negated pairs; equal minimum affirmative dataset count",
+  "sampler_dataset_counts": {
+    "animal_class": 100,
+    "cities": 100,
+    "element_symb": 100,
+    "inventors": 100,
+    "neg_animal_class": 100,
+    "neg_cities": 100,
+    "neg_element_symb": 100,
+    "neg_inventors": 100,
+    "neg_sp_en_trans": 100,
+    "sp_en_trans": 100
+  },
+  "sampler_ordered_membership_sha256": "c8093cce419a79a3ec1dc6c698391bd0f41b1bda92f4c2675cafeaeb41fb51bc",
+  "sampler_ordered_source_ids_sha256": "91f85c61758f32a21acccc77b44cb90803c22cce61e409ecff982c6d6061d35b",
+  "sampler_rows": 1000,
+  "sampler_topic_counts": {
+    "animal_class": 200,
+    "cities": 200,
+    "element_symb": 200,
+    "inventors": 200,
+    "sp_en_trans": 200
+  },
+  "sampler_topic_order": [
+    "cities",
+    "sp_en_trans",
+    "inventors",
+    "animal_class",
+    "element_symb"
+  ],
+  "schema": "checkpoint-next-full-training-coverage-v1",
+  "train_bindings": 3040
+}

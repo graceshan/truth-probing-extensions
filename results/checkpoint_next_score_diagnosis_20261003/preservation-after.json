@@ -1,0 +1,102 @@
+{
+  "all_unrelated_file_hashes_unchanged": true,
+  "base_files_unchanged": true,
+  "before_snapshot_sha256": "2c66c998546c67b80f0df6fc424b36268a044920114f57d4c84cc4ccd9f10db3",
+  "concurrent_external_changes": {
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-behavior-prep-20261003": {
+      "after": {
+        "branch": "checkpoint-next-behavior-prep-20261003",
+        "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+        "status": "?? config/checkpoint_next/\n?? data/checkpoint_next_behavior_prep_20261003/\n?? docs/checkpoint_next/\n?? results/checkpoint_next_behavior_prep_20261003/\n?? scripts/checkpoint_next_chat_fit.py\n?? scripts/checkpoint_next_report.py\n?? scripts/checkpoint_next_storage.py\n?? src/checkpoint_next_chat.py\n?? src/checkpoint_next_inventory.py\n?? src/checkpoint_next_measurement.py\n?? src/checkpoint_next_reporting.py\n?? src/checkpoint_next_runner.py\n?? src/checkpoint_next_store.py\n?? tests/test_checkpoint_next_behavior.py\n"
+      },
+      "attribution": "Concurrent worktree activity observed; no commands in this task wrote this worktree.",
+      "before": {
+        "branch": "checkpoint-next-behavior-prep-20261003",
+        "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+        "status": "?? config/checkpoint_next/\n?? docs/checkpoint_next/\n?? src/checkpoint_next_chat.py\n?? src/checkpoint_next_inventory.py\n?? src/checkpoint_next_measurement.py\n?? src/checkpoint_next_reporting.py\n?? src/checkpoint_next_runner.py\n?? src/checkpoint_next_store.py\n?? tests/test_checkpoint_next_behavior.py\n"
+      }
+    }
+  },
+  "historical_worktrees": {
+    "/Users/apple/projects/checkpoint-r2-bridge-runner-20261002": {
+      "branch": "checkpoint-r2-bridge-runner-20261002",
+      "head": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+      "status": ""
+    },
+    "/Users/apple/projects/checkpoint-r2-common-20261002": {
+      "branch": "checkpoint-r2-common-20261002",
+      "head": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+      "status": ""
+    },
+    "/Users/apple/projects/checkpoint-r2-cpu-preflight-20261002": {
+      "branch": "checkpoint-r2-cpu-preflight-20261002",
+      "head": "a8082bd7bb6a321690e615b078c9651a6c6a2d49",
+      "status": ""
+    },
+    "/Users/apple/projects/checkpoint-r2-fresh-pilot-20261002": {
+      "branch": "checkpoint-r2-fresh-pilot-20261002",
+      "head": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+      "status": ""
+    },
+    "/Users/apple/projects/checkpoint-r2-full-raw-prep-20261002": {
+      "branch": "checkpoint-r2-full-raw-prep-20261002",
+      "head": "7933063036f5d57c83f41b8ea46e560c1f10cd2e",
+      "status": ""
+    },
+    "/Users/apple/projects/checkpoint-r2-storage-contract-fix-20261002": {
+      "branch": "checkpoint-r2-storage-contract-fix-20261002",
+      "head": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+      "status": ""
+    },
+    "/Users/apple/projects/truth-probing-extensions": {
+      "branch": "t2-research-discussion-packet-20261001",
+      "head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+      "status": "?? .worktrees/\n?? config/clean_protocol/compound_transfer.json\n?? docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx\n?? \"docs/Truth_Probing_Next_Decision_Checkpoint_2026-10-03 (1).docx\"\n?? docs/clean_compound_transfer.md\n?? paper_figure_results.zip\n?? paper_round2_checks.zip\n?? scripts/32_evaluate_clean_compound_transfer.py\n?? src/compound_transfer.py\n?? src/transfer_bootstrap.py\n?? src/transfer_figures.py\n?? src/transfer_frozen.py\n?? src/transfer_integrity.py\n?? src/transfer_metrics.py\n?? tests/test_compound_transfer.py\n?? tests/transfer_fixtures.py\n"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-behavior-prep-20261003": {
+      "branch": "checkpoint-next-behavior-prep-20261003",
+      "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+      "status": "?? config/checkpoint_next/\n?? data/checkpoint_next_behavior_prep_20261003/\n?? docs/checkpoint_next/\n?? results/checkpoint_next_behavior_prep_20261003/\n?? scripts/checkpoint_next_chat_fit.py\n?? scripts/checkpoint_next_report.py\n?? scripts/checkpoint_next_storage.py\n?? src/checkpoint_next_chat.py\n?? src/checkpoint_next_inventory.py\n?? src/checkpoint_next_measurement.py\n?? src/checkpoint_next_reporting.py\n?? src/checkpoint_next_runner.py\n?? src/checkpoint_next_store.py\n?? tests/test_checkpoint_next_behavior.py\n"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-r2-fresh-constituents-20261003": {
+      "branch": "checkpoint-r2-fresh-constituents-20261003",
+      "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+      "status": ""
+    },
+    "/Users/apple/projects/truth-probing-t1-score-rebuild": {
+      "branch": "t2-design-review-20261001",
+      "head": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "status": ""
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-b25-convergence-fix-20261002": {
+      "branch": "checkpoint-r2-b25-convergence-fix-20261002",
+      "head": "1187140c7f79b0b64439eff382d420f51d974a25",
+      "status": ""
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-b25-20261002": {
+      "branch": "checkpoint-r2-fresh-b25-20261002",
+      "head": "60e651370e5c08635f151822073a8b9c01e092ca",
+      "status": ""
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-pilot-review-20261002": {
+      "branch": "checkpoint-r2-fresh-pilot-review-20261002",
+      "head": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+      "status": ""
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-recoverability-20261002": {
+      "branch": "checkpoint-r2-fresh-recoverability-20261002",
+      "head": "098a79fcb03114c0809f91dc192c446b3ba392d0",
+      "status": ""
+    },
+    "/private/tmp/checkpoint-r2-integration-20261002": {
+      "branch": "checkpoint-r2-integration-20261002",
+      "head": "7dd63105c75b894b602fb93754e53eede4483a63",
+      "status": ""
+    }
+  },
+  "historical_worktrees_checked": 15,
+  "historical_worktrees_exactly_unchanged": 14,
+  "only_added_paths_from_base": true,
+  "status": "passed_source_and_unrelated_file_preservation_with_concurrent_worktree_change_recorded",
+  "unrelated_untracked_files_checked": 15
+}

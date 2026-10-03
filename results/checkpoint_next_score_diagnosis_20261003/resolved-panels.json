@@ -1,0 +1,342 @@
+{
+  "no_head_score_concatenation": true,
+  "panels": [
+    {
+      "arm": "R_all",
+      "head_id": "qwen/B25_11/L20/repair/full",
+      "model": "qwen",
+      "saved_layer": 20,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/619fcb3b083eb1d1a9c5e7a3",
+      "seed": "11"
+    },
+    {
+      "arm": "R_all",
+      "head_id": "qwen/B25_23/L22/repair/full",
+      "model": "qwen",
+      "saved_layer": 22,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/449c7379253cf47045846fbb",
+      "seed": "23"
+    },
+    {
+      "arm": "R_all",
+      "head_id": "qwen/B25_37/L18/repair/full",
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/3cb751910b2eaf439f0fcc87",
+      "seed": "37"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "qwen/P15/L15/l2_logistic/C=1",
+      "model": "qwen",
+      "saved_layer": 15,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/386c7aaf526f8f3ab7c9bc46",
+      "seed": "11"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "qwen/P15/L18/l2_logistic/C=10",
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/91555416d68045a1d3d250ff",
+      "seed": "23"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "qwen/P15/L18/l2_logistic/C=10",
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/91555416d68045a1d3d250ff",
+      "seed": "37"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+        "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/ac415a0b99969c27ebb13d53",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "and_both_following_v1",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+        "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/f9430cb5b9bd4fba95a5858a",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+        "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/efe654a7c838d360942ceb62",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "or_at_least_one_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+        "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/22e31469edbf64f2b8b0ac95",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+        "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 18,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/9c2148e32106fd6d02372fb8",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+        "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 19,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/f6629234c976ae1cd39330ae",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "and_both_following_v1",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+        "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 19,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/4151b469cea9b87e168a45eb",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+        "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 19,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/d6b74d3854d4b99cce780f17",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "or_at_least_one_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+        "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 19,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/7e03716add5b912c0a8687b4",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+        "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+      ],
+      "model": "qwen",
+      "saved_layer": 19,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/5ec775574ba6620fbe92388b",
+      "source_operator": "OR"
+    },
+    {
+      "arm": "R_all",
+      "head_id": "llama/B25_11/L14/repair/full",
+      "model": "llama",
+      "saved_layer": 14,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/e1105de890751814dcf16ff0",
+      "seed": "11"
+    },
+    {
+      "arm": "R_all",
+      "head_id": "llama/B25_23/L13/repair/full",
+      "model": "llama",
+      "saved_layer": 13,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/9b593c3900b04eb9091b5019",
+      "seed": "23"
+    },
+    {
+      "arm": "R_all",
+      "head_id": "llama/B25_37/L13/repair/full",
+      "model": "llama",
+      "saved_layer": 13,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/dd04070657166d4d55ea0f8d",
+      "seed": "37"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "llama/P15/L09/ttpd",
+      "model": "llama",
+      "saved_layer": 9,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801",
+      "seed": "11"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "llama/P15/L09/ttpd",
+      "model": "llama",
+      "saved_layer": 9,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801",
+      "seed": "23"
+    },
+    {
+      "arm": "S_all",
+      "head_id": "llama/P15/L09/ttpd",
+      "model": "llama",
+      "saved_layer": 9,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801",
+      "seed": "37"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/AND/L12/FIRST",
+        "llama/TC_control_and_final_refit/AND/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/74ba67a14f5ab728979a6c21",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "and_both_following_v1",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/AND/L12/FIRST",
+        "llama/TC_control_and_final_refit/AND/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/0142d70ed19c3cfa25f6727b",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/AND/L12/FIRST",
+        "llama/TC_control_and_final_refit/AND/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/b417cda1cbc158996af98fcd",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "or_at_least_one_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/AND/L12/FIRST",
+        "llama/TC_control_and_final_refit/AND/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/e6b9f3a0ec0bcddbc3fef0bd",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/AND/L12/FIRST",
+        "llama/TC_control_and_final_refit/AND/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/f47e874fef5e80284208b935",
+      "source_operator": "AND"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/OR/L12/FIRST",
+        "llama/TC_control_and_final_refit/OR/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/5e7dadc83bc5c73b8fb2eb1f",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "and_both_following_v1",
+      "evaluation_operator": "AND",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/OR/L12/FIRST",
+        "llama/TC_control_and_final_refit/OR/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/359ecf5cbe9043886992d873",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "D_bare",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/OR/L12/FIRST",
+        "llama/TC_control_and_final_refit/OR/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/21a5ceb2f9347d690740c6be",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "or_at_least_one_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/OR/L12/FIRST",
+        "llama/TC_control_and_final_refit/OR/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/b0c672e2b99cc3acdf8b44e3",
+      "source_operator": "OR"
+    },
+    {
+      "condition": "or_explicit_or_both_v1",
+      "evaluation_operator": "OR",
+      "head_ids": [
+        "llama/TC_control_and_final_refit/OR/L12/FIRST",
+        "llama/TC_control_and_final_refit/OR/L12/SECOND"
+      ],
+      "model": "llama",
+      "saved_layer": 12,
+      "score_folder": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/scores/903262760efd7e3561bbc1e7",
+      "source_operator": "OR"
+    }
+  ],
+  "scores_used": "saved D only"
+}

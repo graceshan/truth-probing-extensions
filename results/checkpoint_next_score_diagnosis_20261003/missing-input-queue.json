@@ -1,0 +1,3335 @@
+{
+  "accepted_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "completion_requirements": "Exact text/person/source bindings, per-model token sequences, accepted raw BF16/FP16 contract, ordered all-layer hashes, quota/runtime/transfer receipts; no historical tensor substitution.",
+  "extraction_authorized_by_this_task": false,
+  "extraction_contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+  "missing_token_ids": "not fabricated; mac 1 must bind native pinned tokenizer IDs before any separately authorized inference",
+  "model_contracts": {
+    "llama": {
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "layers": 32,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "width": 4096
+    },
+    "qwen": {
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "layers": 28,
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "width": 3584
+    }
+  },
+  "model_input_combinations": 262,
+  "numerical_contract": {
+    "add_special_tokens": true,
+    "attention": "sdpa",
+    "chat_template": false,
+    "compute_dtype": "bfloat16",
+    "deterministic_algorithms": false,
+    "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+    "logits_to_keep": 1,
+    "max_tokens": 1024,
+    "ordering": "manifest order, no sorting/bucketing",
+    "padding": "right; batch1 unpadded",
+    "positions": "mask.cumsum-1; padding positions0",
+    "readout": "last nonpadding token",
+    "sdpa_kernel": "math",
+    "seed": 0,
+    "stored_dtype": "float16",
+    "tf32": false,
+    "truncation": false,
+    "use_cache": false
+  },
+  "outer_train_membership_sha256": "a2b0344d6ca9e5a0d8190a45738b25b3ba3b0d2854aa1aa64f9282b9ea175d61",
+  "rows": [
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Abuja",
+          "entity_id": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:88",
+          "person_key": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+          "source_row_id": "neg_cities:88",
+          "source_row_sha256": "90130a8b9d8d4c328441cb2674a1d587c5fc24348801f352d971e79ab1ae0a64",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Abuja is not in Nigeria.",
+          "statement_sha256": "60f8480f51b369da7453c0fd8d5f2eab4b9d857de736bd20f84446604e7b9775",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Abuja is not in Nigeria.",
+      "statement_sha256": "60f8480f51b369da7453c0fd8d5f2eab4b9d857de736bd20f84446604e7b9775",
+      "text_id": "text_60f8480f51b369da7453c0fd8d5f2eab4b9d857de736bd20f84446604e7b9775",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Abuja",
+          "entity_id": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:89",
+          "person_key": "entity_c9ea9f64eff41af61c5da0f390bddf67d359d4faf1594b4d998eb55420a3fdd1",
+          "source_row_id": "neg_cities:89",
+          "source_row_sha256": "ef643c4ec2d8a0d6283a95ab831cbc82100a64350645f981ca185a402d0b9c03",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Abuja is not in China.",
+          "statement_sha256": "12774622a19eb988b47f77744a6f4f6a612e26951a60a951447b70728824d104",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Abuja is not in China.",
+      "statement_sha256": "12774622a19eb988b47f77744a6f4f6a612e26951a60a951447b70728824d104",
+      "text_id": "text_12774622a19eb988b47f77744a6f4f6a612e26951a60a951447b70728824d104",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Hamamatsu",
+          "entity_id": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:414",
+          "person_key": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+          "source_row_id": "neg_cities:414",
+          "source_row_sha256": "6939358544b792cd289bc320886c0d6008445cec858b80211b51bb508a28c3bc",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Hamamatsu is not in Japan.",
+          "statement_sha256": "f0a0f9027f7a0e1ad11604207e4b5dba10ef8f99a547e74458bff8ee6db9ee78",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Hamamatsu is not in Japan.",
+      "statement_sha256": "f0a0f9027f7a0e1ad11604207e4b5dba10ef8f99a547e74458bff8ee6db9ee78",
+      "text_id": "text_f0a0f9027f7a0e1ad11604207e4b5dba10ef8f99a547e74458bff8ee6db9ee78",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Hamamatsu",
+          "entity_id": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:415",
+          "person_key": "entity_879bc670c6f1f371c066cf1b1377ea9af2bf4d2dbf58be895e4c3159145ebd2d",
+          "source_row_id": "neg_cities:415",
+          "source_row_sha256": "76e959d2664906b47b6f19eade5aa85e9bd19a6a91660e9c433d593a4a205e40",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Hamamatsu is not in Russia.",
+          "statement_sha256": "a1ae72a3f22163c4ef05dec29cf25db8a10fc09bca964a45b42cd1fc654888f7",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Hamamatsu is not in Russia.",
+      "statement_sha256": "a1ae72a3f22163c4ef05dec29cf25db8a10fc09bca964a45b42cd1fc654888f7",
+      "text_id": "text_a1ae72a3f22163c4ef05dec29cf25db8a10fc09bca964a45b42cd1fc654888f7",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Can Tho",
+          "entity_id": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:448",
+          "person_key": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+          "source_row_id": "neg_cities:448",
+          "source_row_sha256": "73f0e4ee2aaad6e4ca66c9aa94b45a41f81e8c50b8e8b94a09107b42607a7294",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Can Tho is not in Vietnam.",
+          "statement_sha256": "3849fe52a7a7113c04e1392e8efe26291c83980e2df57596a0a94ff91ec3392a",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Can Tho is not in Vietnam.",
+      "statement_sha256": "3849fe52a7a7113c04e1392e8efe26291c83980e2df57596a0a94ff91ec3392a",
+      "text_id": "text_3849fe52a7a7113c04e1392e8efe26291c83980e2df57596a0a94ff91ec3392a",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Can Tho",
+          "entity_id": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:449",
+          "person_key": "entity_0792d533880bdb08880df3878b192507f54bbaf659f96667fb6d45fb0d592bb4",
+          "source_row_id": "neg_cities:449",
+          "source_row_sha256": "eac7a91f6bfe90f4855cd3c5469d545132fcc32e98c42d46c75f698188edf07f",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Can Tho is not in Venezuela.",
+          "statement_sha256": "0d620d1117e9cbf3fca0a5beba59b4f6a01841acbe039c13dd904aff328eb243",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Can Tho is not in Venezuela.",
+      "statement_sha256": "0d620d1117e9cbf3fca0a5beba59b4f6a01841acbe039c13dd904aff328eb243",
+      "text_id": "text_0d620d1117e9cbf3fca0a5beba59b4f6a01841acbe039c13dd904aff328eb243",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Cheonan",
+          "entity_id": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:552",
+          "person_key": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+          "source_row_id": "neg_cities:552",
+          "source_row_sha256": "f21d42386c49afd8f56c4f9ca65147bb7364a46ed1410d05e205595f0412687c",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Cheonan is not in South Korea.",
+          "statement_sha256": "b97fa57b670355085f0e95092bb3fb5bd896f7e4f1d88f52c665381f3f96433b",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Cheonan is not in South Korea.",
+      "statement_sha256": "b97fa57b670355085f0e95092bb3fb5bd896f7e4f1d88f52c665381f3f96433b",
+      "text_id": "text_b97fa57b670355085f0e95092bb3fb5bd896f7e4f1d88f52c665381f3f96433b",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Cheonan",
+          "entity_id": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:553",
+          "person_key": "entity_fe9841d34df2cc9a2fea8d55465afa44d59a7186e451d5faacbfa13df51f5799",
+          "source_row_id": "neg_cities:553",
+          "source_row_sha256": "59c8816b0803032c9134882d256448a8933145d260fb10477f825b658317c13c",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Cheonan is not in Myanmar.",
+          "statement_sha256": "6d356310e96ddcf9937f86e87daa035994c6d2bc4e9d7076a26fe95c59488f57",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Cheonan is not in Myanmar.",
+      "statement_sha256": "6d356310e96ddcf9937f86e87daa035994c6d2bc4e9d7076a26fe95c59488f57",
+      "text_id": "text_6d356310e96ddcf9937f86e87daa035994c6d2bc4e9d7076a26fe95c59488f57",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Wanzhou",
+          "entity_id": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:644",
+          "person_key": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+          "source_row_id": "neg_cities:644",
+          "source_row_sha256": "6771eb3487bec9d2f2ae29640b123ea4ab0c58d1f727e473602e78c8308048d9",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Wanzhou is not in China.",
+          "statement_sha256": "7bc6efc5b97fe3ae1db7f7e9a10631b1d1ffaff9a7a1e220a90addd67b0dd0f7",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Wanzhou is not in China.",
+      "statement_sha256": "7bc6efc5b97fe3ae1db7f7e9a10631b1d1ffaff9a7a1e220a90addd67b0dd0f7",
+      "text_id": "text_7bc6efc5b97fe3ae1db7f7e9a10631b1d1ffaff9a7a1e220a90addd67b0dd0f7",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Wanzhou",
+          "entity_id": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:645",
+          "person_key": "entity_38f3675a3b4752f7d7aa50d982844cff1e4133fd39b7761cc8959c9ef0574ca5",
+          "source_row_id": "neg_cities:645",
+          "source_row_sha256": "85db5c1b57a63b88fc5b3976acdfc04d6e5451a555787209b4751b7dea885d73",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Wanzhou is not in India.",
+          "statement_sha256": "401a87f670d58f10604d5719e174e4bfd2f125dfe3b2c88ceaa8093aefdb983b",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Wanzhou is not in India.",
+      "statement_sha256": "401a87f670d58f10604d5719e174e4bfd2f125dfe3b2c88ceaa8093aefdb983b",
+      "text_id": "text_401a87f670d58f10604d5719e174e4bfd2f125dfe3b2c88ceaa8093aefdb983b",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Londrina",
+          "entity_id": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:816",
+          "person_key": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+          "source_row_id": "neg_cities:816",
+          "source_row_sha256": "60d359123662892267ff351b5753470501f7556ba7bb7f0f79dd5bcc0bcb2695",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Londrina is not in Brazil.",
+          "statement_sha256": "ae376a099183495565b50af0937d010fbe15e57532d7b7be63618e402bdee349",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Londrina is not in Brazil.",
+      "statement_sha256": "ae376a099183495565b50af0937d010fbe15e57532d7b7be63618e402bdee349",
+      "text_id": "text_ae376a099183495565b50af0937d010fbe15e57532d7b7be63618e402bdee349",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Londrina",
+          "entity_id": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:817",
+          "person_key": "entity_e80f09978e6bdfb519c6cfba58da68370898d428c8f55a7b87d62cab0b354511",
+          "source_row_id": "neg_cities:817",
+          "source_row_sha256": "c7ad679295bc2606293c5c500d4977ae27c244efae0f50b414f6af54eb122a9f",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Londrina is not in India.",
+          "statement_sha256": "a755d3e1cc462d834d8d32555499912d4173693a5580f2b0643ceb5aace794ca",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Londrina is not in India.",
+      "statement_sha256": "a755d3e1cc462d834d8d32555499912d4173693a5580f2b0643ceb5aace794ca",
+      "text_id": "text_a755d3e1cc462d834d8d32555499912d4173693a5580f2b0643ceb5aace794ca",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Maracaibo",
+          "entity_id": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:846",
+          "person_key": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+          "source_row_id": "neg_cities:846",
+          "source_row_sha256": "8db4a808bcc03bb16b50fa54c119ac13fbc5551eef7bc42d00d2cad3b9b01c6f",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Maracaibo is not in Venezuela.",
+          "statement_sha256": "6e7e7d6882710ba66c436831d5d7d503a0bf9c09ca31af79aaa3e65e0b397a0c",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Maracaibo is not in Venezuela.",
+      "statement_sha256": "6e7e7d6882710ba66c436831d5d7d503a0bf9c09ca31af79aaa3e65e0b397a0c",
+      "text_id": "text_6e7e7d6882710ba66c436831d5d7d503a0bf9c09ca31af79aaa3e65e0b397a0c",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Maracaibo",
+          "entity_id": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:847",
+          "person_key": "entity_c80301a88f1dd9e0458d848341d3bc19ead23a067480e43c139ee8791c759679",
+          "source_row_id": "neg_cities:847",
+          "source_row_sha256": "5985d2298e05d1ade3dee9dc46d5f08204614b250cbe7c9f68bb2952a6d132ad",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Maracaibo is not in Russia.",
+          "statement_sha256": "fa2a8a357d84156db03a4f06d81d672cf58b2bac83ec3093475a74a98b639307",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Maracaibo is not in Russia.",
+      "statement_sha256": "fa2a8a357d84156db03a4f06d81d672cf58b2bac83ec3093475a74a98b639307",
+      "text_id": "text_fa2a8a357d84156db03a4f06d81d672cf58b2bac83ec3093475a74a98b639307",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Yaounde",
+          "entity_id": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:884",
+          "person_key": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+          "source_row_id": "neg_cities:884",
+          "source_row_sha256": "7cabcd2e7932884346d52cb69005edd7bfb378bf307e8337d19dab3f3b11f37f",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Yaounde is not in Cameroon.",
+          "statement_sha256": "f3585b74b62e1bb4005f503b308c172c893211ed6d58d622cd7ca4c273e36223",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Yaounde is not in Cameroon.",
+      "statement_sha256": "f3585b74b62e1bb4005f503b308c172c893211ed6d58d622cd7ca4c273e36223",
+      "text_id": "text_f3585b74b62e1bb4005f503b308c172c893211ed6d58d622cd7ca4c273e36223",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Yaounde",
+          "entity_id": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:885",
+          "person_key": "entity_0bd3bdfa5a90379d8beb9ffb207e2983275e64d65588f42f66cbd443186b5859",
+          "source_row_id": "neg_cities:885",
+          "source_row_sha256": "55045bb042fcb4d731075ce142011048cc0c7fe97c7ac1e58d23c58de5b114a8",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Yaounde is not in China.",
+          "statement_sha256": "0f02c800a49a916a002f994a18a9350f421a9585c2e9546f0d0383e9e353888a",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Yaounde is not in China.",
+      "statement_sha256": "0f02c800a49a916a002f994a18a9350f421a9585c2e9546f0d0383e9e353888a",
+      "text_id": "text_0f02c800a49a916a002f994a18a9350f421a9585c2e9546f0d0383e9e353888a",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Jiangyin",
+          "entity_id": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1026",
+          "person_key": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+          "source_row_id": "neg_cities:1026",
+          "source_row_sha256": "6d6e3c070665de4915e753b5a2647443da939db5b7d65a072ec44d053e93bdbb",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Jiangyin is not in China.",
+          "statement_sha256": "d239319084b83caef252a50bea028be65915beccd50de526eb01e4dd34ba4754",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Jiangyin is not in China.",
+      "statement_sha256": "d239319084b83caef252a50bea028be65915beccd50de526eb01e4dd34ba4754",
+      "text_id": "text_d239319084b83caef252a50bea028be65915beccd50de526eb01e4dd34ba4754",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Jiangyin",
+          "entity_id": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1027",
+          "person_key": "entity_f7fe192b25821f8aae4ab5ad0ebce2153dafce293dc3fecc5bab1127177ba1fe",
+          "source_row_id": "neg_cities:1027",
+          "source_row_sha256": "1924c28226ff283286a057a03e6c4096b7b1cc372bc6ae3cb80491d93e0279a4",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Jiangyin is not in Bulgaria.",
+          "statement_sha256": "61397225fe4836c2d72c02badf2ca7c7d72d44d4de7c3383e490d94ba0c86115",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Jiangyin is not in Bulgaria.",
+      "statement_sha256": "61397225fe4836c2d72c02badf2ca7c7d72d44d4de7c3383e490d94ba0c86115",
+      "text_id": "text_61397225fe4836c2d72c02badf2ca7c7d72d44d4de7c3383e490d94ba0c86115",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Antwerpen",
+          "entity_id": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1056",
+          "person_key": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+          "source_row_id": "neg_cities:1056",
+          "source_row_sha256": "63a38d9cefc7f9de47ab77fca29d1210d8d3fd4b2dff5beb1a8ac47ecc642313",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Antwerpen is not in Belgium.",
+          "statement_sha256": "c1b4d9527d694eff139601821a175d6463612676081d467f3fc9c1513a157a3f",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Antwerpen is not in Belgium.",
+      "statement_sha256": "c1b4d9527d694eff139601821a175d6463612676081d467f3fc9c1513a157a3f",
+      "text_id": "text_c1b4d9527d694eff139601821a175d6463612676081d467f3fc9c1513a157a3f",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Antwerpen",
+          "entity_id": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1057",
+          "person_key": "entity_f41836bad9f10db0c2830d58d42bfb76696e655713140f9b0e5f93b62539080f",
+          "source_row_id": "neg_cities:1057",
+          "source_row_sha256": "ceb2f1864cf5a5d3b33bbda7ccd2c76115930d874999e667512ad1fcad416930",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Antwerpen is not in Japan.",
+          "statement_sha256": "37b95e076631b6f072d0748dc0ae22527182226c23565db40efb0eb367fcb22b",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Antwerpen is not in Japan.",
+      "statement_sha256": "37b95e076631b6f072d0748dc0ae22527182226c23565db40efb0eb367fcb22b",
+      "text_id": "text_37b95e076631b6f072d0748dc0ae22527182226c23565db40efb0eb367fcb22b",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Karaj",
+          "entity_id": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1076",
+          "person_key": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+          "source_row_id": "neg_cities:1076",
+          "source_row_sha256": "3f3146fa35ae1708e85de3d3301d64bbeb48b6656d12140b86d6094a2a2f6a75",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Karaj is not in Iran.",
+          "statement_sha256": "d4ef77218c4813221d4beeb7f849ca89a58c2987b570e76ff67edf8526b56cdc",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Karaj is not in Iran.",
+      "statement_sha256": "d4ef77218c4813221d4beeb7f849ca89a58c2987b570e76ff67edf8526b56cdc",
+      "text_id": "text_d4ef77218c4813221d4beeb7f849ca89a58c2987b570e76ff67edf8526b56cdc",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Karaj",
+          "entity_id": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1077",
+          "person_key": "entity_5e1c77fa0a5236b5cbac383c6f150384f891f39405a21a8471dee349c2259fb4",
+          "source_row_id": "neg_cities:1077",
+          "source_row_sha256": "11801fb772273673575a47a197a522b6e2ab46e3a0dbe257d32e00408a2b16db",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Karaj is not in India.",
+          "statement_sha256": "3bfdc01cfad1971f0fb6fa204b40da271f84805fef08da0a540c4a1c1f9a2c74",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Karaj is not in India.",
+      "statement_sha256": "3bfdc01cfad1971f0fb6fa204b40da271f84805fef08da0a540c4a1c1f9a2c74",
+      "text_id": "text_3bfdc01cfad1971f0fb6fa204b40da271f84805fef08da0a540c4a1c1f9a2c74",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Najran",
+          "entity_id": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1102",
+          "person_key": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+          "source_row_id": "neg_cities:1102",
+          "source_row_sha256": "e2b3fcd37d2b975dc2a395f900af82e82e24f95ba230bb4e46ed0fd6359bfada",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Najran is not in Saudi Arabia.",
+          "statement_sha256": "25024ec3f4214e6ac239280b59b8f04fe6c7bda9ea32b5b75ff473fc1134bbc9",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Najran is not in Saudi Arabia.",
+      "statement_sha256": "25024ec3f4214e6ac239280b59b8f04fe6c7bda9ea32b5b75ff473fc1134bbc9",
+      "text_id": "text_25024ec3f4214e6ac239280b59b8f04fe6c7bda9ea32b5b75ff473fc1134bbc9",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Najran",
+          "entity_id": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1103",
+          "person_key": "entity_2d32ee1a806f4ce48e1b71662fd8029c5ec829ac2bc8fcaa0b75433a6f411bda",
+          "source_row_id": "neg_cities:1103",
+          "source_row_sha256": "c4ac38b308ad6a70387e1864d844b957b664c8bb4174b2bb13add0660dee7db7",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Najran is not in India.",
+          "statement_sha256": "f1c51a33bf7de4f88c19cac0744d91e8f278a4ebf7c0625c77adacbf379847bd",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Najran is not in India.",
+      "statement_sha256": "f1c51a33bf7de4f88c19cac0744d91e8f278a4ebf7c0625c77adacbf379847bd",
+      "text_id": "text_f1c51a33bf7de4f88c19cac0744d91e8f278a4ebf7c0625c77adacbf379847bd",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Nairobi",
+          "entity_id": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1158",
+          "person_key": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+          "source_row_id": "neg_cities:1158",
+          "source_row_sha256": "53d307884f1f6bd9dd6e0368c260506770719880b37c422375dd842ca0f8ddf9",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Nairobi is not in Kenya.",
+          "statement_sha256": "414a7252615cf7bd718b64bd3ee18b1ff6e03f723917836047ea3b7a99784950",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Nairobi is not in Kenya.",
+      "statement_sha256": "414a7252615cf7bd718b64bd3ee18b1ff6e03f723917836047ea3b7a99784950",
+      "text_id": "text_414a7252615cf7bd718b64bd3ee18b1ff6e03f723917836047ea3b7a99784950",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Nairobi",
+          "entity_id": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1159",
+          "person_key": "entity_73bfd98a3860875577a7ebbd19ce17606ac6a0afb92337ac27583c357ee1e9fc",
+          "source_row_id": "neg_cities:1159",
+          "source_row_sha256": "310383bc33656f936d8cd1ab5b99906b621bd1a5008c8f5fcde15822409a88a3",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Nairobi is not in Mexico.",
+          "statement_sha256": "4aa24da3e1220f42692e9cca3ee1366079eb18ca0388cf5a3cf30559d5debc42",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Nairobi is not in Mexico.",
+      "statement_sha256": "4aa24da3e1220f42692e9cca3ee1366079eb18ca0388cf5a3cf30559d5debc42",
+      "text_id": "text_4aa24da3e1220f42692e9cca3ee1366079eb18ca0388cf5a3cf30559d5debc42",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Lianyungang",
+          "entity_id": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1214",
+          "person_key": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+          "source_row_id": "neg_cities:1214",
+          "source_row_sha256": "f9fcece9235d5d41da2919af659e6f6d78117e9663ffee3778460a0257d7a0ea",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Lianyungang is not in China.",
+          "statement_sha256": "59996ea553b71f293b81d74a125c6a1b2874612b19cb35b8f9c1fcc833e4e187",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Lianyungang is not in China.",
+      "statement_sha256": "59996ea553b71f293b81d74a125c6a1b2874612b19cb35b8f9c1fcc833e4e187",
+      "text_id": "text_59996ea553b71f293b81d74a125c6a1b2874612b19cb35b8f9c1fcc833e4e187",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Lianyungang",
+          "entity_id": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1215",
+          "person_key": "entity_6738b1b30ae7190af0317ad956131e1eefb7aefe5dc8291b415027b53e4b19e1",
+          "source_row_id": "neg_cities:1215",
+          "source_row_sha256": "08751b8387215757479d58a2a5da5e9aa1d0401e69d3bbd65d4ccdcf76b4cee1",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Lianyungang is not in the Philippines.",
+          "statement_sha256": "313a0ef1f719d1d0f661698740ff9cd06e3e376d8d30e0a3f2ddafc59b9b2332",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Lianyungang is not in the Philippines.",
+      "statement_sha256": "313a0ef1f719d1d0f661698740ff9cd06e3e376d8d30e0a3f2ddafc59b9b2332",
+      "text_id": "text_313a0ef1f719d1d0f661698740ff9cd06e3e376d8d30e0a3f2ddafc59b9b2332",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Suqian",
+          "entity_id": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "cities:1356",
+          "person_key": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+          "source_row_id": "neg_cities:1356",
+          "source_row_sha256": "447e466935220c322ff1961d0748dddc2897452421e1b27f849d6acb83fcdd24",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Suqian is not in China.",
+          "statement_sha256": "f495f8445cdff7dc0a0dc67fbc7aaa9d62d65b5021910861035f3b45663de24b",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Suqian is not in China.",
+      "statement_sha256": "f495f8445cdff7dc0a0dc67fbc7aaa9d62d65b5021910861035f3b45663de24b",
+      "text_id": "text_f495f8445cdff7dc0a0dc67fbc7aaa9d62d65b5021910861035f3b45663de24b",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Suqian",
+          "entity_id": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "cities:1357",
+          "person_key": "entity_48ff77d76bb0956ae78ce799891f8aac4fc1d02775c035b3827cb37b0092fee9",
+          "source_row_id": "neg_cities:1357",
+          "source_row_sha256": "369759cc30543efc269379556b113167012f0ae7df0e468b8e6b5d3a7dd71956",
+          "source_sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+          "split": "train",
+          "statement": "The city of Suqian is not in Mexico.",
+          "statement_sha256": "db5ca317e4ffd103fbe65c3c0a76b4434ae2d19cf0b7eede4a9ae64c4a3ef890",
+          "topic": "cities"
+        }
+      ],
+      "split": "train",
+      "statement": "The city of Suqian is not in Mexico.",
+      "statement_sha256": "db5ca317e4ffd103fbe65c3c0a76b4434ae2d19cf0b7eede4a9ae64c4a3ef890",
+      "text_id": "text_db5ca317e4ffd103fbe65c3c0a76b4434ae2d19cf0b7eede4a9ae64c4a3ef890",
+      "topic": "cities"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "uno",
+          "entity_id": "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:1",
+          "person_key": "entity_2cd539d8468ddfffaa1d1aa0a71660465482983bd9aa1d4efd17b0587e15bd1c",
+          "source_row_id": "neg_sp_en_trans:1",
+          "source_row_sha256": "1f6b04f5939422930f1e256031e1b49b974c6903ba9f5dca60b46b70aaec93be",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'uno' does not mean 'one'.",
+          "statement_sha256": "ea4ecbef0c5b7ba3addd31a0424775fc5b9bdf93879dcb3c7db35f29cdbf53bf",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'uno' does not mean 'one'.",
+      "statement_sha256": "ea4ecbef0c5b7ba3addd31a0424775fc5b9bdf93879dcb3c7db35f29cdbf53bf",
+      "text_id": "text_ea4ecbef0c5b7ba3addd31a0424775fc5b9bdf93879dcb3c7db35f29cdbf53bf",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "bueno",
+          "entity_id": "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:39",
+          "person_key": "entity_a2d4b5b5e40180f1ce2d80e49a5031f0adda34fae94947b73a419ecfad0cf455",
+          "source_row_id": "neg_sp_en_trans:39",
+          "source_row_sha256": "86ad325dee6b0d2e8845cbd121e3673fe0a9edbd4bb3e16dcff30e8f911b2a0e",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'bueno' does not mean 'good'.",
+          "statement_sha256": "13596f133085ca5e165b90a3da288596608a35af0781290a3dcc7522bef89c8e",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'bueno' does not mean 'good'.",
+      "statement_sha256": "13596f133085ca5e165b90a3da288596608a35af0781290a3dcc7522bef89c8e",
+      "text_id": "text_13596f133085ca5e165b90a3da288596608a35af0781290a3dcc7522bef89c8e",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "pensar",
+          "entity_id": "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:43",
+          "person_key": "entity_1d3779c42128af98eba8859773bddecbdae953a10ca1ce3963df19466aa5abfa",
+          "source_row_id": "neg_sp_en_trans:43",
+          "source_row_sha256": "79c71f7d92b47fd94dd5ee41e2790f990fd3af9a0c44cdd502636c61a6ed5f4b",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'pensar' does not mean 'to think'.",
+          "statement_sha256": "b41f80fa13339faadfcd6871bc91c63a98d8ce1e2181cea12f6318cd08fafced",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'pensar' does not mean 'to think'.",
+      "statement_sha256": "b41f80fa13339faadfcd6871bc91c63a98d8ce1e2181cea12f6318cd08fafced",
+      "text_id": "text_b41f80fa13339faadfcd6871bc91c63a98d8ce1e2181cea12f6318cd08fafced",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "viejo",
+          "entity_id": "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:47",
+          "person_key": "entity_e002c662c3c2bb74c2349daaef579765498b8050f656ae3aaae5374a1a7fbd8b",
+          "source_row_id": "neg_sp_en_trans:47",
+          "source_row_sha256": "484a2bd7417294b76f963b0e43207214a33426fcfc2d5ece10006245c03cc9a6",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'viejo' does not mean 'old'.",
+          "statement_sha256": "b983be37a448556b59da9cd0130ff569d3926a36ed29973e2f5d39eec559f916",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'viejo' does not mean 'old'.",
+      "statement_sha256": "b983be37a448556b59da9cd0130ff569d3926a36ed29973e2f5d39eec559f916",
+      "text_id": "text_b983be37a448556b59da9cd0130ff569d3926a36ed29973e2f5d39eec559f916",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "escribir",
+          "entity_id": "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:53",
+          "person_key": "entity_dbf6345373ea7cfc6751d26124ff2778919ef00519e7bb7a50d801070ef296aa",
+          "source_row_id": "neg_sp_en_trans:53",
+          "source_row_sha256": "8dabb86ccb740e6295c1395f496d28b728749d0b9cc0da3822b3b592454d0db2",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'escribir' does not mean 'to write'.",
+          "statement_sha256": "3ee9df3a2b9cf0dbd7e9c21471400bfff255f6742dbedb3f04190b45c5933d76",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'escribir' does not mean 'to write'.",
+      "statement_sha256": "3ee9df3a2b9cf0dbd7e9c21471400bfff255f6742dbedb3f04190b45c5933d76",
+      "text_id": "text_3ee9df3a2b9cf0dbd7e9c21471400bfff255f6742dbedb3f04190b45c5933d76",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "grupo",
+          "entity_id": "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:104",
+          "person_key": "entity_7aabf6196fbd9c2b013fdcd9d5bf962e89a16efc08f320d9d4ae2ee3310941c0",
+          "source_row_id": "neg_sp_en_trans:104",
+          "source_row_sha256": "4e526f34372662d7782fdb2b53bd853afd3c5c006d608ccea288b56d0c483cce",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'grupo' does not mean 'group'.",
+          "statement_sha256": "409cbac6bdbffe5a9622d3169d781d8b6a9ffa165c65ec048043b8fa058f3296",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'grupo' does not mean 'group'.",
+      "statement_sha256": "409cbac6bdbffe5a9622d3169d781d8b6a9ffa165c65ec048043b8fa058f3296",
+      "text_id": "text_409cbac6bdbffe5a9622d3169d781d8b6a9ffa165c65ec048043b8fa058f3296",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "cuerpo",
+          "entity_id": "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:118",
+          "person_key": "entity_601bd41d80f69d4a3701241dafe040ee3eee42afb7a830f9c9a3caf16d4f0d4b",
+          "source_row_id": "neg_sp_en_trans:118",
+          "source_row_sha256": "9ff2f58e69d17f4cfd1c535041ec01239aef6d6f0b59e94e41004d95796b2fde",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'cuerpo' does not mean 'body'.",
+          "statement_sha256": "89c8529109677b86694a43b6561d461e023a38600f8f8efa9e1483381841f6a9",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'cuerpo' does not mean 'body'.",
+      "statement_sha256": "89c8529109677b86694a43b6561d461e023a38600f8f8efa9e1483381841f6a9",
+      "text_id": "text_89c8529109677b86694a43b6561d461e023a38600f8f8efa9e1483381841f6a9",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "problema",
+          "entity_id": "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:132",
+          "person_key": "entity_54533115e6f28508c82327c1613667aeb11c74da054795635e808bf59b83db8e",
+          "source_row_id": "neg_sp_en_trans:132",
+          "source_row_sha256": "939519ef014285360b7a060f8fe6958f16dc9972eac393a42d71ea6e4e7ba0b5",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'problema' does not mean 'problem'.",
+          "statement_sha256": "3b80a1910e1e1cd5294e0a368f5b2e4b2a063b456ef056e4b1553b3954595540",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'problema' does not mean 'problem'.",
+      "statement_sha256": "3b80a1910e1e1cd5294e0a368f5b2e4b2a063b456ef056e4b1553b3954595540",
+      "text_id": "text_3b80a1910e1e1cd5294e0a368f5b2e4b2a063b456ef056e4b1553b3954595540",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "fuerza",
+          "entity_id": "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:139",
+          "person_key": "entity_72ef406e11bbc4730855974e88dc10c38f4fe13f525ede1de334c6d5bdb4dcc9",
+          "source_row_id": "neg_sp_en_trans:139",
+          "source_row_sha256": "0c28cb2d8aa61813764d245a7dc131cde8ac642addca8caf480392537491137a",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'fuerza' does not mean 'force'.",
+          "statement_sha256": "e2b8f446837ae7512c46366227b52a5998e07fcdf306c2e488b48c6a32322fba",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'fuerza' does not mean 'force'.",
+      "statement_sha256": "e2b8f446837ae7512c46366227b52a5998e07fcdf306c2e488b48c6a32322fba",
+      "text_id": "text_e2b8f446837ae7512c46366227b52a5998e07fcdf306c2e488b48c6a32322fba",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "voz",
+          "entity_id": "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:184",
+          "person_key": "entity_ef57ce6f1062717807cba1b54e8322f4cd237fdf9a5edc3a1031293fa4e53af0",
+          "source_row_id": "neg_sp_en_trans:184",
+          "source_row_sha256": "fedcb2200f05fa88163713455c4743e6da544b5b404e3cb0ee5493cac41345fb",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'voz' does not mean 'voice'.",
+          "statement_sha256": "d174db32d97b210f4be8ffe3c96321510cbd72414939f9f9964eb5d57b340701",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'voz' does not mean 'voice'.",
+      "statement_sha256": "d174db32d97b210f4be8ffe3c96321510cbd72414939f9f9964eb5d57b340701",
+      "text_id": "text_d174db32d97b210f4be8ffe3c96321510cbd72414939f9f9964eb5d57b340701",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "boca",
+          "entity_id": "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:211",
+          "person_key": "entity_c80e23664fe99a50bbefe74155b97397800cc14633916b154974f0d63ac56100",
+          "source_row_id": "neg_sp_en_trans:211",
+          "source_row_sha256": "b56e7630b584ba29fa0704665c03f1a81d68e5c313e8ffea10cf32cdf1368e07",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'boca' does not mean 'mouth'.",
+          "statement_sha256": "65923e34aac950cfb42656ed2d0e4548adedd4d25a0c5587e2b8e6d9099be2eb",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'boca' does not mean 'mouth'.",
+      "statement_sha256": "65923e34aac950cfb42656ed2d0e4548adedd4d25a0c5587e2b8e6d9099be2eb",
+      "text_id": "text_65923e34aac950cfb42656ed2d0e4548adedd4d25a0c5587e2b8e6d9099be2eb",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "arena",
+          "entity_id": "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:254",
+          "person_key": "entity_8bab0e1d68af1c62829e6135ece2405e09e7984e2b94f9512282be141857086d",
+          "source_row_id": "neg_sp_en_trans:254",
+          "source_row_sha256": "8244a8785c544aee2ea13df3a84956e343c4a46e365a216893f159af7b200c71",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'arena' does not mean 'sand'.",
+          "statement_sha256": "5b799931ebdaaf3ee64431209b710b6c55944b04fb69fb2c191b9ac5471728c3",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'arena' does not mean 'sand'.",
+      "statement_sha256": "5b799931ebdaaf3ee64431209b710b6c55944b04fb69fb2c191b9ac5471728c3",
+      "text_id": "text_5b799931ebdaaf3ee64431209b710b6c55944b04fb69fb2c191b9ac5471728c3",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "hueso",
+          "entity_id": "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:270",
+          "person_key": "entity_68e8db43bf8e968028a1330b916dd3f01ab6d8df57d81961c5a43e905901708d",
+          "source_row_id": "neg_sp_en_trans:270",
+          "source_row_sha256": "9bcfaae5511a9d4ff47462cb3626f15496e9303ae303611dd63aa212b1078b96",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'hueso' does not mean 'bone'.",
+          "statement_sha256": "403bb9ef26e70ad5beff26fa65a8b18bfd521012eaa7487fc4530f811e17ea7d",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'hueso' does not mean 'bone'.",
+      "statement_sha256": "403bb9ef26e70ad5beff26fa65a8b18bfd521012eaa7487fc4530f811e17ea7d",
+      "text_id": "text_403bb9ef26e70ad5beff26fa65a8b18bfd521012eaa7487fc4530f811e17ea7d",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "enviar",
+          "entity_id": "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:284",
+          "person_key": "entity_a80720919b0a8e9c4759aa34811fae8739043eb391092f3b4ddee320998261a3",
+          "source_row_id": "neg_sp_en_trans:284",
+          "source_row_sha256": "75388316672a7ea91de8cb8d9adc38705cb8a3f94e6bf3c42d8f13467482a145",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'enviar' does not mean 'to send'.",
+          "statement_sha256": "3676da00fd541e0d5eacf5702ad4729f93e896805c9a564745ad5364780acb13",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'enviar' does not mean 'to send'.",
+      "statement_sha256": "3676da00fd541e0d5eacf5702ad4729f93e896805c9a564745ad5364780acb13",
+      "text_id": "text_3676da00fd541e0d5eacf5702ad4729f93e896805c9a564745ad5364780acb13",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "toro",
+          "entity_id": "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "sp_en_trans:333",
+          "person_key": "entity_82acb7d308bff06352ccfa2113d5b5eeaf6e761ca4406d357a3b889dcad56b06",
+          "source_row_id": "neg_sp_en_trans:333",
+          "source_row_sha256": "ea8d11f4e61ad2cd2e74a3d65bbb9183c4ee2c9fa0544779fd154babd4f1f8a7",
+          "source_sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+          "split": "train",
+          "statement": "The Spanish word 'toro' does not mean 'bull'.",
+          "statement_sha256": "43b1a6f44f7c1b743f6321dafd9d97c9b9191b67dee89d184e8b8fd4730e9225",
+          "topic": "sp_en_trans"
+        }
+      ],
+      "split": "train",
+      "statement": "The Spanish word 'toro' does not mean 'bull'.",
+      "statement_sha256": "43b1a6f44f7c1b743f6321dafd9d97c9b9191b67dee89d184e8b8fd4730e9225",
+      "text_id": "text_43b1a6f44f7c1b743f6321dafd9d97c9b9191b67dee89d184e8b8fd4730e9225",
+      "topic": "sp_en_trans"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Arthur Fry",
+          "entity_id": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:35",
+          "person_key": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+          "source_row_id": "neg_inventors:35",
+          "source_row_sha256": "971dcd585256fcbe44e8a3c409f4db19e5f3253cf467d7a81bcdead12ca05a7f",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Arthur Fry did not live in the U.S.",
+          "statement_sha256": "ed35d64bb6ac3f8261c2c44ffc5d0ef18fb41ab713bd838e81bd2b3950ab06ac",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Arthur Fry did not live in the U.S.",
+      "statement_sha256": "ed35d64bb6ac3f8261c2c44ffc5d0ef18fb41ab713bd838e81bd2b3950ab06ac",
+      "text_id": "text_ed35d64bb6ac3f8261c2c44ffc5d0ef18fb41ab713bd838e81bd2b3950ab06ac",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Joseph-Armand Bombardier",
+          "entity_id": "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:55",
+          "person_key": "entity_6543d090d25441c2afc4ef382fb642d5c6c163ebde3637d9eae4631597ac1318",
+          "source_row_id": "neg_inventors:55",
+          "source_row_sha256": "82625c901ca95afd024a681daf6c5dffaef9a411bb2617867379ba397087a12d",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Joseph-Armand Bombardier did not live in Canada.",
+          "statement_sha256": "534e30c0d7365026b6e23ca1f0daad3d615479cbfbef9991307dda8c25c7a219",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Joseph-Armand Bombardier did not live in Canada.",
+      "statement_sha256": "534e30c0d7365026b6e23ca1f0daad3d615479cbfbef9991307dda8c25c7a219",
+      "text_id": "text_534e30c0d7365026b6e23ca1f0daad3d615479cbfbef9991307dda8c25c7a219",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Shinya Yamanaka",
+          "entity_id": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:69",
+          "person_key": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+          "source_row_id": "neg_inventors:69",
+          "source_row_sha256": "50b38f7771eabd693eee841831b21c01584a1b1589632659e06f97288b9440d2",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Shinya Yamanaka did not live in Germany.",
+          "statement_sha256": "e4775587684e7f1f6494d5b1e1caf990227b56d88ba149b5a0ef96304a807dd8",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Shinya Yamanaka did not live in Germany.",
+      "statement_sha256": "e4775587684e7f1f6494d5b1e1caf990227b56d88ba149b5a0ef96304a807dd8",
+      "text_id": "text_e4775587684e7f1f6494d5b1e1caf990227b56d88ba149b5a0ef96304a807dd8",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Ruth Handler",
+          "entity_id": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:74",
+          "person_key": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+          "source_row_id": "neg_inventors:74",
+          "source_row_sha256": "72d16131189f132f05fddcaf9a8e2e26e232a7bdd5652dc3a3f887cf34420817",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Ruth Handler did not live in the Netherlands.",
+          "statement_sha256": "e4c9af079721c55473983e305007346a678afa1660c760151ca26b268404b559",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Ruth Handler did not live in the Netherlands.",
+      "statement_sha256": "e4c9af079721c55473983e305007346a678afa1660c760151ca26b268404b559",
+      "text_id": "text_e4c9af079721c55473983e305007346a678afa1660c760151ca26b268404b559",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Zhores Alferov",
+          "entity_id": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:115",
+          "person_key": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+          "source_row_id": "neg_inventors:115",
+          "source_row_sha256": "b1281ba9256a787468566648afc26d7cf90592737b79d0b3513c50f56dd40df3",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Zhores Alferov did not live in the U.K.",
+          "statement_sha256": "e10fdbebc645358298b2148fa53fc48b468a6947e5b066b010dec2caa72cac88",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Zhores Alferov did not live in the U.K.",
+      "statement_sha256": "e10fdbebc645358298b2148fa53fc48b468a6947e5b066b010dec2caa72cac88",
+      "text_id": "text_e10fdbebc645358298b2148fa53fc48b468a6947e5b066b010dec2caa72cac88",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Leon Theremin",
+          "entity_id": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:116",
+          "person_key": "entity_2221830c86f9c6dfd4aec499909b9d478a9c1c4e25bf204922f13d5ae819bbe8",
+          "source_row_id": "neg_inventors:116",
+          "source_row_sha256": "49944572a6d3f52a4c83995d9d242e111c7e664040db7e384f6ade4a0c9189f6",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Leon Theremin did not live in Russia.",
+          "statement_sha256": "da0e86b96aa04249247d2acccf1e5b2b7d1b63009835bb65f02c919184caa8b6",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Leon Theremin did not live in Russia.",
+      "statement_sha256": "da0e86b96aa04249247d2acccf1e5b2b7d1b63009835bb65f02c919184caa8b6",
+      "text_id": "text_da0e86b96aa04249247d2acccf1e5b2b7d1b63009835bb65f02c919184caa8b6",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Hans Oersted",
+          "entity_id": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:144",
+          "person_key": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+          "source_row_id": "neg_inventors:144",
+          "source_row_sha256": "8137888bff03a26a464540c173e65d34af5c060d686d2689ed1f6ae33fac6e32",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Hans Oersted did not live in the U.S.",
+          "statement_sha256": "8a3d180dee2bc799e9b660b5e5b7e968ccf214a1513c1f8651a53d47813cd260",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Hans Oersted did not live in the U.S.",
+      "statement_sha256": "8a3d180dee2bc799e9b660b5e5b7e968ccf214a1513c1f8651a53d47813cd260",
+      "text_id": "text_8a3d180dee2bc799e9b660b5e5b7e968ccf214a1513c1f8651a53d47813cd260",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Garrett Morgan",
+          "entity_id": "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:170",
+          "person_key": "entity_8b73a960160a4ae9f6ede829c93c1f499995471513147dc548941369cc6a50bb",
+          "source_row_id": "neg_inventors:170",
+          "source_row_sha256": "c96d929ae140e959ecef133d1dbd6a96b7a940e76081c72f7eb8b9f0f2ca4fa4",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Garrett Morgan did not live in the U.S.",
+          "statement_sha256": "e200af9308eeb2a2cf64aa97cd83060ba9d4d406dc0388f28e9c16f757d3ca07",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Garrett Morgan did not live in the U.S.",
+      "statement_sha256": "e200af9308eeb2a2cf64aa97cd83060ba9d4d406dc0388f28e9c16f757d3ca07",
+      "text_id": "text_e200af9308eeb2a2cf64aa97cd83060ba9d4d406dc0388f28e9c16f757d3ca07",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Richard Trevithick",
+          "entity_id": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:171",
+          "person_key": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+          "source_row_id": "neg_inventors:171",
+          "source_row_sha256": "306f25e582fc055fc89129535bbf6f7465a4da1634c644fa1297ef091c0cd389",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Richard Trevithick did not live in the U.S.",
+          "statement_sha256": "756c15dec52a360ee063dea2c52d2383bf3e68da2df9e5e51ccf85f916f1bd56",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Richard Trevithick did not live in the U.S.",
+      "statement_sha256": "756c15dec52a360ee063dea2c52d2383bf3e68da2df9e5e51ccf85f916f1bd56",
+      "text_id": "text_756c15dec52a360ee063dea2c52d2383bf3e68da2df9e5e51ccf85f916f1bd56",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "William Kelly",
+          "entity_id": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:174",
+          "person_key": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+          "source_row_id": "neg_inventors:174",
+          "source_row_sha256": "b2670c1d9c8a469c42bfb7f5aa83365ff02d705f80bd77f8eac2328c76c73895",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "William Kelly did not live in the U.S.",
+          "statement_sha256": "b86a54f29969811a3eca1164a4a4210e1a10b75f21f3f9b428462be2611da8b8",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "William Kelly did not live in the U.S.",
+      "statement_sha256": "b86a54f29969811a3eca1164a4a4210e1a10b75f21f3f9b428462be2611da8b8",
+      "text_id": "text_b86a54f29969811a3eca1164a4a4210e1a10b75f21f3f9b428462be2611da8b8",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "William Kelly",
+          "entity_id": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:221",
+          "person_key": "entity_8f4964307974c4b8cc22a1944f7e0405dd5b4a3a31123a6b3240c0defd07e60c",
+          "source_row_id": "neg_inventors:221",
+          "source_row_sha256": "f5a6bcdbdf284336d863d6d48886c6d1d3193849c0697ff3995630fd085a48e8",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "William Kelly did not live in France.",
+          "statement_sha256": "95ccd379733743caa525efccd0476820f5ab0cd536ef09271fac95fbd0d6b2f4",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "William Kelly did not live in France.",
+      "statement_sha256": "95ccd379733743caa525efccd0476820f5ab0cd536ef09271fac95fbd0d6b2f4",
+      "text_id": "text_95ccd379733743caa525efccd0476820f5ab0cd536ef09271fac95fbd0d6b2f4",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Thomas Edison",
+          "entity_id": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:224",
+          "person_key": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+          "source_row_id": "neg_inventors:224",
+          "source_row_sha256": "3f47b855c010fbebe14c316899f1fc38efbcde23d7a061d3b1cb3ba8bd48fcb2",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Thomas Edison did not live in the U.S.",
+          "statement_sha256": "0cdfb27f81df39be64ea80fcc7d989d2b99d5ee2d254a81600c9aa66d942ad74",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Thomas Edison did not live in the U.S.",
+      "statement_sha256": "0cdfb27f81df39be64ea80fcc7d989d2b99d5ee2d254a81600c9aa66d942ad74",
+      "text_id": "text_0cdfb27f81df39be64ea80fcc7d989d2b99d5ee2d254a81600c9aa66d942ad74",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Nicolas Appert",
+          "entity_id": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:245",
+          "person_key": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+          "source_row_id": "neg_inventors:245",
+          "source_row_sha256": "e3699db28af5fde89b993ccecaab99c038e517cf7d34fd3652c620793f9841a5",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Nicolas Appert did not live in Russia.",
+          "statement_sha256": "661598c7da693b672c9279e1888a64b44387f6bb631018041ede1011c9867a01",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Nicolas Appert did not live in Russia.",
+      "statement_sha256": "661598c7da693b672c9279e1888a64b44387f6bb631018041ede1011c9867a01",
+      "text_id": "text_661598c7da693b672c9279e1888a64b44387f6bb631018041ede1011c9867a01",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Hans Oersted",
+          "entity_id": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:251",
+          "person_key": "entity_891bf2d682473aaf32564b0160c4f0ceaf003f934e67bde3a9ecfcc908a1e017",
+          "source_row_id": "neg_inventors:251",
+          "source_row_sha256": "7085ff7f18f7625bb64b629e9ee3a6efddd9895702301c81ad757312fbebd3c8",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Hans Oersted did not live in Denmark.",
+          "statement_sha256": "4ace09be6404c1f3b208ebe8be18e60009b642b9af9d7da4210aa4d7ba56f437",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Hans Oersted did not live in Denmark.",
+      "statement_sha256": "4ace09be6404c1f3b208ebe8be18e60009b642b9af9d7da4210aa4d7ba56f437",
+      "text_id": "text_4ace09be6404c1f3b208ebe8be18e60009b642b9af9d7da4210aa4d7ba56f437",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Ruth Handler",
+          "entity_id": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:258",
+          "person_key": "entity_74efa720b0d69a7fb42bf942a0d03b3348890f6dd3e740e1867af219f65d4e84",
+          "source_row_id": "neg_inventors:258",
+          "source_row_sha256": "b85ad1b262e213ad1b6d139b0c9858d501272deab6c87f01aee8a5080b59267f",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Ruth Handler did not live in the U.S.",
+          "statement_sha256": "91ccc2931013bbf0471194aef8f392034f2d3fac591f679319498027348a8945",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Ruth Handler did not live in the U.S.",
+      "statement_sha256": "91ccc2931013bbf0471194aef8f392034f2d3fac591f679319498027348a8945",
+      "text_id": "text_91ccc2931013bbf0471194aef8f392034f2d3fac591f679319498027348a8945",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Karl Benz",
+          "entity_id": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:274",
+          "person_key": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+          "source_row_id": "neg_inventors:274",
+          "source_row_sha256": "89cf434b5c09643577a578c8fb69539822ffaf0bbe0ada6f6fd62e3b91b566f4",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Karl Benz did not live in Germany.",
+          "statement_sha256": "b1e328d012ae42153ef8e8540e52d6ba423615078b21baefd298395c097958e7",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Karl Benz did not live in Germany.",
+      "statement_sha256": "b1e328d012ae42153ef8e8540e52d6ba423615078b21baefd298395c097958e7",
+      "text_id": "text_b1e328d012ae42153ef8e8540e52d6ba423615078b21baefd298395c097958e7",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Biruté Galdikas",
+          "entity_id": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:289",
+          "person_key": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+          "source_row_id": "neg_inventors:289",
+          "source_row_sha256": "dfaa7907fdc93c06e7240003a7034daebbfd18239d5dfa3c9880420c37a0d2a6",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Biruté Galdikas did not live in France.",
+          "statement_sha256": "e0921927bb0b1fb97842efa82bc1004e6e03ce3dd61fce75f9008ee10ae9533c",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Biruté Galdikas did not live in France.",
+      "statement_sha256": "e0921927bb0b1fb97842efa82bc1004e6e03ce3dd61fce75f9008ee10ae9533c",
+      "text_id": "text_e0921927bb0b1fb97842efa82bc1004e6e03ce3dd61fce75f9008ee10ae9533c",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Biruté Galdikas",
+          "entity_id": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:292",
+          "person_key": "entity_c8b9dde7453a93ce0788711c697ed346db5afe0265d2a99e68dde8fad550111d",
+          "source_row_id": "neg_inventors:292",
+          "source_row_sha256": "a5bf8a780dc05dd0c0859ac4ca5fbf53fcaafc0a27ad1748287e53dd95d20814",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Biruté Galdikas did not live in Canada.",
+          "statement_sha256": "39a0ba850f8b88056c074f8742e15acd23e81e1660c5cb77d3a60afc7dfb8d67",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Biruté Galdikas did not live in Canada.",
+      "statement_sha256": "39a0ba850f8b88056c074f8742e15acd23e81e1660c5cb77d3a60afc7dfb8d67",
+      "text_id": "text_39a0ba850f8b88056c074f8742e15acd23e81e1660c5cb77d3a60afc7dfb8d67",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Arthur Fry",
+          "entity_id": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:304",
+          "person_key": "entity_f64a7bcf458a9a4fc914bccaa5ec5d3848cb976601dc15b26030465a2471cbfc",
+          "source_row_id": "neg_inventors:304",
+          "source_row_sha256": "2d31ee44d300b40175f63833868cd7cc2cf04d095a6dd3937e367834c068fb0c",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Arthur Fry did not live in France.",
+          "statement_sha256": "82d4e8f5d05dada75e73d5c5bdb0ef80c0cc6ee60647c23fbc6df89709c845bc",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Arthur Fry did not live in France.",
+      "statement_sha256": "82d4e8f5d05dada75e73d5c5bdb0ef80c0cc6ee60647c23fbc6df89709c845bc",
+      "text_id": "text_82d4e8f5d05dada75e73d5c5bdb0ef80c0cc6ee60647c23fbc6df89709c845bc",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Hans Geiger",
+          "entity_id": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:324",
+          "person_key": "entity_675c7aab0bec3594dce5aed35707ed052942a9552e8349f88dba7e354ff53ffe",
+          "source_row_id": "neg_inventors:324",
+          "source_row_sha256": "6d25a6fa6e6e0a383fb6aede0b6eb3e7c890e1b9ed11275bafb560b894ec1e14",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Hans Geiger did not live in Germany.",
+          "statement_sha256": "cbf8da82647341bbb034e94f74487b5a35b301ebf958355234727038500b81ef",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Hans Geiger did not live in Germany.",
+      "statement_sha256": "cbf8da82647341bbb034e94f74487b5a35b301ebf958355234727038500b81ef",
+      "text_id": "text_cbf8da82647341bbb034e94f74487b5a35b301ebf958355234727038500b81ef",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Shinya Yamanaka",
+          "entity_id": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:328",
+          "person_key": "entity_fd540038a74ef8f8ce0cdc1205b1bafb266bc6c4094fce27843a65986fc41160",
+          "source_row_id": "neg_inventors:328",
+          "source_row_sha256": "0f1059447a94120bde03b56b471d0248c2b1db4289efae9f2aef28700e2b4ca0",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Shinya Yamanaka did not live in Japan.",
+          "statement_sha256": "85ba638cd9693530e92dbeb4c1b659d10523d96627f51eb48bf7ef7b41b2e5ac",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Shinya Yamanaka did not live in Japan.",
+      "statement_sha256": "85ba638cd9693530e92dbeb4c1b659d10523d96627f51eb48bf7ef7b41b2e5ac",
+      "text_id": "text_85ba638cd9693530e92dbeb4c1b659d10523d96627f51eb48bf7ef7b41b2e5ac",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Nicolas Appert",
+          "entity_id": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:346",
+          "person_key": "entity_abab79757a00bce11734925042a6da2dae28d98c7e01972cfe04ae62060ed229",
+          "source_row_id": "neg_inventors:346",
+          "source_row_sha256": "03c4a97b5023a27ec9c732692c9d52448b49893712a86884ff903506ff042829",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Nicolas Appert did not live in France.",
+          "statement_sha256": "4b9abd66c072c917d845ac16ab81fbfa95d441b54861ceebe046e4e0864f2fef",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Nicolas Appert did not live in France.",
+      "statement_sha256": "4b9abd66c072c917d845ac16ab81fbfa95d441b54861ceebe046e4e0864f2fef",
+      "text_id": "text_4b9abd66c072c917d845ac16ab81fbfa95d441b54861ceebe046e4e0864f2fef",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Karl Benz",
+          "entity_id": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:349",
+          "person_key": "entity_4e750be9fd62b6b52be9618bffc9f6fc617d1f3964440e2cc06ff81b38de4479",
+          "source_row_id": "neg_inventors:349",
+          "source_row_sha256": "f9d43531e98ab882ef97fdd6d455c44e20fb224cdd84653a967288c429feadd8",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Karl Benz did not live in the U.S.",
+          "statement_sha256": "0c36c6b88beeb45ae19e483283a27f9668d14c4ece89d6f99910e7db54b75351",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Karl Benz did not live in the U.S.",
+      "statement_sha256": "0c36c6b88beeb45ae19e483283a27f9668d14c4ece89d6f99910e7db54b75351",
+      "text_id": "text_0c36c6b88beeb45ae19e483283a27f9668d14c4ece89d6f99910e7db54b75351",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Zhores Alferov",
+          "entity_id": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:388",
+          "person_key": "entity_12f1081d323af990453d0e32688ea16f110fecb35a0095e3071681717742639f",
+          "source_row_id": "neg_inventors:388",
+          "source_row_sha256": "631c956ab008d6be081111a34ba7ed13f7dc23e1e8e03eb8604010072297f6c1",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Zhores Alferov did not live in Russia.",
+          "statement_sha256": "c6f1b344cf845ab378a34c5e091320e3671be5d6bde5661dd27f718c42a28051",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Zhores Alferov did not live in Russia.",
+      "statement_sha256": "c6f1b344cf845ab378a34c5e091320e3671be5d6bde5661dd27f718c42a28051",
+      "text_id": "text_c6f1b344cf845ab378a34c5e091320e3671be5d6bde5661dd27f718c42a28051",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Richard Trevithick",
+          "entity_id": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "inventors:390",
+          "person_key": "entity_51dd0f9ea9f05981b54484d85cba4e5f5080cda26f67ecd2f35acd739917e366",
+          "source_row_id": "neg_inventors:390",
+          "source_row_sha256": "5b6cc70e240ede88408d64a706632b4bf69b42b8f6fd7aa175a08e84294ac4ca",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Richard Trevithick did not live in the U.K.",
+          "statement_sha256": "d36742fa5e663bcf6aabe3a289bb7bfd93fc27b3f009e8310389fc5c5fa5afe7",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Richard Trevithick did not live in the U.K.",
+      "statement_sha256": "d36742fa5e663bcf6aabe3a289bb7bfd93fc27b3f009e8310389fc5c5fa5afe7",
+      "text_id": "text_d36742fa5e663bcf6aabe3a289bb7bfd93fc27b3f009e8310389fc5c5fa5afe7",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Thomas Edison",
+          "entity_id": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "inventors:404",
+          "person_key": "entity_e24b6eb91ce3e643c28250b924eeb334eb49bb6d7e7b3fabd099bd5a4da961c4",
+          "source_row_id": "neg_inventors:404",
+          "source_row_sha256": "88ee777aa2ed6c1de995952d28ce2f037e9f442ad5de29980791b8cb5aec6232",
+          "source_sha256": "f275742ae02a1d2ca11e90d25753b2d3a90f4788f6399e22442cd7774b7db8a7",
+          "split": "train",
+          "statement": "Thomas Edison did not live in the U.K.",
+          "statement_sha256": "e1bf5837468484c76a81b7313fcf7caa742b23ae7f58a7b036eb4770f01be179",
+          "topic": "inventors"
+        }
+      ],
+      "split": "train",
+      "statement": "Thomas Edison did not live in the U.K.",
+      "statement_sha256": "e1bf5837468484c76a81b7313fcf7caa742b23ae7f58a7b036eb4770f01be179",
+      "text_id": "text_e1bf5837468484c76a81b7313fcf7caa742b23ae7f58a7b036eb4770f01be179",
+      "topic": "inventors"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Yttrium",
+          "entity_id": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:4",
+          "person_key": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+          "source_row_id": "neg_element_symb:4",
+          "source_row_sha256": "dcb7ea579b8a686141b36ea066a90667d3b1818ab7dc32ba71b748e6c3bffc91",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Yttrium does not have the symbol U.",
+          "statement_sha256": "3b2267a949119d376b585b804a21afa7521a28101f4137d02c18519a9b60a93b",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Yttrium does not have the symbol U.",
+      "statement_sha256": "3b2267a949119d376b585b804a21afa7521a28101f4137d02c18519a9b60a93b",
+      "text_id": "text_3b2267a949119d376b585b804a21afa7521a28101f4137d02c18519a9b60a93b",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Xenon",
+          "entity_id": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:12",
+          "person_key": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+          "source_row_id": "neg_element_symb:12",
+          "source_row_sha256": "1a333522bc1a46fc72bc25e2c97962b280f9ce28dad702aba308903b8f72d74d",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Xenon does not have the symbol Xe.",
+          "statement_sha256": "c4376df347bdef8dcb9a7013c39652a06395bdcf85998699e3fef79bf70fed3c",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Xenon does not have the symbol Xe.",
+      "statement_sha256": "c4376df347bdef8dcb9a7013c39652a06395bdcf85998699e3fef79bf70fed3c",
+      "text_id": "text_c4376df347bdef8dcb9a7013c39652a06395bdcf85998699e3fef79bf70fed3c",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Uranium",
+          "entity_id": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:13",
+          "person_key": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+          "source_row_id": "neg_element_symb:13",
+          "source_row_sha256": "8880c4a3bbf179d506bf4994ec0d460143a58cd524da54563e5d384b7801f818",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Uranium does not have the symbol Re.",
+          "statement_sha256": "a6dd246198b7f03c385ff6506564b3da29dbddfd516becc91c5e97d241b0400a",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Uranium does not have the symbol Re.",
+      "statement_sha256": "a6dd246198b7f03c385ff6506564b3da29dbddfd516becc91c5e97d241b0400a",
+      "text_id": "text_a6dd246198b7f03c385ff6506564b3da29dbddfd516becc91c5e97d241b0400a",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Indium",
+          "entity_id": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:14",
+          "person_key": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+          "source_row_id": "neg_element_symb:14",
+          "source_row_sha256": "ee817e4b832cdef141b3716dfd4e9e8f59dfbb588899714b723c1206e7899a9b",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Indium does not have the symbol As.",
+          "statement_sha256": "975dcde495cb0ac08213f8d08bdf6e0dfc14ca39f8c68f87b0c63e886a6abf09",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Indium does not have the symbol As.",
+      "statement_sha256": "975dcde495cb0ac08213f8d08bdf6e0dfc14ca39f8c68f87b0c63e886a6abf09",
+      "text_id": "text_975dcde495cb0ac08213f8d08bdf6e0dfc14ca39f8c68f87b0c63e886a6abf09",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Dysprosium",
+          "entity_id": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:52",
+          "person_key": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+          "source_row_id": "neg_element_symb:52",
+          "source_row_sha256": "2baa3ba4914963a4a04e8a49f62969c783e0db992694835b63c6e75c5ef43cf2",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Dysprosium does not have the symbol U.",
+          "statement_sha256": "d15c32f1ba8c6285bbde5650e2e5dd9e58428bc0d8cc2c9bd90bfbeaec231802",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Dysprosium does not have the symbol U.",
+      "statement_sha256": "d15c32f1ba8c6285bbde5650e2e5dd9e58428bc0d8cc2c9bd90bfbeaec231802",
+      "text_id": "text_d15c32f1ba8c6285bbde5650e2e5dd9e58428bc0d8cc2c9bd90bfbeaec231802",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Phosphorus",
+          "entity_id": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:55",
+          "person_key": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+          "source_row_id": "neg_element_symb:55",
+          "source_row_sha256": "813fd01d49dff72e4becbe02f3afd33515717bd3908b6f9e9c937e1d18195614",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Phosphorus does not have the symbol P.",
+          "statement_sha256": "942bb8597cda3af11ce6ecceed8f9076abafaf8787ffd921d969a1e45be0d3e3",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Phosphorus does not have the symbol P.",
+      "statement_sha256": "942bb8597cda3af11ce6ecceed8f9076abafaf8787ffd921d969a1e45be0d3e3",
+      "text_id": "text_942bb8597cda3af11ce6ecceed8f9076abafaf8787ffd921d969a1e45be0d3e3",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Xenon",
+          "entity_id": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:56",
+          "person_key": "entity_86ce77c484b14bcdf1bf3f3b3f87176f09f962d8fbf1cfe11c23a8f920d47e9c",
+          "source_row_id": "neg_element_symb:56",
+          "source_row_sha256": "753e3914cc9e778bf451fad07e5fe0899427fdcd643c4c117a56ee1cd842444b",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Xenon does not have the symbol F.",
+          "statement_sha256": "e27f3f209c8807124d774409ca2ba9d373f31279d8a193c9450aa5d7ed8198d7",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Xenon does not have the symbol F.",
+      "statement_sha256": "e27f3f209c8807124d774409ca2ba9d373f31279d8a193c9450aa5d7ed8198d7",
+      "text_id": "text_e27f3f209c8807124d774409ca2ba9d373f31279d8a193c9450aa5d7ed8198d7",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Lutetium",
+          "entity_id": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:57",
+          "person_key": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+          "source_row_id": "neg_element_symb:57",
+          "source_row_sha256": "f609ee433deca0d096efb4cfc54d898e543e513df6f5ef51b57f5b074187a405",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Lutetium does not have the symbol Lu.",
+          "statement_sha256": "03b2ccff0b493c91e21b57a26911f5d710cc5ec297456f821032cac6ca82a674",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Lutetium does not have the symbol Lu.",
+      "statement_sha256": "03b2ccff0b493c91e21b57a26911f5d710cc5ec297456f821032cac6ca82a674",
+      "text_id": "text_03b2ccff0b493c91e21b57a26911f5d710cc5ec297456f821032cac6ca82a674",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Phosphorus",
+          "entity_id": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:58",
+          "person_key": "entity_db3272556421a570a34ea4295205de0a43a3f796fbf8e0cd92c20996e3aa56c5",
+          "source_row_id": "neg_element_symb:58",
+          "source_row_sha256": "9b73a2a47078a6380388b47bd10ce130a5cfe8c73f127c497321371a22e41a87",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Phosphorus does not have the symbol Zn.",
+          "statement_sha256": "203ec5461ac3f6e6ac022f8ec99a28412bfc2f3288df3bacc62efc6f55cc0bc9",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Phosphorus does not have the symbol Zn.",
+      "statement_sha256": "203ec5461ac3f6e6ac022f8ec99a28412bfc2f3288df3bacc62efc6f55cc0bc9",
+      "text_id": "text_203ec5461ac3f6e6ac022f8ec99a28412bfc2f3288df3bacc62efc6f55cc0bc9",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Fluorine",
+          "entity_id": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:59",
+          "person_key": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+          "source_row_id": "neg_element_symb:59",
+          "source_row_sha256": "2b73d0d8f811a18695d7f177b3f6ef973448a3f7514f6db5a8b5cb5ae5a4ee08",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Fluorine does not have the symbol N.",
+          "statement_sha256": "62f6e77f674f96d6e78ec3196a2f6435cf67c889a923c74cf5313dcb3fef2faf",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Fluorine does not have the symbol N.",
+      "statement_sha256": "62f6e77f674f96d6e78ec3196a2f6435cf67c889a923c74cf5313dcb3fef2faf",
+      "text_id": "text_62f6e77f674f96d6e78ec3196a2f6435cf67c889a923c74cf5313dcb3fef2faf",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Promethium",
+          "entity_id": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:67",
+          "person_key": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+          "source_row_id": "neg_element_symb:67",
+          "source_row_sha256": "0ee0d114e36c031d0a6de232c2007ec32e3b0f71a87ef39aefc9d80a96fe5717",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Promethium does not have the symbol Pm.",
+          "statement_sha256": "1197cf186e2f6e6d2b4745531800d1291c05a0694f6e40bd30c0e5f6ed9aedbc",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Promethium does not have the symbol Pm.",
+      "statement_sha256": "1197cf186e2f6e6d2b4745531800d1291c05a0694f6e40bd30c0e5f6ed9aedbc",
+      "text_id": "text_1197cf186e2f6e6d2b4745531800d1291c05a0694f6e40bd30c0e5f6ed9aedbc",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Rhodium",
+          "entity_id": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:68",
+          "person_key": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+          "source_row_id": "neg_element_symb:68",
+          "source_row_sha256": "cfd328edd5377af6705b3d4ffc9bb63e70e9c263479961503624bca1774a60d3",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Rhodium does not have the symbol Rh.",
+          "statement_sha256": "19e30a620678f3aede40138c1f2e1153fc148526c4ddf63487d301f078956200",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Rhodium does not have the symbol Rh.",
+      "statement_sha256": "19e30a620678f3aede40138c1f2e1153fc148526c4ddf63487d301f078956200",
+      "text_id": "text_19e30a620678f3aede40138c1f2e1153fc148526c4ddf63487d301f078956200",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Iron",
+          "entity_id": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:74",
+          "person_key": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+          "source_row_id": "neg_element_symb:74",
+          "source_row_sha256": "0a00b2887380b18f85a0bc7c6f5366f8edde0faa48468eed3354d8cc96b10201",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Iron does not have the symbol Tl.",
+          "statement_sha256": "d437377a269ce9b0660cc2f4268e7627212d42f0559816940a36b53d9b3d88a0",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Iron does not have the symbol Tl.",
+      "statement_sha256": "d437377a269ce9b0660cc2f4268e7627212d42f0559816940a36b53d9b3d88a0",
+      "text_id": "text_d437377a269ce9b0660cc2f4268e7627212d42f0559816940a36b53d9b3d88a0",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Indium",
+          "entity_id": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:78",
+          "person_key": "entity_3b12bdaabb6ceca229de4036558be3762b543d51c0b794aba40524ed47dd94d8",
+          "source_row_id": "neg_element_symb:78",
+          "source_row_sha256": "5e74bcb5a470139a694563163724b858027b6ecf11023351459c33e89c78bc30",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Indium does not have the symbol In.",
+          "statement_sha256": "1bcd9cae77665c1808260c7f9b126f958e0638a3e01b247c6f6a66933de7871f",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Indium does not have the symbol In.",
+      "statement_sha256": "1bcd9cae77665c1808260c7f9b126f958e0638a3e01b247c6f6a66933de7871f",
+      "text_id": "text_1bcd9cae77665c1808260c7f9b126f958e0638a3e01b247c6f6a66933de7871f",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Argon",
+          "entity_id": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:93",
+          "person_key": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+          "source_row_id": "neg_element_symb:93",
+          "source_row_sha256": "10f22145b9adc64fc45273a162a93d3bcec16b39daf3617917e1d3c7b9c84d08",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Argon does not have the symbol Co.",
+          "statement_sha256": "95477dfd17e2be2ca35579f2cbe64886601a2f6f6b656d3b2f0a5d084b2de5a1",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Argon does not have the symbol Co.",
+      "statement_sha256": "95477dfd17e2be2ca35579f2cbe64886601a2f6f6b656d3b2f0a5d084b2de5a1",
+      "text_id": "text_95477dfd17e2be2ca35579f2cbe64886601a2f6f6b656d3b2f0a5d084b2de5a1",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Uranium",
+          "entity_id": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:95",
+          "person_key": "entity_f44e34f79900db772c92bb285b594fbd4d74ad53c582136ea5415ed053a1269b",
+          "source_row_id": "neg_element_symb:95",
+          "source_row_sha256": "98f6b37279202f35f4de2a82ace016c5d4124425aa80b397f585f87abe0eabfb",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Uranium does not have the symbol U.",
+          "statement_sha256": "3c4354866afdd9b9a9210c26be505c0b157f9f34ed5d980f67a684711f2c41d4",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Uranium does not have the symbol U.",
+      "statement_sha256": "3c4354866afdd9b9a9210c26be505c0b157f9f34ed5d980f67a684711f2c41d4",
+      "text_id": "text_3c4354866afdd9b9a9210c26be505c0b157f9f34ed5d980f67a684711f2c41d4",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Rhodium",
+          "entity_id": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:100",
+          "person_key": "entity_69e2e6fe54afac9109abdba0d90467b5cc8c528131b4692e8b14d8896edc5415",
+          "source_row_id": "neg_element_symb:100",
+          "source_row_sha256": "a7d5712bf4181faa2b5aba9192b302c743cb53cf496a0e7b997767ab38b3bc1f",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Rhodium does not have the symbol Sn.",
+          "statement_sha256": "aaf53c7c5d278733ee6b41f6c14ad6c5702acf4ffda78d44191db8dd23a5c15c",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Rhodium does not have the symbol Sn.",
+      "statement_sha256": "aaf53c7c5d278733ee6b41f6c14ad6c5702acf4ffda78d44191db8dd23a5c15c",
+      "text_id": "text_aaf53c7c5d278733ee6b41f6c14ad6c5702acf4ffda78d44191db8dd23a5c15c",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Lutetium",
+          "entity_id": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:104",
+          "person_key": "entity_a7259a2b0f747e2dd0aa22cecbf2b18d4e28879b046c8b4bcf5bf2838262616a",
+          "source_row_id": "neg_element_symb:104",
+          "source_row_sha256": "219cdd12cb825197b1b6ba9a6b629502539bb37db774ce3f0ac602c2a068e9f1",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Lutetium does not have the symbol Be.",
+          "statement_sha256": "dc41e66fa7b14f77d524b27a634c0c04421bd18ac43b4931b1f821f6cdc0f905",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Lutetium does not have the symbol Be.",
+      "statement_sha256": "dc41e66fa7b14f77d524b27a634c0c04421bd18ac43b4931b1f821f6cdc0f905",
+      "text_id": "text_dc41e66fa7b14f77d524b27a634c0c04421bd18ac43b4931b1f821f6cdc0f905",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Argon",
+          "entity_id": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:108",
+          "person_key": "entity_43ba853d727771f177e52c8ac44ebe2cfb3a96acb1e8971fc49d4818f904c5b7",
+          "source_row_id": "neg_element_symb:108",
+          "source_row_sha256": "f8b913954520e9ac8a7ee15a13aaeb4a43ecdfff4a9e1e40080447966ccd02b0",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Argon does not have the symbol Ar.",
+          "statement_sha256": "4d818bc9fe3dbd1a4867370365bdabf40ab43beb99b8742d1550922dd2dbcfe3",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Argon does not have the symbol Ar.",
+      "statement_sha256": "4d818bc9fe3dbd1a4867370365bdabf40ab43beb99b8742d1550922dd2dbcfe3",
+      "text_id": "text_4d818bc9fe3dbd1a4867370365bdabf40ab43beb99b8742d1550922dd2dbcfe3",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Yttrium",
+          "entity_id": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:115",
+          "person_key": "entity_aa9e6bcded011c95487b80fee77faace4b438411c073e9fda39625a2098bd0c8",
+          "source_row_id": "neg_element_symb:115",
+          "source_row_sha256": "4b947ed3f1e412169dbeb0908c599d33b2aea8646479c8d4c30a117250473a90",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Yttrium does not have the symbol Y.",
+          "statement_sha256": "4d4125b943f82234ab2ba7bceac29de03ebcd3780f02dfeb128795216d3d1503",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Yttrium does not have the symbol Y.",
+      "statement_sha256": "4d4125b943f82234ab2ba7bceac29de03ebcd3780f02dfeb128795216d3d1503",
+      "text_id": "text_4d4125b943f82234ab2ba7bceac29de03ebcd3780f02dfeb128795216d3d1503",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Neodymium",
+          "entity_id": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:118",
+          "person_key": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+          "source_row_id": "neg_element_symb:118",
+          "source_row_sha256": "62f33732dcfd2d937f2c9b95852799b4bae1bafb041ce1539fe0a80ab559aa41",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Neodymium does not have the symbol Ac.",
+          "statement_sha256": "852eb93fdabf436d9d96ceeef7298587e22f13401b1dd6a2b1ce0e64947ea51b",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Neodymium does not have the symbol Ac.",
+      "statement_sha256": "852eb93fdabf436d9d96ceeef7298587e22f13401b1dd6a2b1ce0e64947ea51b",
+      "text_id": "text_852eb93fdabf436d9d96ceeef7298587e22f13401b1dd6a2b1ce0e64947ea51b",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Fluorine",
+          "entity_id": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:119",
+          "person_key": "entity_3afc4d8358a3fee3460b1e33db0a27d30650c5e3833617ec7647aee9422e47c2",
+          "source_row_id": "neg_element_symb:119",
+          "source_row_sha256": "fd082b9b3e15041f1396b5304f8fa52d6e9852f02d849eb02e039704a48d46a8",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Fluorine does not have the symbol F.",
+          "statement_sha256": "1e6d75681b901226f8dc9930fff3429bd675b8f6f54652f39451e1f9fb6c4b68",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Fluorine does not have the symbol F.",
+      "statement_sha256": "1e6d75681b901226f8dc9930fff3429bd675b8f6f54652f39451e1f9fb6c4b68",
+      "text_id": "text_1e6d75681b901226f8dc9930fff3429bd675b8f6f54652f39451e1f9fb6c4b68",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Samarium",
+          "entity_id": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:122",
+          "person_key": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+          "source_row_id": "neg_element_symb:122",
+          "source_row_sha256": "2294d1919e160a18735cf25bad58e26a84104e5e0271e3df365a5fe596a26e8e",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Samarium does not have the symbol Pr.",
+          "statement_sha256": "6a6c64eef73d9100975df25d54feeaec6dc3e4c289f1fac616086b56877492f9",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Samarium does not have the symbol Pr.",
+      "statement_sha256": "6a6c64eef73d9100975df25d54feeaec6dc3e4c289f1fac616086b56877492f9",
+      "text_id": "text_6a6c64eef73d9100975df25d54feeaec6dc3e4c289f1fac616086b56877492f9",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Tin",
+          "entity_id": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:126",
+          "person_key": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+          "source_row_id": "neg_element_symb:126",
+          "source_row_sha256": "1f8a224cf3bd576e625366f353288b386ca3d38dae8b53d6ee3c8e4b53e07a49",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Tin does not have the symbol Be.",
+          "statement_sha256": "406bbe68b51e5dec1aea0b795c85755a65a8bc520db53f0c162a49c2bf072014",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Tin does not have the symbol Be.",
+      "statement_sha256": "406bbe68b51e5dec1aea0b795c85755a65a8bc520db53f0c162a49c2bf072014",
+      "text_id": "text_406bbe68b51e5dec1aea0b795c85755a65a8bc520db53f0c162a49c2bf072014",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Samarium",
+          "entity_id": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:128",
+          "person_key": "entity_e2be30e7cc694739f67eae2ef2f659099cdf150f8e89bbb9ddbac1c6d761e004",
+          "source_row_id": "neg_element_symb:128",
+          "source_row_sha256": "dff1162809e5be40221b91c9af8ddd901779f4a63f17b26d812c1dda5d4d29de",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Samarium does not have the symbol Sm.",
+          "statement_sha256": "c6941f801028c60f114405c6613ee1432dba64d20bc13c71340304e151b0cb8e",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Samarium does not have the symbol Sm.",
+      "statement_sha256": "c6941f801028c60f114405c6613ee1432dba64d20bc13c71340304e151b0cb8e",
+      "text_id": "text_c6941f801028c60f114405c6613ee1432dba64d20bc13c71340304e151b0cb8e",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Promethium",
+          "entity_id": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "element_symb:142",
+          "person_key": "entity_445001c7997247ab6f542438a65c8e1c02ba03346d568db13b38ecae276f6b88",
+          "source_row_id": "neg_element_symb:142",
+          "source_row_sha256": "153ef1cb1737248bd44dd66beace3daab848301606c75692b1639d8b8929b166",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Promethium does not have the symbol Dy.",
+          "statement_sha256": "9d46fc2ef4eaafc079ba8e3b8ee04e7940a07b5d29788e1ede76fb4fa3756985",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Promethium does not have the symbol Dy.",
+      "statement_sha256": "9d46fc2ef4eaafc079ba8e3b8ee04e7940a07b5d29788e1ede76fb4fa3756985",
+      "text_id": "text_9d46fc2ef4eaafc079ba8e3b8ee04e7940a07b5d29788e1ede76fb4fa3756985",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Iron",
+          "entity_id": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:144",
+          "person_key": "entity_a2e46b84276a369489ba2b0fb3e1e035d1bf578da78184704cd53248da258a12",
+          "source_row_id": "neg_element_symb:144",
+          "source_row_sha256": "47edfbcbdaaa7e78a5be00b517b879aa85e2f11a5bdf33eee685eb1031152937",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Iron does not have the symbol Fe.",
+          "statement_sha256": "8ace8e4f4a3c3bb363419be9ee58fc27c521ffe31c86f115a5232294827b3710",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Iron does not have the symbol Fe.",
+      "statement_sha256": "8ace8e4f4a3c3bb363419be9ee58fc27c521ffe31c86f115a5232294827b3710",
+      "text_id": "text_8ace8e4f4a3c3bb363419be9ee58fc27c521ffe31c86f115a5232294827b3710",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Neodymium",
+          "entity_id": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:156",
+          "person_key": "entity_83a2c2f70039a417493b6b9a43bc1f4e64c2f4d297115d16a8445c83063dd6f5",
+          "source_row_id": "neg_element_symb:156",
+          "source_row_sha256": "1900542c5f706cb5d20927942abcfe2dfabf9496a2e12493537d3cadf3b58332",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Neodymium does not have the symbol Nd.",
+          "statement_sha256": "53a36f2fdae9817e6a82c12588a1bee375db6966ea2fa8521e89aee9a47fd930",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Neodymium does not have the symbol Nd.",
+      "statement_sha256": "53a36f2fdae9817e6a82c12588a1bee375db6966ea2fa8521e89aee9a47fd930",
+      "text_id": "text_53a36f2fdae9817e6a82c12588a1bee375db6966ea2fa8521e89aee9a47fd930",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Dysprosium",
+          "entity_id": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:159",
+          "person_key": "entity_c1c6d542ebd05951d593ca97cb7829e246599690228ed139795e3095010d6410",
+          "source_row_id": "neg_element_symb:159",
+          "source_row_sha256": "4b665b8bfa8187ade7e3be5b514a178a96312bca6b193c88e7613ecf2e7902f7",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Dysprosium does not have the symbol Dy.",
+          "statement_sha256": "0862d4274dbc2adcff1473582ea4dbbabe2f1d71dbb73ceee122e491f77d1a37",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Dysprosium does not have the symbol Dy.",
+      "statement_sha256": "0862d4274dbc2adcff1473582ea4dbbabe2f1d71dbb73ceee122e491f77d1a37",
+      "text_id": "text_0862d4274dbc2adcff1473582ea4dbbabe2f1d71dbb73ceee122e491f77d1a37",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "Tin",
+          "entity_id": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "element_symb:175",
+          "person_key": "entity_f08e5eeb37a754dbfe89ea9ca33b46a79784078910886b391a5c46065fb4a655",
+          "source_row_id": "neg_element_symb:175",
+          "source_row_sha256": "519c88dced7eb3981eac39c2f5a6747ae610f4bcd74de4684b861c824d5ff2e8",
+          "source_sha256": "8ee4b64b38fe1e43fb0e794d5acf914f9af4f8a9a99f3df187bfd84f429ffa78",
+          "split": "train",
+          "statement": "Tin does not have the symbol Sn.",
+          "statement_sha256": "5e122778b83ddf60f5dc62a52afdf5c6e3880f87a304c867c862fd3ff0235164",
+          "topic": "element_symb"
+        }
+      ],
+      "split": "train",
+      "statement": "Tin does not have the symbol Sn.",
+      "statement_sha256": "5e122778b83ddf60f5dc62a52afdf5c6e3880f87a304c867c862fd3ff0235164",
+      "text_id": "text_5e122778b83ddf60f5dc62a52afdf5c6e3880f87a304c867c862fd3ff0235164",
+      "topic": "element_symb"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tapir",
+          "entity_id": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:13",
+          "person_key": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+          "source_row_id": "neg_animal_class:13",
+          "source_row_sha256": "04df986e5a95441d8c542acc6a2cc1a9a1fc1cca7d4de686861d05fe25d513ab",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tapir is not a mammal.",
+          "statement_sha256": "887f813f8f76b5dc3a60057e750fcd74d0c60c44bd14ebcd8a984b0d729f21fa",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tapir is not a mammal.",
+      "statement_sha256": "887f813f8f76b5dc3a60057e750fcd74d0c60c44bd14ebcd8a984b0d729f21fa",
+      "text_id": "text_887f813f8f76b5dc3a60057e750fcd74d0c60c44bd14ebcd8a984b0d729f21fa",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "cassowary",
+          "entity_id": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:25",
+          "person_key": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+          "source_row_id": "neg_animal_class:25",
+          "source_row_sha256": "3e63b172beb8bed981c40928a9b4d59d0c98b474dec2e26b45b3c5ac9860036f",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The cassowary is not a bird.",
+          "statement_sha256": "f50dbc2b6b996d66c668ccaea9e37eaafc5d22520e0a68deeacd577cf6695d04",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The cassowary is not a bird.",
+      "statement_sha256": "f50dbc2b6b996d66c668ccaea9e37eaafc5d22520e0a68deeacd577cf6695d04",
+      "text_id": "text_f50dbc2b6b996d66c668ccaea9e37eaafc5d22520e0a68deeacd577cf6695d04",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tuna",
+          "entity_id": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:27",
+          "person_key": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+          "source_row_id": "neg_animal_class:27",
+          "source_row_sha256": "c9fe8477c8c33ad2760c5e6dcd8cfcdfc8e1e035cfe3d91a287dab957bd526c6",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tuna is not a mammal.",
+          "statement_sha256": "8d3e981808539ca730018aafdee3dcfbe6aaba71da26e5aff241031fc9b66f32",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tuna is not a mammal.",
+      "statement_sha256": "8d3e981808539ca730018aafdee3dcfbe6aaba71da26e5aff241031fc9b66f32",
+      "text_id": "text_8d3e981808539ca730018aafdee3dcfbe6aaba71da26e5aff241031fc9b66f32",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "peacock",
+          "entity_id": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:29",
+          "person_key": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+          "source_row_id": "neg_animal_class:29",
+          "source_row_sha256": "45af1314220739b05fa7847770b6cfed23909e53c2df14858e063dfe8325e795",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The peacock is not a bird.",
+          "statement_sha256": "e609c1224913d0139cba63bfefbbc7bd1b6d5517cb990853e241c233f22a2fc0",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The peacock is not a bird.",
+      "statement_sha256": "e609c1224913d0139cba63bfefbbc7bd1b6d5517cb990853e241c233f22a2fc0",
+      "text_id": "text_e609c1224913d0139cba63bfefbbc7bd1b6d5517cb990853e241c233f22a2fc0",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "seagull",
+          "entity_id": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:31",
+          "person_key": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+          "source_row_id": "neg_animal_class:31",
+          "source_row_sha256": "00cd2e66bd88f49a57d5894fd4130a5084b8ebf2445b6f6b9d306bcdea93e974",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The seagull is not a bird.",
+          "statement_sha256": "fa191e2624e1761b401af918067ce9f40c365d706cc1062eee6f6181bcd647ca",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The seagull is not a bird.",
+      "statement_sha256": "fa191e2624e1761b401af918067ce9f40c365d706cc1062eee6f6181bcd647ca",
+      "text_id": "text_fa191e2624e1761b401af918067ce9f40c365d706cc1062eee6f6181bcd647ca",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "flamingo",
+          "entity_id": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:33",
+          "person_key": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+          "source_row_id": "neg_animal_class:33",
+          "source_row_sha256": "04beb665f9ffb4eed488c0516fe9f9da7e0352d101e684a2eadd12b2d7bbf0c1",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The flamingo is not a bird.",
+          "statement_sha256": "3c0028273ee42ebbb9471d7e7467c9e7ffeef33dd90b4fd41f218ada63f167d8",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The flamingo is not a bird.",
+      "statement_sha256": "3c0028273ee42ebbb9471d7e7467c9e7ffeef33dd90b4fd41f218ada63f167d8",
+      "text_id": "text_3c0028273ee42ebbb9471d7e7467c9e7ffeef33dd90b4fd41f218ada63f167d8",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tarantula",
+          "entity_id": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:40",
+          "person_key": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+          "source_row_id": "neg_animal_class:40",
+          "source_row_sha256": "50a0360e10522e85c3adb78c471bde3a197b82bd1b7ddb29d416e40c7070c07d",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tarantula is not a arachnid.",
+          "statement_sha256": "e1f98da743006e695235f19fae6f827ffa4d415c36766e635222623005be1829",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tarantula is not a arachnid.",
+      "statement_sha256": "e1f98da743006e695235f19fae6f827ffa4d415c36766e635222623005be1829",
+      "text_id": "text_e1f98da743006e695235f19fae6f827ffa4d415c36766e635222623005be1829",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "hippopotamus",
+          "entity_id": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:43",
+          "person_key": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+          "source_row_id": "neg_animal_class:43",
+          "source_row_sha256": "d0d433e770a254125270c7d2fad738edcbda36764ca4e6f32eeea10cf5db9fed",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The hippopotamus is not a reptile.",
+          "statement_sha256": "7a215b5bdf368767af3cb26024b69265fb4e3486df03028cca7f5706bf03a9ff",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The hippopotamus is not a reptile.",
+      "statement_sha256": "7a215b5bdf368767af3cb26024b69265fb4e3486df03028cca7f5706bf03a9ff",
+      "text_id": "text_7a215b5bdf368767af3cb26024b69265fb4e3486df03028cca7f5706bf03a9ff",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "chimpanzee",
+          "entity_id": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:52",
+          "person_key": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+          "source_row_id": "neg_animal_class:52",
+          "source_row_sha256": "7cccc0d5908632e4e8d225d02659d5ee33c2d970fb7988270b755a21d42dcf26",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The chimpanzee is not a fish.",
+          "statement_sha256": "dde10e7cf1156c9c1cf733eecb46f58e254f0ba027a949cd28ae2bb93d5a9d73",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The chimpanzee is not a fish.",
+      "statement_sha256": "dde10e7cf1156c9c1cf733eecb46f58e254f0ba027a949cd28ae2bb93d5a9d73",
+      "text_id": "text_dde10e7cf1156c9c1cf733eecb46f58e254f0ba027a949cd28ae2bb93d5a9d73",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "axolotl",
+          "entity_id": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:54",
+          "person_key": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+          "source_row_id": "neg_animal_class:54",
+          "source_row_sha256": "798c60fc4c46116d89b72977cdf57df7a5bc0bb859ef4da26b9c7d6866d18548",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The axolotl is not a reptile.",
+          "statement_sha256": "6b71a25582cba5cddeacce8c36fd55e40e89f51edc6adcd4d4dbb9fe115d3989",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The axolotl is not a reptile.",
+      "statement_sha256": "6b71a25582cba5cddeacce8c36fd55e40e89f51edc6adcd4d4dbb9fe115d3989",
+      "text_id": "text_6b71a25582cba5cddeacce8c36fd55e40e89f51edc6adcd4d4dbb9fe115d3989",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "crocodile",
+          "entity_id": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:68",
+          "person_key": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+          "source_row_id": "neg_animal_class:68",
+          "source_row_sha256": "ee89e99434e96f5eb07c30e386c1c15083230767dbdc318170b94283a3f25880",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The crocodile is not a mammal.",
+          "statement_sha256": "1f9de761a495b51c0216b7a7925ce22be747876794b3375a7b71ddc122930e03",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The crocodile is not a mammal.",
+      "statement_sha256": "1f9de761a495b51c0216b7a7925ce22be747876794b3375a7b71ddc122930e03",
+      "text_id": "text_1f9de761a495b51c0216b7a7925ce22be747876794b3375a7b71ddc122930e03",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "peacock",
+          "entity_id": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:69",
+          "person_key": "entity_95addcd92b49eab32a06b04f1e5f3827db40d9854ab12a1269a9fc9cb7800e4c",
+          "source_row_id": "neg_animal_class:69",
+          "source_row_sha256": "88fdb08cca6f69e10a51010ad667092a95c876152b246024dc9c74295effa71b",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The peacock is not a mammal.",
+          "statement_sha256": "0c9c946e419c21106cc8ba79c26efe4e2ee7e8ac47a1d1130ead01a6d3ad9151",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The peacock is not a mammal.",
+      "statement_sha256": "0c9c946e419c21106cc8ba79c26efe4e2ee7e8ac47a1d1130ead01a6d3ad9151",
+      "text_id": "text_0c9c946e419c21106cc8ba79c26efe4e2ee7e8ac47a1d1130ead01a6d3ad9151",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tarantula",
+          "entity_id": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:73",
+          "person_key": "entity_e08b106bed1dc6e83945dcabc6863df4ad3a1e5a10f4cf9ab93a9ab38b20324f",
+          "source_row_id": "neg_animal_class:73",
+          "source_row_sha256": "d5075d94c0c3b7f92605275923db6e3116edaab9501db22386ee16f8c6e49b44",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tarantula is not a insect.",
+          "statement_sha256": "d54642a1e2c1a4763dbc6cae139063df72296041a5b9ed4530b90deea468dcb0",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tarantula is not a insect.",
+      "statement_sha256": "d54642a1e2c1a4763dbc6cae139063df72296041a5b9ed4530b90deea468dcb0",
+      "text_id": "text_d54642a1e2c1a4763dbc6cae139063df72296041a5b9ed4530b90deea468dcb0",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "squirrel",
+          "entity_id": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:74",
+          "person_key": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+          "source_row_id": "neg_animal_class:74",
+          "source_row_sha256": "942f6f8957edfa4ea8551f2ef4cee14fdfa8631eff6cd3f7962ae05f395ca786",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The squirrel is not a mammal.",
+          "statement_sha256": "679aef4e0dedab6d4fd00dd7ab5c955de383c5472a25754d61a7946d1277e2cd",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The squirrel is not a mammal.",
+      "statement_sha256": "679aef4e0dedab6d4fd00dd7ab5c955de383c5472a25754d61a7946d1277e2cd",
+      "text_id": "text_679aef4e0dedab6d4fd00dd7ab5c955de383c5472a25754d61a7946d1277e2cd",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "chimpanzee",
+          "entity_id": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:75",
+          "person_key": "entity_d193a983bb84e2b2bad3fdaca343588c64d9a1a01a2da0e94d2acbcfb13cb58f",
+          "source_row_id": "neg_animal_class:75",
+          "source_row_sha256": "8f79fa022d101fe2b17356b777f86500d243789a82605406dd87f930bb7d6bd4",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The chimpanzee is not a mammal.",
+          "statement_sha256": "340e3b948d611d2c5ff821b1b08a308ebbebfd69c57108d4d22c4aa8fc9c079f",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The chimpanzee is not a mammal.",
+      "statement_sha256": "340e3b948d611d2c5ff821b1b08a308ebbebfd69c57108d4d22c4aa8fc9c079f",
+      "text_id": "text_340e3b948d611d2c5ff821b1b08a308ebbebfd69c57108d4d22c4aa8fc9c079f",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "snake",
+          "entity_id": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:82",
+          "person_key": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+          "source_row_id": "neg_animal_class:82",
+          "source_row_sha256": "928c7e2f82c13de8cf5b967a48719692966a209778afcff78f6fc6b8f5e953ab",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The snake is not a reptile.",
+          "statement_sha256": "c1cb6e1495a32b7b30ed3d976d057121107a7434cdb6eb2c42b062aa55ae12cd",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The snake is not a reptile.",
+      "statement_sha256": "c1cb6e1495a32b7b30ed3d976d057121107a7434cdb6eb2c42b062aa55ae12cd",
+      "text_id": "text_c1cb6e1495a32b7b30ed3d976d057121107a7434cdb6eb2c42b062aa55ae12cd",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "shark",
+          "entity_id": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:83",
+          "person_key": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+          "source_row_id": "neg_animal_class:83",
+          "source_row_sha256": "b8366117c0680d3f59e54025edd7f898c06a7f747f57f31ce1151c6b734f15bc",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The shark is not a mammal.",
+          "statement_sha256": "2b31c930cd6fea033cbc06e2c42984ab665fd158e1a610eb583c8e39c918e7ef",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The shark is not a mammal.",
+      "statement_sha256": "2b31c930cd6fea033cbc06e2c42984ab665fd158e1a610eb583c8e39c918e7ef",
+      "text_id": "text_2b31c930cd6fea033cbc06e2c42984ab665fd158e1a610eb583c8e39c918e7ef",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "flamingo",
+          "entity_id": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:90",
+          "person_key": "entity_6a8b5afe59059312f8510224439d00ac13083151e4f627d0ff57f2f0b8fb62fe",
+          "source_row_id": "neg_animal_class:90",
+          "source_row_sha256": "8046ba2d4b91915d53f4cf74b55cf9e99ebef246901981726d5520166686fdaf",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The flamingo is not a mammal.",
+          "statement_sha256": "f762a5d52a03105a6f7f620ed40f1c4d2b141fe057677bb5b8b8a7502e768d08",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The flamingo is not a mammal.",
+      "statement_sha256": "f762a5d52a03105a6f7f620ed40f1c4d2b141fe057677bb5b8b8a7502e768d08",
+      "text_id": "text_f762a5d52a03105a6f7f620ed40f1c4d2b141fe057677bb5b8b8a7502e768d08",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tuna",
+          "entity_id": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:91",
+          "person_key": "entity_570fce305585354c910700ffb850cdb190088d2482321afebe8b12d399b94fa7",
+          "source_row_id": "neg_animal_class:91",
+          "source_row_sha256": "1b57dcb0e453cbee06b3aaed57244419ab35b5734c00f26762c1141a4cb3dbb0",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tuna is not a fish.",
+          "statement_sha256": "2ddad1cbea747b97578b3c01d47d006198064d9a12974e7c6786e463513bd609",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tuna is not a fish.",
+      "statement_sha256": "2ddad1cbea747b97578b3c01d47d006198064d9a12974e7c6786e463513bd609",
+      "text_id": "text_2ddad1cbea747b97578b3c01d47d006198064d9a12974e7c6786e463513bd609",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "seagull",
+          "entity_id": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:97",
+          "person_key": "entity_857bc5bdaf78be4c437e30072c62d05051d684450e3b129752762a74b68acde1",
+          "source_row_id": "neg_animal_class:97",
+          "source_row_sha256": "1472b9a0ab578f8d6255d28e56fa49309769e603fd0c59fcfb98e95889f4c530",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The seagull is not a mammal.",
+          "statement_sha256": "c2f8c1cd6d0f2ecbe0038cf0dcc6b4518214362fed6f165dd5feb7948a225354",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The seagull is not a mammal.",
+      "statement_sha256": "c2f8c1cd6d0f2ecbe0038cf0dcc6b4518214362fed6f165dd5feb7948a225354",
+      "text_id": "text_c2f8c1cd6d0f2ecbe0038cf0dcc6b4518214362fed6f165dd5feb7948a225354",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "squirrel",
+          "entity_id": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:103",
+          "person_key": "entity_e33d2732392551a6325f8374f3a2b29a373983d6ffb8701e8240969063fc70d9",
+          "source_row_id": "neg_animal_class:103",
+          "source_row_sha256": "6238c3d61f2f189148bad7325ae1d66fe9fc87da485f80340167bda050077b86",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The squirrel is not a bird.",
+          "statement_sha256": "7a3b23eca0ca016b7c18731ff7b9eeb81a3be2d861de9b948b966186c6a695c9",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The squirrel is not a bird.",
+      "statement_sha256": "7a3b23eca0ca016b7c18731ff7b9eeb81a3be2d861de9b948b966186c6a695c9",
+      "text_id": "text_7a3b23eca0ca016b7c18731ff7b9eeb81a3be2d861de9b948b966186c6a695c9",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "cassowary",
+          "entity_id": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:105",
+          "person_key": "entity_4c405ed559daf5f9764dbf3f1c69f029d6828160db6c511a3aad45b998002a49",
+          "source_row_id": "neg_animal_class:105",
+          "source_row_sha256": "458a26e1dfd8a6194d67d131fcc34bdda211e0dd3672a251c7dba703707420f1",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The cassowary is not a mammal.",
+          "statement_sha256": "d771cae9ceecf57ed26b02e06119efd6fc5bbaf02a1c8b97153f525a87c9da2e",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The cassowary is not a mammal.",
+      "statement_sha256": "d771cae9ceecf57ed26b02e06119efd6fc5bbaf02a1c8b97153f525a87c9da2e",
+      "text_id": "text_d771cae9ceecf57ed26b02e06119efd6fc5bbaf02a1c8b97153f525a87c9da2e",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "shark",
+          "entity_id": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:111",
+          "person_key": "entity_7697c9b82480da95a941743985726ecb704995ad81c68c7c5c8700eb2974d44a",
+          "source_row_id": "neg_animal_class:111",
+          "source_row_sha256": "1ad54270e99e9cb9c654f6d34e42a730a7332bc533c8adcc9ddb70d00008bb2e",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The shark is not a fish.",
+          "statement_sha256": "f2906d13a9999859186e14553e928518afd5712872dd2f180ab023a830467dc2",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The shark is not a fish.",
+      "statement_sha256": "f2906d13a9999859186e14553e928518afd5712872dd2f180ab023a830467dc2",
+      "text_id": "text_f2906d13a9999859186e14553e928518afd5712872dd2f180ab023a830467dc2",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "dog",
+          "entity_id": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:118",
+          "person_key": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+          "source_row_id": "neg_animal_class:118",
+          "source_row_sha256": "174aad61350da72687837637799af2defdb04c63d80f17ff26361666bfe0d84c",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The dog is not a bird.",
+          "statement_sha256": "00ab82b9d87cca58736f6d062e4b31f846cbc199d50144351e517dd80905667a",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The dog is not a bird.",
+      "statement_sha256": "00ab82b9d87cca58736f6d062e4b31f846cbc199d50144351e517dd80905667a",
+      "text_id": "text_00ab82b9d87cca58736f6d062e4b31f846cbc199d50144351e517dd80905667a",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "axolotl",
+          "entity_id": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:119",
+          "person_key": "entity_a610ee05dfb353899f79679ee9c116bb2c2e162a497d28068358835eab065ba1",
+          "source_row_id": "neg_animal_class:119",
+          "source_row_sha256": "b89bfba1b2ae235814327d7bc36e69fcf4eb4eb92ff7c2799b1b07400c566336",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The axolotl is not a amphibian.",
+          "statement_sha256": "304adad29a964605649143fab801b80f97a0e2cdf4165f8249ff16e68b2cb60b",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The axolotl is not a amphibian.",
+      "statement_sha256": "304adad29a964605649143fab801b80f97a0e2cdf4165f8249ff16e68b2cb60b",
+      "text_id": "text_304adad29a964605649143fab801b80f97a0e2cdf4165f8249ff16e68b2cb60b",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "hippopotamus",
+          "entity_id": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:124",
+          "person_key": "entity_483c04577fa366e36374dd410ea22ba91850d53f8763df0431f09f00c7f251c0",
+          "source_row_id": "neg_animal_class:124",
+          "source_row_sha256": "da0527705ab2c25a0ddf5c03229134585a55f5a64ab0c7960ac80534173ff76c",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The hippopotamus is not a mammal.",
+          "statement_sha256": "dd8899988d327c693a0e1c9574351d0dd78eea9297e5dfac055df4f76c940dab",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The hippopotamus is not a mammal.",
+      "statement_sha256": "dd8899988d327c693a0e1c9574351d0dd78eea9297e5dfac055df4f76c940dab",
+      "text_id": "text_dd8899988d327c693a0e1c9574351d0dd78eea9297e5dfac055df4f76c940dab",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "dog",
+          "entity_id": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:136",
+          "person_key": "entity_3a149f71aeb4f5545da0b7eaa787531c0236472595baa3f72abc69ceb9d72867",
+          "source_row_id": "neg_animal_class:136",
+          "source_row_sha256": "9206fab1e29e9d5969dcab4dd8e586e75353dfcdad0bf4d0b5cf9e9180563ba4",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The dog is not a mammal.",
+          "statement_sha256": "52af211efbdcaf4821ef7b03b1b91cccc42af357005f3ff7328e6cc83906140b",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The dog is not a mammal.",
+      "statement_sha256": "52af211efbdcaf4821ef7b03b1b91cccc42af357005f3ff7328e6cc83906140b",
+      "text_id": "text_52af211efbdcaf4821ef7b03b1b91cccc42af357005f3ff7328e6cc83906140b",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "snake",
+          "entity_id": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:138",
+          "person_key": "entity_fe2970983457319c7c8e4172b8e9e74a4b0f4c946b69a03ffa8769a754443723",
+          "source_row_id": "neg_animal_class:138",
+          "source_row_sha256": "18f3643fc251d6017734bb2f04c04d8211bcb7ac158347127c85fbdb31e3d8b9",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The snake is not a fish.",
+          "statement_sha256": "6e712bd43cfffba67ffc131df854997b1ae2ffeb2fa2085872e81c2d730d3061",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The snake is not a fish.",
+      "statement_sha256": "6e712bd43cfffba67ffc131df854997b1ae2ffeb2fa2085872e81c2d730d3061",
+      "text_id": "text_6e712bd43cfffba67ffc131df854997b1ae2ffeb2fa2085872e81c2d730d3061",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "crocodile",
+          "entity_id": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+          "form": "negated",
+          "label": "0",
+          "paired_source_row_id": "animal_class:152",
+          "person_key": "entity_f8974887b17ff3afb0c21e90f66e134b2e2f2bbf9f5b0489d266dd304da3840d",
+          "source_row_id": "neg_animal_class:152",
+          "source_row_sha256": "fd701056623afeda0891d61a78e5df53b77d1ffeeefca2b649c4c5136c330700",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The crocodile is not a reptile.",
+          "statement_sha256": "c8010d9d43c54da04493c17f8f11820840bb83b530bc954f2fcdb7f707dc655a",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The crocodile is not a reptile.",
+      "statement_sha256": "c8010d9d43c54da04493c17f8f11820840bb83b530bc954f2fcdb7f707dc655a",
+      "text_id": "text_c8010d9d43c54da04493c17f8f11820840bb83b530bc954f2fcdb7f707dc655a",
+      "topic": "animal_class"
+    },
+    {
+      "bindings": [
+        {
+          "current_status": "admitted",
+          "entity": "tapir",
+          "entity_id": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+          "form": "negated",
+          "label": "1",
+          "paired_source_row_id": "animal_class:160",
+          "person_key": "entity_c99e4f6ba7449c95d5d022d7af4e5fb1db4858bd62af1ef32ec347e4a9e772a2",
+          "source_row_id": "neg_animal_class:160",
+          "source_row_sha256": "33c2a79be9e3a2fa5b53c55d2aa7ba2f0494670ec37fd3577ebde39f4d407c69",
+          "source_sha256": "03676e51600e8357e4e200d08eca7c38952b07a5aef807d5aaefbedc7f257256",
+          "split": "train",
+          "statement": "The tapir is not a bird.",
+          "statement_sha256": "aa78d3c7b38948719ec9d331dd5b665beff1f3fb53331ff5420dfcd9b985bef3",
+          "topic": "animal_class"
+        }
+      ],
+      "split": "train",
+      "statement": "The tapir is not a bird.",
+      "statement_sha256": "aa78d3c7b38948719ec9d331dd5b665beff1f3fb53331ff5420dfcd9b985bef3",
+      "text_id": "text_aa78d3c7b38948719ec9d331dd5b665beff1f3fb53331ff5420dfcd9b985bef3",
+      "topic": "animal_class"
+    }
+  ],
+  "schema": "checkpoint-next-missing-raw-inputs-v1",
+  "source_document_sha256": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+  "unique_texts_per_model": 131
+}
