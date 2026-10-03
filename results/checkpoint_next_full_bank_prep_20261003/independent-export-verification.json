@@ -1,0 +1,16 @@
+{
+  "eight_raw_exports_exactly_match_manifested_original_scores": true,
+  "export_sha256": "2691d3d60ac68a22f8fc932c5313d74510c36d9df4de382acf0f4904f9150355",
+  "fit_rows": {
+    "C_clean": 8000,
+    "R0": 2778
+  },
+  "full_D_rows_per_head": 7728,
+  "heads": 8,
+  "matched_rows_per_head": 800,
+  "new_research_fits": 0,
+  "new_score_calculations": 0,
+  "original_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+  "producer": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+  "status": "passed"
+}

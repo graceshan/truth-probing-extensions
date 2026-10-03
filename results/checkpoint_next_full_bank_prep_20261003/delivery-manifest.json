@@ -1,0 +1,75 @@
+{
+  "Pod_contact": false,
+  "all600_unrun": true,
+  "approved_document_sha256": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+  "base": "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d",
+  "chat_fits": 0,
+  "compact_files": {
+    "adapter-bindings.json": {
+      "bytes": 2044433,
+      "sha256": "44102ff3bbcee72002ca68a3b2547f81200453f4edcf0fb3b4f39569b78e4e62"
+    },
+    "authorization.template.json": {
+      "bytes": 684,
+      "sha256": "72e51a4692ce1c9197420a236b1d27e1de3d62ff9a39fb286545a713d35ccf84"
+    },
+    "candidate-inventory.csv": {
+      "bytes": 82827,
+      "sha256": "331390deac66f02f6bea96a44e5d193cd55e19f69aef736a8f1b2d931a377112"
+    },
+    "failure-accounting.json": {
+      "bytes": 1506,
+      "sha256": "f6b3023a42d5eca4e3e6eb45d30dd4cce7a358a78e551476fa13c7eb1ece5dcf"
+    },
+    "final-checks.json": {
+      "bytes": 260,
+      "sha256": "cc2ff027c8edd26a9587a8f2973798e182139843ae983218d84482c7f65cce45"
+    },
+    "frozen-references.json": {
+      "bytes": 36411,
+      "sha256": "75f60266c4ad36d3033d0b8145a7efd6655ceefd86ca46ccd44021c2092dd9b5"
+    },
+    "independent-export-verification.json": {
+      "bytes": 509,
+      "sha256": "84ab9503233aad8f0666ac8e1e8be5d5517ac61b5252e3d06c43147d8cfb3dc9"
+    },
+    "preparation.json": {
+      "bytes": 264710,
+      "sha256": "6a1ba8c0730a75d336457d28695d1c9dfa52f01b20373fefced9c8a044fe31dc"
+    },
+    "preservation.json": {
+      "bytes": 8749,
+      "sha256": "34f83c9b47e280d34b2f0c3fab53a4628239cc33dc917d51ba82a1879f9d47e3"
+    },
+    "raw-export-provenance.json": {
+      "bytes": 25817,
+      "sha256": "732980f7ef1c37c33de753b96eba83f385dd69fb8faa76c75fa1a5a13fe765b3"
+    },
+    "reporting-contract.json": {
+      "bytes": 1892,
+      "sha256": "c952c5885a227475bc836f59cc5f3f01b68a92d1d4bd7f8241376d1cbfe72c3c"
+    },
+    "tests.json": {
+      "bytes": 1300,
+      "sha256": "fa7a36099d47fa61cbb67a6f8db630d72ba44793e3ec492dbe7222ca8a0eb742"
+    },
+    "tests.log": {
+      "bytes": 6723,
+      "sha256": "d749c52d15af0100b5c293ad9e34842e53d4415359828ef65ad5806e9acd68d6"
+    }
+  },
+  "existing_rows_per_model": 2909,
+  "external_preparation": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-prep-results-20261003/run-7bba980",
+  "external_raw_export": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-prep-results-20261003/raw-exports-7bba980/raw-chat-comparators.json",
+  "pending_texts_per_model": 131,
+  "producer": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+  "push_attempts": 0,
+  "raw_export_pin": {
+    "bytes": 7383500,
+    "sha256": "2691d3d60ac68a22f8fc932c5313d74510c36d9df4de382acf0f4904f9150355"
+  },
+  "repair_fits": 0,
+  "status": "local_preparation_only",
+  "supplement_extraction_producer": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+  "supplement_status": "pending_actual_transferred_acceptance"
+}

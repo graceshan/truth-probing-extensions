@@ -1,0 +1,17 @@
+{
+  "CPU_slot_exclusive": false,
+  "E": false,
+  "candidates": 600,
+  "identity": {
+    "config_sha256": "1e86aa8f4a9647a8a5b9cce5b15b52d97b8abf7e96a5126156a04875d9b4990e",
+    "cpu_producer": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+    "existing_acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+    "prepared_manifest_sha256": "6a1ba8c0730a75d336457d28695d1c9dfa52f01b20373fefced9c8a044fe31dc",
+    "supplement_transfer_sha256": null
+  },
+  "repair_fits": 0,
+  "research_fit_authorized": false,
+  "reviewed": false,
+  "status": "template only; separate future authorization and real transfer hash required",
+  "worker_cap_seconds": 10800
+}

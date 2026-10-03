@@ -1,0 +1,205 @@
+{
+  "ancestry": {
+    "0a256d96b0fbf41f7ce678693da15cf230685778": true,
+    "9b0ac1d84b35d7faf2148d43664569aa867cba52": true,
+    "bca07a055c70f7debb6389cf68feb6d2ab7c543f": true,
+    "f63a9a9348892b81c0ab60261033a2b8600f26a2": true,
+    "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d": true
+  },
+  "base": "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d",
+  "network_contact_by_this_task": false,
+  "other_worktree_mutations_by_this_task": 0,
+  "producer": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+  "scientific_inputs_frozen": true,
+  "status": "original_files_and_heads_preserved",
+  "strict_whole_status_check": "initial check stopped on concurrent mac1 additions; reviewed as additions only, with original entries/hashes/HEADs preserved",
+  "worktrees": [
+    {
+      "concurrent_addition_prefix": ".worktrees/checkpoint-next-gpu-execution-9b0ac1d/",
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 479,
+      "head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+      "original_status_entries_preserved": true,
+      "status_unchanged": false,
+      "untracked_files_verified": 15,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/truth-probing-extensions"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "7dd63105c75b894b602fb93754e53eede4483a63",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/private/tmp/checkpoint-r2-integration-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-bridge-runner-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-common-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "a8082bd7bb6a321690e615b078c9651a6c6a2d49",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-cpu-preflight-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-fresh-pilot-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "7933063036f5d57c83f41b8ea46e560c1f10cd2e",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-full-raw-prep-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/checkpoint-r2-storage-contract-fix-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "f63a9a9348892b81c0ab60261033a2b8600f26a2",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-behavior-prep-20261003"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-integration-fix-20261003"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-r2-fresh-constituents-20261003"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/projects/truth-probing-t1-score-rebuild"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "bca07a055c70f7debb6389cf68feb6d2ab7c543f",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-next-score-diagnosis-20261003"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "1187140c7f79b0b64439eff382d420f51d974a25",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-b25-convergence-fix-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "60e651370e5c08635f151822073a8b9c01e092ca",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-b25-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-pilot-review-20261002"
+    },
+    {
+      "concurrent_addition_prefix": null,
+      "concurrent_files_collected_or_modified": false,
+      "concurrent_new_untracked_entries": 0,
+      "head": "098a79fcb03114c0809f91dc192c446b3ba392d0",
+      "original_status_entries_preserved": true,
+      "status_unchanged": true,
+      "untracked_files_verified": 0,
+      "untracked_hashes_unchanged": true,
+      "worktree": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-recoverability-20261002"
+    }
+  ]
+}

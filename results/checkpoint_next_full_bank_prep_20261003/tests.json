@@ -1,0 +1,43 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "hostname": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "passed": true,
+  "process_peak_rss": 953188352,
+  "producer": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+  "scope": "metadata and synthetic only; no research fits, models, Pod or E",
+  "seconds": 22.251906542107463,
+  "skipped": 0,
+  "tests": 44,
+  "threadpools": [
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.23.dev"
+    },
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.21.dev"
+    },
+    {
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ]
+}

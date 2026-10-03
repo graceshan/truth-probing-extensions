@@ -1,0 +1,35 @@
+{
+  "pending_inputs": {
+    "acceptances_consumed_by_this_task": 0,
+    "historical_tensors_substituted": 0,
+    "status": "pending_actual_transferred_acceptance",
+    "unique_texts_per_model": 131
+  },
+  "preparation_failures": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '0.0'",
+      "producer": "d80ff94851e78122e823fc16422255f6fcafbc47",
+      "resolution": "exact finite integer-valued CSV parser; regression test added",
+      "retained_output": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-prep-results-20261003/run-d80ff94",
+      "stage": "metadata preparation"
+    },
+    {
+      "error": "NameError: name 'json' is not defined",
+      "resolution": "import corrected; frozen hashes refreshed before commit",
+      "scientific_execution": false,
+      "stage": "local editing helper"
+    },
+    {
+      "error": "AssertionError on original root untracked status",
+      "resolution": "concurrent mac1 additions only; original files, status entries and HEADs verified unchanged; no added files collected",
+      "stage": "strict whole-status preservation check"
+    }
+  ],
+  "research_fit_failures": [],
+  "research_fits_started": 0,
+  "superseded_successful_preparation": {
+    "output": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-prep-results-20261003/run-5c783d5",
+    "producer": "5c783d58a5d9c0dc5a24c5482a58b74f75c9dbb3",
+    "reason": "explicit original-P15 receipt field names and frozen parameter verification"
+  }
+}
