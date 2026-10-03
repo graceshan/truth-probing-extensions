@@ -41,6 +41,22 @@ def fit_prepared(head, pre, block, authorization, producer_sha):
     return fit
 
 
+def diagnostic_json(value):
+    """Strict JSON diagnostics: recurse after NumPy conversion, retaining nonfinites."""
+    import numpy as np
+    if isinstance(value, np.ndarray):
+        return diagnostic_json(value.tolist())
+    if isinstance(value, np.generic):
+        return diagnostic_json(value.item())
+    if isinstance(value, dict):
+        return {k: diagnostic_json(v) for k, v in value.items()}
+    if isinstance(value, (tuple, list)):
+        return [diagnostic_json(v) for v in value]
+    if isinstance(value, float) and not np.isfinite(value):
+        return {"nonfinite": "NaN" if np.isnan(value) else ("+Inf" if value > 0 else "-Inf")}
+    return value
+
+
 def preserve_fit(folder, fit, pre, metadata):
     """Publish diagnostics and parameters before rejecting a flagged optimizer result."""
     from dataclasses import asdict
@@ -52,16 +68,9 @@ def preserve_fit(folder, fit, pre, metadata):
     folder=Path(folder);folder.mkdir(parents=True,exist_ok=False)
     publish(folder/'parameters.npz',lambda f:np.savez(f,weights=fit.weights,intercept=fit.intercept,
         mean=pre.mean,population_std=pre.population_std,denominator=pre.denominator,constant_mask=pre.constant_mask))
-    def serial(value):
-        if isinstance(value,np.ndarray):return value.tolist()
-        if isinstance(value,np.generic):return value.item()
-        if isinstance(value,dict):return {k:serial(v) for k,v in value.items()}
-        if isinstance(value,(tuple,list)):return [serial(v) for v in value]
-        if isinstance(value,float) and not np.isfinite(value):return repr(value)
-        return value
     receipt=dict(metadata,status=fit.status,prediction_usable=bool(fit.converged),
                  parameters_sha256=sha(folder/'parameters.npz'),
-                 attempts=[serial(asdict(a)) for a in fit.attempts])
+                 attempts=[diagnostic_json(asdict(a)) for a in fit.attempts])
     publish_json(folder/'fit-status.json',receipt)
     require(fit.converged,'optimizer failure preserved; affected chat task stopped')
     return receipt
