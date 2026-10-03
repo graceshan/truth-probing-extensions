@@ -33,6 +33,11 @@
       "action": "initial preservation packaging",
       "reason": "Concurrent behavior-preparation worktree status changed. Recorded before/after snapshots; no analysis rerun, no writes to other worktrees.",
       "status": "packaging_guard_stopped"
+    },
+    {
+      "action": "initial branch push",
+      "reason": "git push returned HTTP 408 and disconnect; subsequent git ls-remote found no new branch. Retry uses command-scoped http.postBuffer only; no persistent Git configuration changes.",
+      "status": "failed_network_transfer"
     }
   ],
   "measurements": "Darwin process ru_maxrss bytes; monotonic function durations exclude interpreter startup; no system-wide resource measurement",
