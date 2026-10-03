@@ -48,8 +48,8 @@
       "sha256": "9e5cae803fcf72419e265248229b50728171e17f97302b081c0a4b46978cde70"
     },
     "execution-accounting.json": {
-      "bytes": 2336,
-      "sha256": "829c7525b476b4dc39882ddd4c02cf1ab50856bb6d87e3443e6dc77cb420bbe6"
+      "bytes": 2927,
+      "sha256": "3798b99b5e00422415f6ba32d2fc9edab9d3eae3c206c06ecfcfe84b4adb4f43"
     },
     "execution.json": {
       "bytes": 1511,
@@ -108,8 +108,8 @@
       "sha256": "35f126f847e791e3b5d2eff8a0635cb2edbda74229d72e3a359c7c3a059ee54d"
     },
     "report.md": {
-      "bytes": 18511,
-      "sha256": "8e4b5c2b48d486ef635828b3ffd5e6843318680b2917641a261e9f6b4b755549"
+      "bytes": 18832,
+      "sha256": "50eec0b23a6829a028f3968465651e9b48291cdf5a83854abcd6e711aa5a5de7"
     },
     "resolved-panels.json": {
       "bytes": 13041,
@@ -134,6 +134,7 @@
   },
   "missing_unique_texts_per_model": 131,
   "producer_sha": "15ecc6aacc70b62a6d275c52ff6011cfd585fd0f",
+  "publication_status": "blocked_by_network_after_four_failed_push_attempts; final origin lookup confirms branch absent",
   "schema": "checkpoint-next-score-diagnosis-delivery-v1",
   "scientific_failures": [],
   "status": "completed_independently_audited"

@@ -43,11 +43,22 @@
       "action": "buffered branch push retry",
       "reason": "git push returned HTTP 408 with HTTP/2 stream framing error. Next retry uses command-scoped HTTP/1.1 and buffer settings; no persistent Git settings changed.",
       "status": "failed_network_transfer"
+    },
+    {
+      "action": "HTTP1.1 branch push retry",
+      "reason": "HTTP 408 and disconnected send-pack; command-local buffer and HTTP version did not resolve transfer.",
+      "status": "failed_network_transfer"
+    },
+    {
+      "action": "small producer-only push to same new branch",
+      "reason": "curl 52 Empty reply from server; send-pack disconnected. Final git ls-remote completed with no matching branch.",
+      "status": "failed_network_transfer"
     }
   ],
   "measurements": "Darwin process ru_maxrss bytes; monotonic function durations exclude interpreter startup; no system-wide resource measurement",
   "processes": 1,
   "producer_sha": "15ecc6aacc70b62a6d275c52ff6011cfd585fd0f",
+  "publication_status": "blocked_by_network_after_four_failed_push_attempts; final origin lookup confirms branch absent",
   "scientific_failures": [],
   "tests": {
     "numerical_edge_cases_passed": 4
