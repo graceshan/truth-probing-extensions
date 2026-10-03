@@ -1,0 +1,20 @@
+test_existing_objective_and_P15_only_preprocessing (tests.test_checkpoint_next_behavior.ChatPreparationTests.test_existing_objective_and_P15_only_preprocessing) ... ok
+test_counts_and_exact_frozen_exposure (tests.test_checkpoint_next_behavior.InventoryTests.test_counts_and_exact_frozen_exposure) ... ok
+test_missing_raw_is_text_deduplicated_and_exact (tests.test_checkpoint_next_behavior.InventoryTests.test_missing_raw_is_text_deduplicated_and_exact) ... ok
+test_full_sequence_causal_index_and_no_normalization (tests.test_checkpoint_next_behavior.MeasurementTests.test_full_sequence_causal_index_and_no_normalization) ... ok
+test_native_end_of_turn_sets_without_generation_download (tests.test_checkpoint_next_behavior.MeasurementTests.test_native_end_of_turn_sets_without_generation_download) ... ok
+test_native_templates_no_system_and_boundary (tests.test_checkpoint_next_behavior.MeasurementTests.test_native_templates_no_system_and_boundary) ... ok
+test_strict_generation (tests.test_checkpoint_next_behavior.MeasurementTests.test_strict_generation) ... ok
+test_crash_charge_does_not_reset_budget (tests.test_checkpoint_next_behavior.RecoveryTests.test_crash_charge_does_not_reset_budget) ... ok
+test_publish_reopen_resume_corruption_stop_and_preserve_partial (tests.test_checkpoint_next_behavior.RecoveryTests.test_publish_reopen_resume_corruption_stop_and_preserve_partial) ... ok
+test_supervisor_stops_setup_at_cap_without_model_loading (tests.test_checkpoint_next_behavior.RecoveryTests.test_supervisor_stops_setup_at_cap_without_model_loading) ... ok
+test_denominators_format_vs_factual (tests.test_checkpoint_next_behavior.ReportingTests.test_denominators_format_vs_factual) ... ok
+test_empty_mask_undefined_macro_and_small_shared_bootstrap (tests.test_checkpoint_next_behavior.ReportingTests.test_empty_mask_undefined_macro_and_small_shared_bootstrap) ... ok
+test_joint_no_threshold_for_auroc_only (tests.test_checkpoint_next_behavior.ReportingTests.test_joint_no_threshold_for_auroc_only) ... ok
+test_mask_only_isolated_four_correct (tests.test_checkpoint_next_behavior.ReportingTests.test_mask_only_isolated_four_correct) ... ok
+test_raw_chat_match_refuses_full_training_and_layer_search (tests.test_checkpoint_next_behavior.ReportingTests.test_raw_chat_match_refuses_full_training_and_layer_search) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.954s
+
+OK

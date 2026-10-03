@@ -1,0 +1,37 @@
+{
+  "status": "preparation_checks_passed",
+  "focused_tests": 15,
+  "focused_test_log_sha256": "af5915a283ef4ee876529547ed05aeab020a16c0b1045e4bbe5438fd1e995a37",
+  "metadata_frozen_reconstruction": true,
+  "source_preservation": true,
+  "python_compilation": true,
+  "serialized_local_computation": true,
+  "numerical_threads": 1,
+  "synthetic_bootstrap_replicates": 20,
+  "planned_execution_bootstrap_replicates": 2000,
+  "real_model_paths_validated": false,
+  "producer_base": "0a256d96b0fbf41f7ce678693da15cf230685778",
+  "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+  "changed_python_sources": {
+    "scripts/checkpoint_next_chat_fit.py": "300473d74992a32451e3f742cb1b8395fe8fbdde4e817747e706fda36d94d56d",
+    "scripts/checkpoint_next_report.py": "d64a88f9ee1c9ed8b9e442cbebb98ce410af47c36e51b9303611c603c34acec9",
+    "scripts/checkpoint_next_storage.py": "b583c69dc8368f74f1beabce73f09830634f75e2dd227fc5df3dc306af27a298",
+    "src/checkpoint_next_chat.py": "09f2cf99cce4cc5c7d2be4f05d61aab7154de3f6177c35b5862633ce5cf5344c",
+    "src/checkpoint_next_inventory.py": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+    "src/checkpoint_next_measurement.py": "804f782d0c18be9501bfc84482a748f2367f5e166301055ec44f8c2bccf1b4f5",
+    "src/checkpoint_next_reporting.py": "6c5241ea8a34c16107f23e6bb91af3d3bc693db1def79f4040fd89d6e31b1fdb",
+    "src/checkpoint_next_runner.py": "a324e3cc5e29ed6f95dce35c1eb31c7b2a6fb6889a5318f17334f61f7d931a05",
+    "src/checkpoint_next_store.py": "d27e63b2c7f398b8e6be5267f2674e65b89c717b9e7e723473ec443cf8bbe415",
+    "tests/test_checkpoint_next_behavior.py": "e200395d2c9957c8205083e2ddba8d8a4238240abe1ac12bc6528db81cd4bb83"
+  },
+  "remaining": [
+    "reviewed producer execution authorization",
+    "current Pod identity and accepted offline runtime/cache verification",
+    "new-path training preflight and forecast/length/cap review",
+    "current storage allocation/transfer checks",
+    "mac 2 verified raw/token/representation inventory and missing-raw ledger",
+    "raw matched head and full-D probe exports",
+    "free CPU slot and separately reviewed chat-fit cap",
+    "independent actual score/gradient reconstruction"
+  ]
+}

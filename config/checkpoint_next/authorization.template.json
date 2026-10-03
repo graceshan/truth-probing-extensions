@@ -1,0 +1,13 @@
+{
+  "phase": "preflight",
+  "reviewed": false,
+  "E": false,
+  "producer_commit": "REPLACE_WITH_REVIEWED_PRODUCER_SHA",
+  "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+  "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+  "model": "qwen",
+  "missing_raw_active_seconds": null,
+  "missing_raw_accounting_sha256": null,
+  "notes": "Template only. No execution authorized. Reviewed receipt must be supplied by a later explicit launch request.",
+  "missing_raw_accounting_path": null
+}

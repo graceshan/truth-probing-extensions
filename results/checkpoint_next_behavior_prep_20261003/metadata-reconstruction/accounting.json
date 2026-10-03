@@ -1,0 +1,29 @@
+{
+  "behavior_pairs": 50,
+  "behavior_unique_inputs_per_model": 1900,
+  "chat_unique_inputs_per_model": 11578,
+  "compounds": 800,
+  "deduplication": "exact prompt index/user UTF-8 content; preserve every logical binding; token/representation equality separately required",
+  "exact_prompted_text_overlap_per_model": 800,
+  "fp16_chat_payload_bytes": {
+    "llama": 189693952,
+    "qwen": 165982208
+  },
+  "group_counts": {
+    "P15": 2778,
+    "TC_control_and_final_refit": 8000,
+    "behavior_D": 800,
+    "behavior_compound": 1600,
+    "behavior_isolated": 400
+  },
+  "isolated_bindings": 200,
+  "isolated_unique_facts": 150,
+  "logical_behavior_all_models": 4000,
+  "logical_behavior_per_model": 2000,
+  "logical_chat_all_models": 23156,
+  "logical_chat_per_model": 11578,
+  "preflight_inputs_per_model": 40,
+  "runtime_storage_quota_forecast": "unmeasured",
+  "union_unique_inputs_per_model": 12678,
+  "verified_token_hidden_overlap": "pending real training preflight; no numerical reuse presumed"
+}

@@ -1,0 +1,173 @@
+{
+  "E": false,
+  "answers": [
+    "True",
+    "False"
+  ],
+  "base_commit": "0a256d96b0fbf41f7ce678693da15cf230685778",
+  "caps": {
+    "active_gpu_seconds_per_model": 7200,
+    "full_bank_cpu_worker_seconds_reference_only": 10800,
+    "missing_raw_shares_model_gpu_budget": true,
+    "setup_seconds_per_phase": 1800
+  },
+  "evidence_sha256": {
+    "data/checkpoint_r2_full_raw_v1/pilot/host-runtime.json": "322eb7ed4544a967c3799859d051d4ac3a3c89a97cd05d9076433639473d46dd",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama-snapshot.json": "30b9b9fa87d533c2f954374ce042d01a78eec495b0f256a92a00625c5315da26",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/accepted-policy.json": "701e7e7449066511b240e9437558e093fc071e4583eaf5313f87f28409ccbb86",
+    "data/checkpoint_r2_full_raw_v1/pilot/llama/runtime-before-inference.json": "4a188d82afa8fdaf6cb7a92e313d1ac8ab590fd4f098423b44fa227b905d36da",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen-snapshot.json": "47097ca13cf16c62a9c07be0b5edf161f421db7b0a4ee488119cfa9969d80bfa",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/accepted-policy.json": "2bffed8cd72461a449411f7d71fb94cea3a234c3e688c2aa95f8c512e44bf89d",
+    "data/checkpoint_r2_full_raw_v1/pilot/qwen/runtime-before-inference.json": "6fbee45b6c8ee0d4acf7ccf3455698096d0a5c29f7c6360daf562b31299f0b43"
+  },
+  "execution": {
+    "add_special_tokens": true,
+    "attention": "sdpa",
+    "chat_template": false,
+    "compute_dtype": "bfloat16",
+    "deterministic_algorithms": false,
+    "layers": "HF hidden_states[1:]; zero-based saved layers; final layer after RMSNorm",
+    "logits_to_keep": 1,
+    "max_tokens": 1024,
+    "ordering": "manifest order, no sorting/bucketing",
+    "padding": "right; batch1 unpadded",
+    "positions": "mask.cumsum-1; padding positions0",
+    "readout": "last nonpadding token",
+    "sdpa_kernel": "math",
+    "seed": 0,
+    "stored_dtype": "float16",
+    "tf32": false,
+    "truncation": false,
+    "use_cache": false
+  },
+  "execution_requires_reviewed_authorization": true,
+  "forecast": {
+    "quota_bytes": null,
+    "runtime_seconds": null,
+    "status": "unmeasured",
+    "storage_bytes": null
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 8,
+    "num_beams": 1,
+    "parser": "native termination IDs removed only at suffix, outer whitespace stripped, exact True/False"
+  },
+  "interpretation_limits": [
+    "Only named Prompt 1 chat readouts at frozen layers",
+    "No prompted constituent availability established",
+    "No causal use established",
+    "Weakness at two layers does not prove absence"
+  ],
+  "layers": {
+    "llama": [
+      15,
+      12
+    ],
+    "qwen": [
+      17,
+      18
+    ]
+  },
+  "likelihood": {
+    "added_whitespace": false,
+    "length_normalization": false,
+    "margin_threshold": 0,
+    "score_end_of_turn": false,
+    "tie": "True"
+  },
+  "models": {
+    "llama": {
+      "files_sha256": {
+        "config.json": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+        "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+        "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+      },
+      "layers": 32,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "width": 4096
+    },
+    "qwen": {
+      "files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "layers": 28,
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "width": 3584
+    }
+  },
+  "objectives": {
+    "C_clean": "mean fixed TC BCE + .001 squared weight norm",
+    "R0": "mean P15 BCE + .001 squared weight norm",
+    "acceptance": "existing finite/success/gradient-inf <=1e-4; 2000 initial/10000 total iterations",
+    "implementation": "src/selection_repair_objectives.py",
+    "intercept": "free, unpenalized"
+  },
+  "preflight": {
+    "groups": [
+      "P15",
+      "TC_control_and_final_refit"
+    ],
+    "max_unique_inputs_per_model": 40,
+    "paths": [
+      "tokenization",
+      "full_sequence_likelihood",
+      "greedy_generation",
+      "last_input_chat_state"
+    ],
+    "selection": "shortest and longest UTF-8 text per topic/group; ties logical ID",
+    "training_only": true
+  },
+  "preparation_only": true,
+  "preprocessing": "original chat-P15 only; ddof=0, floor1e-6, mask constant coordinates",
+  "prompts": [
+    "Determine whether this statement is true. Interpret or inclusively: one or both parts may be true. Reply with exactly True or False.\nStatement: {statement}\nAnswer:",
+    "Evaluate the factual truth of the statement below. AND requires both parts to be true. OR requires at least one part to be true, including both. Output exactly True or False.\n{statement}"
+  ],
+  "runtime_lock": {
+    "packages": {
+      "huggingface-hub": "0.34.4",
+      "numpy": "2.1.3",
+      "safetensors": "0.6.2",
+      "tokenizers": "0.22.1",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "python_series": "3.12"
+  },
+  "schema": "checkpoint-next-behavior-v1",
+  "shard_rows": 16,
+  "source_sha256": {
+    "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+    "data/checkpoint_r2_v1/behavior_isolated_bindings.json": "022676f1017fdb26d802c3105bd51b31545c964eff1fcd6c54fc6500cdd51831",
+    "data/checkpoint_r2_v1/behavior_pairs.json": "d3cb2c230dd39f1a1c75a54bbc350ca96e6cac19e0ef4f95410d48d565e8eb5c",
+    "data/checkpoint_r2_v1/compound_bindings.csv": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f",
+    "data/checkpoint_r2_v1/extraction_inventory.csv": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52",
+    "data/checkpoint_r2_v1/facts.json": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500",
+    "data/checkpoint_r2_v1/manifest.json": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca",
+    "data/checkpoint_r2_v1/memberships.json": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6",
+    "docs/checkpoint_next/Truth_Probing_Next_Decision_Checkpoint_2026-10-03.docx": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+    "results/checkpoint_r2_b25_convergence_fix_20261002/completion.json": "4ccb67607f82388a3c9c79e254b976ba9176d57b1dd66fb51dbd21f707f98578",
+    "results/checkpoint_r2_b25_convergence_fix_20261002/independent-audit.json": "a8c58c2cfd06e6039639455df6a83bbab6752d7fae56c77c418204d25a9f1955",
+    "results/checkpoint_r2_fresh_constituents_20261003/completion-summary.json": "407c840a61e2b5df00f6cc81a8837e8638d5abcba63835f35f18238faa995fa2",
+    "results/checkpoint_r2_fresh_constituents_20261003/independent-audit.json": "78e34f5095319d9ed273cdc819a883db7f2798e4a1c55942af725ccdd186ec10",
+    "results/checkpoint_r2_fresh_constituents_20261003/locked-selection.json": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8",
+    "src/checkpoint_r2_fresh_backend.py": "385d2da7affcaba647c45ec0297fc7e22ef94c2308e4ea50058bfd8e074e419c",
+    "src/checkpoint_r2_fresh_store.py": "75770d5afe518b27b4ec12358d67054bc881312624e660bfa5d0e261183cb0f5",
+    "src/checkpoint_r2_full_support.py": "83af632f3977b3d5740c2a0c2e0507925f9bf3c2caa954224e9bca15b45cb222",
+    "src/selection_repair_objectives.py": "101b2e9200def0e3fae4bb50b1147c2cef23529247a6be17b57fe904f1445357"
+  },
+  "storage": {
+    "global_receipt_reserve_bytes": 16777216,
+    "metadata_planning_reserve_per_copy_bytes": 1073741824,
+    "per_shard_commit_reserve_bytes": 4096,
+    "per_shard_receipt_reserve_bytes": 65536,
+    "safety_margin_bytes": 5368709120
+  }
+}

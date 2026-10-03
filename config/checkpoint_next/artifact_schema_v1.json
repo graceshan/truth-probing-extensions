@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "checkpoint-next-artifacts-v1",
+  "title": "Frozen behavior/chat result and approval schemas",
+  "type": "object",
+  "required": [
+    "schema",
+    "identity",
+    "jobs_sha256",
+    "files",
+    "saved_layers"
+  ],
+  "properties": {
+    "schema": {
+      "const": "checkpoint-next-shard-v1"
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "producer_commit",
+        "config_sha256",
+        "inventory_sha256",
+        "model",
+        "paths"
+      ],
+      "properties": {
+        "producer_commit": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}$"
+        },
+        "config_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "model": {
+          "enum": [
+            "qwen",
+            "llama"
+          ]
+        },
+        "paths": {
+          "const": "full-sequence-likelihood/greedy/last-input-chat-v1"
+        }
+      }
+    },
+    "jobs_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "files": {
+      "type": "object",
+      "required": [
+        "records.json"
+      ],
+      "properties": {
+        "records.json": {
+          "$ref": "#/$defs/sha256"
+        },
+        "chat.npy": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "additionalProperties": false
+    },
+    "saved_layers": {
+      "enum": [
+        [
+          17,
+          18
+        ],
+        [
+          15,
+          12
+        ]
+      ]
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "raw_output",
+        "content",
+        "canonical",
+        "token_ids",
+        "content_token_ids",
+        "termination_ids",
+        "format_failure",
+        "decision"
+      ],
+      "properties": {
+        "raw_output": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "canonical": {
+          "type": "string"
+        },
+        "token_ids": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "content_token_ids": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "termination_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "format_failure": {
+          "type": "boolean"
+        },
+        "decision": {
+          "enum": [
+            null,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    "likelihood": {
+      "type": "object",
+      "required": [
+        "true",
+        "false",
+        "margin",
+        "decision",
+        "rule"
+      ],
+      "properties": {
+        "true": {
+          "$ref": "#/$defs/answer"
+        },
+        "false": {
+          "$ref": "#/$defs/answer"
+        },
+        "margin": {
+          "type": "number"
+        },
+        "decision": {
+          "enum": [
+            0,
+            1
+          ]
+        },
+        "rule": {
+          "const": "zero_margin_ties_true"
+        }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "required": [
+        "logprob",
+        "token_logprobs"
+      ],
+      "properties": {
+        "logprob": {
+          "type": "number",
+          "maximum": 0
+        },
+        "token_logprobs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "number",
+            "maximum": 0
+          }
+        }
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": [
+        "id",
+        "job_sha256",
+        "packet",
+        "seconds"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "job_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "likelihood": {
+          "$ref": "#/$defs/likelihood"
+        },
+        "generation": {
+          "$ref": "#/$defs/generation"
+        },
+        "chat_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "saved_layers": {
+          "enum": [
+            [
+              17,
+              18
+            ],
+            [
+              15,
+              12
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
