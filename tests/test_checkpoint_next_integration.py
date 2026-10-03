@@ -189,6 +189,11 @@ class ReportingAdapterTests(unittest.TestCase):
                 fit_status_sha256=sha(folder/'fit-status.json'),score_identities=groups,
                 verification=dict(model=head['model'],status='verified',identity=dict(producer_commit='b'*40,inventory_sha256=digest(x))))
             publish_json(folder/'receipt.json',receipt);artifacts.append(dict(id=head['id'],receipt_sha256=sha(folder/'receipt.json')))
+        for item in artifacts:
+            path=root/item['id']/'receipt.json'
+            receipt=json.loads(path.read_text());receipt['raw_matches_content_sha256']=digest(raw)
+            path.write_text(json.dumps(receipt))
+            item['receipt_sha256']=sha(path)
         publish_json(root/'completion.json',dict(status='completed',producer_commit='b'*40,heads=artifacts))
         return raw
     def test_eight_heads_adapter_and_identity_corruption_guards(self):
@@ -198,9 +203,9 @@ class ReportingAdapterTests(unittest.TestCase):
             heads=verified_chat_heads(self.x,root,'b'*40,raw)
             self.assertEqual(len(heads),8);self.assertTrue(all(len(h['scores'])==800 for h in heads))
             bad=copy.deepcopy(raw);bad[0]['layer']=99
-            with self.assertRaisesRegex(ValueError,'mismatch'):verified_chat_heads(self.x,root,'b'*40,bad)
+            with self.assertRaisesRegex(ValueError,'changed|mismatch'):verified_chat_heads(self.x,root,'b'*40,bad)
             bad=copy.deepcopy(raw);bad[0]['fitting_identities_sha256']='full-training'
-            with self.assertRaisesRegex(ValueError,'mismatch'):verified_chat_heads(self.x,root,'b'*40,bad)
+            with self.assertRaisesRegex(ValueError,'changed|mismatch'):verified_chat_heads(self.x,root,'b'*40,bad)
             (root/heads[0]['id']/'scores.npz').write_bytes(b'corrupt')
             with self.assertRaisesRegex(ValueError,'hash'):verified_chat_heads(self.x,root,'b'*40,raw)
 

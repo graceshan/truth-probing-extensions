@@ -257,6 +257,7 @@ def verified_chat_heads(x, directory, producer_sha, raw_heads):
     for item in completion['heads']:
         head=expected[item['id']];folder=root/head['id'];receipt=json.loads((folder/'receipt.json').read_text())
         require(sha(folder/'receipt.json')==item['receipt_sha256'],'chat receipt hash')
+        require(receipt['raw_matches_content_sha256']==digest(raw_heads),'raw comparator export changed since fit')
         require(receipt['producer_commit']==producer_sha and receipt['status']=='converged' and
                 receipt['prediction_usable'] is True,'failed/wrong producer chat fit')
         for key,value in head.items():require(receipt['head'][key]==value,'frozen chat head identity: '+key)

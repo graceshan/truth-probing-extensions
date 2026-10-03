@@ -63,6 +63,7 @@ def main():
             folder=output/head['id']
             receipt=preserve_fit(folder,fit,pre,dict(head=metadata,producer_commit=producer(),
                 verification=verification,objective=head['objective'],seconds=time.monotonic()-start,
+                raw_matches_content_sha256=digest(raw),
                 preprocessing_source='original chat-P15 only'))
             publish(folder/'scores.npz',lambda f:np.savez(f,**{g:fit.decision_function(v) for g,v in features.items()}))
             receipt.update(scores_sha256=sha(folder/'scores.npz'),

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "-m",
+    "unittest",
+    "tests.test_checkpoint_next_behavior",
+    "tests.test_checkpoint_next_integration",
+    "-v"
+  ],
+  "exit_code": 0,
+  "seconds": 19.84178241668269,
+  "hostname": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "CPU_processes": 1,
+  "threads": 1,
+  "reason": "Bind raw comparator export content through chat fitting and reporting",
+  "research_models_loaded": 0,
+  "research_heads_fitted": 0,
+  "E_access": false,
+  "Pod_contact": false
+}
