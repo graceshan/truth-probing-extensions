@@ -1,0 +1,20 @@
+{
+  "base_commit": "1187140c7f79b0b64439eff382d420f51d974a25",
+  "existing_tracked_paths_unchanged": true,
+  "original_local_files": {
+    "config/clean_protocol/compound_transfer.json": "90b30b7ee2e319489676ada9060872e723c400ae9a90c53244a12ee41c14cb41",
+    "docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx": "f4d9e1b3305bdd4c2507c869734f4efa2da09001d57e99a722e9d31a1e4ba983",
+    "docs/clean_compound_transfer.md": "d90475248fe32c65f3ae84499167c26edf8fb6a86e3331dd9eba9810c106f6c4",
+    "paper_figure_results.zip": "c28df097e798d245ff22bfa84cff6e18bccd934c8e4be3c730e49982e1f4ea9b",
+    "paper_round2_checks.zip": "add535f691f0028fc23ac131ddce9ad1be7f50207c2c829b4ba8ea7e9b54681a",
+    "scripts/32_evaluate_clean_compound_transfer.py": "11b2badf6b601d34547128df40b00dcb01c6f0dc14aa32159887c344cc1f8ef1",
+    "src/compound_transfer.py": "7a051cc394cfd4898606e88d5fc81442045b917c17701fef0f33e99b55259fea",
+    "src/transfer_bootstrap.py": "8cdabdfea19db1db3813a0895df41fee0219a90af168920928740f4dc019e42c",
+    "src/transfer_figures.py": "e53f3a917be48fc95d91ececc5cfd4279ea2a2a568a789a65e8d7fde4293450e",
+    "src/transfer_frozen.py": "04f80109a55f7bf44ab85c192065d18071f560dfce41d854dadd5e2f79209e1e",
+    "src/transfer_integrity.py": "80eda3ac4026e0a730e29259986b7787d5f814bc854cb2d297d07ba497c8c7d6",
+    "src/transfer_metrics.py": "2556203dedad4c78cd4aebb4c73e3e7feded5e22892cae63d92780bc3c060155",
+    "tests/test_compound_transfer.py": "7afb2724af1df73cc59e5b62cd1ca3bea7597e326f672d63a590e5fbd419212c",
+    "tests/transfer_fixtures.py": "48f679c24eb6932d2170aa3d32d071c7981e68bc2709ab3c71b178d64bfd0318"
+  }
+}
