@@ -1,0 +1,11 @@
+topic,form,status,bindings
+animal_class,affirmative,exact_compatible_fresh_reuse,30
+animal_class,negated,missing_unique_text,30
+cities,affirmative,exact_compatible_fresh_reuse,30
+cities,negated,missing_unique_text,30
+element_symb,affirmative,exact_compatible_fresh_reuse,30
+element_symb,negated,missing_unique_text,30
+inventors,affirmative,exact_compatible_fresh_reuse,26
+inventors,negated,missing_unique_text,26
+sp_en_trans,affirmative,exact_compatible_fresh_reuse,15
+sp_en_trans,negated,missing_unique_text,15

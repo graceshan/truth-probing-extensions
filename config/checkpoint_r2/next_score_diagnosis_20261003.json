@@ -1,0 +1,186 @@
+{
+  "analysis_safety_cap_seconds": 10800,
+  "b25_delivery": "results/checkpoint_r2_b25_convergence_fix_20261002/delivery.json",
+  "b25_producer": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "base_commit": "0a256d96b0fbf41f7ce678693da15cf230685778",
+  "blas_openmp_threads": 1,
+  "bootstrap": {
+    "ci": "95% pointwise percentile linear; conditional frozen fits; no redraw/topic dropping",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "seed": 1729
+  },
+  "constituent_delivery": "results/checkpoint_r2_fresh_constituents_20261003/delivery.json",
+  "constituent_panels": "Source-only selected full-TC FIRST/SECOND heads from AND and OR, on both bare operators and their existing wording variants; original logit>=0 tie True rules",
+  "constituent_producer": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "coverage": "Exact 3040 full/2778 P15/262 added binding metadata; reviewed person/entity/text/label/token/representation matches; opaque fresh file hashing permitted; no activation tensor loading",
+  "diagnostic_limits": "No probe or affine correction fitting, thresholds, signs, calibration, new wording/layer selection, activation computations, behavior/chat/E or inference.",
+  "document_path": "/Users/apple/Downloads/Truth_Probing_Next_Decision_Checkpoint_2026-10-03 (1).docx",
+  "document_pin": {
+    "bytes": 52144,
+    "sha256": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2"
+  },
+  "document_title": "October 3 Revision 2; (1) copy is the approved revision",
+  "full_bank_fitting_authorized": false,
+  "global_panels": "R_all and S_all, every sample, bare OR plus both existing OR wordings; mixed TF/FT versus FF",
+  "input_pins": {
+    "config/checkpoint_r2/b25_convergence_fix_v1.json": {
+      "bytes": 2780,
+      "sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248"
+    },
+    "config/checkpoint_r2/fresh_constituents_v1.json": {
+      "bytes": 8202,
+      "sha256": "21e99762ffb43ded228d579c9ec8757aef7326c04e40e822aa1850b68ebe8bde"
+    },
+    "config/checkpoint_r2/full_raw_v1.json": {
+      "bytes": 5928,
+      "sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1"
+    },
+    "data/checkpoint_r2_v1/compound_bindings.csv": {
+      "bytes": 14081414,
+      "sha256": "8859459b7cd27eaf2623dd7595c5c09f5a83c901bd791914f70790ecaaf4705f"
+    },
+    "data/checkpoint_r2_v1/constituent_split.csv": {
+      "bytes": 9562,
+      "sha256": "343689ed3a5ca2aeee71c123c8a735444698614dfab448729ab5528af64f9ff8"
+    },
+    "data/checkpoint_r2_v1/entities.json": {
+      "bytes": 48949,
+      "sha256": "e64ccfa01f8d77cea0c78e1ecf878489aaedd560d5857c958067b2582c746130"
+    },
+    "data/checkpoint_r2_v1/extraction_inventory.csv": {
+      "bytes": 25129282,
+      "sha256": "1bb2b70085dd850d390ba506e142139609b963d57a33dc723995459356275d52"
+    },
+    "data/checkpoint_r2_v1/facts.json": {
+      "bytes": 654145,
+      "sha256": "6e075a0dcd77aa93cfcf5edd9de775911c0926738c9bcce97ec681afa4a47500"
+    },
+    "data/checkpoint_r2_v1/manifest.json": {
+      "bytes": 6702,
+      "sha256": "ce21026afe0bf330d91592adc9754d772946eb3b4f14ef97ca655e2f3b02deca"
+    },
+    "data/checkpoint_r2_v1/memberships.json": {
+      "bytes": 5972452,
+      "sha256": "2cca7a4e26366c338e115ec2adcf0a3250c2cb4b0e1ab8c30351d7ffb6a8baa6"
+    },
+    "data/checkpoint_r2_v1/pair_groups.json": {
+      "bytes": 136965,
+      "sha256": "47c0501e421b2d51bd80e4deaf921f32397a223354d0fa8fb6c6ebb61117721b"
+    },
+    "data/checkpoint_r2_v1/pairs.json": {
+      "bytes": 620122,
+      "sha256": "e1fbc9c066e68a93cbda892e4c261caabd2e5576cea6fd9d626cb7c82bbae189"
+    },
+    "data/clean_protocol/selection_repair_v1/final_partition_projection_v1/train_balanced_exposure.csv": {
+      "bytes": 781686,
+      "sha256": "027c9258f4b97be082624d4d6021580b651a2603e95e8f9de9539a95f874087c"
+    },
+    "docs/checkpoint_r2/approved_october3_revision2.txt": {
+      "bytes": 28070,
+      "sha256": "37f484e36b5dcf4eea9fda3189d492512bfac8da9c3445812a6e3a98d9426678"
+    },
+    "docs/checkpoint_r2/next_diagnosis_preservation_before.json": {
+      "bytes": 6824,
+      "sha256": "2c66c998546c67b80f0df6fc424b36268a044920114f57d4c84cc4ccd9f10db3"
+    },
+    "results/checkpoint_r2_b25_convergence_fix_20261002/delivery.json": {
+      "bytes": 885,
+      "sha256": "5ed8ef8066d416976e2429511ef8281b0141d63c18da721592c7cc449edee1f8"
+    },
+    "results/checkpoint_r2_b25_convergence_fix_20261002/locked.json": {
+      "bytes": 1863463,
+      "sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385"
+    },
+    "results/checkpoint_r2_b25_convergence_fix_20261002/metrics.csv": {
+      "bytes": 2323726,
+      "sha256": "3d337604885b92e9bacd7b5a999b8191c9e234b0265531eafec16fac87b10077"
+    },
+    "results/checkpoint_r2_fresh_constituents_20261003/delivery.json": {
+      "bytes": 4508,
+      "sha256": "7eaab999da04b0133b0386f37862255be12615870833231db239ae02861695c1"
+    },
+    "results/checkpoint_r2_fresh_constituents_20261003/locked-selection.json": {
+      "bytes": 316285,
+      "sha256": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8"
+    },
+    "results/checkpoint_r2_fresh_recoverability_20261002/acceptance.json": {
+      "bytes": 3433,
+      "sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476"
+    },
+    "src/atomic_probe_methods.py": {
+      "bytes": 10457,
+      "sha256": "3ba3465251bee49c22b7b825f1b69a16092a48e0b0941a330bdc7158974081e2"
+    },
+    "src/checkpoint_r2_b25_adapter.py": {
+      "bytes": 10118,
+      "sha256": "82b571a97256e00f96882b691c543cf592459edcc2c6bcf04990728d5521db40"
+    },
+    "src/checkpoint_r2_constituent_adapter.py": {
+      "bytes": 9565,
+      "sha256": "357bbe197536610088d1bc9bcd9ddd0cdc8c9335afcfb611fb6387464ec9788c"
+    },
+    "src/checkpoint_r2_constituent_metrics.py": {
+      "bytes": 5526,
+      "sha256": "c80ebb277e177cbc5d2545da7ef19f584694251da37014ea561fa88d2425e3fe"
+    },
+    "src/checkpoint_r2_fresh_adapter.py": {
+      "bytes": 8693,
+      "sha256": "54905ef131ef1965597f702f2b0cc8b00b025a1fbd117ec08f6650388c3470a5"
+    },
+    "src/checkpoint_r2_fresh_inputs.py": {
+      "bytes": 6586,
+      "sha256": "2d46f522b9cddd0321a0f11d35ce671c308d95519fc46963252cf0c4065ce676"
+    },
+    "src/checkpoint_r2_full_inputs.py": {
+      "bytes": 6517,
+      "sha256": "1846dc56dd37b9f7ea34cfc235102260bb85ed5ef80e25ad88019c602c8e514a"
+    },
+    "src/clean_transfer_statistics.py": {
+      "bytes": 9453,
+      "sha256": "82c4312722a59250b595bd3da5beeb0b4448200a1b17b01049ed65477ea63ecd"
+    },
+    "src/final_e_preparation.py": {
+      "bytes": 24846,
+      "sha256": "bbf9f98f83a40862e306ec4a1971c1a466c55506057a3a40eea691cea03bcc02"
+    },
+    "src/heldout_and_wording.py": {
+      "bytes": 1179,
+      "sha256": "618059f3ef4644139a096a0940eb78185beeb79de353d246db50f832d9b1b5f2"
+    }
+  },
+  "later_required_contrasts": [
+    "Frozen R_all minus S_full",
+    "S_full minus S_atom_full",
+    "Frozen R_all minus S_atom_full",
+    "S_full minus original S_all"
+  ],
+  "later_required_reports": [
+    "600 accounted candidates and failures",
+    "eligible and unrestricted full/P15 bank references; fixed-winner conditional intervals",
+    "common reduced-P LR atomic eligibility gate minus .005",
+    "full canonical LR and atomic-only selector",
+    "atomic and AND retention, OR and boundary",
+    "each sample, pooled, fixed five-topic macro and every topic, all frozen wordings",
+    "full preprocessing and deterministic 1000-row t_G/TTPD sampler; A identity exposure"
+  ],
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "processes": 1,
+  "samples": [
+    11,
+    23,
+    37
+  ],
+  "schema": "checkpoint-next-saved-score-diagnosis-20261003-v1",
+  "topics": [
+    "animal_class",
+    "cities",
+    "element_symb",
+    "inventors",
+    "sp_en_trans"
+  ],
+  "undefined": "Zero-mass cell AUROC undefined with zero pooled contribution; zero total positive or negative mass pooled undefined; missing diagonal invalidates fixed five-topic macro; ordinary metric mean across samples"
+}

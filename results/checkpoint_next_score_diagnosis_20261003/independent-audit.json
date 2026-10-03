@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "cell_points": 900,
+    "confusion_strata": 1800,
+    "macro_draw_values": 72000,
+    "mass_values": 1800900,
+    "min_max_points": 720,
+    "pooled_draw_values": 72000,
+    "published_sample_mean_points": 24
+  },
+  "maximum_pooled_reconstruction_difference": 4.440892098500626e-16,
+  "missing_unique_texts_per_model": 131,
+  "no_activations_loaded": true,
+  "no_behavior_chat_E": true,
+  "no_fits": true,
+  "peak_rss_bytes": 1513275392,
+  "producer_sha": "15ecc6aacc70b62a6d275c52ff6011cfd585fd0f",
+  "sampler_membership_sha256": "c8093cce419a79a3ec1dc6c698391bd0f41b1bda92f4c2675cafeaeb41fb51bc",
+  "scope": "Separate sklearn pair-cell/decision/min-max point calculations; stable rank-group pooled and fixed-five-topic bootstrap reconstruction; sample-mean published agreement; metadata queue and independent RandomState sampler. Not a second-machine replication.",
+  "seconds": 49.243285541888326,
+  "status": "passed_independent_saved_score_and_metadata_audit"
+}

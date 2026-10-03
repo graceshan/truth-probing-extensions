@@ -1,0 +1,280 @@
+{
+  "coverage_and_hash_verification_seconds": 22.6400216659531,
+  "coverage_gaps": 131,
+  "failures": [],
+  "global_condition_panels": 36,
+  "global_head_sample_panels": 12,
+  "hostname": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "output_files": {
+    "R_all-matched-scores.png": {
+      "bytes": 563335,
+      "sha256": "58750f6797b0d5f39e88974a48740b71a178f58d0bb9d05e07b24b9078a94947"
+    },
+    "additional-262-bindings.csv": {
+      "bytes": 119010,
+      "sha256": "d67a16ac30de6597a8019a4205c3ce66cfae294be905226f7d21101ab8b2661e"
+    },
+    "arrays/llama-R_all-11-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "7a395e40a539f92963fa795cc27f41701827c02d3207bacb0b584befb0724130"
+    },
+    "arrays/llama-R_all-11-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "3554b26d92bf8df1f0046536ecdde421b1acaadc2b72a7ef52dcd4e160b42758"
+    },
+    "arrays/llama-R_all-11-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "088d7e2beb7e06f4ffcd1dd73ec708479bbc1128fdabb6dfdda681a9a1470f5c"
+    },
+    "arrays/llama-R_all-23-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "916bf834adef42b6f407f07b31679eecaa164dc23f8135cebb9dcfcfeeb88a02"
+    },
+    "arrays/llama-R_all-23-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "e7ec2178fc00a13adc62bf0350bdaaab23ade33305e83413475470228f3e3448"
+    },
+    "arrays/llama-R_all-23-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "80fb3df47f0c9458b926218238d889cde3b76feb08842453833b0f3d0f7f6b5b"
+    },
+    "arrays/llama-R_all-37-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "bbcc9ecd483093742b2bd3486ec87cbe4e3c720a70980e90fd85125f44e4628d"
+    },
+    "arrays/llama-R_all-37-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "17ffb087fcae876762a5f8be127c2b6fdadb9ec0d7550105c59749104f96362d"
+    },
+    "arrays/llama-R_all-37-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "4941fe784b0179a7d6176e28c3c11c411b1901016cc3ca7c8f0abdcfec0b2add"
+    },
+    "arrays/llama-S_all-11-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "e1937cfd9e5f6afaeef580eb7004b09fe20ee5747811b684b5e0a4c8b0befed8"
+    },
+    "arrays/llama-S_all-11-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "cd2bf0be7f43b23e8960d0102bcf38e04002d248ed78cf28365b70b4680533fe"
+    },
+    "arrays/llama-S_all-11-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "b5b438a57bf5cca1a0fac858a2e3ee9198d831b4bf0cd42c2f7404d87b9abfb0"
+    },
+    "arrays/llama-S_all-23-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "e1937cfd9e5f6afaeef580eb7004b09fe20ee5747811b684b5e0a4c8b0befed8"
+    },
+    "arrays/llama-S_all-23-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "cd2bf0be7f43b23e8960d0102bcf38e04002d248ed78cf28365b70b4680533fe"
+    },
+    "arrays/llama-S_all-23-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "b5b438a57bf5cca1a0fac858a2e3ee9198d831b4bf0cd42c2f7404d87b9abfb0"
+    },
+    "arrays/llama-S_all-37-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "e1937cfd9e5f6afaeef580eb7004b09fe20ee5747811b684b5e0a4c8b0befed8"
+    },
+    "arrays/llama-S_all-37-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "cd2bf0be7f43b23e8960d0102bcf38e04002d248ed78cf28365b70b4680533fe"
+    },
+    "arrays/llama-S_all-37-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "b5b438a57bf5cca1a0fac858a2e3ee9198d831b4bf0cd42c2f7404d87b9abfb0"
+    },
+    "arrays/matched-row-scores.csv": {
+      "bytes": 57506335,
+      "sha256": "7ed51b320d44e4c0f53665e8240ded5c4a998109e2d323a88a0fcc1b31f09a39"
+    },
+    "arrays/qwen-R_all-11-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "d3f513ea5f4283343b41048ba52c3d3306caa52715d55f9fb70c7ced35663280"
+    },
+    "arrays/qwen-R_all-11-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "8d41e10f281131f6cb3f50b6ee1c26e807e431aec7120a978724bd54a61d9774"
+    },
+    "arrays/qwen-R_all-11-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "0679cb82922d43b7b0aa986d2170b81b1c0b72c8a86eba80a28ae5f15046f1f0"
+    },
+    "arrays/qwen-R_all-23-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "d21048514592926c1efa68e49d32a779f8016e6f18c559ce5904a0c90f503d1b"
+    },
+    "arrays/qwen-R_all-23-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "5a2c3739bdb3a63af40cb1cfbd7434c6d113c1dee9be83c448b0fcd9fd4844a3"
+    },
+    "arrays/qwen-R_all-23-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "675b35fbac44a2b5b73668e54016e4d347e161ff3e940fbce82d445661b492ad"
+    },
+    "arrays/qwen-R_all-37-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "ccdef83e7f67f2f63af65b4fffd366ffce28ea90ade018e579942bf8451eea36"
+    },
+    "arrays/qwen-R_all-37-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "3ef876e7a3b9a9ede13486d850db428594318e0c8a50bddfe2981255f1530da3"
+    },
+    "arrays/qwen-R_all-37-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "53ed764cbc5772c35c440c101db13f1c39d2ae403ffa6f4497f82329eb214152"
+    },
+    "arrays/qwen-S_all-11-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "2039ea85f42f5503cb58e9da556c29f7023d9e838a1a01e923fc3977221215d2"
+    },
+    "arrays/qwen-S_all-11-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "905a9f7422e8383534fdcfda5b81b647e477d46c107ead23711aad7c0ba55e2b"
+    },
+    "arrays/qwen-S_all-11-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "d9e18dfd5a1220ae7743fc20d79775083cdb12b88a5813048ec1e2efec4945ef"
+    },
+    "arrays/qwen-S_all-23-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "f1f1c0e5511dfbd53624be9698782cd7fa6c4dfc3dd7dafb5cc9ad24e9f8749e"
+    },
+    "arrays/qwen-S_all-23-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "84ff73bac0b888984665268c1139f12a11b27be7b603aad97d90a8f7bb5dea1f"
+    },
+    "arrays/qwen-S_all-23-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "bfc11ad79613efd75c928897b3e1a8d410ac1c67df523400957ecaa9ec6bb187"
+    },
+    "arrays/qwen-S_all-37-D_bare.npz": {
+      "bytes": 1329670,
+      "sha256": "f1f1c0e5511dfbd53624be9698782cd7fa6c4dfc3dd7dafb5cc9ad24e9f8749e"
+    },
+    "arrays/qwen-S_all-37-or_at_least_one_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "84ff73bac0b888984665268c1139f12a11b27be7b603aad97d90a8f7bb5dea1f"
+    },
+    "arrays/qwen-S_all-37-or_explicit_or_both_v1.npz": {
+      "bytes": 1329670,
+      "sha256": "bfc11ad79613efd75c928897b3e1a8d410ac1c67df523400957ecaa9ec6bb187"
+    },
+    "boundary-cells.csv": {
+      "bytes": 648069,
+      "sha256": "7ff692d4e4930bde2d70ce57a95ee6c0dbadcdff5e585b46de7b2dd7bb4713f9"
+    },
+    "boundary-decomposition.csv": {
+      "bytes": 175271,
+      "sha256": "a1c5ff3be4f88c8460ddc3eb821afd6ce1b3513788c5190990c3cc682a74ddec"
+    },
+    "constituent-endpoints.csv": {
+      "bytes": 1592441,
+      "sha256": "bd8b6c4c7b18d92e4027a4d951464be4da88f578c0bb6c9eb2dd1904683b6e20"
+    },
+    "constituent-matched-scores.png": {
+      "bytes": 620375,
+      "sha256": "0565b7af08a1a327693765c867777f11057ec3074da294083f2b096b8e2a9e10"
+    },
+    "constituent-wording-differences.csv": {
+      "bytes": 305460,
+      "sha256": "25cd7028c03687bfd4c617b5538aecbdf73455ee34a15a9b825e970adc8b1fee"
+    },
+    "coverage-summary.json": {
+      "bytes": 3112,
+      "sha256": "9e5cae803fcf72419e265248229b50728171e17f97302b081c0a4b46978cde70"
+    },
+    "execution.json": {
+      "bytes": 1511,
+      "sha256": "0b6bf6f69834fb21c2d1debd460775952e2e044a8a8c52e888eb2a498a812aba"
+    },
+    "frozen-confusion-joint-boolean.csv": {
+      "bytes": 571814,
+      "sha256": "053a8070b9411bfb4c49b0a2f909b3d98cfbef30dac0d2b1661e17bca5ba1b8b"
+    },
+    "full-training-balanced-1000.csv": {
+      "bytes": 465180,
+      "sha256": "b1840a0ed60f10a354c51a052bb39e92513daa4302b94bea94008e9b1e65590f"
+    },
+    "full-training-coverage.csv": {
+      "bytes": 3976171,
+      "sha256": "70b022d8cc6d66153553d4b2d8d2107245925d3e3864495fc21f8f57b1206222"
+    },
+    "input-verification.json": {
+      "bytes": 264352,
+      "sha256": "759c1d81e70fb14284e2fe05ebf5ff4d5e3b941d366cc4eae89ec160de89f9cb"
+    },
+    "llama-R_all-boundary-matrices.png": {
+      "bytes": 206603,
+      "sha256": "7dda7c6d160ea6d691332ea4ca10623e8a3beb06585a207e18b5c93892acf49b"
+    },
+    "matched-deltas.csv": {
+      "bytes": 2766455,
+      "sha256": "38dadaf5eac3e28723f29af7700532f33f4d0e6adbadd7dbf6a1c8369c88e6a4"
+    },
+    "matched-rank-changes.csv": {
+      "bytes": 1455439,
+      "sha256": "300e8dfddc2defc561d83911333a491339566a750ba688a679e67e0bd018155c"
+    },
+    "missing-input-queue.json": {
+      "bytes": 159340,
+      "sha256": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+    },
+    "published-reconstruction.csv": {
+      "bytes": 14075,
+      "sha256": "e6b4ea0dc2c24464d89e6337a53addd5839ff17cb2a390bfe1921894e0470cb9"
+    },
+    "qwen-R_all-boundary-matrices.png": {
+      "bytes": 225768,
+      "sha256": "35f126f847e791e3b5d2eff8a0635cb2edbda74229d72e3a359c7c3a059ee54d"
+    },
+    "resolved-panels.json": {
+      "bytes": 13041,
+      "sha256": "8c6c745294643bd222f976c1165c86e40288964d1bed34cebf4aa725303d4042"
+    },
+    "same-support-min-max.csv": {
+      "bytes": 234448,
+      "sha256": "3ef2c1eb1571172570ffa08f725f7897d7a777d8ee841766bcfa4a477f419713"
+    }
+  },
+  "peak_rss_bytes": 1364082688,
+  "processes": 1,
+  "producer_sha": "15ecc6aacc70b62a6d275c52ff6011cfd585fd0f",
+  "seconds": 111.0588856660761,
+  "selected_constituent_panels": 20,
+  "source_preservation": "All accessed source hashes bound and pre/post size/mtime/ctime unchanged; original worktrees not edited.",
+  "status": "completed",
+  "threads": [
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.23.dev"
+    },
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.21.dev"
+    },
+    {
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "approved_document_sha256": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+  "base_commit": "0a256d96b0fbf41f7ce678693da15cf230685778",
+  "behavior_chat_E_accessed": false,
+  "compact_files": {
+    "R_all-matched-scores.png": {
+      "bytes": 563335,
+      "sha256": "58750f6797b0d5f39e88974a48740b71a178f58d0bb9d05e07b24b9078a94947"
+    },
+    "additional-262-bindings.csv": {
+      "bytes": 119010,
+      "sha256": "d67a16ac30de6597a8019a4205c3ce66cfae294be905226f7d21101ab8b2661e"
+    },
+    "additional-coverage-summary.csv": {
+      "bytes": 512,
+      "sha256": "741450e3885d1c46bcbdc62227d3dc5801451d13ede62b97066d652c3e12ccec"
+    },
+    "boundary-cells.csv": {
+      "bytes": 648069,
+      "sha256": "7ff692d4e4930bde2d70ce57a95ee6c0dbadcdff5e585b46de7b2dd7bb4713f9"
+    },
+    "boundary-decomposition.csv": {
+      "bytes": 175271,
+      "sha256": "a1c5ff3be4f88c8460ddc3eb821afd6ce1b3513788c5190990c3cc682a74ddec"
+    },
+    "boundary-matrices-wide.csv": {
+      "bytes": 79935,
+      "sha256": "3c0fc5541f9b2052fa8bec2e7b6c050b1666deeb182b6406cc8d49bfd102fbb8"
+    },
+    "completion.json": {
+      "bytes": 10754,
+      "sha256": "8802741e11635f25973820189f627ce36f223500f145b11401a58508b22e630c"
+    },
+    "constituent-endpoints.csv": {
+      "bytes": 1592441,
+      "sha256": "bd8b6c4c7b18d92e4027a4d951464be4da88f578c0bb6c9eb2dd1904683b6e20"
+    },
+    "constituent-matched-scores.png": {
+      "bytes": 620375,
+      "sha256": "0565b7af08a1a327693765c867777f11057ec3074da294083f2b096b8e2a9e10"
+    },
+    "constituent-wording-differences.csv": {
+      "bytes": 305460,
+      "sha256": "25cd7028c03687bfd4c617b5538aecbdf73455ee34a15a9b825e970adc8b1fee"
+    },
+    "coverage-summary.json": {
+      "bytes": 3112,
+      "sha256": "9e5cae803fcf72419e265248229b50728171e17f97302b081c0a4b46978cde70"
+    },
+    "execution-accounting.json": {
+      "bytes": 2927,
+      "sha256": "3798b99b5e00422415f6ba32d2fc9edab9d3eae3c206c06ecfcfe84b4adb4f43"
+    },
+    "execution.json": {
+      "bytes": 1511,
+      "sha256": "0b6bf6f69834fb21c2d1debd460775952e2e044a8a8c52e888eb2a498a812aba"
+    },
+    "frozen-confusion-joint-boolean.csv": {
+      "bytes": 571814,
+      "sha256": "053a8070b9411bfb4c49b0a2f909b3d98cfbef30dac0d2b1661e17bca5ba1b8b"
+    },
+    "full-training-balanced-1000.csv": {
+      "bytes": 465180,
+      "sha256": "b1840a0ed60f10a354c51a052bb39e92513daa4302b94bea94008e9b1e65590f"
+    },
+    "full-training-coverage.csv": {
+      "bytes": 3976171,
+      "sha256": "70b022d8cc6d66153553d4b2d8d2107245925d3e3864495fc21f8f57b1206222"
+    },
+    "headline-boundary-summary.csv": {
+      "bytes": 2312,
+      "sha256": "615c62392171ac2faa69c59443aed6d912c6cd68fe5febc144cbc8d7f2fc6333"
+    },
+    "independent-audit.json": {
+      "bytes": 987,
+      "sha256": "8d48cc48ef9f9c530f84404cf5012069d61272d5b9073c69e0c656365edbd8b2"
+    },
+    "input-verification.json": {
+      "bytes": 264352,
+      "sha256": "759c1d81e70fb14284e2fe05ebf5ff4d5e3b941d366cc4eae89ec160de89f9cb"
+    },
+    "llama-R_all-boundary-matrices.png": {
+      "bytes": 206603,
+      "sha256": "7dda7c6d160ea6d691332ea4ca10623e8a3beb06585a207e18b5c93892acf49b"
+    },
+    "matched-deltas.csv": {
+      "bytes": 2766455,
+      "sha256": "38dadaf5eac3e28723f29af7700532f33f4d0e6adbadd7dbf6a1c8369c88e6a4"
+    },
+    "matched-rank-changes.csv": {
+      "bytes": 1455439,
+      "sha256": "300e8dfddc2defc561d83911333a491339566a750ba688a679e67e0bd018155c"
+    },
+    "missing-input-queue.json": {
+      "bytes": 159340,
+      "sha256": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+    },
+    "preservation-after.json": {
+      "bytes": 6327,
+      "sha256": "0c71625fa1c3b52d27d552ddd29e33d092104a5ee5bbb97ed5c0e9257b88f5ec"
+    },
+    "published-reconstruction.csv": {
+      "bytes": 14075,
+      "sha256": "e6b4ea0dc2c24464d89e6337a53addd5839ff17cb2a390bfe1921894e0470cb9"
+    },
+    "qwen-R_all-boundary-matrices.png": {
+      "bytes": 225768,
+      "sha256": "35f126f847e791e3b5d2eff8a0635cb2edbda74229d72e3a359c7c3a059ee54d"
+    },
+    "report.md": {
+      "bytes": 18832,
+      "sha256": "50eec0b23a6829a028f3968465651e9b48291cdf5a83854abcd6e711aa5a5de7"
+    },
+    "resolved-panels.json": {
+      "bytes": 13041,
+      "sha256": "8c6c745294643bd222f976c1165c86e40288964d1bed34cebf4aa725303d4042"
+    },
+    "same-support-min-max.csv": {
+      "bytes": 234448,
+      "sha256": "3ef2c1eb1571172570ffa08f725f7897d7a777d8ee841766bcfa4a477f419713"
+    }
+  },
+  "external_manifest_path": "/Users/apple/truth-probing-backups/20261001T164224Z/next-score-diagnosis-results-20261003/delivery-artifact-manifest.json",
+  "external_manifest_pin": {
+    "bytes": 10763,
+    "sha256": "6e94343ae1a436dd9345ce26e06bc273415beaa41fa69961b7bba2c85b8bc3ea"
+  },
+  "external_results": "/Users/apple/truth-probing-backups/20261001T164224Z/next-score-diagnosis-results-20261003/run-15ecc6a",
+  "full_bank_fitted": false,
+  "large_arrays_outside_git": true,
+  "missing_queue_pin": {
+    "bytes": 159340,
+    "sha256": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+  },
+  "missing_unique_texts_per_model": 131,
+  "producer_sha": "15ecc6aacc70b62a6d275c52ff6011cfd585fd0f",
+  "publication_status": "blocked_by_network_after_four_failed_push_attempts; final origin lookup confirms branch absent",
+  "schema": "checkpoint-next-score-diagnosis-delivery-v1",
+  "scientific_failures": [],
+  "status": "completed_independently_audited"
+}
