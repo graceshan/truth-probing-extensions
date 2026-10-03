@@ -33,6 +33,14 @@ def configuration():
     return cfg
 
 
+def ledger_position(value):
+    # Reviewed pandas CSV positions are rendered as 0.0 where pending rows made
+    # the column nullable. Accept only finite, exact, nonnegative integers.
+    number=float(value)
+    require(np.isfinite(number) and 0<=number<2**53 and number.is_integer(),'noninteger ledger position')
+    return int(number)
+
+
 def memberships():
     q=validate_queue();m=read(ROOT/'data/checkpoint_r2_v1/memberships.json')
     train,p15=m['outer_train'],m['P15'];pids={r['source_row_id'] for r in p15}
@@ -151,7 +159,7 @@ class FullTrainingAdapter(B25Adapter):
                 for local,(r,t) in enumerate(zip(rows,tokens)):
                     if r['id'] not in lookup:continue
                     c=lookup[r['id']]
-                    require(c['shard']==shard['path'] and int(c['local_row'])==local and int(c['global_row'])==offset+local and
+                    require(c['shard']==shard['path'] and ledger_position(c['local_row'])==local and ledger_position(c['global_row'])==offset+local and
                         c['representation_receipt_sha256']==sha(folder/'receipt.json') and
                         c['activation_file_sha256']==receipt['files']['activations.npy']['sha256'] and
                         c['token_binding_sha256']==hash_value(t) and c['token_ids_sha256']==hash_value(t['token_ids']) and

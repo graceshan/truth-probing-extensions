@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 import numpy as np
 from src.checkpoint_next_chat import diagnostic_json, preserve_fit
-from src.checkpoint_next_full_bank_inputs import memberships, FullTrainingAdapter, EXTRACTION_PRODUCER, supplement_acceptance
+from src.checkpoint_next_full_bank_inputs import memberships, FullTrainingAdapter, EXTRACTION_PRODUCER, supplement_acceptance, ledger_position
 from src.checkpoint_next_full_bank_selection import bank_specs, selectors, average_contrast
 from src.checkpoint_next_full_bank_audit import independent_auc, endpoint
 from src.checkpoint_next_inventory import require
@@ -84,6 +84,12 @@ class MetadataTests(unittest.TestCase):
         for model in ('qwen','llama'):
             self.assertEqual(sum(r['status']=='exact_compatible_fresh_reuse' for r in ledger[model]),2909)
             self.assertEqual(sum(r['status']=='missing_unique_text' for r in ledger[model]),131)
+
+    def test_reviewed_csv_integer_positions(self):
+        self.assertEqual(ledger_position('0.0'),0)
+        self.assertEqual(ledger_position('35842.0'),35842)
+        for bad in ('0.5','nan','inf','-1.0'):
+            with self.assertRaisesRegex(ValueError,'noninteger ledger position'):ledger_position(bad)
 
     def test_same600_grid_with_full_exposure(self):
         specs=bank_specs();self.assertEqual(len(specs),600)
