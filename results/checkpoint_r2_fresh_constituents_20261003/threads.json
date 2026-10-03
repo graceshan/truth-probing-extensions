@@ -1,0 +1,40 @@
+{
+  "environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 80516,
+  "pools": [
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.23.dev"
+    },
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.21.dev"
+    },
+    {
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ],
+  "processes": 1
+}

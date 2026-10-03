@@ -1,0 +1,120 @@
+{
+  "base_commit": "1187140c7f79b0b64439eff382d420f51d974a25",
+  "completed_final": 12,
+  "completed_initial": 240,
+  "config_sha256": "21e99762ffb43ded228d579c9ec8757aef7326c04e40e822aa1850b68ebe8bde",
+  "external_control": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003",
+  "external_manifest": {
+    "bytes": 255532,
+    "sha256": "e082f09a481196014a48c53f659d48b6ec0339e6990402cde6fdf1d5c1238f27"
+  },
+  "external_manifest_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/delivery-artifact-manifest-final.json",
+  "external_results": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b",
+  "failed_fits": 0,
+  "files": {
+    "bootstrap-binding.json": {
+      "bytes": 1160,
+      "sha256": "a12c64565c728d623f5b017cfacdef0ff26dc04ef0cec4d62d56085bf9341643"
+    },
+    "completion-summary.json": {
+      "bytes": 940,
+      "sha256": "407c840a61e2b5df00f6cc81a8837e8638d5abcba63835f35f18238faa995fa2"
+    },
+    "constituent-layer-curves.csv": {
+      "bytes": 2452943,
+      "sha256": "66f7bb5e1bfc8dbdbbdb7b486585aaafeac30af6e3021b3ce8233d666ff91995"
+    },
+    "constituent-transfer.csv": {
+      "bytes": 1844395,
+      "sha256": "7b96c70788d51aebf5a8ec729d878fb2ac9fe04e6ef7051b9d576a47a984614c"
+    },
+    "decision_record.md": {
+      "bytes": 2528,
+      "sha256": "24d2f388d9f33bb060df3180e7523674c1de18990e845f5e493c71ddfe91d9b4"
+    },
+    "execution-accounting.json": {
+      "bytes": 1152,
+      "sha256": "b8adb5db2d5583eeaace0d35f80b4b31afed5784ae2b12fb8dad67dd7eae703e"
+    },
+    "execution.json": {
+      "bytes": 31019,
+      "sha256": "f6a6b41c218c119bea2aec6b888fa9e1aa0071af3fe42fdb70da4d842990cc9f"
+    },
+    "exposure_manifest.json": {
+      "bytes": 184560,
+      "sha256": "cf534e149e571085d35de68593dbdff929ab231dbbbc668c62ab5bb320b5bad7"
+    },
+    "final-fitting-inventory.json": {
+      "bytes": 10555,
+      "sha256": "cd71a83f78560142455c1f5f27da3fe16fae4f724b32f95e9e99ad3566be8e36"
+    },
+    "fit-status.csv": {
+      "bytes": 139757,
+      "sha256": "4b8090dc31b9de8ee2de6fe8e2833911debb353df45ae7650ef872c93c4a6e70"
+    },
+    "fixed-decisions-composition.csv": {
+      "bytes": 1042566,
+      "sha256": "a9b67e60e4f85b4e472a3226703f684d9a7bc6c81d2b684dff4c6a0634968f52"
+    },
+    "focused-tests.json": {
+      "bytes": 533,
+      "sha256": "1a65eccc5da0635ba2adefa1153ede917a5d7a15e14ca58e52f5b54cc8112f42"
+    },
+    "freeze.json": {
+      "bytes": 571,
+      "sha256": "c6e5d3b7e5030de10c76acbd2fc24b9ff4cf4204897127166783f7610267fd78"
+    },
+    "independent-audit.json": {
+      "bytes": 618,
+      "sha256": "78e34f5095319d9ed273cdc819a883db7f2798e4a1c55942af725ccdd186ec10"
+    },
+    "locked-selection.json": {
+      "bytes": 316285,
+      "sha256": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8"
+    },
+    "optimizer-attempts.csv": {
+      "bytes": 56030,
+      "sha256": "78397896422bc8db197b899020670ecdbe62251fb3ff2b4e454b397ea12d705b"
+    },
+    "paired-transfer-losses.csv": {
+      "bytes": 277620,
+      "sha256": "f97568086d819720c9a057a7506165d402d695f537b61ae6a99ea04a92c6a9b0"
+    },
+    "pre-fit-validation.json": {
+      "bytes": 21885,
+      "sha256": "bba5f947c0461d0e1e53520a14e66887da13317d37d07f12736b39bf17062783"
+    },
+    "preservation-after.json": {
+      "bytes": 146,
+      "sha256": "f7007c6a1d649acdee03abb474188c1b3147696ed05bfed503089c8bd370b4c3"
+    },
+    "preservation-before.json": {
+      "bytes": 1626,
+      "sha256": "b074c7eeca1278e91920789f4f7b7bbe54d07164a204a8edaa2e4ac4491b83c5"
+    },
+    "report.md": {
+      "bytes": 18052,
+      "sha256": "30c4c2c12e55c10bbaca0ac09ee67fce31c365147fccce44fc933b8cf22d59ce"
+    },
+    "six-endpoint-transfer-losses.csv": {
+      "bytes": 115283,
+      "sha256": "271c0b6a8f7266a18ff64af85c3791794184703f1be0cf5a8a659261b6814d1f"
+    },
+    "six-endpoints.csv": {
+      "bytes": 288077,
+      "sha256": "d069a20dcb1c71099203a49ee3533ff2cddf8e60b722cd3466e00e369b1f03be"
+    },
+    "source-validation-curves.json": {
+      "bytes": 316130,
+      "sha256": "00331846ca6fa02953419b53abc3044e784a5de5cd90507fe28a15703e3e63f9"
+    },
+    "threads.json": {
+      "bytes": 1090,
+      "sha256": "4ca405386e26e4ccb13da5c76352e3a1a2d35ec312b4e2fe5f886a67f16b534f"
+    }
+  },
+  "large_arrays_outside_git": true,
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "status": "completed_independently_audited",
+  "valid_fits": 252
+}

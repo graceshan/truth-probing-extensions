@@ -1,0 +1,284 @@
+{
+  "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+  "alias_records": [
+    {
+      "heads": {
+        "AND": [
+          "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+          "qwen/TC_control_and_final_refit/AND/L18/SECOND"
+        ],
+        "OR": [
+          "qwen/TC_control_and_final_refit/OR/L18/FIRST",
+          "qwen/TC_control_and_final_refit/OR/L18/SECOND"
+        ]
+      },
+      "model": "qwen",
+      "source_operator": "AND"
+    },
+    {
+      "heads": {
+        "AND": [
+          "qwen/TC_control_and_final_refit/AND/L19/FIRST",
+          "qwen/TC_control_and_final_refit/AND/L19/SECOND"
+        ],
+        "OR": [
+          "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+          "qwen/TC_control_and_final_refit/OR/L19/SECOND"
+        ]
+      },
+      "model": "qwen",
+      "source_operator": "OR"
+    },
+    {
+      "heads": {
+        "AND": [
+          "llama/TC_control_and_final_refit/AND/L12/FIRST",
+          "llama/TC_control_and_final_refit/AND/L12/SECOND"
+        ],
+        "OR": [
+          "llama/TC_control_and_final_refit/OR/L12/FIRST",
+          "llama/TC_control_and_final_refit/OR/L12/SECOND"
+        ]
+      },
+      "model": "llama",
+      "source_operator": "AND"
+    },
+    {
+      "heads": {
+        "AND": [
+          "llama/TC_control_and_final_refit/AND/L12/FIRST",
+          "llama/TC_control_and_final_refit/AND/L12/SECOND"
+        ],
+        "OR": [
+          "llama/TC_control_and_final_refit/OR/L12/FIRST",
+          "llama/TC_control_and_final_refit/OR/L12/SECOND"
+        ]
+      },
+      "model": "llama",
+      "source_operator": "OR"
+    }
+  ],
+  "config_sha256": "21e99762ffb43ded228d579c9ec8757aef7326c04e40e822aa1850b68ebe8bde",
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "lock_sha256": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8",
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "specs": [
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/AND/L18/FIRST",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 18,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/AND/L18/SECOND",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 18,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/OR/L18/FIRST",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 18,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/OR/L18/SECOND",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 18,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/AND/L19/FIRST",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 19,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/AND/L19/SECOND",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 19,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/OR/L19/FIRST",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 19,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "qwen/TC_control_and_final_refit/OR/L19/SECOND",
+      "model": "qwen",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 19,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "llama/TC_control_and_final_refit/AND/L12/FIRST",
+      "model": "llama",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 12,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "llama/TC_control_and_final_refit/AND/L12/SECOND",
+      "model": "llama",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "AND",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 12,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "c5969a98fbbc737be32709dc9d09466f7627979f151b71636379b92f4a5d079d",
+      "training_metadata_sha256": "4fcf4a26cd7c7f9f5e1f83d4caaa0ebaaa957ebc272daacb32ffdf18d7bc6e16"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "llama/TC_control_and_final_refit/OR/L12/FIRST",
+      "model": "llama",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "FIRST",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 12,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    },
+    {
+      "group": "TC_control_and_final_refit",
+      "id": "llama/TC_control_and_final_refit/OR/L12/SECOND",
+      "model": "llama",
+      "objective": "mean surface-constituent BCE + .001*||w||^2; free intercept",
+      "operator": "OR",
+      "position": "SECOND",
+      "preprocessing_group": "P15",
+      "rows": 4000,
+      "saved_layer": 12,
+      "settings": {
+        "gradient_tolerance": 0.0001,
+        "initial_max_iterations": 2000,
+        "total_max_iterations": 10000
+      },
+      "training_bindings_sha256": "70c078eba9d7823ba8f204b273a3085aea17909c1294875041003ee489243f1d",
+      "training_metadata_sha256": "326e255792e644cf59c927db78fbfe678ab8aea396d41537e2dbc26b9dab5904"
+    }
+  ]
+}

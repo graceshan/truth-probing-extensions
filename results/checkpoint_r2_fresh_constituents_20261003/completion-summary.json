@@ -1,0 +1,21 @@
+{
+  "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+  "behavior_chat_E_accessed": false,
+  "completed_final": 12,
+  "completed_initial": 240,
+  "config_sha256": "21e99762ffb43ded228d579c9ec8757aef7326c04e40e822aa1850b68ebe8bde",
+  "expected_final": 12,
+  "expected_initial": 240,
+  "external_completion_sha256": "bb132a8a3b8956747d1f5d7e019e048005f9390dcc93cf47c934e3fd526cf451",
+  "failed_fits": 0,
+  "historical_compatibility": "unverified",
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "optimizer_retries": 0,
+  "peak_rss_bytes": 3066249216,
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "scientific_scope": "raw development constituent diagnostics only",
+  "seconds": 1000.7806525831111,
+  "status": "completed",
+  "valid_fits": 252
+}

@@ -1,0 +1,12 @@
+{
+  "compact_files_verified": 25,
+  "delivery_sha256": "7eaab999da04b0133b0386f37862255be12615870833231db239ae02861695c1",
+  "external_files_verified": 1471,
+  "failed_fits": 0,
+  "final_expected_completed_valid": 12,
+  "frozen_code_config_runtime_unchanged": true,
+  "independent_audit_status": "independent_constituent_saved_prediction_and_metric_audit_passed",
+  "initial_expected_completed_valid": 240,
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "status": "all_compact_and_external_hashes_verified"
+}

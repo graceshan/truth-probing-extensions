@@ -1,0 +1,24 @@
+{
+  "actual_fitting_executions": 1,
+  "audit_command_end_utc": "2026-10-03T04:08:12Z",
+  "audit_monotonic_function_seconds": 353.3373592500575,
+  "audit_peak_rss_bytes": 5146460160,
+  "final_head_fits": 12,
+  "fitting_command_end_utc": "2026-10-03T03:43:42Z",
+  "initial_detached_launch": {
+    "no_result_directory_or_fits_at_process_absence_check": true,
+    "pid": 79876,
+    "receipts_preserved": true,
+    "start_utc": "2026-10-03T02:57:42Z",
+    "termination_cause": "unestablished"
+  },
+  "optimizer_warm_retries": 0,
+  "outer_audit_command_span_seconds": 1470.0,
+  "outer_fitting_command_span_seconds": 2448.0,
+  "outer_total_span_seconds": 3918.0,
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "runner_monotonic_phase_seconds": 1000.7806525831111,
+  "runner_peak_rss_bytes": 3066249216,
+  "timing_scope_note": "UTC command spans include startup, input verification and other unpartitioned overhead. Monotonic durations cover runner phase / audit function as explicitly recorded. Difference is retained; no specific cause for all unpartitioned time is established.",
+  "tracked_foreground_start_utc": "2026-10-03T03:02:54Z"
+}

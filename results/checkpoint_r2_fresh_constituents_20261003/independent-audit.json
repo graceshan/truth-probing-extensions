@@ -1,0 +1,16 @@
+{
+  "behavior_chat_E_accessed": false,
+  "endpoint_bootstrap_values_checked": 2100000,
+  "maximum_score_absolute_difference": 0.0,
+  "objective_gradient_checks": 252,
+  "paired_endpoint_contrasts_checked": 420,
+  "peak_rss_bytes": 5146460160,
+  "predictions_reconstructed": 770,
+  "principal_point_checks": 22995,
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "refitting_performed": false,
+  "seconds": 353.3373592500575,
+  "selectors_independently_reconstructed": 4,
+  "shared_bootstrap_schedule_reconstructed": true,
+  "status": "independent_constituent_saved_prediction_and_metric_audit_passed"
+}

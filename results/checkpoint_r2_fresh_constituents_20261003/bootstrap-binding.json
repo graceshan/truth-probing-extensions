@@ -1,0 +1,23 @@
+{
+  "acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+  "artifact": {
+    "bytes": 30912128,
+    "sha256": "6088262c6ffe9dbea75fe3983543be69bc68c13af96c6806fdff66672d914054"
+  },
+  "compound_schedule_sha256": "a4088e5a5b24bcd358e4402cca472ab1578ebaa7b8481925af259729aa50ce93",
+  "config_sha256": "21e99762ffb43ded228d579c9ec8757aef7326c04e40e822aa1850b68ebe8bde",
+  "endpoint_product": true,
+  "input_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+  "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+  "options": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "producer_sha": "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db",
+  "reuses_reviewed_D_schedule_exactly": true,
+  "shared_across_models_heads_operators_wordings": true
+}
