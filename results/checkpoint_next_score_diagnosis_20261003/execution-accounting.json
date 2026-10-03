@@ -38,6 +38,11 @@
       "action": "initial branch push",
       "reason": "git push returned HTTP 408 and disconnect; subsequent git ls-remote found no new branch. Retry uses command-scoped http.postBuffer only; no persistent Git configuration changes.",
       "status": "failed_network_transfer"
+    },
+    {
+      "action": "buffered branch push retry",
+      "reason": "git push returned HTTP 408 with HTTP/2 stream framing error. Next retry uses command-scoped HTTP/1.1 and buffer settings; no persistent Git settings changed.",
+      "status": "failed_network_transfer"
     }
   ],
   "measurements": "Darwin process ru_maxrss bytes; monotonic function durations exclude interpreter startup; no system-wide resource measurement",
