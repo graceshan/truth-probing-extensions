@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "instruction": null,
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "model": "llama",
+  "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+  "phase": "token_audit",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "reviewer": null,
+  "schema": "final-e-phase-authorization-v1",
+  "status": "DRAFT"
+}

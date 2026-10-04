@@ -1,0 +1,115 @@
+{
+  "bundle": {
+    "advertised_heads": [
+      {
+        "ref": "HEAD",
+        "sha": "b2c6dde71e82f5f0af308761bf19ed3341670587"
+      }
+    ],
+    "bundle_object_paths_checked": 58,
+    "bytes": 176023,
+    "incremental_commits": 3,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/producer.bundle",
+    "prerequisites": [
+      "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+    ],
+    "prerequisites_verified_locally": true,
+    "prohibited_large_binary_paths": [],
+    "recipient_prerequisites_verified": false,
+    "recipient_repository": null,
+    "sha256": "da28abe3c64e50bffee3047003a621ee29b60dd46ceafd3052157ae796b7a1aa"
+  },
+  "external_lock": {
+    "bytes": 15795,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/final_lock_20261004.json",
+    "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+  },
+  "files": {
+    "artifact_roots.json": {
+      "bytes": 641,
+      "sha256": "a072433410e825bd3c288f304187c901d8da70459f5359212517df4446485645"
+    },
+    "baseline-accounting/adoption.json": {
+      "bytes": 5010,
+      "sha256": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9"
+    },
+    "baseline-accounting/carryforward_v1.json": {
+      "bytes": 2316,
+      "sha256": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154"
+    },
+    "baseline-accounting/execution-report.json": {
+      "bytes": 5181,
+      "sha256": "29f1a99a305551bfe99ebe0a7e7cc4d2f5ea879e125ec3708be4f35564287e6e"
+    },
+    "baseline-accounting/llama-end.json": {
+      "bytes": 84,
+      "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+    },
+    "closed-authorization-drafts/local-both-transfer.json": {
+      "bytes": 520,
+      "sha256": "cbd265a89a1bb9435e248ad21a7b06921178961e8ae289adbcb78c85bc15d2c9"
+    },
+    "closed-authorization-drafts/local-both-verify.json": {
+      "bytes": 518,
+      "sha256": "9d9e02d111ab166e79ebfde81d01de2d9d8c1ea26cacd5956571c23ec8f8a9d9"
+    },
+    "closed-authorization-drafts/remote-both-transfer.json": {
+      "bytes": 460,
+      "sha256": "609c91af9de0212d8bea6aaf1ca894a6418387718ba654cdd8ec12156c45e805"
+    },
+    "closed-authorization-drafts/remote-llama-accept.json": {
+      "bytes": 459,
+      "sha256": "403e64ed869349f38d1e2d4f23967cdd6dc4645cedc0bdd95a3011a942920076"
+    },
+    "closed-authorization-drafts/remote-llama-extract.json": {
+      "bytes": 460,
+      "sha256": "bf8030670c286f4accb3c2ab9e9c19303e16db62f1407ab059e5078ae1468771"
+    },
+    "closed-authorization-drafts/remote-llama-token_audit.json": {
+      "bytes": 464,
+      "sha256": "33d5391d4511d1eeab32b47b12b47add20c9c2dbe785096e6435e607ae0253ad"
+    },
+    "closed-authorization-drafts/remote-llama-verify.json": {
+      "bytes": 459,
+      "sha256": "fbd35d620540cc9b8d19d5a01ac67a7ca8a470b8aa0edcbc757c6ce28ab31a73"
+    },
+    "closed-authorization-drafts/remote-qwen-accept.json": {
+      "bytes": 458,
+      "sha256": "de2000eb4aa8b9a26cb6f67c862d3141146a183c949d99ae660afed344dba23a"
+    },
+    "closed-authorization-drafts/remote-qwen-extract.json": {
+      "bytes": 459,
+      "sha256": "9e9f41c1a2cbdbe67221f82da3d8e7148df779f33ec69e9a5e480290917f3e9c"
+    },
+    "closed-authorization-drafts/remote-qwen-token_audit.json": {
+      "bytes": 463,
+      "sha256": "3fb41b72a1e6dd0a1fab9137a3f784f86a164711aaf794167c8192aee36203cc"
+    },
+    "closed-authorization-drafts/remote-qwen-verify.json": {
+      "bytes": 458,
+      "sha256": "62bd02f596c5eabb56866e4ca994c14d45707aaf248263ad9d0bd6a81846f99f"
+    },
+    "final_lock_20261004.json": {
+      "bytes": 15795,
+      "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+    },
+    "paths_and_scopes.json": {
+      "bytes": 27235,
+      "sha256": "2553eb827b78ec8c8ed8f75e24a130197649c991ae96413f73f517fcad586fe7"
+    },
+    "producer.bundle": {
+      "bytes": 176023,
+      "sha256": "da28abe3c64e50bffee3047003a621ee29b60dd46ceafd3052157ae796b7a1aa"
+    }
+  },
+  "phase_authorizations_approved": false,
+  "producer_checkout": {
+    "clean": true,
+    "detached": true,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/execution-code",
+    "sha": "b2c6dde71e82f5f0af308761bf19ed3341670587"
+  },
+  "remote_contacted": false,
+  "schema": "final-e-launch-transport-inventory-v1",
+  "transport_directory": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport"
+}

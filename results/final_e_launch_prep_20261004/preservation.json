@@ -1,0 +1,13 @@
+{
+  "active_correlation_job_not_interrupted": true,
+  "initial_snapshot_sha256": "75383037d8bfc5da2051f670116857e5941b0e1b9c8097ee924a29a130a8898b",
+  "intentional_new_worktrees": [
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-launch-prep-20261004",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/execution-code"
+  ],
+  "original_root_branch": "t2-research-discussion-packet-20261001",
+  "original_root_head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+  "original_worktrees_unchanged": 31,
+  "prior_accounting_metadata_unchanged": true,
+  "unrelated_file_bytes_preserved": 15
+}

@@ -1,0 +1,113 @@
+{
+  "base_sha": "f12d9faf65ff5e31efbbcfbdb71d110a2ccbeb1c",
+  "changed_file_list": [
+    "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-transfer.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-verify.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-both-transfer.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-accept.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-extract.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-token_audit.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-verify.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-accept.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-extract.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-token_audit.json",
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-verify.json",
+    "config/final_e/launch_preparation_20261004/paths_and_scopes.json",
+    "docs/final_e/LAUNCH_PREPARATION_20261004.md",
+    "results/final_e_launch_prep_20261004/accounting.json",
+    "results/final_e_launch_prep_20261004/evidence-inventory.json",
+    "results/final_e_launch_prep_20261004/preservation.json",
+    "results/final_e_launch_prep_20261004/saved-head-availability.json",
+    "results/final_e_launch_prep_20261004/transport-inventory.json",
+    "results/final_e_launch_prep_20261004/validate_preparation.py",
+    "results/final_e_launch_prep_20261004/validation-final.json",
+    "results/final_e_launch_prep_20261004/validation.json"
+  ],
+  "execution_authorized": false,
+  "files": {
+    "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-transfer.json": {
+      "bytes": 520,
+      "sha256": "cbd265a89a1bb9435e248ad21a7b06921178961e8ae289adbcb78c85bc15d2c9"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-verify.json": {
+      "bytes": 518,
+      "sha256": "9d9e02d111ab166e79ebfde81d01de2d9d8c1ea26cacd5956571c23ec8f8a9d9"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-both-transfer.json": {
+      "bytes": 460,
+      "sha256": "609c91af9de0212d8bea6aaf1ca894a6418387718ba654cdd8ec12156c45e805"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-accept.json": {
+      "bytes": 459,
+      "sha256": "403e64ed869349f38d1e2d4f23967cdd6dc4645cedc0bdd95a3011a942920076"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-extract.json": {
+      "bytes": 460,
+      "sha256": "bf8030670c286f4accb3c2ab9e9c19303e16db62f1407ab059e5078ae1468771"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-token_audit.json": {
+      "bytes": 464,
+      "sha256": "33d5391d4511d1eeab32b47b12b47add20c9c2dbe785096e6435e607ae0253ad"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-verify.json": {
+      "bytes": 459,
+      "sha256": "fbd35d620540cc9b8d19d5a01ac67a7ca8a470b8aa0edcbc757c6ce28ab31a73"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-accept.json": {
+      "bytes": 458,
+      "sha256": "de2000eb4aa8b9a26cb6f67c862d3141146a183c949d99ae660afed344dba23a"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-extract.json": {
+      "bytes": 459,
+      "sha256": "9e9f41c1a2cbdbe67221f82da3d8e7148df779f33ec69e9a5e480290917f3e9c"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-token_audit.json": {
+      "bytes": 463,
+      "sha256": "3fb41b72a1e6dd0a1fab9137a3f784f86a164711aaf794167c8192aee36203cc"
+    },
+    "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-verify.json": {
+      "bytes": 458,
+      "sha256": "62bd02f596c5eabb56866e4ca994c14d45707aaf248263ad9d0bd6a81846f99f"
+    },
+    "config/final_e/launch_preparation_20261004/paths_and_scopes.json": {
+      "bytes": 27235,
+      "sha256": "2553eb827b78ec8c8ed8f75e24a130197649c991ae96413f73f517fcad586fe7"
+    },
+    "docs/final_e/LAUNCH_PREPARATION_20261004.md": {
+      "bytes": 28070,
+      "sha256": "3560a3113941e16c0cbf38925ddddafe9d4fde5633277facb5ee3207a87cf4e8"
+    },
+    "results/final_e_launch_prep_20261004/accounting.json": {
+      "bytes": 14900,
+      "sha256": "e44803531a2ed69815934fd92b0400402146686d913e4e8e2fd1a5800cad38ac"
+    },
+    "results/final_e_launch_prep_20261004/preservation.json": {
+      "bytes": 679,
+      "sha256": "2cb036f4b177b5e61d9ca0bb272ff38ac0634890f7a5d72e5c38652c21b9206e"
+    },
+    "results/final_e_launch_prep_20261004/saved-head-availability.json": {
+      "bytes": 75374,
+      "sha256": "a86fcb0159932b86efbe7ef334c80e3ecd8116e7d13458d24565bac09577a21a"
+    },
+    "results/final_e_launch_prep_20261004/transport-inventory.json": {
+      "bytes": 4631,
+      "sha256": "1b692e44adacee2c6c49633bc915a360925c73a0c84755fa7fe3ecaa2698c42f"
+    },
+    "results/final_e_launch_prep_20261004/validate_preparation.py": {
+      "bytes": 17193,
+      "sha256": "959875dfbb288021eab9ba5f83cf28193b4bd2c42fb6e30e0cf2c2b2f6709e16"
+    },
+    "results/final_e_launch_prep_20261004/validation-final.json": {
+      "bytes": 5525,
+      "sha256": "6efec1d0d0d1cd5c47a9034430c20d6e0adb6897598a0602915b100ce58a108e"
+    },
+    "results/final_e_launch_prep_20261004/validation.json": {
+      "bytes": 5525,
+      "sha256": "6b5f3a7fb5e8d40b3e5cdaf7499166fd89f662b6effe08c083a9424d2cd63db1"
+    }
+  },
+  "phase_authorizations_approved": false,
+  "review_diff_external": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/review/preparation.diff",
+  "schema": "final-e-launch-preparation-evidence-v1",
+  "self_excluded": "results/final_e_launch_prep_20261004/evidence-inventory.json"
+}

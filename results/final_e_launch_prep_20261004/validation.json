@@ -1,0 +1,150 @@
+{
+  "E_outputs_opened": false,
+  "RunPod_contacted": false,
+  "accounting": {
+    "charged_seconds": {
+      "llama": 123.82646256202133,
+      "qwen": 160.83801023702836
+    },
+    "metadata_files": 32,
+    "operational_blockers": [],
+    "status": "no_local_intervening_charge_found"
+  },
+  "approved_phase_records_created": false,
+  "budget_adopted": false,
+  "closed_gate_rejections": [
+    {
+      "environment": "remote",
+      "model": "qwen",
+      "phase": "extract",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "qwen",
+      "phase": "token_audit",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "qwen",
+      "phase": "accept",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "qwen",
+      "phase": "verify",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "llama",
+      "phase": "extract",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "llama",
+      "phase": "token_audit",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "llama",
+      "phase": "accept",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "llama",
+      "phase": "verify",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "remote",
+      "model": "both",
+      "phase": "transfer",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "local",
+      "model": "both",
+      "phase": "transfer",
+      "rejection": "separate scoped execution authorization"
+    },
+    {
+      "environment": "local",
+      "model": "both",
+      "phase": "verify",
+      "rejection": "separate scoped execution authorization"
+    }
+  ],
+  "historical_validators_rerun": false,
+  "identity": {
+    "bundle": {
+      "advertised_heads": [
+        {
+          "ref": "HEAD",
+          "sha": "b2c6dde71e82f5f0af308761bf19ed3341670587"
+        }
+      ],
+      "bundle_object_paths_checked": 58,
+      "bytes": 176023,
+      "incremental_commits": 3,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/producer.bundle",
+      "prerequisites": [
+        "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+      ],
+      "prerequisites_verified_locally": true,
+      "prohibited_large_binary_paths": [],
+      "recipient_prerequisites_verified": false,
+      "recipient_repository": null,
+      "sha256": "da28abe3c64e50bffee3047003a621ee29b60dd46ceafd3052157ae796b7a1aa"
+    },
+    "bundle_verify": "The bundle contains this ref:\nb2c6dde71e82f5f0af308761bf19ed3341670587 HEAD\nThe bundle requires this ref:\n754ff1d7d362cf76ddb2bca681b32b2aeb7118f5 \nThe bundle uses this hash algorithm: sha1\n/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/producer.bundle is okay\n",
+    "final_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+    "immutable_pins": {
+      "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+      "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+      "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+      "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+      "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+      "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "producer_clean_detached": true,
+    "scientific_and_execution_files_unchanged": true,
+    "transport_files": 19
+  },
+  "model_loading": false,
+  "numerical_suite_run": false,
+  "paths_scopes_commands": {
+    "bash_blocks_syntax_checked": 11,
+    "commands_executed": false,
+    "prospective_argv_parsed": 11,
+    "scopes_checked": 11
+  },
+  "preservation": {
+    "active_correlation_job_not_interrupted": true,
+    "initial_snapshot_sha256": "75383037d8bfc5da2051f670116857e5941b0e1b9c8097ee924a29a130a8898b",
+    "intentional_new_worktrees": [
+      "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-launch-prep-20261004",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/execution-code"
+    ],
+    "original_root_branch": "t2-research-discussion-packet-20261001",
+    "original_root_head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+    "original_worktrees_unchanged": 31,
+    "prior_accounting_metadata_unchanged": true,
+    "unrelated_file_bytes_preserved": 15
+  },
+  "saved_heads": {
+    "constituent_cases": 12,
+    "heads": 85,
+    "operational_blockers": [],
+    "scalar_aliases": 156,
+    "scope": "source manifest hashes and reference-pin membership; existence/size for fit/parameter/preprocessing; selection-evidence content hashes only",
+    "unique_references": 180
+  },
+  "seconds": 4.1205901661887765,
+  "status": "PASS"
+}
