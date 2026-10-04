@@ -1,0 +1,58 @@
+{
+  "archive_metadata_preservation": false,
+  "copies": [
+    {
+      "destination": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+      "options": [
+        "-r",
+        "--ignore-existing",
+        "--stats"
+      ],
+      "returncode": 0,
+      "seconds": 605.5328139169142,
+      "source": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign/"
+    },
+    {
+      "destination": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/remote-operation-receipts",
+      "options": [
+        "-r",
+        "--ignore-existing",
+        "--stats"
+      ],
+      "returncode": 0,
+      "seconds": 1.5741382497362792,
+      "source": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/operation-receipts/"
+    },
+    {
+      "destination": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/remote-control",
+      "options": [
+        "-r",
+        "--ignore-existing",
+        "--stats"
+      ],
+      "returncode": 0,
+      "seconds": 2.100470207631588,
+      "source": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/"
+    },
+    {
+      "destination": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff",
+      "options": [
+        "-r",
+        "--ignore-existing",
+        "--stats"
+      ],
+      "returncode": 0,
+      "seconds": 1.8017075001262128,
+      "source": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/manifests/"
+    }
+  ],
+  "elapsed_seconds": 611.0592266670428,
+  "independently_captured_manifest_pins": {
+    "campaign-checksums.json": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870",
+    "control-checksums.json": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab",
+    "operation-receipt-checksums.json": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+  },
+  "measured_bytes_per_second": 14882943.224476917,
+  "payload_bytes": 9094359781,
+  "status": "copied; checksum and loader acceptance pending"
+}

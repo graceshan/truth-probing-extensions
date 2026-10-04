@@ -1,0 +1,330 @@
+{
+  "llama": {
+    "acceptance_status": "independently_accepted_E_raw",
+    "attempt": "20261004T203157Z-1c969d8d500e4c9a9aa25d7b4404ef87",
+    "coverage": {
+      "campaign": {
+        "batch_size": 1,
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "metadata_sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8",
+        "padding": "none",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "raw_contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+        "schema": "final-e-raw-campaign-v1",
+        "scientific_evaluation": false
+      },
+      "index": {
+        "bytes": 1627026,
+        "sha256": "c7d6a55c9512dfdabcfdc4112af3fdb014203c05f46bd765fe74325f15e80366"
+      },
+      "logical_bindings": 19424,
+      "model": "llama",
+      "schema": "final-e-loader-verification-v1",
+      "shards": 150,
+      "status": "loader_verified",
+      "token_plan": {
+        "bytes": 39250916,
+        "sha256": "8b41138d7dbeafa98d608d4d236bb065102f870ded141760d3489d1af8198663"
+      },
+      "unique_texts": 19190
+    },
+    "cuda_peak_bytes": {
+      "allocated": 16085015040,
+      "reserved": 16234053632
+    },
+    "phase_outcomes": {
+      "accept": {
+        "access": {
+          "authorization_sha256": "60f5f7e89202bc08135943db197a4c0741e36805687c9f56680b416c94440526",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "llama",
+          "phase": "accept",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 49.76560167083517,
+        "status": "completed"
+      },
+      "token_audit": {
+        "access": {
+          "authorization_sha256": "7a2bfd62d667447bf40f4b2b793ac1464f894e83d35d4456ca222a2f9cf0b72d",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "llama",
+          "phase": "token_audit",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 108.34885998512618,
+        "status": "completed"
+      },
+      "verify": {
+        "access": {
+          "authorization_sha256": "6a3ef057b15b33e2d2eddb8658467ef49ad71284012d3b2611d8a1f04c7c5841",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "llama",
+          "phase": "verify",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 36.31614088709466,
+        "status": "completed"
+      }
+    },
+    "resource": {
+      "access": {
+        "authorization_sha256": "8ca73db618c44238889600bd03bb10afaf65a8fae7c3df7e22d2e29c4ebca44b",
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+        "limits": {
+          "model_seconds": 7200,
+          "setup_phase_seconds": 1800,
+          "total_seconds": 18000
+        },
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "model": "llama",
+        "phase": "extract",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "schema": "final-e-access-v1"
+      },
+      "attempts_never_reset": true,
+      "costs_seconds": {
+        "filesystem": 0.36069164611399174,
+        "forward_writing_verification": 936.0556502379477,
+        "model_loading": 68.31913156295195,
+        "runtime_verification": 17.4230039420072,
+        "snapshot_and_tokenizer": 71.46282878192142,
+        "storage_allocation_verification": 268.24598929681815,
+        "teardown": 0.4810543810017407,
+        "tokenization": 4.655990234110504
+      },
+      "error": null,
+      "measured": true,
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "status": "completed",
+      "wall_seconds": 1373.0999616989866
+    },
+    "storage": {
+      "actual_write_and_readback_bytes": 28447937454,
+      "operations": [
+        "fsync_file",
+        "exclusive_atomic_link",
+        "fsync_directory",
+        "refuse_overwrite",
+        "remove_partial",
+        "atomic_replace",
+        "reopen_hash"
+      ],
+      "parent": "/workspace",
+      "power_loss_durability": "not established by process-level checks",
+      "quota_verified": "bounded reservation only; full production quota NOT established",
+      "reported_free_bytes": 271584943210496,
+      "reserve_bytes": 28447937454
+    },
+    "supervisor_pid": 3526,
+    "token_audit_status": "independently_reconstructed"
+  },
+  "qwen": {
+    "acceptance_status": "independently_accepted_E_raw",
+    "attempt": "20261004T200711Z-3838745b0e5a40caa34ff8be7005f599",
+    "coverage": {
+      "campaign": {
+        "batch_size": 1,
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "metadata_sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8",
+        "padding": "none",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "raw_contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+        "schema": "final-e-raw-campaign-v1",
+        "scientific_evaluation": false
+      },
+      "index": {
+        "bytes": 1627025,
+        "sha256": "d2c8064668b6676d9e013d732db7a32b2779e9e9a55d658e0d602c39479a9bca"
+      },
+      "logical_bindings": 19424,
+      "model": "qwen",
+      "schema": "final-e-loader-verification-v1",
+      "shards": 150,
+      "status": "loader_verified",
+      "token_plan": {
+        "bytes": 38210166,
+        "sha256": "a003a60a933b4997f0cef8001c925771ebddca00d3f5f292743219190978a2f4"
+      },
+      "unique_texts": 19190
+    },
+    "cuda_peak_bytes": {
+      "allocated": 15298184704,
+      "reserved": 15424552960
+    },
+    "phase_outcomes": {
+      "accept": {
+        "access": {
+          "authorization_sha256": "38fa498b94fdc2fd804616dc952d557ceefcf0a6f7d6e6d5a7e211dae544288f",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "qwen",
+          "phase": "accept",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 45.5886455650907,
+        "status": "completed"
+      },
+      "token_audit": {
+        "access": {
+          "authorization_sha256": "43765d4f35403a50da8088bc734007acecde25fb6173c65b1f79a24145af37a8",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "qwen",
+          "phase": "token_audit",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 108.27185061201453,
+        "status": "completed"
+      },
+      "verify": {
+        "access": {
+          "authorization_sha256": "fc5379a3a62e8ac4b505983072fe182e12bbc27868d31f9e197330e102999c98",
+          "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+          "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+          "limits": {
+            "model_seconds": 7200,
+            "setup_phase_seconds": 1800,
+            "total_seconds": 18000
+          },
+          "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+          "model": "qwen",
+          "phase": "verify",
+          "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+          "schema": "final-e-access-v1"
+        },
+        "cap_seconds": 1800,
+        "error": null,
+        "measured": true,
+        "model_loaded": false,
+        "schema": "final-e-operation-receipt-v1",
+        "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+        "seconds": 33.59975632093847,
+        "status": "completed"
+      }
+    },
+    "resource": {
+      "access": {
+        "authorization_sha256": "02e8ef6f1e97a4574fc12efe63879680071823048c55c93f1aa01c1b6a75e0c4",
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+        "limits": {
+          "model_seconds": 7200,
+          "setup_phase_seconds": 1800,
+          "total_seconds": 18000
+        },
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "model": "qwen",
+        "phase": "extract",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "schema": "final-e-access-v1"
+      },
+      "attempts_never_reset": true,
+      "costs_seconds": {
+        "filesystem": 0.27052512601949275,
+        "forward_writing_verification": 863.1304290960543,
+        "model_loading": 18.574812506092712,
+        "runtime_verification": 30.56799368094653,
+        "snapshot_and_tokenizer": 72.93729906296358,
+        "storage_allocation_verification": 277.2894287148956,
+        "teardown": 0.4313857168890536,
+        "tokenization": 4.773696685908362
+      },
+      "error": null,
+      "measured": true,
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "status": "completed",
+      "wall_seconds": 1273.916461968096
+    },
+    "storage": {
+      "actual_write_and_readback_bytes": 28437984635,
+      "operations": [
+        "fsync_file",
+        "exclusive_atomic_link",
+        "fsync_directory",
+        "refuse_overwrite",
+        "remove_partial",
+        "atomic_replace",
+        "reopen_hash"
+      ],
+      "parent": "/workspace",
+      "power_loss_durability": "not established by process-level checks",
+      "quota_verified": "bounded reservation only; full production quota NOT established",
+      "reported_free_bytes": 272549927780352,
+      "reserve_bytes": 28437984635
+    },
+    "supervisor_pid": 3009,
+    "token_audit_status": "independently_reconstructed"
+  }
+}

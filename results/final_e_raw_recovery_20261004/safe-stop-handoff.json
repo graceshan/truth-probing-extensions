@@ -1,0 +1,50 @@
+{
+  "RunPod_can_be_stopped_by_user": true,
+  "budget": {
+    "as_of_unix": 1791147296.0317307,
+    "model": null,
+    "model_seconds": {
+      "llama": 1128.7931210140814,
+      "qwen": 1043.0739877090673
+    },
+    "running": false,
+    "total_seconds": 2946.696421564091,
+    "unclean_gap_charged_seconds": 0.0
+  },
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "campaign_workers_stopped": true,
+  "durable_campaign": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+  "issued_at_unix": 1791149624.888823,
+  "local_authorization_index_sha256": "8e3ee5103379a8ccd3805439deb1ffeb3fbf9fddb2bbcf3fbf1573bd187362e5",
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "manifest_pins": {
+    "campaign-checksums.json": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870",
+    "control-checksums.json": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab",
+    "operation-receipt-checksums.json": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+  },
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "producer_tree_sha": "93972950bca996dbfa9794dedf07934868b42e98",
+  "remote_authorization_index_sha256": "86ccbb56dc882ec42c7865b1b590c4a42703c8ac3c286d74352eb3c3dd33c908",
+  "schema": "final-e-safe-stop-handoff-v1",
+  "scientific_audit_authorized": false,
+  "scientific_evaluation_authorized": false,
+  "status": "raw_acquisition_and_durable_Mac_handoff_accepted",
+  "supporting_receipts": {
+    "campaign-checksums.json": {
+      "bytes": 900,
+      "sha256": "035d000d88cd8ed0716af0dcb659d34e2a8d3d7ea09703c521a7b8ec43efcf0c"
+    },
+    "control-receipt-checksums.json": {
+      "bytes": 471,
+      "sha256": "bed6534e24202c6175b5cb7e615f129ede64631a8f9135257a852b1f2399eeb7"
+    },
+    "final-stopped-workers-observation.json": {
+      "bytes": 890,
+      "sha256": "e11a68f61f5c8e5070838ace142a1cf15a80db95831cc7a82e6a3dbf9ca3c83e"
+    },
+    "full-loader.json": {
+      "bytes": 899,
+      "sha256": "30d508fe71c614ddb3db2ecbde5abf24c238b8384c055d25b0f4af54f027bea7"
+    }
+  }
+}

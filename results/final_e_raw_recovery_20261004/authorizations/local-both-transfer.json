@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "instruction": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "model": "both",
+  "output": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+  "phase": "transfer",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "reviewer": "user/project owner",
+  "schema": "final-e-phase-authorization-v1",
+  "status": "APPROVED"
+}

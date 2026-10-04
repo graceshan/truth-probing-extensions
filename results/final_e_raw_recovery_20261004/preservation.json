@@ -1,0 +1,15 @@
+{
+  "file_count": 126,
+  "historical_file_pins_evidence": {
+    "file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/recovery-receipts-20261004-v1/preservation-after.json",
+    "sha256": "b4e460e1b093947a3391ce771786c11990665a7a21bbddf2d24c4b0a1e7ad081"
+  },
+  "local_detached_execution_checkout_clean": true,
+  "no_authorizations_regenerated": true,
+  "original_continuation_worktree_preserved": true,
+  "original_failed_transfer_exit_code": 23,
+  "original_failure_preserved": true,
+  "scientific_modules_unchanged": true,
+  "status": "PASS",
+  "unrelated_processes_not_interrupted": true
+}

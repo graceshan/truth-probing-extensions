@@ -1,0 +1,526 @@
+{
+  "E_phase_dispatch": false,
+  "authorization_record_hashes": {
+    "both:transfer": "890267190321791db3580e18f485f133db005719b35108bf65051a03da1f14bc",
+    "llama:accept": "60f5f7e89202bc08135943db197a4c0741e36805687c9f56680b416c94440526",
+    "llama:extract": "8ca73db618c44238889600bd03bb10afaf65a8fae7c3df7e22d2e29c4ebca44b",
+    "llama:token_audit": "7a2bfd62d667447bf40f4b2b793ac1464f894e83d35d4456ca222a2f9cf0b72d",
+    "llama:verify": "6a3ef057b15b33e2d2eddb8658467ef49ad71284012d3b2611d8a1f04c7c5841",
+    "qwen:accept": "38fa498b94fdc2fd804616dc952d557ceefcf0a6f7d6e6d5a7e211dae544288f",
+    "qwen:extract": "02e8ef6f1e97a4574fc12efe63879680071823048c55c93f1aa01c1b6a75e0c4",
+    "qwen:token_audit": "43765d4f35403a50da8088bc734007acecde25fb6173c65b1f79a24145af37a8",
+    "qwen:verify": "fc5379a3a62e8ac4b505983072fe182e12bbc27868d31f9e197330e102999c98"
+  },
+  "authorized_access_checks": [
+    {
+      "authorization_sha256": "890267190321791db3580e18f485f133db005719b35108bf65051a03da1f14bc",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "both",
+      "phase": "transfer",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "60f5f7e89202bc08135943db197a4c0741e36805687c9f56680b416c94440526",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "llama",
+      "phase": "accept",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "8ca73db618c44238889600bd03bb10afaf65a8fae7c3df7e22d2e29c4ebca44b",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "llama",
+      "phase": "extract",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "7a2bfd62d667447bf40f4b2b793ac1464f894e83d35d4456ca222a2f9cf0b72d",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "llama",
+      "phase": "token_audit",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "6a3ef057b15b33e2d2eddb8658467ef49ad71284012d3b2611d8a1f04c7c5841",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "llama",
+      "phase": "verify",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "38fa498b94fdc2fd804616dc952d557ceefcf0a6f7d6e6d5a7e211dae544288f",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "qwen",
+      "phase": "accept",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "02e8ef6f1e97a4574fc12efe63879680071823048c55c93f1aa01c1b6a75e0c4",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "qwen",
+      "phase": "extract",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "43765d4f35403a50da8088bc734007acecde25fb6173c65b1f79a24145af37a8",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "qwen",
+      "phase": "token_audit",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    {
+      "authorization_sha256": "fc5379a3a62e8ac4b505983072fe182e12bbc27868d31f9e197330e102999c98",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "qwen",
+      "phase": "verify",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    }
+  ],
+  "bridge": {
+    "bytes": 1578104,
+    "inventory_sha256": "2448da945e2ad60519e12ea80073bac2a5e4a52381c807b0e241ae76eaa9069d",
+    "prerequisite": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+    "sha256": "0fb71490a922b3bf5bb29ae233a3c60d1129b9b58ae2405601f6c1823ea67341",
+    "target": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+  },
+  "budget_adopted": false,
+  "clean_detached": true,
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "status",
+        "--porcelain"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "--is-shallow-repository"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "false\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "merge-base",
+        "--is-ancestor",
+        "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d",
+        "6865bfa43c52d9c5d7d3c96df90351ad8f895aea"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "show-ref",
+        "--verify",
+        "--quiet",
+        "refs/review/final-e-bridge-20261004-754ff1d"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "show-ref",
+        "--verify",
+        "--quiet",
+        "refs/review/final-e-raw-20261004-b2c6dde-88b114dd-v1"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "bundle",
+        "list-heads",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5 refs/heads/final-e-bridge-20261004\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "bundle",
+        "verify",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle is okay\n",
+      "stdout": "The bundle contains this ref:\n754ff1d7d362cf76ddb2bca681b32b2aeb7118f5 refs/heads/final-e-bridge-20261004\nThe bundle requires this ref:\n6865bfa43c52d9c5d7d3c96df90351ad8f895aea \nThe bundle uses this hash algorithm: sha1\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "transfer.fsckObjects=true",
+        "fetch",
+        "--no-tags",
+        "--no-write-fetch-head",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle",
+        "refs/heads/final-e-bridge-20261004:refs/review/final-e-bridge-20261004-754ff1d"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "From /workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle\n * [new branch]      final-e-bridge-20261004 -> refs/review/final-e-bridge-20261004-754ff1d\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "refs/review/final-e-bridge-20261004-754ff1d"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "fsck",
+        "--full",
+        "--strict"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "bundle",
+        "list-heads",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/producer.bundle"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "b2c6dde71e82f5f0af308761bf19ed3341670587 HEAD\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "bundle",
+        "verify",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/producer.bundle"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/producer.bundle is okay\n",
+      "stdout": "The bundle contains this ref:\nb2c6dde71e82f5f0af308761bf19ed3341670587 HEAD\nThe bundle requires this ref:\n754ff1d7d362cf76ddb2bca681b32b2aeb7118f5 \nThe bundle uses this hash algorithm: sha1\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "transfer.fsckObjects=true",
+        "fetch",
+        "--no-tags",
+        "--no-write-fetch-head",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/producer.bundle",
+        "HEAD:refs/review/final-e-raw-20261004-b2c6dde-88b114dd-v1"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "From /workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/producer.bundle\n * [new ref]         HEAD       -> refs/review/final-e-raw-20261004-b2c6dde-88b114dd-v1\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "refs/review/final-e-raw-20261004-b2c6dde-88b114dd-v1"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "b2c6dde71e82f5f0af308761bf19ed3341670587\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "b2c6dde71e82f5f0af308761bf19ed3341670587^{tree}"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "93972950bca996dbfa9794dedf07934868b42e98\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "fsck",
+        "--full",
+        "--strict"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "worktree",
+        "add",
+        "--detach",
+        "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/execution-code",
+        "b2c6dde71e82f5f0af308761bf19ed3341670587"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "Preparing worktree (detached HEAD b2c6dde)\nUpdating files:   7% (110/1536)\nUpdating files:   8% (123/1536)\nUpdating files:   8% (138/1536)\nUpdating files:   9% (139/1536)\nUpdating files:  10% (154/1536)\nUpdating files:  10% (166/1536)\nUpdating files:  11% (169/1536)\nUpdating files:  12% (185/1536)\nUpdating files:  12% (189/1536)\nUpdating files:  13% (200/1536)\nUpdating files:  14% (216/1536)\nUpdating files:  15% (231/1536)\nUpdating files:  15% (239/1536)\nUpdating files:  16% (246/1536)\nUpdating files:  17% (262/1536)\nUpdating files:  17% (275/1536)\nUpdating files:  18% (277/1536)\nUpdating files:  19% (292/1536)\nUpdating files:  20% (308/1536)\nUpdating files:  21% (323/1536)\nUpdating files:  21% (325/1536)\nUpdating files:  22% (338/1536)\nUpdating files:  23% (354/1536)\nUpdating files:  24% (369/1536)\nUpdating files:  24% (379/1536)\nUpdating files:  25% (384/1536)\nUpdating files:  26% (400/1536)\nUpdating files:  27% (415/1536)\nUpdating files:  28% (431/1536)\nUpdating files:  28% (436/1536)\nUpdating files:  29% (446/1536)\nUpdating files:  30% (461/1536)\nUpdating files:  31% (477/1536)\nUpdating files:  32% (492/1536)\nUpdating files:  33% (507/1536)\nUpdating files:  33% (522/1536)\nUpdating files:  34% (523/1536)\nUpdating files:  35% (538/1536)\nUpdating files:  36% (553/1536)\nUpdating files:  37% (569/1536)\nUpdating files:  38% (584/1536)\nUpdating files:  39% (600/1536)\nUpdating files:  40% (615/1536)\nUpdating files:  41% (630/1536)\nUpdating files:  41% (634/1536)\nUpdating files:  42% (646/1536)\nUpdating files:  43% (661/1536)\nUpdating files:  44% (676/1536)\nUpdating files:  45% (692/1536)\nUpdating files:  45% (700/1536)\nUpdating files:  46% (707/1536)\nUpdating files:  47% (722/1536)\nUpdating files:  48% (738/1536)\nUpdating files:  49% (753/1536)\nUpdating files:  50% (768/1536)\nUpdating files:  50% (780/1536)\nUpdating files:  51% (784/1536)\nUpdating files:  52% (799/1536)\nUpdating files:  53% (815/1536)\nUpdating files:  54% (830/1536)\nUpdating files:  55% (845/1536)\nUpdating files:  56% (861/1536)\nUpdating files:  57% (876/1536)\nUpdating files:  58% (891/1536)\nUpdating files:  59% (907/1536)\nUpdating files:  60% (922/1536)\nUpdating files:  60% (924/1536)\nUpdating files:  61% (937/1536)\nUpdating files:  62% (953/1536)\nUpdating files:  63% (968/1536)\nUpdating files:  63% (982/1536)\nUpdating files:  64% (984/1536)\nUpdating files:  65% (999/1536)\nUpdating files:  66% (1014/1536)\nUpdating files:  67% (1030/1536)\nUpdating files:  68% (1045/1536)\nUpdating files:  69% (1060/1536)\nUpdating files:  70% (1076/1536)\nUpdating files:  71% (1091/1536)\nUpdating files:  72% (1106/1536)\nUpdating files:  73% (1122/1536)\nUpdating files:  74% (1137/1536)\nUpdating files:  75% (1152/1536)\nUpdating files:  76% (1168/1536)\nUpdating files:  77% (1183/1536)\nUpdating files:  77% (1197/1536)\nUpdating files:  78% (1199/1536)\nUpdating files:  79% (1214/1536)\nUpdating files:  80% (1229/1536)\nUpdating files:  81% (1245/1536)\nUpdating files:  82% (1260/1536)\nUpdating files:  83% (1275/1536)\nUpdating files:  84% (1291/1536)\nUpdating files:  85% (1306/1536)\nUpdating files:  85% (1318/1536)\nUpdating files:  86% (1321/1536)\nUpdating files:  87% (1337/1536)\nUpdating files:  88% (1352/1536)\nUpdating files:  89% (1368/1536)\nUpdating files:  90% (1383/1536)\nUpdating files:  91% (1398/1536)\nUpdating files:  92% (1414/1536)\nUpdating files:  93% (1429/1536)\nUpdating files:  94% (1444/1536)\nUpdating files:  94% (1455/1536)\nUpdating files:  95% (1460/1536)\nUpdating files:  96% (1475/1536)\nUpdating files:  97% (1490/1536)\nUpdating files:  98% (1506/1536)\nUpdating files:  99% (1521/1536)\nUpdating files: 100% (1536/1536)\nUpdating files: 100% (1536/1536), done.\n",
+      "stdout": "HEAD is now at b2c6dde Fix locked-E raw publication and accounting gates; independently check principal numerics\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/execution-code",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "b2c6dde71e82f5f0af308761bf19ed3341670587\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "status",
+        "--porcelain"
+      ],
+      "cwd": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/execution-code",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "symbolic-ref",
+        "-q",
+        "HEAD"
+      ],
+      "cwd": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/execution-code",
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "status",
+        "--porcelain"
+      ],
+      "cwd": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/execution-code",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "status",
+        "--porcelain"
+      ],
+      "cwd": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    }
+  ],
+  "immutable_pins": {
+    "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+    "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+  },
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "new_refs": [
+    "refs/review/final-e-bridge-20261004-754ff1d",
+    "refs/review/final-e-raw-20261004-b2c6dde-88b114dd-v1"
+  ],
+  "object_integrity_checks": "full strict fsck after both imports",
+  "observed_at_unix": 1791144358.9368143,
+  "original_bundle": {
+    "bytes": 176023,
+    "sha256": "da28abe3c64e50bffee3047003a621ee29b60dd46ceafd3052157ae796b7a1aa"
+  },
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "producer_tree_sha": "93972950bca996dbfa9794dedf07934868b42e98",
+  "recipient_repository": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "remote_authorization_index_sha256": "86ccbb56dc882ec42c7865b1b590c4a42703c8ac3c286d74352eb3c3dd33c908",
+  "source_head_preserved": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "source_worktree_status_preserved": "",
+  "status": "PASS"
+}

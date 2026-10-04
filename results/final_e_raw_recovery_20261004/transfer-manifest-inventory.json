@@ -1,0 +1,23 @@
+{
+  "campaign-checksums.json": {
+    "bytes": 235722,
+    "file_bytes": 9092446740,
+    "file_count": 1530,
+    "independently_captured": true,
+    "sha256": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870"
+  },
+  "control-checksums.json": {
+    "bytes": 6008,
+    "file_bytes": 1899044,
+    "file_count": 37,
+    "independently_captured": true,
+    "sha256": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab"
+  },
+  "operation-receipt-checksums.json": {
+    "bytes": 2773,
+    "file_bytes": 13997,
+    "file_count": 20,
+    "independently_captured": true,
+    "sha256": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+  }
+}

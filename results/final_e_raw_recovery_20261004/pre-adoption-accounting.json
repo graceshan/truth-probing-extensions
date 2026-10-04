@@ -1,0 +1,320 @@
+{
+  "additional_or_changed_records": [],
+  "budget_adopted": false,
+  "charged_seconds": {
+    "llama": 123.82646256202133,
+    "qwen": 160.83801023702836
+  },
+  "local_metadata_pins_reverified": 32,
+  "missing_required_records": [],
+  "remote_metadata": {
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 378209.727387442,
+        "utc": 1791067652.5491884
+      },
+      "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json": {
+      "bytes": 83,
+      "record": {
+        "active_seconds": 41.1570940479869,
+        "exit_code": 1,
+        "status": "finished"
+      },
+      "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json": {
+      "bytes": 90,
+      "record": {
+        "phase": "missing_raw",
+        "remaining_gpu_seconds": 7200,
+        "utc": 1791067577.695509
+      },
+      "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 377917.038271197,
+        "utc": 1791067359.8600721
+      },
+      "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json": {
+      "bytes": 85,
+      "record": {
+        "active_seconds": 100.81950526899891,
+        "exit_code": 0,
+        "status": "finished"
+      },
+      "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json": {
+      "bytes": 91,
+      "record": {
+        "phase": "missing_raw",
+        "remaining_gpu_seconds": 7200,
+        "utc": 1791067312.1721213
+      },
+      "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 378621.673634397,
+        "utc": 1791068064.4954357
+      },
+      "sha256": "4652441f2225e43486dfb3ba8c7d6fce64d0a05d4d58a0253c04e6c7fbe14a59"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json": {
+      "bytes": 84,
+      "record": {
+        "active_seconds": 60.01850496802945,
+        "exit_code": 1,
+        "status": "finished"
+      },
+      "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json": {
+      "bytes": 102,
+      "record": {
+        "phase": "preflight",
+        "remaining_gpu_seconds": 7099.180494731001,
+        "utc": 1791067998.7624192
+      },
+      "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/llama-campaign.json": {
+      "bytes": 429,
+      "record": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "llama",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      },
+      "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+    },
+    "/workspace/checkpoint-next-integration-output-9b0ac1d84b35d7faf2148d43664569aa867cba52/qwen-campaign.json": {
+      "bytes": 428,
+      "record": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "qwen",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      },
+      "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+    },
+    "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json": {
+      "bytes": 64,
+      "record": {
+        "monotonic": 383775.344139646,
+        "utc": 1791073218.165942
+      },
+      "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+    },
+    "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json": {
+      "bytes": 84,
+      "record": {
+        "active_seconds": 82.66936851403443,
+        "exit_code": 0,
+        "status": "finished"
+      },
+      "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+    },
+    "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json": {
+      "bytes": 390,
+      "record": {
+        "adoption_sha256": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9",
+        "campaign_budget_before_attempt": {
+          "charged_seconds": 41.1570940479869,
+          "original_seconds": 41.1570940479869,
+          "remaining_seconds": 7158.842905952013,
+          "successor_seconds": 0
+        },
+        "phase": "missing_raw",
+        "remaining_gpu_seconds": 7158.842905952013,
+        "utc": 1791073155.9624891
+      },
+      "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+    },
+    "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/llama-campaign.json": {
+      "bytes": 525,
+      "record": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "llama",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+        "raw_only_config_sha256": "aa49705098881035a9855f75f409c018f34d79bbabf68e7f7631e89b7d59a2ca"
+      },
+      "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 378209.727387442,
+        "utc": 1791067652.5491884
+      },
+      "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json": {
+      "bytes": 83,
+      "record": {
+        "active_seconds": 41.1570940479869,
+        "exit_code": 1,
+        "status": "finished"
+      },
+      "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json": {
+      "bytes": 90,
+      "record": {
+        "phase": "missing_raw",
+        "remaining_gpu_seconds": 7200,
+        "utc": 1791067577.695509
+      },
+      "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 377917.038271197,
+        "utc": 1791067359.8600721
+      },
+      "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json": {
+      "bytes": 85,
+      "record": {
+        "active_seconds": 100.81950526899891,
+        "exit_code": 0,
+        "status": "finished"
+      },
+      "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json": {
+      "bytes": 91,
+      "record": {
+        "phase": "missing_raw",
+        "remaining_gpu_seconds": 7200,
+        "utc": 1791067312.1721213
+      },
+      "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json": {
+      "bytes": 65,
+      "record": {
+        "monotonic": 378621.673634397,
+        "utc": 1791068064.4954357
+      },
+      "sha256": "4652441f2225e43486dfb3ba8c7d6fce64d0a05d4d58a0253c04e6c7fbe14a59"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json": {
+      "bytes": 84,
+      "record": {
+        "active_seconds": 60.01850496802945,
+        "exit_code": 1,
+        "status": "finished"
+      },
+      "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json": {
+      "bytes": 102,
+      "record": {
+        "phase": "preflight",
+        "remaining_gpu_seconds": 7099.180494731001,
+        "utc": 1791067998.7624192
+      },
+      "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/llama-campaign.json": {
+      "bytes": 429,
+      "record": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "llama",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      },
+      "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+    },
+    "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight/qwen-campaign.json": {
+      "bytes": 428,
+      "record": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "qwen",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      },
+      "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+    },
+    "/workspace/checkpoint-r2-full-raw-20261002/attempts/00000/supervisor-exit.json": {
+      "bytes": 481,
+      "record": {
+        "budget": {
+          "as_of_unix": 1790972203.0853653,
+          "model": null,
+          "model_seconds": {
+            "llama": 1778.174554030993,
+            "qwen": 1581.9623419569689
+          },
+          "running": false,
+          "total_seconds": 3578.910803561972,
+          "unclean_gap_charged_seconds": 0.0
+        },
+        "budget_reset_allowed": false,
+        "cap_reason": null,
+        "interrupted": false,
+        "limits": {
+          "model_seconds": 5400,
+          "setup_phase_seconds": 1800,
+          "total_seconds": 12600
+        },
+        "returncode": 0
+      },
+      "sha256": "0d38ad674917d7a9f6d5fa07f8f4ba58754a8e32a960eab27165bc9d7645ec3e"
+    },
+    "/workspace/checkpoint-r2-full-raw-20261002/campaign.json": {
+      "bytes": 382,
+      "record": {
+        "commit": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+        "contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+        "limits": {
+          "model_seconds": 5400,
+          "setup_phase_seconds": 1800,
+          "total_seconds": 12600
+        },
+        "manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+        "schema": "r2-full-raw-campaign-v1"
+      },
+      "sha256": "44ac74062b5105cf98765fa217873b98b5287bf814ad1ff4d1f914def423fea8"
+    },
+    "/workspace/checkpoint-r2-full-raw-20261002/full-budget.json": {
+      "bytes": 241,
+      "record": {
+        "as_of_unix": 1790972203.0853653,
+        "model": null,
+        "model_seconds": {
+          "llama": 1778.174554030993,
+          "qwen": 1581.9623419569689
+        },
+        "running": false,
+        "total_seconds": 3578.910803561972,
+        "unclean_gap_charged_seconds": 0.0
+      },
+      "sha256": "5e4aad959711bbf73f35d645a856d9cf2176effa8d7e68a9356da40f0ab5d661"
+    }
+  },
+  "status": "PASS",
+  "unique_finished_attempts": 4
+}

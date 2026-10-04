@@ -1,0 +1,10 @@
+{
+  "bridge_and_import_evidence_verified": true,
+  "complete_control_and_operation_receipt_coverage": true,
+  "independent_manifest_pins": {
+    "campaign-checksums.json": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870",
+    "control-checksums.json": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab",
+    "operation-receipt-checksums.json": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+  },
+  "status": "PASS"
+}

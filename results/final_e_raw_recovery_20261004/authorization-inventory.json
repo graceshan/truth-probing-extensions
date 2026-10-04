@@ -1,0 +1,329 @@
+{
+  "expected_index_sha256": {
+    "local": "8e3ee5103379a8ccd3805439deb1ffeb3fbf9fddb2bbcf3fbf1573bd187362e5",
+    "remote": "86ccbb56dc882ec42c7865b1b590c4a42703c8ac3c286d74352eb3c3dd33c908"
+  },
+  "records": [
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-qwen-extract.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-extract.json",
+      "draft_sha256": "9e9f41c1a2cbdbe67221f82da3d8e7148df779f33ec69e9a5e480290917f3e9c",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-qwen-extract.json",
+      "model": "qwen",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "extract",
+      "sha256": "02e8ef6f1e97a4574fc12efe63879680071823048c55c93f1aa01c1b6a75e0c4"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-qwen-token_audit.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-token_audit.json",
+      "draft_sha256": "3fb41b72a1e6dd0a1fab9137a3f784f86a164711aaf794167c8192aee36203cc",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-qwen-token_audit.json",
+      "model": "qwen",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "token_audit",
+      "sha256": "43765d4f35403a50da8088bc734007acecde25fb6173c65b1f79a24145af37a8"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-qwen-accept.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-accept.json",
+      "draft_sha256": "de2000eb4aa8b9a26cb6f67c862d3141146a183c949d99ae660afed344dba23a",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-qwen-accept.json",
+      "model": "qwen",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "accept",
+      "sha256": "38fa498b94fdc2fd804616dc952d557ceefcf0a6f7d6e6d5a7e211dae544288f"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-qwen-verify.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-qwen-verify.json",
+      "draft_sha256": "62bd02f596c5eabb56866e4ca994c14d45707aaf248263ad9d0bd6a81846f99f",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-qwen-verify.json",
+      "model": "qwen",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "verify",
+      "sha256": "fc5379a3a62e8ac4b505983072fe182e12bbc27868d31f9e197330e102999c98"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-llama-extract.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-extract.json",
+      "draft_sha256": "bf8030670c286f4accb3c2ab9e9c19303e16db62f1407ab059e5078ae1468771",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-llama-extract.json",
+      "model": "llama",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "extract",
+      "sha256": "8ca73db618c44238889600bd03bb10afaf65a8fae7c3df7e22d2e29c4ebca44b"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-llama-token_audit.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-token_audit.json",
+      "draft_sha256": "33d5391d4511d1eeab32b47b12b47add20c9c2dbe785096e6435e607ae0253ad",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-llama-token_audit.json",
+      "model": "llama",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "token_audit",
+      "sha256": "7a2bfd62d667447bf40f4b2b793ac1464f894e83d35d4456ca222a2f9cf0b72d"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-llama-accept.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-accept.json",
+      "draft_sha256": "403e64ed869349f38d1e2d4f23967cdd6dc4645cedc0bdd95a3011a942920076",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-llama-accept.json",
+      "model": "llama",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "accept",
+      "sha256": "60f5f7e89202bc08135943db197a4c0741e36805687c9f56680b416c94440526"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-llama-verify.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-llama-verify.json",
+      "draft_sha256": "fbd35d620540cc9b8d19d5a01ac67a7ca8a470b8aa0edcbc757c6ce28ab31a73",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-llama-verify.json",
+      "model": "llama",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "verify",
+      "sha256": "6a3ef057b15b33e2d2eddb8658467ef49ad71284012d3b2611d8a1f04c7c5841"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/authorizations/remote-both-transfer.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/remote-both-transfer.json",
+      "draft_sha256": "609c91af9de0212d8bea6aaf1ca894a6418387718ba654cdd8ec12156c45e805",
+      "environment": "remote",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/approved-control-staging/remote/authorizations/remote-both-transfer.json",
+      "model": "both",
+      "output": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/campaign",
+      "phase": "transfer",
+      "sha256": "890267190321791db3580e18f485f133db005719b35108bf65051a03da1f14bc"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/control/authorizations/local-both-transfer.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-transfer.json",
+      "draft_sha256": "cbd265a89a1bb9435e248ad21a7b06921178961e8ae289adbcb78c85bc15d2c9",
+      "environment": "local",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/control/authorizations/local-both-transfer.json",
+      "model": "both",
+      "output": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+      "phase": "transfer",
+      "sha256": "e3c83cfa22274497b603f6c6a338ccd0f986f381a41b8784957eaa8399d71525"
+    },
+    {
+      "administrative_changes": {
+        "approved": {
+          "approved": true,
+          "draft": false
+        },
+        "instruction": {
+          "approved": "On 2026-10-04, the user/project owner replied \"I approve\" to the eleven-phase raw-acquisition and durable-handoff scope in delivery 9939c7a26c5ec198f3b153d53567e5ec655c3cc3, including scoped authorization records and normal carry-forward budget adoption. This authorizes this record's phase, model, output and campaign under the pinned lock and producer: supervised sequential Qwen then Llama acquisition, independent token/acceptance/loader checks, verified durable transfer and safe-stop handoff. Stop on failed checks. Scientific evaluation and scientific audit, automatic retries, fitting, calibration, procedure changes, runtime replacement, package installation, snapshot downloads and budget resets are excluded.",
+          "draft": null
+        },
+        "reviewer": {
+          "approved": "user/project owner",
+          "draft": null
+        },
+        "status": {
+          "approved": "APPROVED",
+          "draft": "DRAFT"
+        }
+      },
+      "approved_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/control/authorizations/local-both-verify.json",
+      "draft_file": "config/final_e/launch_preparation_20261004/authorization_drafts/local-both-verify.json",
+      "draft_sha256": "9d9e02d111ab166e79ebfde81d01de2d9d8c1ea26cacd5956571c23ec8f8a9d9",
+      "environment": "local",
+      "local_prepared_file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/control/authorizations/local-both-verify.json",
+      "model": "both",
+      "output": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+      "phase": "verify",
+      "sha256": "fdeb6e83369ce6249dfab80a839ec72ce5397a9b58282949be38d22c86a039fa"
+    }
+  ],
+  "records_reused_byte_identically": true,
+  "scientific_evaluation_or_audit_authorized": false
+}

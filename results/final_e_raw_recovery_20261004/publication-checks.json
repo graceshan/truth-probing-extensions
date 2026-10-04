@@ -1,0 +1,138 @@
+{
+  "all_phase_outcomes_completed": true,
+  "base_sha": "e41184ff8c7be8ce6079df2533426582e6230f2b",
+  "executed_phase_count": 11,
+  "immutable_contract_verified": true,
+  "large_binary_scan": "PASS",
+  "new_scientific_work": false,
+  "private_connection_material_scan": "PASS",
+  "producer_unchanged": true,
+  "remote_tasks_after_safe_stop": 0,
+  "status": "PASS",
+  "validated_files": {
+    "docs/final_e/RAW_RECOVERY_AND_HANDOFF_20261004.md": {
+      "bytes": 10087,
+      "sha256": "4080d645ae58e93ee5eaa7a60f753cb8521d0558ef464e102a54b9b236b0fbdb"
+    },
+    "results/final_e_raw_recovery_20261004/accounting.json": {
+      "bytes": 4759,
+      "sha256": "98d73ab42280ee0e81fb0f6aec4bbf7dbc93c59b0b7bdcd4b44b645158799109"
+    },
+    "results/final_e_raw_recovery_20261004/authorization-inventory.json": {
+      "bytes": 21639,
+      "sha256": "8ecf7f0842abc7723c4a2b0a0c518a82e72b27d21b8df1e2c6be13f31928ec98"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/local-both-transfer.json": {
+      "bytes": 1257,
+      "sha256": "e3c83cfa22274497b603f6c6a338ccd0f986f381a41b8784957eaa8399d71525"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/local-both-verify.json": {
+      "bytes": 1255,
+      "sha256": "fdeb6e83369ce6249dfab80a839ec72ce5397a9b58282949be38d22c86a039fa"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-both-transfer.json": {
+      "bytes": 1197,
+      "sha256": "890267190321791db3580e18f485f133db005719b35108bf65051a03da1f14bc"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-llama-accept.json": {
+      "bytes": 1196,
+      "sha256": "60f5f7e89202bc08135943db197a4c0741e36805687c9f56680b416c94440526"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-llama-extract.json": {
+      "bytes": 1197,
+      "sha256": "8ca73db618c44238889600bd03bb10afaf65a8fae7c3df7e22d2e29c4ebca44b"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-llama-token_audit.json": {
+      "bytes": 1201,
+      "sha256": "7a2bfd62d667447bf40f4b2b793ac1464f894e83d35d4456ca222a2f9cf0b72d"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-llama-verify.json": {
+      "bytes": 1196,
+      "sha256": "6a3ef057b15b33e2d2eddb8658467ef49ad71284012d3b2611d8a1f04c7c5841"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-qwen-accept.json": {
+      "bytes": 1195,
+      "sha256": "38fa498b94fdc2fd804616dc952d557ceefcf0a6f7d6e6d5a7e211dae544288f"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-qwen-extract.json": {
+      "bytes": 1196,
+      "sha256": "02e8ef6f1e97a4574fc12efe63879680071823048c55c93f1aa01c1b6a75e0c4"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-qwen-token_audit.json": {
+      "bytes": 1200,
+      "sha256": "43765d4f35403a50da8088bc734007acecde25fb6173c65b1f79a24145af37a8"
+    },
+    "results/final_e_raw_recovery_20261004/authorizations/remote-qwen-verify.json": {
+      "bytes": 1195,
+      "sha256": "fc5379a3a62e8ac4b505983072fe182e12bbc27868d31f9e197330e102999c98"
+    },
+    "results/final_e_raw_recovery_20261004/control-receipt-checksums.json": {
+      "bytes": 471,
+      "sha256": "bed6534e24202c6175b5cb7e615f129ede64631a8f9135257a852b1f2399eeb7"
+    },
+    "results/final_e_raw_recovery_20261004/control-transport-recovery.json": {
+      "bytes": 13056,
+      "sha256": "186ea2d38b19018450e4cd0f74da013a1d3d4012ab8d22a7539bb1ba285ac8f9"
+    },
+    "results/final_e_raw_recovery_20261004/durable-transfer.json": {
+      "bytes": 2170,
+      "sha256": "b019d91dafd0f01d2737af4439e1bcdd549f2be8b1c20e8ec5a6699bbb5d80d7"
+    },
+    "results/final_e_raw_recovery_20261004/evidence-inventory.json": {
+      "bytes": 5787,
+      "sha256": "f9cd692703de588ac54faaf182c23fdf5cc3e4f38c854d9596ebe2682cf592f0"
+    },
+    "results/final_e_raw_recovery_20261004/executed-phases.json": {
+      "bytes": 13236,
+      "sha256": "1c3cd108b18f096376e9b6a68f432ce12a50a8c29dac584e8bf2ffca166db8d8"
+    },
+    "results/final_e_raw_recovery_20261004/final-stopped-workers-observation.json": {
+      "bytes": 890,
+      "sha256": "e11a68f61f5c8e5070838ace142a1cf15a80db95831cc7a82e6a3dbf9ca3c83e"
+    },
+    "results/final_e_raw_recovery_20261004/job-inspection-self-filter-correction.json": {
+      "bytes": 1710,
+      "sha256": "ad64aaf24f4404683604883ce035a48cd22cfece6028e18fccf688e55d91e244"
+    },
+    "results/final_e_raw_recovery_20261004/local-approved-access-checks.json": {
+      "bytes": 1447,
+      "sha256": "7f0fb78b4886b6ff84aa237a8836281270f28ad2bf1fd014e99ff126383b9338"
+    },
+    "results/final_e_raw_recovery_20261004/local-full-loader.json": {
+      "bytes": 899,
+      "sha256": "30d508fe71c614ddb3db2ecbde5abf24c238b8384c055d25b0f4af54f027bea7"
+    },
+    "results/final_e_raw_recovery_20261004/local-verify-transfer.json": {
+      "bytes": 900,
+      "sha256": "035d000d88cd8ed0716af0dcb659d34e2a8d3d7ea09703c521a7b8ec43efcf0c"
+    },
+    "results/final_e_raw_recovery_20261004/measurements.json": {
+      "bytes": 13092,
+      "sha256": "f192f72e808761e6e76c439c66104a8fb35a15c27c283a17c9644a14077430a1"
+    },
+    "results/final_e_raw_recovery_20261004/pre-adoption-accounting.json": {
+      "bytes": 14488,
+      "sha256": "05977cffa2b20c7d24351065aa70578b1aebbacad0ed1b7d3af6a25287581567"
+    },
+    "results/final_e_raw_recovery_20261004/preservation.json": {
+      "bytes": 653,
+      "sha256": "8aa5ea2dcc8cb5f32c2016d9446502f3cb72e5ed1730f2e31eae037b5a3e45ef"
+    },
+    "results/final_e_raw_recovery_20261004/recipient-import.json": {
+      "bytes": 22569,
+      "sha256": "86dc2ae4a211cc1627254c20dcedbf77ef3a445dd6da39e38645b1ff08b07825"
+    },
+    "results/final_e_raw_recovery_20261004/safe-stop-handoff.json": {
+      "bytes": 2169,
+      "sha256": "f70563b6d1c027833ca5c39407626a802b2bc48e2eb4a40da44961910202ce0f"
+    },
+    "results/final_e_raw_recovery_20261004/supervised-sequence.sh": {
+      "bytes": 9302,
+      "sha256": "aa060a8e0e57cecf553111d5b51b7c749962ef377180633ea958c03ff69c62bd"
+    },
+    "results/final_e_raw_recovery_20261004/transfer-manifest-inventory.json": {
+      "bytes": 679,
+      "sha256": "2e9324cca2b6032387ea34f4625b4641e66cfd6850104ef39b2925cdcbb54d69"
+    }
+  }
+}

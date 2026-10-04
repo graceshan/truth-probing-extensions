@@ -1,0 +1,25 @@
+{
+  "budget": {
+    "as_of_unix": 1791147296.0317307,
+    "model": null,
+    "model_seconds": {
+      "llama": 1128.7931210140814,
+      "qwen": 1043.0739877090673
+    },
+    "running": false,
+    "total_seconds": 2946.696421564091,
+    "unclean_gap_charged_seconds": 0.0
+  },
+  "campaign_workers_stopped": true,
+  "code_clean": true,
+  "cuda_compute_processes_absent": true,
+  "ledger_sha256": "53141b2dc4776b899a47d5339657916051b68f254dfa08c560ca697926de7808",
+  "manifest_pins": {
+    "campaign-checksums.json": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870",
+    "control-checksums.json": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab",
+    "operation-receipt-checksums.json": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+  },
+  "observed_at_unix": 1791149624.8438237,
+  "status": "PASS",
+  "supervisor_pids_absent": true
+}
