@@ -20,7 +20,7 @@ from src.final_e_inventory import ROOT, Metadata, read
 from src.checkpoint_r2_fresh_inputs import file_hash, hash_value, require, text_hash
 from src.checkpoint_r2_fresh_store import pin, write_json, load_features, storage_probe
 from src.checkpoint_r2_full_support import evidence, verify_snapshot, single_packet, filesystem_prerequisites, NON_SECRET_ARTIFACT_CONTRACT
-from src.checkpoint_r2_full_raw import runtime_matches, extract_model, verify_completed, supervise, unchanged_or_publish
+from src.checkpoint_r2_full_raw import runtime_matches, extract_model, verify_completed, supervise, unchanged_or_publish, recover_budget, cap_reason
 from src.checkpoint_r2_fresh_pilot import atomic_pointer
 
 
@@ -57,6 +57,17 @@ def offline_tokenizer(cfg, model, cache):
     return snapshot,tok
 
 
+def shard_plan(rows, packets, spec, size, storage):
+    """Use the inherited exact payload/JSON and receipt/commit allowances."""
+    from src.checkpoint_r2_fresh_inputs import canonical
+    return [dict(start=i, rows=len(rows[i:i+size]),
+        tokens_sha256=hash_value(packets[i:i+size]),
+        reserved_bytes=len(rows[i:i+size])*spec['layers']*spec['width']*2+128+
+            len(canonical(rows[i:i+size]))+len(canonical(packets[i:i+size]))+
+            storage['per_shard_receipt_reserve_bytes']+storage['per_shard_commit_reserve_bytes'])
+        for i in range(0,len(rows),size)]
+
+
 def worker(args, access):
     require(platform.system()=='Linux', 'GPU execution requires approved Linux runtime')
     require(os.getppid()==args.parent_pid and ctypes.CDLL(None).prctl(1,signal.SIGKILL,0,0,0)==0 and os.getppid()==args.parent_pid, 'parent death watchdog')
@@ -87,13 +98,14 @@ def worker(args, access):
         # Two complete model copies, one temporary shard, exact serialized metadata,
         # and the inherited safety reserve; allocation/fsync/readback, never statvfs alone.
         from src.checkpoint_r2_fresh_inputs import canonical
+        plan=shard_plan(rows,packets,spec,size,cfg['storage'])
         payload_all=sum(len(rows)*s['layers']*s['width']*2 for s in cfg['models'].values())
         # Other-model token storage is a prospective upper allowance, not a measured length.
         other_token_allowance=len(rows)*cfg['execution']['max_tokens']*128
+        shard_allowance=cfg['storage']['per_shard_receipt_reserve_bytes']+cfg['storage']['per_shard_commit_reserve_bytes']+128
         reserve=2*(payload_all+2*len(canonical(rows))+len(canonical(packets))+other_token_allowance+
-            2*((len(rows)+size-1)//size)*65536)+size*spec['layers']*spec['width']*2+cfg['storage']['safety_margin_bytes']
+            2*((len(rows)+size-1)//size)*shard_allowance+cfg['storage']['global_receipt_reserve_bytes'])+max(p['reserved_bytes'] for p in plan)+cfg['storage']['safety_margin_bytes']
         storage=timed('storage_allocation_verification',lambda:storage_probe(volume,reserve));write_json(attempt/'storage.json',dict(storage,reserve_bytes=reserve))
-        plan=[dict(tokens_sha256=hash_value(packets[i:i+size])) for i in range(0,len(rows),size)]
         progress.update(model=model,phase_started=time.monotonic());atomic_pointer(attempt/'progress.json',progress)
         backend=timed('model_loading',lambda:FreshBackend(spec,snapshot,cfg['execution']))
         expected=evidence(cfg,model+'/runtime-before-inference.json')['backend']
@@ -157,6 +169,7 @@ def launch(args, access):
         current=read(output/'full-budget.json')
         require(all(current['model_seconds'][m]>=carry['charged_seconds'][m] for m in ('qwen','llama')), 'carried charges decreased')
         require((output/'full-budget.json').exists() or not any(attempts.iterdir()), 'missing cumulative ledger; cannot reset')
+        if any(attempts.iterdir()):settled_accounting(output,None,access)
         attempt=attempts/(time.strftime('%Y%m%dT%H%M%SZ',time.gmtime())+'-'+uuid.uuid4().hex);attempt.mkdir()
         write_json(attempt/'access.json',access)
         # Exact argv, exact checkout; no shell commands or moving branch.
@@ -177,6 +190,47 @@ def verify_origin(root, cfg, model):
     return origin
 
 
+def settled_accounting(output, model, access):
+    """Check the durable supervisor chain, not merely the mutable running flag."""
+    root=Path(output);carry=read(ROOT/'config/final_e/carryforward_v1.json')
+    for name,sha in carry['source_files'].items():require(file_hash(ROOT/name)==sha,'carried attempt evidence')
+    adoption=read(root/'budget-adoption.json');identity=campaign_identity(access,Metadata())
+    require(adoption['campaign']==identity and adoption['carryforward']==pin(ROOT/'config/final_e/carryforward_v1.json'),'accounting adoption identity')
+    baseline=adoption['initial']
+    require(baseline['model_seconds']==carry['charged_seconds'] and baseline['total_seconds']==sum(carry['charged_seconds'].values()) and baseline['running'] is False and baseline['model'] is None,'carried accounting baseline')
+    limits=access['limits'];selected=None
+    for attempt in sorted((root/'attempts').iterdir()):
+        a=read(attempt/'access.json');exit=read(attempt/'supervisor-exit.json')
+        require(all(a[k]==access[k] for k in ('producer_sha','lock_sha256','campaign_id','limits')) and a['phase']=='extract' and a['model'] in ('qwen','llama'),'attempt producer/lock/accounting scope')
+        b=exit['budget']
+        require(b['running'] is False and b['model'] is None,'unsettled supervisor accounting')
+        recover_budget(b,time.time())  # inherited finite/schema/sum checks; no mutation
+        require(exit['limits']==limits and exit['budget_reset_allowed'] is False,'attempt resource limits')
+        require(b['total_seconds']>=baseline['total_seconds'] and all(b['model_seconds'][m]>=baseline['model_seconds'][m] for m in ('qwen','llama')),'reduced cumulative accounting')
+        if (attempt/'resource.json').exists():
+            resource=read(attempt/'resource.json')
+            require(resource['access']==a and resource['producer_sha']==access['producer_sha'],'worker accounting identity')
+            require(np.isfinite(resource['wall_seconds']) and resource['wall_seconds']>=0 and b['total_seconds']-baseline['total_seconds']+1e-6>=resource['wall_seconds'],'worker wall accounting')
+        if (attempt/'progress.json').exists():
+            progress=read(attempt/'progress.json')
+            require(progress['model'] is None or exit['returncode']!=0,'unfinished successful worker progress')
+            for m in ('qwen','llama'):
+                durations=[i['seconds'] for i in progress['intervals'] if i['model']==m]
+                require(all(np.isfinite(v) and v>=0 for v in durations),'nonfinite attempt charge')
+                require(b['model_seconds'][m]-baseline['model_seconds'][m]+1e-6>=sum(durations),'reduced measured model charge')
+        if a['model']==model:selected=attempt
+        baseline=b
+    require(selected is not None or model is None,'missing model attempt accounting')
+    current=read(root/'full-budget.json')
+    require(current==baseline and current['running'] is False,'ledger differs from settled supervisor receipt')
+    require(cap_reason(current,limits) is None,'campaign cap exhausted; acceptance blocked')
+    if model is None:return dict(adoption=pin(root/'budget-adoption.json'),ledger=pin(root/'full-budget.json'))
+    resource=read(selected/'resource.json');exit=read(selected/'supervisor-exit.json')
+    require(resource['status']=='completed' and exit['returncode']==0 and not exit['interrupted'] and exit['cap_reason'] is None,'completed successful model attempt required')
+    return dict(adoption=pin(root/'budget-adoption.json'),attempt=str(selected.relative_to(root)),
+        resource=pin(selected/'resource.json'),supervisor=pin(selected/'supervisor-exit.json'))
+
+
 def verify(output, model, access, require_acceptance=False):
     metadata=Metadata();identity=campaign_identity(access,metadata);root=Path(output);mroot=root/model
     require(read(root/'campaign.json')==identity,'E campaign identity')
@@ -188,16 +242,18 @@ def verify(output, model, access, require_acceptance=False):
     for index,start in enumerate(range(0,len(rows),size)):
         p=mroot/'shards'/f'{index:05d}';part=rows[start:start+size]
         r=verify_completed(p,part,cfg['models'][model],provenance(identity,model,mroot/'runtime-origin.json'))
-        require(read(p/'tokens.json')==plan[start:start+size],'token binding mismatch');receipts.append(r)
+        require(read(p/'tokens.json')==plan[start:start+size],'token binding mismatch')
+        r['completed_marker']=pin(p/'completed.json');receipts.append(r)
     expected=dict(identity=identity,model=model,shards=receipts,unique_texts=len(rows),logical_bindings=len(metadata.bindings))
     require(read(mroot/'index.json')==expected,'complete ordered index')
     result=dict(schema='final-e-loader-verification-v1',campaign=identity,model=model,status='loader_verified',
         unique_texts=len(rows),logical_bindings=len(metadata.bindings),index=pin(mroot/'index.json'),
         token_plan=pin(mroot/'token-plan.json'),shards=len(receipts))
     if require_acceptance:
+        accounting=settled_accounting(root,model,access)
         audit=read(mroot/'token-audit.json');acceptance=read(mroot/'acceptance.json')
-        require(audit['token_plan']==result['token_plan'] and audit['campaign']==identity and audit['status']=='independently_reconstructed', 'independent token audit')
-        require(acceptance['verification']==result and acceptance['audit']==pin(mroot/'token-audit.json') and acceptance['status']=='independently_accepted_E_raw','E acceptance')
+        require(audit==dict(campaign=identity,model=model,status='independently_reconstructed',token_plan=result['token_plan'],unique_texts=len(rows),model_loaded=False),'independent token audit')
+        require(acceptance==dict(schema='final-e-acceptance-v1',verification=result,audit=pin(mroot/'token-audit.json'),accounting=accounting,status='independently_accepted_E_raw'),'E acceptance')
     return result
 
 
@@ -217,14 +273,9 @@ def accept(args, access):
     root=Path(args.output)/args.model;verification=verify(args.output,args.model,access)
     a=read(root/'token-audit.json')
     require(a['campaign']==verification['campaign'] and a['model']==args.model and a['token_plan']==verification['token_plan'] and
-            a['status']=='independently_reconstructed' and a['unique_texts']==19190 and a['model_loaded'] is False,'independent audit acceptance')
-    attempts=[read(p) for p in sorted((Path(args.output)/'attempts').glob('*/resource.json')) if read(p)['access']['model']==args.model]
-    require(attempts and attempts[-1]['status']=='completed','completed measured attempt required')
-    exits=[read(p) for p in sorted((Path(args.output)/'attempts').glob('*/supervisor-exit.json'))
-           if read(p.parent/'access.json')['model']==args.model]
-    require(exits and exits[-1]['returncode']==0 and not exits[-1]['interrupted'] and exits[-1]['cap_reason'] is None, 'supervisor success required')
-    require(read(Path(args.output)/'full-budget.json')['running'] is False,'settled cumulative ledger')
-    result=dict(schema='final-e-acceptance-v1',status='independently_accepted_E_raw',verification=verification,audit=pin(root/'token-audit.json'))
+            a['status']=='independently_reconstructed' and a['unique_texts']==len(input_rows(Metadata())) and a['model_loaded'] is False,'independent audit acceptance')
+    accounting=settled_accounting(args.output,args.model,access)
+    result=dict(schema='final-e-acceptance-v1',status='independently_accepted_E_raw',verification=verification,audit=pin(root/'token-audit.json'),accounting=accounting)
     unchanged_or_publish(root/'acceptance.json',result)
     return result
 

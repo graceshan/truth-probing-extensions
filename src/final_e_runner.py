@@ -85,7 +85,7 @@ def evaluate(args, access):
 
 
 def audit_report(args,access):
-    """Independent invocation: verify pins, reapply heads, reconstruct every report."""
+    """Full reproducibility plus a separate principal numerical calculation."""
     require(args.source_report and args.report, 'original report and new audit reconstruction paths required')
     original=Path(args.source_report).resolve();completion=read(original/'completion.json')
     require(completion['status']=='completed' and completion['access']['producer_sha']==access['producer_sha']
@@ -109,9 +109,14 @@ def audit_report(args,access):
         require(all(ob[k]==nb[k] for k in ('head','head_sha256','group_bindings')),'score identity reconstruction')
         with np.load(original/rel/'scores.npz',allow_pickle=False) as a,np.load(rebuilt/rel/'scores.npz',allow_pickle=False) as b:
             require(a.files==b.files and all(np.array_equal(a[g],b[g]) for g in a.files),'reapplied frozen predictions')
+    from src.final_e_reference import verify_report
+    from src.final_e_reporting import schedules
+    metadata=Metadata();options=read(ROOT/'config/final_e/preparation_v1.json')['bootstrap']
+    weights,_=schedules(metadata,options)
+    numerical=verify_report(original,metadata,registry,weights,options)
     write_json(Path(args.operation_receipt).with_suffix('.audit.json'),dict(status='complete_report_reconstruction_passed',access=access,
         original_completion=pin(original/'completion.json'),reconstructed_completion=pin(rebuilt/'completion.json'),reports=checked,
-        head_predictions=len(registry['heads']),new_fits=0,new_selection=False))
+        head_predictions=len(registry['heads']),new_fits=0,new_selection=False,independent_principal=numerical))
 
 
 def transfer(args, access):
@@ -119,6 +124,8 @@ def transfer(args, access):
     require(not path.is_relative_to(root),'external checksum manifest required')
     require(read(root/'full-budget.json')['running'] is False,'settled workers required before transfer')
     if args.command=='transfer':
+        from src import final_e_raw as raw
+        for model in ('qwen','llama'):raw.verify(root,model,access,require_acceptance=True)
         files={}
         for p in sorted(root.rglob('*')):
             require(not p.is_symlink(),'handoff symlink forbidden')

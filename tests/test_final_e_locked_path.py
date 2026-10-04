@@ -193,7 +193,9 @@ class RawInterfaceTests(unittest.TestCase):
             identity=raw.campaign_identity(access,meta);write_json(root/'campaign.json',identity)
             prov=raw.provenance(identity,'qwen',mr/'runtime-origin.json');p=mr/'shards/00000'
             write_shard(p,rows,np.zeros((1,2,3),np.float32),spec,prov,[tok]);write_json(mr/'token-plan.json',[tok])
-            rec=verify_completed(p,rows,spec,prov);write_json(mr/'index.json',dict(identity=identity,model='qwen',shards=[rec],unique_texts=1,logical_bindings=2))
+            rec=verify_completed(p,rows,spec,prov)
+            write_json(p/'completed.json',dict(schema='r2-full-raw-shard-commit-v1',receipt=pin(p/'receipt.json'),ordered_rows_sha256=hash_value(rows)))
+            rec['completed_marker']=pin(p/'completed.json');write_json(mr/'index.json',dict(identity=identity,model='qwen',shards=[rec],unique_texts=1,logical_bindings=2))
             with patch.object(raw,'Metadata',return_value=meta),patch.object(raw,'input_rows',return_value=rows),patch.object(raw,'raw_contract',return_value={'models':{'qwen':spec}}),patch.object(raw,'verify_origin',return_value={}):
                 result=raw.verify(root,'qwen',access)
                 self.assertEqual((result['unique_texts'],result['logical_bindings']),(1,2))

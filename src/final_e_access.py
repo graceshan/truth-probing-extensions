@@ -39,7 +39,7 @@ def validate_gate(lock, authorization, *, lock_sha256, authorization_sha256, pha
     require(len(lock_sha256)==len(authorization_sha256)==64, 'external hash pins required')
     return dict(schema='final-e-access-v1',producer_sha=producer,lock_sha256=lock_sha256,
         authorization_sha256=authorization_sha256,phase=phase,model=model,campaign_id=authorization['campaign_id'],
-        immutable_contract_sha256=hash_value(lock['immutable_contract']))
+        immutable_contract_sha256=hash_value(lock['immutable_contract']),limits=dict(limits))
 
 
 def authorize(args, phase=None):
