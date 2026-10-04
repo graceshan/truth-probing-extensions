@@ -1,0 +1,26 @@
+{
+  "E_access": false,
+  "artifact_writes": false,
+  "child_peak_rss_bytes": 758808576,
+  "cpu_producer": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+  "extraction_producers": {
+    "llama": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+    "qwen": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+  },
+  "host": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "model_status": {
+    "llama": "pending_actual_transferred_acceptance",
+    "qwen": "verified_original_transferred_acceptance"
+  },
+  "parent_peak_rss_bytes": 38912000,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "qwen_acceptance_sha256": "96c5d1f5c064e79a58b6704763d6dbca77e4f352d48b13ae3658d9ddc8ba539d",
+  "qwen_shards": 131,
+  "qwen_transfer_files": 574,
+  "qwen_transfer_manifest_sha256": "88918f7fcd28b37a8a593a844b1c8ab10c11e940e4144e493dc4c05809729ebc",
+  "receipt_sha256": "f12dfcaada8cef0daddfa3f58e14bca2ceb50738270bd463613dd8558606f7ea",
+  "research_fits": 0,
+  "runtime_seconds": 6.306627500336617,
+  "status": "pending_actual_transferred_acceptance"
+}

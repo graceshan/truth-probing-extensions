@@ -1,0 +1,141 @@
+{
+  "E_access": false,
+  "Pod_contact": false,
+  "ancestry": "both exact reviewed deliveries are ancestors",
+  "bank_candidates": 600,
+  "bank_candidates_run": 0,
+  "base": "98ec4004168c2bc5d1906ce1d7cf95a93dde759f",
+  "blas_threads": 1,
+  "branch": "checkpoint-next-full-bank-adapter-successor-20261003",
+  "final_test_runtime_seconds": 23.387,
+  "focused_tests": 47,
+  "frozen_files_verified_unchanged": [
+    "config/checkpoint_next/behavior_prep_v1.json",
+    "config/checkpoint_next/integration_fix_v1.json",
+    "config/checkpoint_r2/common_integration_v1.json",
+    "config/checkpoint_r2/fresh_recoverability_v1.json",
+    "config/checkpoint_r2/full_raw_v1.json",
+    "config/checkpoint_r2/protocol_v1.json",
+    "config/clean_protocol/capacity_pilot_v1.json",
+    "config/clean_protocol/checkpoint_r2_cpu_preflight_v1.json",
+    "data/checkpoint_r2_v1/compound_bindings.csv",
+    "data/checkpoint_r2_v1/entities.json",
+    "data/checkpoint_r2_v1/extraction_inventory.csv",
+    "data/checkpoint_r2_v1/facts.json",
+    "data/checkpoint_r2_v1/manifest.json",
+    "data/checkpoint_r2_v1/memberships.json",
+    "data/checkpoint_r2_v1/pair_groups.json",
+    "data/checkpoint_r2_v1/pairs.json",
+    "docs/checkpoint_next/Truth_Probing_Next_Decision_Checkpoint_2026-10-03.docx",
+    "docs/checkpoint_r2/approved_revision_2.txt",
+    "docs/checkpoint_r2/common_integration_v1.md",
+    "docs/checkpoint_r2/fresh_recoverability_v1.md",
+    "docs/checkpoint_r2/inherited_october_revision_4.txt",
+    "docs/checkpoint_r2/protocol_amendment.md",
+    "docs/checkpoint_r2_cpu_preflight_v1.md",
+    "docs/selection_repair_objectives.md",
+    "results/checkpoint_next_score_diagnosis_20261003/coverage-summary.json",
+    "results/checkpoint_next_score_diagnosis_20261003/full-training-balanced-1000.csv",
+    "results/checkpoint_next_score_diagnosis_20261003/full-training-coverage.csv",
+    "results/checkpoint_next_score_diagnosis_20261003/missing-input-queue.json",
+    "results/checkpoint_r2_b25_convergence_fix_20261002/delivery.json",
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/bank_candidates.csv",
+    "results/checkpoint_r2_cpu_preflight_v1_20261002/planned_repair_folds.csv",
+    "results/checkpoint_r2_fresh_b25_20261002/input-verification.json",
+    "results/checkpoint_r2_fresh_recoverability_20261002/acceptance.json",
+    "results/checkpoint_r2_fresh_recoverability_20261002/completion.json",
+    "results/checkpoint_r2_fresh_recoverability_20261002/delivery.json",
+    "results/checkpoint_r2_fresh_recoverability_20261002/result-audit.json",
+    "results/t2_precision_proxy_v1_20261001/support.json",
+    "src/atomic_probe_methods.py",
+    "src/checkpoint_next_chat.py",
+    "src/checkpoint_next_full_bank_evaluation.py",
+    "src/checkpoint_next_full_bank_provenance.py",
+    "src/checkpoint_next_full_bank_selection.py",
+    "src/checkpoint_next_inventory.py",
+    "src/checkpoint_next_reporting.py",
+    "src/checkpoint_next_store.py",
+    "src/checkpoint_r2_b25_adapter.py",
+    "src/checkpoint_r2_b25_selection.py",
+    "src/checkpoint_r2_b25_statistics.py",
+    "src/checkpoint_r2_b25_store.py",
+    "src/checkpoint_r2_b25_successor_store.py",
+    "src/checkpoint_r2_common_v1.py",
+    "src/checkpoint_r2_fresh_adapter.py",
+    "src/checkpoint_r2_fresh_b25.py",
+    "src/checkpoint_r2_fresh_recoverability.py",
+    "src/checkpoint_r2_fresh_store.py",
+    "src/checkpoint_r2_full_inputs.py",
+    "src/checkpoint_r2_logistic_continuation.py",
+    "src/checkpoint_r2_selection_v1.py",
+    "src/clean_atomic_probes.py",
+    "src/clean_transfer_statistics.py",
+    "src/selection_repair_canonical_sensitivity.py",
+    "src/selection_repair_capacity_methods_v1.py",
+    "src/selection_repair_objectives.py",
+    "src/selection_repair_precision_proxy_v1.py",
+    "tests/test_checkpoint_r2_fresh_b25.py",
+    "tests/test_checkpoint_r2_fresh_recoverability.py"
+  ],
+  "implementation_pin_changes": {
+    "scripts/checkpoint_next_full_bank.py": {
+      "original_sha256": "b3297c47bc33299a417ebbb56b87dc1fe13ccac5167c3a4809a5e1bb24a32d4d",
+      "successor_sha256": "6a568669f4792c23123d145f979beb6e3f84c8d49ded7b9da118e332c3aebc3d"
+    },
+    "src/checkpoint_next_full_bank_audit.py": {
+      "original_sha256": "7d16f456ae6eb32bf8d604c283bae130081baf2d3c652da58c168b940c5e6c42",
+      "successor_sha256": "981d0109825c39ad2771dfb9618624f95993583139d826381038e9d1ec6e2c83"
+    },
+    "src/checkpoint_next_full_bank_inputs.py": {
+      "original_sha256": "4613af7ec4df3a387c7b46675412ded17164349df26588cad63ec9575fa860cf",
+      "successor_sha256": "efdb509b0a340c1e387dc4484bd603014f8f936c61ea27caab5332668e585c28"
+    },
+    "src/checkpoint_next_full_bank_worker.py": {
+      "original_sha256": "151b058129902afd2c3eb612952228f739d0fbcb279f26550b1424938c55f2ac",
+      "successor_sha256": "65aa57dfd2c21e54efcdcde6cef65480a63ae805475d687c73ff7d52169c148d"
+    },
+    "src/checkpoint_next_missing.py": {
+      "original_sha256": "3189af33f5849536ff04835d8de4f5d12a15e8c4d64735f612eb0317f7a8c321",
+      "successor_sha256": "2a19eb1e2cfba30b8022d8826ebcf8f121643e3e1764772d1f85579b0ae9b069"
+    },
+    "src/checkpoint_next_runner.py": {
+      "original_sha256": "260a060466690d5752208a6ffe8a70697ff674ecdf8ba13f95938187ed0032b1",
+      "successor_sha256": "3d6fff3009502e99271f6a07f414824c6fcb749960b86c67dc43f73b9069818e"
+    },
+    "tests/test_checkpoint_next_full_bank.py": {
+      "original_sha256": "dc8f866bd68b9cb51a4f7ced8aadab887efbbc21d0abc5d0cbc1bfd5cd2d2394",
+      "successor_sha256": "d4323c15d933e79b949fd02e7aed3500c373d972804d3a55d9b2d332c91e84f3"
+    }
+  },
+  "initial_test_failures": {
+    "causes": [
+      "synthetic configuration patch interfered with frozen queue validation",
+      "macOS temporary path resolved through /private while mocked root retained alias"
+    ],
+    "errors": 2,
+    "failures": 1,
+    "research_failures": 0,
+    "resolution": "synthetic fixture now freezes real queue before patching numerical spec; verifier mock uses resolved paths"
+  },
+  "llama_acceptance": null,
+  "llama_shard_hashes": null,
+  "memberships": {
+    "P15": 2778,
+    "existing_fresh_representations_per_model": 2909,
+    "full": 3040,
+    "sampler": 1000,
+    "supplement_texts_per_model": 131
+  },
+  "original_configuration_preserved": "config/checkpoint_next/full_bank_prep_v1.json",
+  "processes": 1,
+  "raw_only_delivery": "4e508a8f2a7d85cd8e540686be9b007b7fc29810",
+  "repair_fits": 0,
+  "review_zip_preserved_sha256": "f9106c1af3627d7e0d84a1b18d16d200e0469fe7724eda7f70acb514966552fa",
+  "runnable_producer": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+  "successor_configuration": "config/checkpoint_next/full_bank_adapter_successor_v2.json",
+  "test_modules": [
+    "tests.test_checkpoint_next_full_bank_handoffs",
+    "tests.test_checkpoint_next_full_bank",
+    "tests.test_checkpoint_next_raw_only"
+  ]
+}

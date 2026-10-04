@@ -1,0 +1,9 @@
+{
+  "schema": "checkpoint-next-full-bank-handoffs-v2",
+  "qwen": {
+    "campaign": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight",
+    "transfer_manifest": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/transfers/preflight-transfer.json",
+    "verifier_checkout": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-adapter-verifier-qwen-9b0ac1d"
+  },
+  "llama": null
+}

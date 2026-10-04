@@ -1,0 +1,86 @@
+{
+  "config/checkpoint_next/full_bank_adapter_successor_v2.json": {
+    "bytes": 13460,
+    "sha256": "d677711d44602ba722e51a49787ba9ce295750a39a4c999d9eccd9ad0cb166d5"
+  },
+  "config/checkpoint_next/raw_only_fix_v1.json": {
+    "bytes": 4857,
+    "sha256": "aa49705098881035a9855f75f409c018f34d79bbabf68e7f7631e89b7d59a2ca"
+  },
+  "docs/checkpoint_next/FULL_BANK_ADAPTER_SUCCESSOR_20261003.md": {
+    "bytes": 12303,
+    "sha256": "0b33c766a039a313404e2a0fac599bf011a5840c54335de74c2284d710f255ec"
+  },
+  "docs/checkpoint_next/RAW_ONLY_SUCCESSOR_20261003.md": {
+    "bytes": 16629,
+    "sha256": "0dc630d395f0b79dff4cfdf758c070151d67181930ef1416ffec861b34e11922"
+  },
+  "results/checkpoint_next_full_bank_adapter_successor_20261003/handoffs-qwen-verified-llama-pending.json": {
+    "bytes": 501,
+    "sha256": "387c48101bbe77966050af1ab29e640b7e59547efb25515eb33f52f403ec2302"
+  },
+  "results/checkpoint_next_full_bank_adapter_successor_20261003/qwen-read-only-acceptance-llama-pending.json": {
+    "bytes": 390093,
+    "sha256": "f12dfcaada8cef0daddfa3f58e14bca2ceb50738270bd463613dd8558606f7ea"
+  },
+  "results/checkpoint_next_full_bank_adapter_successor_20261003/validation.json": {
+    "bytes": 6849,
+    "sha256": "f4a2d0c31ebc8bcaec4f6dae8ff29128496400b58527e44825bf02a911ea78ee"
+  },
+  "results/checkpoint_next_full_bank_adapter_successor_20261003/verification-summary.json": {
+    "bytes": 1063,
+    "sha256": "cff1b9e445a8d86a4eb8cd555ee6a2e11e9995391b925f3d907683fc12e0d2b2"
+  },
+  "scripts/checkpoint_next_full_bank.py": {
+    "bytes": 12337,
+    "sha256": "6a568669f4792c23123d145f979beb6e3f84c8d49ded7b9da118e332c3aebc3d"
+  },
+  "src/checkpoint_next_adoption.py": {
+    "bytes": 6668,
+    "sha256": "1970f82c3ec2a7076e55ccd6b83c7f946411463db7e2a9437cbed2101b7d72b3"
+  },
+  "src/checkpoint_next_full_bank_audit.py": {
+    "bytes": 9849,
+    "sha256": "981d0109825c39ad2771dfb9618624f95993583139d826381038e9d1ec6e2c83"
+  },
+  "src/checkpoint_next_full_bank_handoffs.py": {
+    "bytes": 11673,
+    "sha256": "b8ffa4980fdfbcd2c1d6f37cd91bd88b56820d91d3de0d3ff1cd17517dff699c"
+  },
+  "src/checkpoint_next_full_bank_inputs.py": {
+    "bytes": 10992,
+    "sha256": "efdb509b0a340c1e387dc4484bd603014f8f936c61ea27caab5332668e585c28"
+  },
+  "src/checkpoint_next_full_bank_worker.py": {
+    "bytes": 9897,
+    "sha256": "65aa57dfd2c21e54efcdcde6cef65480a63ae805475d687c73ff7d52169c148d"
+  },
+  "src/checkpoint_next_missing.py": {
+    "bytes": 10422,
+    "sha256": "2a19eb1e2cfba30b8022d8826ebcf8f121643e3e1764772d1f85579b0ae9b069"
+  },
+  "src/checkpoint_next_runner.py": {
+    "bytes": 28067,
+    "sha256": "3d6fff3009502e99271f6a07f414824c6fcb749960b86c67dc43f73b9069818e"
+  },
+  "tests/test_checkpoint_next_behavior.py": {
+    "bytes": 14845,
+    "sha256": "f3261670770b93c3af91d9509021a4dea871817e27e87dd69399350cae7d8061"
+  },
+  "tests/test_checkpoint_next_full_bank.py": {
+    "bytes": 11719,
+    "sha256": "d4323c15d933e79b949fd02e7aed3500c373d972804d3a55d9b2d332c91e84f3"
+  },
+  "tests/test_checkpoint_next_full_bank_handoffs.py": {
+    "bytes": 15625,
+    "sha256": "fcf44660f81226d82e14144f9b7a45d8ce402bc179b5258d05a9c9bd3c9780d4"
+  },
+  "tests/test_checkpoint_next_integration.py": {
+    "bytes": 18900,
+    "sha256": "8b788de43bba604ad85ed0492be92b9ae5551a37d921759eac28f11618f52628"
+  },
+  "tests/test_checkpoint_next_raw_only.py": {
+    "bytes": 11320,
+    "sha256": "9f96a673c8e5774c1d7a2cf83da7622b5c0ab8714909dfd0f1dd0920d43db85b"
+  }
+}
