@@ -1,0 +1,40 @@
+{
+  "base_sha": "5ddeaa4ac9465b0772a1247f0ff2fed899c423a6",
+  "changed_file_list": [
+    "docs/final_e/RAW_CONTINUATION_CONTROL_FAILURE_20261004.md",
+    "results/final_e_raw_continuation_20261004/control-copy.stderr.log",
+    "results/final_e_raw_continuation_20261004/control-transfer-failure.json",
+    "results/final_e_raw_continuation_20261004/evidence-inventory.json",
+    "results/final_e_raw_continuation_20261004/operational-status.json",
+    "results/final_e_raw_continuation_20261004/pre-adoption-accounting.json",
+    "results/final_e_raw_continuation_20261004/preservation.json"
+  ],
+  "files": {
+    "docs/final_e/RAW_CONTINUATION_CONTROL_FAILURE_20261004.md": {
+      "bytes": 5001,
+      "sha256": "f0b510a85c7a04aedcfbd221990a85e358ef4c2ad106a1b4a2a15a71891e835e"
+    },
+    "results/final_e_raw_continuation_20261004/control-copy.stderr.log": {
+      "bytes": 5614,
+      "sha256": "512401221037268dc5c958cbea4adb006b3e5f674d362b5dea5eb9cfa94da169"
+    },
+    "results/final_e_raw_continuation_20261004/control-transfer-failure.json": {
+      "bytes": 5919,
+      "sha256": "3baf5aae77f69f9360dc85baa43c1caacf3733d0781725eb55db03179d693a90"
+    },
+    "results/final_e_raw_continuation_20261004/operational-status.json": {
+      "bytes": 4022,
+      "sha256": "e09b91cec16918551bedfa306950f582ab2a4351c678cc1e9d96083eb9309a09"
+    },
+    "results/final_e_raw_continuation_20261004/pre-adoption-accounting.json": {
+      "bytes": 14488,
+      "sha256": "05977cffa2b20c7d24351065aa70578b1aebbacad0ed1b7d3af6a25287581567"
+    },
+    "results/final_e_raw_continuation_20261004/preservation.json": {
+      "bytes": 1316,
+      "sha256": "24924395eb5d909e6265493d8b48999af4c582d0275cb9fe620653ad46a03b2a"
+    }
+  },
+  "schema": "final-e-control-transport-failure-evidence-v1",
+  "self_excluded": "results/final_e_raw_continuation_20261004/evidence-inventory.json"
+}
