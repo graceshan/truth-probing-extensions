@@ -1,0 +1,126 @@
+{
+  "E_outputs_opened": false,
+  "RunPod_contacted": false,
+  "accounting": {
+    "receipt_sha256": "de555708030f94f88171ef03f94fb50f30d5cfb40424db551190d37d7b9ff547",
+    "status": "local_receipts_reconciled_no_intervening_campaign_charge_found"
+  },
+  "base_sha": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+  "branch": "checkpoint-final-e-lock-candidate-20261004",
+  "candidate_checks": {
+    "candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+    "constituent_cases": 12,
+    "existing_tracked_files_unchanged": true,
+    "immutable_hashes": {
+      "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+      "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+      "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+      "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+      "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+      "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "original_draft_sha256": "828abb54386de552f38a29596c5f2defb1bbfde1db227e73fb9e4054a2a732f2",
+    "real_candidate_gate_rejections": [
+      {
+        "model": "qwen",
+        "phase": "extract",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "extract",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "token_audit",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "token_audit",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "accept",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "accept",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "verify",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "verify",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "evaluate",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "evaluate",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "audit",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "audit",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "transfer",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "transfer",
+        "rejection": "E CLOSED: finalized scientific lock required"
+      }
+    ],
+    "registry_heads": 85
+  },
+  "checkout_head_at_validation": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+  "execution_producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "focused_tests": {
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "-m",
+      "unittest",
+      "-v",
+      "tests.test_final_e_locked_path",
+      "tests.test_final_e_review"
+    ],
+    "log_sha256": "c4fee12dcd3726bdcbffe64f33786a0b73a4dd3af297d50fe0e10acf6101cb8a",
+    "peak_child_rss_bytes": 517439488,
+    "returncode": 0,
+    "seconds": 18.225889750290662
+  },
+  "full_saved_D_reproduction": false,
+  "hostname": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "model_loading": false,
+  "new_fits": 0,
+  "numerical_threads": 1,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "python_version": "3.11.6",
+  "real_candidate_finalized": false,
+  "real_phase_authorization_created": false,
+  "status": "passed_candidate_closed",
+  "total_seconds": 19.31422262499109,
+  "worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-candidate-20261004"
+}

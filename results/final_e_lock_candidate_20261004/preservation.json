@@ -1,0 +1,249 @@
+{
+  "additional_worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-candidate-20261004",
+  "errors": [],
+  "external_arrays_modified": false,
+  "failed_attempts_removed": false,
+  "initial_snapshot_path": "/private/tmp/final-e-lock-candidate-20261004-qxt7oxxw/initial-state.json",
+  "initial_snapshot_sha256": "75f5e8589ecff9f9d7c6fe8f1dbab3a5f13389d112dd6b1caa32caef8ae40ae2",
+  "new_branch": "checkpoint-final-e-lock-candidate-20261004",
+  "original_accounting_metadata_rehashed": 32,
+  "original_branch": "t2-research-discussion-packet-20261001",
+  "original_head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+  "original_root": "/Users/apple/projects/truth-probing-extensions",
+  "original_status": "?? .worktrees/\n?? config/clean_protocol/compound_transfer.json\n?? docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx\n?? \"docs/Truth_Probing_Next_Decision_Checkpoint_2026-10-03 (1).docx\"\n?? docs/clean_compound_transfer.md\n?? paper_figure_results.zip\n?? paper_round2_checks.zip\n?? scripts/32_evaluate_clean_compound_transfer.py\n?? src/compound_transfer.py\n?? src/transfer_bootstrap.py\n?? src/transfer_figures.py\n?? src/transfer_frozen.py\n?? src/transfer_integrity.py\n?? src/transfer_metrics.py\n?? tests/test_compound_transfer.py\n?? tests/transfer_fixtures.py\n",
+  "preexisting_standalone_untracked_pins": {
+    "config/clean_protocol/compound_transfer.json": {
+      "bytes": 1199,
+      "sha256": "90b30b7ee2e319489676ada9060872e723c400ae9a90c53244a12ee41c14cb41"
+    },
+    "docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx": {
+      "bytes": 58199,
+      "sha256": "f4d9e1b3305bdd4c2507c869734f4efa2da09001d57e99a722e9d31a1e4ba983"
+    },
+    "docs/Truth_Probing_Next_Decision_Checkpoint_2026-10-03 (1).docx": {
+      "bytes": 52144,
+      "sha256": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2"
+    },
+    "docs/clean_compound_transfer.md": {
+      "bytes": 11828,
+      "sha256": "d90475248fe32c65f3ae84499167c26edf8fb6a86e3331dd9eba9810c106f6c4"
+    },
+    "paper_figure_results.zip": {
+      "bytes": 1362019,
+      "sha256": "c28df097e798d245ff22bfa84cff6e18bccd934c8e4be3c730e49982e1f4ea9b"
+    },
+    "paper_round2_checks.zip": {
+      "bytes": 70010,
+      "sha256": "add535f691f0028fc23ac131ddce9ad1be7f50207c2c829b4ba8ea7e9b54681a"
+    },
+    "scripts/32_evaluate_clean_compound_transfer.py": {
+      "bytes": 1035,
+      "sha256": "11b2badf6b601d34547128df40b00dcb01c6f0dc14aa32159887c344cc1f8ef1"
+    },
+    "src/compound_transfer.py": {
+      "bytes": 13809,
+      "sha256": "7a051cc394cfd4898606e88d5fc81442045b917c17701fef0f33e99b55259fea"
+    },
+    "src/transfer_bootstrap.py": {
+      "bytes": 3842,
+      "sha256": "8cdabdfea19db1db3813a0895df41fee0219a90af168920928740f4dc019e42c"
+    },
+    "src/transfer_figures.py": {
+      "bytes": 2766,
+      "sha256": "e53f3a917be48fc95d91ececc5cfd4279ea2a2a568a789a65e8d7fde4293450e"
+    },
+    "src/transfer_frozen.py": {
+      "bytes": 10787,
+      "sha256": "04f80109a55f7bf44ab85c192065d18071f560dfce41d854dadd5e2f79209e1e"
+    },
+    "src/transfer_integrity.py": {
+      "bytes": 11747,
+      "sha256": "80eda3ac4026e0a730e29259986b7787d5f814bc854cb2d297d07ba497c8c7d6"
+    },
+    "src/transfer_metrics.py": {
+      "bytes": 9926,
+      "sha256": "2556203dedad4c78cd4aebb4c73e3e7feded5e22892cae63d92780bc3c060155"
+    },
+    "tests/test_compound_transfer.py": {
+      "bytes": 21028,
+      "sha256": "7afb2724af1df73cc59e5b62cd1ca3bea7597e326f672d63a590e5fbd419212c"
+    },
+    "tests/transfer_fixtures.py": {
+      "bytes": 9873,
+      "sha256": "48f679c24eb6932d2170aa3d32d071c7981e68bc2709ab3c71b178d64bfd0318"
+    }
+  },
+  "preexisting_untracked_files_rehashed": 1523,
+  "preexisting_worktrees": [
+    {
+      "head": "d953a8f489cb3286e67f494069e69bdfb4ccfd48",
+      "path": "/Users/apple/projects/truth-probing-extensions",
+      "status": "?? .worktrees/\n?? config/clean_protocol/compound_transfer.json\n?? docs/Truth_Probing_Next_Checkpoint_Plan_Revision_2.docx\n?? \"docs/Truth_Probing_Next_Decision_Checkpoint_2026-10-03 (1).docx\"\n?? docs/clean_compound_transfer.md\n?? paper_figure_results.zip\n?? paper_round2_checks.zip\n?? scripts/32_evaluate_clean_compound_transfer.py\n?? src/compound_transfer.py\n?? src/transfer_bootstrap.py\n?? src/transfer_figures.py\n?? src/transfer_frozen.py\n?? src/transfer_integrity.py\n?? src/transfer_metrics.py\n?? tests/test_compound_transfer.py\n?? tests/transfer_fixtures.py\n",
+      "unchanged": true
+    },
+    {
+      "head": "7dd63105c75b894b602fb93754e53eede4483a63",
+      "path": "/private/tmp/checkpoint-r2-integration-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "abc7b8f33c94d323cfbdca83c6790b68894f569f",
+      "path": "/Users/apple/projects/checkpoint-r2-bridge-runner-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "a693f0cec29c9d896787ed5dd696aea3053ee5c3",
+      "path": "/Users/apple/projects/checkpoint-r2-common-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "a8082bd7bb6a321690e615b078c9651a6c6a2d49",
+      "path": "/Users/apple/projects/checkpoint-r2-cpu-preflight-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "3f9747f12b46dcb956082c22cbbfd2145c894b9d",
+      "path": "/Users/apple/projects/checkpoint-r2-fresh-pilot-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "7933063036f5d57c83f41b8ea46e560c1f10cd2e",
+      "path": "/Users/apple/projects/checkpoint-r2-full-raw-prep-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "7656a0eb68a5fd7ff7dac1c73efeab982d540cc2",
+      "path": "/Users/apple/projects/checkpoint-r2-storage-contract-fix-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "ce3600d3e858c56476f9e098d5c582c6c01376af",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-prep-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "f63a9a9348892b81c0ab60261033a2b8600f26a2",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-behavior-prep-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/code",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-integration-fix-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "4e508a8f2a7d85cd8e540686be9b007b7fc29810",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-preflight-fix-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/code",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "0a256d96b0fbf41f7ce678693da15cf230685778",
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-r2-fresh-constituents-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "f1f0872efe5e8ece5911e9df1be377f32a514bb1",
+      "path": "/Users/apple/projects/truth-probing-t1-score-rebuild",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "1d629a84aee5217e8f422b0bc80ee0debacdf3c8",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-next-full-bank-adapter-successor-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "98ec4004168c2bc5d1906ce1d7cf95a93dde759f",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-next-full-bank-prep-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-next-full-bank-results-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "bca07a055c70f7debb6389cf68feb6d2ab7c543f",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-next-score-diagnosis-20261003",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "1187140c7f79b0b64439eff382d420f51d974a25",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-b25-convergence-fix-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "60e651370e5c08635f151822073a8b9c01e092ca",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-b25-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "1dbb5484d1055e0cf80993e666171cfa1743e2a2",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-pilot-review-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "098a79fcb03114c0809f91dc192c446b3ba392d0",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-r2-fresh-recoverability-20261002",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-adapter-verifier-llama-6865bfa",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-adapter-verifier-qwen-9b0ac1d",
+      "status": "",
+      "unchanged": true
+    },
+    {
+      "head": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "status": "",
+      "unchanged": true
+    }
+  ],
+  "reset_stash_clean_merge_performed": false,
+  "status": "preserved"
+}
