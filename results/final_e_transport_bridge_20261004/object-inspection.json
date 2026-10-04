@@ -1,0 +1,1018 @@
+{
+  "content_inspection": "new reachable Git blob paths/sizes and private-key/token-pattern scan only; no external arrays or E artifacts opened",
+  "introduced_blob_bytes": 9733612,
+  "introduced_objects": [
+    {
+      "bytes": 275,
+      "oid": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 291,
+      "oid": "5923c4dd829677c16505c6da2a1862924c88f971",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 286,
+      "oid": "1d629a84aee5217e8f422b0bc80ee0debacdf3c8",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 286,
+      "oid": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 331,
+      "oid": "a3bda2a1570ec21fae3a3fed16476f1f0bda948a",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 273,
+      "oid": "4e508a8f2a7d85cd8e540686be9b007b7fc29810",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 284,
+      "oid": "98ec4004168c2bc5d1906ce1d7cf95a93dde759f",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 272,
+      "oid": "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 275,
+      "oid": "5c783d58a5d9c0dc5a24c5482a58b74f75c9dbb3",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 285,
+      "oid": "d80ff94851e78122e823fc16422255f6fcafbc47",
+      "path": "",
+      "type": "commit"
+    },
+    {
+      "bytes": 673,
+      "oid": "6491f2fa8bb2f9d9469ed43a25f4d51abb147685",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 123,
+      "oid": "69481e23398ad7de11c8883349c29f705c24193a",
+      "path": "config",
+      "type": "tree"
+    },
+    {
+      "bytes": 427,
+      "oid": "cb775d7e5cb555c4f80005f2a16dd5bc2c0e2444",
+      "path": "config/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 13460,
+      "oid": "4c83dcc6c43ee587559e2eb5e025497973ff0e54",
+      "path": "config/checkpoint_next/full_bank_adapter_successor_v2.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 10486,
+      "oid": "46c19d4197a46f75dd362fe0e85b5cd39c482eae",
+      "path": "config/checkpoint_next/full_bank_prep_v1.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 2847,
+      "oid": "6324ba8e8dab3dc12c82467d52b65b785c5c0031",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 676,
+      "oid": "18fb66de0d22cfd910e5ed8be9821a67fbb859a5",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 16034,
+      "oid": "f5016a639c6ef2d0d3168ede0190192929b14cdd",
+      "path": "docs/checkpoint_next/FULL_ATOMIC_TRAINING_RESULTS_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 12303,
+      "oid": "ecaa8f4436a72b6edbb5cb600d759b2622b3b7ee",
+      "path": "docs/checkpoint_next/FULL_BANK_ADAPTER_SUCCESSOR_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 10955,
+      "oid": "861ba264085e3b588062d29b5b95c2062776e89f",
+      "path": "docs/checkpoint_next/FULL_BANK_PREPARATION_REPORT_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 9898,
+      "oid": "c17ff5c73176586ab86ebeabc8091c55f9e82db7",
+      "path": "docs/checkpoint_next/FULL_BANK_RUNBOOK_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 16629,
+      "oid": "687fe210f08bd10f180c833956a1db75fcd96a44",
+      "path": "docs/checkpoint_next/RAW_ONLY_SUCCESSOR_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 2117,
+      "oid": "747497f568731a743f46ecb7541bd4e00e5f211a",
+      "path": "results",
+      "type": "tree"
+    },
+    {
+      "bytes": 284,
+      "oid": "acb1dc59546560158306df20e5b495dae851c738",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003",
+      "type": "tree"
+    },
+    {
+      "bytes": 3458,
+      "oid": "445f617f98b2d415132951a2aa73cfbd11b9d991",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/file-inventory.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 501,
+      "oid": "73306a1c630f8c5c7a2beea031b81c0c3e012538",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/handoffs-qwen-verified-llama-pending.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 390093,
+      "oid": "30aac45efe1df1635fecb58c14ab39dde2b4eb71",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/qwen-read-only-acceptance-llama-pending.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 6849,
+      "oid": "b7ccd9530778506756d68e6a8fff8cea59564246",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/validation.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1063,
+      "oid": "2926840d612b124e502b8066ebdcd8d723fd1944",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/verification-summary.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 684,
+      "oid": "eb6b81fc25123b9cb934a68a773dbf674e625a65",
+      "path": "results/checkpoint_next_full_bank_prep_20261003",
+      "type": "tree"
+    },
+    {
+      "bytes": 2044433,
+      "oid": "d4b674728174d5aa516624e430d35555a66eaf25",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/adapter-bindings.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 684,
+      "oid": "6068e9773d0da778ff450b07b756e22dd3dcdd5c",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/authorization.template.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 82827,
+      "oid": "efb843caee9ccc037979d28353101bdeb713be03",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/candidate-inventory.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 2858,
+      "oid": "25cc9d6773d36485f6cbb0eaf706b500eb24b701",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/delivery-manifest.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1506,
+      "oid": "922102664bc8b1b212194278b7698ad957c43660",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/failure-accounting.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 260,
+      "oid": "bf44808532663b46264cced906d1923d0c8daf13",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/final-checks.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 36411,
+      "oid": "114702a6f78a9ec08a141a01197b37a14c632613",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/frozen-references.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 509,
+      "oid": "cea207453a54de92274c5eadecc080ab08178523",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/independent-export-verification.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 264710,
+      "oid": "14c183f1c2445c3b2a9fe038b4b5a7cc052e49c1",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/preparation.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 8749,
+      "oid": "264ae560b990a008570fcd1a2ea0e967133db2d7",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/preservation.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 25817,
+      "oid": "31cfa12f4893af0385cd0914a2b9987373f12d63",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/raw-export-provenance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1892,
+      "oid": "12e93dc52d3b5c651bd02af29fcfc8e4fb4a01ba",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/reporting-contract.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1300,
+      "oid": "58d3225fa87110b55f793fdb792a7006cbf015e8",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/tests.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 6723,
+      "oid": "1c7583a3522607108c95b29f6d8f13c1aa38645f",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/tests.log",
+      "type": "blob"
+    },
+    {
+      "bytes": 1671,
+      "oid": "1f68bec9afe8f32ac814aa870e416bf5147b0ccb",
+      "path": "results/checkpoint_next_full_bank_results_20261003",
+      "type": "tree"
+    },
+    {
+      "bytes": 4928,
+      "oid": "bbee76f8dca25d4ebe092181ea93969df6d00fa5",
+      "path": "results/checkpoint_next_full_bank_results_20261003/REPRODUCTION.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 7446,
+      "oid": "770866860fb5a7a459edb12002815081cacd8b80",
+      "path": "results/checkpoint_next_full_bank_results_20261003/SHA256-inventory.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 544,
+      "oid": "1969457d248ae936219b93e85cd4967c4eca8a38",
+      "path": "results/checkpoint_next_full_bank_results_20261003/acceptance-stage.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 325,
+      "oid": "8ca63302850cd4a54d759a5df70ec06e1d3c904a",
+      "path": "results/checkpoint_next_full_bank_results_20261003/audit-cpu-readiness.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1214,
+      "oid": "2df406f51af98b0eaf0b51201cdacdc6ea7230c2",
+      "path": "results/checkpoint_next_full_bank_results_20261003/audit-stage.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1128,
+      "oid": "2f11f516f051ccbbe40da27da54745335019c089",
+      "path": "results/checkpoint_next_full_bank_results_20261003/authorization.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 47247,
+      "oid": "f5598b22bd6eec3dab8ceb751aa0e82173935b4a",
+      "path": "results/checkpoint_next_full_bank_results_20261003/bank-maxima.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 1464,
+      "oid": "c2dfaf2139caa93306c2bd9228c6f865e2baa88c",
+      "path": "results/checkpoint_next_full_bank_results_20261003/bootstrap-provenance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 303911,
+      "oid": "bf83647ae7a85f15d1653849275142ce01aa1fd5",
+      "path": "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 198524,
+      "oid": "4e7120cd0a4dee1972d03371d21100c543a2bc00",
+      "path": "results/checkpoint_next_full_bank_results_20261003/completion.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 992805,
+      "oid": "b24c96cb8e7782235abb738447671499e54164cd",
+      "path": "results/checkpoint_next_full_bank_results_20261003/contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 2091,
+      "oid": "bac49c0c43213213351dba0cb251a83f4a3f3ab5",
+      "path": "results/checkpoint_next_full_bank_results_20261003/cpu-slot-readiness.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 794749,
+      "oid": "30dc899f703faf0730f0d04cb0dd95b72466dffb",
+      "path": "results/checkpoint_next_full_bank_results_20261003/downstream-input-acceptance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 426055,
+      "oid": "d26a4cdd0dbcfd3c43b4aa4487ad13343ce87710",
+      "path": "results/checkpoint_next_full_bank_results_20261003/external-output-manifest.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 881,
+      "oid": "8d64093a81fef626fff4bc523dbbd97f69e252c8",
+      "path": "results/checkpoint_next_full_bank_results_20261003/handoffs.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 552,
+      "oid": "f8c491ec9fc9457b85c93d0c8eb3b0b9e8460402",
+      "path": "results/checkpoint_next_full_bank_results_20261003/identity.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1003,
+      "oid": "330c039709881eae0db07d9bd79450b6eb7d6837",
+      "path": "results/checkpoint_next_full_bank_results_20261003/independent-audit.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 848822,
+      "oid": "9e0b063c8f72e717feebfc4a80c1c9529cf1d441",
+      "path": "results/checkpoint_next_full_bank_results_20261003/input-acceptance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 682,
+      "oid": "dd3e5ff55f0a59399fc48eb429b687e4b95f8979",
+      "path": "results/checkpoint_next_full_bank_results_20261003/llama-transfer-receipt.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 64834,
+      "oid": "d4027f1f79406e07e22c1ffa8fb922ab66c34145",
+      "path": "results/checkpoint_next_full_bank_results_20261003/llama-transfer.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 797670,
+      "oid": "8f71324c00ebcc11ea9e6e11c1aad353069627f4",
+      "path": "results/checkpoint_next_full_bank_results_20261003/locked.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 3035,
+      "oid": "57ed7ea8e7cac7da957a8e679ac324a3cee9b65b",
+      "path": "results/checkpoint_next_full_bank_results_20261003/mac1-handoff-binding.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 781130,
+      "oid": "a60629f8e57fe18a500578eab9e134523cc2e06a",
+      "path": "results/checkpoint_next_full_bank_results_20261003/metrics.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 642,
+      "oid": "48438f81bfcfb7040e60d58c2c90ab5aaf9dd7b2",
+      "path": "results/checkpoint_next_full_bank_results_20261003/preparation-stage.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 299,
+      "oid": "11b7037d187a6aa766b89d1e0c1944016ef5e359",
+      "path": "results/checkpoint_next_full_bank_results_20261003/prepared",
+      "type": "tree"
+    },
+    {
+      "bytes": 264785,
+      "oid": "ee80cc721193a404da17ab5707349d3bf580cc5d",
+      "path": "results/checkpoint_next_full_bank_results_20261003/prepared/preparation.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 25810,
+      "oid": "b070e8f25bca63a022395b7eb26e7b4dacd41889",
+      "path": "results/checkpoint_next_full_bank_results_20261003/prepared/raw-export-provenance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1520,
+      "oid": "679d63e4ab4773eded487f882982dcd0aa9c9fd7",
+      "path": "results/checkpoint_next_full_bank_results_20261003/preservation.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 2751,
+      "oid": "00e8284734efa8016100df9759d8c22f212010ef",
+      "path": "results/checkpoint_next_full_bank_results_20261003/primary-boundary-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 1251,
+      "oid": "0f3d1a0476e1e57b135f2ba854859b49a9bf4193",
+      "path": "results/checkpoint_next_full_bank_results_20261003/process-resource-samples.jsonl",
+      "type": "blob"
+    },
+    {
+      "bytes": 163718,
+      "oid": "6ff4f00c3463258b064e9b643876949d56e50cd6",
+      "path": "results/checkpoint_next_full_bank_results_20261003/retention.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 1041,
+      "oid": "1b63ee4193aa4032ccfacf351101e2afd341e4d1",
+      "path": "results/checkpoint_next_full_bank_results_20261003/run-stage.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 5381,
+      "oid": "72930c91b2b6eac3d0e8b00de123b10dcce6259f",
+      "path": "results/checkpoint_next_full_bank_results_20261003/runtime-accounting.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1219,
+      "oid": "8ca144a83c4a31063fb8868ae1787fb845762d35",
+      "path": "results/checkpoint_next_full_bank_results_20261003/selected-heads.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 71783,
+      "oid": "ecad99153d28742ee61591a2fe126d1e489466aa",
+      "path": "results/checkpoint_next_full_bank_results_20261003/topic-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 1131,
+      "oid": "8d52d7b2fe22f22d391c8d2bbf8ec1e259dc74cf",
+      "path": "results/checkpoint_next_full_bank_results_20261003/transfer-verification.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 57611,
+      "oid": "4f672e180e7ae318546cd5fb94c5c46d4d7db69e",
+      "path": "results/checkpoint_next_full_bank_results_20261003/wording-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 5213,
+      "oid": "66ce91d20851607645348b41a4e00a65f1b660d5",
+      "path": "scripts",
+      "type": "tree"
+    },
+    {
+      "bytes": 12337,
+      "oid": "435a4427d3c7112fd3e568fc7104a3e604ee53f6",
+      "path": "scripts/checkpoint_next_full_bank.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 7357,
+      "oid": "8bd9210dca0202b148d9aa98836fbd66dd6696d7",
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "bytes": 4320,
+      "oid": "c3eceae59a893e25ce8f02073d9b21108e628a8d",
+      "path": "src/checkpoint_next_chat.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 9849,
+      "oid": "17e25447558dd3a285f497dddaa7cf745dd2b8fe",
+      "path": "src/checkpoint_next_full_bank_audit.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 11394,
+      "oid": "2042f064eb48d0124844ed09c286d332f9b1551a",
+      "path": "src/checkpoint_next_full_bank_evaluation.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 11673,
+      "oid": "6cb511ade54588e998cc08daf0d25a4082939bf8",
+      "path": "src/checkpoint_next_full_bank_handoffs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 10992,
+      "oid": "0d56edeb28263592caa2da7ea93c432cecf01d17",
+      "path": "src/checkpoint_next_full_bank_inputs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 7592,
+      "oid": "4dd12cd787cf01c5a41decffabade713568b2235",
+      "path": "src/checkpoint_next_full_bank_provenance.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 4867,
+      "oid": "1d31faa9a67878a2b652e3501ce496b98da3c563",
+      "path": "src/checkpoint_next_full_bank_selection.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 9897,
+      "oid": "c2b18d75e48504fa8c3209020a3dc566a6be657b",
+      "path": "src/checkpoint_next_full_bank_worker.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 4106,
+      "oid": "5b73876cda5ee3b41a7a5982e627015ffa812f03",
+      "path": "tests",
+      "type": "tree"
+    },
+    {
+      "bytes": 11719,
+      "oid": "a7164feb7df13d1f431c59066741e518ce7506f3",
+      "path": "tests/test_checkpoint_next_full_bank.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 15625,
+      "oid": "e1d26c276a0545804e5b0841a0bf63376040b440",
+      "path": "tests/test_checkpoint_next_full_bank_handoffs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 673,
+      "oid": "2a5c0324a84cf6e03b7e4c21ab0f7bf839578997",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 2847,
+      "oid": "eb68a5fd5c3baefe4c0332d66fe44842bee09808",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 676,
+      "oid": "ed82540505154a90042dace65e21a474cc2cc8a0",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 15879,
+      "oid": "c62b1e9e79e46f9fa62f2299a9a463ad7b1d3690",
+      "path": "docs/checkpoint_next/FULL_ATOMIC_TRAINING_RESULTS_20261003.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 2117,
+      "oid": "e6148233000381fe1800f566862d5372474d4d88",
+      "path": "results",
+      "type": "tree"
+    },
+    {
+      "bytes": 1671,
+      "oid": "98681721713e950d28fed2c77d11732e0f692982",
+      "path": "results/checkpoint_next_full_bank_results_20261003",
+      "type": "tree"
+    },
+    {
+      "bytes": 4701,
+      "oid": "d5fbac6da381b11678642aa4bfb41002e52d0cb2",
+      "path": "results/checkpoint_next_full_bank_results_20261003/REPRODUCTION.md",
+      "type": "blob"
+    },
+    {
+      "bytes": 7446,
+      "oid": "7cd20a7fa00a41863c07dbc011502604acf121e5",
+      "path": "results/checkpoint_next_full_bank_results_20261003/SHA256-inventory.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 304512,
+      "oid": "570e153d03263859d1ddd6c7923e046f912076b4",
+      "path": "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 2768,
+      "oid": "5c55cef3ca9224156d3cf6034bbd389704c15f34",
+      "path": "results/checkpoint_next_full_bank_results_20261003/primary-boundary-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 164727,
+      "oid": "602223324230e179fc1898218ee2955ad604ec52",
+      "path": "results/checkpoint_next_full_bank_results_20261003/retention.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 5130,
+      "oid": "14643a0ebaecb05f6216d8f59ee63c58d0a53ae9",
+      "path": "results/checkpoint_next_full_bank_results_20261003/runtime-accounting.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 1226,
+      "oid": "719898c9b0810983610101faf4afe1e4d0eb3e79",
+      "path": "results/checkpoint_next_full_bank_results_20261003/selected-heads.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 72224,
+      "oid": "41c342a834efab1ba60af48414231bed73bb3d87",
+      "path": "results/checkpoint_next_full_bank_results_20261003/topic-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 57948,
+      "oid": "ab1cd85738b1c9e81d10c030a1ebcbeed0cc4e67",
+      "path": "results/checkpoint_next_full_bank_results_20261003/wording-contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 673,
+      "oid": "6a9f1dcb12eb8b4582e977add40db4dfb3a3a567",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 2847,
+      "oid": "9ffb7c887ebf10681a9eb347707a769e39e2ee66",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 608,
+      "oid": "2431bb30d9cb1609e9f42977cd0311c92cb67d1a",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 2048,
+      "oid": "38fb927fc39a1e84b818a5d70055ab0ac3ee191c",
+      "path": "results",
+      "type": "tree"
+    },
+    {
+      "bytes": 673,
+      "oid": "4ed7233860ac564920f6bc94303c9b9a7c023b34",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 2847,
+      "oid": "eb185dbc79a20ee97ac5e23baace5910b5ea476f",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 541,
+      "oid": "d522d58824b8432dd095a01d20a9301a031714cb",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 1969,
+      "oid": "ffaef9739f8fd33dcfa832e6e9438af8c9695549",
+      "path": "results",
+      "type": "tree"
+    },
+    {
+      "bytes": 673,
+      "oid": "5fb6a63af02499fca85e05a9836eecc1d7991e8b",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 123,
+      "oid": "fbc0d3dde2ddb7b9a96976c80414d9085fddf35f",
+      "path": "config",
+      "type": "tree"
+    },
+    {
+      "bytes": 364,
+      "oid": "5288b18a4a53fb7de506fda7cfd739ce4d4a7ed5",
+      "path": "config/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 5213,
+      "oid": "11082ffe23e21b301185ad0282a0e99de9cc4b3c",
+      "path": "scripts",
+      "type": "tree"
+    },
+    {
+      "bytes": 12142,
+      "oid": "0a2c3ebe5edae52ea93c79182651f587f4a83233",
+      "path": "scripts/checkpoint_next_full_bank.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 7292,
+      "oid": "609cf25625578b67b03b2629d6f50e0d06dad77c",
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "bytes": 9874,
+      "oid": "e109b867ab569e637f0825bbf72178bfea5fcf4d",
+      "path": "src/checkpoint_next_full_bank_audit.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 14184,
+      "oid": "fc8d4433a5b3ea26b1ffd39d7c10452212256a23",
+      "path": "src/checkpoint_next_full_bank_inputs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 9927,
+      "oid": "a7be095c67b3b8debdea4e8c37537620b9da0059",
+      "path": "src/checkpoint_next_full_bank_worker.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 4036,
+      "oid": "dd140ac738215f8737882e6232509021a355c678",
+      "path": "tests",
+      "type": "tree"
+    },
+    {
+      "bytes": 11518,
+      "oid": "1debe371f0a7f12b8966989c36373570ee92ecd3",
+      "path": "tests/test_checkpoint_next_full_bank.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 673,
+      "oid": "2d693b02cfa7899d1927f10b2d0d089dc61a72aa",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 2847,
+      "oid": "4cbde5d4dccafff1a3959aea2ab9cce97aff60b1",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 416,
+      "oid": "7171f2f28367c1c4eb3bd9ae684d6b1f750ad67d",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 673,
+      "oid": "7443505997ddda70449417ec5900005e9c8fe822",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 123,
+      "oid": "2a94b898218221793004469170de3fca3927b31d",
+      "path": "config",
+      "type": "tree"
+    },
+    {
+      "bytes": 316,
+      "oid": "ae210c31f1431a5f1b506802b80d5f980d163007",
+      "path": "config/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 2847,
+      "oid": "cbe1ce11266531fe3e3d62ff85b90bee2cc8e028",
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "bytes": 483,
+      "oid": "9132007dcb4fadbeaaaecda172d29d31fcd71870",
+      "path": "docs/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 7237,
+      "oid": "6552d4057988c636531fad8a374955cd57e1975e",
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "bytes": 3976,
+      "oid": "d393354cbe31ee0bfd5ac8f195fcb369accd829a",
+      "path": "tests",
+      "type": "tree"
+    },
+    {
+      "bytes": 673,
+      "oid": "57f4f8bb1da40bc1e060a5a5fed2cbc774b33652",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 673,
+      "oid": "d40deb8ac52ec2f2db9d7cdd54881c878c6449a8",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 123,
+      "oid": "cedfb3906ac18f80d5785e8a658ddd9e74747199",
+      "path": "config",
+      "type": "tree"
+    },
+    {
+      "bytes": 316,
+      "oid": "9578e4c498437b8137b9347b3ee7c12fc904a0a2",
+      "path": "config/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 10486,
+      "oid": "fd130088a8864794ebcd113431bcf15bd1d14c53",
+      "path": "config/checkpoint_next/full_bank_prep_v1.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 5213,
+      "oid": "0a1e83f3aad3548660f17fd95f24feceaac56283",
+      "path": "scripts",
+      "type": "tree"
+    },
+    {
+      "bytes": 11987,
+      "oid": "a6062ea1a1550a739064515a604fb0404c4b2752",
+      "path": "scripts/checkpoint_next_full_bank.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 7237,
+      "oid": "a04f91de21c39d501fd67565dd5861803b7ca25e",
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "bytes": 13919,
+      "oid": "f1da724b86d4450a2ee3ad8bf4f51b1854c0d099",
+      "path": "src/checkpoint_next_full_bank_inputs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 7426,
+      "oid": "badfd566f8069139cf35c82e08f5c3cc710b62e1",
+      "path": "src/checkpoint_next_full_bank_provenance.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 673,
+      "oid": "c643eff6194694e0c380da875210feedfc2a6d29",
+      "path": "",
+      "type": "tree"
+    },
+    {
+      "bytes": 123,
+      "oid": "2a08d02a5e0c428700b44a64d51762bda9353e96",
+      "path": "config",
+      "type": "tree"
+    },
+    {
+      "bytes": 316,
+      "oid": "14f5489ef170047230c5af324cf1d471c607367a",
+      "path": "config/checkpoint_next",
+      "type": "tree"
+    },
+    {
+      "bytes": 10486,
+      "oid": "873fc56183d07bef819f35deab6eae6a6226a81c",
+      "path": "config/checkpoint_next/full_bank_prep_v1.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 7237,
+      "oid": "1fc1998d613c4a5c86cd03520b0fca5bd614857b",
+      "path": "src",
+      "type": "tree"
+    },
+    {
+      "bytes": 13556,
+      "oid": "08c7e939f15adb6d94ca1c5aab6cfca6a48c57e2",
+      "path": "src/checkpoint_next_full_bank_inputs.py",
+      "type": "blob"
+    },
+    {
+      "bytes": 3976,
+      "oid": "a77db122f0e798b6d5cd1e365d7f5faab1277af2",
+      "path": "tests",
+      "type": "tree"
+    },
+    {
+      "bytes": 11190,
+      "oid": "5a8eb475333c0f2751b0899fdf22fc8833823fd0",
+      "path": "tests/test_checkpoint_next_full_bank.py",
+      "type": "blob"
+    }
+  ],
+  "largest_blobs": [
+    {
+      "bytes": 2044433,
+      "oid": "d4b674728174d5aa516624e430d35555a66eaf25",
+      "path": "results/checkpoint_next_full_bank_prep_20261003/adapter-bindings.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 992805,
+      "oid": "b24c96cb8e7782235abb738447671499e54164cd",
+      "path": "results/checkpoint_next_full_bank_results_20261003/contrasts.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 848822,
+      "oid": "9e0b063c8f72e717feebfc4a80c1c9529cf1d441",
+      "path": "results/checkpoint_next_full_bank_results_20261003/input-acceptance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 797670,
+      "oid": "8f71324c00ebcc11ea9e6e11c1aad353069627f4",
+      "path": "results/checkpoint_next_full_bank_results_20261003/locked.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 794749,
+      "oid": "30dc899f703faf0730f0d04cb0dd95b72466dffb",
+      "path": "results/checkpoint_next_full_bank_results_20261003/downstream-input-acceptance.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 781130,
+      "oid": "a60629f8e57fe18a500578eab9e134523cc2e06a",
+      "path": "results/checkpoint_next_full_bank_results_20261003/metrics.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 426055,
+      "oid": "d26a4cdd0dbcfd3c43b4aa4487ad13343ce87710",
+      "path": "results/checkpoint_next_full_bank_results_20261003/external-output-manifest.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 390093,
+      "oid": "30aac45efe1df1635fecb58c14ab39dde2b4eb71",
+      "path": "results/checkpoint_next_full_bank_adapter_successor_20261003/qwen-read-only-acceptance-llama-pending.json",
+      "type": "blob"
+    },
+    {
+      "bytes": 304512,
+      "oid": "570e153d03263859d1ddd6c7923e046f912076b4",
+      "path": "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv",
+      "type": "blob"
+    },
+    {
+      "bytes": 303911,
+      "oid": "bf83647ae7a85f15d1653849275142ce01aa1fd5",
+      "path": "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv",
+      "type": "blob"
+    }
+  ],
+  "object_count": 158,
+  "suspicious_paths_or_credentials": []
+}

@@ -1,0 +1,75 @@
+{
+  "E_accessed": false,
+  "RunPod_contacted": false,
+  "approved_controls_unchanged": true,
+  "authorization_index_sha256": {
+    "local": "8e3ee5103379a8ccd3805439deb1ffeb3fbf9fddb2bbcf3fbf1573bd187362e5",
+    "remote": "86ccbb56dc882ec42c7865b1b590c4a42703c8ac3c286d74352eb3c3dd33c908"
+  },
+  "blocker_delivery_sha": "adf7ef9a4aaa6b38757757be323278a792b6a61b",
+  "budget_adopted": false,
+  "bundle": {
+    "advertised_heads": [
+      {
+        "ref": "refs/heads/final-e-bridge-20261004",
+        "sha": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+      }
+    ],
+    "bytes": 1578104,
+    "incremental_commit_count": 10,
+    "incremental_commits": [
+      "d80ff94851e78122e823fc16422255f6fcafbc47",
+      "5c783d58a5d9c0dc5a24c5482a58b74f75c9dbb3",
+      "7bba980b94a3ffa4b9127bbc50a351820ddc2629",
+      "98ec4004168c2bc5d1906ce1d7cf95a93dde759f",
+      "4e508a8f2a7d85cd8e540686be9b007b7fc29810",
+      "a3bda2a1570ec21fae3a3fed16476f1f0bda948a",
+      "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "1d629a84aee5217e8f422b0bc80ee0debacdf3c8",
+      "5923c4dd829677c16505c6da2a1862924c88f971",
+      "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+    ],
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport-supplement-20261004-6865bfa-to-754ff1d-v3/bridge-6865bfa-to-754ff1d.bundle",
+    "prerequisites": [
+      "6865bfa43c52d9c5d7d3c96df90351ad8f895aea"
+    ],
+    "sha256": "0fb71490a922b3bf5bb29ae233a3c60d1129b9b58ae2405601f6c1823ea67341"
+  },
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "execution_producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "execution_producer_tree_sha": "93972950bca996dbfa9794dedf07934868b42e98",
+  "final_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "header_normalization": {
+    "all_removed_prerequisites_ancestors_of_sole_prerequisite": true,
+    "native_bundle_path": "/private/tmp/final-e-bridge-proof-20261004-2d5z0qn4/native-boundary-bundle.bundle",
+    "native_bundle_pin": {
+      "bytes": 1578208,
+      "sha256": "3f796168b316fd1138de8b86e6d467a838e1482527db5559dab9b37e7a3ac2e8"
+    },
+    "native_prerequisites": [
+      "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d"
+    ],
+    "normalization_scope": "remove only implied ancestor prerequisite header lines; pack and advertised target unchanged",
+    "pack_payload_unchanged": true,
+    "pack_sha256": "657e8a598f1b680d05f444645e41c044bd44e058764613a452d2df6da3afd215",
+    "removed_redundant_ancestors": [
+      "fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d"
+    ]
+  },
+  "original_producer_bundle": {
+    "bytes": 176023,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/producer.bundle",
+    "sha256": "da28abe3c64e50bffee3047003a621ee29b60dd46ceafd3052157ae796b7a1aa"
+  },
+  "original_transport_inventory_unchanged": true,
+  "recipient_verification_status": "PENDING; recorded observation only",
+  "recorded_inspection_receipt_sha256": "01f831b50e9e818b452f7ece47370bcecd77c5aa2aa8d15c687c6d7597512a18",
+  "recorded_recipient_head": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "recorded_recipient_repository": "/workspace/checkpoint-next-raw-only-code-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "remote_bridge_path": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-6865bfa-to-754ff1d.bundle",
+  "remote_import_receipt_path": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/recipient-import.json",
+  "remote_inventory_path": "/workspace/final-e-raw-20261004-b2c6dde-88b114dd-v1/control/transport-supplement/bridge-inventory.json",
+  "remote_mutation": false,
+  "schema": "final-e-transport-bridge-v1"
+}

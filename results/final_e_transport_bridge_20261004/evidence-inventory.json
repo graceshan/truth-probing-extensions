@@ -1,0 +1,35 @@
+{
+  "base_sha": "adf7ef9a4aaa6b38757757be323278a792b6a61b",
+  "changed_file_list": [
+    "docs/final_e/TRANSPORT_BRIDGE_20261004.md",
+    "results/final_e_transport_bridge_20261004/bridge-inventory.json",
+    "results/final_e_transport_bridge_20261004/evidence-inventory.json",
+    "results/final_e_transport_bridge_20261004/object-inspection.json",
+    "results/final_e_transport_bridge_20261004/two-stage-import-proof.json",
+    "results/final_e_transport_bridge_20261004/validation.json"
+  ],
+  "files": {
+    "docs/final_e/TRANSPORT_BRIDGE_20261004.md": {
+      "bytes": 12914,
+      "sha256": "20d5f89fa3ac4e61893350543b30190c5a0835c5c81ed8b90795d3b8e7b51cd6"
+    },
+    "results/final_e_transport_bridge_20261004/bridge-inventory.json": {
+      "bytes": 3849,
+      "sha256": "2448da945e2ad60519e12ea80073bac2a5e4a52381c807b0e241ae76eaa9069d"
+    },
+    "results/final_e_transport_bridge_20261004/object-inspection.json": {
+      "bytes": 29567,
+      "sha256": "7740c163299eda9a1fe3780eb6d4c82ca77cf4e0ef12f1c3e753fc1ad6ba8682"
+    },
+    "results/final_e_transport_bridge_20261004/two-stage-import-proof.json": {
+      "bytes": 418283,
+      "sha256": "27a2578539cab595319bc49d3bca02e9c7323cb801961e55f1c5b035e8cbd9d8"
+    },
+    "results/final_e_transport_bridge_20261004/validation.json": {
+      "bytes": 1861,
+      "sha256": "87ba3db38d499d37dad33f44bb0315646c1869532851b2f8779ac72b5a8186ba"
+    }
+  },
+  "schema": "final-e-transport-supplement-evidence-v1",
+  "self_excluded": "results/final_e_transport_bridge_20261004/evidence-inventory.json"
+}
