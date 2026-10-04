@@ -1,0 +1,28 @@
+{
+  "E_outputs_accessed": false,
+  "Pod_contact": false,
+  "base": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+  "branch": "checkpoint-final-e-prep-20261003",
+  "documentation_completed_utc": "2026-10-04T02:53:40.000538+00:00",
+  "documentation_files": {
+    "docs/final_e/MAC2_HANDOFF_20261003.md": "82b7b27209262dc91cfd131165cffd5a4ebc08607496e4a675c48d23620fb15b",
+    "docs/final_e/PREPARATION_20261003.md": "2b5ef7ad16bda150add6b6c8c90c03f1ec75a716e6611208902a8a9ec0f0a3d0",
+    "docs/final_e/RUNBOOK_20261003.md": "07d09afd3b634c6184077ef00ac034ab591b28631aad802f4bfe34d8a7b1af36"
+  },
+  "elapsed_seconds_through_documentation": 3226.000538,
+  "execution_authorized": false,
+  "fits": 0,
+  "producer_sha": "880345c2bea9982d91786516219da873ddb4405d",
+  "publication": "Exact delivery SHA and independently queried remote SHA are recorded in the external review/publication receipt and final response.",
+  "schema": "final-e-preparation-delivery-v1",
+  "scientific_lock_approved": false,
+  "started_utc": "2026-10-04T01:59:54+00:00",
+  "status": "prepared_for_external_review_E_closed",
+  "validation": {
+    "D_report_rows": 53928,
+    "bootstrap_draws": 2000,
+    "focused_tests": 24,
+    "heads_reapplied_to_D": 85,
+    "max_report_difference": 0
+  }
+}
