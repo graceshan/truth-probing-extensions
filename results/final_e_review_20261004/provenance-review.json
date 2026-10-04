@@ -1,0 +1,70 @@
+{
+  "repository": "https://github.com/graceshan/truth-probing-extensions.git",
+  "branch": "checkpoint-final-e-review-20261004",
+  "review_base": "ce3600d3e858c56476f9e098d5c582c6c01376af",
+  "reviewed_producer": "880345c2bea9982d91786516219da873ddb4405d",
+  "successor_producer": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "ancestry": [
+    {
+      "ancestor": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+      "descendant": "880345c2bea9982d91786516219da873ddb4405d",
+      "exit_code": 0
+    },
+    {
+      "ancestor": "880345c2bea9982d91786516219da873ddb4405d",
+      "descendant": "ce3600d3e858c56476f9e098d5c582c6c01376af",
+      "exit_code": 0
+    },
+    {
+      "ancestor": "ce3600d3e858c56476f9e098d5c582c6c01376af",
+      "descendant": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "exit_code": 0
+    }
+  ],
+  "registry_counts": {
+    "constituent_cases": 12,
+    "constituent_heads": 12,
+    "scalar_aliases": 156,
+    "unique_heads": 85
+  },
+  "head_producers": {
+    "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4": 43,
+    "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f": 21,
+    "2d28c0b2733a4433aa6ceb4de020bfb815c2f7db": 12,
+    "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8": 9
+  },
+  "all_three_samples": [
+    11,
+    23,
+    37
+  ],
+  "Revision_3_sha256": "ae135d188dddac61d921c0efc8b79499b6344396aae1046f5c9cce1283003035",
+  "source_manifests": {
+    "b25": {
+      "bytes": 868308,
+      "sha256": "c462744880b449f8381a30aad8680e2db237f9999ae3c62f318497ffc7c30637"
+    },
+    "constituent": {
+      "bytes": 255532,
+      "sha256": "e082f09a481196014a48c53f659d48b6ec0339e6990402cde6fdf1d5c1238f27"
+    },
+    "full_bank": {
+      "bytes": 426055,
+      "sha256": "7ebba38170ebd7d96216e47728dedaf12b74c2a8ed2a6ba67815e26f7fb0cd99"
+    }
+  },
+  "original_worktrees": {
+    "E_preparation": {
+      "HEAD": "ce3600d3e858c56476f9e098d5c582c6c01376af",
+      "status": ""
+    },
+    "full_bank_results": {
+      "HEAD": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+      "status": ""
+    },
+    "CPU_execution": {
+      "HEAD": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "status": ""
+    }
+  }
+}

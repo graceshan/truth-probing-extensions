@@ -1,0 +1,19 @@
+{
+  "E_outputs_opened": false,
+  "checks": 2979284,
+  "constituent_panels": 25,
+  "constituent_records": 2250,
+  "implementation": "existing full-bank sorted-pair AUROC reference plus explicit constituent confusion/Boolean/min-max arithmetic",
+  "maximum_absolute_difference": 0.0,
+  "mean_endpoints": 600,
+  "new_fits": 0,
+  "paired_contrasts": 3240,
+  "peak_rss_bytes": 1799979008,
+  "replicates": 2000,
+  "retention_decisions": 608,
+  "scalar_endpoints": 730,
+  "scalar_heads": 73,
+  "scope": "principal scalar points/draws, sample means, paired contrasts/retention and constituent decisions; reproducibility separately covers the complete report",
+  "seconds": 194.7886003749445,
+  "status": "independent_principal_calculation_passed"
+}

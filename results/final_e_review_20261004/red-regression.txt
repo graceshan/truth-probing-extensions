@@ -1,0 +1,28 @@
+E
+======================================================================
+ERROR: test_completed_shards_index_and_corruption (tests.test_final_e_review.HandoffTests.test_completed_shards_index_and_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/tests/test_final_e_review.py", line 143, in test_completed_shards_index_and_corruption
+    f.extract('qwen');raw.verify(f.output,'qwen',f.access)
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/tests/test_final_e_review.py", line 109, in extract
+    raw.worker(args,access)
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/final_e_raw.py", line 111, in worker
+    indices=timed('forward_writing_verification',lambda:extract_model(modelroot/'shards',rows,spec,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/final_e_raw.py", line 72, in timed
+    try:return fn()
+               ^^^^
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/final_e_raw.py", line 111, in <lambda>
+    indices=timed('forward_writing_verification',lambda:extract_model(modelroot/'shards',rows,spec,
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/checkpoint_r2_full_raw.py", line 101, in extract_model
+    require(sum(p.stat().st_size for p in path.iterdir())+4096 <= token_plan[index]['reserved_bytes'], 'shard exceeds storage reservation')
+                                                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'reserved_bytes'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.082s
+
+FAILED (errors=1)

@@ -1,0 +1,140 @@
+{
+  "E_activations_predictions_metrics": false,
+  "array_scope": "metadata-only E weights; saved D reference inputs are unchanged external sources",
+  "files": {
+    "D-independent-stage.json": {
+      "bytes": 786,
+      "sha256": "76fa933e6296e6634e90906597cf968b0f10179b378ace4ef90ccbb3828ce48a"
+    },
+    "D-independent.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "D-independent.stdout.log": {
+      "bytes": 741,
+      "sha256": "9b3fa7cd98c35959dbb335137a88819acdd8fad56fad31c4858524046248203b"
+    },
+    "D-independent/independent-D-reference.json": {
+      "bytes": 741,
+      "sha256": "bcc599561cd88c4edf4f2c709e8094c88797a845d8580245ad2b2ab34c322995"
+    },
+    "D-reproduction-stage.json": {
+      "bytes": 803,
+      "sha256": "6e5f7001d8c77247a38da690a023aca019de9532dec382242ba8030358015fd9"
+    },
+    "D-reproduction.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "D-reproduction.stdout.log": {
+      "bytes": 10027,
+      "sha256": "5d1686be1836195de1848b0a2295b2a186d0f43e55393382addb4b21fc2c9602"
+    },
+    "D-reproduction/D-reproduction.json": {
+      "bytes": 39733,
+      "sha256": "81295b9dc4102aa35db176d3558913165440eab011e3ecd30584f800bf23afc7"
+    },
+    "baseline-focused-tests.json": {
+      "bytes": 113,
+      "sha256": "333dba771179ee16874f3a321b2d8a521d8915b85166f7fb1bd60b04d19ea823"
+    },
+    "baseline-focused-tests.txt": {
+      "bytes": 3383,
+      "sha256": "0e846f753319a8e4f84c4d08414977f09603c3cbebb09208b9b820c5806c11ce"
+    },
+    "chain-first.txt": {
+      "bytes": 271,
+      "sha256": "509665b4d0bd6d8bc2551de3aa0d619aae8818e0f134f12ffa9777a2776c2b00"
+    },
+    "expanded-first.txt": {
+      "bytes": 276,
+      "sha256": "647d278013556895d8b4c2a7aadaa45b4738b9d12cd01a669f0288b1bd8d0eed"
+    },
+    "head-provenance.json": {
+      "bytes": 38187,
+      "sha256": "93af2fa286ef5b38f5db20aaea4b008929d04e798d4db18de60815a89ecc61bf"
+    },
+    "metadata-reconstruction/E-bootstrap-weights.npz": {
+      "bytes": 21177960,
+      "sha256": "84866f5301bd3d23cd20e97ab8747403efe54db38b88ca9dc98baa765b722ea6"
+    },
+    "metadata-reconstruction/bootstrap.json": {
+      "bytes": 1897,
+      "sha256": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137"
+    },
+    "metadata-reconstruction/draft-lock.json": {
+      "bytes": 1375,
+      "sha256": "828abb54386de552f38a29596c5f2defb1bbfde1db227e73fb9e4054a2a732f2"
+    },
+    "metadata-reconstruction/forecast.json": {
+      "bytes": 3558,
+      "sha256": "29e07fe647463bdf1b02ca2627986b4b125ba63decdad5de77561c28b7c7c9d5"
+    },
+    "metadata-reconstruction/head-registry.json": {
+      "bytes": 145249,
+      "sha256": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31"
+    },
+    "metadata-reconstruction/inventory.json": {
+      "bytes": 2867,
+      "sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "metadata-reconstruction/schedule-artifact.json": {
+      "bytes": 243,
+      "sha256": "1f737e12ab34bc1c3a482541ea041e7203cdab81ebac180e636fafe3fe6c22e0"
+    },
+    "prepare-stage.json": {
+      "bytes": 776,
+      "sha256": "d94bf60bf869209a8f716097e93f068030d5746e2bceb44d88b972c1c5fa78eb"
+    },
+    "prepare.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "prepare.stdout.log": {
+      "bytes": 74,
+      "sha256": "0846a782ab39c527e986b14f2d8b737c2e7dc409302aa2488d5c13e3cb16bc27"
+    },
+    "provenance-review.json": {
+      "bytes": 2114,
+      "sha256": "c9b6e4a5a503943d09e69c87be7fa1ac6be6724ea28ba2a2965935cefef2c0f6"
+    },
+    "red-index-regression.txt": {
+      "bytes": 1150,
+      "sha256": "21a75240bf6dae91a790f649e9074f36336dd0e20fc762c2c698df44882181e0"
+    },
+    "red-regression.txt": {
+      "bytes": 2134,
+      "sha256": "45a5ffef90e4219e974c0151d2e48b43a0747e5efaac793ff9aed3d5ac077898"
+    },
+    "reference-first.txt": {
+      "bytes": 1988,
+      "sha256": "ccfd9fc128e028a9a6515cf52b8abcc8ce128a5c60697e57fc23de16eceff97f"
+    },
+    "run_stage.py": {
+      "bytes": 2075,
+      "sha256": "5b472a27e87acdf4785354d6fae9fd7ebfb96226a7c4032b5c232c823ac15d5e"
+    },
+    "successor-focused-tests.json": {
+      "bytes": 160,
+      "sha256": "8c34167da904be63d294e8c6ada87d226abb709720b3aa4e4ce0510e2f7ce3f5"
+    },
+    "successor-focused-tests.txt": {
+      "bytes": 4734,
+      "sha256": "79482f7ee817e3b5bf8a5e2f60b4bce6c10994bc230c5d8f936e962aee1150c9"
+    },
+    "tests-stage.json": {
+      "bytes": 929,
+      "sha256": "e62940c71e355977080e8dd2a94ee5f9569ae5354e4cd7c26cc4d5c5fd409c13"
+    },
+    "tests.stderr.log": {
+      "bytes": 4914,
+      "sha256": "a8b7d4a974b7cc305520ec7932d297750b62475902d433f835533ec0b634d707"
+    },
+    "tests.stdout.log": {
+      "bytes": 170,
+      "sha256": "a928dd967513916020a7b2d7b320538ab4ca871325edcc209cf9fe41c0b7a813"
+    }
+  },
+  "large_arrays_outside_Git": true,
+  "root": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-review-evidence-20261004"
+}

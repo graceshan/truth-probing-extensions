@@ -1,0 +1,24 @@
+{
+  "stage": "D-reproduction",
+  "returncode": 0,
+  "seconds": 202.44680141611025,
+  "peak_child_rss_bytes": 1396588544,
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "-m",
+    "src.final_e_validation",
+    "--roots",
+    "config/final_e/artifact_roots.example.json",
+    "--output",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-review-evidence-20261004/D-reproduction",
+    "--recompute-draws"
+  ],
+  "cwd": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "python": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "python_version": "3.11.6",
+  "platform": "Darwin",
+  "hostname": "MacBook-Pro-7.local",
+  "threads": 1,
+  "E_outputs_opened": false
+}

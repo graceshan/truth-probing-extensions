@@ -1,0 +1,18 @@
+E
+======================================================================
+ERROR: test_completed_shards_index_and_corruption (tests.test_final_e_review.HandoffTests.test_completed_shards_index_and_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/tests/test_final_e_review.py", line 143, in test_completed_shards_index_and_corruption
+    f.extract('qwen');raw.verify(f.output,'qwen',f.access)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/final_e_raw.py", line 204, in verify
+    require(read(mroot/'index.json')==expected,'complete ordered index')
+  File "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004/src/checkpoint_r2_fresh_inputs.py", line 16, in require
+    raise ValueError(message)
+ValueError: complete ordered index
+
+----------------------------------------------------------------------
+Ran 1 test in 0.207s
+
+FAILED (errors=1)

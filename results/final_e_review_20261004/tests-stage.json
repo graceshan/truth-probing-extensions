@@ -1,0 +1,19 @@
+{
+  "stage": "tests",
+  "returncode": 0,
+  "seconds": 16.251307250000536,
+  "peak_child_rss_bytes": 452526080,
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "-c",
+    "import fcntl,unittest; slot=open('/tmp/truth-probing-cpu-exclusive.lock','a'); fcntl.flock(slot,fcntl.LOCK_EX|fcntl.LOCK_NB); suite=unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromName(m) for m in ('tests.test_final_e_locked_path','tests.test_final_e_review')); r=unittest.TextTestRunner(verbosity=2).run(suite); raise SystemExit(0 if r.wasSuccessful() else 1)"
+  ],
+  "cwd": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-review-20261004",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "python": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "python_version": "3.11.6",
+  "platform": "Darwin",
+  "hostname": "MacBook-Pro-7.local",
+  "threads": 1,
+  "E_outputs_opened": false
+}
