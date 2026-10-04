@@ -1,0 +1,90 @@
+{
+  "execution_output": "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "full_preflight_acceptance": false,
+  "original": {
+    "carry_seconds": {
+      "llama": 41.1570940479869,
+      "qwen": 160.83801023702836
+    },
+    "llama_acceptance": null,
+    "original_attempts": {
+      "llama": [
+        {
+          "active_seconds": 41.1570940479869,
+          "attempt": "6c4e0dd794174072b322d5a1f2c44a14",
+          "end_sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37",
+          "phase": "missing_raw",
+          "start_sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+        }
+      ],
+      "qwen": [
+        {
+          "active_seconds": 100.81950526899891,
+          "attempt": "6877c25aa64b4b09b112ca319e1b8739",
+          "end_sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68",
+          "phase": "missing_raw",
+          "start_sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+        },
+        {
+          "active_seconds": 60.01850496802945,
+          "attempt": "ed33204d8af84577803bc3d327ec272c",
+          "end_sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3",
+          "phase": "preflight",
+          "start_sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+        }
+      ]
+    },
+    "original_identities": {
+      "llama": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "llama",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      },
+      "qwen": {
+        "config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "integration_config_sha256": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+        "inventory_sha256": "a253e40470c6cb46fb6f8d4fca84160204511fb105b6f124179f22c6c74f722a",
+        "model": "qwen",
+        "paths": "full-sequence-likelihood/greedy/last-input-chat-v2",
+        "producer_commit": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      }
+    },
+    "original_manifest_sha256": "88918f7fcd28b37a8a593a844b1c8ab10c11e940e4144e493dc4c05809729ebc",
+    "original_producer": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+    "partial_is_full_acceptance": false,
+    "qwen_acceptance_sha256": "96c5d1f5c064e79a58b6704763d6dbca77e4f352d48b13ae3658d9ddc8ba539d",
+    "qwen_accepted_raw_shards": 131,
+    "qwen_partial_ids": [
+      "9ca632eaf3a612d32d036db17ce024117443f9559a73b37bb6afba95b847a7d3",
+      "a0dcffdccafc386e0bf97354d53796d8ff2a04ad837cbdeea608d8951340bd30",
+      "2becd28ff07c8df234a359c2695bd457e2341ad613874b38d052f11e0d1f5c1b",
+      "a7ceb053f17f757c5ddeee69f6a414097e4b70f6f45df953d520db6ec7324871",
+      "617cc9be4d98c8405dc9128474d56988d8d103b334d4afbb8302cdae5b8334da",
+      "acbd18b4c2b52d6f778db8ab1e51863b0c766283b721b5d6139185465c6f3cf0",
+      "4473d4509962b4d331403f09bb9d3a3779046f423955d74f49662981dfba07c4",
+      "5485a9a0513bf66d190a6d6b6e3335bb97c2f9a6553ce7280dd4080bcb2c4dc9",
+      "97348278a596f8f249ca5e19585894a118b04c47b54055819d74980374f7cf59",
+      "a9d5059c391b14d30a4c639005fcb59831619c00a8892f63cc0bc39f6e89fac8",
+      "f057fd39d936a2b790549628540e1ca05b11a7e851bc43576902ad8b486ccd31",
+      "1d8928aeb1be88ac3d69ceda2f40006107b1f44a4a82825a9199ec02143f0be2",
+      "3ce68b64b2d8eb78df8ae50b034a07f0b348c259661f247f8b98034bc066dc3a",
+      "ee8c748510e421ab584b86073aeb1c2ab88bb44ae34e3b92a967f5c1fba1bfa5",
+      "ee76cecc7a57346e8426b5856145c4c41565624767eb8ebeb0a737bb6068ff21",
+      "f7f276c8607e54707e7e26733af4f655c9c88017d801e76dc8a76f1ac3180f1f"
+    ],
+    "scientific_files": {
+      "config/checkpoint_next/behavior_prep_v1.json": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+      "config/checkpoint_next/integration_fix_v1.json": "e306089ec1da60da92a75faabe1219d6fafc325d4e3eaa1d355b5f3ef5a62814",
+      "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+      "data/checkpoint_next_behavior_prep_20261003/inventory.json.gz": "11989c71c3eaacdc792f78b98c5bffe39c28e0d5b130a0299d18e16542af1eda",
+      "docs/checkpoint_next/Truth_Probing_Next_Decision_Checkpoint_2026-10-03.docx": "f81c2209c03eacf5c6fe5e14729d68069035ea3a08de3d2b9eb273b070c4cae2",
+      "results/checkpoint_next_score_diagnosis_20261003/missing-input-queue.json": "069382d42e56109709a4842690c7cb5503031ce15e21b528b0ba497b53e97b6f"
+    }
+  },
+  "policy_sha256": "aa49705098881035a9855f75f409c018f34d79bbabf68e7f7631e89b7d59a2ca",
+  "schema": "checkpoint-next-adoption-v1",
+  "successor_producer": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea"
+}

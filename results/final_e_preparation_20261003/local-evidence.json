@@ -1,0 +1,107 @@
+{
+  "array_scope": "E bootstrap weights contain metadata-only resampling; no E predictions/activations/metrics",
+  "external_directory": "/Users/apple/projects/truth-probing-extensions/.worktrees/final-e-preparation-evidence-20261003",
+  "failure_history": "Preserved initial metadata identity, label-schema and test-name collision diagnostics. Corrected successor only; historical test restored byte-identically; no scientific source modifications.",
+  "files": {
+    "D-full-reproduction.log": {
+      "bytes": 12378,
+      "sha256": "1c7a1c2a47b1d7ee555dc2e14204c38c0139059018d3f103289b4e05cabece0c"
+    },
+    "D-reproduction-check.log": {
+      "bytes": 12193,
+      "sha256": "cbdacecffae7fab5329a6df691efb2a2cc3d005d7a824b27348c6d990e296aa9"
+    },
+    "D-schema-validation.log": {
+      "bytes": 10120,
+      "sha256": "f0763ce1727d8ca089fd834e9acd4395e20dec981e41aec925970668f1c478fc"
+    },
+    "D-schema-validation/D-reproduction.json": {
+      "bytes": 31085,
+      "sha256": "9b6c3b251cd0353d70596857367dc49cb01b83f21f1e2a13e9bd9465cb369389"
+    },
+    "D-validated-full-draws.log": {
+      "bytes": 10030,
+      "sha256": "bc7b9e62854674dbd7d37b667ebd2439c0cffb466f2d212d22538e290225a49b"
+    },
+    "D-validated-full-draws/D-reproduction.json": {
+      "bytes": 39733,
+      "sha256": "4e6ada11f284c3c3f2ae1eaba99d185c536530cc6b9e33be47a554937336a226"
+    },
+    "deterministic-reconstruction.log": {
+      "bytes": 74,
+      "sha256": "0846a782ab39c527e986b14f2d8b737c2e7dc409302aa2488d5c13e3cb16bc27"
+    },
+    "deterministic-reconstruction/bootstrap.json": {
+      "bytes": 1897,
+      "sha256": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137"
+    },
+    "deterministic-reconstruction/draft-lock.json": {
+      "bytes": 1375,
+      "sha256": "3f7e18c68fdf36b48cc435140dbe64c4497c43a0d0df5735573a489df5bd187b"
+    },
+    "deterministic-reconstruction/forecast.json": {
+      "bytes": 3558,
+      "sha256": "29e07fe647463bdf1b02ca2627986b4b125ba63decdad5de77561c28b7c7c9d5"
+    },
+    "deterministic-reconstruction/head-registry.json": {
+      "bytes": 145249,
+      "sha256": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31"
+    },
+    "deterministic-reconstruction/inventory.json": {
+      "bytes": 2867,
+      "sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "focused-tests-release.log": {
+      "bytes": 3383,
+      "sha256": "1051e2dd90dd3f321d6a36ff50d89a0f987cd6c5a4fecc7f1ded4ee4e2425f9c"
+    },
+    "focused-tests.log": {
+      "bytes": 3383,
+      "sha256": "e8fcb453c4eebece3068cfe497df493cf7befb0a0ba3e6f4b75f2d6b1437992c"
+    },
+    "reconstruction-final.log": {
+      "bytes": 74,
+      "sha256": "0846a782ab39c527e986b14f2d8b737c2e7dc409302aa2488d5c13e3cb16bc27"
+    },
+    "reconstruction-final/E-bootstrap-weights.npz": {
+      "bytes": 21177960,
+      "sha256": "84866f5301bd3d23cd20e97ab8747403efe54db38b88ca9dc98baa765b722ea6"
+    },
+    "reconstruction-final/bootstrap.json": {
+      "bytes": 1897,
+      "sha256": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137"
+    },
+    "reconstruction-final/draft-lock.json": {
+      "bytes": 1375,
+      "sha256": "828abb54386de552f38a29596c5f2defb1bbfde1db227e73fb9e4054a2a732f2"
+    },
+    "reconstruction-final/forecast.json": {
+      "bytes": 3558,
+      "sha256": "29e07fe647463bdf1b02ca2627986b4b125ba63decdad5de77561c28b7c7c9d5"
+    },
+    "reconstruction-final/head-registry.json": {
+      "bytes": 145249,
+      "sha256": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31"
+    },
+    "reconstruction-final/inventory.json": {
+      "bytes": 2867,
+      "sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "reconstruction-final/schedule-artifact.json": {
+      "bytes": 243,
+      "sha256": "1f737e12ab34bc1c3a482541ea041e7203cdab81ebac180e636fafe3fe6c22e0"
+    },
+    "tests-final.log": {
+      "bytes": 3251,
+      "sha256": "c0a67d20f641894e77410e8e97489489180bd405946fcfc97f9d68e4e117dc41"
+    },
+    "tests-first.log": {
+      "bytes": 7313,
+      "sha256": "8102f00a4cb4d9627ace5f86a83aabb338c2408bbb916cdfedb41dc3eaca82c0"
+    },
+    "tests-second.log": {
+      "bytes": 2491,
+      "sha256": "7f7c9f7c27195b87e74c02fc22cff0fff27747c4dea391efcffa9b6c0bb6651a"
+    }
+  }
+}

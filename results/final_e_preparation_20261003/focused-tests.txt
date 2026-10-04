@@ -1,0 +1,29 @@
+test_CLI_closed_for_every_E_operation (tests.test_final_e_locked_path.ClosedGateTests.test_CLI_closed_for_every_E_operation) ... ok
+test_draft_cannot_execute (tests.test_final_e_locked_path.ClosedGateTests.test_draft_cannot_execute) ... ok
+test_hash_scope_producer_and_unresolved_decisions (tests.test_final_e_locked_path.ClosedGateTests.test_hash_scope_producer_and_unresolved_decisions) ... ok
+test_no_authorization_blocks_before_output_IO (tests.test_final_e_locked_path.ClosedGateTests.test_no_authorization_blocks_before_output_IO) ... ok
+test_unfinished_attempt_is_charged_not_reset (tests.test_final_e_locked_path.ClosedGateTests.test_unfinished_attempt_is_charged_not_reset) ... ok
+test_altered_preprocessing_rejected (tests.test_final_e_locked_path.FrozenHeadTests.test_altered_preprocessing_rejected) ... ok
+test_saved_head_no_fitting_and_tamper_rejected (tests.test_final_e_locked_path.FrozenHeadTests.test_saved_head_no_fitting_and_tamper_rejected) ... ok
+test_E_schedule_shared_and_deterministic (tests.test_final_e_locked_path.InventoryTests.test_E_schedule_shared_and_deterministic) ... ok
+test_duplicate_texts_keep_logical_identities (tests.test_final_e_locked_path.InventoryTests.test_duplicate_texts_keep_logical_identities) ... ok
+test_exact_current_inventory (tests.test_final_e_locked_path.InventoryTests.test_exact_current_inventory) ... ok
+test_no_bool_string_coercion (tests.test_final_e_locked_path.InventoryTests.test_no_bool_string_coercion) ... ok
+test_reordered_wording_rejected (tests.test_final_e_locked_path.InventoryTests.test_reordered_wording_rejected) ... ok
+test_surface_truth_and_order_rejected (tests.test_final_e_locked_path.InventoryTests.test_surface_truth_and_order_rejected) ... ok
+test_carry_forward_exact_receipts (tests.test_final_e_locked_path.RawInterfaceTests.test_carry_forward_exact_receipts) ... ok
+test_nonfinite_features_not_publishable (tests.test_final_e_locked_path.RawInterfaceTests.test_nonfinite_features_not_publishable) ... ok
+test_raw_backend_stays_separate_from_chat (tests.test_final_e_locked_path.RawInterfaceTests.test_raw_backend_stays_separate_from_chat) ... ok
+test_recovery_preserves_unpublished_and_rejects_corrupt_receipt (tests.test_final_e_locked_path.RawInterfaceTests.test_recovery_preserves_unpublished_and_rejects_corrupt_receipt) ... ok
+test_synthetic_publication_loader_and_missing_coverage (tests.test_final_e_locked_path.RawInterfaceTests.test_synthetic_publication_loader_and_missing_coverage) ... ok
+test_metric_mean_not_score_mean_and_nan_propagates (tests.test_final_e_locked_path.StatisticsTests.test_metric_mean_not_score_mean_and_nan_propagates) ... ok
+test_missing_score_coverage_rejected (tests.test_final_e_locked_path.StatisticsTests.test_missing_score_coverage_rejected) ... ok
+test_no_surviving_topic_macro (tests.test_final_e_locked_path.StatisticsTests.test_no_surviving_topic_macro) ... ok
+test_shared_entity_multiplicity_products (tests.test_final_e_locked_path.StatisticsTests.test_shared_entity_multiplicity_products) ... ok
+test_ties_true_and_constituent_targets (tests.test_final_e_locked_path.StatisticsTests.test_ties_true_and_constituent_targets) ... ok
+test_undefined_draws_not_redrawn (tests.test_final_e_locked_path.StatisticsTests.test_undefined_draws_not_redrawn) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 2.273s
+
+OK

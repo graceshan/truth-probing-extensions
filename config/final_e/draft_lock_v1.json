@@ -1,0 +1,27 @@
+{
+  "approval": null,
+  "carried_budget": "config/final_e/carryforward_v1.json",
+  "claims_finalized": false,
+  "immutable_contract": {
+    "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+    "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+  },
+  "limits": null,
+  "note": "Preparation is neither scientific lock nor permission for E extraction/predictions/metrics. No finalizer is provided.",
+  "pending": {
+    "E_campaign_resource_caps": null,
+    "claim_and_primary_endpoints": null,
+    "comparator_contrast_approval": null,
+    "independent_review_and_execution_authorization": null,
+    "joint_atomic_compound_inference": null
+  },
+  "producer_sha": null,
+  "resolutions": {},
+  "schema": "final-e-scientific-lock-v1",
+  "scientific_lock_approved": false,
+  "status": "DRAFT"
+}

@@ -1,0 +1,89 @@
+{
+  "budget_policy": "Keep 7200 active seconds/model cumulative, 1800 seconds/non-model setup, 10800 seconds/CPU job. Recheck all intervening charges at lock; no automatic budget reset.",
+  "cpu": {
+    "basis": "Measured full D reconstruction plus expanded E wording endpoints; I/O/loader passes and E schedules need an unmeasured allowance.",
+    "estimated_report_seconds": 322.9303952392445,
+    "measured_D_reproduction_seconds": 208.95496162539348,
+    "measured_prior_full_bank_audit_seconds": 150.73920570826158,
+    "planning_end_to_end_seconds": [
+      900,
+      3600
+    ],
+    "worker_cap_seconds": 10800
+  },
+  "exact": {
+    "all_layer_loading_pass_bytes": 67204915200,
+    "logical_bindings_both_models": 38848,
+    "scalar_metric_draw_bytes": 138992000,
+    "scalar_scores_float64_bytes": 17388016,
+    "total_fp16_payload_bytes": 8882053120,
+    "two_payload_copies_bytes": 17764106240,
+    "unique_model_text_combinations": 38380
+  },
+  "execution_authorized": false,
+  "forecast_rule": "Fixed measured loading/other model overhead + measured per-text forward/write/verify cost. 2x/4x are planning scenarios, not confidence bounds or guarantees; E token distribution is unmeasured.",
+  "models": {
+    "llama": {
+      "E_peak_memory_bytes": null,
+      "E_token_lengths": null,
+      "estimated_active_seconds": 978.3433273985228,
+      "fits_under_remaining_at_4x": true,
+      "fp16_payload_bytes": 5030543360,
+      "layer_verification_passes": 8,
+      "logical_bindings": 19424,
+      "measured_reference_cuda_peak_bytes": {
+        "allocated": 16084216320,
+        "reserved": 16231956480
+      },
+      "measured_reference_forward_write_verify_seconds": 1721.512679768668,
+      "measured_reference_model_seconds": 1778.174554030993,
+      "measured_reference_texts": 35843,
+      "measured_reference_token_range": [
+        7,
+        38
+      ],
+      "planning_2x_seconds": 1956.6866547970455,
+      "planning_4x_seconds": 3913.373309594091,
+      "remaining_model_seconds": 7076.173537437979,
+      "shards": 150,
+      "unique_texts": 19190
+    },
+    "qwen": {
+      "E_peak_memory_bytes": null,
+      "E_token_lengths": null,
+      "estimated_active_seconds": 864.7860876936633,
+      "fits_under_remaining_at_4x": true,
+      "fp16_payload_bytes": 3851509760,
+      "layer_verification_passes": 7,
+      "logical_bindings": 19424,
+      "measured_reference_cuda_peak_bytes": {
+        "allocated": 15297538560,
+        "reserved": 15424552960
+      },
+      "measured_reference_forward_write_verify_seconds": 1543.6106696426868,
+      "measured_reference_model_seconds": 1581.9623419569689,
+      "measured_reference_texts": 35843,
+      "measured_reference_token_range": [
+        6,
+        37
+      ],
+      "planning_2x_seconds": 1729.5721753873265,
+      "planning_4x_seconds": 3459.144350774653,
+      "remaining_model_seconds": 7039.161989762972,
+      "shards": 150,
+      "unique_texts": 19190
+    }
+  },
+  "schema": "final-e-resource-forecast-v1",
+  "status": "estimate_not_execution_readiness",
+  "storage_policy": "Future real two-copy both-model allocation/fsync/readback, temporary shard, serialized metadata, conservative other-token allowance and inherited safety reserve. Existing weights/output retained. No statvfs capacity guarantee.",
+  "unmeasured": {
+    "CPU_E_loader_throughput": true,
+    "E_actual_metadata_storage": true,
+    "E_inference_and_CUDA_peaks": true,
+    "E_token_audit_seconds": true,
+    "E_token_lengths": true,
+    "persistent_quota": true,
+    "transfer_bandwidth": true
+  }
+}

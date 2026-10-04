@@ -1,0 +1,96 @@
+{
+  "E_outputs_opened": false,
+  "added_wording_rows": {
+    "and_both_following_v1": 3600,
+    "or_at_least_one_v1": 3600,
+    "or_explicit_or_both_v1": 3600
+  },
+  "atomic_only_people": 69,
+  "atomic_people": 294,
+  "base": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+  "binding_sha256": "8421b3e33e6c008331da86c7d822e04cc6e85cf103a8d126e7f5f7a338355c23",
+  "compound_entities": 225,
+  "compound_only_people": 0,
+  "compound_pairs": 450,
+  "compound_people": 225,
+  "deduplication_savings": 234,
+  "eligibility": "current v5; historical P_A_frozen field superseded by reviewed checkpoint",
+  "group_rows": {
+    "and_both_following_v1": 7200,
+    "atomic_E": 974,
+    "bare": 7200,
+    "or_at_least_one_v1": 7200,
+    "or_explicit_or_both_v1": 7200
+  },
+  "isolated_facts": 450,
+  "logical_bindings": 19424,
+  "manifest_sha256": "59060b68c24b1da13cfe78d62c04f3858076cc7ed389f323f32d31aa2ba1d3a9",
+  "ordered_groups": {
+    "and_both_following_v1": "56a3145e918fe78cf87ee8407552d02acdc074ca15dd4cb73585a50df433b52f",
+    "atomic_E": "7549efb6cb9bba9f5a06f97025ce16f84ade463e4c3ad119b73344f178ef066e",
+    "bare": "c7d17d1fddf1815d1393ee98ac380154332b3f81cc953b2460335e0c66c1fbcf",
+    "or_at_least_one_v1": "a50d91090b598f4e7fd7af54d7ef1a9d9cb74ec8db41fac1bf298eec4f98a75d",
+    "or_explicit_or_both_v1": "656623f5e9477759cbbbf19fd6bb70e5162384f301bd4c1f43b24ab0a3925aea"
+  },
+  "schema": "final-e-metadata-v1",
+  "shared_people": 225,
+  "text_sha256": "52a540d432d47512681aeb30f135975bd85ff76557dd4fb4657283dad3cea311",
+  "topics": [
+    {
+      "admitted_atomic_rows": 64,
+      "and_wording_rows": 256,
+      "at_least_one_rows": 256,
+      "bare_rows": 512,
+      "entities": 16,
+      "isolated_facts": 32,
+      "or_both_rows": 256,
+      "pairs": 32,
+      "topic": "animal_class"
+    },
+    {
+      "admitted_atomic_rows": 590,
+      "and_wording_rows": 2336,
+      "at_least_one_rows": 2336,
+      "bare_rows": 4672,
+      "entities": 146,
+      "isolated_facts": 292,
+      "or_both_rows": 2336,
+      "pairs": 292,
+      "topic": "cities"
+    },
+    {
+      "admitted_atomic_rows": 72,
+      "and_wording_rows": 288,
+      "at_least_one_rows": 288,
+      "bare_rows": 576,
+      "entities": 18,
+      "isolated_facts": 36,
+      "or_both_rows": 288,
+      "pairs": 36,
+      "topic": "element_symb"
+    },
+    {
+      "admitted_atomic_rows": 110,
+      "and_wording_rows": 176,
+      "at_least_one_rows": 176,
+      "bare_rows": 352,
+      "entities": 11,
+      "isolated_facts": 22,
+      "or_both_rows": 176,
+      "pairs": 22,
+      "topic": "inventors"
+    },
+    {
+      "admitted_atomic_rows": 138,
+      "and_wording_rows": 544,
+      "at_least_one_rows": 544,
+      "bare_rows": 1088,
+      "entities": 34,
+      "isolated_facts": 68,
+      "or_both_rows": 544,
+      "pairs": 68,
+      "topic": "sp_en_trans"
+    }
+  ],
+  "unique_texts": 19190
+}

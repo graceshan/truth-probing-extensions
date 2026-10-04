@@ -1,0 +1,140 @@
+{
+  "all_remote_workers_stopped": true,
+  "final_budgets": {
+    "llama": {
+      "charged_seconds": 123.82646256202133,
+      "remaining_seconds": 7076.173537437979
+    },
+    "qwen": {
+      "charged_seconds": 160.83801023702836,
+      "remaining_seconds": 7039.161989762972
+    }
+  },
+  "full_bank_adapter_update": "separate local task; not performed",
+  "git_producer_unchanged": true,
+  "handoff": {
+    "bytes": 824561,
+    "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/mac2-handoff.json",
+    "sha256": "0930955d49eb83c37470769a16419a0a31f134023b26cc0c13a8b03cbf9b344a"
+  },
+  "llama_execution": {
+    "accounting": "disjoint path timers; wall includes setup; reused shards excluded from current execution costs",
+    "measured_seconds": {
+      "chat_extraction": 0.0,
+      "generation": 0.0,
+      "likelihood": 0.0,
+      "loading": 36.357241015997715,
+      "preflight_checks": 0.0,
+      "raw_extraction": 12.030545802786946,
+      "teardown": 0.4054893809952773,
+      "tokenization": 0.03093297698069364,
+      "writing_verification": 25.262754806957673
+    },
+    "peak_cuda_bytes": {
+      "allocated": 16075197952,
+      "reserved": 16223567872
+    },
+    "peak_scope": "model loading and execution before teardown",
+    "status": "completed",
+    "unattributed_seconds": 46.609726248309016,
+    "worker_wall_seconds": 120.69669023202732
+  },
+  "local_campaign": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff",
+  "local_host": "MacBook-Pro-7.local",
+  "mac_loader_verification": {
+    "checks": [
+      {
+        "elapsed_seconds": 7.486793250311166,
+        "exit_code": 0,
+        "model": "qwen",
+        "producer": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+        "rows": 131,
+        "shards": 131,
+        "status": "accepted"
+      },
+      {
+        "elapsed_seconds": 8.55951870791614,
+        "exit_code": 0,
+        "model": "llama",
+        "producer": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+        "rows": 131,
+        "shards": 131,
+        "status": "accepted"
+      }
+    ],
+    "status": "both_models_accepted"
+  },
+  "no_remote_calls_after_safe_stop": true,
+  "pod_can_safely_be_stopped": true,
+  "producer": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "readiness": {
+    "elapsed_seconds": 120.59663287398871,
+    "model_loaded": false,
+    "setup_cap_seconds": 1800,
+    "status": "passed"
+  },
+  "remote_campaign": "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+  "remote_host": "a286d5feb68d",
+  "remote_original_copy": "/workspace/checkpoint-next-raw-only-review-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/original-preflight",
+  "remote_post_extraction_checks": {
+    "acceptance-execution": {
+      "elapsed_seconds": 29.48738810501527,
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "model_loaded": false,
+      "setup_cap_seconds": 1800,
+      "status": "passed"
+    },
+    "remote-verification-execution": {
+      "elapsed_seconds": 29.69963327201549,
+      "exit_code": 0,
+      "log_sha256": "119ee678f968b2842c2e107ee85d5a0be25edee98f41f4cb486380d56adc0a3d",
+      "model_loaded": false,
+      "setup_cap_seconds": 1800,
+      "status": "passed"
+    },
+    "token-audit-execution": {
+      "elapsed_seconds": 101.74419191497145,
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "model_loaded": false,
+      "setup_cap_seconds": 1800,
+      "status": "passed"
+    }
+  },
+  "reviewed_delivery": "4e508a8f2a7d85cd8e540686be9b007b7fc29810",
+  "scope_executed": "Llama 131-text raw supplement only; no Qwen inference, behavior/chat, fitting or E",
+  "status": "completed_and_both_models_locally_accepted",
+  "storage": {
+    "actual_write_and_readback_bytes": 102236160,
+    "operations": [
+      "fsync_file",
+      "exclusive_atomic_link",
+      "fsync_directory",
+      "refuse_overwrite",
+      "remove_partial",
+      "atomic_replace",
+      "reopen_hash"
+    ],
+    "parent": "/workspace/checkpoint-next-raw-only-output-6865bfa43c52d9c5d7d3c96df90351ad8f895aea/missing_raw/llama",
+    "power_loss_durability": "not established by process-level checks",
+    "quota_verified": "bounded reservation only; full production quota NOT established",
+    "reported_free_bytes": 271937348370432
+  },
+  "transfer": {
+    "acceptance_sha256": "604972033fb21ad582f20307d346690b5c9d08fddca51a582becf30235bf988e",
+    "adoption_sha256": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9",
+    "archive_bytes": 26890835,
+    "archive_sha256": "2a2716f854c854ee0fa92de290224847c3f188b9d29c5d6c5d0e481aba65690e",
+    "file_bytes": 35334059,
+    "files": 557,
+    "final_cumulative_budget": {
+      "charged_seconds": 123.82646256202133,
+      "original_seconds": 41.1570940479869,
+      "remaining_seconds": 7076.173537437979,
+      "successor_seconds": 82.66936851403443
+    },
+    "manifest_sha256": "ac8df4a84c77c8a68ae26924d224ef4c3914b47440f3242b07dd566f9885adc0",
+    "packaging_seconds": 12.103593364008702
+  }
+}

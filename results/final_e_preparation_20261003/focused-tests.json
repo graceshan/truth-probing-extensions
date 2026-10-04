@@ -1,0 +1,19 @@
+{
+  "E_outputs_opened": false,
+  "Pod_contact": false,
+  "errors": 0,
+  "failures": 0,
+  "host": "MacBook-Pro-7.local",
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "log": {
+    "bytes": 3383,
+    "sha256": "1051e2dd90dd3f321d6a36ff50d89a0f987cd6c5a4fecc7f1ded4ee4e2425f9c"
+  },
+  "numerical_threads": 1,
+  "platform": "Darwin",
+  "processes": 1,
+  "python": "3.11.6",
+  "seconds": 2.6344738751649857,
+  "status": "passed",
+  "tests": 24
+}

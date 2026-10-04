@@ -1,0 +1,53 @@
+{
+  "charged_seconds": {
+    "llama": 123.82646256202133,
+    "qwen": 160.83801023702836
+  },
+  "cpu_cap_seconds": 10800,
+  "model_cap_seconds": 7200,
+  "old_attempts_preserved": {
+    "llama": [
+      {
+        "active_seconds": 41.1570940479869,
+        "attempt": "6c4e0dd794174072b322d5a1f2c44a14",
+        "end_sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37",
+        "phase": "missing_raw",
+        "start_sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+      }
+    ],
+    "qwen": [
+      {
+        "active_seconds": 100.81950526899891,
+        "attempt": "6877c25aa64b4b09b112ca319e1b8739",
+        "end_sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68",
+        "phase": "missing_raw",
+        "start_sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+      },
+      {
+        "active_seconds": 60.01850496802945,
+        "attempt": "ed33204d8af84577803bc3d327ec272c",
+        "end_sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3",
+        "phase": "preflight",
+        "start_sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+      }
+    ]
+  },
+  "pending": "At final lock verify no intervening campaign charges; any later receipt requires a reviewed carry-forward update. Never reset.",
+  "remaining_seconds": {
+    "llama": 7076.173537437979,
+    "qwen": 7039.161989762972
+  },
+  "schema": "final-e-carried-budget-v1",
+  "setup_cap_seconds": 1800,
+  "source_files": {
+    "results/final_e_preparation_20261003/accounting-evidence/adoption.json": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9",
+    "results/final_e_preparation_20261003/accounting-evidence/execution-report.json": "29f1a99a305551bfe99ebe0a7e7cc4d2f5ea879e125ec3708be4f35564287e6e",
+    "results/final_e_preparation_20261003/accounting-evidence/llama-end.json": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+  },
+  "successor_attempt": {
+    "active_seconds": 82.66936851403443,
+    "model": "llama",
+    "producer": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea"
+  },
+  "total_accounting": "Carried model-active seconds plus new E worker wall time. Historical non-model setup wall stays in original receipts; not reclassified as GPU time."
+}
