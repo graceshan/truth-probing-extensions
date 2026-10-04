@@ -1,0 +1,180 @@
+{
+  "adoption_performed": false,
+  "charged_seconds": {
+    "llama": 123.82646256202133,
+    "qwen": 160.83801023702836
+  },
+  "cpu_job_cap_seconds": 10800,
+  "later_recheck_required": true,
+  "limits": {
+    "model_seconds": 7200,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 18000
+  },
+  "metadata_pins": {
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json": {
+      "bytes": 65,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+      "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json": {
+      "bytes": 83,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+      "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json": {
+      "bytes": 90,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+      "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json": {
+      "bytes": 65,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+      "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json": {
+      "bytes": 85,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+      "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json": {
+      "bytes": 91,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+      "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/llama-campaign.json": {
+      "bytes": 429,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/llama-campaign.json",
+      "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/qwen-campaign.json": {
+      "bytes": 428,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/qwen-campaign.json",
+      "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json": {
+      "bytes": 65,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+      "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json": {
+      "bytes": 83,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+      "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json": {
+      "bytes": 90,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+      "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json": {
+      "bytes": 65,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+      "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json": {
+      "bytes": 85,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+      "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json": {
+      "bytes": 91,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+      "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json": {
+      "bytes": 65,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json",
+      "sha256": "4652441f2225e43486dfb3ba8c7d6fce64d0a05d4d58a0253c04e6c7fbe14a59"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json": {
+      "bytes": 84,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json",
+      "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json": {
+      "bytes": 102,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json",
+      "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/llama-campaign.json": {
+      "bytes": 429,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/llama-campaign.json",
+      "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/qwen-campaign.json": {
+      "bytes": 428,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/qwen-campaign.json",
+      "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json": {
+      "bytes": 64,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+      "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json": {
+      "bytes": 84,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+      "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json": {
+      "bytes": 390,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+      "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+    },
+    "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/llama-campaign.json": {
+      "bytes": 525,
+      "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/llama-campaign.json",
+      "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/end.json": {
+      "bytes": 77,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/end.json",
+      "sha256": "2d96c9aeb3647ff0dbab07627d7fd71dfe4e79c9c84944482518d084b4ca61a9"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/start.json": {
+      "bytes": 644,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/start.json",
+      "sha256": "0562bf3e3b7f0b0bedb04e5cf2bb0f2f34563a4f72d1ed80307d427797a9ecf0"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json": {
+      "bytes": 64,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+      "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json": {
+      "bytes": 84,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+      "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json": {
+      "bytes": 390,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+      "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+    },
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/llama-campaign.json": {
+      "bytes": 525,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/llama-campaign.json",
+      "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+    },
+    "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/attempts/00000/supervisor-exit.json": {
+      "bytes": 481,
+      "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/attempts/00000/supervisor-exit.json",
+      "sha256": "0d38ad674917d7a9f6d5fa07f8f4ba58754a8e32a960eab27165bc9d7645ec3e"
+    },
+    "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/campaign.json": {
+      "bytes": 382,
+      "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/campaign.json",
+      "sha256": "44ac74062b5105cf98765fa217873b98b5287bf814ad1ff4d1f914def423fea8"
+    },
+    "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/full-budget.json": {
+      "bytes": 241,
+      "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/full-budget.json",
+      "sha256": "5e4aad959711bbf73f35d645a856d9cf2176effa8d7e68a9356da40f0ab5d661"
+    }
+  },
+  "operational_blockers": [],
+  "remote_state_verified": false,
+  "source_receipt_sha256": "a0f06a948be8509d5e49c58c1771586586e8d55630f0506bc3e05a6cd2df77f0",
+  "status": "no_local_intervening_charge_found"
+}

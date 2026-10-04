@@ -1,0 +1,135 @@
+{
+  "E_activations_predictions_metrics_accessed": false,
+  "approved_controls_available": true,
+  "authorization_index_sha256": {
+    "local": "8e3ee5103379a8ccd3805439deb1ffeb3fbf9fddb2bbcf3fbf1573bd187362e5",
+    "remote": "86ccbb56dc882ec42c7865b1b590c4a42703c8ac3c286d74352eb3c3dd33c908"
+  },
+  "blocker": {
+    "action": "stop; original bundle and all identities preserved; reviewed transport supplement required before launch",
+    "check": "recipient_bundle_prerequisite",
+    "repositories_checked": [
+      {
+        "bundle_prerequisite_present": false,
+        "historical_role": "pilot_checkout",
+        "observed_head": "3f9747f12b46dcb956082c22cbbfd2145c894b9d"
+      },
+      {
+        "bundle_prerequisite_present": false,
+        "historical_role": "raw_only_checkout",
+        "observed_head": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea"
+      },
+      {
+        "bundle_prerequisite_present": false,
+        "historical_role": "integration_checkout",
+        "observed_head": "9b0ac1d84b35d7faf2148d43664569aa867cba52"
+      }
+    ],
+    "required_sha": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5"
+  },
+  "budget_adopted": false,
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "carried_charged_seconds": {
+    "llama": 123.82646256202133,
+    "qwen": 160.83801023702836
+  },
+  "carried_total_seconds": 284.6644727990497,
+  "cpu_job_cap_seconds": 10800,
+  "durable_local_root": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1",
+  "durable_raw_transfer": "NOT_ATTEMPTED",
+  "executed_E_producer_sha": null,
+  "existing_failed_attempts_and_receipts_preserved": true,
+  "final_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "incomplete_prerequisites": [
+    "complete_dependency_freeze_comparison",
+    "snapshot_content_hashes",
+    "complete_current_remote_accounting_reconciliation",
+    "recipient_bundle_verification/import",
+    "remote_controls_transport/hash_checks"
+  ],
+  "independently_captured_transfer_manifest_hashes": null,
+  "inspection_timeout": {
+    "acquisition_retry": false,
+    "cause": "broad metadata census did not finish within client wait",
+    "client_timeout_seconds": 60,
+    "read_only": true,
+    "subsequent_inspection_processes_observed": false
+  },
+  "intended_execution_producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "limits": {
+    "model_seconds": 7200,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 18000
+  },
+  "live_observations": {
+    "driver_version": "595.91.07",
+    "expected_offline_cache_path_exists": true,
+    "expected_runtime_path_exists": true,
+    "final_E_processes_observed": false,
+    "gpu": "NVIDIA A40",
+    "gpu_memory_report": "46068 MiB",
+    "host_key_matches_independent_user_fingerprint": true,
+    "proposed_remote_campaign_root_absent": true,
+    "python_version": "3.12.3",
+    "strict_host_key_verification": true,
+    "tmux_available": true,
+    "workspace_filesystem": "fuse",
+    "workspace_mount_present": true
+  },
+  "local_full_loader_verification": "NOT_ATTEMPTED",
+  "local_verify_transfer": "NOT_ATTEMPTED",
+  "model_outcomes": {
+    "llama": {
+      "accept": "NOT_ATTEMPTED",
+      "coverage_verified": false,
+      "extract": "NOT_ATTEMPTED",
+      "new_attempts": [],
+      "new_charge_seconds": 0,
+      "runtime_resource_measurements": null,
+      "shards_created": 0,
+      "token_audit": "NOT_ATTEMPTED",
+      "verify": "NOT_ATTEMPTED"
+    },
+    "qwen": {
+      "accept": "NOT_ATTEMPTED",
+      "coverage_verified": false,
+      "extract": "NOT_ATTEMPTED",
+      "new_attempts": [],
+      "new_charge_seconds": 0,
+      "runtime_resource_measurements": null,
+      "shards_created": 0,
+      "token_audit": "NOT_ATTEMPTED",
+      "verify": "NOT_ATTEMPTED"
+    }
+  },
+  "new_campaign_attempts": [],
+  "new_campaign_ledger_created": false,
+  "planned_local_raw_output": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+  "preparation_delivery_sha": "9939c7a26c5ec198f3b153d53567e5ec655c3cc3",
+  "private_evidence": {
+    "current-host-known_hosts": {
+      "bytes": 101,
+      "sha256": "3a286f89e0e518923c0f3562233a7a1f5dd7f07eb6f38733dd3a01842549ea93"
+    },
+    "host-identity.json": {
+      "bytes": 402,
+      "sha256": "c73d43540c9c245bab2b5dd9affb4facaed1df4efc1549249789b22329b99334"
+    },
+    "live-inspection-private.txt": {
+      "bytes": 2493,
+      "sha256": "736b181e8ad284d5f6f3a51d593d2c7f5ed994326273f34fd9332685573d6024"
+    },
+    "post-inspection-private.txt": {
+      "bytes": 423,
+      "sha256": "01f831b50e9e818b452f7ece47370bcecd77c5aa2aa8d15c687c6d7597512a18"
+    }
+  },
+  "remote_state_mutated": false,
+  "safe_stop_accepted": false,
+  "safe_stop_receipt_created": false,
+  "schema": "final-e-raw-operational-status-v1",
+  "scientific_audit": false,
+  "scientific_evaluation": false,
+  "status": "BLOCKED_BEFORE_ACQUISITION",
+  "transfer_publication": "NOT_ATTEMPTED"
+}

@@ -1,0 +1,13 @@
+{
+  "correlation_previous_pid_absent_at_restore": true,
+  "existing_receipts_ledgers_failed_attempts_not_modified": true,
+  "historical_drafts_unchanged": true,
+  "new_local_files": "approved controls/staging, execution preparation receipts, and isolated results evidence only",
+  "original_unrelated_file_pins_checked": 15,
+  "preparation_checkout_unchanged": true,
+  "prior_worktrees_checked": 34,
+  "processes_interrupted": false,
+  "producer_checkout_clean_detached": true,
+  "remote_changes": false,
+  "scientific_lock_and_six_pins_unchanged": true
+}

@@ -1,0 +1,32 @@
+{
+  "base_sha": "9939c7a26c5ec198f3b153d53567e5ec655c3cc3",
+  "files": {
+    "docs/final_e/RAW_ACQUISITION_BLOCKED_20261004.md": {
+      "bytes": 5079,
+      "sha256": "e16b521bacb4d6f240e5e4c5acba9a206f2869d770f2c6cc2d528d9c91342778"
+    },
+    "results/final_e_raw_campaign_20261004/approved-access-checks.json": {
+      "bytes": 6777,
+      "sha256": "ec234288483ba873dc0231283d23a8871003c08bde5cab2a6519197f5e001e5b"
+    },
+    "results/final_e_raw_campaign_20261004/authorization-inventory.json": {
+      "bytes": 23136,
+      "sha256": "1442b7b365bc53dda21937526e983eb5f5a67108af0f4fd53339f14fcdfbc887"
+    },
+    "results/final_e_raw_campaign_20261004/local-accounting.json": {
+      "bytes": 14900,
+      "sha256": "e44803531a2ed69815934fd92b0400402146686d913e4e8e2fd1a5800cad38ac"
+    },
+    "results/final_e_raw_campaign_20261004/operational-status.json": {
+      "bytes": 5008,
+      "sha256": "3eac7ded9a33cdd672f02cb1e7c4c5a77cd78c683953bc8eb4efda6c4d2e311d"
+    },
+    "results/final_e_raw_campaign_20261004/preservation.json": {
+      "bytes": 556,
+      "sha256": "cc5e0f07d09661cfe0ef972130432c38dfba55da3dce289a5eb74548c71923b1"
+    }
+  },
+  "publication_scope": "non-secret blocked-operation report and small control/receipt inventories only",
+  "schema": "final-e-blocked-execution-evidence-v1",
+  "self_excluded": "results/final_e_raw_campaign_20261004/evidence-inventory.json"
+}
