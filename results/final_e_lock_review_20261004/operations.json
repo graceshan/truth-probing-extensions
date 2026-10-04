@@ -1,0 +1,35 @@
+{
+  "git_actions": [
+    [
+      "git",
+      "-C",
+      "/Users/apple/projects/truth-probing-extensions",
+      "fetch",
+      "origin",
+      "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4"
+    ],
+    [
+      "git",
+      "-C",
+      "/Users/apple/projects/truth-probing-extensions",
+      "worktree",
+      "add",
+      "-b",
+      "checkpoint-final-e-lock-review-20261004",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004",
+      "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4"
+    ]
+  ],
+  "exact_candidate": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+  "review_branch": "checkpoint-final-e-lock-review-20261004",
+  "external_evidence_root": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-lock-review-evidence-20261004",
+  "active_job_inspection": {
+    "pid": 26160,
+    "ppid": 26159,
+    "observed_command": "scripts/evaluate_primary_weight_correlations.py",
+    "CPU_percent_about": 100,
+    "job_interrupted": false,
+    "CPU_lock_holder_observed": false
+  },
+  "scope": "light metadata and tiny synthetic checks only; completed audits not rerun"
+}

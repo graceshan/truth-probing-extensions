@@ -1,0 +1,1425 @@
+{
+  "RunPod_contacted": false,
+  "accounting": {
+    "additional_metadata": [],
+    "budget_adoption_performed": false,
+    "cited_metadata_pins": [
+      {
+        "bytes": 525,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/llama-campaign.json",
+        "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+        "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+      },
+      {
+        "bytes": 64,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+        "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+      },
+      {
+        "bytes": 390,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+        "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+      },
+      {
+        "bytes": 429,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/llama-campaign.json",
+        "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+      },
+      {
+        "bytes": 428,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/qwen-campaign.json",
+        "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+      },
+      {
+        "bytes": 85,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+        "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+        "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+      },
+      {
+        "bytes": 91,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+        "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+      },
+      {
+        "bytes": 83,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+        "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+        "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+      },
+      {
+        "bytes": 90,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+        "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+      },
+      {
+        "bytes": 429,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/llama-campaign.json",
+        "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+      },
+      {
+        "bytes": 428,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/qwen-campaign.json",
+        "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+      },
+      {
+        "bytes": 85,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+        "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+        "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+      },
+      {
+        "bytes": 91,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+        "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json",
+        "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json",
+        "sha256": "4652441f2225e43486dfb3ba8c7d6fce64d0a05d4d58a0253c04e6c7fbe14a59"
+      },
+      {
+        "bytes": 102,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json",
+        "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+      },
+      {
+        "bytes": 83,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+        "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+        "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+      },
+      {
+        "bytes": 90,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+        "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+      },
+      {
+        "bytes": 77,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/end.json",
+        "sha256": "2d96c9aeb3647ff0dbab07627d7fd71dfe4e79c9c84944482518d084b4ca61a9"
+      },
+      {
+        "bytes": 644,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/start.json",
+        "sha256": "0562bf3e3b7f0b0bedb04e5cf2bb0f2f34563a4f72d1ed80307d427797a9ecf0"
+      },
+      {
+        "bytes": 525,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/llama-campaign.json",
+        "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+        "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+      },
+      {
+        "bytes": 64,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+        "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+      },
+      {
+        "bytes": 390,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+        "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+      },
+      {
+        "bytes": 382,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/campaign.json",
+        "sha256": "44ac74062b5105cf98765fa217873b98b5287bf814ad1ff4d1f914def423fea8"
+      },
+      {
+        "bytes": 241,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/full-budget.json",
+        "sha256": "5e4aad959711bbf73f35d645a856d9cf2176effa8d7e68a9356da40f0ab5d661"
+      },
+      {
+        "bytes": 481,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/attempts/00000/supervisor-exit.json",
+        "sha256": "0d38ad674917d7a9f6d5fa07f8f4ba58754a8e32a960eab27165bc9d7645ec3e"
+      },
+      {
+        "bytes": 5010,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-candidate-20261004/results/final_e_preparation_20261003/accounting-evidence/adoption.json",
+        "sha256": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9"
+      },
+      {
+        "bytes": 5181,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-candidate-20261004/results/final_e_preparation_20261003/accounting-evidence/execution-report.json",
+        "sha256": "29f1a99a305551bfe99ebe0a7e7cc4d2f5ea879e125ec3708be4f35564287e6e"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-candidate-20261004/results/final_e_preparation_20261003/accounting-evidence/llama-end.json",
+        "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+      }
+    ],
+    "discovered_metadata": [
+      {
+        "bytes": 525,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/llama-campaign.json",
+        "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+        "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+      },
+      {
+        "bytes": 64,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+        "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+      },
+      {
+        "bytes": 390,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+        "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+      },
+      {
+        "bytes": 429,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/llama-campaign.json",
+        "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+      },
+      {
+        "bytes": 428,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/qwen-campaign.json",
+        "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+      },
+      {
+        "bytes": 85,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+        "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+        "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+      },
+      {
+        "bytes": 91,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+        "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+      },
+      {
+        "bytes": 83,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+        "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+        "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+      },
+      {
+        "bytes": 90,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+        "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+      },
+      {
+        "bytes": 429,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/llama-campaign.json",
+        "sha256": "facae63239a84f5023b478029fec32ef218bd55ea9083694423af1fa2b3cc552"
+      },
+      {
+        "bytes": 428,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/qwen-campaign.json",
+        "sha256": "dbd36c344a37db2123a81b8efcdbe50b53e1848281a4b96e4b30ea59044a34ff"
+      },
+      {
+        "bytes": 85,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+        "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/active.json",
+        "sha256": "2eb4e529d51f775833165d6e31bef1949a230f1c438c601c5d64ceed5a8324be"
+      },
+      {
+        "bytes": 91,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+        "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json",
+        "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/active.json",
+        "sha256": "4652441f2225e43486dfb3ba8c7d6fce64d0a05d4d58a0253c04e6c7fbe14a59"
+      },
+      {
+        "bytes": 102,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json",
+        "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+      },
+      {
+        "bytes": 83,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+        "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+      },
+      {
+        "bytes": 65,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/active.json",
+        "sha256": "402da6b5befe346d14c1b50218ae146d4f7f7d32d2be46e0727a020515660a5d"
+      },
+      {
+        "bytes": 90,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+        "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+      },
+      {
+        "bytes": 77,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/end.json",
+        "sha256": "2d96c9aeb3647ff0dbab07627d7fd71dfe4e79c9c84944482518d084b4ca61a9"
+      },
+      {
+        "bytes": 644,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/start.json",
+        "sha256": "0562bf3e3b7f0b0bedb04e5cf2bb0f2f34563a4f72d1ed80307d427797a9ecf0"
+      },
+      {
+        "bytes": 525,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/llama-campaign.json",
+        "sha256": "602e4cbe65e9356635591d52040d814512ca69568c17b520f5435555c62eacb7"
+      },
+      {
+        "bytes": 84,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+        "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+      },
+      {
+        "bytes": 64,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/active.json",
+        "sha256": "3717e0ae4e40b98c3a055fef835552c37a10bf0d6c4f0080546d35f3bd1142b2"
+      },
+      {
+        "bytes": 390,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+        "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+      },
+      {
+        "bytes": 382,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/campaign.json",
+        "sha256": "44ac74062b5105cf98765fa217873b98b5287bf814ad1ff4d1f914def423fea8"
+      },
+      {
+        "bytes": 241,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/full-budget.json",
+        "sha256": "5e4aad959711bbf73f35d645a856d9cf2176effa8d7e68a9356da40f0ab5d661"
+      },
+      {
+        "bytes": 481,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/attempts/00000/supervisor-exit.json",
+        "sha256": "0d38ad674917d7a9f6d5fa07f8f4ba58754a8e32a960eab27165bc9d7645ec3e"
+      }
+    ],
+    "duplicate_end_copies": {
+      "4ca9f0fcabc04ed5bb6b8ec955168fa7": [
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+        "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json"
+      ],
+      "6877c25aa64b4b09b112ca319e1b8739": [
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json"
+      ],
+      "6c4e0dd794174072b322d5a1f2c44a14": [
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/missing-only/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json"
+      ],
+      "ed33204d8af84577803bc3d327ec272c": [
+        "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json"
+      ]
+    },
+    "later_recheck_required": true,
+    "remaining": {
+      "llama": 7076.173537437979,
+      "qwen": 7039.161989762972
+    },
+    "remaining_total_from_18000": 17715.33552720095,
+    "remote_state_verified": false,
+    "roots_inspected": [
+      "/Users/apple/projects/truth-probing-extensions/.worktrees",
+      "/Users/apple/truth-probing-backups"
+    ],
+    "seed_total": 284.6644727990497,
+    "separate_historical_full_bank_cpu": {
+      "receipt": {
+        "bytes": 77,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/attempts/955a1cb283464a72bb99b06e66dd69a6/end.json",
+        "sha256": "2d96c9aeb3647ff0dbab07627d7fd71dfe4e79c9c84944482518d084b4ca61a9"
+      },
+      "values": {
+        "exit_code": 0,
+        "seconds": 1956.068908334244,
+        "status": "finished"
+      }
+    },
+    "separate_historical_full_raw": {
+      "campaign": {
+        "bytes": 382,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/campaign.json",
+        "sha256": "44ac74062b5105cf98765fa217873b98b5287bf814ad1ff4d1f914def423fea8"
+      },
+      "interpretation": "separate earlier raw campaign; excluded by frozen E carryforward contract, preserved without reset",
+      "ledger": {
+        "bytes": 241,
+        "path": "/Users/apple/truth-probing-backups/20261002T190142Z-r2-full-raw-7656a0e-resized/output/full-budget.json",
+        "sha256": "5e4aad959711bbf73f35d645a856d9cf2176effa8d7e68a9356da40f0ab5d661"
+      },
+      "ledger_values": {
+        "as_of_unix": 1790972203.0853653,
+        "model": null,
+        "model_seconds": {
+          "llama": 1778.174554030993,
+          "qwen": 1581.9623419569689
+        },
+        "running": false,
+        "total_seconds": 3578.910803561972,
+        "unclean_gap_charged_seconds": 0.0
+      }
+    },
+    "status": "local_receipts_reconcile",
+    "totals": {
+      "llama": 123.82646256202133,
+      "qwen": 160.83801023702836
+    },
+    "unique_attempts": [
+      {
+        "attempt": "6c4e0dd794174072b322d5a1f2c44a14",
+        "end": {
+          "bytes": 83,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/end.json",
+          "sha256": "d1c3a916e4bb0bfadd5a41aa2dca9b1270ba94327b82bd8bb97c993cf48c1c37"
+        },
+        "model": "llama",
+        "seconds": 41.1570940479869,
+        "start": {
+          "bytes": 90,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/llama/6c4e0dd794174072b322d5a1f2c44a14/start.json",
+          "sha256": "89f31ee9db2affd88e6c7f3f82ba101ebf15d88284fcd44f7e5fc7ef4ad865a4"
+        }
+      },
+      {
+        "attempt": "6877c25aa64b4b09b112ca319e1b8739",
+        "end": {
+          "bytes": 85,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/end.json",
+          "sha256": "5b96b3a753a30ae402ebbbe2b0d0f27a6b14eff35ed21d148d9a39f668b71a68"
+        },
+        "model": "qwen",
+        "seconds": 100.81950526899891,
+        "start": {
+          "bytes": 91,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/6877c25aa64b4b09b112ca319e1b8739/start.json",
+          "sha256": "d390dabca5f94207582779741f24b4e8729cfed4d2bff951928fdce87fc37e85"
+        }
+      },
+      {
+        "attempt": "ed33204d8af84577803bc3d327ec272c",
+        "end": {
+          "bytes": 84,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/end.json",
+          "sha256": "163f5dc1b6358c8ceea49e5e3ba66aef91bd7af2780286deefb5b174ae05bdc3"
+        },
+        "model": "qwen",
+        "seconds": 60.01850496802945,
+        "start": {
+          "bytes": 102,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/attempts/qwen/ed33204d8af84577803bc3d327ec272c/start.json",
+          "sha256": "94dd4531a22b208c9a9a130b2a664230a3f7cf1f921282edddfdcd0b8027ae8c"
+        }
+      },
+      {
+        "attempt": "4ca9f0fcabc04ed5bb6b8ec955168fa7",
+        "end": {
+          "bytes": 84,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/end.json",
+          "sha256": "1834ee0ad279df5631a8cf0f1d009a472a0ecc357eafb76a5bb06942078784fe"
+        },
+        "model": "llama",
+        "seconds": 82.66936851403443,
+        "start": {
+          "bytes": 390,
+          "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/attempts/llama/4ca9f0fcabc04ed5bb6b8ec955168fa7/start.json",
+          "sha256": "9164648bd73caff40bd3e13a221b6deccfb434550abd4f9d774b81ed27c8ecc1"
+        }
+      }
+    ]
+  },
+  "approval_created": false,
+  "base_commit": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+  "command": [
+    "results/final_e_lock_review_20261004/independent_checks.py",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-lock-review-evidence-20261004/checks"
+  ],
+  "execution_producer": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "focused": {
+    "E_outputs_opened": false,
+    "cap_boundary_cases": [
+      {
+        "reason": "full_total_cap",
+        "setup_elapsed": 0,
+        "state": {
+          "model_seconds": {
+            "llama": 124.0,
+            "qwen": 160.0
+          },
+          "total_seconds": 18000
+        }
+      },
+      {
+        "reason": "full_model_cap_qwen",
+        "setup_elapsed": 0,
+        "state": {
+          "model_seconds": {
+            "llama": 124.0,
+            "qwen": 7200.0
+          },
+          "total_seconds": 8000
+        }
+      },
+      {
+        "reason": "full_model_cap_llama",
+        "setup_elapsed": 0,
+        "state": {
+          "model_seconds": {
+            "llama": 7200.0,
+            "qwen": 160.0
+          },
+          "total_seconds": 8000
+        }
+      },
+      {
+        "reason": "full_setup_phase_cap",
+        "setup_elapsed": 1800,
+        "state": {
+          "model_seconds": {
+            "llama": 124.0,
+            "qwen": 160.0
+          },
+          "total_seconds": 284.7
+        }
+      }
+    ],
+    "finite_draw_boundaries": [
+      {
+        "ci_high": null,
+        "ci_low": null,
+        "ci_status": "insufficient_valid_replicates",
+        "invalid_replicates": 201,
+        "total_replicates": 2000,
+        "valid_fraction": 0.8995,
+        "valid_replicates": 1799
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "ci_status": "ok",
+        "invalid_replicates": 200,
+        "total_replicates": 2000,
+        "valid_fraction": 0.9,
+        "valid_replicates": 1800
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "ci_status": "ok",
+        "invalid_replicates": 0,
+        "total_replicates": 2000,
+        "valid_fraction": 1.0,
+        "valid_replicates": 2000
+      }
+    ],
+    "full_suites_rerun": false,
+    "gain_interpretation_cases": [
+      {
+        "beyond_practical": false,
+        "high": 0.03,
+        "low": 0.0,
+        "positive": false,
+        "practical_status": "unresolved"
+      },
+      {
+        "beyond_practical": false,
+        "high": 0.019,
+        "low": 0.001,
+        "positive": true,
+        "practical_status": "below"
+      },
+      {
+        "beyond_practical": false,
+        "high": 0.02,
+        "low": 0.001,
+        "positive": true,
+        "practical_status": "unresolved"
+      },
+      {
+        "beyond_practical": false,
+        "high": 0.03,
+        "low": 0.001,
+        "positive": true,
+        "practical_status": "unresolved"
+      },
+      {
+        "beyond_practical": false,
+        "high": 0.03,
+        "low": 0.02,
+        "positive": true,
+        "practical_status": "unresolved"
+      },
+      {
+        "beyond_practical": true,
+        "high": 0.03,
+        "low": 0.020001,
+        "positive": true,
+        "practical_status": "beyond"
+      },
+      {
+        "beyond_practical": false,
+        "high": null,
+        "low": null,
+        "positive": false,
+        "practical_status": "unresolved"
+      }
+    ],
+    "models_loaded": false,
+    "primary_mask_selected_indices": [
+      4,
+      5,
+      6
+    ],
+    "real_candidate_gate_rejections": [
+      {
+        "model": "qwen",
+        "phase": "extract",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "extract",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "extract",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "token_audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "token_audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "token_audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "accept",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "accept",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "accept",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "verify",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "verify",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "verify",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "evaluate",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "evaluate",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "evaluate",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "audit",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "qwen",
+        "phase": "transfer",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "llama",
+        "phase": "transfer",
+        "reason": "E CLOSED: finalized scientific lock required"
+      },
+      {
+        "model": "both",
+        "phase": "transfer",
+        "reason": "E CLOSED: finalized scientific lock required"
+      }
+    ],
+    "retention_boundary_cases": [
+      {
+        "case": "lower_equal",
+        "interpreted_status": "supported",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": 0.0,
+            "ci_low": -0.005,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": true,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0025,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": 0.0,
+            "ci_low": -0.005,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": true,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0025,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "upper_equal",
+        "interpreted_status": "unresolved",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": -0.005,
+            "ci_low": -0.006000000000000001,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0055000000000000005,
+            "point_retained": false,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.005,
+            "ci_low": -0.006000000000000001,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0055000000000000005,
+            "point_retained": false,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "crossing",
+        "interpreted_status": "unresolved",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": -0.004,
+            "ci_low": -0.006000000000000001,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.005,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.004,
+            "ci_low": -0.006000000000000001,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.005,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "entire_below",
+        "interpreted_status": "loss",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": -0.006000000000000001,
+            "ci_low": -0.007,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0065000000000000014,
+            "point_retained": false,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.006000000000000001,
+            "ci_low": -0.007,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0065000000000000014,
+            "point_retained": false,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "point_equal_interval_below",
+        "interpreted_status": "loss",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": -0.006000000000000001,
+            "ci_low": -0.007,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.005,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.006000000000000001,
+            "ci_low": -0.007,
+            "ci_status": "ok",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.005,
+            "point_retained": true,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "undefined",
+        "interpreted_status": "unresolved",
+        "metric": "atomic_auroc",
+        "rows": [
+          {
+            "ci_high": null,
+            "ci_low": null,
+            "ci_status": "insufficient_valid_replicates",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 2000,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": null,
+            "point_retained": null,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 0.0,
+            "valid_replicates": 0
+          },
+          {
+            "ci_high": null,
+            "ci_low": null,
+            "ci_status": "insufficient_valid_replicates",
+            "condition": "atomic_E",
+            "interval_supported": false,
+            "invalid_replicates": 2000,
+            "left": "R_all",
+            "metric": "atomic_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": null,
+            "point_retained": null,
+            "retention_margin": 0.005,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 0.0,
+            "valid_replicates": 0
+          }
+        ]
+      },
+      {
+        "case": "lower_equal",
+        "interpreted_status": "supported",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": 0.0,
+            "ci_low": -0.02,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": true,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.01,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": 0.0,
+            "ci_low": -0.02,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": true,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.01,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "upper_equal",
+        "interpreted_status": "unresolved",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": -0.02,
+            "ci_low": -0.021,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0205,
+            "point_retained": false,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.02,
+            "ci_low": -0.021,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.0205,
+            "point_retained": false,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "crossing",
+        "interpreted_status": "unresolved",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": -0.019,
+            "ci_low": -0.021,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.02,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.019,
+            "ci_low": -0.021,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.02,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "entire_below",
+        "interpreted_status": "loss",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": -0.021,
+            "ci_low": -0.022000000000000002,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.021500000000000002,
+            "point_retained": false,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.021,
+            "ci_low": -0.022000000000000002,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.021500000000000002,
+            "point_retained": false,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "point_equal_interval_below",
+        "interpreted_status": "loss",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": -0.021,
+            "ci_low": -0.022000000000000002,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.02,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          },
+          {
+            "ci_high": -0.021,
+            "ci_low": -0.022000000000000002,
+            "ci_status": "ok",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 0,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": -0.02,
+            "point_retained": true,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 1.0,
+            "valid_replicates": 2000
+          }
+        ]
+      },
+      {
+        "case": "undefined",
+        "interpreted_status": "unresolved",
+        "metric": "AND_auroc",
+        "rows": [
+          {
+            "ci_high": null,
+            "ci_low": null,
+            "ci_status": "insufficient_valid_replicates",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 2000,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": null,
+            "point_retained": null,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "pooled",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 0.0,
+            "valid_replicates": 0
+          },
+          {
+            "ci_high": null,
+            "ci_low": null,
+            "ci_status": "insufficient_valid_replicates",
+            "condition": "bare",
+            "interval_supported": false,
+            "invalid_replicates": 2000,
+            "left": "R_all",
+            "metric": "AND_auroc",
+            "model": "qwen",
+            "panel": "b25",
+            "point": null,
+            "point_retained": null,
+            "retention_margin": 0.02,
+            "right": "reduced_LR",
+            "sample": "mean_11_23_37",
+            "scope": "topic_macro",
+            "topic": "all",
+            "total_replicates": 2000,
+            "valid_fraction": 0.0,
+            "valid_replicates": 0
+          }
+        ]
+      }
+    ],
+    "sample_metric_mean": 4.0,
+    "undefined_sample_propagated": true
+  },
+  "host": "MacBook-Pro-7.local",
+  "identity": {
+    "additions": [
+      "A\tconfig/final_e/lock_candidate_20261004.json",
+      "A\tdocs/final_e/SCIENTIFIC_LOCK_CANDIDATE_20261004.md",
+      "A\tresults/final_e_lock_candidate_20261004/accounting.json",
+      "A\tresults/final_e_lock_candidate_20261004/focused-tests.log",
+      "A\tresults/final_e_lock_candidate_20261004/preservation.json",
+      "A\tresults/final_e_lock_candidate_20261004/validate_candidate.py",
+      "A\tresults/final_e_lock_candidate_20261004/validation.json"
+    ],
+    "ancestry_edges": [
+      [
+        "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe"
+      ],
+      [
+        "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+        "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4"
+      ]
+    ],
+    "candidate": {
+      "bytes": 13513,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/lock_candidate_20261004.json",
+      "sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3"
+    },
+    "cpu_job_cap_seconds": 10800,
+    "immutable_files": {
+      "config/final_e/carryforward_v1.json": {
+        "bytes": 2316,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/carryforward_v1.json",
+        "sha256": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154"
+      },
+      "config/final_e/contrasts_v1.json": {
+        "bytes": 2202,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/contrasts_v1.json",
+        "sha256": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735"
+      },
+      "config/final_e/head_registry_v1.json": {
+        "bytes": 145249,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/head_registry_v1.json",
+        "sha256": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31"
+      },
+      "config/final_e/preparation_v1.json": {
+        "bytes": 21574,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/preparation_v1.json",
+        "sha256": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5"
+      },
+      "results/final_e_preparation_20261003/bootstrap.json": {
+        "bytes": 1897,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/results/final_e_preparation_20261003/bootstrap.json",
+        "sha256": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137"
+      },
+      "results/final_e_preparation_20261003/inventory.json": {
+        "bytes": 2867,
+        "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/results/final_e_preparation_20261003/inventory.json",
+        "sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+      }
+    },
+    "limits": {
+      "model_seconds": 7200,
+      "setup_phase_seconds": 1800,
+      "total_seconds": 18000
+    },
+    "original_draft": {
+      "bytes": 1375,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/checkpoint-final-e-lock-review-20261004/config/final_e/draft_lock_v1.json",
+      "sha256": "828abb54386de552f38a29596c5f2defb1bbfde1db227e73fb9e4054a2a732f2"
+    },
+    "published_validation_head": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+    "receipt_links_checked": true,
+    "validation_head_note": "Pre-commit validation ran while HEAD was the base; this review checks the committed candidate."
+  },
+  "numerical_threads": 1,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "python": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "reviewed_commit": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+  "seconds": 1.4729408333078027,
+  "status": "passed",
+  "utc": "2026-10-04T16:52:23.377704+00:00",
+  "version": "3.11.6"
+}

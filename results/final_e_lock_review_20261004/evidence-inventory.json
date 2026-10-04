@@ -1,0 +1,25 @@
+{
+  "files": {
+    "independent-checks.json": {
+      "bytes": 56527,
+      "sha256": "b420021196fe8e140c23845f6d54b844758a3e22f049e1ee38e77cff0ed06f5e"
+    },
+    "independent_checks.py": {
+      "bytes": 15510,
+      "sha256": "288e019c4255c471178be888703732b4f4387244b945d54fd4a2520d2ffb16f5"
+    },
+    "initial-state.json": {
+      "bytes": 8760,
+      "sha256": "c7ca3e8503cd2264bce7c4abe1561399832d9d2ad70ad235a6ca8f3f3c53cef5"
+    },
+    "operations.json": {
+      "bytes": 1116,
+      "sha256": "07886e27ad55e5b411ea948fa924ede22fe8457b6e5db73b791314c1b71cb117"
+    },
+    "preservation.json": {
+      "bytes": 11019,
+      "sha256": "f641ae8c9de706455abdc33c929df518ba697fd1423483afb4763a8b89642a25"
+    }
+  },
+  "review_document_sha256": "3526548b45206743e0b25ea7f5c6f03ace2cf35966e0a546e765eb70cdee63fc"
+}
