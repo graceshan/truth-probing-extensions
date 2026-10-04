@@ -11,7 +11,7 @@ import sys
 import numpy as np
 from threadpoolctl import threadpool_limits, threadpool_info
 from src.checkpoint_next_inventory import ROOT, require, sha
-from src.checkpoint_next_full_bank_inputs import FullTrainingAdapter, configuration, read, EXTRACTION_PRODUCER
+from src.checkpoint_next_full_bank_inputs import FullTrainingAdapter, configuration, read, PRODUCERS
 from src.checkpoint_next_full_bank_selection import bank_specs, selectors
 from src.checkpoint_next_full_bank_provenance import FrozenB25
 from src.checkpoint_next_chat import diagnostic_json
@@ -58,7 +58,7 @@ def candidate(root,spec,adapter,features,identity,pre):
     if spec['training_group']=='balanced_full':
         X=X[adapter.full_balanced];rows=[dict(adapter.train[i],dataset=adapter.train[i]['source_row_id'].rsplit(':',1)[0]) for i in adapter.full_balanced]
     record=dict(identity=identity,spec=spec,valid_for_scoring=False,params_producer=identity['cpu_producer'],historical_reuse=False,
-        extraction_producers=dict(existing='7656a0eb68a5fd7ff7dac1c73efeab982d540cc2',supplement=EXTRACTION_PRODUCER),
+        extraction_producers=dict(existing='7656a0eb68a5fd7ff7dac1c73efeab982d540cc2',supplement=PRODUCERS[spec['model']]),
         training_rows=len(rows),training_source_sha256=hash_value(rows),training_features_sha256=array_hash(X))
     params=None
     try:
@@ -108,7 +108,7 @@ def accounting(root,identity):
 
 
 def worker(args,identity):
-    start=time.monotonic();cfg=configuration();adapter=FullTrainingAdapter(args.supplement,args.transfer_manifest)
+    start=time.monotonic();cfg=configuration();adapter=FullTrainingAdapter(args.handoffs)
     require(adapter.supplement_status=='transferred_independently_reopened','actual supplement acceptance required')
     # Full existing input-byte verification is mandatory at future launch/resume,
     # not replaced by today's metadata-only preparation.

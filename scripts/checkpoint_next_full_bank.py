@@ -32,7 +32,7 @@ def gate(producer):
 def prepare(args,cfg):
     import pandas as pd
     from threadpoolctl import threadpool_limits,threadpool_info
-    from src.checkpoint_next_full_bank_inputs import FullTrainingAdapter,read,CONFIG,EXTRACTION_PRODUCER
+    from src.checkpoint_next_full_bank_inputs import FullTrainingAdapter,read,CONFIG,PRODUCERS
     from src.checkpoint_next_full_bank_provenance import FrozenB25,raw_exports
     from src.checkpoint_next_full_bank_selection import bank_specs,CONTRASTS
     from src.checkpoint_r2_fresh_inputs import hash_value
@@ -68,7 +68,7 @@ def prepare(args,cfg):
             wording_lock=True,bootstrap=cfg['bootstrap'],undefined='no redraw/imputation/topic dropping; ordinary mean propagates undefined',
             oracle_uncertainty='primary fixed-winner conditional; endpoint maxima descriptive',A_exposure=True,
             interpretation='A identities now occur in atomic training: advantaged full-training comparator against existing reduced-P repair; does not test full-training repair'))
-        metadata=dict(status='preparation_only',cpu_producer=args.producer,supplement_extraction_producer=EXTRACTION_PRODUCER,
+        metadata=dict(status='preparation_only',cpu_producer=args.producer,supplement_extraction_producers=PRODUCERS,
             config_sha256=sha(CONFIG),input_requirements=adapter.receipt,input_verification=verification,eligibility=reference,
             all600_candidates_unrun=True,repair_fits=0,chat_fits=0,research_fits=0,E_access=False,
             raw_export_pin=pin(exports/'raw-chat-comparators.json'),runtime_seconds=time.monotonic()-start,
@@ -77,18 +77,20 @@ def prepare(args,cfg):
             threadpools=threadpool_info(),cap_seconds=10800,cap_is_runtime_estimate=False)
         publish_json(out/'preparation.json',metadata)
         adapter.unchanged()
-    print(json.dumps({k:metadata[k] for k in ('status','cpu_producer','supplement_extraction_producer','raw_export_pin','runtime_seconds','process_peak_rss','all600_candidates_unrun')},indent=2))
+    print(json.dumps({k:metadata[k] for k in ('status','cpu_producer','supplement_extraction_producers','raw_export_pin','runtime_seconds','process_peak_rss','all600_candidates_unrun')},indent=2))
 
 
 def identity(args,cfg):
     from src.checkpoint_next_full_bank_inputs import CONFIG
-    return dict(cpu_producer=args.producer,config_sha256=sha(CONFIG),supplement_transfer_sha256=sha(args.transfer_manifest),
+    return dict(cpu_producer=args.producer,config_sha256=sha(CONFIG),supplement_handoffs_sha256=sha(args.handoffs),supplement_acceptance_sha256=sha(args.input_acceptance),
         prepared_manifest_sha256=sha(Path(args.prepared)/'preparation.json'),existing_acceptance_sha256=sha(ROOT/'results/checkpoint_r2_fresh_recoverability_20261002/acceptance.json'))
 
 
 def authorized(args,cfg):
     from src.checkpoint_next_full_bank_inputs import read
     auth=read(args.authorization);expected=identity(args,cfg)
+    from src.checkpoint_next_full_bank_handoffs import acceptance
+    require(read(args.input_acceptance)==acceptance(args.handoffs), 'handoffs/acceptance changed since review')
     require(auth['identity']==expected and auth['reviewed'] is True and auth['research_fit_authorized'] is True and
         auth['CPU_slot_exclusive'] is True and auth['candidates']==600 and auth['repair_fits']==0 and
         auth['worker_cap_seconds']==10800 and auth['E'] is False,'separate exact-producer full-bank authorization required')
@@ -122,8 +124,8 @@ def supervise(args,cfg,idn):
         remaining=10800-charges(output);require(remaining>0,'cumulative full-bank CPU cap exhausted')
         attempt=output/'attempts'/uuid.uuid4().hex;attempt.mkdir(parents=True)
         publish_json(attempt/'start.json',dict(utc=time.time(),remaining_seconds=remaining,identity=idn))
-        command=[sys.executable,__file__,'_worker','--producer',args.producer,'--output',str(output),'--supplement',args.supplement,
-                 '--transfer-manifest',args.transfer_manifest,'--authorization',args.authorization,'--prepared',args.prepared]
+        command=[sys.executable,__file__,'_worker','--producer',args.producer,'--output',str(output),'--handoffs',args.handoffs,
+                 '--input-acceptance',args.input_acceptance,'--authorization',args.authorization,'--prepared',args.prepared]
         env=dict(os.environ,**{k:'1' for k in THREAD_ENV},FULL_BANK_SUPERVISOR_PID=str(os.getpid()),FULL_BANK_REMAINING_SECONDS=str(remaining));start=time.monotonic();proc=None;reason='finished'
         try:
             with (attempt/'stdout.log').open('xb') as log:
@@ -147,10 +149,10 @@ def supervise(args,cfg,idn):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['prepare','run','resume','audit','_worker'])
     for k in ('producer','output'):p.add_argument('--'+k,required=True)
-    for k in ('export-output','supplement','transfer-manifest','authorization','prepared','audit-output'):p.add_argument('--'+k)
+    for k in ('export-output','handoffs','input-acceptance','authorization','prepared','audit-output'):p.add_argument('--'+k)
     args=p.parse_args();cfg=gate(args.producer)
     if args.command=='prepare':require(args.export_output,'export output required');prepare(args,cfg);return
-    require(all(getattr(args,k) for k in ('supplement','transfer_manifest','authorization','prepared')),'actual inputs and separate authorization required')
+    require(all(getattr(args,k) for k in ('handoffs','input_acceptance','authorization','prepared')),'actual inputs and separate authorization required')
     idn=authorized(args,cfg)
     if args.command in ('run','resume'):supervise(args,cfg,idn)
     elif args.command=='_worker':

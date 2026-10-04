@@ -43,7 +43,7 @@ def endpoint(rows,scores,metric,scope,topic,weights=None):
 
 def audit(args,identity):
     root=Path(args.output);completion=read(root/'completion.json');require(completion['status']=='completed' and completion['identity']==identity,'completed exact producer required')
-    adapter=FullTrainingAdapter(args.supplement,args.transfer_manifest);frozen=FrozenB25(adapter)
+    adapter=FullTrainingAdapter(args.handoffs);frozen=FrozenB25(adapter)
     for path,p in completion['evaluation']['files'].items():require(pin(root/path)==p,'report pin')
     records=[load_fit(root,s,identity) for s in bank_specs()]
     require(len(records)==600 and all(r and r['valid_for_scoring'] for r in records),'all600 valid candidates')

@@ -1,21 +1,22 @@
 """Full admitted atomic bindings. Preparation reads metadata; layer() is future CPU-only.
 
-Extraction identity is always the original extraction producer, never the CPU producer.
+Extraction identities are pinned per model, never derived from the CPU producer.
 """
 import csv
 import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from src.checkpoint_next_inventory import ROOT, digest, sha, require, inventory
+from src.checkpoint_next_inventory import ROOT, sha, require
 from src.checkpoint_r2_fresh_inputs import hash_value, text_hash
 from src.checkpoint_r2_b25_adapter import B25Adapter, SEEDS
-from src.checkpoint_next_missing import validate_queue, verify_supplement, provenance
+from src.checkpoint_next_missing import validate_queue, provenance
 from src.atomic_probe_methods import balanced_burger_indices
+from src.checkpoint_next_full_bank_handoffs import PRODUCERS, acceptance as handoff_acceptance
 
 EXTRACTION_PRODUCER = '9b0ac1d84b35d7faf2148d43664569aa867cba52'
 BASE = 'fc083594dc17d1fc38f7b52dd8030b0a7f2cb67d'
-CONFIG = ROOT/'config/checkpoint_next/full_bank_prep_v1.json'
+CONFIG = ROOT/'config/checkpoint_next/full_bank_adapter_successor_v2.json'
 EVIDENCE = ROOT/'results/checkpoint_next_score_diagnosis_20261003'
 
 
@@ -29,7 +30,7 @@ def configuration():
         require(sha(ROOT/path)==h, 'frozen full-bank dependency changed: '+path)
     require(cfg['candidates']==600 and cfg['repair_fits']==0 and cfg['processes']==cfg['blas_threads']==1
             and cfg['worker_cap_seconds']==10800 and cfg['E'] is False,'full-bank scope')
-    require(cfg['supplement_producer']==EXTRACTION_PRODUCER,'extraction producer changed')
+    require(cfg['supplement_producers']==PRODUCERS,'per-model extraction producers changed')
     return cfg
 
 
@@ -69,53 +70,13 @@ def memberships():
     return train,p15,chosen,ledger,q
 
 
-def supplement_acceptance(campaign, transfer_manifest):
-    """Independent downstream reopen of a transferred original-producer supplement.
-
-    Caller must provide the external transfer manifest. No metadata-only verified flag,
-    changed producer label, or current-HEAD identity is accepted.
-    """
-    from src.checkpoint_next_runner import verify_execution_evidence
-    from src.checkpoint_r2_full_support import evidence
-    from src.checkpoint_next_inventory import config as extraction_config
-    campaign=Path(campaign).resolve();transfer=read(transfer_manifest)
-    actual={str(p.relative_to(campaign)):sha(p) for p in sorted(campaign.rglob('*')) if p.is_file()}
-    require(all(not p.is_symlink() for p in campaign.rglob('*')),'transfer symlinks forbidden')
-    require(actual==transfer,'complete transfer file/hash mismatch')
-    x=inventory();cfg=extraction_config();receipts={}
-    for model in ('qwen','llama'):
-        root=campaign/'missing_raw'/model;idn=read(root/'identity.json')
-        expected=dict(producer_commit=EXTRACTION_PRODUCER,config_sha256=sha(ROOT/'config/checkpoint_next/behavior_prep_v1.json'),
-            inventory_sha256=digest(x),model=model,integration_config_sha256=sha(ROOT/'config/checkpoint_next/integration_fix_v1.json'),
-            paths='full-sequence-likelihood/greedy/last-input-chat-v2')
-        require(idn==expected,'supplement extraction identity: CPU SHA must not relabel extraction')
-        receipt=verify_supplement(campaign,model,idn)
-        completion=read(root/'completion.json');require(completion['status']=='completed' and completion['verification']==receipt,'supplement completion')
-        execution=verify_execution_evidence(campaign,model,completion)
-        audit=read(root/'token-audit.json');backend=evidence(cfg,model+'/runtime-before-inference.json')['backend']
-        require(audit['identity']==idn and audit['token_plan_sha256']==receipt['token_plan_sha256'] and
-                audit['queue_sha256']==receipt['queue_sha256'] and audit['rows']==131 and
-                audit['status']=='independently_reconstructed' and audit['model_loaded'] is False and
-                all(audit[k]==backend[k] for k in ('tokenizer_backend_sha256','tokenizer_implementation_sha256')),'supplement token audit')
-        receipt['token_audit_sha256']=sha(root/'token-audit.json')
-        ledger=[]
-        for p in sorted((campaign/'attempts'/model).glob('*/start.json')):
-            if read(p)['phase']!='missing_raw':continue
-            end=p.with_name('end.json');v=read(end)
-            require(v['active_seconds']>=0,'extraction charge')
-            ledger.append(dict(attempt=p.parent.name,start_sha256=sha(p),end_sha256=sha(end),**v))
-        require(ledger,'real extraction attempt ledger')
-        accepted=dict(verification=receipt,completion_sha256=sha(root/'completion.json'),ledger=ledger,
-            active_seconds=sum(r['active_seconds'] for r in ledger),status='accepted')
-        require(read(root/'acceptance.json')==accepted,'actual transferred acceptance required')
-        receipts[model]=dict(acceptance_sha256=sha(root/'acceptance.json'),identity=idn,verification=receipt,
-                             measured_execution=execution)
-    return dict(status='transferred_independently_reopened',campaign=str(campaign),
-                transfer_manifest_sha256=sha(transfer_manifest),extraction_producer=EXTRACTION_PRODUCER,models=receipts)
+def supplement_acceptance(handoffs):
+    """Require both real, distinct handoffs; explicit exact-producer subprocesses."""
+    return handoff_acceptance(handoffs, require_complete=True)
 
 
 class FullTrainingAdapter(B25Adapter):
-    def __init__(self, campaign=None, transfer_manifest=None):
+    def __init__(self, handoffs=None):
         configuration()
         acceptance=read(ROOT/'results/checkpoint_r2_fresh_recoverability_20261002/acceptance.json')
         super().__init__(acceptance)
@@ -124,9 +85,8 @@ class FullTrainingAdapter(B25Adapter):
         require(self.rows['P15']==p15,'original P15 unchanged')
         self.train=train;self.full_balanced=chosen;self.ledger=ledger;self.queue=q
         self.supplement=None
-        if campaign is not None:
-            require(transfer_manifest is not None,'transfer manifest required')
-            self.supplement=supplement_acceptance(campaign,transfer_manifest)
+        if handoffs is not None:
+            self.supplement=supplement_acceptance(handoffs)
         self.supplement_status='pending_actual_transferred_acceptance' if self.supplement is None else self.supplement['status']
         texts={r['id']:i for i,r in enumerate(self.manifest['rows'])}
         self.bindings['outer_train']=[dict(group='outer_train',logical_id=r['source_row_id'],text_id='text_'+r['statement_sha256'],
@@ -178,7 +138,8 @@ class FullTrainingAdapter(B25Adapter):
                     supplement_status=self.supplement_status)
 
     def layer(self,model,layer,wording=False):
-        require(self.supplement is not None,'131 texts/model pending actual transferred acceptance; fitting blocked')
+        require(self.supplement is not None and self.supplement['status']=='transferred_independently_reopened',
+                '131 texts/model pending actual transferred acceptance; fitting blocked')
         groups=['P15','atomic_D','D_bare']+[f'B25_{s}' for s in SEEDS]
         if wording:groups+=sorted(self.receipt['heldout_wording_rows'])
         original=self.bindings
@@ -196,7 +157,7 @@ class FullTrainingAdapter(B25Adapter):
         from src.checkpoint_r2_fresh_store import load_features
         from src.checkpoint_next_missing import raw_rows
         queue_rows=raw_rows();indices={b['text_id']:i for i,b in enumerate(original['outer_train'])}
-        campaign=Path(self.supplement['campaign']);idn=self.supplement['models'][model]['identity']
+        campaign=Path(self.supplement['models'][model]['campaign']);idn=self.supplement['models'][model]['identity']
         for i,row in enumerate(queue_rows):
             folder=campaign/'missing_raw'/model/'shards'/f'{i:05d}'
             values,_,_=load_features(folder,expected_rows=[row],expected_spec=self.cfg['models'][model],expected_provenance=provenance(model,idn))

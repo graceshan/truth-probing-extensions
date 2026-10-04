@@ -112,8 +112,8 @@ class MetadataTests(unittest.TestCase):
             campaign=Path(d)/'transferred';q=campaign/'missing_raw/qwen';q.mkdir(parents=True)
             p=q/'identity.json';p.write_text(json.dumps({'producer_commit':'CPU producer is not extraction producer'}))
             transfer=Path(d)/'transfer.json';transfer.write_text(json.dumps({'missing_raw/qwen/identity.json':sha(p)}))
-            with patch('src.checkpoint_next_full_bank_inputs.verify_supplement',side_effect=AssertionError('must reject before features')):
-                with self.assertRaisesRegex(ValueError,'extraction identity'):supplement_acceptance(campaign,transfer)
+            with patch('src.checkpoint_next_full_bank_handoffs.policy',return_value={'original_manifest_sha256':sha(transfer),'original_identities':{'qwen':{'producer_commit':EXTRACTION_PRODUCER}}}):
+                with self.assertRaisesRegex(ValueError,'extraction identity'):supplement_acceptance({'schema':'checkpoint-next-full-bank-handoffs-v2','qwen':dict(campaign=str(campaign),transfer_manifest=str(transfer),verifier_checkout='unused'),'llama':None})
 
 
 class SelectorTests(unittest.TestCase):
