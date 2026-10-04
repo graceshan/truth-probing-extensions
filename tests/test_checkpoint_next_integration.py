@@ -240,7 +240,7 @@ class ExecutionEvidenceTests(unittest.TestCase):
             root=out/'missing_raw/qwen';root.mkdir(parents=True)
             args=argparse.Namespace(output=d,attempt=str(attempt),model='qwen',parent_pid=os.getppid(),cache=d)
             expected={k:'same' for k in ('tokenizer_backend_sha256','model_implementation_sha256','tokenizer_implementation_sha256','actual_flags')}
-            fake=SimpleNamespace(raw=SimpleNamespace(details=expected,peak=lambda:dict(allocated=11,reserved=22)))
+            fake=SimpleNamespace(details=expected,peak=lambda:dict(allocated=11,reserved=22))
             def close():self.assertTrue((attempt/'peak-before-teardown.json').exists())
             fake.close=close
             cfg=dict(models=dict(qwen={}),layers=dict(qwen=[17,18]),runtime_lock={},execution={})
@@ -251,11 +251,13 @@ class ExecutionEvidenceTests(unittest.TestCase):
                 'src.checkpoint_r2_full_support.evidence':{'backend':expected},
                 'src.checkpoint_r2_full_support.verify_snapshot':{},
                 'src.checkpoint_r2_full_raw.runtime_matches':None,
-                'src.checkpoint_next_measurement.ChatBackend':fake,
+                'src.checkpoint_r2_fresh_backend.FreshBackend':fake,
                 'src.checkpoint_next_missing.settings':{},
                 'src.checkpoint_next_missing.extract':dict(status='completed',jobs=131)}
             with ExitStack() as stack:
                 for name,value in patches.items():stack.enter_context(patch(name,return_value=value))
+                stack.enter_context(patch('src.checkpoint_next_measurement.ChatBackend',side_effect=AssertionError('raw constructed ChatBackend')))
+                stack.enter_context(patch('src.checkpoint_next_measurement.native_terminations',side_effect=AssertionError('raw inspected termination')))
                 stack.enter_context(patch('ctypes.CDLL',return_value=SimpleNamespace(prctl=lambda *a:0)))
                 worker(args,attempt,'missing_raw',{})
             completion=json.loads((root/'completion.json').read_text())
@@ -281,7 +283,7 @@ class MissingRecoveryTests(unittest.TestCase):
         def forward(rs,batch):
             self.assertEqual(batch,1);calls.append(rs[0]['id'])
             return np.zeros((1,2,3),np.float32),[single_packet(tokenizer,rs[0],1024)]
-        fake=SimpleNamespace(raw=SimpleNamespace(spec=spec,tokenizer=tokenizer,settings={'max_tokens':1024},forward=forward))
+        fake=SimpleNamespace(spec=spec,tokenizer=tokenizer,settings={'max_tokens':1024},forward=forward)
         with tempfile.TemporaryDirectory() as d,ExitStack() as stack:
             for name,value in [('raw_rows',rows),('config',dict(models=dict(qwen=spec)))]:
                 stack.enter_context(patch('src.checkpoint_next_missing.'+name,return_value=value))

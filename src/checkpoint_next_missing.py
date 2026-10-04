@@ -111,11 +111,11 @@ def extract(args, backend, identity, costs):
     from src.checkpoint_r2_fresh_store import write_shard, load_features, fsync_dir, storage_probe
     rows=raw_rows();root=Path(args.output)/'missing_raw'/args.model;root.mkdir(parents=True,exist_ok=True)
     same_or_publish(root/'identity.json',identity)
-    t=time.monotonic();plan=[single_packet(backend.raw.tokenizer,r,backend.raw.settings['max_tokens']) for r in rows]
+    t=time.monotonic();plan=[single_packet(backend.tokenizer,r,backend.settings['max_tokens']) for r in rows]
     costs['tokenization']=time.monotonic()-t
     t=time.monotonic();same_or_publish(root/'token-plan.json',plan)
     # Bounded allocation proof; retain original outputs and a second supplement copy.
-    reserve=2*(131*backend.raw.spec['layers']*backend.raw.spec['width']*2+16*1024**2)
+    reserve=2*(131*backend.spec['layers']*backend.spec['width']*2+16*1024**2)
     storage=storage_probe(root,reserve)
     publish_json(Path(args.attempt)/'missing-storage.json',storage)
     costs['writing_verification']+=time.monotonic()-t
@@ -126,16 +126,16 @@ def extract(args, backend, identity, costs):
         if path.exists():
             require(path.is_dir() and not path.is_symlink(),'raw shard path')
             if (path/'receipt.json').exists():
-                load_features(path,expected_rows=[row],expected_spec=backend.raw.spec,expected_provenance=provenance(args.model,identity))
+                load_features(path,expected_rows=[row],expected_spec=backend.spec,expected_provenance=provenance(args.model,identity))
                 require(json.loads((path/'tokens.json').read_text())==[plan[i]],'resumed raw token binding')
                 costs['writing_verification']+=time.monotonic()-t
                 continue
             quarantine=root/'quarantine';quarantine.mkdir(exist_ok=True)
             os.rename(path,quarantine/(path.name+'-'+uuid.uuid4().hex));fsync_dir(shards);fsync_dir(quarantine)
-        t=time.monotonic();values,tokens=backend.raw.forward([row],1)
+        t=time.monotonic();values,tokens=backend.forward([row],1)
         costs['raw_extraction']+=time.monotonic()-t
         require(tokens==[plan[i]],'raw forward vs token plan')
-        t=time.monotonic();write_shard(path,[row],values,backend.raw.spec,provenance(args.model,identity),tokens)
+        t=time.monotonic();write_shard(path,[row],values,backend.spec,provenance(args.model,identity),tokens)
         costs['writing_verification']+=time.monotonic()-t
     t=time.monotonic();receipt=verify_supplement(args.output,args.model,identity)
     costs['writing_verification']+=time.monotonic()-t

@@ -33,7 +33,8 @@ def frozen():
 def identity(model, x):
     return dict(producer_commit=producer(),config_sha256=sha(CONFIG),inventory_sha256=digest(x),model=model,
                 integration_config_sha256=sha(ROOT/'config/checkpoint_next/integration_fix_v1.json'),
-                paths='full-sequence-likelihood/greedy/last-input-chat-v2')
+                paths='full-sequence-likelihood/greedy/last-input-chat-v2',
+                raw_only_config_sha256=sha(ROOT/'config/checkpoint_next/raw_only_fix_v1.json'))
 
 
 def prepare(out):
@@ -46,7 +47,13 @@ def prepare(out):
 
 
 def authorized(args, phase, x):
+    from src.checkpoint_next_adoption import phase_allowed, verify as verify_adoption, POLICY
+    phase_allowed(args.model,phase)
+    require(args.original_campaign and args.original_manifest,'original handoff and manifest required')
+    verify_adoption(args.output,args.original_campaign,args.original_manifest,x,execution=True)
     c=config();a=json.loads(Path(args.authorization).read_text())
+    require(a['adoption_sha256']==sha(Path(args.output)/'adoption.json') and
+            a['raw_only_config_sha256']==sha(POLICY),'raw-only adoption authorization mismatch')
     require(a['phase']==phase and a['producer_commit']==producer() and a['config_sha256']==sha(CONFIG)
             and a['inventory_sha256']==digest(x) and a['model']==args.model,'reviewed authorization mismatch')
     require(len(a['producer_commit'])==40 and a['reviewed'] is True and a['E'] is False,'reviewed exact scope required')
@@ -89,8 +96,20 @@ def attempts_elapsed(output, model):
 
 
 def missing_acceptance(output, model, x):
+    from src.checkpoint_next_adoption import receipt, budget
+    adoption=receipt(output)
+    result=_missing_acceptance(output,model,identity(model,x))
+    accounting=budget(output,model,adoption)
+    require(accounting['remaining_seconds']>=0,'cumulative model cap exceeded; acceptance blocked')
+    result.update(adoption_sha256=sha(Path(output)/'adoption.json'),
+                  campaign_budget=accounting,
+                  original_attempts=adoption['original']['original_attempts'][model])
+    return result
+
+
+def _missing_acceptance(output, model, idn):
     from src.checkpoint_next_missing import verify_supplement
-    receipt=verify_supplement(output,model,identity(model,x))
+    receipt=verify_supplement(output,model,idn)
     root=Path(output)/'missing_raw'/model
     completion=json.loads((root/'completion.json').read_text())
     require(completion['status']=='completed' and completion['verification']==receipt,'supplement incomplete')
@@ -98,7 +117,7 @@ def missing_acceptance(output, model, x):
     audit=json.loads((root/'token-audit.json').read_text())
     from src.checkpoint_r2_full_support import evidence
     expected=evidence(config(),model+'/runtime-before-inference.json')['backend']
-    require(audit['identity']==identity(model,x) and audit['token_plan_sha256']==receipt['token_plan_sha256']
+    require(audit['identity']==idn and audit['token_plan_sha256']==receipt['token_plan_sha256']
         and audit['queue_sha256']==receipt['queue_sha256'] and audit['status']=='independently_reconstructed'
         and audit['rows']==131 and audit['model_loaded'] is False
         and all(audit[k]==expected[k] for k in ('tokenizer_backend_sha256','tokenizer_implementation_sha256')),
@@ -115,12 +134,19 @@ def missing_acceptance(output, model, x):
                 active_seconds=sum(r['active_seconds'] for r in ledger),status='accepted')
 
 
+def backend_for_phase(phase, spec, snapshot, settings, model, layers):
+    if phase=='missing_raw':
+        from src.checkpoint_r2_fresh_backend import FreshBackend
+        return FreshBackend(spec,snapshot,settings)
+    from src.checkpoint_next_measurement import ChatBackend
+    return ChatBackend(spec,snapshot,settings,model,layers)
+
+
 def worker(args, attempt, phase, approval):
     """Child only: accepted offline runtime, shared cap, durable failure evidence."""
     from src.checkpoint_r2_fresh_backend import runtime_receipt
     from src.checkpoint_r2_full_raw import runtime_matches
     from src.checkpoint_r2_full_support import evidence, verify_snapshot
-    from src.checkpoint_next_measurement import ChatBackend
     from src.checkpoint_next_missing import settings, extract
     c=config();x=frozen();spec=c['models'][args.model];policy=settings()
     require(platform.system()=='Linux' and os.getppid()==args.parent_pid,'supervised Linux worker required')
@@ -138,12 +164,13 @@ def worker(args, attempt, phase, approval):
         # Loading and every later stage consume the same active model allowance.
         publish_json(attempt/'active.json',dict(utc=time.time(),monotonic=time.monotonic()))
         t=time.monotonic()
-        try:backend=ChatBackend(spec,snapshot,c['execution'],args.model,c['layers'][args.model])
+        try:backend=backend_for_phase(phase,spec,snapshot,c['execution'],args.model,c['layers'][args.model])
         finally:costs['loading']=time.monotonic()-t
-        require(all(backend.raw.details[k]==expected['backend'][k] for k in
+        raw=backend if phase=='missing_raw' else backend.raw
+        require(all(raw.details[k]==expected['backend'][k] for k in
             ('tokenizer_backend_sha256','model_implementation_sha256','tokenizer_implementation_sha256','actual_flags')),
             'accepted implementations/flags differ')
-        publish_json(attempt/'runtime.json',dict(runtime=runtime,backend=backend.raw.details,snapshot=snapshot))
+        publish_json(attempt/'runtime.json',dict(runtime=runtime,backend=raw.details,snapshot=snapshot))
         idn=identity(args.model,x)
         if phase=='missing_raw':
             summary=extract(args,backend,idn,costs)
@@ -220,7 +247,7 @@ def worker(args, attempt, phase, approval):
         peak=None
         try:
             if backend is not None:
-                peak=backend.raw.peak()
+                peak=(backend if phase=='missing_raw' else backend.raw).peak()
                 publish_json(attempt/'peak-before-teardown.json',dict(peak_cuda_bytes=peak,scope='loading and execution'))
                 t=time.monotonic()
                 try:backend.close()
@@ -248,7 +275,9 @@ def supervise(args, phase):
         if (out/phase/args.model/'completion.json').exists():
             print(json.dumps(verify(out,phase,args.model),indent=2))
             return
-        charged=attempts_elapsed(out,args.model)
+        from src.checkpoint_next_adoption import receipt, budget
+        accounting=budget(out,args.model,receipt(out))
+        charged=accounting['charged_seconds']
         remaining=c['caps']['active_gpu_seconds_per_model']-charged
         require(remaining>0,'cumulative model cap exhausted; no automatic cap reset')
         if phase=='launch':
@@ -267,9 +296,12 @@ def supervise(args, phase):
                     'storage mount/restart or stale reservation; rerun storage check')
         from uuid import uuid4
         attempt=out/'attempts'/args.model/uuid4().hex;attempt.mkdir(parents=True)
-        publish_json(attempt/'start.json',dict(utc=time.time(),remaining_gpu_seconds=remaining,phase=phase))
+        publish_json(attempt/'start.json',dict(utc=time.time(),remaining_gpu_seconds=remaining,phase=phase,
+            adoption_sha256=sha(out/'adoption.json'),campaign_budget_before_attempt=accounting))
         command=[sys.executable,'-m','src.checkpoint_next_runner','_worker','--phase',phase,'--model',args.model,
-                 '--output',str(out),'--cache',str(Path(args.cache).resolve()),'--authorization',str(Path(args.authorization).resolve()),'--attempt',str(attempt),'--parent-pid',str(os.getpid())]
+                 '--output',str(out),'--cache',str(Path(args.cache).resolve()),'--authorization',str(Path(args.authorization).resolve()),'--attempt',str(attempt),'--parent-pid',str(os.getpid()),
+                 '--original-campaign',str(Path(args.original_campaign).resolve()),
+                 '--original-manifest',str(Path(args.original_manifest).resolve())]
         start=time.monotonic();active_start=None;reason=None
         with (attempt/'stdout.log').open('xb') as log:
             proc=subprocess.Popen(command,cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
@@ -314,7 +346,11 @@ def verify_execution_evidence(output,model,completion):
 
 
 def verify(output, phase, model):
-    if phase=='missing_raw':return missing_acceptance(output,model,frozen())
+    if phase=='missing_raw':
+        accepted=missing_acceptance(output,model,frozen())
+        require(json.loads((Path(output)/'missing_raw'/model/'acceptance.json').read_text())==accepted,
+                'saved supplement acceptance/ledger changed')
+        return accepted
     c=config();x=frozen();root=Path(output)/phase/model;idn=json.loads((root/'identity.json').read_text())
     require(idn==identity(model,x),'transferred producer identity mismatch')
     rows=selected_jobs(x,phase);names=set()
@@ -348,8 +384,19 @@ def verify(output, phase, model):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['prepare','verify','missing-raw','extract-missing','audit-missing-tokens','accept-missing','preflight','launch','_worker'])
     p.add_argument('--output',required=True);p.add_argument('--model',choices=['qwen','llama']);p.add_argument('--phase',choices=['preflight','launch','missing_raw'],default='launch')
-    p.add_argument('--cache');p.add_argument('--authorization');p.add_argument('--attempt');p.add_argument('--parent-pid',type=int);p.add_argument('--required');p.add_argument('--available');p.add_argument('--representation-sha256')
+    p.add_argument('--original-campaign');p.add_argument('--original-manifest');p.add_argument('--cache');p.add_argument('--authorization');p.add_argument('--attempt');p.add_argument('--parent-pid',type=int);p.add_argument('--required');p.add_argument('--available');p.add_argument('--representation-sha256')
     args=p.parse_args()
+    if args.action in ('verify','audit-missing-tokens','accept-missing'):
+        from src.checkpoint_next_adoption import verify as verify_adoption, policy
+        require(args.original_campaign and args.original_manifest,'original adoption sources required')
+        verify_adoption(args.output,args.original_campaign,args.original_manifest,frozen(),
+                        execution=args.action!='verify')
+        require(args.action!='verify' or args.phase=='missing_raw','behavior/chat deferred')
+        if args.model=='qwen':
+            require(args.action=='verify','accepted Qwen supplement is read-only; no rerun/audit relabel')
+            print(json.dumps(_missing_acceptance(args.original_campaign,'qwen',
+                policy()['original_identities']['qwen']),indent=2))
+            return
     if args.action=='prepare':
         print(json.dumps(prepare(args.output)['accounting'],indent=2))
     elif args.action=='verify':

@@ -163,13 +163,17 @@ class RecoveryTests(unittest.TestCase):
             def wait(self,timeout=None):self.returncode=-9;return -9
         proc=Process()
         with tempfile.TemporaryDirectory() as d:
-            args=argparse.Namespace(model='qwen',output=d,authorization='unused',cache=d)
+            args=argparse.Namespace(model='llama',output=d,authorization='unused',cache=d,original_campaign=d,original_manifest=d)
+            publish_json(Path(d)/'adoption.json',{'synthetic':True})
             cfg={'caps':{'active_gpu_seconds_per_model':7200,'setup_seconds_per_phase':0}}
             approval={'missing_raw_active_seconds':0,'missing_raw_accounting_sha256':'a'*64}
-            with patch('src.checkpoint_next_runner.config',return_value=cfg),patch('src.checkpoint_next_runner.frozen',return_value={}),patch('src.checkpoint_next_runner.authorized',return_value=approval),patch('src.checkpoint_next_runner.identity',return_value={'producer_commit':'a'*40}),patch('src.checkpoint_next_runner.subprocess.Popen',return_value=proc),patch('src.checkpoint_next_runner.os.killpg') as kill:
-                with self.assertRaisesRegex(ValueError,'stopped'):supervise(args,'preflight')
+            with patch('src.checkpoint_next_adoption.receipt',return_value={'original':{'carry_seconds':{'llama':41.1570940479869}}}),patch('src.checkpoint_next_runner.config',return_value=cfg),patch('src.checkpoint_next_runner.frozen',return_value={}),patch('src.checkpoint_next_runner.authorized',return_value=approval),patch('src.checkpoint_next_runner.identity',return_value={'producer_commit':'a'*40}),patch('src.checkpoint_next_runner.subprocess.Popen',return_value=proc),patch('src.checkpoint_next_runner.os.killpg') as kill:
+                with self.assertRaisesRegex(ValueError,'stopped'):supervise(args,'missing_raw')
                 kill.assert_called_with(proc.pid,signal.SIGKILL)
-            end=next(Path(d).glob('attempts/qwen/*/end.json'))
+            end=next(Path(d).glob('attempts/llama/*/end.json'))
+            start=json.loads(end.with_name('start.json').read_text())
+            self.assertEqual(start['remaining_gpu_seconds'],7158.842905952013)
+            self.assertEqual(start['campaign_budget_before_attempt']['original_seconds'],41.1570940479869)
             self.assertEqual(json.loads(end.read_text())['status'],'setup cap')
 
     def test_crash_charge_does_not_reset_budget(self):
