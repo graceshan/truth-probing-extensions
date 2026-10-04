@@ -1,0 +1,162 @@
+{
+  "docs/checkpoint_next/FULL_ATOMIC_TRAINING_RESULTS_20261003.md": {
+    "bytes": 15879,
+    "sha256": "4210e254698e1500c267603a0f04861614357a566a63cde5d8b0071cf9dfd5d5"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/REPRODUCTION.md": {
+    "bytes": 4701,
+    "sha256": "d2875254acd1ba47651bf2c48cc43dc14a02c45a4165e9843e2de128d884a2e4"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/acceptance-stage.json": {
+    "bytes": 544,
+    "sha256": "b856849ddbd44e901173fbe3d9e4851c13bbb2b75d15268cad3f8ff28d0c88aa"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/audit-cpu-readiness.json": {
+    "bytes": 325,
+    "sha256": "32a2d40d6bc1f0cae9afc4cd141d6ef3ac476e7cf95b2f136abcb3dacfbde28c"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/audit-stage.json": {
+    "bytes": 1214,
+    "sha256": "88e533c358a5deff3ab16154bf789070bfe23b3d2f0c1bfc5020fa17ec2ec5c7"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/authorization.json": {
+    "bytes": 1128,
+    "sha256": "8637ce0abcc33f2b6e96bf5d41f1f061a44330a987e7588dd3e79c04042705f6"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/bank-maxima.csv": {
+    "bytes": 47247,
+    "sha256": "00a7964d992d4abe199ce9384ed8febdb30b0cdd5387e9aa03cd3f6d2f685a85"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/bootstrap-provenance.json": {
+    "bytes": 1464,
+    "sha256": "0ef4285365dcb4c6a26fe03ea3610275c94c3afff2d8f158d1324733740a8df7"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv": {
+    "bytes": 304512,
+    "sha256": "37dddf051e3cb9c223171074e3a67931e53f3fcd757d86cebb15398bc9809813"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/completion.json": {
+    "bytes": 198524,
+    "sha256": "fb61cd3569ddeda665ca2dea1829cf0394a2b06a3a248694218d1c027f4e96d4"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/contrasts.csv": {
+    "bytes": 992805,
+    "sha256": "a2e167e1d8f0fd1c784e6db3c3eb9b80c441db622ffb9950a1926b2d6ee7b5f3"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/cpu-slot-readiness.json": {
+    "bytes": 2091,
+    "sha256": "db8e30f29e3a0c6bcace5a35ab51e1c15b25dd260cd38aa51fec99b3c9dc4048"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/downstream-input-acceptance.json": {
+    "bytes": 794749,
+    "sha256": "8f772ea994f54aaaa24fdbc0b71c06890fc5a40f7210e4e56b427926d3e76a50"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/external-output-manifest.json": {
+    "bytes": 426055,
+    "sha256": "7ebba38170ebd7d96216e47728dedaf12b74c2a8ed2a6ba67815e26f7fb0cd99"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/handoffs.json": {
+    "bytes": 881,
+    "sha256": "e0520d308dbe4928716492df3e360cbb10b635fab7f0c8b51d6bcb8e308ba935"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/identity.json": {
+    "bytes": 552,
+    "sha256": "634b883c4bc83bfc62e5d0be7e8482ad2b76c6ef5018c59e12d3ca1920628cc2"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/independent-audit.json": {
+    "bytes": 1003,
+    "sha256": "6404865658605ee8bcb68b734c40ae21f60793fbd0599119bfcc1c506bc91958"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/input-acceptance.json": {
+    "bytes": 848822,
+    "sha256": "220d4fd905d45af74c1ae76952b91e4ea2315414fcd582c49cdf53f068cb5a1c"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/llama-transfer-receipt.json": {
+    "bytes": 682,
+    "sha256": "378e18ac37cfc94e32662f83224d52e60741244ce4d93a78b407dc5a4152e296"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/llama-transfer.json": {
+    "bytes": 64834,
+    "sha256": "ac8df4a84c77c8a68ae26924d224ef4c3914b47440f3242b07dd566f9885adc0"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/locked.json": {
+    "bytes": 797670,
+    "sha256": "9b89121665b4e0648ecb525611483bf6992b417953037a1e2a9ebc1bfc38de26"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/mac1-handoff-binding.json": {
+    "bytes": 3035,
+    "sha256": "48ff9261edc50bb38388974d8c7bcf928d878d34c6e8f8d2e9a4c775bd261d0e"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/metrics.csv": {
+    "bytes": 781130,
+    "sha256": "0b0ed8f4593cdb5447186f14d863d911949a7b77f9c3d57ae70d3af96381ad5d"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/preparation-stage.json": {
+    "bytes": 642,
+    "sha256": "25e721d8309c2dc14b99859b60140bf207efba4f7b70bdfb792bb6f076a677da"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/adapter-bindings.json": {
+    "bytes": 2044433,
+    "sha256": "44102ff3bbcee72002ca68a3b2547f81200453f4edcf0fb3b4f39569b78e4e62"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/candidate-inventory.csv": {
+    "bytes": 82827,
+    "sha256": "331390deac66f02f6bea96a44e5d193cd55e19f69aef736a8f1b2d931a377112"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/frozen-references.json": {
+    "bytes": 36411,
+    "sha256": "75f60266c4ad36d3033d0b8145a7efd6655ceefd86ca46ccd44021c2092dd9b5"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/preparation.json": {
+    "bytes": 264785,
+    "sha256": "c43c567b77ad1c1defed66be5d1cb6d2ca16eb5350f2f052f4d4627cca6c0c87"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/raw-export-provenance.json": {
+    "bytes": 25810,
+    "sha256": "58b02a75304d219b696e3281c9ef20ed29273d8c094a904f69e900bc86ee4c77"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/prepared/reporting-contract.json": {
+    "bytes": 1892,
+    "sha256": "c952c5885a227475bc836f59cc5f3f01b68a92d1d4bd7f8241376d1cbfe72c3c"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/preservation.json": {
+    "bytes": 1520,
+    "sha256": "da16a0d1770527bdb76313e1dcb063dac59070d94bc7ec4775829af820c7ed37"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/primary-boundary-contrasts.csv": {
+    "bytes": 2768,
+    "sha256": "a06b8fc65ebdeb43f890281996776dd5bdcc06f7c7191deed178f0c031dc90c3"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/process-resource-samples.jsonl": {
+    "bytes": 1251,
+    "sha256": "060abe75bce8b715d54c1a900a3783853d9ff2fa708efa2b883ba44d83ad472b"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/retention.csv": {
+    "bytes": 164727,
+    "sha256": "0aed946f9923e64dccbcfacebd86cf82d19226fe6b45264d37a59e25bec157c7"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/run-stage.json": {
+    "bytes": 1041,
+    "sha256": "d2ece24e2f2a311fbd684b1f083a5a1467d6e224a7ab5abe3fa30f7d96ee8e56"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/runtime-accounting.json": {
+    "bytes": 5130,
+    "sha256": "f84012cf0eaa8bd46cf5280f340a5d2a9f9c99438f8acf720c5654528ca2560a"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/selected-heads.csv": {
+    "bytes": 1226,
+    "sha256": "5c8a445bb3785f7fb7388182d05410c2db7eb392e54fc312e63c5309d09bd79a"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/topic-contrasts.csv": {
+    "bytes": 72224,
+    "sha256": "433937c6ebef233975b632d96de85f63e355ba4c8f39637a14ead98802157b9a"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/transfer-verification.json": {
+    "bytes": 1131,
+    "sha256": "b19fa1382549469fce487a6aa059d124851bf272c767805c742bf332792babf3"
+  },
+  "results/checkpoint_next_full_bank_results_20261003/wording-contrasts.csv": {
+    "bytes": 57948,
+    "sha256": "658c4ad470abfeebdcfb3fbc24e9770e4e6e18218225d3c1d80cadfc8a8d29ea"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "utc": 1791075966.453312,
+  "active_numerical_jobs": [],
+  "zero_resource_exiting_records": [
+    {
+      "pid": 20477,
+      "ppid": 15353,
+      "cpu_percent": 0.0,
+      "rss_kib": 0,
+      "vsz_kib": 0,
+      "cpu_time": "0:00.00",
+      "stat": "?E",
+      "comm": "(Python)"
+    }
+  ],
+  "worker_completed": true
+}

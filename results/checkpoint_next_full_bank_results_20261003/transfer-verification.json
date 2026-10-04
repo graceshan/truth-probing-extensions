@@ -1,0 +1,21 @@
+{
+  "status": "all 557 transferred file hashes verified in distinct unpacked copy",
+  "source_manifest": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/transfers/llama-raw-only-transfer.json",
+  "source_archive": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/transfers/llama-raw-only.tar.gz",
+  "receipt": {
+    "acceptance_sha256": "604972033fb21ad582f20307d346690b5c9d08fddca51a582becf30235bf988e",
+    "adoption_sha256": "388029a7b35e6ee5ac5a4dc16eef34cd7ebac02152263e9a8c642ebaa78b7df9",
+    "archive_bytes": 26890835,
+    "archive_sha256": "2a2716f854c854ee0fa92de290224847c3f188b9d29c5d6c5d0e481aba65690e",
+    "file_bytes": 35334059,
+    "files": 557,
+    "final_cumulative_budget": {
+      "charged_seconds": 123.82646256202133,
+      "original_seconds": 41.1570940479869,
+      "remaining_seconds": 7076.173537437979,
+      "successor_seconds": 82.66936851403443
+    },
+    "manifest_sha256": "ac8df4a84c77c8a68ae26924d224ef4c3914b47440f3242b07dd566f9885adc0",
+    "packaging_seconds": 12.103593364008702
+  }
+}

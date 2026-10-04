@@ -1,0 +1,71 @@
+{
+  "utc": 1791073901.632776,
+  "host": "MacBook-Pro-7.local",
+  "numerical_processes": [
+    {
+      "pid": 20477,
+      "ppid": 15353,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.0,
+      "rss_kib": 0,
+      "vsz_kib": 0,
+      "cpu_time": "0:00.00",
+      "elapsed": "12-01:34:56",
+      "stat": "?E",
+      "comm": "(Python)"
+    },
+    {
+      "pid": 22682,
+      "ppid": 22324,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.0,
+      "rss_kib": 384,
+      "vsz_kib": 408870304,
+      "cpu_time": "0:00.22",
+      "elapsed": "06-03:35:57",
+      "stat": "S",
+      "comm": "/Users/apple/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-darwin-arm64/python-env-tools/bin/pet"
+    },
+    {
+      "pid": 43102,
+      "ppid": 42765,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.0,
+      "rss_kib": 3600,
+      "vsz_kib": 409001376,
+      "cpu_time": "0:00.30",
+      "elapsed": "01-00:21:47",
+      "stat": "S",
+      "comm": "/Users/apple/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-darwin-arm64/python-env-tools/bin/pet"
+    },
+    {
+      "pid": 55328,
+      "ppid": 55327,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.0,
+      "rss_kib": 11312,
+      "vsz_kib": 408207456,
+      "cpu_time": "0:00.02",
+      "elapsed": "00:00",
+      "stat": "S",
+      "comm": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python"
+    }
+  ],
+  "zero_resource_exiting_records": [
+    {
+      "pid": 20477,
+      "ppid": 15353,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.0,
+      "rss_kib": 0,
+      "vsz_kib": 0,
+      "cpu_time": "0:00.00",
+      "elapsed": "12-01:34:56",
+      "stat": "?E",
+      "comm": "(Python)"
+    }
+  ],
+  "other_active_numerical_processes": [],
+  "exclusive_slot_available": true,
+  "initial_readiness_helper_issue": "Overbroad interpreter classifier stopped on PID 20477; read-only ps confirmed ?E exiting state with RSS=VSZ=CPU time=0. Parent PID 15353 also ?E and zero resources. No producer worker was attempted; scientific gates unchanged."
+}

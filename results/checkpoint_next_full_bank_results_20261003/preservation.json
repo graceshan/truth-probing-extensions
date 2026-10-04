@@ -1,0 +1,35 @@
+{
+  "execution_checkout": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+  "execution_detached": true,
+  "execution_head": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+  "execution_status": "clean",
+  "implementation_changes": 0,
+  "original_delivery_refs_unchanged": true,
+  "original_review_zip": {
+    "bytes": 6464887,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/external-review-full-bank-prep-20261003T230228Z.zip",
+    "sha256": "f9106c1af3627d7e0d84a1b18d16d200e0469fe7724eda7f70acb514966552fa"
+  },
+  "source_handoffs": {
+    "llama_execution": {
+      "all_accepted_file_hashes_unchanged": true,
+      "files": 557,
+      "root": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff"
+    },
+    "llama_mac1": {
+      "all_accepted_file_hashes_unchanged": true,
+      "files": 557,
+      "root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff"
+    },
+    "qwen_execution": {
+      "all_accepted_file_hashes_unchanged": true,
+      "files": 574,
+      "root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight"
+    },
+    "qwen_mac1": {
+      "all_accepted_file_hashes_unchanged": true,
+      "files": 574,
+      "root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight"
+    }
+  }
+}

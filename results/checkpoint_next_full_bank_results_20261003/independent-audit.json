@@ -1,0 +1,18 @@
+{
+  "all600_candidate_points": true,
+  "checks": 1420047,
+  "completion_sha256": "fb61cd3569ddeda665ca2dea1829cf0394a2b06a3a248694218d1c027f4e96d4",
+  "identity": {
+    "config_sha256": "d677711d44602ba722e51a49787ba9ce295750a39a4c999d9eccd9ad0cb166d5",
+    "cpu_producer": "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+    "existing_acceptance_sha256": "f4eaa4276b4c0230d5594f74bc930250ece8b2f064e9ab1024646edf0c240476",
+    "prepared_manifest_sha256": "c43c567b77ad1c1defed66be5d1cb6d2ca16eb5350f2f052f4d4627cca6c0c87",
+    "supplement_acceptance_sha256": "8f772ea994f54aaaa24fdbc0b71c06890fc5a40f7210e4e56b427926d3e76a50",
+    "supplement_handoffs_sha256": "e0520d308dbe4928716492df3e360cbb10b635fab7f0c8b51d6bcb8e308ba935"
+  },
+  "limitations": "conditional frozen-winner audit; no second-machine replication; no refitting",
+  "locked_full_score_points_and_2000_draws": true,
+  "maximum_absolute_difference": 0.0,
+  "status": "independent_calculation_passed",
+  "strict_undefined_propagation": true
+}

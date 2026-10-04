@@ -1,0 +1,113 @@
+{
+  "E_access": false,
+  "Pod_contact": false,
+  "acceptance": {
+    "child_peak_rss_bytes": 911310848,
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "-m",
+      "src.checkpoint_next_full_bank_handoffs",
+      "--handoffs",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/handoffs.json",
+      "--require-complete",
+      "--output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/input-acceptance.json"
+    ],
+    "exclusive_cpu_slot_verified": true,
+    "exit_code": 0,
+    "seconds": 17.32922316621989
+  },
+  "all_prescribed_outputs_present": true,
+  "audit": {
+    "child_peak_rss_bytes": 3743842304,
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8/scripts/checkpoint_next_full_bank.py",
+      "audit",
+      "--producer",
+      "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "--output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank",
+      "--prepared",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/prepared",
+      "--handoffs",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/handoffs.json",
+      "--input-acceptance",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/input-acceptance.json",
+      "--authorization",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/authorization.json",
+      "--audit-output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/independent-audit.json"
+    ],
+    "exclusive_cpu_slot": true,
+    "exit_code": 0,
+    "seconds": 150.73920570826158
+  },
+  "automatic_fit_retries": 0,
+  "cap_is_runtime_estimate": false,
+  "chat_fits": 0,
+  "contrast_rows": 6160,
+  "counts": {
+    "failed": 0,
+    "incomplete": 0,
+    "unrun": 0,
+    "valid": 600
+  },
+  "cumulative_worker_charge_seconds": 1956.068908334244,
+  "fit_failures": 0,
+  "maxima_rows": 224,
+  "metrics_rows": 5544,
+  "operational_diagnostics": [
+    "Initial sandboxed ps access denied; authorized read-only process inspection succeeded.",
+    "Initial readiness classifier stopped on zero-resource ?E exiting Python/Codex kernel records. Read-only resource inspection established no active job; scientific gates were not changed.",
+    "An authorization helper stopped before writing its file because the readiness receipt was not yet present. Authorization was written only after readiness, acceptance and preparation passed.",
+    "The metadata packaging helper initially assumed the wrong folder hash serialization; it was corrected to resolve exact fit IDs from actual fit receipts and verify their committed completion pins. No scientific output was rerun or modified."
+  ],
+  "preparation": {
+    "child_peak_rss_bytes": 1468956672,
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8/scripts/checkpoint_next_full_bank.py",
+      "prepare",
+      "--producer",
+      "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "--output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/prepared",
+      "--export-output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/exports"
+    ],
+    "exit_code": 0,
+    "seconds": 33.39554991712794
+  },
+  "producer_gate_failures": 0,
+  "remaining_worker_cap_seconds": 8843.931091665756,
+  "repair_fits": 0,
+  "run": {
+    "child_peak_rss_bytes": 4276142080,
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8/scripts/checkpoint_next_full_bank.py",
+      "run",
+      "--producer",
+      "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+      "--output",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank",
+      "--prepared",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/prepared",
+      "--handoffs",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/handoffs.json",
+      "--input-acceptance",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/input-acceptance.json",
+      "--authorization",
+      "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/authorization.json"
+    ],
+    "exit_code": 0,
+    "seconds": 1976.3408308341168
+  },
+  "undefined_draws_max": 0,
+  "undefined_draws_min": 0,
+  "worker_attempts": 1,
+  "worker_cap_seconds": 10800,
+  "worker_internal_seconds": 1940.4797488329932,
+  "worker_peak_rss_bytes": 4276142080
+}

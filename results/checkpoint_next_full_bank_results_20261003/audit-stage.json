@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-cpu-b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8/scripts/checkpoint_next_full_bank.py",
+    "audit",
+    "--producer",
+    "b392ecec5f2136dbf6c3a4c41a7652aa7f6c49c8",
+    "--output",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank",
+    "--prepared",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/prepared",
+    "--handoffs",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/handoffs.json",
+    "--input-acceptance",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/input-acceptance.json",
+    "--authorization",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/authorization.json",
+    "--audit-output",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/independent-audit.json"
+  ],
+  "exit_code": 0,
+  "seconds": 150.73920570826158,
+  "child_peak_rss_bytes": 3743842304,
+  "exclusive_cpu_slot": true
+}

@@ -1,0 +1,51 @@
+{
+  "A_exposure": true,
+  "bootstrap": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "criteria": "pointwise pooled and macro per model; reaches repair if upper bound of R_all-comparator <.02 with supported retention; robust gap if lower>.02; crossing unresolved",
+  "full_canonical_LR": "separate arm, never eligibility reference",
+  "interpretation": "A identities now occur in atomic training: advantaged full-training comparator against existing reduced-P repair; does not test full-training repair",
+  "oracle_uncertainty": "primary fixed-winner conditional; endpoint maxima descriptive",
+  "practical_repair_margin": 0.02,
+  "reference": "original reduced-P15 LR atomic D minus .005, unchanged",
+  "reports": [
+    "each seed and within-draw metric mean",
+    "atomic/AND retention",
+    "OR/all and TF/FT-vs-FF boundary",
+    "all three existing wordings",
+    "five topics and fixed-five macro",
+    "eligible/unrestricted full and P15 maxima"
+  ],
+  "required_contrasts": [
+    [
+      "R_all",
+      "S_full"
+    ],
+    [
+      "S_full",
+      "S_atom_full"
+    ],
+    [
+      "R_all",
+      "S_atom_full"
+    ],
+    [
+      "S_full",
+      "S_all"
+    ]
+  ],
+  "retention_margins": {
+    "AND": 0.02,
+    "atomic": 0.005
+  },
+  "selectors": "existing B25 rank/PCG64(20261008) choice; atomic-only once/model PCG64(20261005) permutation",
+  "tie_identity": "canonical inherited recipe IDs retained for ties; full-fit identities separately mapped",
+  "undefined": "no redraw/imputation/topic dropping; ordinary mean propagates undefined",
+  "wording_lock": true
+}

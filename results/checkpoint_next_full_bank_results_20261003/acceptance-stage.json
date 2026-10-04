@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "-m",
+    "src.checkpoint_next_full_bank_handoffs",
+    "--handoffs",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/handoffs.json",
+    "--require-complete",
+    "--output",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/input-acceptance.json"
+  ],
+  "exit_code": 0,
+  "seconds": 17.32922316621989,
+  "child_peak_rss_bytes": 911310848,
+  "exclusive_cpu_slot_verified": true
+}

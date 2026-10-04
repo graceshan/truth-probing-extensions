@@ -1,0 +1,54 @@
+{
+  "status": "actual_mac1_handoff_matches_execution_accepted_inputs",
+  "handoff_sha256": "0930955d49eb83c37470769a16419a0a31f134023b26cc0c13a8b03cbf9b344a",
+  "models": {
+    "llama": {
+      "actual_handoff_root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff",
+      "execution_handoff_root": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/llama-handoff",
+      "transfer_manifest": {
+        "bytes": 64834,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/transfers/llama-raw-only-transfer.json",
+        "sha256": "ac8df4a84c77c8a68ae26924d224ef4c3914b47440f3242b07dd566f9885adc0"
+      },
+      "acceptance": {
+        "bytes": 31957,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/handoff/missing_raw/llama/acceptance.json",
+        "sha256": "604972033fb21ad582f20307d346690b5c9d08fddca51a582becf30235bf988e"
+      },
+      "mac_loader_verification": {
+        "bytes": 31957,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/llama-mac-loader-verification.json",
+        "sha256": "119ee678f968b2842c2e107ee85d5a0be25edee98f41f4cb486380d56adc0a3d"
+      },
+      "extraction_producer": "6865bfa43c52d9c5d7d3c96df90351ad8f895aea",
+      "all_source_and_execution_file_hashes_equal": true,
+      "files": 557,
+      "shards": 131
+    },
+    "qwen": {
+      "actual_handoff_root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight",
+      "execution_handoff_root": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight",
+      "transfer_manifest": {
+        "bytes": 66440,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/transfers/preflight-transfer.json",
+        "sha256": "88918f7fcd28b37a8a593a844b1c8ab10c11e940e4144e493dc4c05809729ebc"
+      },
+      "acceptance": {
+        "bytes": 31225,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-gpu-execution-9b0ac1d/handoffs/preflight/missing_raw/qwen/acceptance.json",
+        "sha256": "96c5d1f5c064e79a58b6704763d6dbca77e4f352d48b13ae3658d9ddc8ba539d"
+      },
+      "mac_loader_verification": {
+        "bytes": 31225,
+        "path": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-next-raw-only-execution-6865bfa/qwen-mac-loader-verification.json",
+        "sha256": "35a6b62309c279a19735ebbac832272421de49fff0445f120e066681c65e62f3"
+      },
+      "extraction_producer": "9b0ac1d84b35d7faf2148d43664569aa867cba52",
+      "all_source_and_execution_file_hashes_equal": true,
+      "files": 574,
+      "shards": 131
+    }
+  },
+  "utc": 1791074213.662387,
+  "execution_descriptor_unchanged": true
+}

@@ -1,0 +1,7 @@
+model,seed,S_atom_full,S_full,eligible_candidates,total_candidates,common_atomic_reference,margin,eligible_primary_maximum,unrestricted_primary_maximum
+llama,11,llama/full_train/L20/r0,llama/full_train/L09/ttpd,181,320,1.0,0.005,llama/full_train/L09/l2_logistic/C=0.1,llama/full_train/L09/l2_logistic/C=0.1
+llama,23,llama/full_train/L20/r0,llama/full_train/L09/l2_logistic/C=1,181,320,1.0,0.005,llama/full_train/L09/l2_logistic/C=0.1,llama/full_train/L09/l2_logistic/C=0.1
+llama,37,llama/full_train/L20/r0,llama/full_train/L09/ttpd,181,320,1.0,0.005,llama/full_train/L09/l2_logistic/C=0.1,llama/full_train/L09/l2_logistic/C=0.1
+qwen,11,qwen/full_train/L17/l2_logistic/C=0.1,qwen/full_train/L18/l2_logistic/C=10,138,280,0.9998320548672843,0.005,qwen/full_train/L18/difference_of_means,qwen/full_train/L18/difference_of_means
+qwen,23,qwen/full_train/L17/l2_logistic/C=0.1,qwen/full_train/L18/difference_of_means,138,280,0.9998320548672843,0.005,qwen/full_train/L18/difference_of_means,qwen/full_train/L18/difference_of_means
+qwen,37,qwen/full_train/L17/l2_logistic/C=0.1,qwen/full_train/L18/l2_logistic/C=10,138,280,0.9998320548672843,0.005,qwen/full_train/L18/difference_of_means,qwen/full_train/L18/difference_of_means

@@ -1,0 +1,489 @@
+{
+  "export_pin": {
+    "bytes": 7383500,
+    "sha256": "2691d3d60ac68a22f8fc932c5313d74510c36d9df4de382acf0f4904f9150355"
+  },
+  "external_export": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/exports/raw-chat-comparators.json",
+  "fit_counts": {
+    "C_clean": 8000,
+    "R0": 2778
+  },
+  "full_D_rows": 7728,
+  "heads": [
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "R0",
+          "fitting_group": "P15",
+          "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+          "id": "qwen/R0/L17",
+          "layer": 17,
+          "model": "qwen",
+          "objective": "mean P15 BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "49e64354a03fe81b3f3bc631d9abd41d5ff4503f6544b3ca8ffe8489b2769d70",
+      "id": "qwen/R0/L17",
+      "layer": 17,
+      "model": "qwen",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "4794314c0e6d6c2cec8505ffcf291e05560aa57c4aa6474c6924fc5590685090",
+      "original_fit_rows": 2778,
+      "original_objective": "mean P15 BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/qwen_R0_L17/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231909,
+        "sha256": "8d85bd3e2ce9339a073464ba72b92ac73f387e58c0daabe0b46aeb862609c1fa"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 29244,
+        "sha256": "efa8c1c60ab7556758b6209e12249d3178fc3acc500e02bf9bf3a5b15c1b6b60"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "451a3aba6ad663e76758a64085a99c4445dadb96ebe84ff97dd0e0d707e0b288"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "C_clean",
+          "fitting_group": "TC_control_and_final_refit",
+          "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+          "id": "qwen/C_clean/L17",
+          "layer": 17,
+          "model": "qwen",
+          "objective": "mean fixed TC BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "fe6935266598bea046353b15de39ab14d94356b6dee5cac50cdc1add780a9b73",
+      "id": "qwen/C_clean/L17",
+      "layer": 17,
+      "model": "qwen",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "ba10a66e8a3cb5f911eb4db7525e68bfa755e355fef1141e8c7648b40b88b6b1",
+      "original_fit_rows": 8000,
+      "original_objective": "mean TC BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/qwen_C_clean_L17/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231979,
+        "sha256": "b189f73cab5736518ef515d9b584ac4c4f7e96da0a1e50af11dcb2a0eb9fc1d7"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 29244,
+        "sha256": "65f80814b371b1ef9bb40359486652209404a43641b62ef762fc3b3174521312"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "fa55292442a163dd98df20bcd448d9bebc1affb0e7a47033b7f88ecd2ddf859a"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "R0",
+          "fitting_group": "P15",
+          "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+          "id": "qwen/R0/L18",
+          "layer": 18,
+          "model": "qwen",
+          "objective": "mean P15 BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "63173b28562ac1ec7efdc83cba68cc2024b7f881bbd287a958d56c1e3285cfa7",
+      "id": "qwen/R0/L18",
+      "layer": 18,
+      "model": "qwen",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "f3c3fe0145d4b0a6bf2095cf137817a7f3b77b92c03b58110010a61c6772b483",
+      "original_fit_rows": 2778,
+      "original_objective": "mean P15 BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/qwen_R0_L18/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231907,
+        "sha256": "2622bf8d91d6f8e9455d349c79cce9a725202cd604f4578685ef03db77fc8ba6"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 29244,
+        "sha256": "79b80bee12f91f0bd9d060df138f7d19eae503c2de06cb97b28c59e6bd4b01b4"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "87fba0e830351cfeb3ea62a94d2fee5511880a891c271eed915e6e27f628fd1d"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "C_clean",
+          "fitting_group": "TC_control_and_final_refit",
+          "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+          "id": "qwen/C_clean/L18",
+          "layer": 18,
+          "model": "qwen",
+          "objective": "mean fixed TC BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "925fdcdfbef920bc8ec3063b46b37d2e52538ed7840d051c74ec392f1b45eedf",
+      "id": "qwen/C_clean/L18",
+      "layer": 18,
+      "model": "qwen",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "b09f03fbd6e93dfbf02cdcb14fedb36c21bd2f951cb455c46eb0bb7983119656",
+      "original_fit_rows": 8000,
+      "original_objective": "mean TC BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/qwen_C_clean_L18/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231954,
+        "sha256": "b91eb6e7a8190867d87c4add7bc8ea2ad42d03a641f5c69375ed17c56901c9e4"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 29244,
+        "sha256": "5dd235bb7b405a29605103145176369c75b220dbd1edd6e14178f0223523cae1"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "f1a5fb4ea46a33c1e163c9aa117b7914f2e77eb02dd4a4566383731531ab2271"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "R0",
+          "fitting_group": "P15",
+          "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+          "id": "llama/R0/L15",
+          "layer": 15,
+          "model": "llama",
+          "objective": "mean P15 BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "1c63e915c9d65017f86ba382fc06a800dee6d361ca9b6e098d81558c5b7905e3",
+      "id": "llama/R0/L15",
+      "layer": 15,
+      "model": "llama",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "3127addce51371b324554c8bbe392deffeddf7ac6f60ad2bc15bf511d6478b6f",
+      "original_fit_rows": 2778,
+      "original_objective": "mean P15 BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/llama_R0_L15/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231872,
+        "sha256": "bf7ad73d3869ca9bedf26b14efa2befe635fb015822289eb8c638c174baba1a5"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 33340,
+        "sha256": "5e874a0871b67871a595bfb0204cb0bcd79553c8f7c76a665411dc796bc89c7d"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "85a66f2bb600515a01d65619bcbbc68da51ac2b5c43bdad19b3c2bffb32091bf"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "C_clean",
+          "fitting_group": "TC_control_and_final_refit",
+          "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+          "id": "llama/C_clean/L15",
+          "layer": 15,
+          "model": "llama",
+          "objective": "mean fixed TC BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "e4dab107264b624100fadf520d35729d4e440adcb662fa2f6646da2235b579ce",
+      "id": "llama/C_clean/L15",
+      "layer": 15,
+      "model": "llama",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "68ea180e118c2d6e72238a7523a7793081c880e963416b244db2d70f74d9ef2f",
+      "original_fit_rows": 8000,
+      "original_objective": "mean TC BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/llama_C_clean_L15/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231972,
+        "sha256": "4e78afb26c96a4fc5ebd4930780dafb8d2a1bbad30703c552af240fcf6fb8fe6"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 33340,
+        "sha256": "eeced667d9401300deaa6e7662dcf0fe1c390948810cf50969424a9f6bb0e0d7"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "83cf497963e6d170dc878f55bb5e343e97d04f50136c7cea09cbb4c1be0a5cbe"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "R0",
+      "fitting_group": "P15",
+      "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "R0",
+          "fitting_group": "P15",
+          "fitting_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+          "id": "llama/R0/L12",
+          "layer": 12,
+          "model": "llama",
+          "objective": "mean P15 BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "bbb4257313aaf1588e05bab977849637190f7f2f6214df09f4ada64f145ea3a7",
+      "id": "llama/R0/L12",
+      "layer": 12,
+      "model": "llama",
+      "objective": "mean P15 BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "1027e3bf419919d75631775fefa5317795b0bb502e8ec09c531fb18d9680902f",
+      "original_fit_rows": 2778,
+      "original_objective": "mean P15 BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "8b2b14469863e03225cc0297bdc1ff8cdc5305433f24478f808e83487e11d46a",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/llama_R0_L12/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231873,
+        "sha256": "36ecde82d5e43d9208d7355b52995ba937cb7e56a9730159ccf770f92a4ba2a4"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 33340,
+        "sha256": "364bbae8529cb50931d941f3df3ca9ed3cb776738ae57604152ba51769cb6f00"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "f59619fd3bee9c6d2bfde3c9156f8732d113493d1f6df69fe993894efed56a82"
+      }
+    },
+    {
+      "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+      "P15_identities_sha256": "bce06628f1d1fbe527ad05e36aeb31196b0b4e7ff9ba88a24dff9759d64aed66",
+      "decision_rule": "zero_logit_ties_true",
+      "family": "C_clean",
+      "fitting_group": "TC_control_and_final_refit",
+      "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+      "frozen_rule_provenance": {
+        "behavior_config_sha256": "49402fe9234e60ce1a44f50e537e845b7204e35524c55cb8cf56d06dedaa3221",
+        "decision": "raw logit >=0; exact tie True; no D fit",
+        "head_spec": {
+          "D_support_sha256": "edfba31045a61c548e122f46625a90ab9d30f0a77884a565946cfa025e7c59f6",
+          "decision_rule": "zero_logit_ties_true",
+          "family": "C_clean",
+          "fitting_group": "TC_control_and_final_refit",
+          "fitting_identities_sha256": "959ff7c54ec226a16f8ee27b99f47246a5a407f91eb48efd056a20fbed87b573",
+          "id": "llama/C_clean/L12",
+          "layer": 12,
+          "model": "llama",
+          "objective": "mean fixed TC BCE + .001 squared weight norm",
+          "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+          "preprocess_group": "P15"
+        },
+        "inventory_implementation_sha256": "f2d1d8f662ee8da5a0711a4ab285e89cf36976f15debd8f3be0a3abc027da057",
+        "source": "inherited frozen eight-head inventory"
+      },
+      "frozen_rule_source_sha256": "652c8738e9e09c00152f6004b7b5679cbf956ff0d466b49714d1af8609e5b8e5",
+      "id": "llama/C_clean/L12",
+      "layer": 12,
+      "model": "llama",
+      "objective": "mean fixed TC BCE + .001 squared weight norm",
+      "original_feature_float64_sha256": "dc32535236a38974dde595b6199d9264ccad034f13d74e5cd23508f44cfcd9b3",
+      "original_fit_rows": 8000,
+      "original_objective": "mean TC BCE + .001 ||w||^2",
+      "original_training_bindings_sha256": "439bb93e02ec10202e85d796582d195e8b8f90445f5ed1de74977a094f60c6c9",
+      "preprocess_bindings_sha256": "d60dbacaeedf7d868f286929b6bb4ad931700b727a741b1c5597e88a9f463c90",
+      "preprocess_group": "P15",
+      "preprocessing_membership": "original_P15",
+      "raw_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "regime": "raw",
+      "source_completion_pin": {
+        "bytes": 119260,
+        "sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c"
+      },
+      "source_fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-recoverability-results-20261002/run-3a5b7bb/fits/llama_C_clean_L12/fit.json",
+      "source_fit_pin": {
+        "bytes": 1231934,
+        "sha256": "387c8195bdb55e00b8a531d1949660cb68c9500abfabf2c9f9d15be9009bd4c1"
+      },
+      "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "source_parameters_pin": {
+        "bytes": 33340,
+        "sha256": "d4f131c33238af6ad65354c2531487cccf4c057a44e307f2e6356cb864ecacd8"
+      },
+      "source_scores_pin": {
+        "bytes": 92896,
+        "sha256": "ee214e58ad2ef431f6618b728a08ff17e70fe3fdc870ce2b76e29af220b26cfb"
+      }
+    }
+  ],
+  "matching_chat_rows": 800,
+  "no_new_fits": true,
+  "source_parameter_producer": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f"
+}

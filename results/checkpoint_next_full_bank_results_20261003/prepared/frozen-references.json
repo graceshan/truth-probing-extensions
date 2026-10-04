@@ -1,0 +1,765 @@
+{
+  "bootstrap": {
+    "binding_sha256": "a5ca4b6ec6d29c8edb34aa6ae5a54af3ef1c4990a72089e8e9aab1ae6a43d5b8",
+    "compound_schedule_sha256": "a4088e5a5b24bcd358e4402cca472ab1578ebaa7b8481925af259729aa50ce93",
+    "configuration_sha256": "88db93cd63d3d2f24229d76506d0a0128931f22a3bf5d08960247a24a088c248",
+    "inventory_sha256": "7d54672272be2cbb30cc20559868c2d39581b219761db09fea76bb40da07f2cb",
+    "producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+    "recoverability_completion_sha256": "2b5afd41242d0f4341c8fc0a81743f492881761c1eb51e4212b5f8f57e57e60c",
+    "recoverability_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+    "replicates": 2000,
+    "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+    "reuse_D_schedule_exact": true,
+    "seed": 1729,
+    "shared_across_heads_models_seeds": true,
+    "undefined_policy": "no redraw/imputation/topic-dropping; ordinary all-five mean",
+    "weights": {
+      "bytes": 81329332,
+      "sha256": "35f54b4dd47584b16d12c22caff6c723ce1de71c0b5ed8355422bfd7e63329b0"
+    },
+    "wording_endpoint_multiplicities_bound_to_bare": true
+  },
+  "eligibility": {
+    "llama": {
+      "atomic_D_reference": 1.0,
+      "frozen_head": {
+        "arm": "reduced_LR",
+        "evaluation_binding_pin": {
+          "bytes": 2696087,
+          "sha256": "1c950a3fdea51e0c28c1348785765fc671c02999499fa37613fbcbaf4994852e"
+        },
+        "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/fit.json",
+        "fit_pin": {
+          "bytes": 1385011,
+          "sha256": "e4ad0a4de59aaf9e6f901e9767bd38e72d02f8c1f52559f28fc3261caf9ae17d"
+        },
+        "head_id": "llama/P15/L15/l2_logistic/C=10",
+        "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+        "model": "llama",
+        "parameter_pin": {
+          "bytes": 33288,
+          "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2"
+        },
+        "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+        "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+        "saved_layer": 15,
+        "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/f86613d6e26303ffdaaf17b9/scores.npz",
+        "scores_pin": {
+          "bytes": 163988,
+          "sha256": "6f0eda1f05f5aab652c48d8ecd42441034c2f3dabb30413b047528ecce891762"
+        },
+        "seed": 11
+      },
+      "margin": 0.005
+    },
+    "qwen": {
+      "atomic_D_reference": 0.9998320548672843,
+      "frozen_head": {
+        "arm": "reduced_LR",
+        "evaluation_binding_pin": {
+          "bytes": 2696085,
+          "sha256": "b5243ada5ba34385106718f3ba8e03190a62857d11a2fc57e696146210fce46c"
+        },
+        "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/fit.json",
+        "fit_pin": {
+          "bytes": 1385038,
+          "sha256": "593b25a835158e077feb4f300664cda171f1f1e04f587a7d2b29445f1e45f2f1"
+        },
+        "head_id": "qwen/P15/L17/l2_logistic/C=1",
+        "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+        "model": "qwen",
+        "parameter_pin": {
+          "bytes": 29192,
+          "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2"
+        },
+        "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+        "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+        "saved_layer": 17,
+        "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/0b4c1a53637be088b54eb840/scores.npz",
+        "scores_pin": {
+          "bytes": 163988,
+          "sha256": "4ec6fd3f69e43e68a24b3a557cdbb44ff04452ba0e13e70578effe20bca293ce"
+        },
+        "seed": 11
+      },
+      "margin": 0.005
+    }
+  },
+  "heads": [
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696084,
+        "sha256": "b0bb76388811b3de451eb08322ff3e8f00ba1123ec28578ad9f0c067a72d1b6c"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/619fcb3b083eb1d1a9c5e7a3/fit.json",
+      "fit_pin": {
+        "bytes": 1384944,
+        "sha256": "8591f0bb8f35d09df6c8a8f08c3792cf7217a8fbc65b054848145df0f240e49c"
+      },
+      "head_id": "qwen/B25_11/L20/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 149026,
+        "sha256": "7c6e30eee7f376b098b8ed88950035e34b8e6b8b1e4e40ffdf004f89a2da0ab4"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 20,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/619fcb3b083eb1d1a9c5e7a3/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "c92e1791f7ff0bd8fa43638095e32753f18e97e2dfb860ef90e53943ac7b4bd0"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "87dc901e1adf2179b644387660458fc7417bfc87b40f8dae0876b4691fa5cdf6"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/386c7aaf526f8f3ab7c9bc46/fit.json",
+      "fit_pin": {
+        "bytes": 1385005,
+        "sha256": "f564d1044f50b68ff204f8235e5df825c6618c9114277cf94db88b40c83d2788"
+      },
+      "head_id": "qwen/P15/L15/l2_logistic/C=1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "89d2de8351f0f11a7d494a019fde604a5156aefb7264b3c0321aef3d95cadfc4"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 15,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/386c7aaf526f8f3ab7c9bc46/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "0d94bdd57b63b2cd0fafb3389ae5de05654fd839f9653c9416b05fd6a051b775"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "b5243ada5ba34385106718f3ba8e03190a62857d11a2fc57e696146210fce46c"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/fit.json",
+      "fit_pin": {
+        "bytes": 1385038,
+        "sha256": "593b25a835158e077feb4f300664cda171f1f1e04f587a7d2b29445f1e45f2f1"
+      },
+      "head_id": "qwen/P15/L17/l2_logistic/C=1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 17,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/0b4c1a53637be088b54eb840/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "4ec6fd3f69e43e68a24b3a557cdbb44ff04452ba0e13e70578effe20bca293ce"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696089,
+        "sha256": "2539ac56184b51e16785b80e3e0b73f9c023a66c8f79d0a07c594aee84ea3c1a"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ca1759b0be81dc0ecb92a520/fit.json",
+      "fit_pin": {
+        "bytes": 1384429,
+        "sha256": "574c8a4bbbef79a15996bf18791ef34e574bd6b4c80098dbf3b4cab36dcee168"
+      },
+      "head_id": "qwen/P15/L18/difference_of_means",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 115968,
+        "sha256": "796312610ad668303ebb972f66a98c18d1ac5a85f7262d7f4abce48401eb9949"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/ca1759b0be81dc0ecb92a520/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "65f7bfb13a23044ab959dc6ddede2e532f030f86472d511581cc117c88104609"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696084,
+        "sha256": "158f79868805890423f44f811527ca672f5e490021a55d58043df9eea1246404"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/449c7379253cf47045846fbb/fit.json",
+      "fit_pin": {
+        "bytes": 1384946,
+        "sha256": "ee7332b63260448c3ecea4e3ac5ef88a1bc937cad8bdbe9e5fecfa41a54adff9"
+      },
+      "head_id": "qwen/B25_23/L22/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 149026,
+        "sha256": "2efb5be3738a49683247c4d9545c2d18890b0b3254cf17b661a771698a08fbf0"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 22,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/449c7379253cf47045846fbb/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "331ead7908b8933ee97d9369ff00c86362e0b9ef0f7f6b0570d5ea99ecc4ee91"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696086,
+        "sha256": "91ba3e732af59c24a4172915dae8a04c772dce3ae2705555da594c0393b6c573"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/91555416d68045a1d3d250ff/fit.json",
+      "fit_pin": {
+        "bytes": 1385017,
+        "sha256": "e81d58a424ed01def01e23bec5626f047e3bfc769b184a0c2581f4e4cdf78492"
+      },
+      "head_id": "qwen/P15/L18/l2_logistic/C=10",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "c9314ba90f3f62f5b34f7952606968bf3e6c1bbc72b1a21adfe434c0b32b12f4"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/91555416d68045a1d3d250ff/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "8f4ad3cc13ca5920a31a6cd55fa7d31b80f10f6eb5eb6d0b224cc58bff4f6f7a"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "b5243ada5ba34385106718f3ba8e03190a62857d11a2fc57e696146210fce46c"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/fit.json",
+      "fit_pin": {
+        "bytes": 1385038,
+        "sha256": "593b25a835158e077feb4f300664cda171f1f1e04f587a7d2b29445f1e45f2f1"
+      },
+      "head_id": "qwen/P15/L17/l2_logistic/C=1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 17,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/0b4c1a53637be088b54eb840/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "4ec6fd3f69e43e68a24b3a557cdbb44ff04452ba0e13e70578effe20bca293ce"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696089,
+        "sha256": "2539ac56184b51e16785b80e3e0b73f9c023a66c8f79d0a07c594aee84ea3c1a"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ca1759b0be81dc0ecb92a520/fit.json",
+      "fit_pin": {
+        "bytes": 1384429,
+        "sha256": "574c8a4bbbef79a15996bf18791ef34e574bd6b4c80098dbf3b4cab36dcee168"
+      },
+      "head_id": "qwen/P15/L18/difference_of_means",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 115968,
+        "sha256": "796312610ad668303ebb972f66a98c18d1ac5a85f7262d7f4abce48401eb9949"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/ca1759b0be81dc0ecb92a520/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "65f7bfb13a23044ab959dc6ddede2e532f030f86472d511581cc117c88104609"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696084,
+        "sha256": "59dcc4a6c08e5f5f9092740293faddf3d832611327d623faf094af0c369369d0"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3cb751910b2eaf439f0fcc87/fit.json",
+      "fit_pin": {
+        "bytes": 1384945,
+        "sha256": "32d9965be2be8d42181439e29a3648d4ac74ef1f88f40cadc5d99442137639ff"
+      },
+      "head_id": "qwen/B25_37/L18/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 149026,
+        "sha256": "8b28b803ace3a90b667bcc855a06a8409f9f49708f1a4377757e64459a9d44d7"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/3cb751910b2eaf439f0fcc87/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "0a006ecefc6507aea6e2ea0a9830384cfd999f43d569064f54d8db877a28ff47"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696086,
+        "sha256": "91ba3e732af59c24a4172915dae8a04c772dce3ae2705555da594c0393b6c573"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/91555416d68045a1d3d250ff/fit.json",
+      "fit_pin": {
+        "bytes": 1385017,
+        "sha256": "e81d58a424ed01def01e23bec5626f047e3bfc769b184a0c2581f4e4cdf78492"
+      },
+      "head_id": "qwen/P15/L18/l2_logistic/C=10",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "c9314ba90f3f62f5b34f7952606968bf3e6c1bbc72b1a21adfe434c0b32b12f4"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/91555416d68045a1d3d250ff/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "8f4ad3cc13ca5920a31a6cd55fa7d31b80f10f6eb5eb6d0b224cc58bff4f6f7a"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "b5243ada5ba34385106718f3ba8e03190a62857d11a2fc57e696146210fce46c"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/fit.json",
+      "fit_pin": {
+        "bytes": 1385038,
+        "sha256": "593b25a835158e077feb4f300664cda171f1f1e04f587a7d2b29445f1e45f2f1"
+      },
+      "head_id": "qwen/P15/L17/l2_logistic/C=1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 29192,
+        "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 17,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/0b4c1a53637be088b54eb840/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "4ec6fd3f69e43e68a24b3a557cdbb44ff04452ba0e13e70578effe20bca293ce"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696089,
+        "sha256": "2539ac56184b51e16785b80e3e0b73f9c023a66c8f79d0a07c594aee84ea3c1a"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ca1759b0be81dc0ecb92a520/fit.json",
+      "fit_pin": {
+        "bytes": 1384429,
+        "sha256": "574c8a4bbbef79a15996bf18791ef34e574bd6b4c80098dbf3b4cab36dcee168"
+      },
+      "head_id": "qwen/P15/L18/difference_of_means",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "qwen",
+      "parameter_pin": {
+        "bytes": 115968,
+        "sha256": "796312610ad668303ebb972f66a98c18d1ac5a85f7262d7f4abce48401eb9949"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 18,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/ca1759b0be81dc0ecb92a520/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "65f7bfb13a23044ab959dc6ddede2e532f030f86472d511581cc117c88104609"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "60468842ab7f5aed01691465d87cfd81763e2679ae4b69c5bcafefbb7e3a85e4"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/e1105de890751814dcf16ff0/fit.json",
+      "fit_pin": {
+        "bytes": 1384903,
+        "sha256": "a49c5b3414cbaae56f6a6b70f028f49311ac66067e44080d29417de67e19b218"
+      },
+      "head_id": "llama/B25_11/L14/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 170018,
+        "sha256": "9f4c1ce8a5e8b82ee8752082a6146bc63f867dfca8ca377c72f58ae8636f6a4a"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 14,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/e1105de890751814dcf16ff0/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "2130d96a44340152b2d0195c24f0e5216e93a26fbb710ab5ef0ac6c4791c64b0"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696075,
+        "sha256": "18cbead8c5db48512bac371abbe537a2c19db8fa4931aa940016691121de4ea2"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/1be4a6840e9814f7b62fe801/fit.json",
+      "fit_pin": {
+        "bytes": 1386593,
+        "sha256": "4fa312045bdc7c3b8df460365bad94ac1dde88b13d0fc0cf933411b1890b9876"
+      },
+      "head_id": "llama/P15/L09/ttpd",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 462794,
+        "sha256": "cf67eb2d7c7d9f493be3e1583334667367e7399f42aa54d5704c241ea08123c2"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "52c1796d757b93aa8f84270468dd9e36b690309f451389fd7dc19b63e4900854"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696087,
+        "sha256": "1c950a3fdea51e0c28c1348785765fc671c02999499fa37613fbcbaf4994852e"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/fit.json",
+      "fit_pin": {
+        "bytes": 1385011,
+        "sha256": "e4ad0a4de59aaf9e6f901e9767bd38e72d02f8c1f52559f28fc3261caf9ae17d"
+      },
+      "head_id": "llama/P15/L15/l2_logistic/C=10",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 15,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/f86613d6e26303ffdaaf17b9/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "6f0eda1f05f5aab652c48d8ecd42441034c2f3dabb30413b047528ecce891762"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696088,
+        "sha256": "7890741869eacce024424bba089fe9122e22d531f523a571a2290a3aae1370aa"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2952c30f0cc7f9084ed08b2e/fit.json",
+      "fit_pin": {
+        "bytes": 1385008,
+        "sha256": "1d6220a849ae0dd7770aa292283b4b67df7e078022d6fea4d93792a7d5e5743b"
+      },
+      "head_id": "llama/P15/L09/l2_logistic/C=0.1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "1877c4961ff25764d04b83350863befc0b5205509487d9b732fc9ce2c568e6c0"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/2952c30f0cc7f9084ed08b2e/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "59eb48b2c87bbbebdab8f4d4f8e78205c40517528a62b3e42e47810c6f1bbbf5"
+      },
+      "seed": 11
+    },
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "c7f808bd7cf27239f22744b63ac95063805cd363f8b59783e70d3925e522c2db"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9b593c3900b04eb9091b5019/fit.json",
+      "fit_pin": {
+        "bytes": 1384911,
+        "sha256": "02bfeae893a6f652b9632b487faef460eaaed68a88d1ac675eaaef97226d0c50"
+      },
+      "head_id": "llama/B25_23/L13/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 170018,
+        "sha256": "30e9a3c0a2b2a831dd6fcf4feeab2470e1705431f6ce294832655e10229e1a86"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 13,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/9b593c3900b04eb9091b5019/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "d7385568a0db03c815ca3456ed34819c07f78df990769fb5bd9497fa5a13f0dd"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696075,
+        "sha256": "18cbead8c5db48512bac371abbe537a2c19db8fa4931aa940016691121de4ea2"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/1be4a6840e9814f7b62fe801/fit.json",
+      "fit_pin": {
+        "bytes": 1386593,
+        "sha256": "4fa312045bdc7c3b8df460365bad94ac1dde88b13d0fc0cf933411b1890b9876"
+      },
+      "head_id": "llama/P15/L09/ttpd",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 462794,
+        "sha256": "cf67eb2d7c7d9f493be3e1583334667367e7399f42aa54d5704c241ea08123c2"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "52c1796d757b93aa8f84270468dd9e36b690309f451389fd7dc19b63e4900854"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696087,
+        "sha256": "1c950a3fdea51e0c28c1348785765fc671c02999499fa37613fbcbaf4994852e"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/fit.json",
+      "fit_pin": {
+        "bytes": 1385011,
+        "sha256": "e4ad0a4de59aaf9e6f901e9767bd38e72d02f8c1f52559f28fc3261caf9ae17d"
+      },
+      "head_id": "llama/P15/L15/l2_logistic/C=10",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 15,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/f86613d6e26303ffdaaf17b9/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "6f0eda1f05f5aab652c48d8ecd42441034c2f3dabb30413b047528ecce891762"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696088,
+        "sha256": "7890741869eacce024424bba089fe9122e22d531f523a571a2290a3aae1370aa"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2952c30f0cc7f9084ed08b2e/fit.json",
+      "fit_pin": {
+        "bytes": 1385008,
+        "sha256": "1d6220a849ae0dd7770aa292283b4b67df7e078022d6fea4d93792a7d5e5743b"
+      },
+      "head_id": "llama/P15/L09/l2_logistic/C=0.1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "1877c4961ff25764d04b83350863befc0b5205509487d9b732fc9ce2c568e6c0"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/2952c30f0cc7f9084ed08b2e/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "59eb48b2c87bbbebdab8f4d4f8e78205c40517528a62b3e42e47810c6f1bbbf5"
+      },
+      "seed": 23
+    },
+    {
+      "arm": "R_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696085,
+        "sha256": "07cbcf5b45a3cb003d3238e47281534a96046142b79362f547da333ddf9ab2da"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/dd04070657166d4d55ea0f8d/fit.json",
+      "fit_pin": {
+        "bytes": 1384879,
+        "sha256": "30a91958926e0f3e047edcc783ae1f215685a30b2930700c8c53a89de777a059"
+      },
+      "head_id": "llama/B25_37/L13/repair/full",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 170018,
+        "sha256": "5cbe34a2514f7be52d78fd249cd5cddb7fff8e805d10eed76378d8e6cc6d0a5d"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 13,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/dd04070657166d4d55ea0f8d/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "5283af9c93695d650f0d635994727e01ed32f0389ae8ef4cbd4d98cc0635ade0"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "S_all",
+      "evaluation_binding_pin": {
+        "bytes": 2696075,
+        "sha256": "18cbead8c5db48512bac371abbe537a2c19db8fa4931aa940016691121de4ea2"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/1be4a6840e9814f7b62fe801/fit.json",
+      "fit_pin": {
+        "bytes": 1386593,
+        "sha256": "4fa312045bdc7c3b8df460365bad94ac1dde88b13d0fc0cf933411b1890b9876"
+      },
+      "head_id": "llama/P15/L09/ttpd",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 462794,
+        "sha256": "cf67eb2d7c7d9f493be3e1583334667367e7399f42aa54d5704c241ea08123c2"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/1be4a6840e9814f7b62fe801/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "52c1796d757b93aa8f84270468dd9e36b690309f451389fd7dc19b63e4900854"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "reduced_LR",
+      "evaluation_binding_pin": {
+        "bytes": 2696087,
+        "sha256": "1c950a3fdea51e0c28c1348785765fc671c02999499fa37613fbcbaf4994852e"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/fit.json",
+      "fit_pin": {
+        "bytes": 1385011,
+        "sha256": "e4ad0a4de59aaf9e6f901e9767bd38e72d02f8c1f52559f28fc3261caf9ae17d"
+      },
+      "head_id": "llama/P15/L15/l2_logistic/C=10",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2"
+      },
+      "parameter_producer_sha": "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 15,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/f86613d6e26303ffdaaf17b9/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "6f0eda1f05f5aab652c48d8ecd42441034c2f3dabb30413b047528ecce891762"
+      },
+      "seed": 37
+    },
+    {
+      "arm": "bank_oracle",
+      "evaluation_binding_pin": {
+        "bytes": 2696088,
+        "sha256": "7890741869eacce024424bba089fe9122e22d531f523a571a2290a3aae1370aa"
+      },
+      "fit_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2952c30f0cc7f9084ed08b2e/fit.json",
+      "fit_pin": {
+        "bytes": 1385008,
+        "sha256": "1d6220a849ae0dd7770aa292283b4b67df7e078022d6fea4d93792a7d5e5743b"
+      },
+      "head_id": "llama/P15/L09/l2_logistic/C=0.1",
+      "lock_sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "model": "llama",
+      "parameter_pin": {
+        "bytes": 33288,
+        "sha256": "1877c4961ff25764d04b83350863befc0b5205509487d9b732fc9ce2c568e6c0"
+      },
+      "parameter_producer_sha": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+      "representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445",
+      "saved_layer": 9,
+      "scores_path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/evaluations/2952c30f0cc7f9084ed08b2e/scores.npz",
+      "scores_pin": {
+        "bytes": 163988,
+        "sha256": "59eb48b2c87bbbebdab8f4d4f8e78205c40517528a62b3e42e47810c6f1bbbf5"
+      },
+      "seed": 37
+    }
+  ],
+  "repair_fits_prepared": 0,
+  "repair_fold_fits_prepared": 0,
+  "schedule_verification": "source receipt/hash binding only during preparation; future worker verifies schedule bytes and all row axes"
+}
