@@ -41,3 +41,5 @@ Acceptance, preparation and independent audit were held under `/private/tmp/trut
 Run succeeded on its first worker attempt; no resume command was executed. The registered resume form remains in the pinned runbook and uses the same cap/accounting. Exact input and authorization pins are in `identity.json` and `authorization.json`; all output hashes are in `external-output-manifest.json`. Arrays, environments, credentials, model weights and unrelated files are excluded from Git.
 
 The reproduction listing records what was executed. Independent audit used saved scores and parameters only; it did not fit probes or adjust any threshold, label, membership or sign.
+
+Six derived reporting CSV delivery copies use normalized LF endings; their records are identical to the initially packaged copies. The three full scientific tables remain byte-for-byte identical to the audited worker outputs.

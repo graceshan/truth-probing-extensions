@@ -1,11 +1,11 @@
 {
   "docs/checkpoint_next/FULL_ATOMIC_TRAINING_RESULTS_20261003.md": {
-    "bytes": 15879,
-    "sha256": "4210e254698e1500c267603a0f04861614357a566a63cde5d8b0071cf9dfd5d5"
+    "bytes": 16034,
+    "sha256": "556f146a97b3deafd0aa08a7496712bbc4a012a05245fe62a68da062a97f1a07"
   },
   "results/checkpoint_next_full_bank_results_20261003/REPRODUCTION.md": {
-    "bytes": 4701,
-    "sha256": "d2875254acd1ba47651bf2c48cc43dc14a02c45a4165e9843e2de128d884a2e4"
+    "bytes": 4928,
+    "sha256": "451af61ace05c85ca34f29ea10cdc7f1461ed51a79b7f91f5211f96396be02be"
   },
   "results/checkpoint_next_full_bank_results_20261003/acceptance-stage.json": {
     "bytes": 544,
@@ -32,8 +32,8 @@
     "sha256": "0ef4285365dcb4c6a26fe03ea3610275c94c3afff2d8f158d1324733740a8df7"
   },
   "results/checkpoint_next_full_bank_results_20261003/candidate-statuses.csv": {
-    "bytes": 304512,
-    "sha256": "37dddf051e3cb9c223171074e3a67931e53f3fcd757d86cebb15398bc9809813"
+    "bytes": 303911,
+    "sha256": "2563ccdfb198f2d15ff810811b73e7ba040bcd8611423d1720aa5b8fc595d2f7"
   },
   "results/checkpoint_next_full_bank_results_20261003/completion.json": {
     "bytes": 198524,
@@ -124,39 +124,39 @@
     "sha256": "da16a0d1770527bdb76313e1dcb063dac59070d94bc7ec4775829af820c7ed37"
   },
   "results/checkpoint_next_full_bank_results_20261003/primary-boundary-contrasts.csv": {
-    "bytes": 2768,
-    "sha256": "a06b8fc65ebdeb43f890281996776dd5bdcc06f7c7191deed178f0c031dc90c3"
+    "bytes": 2751,
+    "sha256": "8f0fd52a951f53232be7232e9c7cd6e78c604ca35fd722e5adc4b784310652b0"
   },
   "results/checkpoint_next_full_bank_results_20261003/process-resource-samples.jsonl": {
     "bytes": 1251,
     "sha256": "060abe75bce8b715d54c1a900a3783853d9ff2fa708efa2b883ba44d83ad472b"
   },
   "results/checkpoint_next_full_bank_results_20261003/retention.csv": {
-    "bytes": 164727,
-    "sha256": "0aed946f9923e64dccbcfacebd86cf82d19226fe6b45264d37a59e25bec157c7"
+    "bytes": 163718,
+    "sha256": "65472b9f731648e5b2458309e53c7619301184eb15ee1d5a63c9dcc39df91ecc"
   },
   "results/checkpoint_next_full_bank_results_20261003/run-stage.json": {
     "bytes": 1041,
     "sha256": "d2ece24e2f2a311fbd684b1f083a5a1467d6e224a7ab5abe3fa30f7d96ee8e56"
   },
   "results/checkpoint_next_full_bank_results_20261003/runtime-accounting.json": {
-    "bytes": 5130,
-    "sha256": "f84012cf0eaa8bd46cf5280f340a5d2a9f9c99438f8acf720c5654528ca2560a"
+    "bytes": 5381,
+    "sha256": "0af5fa919a4560748c1d288208bc63c3bc37ab960d1d560f6025ddcfc441b6f6"
   },
   "results/checkpoint_next_full_bank_results_20261003/selected-heads.csv": {
-    "bytes": 1226,
-    "sha256": "5c8a445bb3785f7fb7388182d05410c2db7eb392e54fc312e63c5309d09bd79a"
+    "bytes": 1219,
+    "sha256": "c0fd040efc5d5e30b18e54f5ed526b0984ef051ec9c2681dfe71f0896559bb31"
   },
   "results/checkpoint_next_full_bank_results_20261003/topic-contrasts.csv": {
-    "bytes": 72224,
-    "sha256": "433937c6ebef233975b632d96de85f63e355ba4c8f39637a14ead98802157b9a"
+    "bytes": 71783,
+    "sha256": "538bb419ebbff335fb9805ed17705bec8c3a26c4dfafd60cb98c688244655ddb"
   },
   "results/checkpoint_next_full_bank_results_20261003/transfer-verification.json": {
     "bytes": 1131,
     "sha256": "b19fa1382549469fce487a6aa059d124851bf272c767805c742bf332792babf3"
   },
   "results/checkpoint_next_full_bank_results_20261003/wording-contrasts.csv": {
-    "bytes": 57948,
-    "sha256": "658c4ad470abfeebdcfb3fbc24e9770e4e6e18218225d3c1d80cadfc8a8d29ea"
+    "bytes": 57611,
+    "sha256": "29bb7ff3c495ee1820253899be07878736f90d9ff99b8beb0343e0207eab8e93"
   }
 }
