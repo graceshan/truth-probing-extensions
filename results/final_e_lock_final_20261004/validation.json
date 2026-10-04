@@ -1,0 +1,323 @@
+{
+  "E_outputs_opened": false,
+  "RunPod_contacted": false,
+  "access_closure": [
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "extract"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "extract"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "extract"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "token_audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "token_audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "token_audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "accept"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "accept"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "accept"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "verify"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "verify"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "verify"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "evaluate"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "evaluate"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "evaluate"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "audit"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "qwen",
+      "phase": "transfer"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "llama",
+      "phase": "transfer"
+    },
+    {
+      "candidate_rejection": "E CLOSED: finalized scientific lock required",
+      "final_operational_rejection": "E CLOSED: lock and independent phase authorization pins required",
+      "final_unapproved_fixture_rejection": "separate scoped execution authorization",
+      "model": "both",
+      "phase": "transfer"
+    }
+  ],
+  "accounting": {
+    "metadata_files": 32,
+    "operational_blockers": [],
+    "status": "local_receipts_reconciled_no_intervening_charge_found"
+  },
+  "active_correlation_job_preserved": true,
+  "approved_real_phase_authorization_created": false,
+  "budget_adoption": false,
+  "candidate_delivery_sha": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+  "execution_producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "focused_access_tests": {
+    "count": 3,
+    "errors": 0,
+    "failures": 0,
+    "log_sha256": "25b28cd22fb17f12df1455f69da9b3b03657aa86ff7cc591b703ff613123a2f4",
+    "names": [
+      "tests.test_final_e_locked_path.ClosedGateTests.test_no_authorization_blocks_before_output_IO",
+      "tests.test_final_e_locked_path.ClosedGateTests.test_draft_cannot_execute",
+      "tests.test_final_e_locked_path.ClosedGateTests.test_hash_scope_producer_and_unresolved_decisions"
+    ],
+    "positive_fixtures": "synthetic only",
+    "seconds": 0.005701417103409767
+  },
+  "full_saved_D_reproduction": false,
+  "historical_validators_rerun": false,
+  "hostname": "MacBook-Pro-7.local",
+  "identity": {
+    "administrative_fields_changed": [
+      "approval",
+      "claims_finalized",
+      "note",
+      "pending",
+      "resolutions",
+      "scientific_lock_approved",
+      "status"
+    ],
+    "approval_provenance": {
+      "approval_date": "2026-10-04",
+      "approval_question": "Do you approve this exact candidate, including its interpretation and caps, and authorize lock finalization?",
+      "approval_reply": "Yes I approve.",
+      "approved_candidate_path": "config/final_e/lock_candidate_20261004.json",
+      "approved_candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+      "independent_review_sha": "523e756346b373cc6e8be1d788901e5b3291c1d3",
+      "instruction": "In the project conversation on 2026-10-04, the user/project owner approved the exact candidate interpretation and resource caps and authorized scientific-lock finalization and publication. The actual reply was: Yes I approve. This approval does not authorize E execution, budget adoption or phase authorization.",
+      "record_source": "Actual user approval supplied in the current finalization instruction, identifying the project-conversation date, question, reply and exact pinned candidate. No personal name, message identifier or signature was supplied or invented.",
+      "reviewed_delivery_sha": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+      "reviewer": "user/project owner",
+      "scope": "Record the approved scientific interpretation and resource caps in a finalized lock and publish that delivery; stop after delivery. E execution, budget adoption and phase authorization are not authorized."
+    },
+    "candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+    "final_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+    "immutable_pins": {
+      "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+      "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+      "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+      "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+      "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+      "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+    },
+    "original_tracked_files_unchanged": true,
+    "other_fields_equal": true,
+    "review_document_sha256": "3526548b45206743e0b25ea7f5c6f03ace2cf35966e0a546e765eb70cdee63fc",
+    "review_inventory": {
+      "independent-checks.json": {
+        "bytes": 56527,
+        "sha256": "b420021196fe8e140c23845f6d54b844758a3e22f049e1ee38e77cff0ed06f5e"
+      },
+      "independent_checks.py": {
+        "bytes": 15510,
+        "sha256": "288e019c4255c471178be888703732b4f4387244b945d54fd4a2520d2ffb16f5"
+      },
+      "initial-state.json": {
+        "bytes": 8760,
+        "sha256": "c7ca3e8503cd2264bce7c4abe1561399832d9d2ad70ad235a6ca8f3f3c53cef5"
+      },
+      "operations.json": {
+        "bytes": 1116,
+        "sha256": "07886e27ad55e5b411ea948fa924ede22fe8457b6e5db73b791314c1b71cb117"
+      },
+      "preservation.json": {
+        "bytes": 11019,
+        "sha256": "f641ae8c9de706455abdc33c929df518ba697fd1423483afb4763a8b89642a25"
+      }
+    }
+  },
+  "interpreter": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "model_loading": false,
+  "new_fits": 0,
+  "numerical_threads": 1,
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "python_version": "3.11.6",
+  "retention_boundaries": [
+    {
+      "endpoint": "AND",
+      "lower": -0.02,
+      "result": "supported",
+      "upper": 0.01
+    },
+    {
+      "endpoint": "AND",
+      "lower": -0.02,
+      "result": "supported",
+      "upper": -0.02
+    },
+    {
+      "endpoint": "AND",
+      "lower": -0.03,
+      "result": "unresolved",
+      "upper": -0.02
+    },
+    {
+      "endpoint": "AND",
+      "lower": -0.03,
+      "result": "unresolved",
+      "upper": -0.01
+    },
+    {
+      "endpoint": "AND",
+      "lower": -0.04,
+      "result": "failure",
+      "upper": -0.03
+    },
+    {
+      "endpoint": "AND",
+      "lower": null,
+      "result": "unresolved",
+      "upper": null
+    },
+    {
+      "endpoint": "atomic",
+      "lower": -0.005,
+      "result": "supported",
+      "upper": 0.01
+    },
+    {
+      "endpoint": "atomic",
+      "lower": -0.005,
+      "result": "supported",
+      "upper": -0.005
+    },
+    {
+      "endpoint": "atomic",
+      "lower": -0.015,
+      "result": "unresolved",
+      "upper": -0.005
+    },
+    {
+      "endpoint": "atomic",
+      "lower": -0.015,
+      "result": "unresolved",
+      "upper": 0.005
+    },
+    {
+      "endpoint": "atomic",
+      "lower": -0.025,
+      "result": "failure",
+      "upper": -0.015
+    },
+    {
+      "endpoint": "atomic",
+      "lower": null,
+      "result": "unresolved",
+      "upper": null
+    }
+  ],
+  "review_base_sha": "523e756346b373cc6e8be1d788901e5b3291c1d3",
+  "seconds": 2.184097334276885,
+  "status": "passed_final_scientific_lock_execution_still_closed",
+  "substantial_checks_deferred": true,
+  "worktree": "/Users/apple/projects/truth-probing-extensions/.worktrees/checkpoint-final-e-lock-final-20261004"
+}

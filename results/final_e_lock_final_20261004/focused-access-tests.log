@@ -1,0 +1,8 @@
+test_no_authorization_blocks_before_output_IO (tests.test_final_e_locked_path.ClosedGateTests.test_no_authorization_blocks_before_output_IO) ... ok
+test_draft_cannot_execute (tests.test_final_e_locked_path.ClosedGateTests.test_draft_cannot_execute) ... ok
+test_hash_scope_producer_and_unresolved_decisions (tests.test_final_e_locked_path.ClosedGateTests.test_hash_scope_producer_and_unresolved_decisions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.006s
+
+OK

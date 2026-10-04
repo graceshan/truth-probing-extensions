@@ -1,0 +1,222 @@
+{
+  "approval": {
+    "approval_date": "2026-10-04",
+    "approval_question": "Do you approve this exact candidate, including its interpretation and caps, and authorize lock finalization?",
+    "approval_reply": "Yes I approve.",
+    "approved_candidate_path": "config/final_e/lock_candidate_20261004.json",
+    "approved_candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+    "independent_review_sha": "523e756346b373cc6e8be1d788901e5b3291c1d3",
+    "instruction": "In the project conversation on 2026-10-04, the user/project owner approved the exact candidate interpretation and resource caps and authorized scientific-lock finalization and publication. The actual reply was: Yes I approve. This approval does not authorize E execution, budget adoption or phase authorization.",
+    "record_source": "Actual user approval supplied in the current finalization instruction, identifying the project-conversation date, question, reply and exact pinned candidate. No personal name, message identifier or signature was supplied or invented.",
+    "reviewed_delivery_sha": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+    "reviewer": "user/project owner",
+    "scope": "Record the approved scientific interpretation and resource caps in a finalized lock and publish that delivery; stop after delivery. E execution, budget adoption and phase authorization are not authorized."
+  },
+  "candidate_preparation": {
+    "E_execution_authorized": false,
+    "exact_final_lock_approved": false,
+    "execution_modules_changed": false,
+    "full_bank_delivery_sha": "754ff1d7d362cf76ddb2bca681b32b2aeb7118f5",
+    "governing_plan_sha256": "ae135d188dddac61d921c0efc8b79499b6344396aae1046f5c9cce1283003035",
+    "instruction_scope": "User directed preparation and publication using the specified scientific choices; stop after delivery for review.",
+    "reviewed_delivery_sha": "e8f087e53b96b2172cfcde03e3a451e6a65bb0fe",
+    "reviewed_runnable_producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587"
+  },
+  "carried_budget": "config/final_e/carryforward_v1.json",
+  "claims_finalized": true,
+  "immutable_contract": {
+    "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+    "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+  },
+  "interpretation_contract": {
+    "claim_to_test": "Under the tested B25 protocol, learning a compound-supervised readout improves OR-boundary discrimination beyond selecting an atomic-trained readout; assess atomic and AND retention separately.",
+    "full_training_sensitivity": {
+      "additional_preserved_contrasts": [
+        [
+          "S_full",
+          "S_atom_full"
+        ],
+        [
+          "R_all",
+          "S_atom_full"
+        ]
+      ],
+      "all_frozen_contrasts_preserved": true,
+      "contrast": [
+        "R_all",
+        "S_full"
+      ],
+      "endpoint": "same bare OR TF/FT-versus-FF pooled AUROC and sample aggregation as original primary",
+      "exposure_note": "advantaged atomic exposure includes A identities; exposure, preprocessing and balanced sampling change together; not a pure withholding intervention; S_full uses compound labels; full-training repair was not tested",
+      "may_replace_failed_original_primary": false,
+      "positive_and_practical_criteria": "apply the same separate positive and .02 practical-gain rules",
+      "required_for": "claim that learning advantage survives restored full atomic training",
+      "selection_label_benefit": "requires its own positive paired lower bound for S_full minus S_atom_full; descriptive D bank maxima remain fixed optimistic references"
+    },
+    "gain": {
+      "below_practical_margin": "paired interval upper bound < .02; it does not reach the declared practical margin",
+      "beyond_practical_margin": "paired interval lower bound > .02",
+      "positive": "paired interval lower bound > 0",
+      "practical_margin": 0.02,
+      "practical_unresolved": "interval crosses or touches .02, including a positive interval whose lower bound is <= .02 and upper bound is >= .02",
+      "undefined_interval": "unresolved; no supported gain claim"
+    },
+    "inference": {
+      "atomic_row_weights": "entity multiplicity",
+      "compound_row_weights": "product of endpoint entity multiplicities; dependent cells and orders share pair weights",
+      "frames": "separate atomic (294 people) and compound (225 people) frames; never silently replace with a union frame",
+      "interval": "95% pointwise percentile, linear quantiles; conditional on frozen fits, selectors and evaluated support",
+      "joint_atomic_compound_confidence_claim": false,
+      "macro": "ordinary mean of all five fixed topics; no surviving-topic average",
+      "minimum_finite_draws": 1800,
+      "replicates": 2000,
+      "resampling": "topic-stratified entities",
+      "rng": "numpy.random.Generator(PCG64)",
+      "seed": 1729,
+      "shared_draws": "models, methods, samples, wordings and comparisons share draws within their frame",
+      "simultaneous_confidence_claim": false,
+      "undefined_handling": "undefined endpoints/draws remain undefined; no redraw, imputation or topic dropping; preserve valid and invalid counts"
+    },
+    "interpretation": {
+      "both_models": "both satisfy those checks: replicated claim; this is a conjunction of pointwise results, not simultaneous 95% coverage",
+      "gain_without_retention_support": "report compound improvement without established preservation; distinguish unresolved retention from supported failure",
+      "invalid_or_unfavorable_outcomes": "report undefined, unfavorable, contradictory and inconclusive outcomes; do not choose a favorable subset",
+      "model_difference": "different significance labels alone do not establish a model difference",
+      "one_model": "model-specific support; describe the other outcome explicitly",
+      "original_primary_success_without_full_bank_support": "retain original result and narrow full-training robustness; report nonpositive, inconclusive or contradictory sensitivity outcomes",
+      "pooled_success_without_macro_support": "describe pooled benefit and qualify dependence on topic weighting",
+      "required_for_model_supported_claim": "positive original-primary gain plus supported atomic and AND retention at pooled and macro scopes for that model; practical magnitude, equal-topic gain and full-training robustness require their separate checks",
+      "secondary_endpoints": "cannot rescue an unsuccessful primary"
+    },
+    "original_primary": {
+      "aggregation": "ordinary mean of the three per-sample metrics and paired differences within every bootstrap draw; never average or concatenate scores across fitted heads",
+      "condition": "bare",
+      "contrast": [
+        "R_all",
+        "S_all"
+      ],
+      "excluded_cells": [
+        "TT"
+      ],
+      "metric": "AUROC",
+      "models_separately": [
+        "qwen",
+        "llama"
+      ],
+      "negative_cells": [
+        "FF"
+      ],
+      "operator": "OR",
+      "positive_cells": [
+        "TF",
+        "FT"
+      ],
+      "samples": [
+        11,
+        23,
+        37
+      ],
+      "scope": "pooled"
+    },
+    "research_question": "With a fixed structured compound-supervision allocation, how much does learning a readout add beyond selecting an atomic-trained readout, and does that advantage generalize to held-out entities while retaining atomic and AND discrimination?",
+    "resource_accounting": {
+      "adoption": "not performed; recheck current receipts before separately authorized execution; never reset or silently change immutable carryforward pins",
+      "carried_model_seconds": {
+        "llama": 123.82646256202133,
+        "qwen": 160.83801023702836
+      },
+      "carried_total_seconds": 284.6644727990497,
+      "cpu_job_cap_seconds": 10800,
+      "local_accounting_status": "available local receipts reconcile; no intervening charge in this campaign found in the inspected roots",
+      "remaining_model_seconds": {
+        "llama": 7076.173537437979,
+        "qwen": 7039.161989762972
+      },
+      "runtime_readiness": "actual E runtime, token plans, CUDA memory, persistent two-copy storage reservation, accounting and transfer checks remain required and unmeasured here",
+      "total_seconds_definition": "frozen carried model-active charges plus new extraction-worker wall under the existing carry-forward contract; not total project elapsed time, transfer/CPU elapsed time or a forecast"
+    },
+    "retention": {
+      "contrast": [
+        "R_all",
+        "reduced_LR"
+      ],
+      "difference_direction": "R_all AUROC minus reduced_LR AUROC",
+      "failure": "interval upper bound < negative loss margin",
+      "interpretation_limit": "retention concerns AUROC, not calibration, fixed decisions or model behavior",
+      "margins": {
+        "AND": 0.02,
+        "atomic": 0.005
+      },
+      "reference": "frozen reduced-training canonical LR evaluated on E",
+      "required_scopes": [
+        "pooled",
+        "topic_macro"
+      ],
+      "supported": "for each endpoint and both scopes, interval lower bound >= negative loss margin",
+      "unresolved": "interval crosses the negative loss boundary or is undefined; failure is not established"
+    },
+    "scope": {
+      "E_generalization": "held-out entities within this benchmark, unseen by readout fitting/selection, not necessarily unfamiliar to the pretrained language model",
+      "after_E": "no fitting, layer/seed/head selection, calibration, threshold change, exclusions or procedure redesign using E; surprising outcomes change claims, not procedures; any discovered bug requires documented review and consistent correction while preserving original results",
+      "constituent_limit": "decodability does not establish how the model uses the information when answering",
+      "deferred": [
+        "behavior",
+        "matched chat",
+        "calibration",
+        "causal work",
+        "loss-deletion fits"
+      ],
+      "deletion_ablation_note": "the proposed deletion ablation concerns R_fixed at its fixed layers and budgets, not automatically R_all",
+      "omitted_claims": [
+        "atomic-loss term causes retention",
+        "unseen-topic or unrestricted compositional generalization",
+        "model reasoning failure",
+        "causal use of decoded information",
+        "information outside the collective span of the finite bank",
+        "sample efficiency or minimum sufficient compound-label budget"
+      ],
+      "retained_secondary_analyses": [
+        "frozen wordings",
+        "five topics",
+        "constituent evaluations",
+        "frozen controls"
+      ],
+      "support_note": "uneven topic support: compound entities animals 16, cities 146, elements 18, inventors 11, Spanish 34; report pooled and macro with topic uncertainty"
+    },
+    "supervision": {
+      "allocation": "B25: 25 structured pair blocks, five per topic, expanded into 400 dependent compound rows per sample; substantial atomic supervision is disclosed.",
+      "minimum_budget_or_sample_efficiency_claim": false,
+      "not_independent_binary_labels": true
+    },
+    "topic_weighting": {
+      "additional_equal_topic_claim": "corresponding paired fixed-five-topic macro interval lower bound > 0",
+      "every_topic_or_sample_significant_required": false,
+      "macro_does_not_establish": "improvement in every topic",
+      "macro_is_coprimary": false,
+      "macro_practical_margin_required": false,
+      "primary": "pooled"
+    }
+  },
+  "limits": {
+    "model_seconds": 7200,
+    "setup_phase_seconds": 1800,
+    "total_seconds": 18000
+  },
+  "note": "Scientific interpretation and caps finalized after independent PASS review and actual user/project-owner approval of the exact candidate. claims_finalized freezes interpretation rules; it does not assert that E supports any scientific claim. candidate_preparation remains historical provenance with its original false flags. Separate hash-pinned scoped phase authorizations remain mandatory and have not been issued. No E execution or budget adoption is authorized or performed by this finalization; E outputs remain closed. The runnable producer remains distinct from candidate, review and finalization deliveries.",
+  "pending": {},
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "resolutions": {
+    "E_campaign_resource_caps": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: 7200 seconds/model, 18000 cumulative extraction-worker seconds including frozen carried charges, and 1800 seconds/setup phase; retain the separate 10800-second CPU-job cap. The total is a stopping cap, not a runtime forecast or total project elapsed time. Available local campaign receipts reconcile with frozen carryforward; recheck for intervening charges before any later adoption. No adoption or phase authorization is performed.",
+    "claim_and_primary_endpoints": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: test whether, under the fixed structured B25 protocol, learning a compound-supervised readout improves held-out-entity bare OR TF/FT-versus-FF discrimination beyond compound-guided selection of an atomic-trained readout. R_all minus S_all pooled AUROC is the original primary, separately for Qwen and Llama; exclude TT; ordinary mean of samples 11/23/37 within each draw. Positive lower bound >0; practical gain lower bound >.02. Assess atomic and AND retention separately; equal-topic macro qualifies interpretation, not a co-primary.",
+    "comparator_contrast_approval": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: preserve every frozen contrast. R_all minus S_full separately supports restored-full-atomic-training robustness and cannot rescue an unsuccessful original primary. Preserve S_full minus S_atom_full and R_all minus S_atom_full. Full-training exposure, preprocessing and sampling change together; S_full still uses compound labels and full-training repair was not tested. R_all retention uses the frozen reduced-training canonical LR on E, atomic .005 and AND .02, pooled and macro.",
+    "independent_review_and_execution_authorization": "Independent PASS review at 523e756346b373cc6e8be1d788901e5b3291c1d3 reviewed the exact candidate delivery c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4 and candidate SHA-256 be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3. The user/project owner approved that exact candidate interpretation and caps, replying Yes I approve. to the recorded exact-lock approval question on 2026-10-04. This resolves scientific review/finalization only. Separate hash-pinned scoped phase authorizations remain mandatory and have not been issued; E execution and budget adoption remain unauthorized.",
+    "joint_atomic_compound_inference": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: retain separate atomic/compound topic-stratified entity frames and pointwise conditional percentile intervals, 2000 PCG64(1729) shared draws within each frame, endpoint-multiplicity products for compounds, fixed five-topic macro and frozen undefined/1800-finite-draw rules. No joint atomic-compound or simultaneous confidence claim."
+  },
+  "schema": "final-e-scientific-lock-v1",
+  "scientific_lock_approved": true,
+  "status": "FINAL"
+}

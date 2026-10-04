@@ -1,0 +1,61 @@
+{
+  "candidate_path": "config/final_e/lock_candidate_20261004.json",
+  "candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+  "changed_fields": {
+    "approval": {
+      "candidate": null,
+      "final": {
+        "approval_date": "2026-10-04",
+        "approval_question": "Do you approve this exact candidate, including its interpretation and caps, and authorize lock finalization?",
+        "approval_reply": "Yes I approve.",
+        "approved_candidate_path": "config/final_e/lock_candidate_20261004.json",
+        "approved_candidate_sha256": "be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3",
+        "independent_review_sha": "523e756346b373cc6e8be1d788901e5b3291c1d3",
+        "instruction": "In the project conversation on 2026-10-04, the user/project owner approved the exact candidate interpretation and resource caps and authorized scientific-lock finalization and publication. The actual reply was: Yes I approve. This approval does not authorize E execution, budget adoption or phase authorization.",
+        "record_source": "Actual user approval supplied in the current finalization instruction, identifying the project-conversation date, question, reply and exact pinned candidate. No personal name, message identifier or signature was supplied or invented.",
+        "reviewed_delivery_sha": "c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4",
+        "reviewer": "user/project owner",
+        "scope": "Record the approved scientific interpretation and resource caps in a finalized lock and publish that delivery; stop after delivery. E execution, budget adoption and phase authorization are not authorized."
+      }
+    },
+    "claims_finalized": {
+      "candidate": false,
+      "final": true
+    },
+    "note": {
+      "candidate": "Reviewable candidate prepared at user direction; approval of this preparation/publication task is not approval of the exact final scientific lock. Status remains DRAFT, claims_finalized and scientific_lock_approved remain false, approval remains null. Independent review, exact-lock approval, accounting adoption and separate phase authorizations remain required. E outputs remain closed.",
+      "final": "Scientific interpretation and caps finalized after independent PASS review and actual user/project-owner approval of the exact candidate. claims_finalized freezes interpretation rules; it does not assert that E supports any scientific claim. candidate_preparation remains historical provenance with its original false flags. Separate hash-pinned scoped phase authorizations remain mandatory and have not been issued. No E execution or budget adoption is authorized or performed by this finalization; E outputs remain closed. The runnable producer remains distinct from candidate, review and finalization deliveries."
+    },
+    "pending": {
+      "candidate": {
+        "independent_review_and_execution_authorization": null
+      },
+      "final": {}
+    },
+    "resolutions": {
+      "candidate": {
+        "E_campaign_resource_caps": "PROPOSED FOR REVIEW: 7200 seconds/model, 18000 cumulative extraction-worker seconds including frozen carried charges, and 1800 seconds/setup phase; retain the separate 10800-second CPU-job cap. The total is a stopping cap, not a runtime forecast or total project elapsed time. Available local campaign receipts reconcile with frozen carryforward; recheck for intervening charges before any later adoption. No adoption or phase authorization is performed.",
+        "claim_and_primary_endpoints": "PROPOSED FOR REVIEW: test whether, under the fixed structured B25 protocol, learning a compound-supervised readout improves held-out-entity bare OR TF/FT-versus-FF discrimination beyond compound-guided selection of an atomic-trained readout. R_all minus S_all pooled AUROC is the original primary, separately for Qwen and Llama; exclude TT; ordinary mean of samples 11/23/37 within each draw. Positive lower bound >0; practical gain lower bound >.02. Assess atomic and AND retention separately; equal-topic macro qualifies interpretation, not a co-primary.",
+        "comparator_contrast_approval": "PROPOSED FOR REVIEW, NOT FINAL APPROVAL: preserve every frozen contrast. R_all minus S_full separately supports restored-full-atomic-training robustness and cannot rescue an unsuccessful original primary. Preserve S_full minus S_atom_full and R_all minus S_atom_full. Full-training exposure, preprocessing and sampling change together; S_full still uses compound labels and full-training repair was not tested. R_all retention uses the frozen reduced-training canonical LR on E, atomic .005 and AND .02, pooled and macro.",
+        "joint_atomic_compound_inference": "PROPOSED FOR REVIEW: retain separate atomic/compound topic-stratified entity frames and pointwise conditional percentile intervals, 2000 PCG64(1729) shared draws within each frame, endpoint-multiplicity products for compounds, fixed five-topic macro and frozen undefined/1800-finite-draw rules. No joint atomic-compound or simultaneous confidence claim."
+      },
+      "final": {
+        "E_campaign_resource_caps": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: 7200 seconds/model, 18000 cumulative extraction-worker seconds including frozen carried charges, and 1800 seconds/setup phase; retain the separate 10800-second CPU-job cap. The total is a stopping cap, not a runtime forecast or total project elapsed time. Available local campaign receipts reconcile with frozen carryforward; recheck for intervening charges before any later adoption. No adoption or phase authorization is performed.",
+        "claim_and_primary_endpoints": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: test whether, under the fixed structured B25 protocol, learning a compound-supervised readout improves held-out-entity bare OR TF/FT-versus-FF discrimination beyond compound-guided selection of an atomic-trained readout. R_all minus S_all pooled AUROC is the original primary, separately for Qwen and Llama; exclude TT; ordinary mean of samples 11/23/37 within each draw. Positive lower bound >0; practical gain lower bound >.02. Assess atomic and AND retention separately; equal-topic macro qualifies interpretation, not a co-primary.",
+        "comparator_contrast_approval": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: preserve every frozen contrast. R_all minus S_full separately supports restored-full-atomic-training robustness and cannot rescue an unsuccessful original primary. Preserve S_full minus S_atom_full and R_all minus S_atom_full. Full-training exposure, preprocessing and sampling change together; S_full still uses compound labels and full-training repair was not tested. R_all retention uses the frozen reduced-training canonical LR on E, atomic .005 and AND .02, pooled and macro.",
+        "independent_review_and_execution_authorization": "Independent PASS review at 523e756346b373cc6e8be1d788901e5b3291c1d3 reviewed the exact candidate delivery c2efef5fef91b989d66c3b6228d2ec5e26c2c0f4 and candidate SHA-256 be5b15fe38c6c32a344e321d767d04a6f4c3b6f529ecfb338c2cc6e6edd5d1d3. The user/project owner approved that exact candidate interpretation and caps, replying Yes I approve. to the recorded exact-lock approval question on 2026-10-04. This resolves scientific review/finalization only. Separate hash-pinned scoped phase authorizations remain mandatory and have not been issued; E execution and budget adoption remain unauthorized.",
+        "joint_atomic_compound_inference": "APPROVED BY USER/PROJECT OWNER ON 2026-10-04: retain separate atomic/compound topic-stratified entity frames and pointwise conditional percentile intervals, 2000 PCG64(1729) shared draws within each frame, endpoint-multiplicity products for compounds, fixed five-topic macro and frozen undefined/1800-finite-draw rules. No joint atomic-compound or simultaneous confidence claim."
+      }
+    },
+    "scientific_lock_approved": {
+      "candidate": false,
+      "final": true
+    },
+    "status": {
+      "candidate": "DRAFT",
+      "final": "FINAL"
+    }
+  },
+  "final_path": "config/final_e/final_lock_20261004.json",
+  "scientific_contract_unchanged": true
+}
