@@ -1,0 +1,25 @@
+{
+  "implementation": "src.final_e_reference.verify_report at b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "separate_scalar_arms": [
+    "R_all",
+    "S_all",
+    "S_atom_all",
+    "reduced_LR",
+    "S_full",
+    "S_atom_full"
+  ],
+  "selected_scalar_metric_rows": 720,
+  "selected_scalar_contrast_rows": 1000,
+  "selected_wording_comparison_rows": 438,
+  "selected_constituent_metric_rows": 2700,
+  "selected_constituent_contrast_rows": 300,
+  "scopes": [
+    "pooled",
+    "topic_macro"
+  ],
+  "scalar_scope": "atomic AUROC; bare AND AUROC and OR TF/FT-vs-FF AUROC; two OR wordings on the OR boundary; paired mean metrics, contrasts, cross-model paired contrast and retention decisions",
+  "wording_scope": "OR TF/FT-vs-FF paired wording comparisons at pooled/macro scopes for all scalar heads; includes the unchanged OR support in the AND-wording condition",
+  "constituent_scope": "explicit FIRST/SECOND AB/BA targets, confusion/accuracy, Boolean/min-max ranking, point and classification checks at all/AB/BA orders; bootstrap intervals for all-order pooled/macro records and target-vs-source transfer contrasts",
+  "limitation": "Not every field or every individual-topic endpoint has a second implementation. Complete frozen replay separately checks every report row and all 85 frozen-head prediction archives.",
+  "coverage_basis": "Read pinned verify_report selection predicates and count existing report records; no metric recalculation or new scientific analysis"
+}

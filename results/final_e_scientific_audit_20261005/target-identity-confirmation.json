@@ -1,0 +1,9 @@
+{
+  "owner_scientific_approval_already_recorded": true,
+  "target_pins_confirmed_by_user": true,
+  "evaluation_delivery": "75030617daa1987d22d7d550714bf78bc2b0c48e",
+  "report_completion_sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc",
+  "audit_authorization_sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+  "instruction": "The user confirmed the recovered identities against the published GitHub delivery and directed proceeding with the previously approved independent audit; no renewed approval or separate Mac 1 chat message was needed.",
+  "historical_blocker_edited": false
+}

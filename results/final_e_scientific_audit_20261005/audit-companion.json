@@ -1,0 +1,57 @@
+{
+  "access": {
+    "authorization_sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+    "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+    "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+    "limits": {
+      "model_seconds": 7200,
+      "setup_phase_seconds": 1800,
+      "total_seconds": 18000
+    },
+    "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+    "model": "both",
+    "phase": "audit",
+    "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+    "schema": "final-e-access-v1"
+  },
+  "head_predictions": 85,
+  "independent_principal": {
+    "checks": 393650,
+    "maximum_absolute_difference": 0.0,
+    "scope": "principal scalar points/draws, sample means, paired contrasts/retention and constituent decisions; reproducibility separately covers the complete report",
+    "status": "independent_principal_calculation_passed"
+  },
+  "new_fits": 0,
+  "new_selection": false,
+  "original_completion": {
+    "bytes": 65554,
+    "sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc"
+  },
+  "reconstructed_completion": {
+    "bytes": 65551,
+    "sha256": "03c451b2bb6c013a442f833923b8960d2b64cdef57f0015ec3bfa21c60591fb4"
+  },
+  "reports": [
+    {
+      "report": "scalar-metrics",
+      "rows": 28560
+    },
+    {
+      "report": "scalar-contrasts",
+      "rows": 38556
+    },
+    {
+      "report": "constituent-metrics",
+      "rows": 9450
+    },
+    {
+      "report": "constituent-contrasts",
+      "rows": 1050
+    },
+    {
+      "report": "wording-paired",
+      "rows": 6132
+    }
+  ],
+  "status": "complete_report_reconstruction_passed"
+}

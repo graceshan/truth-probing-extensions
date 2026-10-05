@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "-m",
+    "src.final_e_runner",
+    "audit",
+    "--model",
+    "both",
+    "--output",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+    "--roots",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/artifact-roots.json",
+    "--source-report",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation",
+    "--report",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/audit-reconstruction",
+    "--operation-receipt",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/audit.json",
+    "--authorization",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-audit.json",
+    "--authorization-sha256",
+    "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+    "--lock",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/final_lock_20261004.json",
+    "--lock-sha256",
+    "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+  ],
+  "attempts": 1,
+  "cap_seconds": 10800,
+  "cpu_lock": "acquired by frozen runner itself; launcher holds no CPU lock",
+  "cwd": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/execution-code",
+  "environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 76169,
+  "started_utc": "2026-10-05T10:04:41.247728+00:00",
+  "supervising_pid": 76079
+}

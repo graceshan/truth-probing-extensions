@@ -1,0 +1,25 @@
+{
+  "access": {
+    "authorization_sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+    "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+    "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+    "limits": {
+      "model_seconds": 7200,
+      "setup_phase_seconds": 1800,
+      "total_seconds": 18000
+    },
+    "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+    "model": "both",
+    "phase": "audit",
+    "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+    "schema": "final-e-access-v1"
+  },
+  "cap_seconds": 10800,
+  "error": null,
+  "measured": true,
+  "model_loaded": false,
+  "schema": "final-e-operation-receipt-v1",
+  "scope": "CPU/setup phase; GPU active time remains in cumulative campaign ledger",
+  "seconds": 770.0776503747329,
+  "status": "completed"
+}

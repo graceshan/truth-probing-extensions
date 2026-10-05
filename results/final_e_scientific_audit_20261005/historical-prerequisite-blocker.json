@@ -1,0 +1,36 @@
+{
+  "RunPod_contacted": false,
+  "active_scientific_processes_found": [],
+  "audit_authorization_expected_sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+  "audit_authorization_file_available": false,
+  "audit_invoked": false,
+  "authorization_regenerated": false,
+  "evaluation_delivery_sha_supplied": false,
+  "final_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "immutable_pins_verified": {
+    "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+    "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+  },
+  "missing_paths": [
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/completion.json",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-audit.json",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/artifact-roots.json",
+    "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/evaluate.json"
+  ],
+  "observed_at_utc": "2026-10-05T07:34:26.611058+00:00",
+  "producer_clean": true,
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "producer_tree_sha": "93972950bca996dbfa9794dedf07934868b42e98",
+  "publication_blocker": "Exact evaluation delivery base and source completion pin unavailable; no substitute base or fabricated pin used.",
+  "published_evaluation_audit_scientific_refs_found": [],
+  "raw_campaign_modified": false,
+  "scientific_approval_already_recorded": true,
+  "source_completion_sha256_supplied": false,
+  "source_evaluation_modified": false,
+  "status": "STOPPED_MISSING_EVALUATION_HANDOFF"
+}

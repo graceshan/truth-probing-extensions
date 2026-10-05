@@ -1,0 +1,57 @@
+{
+  "schema": "final-e-independent-scientific-audit-handoff-v1",
+  "status": "passed",
+  "scientific_acceptance": "accepted_under_the_unchanged_frozen_lock",
+  "evaluation_delivery": "75030617daa1987d22d7d550714bf78bc2b0c48e",
+  "publication_branch": "checkpoint-final-e-scientific-audit-20261005",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "source_completion": {
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/completion.json",
+    "bytes": 65554,
+    "sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc"
+  },
+  "reconstruction_completion": {
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/audit-reconstruction/completion.json",
+    "bytes": 65551,
+    "sha256": "03c451b2bb6c013a442f833923b8960d2b64cdef57f0015ec3bfa21c60591fb4"
+  },
+  "audit_operation": {
+    "bytes": 898,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/audit.json",
+    "sha256": "92a540227efea40fa338c94377229e106963bd34625ab3f8a25eef29967e6337"
+  },
+  "audit_companion": {
+    "bytes": 1706,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/audit.audit.json",
+    "sha256": "bf7f8abe6d1dbf67209f4f2b296c2f367742d4f00b5cd7d5e5a4d6e2ce87b60e"
+  },
+  "authorization": {
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-audit.json",
+    "bytes": 1054,
+    "sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62"
+  },
+  "lock": {
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/final_lock_20261004.json",
+    "bytes": 15795,
+    "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+  },
+  "raw_manifest": {
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign-checksums.json",
+    "bytes": 235722,
+    "sha256": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870"
+  },
+  "replicated_claim_supported": true,
+  "source_report_preserved": true,
+  "raw_campaign_preserved": true,
+  "historical_blocker_preserved": {
+    "bytes": 2657,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/audit-prerequisite-inspection-20261005-v1/blocked.json",
+    "sha256": "161896c557acd5dbfa82809dcc7a18cf095785331e05a9a7b2f1f3a551b488f1",
+    "status": "STOPPED_MISSING_EVALUATION_HANDOFF"
+  },
+  "new_fits": 0,
+  "new_selection": false,
+  "retries": 0,
+  "RunPod_contacted": false,
+  "further_scientific_work_authorized": false
+}

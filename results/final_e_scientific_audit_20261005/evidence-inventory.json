@@ -1,0 +1,74 @@
+{
+  "files": {
+    "audit-companion.json": {
+      "bytes": 1706,
+      "sha256": "bf7f8abe6d1dbf67209f4f2b296c2f367742d4f00b5cd7d5e5a4d6e2ce87b60e"
+    },
+    "audit-handoff.json": {
+      "bytes": 3097,
+      "sha256": "51a08d956dc16f4a425067ca2b7c3fdf836e321ae24e5ec66614ebda18d8dbc9"
+    },
+    "audit-launch.json": {
+      "bytes": 2157,
+      "sha256": "d105a91abcfea8c0b9f035af643a369cdb32f5f20530cd8220c4de784b87f962"
+    },
+    "audit-operation.json": {
+      "bytes": 898,
+      "sha256": "92a540227efea40fa338c94377229e106963bd34625ab3f8a25eef29967e6337"
+    },
+    "audit-process.json": {
+      "bytes": 156,
+      "sha256": "786a8d5ac1796144b2f601fab0ba8bb388d2b82720bb03ed3f814ded15662ee1"
+    },
+    "audit.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "audit.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "historical-prerequisite-blocker.json": {
+      "bytes": 2657,
+      "sha256": "161896c557acd5dbfa82809dcc7a18cf095785331e05a9a7b2f1f3a551b488f1"
+    },
+    "post-audit-verification.json": {
+      "bytes": 19958,
+      "sha256": "5c04f4a294f6cdbca9e66505d6252a122bcfa539fbd3db02da46da3e0e1906a7"
+    },
+    "preflight.json": {
+      "bytes": 17892,
+      "sha256": "54ebc89ccbc0767067779e4dbecb86d97299a4dca8586398b5da2d24916a4cff"
+    },
+    "principal-results.csv": {
+      "bytes": 4553,
+      "sha256": "55bc07b5471b2ec9fd725e1574082d4c68102307a05713ad66bbc3204060c4fb"
+    },
+    "reconstruction-completion.json": {
+      "bytes": 65551,
+      "sha256": "03c451b2bb6c013a442f833923b8960d2b64cdef57f0015ec3bfa21c60591fb4"
+    },
+    "run_once.py": {
+      "bytes": 9866,
+      "sha256": "6b0a1fa79cdfec955bc94d1848ded8dc0a124f12e876bc4a55144cd5f758c852"
+    },
+    "scope-coverage.json": {
+      "bytes": 1476,
+      "sha256": "1ef3393f12a5453df07337ca097fa98e0df3fae3665237d3148dc80fa699ca79"
+    },
+    "target-identity-confirmation.json": {
+      "bytes": 640,
+      "sha256": "90ca3f75a363479710846c8162e172c46b88b116a6018936a0820617355ac932"
+    },
+    "verify_delivery.py": {
+      "bytes": 8890,
+      "sha256": "0fd8bd4c479731086a6c152ec202f370c68f728277e0fc57fb2a1502101c39ce"
+    }
+  },
+  "review_document": {
+    "path": "docs/final_e/SCIENTIFIC_AUDIT_20261005.md",
+    "bytes": 15302,
+    "sha256": "bec902921faa0e0a8b5358ce59020196d8182c5d627ca68613c9bc9c5bf49acc"
+  },
+  "large_arrays_outside_Git": true
+}
