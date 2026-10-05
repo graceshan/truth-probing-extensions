@@ -1,0 +1,16 @@
+| Model | Endpoint | Target - transferred [95% interval] | Frozen classification |
+| --- | --- | --- | --- |
+| Qwen | first_marginal | 0.146343 [0.128895, 0.160659] | Deficit > .05 |
+| Qwen | second_marginal | 0.072776 [0.054019, 0.091868] | Deficit > .05 |
+| Qwen | first_given_second_0 | 0.181525 [0.158544, 0.198993] | Deficit > .05 |
+| Qwen | first_given_second_1 | 0.103174 [0.081319, 0.123777] | Deficit > .05 |
+| Qwen | second_given_first_0 | 0.056111 [0.034501, 0.077852] | Unresolved at .05 |
+| Qwen | second_given_first_1 | 0.073525 [0.050126, 0.095491] | Deficit > .05 |
+| Llama | first_marginal | 0.013300 [0.004629, 0.022485] | Upper bound < .05 |
+| Llama | second_marginal | 0.086100 [0.069406, 0.101733] | Deficit > .05 |
+| Llama | first_given_second_0 | 0.012560 [0.002927, 0.024122] | Upper bound < .05 |
+| Llama | first_given_second_1 | 0.010025 [0.000399, 0.021016] | Upper bound < .05 |
+| Llama | second_given_first_0 | 0.103552 [0.078743, 0.127525] | Deficit > .05 |
+| Llama | second_given_first_1 | 0.045988 [0.028763, 0.061058] | Unresolved at .05 |
+
+AND-trained transfer to OR versus matched-layer OR-trained heads, explicit "or both" wording, pooled, all orders. Direction: target-trained minus source-trained on target; positive values indicate a transfer deficit. Saved layers Qwen 18 / Llama 12. Frozen .05 classifications and pointwise conditional 95% intervals.

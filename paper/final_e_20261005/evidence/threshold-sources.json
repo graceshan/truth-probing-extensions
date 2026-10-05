@@ -1,0 +1,45 @@
+{
+  "AND_loss_margin": {
+    "assets": [
+      "figures/retention.pdf",
+      "tables/retention.pdf"
+    ],
+    "json_pointer": "/interpretation_contract/retention/margins/AND",
+    "value": 0.02
+  },
+  "atomic_loss_margin": {
+    "assets": [
+      "figures/retention.pdf",
+      "tables/retention.pdf"
+    ],
+    "json_pointer": "/interpretation_contract/retention/margins/atomic",
+    "value": 0.005
+  },
+  "constituent_transfer_margin": {
+    "also_in_each_displayed_source_row": "planning_margin",
+    "json_pointer": "/constituent_margins/transfer_loss",
+    "sha256": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "source": "config/final_e/preparation_v1.json",
+    "value": 0.05
+  },
+  "practical_gain": {
+    "assets": [
+      "figures/primary-gain.pdf",
+      "results.md"
+    ],
+    "json_pointer": "/interpretation_contract/gain/practical_margin",
+    "value": 0.02
+  },
+  "protocol_source_pins": {
+    "config/checkpoint_next/full_bank_prep_v1.json": "1e86aa8f4a9647a8a5b9cce5b15b52d97b8abf7e96a5126156a04875d9b4990e",
+    "config/checkpoint_r2/full_raw_v1.json": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+    "config/checkpoint_r2/protocol_v1.json": "ce33588841ea2dcd11c7c0218d5bd36eefe40cc17bd6a18c44bb20136e1a4661",
+    "config/clean_protocol/final_e_preparation_v1.json": "3d094128fd848c0a888f3ad434096b021fa914fec40b0577ee679721c78d395a",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "data/clean_protocol/compounds/entity_disjoint/final_e_preparation_v2/manifest.json": "59060b68c24b1da13cfe78d62c04f3858076cc7ed389f323f32d31aa2ba1d3a9"
+  },
+  "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "source": "config/final_e/final_lock_20261004.json"
+}

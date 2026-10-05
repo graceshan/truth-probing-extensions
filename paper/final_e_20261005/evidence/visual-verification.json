@@ -1,0 +1,92 @@
+{
+  "reviewer": "Mac 1 Codex session",
+  "date": "2026-10-05",
+  "scope": "paper presentation only",
+  "assets": [
+    {
+      "asset": "figures/primary-gain",
+      "pdf_sha256": "54a0f2fb3917b6a13f0786f38eb87d08f2ddb75a970c5cbcb97f9db11fee9db4",
+      "png_sha256": "11c602f8ee9af5dc66fbdbee1c4cf20f979dfbeb30d4cb8396a5ecaddd14b730",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/figures-primary-gain.png",
+      "native_pdf_preview_sha256": "aa36122261338b47a19698af36438b9e00672aa7ed664b003683a6caf836cbb1",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "figures/retention",
+      "pdf_sha256": "adf499877fd67622e4d01b762e280f4d49f382fae76068baf5f6c9e38a5ba5b1",
+      "png_sha256": "7b9690dd1b89859dba5bae632ea93e3116882bd2784b8419216ce14bb2bd6dac",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/figures-retention.png",
+      "native_pdf_preview_sha256": "cf5bb866e37abc4e6bf6f118af160800ffad00f8ce29c2070ac26331b5b8774f",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "tables/main",
+      "pdf_sha256": "ff62b564234b4a0773c3eea6b2ed992e4c2dc103b6c8216fefa03cd4fcffa7bc",
+      "png_sha256": "ad05e215e400761b9bfff6c21e0ea2dee9f0977aa30795c66cda3625c727eeda",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/tables-main.png",
+      "native_pdf_preview_sha256": "b644908e9ea28e07ea7cb12dbb81bb826e4665f0947769d6a774ce3fed9a0340",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "tables/retention",
+      "pdf_sha256": "6fd13f74c2de47323072b70227f542770b27b665c49ad0aca441de102b1ec9d9",
+      "png_sha256": "12e98f96d43af444ad6cd6254a36a51bfbed1886ac4402bef2dad07a2103e229",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/tables-retention.png",
+      "native_pdf_preview_sha256": "5d044a540373ffe8f1c390bac5cf80d79319028c2f5723941faf757e7999f70e",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "tables/secondary",
+      "pdf_sha256": "f690f899593f23d4c6aa3721b69cd8ae142897e3e32af81ca71329a464ca4cbd",
+      "png_sha256": "9e74289071c37c227e70de056ae2f1b244087fb7cc4ce3097886eeecfdb022a3",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/tables-secondary.png",
+      "native_pdf_preview_sha256": "6ae28444367f5b8fe8cf39858bda5a3526b018b9c25569efd5f6bf77395622dc",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "tables/wording",
+      "pdf_sha256": "53ec30c736e927bcf274f16143236b3f26649ecc5e5a617fbf7abde7bfc9594c",
+      "png_sha256": "d734b28ff9efff14741df1c01b8e82c6fdecc675d255b9dc77d604c224c5cb83",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/tables-wording.png",
+      "native_pdf_preview_sha256": "bec3348d015d25de2e2e99c4a03cac8aa4d4a5b1e28b227d036d9756dedcc600",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    },
+    {
+      "asset": "tables/constituent",
+      "pdf_sha256": "79ea54e1036c4636331b379ef1b95ed8b4eb6835a44209c478b023409425d703",
+      "png_sha256": "e9808eff291cddb7e8a64780a1a28bb2233aefa11a4607be47ce9c1c3ae64042",
+      "native_pdf_preview": "/tmp/final-e-paper-pdf-previews/tables-constituent.png",
+      "native_pdf_preview_sha256": "c0c1b3b264d106437c66d9ee82800c42f284a289949f0192dba0b7202570bf9e",
+      "visually_inspected": [
+        "matplotlib PNG",
+        "PDFKit rendering of exported PDF"
+      ],
+      "findings": "No clipping; labels, numbers, intervals, direction, margins and captions agree with pinned display rows."
+    }
+  ],
+  "unresolved_issues": []
+}

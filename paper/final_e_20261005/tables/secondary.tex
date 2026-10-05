@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
+\hline
+Model & Scope & Comparison & Difference [95\% interval] \\
+\hline
+Qwen & Pooled & S\_full - S\_atom\_full & 0.100898 [0.082369, 0.119632] \\
+Qwen & Pooled & R\_all - S\_atom\_full & 0.224060 [0.199128, 0.243863] \\
+Qwen & Five-topic macro & S\_full - S\_atom\_full & 0.088179 [0.049099, 0.119028] \\
+Qwen & Five-topic macro & R\_all - S\_atom\_full & 0.216158 [0.180450, 0.240504] \\
+Llama & Pooled & S\_full - S\_atom\_full & 0.209221 [0.168973, 0.256574] \\
+Llama & Pooled & R\_all - S\_atom\_full & 0.375002 [0.348269, 0.407475] \\
+Llama & Five-topic macro & S\_full - S\_atom\_full & 0.106133 [0.057715, 0.156937] \\
+Llama & Five-topic macro & R\_all - S\_atom\_full & 0.261247 [0.221970, 0.297885] \\
+\hline
+\end{tabular}}
+\caption{Bare OR boundary, sample means. These separately frozen comparisons do not replace the original primary. S\_full uses compound labels for selection; S\_atom\_full uses atomic labels for selection. Pointwise conditional 95\% intervals; no simultaneous coverage.}
+\label{tab:final-e-secondary}
+\end{table*}

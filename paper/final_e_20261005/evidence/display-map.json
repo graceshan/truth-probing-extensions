@@ -1,0 +1,666 @@
+[
+  {
+    "asset": "main",
+    "column": "R_all",
+    "display": "0.983280",
+    "field": "point",
+    "row": "qwen/pooled",
+    "source_row": "scalar-metrics:24892"
+  },
+  {
+    "asset": "main",
+    "column": "S_all",
+    "display": "0.844643",
+    "field": "point",
+    "row": "qwen/pooled",
+    "source_row": "scalar-metrics:25249"
+  },
+  {
+    "asset": "main",
+    "column": "S_full",
+    "display": "0.860117",
+    "field": "point",
+    "row": "qwen/pooled",
+    "source_row": "scalar-metrics:27867"
+  },
+  {
+    "asset": "main",
+    "column": "Original R_all - S_all",
+    "display": "0.138637 [0.118394, 0.155166]",
+    "field": "interval",
+    "row": "qwen/pooled",
+    "source_row": "scalar-contrasts:378"
+  },
+  {
+    "asset": "main",
+    "column": "Sensitivity R_all - S_full",
+    "display": "0.123162 [0.101639, 0.141084]",
+    "field": "interval",
+    "row": "qwen/pooled",
+    "source_row": "scalar-contrasts:28938"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "-0.000104 [-0.000284, -0.000007]",
+    "field": "interval",
+    "row": "qwen/pooled/atomic_auroc",
+    "source_row": "scalar-contrasts:4641"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.030830 [0.020520, 0.042241]",
+    "field": "interval",
+    "row": "qwen/pooled/AND_auroc",
+    "source_row": "scalar-contrasts:4648"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.100898 [0.082369, 0.119632]",
+    "field": "interval",
+    "row": "qwen/pooled/S_full",
+    "source_row": "scalar-contrasts:29414"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.224060 [0.199128, 0.243863]",
+    "field": "interval",
+    "row": "qwen/pooled/R_all",
+    "source_row": "scalar-contrasts:29890"
+  },
+  {
+    "asset": "main",
+    "column": "R_all",
+    "display": "0.980021",
+    "field": "point",
+    "row": "qwen/topic_macro",
+    "source_row": "scalar-metrics:24898"
+  },
+  {
+    "asset": "main",
+    "column": "S_all",
+    "display": "0.828892",
+    "field": "point",
+    "row": "qwen/topic_macro",
+    "source_row": "scalar-metrics:25255"
+  },
+  {
+    "asset": "main",
+    "column": "S_full",
+    "display": "0.852042",
+    "field": "point",
+    "row": "qwen/topic_macro",
+    "source_row": "scalar-metrics:27873"
+  },
+  {
+    "asset": "main",
+    "column": "Original R_all - S_all",
+    "display": "0.151129 [0.125737, 0.172078]",
+    "field": "interval",
+    "row": "qwen/topic_macro",
+    "source_row": "scalar-contrasts:384"
+  },
+  {
+    "asset": "main",
+    "column": "Sensitivity R_all - S_full",
+    "display": "0.127979 [0.095949, 0.160246]",
+    "field": "interval",
+    "row": "qwen/topic_macro",
+    "source_row": "scalar-contrasts:28944"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "-0.000356 [-0.001213, -0.000002]",
+    "field": "interval",
+    "row": "qwen/topic_macro/atomic_auroc",
+    "source_row": "scalar-contrasts:4647"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.044505 [0.023995, 0.071964]",
+    "field": "interval",
+    "row": "qwen/topic_macro/AND_auroc",
+    "source_row": "scalar-contrasts:4654"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.088179 [0.049099, 0.119028]",
+    "field": "interval",
+    "row": "qwen/topic_macro/S_full",
+    "source_row": "scalar-contrasts:29420"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.216158 [0.180450, 0.240504]",
+    "field": "interval",
+    "row": "qwen/topic_macro/R_all",
+    "source_row": "scalar-contrasts:29896"
+  },
+  {
+    "asset": "main",
+    "column": "R_all",
+    "display": "0.988610",
+    "field": "point",
+    "row": "llama/pooled",
+    "source_row": "scalar-metrics:22393"
+  },
+  {
+    "asset": "main",
+    "column": "S_all",
+    "display": "0.811593",
+    "field": "point",
+    "row": "llama/pooled",
+    "source_row": "scalar-metrics:22750"
+  },
+  {
+    "asset": "main",
+    "column": "S_full",
+    "display": "0.822829",
+    "field": "point",
+    "row": "llama/pooled",
+    "source_row": "scalar-metrics:26796"
+  },
+  {
+    "asset": "main",
+    "column": "Original R_all - S_all",
+    "display": "0.177017 [0.149099, 0.201004]",
+    "field": "interval",
+    "row": "llama/pooled",
+    "source_row": "scalar-contrasts:14658"
+  },
+  {
+    "asset": "main",
+    "column": "Sensitivity R_all - S_full",
+    "display": "0.165781 [0.140790, 0.187191]",
+    "field": "interval",
+    "row": "llama/pooled",
+    "source_row": "scalar-contrasts:33698"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.000031 [-0.000040, 0.000151]",
+    "field": "interval",
+    "row": "llama/pooled/atomic_auroc",
+    "source_row": "scalar-contrasts:18921"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.032782 [0.025637, 0.041342]",
+    "field": "interval",
+    "row": "llama/pooled/AND_auroc",
+    "source_row": "scalar-contrasts:18928"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.209221 [0.168973, 0.256574]",
+    "field": "interval",
+    "row": "llama/pooled/S_full",
+    "source_row": "scalar-contrasts:34174"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.375002 [0.348269, 0.407475]",
+    "field": "interval",
+    "row": "llama/pooled/R_all",
+    "source_row": "scalar-contrasts:34650"
+  },
+  {
+    "asset": "main",
+    "column": "R_all",
+    "display": "0.989159",
+    "field": "point",
+    "row": "llama/topic_macro",
+    "source_row": "scalar-metrics:22399"
+  },
+  {
+    "asset": "main",
+    "column": "S_all",
+    "display": "0.831233",
+    "field": "point",
+    "row": "llama/topic_macro",
+    "source_row": "scalar-metrics:22756"
+  },
+  {
+    "asset": "main",
+    "column": "S_full",
+    "display": "0.834045",
+    "field": "point",
+    "row": "llama/topic_macro",
+    "source_row": "scalar-metrics:26802"
+  },
+  {
+    "asset": "main",
+    "column": "Original R_all - S_all",
+    "display": "0.157926 [0.122276, 0.186238]",
+    "field": "interval",
+    "row": "llama/topic_macro",
+    "source_row": "scalar-contrasts:14664"
+  },
+  {
+    "asset": "main",
+    "column": "Sensitivity R_all - S_full",
+    "display": "0.155114 [0.118500, 0.183739]",
+    "field": "interval",
+    "row": "llama/topic_macro",
+    "source_row": "scalar-contrasts:33704"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.000197 [-0.000247, 0.001802]",
+    "field": "interval",
+    "row": "llama/topic_macro/atomic_auroc",
+    "source_row": "scalar-contrasts:18927"
+  },
+  {
+    "asset": "retention",
+    "column": "R_all - reduced_LR",
+    "display": "0.008153 [0.003337, 0.013167]",
+    "field": "interval",
+    "row": "llama/topic_macro/AND_auroc",
+    "source_row": "scalar-contrasts:18934"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.106133 [0.057715, 0.156937]",
+    "field": "interval",
+    "row": "llama/topic_macro/S_full",
+    "source_row": "scalar-contrasts:34180"
+  },
+  {
+    "asset": "secondary",
+    "column": "Difference [95% interval]",
+    "display": "0.261247 [0.221970, 0.297885]",
+    "field": "interval",
+    "row": "llama/topic_macro/R_all",
+    "source_row": "scalar-contrasts:34656"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.079955 [-0.105833, -0.055968]",
+    "field": "interval",
+    "row": "qwen/or_explicit_or_both_v1/11",
+    "source_row": "wording-paired:5474"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.107391 [-0.127501, -0.082662]",
+    "field": "interval",
+    "row": "qwen/or_explicit_or_both_v1/23",
+    "source_row": "wording-paired:5810"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.095878 [-0.119628, -0.071769]",
+    "field": "interval",
+    "row": "qwen/or_explicit_or_both_v1/37",
+    "source_row": "wording-paired:4634"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.083023 [-0.103327, -0.061488]",
+    "field": "interval",
+    "row": "qwen/or_at_least_one_v1/11",
+    "source_row": "wording-paired:5502"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.071357 [-0.087614, -0.053585]",
+    "field": "interval",
+    "row": "qwen/or_at_least_one_v1/23",
+    "source_row": "wording-paired:5838"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.036443 [-0.047905, -0.024487]",
+    "field": "interval",
+    "row": "qwen/or_at_least_one_v1/37",
+    "source_row": "wording-paired:4662"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.146343 [0.128895, 0.160659]",
+    "field": "interval",
+    "row": "qwen/first_marginal",
+    "source_row": "constituent-contrasts:105"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.072776 [0.054019, 0.091868]",
+    "field": "interval",
+    "row": "qwen/second_marginal",
+    "source_row": "constituent-contrasts:112"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.181525 [0.158544, 0.198993]",
+    "field": "interval",
+    "row": "qwen/first_given_second_0",
+    "source_row": "constituent-contrasts:119"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.103174 [0.081319, 0.123777]",
+    "field": "interval",
+    "row": "qwen/first_given_second_1",
+    "source_row": "constituent-contrasts:126"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.056111 [0.034501, 0.077852]",
+    "field": "interval",
+    "row": "qwen/second_given_first_0",
+    "source_row": "constituent-contrasts:133"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.073525 [0.050126, 0.095491]",
+    "field": "interval",
+    "row": "qwen/second_given_first_1",
+    "source_row": "constituent-contrasts:140"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.119558 [-0.139430, -0.097466]",
+    "field": "interval",
+    "row": "llama/or_explicit_or_both_v1/11",
+    "source_row": "wording-paired:1442"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.114614 [-0.133444, -0.093469]",
+    "field": "interval",
+    "row": "llama/or_explicit_or_both_v1/23",
+    "source_row": "wording-paired:938"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.076054 [-0.093583, -0.057872]",
+    "field": "interval",
+    "row": "llama/or_explicit_or_both_v1/37",
+    "source_row": "wording-paired:1022"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.037791 [-0.053852, -0.022519]",
+    "field": "interval",
+    "row": "llama/or_at_least_one_v1/11",
+    "source_row": "wording-paired:1470"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.013147 [-0.022728, -0.004445]",
+    "field": "interval",
+    "row": "llama/or_at_least_one_v1/23",
+    "source_row": "wording-paired:966"
+  },
+  {
+    "asset": "wording",
+    "column": "Wording - bare [95% interval]",
+    "display": "-0.006782 [-0.015427, 0.002735]",
+    "field": "interval",
+    "row": "llama/or_at_least_one_v1/37",
+    "source_row": "wording-paired:1050"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.013300 [0.004629, 0.022485]",
+    "field": "interval",
+    "row": "llama/first_marginal",
+    "source_row": "constituent-contrasts:630"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.086100 [0.069406, 0.101733]",
+    "field": "interval",
+    "row": "llama/second_marginal",
+    "source_row": "constituent-contrasts:637"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.012560 [0.002927, 0.024122]",
+    "field": "interval",
+    "row": "llama/first_given_second_0",
+    "source_row": "constituent-contrasts:644"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.010025 [0.000399, 0.021016]",
+    "field": "interval",
+    "row": "llama/first_given_second_1",
+    "source_row": "constituent-contrasts:651"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.103552 [0.078743, 0.127525]",
+    "field": "interval",
+    "row": "llama/second_given_first_0",
+    "source_row": "constituent-contrasts:658"
+  },
+  {
+    "asset": "constituent",
+    "column": "Target - transferred [95% interval]",
+    "display": "0.045988 [0.028763, 0.061058]",
+    "field": "interval",
+    "row": "llama/second_given_first_1",
+    "source_row": "constituent-contrasts:665"
+  },
+  {
+    "asset": "primary-gain",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high"
+    ],
+    "source_row": "scalar-contrasts:378",
+    "values": [
+      0.13863683127572013,
+      0.11839389604742963,
+      0.1551657959263563
+    ]
+  },
+  {
+    "asset": "primary-gain",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high"
+    ],
+    "source_row": "scalar-contrasts:384",
+    "values": [
+      0.15112891721769173,
+      0.12573727465259885,
+      0.1720782655062057
+    ]
+  },
+  {
+    "asset": "primary-gain",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high"
+    ],
+    "source_row": "scalar-contrasts:14658",
+    "values": [
+      0.1770174897119342,
+      0.14909893730404933,
+      0.20100392400939912
+    ]
+  },
+  {
+    "asset": "primary-gain",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high"
+    ],
+    "source_row": "scalar-contrasts:14664",
+    "values": [
+      0.15792628076002535,
+      0.1222757499931252,
+      0.1862376441571862
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:4641",
+    "values": [
+      -0.00010400459868986633,
+      -0.0002837096907988029,
+      -6.881108710507533e-06,
+      0.005
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:4647",
+    "values": [
+      -0.0003556813334567588,
+      -0.00121268889165686,
+      -1.5423061313274436e-06,
+      0.005
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:18921",
+    "values": [
+      3.0920286096969285e-05,
+      -3.984658031022104e-05,
+      0.00015130314618751458,
+      0.005
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:18927",
+    "values": [
+      0.00019733557162526782,
+      -0.0002465483234714849,
+      0.0018018896349863978,
+      0.005
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:4648",
+    "values": [
+      0.03082962962962965,
+      0.020519982057583278,
+      0.04224113595466955,
+      0.02
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:4654",
+    "values": [
+      0.044504994020842736,
+      0.023994979447217745,
+      0.07196369788993799,
+      0.02
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:18928",
+    "values": [
+      0.03278175582990406,
+      0.0256374520361466,
+      0.04134169187173493,
+      0.02
+    ]
+  },
+  {
+    "asset": "retention-figure",
+    "fields": [
+      "point",
+      "ci_low",
+      "ci_high",
+      "retention_margin"
+    ],
+    "source_row": "scalar-contrasts:18934",
+    "values": [
+      0.008153169658186354,
+      0.003336885266225034,
+      0.013166739585321982,
+      0.02
+    ]
+  }
+]

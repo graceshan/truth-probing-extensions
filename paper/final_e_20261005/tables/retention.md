@@ -1,0 +1,12 @@
+| Model | Endpoint | Scope | R_all - reduced_LR | Loss boundary | Frozen decision |
+| --- | --- | --- | --- | --- | --- |
+| Qwen | atomic | Pooled | -0.000104 [-0.000284, -0.000007] | -0.005000 | Supported |
+| Qwen | AND | Pooled | 0.030830 [0.020520, 0.042241] | -0.020000 | Supported |
+| Qwen | atomic | Five-topic macro | -0.000356 [-0.001213, -0.000002] | -0.005000 | Supported |
+| Qwen | AND | Five-topic macro | 0.044505 [0.023995, 0.071964] | -0.020000 | Supported |
+| Llama | atomic | Pooled | 0.000031 [-0.000040, 0.000151] | -0.005000 | Supported |
+| Llama | AND | Pooled | 0.032782 [0.025637, 0.041342] | -0.020000 | Supported |
+| Llama | atomic | Five-topic macro | 0.000197 [-0.000247, 0.001802] | -0.005000 | Supported |
+| Llama | AND | Five-topic macro | 0.008153 [0.003337, 0.013167] | -0.020000 | Supported |
+
+R_all minus frozen reduced-training canonical LR on E; sample-mean paired pointwise conditional 95% intervals. Atomic retention requires the lower bound >= -0.005; AND requires >= -0.020, at both scopes. Qwen atomic differences remain negative. Retention within a margin does not establish zero loss.

@@ -1,0 +1,8 @@
+| Model | Scope | R_all | S_all | S_full | Original R_all - S_all | Sensitivity R_all - S_full |
+| --- | --- | --- | --- | --- | --- | --- |
+| Qwen | Pooled | 0.983280 | 0.844643 | 0.860117 | 0.138637 [0.118394, 0.155166] | 0.123162 [0.101639, 0.141084] |
+| Qwen | Five-topic macro | 0.980021 | 0.828892 | 0.852042 | 0.151129 [0.125737, 0.172078] | 0.127979 [0.095949, 0.160246] |
+| Llama | Pooled | 0.988610 | 0.811593 | 0.822829 | 0.177017 [0.149099, 0.201004] | 0.165781 [0.140790, 0.187191] |
+| Llama | Five-topic macro | 0.989159 | 0.831233 | 0.834045 | 0.157926 [0.122276, 0.186238] | 0.155114 [0.118500, 0.183739] |
+
+Bare OR TF/FT versus FF AUROC (TT excluded), averaged at the metric level across samples 11/23/37. Pooled R_all - S_all is the original primary; macro is a qualification. R_all - S_full is a separate sensitivity. Brackets are paired pointwise conditional 95% intervals. Rounded values do not determine decisions.

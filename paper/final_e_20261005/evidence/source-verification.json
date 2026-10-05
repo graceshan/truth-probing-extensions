@@ -1,0 +1,365 @@
+{
+  "audit_companion_sha256": "bf7f8abe6d1dbf67209f4f2b296c2f367742d4f00b5cd7d5e5a4d6e2ce87b60e",
+  "completion_sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc",
+  "layout_checks": [
+    {
+      "asset": "main",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "retention",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "secondary",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "wording",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "constituent",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "primary-gain",
+      "text_outside_canvas": []
+    },
+    {
+      "asset": "retention",
+      "text_outside_canvas": []
+    }
+  ],
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "principal_csv_identity_matches": [
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:4641"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:4647"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:4648"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:4654"
+    },
+    {
+      "audit_role": "original_primary",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "original_primary",
+      "source_row": "scalar-contrasts:378"
+    },
+    {
+      "audit_role": "original_primary",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "original_primary",
+      "source_row": "scalar-contrasts:384"
+    },
+    {
+      "audit_role": "full_training_sensitivity",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_sensitivity",
+      "source_row": "scalar-contrasts:28938"
+    },
+    {
+      "audit_role": "full_training_sensitivity",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_sensitivity",
+      "source_row": "scalar-contrasts:28944"
+    },
+    {
+      "audit_role": "secondary_selection_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_selection_label_benefit",
+      "source_row": "scalar-contrasts:29414"
+    },
+    {
+      "audit_role": "secondary_selection_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_selection_label_benefit",
+      "source_row": "scalar-contrasts:29420"
+    },
+    {
+      "audit_role": "secondary_atomic_only_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_atomic_only_comparator",
+      "source_row": "scalar-contrasts:29890"
+    },
+    {
+      "audit_role": "secondary_atomic_only_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_atomic_only_comparator",
+      "source_row": "scalar-contrasts:29896"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:18921"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:18927"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:18928"
+    },
+    {
+      "audit_role": "retention",
+      "audit_status": {
+        "reviewed_positive": "",
+        "reviewed_practical": "",
+        "reviewed_status": "supported"
+      },
+      "evaluation_role": "retention",
+      "source_row": "scalar-contrasts:18934"
+    },
+    {
+      "audit_role": "original_primary",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "original_primary",
+      "source_row": "scalar-contrasts:14658"
+    },
+    {
+      "audit_role": "original_primary",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "original_primary",
+      "source_row": "scalar-contrasts:14664"
+    },
+    {
+      "audit_role": "full_training_sensitivity",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_sensitivity",
+      "source_row": "scalar-contrasts:33698"
+    },
+    {
+      "audit_role": "full_training_sensitivity",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_sensitivity",
+      "source_row": "scalar-contrasts:33704"
+    },
+    {
+      "audit_role": "secondary_selection_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_selection_label_benefit",
+      "source_row": "scalar-contrasts:34174"
+    },
+    {
+      "audit_role": "secondary_selection_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_selection_label_benefit",
+      "source_row": "scalar-contrasts:34180"
+    },
+    {
+      "audit_role": "secondary_atomic_only_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_atomic_only_comparator",
+      "source_row": "scalar-contrasts:34650"
+    },
+    {
+      "audit_role": "secondary_atomic_only_comparison",
+      "audit_status": {
+        "reviewed_positive": "supported",
+        "reviewed_practical": "supported",
+        "reviewed_status": ""
+      },
+      "evaluation_role": "full_training_atomic_only_comparator",
+      "source_row": "scalar-contrasts:34656"
+    }
+  ],
+  "reconstruction_completion_sha256": "03c451b2bb6c013a442f833923b8960d2b64cdef57f0015ec3bfa21c60591fb4",
+  "scientific_calculations_performed": false,
+  "sources": {
+    "constituent-contrasts": {
+      "bytes": 681156,
+      "identity_fields": [
+        "model",
+        "contrast",
+        "condition",
+        "metric",
+        "scope",
+        "topic",
+        "surface_order",
+        "saved_layer",
+        "source_operator",
+        "target_operator"
+      ],
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/constituent-contrasts.json",
+      "rows": 1050,
+      "sha256": "b0dac84c7e1b7ec20c857734a87f46827ebf7ec99034c15da7a1caef87b5c883"
+    },
+    "constituent-metrics": {
+      "bytes": 5463458,
+      "identity_fields": [
+        "model",
+        "arm",
+        "condition",
+        "metric",
+        "scope",
+        "topic",
+        "surface_order",
+        "saved_layer",
+        "source_operator",
+        "target_operator",
+        "trained_operator",
+        "evaluation_operator"
+      ],
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/constituent-metrics.json",
+      "rows": 9450,
+      "sha256": "4c75010da3d09adcf6e9e019173d6880344bfa561deab5b9c7d4c69cc22a7c1e"
+    },
+    "scalar-contrasts": {
+      "bytes": 20764367,
+      "identity_fields": [
+        "model",
+        "panel",
+        "left",
+        "right",
+        "condition",
+        "metric",
+        "sample",
+        "scope",
+        "topic"
+      ],
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/scalar-contrasts.json",
+      "rows": 38556,
+      "sha256": "87a2be3006ed666483a0765bbc16aff92be807063e3ed605033a95d0a9032b5c"
+    },
+    "scalar-metrics": {
+      "bytes": 16133361,
+      "identity_fields": [
+        "model",
+        "panel",
+        "arm",
+        "condition",
+        "metric",
+        "sample",
+        "scope",
+        "topic"
+      ],
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/scalar-metrics.json",
+      "rows": 28560,
+      "sha256": "c38e88da29dda7ec3a6b32dc34a79ccb3056f03c8d8deb451a3bfa519293dcdc"
+    },
+    "wording-paired": {
+      "bytes": 2699304,
+      "identity_fields": [
+        "head",
+        "condition",
+        "metric",
+        "scope",
+        "topic"
+      ],
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/wording-paired.json",
+      "rows": 6132,
+      "sha256": "51e77c17d7459304530eb0fb50e68e883e1708d466f551b5ed06480142c4e0b8"
+    }
+  }
+}

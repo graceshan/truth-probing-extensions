@@ -1,0 +1,12 @@
+| Model | Scope | Comparison | Difference [95% interval] |
+| --- | --- | --- | --- |
+| Qwen | Pooled | S_full - S_atom_full | 0.100898 [0.082369, 0.119632] |
+| Qwen | Pooled | R_all - S_atom_full | 0.224060 [0.199128, 0.243863] |
+| Qwen | Five-topic macro | S_full - S_atom_full | 0.088179 [0.049099, 0.119028] |
+| Qwen | Five-topic macro | R_all - S_atom_full | 0.216158 [0.180450, 0.240504] |
+| Llama | Pooled | S_full - S_atom_full | 0.209221 [0.168973, 0.256574] |
+| Llama | Pooled | R_all - S_atom_full | 0.375002 [0.348269, 0.407475] |
+| Llama | Five-topic macro | S_full - S_atom_full | 0.106133 [0.057715, 0.156937] |
+| Llama | Five-topic macro | R_all - S_atom_full | 0.261247 [0.221970, 0.297885] |
+
+Bare OR boundary, sample means. These separately frozen comparisons do not replace the original primary. S_full uses compound labels for selection; S_atom_full uses atomic labels for selection. Pointwise conditional 95% intervals; no simultaneous coverage.
