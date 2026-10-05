@@ -1,0 +1,8 @@
+{
+  "method": "git ls-remote origin exact refs before review and before publication",
+  "repository": "https://github.com/graceshan/truth-probing-extensions.git",
+  "candidate": "c30846d90e0695f1f55f29f2bb92d5a1a754ad8a",
+  "audit": "3dcd696ad17358ae8a89e458cb79a86a98792291",
+  "evaluation": "75030617daa1987d22d7d550714bf78bc2b0c48e",
+  "review_ref_before_publication": "absent"
+}

@@ -1,0 +1,44 @@
+{
+  "figures\/primary-gain.pdf" : {
+    "height_points" : 338.67812500000002,
+    "pages" : 1,
+    "text" : " Learning beyond compound-guided selection\n        Qwen \/ pooled\nQwen \/ macro\nLlama \/ pooled\nLlama \/ macro\n     0.00 0.05\n0.10 0.15 0.20 R_all - S_all AUROC\nPooled = original primary; fixed-five-topic macro = separate qualification. Dashed line: .02 practical gain. Bare OR TF\/FT versus FF; TT excluded. Points and paired 95% intervals use the frozen sample means. Intervals are pointwise and conditional on frozen fits, selectors and support.\n",
+    "width_points" : 676.80000000000007
+  },
+  "figures\/retention.pdf" : {
+    "height_points" : 355.31012500000003,
+    "pages" : 1,
+    "text" : " Retention against the frozen reduced-training LR\nAtomic \/ loss margin 0.005\nAND \/ loss margin 0.020\n               Qwen \/ pooled Qwen \/ macro Llama \/ pooled Llama \/ macro\n−0.005\nQwen \/ pooled Qwen \/ macro Llama \/ pooled Llama \/ macro\n        0.000 R_all - reduced_LR AUROC\n0.002\n−0.02\n0.00 0.02 0.04 0.06 0.08 R_all - reduced_LR AUROC\nDifferent x-axis scales. Dashed lines mark the endpoint-specific loss boundaries. All eight frozen checks pass. Retention requires each paired interval lower bound >= its loss boundary. Qwen atomic losses remain visible. Sample means; pointwise conditional 95% intervals. Passing all checks gives no joint 95% coverage.\n",
+    "width_points" : 819.42657245149996
+  },
+  "tables\/constituent.pdf" : {
+    "height_points" : 453.381325,
+    "pages" : 1,
+    "text" : " Constituent transfer: explicit OR wording\n    Model\nEndpoint\nTarget - transferred [95% interval]\nFrozen classification\n   first_marginal\n0.146343 [0.128895, 0.160659]\nDeficit > .05\n   second_marginal\n0.072776 [0.054019, 0.091868]\nDeficit > .05\n   first_given_second_0\n0.181525 [0.158544, 0.198993]\nDeficit > .05\n   first_given_second_1\n0.103174 [0.081319, 0.123777]\nDeficit > .05\n   second_given_first_0\n0.056111 [0.034501, 0.077852]\nUnresolved at .05\n   second_given_first_1\n0.073525 [0.050126, 0.095491]\nDeficit > .05\n   first_marginal\n0.013300 [0.004629, 0.022485]\nUpper bound < .05\n   second_marginal\n0.086100 [0.069406, 0.101733]\nDeficit > .05\n   first_given_second_0\n0.012560 [0.002927, 0.024122]\nUpper bound < .05\n   first_given_second_1\n0.010025 [0.000399, 0.021016]\nUpper bound < .05\n   second_given_first_0\n0.103552 [0.078743, 0.127525]\nDeficit > .05\n   second_given_first_1\n0.045988 [0.028763, 0.061058]\nUnresolved at .05\nQwen Qwen Qwen Qwen Qwen Qwen Llama Llama Llama Llama Llama Llama\nAND-trained transfer to OR versus matched-layer OR-trained heads, explicit \"or both\" wording, pooled, all orders. Direction: target-trained minus source-trained on target; positive values indicate a transfer deficit.\nSaved layers Qwen 18 \/ Llama 12. Frozen .05 classifications and pointwise conditional 95% intervals.\n",
+    "width_points" : 835.20000000000005
+  },
+  "tables\/main.pdf" : {
+    "height_points" : 278.10452500000002,
+    "pages" : 1,
+    "text" : " Held-out-entity OR discrimination\n Model\n Scope\n R_all\n S_all\n S_full\n Original R_all - S_all\n Sensitivity R_all - S_full\n Qwen\n Pooled\n 0.983280\n 0.844643\n 0.860117\n 0.138637 [0.118394, 0.155166]\n 0.123162 [0.101639, 0.141084]\n Qwen\n Five-topic macro\n 0.980021\n 0.828892\n 0.852042\n 0.151129 [0.125737, 0.172078]\n 0.127979 [0.095949, 0.160246]\n Llama\n Pooled\n 0.988610\n 0.811593\n 0.822829\n 0.177017 [0.149099, 0.201004]\n 0.165781 [0.140790, 0.187191]\n Llama\n Five-topic macro\n 0.989159\n 0.831233\n 0.834045\n 0.157926 [0.122276, 0.186238]\n 0.155114 [0.118500, 0.183739]\nBare OR TF\/FT versus FF AUROC (TT excluded), averaged at the metric level across samples 11\/23\/37. Pooled R_all - S_all is the original primary; macro is a qualification. R_all - S_full is a separate sensitivity. Brackets are paired pointwise conditional 95% intervals. Rounded values do not determine decisions.\n",
+    "width_points" : 1108.8
+  },
+  "tables\/retention.pdf" : {
+    "height_points" : 365.74292500000001,
+    "pages" : 1,
+    "text" : " Atomic and AND retention\n Model\n Endpoint\n Scope\n R_all - reduced_LR\n Loss boundary\n Frozen decision\n Qwen\n atomic\n Pooled\n -0.000104 [-0.000284, -0.000007]\n -0.005000\n Supported\n Qwen\n AND\n Pooled\n 0.030830 [0.020520, 0.042241]\n -0.020000\n Supported\n Qwen\n atomic\n Five-topic macro\n -0.000356 [-0.001213, -0.000002]\n -0.005000\n Supported\n Qwen\n AND\n Five-topic macro\n 0.044505 [0.023995, 0.071964]\n -0.020000\n Supported\n Llama\n atomic\n Pooled\n 0.000031 [-0.000040, 0.000151]\n -0.005000\n Supported\n Llama\n AND\n Pooled\n 0.032782 [0.025637, 0.041342]\n -0.020000\n Supported\n Llama\n atomic\n Five-topic macro\n 0.000197 [-0.000247, 0.001802]\n -0.005000\n Supported\n Llama\n AND\n Five-topic macro\n 0.008153 [0.003337, 0.013167]\n -0.020000\n Supported\nR_all minus frozen reduced-training canonical LR on E; sample-mean paired pointwise conditional 95% intervals. Atomic retention requires the lower bound >= -0.005; AND requires >= -0.020, at both scopes.\nQwen atomic differences remain negative. Retention within a margin does not establish zero loss.\n",
+    "width_points" : 835.20000000000005
+  },
+  "tables\/secondary.pdf" : {
+    "height_points" : 365.74292500000001,
+    "pages" : 1,
+    "text" : " Separate full-bank comparisons\n Model\n Scope\n Comparison\n Difference [95% interval]\n Qwen\n Pooled\n S_full - S_atom_full\n 0.100898 [0.082369, 0.119632]\n Qwen\n Pooled\n R_all - S_atom_full\n 0.224060 [0.199128, 0.243863]\n Qwen\n Five-topic macro\n S_full - S_atom_full\n 0.088179 [0.049099, 0.119028]\n Qwen\n Five-topic macro\n R_all - S_atom_full\n 0.216158 [0.180450, 0.240504]\n Llama\n Pooled\n S_full - S_atom_full\n 0.209221 [0.168973, 0.256574]\n Llama\n Pooled\n R_all - S_atom_full\n 0.375002 [0.348269, 0.407475]\n Llama\n Five-topic macro\n S_full - S_atom_full\n 0.106133 [0.057715, 0.156937]\n Llama\n Five-topic macro\n R_all - S_atom_full\n 0.261247 [0.221970, 0.297885]\nBare OR boundary, sample means. These separately frozen comparisons do not replace the original primary. S_full uses compound labels for selection; S_atom_full uses atomic labels for selection.\nPointwise conditional 95% intervals; no simultaneous coverage.\n",
+    "width_points" : 835.20000000000005
+  },
+  "tables\/wording.pdf" : {
+    "height_points" : 453.381325,
+    "pages" : 1,
+    "text" : " Wording sensitivity of the learned readout\n    Model\nWording\nSample\nWording - bare [95% interval]\n   Or both\n11\n-0.079955 [-0.105833, -0.055968]\n   Or both\n23\n-0.107391 [-0.127501, -0.082662]\n   Or both\n37\n-0.095878 [-0.119628, -0.071769]\n   At least one\n11\n-0.083023 [-0.103327, -0.061488]\n   At least one\n23\n-0.071357 [-0.087614, -0.053585]\n   At least one\n37\n-0.036443 [-0.047905, -0.024487]\n   Or both\n11\n-0.119558 [-0.139430, -0.097466]\n   Or both\n23\n-0.114614 [-0.133444, -0.093469]\n   Or both\n37\n-0.076054 [-0.093583, -0.057872]\n   At least one\n11\n-0.037791 [-0.053852, -0.022519]\n   At least one\n23\n-0.013147 [-0.022728, -0.004445]\n   At least one\n37\n-0.006782 [-0.015427, 0.002735]\nQwen Qwen Qwen Qwen Qwen Qwen Llama Llama Llama Llama Llama Llama\nFrozen R_all heads; pooled OR TF\/FT versus FF; each sample shown separately. Direction: wording minus bare. Both OR wording variants were excluded from fitting\/selection. No averaging of interval endpoints.\nPointwise conditional 95% intervals. See evidence\/extracted-rows.json for exact heads and condition IDs.\n",
+    "width_points" : 835.20000000000005
+  }
+}

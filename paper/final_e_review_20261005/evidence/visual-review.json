@@ -1,0 +1,183 @@
+{
+  "reviewer": "Mac 2",
+  "date": "2026-10-05",
+  "same_physical_mac_as_mac1": true,
+  "method": "Viewed each of seven candidate PNGs and seven independently rasterized actual candidate PDFs using native PDFKit; checked all table rows, captions, margins, axes, comparison directions and visible interval signs. SVG structure/internal references and all CSV/LaTeX values separately checked.",
+  "assets": [
+    {
+      "asset": "figures/primary-gain",
+      "visual_status": "PASS",
+      "notes": "Four correctly oriented R_all minus S_all intervals; pooled/macro roles, zero and separate .02 line labeled; no clipping.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 22076,
+          "sha256": "54a0f2fb3917b6a13f0786f38eb87d08f2ddb75a970c5cbcb97f9db11fee9db4"
+        },
+        "png": {
+          "bytes": 94225,
+          "sha256": "11c602f8ee9af5dc66fbdbee1c4cf20f979dfbeb30d4cb8396a5ecaddd14b730"
+        },
+        "svg": {
+          "bytes": 60250,
+          "sha256": "bc366d813f42c4c4a9b49861d07e49e90b4cdaf73ebf01efdeb68b87caa571ac"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/figures-primary-gain.png",
+        "bytes": 110573,
+        "sha256": "39f5fc8e8d8385c67c014ea0bc8fe56e72dc03bed7029976dec4be1b37a34b9d"
+      }
+    },
+    {
+      "asset": "figures/retention",
+      "visual_status": "PASS",
+      "notes": "Eight intervals on two explicitly different x scales; negative loss boundaries and zero labeled. Qwen atomic points are visibly left of zero. Near-zero negative upper bounds are resolved numerically in the retention table; do not infer their sign solely from plot pixels.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 23873,
+          "sha256": "adf499877fd67622e4d01b762e280f4d49f382fae76068baf5f6c9e38a5ba5b1"
+        },
+        "png": {
+          "bytes": 121263,
+          "sha256": "7b9690dd1b89859dba5bae632ea93e3116882bd2784b8419216ce14bb2bd6dac"
+        },
+        "svg": {
+          "bytes": 80034,
+          "sha256": "cb706d150927e89a4c32d354f277b32418a05c6ca212405608b218cf1cd7b5ba"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/figures-retention.png",
+        "bytes": 114870,
+        "sha256": "3d281b532dc9f992291ba1e716fa7c5ac1e4e3c9ef746faee89951eae85e4755"
+      }
+    },
+    {
+      "asset": "tables/main",
+      "visual_status": "PASS",
+      "notes": "All four rows and 20 numeric cells inspected; primary and full-training sensitivity in separate columns; sample aggregation and TT exclusion caption present.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 25141,
+          "sha256": "ff62b564234b4a0773c3eea6b2ed992e4c2dc103b6c8216fefa03cd4fcffa7bc"
+        },
+        "png": {
+          "bytes": 168834,
+          "sha256": "ad05e215e400761b9bfff6c21e0ea2dee9f0977aa30795c66cda3625c727eeda"
+        },
+        "svg": {
+          "bytes": 89511,
+          "sha256": "4c8b3fa0bdec765727f2c0e61deb4dec5eb721040c892edd3b257f3a8f9b3dba"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/tables-main.png",
+        "bytes": 101145,
+        "sha256": "4146bd8ff93a8dd46630e0f2a67b308e268c3f9fb488c656a090f28380a8cfbc"
+      }
+    },
+    {
+      "asset": "tables/retention",
+      "visual_status": "PASS",
+      "notes": "Eight rows; Qwen negative points and upper bounds retain minus signs; endpoint-specific negative margins and Supported classifications legible.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 23825,
+          "sha256": "6fd13f74c2de47323072b70227f542770b27b665c49ad0aca441de102b1ec9d9"
+        },
+        "png": {
+          "bytes": 206657,
+          "sha256": "12e98f96d43af444ad6cd6254a36a51bfbed1886ac4402bef2dad07a2103e229"
+        },
+        "svg": {
+          "bytes": 101467,
+          "sha256": "7276af2666600b2fc486f9d00d693a148dbb9f3e6ccbfb066c19f887983c4711"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/tables-retention.png",
+        "bytes": 163795,
+        "sha256": "4e979717c3fbecc5a9161d04f3770da04056fb59d134cee61f5e492df4aee378"
+      }
+    },
+    {
+      "asset": "tables/secondary",
+      "visual_status": "PASS",
+      "notes": "Eight rows preserve two distinct full-bank contrasts and both scopes; correct positive difference direction and selection-label explanation.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 23963,
+          "sha256": "f690f899593f23d4c6aa3721b69cd8ae142897e3e32af81ca71329a464ca4cbd"
+        },
+        "png": {
+          "bytes": 193958,
+          "sha256": "9e74289071c37c227e70de056ae2f1b244087fb7cc4ce3097886eeecfdb022a3"
+        },
+        "svg": {
+          "bytes": 91424,
+          "sha256": "653bc8ca4ee73101f083379017e30df254ac856d8c51ecafd824b2f3389cc1c5"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/tables-secondary.png",
+        "bytes": 152503,
+        "sha256": "0093f332b54fee14acce4f53c9b41c96111c1e7ca652d76b14541335137ea0fc"
+      }
+    },
+    {
+      "asset": "tables/wording",
+      "visual_status": "PASS",
+      "notes": "Twelve per-head rows; all negative points retained, Llama sample 37 at-least-one interval crosses zero. Wording-minus-bare direction explicit.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 25780,
+          "sha256": "53ec30c736e927bcf274f16143236b3f26649ecc5e5a617fbf7abde7bfc9594c"
+        },
+        "png": {
+          "bytes": 233439,
+          "sha256": "d734b28ff9efff14741df1c01b8e82c6fdecc675d255b9dc77d604c224c5cb83"
+        },
+        "svg": {
+          "bytes": 105945,
+          "sha256": "c945afe82b84e8d52725833587b0d333b0f5d8eb0e17652fd62fafcb732397d7"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/tables-wording.png",
+        "bytes": 191063,
+        "sha256": "cfc07e318681f01772a25c8e32d7bfebe04ce6dde9f9d3c7392206f4024c9433"
+      }
+    },
+    {
+      "asset": "tables/constituent",
+      "visual_status": "PASS",
+      "notes": "Twelve endpoints; target-trained minus source-trained direction, all-order pooled support, source-selected layers 18/12 and explicit wording retained. Seven material deficits, two unresolved, three upper-bound-below-.05 classifications visible.",
+      "candidate_files": {
+        "pdf": {
+          "bytes": 26314,
+          "sha256": "79ea54e1036c4636331b379ef1b95ed8b4eb6835a44209c478b023409425d703"
+        },
+        "png": {
+          "bytes": 274784,
+          "sha256": "e9808eff291cddb7e8a64780a1a28bb2233aefa11a4607be47ce9c1c3ae64042"
+        },
+        "svg": {
+          "bytes": 120124,
+          "sha256": "236b1179bfc80972d4d2e37dfac9c5761490302c5291aa91073318486f3c4e41"
+        }
+      },
+      "actual_pdf_rasterization": {
+        "path": "/tmp/final-e-mac2-review-pdf-previews/tables-constituent.png",
+        "bytes": 226381,
+        "sha256": "09a084825e3624990f04532889a7d40b76008b68ec9d0277172d3d0b30619989"
+      }
+    }
+  ],
+  "limitations": [
+    "No conference manuscript supplied; final typeset column-size readability not certified.",
+    "LaTeX fragments checked as source, not compiled into a manuscript.",
+    "SVG files parsed and byte-rebuilt, not independently rasterized by an SVG viewer.",
+    "Visual review cannot resolve the subpixel gap between Qwen atomic upper bounds and zero; exact negative bounds remain in the table and prose."
+  ],
+  "unresolved_findings": []
+}

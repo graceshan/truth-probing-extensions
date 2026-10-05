@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "candidate_commit": "c30846d90e0695f1f55f29f2bb92d5a1a754ad8a",
+  "candidate_inventory_sha256": "4646dcc19e0eeb90aee535addff3b0b7a6f952b19aadec059d323a3f0176e9b8",
+  "review_branch": "checkpoint-final-e-paper-review-20261005",
+  "review_path": "paper/final_e_review_20261005",
+  "review_inventory": "inventory.json",
+  "candidate_unchanged": true,
+  "findings": [],
+  "required_corrections": [],
+  "scientific_recomputation": false,
+  "merge_performed": false,
+  "publication_identity": "Exact review commit and inventory hash are supplied by the final remote-verified handoff, outside the self-referential review inventory."
+}
