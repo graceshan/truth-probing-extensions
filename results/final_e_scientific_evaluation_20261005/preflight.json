@@ -1,0 +1,1218 @@
+{
+  "accepted_safe_stop": {
+    "bytes": 2169,
+    "sha256": "f70563b6d1c027833ca5c39407626a802b2bc48e2eb4a40da44961910202ce0f"
+  },
+  "artifacts": [
+    {
+      "bytes": 1393086,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/030d9b59ad824ad9bda207b5/fit.json",
+      "sha256": "4d1b46a80df7370a011185b021f00d700997ee7171d482ef4333245766a238a4",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/030d9b59ad824ad9bda207b5/parameters.npz",
+      "sha256": "fe9fd5c7f1a5ef74d096e44070ae74529dcac37094bd8d4fc5bbbe062a155106",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393033,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0451ba48e3a2b1e5982f7516/fit.json",
+      "sha256": "fd3f1020c75e8cef96b67bddcf969bede626662803603debd23dcea8f41e3b27",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0451ba48e3a2b1e5982f7516/parameters.npz",
+      "sha256": "d9aae60c7aa75f0fef7dcc33c5904d595e15acc09f465eedce4391a6734be249",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384974,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/07e57fa748b5cd2b0dc36d65/fit.json",
+      "sha256": "a2e0bdb433e458a71e7072afcec2dcaf04c79a9b6686366c3cc86580acc7f240",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/07e57fa748b5cd2b0dc36d65/parameters.npz",
+      "sha256": "fe25b0efc5a73c7383f03fa7ba436e520d561826cb2f609fdd00fbedf4111388",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385038,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/fit.json",
+      "sha256": "593b25a835158e077feb4f300664cda171f1f1e04f587a7d2b29445f1e45f2f1",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/0b4c1a53637be088b54eb840/parameters.npz",
+      "sha256": "df72bdfa5ef02a59a409e37fdb7cf2e57b7bf42e0422420706e2cac19bc6aad2",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384863,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/102617361f7a85ef024795e2/fit.json",
+      "sha256": "1d4077ea1deabbf258fe0d1ad2af4661a764bcdb01da19e9682fdf1ef17651d9",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/102617361f7a85ef024795e2/parameters.npz",
+      "sha256": "f5adddc146b8e3a029847364d7cc8c567295281d66666939582977765f7196f3",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384910,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/159990ca4f6ea095c4927394/fit.json",
+      "sha256": "5003de237e710bcfab5b0f5ea02248aee5a8083033b8e63124e91419d7abc626",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/159990ca4f6ea095c4927394/parameters.npz",
+      "sha256": "bca9a119fee1074602e694a85fd48de80ed0b0828057f5c0d8a26b3ce8ecb5c7",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384965,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/19c8bed4430d487e88073512/fit.json",
+      "sha256": "4e26966d88580e47050202cb50a5648577a3c909cd5579c9bbb9a6cc4a914a85",
+      "source": "b25"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/19c8bed4430d487e88073512/parameters.npz",
+      "sha256": "e27e31c63c2d72ef58b2a649db97250f1f5bed148036c7e0e97c7b43f3d5d979",
+      "source": "b25"
+    },
+    {
+      "bytes": 1386593,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/1be4a6840e9814f7b62fe801/fit.json",
+      "sha256": "4fa312045bdc7c3b8df460365bad94ac1dde88b13d0fc0cf933411b1890b9876",
+      "source": "b25"
+    },
+    {
+      "bytes": 462794,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/1be4a6840e9814f7b62fe801/parameters.npz",
+      "sha256": "cf67eb2d7c7d9f493be3e1583334667367e7399f42aa54d5704c241ea08123c2",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384885,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/21abd81caeb4c964adf7ae87/fit.json",
+      "sha256": "19d0c6fc2b0c13a8ed708eaafd4c9b85af8052a43641d3f162dbb0804dcd4e5a",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/21abd81caeb4c964adf7ae87/parameters.npz",
+      "sha256": "46b431356a542130f2f9c9d3371fddde48f36e9eb1c73a34445b4b2baf67e70b",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393036,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2903759279e9a7ce3e545c53/fit.json",
+      "sha256": "1129bc9fca26e0e85567ad33b2650f28ecd4f79d2d08bd182da19207f77f6cb6",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2903759279e9a7ce3e545c53/parameters.npz",
+      "sha256": "a223632d80e69e87deae90ad44fa2cfec1abd7a161582a056ab0c6d619e7baaa",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385008,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2952c30f0cc7f9084ed08b2e/fit.json",
+      "sha256": "1d6220a849ae0dd7770aa292283b4b67df7e078022d6fea4d93792a7d5e5743b",
+      "source": "b25"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2952c30f0cc7f9084ed08b2e/parameters.npz",
+      "sha256": "1877c4961ff25764d04b83350863befc0b5205509487d9b732fc9ce2c568e6c0",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393040,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2c777447b425638f5c45084b/fit.json",
+      "sha256": "da900e2e22f68988ae4042575d5004bec112dd7089ad6f0d2e2107398eb30f42",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/2c777447b425638f5c45084b/parameters.npz",
+      "sha256": "4b2740719eedc8c15ab08477eaee189ff1c1802b44ce067b3009a840edf5fdce",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385005,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/386c7aaf526f8f3ab7c9bc46/fit.json",
+      "sha256": "f564d1044f50b68ff204f8235e5df825c6618c9114277cf94db88b40c83d2788",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/386c7aaf526f8f3ab7c9bc46/parameters.npz",
+      "sha256": "89d2de8351f0f11a7d494a019fde604a5156aefb7264b3c0321aef3d95cadfc4",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384927,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3abc5f8a6197cdc8a15df466/fit.json",
+      "sha256": "f488fd6984b470e056de11b459a7a65693a6ad38cc93a05d2bee97eddfbcc590",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3abc5f8a6197cdc8a15df466/parameters.npz",
+      "sha256": "b80f8d9335a4dbaac6553dad54d6d882b3c8ea742ba2ced733e081fa6d9d65a9",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384967,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3c72750fcb88ad43580fe861/fit.json",
+      "sha256": "7b5320c8c3a8e035a241c6edb7468f0d4cf16a830d3f46810c4c72f64c09369c",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3c72750fcb88ad43580fe861/parameters.npz",
+      "sha256": "b052cd0d9d27aaa53cf3a390a844c3a75ae4623f72d8c2bee9ef9727d22d98ca",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384945,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3cb751910b2eaf439f0fcc87/fit.json",
+      "sha256": "32d9965be2be8d42181439e29a3648d4ac74ef1f88f40cadc5d99442137639ff",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/3cb751910b2eaf439f0fcc87/parameters.npz",
+      "sha256": "8b28b803ace3a90b667bcc855a06a8409f9f49708f1a4377757e64459a9d44d7",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384902,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/41e29f4c4eac766a6af11cdc/fit.json",
+      "sha256": "2ba91af1785cd3afd7a224738afb580e13105eb1bad9495e0cb43dc7bdb08364",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/41e29f4c4eac766a6af11cdc/parameters.npz",
+      "sha256": "07a70bcf623d5c25a7da789deae386ed1c715d9893ad5d1cd83904fbf78fbacd",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384946,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/449c7379253cf47045846fbb/fit.json",
+      "sha256": "ee7332b63260448c3ecea4e3ac5ef88a1bc937cad8bdbe9e5fecfa41a54adff9",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/449c7379253cf47045846fbb/parameters.npz",
+      "sha256": "2efb5be3738a49683247c4d9545c2d18890b0b3254cf17b661a771698a08fbf0",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393053,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/49b586b62e15378a58d07499/fit.json",
+      "sha256": "c934710530ce96c8d361cb9d6ee755f204bd0df4421022a05d5af020b47d85e6",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/49b586b62e15378a58d07499/parameters.npz",
+      "sha256": "b0efe903a2fed735163511e5446a6f15be3a32c8c912ab858f0f71b63fe022e7",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393081,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/4a72e16ba8826e8bde1c1345/fit.json",
+      "sha256": "0c4534b84a699966141f8bb292b91c59da5f58381fc39dbf6d5b310deeb7dd57",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/4a72e16ba8826e8bde1c1345/parameters.npz",
+      "sha256": "a176858ea24b0d544915b6f9119f16dd5ef5585c172bc10c557a703d9e703d3f",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393036,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/4d880948576e1ee7ab194b0c/fit.json",
+      "sha256": "3eb1e7c204a3ab6003610fd67e766501e12e6f9a69ef090d0d9c17d1b341a932",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/4d880948576e1ee7ab194b0c/parameters.npz",
+      "sha256": "bd16be2ccaa9fd319a3e208c175ded50ecb76ebd6df291ad64e39c88971f85ae",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385154,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/517cab8de8b62555bf8e8ee7/fit.json",
+      "sha256": "3a45b2c2ea3ffe8c9eea1fc8c8cb17d27ffe6641823882dfe103b7da3e5f29f2",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/517cab8de8b62555bf8e8ee7/parameters.npz",
+      "sha256": "5aa464630c04afbdf7e647cb24e2490614a7e973b1c5dc56938388448f16df4e",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385028,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/5977f9563f988abcfa71f0f2/fit.json",
+      "sha256": "613aa127ef451f6eb0d768ca859633af76acd4726e9c9d52b6bd3762a436ad31",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/5977f9563f988abcfa71f0f2/parameters.npz",
+      "sha256": "7202b2f74515245ba47179f908aa75719cf86d414b15b5d3989c225f089a27cb",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385155,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/5cad2a6f93ce0db1c122a8dd/fit.json",
+      "sha256": "6eb904105f527eeb66d71f4170a77bc2060a1c6c6b0b5f7b329d4b623831f468",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/5cad2a6f93ce0db1c122a8dd/parameters.npz",
+      "sha256": "d8559bc7332e52b7ec6be5bbde7cf61907474ad5451941f7e02e17d9611eb734",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384940,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/6067ea38e3b4198748b6d8e4/fit.json",
+      "sha256": "331c110db65b0ae8cc7d7caa005ceebb45d86584a2791c222efc1fc018f77a49",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/6067ea38e3b4198748b6d8e4/parameters.npz",
+      "sha256": "637ffce68e5e01da15d531b5f39de65028c2802b8117d37baeb8703a0d22dd40",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384944,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/619fcb3b083eb1d1a9c5e7a3/fit.json",
+      "sha256": "8591f0bb8f35d09df6c8a8f08c3792cf7217a8fbc65b054848145df0f240e49c",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/619fcb3b083eb1d1a9c5e7a3/parameters.npz",
+      "sha256": "7c6e30eee7f376b098b8ed88950035e34b8e6b8b1e4e40ffdf004f89a2da0ab4",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384956,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/63cdfe58c2ec5ca1010dfd93/fit.json",
+      "sha256": "740d54aa6941c2f0b657ab86885633bf1ff242e9fdade4baa1e6fd779f68bb95",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/63cdfe58c2ec5ca1010dfd93/parameters.npz",
+      "sha256": "b8ca05d7c5afd76d23dc2eeb2f3cab59b426d31dfc8ec9e9336bf46da7c912b5",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385003,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/6b51a44da04aa4ecf72bf2a2/fit.json",
+      "sha256": "e0a1cd331d5d8f64918d0c2258225676ca9471f9d93ba872e8fc40a36c89ae60",
+      "source": "b25"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/6b51a44da04aa4ecf72bf2a2/parameters.npz",
+      "sha256": "7344f472d84b341c54fc5800cfe85d0c9463696a2d6e49e708c848c512431eaa",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384881,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/780cf7d6f6c11b562dd4fa7c/fit.json",
+      "sha256": "630c7abb962ed5a4489c39743902f2731a7e585adc46a0cd30f69187637db10f",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/780cf7d6f6c11b562dd4fa7c/parameters.npz",
+      "sha256": "908a4d6420965b06246e19fef187c6b88ca7de9a38cdfa560737618cecf1554c",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385099,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/7fc75f30140074a9a22fbbbe/fit.json",
+      "sha256": "593488f91294edc59ce1b36739c71802acfed632da4ec0cd3fbacd1b4e46cace",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/7fc75f30140074a9a22fbbbe/parameters.npz",
+      "sha256": "422155c46c930c0cbf94f7a5c84db20b5599c0d37179a8486369d5e6039e20ef",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384879,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/82cca354cf456a0937589a7c/fit.json",
+      "sha256": "a9ff84d18291d399a8e0ff11f962968e2bdfc2fd4aea0565816d46d24b107c35",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/82cca354cf456a0937589a7c/parameters.npz",
+      "sha256": "4d10253e5750a0c06466b59a363dc776b3a8f197cad3b9331a5307565b283728",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393086,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/84bbfc4601a1592edc3bd5b0/fit.json",
+      "sha256": "e439197c80464a5c21c9a88e65504f75765270fef608d2363fcfc9d5909e3b7d",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/84bbfc4601a1592edc3bd5b0/parameters.npz",
+      "sha256": "74ae8c0c92bde29c2369b97717cb1d391625e4c46c0deb1b2f6cbcc171016831",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384443,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/85102cf2ebad059c8471cf0e/fit.json",
+      "sha256": "325df8736beb0f75fda93cd83e12413bb820578dd56995b79425e40f14298839",
+      "source": "b25"
+    },
+    {
+      "bytes": 115968,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/85102cf2ebad059c8471cf0e/parameters.npz",
+      "sha256": "8bd74f395f6db4150909e64261a369af966a65f31ac8ea95c7de24cdb96c4ee1",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384845,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/8e88976b1ddb50b910c74c9c/fit.json",
+      "sha256": "75136be4f66f7346310c1661710af61a4523e6ba13d3836538a3e6838aa071ee",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/8e88976b1ddb50b910c74c9c/parameters.npz",
+      "sha256": "ec4026b43238b26445a1d4fbf434ddc7f8d98fe916aa3ff40b6c3388b545cc4c",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385134,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/8fa3f2f9759522f376f42719/fit.json",
+      "sha256": "b21cef5e81760fdaed91d8bcb9fb7963d60e952198346302ff82c0da0be402ca",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/8fa3f2f9759522f376f42719/parameters.npz",
+      "sha256": "58dad2de5af1f4365bc4774156ad7250b072e59dff4572cd223be9fb35516d17",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385017,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/91555416d68045a1d3d250ff/fit.json",
+      "sha256": "e81d58a424ed01def01e23bec5626f047e3bfc769b184a0c2581f4e4cdf78492",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/91555416d68045a1d3d250ff/parameters.npz",
+      "sha256": "c9314ba90f3f62f5b34f7952606968bf3e6c1bbc72b1a21adfe434c0b32b12f4",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384955,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/925b027a0bc2ffe9b6b8c418/fit.json",
+      "sha256": "ed3d1ea348517450f4f63afac94808936e9bd95a6fb8390609a73755c3d1e4f9",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/925b027a0bc2ffe9b6b8c418/parameters.npz",
+      "sha256": "543f80d58c39645e9eb3743c869a3be5d8542477fb1e45ffbc62fbf6bef14d7b",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385132,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/980d881764ddd4078d0327f8/fit.json",
+      "sha256": "2864df726c412941aea956f6fb75e9db1b0578d2ae83a86bb38f253495f41deb",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/980d881764ddd4078d0327f8/parameters.npz",
+      "sha256": "b7354a355af584ff580f9ca7c3c59b29b400ef448f1e61eae0b55427af5668d6",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393079,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9aae002fbc0c9b937eb9448d/fit.json",
+      "sha256": "d190dfae31be70661749b115ea2f8c8b469c1dc2298a0f5a109d325e5b2f55f0",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9aae002fbc0c9b937eb9448d/parameters.npz",
+      "sha256": "364c7adaa7756d28aa401c4b6df25d08923cecf9d097e4f608ba22e70197335c",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384911,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9b593c3900b04eb9091b5019/fit.json",
+      "sha256": "02bfeae893a6f652b9632b487faef460eaaed68a88d1ac675eaaef97226d0c50",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9b593c3900b04eb9091b5019/parameters.npz",
+      "sha256": "30e9a3c0a2b2a831dd6fcf4feeab2470e1705431f6ce294832655e10229e1a86",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384850,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9b6db243fb517710a5fbda42/fit.json",
+      "sha256": "debe560a7335bd62d0f778c23cc9aabac4b7a64a3b04b11d1147a8c622e99ceb",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/9b6db243fb517710a5fbda42/parameters.npz",
+      "sha256": "f9db154e07c8edc89c771c8caf5060865e5d83d6d267438284a80a68d4bc42b3",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384861,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ab8679e9eb470997728730cc/fit.json",
+      "sha256": "313a34a1bad48a346dd832c3e5231fedb05e80e269db1897ed46a56ecc93ee86",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ab8679e9eb470997728730cc/parameters.npz",
+      "sha256": "d9d2ce86a921ea2caba24b0e6080a7ba889fcccd4703beea60c377cd0c785e92",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384979,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/af9b091d2e6908e5212456ce/fit.json",
+      "sha256": "d74b3e35d1a752c1694e9bff99000827ddf205a77b039c59524cd0c87352a992",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/af9b091d2e6908e5212456ce/parameters.npz",
+      "sha256": "e8ee5e272c8d52cef874ab687d4b17f6f45edc501ffa1b7b2197b17258464080",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393071,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/b3a4534b56127df2c0eea49d/fit.json",
+      "sha256": "6a266d0ebab289bd8e6233864cdc85b23b2e217e9067d8e87f0a5840898f86fe",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/b3a4534b56127df2c0eea49d/parameters.npz",
+      "sha256": "c69f01912b969fad4404b0b30ae944cdd227ee0ad000a728ed364a22164220c9",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393032,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/bc2087de87f4675913ce9be0/fit.json",
+      "sha256": "1faf7267e36905a2df61348140c1409f90ceb8de2761d1161471e8e2b5071aba",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/bc2087de87f4675913ce9be0/parameters.npz",
+      "sha256": "e0635cfac04f9c77904a1223ed3b7db58363aba46ed90815bac52ac51d30c55c",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385100,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/bef380865cd70307a9910c16/fit.json",
+      "sha256": "6e95b3fa9dd602f1c7d99112b75d0906884c36caaf002e6e8f719343955a0b26",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/bef380865cd70307a9910c16/parameters.npz",
+      "sha256": "a04d5ee748ab87b0d109842e2374195830e7e141b38b6b22e22a738e22c0d876",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384901,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c0b2e97f423958a46a7ba245/fit.json",
+      "sha256": "39e37aad4a55e486e28664b0a9c937b37c5722f86b450d43ce08bfa0f428fc62",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c0b2e97f423958a46a7ba245/parameters.npz",
+      "sha256": "412f57962893b8b1013cd78098a361370a854a3ac05bceccba32ebeda5654d07",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385011,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c44d8a48322b0062f3385271/fit.json",
+      "sha256": "6d8dc3fa795a8d90ff411af212deb76fd00575d3cc563253251c300380204c7f",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c44d8a48322b0062f3385271/parameters.npz",
+      "sha256": "6d7045d1d0961369037784788992d43bd68e4cee17ae4a8129b6bf559053c762",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384957,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c8d1d47a565c419feefc61ef/fit.json",
+      "sha256": "15200f22efde173cac0bfbfff7f1f8208605035d352601f1afa1d3eb4fcc112a",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/c8d1d47a565c419feefc61ef/parameters.npz",
+      "sha256": "e76df16992a8a9f479080b5bd694dff17470cce9bb3076ff1bb4cde01021d210",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384429,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ca1759b0be81dc0ecb92a520/fit.json",
+      "sha256": "574c8a4bbbef79a15996bf18791ef34e574bd6b4c80098dbf3b4cab36dcee168",
+      "source": "b25"
+    },
+    {
+      "bytes": 115968,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ca1759b0be81dc0ecb92a520/parameters.npz",
+      "sha256": "796312610ad668303ebb972f66a98c18d1ac5a85f7262d7f4abce48401eb9949",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384872,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/cc5c703a4f39d232c422dfb2/fit.json",
+      "sha256": "35c55c563fca30366691a56db3152cae61bfb23ff5fd19a903d4080a080286b6",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/cc5c703a4f39d232c422dfb2/parameters.npz",
+      "sha256": "e684b5bb2fc6485f899e565909b21efb7603dde5d0ff1b9bd46cec3869bc9a82",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385093,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/cead9ca2c1cf3ace9992272b/fit.json",
+      "sha256": "2b7deca2b6c5dd602ff10375183a2a1b364efa83762c9c1477d5fcfd5c36a97e",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/cead9ca2c1cf3ace9992272b/parameters.npz",
+      "sha256": "681a0fe5f85a983c5d0ace21bd3849d0cb7b2197f8510c40b292343008361c56",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384903,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/d37d4d23108710c4cd48b648/fit.json",
+      "sha256": "3e20ebfd74a76ce3f885fe2e2d4bca237f1c331836f6356b2629fec9bf6703ef",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/d37d4d23108710c4cd48b648/parameters.npz",
+      "sha256": "396e7eaa54dcafdc2cbc9534b52552769f242f923446568773b42ad9bf7c7fd0",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384928,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/d87351f1a74deb03462e4325/fit.json",
+      "sha256": "0a551f9b25d34649c9c732ff5e5589bdb8606a75783201b085819ce9dc0e869b",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/d87351f1a74deb03462e4325/parameters.npz",
+      "sha256": "9f9d97165554a7d10d8b86250985a0539d15900ab2c54ef51d1aec16789b32c3",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385097,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/dbe0cfdcc03d9489d870aefd/fit.json",
+      "sha256": "2569db951fc259822c052cbb5fb4002eac754ee03ef1fd287f8c7b3853fff270",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/dbe0cfdcc03d9489d870aefd/parameters.npz",
+      "sha256": "0c85a55b16cf98805f7c40838fafd876e829f13bdf244b454ec0dc8a986d1ab8",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384879,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/dd04070657166d4d55ea0f8d/fit.json",
+      "sha256": "30a91958926e0f3e047edcc783ae1f215685a30b2930700c8c53a89de777a059",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/dd04070657166d4d55ea0f8d/parameters.npz",
+      "sha256": "5cbe34a2514f7be52d78fd249cd5cddb7fff8e805d10eed76378d8e6cc6d0a5d",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384904,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ddd35c8017b8b887ecd67e50/fit.json",
+      "sha256": "aca883c8af2c744607e7095a20a674a7e6bbcc4c1d2f61eb6b3eb861536941d8",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ddd35c8017b8b887ecd67e50/parameters.npz",
+      "sha256": "b86fdcf9c68d636a551e375dd20ccb588c3aa9457dc2185c45fdf6bce184b224",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384903,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/e1105de890751814dcf16ff0/fit.json",
+      "sha256": "a49c5b3414cbaae56f6a6b70f028f49311ac66067e44080d29417de67e19b218",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/e1105de890751814dcf16ff0/parameters.npz",
+      "sha256": "9f4c1ce8a5e8b82ee8752082a6146bc63f867dfca8ca377c72f58ae8636f6a4a",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384972,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/e727cac62b2a0e312834b798/fit.json",
+      "sha256": "7fbda0584cdfa34f891254435a68233236c6d70b0494b062b85815cb2dbf37ed",
+      "source": "b25"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/e727cac62b2a0e312834b798/parameters.npz",
+      "sha256": "72896eb002c95f6b5bd4571c794cd6756827189558dfec1e48082af9f243dfaa",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385118,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ed24c554eb1dbc126355aa45/fit.json",
+      "sha256": "ab2536bdfe4b8c207bb159b9d52f208c0c007e987419c966b34253c9160dc9d6",
+      "source": "b25"
+    },
+    {
+      "bytes": 149026,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/ed24c554eb1dbc126355aa45/parameters.npz",
+      "sha256": "bdee3609f0a9d3ebcf09bb389a0877cf9645e41d439b44b763b626570fc4154e",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385012,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/eee4821d7fa97e15c351b765/fit.json",
+      "sha256": "495ea630a1991e578625d7d237e02398c082722399dd87f9df11abd5269cfd5a",
+      "source": "b25"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/eee4821d7fa97e15c351b765/parameters.npz",
+      "sha256": "56b278b671ba682d557884c0ee4ff2c15da56e8321855e63c6a6a25fe6ea69b6",
+      "source": "b25"
+    },
+    {
+      "bytes": 1393041,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f84b79445832591104ee5cfa/fit.json",
+      "sha256": "d1ffcd4bfefd6085fceb6f7354c971c4bc5672670fba43e874002fed1826e423",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f84b79445832591104ee5cfa/parameters.npz",
+      "sha256": "61440815d3e41f20e25c9812c6e1abf1ccd4d3c4bfa47076d987e4c3a8e17ec1",
+      "source": "b25"
+    },
+    {
+      "bytes": 1385011,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/fit.json",
+      "sha256": "e4ad0a4de59aaf9e6f901e9767bd38e72d02f8c1f52559f28fc3261caf9ae17d",
+      "source": "b25"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/f86613d6e26303ffdaaf17b9/parameters.npz",
+      "sha256": "2b76f0db47a73b39de40b45b4d1f5f3f9335491a72d48c06cc9a6d14c0a4a2e2",
+      "source": "b25"
+    },
+    {
+      "bytes": 1384961,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/faab9265c373089388e2cd2b/fit.json",
+      "sha256": "75b941011e519882b83e1fd0b4c54b2c59f0296d34f5241b611f3d9478dc2e85",
+      "source": "b25"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/fits/faab9265c373089388e2cd2b/parameters.npz",
+      "sha256": "97f37f364c95c286f2b9a3c3b3891e22800513953f23df688b3c7a5795d473f5",
+      "source": "b25"
+    },
+    {
+      "bytes": 1863463,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/run-5e1bf47/locked.json",
+      "sha256": "f6a67cbab7488be3e45f0e96f18dfae3a6b97e1c9e1570ed547da1b297f94385",
+      "source": "b25"
+    },
+    {
+      "bytes": 10555,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/final-fitting-inventory.json",
+      "sha256": "cd71a83f78560142455c1f5f27da3fe16fae4f724b32f95e9e99ad3566be8e36",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2212,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/1157011dee7cb76278ed349f/fit.json",
+      "sha256": "8a2196d2f0fe1d7534283f9e32c7877e14a13a7cbef8d9e7db94d3d70d645062",
+      "source": "constituent"
+    },
+    {
+      "bytes": 33294,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/1157011dee7cb76278ed349f/head.npz",
+      "sha256": "38e842b0aa21de7db2a0edf00f3c5dbc054b15d985edbc87de43a49b8145f954",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2210,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/1e9e255cac626c514d99c458/fit.json",
+      "sha256": "1a44ab7733b9cb838253109205e89fcebdafcfdd2860ec28ccde5f28318f9204",
+      "source": "constituent"
+    },
+    {
+      "bytes": 33294,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/1e9e255cac626c514d99c458/head.npz",
+      "sha256": "73943268907b0423adef6982d5eca92ff42d6b198926ce33ed31e1fa12fcf507",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2211,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/2770a05e82b211ac5b1c43e3/fit.json",
+      "sha256": "fbfb43b0335d7b6745bf4a8e309aad3b76166ad489a01c8ee3e259f1d369a9b1",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/2770a05e82b211ac5b1c43e3/head.npz",
+      "sha256": "ae58eae802dfa3ab29603d3352a6a34d4744cf329c58f38987eb0cf9f856caf3",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2209,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/30d9b6021616d6eafccec46d/fit.json",
+      "sha256": "e5f84ce3713758af215fa6e727e08dd0deb591c636109e528a6ec1789ba9572b",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/30d9b6021616d6eafccec46d/head.npz",
+      "sha256": "4e9f91caf2ec8226b93bf254ee11b1722b3d7131dcf82dfe5939b1e18c73bdd2",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2207,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/332825018cd64269e1e0228b/fit.json",
+      "sha256": "18b2aa8f55622936c5760b394dd3471c71cbd4a74f5c5b9bba3977c56f9b0f96",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/332825018cd64269e1e0228b/head.npz",
+      "sha256": "9ceec8b47d4e21df213846690ce5bb36038ae506a8c72232af720c0f21476b75",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2209,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/6e63208807fb62b72b575c02/fit.json",
+      "sha256": "60cd098a3d6859332e224fc756a6c97729e9fd7fe66a6e2eab85e3dff0a17872",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/6e63208807fb62b72b575c02/head.npz",
+      "sha256": "c540673df1d04444922cab21303acf714a3b2d8b6d5101e8dd8bd6227f0da8dc",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2215,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/998177a31916672d3fd84db9/fit.json",
+      "sha256": "62071f3c9ebd5d687a186f6bd794319edb6a88a9af55963647e1cbd68ce1549a",
+      "source": "constituent"
+    },
+    {
+      "bytes": 33294,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/998177a31916672d3fd84db9/head.npz",
+      "sha256": "44e5b5fbfe5d905cebff4a7d0bab479e079dacff2f1a7313a348b7c8004e7235",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2209,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/9d9b7e53b403cd149e4525df/fit.json",
+      "sha256": "f7d26bf88c8ffe1b235417e49f93a11dfe914e5be25ee87b28c1b123ef021728",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/9d9b7e53b403cd149e4525df/head.npz",
+      "sha256": "142072878e6ed7860c84692ea5805a23a01b7b6b543d485ee60e4caf444c0f3e",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2210,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/a9705d47b3f668781c5f69a9/fit.json",
+      "sha256": "63c04515eedb2ff241ac95a057feabb66b212e3f264140cf57d92ff680e1129d",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/a9705d47b3f668781c5f69a9/head.npz",
+      "sha256": "b0779d4f693df878ac88b31e92d9d3c41b40138bd1c922d4f24341b5413e46e9",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2210,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/b7d2767e8bcb10e3ca2f05ac/fit.json",
+      "sha256": "505203669cd98e775b5a587a7cfa519a770c00f2b930c12860246cf7662d6eee",
+      "source": "constituent"
+    },
+    {
+      "bytes": 33294,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/b7d2767e8bcb10e3ca2f05ac/head.npz",
+      "sha256": "f3990632f86b7c91e3ad517dfb61215b3b8ba948cbfd410b776b865f1af91c9b",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2207,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/ebb626dea249785b23e17afd/fit.json",
+      "sha256": "3490b124db3c9f6081061e1e83867e1cdf5925d38b48cddd0ff5827d6e135a15",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/ebb626dea249785b23e17afd/head.npz",
+      "sha256": "5b690f9fa60959553f1270cfe44e97696467c6c2927f59406257659c352e1e50",
+      "source": "constituent"
+    },
+    {
+      "bytes": 2207,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/f7212043a291de3b0325a229/fit.json",
+      "sha256": "fedbae63e738fdf3f748c40acfe1ec3e148f1e870d1cfb011487a7fe47cf0871",
+      "source": "constituent"
+    },
+    {
+      "bytes": 29198,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/fits/f7212043a291de3b0325a229/head.npz",
+      "sha256": "4ee73ed7433be175af98605b25522c214115b14e7fb04b5ffe55428afbec304e",
+      "source": "constituent"
+    },
+    {
+      "bytes": 316285,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/locked-selection.json",
+      "sha256": "61a5fff9c703cd104c470848434a40796296cec5d5de90d342a7bd62efa57eb8",
+      "source": "constituent"
+    },
+    {
+      "bytes": 682,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/llama/L12.json",
+      "sha256": "987cf94432ff8048a776ae391210b8aeba57c6d852bc16c171dbeac70ad5da01",
+      "source": "constituent"
+    },
+    {
+      "bytes": 103434,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/llama/L12.npz",
+      "sha256": "b71db6a56e79b0eb16898e233cf18011767af7ca406a99052533ec3b8cc8d3ca",
+      "source": "constituent"
+    },
+    {
+      "bytes": 678,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/qwen/L18.json",
+      "sha256": "f8db86507fd8dac993d250ac07425d322fe2ab4d0ed9c4890fa0e89348098b24",
+      "source": "constituent"
+    },
+    {
+      "bytes": 90634,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/qwen/L18.npz",
+      "sha256": "84b1c3e055c4dfa18504f172303f4ac01ae89fab359445a035c7d8f099efda80",
+      "source": "constituent"
+    },
+    {
+      "bytes": 678,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/qwen/L19.json",
+      "sha256": "3d4426c593b235dd61975b488588f2314f925bdb62421abd7809f15093834b19",
+      "source": "constituent"
+    },
+    {
+      "bytes": 90634,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/run-2d28c0b/preprocessing/qwen/L19.npz",
+      "sha256": "e22f5de95563f1e8857e47eae4a3e3db267bbf3c066c49a770298af205949596",
+      "source": "constituent"
+    },
+    {
+      "bytes": 1386245,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/3c2f3039c8a30cbd1ec57497/fit.json",
+      "sha256": "0f7f8323a9ae21bab74c2a48f72a5e8a31c72dadc8679accdf3267e2140f5de8",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/3c2f3039c8a30cbd1ec57497/parameters.npz",
+      "sha256": "8080f65a9cd461d035ccf3fe27a87aff5b3898b07a73b15bc2889615cd768662",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1580005,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/5b99200269f378bed2063b07/fit.json",
+      "sha256": "eec0d6e27529b3acead2cd408e3ce7306975e1af3ff417bda8f5c3692c92ed14",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 170018,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/5b99200269f378bed2063b07/parameters.npz",
+      "sha256": "58f2fc62529bae63f9ed093f69b563c37027f35137e2c5a0868cb95dc971a4d2",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1387833,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/69b5d18d5610d070fb909204/fit.json",
+      "sha256": "d9dc46ad21b87addc3939268e0237f3a5bdd37be25d56a76b21d8dede374bcc8",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 462794,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/69b5d18d5610d070fb909204/parameters.npz",
+      "sha256": "048921a1eec490d51457e77a028710bfe67c89fe1ae07265cdf744918ac035d0",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1386216,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/7106ec69703b00f5ce627973/fit.json",
+      "sha256": "53b796c184e4a51413df860f5b2f74585ae9188168ee640d14ee2f9e4b4961f7",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/7106ec69703b00f5ce627973/parameters.npz",
+      "sha256": "407435465e0c1ebd1ac039c0a4d8867c21a6e42669ab08d5f36a7c494f519921",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1386136,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/b53dbdd4c08f534d9bcc66ae/fit.json",
+      "sha256": "031f5f841ed2f3c8076e3aaced18e6a258c6aadc78f917607e121b52b6f49057",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/b53dbdd4c08f534d9bcc66ae/parameters.npz",
+      "sha256": "4f930e49e22cdff517d2dd94aadb7abaa20ba9f0f76820a1a0c48cf000cf287e",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1386236,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/bc4ca2da3782ae34ebcee8b2/fit.json",
+      "sha256": "bd52acb589421bfa183721875eaba7ba7cf1b7faf68080aa11e243a63f57cdb1",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/bc4ca2da3782ae34ebcee8b2/parameters.npz",
+      "sha256": "06fd721eabf9042fa1dce72077f8fa58478c78abe86dd7961ddbcf189f15a0e7",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1386238,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/cbec6d50fd05a3354fffc110/fit.json",
+      "sha256": "7db750f83cb8227abcea356987852dd0e32200fb4cbe4ab0f7de949662b22189",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 33288,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/cbec6d50fd05a3354fffc110/parameters.npz",
+      "sha256": "35d6be85622f5ea9621e773c7a62ed9beb5916ee905a8e9237326e783c444a9a",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1386206,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/d125c87463467b8b74b16fee/fit.json",
+      "sha256": "3c56219b73c7e353edf3ec856a28d74fd3f896fcd889bc0b263fdbc1f9b4fc0f",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 29192,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/d125c87463467b8b74b16fee/parameters.npz",
+      "sha256": "160cbdf8b0a0ea9ec68628d0dae7dd05dc85c087f5fac1ca06a995125999b1b8",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 1385612,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/fc55a8ba78bdd9958cf5f4ff/fit.json",
+      "sha256": "5f59be4630b6d119cf98f7bc288e5781ffd3b64501163b679e4b3e99f6c38bec",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 115968,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/fits/fc55a8ba78bdd9958cf5f4ff/parameters.npz",
+      "sha256": "a506a5ddf86af3363715df42f06675ed6fa7ccc41af972611818b5a67e3aacd6",
+      "source": "full_bank"
+    },
+    {
+      "bytes": 797670,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/full-bank-execution-20261004T002800Z/bank/locked.json",
+      "sha256": "9b89121665b4e0648ecb525611483bf6992b417953037a1e2a9ebc1bfc38de26",
+      "source": "full_bank"
+    }
+  ],
+  "audit_dispatched": false,
+  "authorizations": {
+    "audit": {
+      "authorization_sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "both",
+      "phase": "audit",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    },
+    "evaluate": {
+      "authorization_sha256": "7bab7820cd255240ab038ba19c6d78f849c69d316cb85eaa71ae8b169d9c448d",
+      "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+      "immutable_contract_sha256": "d23dd80479873f1631a0bf104e4af6634557ccabd8985457aa815d269a31f9b1",
+      "limits": {
+        "model_seconds": 7200,
+        "setup_phase_seconds": 1800,
+        "total_seconds": 18000
+      },
+      "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+      "model": "both",
+      "phase": "evaluate",
+      "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+      "schema": "final-e-access-v1"
+    }
+  },
+  "availability_inventory": {
+    "bytes": 75374,
+    "sha256": "a86fcb0159932b86efbe7ef334c80e3ecd8116e7d13458d24565bac09577a21a"
+  },
+  "clean": true,
+  "detached": true,
+  "hash_verification_seconds": 1.530397624708712,
+  "immutable_contract": {
+    "config/final_e/carryforward_v1.json": "5e4d14c80f2e255216375bdb7555235728542b72c77253cb09adf3cbfa499154",
+    "config/final_e/contrasts_v1.json": "c19cbab6ab81bb39172d43fa8c2863ee4ca43f73a77e15fa8af27632f84c5735",
+    "config/final_e/head_registry_v1.json": "7cab9ff61c82ef89612d84fb15326696b0484cb34d230bbac8aa35bdcd01fd31",
+    "config/final_e/preparation_v1.json": "7b2f050e97f3ada29bd95698d05d1a6537e86790d06c063973c7310849525ad5",
+    "results/final_e_preparation_20261003/bootstrap.json": "e6ca0a5c31633b6268787459ca85a501275741291706071ae945cd77653a2137",
+    "results/final_e_preparation_20261003/inventory.json": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8"
+  },
+  "lock": {
+    "bytes": 15795,
+    "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+  },
+  "new_fits": 0,
+  "new_selection": false,
+  "producer": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "raw_bytes": 9092446740,
+  "raw_file_coverage": 1530,
+  "raw_manifests": {
+    "campaign-checksums.json": {
+      "bytes": 235722,
+      "sha256": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870"
+    },
+    "control-checksums.json": {
+      "bytes": 6008,
+      "sha256": "654320071ca6d09760bf68736dffd260932fe53452901236a42d939178dc89ab"
+    },
+    "operation-receipt-checksums.json": {
+      "bytes": 2773,
+      "sha256": "f759df0f3dcb59067bc014e4f7fa39d224fdc9686538ac07432eeaaf55360896"
+    }
+  },
+  "raw_preflight": "exact coverage/types/sizes and accepted handoff pins; frozen evaluator performs mandatory full raw acceptance",
+  "registry_counts": {
+    "constituent_cases": 12,
+    "constituent_heads": 12,
+    "scalar_aliases": 156,
+    "unique_heads": 85
+  },
+  "roots": {
+    "bytes": 641,
+    "sha256": "a072433410e825bd3c288f304187c901d8da70459f5359212517df4446485645"
+  },
+  "saved_head_sources": {
+    "b25": {
+      "bytes": 868308,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-b25-convergence-results-20261002/delivery-review-5e1bf47/manifest.json",
+      "sha256": "c462744880b449f8381a30aad8680e2db237f9999ae3c62f318497ffc7c30637"
+    },
+    "constituent": {
+      "bytes": 255532,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/r2-constituent-results-20261003/delivery-artifact-manifest-final.json",
+      "sha256": "e082f09a481196014a48c53f659d48b6ec0339e6990402cde6fdf1d5c1238f27"
+    },
+    "full_bank": {
+      "bytes": 426055,
+      "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/execution-code/results/checkpoint_next_full_bank_results_20261003/external-output-manifest.json",
+      "sha256": "7ebba38170ebd7d96216e47728dedaf12b74c2a8ed2a6ba67815e26f7fb0cd99"
+    }
+  },
+  "settled_budget": {
+    "as_of_unix": 1791147296.0317307,
+    "model": null,
+    "model_seconds": {
+      "llama": 1128.7931210140814,
+      "qwen": 1043.0739877090673
+    },
+    "running": false,
+    "total_seconds": 2946.696421564091,
+    "unclean_gap_charged_seconds": 0.0
+  },
+  "status": "passed",
+  "supporting_receipts": {
+    "campaign-checksums.json": {
+      "bytes": 900,
+      "sha256": "035d000d88cd8ed0716af0dcb659d34e2a8d3d7ea09703c521a7b8ec43efcf0c"
+    },
+    "control-receipt-checksums.json": {
+      "bytes": 471,
+      "sha256": "bed6534e24202c6175b5cb7e615f129ede64631a8f9135257a852b1f2399eeb7"
+    },
+    "final-stopped-workers-observation.json": {
+      "bytes": 890,
+      "sha256": "e11a68f61f5c8e5070838ace142a1cf15a80db95831cc7a82e6a3dbf9ca3c83e"
+    },
+    "full-loader.json": {
+      "bytes": 899,
+      "sha256": "30d508fe71c614ddb3db2ecbde5abf24c238b8384c055d25b0f4af54f027bea7"
+    }
+  },
+  "tree": "93972950bca996dbfa9794dedf07934868b42e98"
+}

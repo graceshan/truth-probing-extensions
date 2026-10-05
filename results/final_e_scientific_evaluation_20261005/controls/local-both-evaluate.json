@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+  "instruction": "On 2026-10-05 the user/project owner approved Mac-only frozen E evaluation followed by independent audit, replying \"Yes I approve\". Approval is bound to accepted raw handoff e93f3aeb3cc612af03b2704d195bf17406573459, the unchanged producer, scientific lock and interpretation rules, 10800 seconds per CPU job, and no refitting or reselection. Audit requires successful evaluation and verified source-report hashes. RunPod contact, raw re-extraction, scientific redesign, automatic retries and budget resets are excluded.",
+  "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "model": "both",
+  "output": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+  "phase": "evaluate",
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "reviewer": "user/project owner",
+  "schema": "final-e-phase-authorization-v1",
+  "status": "APPROVED"
+}

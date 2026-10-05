@@ -1,0 +1,33 @@
+{
+  "E_scores_used": false,
+  "arrays_sha256": {
+    "and_both_following_v1": "c31e9dc23d1e0c0cee5346159166a05222db7161b2e0942c617ead3568890ffa",
+    "atomic_E": "9f72ed7a46f57740d5fe0b383d7565d09ac6b0aa7b8af3ab10b9c14a42afe480",
+    "bare": "c31e9dc23d1e0c0cee5346159166a05222db7161b2e0942c617ead3568890ffa",
+    "or_at_least_one_v1": "c31e9dc23d1e0c0cee5346159166a05222db7161b2e0942c617ead3568890ffa",
+    "or_explicit_or_both_v1": "c31e9dc23d1e0c0cee5346159166a05222db7161b2e0942c617ead3568890ffa"
+  },
+  "atomic_people": 294,
+  "compound_people": 225,
+  "compound_schedule_sha256": "133de28fe69c81aca771180cb4b619434a88ad49b1b6238bcf9eced95dc5ed2f",
+  "joint_atomic_compound_inference": "pending; no cross-frame joint confidence statement",
+  "membership_sha256": {
+    "and_both_following_v1": "56a3145e918fe78cf87ee8407552d02acdc074ca15dd4cb73585a50df433b52f",
+    "atomic_E": "7549efb6cb9bba9f5a06f97025ce16f84ade463e4c3ad119b73344f178ef066e",
+    "bare": "c7d17d1fddf1815d1393ee98ac380154332b3f81cc953b2460335e0c66c1fbcf",
+    "or_at_least_one_v1": "a50d91090b598f4e7fd7af54d7ef1a9d9cb74ec8db41fac1bf298eec4f98a75d",
+    "or_explicit_or_both_v1": "656623f5e9477759cbbbf19fd6bb70e5162384f301bd4c1f43b24ab0a3925aea"
+  },
+  "options": {
+    "ci": "95% pointwise percentile linear; no redraw/imputation/topic-dropping; conditional on fitted heads",
+    "method": "topic-stratified endpoint multiplicities; pair m_i*m_j, atomic person multiplicity; shared historical/corrected draws",
+    "minimum_valid": 1800,
+    "replicates": 2000,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 1729
+  },
+  "schema": "final-e-bootstrap-v1",
+  "shared_people": 225,
+  "statistical_scope": "separate inherited atomic and compound frames; shared across models/heads/samples/wordings within frame",
+  "undefined": "no redraw/imputation/topic dropping; all-five mean; minimum 1800/2000 finite draws"
+}

@@ -1,0 +1,41 @@
+{
+  "audit_executed": false,
+  "handoff_manifests": {
+    "remote-control": {
+      "bytes": 1899044,
+      "exact_coverage": true,
+      "files": 37,
+      "full_sha256": true
+    },
+    "remote-operation-receipts": {
+      "bytes": 13997,
+      "exact_coverage": true,
+      "files": 20,
+      "full_sha256": true
+    }
+  },
+  "historical_files_preserved": 27,
+  "producer_clean_detached_unchanged": true,
+  "raw_accounting_unchanged": true,
+  "raw_unchanged": {
+    "bytes": 9092446740,
+    "exact_coverage": true,
+    "files": 1530,
+    "full_sha256": true
+  },
+  "report_completion": {
+    "bytes": 65554,
+    "sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc"
+  },
+  "report_inventory": {
+    "bytes": 262152682,
+    "exact_coverage": true,
+    "files": 383,
+    "full_sha256": true
+  },
+  "saved_artifacts_preserved": 180,
+  "scientific_lock_and_six_pins_unchanged": true,
+  "seconds": 6.097435750067234,
+  "status": "passed",
+  "unrelated_files_preserved": 15
+}

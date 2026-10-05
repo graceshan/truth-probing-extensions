@@ -1,0 +1,42 @@
+{
+  "constituent-contrasts": {
+    "bytes": 681156,
+    "insufficient_intervals": 0,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/constituent-contrasts.json",
+    "rows": 1050,
+    "sha256": "b0dac84c7e1b7ec20c857734a87f46827ebf7ec99034c15da7a1caef87b5c883",
+    "undefined_points": 0
+  },
+  "constituent-metrics": {
+    "bytes": 5463458,
+    "insufficient_intervals": 0,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/constituent-metrics.json",
+    "rows": 9450,
+    "sha256": "4c75010da3d09adcf6e9e019173d6880344bfa561deab5b9c7d4c69cc22a7c1e",
+    "undefined_points": 0
+  },
+  "scalar-contrasts": {
+    "bytes": 20764367,
+    "insufficient_intervals": 0,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/scalar-contrasts.json",
+    "rows": 38556,
+    "sha256": "87a2be3006ed666483a0765bbc16aff92be807063e3ed605033a95d0a9032b5c",
+    "undefined_points": 0
+  },
+  "scalar-metrics": {
+    "bytes": 16133361,
+    "insufficient_intervals": 0,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/scalar-metrics.json",
+    "rows": 28560,
+    "sha256": "c38e88da29dda7ec3a6b32dc34a79ccb3056f03c8d8deb451a3bfa519293dcdc",
+    "undefined_points": 0
+  },
+  "wording-paired": {
+    "bytes": 2699304,
+    "insufficient_intervals": 0,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/wording-paired.json",
+    "rows": 6132,
+    "sha256": "51e77c17d7459304530eb0fb50e68e883e1708d466f551b5ed06480142c4e0b8",
+    "undefined_points": 0
+  }
+}

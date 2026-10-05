@@ -1,0 +1,10 @@
+{
+  "both:audit": {
+    "file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-audit.json",
+    "sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62"
+  },
+  "both:evaluate": {
+    "file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-evaluate.json",
+    "sha256": "7bab7820cd255240ab038ba19c6d78f849c69d316cb85eaa71ae8b169d9c448d"
+  }
+}

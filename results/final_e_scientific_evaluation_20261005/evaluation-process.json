@@ -1,0 +1,10 @@
+{
+  "attempts": 1,
+  "audit_executed": false,
+  "peak_child_rss_bytes": 3880812544,
+  "platform": "darwin",
+  "returncode": 0,
+  "seconds": 570.0335358330049,
+  "system_seconds": 97.765188,
+  "user_seconds": 443.907479
+}

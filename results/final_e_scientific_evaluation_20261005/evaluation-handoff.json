@@ -1,0 +1,62 @@
+{
+  "audit_authorization": {
+    "file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-audit.json",
+    "sha256": "41af4c83bafc4d216b5df836cb6c1c018ecdc3c6659d41d324227aad2bfa6b62"
+  },
+  "audit_here_executed": false,
+  "authorization_index": {
+    "bytes": 583,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/approved-authorization-index.json",
+    "sha256": "d9e37364fc688271f86d685e7a757b3424a2da85266eff1354c9d5829eab6d09"
+  },
+  "cpu_job_cap_seconds": 10800,
+  "evaluate_authorization": {
+    "file": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/local-both-evaluate.json",
+    "sha256": "7bab7820cd255240ab038ba19c6d78f849c69d316cb85eaa71ae8b169d9c448d"
+  },
+  "later_audit_operation_receipt": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/audit.json",
+  "later_audit_report": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/audit-reconstruction",
+  "lock": {
+    "bytes": 15795,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/transport/final_lock_20261004.json",
+    "sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e"
+  },
+  "operation_receipt": {
+    "bytes": 901,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/evaluation.json",
+    "sha256": "d5cfc010293d2207a0a013b7f36ff54af05a1367e294b0275ad772f3b658fb1a"
+  },
+  "peak_child_rss_bytes": 3880812544,
+  "process_receipt": {
+    "bytes": 221,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/operation-receipts/evaluation-process.json",
+    "sha256": "14f8a048356f9e926be5ff01253582d1f5273cf21d179bec2284608a6c237589"
+  },
+  "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "producer_tree": "93972950bca996dbfa9794dedf07934868b42e98",
+  "publication_branch": "checkpoint-final-e-scientific-evaluation-20261005",
+  "raw_campaign": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign",
+  "raw_handoff_delivery": "e93f3aeb3cc612af03b2704d195bf17406573459",
+  "raw_manifest": {
+    "bytes": 235722,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/handoff/campaign-checksums.json",
+    "sha256": "8387b3e319b6c3d9ca9c1037f6f1b46166b6cf536f11bfe494f3ee016291d870"
+  },
+  "report": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation",
+  "report_calculation_seconds": 537.6672871671617,
+  "report_completion": {
+    "bytes": 65554,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/evaluation/completion.json",
+    "sha256": "632ed93f295027701e1d798a94c758e332c747e071aee410ebb6972114d408bc"
+  },
+  "roots": {
+    "bytes": 641,
+    "path": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1/control/artifact-roots.json",
+    "sha256": "a072433410e825bd3c288f304187c901d8da70459f5359212517df4446485645"
+  },
+  "runtime_seconds": 569.8062895420007,
+  "schema": "final-e-scientific-evaluation-handoff-v1",
+  "science_root": "/Users/apple/truth-probing-backups/20261001T164224Z/final-e-launch-package-20261004-b2c6dde-88b114dd-v1/scientific-evaluation-20261005-v1",
+  "scientific_acceptance": "pending independent audit",
+  "status": "completed_pending_Mac_2_independent_audit"
+}

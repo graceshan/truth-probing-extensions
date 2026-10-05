@@ -1,0 +1,15 @@
+{
+  "audit_execution": "Mac 2 after successful evaluation and verified source report hashes",
+  "authorization_index": {
+    "bytes": 583,
+    "sha256": "d9e37364fc688271f86d685e7a757b3424a2da85266eff1354c9d5829eab6d09"
+  },
+  "date": "2026-10-05",
+  "execution_here": "Mac 1 evaluate only",
+  "instruction": "On 2026-10-05 the user/project owner approved Mac-only frozen E evaluation followed by independent audit, replying \"Yes I approve\". Approval is bound to accepted raw handoff e93f3aeb3cc612af03b2704d195bf17406573459, the unchanged producer, scientific lock and interpretation rules, 10800 seconds per CPU job, and no refitting or reselection. Audit requires successful evaluation and verified source-report hashes. RunPod contact, raw re-extraction, scientific redesign, automatic retries and budget resets are excluded.",
+  "previous_unauthorized_statements": "Historical records preserved",
+  "question": "Do you approve these two scientific phases using the accepted handoff and unchanged producer, lock and interpretation rules, with the existing three-hour cap per CPU job and no refitting or reselection?",
+  "reply": "Yes I approve",
+  "reviewed_handoff": "e93f3aeb3cc612af03b2704d195bf17406573459",
+  "reviewer": "user/project owner"
+}
