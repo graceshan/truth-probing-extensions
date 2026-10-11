@@ -1,0 +1,18 @@
+{
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "uname": [
+    "Darwin",
+    "MacBook-Pro-7.local",
+    "21.6.0",
+    "Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000",
+    "arm64",
+    "arm"
+  ],
+  "macOS": "12.6",
+  "branch": "checkpoint-posthoc-reduced-bank-e-20261011",
+  "base_head": "a8b4cd326daa243338dc7941c19d98ce75f5b77f",
+  "origin": "https://github.com/graceshan/truth-probing-extensions.git",
+  "fetch_origin_completed": true,
+  "parent_working_branch_unchanged": "t2-research-discussion-packet-20261001",
+  "recorded_utc": "2026-10-11T12:29:26.498961+00:00"
+}

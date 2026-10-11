@@ -1,0 +1,76 @@
+{
+  "schema": "posthoc-reduced-bank-e-spec-v1",
+  "created_utc": "2026-10-11T12:29:26.438280+00:00",
+  "classification": "EXPLICITLY AUTHORIZED POST-HOC DESCRIPTIVE TEST-SET ANALYSIS",
+  "base_delivery": "a8b4cd326daa243338dc7941c19d98ce75f5b77f",
+  "b25_delivery": "1187140c7f79b0b64439eff382d420f51d974a25",
+  "b25_producer": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "bank": "complete original reduced/P15 atomic bank only",
+  "candidate_counts": {
+    "qwen": 280,
+    "llama": 320
+  },
+  "endpoint": {
+    "condition": "bare",
+    "metric": "OR_mixed_vs_FF_auroc",
+    "scope": "pooled",
+    "pairs": 450,
+    "bare_rows": 7200,
+    "boundary_rows": 2700,
+    "positives": "TF and FT",
+    "negatives": "FF",
+    "exclude": "TT",
+    "orders": [
+      "AB",
+      "BA"
+    ],
+    "score_ties": "half credit, exactly equal scores"
+  },
+  "eligibility": "Original atomic D decisions; independently verify using saved pooled and topic D metrics and original reduced-LR reference minus .005. Never atomic E.",
+  "maxima": {
+    "eligible": true,
+    "unrestricted": true,
+    "exact_winning_ties": "Report every candidate exactly equal to the highest AUROC, calculated at full precision.",
+    "historical_tolerance_ties": "Also report all candidates within original 1e-12 maximum-relative tolerance, without collapsing exact ties."
+  },
+  "comparisons": [
+    "original reduced S_all",
+    "original R_all"
+  ],
+  "aggregation": "Mean of separately computed AUROCs for allocations 11,23,37; never averaged or concatenated predictions",
+  "differences": [
+    "maximum minus S_all",
+    "R_all minus maximum"
+  ],
+  "uncertainty": "No new bootstrap or intervals for maxima or maximum-based differences",
+  "interpretation": [
+    "E labels identify the winner.",
+    "Optimistic descriptive reference on this observed test set.",
+    "Not an independently evaluated selection procedure.",
+    "Not a bound on future-population performance.",
+    "Scope is the finite tested bank, not all possible atomic-trained probes."
+  ],
+  "prohibited": [
+    "new fitting",
+    "cross-validation",
+    "changed preprocessing",
+    "score reorientation",
+    "recalibration",
+    "ensembling",
+    "E threshold choice",
+    "replacement procedure selection",
+    "full-bank evaluation",
+    "wording sweep",
+    "behavior/chat",
+    "GPU",
+    "re-extraction",
+    "scientific-lock changes"
+  ],
+  "runtime": {
+    "processes": 1,
+    "blas_threads": 1,
+    "lock": "/tmp/truth-probing-cpu-exclusive.lock",
+    "large_arrays": "Fresh directory outside Git"
+  },
+  "prior_knowledge": "A separate 2026-10-10 broader analysis already examined these banks on E. This is an explicitly post-hoc separately executed and audited delivery, not a prospectively specified or first-use E analysis."
+}

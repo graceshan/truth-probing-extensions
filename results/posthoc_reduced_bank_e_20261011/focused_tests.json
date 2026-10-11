@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "command": "/opt/homebrew/opt/python@3.11/bin/python3.11 -B -m unittest tests.test_posthoc_reduced_bank_e -v",
+  "coverage": [
+    "score ties get half credit",
+    "preserve all exact maxima and distinguish tolerance ties",
+    "original eligibility filters restricted maximum only",
+    "missing duplicate substituted invalid candidates block",
+    "row reordering and label changes block",
+    "nonfinite or unscored candidates block"
+  ],
+  "unrelated_suites_run": false
+}
