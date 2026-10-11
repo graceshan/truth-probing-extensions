@@ -1,0 +1,118 @@
+{
+  "all_row_label_order_bindings_verified": true,
+  "audit_script": {
+    "bytes": 12425,
+    "sha256": "51db4b7a450dbcb5c48a5b646aab6bff1a5a9da55d4be27cfd5485cfa440b35c"
+  },
+  "blas_thread_limit": 1,
+  "candidate_AUROCs_independently_recomputed": 600,
+  "candidate_coverage": {
+    "llama": 320,
+    "qwen": 280
+  },
+  "fixed_allocation_AUROCs_independently_verified": 12,
+  "independent_method": "Mann\u2013Whitney average-rank sum with half-credit exact score ties; no production AUC function or maximum helper called",
+  "maxima_and_all_differences": [
+    {
+      "R_all": 0.9832796296296297,
+      "R_all_minus_maximum": 0.11699074074074078,
+      "S_all": 0.8446427983539095,
+      "exact_winner_ids": [
+        "qwen/P15/L18/l2_logistic/C=10"
+      ],
+      "maximum": 0.8662888888888889,
+      "maximum_minus_S_all": 0.021646090534979345,
+      "model": "qwen",
+      "scope": "eligible",
+      "tolerance_tie_ids": [
+        "qwen/P15/L18/l2_logistic/C=10"
+      ]
+    },
+    {
+      "R_all": 0.9832796296296297,
+      "R_all_minus_maximum": 0.11699074074074078,
+      "S_all": 0.8446427983539095,
+      "exact_winner_ids": [
+        "qwen/P15/L18/l2_logistic/C=10"
+      ],
+      "maximum": 0.8662888888888889,
+      "maximum_minus_S_all": 0.021646090534979345,
+      "model": "qwen",
+      "scope": "unrestricted",
+      "tolerance_tie_ids": [
+        "qwen/P15/L18/l2_logistic/C=10"
+      ]
+    },
+    {
+      "R_all": 0.9886100823045267,
+      "R_all_minus_maximum": 0.15364279835390948,
+      "S_all": 0.8115925925925925,
+      "exact_winner_ids": [
+        "llama/P15/L09/l2_logistic/C=1"
+      ],
+      "maximum": 0.8349672839506173,
+      "maximum_minus_S_all": 0.023374691358024724,
+      "model": "llama",
+      "scope": "eligible",
+      "tolerance_tie_ids": [
+        "llama/P15/L09/l2_logistic/C=1"
+      ]
+    },
+    {
+      "R_all": 0.9886100823045267,
+      "R_all_minus_maximum": 0.15364279835390948,
+      "S_all": 0.8115925925925925,
+      "exact_winner_ids": [
+        "llama/P15/L09/l2_logistic/C=1"
+      ],
+      "maximum": 0.8349672839506173,
+      "maximum_minus_S_all": 0.023374691358024724,
+      "model": "llama",
+      "scope": "unrestricted",
+      "tolerance_tie_ids": [
+        "llama/P15/L09/l2_logistic/C=1"
+      ]
+    }
+  ],
+  "maximum_AUROC_error": 0.0,
+  "means_of_three_AUROCs_verified": 4,
+  "new_bootstrap": 0,
+  "new_fits": 0,
+  "original_D_eligibility_independently_verified": true,
+  "overlap_boundary_scores_exact": true,
+  "overlapping_reduced_heads_independently_verified": 23,
+  "peak_rss_bytes": 469499904,
+  "process_count": 1,
+  "run_execution": {
+    "bytes": 5657,
+    "sha256": "6a5dbc15cea0f8a4de848b694429afef1c496d5122496e123d2647d4088e6f1b"
+  },
+  "score_manifest": {
+    "bytes": 94607,
+    "sha256": "3a1bde158e12bc130c6529e9b7bf4e8cf4d6bb42611003e0c377b350a2c9adca"
+  },
+  "status": "PASS",
+  "threadpools": [
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.23.dev"
+    },
+    {
+      "architecture": "armv8",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.21.dev"
+    }
+  ],
+  "wall_seconds": 10.378926082979888
+}

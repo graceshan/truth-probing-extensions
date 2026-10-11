@@ -1,0 +1,78 @@
+{
+  "REPORT.md": {
+    "bytes": 9246,
+    "sha256": "4f60bc2ca1e42270cf7779d03620f4c10cbb08e2e09f43bbf830081f6b4189ea"
+  },
+  "analysis_spec.json": {
+    "bytes": 2782,
+    "sha256": "36fe1c9b4c40f884536be83b6891567669556239369edf21ae034402e4c934c4"
+  },
+  "audit.json": {
+    "bytes": 3577,
+    "sha256": "387d185f4a1bea53358416d1593d293c9a7f066b0c3ce01fc6361b6b7c5f512c"
+  },
+  "audit.log": {
+    "bytes": 3577,
+    "sha256": "624cb307e84977d822b4db259837b3fd6469397596783750af519b662bd9e0df"
+  },
+  "candidate_results.csv": {
+    "bytes": 350570,
+    "sha256": "a80fac089c588f35ac48fc9663839fc74e7b22f6b77b596a4184a26ee2841ee0"
+  },
+  "controls.tex": {
+    "bytes": 1068,
+    "sha256": "ed06b1cda4554d3e3af68d2120ac7e1d7f3381712197f7a452851bf7d936c166"
+  },
+  "execution.json": {
+    "bytes": 5657,
+    "sha256": "6a5dbc15cea0f8a4de848b694429afef1c496d5122496e123d2647d4088e6f1b"
+  },
+  "execution.log": {
+    "bytes": 6142,
+    "sha256": "d636d52aed46f98a7b857f8c0fb708d9316f710a5ed2d871212a511197ba9394"
+  },
+  "fixed_procedures.csv": {
+    "bytes": 1381,
+    "sha256": "365e8404a23251f7426433853b429e22c3a3b3eb912ec467e3547e97c8d7ca9f"
+  },
+  "focused_tests.json": {
+    "bytes": 515,
+    "sha256": "69fc9887a1c8051b7e839393ec0ebe483ee3d9673eee41d86f5a303d520f4aec"
+  },
+  "head_provenance.json": {
+    "bytes": 1566324,
+    "sha256": "f4c3d80c57569bb3ffb92593c777a0002387aecb025cabb0a264237aa7c065bd"
+  },
+  "input_hashes.json": {
+    "bytes": 665558,
+    "sha256": "95790b9d256de683ac78b45d95eacf3ff7a437c90f83f2640dd352e165820770"
+  },
+  "overlap_checks.csv": {
+    "bytes": 2292,
+    "sha256": "7a658257c2c2fba344ac83742ca401fee65fcf9e18ee039e7e73c899693cc25b"
+  },
+  "rerun_consistency.json": {
+    "bytes": 203,
+    "sha256": "8fabffedb278e0bc91189b68c5d6ef9f97c8ae9ec63e71a960d87e780e36d74b"
+  },
+  "summary.csv": {
+    "bytes": 943,
+    "sha256": "4f4057d932de366c77f4a0908931a651d1a6bffb295c4bcf2b5eaa955342e8ab"
+  },
+  "superseded_run.json": {
+    "bytes": 751,
+    "sha256": "7c58eae814de3434d05d7d6534226f433671f683879f66eae0acbc45ef362309"
+  },
+  "support_receipt.json": {
+    "bytes": 558,
+    "sha256": "86a5c445152a70f0d3ed837bbeb895c9f4b19adaa21dd04ebb34f9775651adf6"
+  },
+  "winning_candidates.csv": {
+    "bytes": 2684,
+    "sha256": "0d773b6687c82c4d2ac8de4219f0843fe7d6e4295d537884684b31009b2215be"
+  },
+  "workspace.json": {
+    "bytes": 629,
+    "sha256": "da9fe72512f503b00d18c6e4f8ba83f6036f9555cd7ffe89af60f3937e432433"
+  }
+}

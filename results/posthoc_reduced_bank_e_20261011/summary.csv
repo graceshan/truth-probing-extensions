@@ -1,0 +1,5 @@
+model,scope,total_candidates,eligible_candidates,S_all,maximum,R_all,maximum_minus_S_all,R_all_minus_maximum,exact_winner_ids,tolerance_tie_ids
+qwen,eligible,280,144,0.8446427983539095,0.8662888888888889,0.9832796296296297,0.021646090534979345,0.11699074074074078,"[""qwen/P15/L18/l2_logistic/C=10""]","[""qwen/P15/L18/l2_logistic/C=10""]"
+qwen,unrestricted,280,144,0.8446427983539095,0.8662888888888889,0.9832796296296297,0.021646090534979345,0.11699074074074078,"[""qwen/P15/L18/l2_logistic/C=10""]","[""qwen/P15/L18/l2_logistic/C=10""]"
+llama,eligible,320,182,0.8115925925925925,0.8349672839506173,0.9886100823045267,0.023374691358024724,0.15364279835390948,"[""llama/P15/L09/l2_logistic/C=1""]","[""llama/P15/L09/l2_logistic/C=1""]"
+llama,unrestricted,320,182,0.8115925925925925,0.8349672839506173,0.9886100823045267,0.023374691358024724,0.15364279835390948,"[""llama/P15/L09/l2_logistic/C=1""]","[""llama/P15/L09/l2_logistic/C=1""]"

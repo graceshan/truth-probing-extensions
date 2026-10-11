@@ -1,0 +1,149 @@
+{
+  "b25_completion": {
+    "bytes": 807353,
+    "sha256": "4ccb67607f82388a3c9c79e254b976ba9176d57b1dd66fb51dbd21f707f98578"
+  },
+  "b25_delivery": "1187140c7f79b0b64439eff382d420f51d974a25",
+  "b25_producer": "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4",
+  "coverage": {
+    "llama": 320,
+    "qwen": 280
+  },
+  "external": "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v2",
+  "full_train_candidates": 0,
+  "historical_access_record_used_only_for_identity": true,
+  "new_authority": "User request and separately saved post-hoc analysis_spec.json",
+  "new_bootstrap": 0,
+  "new_extractions": 0,
+  "new_fits": 0,
+  "original_E_extraction_producer": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+  "overlap_all_exact": true,
+  "overlap_heads": 23,
+  "overlap_metric_rows": 60,
+  "parameter_producers": {
+    "3a5b7bb286876ff7bca4a57ddf2f337dc5d1733f": 62,
+    "5e1bf47a457558cbc0735bd8f9f13ca029cbf3a4": 515,
+    "b25581ca9c22d93c8c988c93c0c5491219d6cfec": 23
+  },
+  "procedure_or_lock_changes": false,
+  "raw_verification": {
+    "llama": {
+      "campaign": {
+        "batch_size": 1,
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "metadata_sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8",
+        "padding": "none",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "raw_contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+        "schema": "final-e-raw-campaign-v1",
+        "scientific_evaluation": false
+      },
+      "index": {
+        "bytes": 1627026,
+        "sha256": "c7d6a55c9512dfdabcfdc4112af3fdb014203c05f46bd765fe74325f15e80366"
+      },
+      "logical_bindings": 19424,
+      "model": "llama",
+      "schema": "final-e-loader-verification-v1",
+      "shards": 150,
+      "status": "loader_verified",
+      "token_plan": {
+        "bytes": 39250916,
+        "sha256": "8b41138d7dbeafa98d608d4d236bb065102f870ded141760d3489d1af8198663"
+      },
+      "unique_texts": 19190
+    },
+    "qwen": {
+      "campaign": {
+        "batch_size": 1,
+        "campaign_id": "final-e-raw-20261004-b2c6dde-88b114dd-v1",
+        "lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+        "metadata_sha256": "e1fa1fea1b20cf697235063c7b792d9145aa9c6a145057083b2364f146caccd8",
+        "padding": "none",
+        "producer_sha": "b2c6dde71e82f5f0af308761bf19ed3341670587",
+        "raw_contract_sha256": "ed15c662289d587cc9328bc43d980b42afe3d39e4dc352e334e0f504ebcd4ec1",
+        "schema": "final-e-raw-campaign-v1",
+        "scientific_evaluation": false
+      },
+      "index": {
+        "bytes": 1627025,
+        "sha256": "d2c8064668b6676d9e013d732db7a32b2779e9e9a55d658e0d602c39479a9bca"
+      },
+      "logical_bindings": 19424,
+      "model": "qwen",
+      "schema": "final-e-loader-verification-v1",
+      "shards": 150,
+      "status": "loader_verified",
+      "token_plan": {
+        "bytes": 38210166,
+        "sha256": "a003a60a933b4997f0cef8001c925771ebddca00d3f5f292743219190978a2f4"
+      },
+      "unique_texts": 19190
+    }
+  },
+  "runtime": {
+    "blas_thread_limit": 1,
+    "numpy": "1.26.2",
+    "peak_rss_bytes": 7120601088,
+    "peak_rss_units": "bytes on macOS; whole analysis process",
+    "platform": "macOS-12.6-arm64-arm-64bit",
+    "process_count": 1,
+    "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+    "threadpools": [
+      {
+        "architecture": "armv8",
+        "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.23.dev"
+      },
+      {
+        "architecture": "armv8",
+        "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.21.dev"
+      },
+      {
+        "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "wall_seconds": 89.75346208317205
+  },
+  "scientific_lock_sha256": "88b114ddbcb3e1313858fa42201e87704d3f992d9b346aab754ef4e5edd2be4e",
+  "score_manifest": {
+    "bytes": 94607,
+    "sha256": "3a1bde158e12bc130c6529e9b7bf4e8cf4d6bb42611003e0c377b350a2c9adca"
+  },
+  "source_base": "a8b4cd326daa243338dc7941c19d98ce75f5b77f",
+  "started": {
+    "analysis_code_commit": "cf03ee50e18bf7535eb6eec9e95a191fc7438f7e",
+    "base_delivery": "a8b4cd326daa243338dc7941c19d98ce75f5b77f",
+    "command": [
+      "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "scripts/posthoc_reduced_bank_e.py",
+      "--external",
+      "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v2"
+    ],
+    "external": "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v2",
+    "specification": {
+      "bytes": 2782,
+      "sha256": "36fe1c9b4c40f884536be83b6891567669556239369edf21ae034402e4c934c4"
+    },
+    "started_utc": "2026-10-11T12:38:16.587829+00:00"
+  },
+  "status": "completed_pending_independent_audit",
+  "training_representation_manifest_sha256": "f28e75f5fc95cf3f019f5b47c68c5c2753435854280bfb122f0df22187954445"
+}

@@ -1,0 +1,157 @@
+Verified complete original reduced bank, all parameters, preprocessing and D eligibility.
+Verify accepted E representation: qwen
+qwen saved layer 0 10 reduced candidates scored
+qwen saved layer 1 10 reduced candidates scored
+qwen saved layer 2 10 reduced candidates scored
+qwen saved layer 3 10 reduced candidates scored
+qwen saved layer 4 10 reduced candidates scored
+qwen saved layer 5 10 reduced candidates scored
+qwen saved layer 6 10 reduced candidates scored
+qwen saved layer 7 10 reduced candidates scored
+qwen saved layer 8 10 reduced candidates scored
+qwen saved layer 9 10 reduced candidates scored
+qwen saved layer 10 10 reduced candidates scored
+qwen saved layer 11 10 reduced candidates scored
+qwen saved layer 12 10 reduced candidates scored
+qwen saved layer 13 10 reduced candidates scored
+qwen saved layer 14 10 reduced candidates scored
+qwen saved layer 15 10 reduced candidates scored
+qwen saved layer 16 10 reduced candidates scored
+qwen saved layer 17 10 reduced candidates scored
+qwen saved layer 18 10 reduced candidates scored
+qwen saved layer 19 10 reduced candidates scored
+qwen saved layer 20 10 reduced candidates scored
+qwen saved layer 21 10 reduced candidates scored
+qwen saved layer 22 10 reduced candidates scored
+qwen saved layer 23 10 reduced candidates scored
+qwen saved layer 24 10 reduced candidates scored
+qwen saved layer 25 10 reduced candidates scored
+qwen saved layer 26 10 reduced candidates scored
+qwen saved layer 27 10 reduced candidates scored
+Verify accepted E representation: llama
+llama saved layer 0 10 reduced candidates scored
+llama saved layer 1 10 reduced candidates scored
+llama saved layer 2 10 reduced candidates scored
+llama saved layer 3 10 reduced candidates scored
+llama saved layer 4 10 reduced candidates scored
+llama saved layer 5 10 reduced candidates scored
+llama saved layer 6 10 reduced candidates scored
+llama saved layer 7 10 reduced candidates scored
+llama saved layer 8 10 reduced candidates scored
+llama saved layer 9 10 reduced candidates scored
+llama saved layer 10 10 reduced candidates scored
+llama saved layer 11 10 reduced candidates scored
+llama saved layer 12 10 reduced candidates scored
+llama saved layer 13 10 reduced candidates scored
+llama saved layer 14 10 reduced candidates scored
+llama saved layer 15 10 reduced candidates scored
+llama saved layer 16 10 reduced candidates scored
+llama saved layer 17 10 reduced candidates scored
+llama saved layer 18 10 reduced candidates scored
+llama saved layer 19 10 reduced candidates scored
+llama saved layer 20 10 reduced candidates scored
+llama saved layer 21 10 reduced candidates scored
+llama saved layer 22 10 reduced candidates scored
+llama saved layer 23 10 reduced candidates scored
+llama saved layer 24 10 reduced candidates scored
+llama saved layer 25 10 reduced candidates scored
+llama saved layer 26 10 reduced candidates scored
+llama saved layer 27 10 reduced candidates scored
+llama saved layer 28 10 reduced candidates scored
+llama saved layer 29 10 reduced candidates scored
+llama saved layer 30 10 reduced candidates scored
+llama saved layer 31 10 reduced candidates scored
+[
+  {
+    "model": "qwen",
+    "scope": "eligible",
+    "total_candidates": 280,
+    "eligible_candidates": 144,
+    "S_all": 0.8446427983539095,
+    "maximum": 0.8662888888888889,
+    "R_all": 0.9832796296296297,
+    "maximum_minus_S_all": 0.021646090534979345,
+    "R_all_minus_maximum": 0.11699074074074078,
+    "exact_winner_ids": "[\"qwen/P15/L18/l2_logistic/C=10\"]",
+    "tolerance_tie_ids": "[\"qwen/P15/L18/l2_logistic/C=10\"]"
+  },
+  {
+    "model": "qwen",
+    "scope": "unrestricted",
+    "total_candidates": 280,
+    "eligible_candidates": 144,
+    "S_all": 0.8446427983539095,
+    "maximum": 0.8662888888888889,
+    "R_all": 0.9832796296296297,
+    "maximum_minus_S_all": 0.021646090534979345,
+    "R_all_minus_maximum": 0.11699074074074078,
+    "exact_winner_ids": "[\"qwen/P15/L18/l2_logistic/C=10\"]",
+    "tolerance_tie_ids": "[\"qwen/P15/L18/l2_logistic/C=10\"]"
+  },
+  {
+    "model": "llama",
+    "scope": "eligible",
+    "total_candidates": 320,
+    "eligible_candidates": 182,
+    "S_all": 0.8115925925925925,
+    "maximum": 0.8349672839506173,
+    "R_all": 0.9886100823045267,
+    "maximum_minus_S_all": 0.023374691358024724,
+    "R_all_minus_maximum": 0.15364279835390948,
+    "exact_winner_ids": "[\"llama/P15/L09/l2_logistic/C=1\"]",
+    "tolerance_tie_ids": "[\"llama/P15/L09/l2_logistic/C=1\"]"
+  },
+  {
+    "model": "llama",
+    "scope": "unrestricted",
+    "total_candidates": 320,
+    "eligible_candidates": 182,
+    "S_all": 0.8115925925925925,
+    "maximum": 0.8349672839506173,
+    "R_all": 0.9886100823045267,
+    "maximum_minus_S_all": 0.023374691358024724,
+    "R_all_minus_maximum": 0.15364279835390948,
+    "exact_winner_ids": "[\"llama/P15/L09/l2_logistic/C=1\"]",
+    "tolerance_tie_ids": "[\"llama/P15/L09/l2_logistic/C=1\"]"
+  }
+]
+{
+  "wall_seconds": 89.75346208317205,
+  "peak_rss_bytes": 7120601088,
+  "peak_rss_units": "bytes on macOS; whole analysis process",
+  "platform": "macOS-12.6-arm64-arm-64bit",
+  "python": "3.11.6 (main, Nov  2 2023, 04:39:40) [Clang 14.0.0 (clang-1400.0.29.202)]",
+  "numpy": "1.26.2",
+  "process_count": 1,
+  "blas_thread_limit": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "armv8"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/scipy/.dylibs/libopenblas.0.dylib",
+      "version": "0.3.21.dev",
+      "threading_layer": "pthreads",
+      "architecture": "armv8"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "filepath": "/opt/homebrew/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "version": null
+    }
+  ]
+}

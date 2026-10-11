@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "score_arrays_identical": 600,
+  "numerical_tables_byte_identical": 5,
+  "same_support_binding": true,
+  "only_scientific_change": "none; corrected timing instrumentation only"
+}

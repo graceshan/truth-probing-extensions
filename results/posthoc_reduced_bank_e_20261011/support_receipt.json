@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "bytes": 1181893,
+    "sha256": "18db065b60176de9da2d1e5f3c28cf01880c892a27f3fcd49d7901c98f58534c"
+  },
+  "bare_binding_sha256": "c7d17d1fddf1815d1393ee98ac380154332b3f81cc953b2460335e0c66c1fbcf",
+  "boundary_row_binding_sha256": "d8c8c0c2daba19aa1015ff9f2bdb15ea9989883f776e18562347a1d9d5ca44f1",
+  "boundary_rows": 2700,
+  "external_file": "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v2/support.json",
+  "negative_rows": 900,
+  "orders": [
+    "AB",
+    "BA"
+  ],
+  "pairs": 450,
+  "positive_rows": 1800
+}
