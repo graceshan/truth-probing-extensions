@@ -50,7 +50,7 @@ def git(*args):
 
 
 def run(args):
-    start=time.monotonic();created=datetime.datetime.now(datetime.timezone.utc).isoformat()
+    started_clock=time.monotonic();created=datetime.datetime.now(datetime.timezone.utc).isoformat()
     require(platform.system()=='Darwin','this delivery is authorized for local macOS')
     subprocess.run(['git','-C',str(ROOT),'merge-base','--is-ancestor',BASE,'HEAD'],check=True)
     # Existing scientific modules/config/data/lock must stay exactly at reviewed base.
@@ -278,7 +278,7 @@ def run(args):
     record(Path(__file__))
     for path in ROOT.glob('scripts/*posthoc_reduced_bank_e.py'):record(path)
     write_json(small/'input_hashes.json',ledger)
-    runtime=dict(wall_seconds=time.monotonic()-start,peak_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+    runtime=dict(wall_seconds=time.monotonic()-started_clock,peak_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
                  peak_rss_units='bytes on macOS; whole analysis process',platform=platform.platform(),python=sys.version,numpy=np.__version__,
                  process_count=1,blas_thread_limit=1,threadpools=threadpool_info())
     require(all(r['num_threads']==1 for r in runtime['threadpools']),'BLAS thread limit not enforced')

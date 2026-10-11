@@ -1,0 +1,10 @@
+{
+  "status": "superseded_runtime_reporting_only",
+  "reason": "Elapsed-time local variable was shadowed by shard offsets. Scientific scores completed, but that run wall_seconds is invalid. Fixed instrumentation and reran unchanged scientific calculations in fresh run-v2.",
+  "original_analysis_code_commit": "54e675eb4606f863e266969ecce7c13f571e7743",
+  "external_scores": "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v1",
+  "relocated_small_outputs": "/Users/apple/truth-probing-backups/posthoc-reduced-bank-e-20261011/run-v1/small-output",
+  "original_execution_sha256": "8179ee44d0019ee65a488d8d9a0d4ec5508f3f3fc644a3fc24634e832f6b739c",
+  "original_output_files_preserved": true,
+  "primary_protocol_changed": false
+}

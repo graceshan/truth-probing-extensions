@@ -106,6 +106,20 @@ def audit(args):
             old=next(r for r in accepted if (r['panel'],r['model'],r['arm'],r['sample'],r['condition'],r['metric'],r['scope'])==('b25',model,arm,'mean_11_23_37','bare','OR_mixed_vs_FF_auroc','pooled'))
             require(abs(mean-float(rr['E_auroc']))<=1e-14 and abs(mean-old['point'])<=1e-14,'fixed mean mismatch')
             means[model,arm]=mean
+    overlap=rows(small/'overlap_checks.csv');overlap_count=0
+    expected_overlap={name for name in registry['heads'] if name.startswith('b25:') and name[4:] in expected_ids}
+    require({r['head'] for r in overlap}==expected_overlap,'independent overlap coverage')
+    for name in sorted(expected_overlap):
+        row=next(r for r in data if r['candidate_id']==name[4:])
+        newscore=np.load(external/row['score_file'],allow_pickle=False)
+        folder=evaluation/'scores'/hash_value(name)[:24]
+        binding=read(verified(folder/'binding.json'))
+        require(binding['head']==name and binding['group_bindings']==metadata.receipt['ordered_groups'],'overlap binding')
+        with np.load(verified(folder/'scores.npz'),allow_pickle=False) as z:oldscore=z['bare'][selected]
+        require(np.array_equal(newscore,oldscore),'overlap boundary scores not exact')
+        oldmetrics=[r for r in accepted if r.get('head')==name and r['condition']=='bare' and r['metric']=='OR_mixed_vs_FF_auroc' and r['scope']=='pooled']
+        require(oldmetrics and all(abs(r['point']-points[name[4:]])<=1e-14 for r in oldmetrics),'overlap metrics mismatch')
+        overlap_count+=1
     summary=rows(small/'summary.csv');winners=rows(small/'winning_candidates.csv')
     require(len(summary)==4,'two scopes per model')
     reconstructed=[]
@@ -129,6 +143,7 @@ def audit(args):
     result=dict(status='PASS',candidate_AUROCs_independently_recomputed=600,candidate_coverage=dict(qwen=280,llama=320),
         independent_method='Mann–Whitney average-rank sum with half-credit exact score ties; no production AUC function or maximum helper called',
         maximum_AUROC_error=max_error,original_D_eligibility_independently_verified=True,all_row_label_order_bindings_verified=True,
+        overlapping_reduced_heads_independently_verified=overlap_count,overlap_boundary_scores_exact=True,
         fixed_allocation_AUROCs_independently_verified=fixed_count,means_of_three_AUROCs_verified=4,
         maxima_and_all_differences=reconstructed,new_bootstrap=0,new_fits=0,
         run_execution=pin(small/'execution.json'),score_manifest=pin(external/'score_manifest.json'),
